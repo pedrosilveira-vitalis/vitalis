@@ -18,7 +18,7 @@ export default function Home() {
             <Link href="/" className="opacity-100 border-b border-[#c54a2a] pb-0.5">Home</Link>
             <Link href="/tutor" className="opacity-60 hover:opacity-100 transition-opacity">Tutor</Link>
             <span className="opacity-40 cursor-not-allowed">Practice</span>
-            <span className="opacity-40 cursor-not-allowed">Voice Cases</span>
+            <Link href="/voice-cases" className="opacity-60 hover:opacity-100 transition-opacity">Voice Cases</Link>
             <span className="opacity-40 cursor-not-allowed">About</span>
           </div>
           <Link
@@ -71,11 +71,14 @@ export default function Home() {
             <div className="font-serif text-[22px] font-medium tracking-tight">Ask the tutor</div>
             <div className="text-[13px] opacity-70 leading-relaxed">Conversational explanations for any MCAT concept.</div>
           </Link>
-          <div className="p-7 border-r border-[#16141015] flex flex-col gap-2 cursor-not-allowed opacity-70">
+          <Link
+            href="/voice-cases"
+            className="p-7 border-r border-[#16141015] hover:bg-[#1614100a] transition-colors flex flex-col gap-2"
+          >
             <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">02</div>
             <div className="font-serif text-[22px] font-medium tracking-tight">Voice cases</div>
-            <div className="text-[13px] opacity-70 leading-relaxed">Talk through scenarios out loud — coming soon.</div>
-          </div>
+            <div className="text-[13px] opacity-70 leading-relaxed">Talk through patient scenarios out loud.</div>
+          </Link>
           <div className="p-7 border-r border-[#16141015] flex flex-col gap-2 cursor-not-allowed opacity-70">
             <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">03</div>
             <div className="font-serif text-[22px] font-medium tracking-tight">Study guides</div>

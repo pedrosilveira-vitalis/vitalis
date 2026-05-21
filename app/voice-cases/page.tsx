@@ -60,6 +60,12 @@ export default function VoiceCasesPage() {
     if (typeof window !== "undefined") {
       const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
       setVoiceSupported(!!SR && "speechSynthesis" in window);
+      window.speechSynthesis?.getVoices();
+      if (window.speechSynthesis) {
+        window.speechSynthesis.onvoiceschanged = () => {
+          window.speechSynthesis.getVoices();
+        };
+      }
     }
   }, []);
 
@@ -114,9 +120,26 @@ export default function VoiceCasesPage() {
   function speak(text: string) {
     if (!voiceEnabled || typeof window === "undefined" || !("speechSynthesis" in window)) return;
     window.speechSynthesis.cancel();
+
     const utter = new SpeechSynthesisUtterance(text);
-    utter.rate = 1.0;
-    utter.pitch = 1.0;
+    const voices = window.speechSynthesis.getVoices();
+
+    const femaleVoiceNames = ["Samantha", "Karen", "Victoria", "Allison", "Ava", "Susan", "Google US English", "Microsoft Aria"];
+    const maleVoiceNames = ["Daniel", "Alex", "Tom", "Fred", "Aaron", "Google UK English Male", "Microsoft Guy"];
+
+    const gender = caseData?.patientGender || "female";
+    const preferred = gender === "male" ? maleVoiceNames : femaleVoiceNames;
+
+    let selected = null;
+    for (const name of preferred) {
+      const match = voices.find((v) => v.name.includes(name));
+      if (match) { selected = match; break; }
+    }
+    if (!selected) selected = voices.find((v) => v.lang.startsWith("en")) || voices[0];
+
+    if (selected) utter.voice = selected;
+    utter.rate = 0.95;
+    utter.pitch = gender === "male" ? 0.95 : 1.05;
     window.speechSynthesis.speak(utter);
   }async function startNewCase() {
     setPhase("loading");
