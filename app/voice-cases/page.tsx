@@ -33,9 +33,22 @@ type SR = {
   lang: string;
 };
 
+type ChartType = {
+  ctx: CanvasRenderingContext2D;
+  scales: {
+    x: { getPixelForValue: (v: number) => number };
+    y: { getPixelForValue: (v: number) => number };
+  };
+};
+
+type ChartLib = {
+  new (canvas: HTMLCanvasElement, config: unknown): unknown;
+  getChart: (canvas: HTMLCanvasElement) => ChartType | undefined;
+};
+
 declare global {
   interface Window {
-    Chart: typeof import("chart.js/auto").default;
+    Chart: ChartLib;
     SpeechRecognition: { new (): SR };
     webkitSpeechRecognition: { new (): SR };
   }
@@ -58,8 +71,8 @@ export default function VoiceCasesPage() {
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-      setVoiceSupported(!!SR && "speechSynthesis" in window);
+      const SRConstructor = window.SpeechRecognition || window.webkitSpeechRecognition;
+      setVoiceSupported(!!SRConstructor && "speechSynthesis" in window);
       window.speechSynthesis?.getVoices();
       if (window.speechSynthesis) {
         window.speechSynthesis.onvoiceschanged = () => {
@@ -94,7 +107,6 @@ export default function VoiceCasesPage() {
           pointRadius: 3,
           fill: false,
         }));
-        // @ts-expect-error Chart via script
         new window.Chart(canvas, {
           type: spec.type || "line",
           data: { datasets },
@@ -111,6 +123,37 @@ export default function VoiceCasesPage() {
             },
           },
         });
+        if (spec.annotations?.length) {
+          setTimeout(() => {
+            const chart = window.Chart.getChart(canvas);
+            if (!chart) return;
+            const ctx = chart.ctx;
+            ctx.save();
+            spec.annotations.forEach((a: { x: number; y: number; label: string }) => {
+              const px = chart.scales.x.getPixelForValue(a.x);
+              const py = chart.scales.y.getPixelForValue(a.y);
+              ctx.beginPath();
+              ctx.arc(px, py, 5, 0, Math.PI * 2);
+              ctx.fillStyle = "#c54a2a";
+              ctx.fill();
+              ctx.font = "500 11px 'Inter Tight', sans-serif";
+              const m = ctx.measureText(a.label);
+              const w = m.width + 12;
+              let lx = px + 10;
+              let ly = py - 22;
+              if (lx + w > canvas.width - 8) lx = px - w - 10;
+              if (ly < 4) ly = py + 12;
+              ctx.fillStyle = "#f3efe7";
+              ctx.fillRect(lx, ly, w, 18);
+              ctx.strokeStyle = "#16141033";
+              ctx.strokeRect(lx, ly, w, 18);
+              ctx.fillStyle = "#161410";
+              ctx.textBaseline = "middle";
+              ctx.fillText(a.label, lx + 6, ly + 9);
+            });
+            ctx.restore();
+          }, 50);
+        }
       } catch (e) {
         console.error("Chart error:", e);
       }
@@ -216,8 +259,8 @@ export default function VoiceCasesPage() {
       recognitionRef.current?.stop();
       return;
     }
-    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-    const recognition = new SR();
+    const SRConstructor = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const recognition = new SRConstructor();
     recognition.continuous = false;
     recognition.interimResults = false;
     recognition.lang = "en-US";
@@ -291,8 +334,8 @@ export default function VoiceCasesPage() {
           <div className="hidden md:flex gap-7 text-sm font-medium">
             <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
             <Link href="/tutor" className="opacity-60 hover:opacity-100">Tutor</Link>
+            <Link href="/practice" className="opacity-60 hover:opacity-100">Practice</Link>
             <Link href="/voice-cases" className="opacity-100 border-b border-[#c54a2a] pb-0.5">Voice Cases</Link>
-            <span className="opacity-40">Practice</span>
           </div>
           <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">Patient Sim · Beta</div>
         </header>

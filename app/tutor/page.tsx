@@ -6,6 +6,25 @@ import Script from "next/script";
 
 type Message = { role: "user" | "assistant"; content: string };
 
+type ChartType = {
+  ctx: CanvasRenderingContext2D;
+  scales: {
+    x: { getPixelForValue: (v: number) => number };
+    y: { getPixelForValue: (v: number) => number };
+  };
+};
+
+type ChartLib = {
+  new (canvas: HTMLCanvasElement, config: unknown): unknown;
+  getChart: (canvas: HTMLCanvasElement) => ChartType | undefined;
+};
+
+declare global {
+  interface Window {
+    Chart: ChartLib;
+  }
+}
+
 export default function TutorPage() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
@@ -41,7 +60,6 @@ export default function TutorPage() {
           pointHoverRadius: 5,
           fill: false,
         }));
-        // @ts-expect-error Chart loaded via script tag
         new window.Chart(canvas, {
           type: spec.type || "line",
           data: { datasets },
@@ -60,7 +78,6 @@ export default function TutorPage() {
         });
         if (spec.annotations && spec.annotations.length) {
           setTimeout(() => {
-            // @ts-expect-error Chart loaded via script tag
             const chart = window.Chart.getChart(canvas);
             if (!chart) return;
             const ctx = chart.ctx;
@@ -222,9 +239,7 @@ export default function TutorPage() {
     }
     if (inList) out += "</" + listType + ">";
     return out;
-  }
-
-  return (
+  }return (
     <>
       <Script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" onLoad={() => setChartReady(true)} />
       <div className="h-screen flex flex-col bg-[#f3efe7] text-[#161410]">
@@ -234,10 +249,10 @@ export default function TutorPage() {
             <span className="font-serif font-semibold text-xl tracking-tight">Vitalis</span>
           </div>
           <div className="hidden md:flex gap-7 text-sm font-medium">
-            <Link href="/" className="opacity-60 hover:opacity-100 transition-opacity">Home</Link>
+            <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
             <Link href="/tutor" className="opacity-100 border-b border-[#c54a2a] pb-0.5">Tutor</Link>
-            <span className="opacity-40 cursor-not-allowed">Practice</span>
-            <span className="opacity-40 cursor-not-allowed">Voice Cases</span>
+            <Link href="/practice" className="opacity-60 hover:opacity-100">Practice</Link>
+            <Link href="/voice-cases" className="opacity-60 hover:opacity-100">Voice Cases</Link>
           </div>
           <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">MCAT Tutor · Beta</div>
         </header>
