@@ -28,13 +28,13 @@ export default function Home() {
       </div>
 
       <div className="relative z-10">
-        {/* Top nav */}
         <nav className="flex items-center justify-between px-10 py-5 border-b border-[#0c1a2e15]">
           <Logo />
-          <div className="hidden md:flex gap-7 text-sm font-medium">
+          <div className="hidden md:flex gap-5 text-sm font-medium">
             <Link href="/" className="opacity-100 border-b border-[#a8324a] pb-0.5">Home</Link>
             <Link href="/tutor" className="opacity-60 hover:opacity-100 transition-opacity">Tutor</Link>
             <Link href="/practice" className="opacity-60 hover:opacity-100 transition-opacity">Practice</Link>
+            <Link href="/flashcards" className="opacity-60 hover:opacity-100 transition-opacity">Flashcards</Link>
             <Link href="/voice-cases" className="opacity-60 hover:opacity-100 transition-opacity">Voice Cases</Link>
             <Link href="/score-calculator" className="opacity-60 hover:opacity-100 transition-opacity">Score Calc</Link>
           </div>
@@ -46,7 +46,6 @@ export default function Home() {
           </Link>
         </nav>
 
-        {/* Hero */}
         <section className="grid md:grid-cols-[1.2fr_0.8fr] gap-10 px-10 pt-20 pb-14 items-end border-b border-[#0c1a2e15]">
           <div>
             <div className="flex items-center gap-3 mb-6 font-mono text-[11px] tracking-[0.18em] uppercase opacity-60">
@@ -80,7 +79,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SECTIONS — Browse by MCAT section */}
         <section className="px-10 pt-14 pb-4">
           <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-3 flex items-center gap-3">
             <span className="w-10 h-px bg-[#0c1a2e] opacity-40" />
@@ -91,10 +89,7 @@ export default function Home() {
         </section>
 
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-[#0c1a2e15] mx-10 mt-2 rounded-2xl overflow-hidden border border-[#0c1a2e15]">
-          <Link
-            href="/section/bio-biochem"
-            className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group min-h-[200px]"
-          >
+          <Link href="/section/bio-biochem" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group min-h-[200px]">
             <div className="flex items-center justify-between">
               <div className="font-mono text-[10px] tracking-[0.14em] opacity-50">25%</div>
               <div className="w-2.5 h-2.5 rounded-full bg-[#a8324a]" />
@@ -103,10 +98,7 @@ export default function Home() {
             <div className="text-[12.5px] opacity-65 leading-relaxed">Biology, biochemistry, physiology, genetics, cells.</div>
             <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">Open section →</div>
           </Link>
-          <Link
-            href="/section/chem-phys"
-            className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group min-h-[200px]"
-          >
+          <Link href="/section/chem-phys" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group min-h-[200px]">
             <div className="flex items-center justify-between">
               <div className="font-mono text-[10px] tracking-[0.14em] opacity-50">25%</div>
               <div className="w-2.5 h-2.5 rounded-full bg-[#2e4a6b]" />
@@ -115,10 +107,7 @@ export default function Home() {
             <div className="text-[12.5px] opacity-65 leading-relaxed">General chem, organic, physics, quantitative reasoning.</div>
             <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">Open section →</div>
           </Link>
-          <Link
-            href="/section/psych-soc"
-            className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group min-h-[200px]"
-          >
+          <Link href="/section/psych-soc" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group min-h-[200px]">
             <div className="flex items-center justify-between">
               <div className="font-mono text-[10px] tracking-[0.14em] opacity-50">25%</div>
               <div className="w-2.5 h-2.5 rounded-full bg-[#8a6b2e]" />
@@ -127,10 +116,7 @@ export default function Home() {
             <div className="text-[12.5px] opacity-65 leading-relaxed">Behavior, cognition, sociology, research methods, stats.</div>
             <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">Open section →</div>
           </Link>
-          <Link
-            href="/section/cars"
-            className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group min-h-[200px]"
-          >
+          <Link href="/section/cars" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group min-h-[200px]">
             <div className="flex items-center justify-between">
               <div className="font-mono text-[10px] tracking-[0.14em] opacity-50">25%</div>
               <div className="w-2.5 h-2.5 rounded-full bg-[#4a3b6b]" />
@@ -139,70 +125,59 @@ export default function Home() {
             <div className="text-[12.5px] opacity-65 leading-relaxed">Critical analysis, reading, reasoning. Humanities passages.</div>
             <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">Open section →</div>
           </Link>
-        </section>{/* PRACTICE MODES */}
-        <section className="px-10 pt-20 pb-4">
+        </section><section className="px-10 pt-20 pb-4">
           <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-3 flex items-center gap-3">
             <span className="w-10 h-px bg-[#0c1a2e] opacity-40" />
             Practice modes
           </div>
           <h2 className="font-serif text-[clamp(28px,4vw,44px)] font-medium tracking-tight mb-2">Train how you want.</h2>
-          <p className="text-[14px] opacity-65 max-w-2xl">Five tools, each designed for a different learning style. Use them alone or stack them.</p>
+          <p className="text-[14px] opacity-65 max-w-2xl">Six tools, each designed for a different learning style. Use them alone or stack them.</p>
         </section>
 
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-px bg-[#0c1a2e15] mx-10 mt-2 mb-4 rounded-2xl overflow-hidden border border-[#0c1a2e15]">
-          <Link
-            href="/tutor"
-            className="p-7 bg-[#0c1a2e] text-[#f5f1ea] hover:bg-[#1a2c4a] transition-colors flex flex-col gap-2 min-h-[180px]"
-          >
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#0c1a2e15] mx-10 mt-2 mb-4 rounded-2xl overflow-hidden border border-[#0c1a2e15]">
+          <Link href="/tutor" className="p-7 bg-[#0c1a2e] text-[#f5f1ea] hover:bg-[#1a2c4a] transition-colors flex flex-col gap-2 min-h-[180px]">
             <div className="font-mono text-[11px] opacity-70 tracking-[0.12em]">01</div>
             <div className="font-serif text-[20px] font-medium tracking-tight">Ask the tutor</div>
             <div className="text-[12.5px] opacity-75 leading-relaxed">Conversational explanations for any MCAT concept.</div>
             <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-70">Start →</div>
           </Link>
-          <Link
-            href="/voice-cases"
-            className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-2 min-h-[180px]"
-          >
+          <Link href="/voice-cases" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-2 min-h-[180px]">
             <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">02</div>
             <div className="font-serif text-[20px] font-medium tracking-tight">Voice cases</div>
             <div className="text-[12.5px] opacity-65 leading-relaxed">Talk through patient scenarios out loud.</div>
             <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50">Start →</div>
           </Link>
-          <Link
-            href="/practice"
-            className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-2 min-h-[180px]"
-          >
+          <Link href="/practice" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-2 min-h-[180px]">
             <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">03</div>
             <div className="font-serif text-[20px] font-medium tracking-tight">Practice sets</div>
             <div className="text-[12.5px] opacity-65 leading-relaxed">AAMC-style questions with on-the-fly tutoring.</div>
             <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50">Start →</div>
           </Link>
-          <Link
-            href="/score-calculator"
-            className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-2 min-h-[180px]"
-          >
+          <Link href="/flashcards" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-2 min-h-[180px]">
             <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">04</div>
+            <div className="font-serif text-[20px] font-medium tracking-tight">Flashcards</div>
+            <div className="text-[12.5px] opacity-65 leading-relaxed">High-yield decks. Flip, mark, repeat. Build the recall muscle.</div>
+            <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50">Start →</div>
+          </Link>
+          <Link href="/score-calculator" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-2 min-h-[180px]">
+            <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">05</div>
             <div className="font-serif text-[20px] font-medium tracking-tight">Score calculator</div>
             <div className="text-[12.5px] opacity-65 leading-relaxed">Check what your MCAT score means + comparable schools.</div>
             <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50">Open →</div>
           </Link>
           <div className="p-7 bg-[#f5f1ea] flex flex-col gap-2 cursor-not-allowed opacity-60 min-h-[180px]">
-            <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">05</div>
+            <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">06</div>
             <div className="font-serif text-[20px] font-medium tracking-tight">Study guides</div>
-            <div className="text-[12.5px] opacity-65 leading-relaxed">Personalized summaries — coming soon.</div>
+            <div className="text-[12.5px] opacity-65 leading-relaxed">Structured notes for every topic — coming soon.</div>
             <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50">Coming soon</div>
           </div>
         </section>
 
-        {/* CTA */}
         <section className="px-10 py-24 text-center border-t border-[#0c1a2e15] mt-6">
           <h2 className="font-serif italic font-light text-[clamp(36px,5vw,64px)] leading-[1.05] tracking-[-0.02em] max-w-3xl mx-auto">
             Ready to think like a <span className="text-[#a8324a] not-italic font-medium">physician?</span>
           </h2>
-          <Link
-            href="/tutor"
-            className="inline-block mt-8 font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-6 py-3.5 rounded-full hover:bg-[#1a2c4a] transition-colors"
-          >
+          <Link href="/tutor" className="inline-block mt-8 font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-6 py-3.5 rounded-full hover:bg-[#1a2c4a] transition-colors">
             Start the tutor →
           </Link>
         </section>
@@ -213,7 +188,7 @@ export default function Home() {
 
         <footer className="px-10 py-10 border-t border-[#0c1a2e15] flex justify-between items-center font-mono text-[11px] tracking-[0.1em] uppercase opacity-60">
           <div>© 2026 Vitalis · Built for future physicians</div>
-          <div>v0.2 — beta</div>
+          <div>v0.3 — beta</div>
         </footer>
       </div>
     </div>
