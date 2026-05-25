@@ -14,12 +14,12 @@ export default function Home() {
             <span className="w-2.5 h-2.5 rounded-full bg-[#c54a2a] shadow-[0_0_0_4px_#c54a2a22]" />
             <span className="font-serif font-semibold text-[22px] tracking-tight">Vitalis</span>
           </div>
-          <div className="hidden md:flex gap-7 text-sm font-medium">
+          <div className="hidden md:flex gap-6 text-sm font-medium">
             <Link href="/" className="opacity-100 border-b border-[#c54a2a] pb-0.5">Home</Link>
             <Link href="/tutor" className="opacity-60 hover:opacity-100 transition-opacity">Tutor</Link>
             <Link href="/practice" className="opacity-60 hover:opacity-100 transition-opacity">Practice</Link>
             <Link href="/voice-cases" className="opacity-60 hover:opacity-100 transition-opacity">Voice Cases</Link>
-            <span className="opacity-40 cursor-not-allowed">About</span>
+            <Link href="/score-calculator" className="opacity-60 hover:opacity-100 transition-opacity">Score Calc</Link>
           </div>
           <Link
             href="/tutor"
@@ -60,7 +60,7 @@ export default function Home() {
           <div className="text-[15px] leading-relaxed max-w-sm text-[#161410cc]">
             Practice across Bio/Biochem, Chem/Phys, Psych/Soc, and CARS. Ask anything. Hear feedback. Build the instincts that score 520+.
           </div>
-        </section><section className="grid grid-cols-2 md:grid-cols-4 border-b border-[#16141015]">
+        </section><section className="grid grid-cols-2 md:grid-cols-5 border-b border-[#16141015]">
           <Link
             href="/tutor"
             className="p-7 border-r border-[#16141015] cursor-pointer transition-colors bg-[#161410] text-[#f3efe7] hover:bg-[#2a2620] flex flex-col gap-2"
@@ -85,8 +85,16 @@ export default function Home() {
             <div className="font-serif text-[22px] font-medium tracking-tight">Practice sets</div>
             <div className="text-[13px] opacity-70 leading-relaxed">AAMC-style questions with on-the-fly tutoring.</div>
           </Link>
-          <div className="p-7 flex flex-col gap-2 cursor-not-allowed opacity-70">
+          <Link
+            href="/score-calculator"
+            className="p-7 border-r border-[#16141015] hover:bg-[#1614100a] transition-colors flex flex-col gap-2"
+          >
             <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">04</div>
+            <div className="font-serif text-[22px] font-medium tracking-tight">Score calculator</div>
+            <div className="text-[13px] opacity-70 leading-relaxed">See what your MCAT score means + comparable schools.</div>
+          </Link>
+          <div className="p-7 flex flex-col gap-2 cursor-not-allowed opacity-70">
+            <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">05</div>
             <div className="font-serif text-[22px] font-medium tracking-tight">Study guides</div>
             <div className="text-[13px] opacity-70 leading-relaxed">Personalized summaries — coming soon.</div>
           </div>
