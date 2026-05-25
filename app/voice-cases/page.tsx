@@ -54,6 +54,25 @@ declare global {
   }
 }
 
+function Logo() {
+  return (
+    <div className="flex items-center gap-2.5">
+      <svg width="32" height="18" viewBox="0 0 60 28" fill="none" className="flex-shrink-0">
+        <path
+          d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14"
+          stroke="#a8324a"
+          strokeWidth="2.4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+        />
+        <circle cx="50" cy="14" r="2.2" fill="#a8324a" />
+      </svg>
+      <span className="font-serif font-semibold text-xl tracking-tight text-[#0c1a2e]">Vitalis</span>
+    </div>
+  );
+}
+
 export default function VoiceCasesPage() {
   const [phase, setPhase] = useState<Phase>("idle");
   const [caseData, setCaseData] = useState<CaseData | null>(null);
@@ -96,7 +115,7 @@ export default function VoiceCasesPage() {
         const raw = decodeURIComponent(canvas.getAttribute("data-chart") || "");
         const spec = JSON.parse(raw);
         canvas.setAttribute("data-rendered", "1");
-        const colors = ["#c54a2a", "#3e5641", "#d9a441", "#161410"];
+        const colors = ["#a8324a", "#0c1a2e", "#8a6b2e", "#4a3b6b"];
         const datasets = (spec.datasets || []).map((ds: { label?: string; data: { x: number; y: number }[] }, i: number) => ({
           label: ds.label || "",
           data: ds.data || [],
@@ -114,12 +133,12 @@ export default function VoiceCasesPage() {
             responsive: true,
             maintainAspectRatio: false,
             plugins: {
-              title: spec.title ? { display: true, text: spec.title, font: { family: "Fraunces, serif", size: 15, weight: 500 }, color: "#161410" } : { display: false },
+              title: spec.title ? { display: true, text: spec.title, font: { family: "Fraunces, serif", size: 15, weight: 500 }, color: "#0c1a2e" } : { display: false },
               legend: { display: datasets.length > 1 },
             },
             scales: {
-              x: { type: "linear", title: { display: !!spec.xLabel, text: spec.xLabel || "" }, grid: { color: "#1614101a" } },
-              y: { title: { display: !!spec.yLabel, text: spec.yLabel || "" }, grid: { color: "#1614101a" } },
+              x: { type: "linear", title: { display: !!spec.xLabel, text: spec.xLabel || "" }, grid: { color: "#0c1a2e1a" } },
+              y: { title: { display: !!spec.yLabel, text: spec.yLabel || "" }, grid: { color: "#0c1a2e1a" } },
             },
           },
         });
@@ -134,7 +153,7 @@ export default function VoiceCasesPage() {
               const py = chart.scales.y.getPixelForValue(a.y);
               ctx.beginPath();
               ctx.arc(px, py, 5, 0, Math.PI * 2);
-              ctx.fillStyle = "#c54a2a";
+              ctx.fillStyle = "#a8324a";
               ctx.fill();
               ctx.font = "500 11px 'Inter Tight', sans-serif";
               const m = ctx.measureText(a.label);
@@ -143,11 +162,11 @@ export default function VoiceCasesPage() {
               let ly = py - 22;
               if (lx + w > canvas.width - 8) lx = px - w - 10;
               if (ly < 4) ly = py + 12;
-              ctx.fillStyle = "#f3efe7";
+              ctx.fillStyle = "#f5f1ea";
               ctx.fillRect(lx, ly, w, 18);
-              ctx.strokeStyle = "#16141033";
+              ctx.strokeStyle = "#0c1a2e33";
               ctx.strokeRect(lx, ly, w, 18);
-              ctx.fillStyle = "#161410";
+              ctx.fillStyle = "#0c1a2e";
               ctx.textBaseline = "middle";
               ctx.fillText(a.label, lx + 6, ly + 9);
             });
@@ -325,17 +344,15 @@ export default function VoiceCasesPage() {
   }return (
     <>
       <Script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" onLoad={() => setChartReady(true)} />
-      <div className="min-h-screen flex flex-col bg-[#f3efe7] text-[#161410]">
-        <header className="flex items-center justify-between px-8 py-4 border-b border-[#16141015]">
-          <div className="flex items-center gap-3">
-            <span className="w-2.5 h-2.5 rounded-full bg-[#c54a2a] shadow-[0_0_0_4px_#c54a2a22]" />
-            <span className="font-serif font-semibold text-xl tracking-tight">Vitalis</span>
-          </div>
-          <div className="hidden md:flex gap-7 text-sm font-medium">
+      <div className="min-h-screen flex flex-col bg-[#f5f1ea] text-[#0c1a2e]">
+        <header className="flex items-center justify-between px-8 py-4 border-b border-[#0c1a2e15]">
+          <Logo />
+          <div className="hidden md:flex gap-6 text-sm font-medium">
             <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
             <Link href="/tutor" className="opacity-60 hover:opacity-100">Tutor</Link>
             <Link href="/practice" className="opacity-60 hover:opacity-100">Practice</Link>
-            <Link href="/voice-cases" className="opacity-100 border-b border-[#c54a2a] pb-0.5">Voice Cases</Link>
+            <Link href="/voice-cases" className="opacity-100 border-b border-[#a8324a] pb-0.5">Voice Cases</Link>
+            <Link href="/score-calculator" className="opacity-60 hover:opacity-100">Score Calc</Link>
           </div>
           <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">Patient Sim · Beta</div>
         </header>
@@ -345,15 +362,15 @@ export default function VoiceCasesPage() {
             <div className="max-w-xl text-center">
               <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4">Mode 02 · Voice clinical cases</div>
               <h1 className="font-serif text-4xl md:text-5xl font-light italic tracking-tight leading-tight mb-5">
-                Talk through a case <span className="text-[#c54a2a] not-italic font-medium">out loud.</span>
+                Talk through a case <span className="text-[#a8324a] not-italic font-medium">out loud.</span>
               </h1>
               <p className="text-[15px] opacity-70 leading-relaxed mb-8">
                 Interview a simulated patient. Ask them about symptoms, history, anything you&apos;d want to know. When you&apos;re done, get feedback on your clinical thinking AND the underlying MCAT science.
               </p>
-              {error && <p className="text-[#c54a2a] text-sm mb-4">{error}</p>}
+              {error && <p className="text-[#a8324a] text-sm mb-4">{error}</p>}
               <button
                 onClick={startNewCase}
-                className="font-mono text-xs uppercase tracking-[0.08em] bg-[#161410] text-[#f3efe7] px-6 py-3.5 rounded-full hover:bg-[#2a2620] transition-colors"
+                className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-6 py-3.5 rounded-full hover:bg-[#1a2c4a] transition-colors"
               >
                 Start a new case →
               </button>
@@ -370,9 +387,9 @@ export default function VoiceCasesPage() {
           <div className="flex-1 flex items-center justify-center">
             <div className="text-center">
               <div className="flex items-center justify-center gap-2 mb-3">
-                <span className="w-2 h-2 rounded-full bg-[#161410] animate-bounce" />
-                <span className="w-2 h-2 rounded-full bg-[#161410] animate-bounce" style={{ animationDelay: "0.15s" }} />
-                <span className="w-2 h-2 rounded-full bg-[#161410] animate-bounce" style={{ animationDelay: "0.3s" }} />
+                <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" />
+                <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
+                <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
               </div>
               <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Generating case...</div>
             </div>
@@ -381,9 +398,9 @@ export default function VoiceCasesPage() {
 
         {phase === "interview" && caseData && (
           <div className="flex-1 flex flex-col bg-[#ebe5d6] overflow-hidden">
-            <div className="px-8 py-3 border-b border-[#16141015] flex items-center justify-between flex-wrap gap-2">
+            <div className="px-8 py-3 border-b border-[#0c1a2e15] flex items-center justify-between flex-wrap gap-2">
               <div className="flex items-center gap-3">
-                <span className="w-2 h-2 rounded-full bg-[#3e5641] animate-pulse" />
+                <span className="w-2 h-2 rounded-full bg-[#a8324a] animate-pulse" />
                 <div>
                   <div className="font-serif text-base font-medium leading-tight">{caseData.patientName}, {caseData.patientAge}</div>
                   <div className="font-mono text-[10px] uppercase tracking-[0.12em] opacity-55">{caseData.setting}</div>
@@ -392,13 +409,13 @@ export default function VoiceCasesPage() {
               <div className="flex items-center gap-2">
                 <button
                   onClick={() => setVoiceEnabled(!voiceEnabled)}
-                  className="font-mono text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 transition-opacity px-2 py-1 border border-[#16141025] rounded"
+                  className="font-mono text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 transition-opacity px-2 py-1 border border-[#0c1a2e25] rounded"
                 >
                   {voiceEnabled ? "Voice on" : "Voice off"}
                 </button>
                 <button
                   onClick={endInterview}
-                  className="font-mono text-[10px] uppercase tracking-[0.1em] bg-[#161410] text-[#f3efe7] px-3 py-1.5 rounded-full hover:bg-[#2a2620]"
+                  className="font-mono text-[10px] uppercase tracking-[0.1em] bg-[#0c1a2e] text-[#f5f1ea] px-3 py-1.5 rounded-full hover:bg-[#1a2c4a]"
                 >
                   End and Get Feedback
                 </button>
@@ -408,27 +425,27 @@ export default function VoiceCasesPage() {
             <div ref={streamRef} className="flex-1 overflow-y-auto px-8 py-7 flex flex-col gap-4">
               {messages.map((msg, i) =>
                 msg.role === "user" ? (
-                  <div key={i} className="self-end max-w-[78%] bg-[#161410] text-[#f3efe7] px-4 py-3 rounded-2xl rounded-br-md text-[15px] leading-relaxed">
+                  <div key={i} className="self-end max-w-[78%] bg-[#0c1a2e] text-[#f5f1ea] px-4 py-3 rounded-2xl rounded-br-md text-[15px] leading-relaxed">
                     {msg.content}
                   </div>
                 ) : (
                   <div key={i} className="self-start max-w-[85%]">
                     <div className="flex items-center gap-2 mb-1.5 font-mono text-[10px] tracking-[0.14em] uppercase opacity-55">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#c54a2a]" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#a8324a]" />
                       {caseData.patientName}
                     </div>
-                    <div className="text-[15px] leading-relaxed italic text-[#161410cc]">&quot;{msg.content}&quot;</div>
+                    <div className="text-[15px] leading-relaxed italic text-[#0c1a2ecc]">&quot;{msg.content}&quot;</div>
                   </div>
                 )
               )}
             </div>
 
-            <div className="border-t border-[#16141015] px-8 py-4 flex gap-3 items-center bg-[#ebe5d6]">
+            <div className="border-t border-[#0c1a2e15] px-8 py-4 flex gap-3 items-center bg-[#ebe5d6]">
               {voiceSupported && (
                 <button
                   onClick={toggleListening}
                   className={`w-10 h-10 rounded-full flex items-center justify-center transition-all ${
-                    isListening ? "bg-[#c54a2a] text-[#f3efe7] animate-pulse" : "bg-[#1614101a] text-[#161410] hover:bg-[#1614102a]"
+                    isListening ? "bg-[#a8324a] text-[#f5f1ea] animate-pulse" : "bg-[#0c1a2e1a] text-[#0c1a2e] hover:bg-[#0c1a2e2a]"
                   }`}
                 >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -448,12 +465,12 @@ export default function VoiceCasesPage() {
                   }
                 }}
                 placeholder={isListening ? "Listening..." : `Talk to ${caseData.patientName}...`}
-                className="flex-1 bg-transparent border-none outline-none text-[15px] placeholder:text-[#16141066]"
+                className="flex-1 bg-transparent border-none outline-none text-[15px] placeholder:text-[#0c1a2e66]"
               />
               <button
                 onClick={() => sendMessage(input)}
                 disabled={!input.trim()}
-                className="bg-[#161410] text-[#f3efe7] w-10 h-10 rounded-full flex items-center justify-center disabled:opacity-30"
+                className="bg-[#0c1a2e] text-[#f5f1ea] w-10 h-10 rounded-full flex items-center justify-center disabled:opacity-30"
               >
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
                   <line x1="22" y1="2" x2="11" y2="13" />
@@ -468,9 +485,9 @@ export default function VoiceCasesPage() {
           <div className="flex-1 flex items-center justify-center">
             <div className="text-center">
               <div className="flex items-center justify-center gap-2 mb-3">
-                <span className="w-2 h-2 rounded-full bg-[#161410] animate-bounce" />
-                <span className="w-2 h-2 rounded-full bg-[#161410] animate-bounce" style={{ animationDelay: "0.15s" }} />
-                <span className="w-2 h-2 rounded-full bg-[#161410] animate-bounce" style={{ animationDelay: "0.3s" }} />
+                <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" />
+                <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
+                <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
               </div>
               <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Vitalis is reviewing your interview...</div>
             </div>
@@ -486,13 +503,13 @@ export default function VoiceCasesPage() {
               <div className="mt-10 flex gap-3">
                 <button
                   onClick={startNewCase}
-                  className="font-mono text-xs uppercase tracking-[0.08em] bg-[#161410] text-[#f3efe7] px-5 py-3 rounded-full hover:bg-[#2a2620]"
+                  className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
                 >
                   New case
                 </button>
                 <button
                   onClick={resetCase}
-                  className="font-mono text-xs uppercase tracking-[0.08em] border border-[#16141025] px-5 py-3 rounded-full hover:bg-[#1614100a]"
+                  className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full hover:bg-[#0c1a2e0a]"
                 >
                   Back to start
                 </button>
@@ -508,9 +525,9 @@ export default function VoiceCasesPage() {
         .feedback-content em { font-style: italic; }
         .feedback-content ul { margin: 12px 0; padding-left: 24px; }
         .feedback-content li { margin-bottom: 6px; }
-        .feedback-content code { background: #16141014; padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 13px; }
-        .feedback-content h3 { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 500; margin: 24px 0 10px; color: #161410; }
-        .feedback-content .chart-wrap { margin: 18px 0; padding: 18px; background: #16141008; border: 1px solid #16141015; border-radius: 10px; height: 300px; position: relative; }
+        .feedback-content code { background: #0c1a2e14; padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 13px; }
+        .feedback-content h3 { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 500; margin: 24px 0 10px; color: #0c1a2e; }
+        .feedback-content .chart-wrap { margin: 18px 0; padding: 18px; background: #0c1a2e08; border: 1px solid #0c1a2e15; border-radius: 10px; height: 300px; position: relative; }
       `}</style>
     </>
   );

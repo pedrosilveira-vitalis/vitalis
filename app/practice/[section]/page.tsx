@@ -39,6 +39,25 @@ const SECTION_NAMES: Record<string, string> = {
   "mixed": "Mixed Practice",
 };
 
+function Logo() {
+  return (
+    <div className="flex items-center gap-2.5">
+      <svg width="32" height="18" viewBox="0 0 60 28" fill="none" className="flex-shrink-0">
+        <path
+          d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14"
+          stroke="#a8324a"
+          strokeWidth="2.4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+        />
+        <circle cx="50" cy="14" r="2.2" fill="#a8324a" />
+      </svg>
+      <span className="font-serif font-semibold text-xl tracking-tight text-[#0c1a2e]">Vitalis</span>
+    </div>
+  );
+}
+
 export default function PracticeSessionPage() {
   const params = useParams();
   const searchParams = useSearchParams();
@@ -52,27 +71,22 @@ export default function PracticeSessionPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
-  // Stats
   const [totalAnswered, setTotalAnswered] = useState(0);
   const [totalCorrect, setTotalCorrect] = useState(0);
 
-  // Timer
   const [timerOn, setTimerOn] = useState(false);
   const [secondsElapsed, setSecondsElapsed] = useState(0);
 
-  // Pop-up tutor
   const [showTutor, setShowTutor] = useState(false);
   const [tutorMessages, setTutorMessages] = useState<TutorMessage[]>([]);
   const [tutorInput, setTutorInput] = useState("");
   const [tutorLoading, setTutorLoading] = useState(false);
 
-  // Load first question on mount
   useEffect(() => {
     loadNewQuestion();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Timer tick
   useEffect(() => {
     if (!timerOn || submitted) return;
     const id = setInterval(() => setSecondsElapsed((s) => s + 1), 1000);
@@ -113,7 +127,6 @@ export default function PracticeSessionPage() {
     const correct = selected === questionSet.questions[currentIdx].correctAnswer;
     if (correct) setTotalCorrect((n) => n + 1);
     else {
-      // Auto-open tutor on wrong answer
       const q = questionSet.questions[currentIdx];
       const wrongExp = q.wrongAnswerExplanations[selected] || "";
       const seedMessage =
@@ -125,7 +138,6 @@ export default function PracticeSessionPage() {
 
   function nextQuestion() {
     if (!questionSet) return;
-    // If passage format and more questions remain, advance within the set
     if (questionSet.format === "passage" && currentIdx < questionSet.questions.length - 1) {
       setCurrentIdx(currentIdx + 1);
       setSelected(null);
@@ -193,27 +205,25 @@ export default function PracticeSessionPage() {
 
   const currentQ = questionSet?.questions[currentIdx];
   const isCorrect = submitted && selected === currentQ?.correctAnswer;
-  const accuracy = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;return (
-    <div className="min-h-screen bg-[#f3efe7] text-[#161410] font-sans flex flex-col">
-      {/* Nav */}
-      <header className="flex items-center justify-between px-8 py-4 border-b border-[#16141015] sticky top-0 bg-[#f3efe7] z-30">
-        <div className="flex items-center gap-3">
-          <span className="w-2.5 h-2.5 rounded-full bg-[#c54a2a] shadow-[0_0_0_4px_#c54a2a22]" />
-          <span className="font-serif font-semibold text-xl tracking-tight">Vitalis</span>
-        </div>
-        <div className="hidden md:flex gap-7 text-sm font-medium">
+  const accuracy = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
+
+  return (
+    <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e] font-sans flex flex-col">
+      <header className="flex items-center justify-between px-8 py-4 border-b border-[#0c1a2e15] sticky top-0 bg-[#f5f1ea] z-30">
+        <Logo />
+        <div className="hidden md:flex gap-6 text-sm font-medium">
           <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
           <Link href="/tutor" className="opacity-60 hover:opacity-100">Tutor</Link>
-          <Link href="/practice" className="opacity-100 border-b border-[#c54a2a] pb-0.5">Practice</Link>
+          <Link href="/practice" className="opacity-100 border-b border-[#a8324a] pb-0.5">Practice</Link>
           <Link href="/voice-cases" className="opacity-60 hover:opacity-100">Voice Cases</Link>
+          <Link href="/score-calculator" className="opacity-60 hover:opacity-100">Score Calc</Link>
         </div>
         <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">
           {SECTION_NAMES[section] || section}
         </div>
       </header>
 
-      {/* Stats bar */}
-      <div className="px-8 py-3 border-b border-[#16141015] flex items-center justify-between text-[12px] font-mono tracking-[0.08em] uppercase">
+      <div className="px-8 py-3 border-b border-[#0c1a2e15] flex items-center justify-between text-[12px] font-mono tracking-[0.08em] uppercase">
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-2">
             <span className="opacity-50">Answered:</span>
@@ -233,50 +243,46 @@ export default function PracticeSessionPage() {
         <div className="flex items-center gap-2">
           <button
             onClick={() => setTimerOn(!timerOn)}
-            className="text-[10px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100 px-2 py-1 border border-[#16141025] rounded"
+            className="text-[10px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100 px-2 py-1 border border-[#0c1a2e25] rounded"
           >
             {timerOn ? "Timer on" : "Timer off"}
           </button>
           <Link
             href="/practice"
-            className="text-[10px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100 px-2 py-1 border border-[#16141025] rounded"
+            className="text-[10px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100 px-2 py-1 border border-[#0c1a2e25] rounded"
           >
             ← Sections
           </Link>
         </div>
       </div>
 
-      {/* Loading */}
       {loading && (
         <div className="flex-1 flex items-center justify-center">
           <div className="text-center">
             <div className="flex items-center justify-center gap-2 mb-3">
-              <span className="w-2 h-2 rounded-full bg-[#161410] animate-bounce" />
-              <span className="w-2 h-2 rounded-full bg-[#161410] animate-bounce" style={{ animationDelay: "0.15s" }} />
-              <span className="w-2 h-2 rounded-full bg-[#161410] animate-bounce" style={{ animationDelay: "0.3s" }} />
+              <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" />
+              <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
+              <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
             </div>
             <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Generating question...</div>
           </div>
         </div>
       )}
 
-      {/* Error */}
       {!loading && error && (
         <div className="flex-1 flex items-center justify-center px-8">
           <div className="text-center max-w-md">
-            <div className="text-[#c54a2a] text-sm mb-4">{error}</div>
+            <div className="text-[#a8324a] text-sm mb-4">{error}</div>
             <button
               onClick={loadNewQuestion}
-              className="font-mono text-xs uppercase tracking-[0.08em] bg-[#161410] text-[#f3efe7] px-5 py-3 rounded-full hover:bg-[#2a2620]"
+              className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
             >
               Try again
             </button>
           </div>
         </div>
-      )}{/* Question */}
-      {!loading && !error && currentQ && (
+      )}{!loading && !error && currentQ && (
         <div className="flex-1 overflow-y-auto px-8 py-8 grid lg:grid-cols-2 gap-10 max-w-7xl mx-auto w-full">
-          {/* Left: passage if exists */}
           {questionSet?.passage && (
             <div className="bg-[#ebe5d6] rounded-2xl p-7 max-h-[70vh] overflow-y-auto">
               <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-2">Passage</div>
@@ -285,7 +291,6 @@ export default function PracticeSessionPage() {
             </div>
           )}
 
-          {/* Right: question */}
           <div className={questionSet?.passage ? "" : "lg:col-span-2 max-w-3xl mx-auto w-full"}>
             <div className="flex items-center justify-between mb-4">
               <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55">
@@ -302,19 +307,19 @@ export default function PracticeSessionPage() {
               {(["A", "B", "C", "D"] as Choice[]).map((letter) => {
                 const isSelected = selected === letter;
                 const isCorrectChoice = letter === currentQ.correctAnswer;
-                let borderClass = "border-[#16141025]";
+                let borderClass = "border-[#0c1a2e25]";
                 let bgClass = "bg-transparent";
                 if (submitted) {
                   if (isCorrectChoice) {
-                    borderClass = "border-[#3e5641]";
-                    bgClass = "bg-[#3e564115]";
+                    borderClass = "border-[#3e6b4a]";
+                    bgClass = "bg-[#3e6b4a15]";
                   } else if (isSelected && !isCorrectChoice) {
-                    borderClass = "border-[#c54a2a]";
-                    bgClass = "bg-[#c54a2a15]";
+                    borderClass = "border-[#a8324a]";
+                    bgClass = "bg-[#a8324a15]";
                   }
                 } else if (isSelected) {
-                  borderClass = "border-[#161410]";
-                  bgClass = "bg-[#1614100a]";
+                  borderClass = "border-[#0c1a2e]";
+                  bgClass = "bg-[#0c1a2e0a]";
                 }
 
                 return (
@@ -323,7 +328,7 @@ export default function PracticeSessionPage() {
                     onClick={() => !submitted && setSelected(letter)}
                     disabled={submitted}
                     className={`w-full text-left p-4 rounded-xl border-2 transition-all ${borderClass} ${bgClass} ${
-                      !submitted ? "hover:border-[#161410] hover:bg-[#1614100a] cursor-pointer" : "cursor-default"
+                      !submitted ? "hover:border-[#0c1a2e] hover:bg-[#0c1a2e0a] cursor-pointer" : "cursor-default"
                     }`}
                   >
                     <div className="flex gap-3">
@@ -335,18 +340,17 @@ export default function PracticeSessionPage() {
               })}
             </div>
 
-            {/* Submit or result */}
             {!submitted ? (
               <button
                 onClick={submitAnswer}
                 disabled={!selected}
-                className="mt-7 font-mono text-xs uppercase tracking-[0.08em] bg-[#161410] text-[#f3efe7] px-6 py-3.5 rounded-full hover:bg-[#2a2620] disabled:opacity-30 disabled:cursor-not-allowed"
+                className="mt-7 font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-6 py-3.5 rounded-full hover:bg-[#1a2c4a] disabled:opacity-30 disabled:cursor-not-allowed"
               >
                 Submit answer →
               </button>
             ) : (
               <div className="mt-7">
-                <div className={`p-5 rounded-xl mb-5 ${isCorrect ? "bg-[#3e564115] border border-[#3e564140]" : "bg-[#c54a2a15] border border-[#c54a2a40]"}`}>
+                <div className={`p-5 rounded-xl mb-5 ${isCorrect ? "bg-[#3e6b4a15] border border-[#3e6b4a40]" : "bg-[#a8324a15] border border-[#a8324a40]"}`}>
                   <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-70 mb-2">
                     {isCorrect ? "✓ Correct" : "✗ Incorrect"}
                   </div>
@@ -374,13 +378,13 @@ export default function PracticeSessionPage() {
                 <div className="flex gap-3">
                   <button
                     onClick={nextQuestion}
-                    className="font-mono text-xs uppercase tracking-[0.08em] bg-[#161410] text-[#f3efe7] px-6 py-3.5 rounded-full hover:bg-[#2a2620]"
+                    className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-6 py-3.5 rounded-full hover:bg-[#1a2c4a]"
                   >
                     Next question →
                   </button>
                   <Link
                     href="/practice"
-                    className="font-mono text-xs uppercase tracking-[0.08em] border border-[#16141025] px-6 py-3.5 rounded-full hover:bg-[#1614100a]"
+                    className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-6 py-3.5 rounded-full hover:bg-[#0c1a2e0a]"
                   >
                     Stop session
                   </Link>
@@ -389,13 +393,14 @@ export default function PracticeSessionPage() {
             )}
           </div>
         </div>
-      )}{/* Tutor pop-up */}
+      )}
+
       {showTutor && currentQ && (
-        <div className="fixed inset-0 bg-[#16141066] z-50 flex items-end md:items-center justify-center p-0 md:p-6">
-          <div className="bg-[#f3efe7] w-full md:max-w-2xl md:rounded-2xl shadow-2xl flex flex-col max-h-[90vh] md:max-h-[80vh] rounded-t-2xl">
-            <div className="flex items-center justify-between px-6 py-4 border-b border-[#16141015]">
+        <div className="fixed inset-0 bg-[#0c1a2e66] z-50 flex items-end md:items-center justify-center p-0 md:p-6">
+          <div className="bg-[#f5f1ea] w-full md:max-w-2xl md:rounded-2xl shadow-2xl flex flex-col max-h-[90vh] md:max-h-[80vh] rounded-t-2xl">
+            <div className="flex items-center justify-between px-6 py-4 border-b border-[#0c1a2e15]">
               <div className="flex items-center gap-2.5">
-                <span className="w-2 h-2 rounded-full bg-[#c54a2a]" />
+                <span className="w-2 h-2 rounded-full bg-[#a8324a]" />
                 <div>
                   <div className="font-serif font-medium">Vitalis explains</div>
                   <div className="font-mono text-[10px] uppercase tracking-[0.12em] opacity-50">{currentQ.concept}</div>
@@ -412,7 +417,7 @@ export default function PracticeSessionPage() {
             <div className="flex-1 overflow-y-auto px-6 py-5 flex flex-col gap-4">
               {tutorMessages.map((msg, i) =>
                 msg.role === "user" ? (
-                  <div key={i} className="self-end max-w-[80%] bg-[#161410] text-[#f3efe7] px-4 py-2.5 rounded-2xl rounded-br-md text-[14px] leading-relaxed">
+                  <div key={i} className="self-end max-w-[80%] bg-[#0c1a2e] text-[#f5f1ea] px-4 py-2.5 rounded-2xl rounded-br-md text-[14px] leading-relaxed">
                     {msg.content}
                   </div>
                 ) : (
@@ -425,14 +430,14 @@ export default function PracticeSessionPage() {
               )}
               {tutorLoading && (
                 <div className="self-start flex items-center gap-1.5 opacity-60 py-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#161410] animate-bounce" />
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#161410] animate-bounce" style={{ animationDelay: "0.15s" }} />
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#161410] animate-bounce" style={{ animationDelay: "0.3s" }} />
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#0c1a2e] animate-bounce" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
                 </div>
               )}
             </div>
 
-            <div className="border-t border-[#16141015] px-6 py-4 flex gap-3 items-center">
+            <div className="border-t border-[#0c1a2e15] px-6 py-4 flex gap-3 items-center">
               <input
                 value={tutorInput}
                 onChange={(e) => setTutorInput(e.target.value)}
@@ -443,12 +448,12 @@ export default function PracticeSessionPage() {
                   }
                 }}
                 placeholder="Ask a follow-up..."
-                className="flex-1 bg-transparent border-none outline-none text-[14px] placeholder:text-[#16141066]"
+                className="flex-1 bg-transparent border-none outline-none text-[14px] placeholder:text-[#0c1a2e66]"
               />
               <button
                 onClick={askTutor}
                 disabled={!tutorInput.trim() || tutorLoading}
-                className="bg-[#161410] text-[#f3efe7] w-9 h-9 rounded-full flex items-center justify-center disabled:opacity-30"
+                className="bg-[#0c1a2e] text-[#f5f1ea] w-9 h-9 rounded-full flex items-center justify-center disabled:opacity-30"
               >
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
                   <line x1="22" y1="2" x2="11" y2="13" />
@@ -465,7 +470,7 @@ export default function PracticeSessionPage() {
         .tutor-content p:last-child { margin-bottom: 0; }
         .tutor-content strong { font-weight: 600; }
         .tutor-content em { font-style: italic; }
-        .tutor-content code { background: #16141014; padding: 1px 5px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+        .tutor-content code { background: #0c1a2e14; padding: 1px 5px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 12px; }
       `}</style>
     </div>
   );

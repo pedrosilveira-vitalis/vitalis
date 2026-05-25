@@ -18,37 +18,56 @@ const SECTIONS: Section[] = [
     name: "Bio / Biochem",
     description: "Cells, organs, metabolism, molecular biology, biochemistry.",
     number: "01",
-    accent: "#c54a2a",
+    accent: "#a8324a",
   },
   {
     id: "chem-phys",
     name: "Chem / Phys",
     description: "General chemistry, organic, physics, biochemistry of physical systems.",
     number: "02",
-    accent: "#3e5641",
+    accent: "#2e4a6b",
   },
   {
     id: "psych-soc",
     name: "Psych / Soc",
     description: "Behavior, cognition, sociology, statistics, research methods.",
     number: "03",
-    accent: "#d9a441",
+    accent: "#8a6b2e",
   },
   {
     id: "cars",
     name: "CARS",
     description: "Critical analysis & reasoning skills — humanities & social science passages.",
     number: "04",
-    accent: "#7a4b8c",
+    accent: "#4a3b6b",
   },
   {
     id: "mixed",
     name: "Mixed Practice",
     description: "Random questions across all four sections — like real test day.",
     number: "05",
-    accent: "#161410",
+    accent: "#0c1a2e",
   },
 ];
+
+function Logo() {
+  return (
+    <div className="flex items-center gap-2.5">
+      <svg width="36" height="20" viewBox="0 0 60 28" fill="none" className="flex-shrink-0">
+        <path
+          d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14"
+          stroke="#a8324a"
+          strokeWidth="2.4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+        />
+        <circle cx="50" cy="14" r="2.2" fill="#a8324a" />
+      </svg>
+      <span className="font-serif font-semibold text-[22px] tracking-tight text-[#0c1a2e]">Vitalis</span>
+    </div>
+  );
+}
 
 export default function PracticePage() {
   const router = useRouter();
@@ -60,48 +79,43 @@ export default function PracticePage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#f3efe7] text-[#161410] font-sans relative overflow-hidden">
+    <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e] font-sans relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-0 right-0 w-[1000px] h-[500px] bg-[#d9a441] opacity-10 blur-[120px] rounded-full -translate-y-1/3 translate-x-1/4" />
+        <div className="absolute top-0 right-0 w-[1000px] h-[500px] bg-[#a8324a] opacity-[0.05] blur-[120px] rounded-full -translate-y-1/3 translate-x-1/4" />
       </div>
 
       <div className="relative z-10">
-        {/* Nav */}
-        <nav className="flex items-center justify-between px-10 py-5 border-b border-[#16141015]">
-          <div className="flex items-center gap-3">
-            <span className="w-2.5 h-2.5 rounded-full bg-[#c54a2a] shadow-[0_0_0_4px_#c54a2a22]" />
-            <span className="font-serif font-semibold text-[22px] tracking-tight">Vitalis</span>
-          </div>
-          <div className="hidden md:flex gap-7 text-sm font-medium">
+        <nav className="flex items-center justify-between px-10 py-5 border-b border-[#0c1a2e15]">
+          <Logo />
+          <div className="hidden md:flex gap-6 text-sm font-medium">
             <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
             <Link href="/tutor" className="opacity-60 hover:opacity-100">Tutor</Link>
-            <Link href="/practice" className="opacity-100 border-b border-[#c54a2a] pb-0.5">Practice</Link>
+            <Link href="/practice" className="opacity-100 border-b border-[#a8324a] pb-0.5">Practice</Link>
             <Link href="/voice-cases" className="opacity-60 hover:opacity-100">Voice Cases</Link>
+            <Link href="/score-calculator" className="opacity-60 hover:opacity-100">Score Calc</Link>
           </div>
           <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">Practice · Beta</div>
         </nav>
 
-        {/* Header */}
-        <section className="px-10 pt-14 pb-8 border-b border-[#16141015]">
+        <section className="px-10 pt-14 pb-8 border-b border-[#0c1a2e15]">
           <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
-            <span className="w-10 h-px bg-[#161410] opacity-40" />
-            Mode 04 · Practice questions
+            <span className="w-10 h-px bg-[#0c1a2e] opacity-40" />
+            Mode 03 · Practice questions
           </div>
           <h1 className="font-serif font-normal leading-[0.95] tracking-[-0.03em] text-[clamp(48px,6vw,88px)] max-w-4xl">
-            Pick a section. <span className="italic font-light text-[#c54a2a]">Get to work.</span>
+            Pick a section. <span className="italic font-light text-[#a8324a]">Get to work.</span>
           </h1>
           <p className="text-[15px] opacity-70 mt-4 max-w-xl leading-relaxed">
             MCAT-style questions in AAMC format. Get one wrong? Vitalis walks you through it — and you can ask follow-ups until it clicks.
           </p>
         </section>
 
-        {/* Section boxes */}
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#16141015]">
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#0c1a2e15]">
           {SECTIONS.map((s) => (
             <button
               key={s.id}
               onClick={() => setSelectedSection(s)}
-              className="p-8 bg-[#f3efe7] hover:bg-[#1614100a] transition-colors text-left group min-h-[180px] flex flex-col gap-3"
+              className="p-8 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors text-left group min-h-[180px] flex flex-col gap-3"
             >
               <div className="flex items-center justify-between">
                 <div className="font-mono text-[11px] tracking-[0.14em] opacity-50">{s.number}</div>
@@ -116,20 +130,18 @@ export default function PracticePage() {
           ))}
         </section>
 
-        {/* Disclaimer */}
-        <div className="mx-10 my-7 p-3.5 px-5 border border-dashed border-[#16141025] rounded-lg font-mono text-[12px] leading-relaxed opacity-60">
+        <div className="mx-10 my-7 p-3.5 px-5 border border-dashed border-[#0c1a2e25] rounded-lg font-mono text-[12px] leading-relaxed opacity-60">
           AI-generated MCAT-style questions designed to mirror AAMC format and difficulty. Not real exam questions. Always verify critical concepts with official AAMC materials.
         </div>
       </div>
 
-      {/* Format chooser modal */}
       {selectedSection && (
         <div
-          className="fixed inset-0 bg-[#16141099] z-50 flex items-center justify-center p-6"
+          className="fixed inset-0 bg-[#0c1a2e99] z-50 flex items-center justify-center p-6"
           onClick={() => setSelectedSection(null)}
         >
           <div
-            className="bg-[#f3efe7] rounded-2xl max-w-md w-full p-8 shadow-2xl"
+            className="bg-[#f5f1ea] rounded-2xl max-w-md w-full p-8 shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-50 mb-2">{selectedSection.number}</div>
@@ -140,7 +152,7 @@ export default function PracticePage() {
               <button
                 onClick={() => handleStart("standalone")}
                 disabled={selectedSection.id === "cars"}
-                className="w-full p-4 border border-[#16141025] rounded-xl text-left hover:bg-[#1614100a] transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+                className="w-full p-4 border border-[#0c1a2e25] rounded-xl text-left hover:bg-[#0c1a2e08] transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
               >
                 <div className="font-serif text-lg font-medium">Standalone questions</div>
                 <div className="text-[13px] opacity-65 mt-1">One question at a time. Quick reps.</div>
@@ -151,7 +163,7 @@ export default function PracticePage() {
 
               <button
                 onClick={() => handleStart("passage")}
-                className="w-full p-4 border border-[#16141025] rounded-xl text-left hover:bg-[#1614100a] transition-colors"
+                className="w-full p-4 border border-[#0c1a2e25] rounded-xl text-left hover:bg-[#0c1a2e08] transition-colors"
               >
                 <div className="font-serif text-lg font-medium">Passage-based</div>
                 <div className="text-[13px] opacity-65 mt-1">Read a passage, then answer linked questions. Like the real test.</div>

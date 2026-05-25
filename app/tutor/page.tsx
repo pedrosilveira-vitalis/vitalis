@@ -25,6 +25,25 @@ declare global {
   }
 }
 
+function Logo() {
+  return (
+    <div className="flex items-center gap-2.5">
+      <svg width="32" height="18" viewBox="0 0 60 28" fill="none" className="flex-shrink-0">
+        <path
+          d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14"
+          stroke="#a8324a"
+          strokeWidth="2.4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+        />
+        <circle cx="50" cy="14" r="2.2" fill="#a8324a" />
+      </svg>
+      <span className="font-serif font-semibold text-xl tracking-tight text-[#0c1a2e]">Vitalis</span>
+    </div>
+  );
+}
+
 export default function TutorPage() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
@@ -48,7 +67,7 @@ export default function TutorPage() {
         const raw = decodeURIComponent(canvas.getAttribute("data-chart") || "");
         const spec = JSON.parse(raw);
         canvas.setAttribute("data-rendered", "1");
-        const colors = ["#c54a2a", "#3e5641", "#d9a441", "#161410"];
+        const colors = ["#a8324a", "#0c1a2e", "#8a6b2e", "#4a3b6b"];
         const datasets = (spec.datasets || []).map((ds: { label?: string; data: { x: number; y: number }[] }, i: number) => ({
           label: ds.label || "",
           data: ds.data || [],
@@ -67,12 +86,12 @@ export default function TutorPage() {
             responsive: true,
             maintainAspectRatio: false,
             plugins: {
-              title: spec.title ? { display: true, text: spec.title, font: { family: "Fraunces, serif", size: 15, weight: 500 }, color: "#161410", padding: { bottom: 12 } } : { display: false },
-              legend: { display: datasets.length > 1, labels: { font: { family: "Inter Tight, sans-serif", size: 12 }, color: "#161410" } },
+              title: spec.title ? { display: true, text: spec.title, font: { family: "Fraunces, serif", size: 15, weight: 500 }, color: "#0c1a2e", padding: { bottom: 12 } } : { display: false },
+              legend: { display: datasets.length > 1, labels: { font: { family: "Inter Tight, sans-serif", size: 12 }, color: "#0c1a2e" } },
             },
             scales: {
-              x: { type: "linear", title: { display: !!spec.xLabel, text: spec.xLabel || "", font: { family: "Inter Tight, sans-serif", size: 12, weight: 500 }, color: "#161410aa" }, grid: { color: "#1614101a" }, ticks: { color: "#161410aa", font: { family: "Inter Tight, sans-serif", size: 11 } } },
-              y: { title: { display: !!spec.yLabel, text: spec.yLabel || "", font: { family: "Inter Tight, sans-serif", size: 12, weight: 500 }, color: "#161410aa" }, grid: { color: "#1614101a" }, ticks: { color: "#161410aa", font: { family: "Inter Tight, sans-serif", size: 11 } } },
+              x: { type: "linear", title: { display: !!spec.xLabel, text: spec.xLabel || "", font: { family: "Inter Tight, sans-serif", size: 12, weight: 500 }, color: "#0c1a2eaa" }, grid: { color: "#0c1a2e1a" }, ticks: { color: "#0c1a2eaa", font: { family: "Inter Tight, sans-serif", size: 11 } } },
+              y: { title: { display: !!spec.yLabel, text: spec.yLabel || "", font: { family: "Inter Tight, sans-serif", size: 12, weight: 500 }, color: "#0c1a2eaa" }, grid: { color: "#0c1a2e1a" }, ticks: { color: "#0c1a2eaa", font: { family: "Inter Tight, sans-serif", size: 11 } } },
             },
           },
         });
@@ -89,10 +108,10 @@ export default function TutorPage() {
               const py = yScale.getPixelForValue(a.y);
               ctx.beginPath();
               ctx.arc(px, py, 5, 0, Math.PI * 2);
-              ctx.fillStyle = "#c54a2a";
+              ctx.fillStyle = "#a8324a";
               ctx.fill();
               ctx.lineWidth = 2;
-              ctx.strokeStyle = "#f3efe7";
+              ctx.strokeStyle = "#f5f1ea";
               ctx.stroke();
               ctx.font = "500 11px 'Inter Tight', sans-serif";
               const text = a.label;
@@ -103,12 +122,12 @@ export default function TutorPage() {
               let ly = py - 22;
               if (lx + boxW > canvas.width - 8) lx = px - boxW - 10;
               if (ly < 4) ly = py + 12;
-              ctx.fillStyle = "#f3efe7";
-              ctx.strokeStyle = "#16141033";
+              ctx.fillStyle = "#f5f1ea";
+              ctx.strokeStyle = "#0c1a2e33";
               ctx.lineWidth = 1;
               ctx.fillRect(lx, ly, boxW, boxH);
               ctx.strokeRect(lx, ly, boxW, boxH);
-              ctx.fillStyle = "#161410";
+              ctx.fillStyle = "#0c1a2e";
               ctx.textBaseline = "middle";
               ctx.fillText(text, lx + 6, ly + boxH / 2);
             });
@@ -119,9 +138,7 @@ export default function TutorPage() {
         console.error("Chart render error:", e);
       }
     });
-  }, [messages, chartReady]);
-
-  async function send() {
+  }, [messages, chartReady]);async function send() {
     if (loading || !input.trim()) return;
     const userMsg: Message = { role: "user", content: input.trim() };
     const newMessages = [...messages, userMsg];
@@ -242,24 +259,22 @@ export default function TutorPage() {
   }return (
     <>
       <Script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" onLoad={() => setChartReady(true)} />
-      <div className="h-screen flex flex-col bg-[#f3efe7] text-[#161410]">
-        <header className="flex items-center justify-between px-8 py-4 border-b border-[#16141015]">
-          <div className="flex items-center gap-3">
-            <span className="w-2.5 h-2.5 rounded-full bg-[#c54a2a] shadow-[0_0_0_4px_#c54a2a22]" />
-            <span className="font-serif font-semibold text-xl tracking-tight">Vitalis</span>
-          </div>
-          <div className="hidden md:flex gap-7 text-sm font-medium">
+      <div className="h-screen flex flex-col bg-[#f5f1ea] text-[#0c1a2e]">
+        <header className="flex items-center justify-between px-8 py-4 border-b border-[#0c1a2e15]">
+          <Logo />
+          <div className="hidden md:flex gap-6 text-sm font-medium">
             <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
-            <Link href="/tutor" className="opacity-100 border-b border-[#c54a2a] pb-0.5">Tutor</Link>
+            <Link href="/tutor" className="opacity-100 border-b border-[#a8324a] pb-0.5">Tutor</Link>
             <Link href="/practice" className="opacity-60 hover:opacity-100">Practice</Link>
             <Link href="/voice-cases" className="opacity-60 hover:opacity-100">Voice Cases</Link>
+            <Link href="/score-calculator" className="opacity-60 hover:opacity-100">Score Calc</Link>
           </div>
           <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">MCAT Tutor · Beta</div>
         </header>
         <div className="flex-1 flex flex-col bg-[#ebe5d6] overflow-hidden">
-          <div className="px-8 py-3 border-b border-[#16141015] flex items-center justify-between">
+          <div className="px-8 py-3 border-b border-[#0c1a2e15] flex items-center justify-between">
             <div className="flex items-center gap-2.5 font-serif text-base font-medium">
-              <span className="w-2 h-2 rounded-full bg-[#3e5641] animate-pulse" />
+              <span className="w-2 h-2 rounded-full bg-[#a8324a] animate-pulse" />
               Tutor session
             </div>
             <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">{messages.length} messages</div>
@@ -270,19 +285,19 @@ export default function TutorPage() {
                 <h2 className="font-serif text-3xl font-medium tracking-tight mb-3 leading-tight">Built to bring out the physician in you.</h2>
                 <p className="text-sm opacity-65 leading-relaxed mb-6">Ask anything about the MCAT — concepts, study strategy, practice problems. I&apos;ll meet you where you are.</p>
                 <div className="grid sm:grid-cols-2 gap-2.5 text-left">
-                  <button onClick={() => askExample("Draw a titration curve for a weak acid and walk me through what each region means.")} className="p-4 bg-[#1614100a] border border-[#16141015] rounded-xl text-[13px] leading-snug hover:bg-[#1614101a] transition-all hover:-translate-y-0.5">
+                  <button onClick={() => askExample("Draw a titration curve for a weak acid and walk me through what each region means.")} className="p-4 bg-[#0c1a2e0a] border border-[#0c1a2e15] rounded-xl text-[13px] leading-snug hover:bg-[#0c1a2e1a] transition-all hover:-translate-y-0.5">
                     <span className="block font-mono text-[9px] tracking-[0.12em] opacity-55 uppercase mb-1">Biochem · diagram</span>
                     Draw a titration curve and explain each region.
                   </button>
-                  <button onClick={() => askExample("Show me a free body diagram for a block sliding down a frictionless incline.")} className="p-4 bg-[#1614100a] border border-[#16141015] rounded-xl text-[13px] leading-snug hover:bg-[#1614101a] transition-all hover:-translate-y-0.5">
+                  <button onClick={() => askExample("Show me a free body diagram for a block sliding down a frictionless incline.")} className="p-4 bg-[#0c1a2e0a] border border-[#0c1a2e15] rounded-xl text-[13px] leading-snug hover:bg-[#0c1a2e1a] transition-all hover:-translate-y-0.5">
                     <span className="block font-mono text-[9px] tracking-[0.12em] opacity-55 uppercase mb-1">Physics · diagram</span>
                     Show me a free body diagram for a block on an incline.
                   </button>
-                  <button onClick={() => askExample("Explain competitive vs non-competitive inhibition with a Michaelis-Menten diagram.")} className="p-4 bg-[#1614100a] border border-[#16141015] rounded-xl text-[13px] leading-snug hover:bg-[#1614101a] transition-all hover:-translate-y-0.5">
+                  <button onClick={() => askExample("Explain competitive vs non-competitive inhibition with a Michaelis-Menten diagram.")} className="p-4 bg-[#0c1a2e0a] border border-[#0c1a2e15] rounded-xl text-[13px] leading-snug hover:bg-[#0c1a2e1a] transition-all hover:-translate-y-0.5">
                     <span className="block font-mono text-[9px] tracking-[0.12em] opacity-55 uppercase mb-1">Biochem</span>
                     Competitive vs non-competitive inhibition, with a chart.
                   </button>
-                  <button onClick={() => askExample("I have 3 months until my MCAT. How should I structure my studying?")} className="p-4 bg-[#1614100a] border border-[#16141015] rounded-xl text-[13px] leading-snug hover:bg-[#1614101a] transition-all hover:-translate-y-0.5">
+                  <button onClick={() => askExample("I have 3 months until my MCAT. How should I structure my studying?")} className="p-4 bg-[#0c1a2e0a] border border-[#0c1a2e15] rounded-xl text-[13px] leading-snug hover:bg-[#0c1a2e1a] transition-all hover:-translate-y-0.5">
                     <span className="block font-mono text-[9px] tracking-[0.12em] opacity-55 uppercase mb-1">Strategy</span>
                     How should I structure 3 months of MCAT prep?
                   </button>
@@ -291,11 +306,11 @@ export default function TutorPage() {
             ) : (
               messages.map((msg, i) =>
                 msg.role === "user" ? (
-                  <div key={i} className="self-end max-w-[78%] bg-[#161410] text-[#f3efe7] px-4 py-3 rounded-2xl rounded-br-md text-[15px] leading-relaxed">{msg.content}</div>
+                  <div key={i} className="self-end max-w-[78%] bg-[#0c1a2e] text-[#f5f1ea] px-4 py-3 rounded-2xl rounded-br-md text-[15px] leading-relaxed">{msg.content}</div>
                 ) : (
                   <div key={i} className="self-start max-w-[85%] tutor-msg">
                     <div className="flex items-center gap-2 mb-2 font-mono text-[10px] tracking-[0.14em] uppercase opacity-55">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#c54a2a]" />
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#a8324a]" />
                       Vitalis
                     </div>
                     <div className="text-[15px] leading-relaxed" dangerouslySetInnerHTML={{ __html: formatBody(msg.content) }} />
@@ -306,27 +321,27 @@ export default function TutorPage() {
             {loading && (
               <div className="self-start">
                 <div className="flex items-center gap-2 mb-2 font-mono text-[10px] tracking-[0.14em] uppercase opacity-55">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#c54a2a]" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#a8324a]" />
                   Vitalis
                 </div>
                 <div className="flex items-center gap-1.5 opacity-60">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#161410] animate-bounce" style={{ animationDelay: "0s" }} />
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#161410] animate-bounce" style={{ animationDelay: "0.15s" }} />
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#161410] animate-bounce" style={{ animationDelay: "0.3s" }} />
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0s" }} />
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
                 </div>
               </div>
             )}
           </div>
-          <div className="border-t border-[#16141015] px-8 py-4 flex gap-3 items-center bg-[#ebe5d6]">
-            <input value={input} onChange={(e) => setInput(e.target.value)} onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); } }} placeholder="Ask anything — Bio, Chem, Phys, Psych, CARS..." className="flex-1 bg-transparent border-none outline-none text-[15px] placeholder:text-[#16141066]" />
-            <button onClick={send} disabled={loading || !input.trim()} className="bg-[#161410] text-[#f3efe7] w-10 h-10 rounded-full flex items-center justify-center disabled:opacity-30 transition-transform hover:scale-105">
+          <div className="border-t border-[#0c1a2e15] px-8 py-4 flex gap-3 items-center bg-[#ebe5d6]">
+            <input value={input} onChange={(e) => setInput(e.target.value)} onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); } }} placeholder="Ask anything — Bio, Chem, Phys, Psych, CARS..." className="flex-1 bg-transparent border-none outline-none text-[15px] placeholder:text-[#0c1a2e66]" />
+            <button onClick={send} disabled={loading || !input.trim()} className="bg-[#0c1a2e] text-[#f5f1ea] w-10 h-10 rounded-full flex items-center justify-center disabled:opacity-30 transition-transform hover:scale-105">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
                 <line x1="22" y1="2" x2="11" y2="13" />
                 <polygon points="22 2 15 22 11 13 2 9 22 2" />
               </svg>
             </button>
           </div>
-          <div className="px-8 py-2.5 font-mono text-[10px] tracking-[0.08em] opacity-40 text-center border-t border-[#16141015]">
+          <div className="px-8 py-2.5 font-mono text-[10px] tracking-[0.08em] opacity-40 text-center border-t border-[#0c1a2e15]">
             Vitalis is a study aid. Verify critical content with official AAMC materials.
           </div>
         </div>
@@ -338,11 +353,11 @@ export default function TutorPage() {
         .tutor-msg em { font-style: italic; }
         .tutor-msg ul, .tutor-msg ol { margin: 10px 0; padding-left: 22px; }
         .tutor-msg li { margin-bottom: 5px; }
-        .tutor-msg code { background: #16141014; padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 13px; }
+        .tutor-msg code { background: #0c1a2e14; padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 13px; }
         .tutor-msg h3 { font-family: 'Fraunces', serif; font-size: 18px; font-weight: 600; margin: 14px 0 8px; }
-        .tutor-msg .diagram { margin: 14px 0; padding: 14px; background: #16141008; border: 1px solid #16141015; border-radius: 10px; display: flex; justify-content: center; }
+        .tutor-msg .diagram { margin: 14px 0; padding: 14px; background: #0c1a2e08; border: 1px solid #0c1a2e15; border-radius: 10px; display: flex; justify-content: center; }
         .tutor-msg .diagram svg { max-width: 100%; height: auto; }
-        .tutor-msg .chart-wrap { margin: 14px 0; padding: 18px; background: #16141008; border: 1px solid #16141015; border-radius: 10px; height: 300px; position: relative; }
+        .tutor-msg .chart-wrap { margin: 14px 0; padding: 18px; background: #0c1a2e08; border: 1px solid #0c1a2e15; border-radius: 10px; height: 300px; position: relative; }
       `}</style>
     </>
   );
