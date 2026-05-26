@@ -3,15 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-type Section = {
-  id: string;
-  name: string;
-  description: string;
-  number: string;
-  accent: string;
-};
-
-const SECTIONS: Section[] = [
+const SECTIONS = [
   { id: "bio-biochem", name: "Bio / Biochem", description: "Amino acids, metabolism, genetics, organ systems, immunology.", number: "01", accent: "#a8324a" },
   { id: "chem-phys", name: "Chem / Phys", description: "Acid-base, thermodynamics, organic, physics, electricity.", number: "02", accent: "#2e4a6b" },
   { id: "psych-soc", name: "Psych / Soc", description: "Conditioning, memory, theories, sociology, statistics.", number: "03", accent: "#8a6b2e" },
@@ -33,10 +25,6 @@ function Logo() {
 
 export default function FlashcardsLandingPage() {
   const router = useRouter();
-
-  function startDeck(sectionId: string) {
-    router.push(`/flashcards/${sectionId}`);
-  }
 
   return (
     <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e] font-sans relative overflow-hidden">
@@ -71,11 +59,37 @@ export default function FlashcardsLandingPage() {
           </p>
         </section>
 
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#0c1a2e15]">
+        {/* My Cards CTA */}
+        <section className="px-10 py-6 border-b border-[#0c1a2e15] bg-[#0c1a2e0a]">
+          <div className="flex items-center justify-between flex-wrap gap-4 max-w-5xl">
+            <div>
+              <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-1">Your personal deck</div>
+              <div className="font-serif text-xl font-medium">Build your own flashcards.</div>
+              <div className="text-[13px] opacity-65 mt-1">Add cards for the things you keep getting wrong.</div>
+            </div>
+            <Link
+              href="/flashcards/my-cards"
+              className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
+            >
+              My cards →
+            </Link>
+          </div>
+        </section>
+
+        <section className="px-10 pt-10 pb-2">
+          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-2 flex items-center gap-3">
+            <span className="w-10 h-px bg-[#0c1a2e] opacity-40" />
+            AI decks
+          </div>
+          <h2 className="font-serif text-[clamp(24px,3vw,36px)] font-medium tracking-tight">Pick a section.</h2>
+          <p className="text-[13px] opacity-65 max-w-2xl mt-1">8-card decks generated fresh, focused on high-yield MCAT content.</p>
+        </section>
+
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#0c1a2e15] mt-4">
           {SECTIONS.map((s) => (
             <button
               key={s.id}
-              onClick={() => startDeck(s.id)}
+              onClick={() => router.push(`/flashcards/${s.id}`)}
               className="p-8 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors text-left group min-h-[180px] flex flex-col gap-3"
             >
               <div className="flex items-center justify-between">
