@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect, useCallback } from "react";
+import { useState, useRef, useEffect, useCallback, Suspense } from "react";
 import Link from "next/link";
 import Script from "next/script";
 import { useSearchParams, useRouter } from "next/navigation";
@@ -14,7 +14,7 @@ type TextPart = { type: "text"; text: string };
 type DisplayMessage = {
   role: "user" | "assistant";
   text: string;
-  images?: string[]; // data URLs for display in chat (with prefix)
+  images?: string[];
 };
 
 type ApiMessage = {
@@ -60,7 +60,7 @@ function Logo() {
   );
 }
 
-export default function TutorPage() {
+function TutorPageContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const conversationIdParam = searchParams.get("c");
@@ -195,12 +195,13 @@ export default function TutorPage() {
         console.error("Chart render error:", e);
       }
     });
-  }, [messages, chartReady]);function handleFileSelect(e: React.ChangeEvent<HTMLInputElement>) {
+  }, [messages, chartReady]);
+
+  function handleFileSelect(e: React.ChangeEvent<HTMLInputElement>) {
     const files = e.target.files;
     if (!files || files.length === 0) return;
 
     Array.from(files).forEach((file) => {
-      // Sanity check: ~5 MB max per image
       if (file.size > 5 * 1024 * 1024) {
         alert(`${file.name} is larger than 5MB. Try a smaller image.`);
         return;
@@ -213,14 +214,12 @@ export default function TutorPage() {
       reader.onload = (ev) => {
         const dataUrl = ev.target?.result as string;
         if (!dataUrl) return;
-        // Extract base64 portion (after the comma)
         const base64 = dataUrl.split(",")[1] || "";
         setPendingImages((prev) => [...prev, { dataUrl, mediaType: file.type, base64 }]);
       };
       reader.readAsDataURL(file);
     });
 
-    // Reset the input so the same file can be picked again later
     if (fileInputRef.current) fileInputRef.current.value = "";
   }
 
@@ -268,11 +267,7 @@ export default function TutorPage() {
     const imagesForDisplay = pendingImages.map((p) => p.dataUrl);
     const imagesForApi: ImagePart[] = pendingImages.map((p) => ({
       type: "image",
-      source: {
-        type: "base64",
-        media_type: p.mediaType,
-        data: p.base64,
-      },
+      source: { type: "base64", media_type: p.mediaType, data: p.base64 },
     }));
 
     const displayMsg: DisplayMessage = {
@@ -286,18 +281,11 @@ export default function TutorPage() {
     setPendingImages([]);
     setLoading(true);
 
-    // Build the API messages array — Claude needs structured content when images are present
-    const apiMessages: ApiMessage[] = newDisplayMessages.map((m) => {
-      if (!m.images || m.images.length === 0) {
-        return { role: m.role, content: m.text };
-      }
-      // Reconstruct image parts for messages with attachments
-      // For previously-rendered messages without raw base64, this won't be perfect on reload —
-      // but since pendingImages were cleared, only the current message needs image parts.
-      return { role: m.role, content: m.text };
-    });
+    const apiMessages: ApiMessage[] = newDisplayMessages.map((m) => ({
+      role: m.role,
+      content: m.text,
+    }));
 
-    // Replace the LAST user message's content with the structured form (text + images)
     if (imagesForApi.length > 0) {
       const lastIdx = apiMessages.length - 1;
       const parts: Array<TextPart | ImagePart> = [...imagesForApi];
@@ -323,10 +311,7 @@ export default function TutorPage() {
       setMessages([...newDisplayMessages, { role: "assistant", text: reply }]);
       if (convId) await saveMessage(convId, "assistant", reply);
     } catch {
-      setMessages([
-        ...newDisplayMessages,
-        { role: "assistant", text: "Sorry — connection issue. Try again?" },
-      ]);
+      setMessages([...newDisplayMessages, { role: "assistant", text: "Sorry — connection issue. Try again?" }]);
     }
     setLoading(false);
   }
@@ -357,10 +342,7 @@ export default function TutorPage() {
       setMessages([...newMessages, { role: "assistant", text: reply }]);
       if (convId) await saveMessage(convId, "assistant", reply);
     } catch {
-      setMessages([
-        ...newMessages,
-        { role: "assistant", text: "Sorry — connection issue. Try again?" },
-      ]);
+      setMessages([...newMessages, { role: "assistant", text: "Sorry — connection issue. Try again?" }]);
     }
     setLoading(false);
   }
@@ -370,7 +352,9 @@ export default function TutorPage() {
     setConversationId(null);
     setPendingImages([]);
     router.replace("/tutor");
-  }function sanitizeSVG(svg: string): string {
+  }
+
+  function sanitizeSVG(svg: string): string {
     if (typeof window === "undefined") return "";
     const tmp = document.createElement("div");
     tmp.innerHTML = svg;
@@ -486,7 +470,8 @@ export default function TutorPage() {
               )}
               <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">{messages.length} messages</div>
             </div>
-          </div><div ref={streamRef} className="flex-1 overflow-y-auto px-8 py-7 flex flex-col gap-5">
+          </div>
+          <div ref={streamRef} className="flex-1 overflow-y-auto px-8 py-7 flex flex-col gap-5">
             {conversationLoading ? (
               <div className="m-auto text-center">
                 <div className="flex items-center justify-center gap-2 mb-3">
@@ -578,53 +563,22 @@ export default function TutorPage() {
               {pendingImages.map((img, i) => (
                 <div key={i} className="relative">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={img.dataUrl}
-                    alt="Pending"
-                    className="w-16 h-16 rounded-lg object-cover border border-[#0c1a2e25]"
-                  />
-                  <button
-                    onClick={() => removePendingImage(i)}
-                    className="absolute -top-2 -right-2 w-5 h-5 bg-[#0c1a2e] text-[#f5f1ea] rounded-full flex items-center justify-center text-[10px] hover:bg-[#a8324a]"
-                  >
-                    ×
-                  </button>
+                  <img src={img.dataUrl} alt="Pending" className="w-16 h-16 rounded-lg object-cover border border-[#0c1a2e25]" />
+                  <button onClick={() => removePendingImage(i)} className="absolute -top-2 -right-2 w-5 h-5 bg-[#0c1a2e] text-[#f5f1ea] rounded-full flex items-center justify-center text-[10px] hover:bg-[#a8324a]">×</button>
                 </div>
               ))}
             </div>
           )}
 
           <div className="border-t border-[#0c1a2e15] px-8 py-4 flex gap-3 items-center bg-[#ebe5d6]">
-            <input
-              ref={fileInputRef}
-              type="file"
-              accept="image/*"
-              multiple
-              onChange={handleFileSelect}
-              className="hidden"
-            />
-            <button
-              onClick={() => fileInputRef.current?.click()}
-              disabled={loading}
-              className="w-10 h-10 rounded-full bg-[#0c1a2e1a] text-[#0c1a2e] hover:bg-[#0c1a2e2a] flex items-center justify-center disabled:opacity-30 flex-shrink-0"
-              title="Upload image"
-            >
+            <input ref={fileInputRef} type="file" accept="image/*" multiple onChange={handleFileSelect} className="hidden" />
+            <button onClick={() => fileInputRef.current?.click()} disabled={loading} className="w-10 h-10 rounded-full bg-[#0c1a2e1a] text-[#0c1a2e] hover:bg-[#0c1a2e2a] flex items-center justify-center disabled:opacity-30 flex-shrink-0" title="Upload image">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48" />
               </svg>
             </button>
-            <input
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); } }}
-              placeholder={pendingImages.length > 0 ? "Add a question about the image..." : "Ask anything — Bio, Chem, Phys, Psych, CARS..."}
-              className="flex-1 bg-transparent border-none outline-none text-[15px] placeholder:text-[#0c1a2e66]"
-            />
-            <button
-              onClick={send}
-              disabled={loading || (!input.trim() && pendingImages.length === 0)}
-              className="bg-[#0c1a2e] text-[#f5f1ea] w-10 h-10 rounded-full flex items-center justify-center disabled:opacity-30 transition-transform hover:scale-105"
-            >
+            <input value={input} onChange={(e) => setInput(e.target.value)} onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); } }} placeholder={pendingImages.length > 0 ? "Add a question about the image..." : "Ask anything — Bio, Chem, Phys, Psych, CARS..."} className="flex-1 bg-transparent border-none outline-none text-[15px] placeholder:text-[#0c1a2e66]" />
+            <button onClick={send} disabled={loading || (!input.trim() && pendingImages.length === 0)} className="bg-[#0c1a2e] text-[#f5f1ea] w-10 h-10 rounded-full flex items-center justify-center disabled:opacity-30 transition-transform hover:scale-105">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
                 <line x1="22" y1="2" x2="11" y2="13" />
                 <polygon points="22 2 15 22 11 13 2 9 22 2" />
@@ -650,5 +604,13 @@ export default function TutorPage() {
         .tutor-msg .chart-wrap { margin: 14px 0; padding: 18px; background: #0c1a2e08; border: 1px solid #0c1a2e15; border-radius: 10px; height: 300px; position: relative; }
       `}</style>
     </>
+  );
+}
+
+export default function TutorPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-[#f5f1ea]" />}>
+      <TutorPageContent />
+    </Suspense>
   );
 }
