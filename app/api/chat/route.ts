@@ -3,61 +3,83 @@ import Anthropic from "@anthropic-ai/sdk";
 const SYSTEM_PROMPT = [
   "You are Vitalis, an expert MCAT tutor. Your students are pre-med college students preparing for the MCAT.",
   "",
-  "Your personality:",
-  "- Warm but focused. Use analogies and everyday examples.",
-  "- Teach the 'why' behind concepts, not just memorization.",
-  "- Confident but humble — admit when something is nuanced.",
-  "- Occasionally ask follow-up questions to check understanding.",
+  "Your style:",
+  "- Conversational and direct, like a strong scorer mentoring a friend.",
+  "- Concrete examples and analogies over abstract definitions.",
+  "- When a concept has a visual component (titration curves, free body diagrams, biochem pathways, Michaelis-Menten plots, neural circuits, etc.), generate one. Use SVG for diagrams, Chart.js JSON for graphs.",
+  "- Stay focused on MCAT-relevant content. If asked about something off-topic, briefly redirect.",
+  "- Use markdown formatting: **bold** for key terms, *italics* for emphasis, `code` for short technical terms, ### for major section headers.",
+  "- Bullets (- ) and numbered lists (1. ) work in standard markdown.",
   "",
-  "Your scope: the four MCAT sections — Bio/Biochem, Chem/Phys, Psych/Soc, and CARS.",
+  "When the student sends an image:",
+  "- Read it carefully. It could be a homework problem, a textbook diagram, a question from a practice book, lecture notes, or something else.",
+  "- If it's a problem, walk them through it. Don't just give the answer.",
+  "- If it's a diagram/figure, explain what it shows and what's important to understand.",
+  "- If you can't tell what something is or the image is unclear, ask.",
   "",
-  "Style:",
-  "- Short paragraphs. Use **bold** for key terms, *italics* for emphasis.",
-  "- Use bullet points for processes or comparisons.",
-  "- Use `code style` for chemical formulas or equations.",
-  "- Use ### headers only for longer answers.",
-  "- Avoid walls of text.",
+  "DIAGRAMS — when needed, emit SVG inside ```svg fenced code blocks. Use viewBox, no scripts.",
   "",
-  "## Diagrams — IMPORTANT",
-  "",
-  "You have TWO ways to create visuals. Pick the right one for the situation.",
-  "",
-  "### Mode 1: CHART.JS (use for ALL graphs and plots)",
-  "",
-  "Use for: titration curves, Michaelis-Menten, action potentials, energy diagrams, reaction coordinates, oxygen dissociation, distributions, any function plot, dose-response.",
-  "",
-  "Output a fenced code block starting with three backticks followed by the word 'chart', then valid JSON like this example:",
-  "{",
-  "  \"type\": \"line\",",
-  "  \"title\": \"Titration of weak acid\",",
-  "  \"xLabel\": \"Volume NaOH (mL)\",",
-  "  \"yLabel\": \"pH\",",
-  "  \"datasets\": [{\"label\": \"Titration\", \"data\": [{\"x\":0,\"y\":2.9},{\"x\":5,\"y\":3.8},{\"x\":12.5,\"y\":4.74},{\"x\":20,\"y\":5.6},{\"x\":25,\"y\":8.7},{\"x\":30,\"y\":11.8},{\"x\":40,\"y\":12.3}]}],",
-  "  \"annotations\": [{\"x\": 12.5, \"y\": 4.74, \"label\": \"Half-equiv (pH = pKa)\"}, {\"x\": 25, \"y\": 8.7, \"label\": \"Equivalence\"}]",
-  "}",
-  "End the block with three backticks.",
-  "",
-  "Rules: valid JSON, 8-15 data points, realistic values, 2-5 annotations max.",
-  "",
-  "### Mode 2: SVG (only for non-graph diagrams)",
-  "",
-  "Use for: free body diagrams, Punnett squares, simple cell sketches, vector diagrams.",
-  "",
-  "Output a fenced code block starting with three backticks followed by the word 'svg', then the SVG markup. Use viewBox 0 0 500 320, max-width 100%, background #f3efe7. End the block with three backticks.",
-  "",
-  "Rules: 40px margins, labels at least 12px from any line. Use #161410 (ink), #c54a2a (rust), #3e5641 (moss), #d9a441 (ochre). Keep it SIMPLE.",
-  "",
-  "When a concept is visual (curves, forces, cycles), USE a diagram even if not explicitly asked. Always include a written explanation alongside the visual.",
-  "",
-  "Important:",
-  "- Frame answers in MCAT-relevant context (high-yield, common traps).",
-  "- Never give actual medical advice.",
-  "- Redirect off-topic questions politely.",
+  "GRAPHS / CHARTS — when needed, emit a JSON spec inside ```chart fenced code blocks. Format:",
+  "```chart",
+  '{"type": "line", "title": "Optional title", "xLabel": "x axis label", "yLabel": "y axis label",',
+  ' "datasets": [{"label": "Series name", "data": [{"x": 0, "y": 0}, {"x": 1, "y": 2}]}],',
+  ' "annotations": [{"x": 1.5, "y": 1.8, "label": "Equivalence point"}]}',
+  "```",
+  "Supported types: line, scatter, bar. Annotations render as labeled red dots on top of the chart.",
 ].join("\n");
+
+type ImagePart = {
+  type: "image";
+  source: {
+    type: "base64";
+    media_type: "image/jpeg" | "image/png" | "image/gif" | "image/webp";
+    data: string;
+  };
+};
+
+type TextPart = { type: "text"; text: string };
+
+type IncomingMessage = {
+  role: "user" | "assistant";
+  content:
+    | string
+    | Array<TextPart | { type: "image"; source: { type: "base64"; media_type: string; data: string } }>;
+};
 
 export async function POST(request: Request) {
   try {
-    const { messages } = await request.json();
+    const { messages } = (await request.json()) as { messages: IncomingMessage[] };
+
+    if (!Array.isArray(messages) || messages.length === 0) {
+      return Response.json({ error: "No messages provided" }, { status: 400 });
+    }
+
+    // Normalize messages for the Anthropic SDK
+    const normalized = messages.map((m) => {
+      if (typeof m.content === "string") {
+        return { role: m.role, content: m.content };
+      }
+      // Already array form (e.g., with images)
+      const parts: Array<TextPart | ImagePart> = m.content.map((part) => {
+        if (part.type === "image") {
+          const mt = part.source.media_type;
+          const validMt =
+            mt === "image/jpeg" || mt === "image/png" || mt === "image/gif" || mt === "image/webp"
+              ? mt
+              : "image/jpeg";
+          return {
+            type: "image" as const,
+            source: {
+              type: "base64" as const,
+              media_type: validMt,
+              data: part.source.data,
+            },
+          };
+        }
+        return part as TextPart;
+      });
+      return { role: m.role, content: parts };
+    });
 
     const client = new Anthropic({
       apiKey: process.env.ANTHROPIC_API_KEY,
@@ -65,22 +87,20 @@ export async function POST(request: Request) {
 
     const response = await client.messages.create({
       model: "claude-sonnet-4-6",
-      max_tokens: 2000,
+      max_tokens: 4096,
       system: SYSTEM_PROMPT,
-      messages: messages,
+      messages: normalized,
     });
 
-    const text = response.content
-      .filter((block) => block.type === "text")
-      .map((block) => (block.type === "text" ? block.text : ""))
-      .join("\n");
+    const reply = response.content
+      .filter((b) => b.type === "text")
+      .map((b) => (b.type === "text" ? b.text : ""))
+      .join("\n")
+      .trim();
 
-    return Response.json({ reply: text });
+    return Response.json({ reply });
   } catch (error) {
     console.error("Chat API error:", error);
-    return Response.json(
-      { error: "Failed to get response" },
-      { status: 500 }
-    );
+    return Response.json({ error: "Failed to get response" }, { status: 500 });
   }
 }
