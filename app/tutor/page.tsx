@@ -1,8 +1,9 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import Link from "next/link";
 import Script from "next/script";
+import { useSearchParams, useRouter } from "next/navigation";
 
 type Message = { role: "user" | "assistant"; content: string };
 
@@ -45,11 +46,60 @@ function Logo() {
 }
 
 export default function TutorPage() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const conversationIdParam = searchParams.get("c");
+
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [chartReady, setChartReady] = useState(false);
+  const [conversationId, setConversationId] = useState<number | null>(null);
+  const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(null);
+  const [conversationLoading, setConversationLoading] = useState(false);
   const streamRef = useRef<HTMLDivElement>(null);
+
+  // On mount, check auth status by attempting to fetch conversations
+  useEffect(() => {
+    fetch("/api/conversations", { method: "GET" })
+      .then((r) => {
+        setIsAuthenticated(r.status !== 401);
+      })
+      .catch(() => setIsAuthenticated(false));
+  }, []);
+
+  // If a conversation ID is in URL, load that conversation
+  const loadConversation = useCallback(async (id: number) => {
+    setConversationLoading(true);
+    try {
+      const res = await fetch(`/api/conversations/${id}`);
+      if (res.ok) {
+        const data = await res.json();
+        const loadedMessages: Message[] = (data.messages || []).map((m: { role: string; content: string }) => ({
+          role: m.role as "user" | "assistant",
+          content: m.content,
+        }));
+        setMessages(loadedMessages);
+        setConversationId(id);
+      } else {
+        // Conversation not found or not authorized — silently start fresh
+        setMessages([]);
+        setConversationId(null);
+      }
+    } catch (e) {
+      console.error("Failed to load conversation:", e);
+    }
+    setConversationLoading(false);
+  }, []);
+
+  useEffect(() => {
+    if (conversationIdParam) {
+      const id = parseInt(conversationIdParam, 10);
+      if (!isNaN(id)) {
+        loadConversation(id);
+      }
+    }
+  }, [conversationIdParam, loadConversation]);
 
   useEffect(() => {
     if (streamRef.current) {
@@ -138,13 +188,49 @@ export default function TutorPage() {
         console.error("Chart render error:", e);
       }
     });
-  }, [messages, chartReady]);async function send() {
+  }, [messages, chartReady]);async function ensureConversation(): Promise<number | null> {
+    if (conversationId) return conversationId;
+    if (!isAuthenticated) return null;
+    try {
+      const res = await fetch("/api/conversations", { method: "POST" });
+      if (res.ok) {
+        const data = await res.json();
+        const newId = data.conversation.id;
+        setConversationId(newId);
+        // Update URL silently so user can refresh / share
+        router.replace(`/tutor?c=${newId}`);
+        return newId;
+      }
+    } catch (e) {
+      console.error("Failed to create conversation:", e);
+    }
+    return null;
+  }
+
+  async function saveMessage(convId: number, role: "user" | "assistant", content: string) {
+    try {
+      await fetch(`/api/conversations/${convId}/messages`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ role, content }),
+      });
+    } catch (e) {
+      console.error("Failed to save message:", e);
+    }
+  }
+
+  async function send() {
     if (loading || !input.trim()) return;
     const userMsg: Message = { role: "user", content: input.trim() };
     const newMessages = [...messages, userMsg];
     setMessages(newMessages);
     setInput("");
     setLoading(true);
+
+    // Ensure we have a conversation (if signed in)
+    const convId = await ensureConversation();
+    if (convId) await saveMessage(convId, "user", userMsg.content);
+
     try {
       const res = await fetch("/api/chat", {
         method: "POST",
@@ -152,37 +238,46 @@ export default function TutorPage() {
         body: JSON.stringify({ messages: newMessages }),
       });
       const data = await res.json();
-      if (data.reply) {
-        setMessages([...newMessages, { role: "assistant", content: data.reply }]);
-      } else {
-        setMessages([...newMessages, { role: "assistant", content: "Sorry — I had trouble responding. Try again?" }]);
-      }
+      const reply = data.reply || "Sorry — I had trouble responding. Try again?";
+      setMessages([...newMessages, { role: "assistant", content: reply }]);
+      if (convId) await saveMessage(convId, "assistant", reply);
+    } catch {
+      const errReply = "Sorry — connection issue. Try again?";
+      setMessages([...newMessages, { role: "assistant", content: errReply }]);
+    }
+    setLoading(false);
+  }
+
+  async function askExample(text: string) {
+    if (loading) return;
+    const userMsg: Message = { role: "user", content: text };
+    const newMessages = [...messages, userMsg];
+    setMessages(newMessages);
+    setLoading(true);
+
+    const convId = await ensureConversation();
+    if (convId) await saveMessage(convId, "user", text);
+
+    try {
+      const res = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ messages: newMessages }),
+      });
+      const data = await res.json();
+      const reply = data.reply || "Sorry — I had trouble responding. Try again?";
+      setMessages([...newMessages, { role: "assistant", content: reply }]);
+      if (convId) await saveMessage(convId, "assistant", reply);
     } catch {
       setMessages([...newMessages, { role: "assistant", content: "Sorry — connection issue. Try again?" }]);
     }
     setLoading(false);
   }
 
-  function askExample(text: string) {
-    const userMsg: Message = { role: "user", content: text };
-    const newMessages = [...messages, userMsg];
-    setMessages(newMessages);
-    setLoading(true);
-    fetch("/api/chat", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ messages: newMessages }),
-    })
-      .then((r) => r.json())
-      .then((data) => {
-        if (data.reply) setMessages([...newMessages, { role: "assistant", content: data.reply }]);
-        else setMessages([...newMessages, { role: "assistant", content: "Sorry — I had trouble responding. Try again?" }]);
-        setLoading(false);
-      })
-      .catch(() => {
-        setMessages([...newMessages, { role: "assistant", content: "Sorry — connection issue. Try again?" }]);
-        setLoading(false);
-      });
+  function startFresh() {
+    setMessages([]);
+    setConversationId(null);
+    router.replace("/tutor");
   }
 
   function sanitizeSVG(svg: string): string {
@@ -270,21 +365,55 @@ export default function TutorPage() {
             <Link href="/voice-cases" className="opacity-60 hover:opacity-100">Voice Cases</Link>
             <Link href="/score-calculator" className="opacity-60 hover:opacity-100">Score Calc</Link>
           </div>
-          <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">MCAT Tutor · Beta</div>
+          <div className="flex items-center gap-3">
+            {isAuthenticated && (
+              <Link
+                href="/tutor/conversations"
+                className="font-mono text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 px-3 py-1.5 border border-[#0c1a2e25] rounded-full"
+              >
+                Past chats
+              </Link>
+            )}
+            <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">MCAT Tutor · Beta</div>
+          </div>
         </header>
         <div className="flex-1 flex flex-col bg-[#ebe5d6] overflow-hidden">
           <div className="px-8 py-3 border-b border-[#0c1a2e15] flex items-center justify-between">
             <div className="flex items-center gap-2.5 font-serif text-base font-medium">
               <span className="w-2 h-2 rounded-full bg-[#a8324a] animate-pulse" />
-              Tutor session
+              {conversationId ? "Continuing conversation" : "New tutor session"}
             </div>
-            <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">{messages.length} messages</div>
+            <div className="flex items-center gap-3">
+              {messages.length > 0 && (
+                <button
+                  onClick={startFresh}
+                  className="font-mono text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 px-2 py-1 border border-[#0c1a2e25] rounded"
+                >
+                  + New chat
+                </button>
+              )}
+              <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">{messages.length} messages</div>
+            </div>
           </div>
           <div ref={streamRef} className="flex-1 overflow-y-auto px-8 py-7 flex flex-col gap-5">
-            {messages.length === 0 ? (
+            {conversationLoading ? (
+              <div className="m-auto text-center">
+                <div className="flex items-center justify-center gap-2 mb-3">
+                  <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" />
+                  <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
+                  <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
+                </div>
+                <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Loading conversation...</div>
+              </div>
+            ) : messages.length === 0 ? (
               <div className="m-auto max-w-xl text-center px-5 py-10">
                 <h2 className="font-serif text-3xl font-medium tracking-tight mb-3 leading-tight">Built to bring out the physician in you.</h2>
                 <p className="text-sm opacity-65 leading-relaxed mb-6">Ask anything about the MCAT — concepts, study strategy, practice problems. I&apos;ll meet you where you are.</p>
+                {isAuthenticated === false && (
+                  <div className="mb-6 p-3 bg-[#a8324a08] border border-[#a8324a25] rounded-lg text-[12px] opacity-75">
+                    <Link href="/sign-in" className="text-[#a8324a] font-medium hover:underline">Sign in</Link> to save your conversations and pick up where you left off.
+                  </div>
+                )}
                 <div className="grid sm:grid-cols-2 gap-2.5 text-left">
                   <button onClick={() => askExample("Draw a titration curve for a weak acid and walk me through what each region means.")} className="p-4 bg-[#0c1a2e0a] border border-[#0c1a2e15] rounded-xl text-[13px] leading-snug hover:bg-[#0c1a2e1a] transition-all hover:-translate-y-0.5">
                     <span className="block font-mono text-[9px] tracking-[0.12em] opacity-55 uppercase mb-1">Biochem · diagram</span>
@@ -343,7 +472,7 @@ export default function TutorPage() {
             </button>
           </div>
           <div className="px-8 py-2.5 font-mono text-[10px] tracking-[0.08em] opacity-40 text-center border-t border-[#0c1a2e15]">
-            Vitalis is a study aid. Verify critical content with official AAMC materials.
+            Vitalis is a study aid. Verify critical content with official AAMC materials. {isAuthenticated && conversationId ? "Your conversation is being saved." : ""}
           </div>
         </div>
       </div>
