@@ -1,4 +1,5 @@
 import Link from "next/link";
+import UserNav from "@/components/UserNav";
 
 function Logo() {
   return (
@@ -38,12 +39,7 @@ export default function Home() {
             <Link href="/voice-cases" className="opacity-60 hover:opacity-100 transition-opacity">Voice Cases</Link>
             <Link href="/score-calculator" className="opacity-60 hover:opacity-100 transition-opacity">Score Calc</Link>
           </div>
-          <Link
-            href="/tutor"
-            className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-4 py-2.5 rounded-full hover:bg-[#1a2c4a] transition-colors"
-          >
-            Start free →
-          </Link>
+          <UserNav />
         </nav>
 
         <section className="grid md:grid-cols-[1.2fr_0.8fr] gap-10 px-10 pt-20 pb-14 items-end border-b border-[#0c1a2e15]">
@@ -188,7 +184,7 @@ export default function Home() {
 
         <footer className="px-10 py-10 border-t border-[#0c1a2e15] flex justify-between items-center font-mono text-[11px] tracking-[0.1em] uppercase opacity-60">
           <div>© 2026 Vitalis · Built for future physicians</div>
-          <div>v0.3 — beta</div>
+          <div>v0.4 — beta</div>
         </footer>
       </div>
     </div>
