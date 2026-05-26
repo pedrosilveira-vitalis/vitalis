@@ -147,6 +147,7 @@ export default function SectionPage() {
             <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
             <Link href="/tutor" className="opacity-60 hover:opacity-100">Tutor</Link>
             <Link href="/practice" className="opacity-60 hover:opacity-100">Practice</Link>
+            <Link href="/flashcards" className="opacity-60 hover:opacity-100">Flashcards</Link>
             <Link href="/voice-cases" className="opacity-60 hover:opacity-100">Voice Cases</Link>
             <Link href="/score-calculator" className="opacity-60 hover:opacity-100">Score Calc</Link>
           </div>
@@ -201,29 +202,41 @@ export default function SectionPage() {
                 Start a case →
               </div>
             </Link>
-          ) : (
-            <div className="p-8 bg-[#f5f1ea] flex flex-col gap-3 cursor-not-allowed opacity-70">
+         ) : (
+            <Link
+              href="/section/cars/strategy"
+              className="p-8 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group"
+            >
               <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-50">Action 03</div>
               <div className="font-serif text-[28px] font-medium tracking-tight leading-tight">CARS strategy</div>
-              <div className="text-[13px] opacity-65 leading-relaxed">Dedicated CARS tips and pacing drills — coming soon.</div>
-            </div>
+              <div className="text-[13px] opacity-65 leading-relaxed">Reading technique, question types, trap patterns, pacing — the complete CARS guide.</div>
+              <div className="mt-2 font-mono text-[11px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
+                Open guide →
+              </div>
+            </Link>
           )}
         </section>
 
         <section className="grid grid-cols-1 md:grid-cols-2 gap-px bg-[#0c1a2e15] border-t border-[#0c1a2e15]">
-          <div className="p-8 bg-[#f5f1ea] flex items-center gap-5 cursor-not-allowed opacity-65">
-            <div className="w-10 h-10 rounded-full border-2 border-[#0c1a2e25] flex items-center justify-center flex-shrink-0">
+          <Link
+            href={`/flashcards/${section.id}`}
+            className="p-8 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex items-center gap-5 group"
+          >
+            <div className="w-10 h-10 rounded-full border-2 border-[#0c1a2e25] flex items-center justify-center flex-shrink-0 group-hover:border-[#0c1a2e]">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <rect x="3" y="4" width="18" height="16" rx="2" />
                 <line x1="8" y1="10" x2="16" y2="10" />
                 <line x1="8" y1="14" x2="13" y2="14" />
               </svg>
             </div>
-            <div>
+            <div className="flex-1">
               <div className="font-serif text-xl font-medium">Flashcards</div>
-              <div className="text-[13px] opacity-65">High-yield {section.shortName} flashcards — coming soon</div>
+              <div className="text-[13px] opacity-65">High-yield {section.shortName} flashcards. AI-generated decks.</div>
             </div>
-          </div>
+            <div className="font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
+              Start →
+            </div>
+          </Link>
           <div className="p-8 bg-[#f5f1ea] flex items-center gap-5 cursor-not-allowed opacity-65">
             <div className="w-10 h-10 rounded-full border-2 border-[#0c1a2e25] flex items-center justify-center flex-shrink-0">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

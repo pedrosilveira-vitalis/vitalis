@@ -58,14 +58,7 @@ function Logo() {
   return (
     <div className="flex items-center gap-2.5">
       <svg width="32" height="18" viewBox="0 0 60 28" fill="none" className="flex-shrink-0">
-        <path
-          d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14"
-          stroke="#a8324a"
-          strokeWidth="2.4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          fill="none"
-        />
+        <path d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14" stroke="#a8324a" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
         <circle cx="50" cy="14" r="2.2" fill="#a8324a" />
       </svg>
       <span className="font-serif font-semibold text-xl tracking-tight text-[#0c1a2e]">Vitalis</span>
@@ -351,6 +344,7 @@ export default function VoiceCasesPage() {
             <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
             <Link href="/tutor" className="opacity-60 hover:opacity-100">Tutor</Link>
             <Link href="/practice" className="opacity-60 hover:opacity-100">Practice</Link>
+            <Link href="/flashcards" className="opacity-60 hover:opacity-100">Flashcards</Link>
             <Link href="/voice-cases" className="opacity-100 border-b border-[#a8324a] pb-0.5">Voice Cases</Link>
             <Link href="/score-calculator" className="opacity-60 hover:opacity-100">Score Calc</Link>
           </div>

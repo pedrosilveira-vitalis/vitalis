@@ -91,6 +91,7 @@ export default function PracticePage() {
             <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
             <Link href="/tutor" className="opacity-60 hover:opacity-100">Tutor</Link>
             <Link href="/practice" className="opacity-100 border-b border-[#a8324a] pb-0.5">Practice</Link>
+            <Link href="/flashcards" className="opacity-60 hover:opacity-100">Flashcards</Link>
             <Link href="/voice-cases" className="opacity-60 hover:opacity-100">Voice Cases</Link>
             <Link href="/score-calculator" className="opacity-60 hover:opacity-100">Score Calc</Link>
           </div>
