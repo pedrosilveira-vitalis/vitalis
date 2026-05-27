@@ -1,0 +1,2002 @@
+[
+  {
+    "unitId": 1,
+    "section": "bio-biochem",
+    "unitTitle": "Biochemistry Foundations",
+    "lessonNumber": 1,
+    "title": "Amino Acid Structure and Chemical Properties",
+    "description": "Covers the general structure of amino acids including the central carbon, amino group, carboxyl group, and R-group, along with how side chain chemistry determines amino acid classification."
+  },
+  {
+    "unitId": 1,
+    "section": "bio-biochem",
+    "unitTitle": "Biochemistry Foundations",
+    "lessonNumber": 2,
+    "title": "The 20 Standard Amino Acids: Identity, Classification, and Function",
+    "description": "Systematically examines all 20 proteinogenic amino acids grouped by side chain polarity, charge, and aromaticity, with emphasis on MCAT-relevant properties and one-letter codes."
+  },
+  {
+    "unitId": 1,
+    "section": "bio-biochem",
+    "unitTitle": "Biochemistry Foundations",
+    "lessonNumber": 3,
+    "title": "Acid-Base Chemistry of Amino Acids: pKa, pI, and Titration",
+    "description": "Explains the ionization states of amino acid functional groups, how to calculate isoelectric point, and how to interpret titration curves for simple and complex amino acids."
+  },
+  {
+    "unitId": 1,
+    "section": "bio-biochem",
+    "unitTitle": "Biochemistry Foundations",
+    "lessonNumber": 4,
+    "title": "Peptide Bond Formation and the Primary Structure of Proteins",
+    "description": "Describes the condensation reaction that forms peptide bonds, the resulting resonance and planarity of the peptide bond, and how amino acid sequence encodes biological information."
+  },
+  {
+    "unitId": 1,
+    "section": "bio-biochem",
+    "unitTitle": "Biochemistry Foundations",
+    "lessonNumber": 5,
+    "title": "Protein Secondary Structure: Alpha Helices and Beta Sheets",
+    "description": "Details the hydrogen-bonding patterns, geometric constraints, and stabilizing forces that give rise to alpha helices, beta sheets, and beta turns as recurring structural motifs."
+  },
+  {
+    "unitId": 1,
+    "section": "bio-biochem",
+    "unitTitle": "Biochemistry Foundations",
+    "lessonNumber": 6,
+    "title": "Protein Tertiary and Quaternary Structure: Folding and Assembly",
+    "description": "Examines the noncovalent and covalent interactions driving three-dimensional protein folding, domain organization, and the assembly of multi-subunit quaternary complexes."
+  },
+  {
+    "unitId": 1,
+    "section": "bio-biochem",
+    "unitTitle": "Biochemistry Foundations",
+    "lessonNumber": 7,
+    "title": "Protein Stability, Denaturation, and Chaperone-Assisted Folding",
+    "description": "Analyzes the thermodynamic basis of protein stability, the conditions and agents that cause denaturation, and the role of molecular chaperones in ensuring correct folding in vivo."
+  },
+  {
+    "unitId": 1,
+    "section": "bio-biochem",
+    "unitTitle": "Biochemistry Foundations",
+    "lessonNumber": 8,
+    "title": "Protein Function: Binding, Specificity, and Conformational Change",
+    "description": "Explores how protein three-dimensional structure underlies ligand binding, structural specificity, allosteric regulation, and conformational transitions relevant to signaling and catalysis."
+  },
+  {
+    "unitId": 1,
+    "section": "bio-biochem",
+    "unitTitle": "Biochemistry Foundations",
+    "lessonNumber": 9,
+    "title": "Hemoglobin and Myoglobin: Oxygen Binding as a Model of Protein Function",
+    "description": "Uses hemoglobin and myoglobin as detailed case studies to illustrate cooperative binding, the Bohr effect, allosteric regulation, and structure-function relationships in physiologically important proteins."
+  },
+  {
+    "unitId": 1,
+    "section": "bio-biochem",
+    "unitTitle": "Biochemistry Foundations",
+    "lessonNumber": 10,
+    "title": "Post-Translational Modifications and Protein Diversity",
+    "description": "Surveys major post-translational modifications including phosphorylation, glycosylation, ubiquitination, and proteolytic cleavage, explaining how they expand proteome diversity and regulate protein activity."
+  },
+  {
+    "unitId": 2,
+    "section": "bio-biochem",
+    "unitTitle": "Enzymes",
+    "lessonNumber": 1,
+    "title": "Enzyme Fundamentals: Structure, Active Sites, and the Basis of Catalysis",
+    "description": "Covers the chemical nature of enzymes as biological catalysts, the structural features of active sites, and how enzymes lower activation energy without altering reaction equilibrium."
+  },
+  {
+    "unitId": 2,
+    "section": "bio-biochem",
+    "unitTitle": "Enzymes",
+    "lessonNumber": 2,
+    "title": "Enzyme-Substrate Interactions: Lock-and-Key vs. Induced Fit Models",
+    "description": "Examines the molecular basis of substrate specificity, contrasting the lock-and-key and induced fit models, and explains how non-covalent interactions drive enzyme-substrate complex formation."
+  },
+  {
+    "unitId": 2,
+    "section": "bio-biochem",
+    "unitTitle": "Enzymes",
+    "lessonNumber": 3,
+    "title": "Enzyme Kinetics: Michaelis-Menten Theory and Key Parameters",
+    "description": "Derives and applies the Michaelis-Menten equation, defining Km, Vmax, and kcat, and explains how to interpret these parameters from experimental velocity-versus-substrate concentration curves."
+  },
+  {
+    "unitId": 2,
+    "section": "bio-biochem",
+    "unitTitle": "Enzymes",
+    "lessonNumber": 4,
+    "title": "Lineweaver-Burk Plots and Experimental Analysis of Enzyme Kinetics",
+    "description": "Introduces the double-reciprocal (Lineweaver-Burk) plot as a tool for linearizing kinetic data and accurately determining Km and Vmax from experimental results."
+  },
+  {
+    "unitId": 2,
+    "section": "bio-biochem",
+    "unitTitle": "Enzymes",
+    "lessonNumber": 5,
+    "title": "Enzyme Inhibition: Competitive, Noncompetitive, and Uncompetitive Mechanisms",
+    "description": "Distinguishes among the major classes of enzyme inhibition, explaining how each type alters Km and Vmax and how inhibitors are identified using kinetic data and Lineweaver-Burk plots."
+  },
+  {
+    "unitId": 2,
+    "section": "bio-biochem",
+    "unitTitle": "Enzymes",
+    "lessonNumber": 6,
+    "title": "Cofactors, Coenzymes, and the Role of Vitamins in Enzyme Function",
+    "description": "Describes how inorganic cofactors and organic coenzymes (many derived from vitamins) are essential for enzyme activity, with emphasis on clinically relevant examples such as NAD+, FAD, and coenzyme A."
+  },
+  {
+    "unitId": 2,
+    "section": "bio-biochem",
+    "unitTitle": "Enzymes",
+    "lessonNumber": 7,
+    "title": "Allosteric Regulation and Cooperative Enzyme Behavior",
+    "description": "Explains how allosteric enzymes deviate from Michaelis-Menten kinetics, covering cooperative binding, sigmoidal curves, and the roles of allosteric activators and inhibitors in metabolic control."
+  },
+  {
+    "unitId": 2,
+    "section": "bio-biochem",
+    "unitTitle": "Enzymes",
+    "lessonNumber": 8,
+    "title": "Enzyme Regulation in Metabolic Context: Feedback Inhibition, Covalent Modification, and Zymogen Activation",
+    "description": "Integrates regulatory mechanisms including feedback inhibition, phosphorylation-based control, and proteolytic zymogen activation to show how cells coordinate enzyme activity across entire metabolic pathways."
+  },
+  {
+    "unitId": 3,
+    "section": "bio-biochem",
+    "unitTitle": "Cellular Metabolism",
+    "lessonNumber": 1,
+    "title": "Overview of Cellular Metabolism and Bioenergetics",
+    "description": "Introduces the fundamental principles of energy transformation in cells, including ATP as the universal energy currency, oxidation-reduction reactions, and the overall flow of energy through catabolic pathways."
+  },
+  {
+    "unitId": 3,
+    "section": "bio-biochem",
+    "unitTitle": "Cellular Metabolism",
+    "lessonNumber": 2,
+    "title": "Glycolysis: Converting Glucose to Pyruvate",
+    "description": "Covers the ten enzymatic steps of glycolysis, the investment and payoff phases, net ATP and NADH production, and the key regulatory enzymes that control glucose catabolism."
+  },
+  {
+    "unitId": 3,
+    "section": "bio-biochem",
+    "unitTitle": "Cellular Metabolism",
+    "lessonNumber": 3,
+    "title": "Regulation of Glycolysis and Allosteric Control",
+    "description": "Examines how phosphofructokinase-1, hexokinase, and pyruvate kinase are regulated by allosteric effectors, feedback inhibition, and hormonal signals to match glycolytic flux to cellular energy demand."
+  },
+  {
+    "unitId": 3,
+    "section": "bio-biochem",
+    "unitTitle": "Cellular Metabolism",
+    "lessonNumber": 4,
+    "title": "Pyruvate Oxidation and Acetyl-CoA Formation",
+    "description": "Details the pyruvate dehydrogenase complex reaction, its cofactors, the irreversible decarboxylation of pyruvate, and how this committed step links glycolysis to the citric acid cycle."
+  },
+  {
+    "unitId": 3,
+    "section": "bio-biochem",
+    "unitTitle": "Cellular Metabolism",
+    "lessonNumber": 5,
+    "title": "The Citric Acid Cycle: Reactions and Enzymes",
+    "description": "Traces all eight steps of the Krebs cycle, identifying the enzymes, substrates, products, and the yield of NADH, FADH2, GTP, and CO2 per acetyl-CoA oxidized."
+  },
+  {
+    "unitId": 3,
+    "section": "bio-biochem",
+    "unitTitle": "Cellular Metabolism",
+    "lessonNumber": 6,
+    "title": "Regulation and Amphibolic Roles of the Citric Acid Cycle",
+    "description": "Explores allosteric regulation of citrate synthase, isocitrate dehydrogenase, and alpha-ketoglutarate dehydrogenase, and explains how the cycle serves as a hub for both catabolism and anabolic biosynthetic pathways."
+  },
+  {
+    "unitId": 3,
+    "section": "bio-biochem",
+    "unitTitle": "Cellular Metabolism",
+    "lessonNumber": 7,
+    "title": "The Electron Transport Chain: Complexes and Electron Flow",
+    "description": "Describes the four protein complexes of the inner mitochondrial membrane, the sequential transfer of electrons from NADH and FADH2 to molecular oxygen, and the resulting proton gradient across the membrane."
+  },
+  {
+    "unitId": 3,
+    "section": "bio-biochem",
+    "unitTitle": "Cellular Metabolism",
+    "lessonNumber": 8,
+    "title": "ATP Synthase and Oxidative Phosphorylation",
+    "description": "Explains the chemiosmotic theory, the rotational mechanism of ATP synthase (Complex V), the P/O ratios for NADH and FADH2, and how the proton-motive force drives the synthesis of the majority of cellular ATP."
+  },
+  {
+    "unitId": 3,
+    "section": "bio-biochem",
+    "unitTitle": "Cellular Metabolism",
+    "lessonNumber": 9,
+    "title": "Fermentation and Anaerobic Metabolism",
+    "description": "Compares lactic acid and alcoholic fermentation pathways, explains how NAD+ regeneration sustains glycolysis under anaerobic conditions, and discusses the Pasteur effect and physiological contexts for anaerobic ATP production."
+  },
+  {
+    "unitId": 3,
+    "section": "bio-biochem",
+    "unitTitle": "Cellular Metabolism",
+    "lessonNumber": 10,
+    "title": "Integration of Carbohydrate, Fat, and Protein Catabolism",
+    "description": "Explains how fatty acid beta-oxidation and amino acid catabolism feed acetyl-CoA and citric acid cycle intermediates into central metabolism, and how the cell coordinates fuel selection based on energy status."
+  },
+  {
+    "unitId": 3,
+    "section": "bio-biochem",
+    "unitTitle": "Cellular Metabolism",
+    "lessonNumber": 11,
+    "title": "Gluconeogenesis and Its Reciprocal Regulation with Glycolysis",
+    "description": "Details the unique bypass reactions of gluconeogenesis, the gluconeogenic substrates, the role of key enzymes such as PEPCK and fructose-1,6-bisphosphatase, and the hormonal and allosteric mechanisms that reciprocally regulate glucose synthesis and breakdown."
+  },
+  {
+    "unitId": 3,
+    "section": "bio-biochem",
+    "unitTitle": "Cellular Metabolism",
+    "lessonNumber": 12,
+    "title": "Metabolic Control and Whole-Body Energy Homeostasis",
+    "description": "Synthesizes how insulin, glucagon, and AMP-activated protein kinase coordinate glycolysis, gluconeogenesis, glycogen metabolism, and the citric acid cycle across liver, muscle, and brain to maintain whole-body glucose and energy balance."
+  },
+  {
+    "unitId": 4,
+    "section": "bio-biochem",
+    "unitTitle": "Molecular Biology",
+    "lessonNumber": 1,
+    "title": "DNA Structure and the Chemical Basis of Heredity",
+    "description": "Covers the double-helical structure of DNA, nucleotide composition, base-pairing rules, and how the molecular architecture of DNA enables faithful storage and transmission of genetic information."
+  },
+  {
+    "unitId": 4,
+    "section": "bio-biochem",
+    "unitTitle": "Molecular Biology",
+    "lessonNumber": 2,
+    "title": "DNA Replication: Mechanism and Machinery",
+    "description": "Examines the enzymes and protein complexes involved in prokaryotic and eukaryotic DNA replication, including helicase, primase, DNA polymerase, ligase, and the coordinated steps of leading- and lagging-strand synthesis."
+  },
+  {
+    "unitId": 4,
+    "section": "bio-biochem",
+    "unitTitle": "Molecular Biology",
+    "lessonNumber": 3,
+    "title": "Fidelity, Repair, and Telomere Maintenance in DNA Replication",
+    "description": "Explores proofreading by DNA polymerase, mismatch repair, nucleotide and base excision repair pathways, and the role of telomerase in maintaining chromosome ends during repeated rounds of replication."
+  },
+  {
+    "unitId": 4,
+    "section": "bio-biochem",
+    "unitTitle": "Molecular Biology",
+    "lessonNumber": 4,
+    "title": "Transcription: From DNA Template to RNA Transcript",
+    "description": "Details the mechanism of RNA synthesis in prokaryotes and eukaryotes, covering RNA polymerase function, promoter recognition, initiation, elongation, and termination of transcription."
+  },
+  {
+    "unitId": 4,
+    "section": "bio-biochem",
+    "unitTitle": "Molecular Biology",
+    "lessonNumber": 5,
+    "title": "RNA Processing and the Journey from Pre-mRNA to Mature mRNA",
+    "description": "Describes eukaryotic post-transcriptional modifications including 5' capping, 3' polyadenylation, and spliceosome-mediated removal of introns, explaining how these steps protect mRNA and facilitate nuclear export and translation."
+  },
+  {
+    "unitId": 4,
+    "section": "bio-biochem",
+    "unitTitle": "Molecular Biology",
+    "lessonNumber": 6,
+    "title": "The Genetic Code and Transfer RNA: Decoding the Message",
+    "description": "Analyzes the properties of the genetic code—degeneracy, universality, and non-overlapping codons—alongside tRNA structure, aminoacyl-tRNA synthetase specificity, and the wobble hypothesis that governs codon-anticodon pairing."
+  },
+  {
+    "unitId": 4,
+    "section": "bio-biochem",
+    "unitTitle": "Molecular Biology",
+    "lessonNumber": 7,
+    "title": "Translation: Ribosome Function and Protein Synthesis",
+    "description": "Covers the structure of prokaryotic and eukaryotic ribosomes, the molecular events of translation initiation, elongation, and termination, and the role of GTP-dependent elongation factors in peptide bond formation and translocation."
+  },
+  {
+    "unitId": 4,
+    "section": "bio-biochem",
+    "unitTitle": "Molecular Biology",
+    "lessonNumber": 8,
+    "title": "Post-Translational Modification, Protein Folding, and Targeting",
+    "description": "Examines how newly synthesized polypeptides are processed through cleavage, glycosylation, phosphorylation, and ubiquitination, and how signal sequences direct proteins to their correct cellular compartments."
+  },
+  {
+    "unitId": 4,
+    "section": "bio-biochem",
+    "unitTitle": "Molecular Biology",
+    "lessonNumber": 9,
+    "title": "Prokaryotic Gene Regulation: Operons and Transcriptional Control",
+    "description": "Explains mechanisms of gene regulation in bacteria, focusing on the lac and trp operons as models of negative and positive control, catabolite repression, and attenuation as strategies for coordinating metabolic gene expression."
+  },
+  {
+    "unitId": 4,
+    "section": "bio-biochem",
+    "unitTitle": "Molecular Biology",
+    "lessonNumber": 10,
+    "title": "Eukaryotic Gene Regulation: Chromatin Remodeling, Transcription Factors, and RNA-Level Control",
+    "description": "Explores multilevel regulation of eukaryotic gene expression including histone modification, DNA methylation, enhancer-promoter interactions, combinatorial transcription factor action, and post-transcriptional control by microRNAs and RNA interference."
+  },
+  {
+    "unitId": 5,
+    "section": "bio-biochem",
+    "unitTitle": "Genetics",
+    "lessonNumber": 1,
+    "title": "Mendelian Inheritance: Laws of Segregation and Independent Assortment",
+    "description": "Covers Mendel's foundational experiments, the law of segregation, the law of independent assortment, and how these principles predict offspring genotype and phenotype ratios."
+  },
+  {
+    "unitId": 5,
+    "section": "bio-biochem",
+    "unitTitle": "Genetics",
+    "lessonNumber": 2,
+    "title": "Extensions of Mendelian Genetics: Dominance Patterns and Gene Interactions",
+    "description": "Examines incomplete dominance, codominance, pleiotropy, epistasis, and polygenic inheritance as deviations from simple Mendelian ratios."
+  },
+  {
+    "unitId": 5,
+    "section": "bio-biochem",
+    "unitTitle": "Genetics",
+    "lessonNumber": 3,
+    "title": "Chromosomal Basis of Inheritance and Linkage",
+    "description": "Explains how genes are physically located on chromosomes, the concept of genetic linkage, recombination frequency, and how to construct basic linkage maps."
+  },
+  {
+    "unitId": 5,
+    "section": "bio-biochem",
+    "unitTitle": "Genetics",
+    "lessonNumber": 4,
+    "title": "Sex-Linked Inheritance and Sex Determination",
+    "description": "Covers X-linked and Y-linked inheritance patterns, sex determination mechanisms, dosage compensation through X-inactivation, and solving sex-linked pedigree problems."
+  },
+  {
+    "unitId": 5,
+    "section": "bio-biochem",
+    "unitTitle": "Genetics",
+    "lessonNumber": 5,
+    "title": "Pedigree Analysis and Patterns of Disease Transmission",
+    "description": "Teaches systematic interpretation of pedigrees to identify autosomal dominant, autosomal recessive, X-linked dominant, and X-linked recessive inheritance patterns in families."
+  },
+  {
+    "unitId": 5,
+    "section": "bio-biochem",
+    "unitTitle": "Genetics",
+    "lessonNumber": 6,
+    "title": "Mutations: Types, Causes, and Molecular Consequences",
+    "description": "Describes point mutations, frameshift mutations, chromosomal mutations, and their molecular consequences including silent, missense, nonsense, and splice-site effects on protein function."
+  },
+  {
+    "unitId": 5,
+    "section": "bio-biochem",
+    "unitTitle": "Genetics",
+    "lessonNumber": 7,
+    "title": "DNA Repair Mechanisms and Mutagenesis",
+    "description": "Covers the major DNA repair pathways including base excision repair, nucleotide excision repair, and mismatch repair, and explains how repair failures contribute to heritable disease and cancer."
+  },
+  {
+    "unitId": 5,
+    "section": "bio-biochem",
+    "unitTitle": "Genetics",
+    "lessonNumber": 8,
+    "title": "Population Genetics: Hardy-Weinberg Equilibrium and Allele Frequencies",
+    "description": "Introduces the Hardy-Weinberg principle, its assumptions, and how to calculate allele and genotype frequencies to assess whether a population is evolving."
+  },
+  {
+    "unitId": 5,
+    "section": "bio-biochem",
+    "unitTitle": "Genetics",
+    "lessonNumber": 9,
+    "title": "Evolutionary Forces and Genetic Variation in Populations",
+    "description": "Examines how natural selection, genetic drift, gene flow, mutation, and non-random mating alter allele frequencies and drive population-level genetic change over time."
+  },
+  {
+    "unitId": 6,
+    "section": "bio-biochem",
+    "unitTitle": "Cell Biology",
+    "lessonNumber": 1,
+    "title": "Membrane Structure and the Fluid Mosaic Model",
+    "description": "Covers the composition and dynamic organization of the phospholipid bilayer, membrane proteins, cholesterol, and glycolipids as the structural foundation for all membrane-based processes."
+  },
+  {
+    "unitId": 6,
+    "section": "bio-biochem",
+    "unitTitle": "Cell Biology",
+    "lessonNumber": 2,
+    "title": "Passive Transport: Diffusion, Osmosis, and Facilitated Diffusion",
+    "description": "Examines the thermodynamic principles driving passive movement of solutes and water across membranes, including the roles of channel proteins and carrier proteins."
+  },
+  {
+    "unitId": 6,
+    "section": "bio-biochem",
+    "unitTitle": "Cell Biology",
+    "lessonNumber": 3,
+    "title": "Active Transport: Pumps, Gradients, and Energy Coupling",
+    "description": "Explores primary and secondary active transport mechanisms, including the Na⁺/K⁺-ATPase, symporters, and antiporters, and how electrochemical gradients are established and exploited."
+  },
+  {
+    "unitId": 6,
+    "section": "bio-biochem",
+    "unitTitle": "Cell Biology",
+    "lessonNumber": 4,
+    "title": "Bulk Transport: Endocytosis, Exocytosis, and Vesicular Trafficking",
+    "description": "Details the mechanisms by which cells internalize and secrete large molecules through clathrin-mediated endocytosis, phagocytosis, pinocytosis, and regulated exocytosis."
+  },
+  {
+    "unitId": 6,
+    "section": "bio-biochem",
+    "unitTitle": "Cell Biology",
+    "lessonNumber": 5,
+    "title": "Membrane Potential and Electrochemical Gradients",
+    "description": "Analyzes how ion concentration differences and selective permeability generate membrane potentials, with emphasis on the Nernst equation and the resting membrane potential in non-excitable cells."
+  },
+  {
+    "unitId": 6,
+    "section": "bio-biochem",
+    "unitTitle": "Cell Biology",
+    "lessonNumber": 6,
+    "title": "Cell Signaling: Receptors, Ligands, and Signal Transduction Pathways",
+    "description": "Introduces the major classes of cell surface and intracellular receptors, second messenger systems including cAMP and IP₃/DAG, and the principles of signal amplification and specificity."
+  },
+  {
+    "unitId": 6,
+    "section": "bio-biochem",
+    "unitTitle": "Cell Biology",
+    "lessonNumber": 7,
+    "title": "G Protein-Coupled Receptors and Enzyme-Linked Receptors",
+    "description": "Provides an in-depth comparison of GPCR signaling cascades and receptor tyrosine kinase pathways, including downstream effectors such as MAPK and PI3K/Akt."
+  },
+  {
+    "unitId": 6,
+    "section": "bio-biochem",
+    "unitTitle": "Cell Biology",
+    "lessonNumber": 8,
+    "title": "The Cell Cycle: Phases, Checkpoints, and Cyclins",
+    "description": "Describes the sequential phases of the eukaryotic cell cycle, the molecular machinery of cyclin-CDK complexes, and the G1/S, G2/M, and spindle assembly checkpoints that ensure genomic fidelity."
+  },
+  {
+    "unitId": 6,
+    "section": "bio-biochem",
+    "unitTitle": "Cell Biology",
+    "lessonNumber": 9,
+    "title": "Mitosis and Cytokinesis: Mechanisms of Cell Division",
+    "description": "Examines the stages of mitosis from prophase through telophase, the role of the mitotic spindle and kinetochores, and the contractile ring mechanism of cytokinesis."
+  },
+  {
+    "unitId": 6,
+    "section": "bio-biochem",
+    "unitTitle": "Cell Biology",
+    "lessonNumber": 10,
+    "title": "Apoptosis: Intrinsic and Extrinsic Pathways of Programmed Cell Death",
+    "description": "Covers the molecular triggers, caspase activation cascades, Bcl-2 family regulation, and physiological significance of both the mitochondria-mediated intrinsic pathway and the death receptor-mediated extrinsic pathway."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 1,
+    "title": "Cardiac Anatomy and the Cardiac Cycle",
+    "description": "Covers the structural organization of the heart, pressure-volume relationships, and the mechanical events of systole and diastole that drive blood through pulmonary and systemic circuits."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 2,
+    "title": "Electrical Conduction and the Electrocardiogram",
+    "description": "Examines the generation and propagation of cardiac action potentials through the conduction system and how these electrical events are recorded and interpreted on a standard ECG."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 3,
+    "title": "Cardiac Output, Preload, and Afterload",
+    "description": "Analyzes the determinants of cardiac output including heart rate, stroke volume, venous return, and vascular resistance, with emphasis on Frank-Starling mechanics and their physiological significance."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 4,
+    "title": "Vascular Physiology and Blood Pressure Regulation",
+    "description": "Explores the structural and functional properties of arteries, capillaries, and veins, and the hemodynamic principles governing blood flow, resistance, and arterial blood pressure."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 5,
+    "title": "Short-Term and Long-Term Blood Pressure Control",
+    "description": "Describes the baroreceptor reflex, chemoreceptor inputs, and hormonal mechanisms including the renin-angiotensin-aldosterone system that regulate blood pressure across different timescales."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 6,
+    "title": "Capillary Exchange and the Lymphatic System",
+    "description": "Details the Starling forces governing fluid and solute movement across capillary walls, the role of osmotic and hydrostatic pressures, and how the lymphatic system maintains interstitial fluid balance."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 7,
+    "title": "Mechanics of Breathing and Pulmonary Volumes",
+    "description": "Covers the mechanics of ventilation including the roles of the diaphragm and accessory muscles, lung compliance, airway resistance, and the standard pulmonary function volumes and capacities."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 8,
+    "title": "Gas Exchange and Oxygen Transport in the Blood",
+    "description": "Examines alveolar gas exchange via Fick's law of diffusion, the oxygen-hemoglobin dissociation curve, and the physiological factors that shift oxygen affinity and influence tissue oxygen delivery."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 9,
+    "title": "Carbon Dioxide Transport and Acid-Base Balance",
+    "description": "Analyzes the three mechanisms of CO2 transport in blood, the bicarbonate buffer system, and the classification and compensation of respiratory and metabolic acid-base disturbances."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 10,
+    "title": "Renal Filtration, Reabsorption, and Secretion",
+    "description": "Describes nephron anatomy, the forces governing glomerular filtration rate, and the segment-specific mechanisms of tubular reabsorption and secretion that determine final urine composition."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 11,
+    "title": "Renal Regulation of Fluid, Electrolytes, and Osmolarity",
+    "description": "Covers the countercurrent multiplier and exchanger mechanisms, the actions of ADH and aldosterone, and how the kidney precisely regulates plasma osmolarity, sodium balance, and extracellular fluid volume."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 12,
+    "title": "Endocrine Pancreas and Glucose Homeostasis",
+    "description": "Examines the synthesis and secretion of insulin and glucagon, their opposing metabolic effects on target tissues, and the integrated hormonal response to fed and fasted states."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 13,
+    "title": "Hypothalamic-Pituitary Axes and Feedback Control",
+    "description": "Details the structural and functional organization of the hypothalamic-pituitary system, including the HPA, HPT, and HPG axes, with emphasis on negative feedback loops and hormone cascades."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 14,
+    "title": "Autonomic Nervous System Integration of Organ Function",
+    "description": "Analyzes the sympathetic and parasympathetic divisions of the autonomic nervous system, their neurotransmitters and receptors, and how autonomic tone coordinates cardiovascular, respiratory, and digestive responses."
+  },
+  {
+    "unitId": 7,
+    "section": "bio-biochem",
+    "unitTitle": "Physiology",
+    "lessonNumber": 15,
+    "title": "Integrated Physiological Responses to Exercise and Hemorrhage",
+    "description": "Synthesizes cardiovascular, respiratory, renal, endocrine, and neural adaptations during aerobic exercise and hypovolemic shock, illustrating how organ systems communicate to maintain homeostasis under physiological stress."
+  },
+  {
+    "unitId": 8,
+    "section": "bio-biochem",
+    "unitTitle": "Immunology",
+    "lessonNumber": 1,
+    "title": "Overview of the Immune System: Innate vs. Adaptive Immunity",
+    "description": "Introduces the two branches of immunity, their key differences in speed and specificity, and how they coordinate to defend against pathogens."
+  },
+  {
+    "unitId": 8,
+    "section": "bio-biochem",
+    "unitTitle": "Immunology",
+    "lessonNumber": 2,
+    "title": "Innate Immunity: Physical Barriers, Phagocytes, and Inflammation",
+    "description": "Covers the first-line defenses including skin and mucous membranes, the roles of neutrophils and macrophages, and the cellular and molecular mechanisms driving the inflammatory response."
+  },
+  {
+    "unitId": 8,
+    "section": "bio-biochem",
+    "unitTitle": "Immunology",
+    "lessonNumber": 3,
+    "title": "Antibody Structure, Function, and the Five Immunoglobulin Classes",
+    "description": "Examines the molecular architecture of antibodies, the functional significance of variable and constant regions, and how IgG, IgM, IgA, IgD, and IgE differ in location and role."
+  },
+  {
+    "unitId": 8,
+    "section": "bio-biochem",
+    "unitTitle": "Immunology",
+    "lessonNumber": 4,
+    "title": "B Cells, Humoral Immunity, and Antibody Diversity",
+    "description": "Explains B cell activation, clonal selection, somatic recombination and V(D)J joining as sources of antibody diversity, and the distinction between primary and secondary immune responses."
+  },
+  {
+    "unitId": 8,
+    "section": "bio-biochem",
+    "unitTitle": "Immunology",
+    "lessonNumber": 5,
+    "title": "T Cells, Cell-Mediated Immunity, and MHC Molecules",
+    "description": "Details the development and activation of helper and cytotoxic T cells, the roles of MHC class I and II in antigen presentation, and how cell-mediated immunity eliminates infected or cancerous cells."
+  },
+  {
+    "unitId": 8,
+    "section": "bio-biochem",
+    "unitTitle": "Immunology",
+    "lessonNumber": 6,
+    "title": "Immune Tolerance, Immunological Memory, and Hypersensitivity",
+    "description": "Explores how the immune system distinguishes self from non-self through central and peripheral tolerance, the cellular basis of long-term immunological memory, and the mechanisms underlying allergic and autoimmune hypersensitivity reactions."
+  },
+  {
+    "unitId": 9,
+    "section": "bio-biochem",
+    "unitTitle": "Microbiology",
+    "lessonNumber": 1,
+    "title": "Bacterial Cell Architecture and Classification",
+    "description": "Covers prokaryotic cell structure including cell walls, membranes, flagella, and pili, along with Gram staining, taxonomic classification, and the structural differences between gram-positive and gram-negative bacteria."
+  },
+  {
+    "unitId": 9,
+    "section": "bio-biochem",
+    "unitTitle": "Microbiology",
+    "lessonNumber": 2,
+    "title": "Bacterial Genetics, Reproduction, and Metabolic Diversity",
+    "description": "Examines binary fission, generation time, horizontal gene transfer mechanisms (transformation, transduction, conjugation), plasmids, and the range of bacterial metabolic strategies including aerobic, anaerobic, and chemolithotrophic pathways."
+  },
+  {
+    "unitId": 9,
+    "section": "bio-biochem",
+    "unitTitle": "Microbiology",
+    "lessonNumber": 3,
+    "title": "Viral Structure, Classification, and Replication Cycles",
+    "description": "Details the components of viruses including capsids, envelopes, and nucleic acid genomes, and contrasts the lytic and lysogenic cycles of bacteriophages with the replication strategies of animal viruses including retroviruses and DNA viruses."
+  },
+  {
+    "unitId": 9,
+    "section": "bio-biochem",
+    "unitTitle": "Microbiology",
+    "lessonNumber": 4,
+    "title": "Fungi, Parasites, and Prions: Non-Bacterial Pathogens",
+    "description": "Explores the structural and reproductive characteristics of fungi, the life cycles and transmission of medically relevant parasites, and the molecular basis of prion diseases as examples of unconventional infectious agents tested on the MCAT."
+  },
+  {
+    "unitId": 9,
+    "section": "bio-biochem",
+    "unitTitle": "Microbiology",
+    "lessonNumber": 5,
+    "title": "Pathogenic Mechanisms, Immune Evasion, and Antimicrobial Strategies",
+    "description": "Analyzes how bacteria and viruses establish infection through virulence factors, toxin production, and immune evasion tactics, and connects these mechanisms to the targets and resistance profiles of major classes of antibiotics and antiviral agents."
+  },
+  {
+    "unitId": 26,
+    "section": "cars",
+    "unitTitle": "Reading Strategy",
+    "lessonNumber": 1,
+    "title": "Foundations of Active Reading: Engaging with CARS Passages Purposefully",
+    "description": "Introduces the core principles of active reading, explaining how to shift from passive consumption to deliberate engagement with MCAT CARS passages through annotation, questioning, and real-time comprehension monitoring."
+  },
+  {
+    "unitId": 26,
+    "section": "cars",
+    "unitTitle": "Reading Strategy",
+    "lessonNumber": 2,
+    "title": "Passage Mapping: Building a Structural Blueprint of Complex Texts",
+    "description": "Teaches students how to create concise, effective passage maps that capture the main idea, paragraph functions, and logical skeleton of CARS passages to support accurate and efficient question answering."
+  },
+  {
+    "unitId": 26,
+    "section": "cars",
+    "unitTitle": "Reading Strategy",
+    "lessonNumber": 3,
+    "title": "Tracking Author Voice: Identifying Tone, Bias, and Perspective",
+    "description": "Develops students' ability to detect subtle cues of author attitude, rhetorical stance, and point of view embedded in word choice, hedging language, and argumentative framing across diverse CARS passages."
+  },
+  {
+    "unitId": 26,
+    "section": "cars",
+    "unitTitle": "Reading Strategy",
+    "lessonNumber": 4,
+    "title": "Mapping Arguments: Recognizing Claims, Evidence, and Reasoning Structures",
+    "description": "Covers how to identify and diagram the logical architecture of CARS passages, including main claims, supporting evidence, counterarguments, and the inferential links that bind them together."
+  },
+  {
+    "unitId": 26,
+    "section": "cars",
+    "unitTitle": "Reading Strategy",
+    "lessonNumber": 5,
+    "title": "Navigating Multiple Voices: Distinguishing Author, Source, and Hypothetical Perspectives",
+    "description": "Addresses the advanced challenge of tracking when a passage shifts among the author's own views, cited sources, opposing viewpoints, and hypothetical scenarios, preventing misattribution errors on CARS questions."
+  },
+  {
+    "unitId": 26,
+    "section": "cars",
+    "unitTitle": "Reading Strategy",
+    "lessonNumber": 6,
+    "title": "Pacing and Triage: Strategic Time Management Across the CARS Section",
+    "description": "Equips students with concrete pacing strategies, passage triage frameworks, and adaptive decision-making skills to allocate time efficiently and maximize accuracy across all nine CARS passages under timed conditions."
+  },
+  {
+    "unitId": 27,
+    "section": "cars",
+    "unitTitle": "Question Types & Approach",
+    "lessonNumber": 1,
+    "title": "The CARS Question Taxonomy: An Overview of the Three Question Types",
+    "description": "Introduces the foundational framework of Foundations of Comprehension, Reasoning Within the Text, and Reasoning Beyond the Text question types, explaining how AAMC categorizes cognitive demands on the CARS section."
+  },
+  {
+    "unitId": 27,
+    "section": "cars",
+    "unitTitle": "Question Types & Approach",
+    "lessonNumber": 2,
+    "title": "Foundations of Comprehension: Mastering Direct and Inferential Retrieval",
+    "description": "Examines the structure and demands of Foundations of Comprehension questions, teaching students to locate explicit information and draw near-surface inferences directly supported by passage text."
+  },
+  {
+    "unitId": 27,
+    "section": "cars",
+    "unitTitle": "Question Types & Approach",
+    "lessonNumber": 3,
+    "title": "Reasoning Within the Text: Analyzing Arguments and Authorial Logic",
+    "description": "Covers Reasoning Within the Text questions by training students to identify implicit assumptions, evaluate the logical structure of arguments, and assess how individual passage components function within the author's overall reasoning."
+  },
+  {
+    "unitId": 27,
+    "section": "cars",
+    "unitTitle": "Question Types & Approach",
+    "lessonNumber": 4,
+    "title": "Reasoning Beyond the Text: Applying, Extending, and Challenging Passage Ideas",
+    "description": "Explores Reasoning Beyond the Text questions, teaching students to apply passage arguments to new scenarios, evaluate how hypothetical information would strengthen or weaken the author's claims, and extend authorial logic beyond the passage."
+  },
+  {
+    "unitId": 27,
+    "section": "cars",
+    "unitTitle": "Question Types & Approach",
+    "lessonNumber": 5,
+    "title": "Question Spotting: Identifying Question Type from Stem Language and Keywords",
+    "description": "Develops the diagnostic skill of rapidly classifying any CARS question into its correct type by analyzing characteristic stem phrasing, task verbs, and structural cues before reading the answer choices."
+  },
+  {
+    "unitId": 27,
+    "section": "cars",
+    "unitTitle": "Question Types & Approach",
+    "lessonNumber": 6,
+    "title": "Strategic Attack Plans: Tailoring Your Approach to Each Question Type",
+    "description": "Presents a distinct, step-by-step attack strategy for each of the three question types, detailing how passage engagement, answer elimination logic, and verification methods should differ based on the cognitive task demanded."
+  },
+  {
+    "unitId": 27,
+    "section": "cars",
+    "unitTitle": "Question Types & Approach",
+    "lessonNumber": 7,
+    "title": "Wrong Answer Pathology: Recognizing Trap Patterns Across All Three Question Types",
+    "description": "Catalogs the most common wrong answer categories—including out of scope, too extreme, opposite, and half-right traps—and explains how each trap type manifests differently depending on the question classification."
+  },
+  {
+    "unitId": 27,
+    "section": "cars",
+    "unitTitle": "Question Types & Approach",
+    "lessonNumber": 8,
+    "title": "Integrated Practice: Classifying, Attacking, and Reviewing Mixed Question Sets",
+    "description": "Synthesizes all prior lessons through structured practice with mixed question sets, training students to fluidly classify question type, execute the appropriate strategy, and conduct error analysis to reinforce mastery across all three categories."
+  },
+  {
+    "unitId": 28,
+    "section": "cars",
+    "unitTitle": "Passage Genres & Practice",
+    "lessonNumber": 1,
+    "title": "Anatomy of a CARS Passage: Structure, Voice, and Argument",
+    "description": "Examines the fundamental components shared across all CARS passage types, including how authors build arguments, establish tone, and signal rhetorical purpose."
+  },
+  {
+    "unitId": 28,
+    "section": "cars",
+    "unitTitle": "Passage Genres & Practice",
+    "lessonNumber": 2,
+    "title": "Navigating Philosophical Passages: Reasoning, Ethics, and Abstract Argument",
+    "description": "Covers the defining features of philosophy passages, including logical argumentation, ethical frameworks, and strategies for tracking abstract claims across dense prose."
+  },
+  {
+    "unitId": 28,
+    "section": "cars",
+    "unitTitle": "Passage Genres & Practice",
+    "lessonNumber": 3,
+    "title": "Reading Literary Criticism: Interpretation, Evidence, and Aesthetic Judgment",
+    "description": "Explores how literary criticism passages construct interpretive arguments about texts, use textual evidence, and employ specialized vocabulary around aesthetics and meaning."
+  },
+  {
+    "unitId": 28,
+    "section": "cars",
+    "unitTitle": "Passage Genres & Practice",
+    "lessonNumber": 4,
+    "title": "Historical Passages: Causation, Context, and Historiographical Debate",
+    "description": "Analyzes the structure of history passages, focusing on how historians argue for causal claims, situate events in context, and engage competing historical interpretations."
+  },
+  {
+    "unitId": 28,
+    "section": "cars",
+    "unitTitle": "Passage Genres & Practice",
+    "lessonNumber": 5,
+    "title": "Social Science Passages: Theory, Data, and Disciplinary Perspectives",
+    "description": "Breaks down social science passages from sociology, economics, psychology, and anthropology, emphasizing how authors move between theoretical claims and empirical evidence."
+  },
+  {
+    "unitId": 28,
+    "section": "cars",
+    "unitTitle": "Passage Genres & Practice",
+    "lessonNumber": 6,
+    "title": "Cross-Genre Mastery: Adapting Your Reading Strategy to Any Passage Type",
+    "description": "Synthesizes genre knowledge into a flexible, adaptive reading approach that allows students to rapidly identify passage type and deploy the most effective comprehension and question-answering strategies."
+  },
+  {
+    "unitId": 10,
+    "section": "chem-phys",
+    "unitTitle": "Acid-Base Chemistry",
+    "lessonNumber": 1,
+    "title": "Acids, Bases, and the Brønsted-Lowry Framework",
+    "description": "Defines acids and bases using Brønsted-Lowry and Lewis models, introduces conjugate acid-base pairs, and establishes the foundational language of proton-transfer chemistry."
+  },
+  {
+    "unitId": 10,
+    "section": "chem-phys",
+    "unitTitle": "Acid-Base Chemistry",
+    "lessonNumber": 2,
+    "title": "Water Autoionization, pH, and the pH Scale",
+    "description": "Derives the water dissociation constant Kw, develops the pH and pOH scales, and builds quantitative fluency in converting between hydrogen ion concentration and pH across acidic, neutral, and basic solutions."
+  },
+  {
+    "unitId": 10,
+    "section": "chem-phys",
+    "unitTitle": "Acid-Base Chemistry",
+    "lessonNumber": 3,
+    "title": "Weak Acids, Weak Bases, and Equilibrium Calculations",
+    "description": "Applies Ka and Kb expressions to weak acid and weak base equilibria, walks through ICE table methodology, and introduces the approximation shortcuts valid when dissociation is small."
+  },
+  {
+    "unitId": 10,
+    "section": "chem-phys",
+    "unitTitle": "Acid-Base Chemistry",
+    "lessonNumber": 4,
+    "title": "pKa, pKb, and Predicting Acid-Base Strength",
+    "description": "Connects Ka and pKa to molecular structure, examines how electronegativity, bond strength, resonance, induction, and hybridization govern acid strength, and introduces the inverse relationship between conjugate pair pKa and pKb values."
+  },
+  {
+    "unitId": 10,
+    "section": "chem-phys",
+    "unitTitle": "Acid-Base Chemistry",
+    "lessonNumber": 5,
+    "title": "Polyprotic Acids and Stepwise Dissociation",
+    "description": "Analyzes acids that donate more than one proton, demonstrates how successive Ka values decrease and why only the first dissociation dominates pH calculations, and applies these principles to biologically critical molecules such as phosphoric acid and amino acids."
+  },
+  {
+    "unitId": 10,
+    "section": "chem-phys",
+    "unitTitle": "Acid-Base Chemistry",
+    "lessonNumber": 6,
+    "title": "Buffer Solutions: Theory, Design, and the Henderson-Hasselbalch Equation",
+    "description": "Derives the Henderson-Hasselbalch equation from first principles, explains how buffers resist pH change through the common-ion effect, and covers optimal buffer selection, capacity, and the physiological relevance of the bicarbonate and phosphate buffer systems."
+  },
+  {
+    "unitId": 10,
+    "section": "chem-phys",
+    "unitTitle": "Acid-Base Chemistry",
+    "lessonNumber": 7,
+    "title": "Acid-Base Titrations and Titration Curves",
+    "description": "Traces the quantitative progression of strong-acid/strong-base and weak-acid/strong-base titrations, identifies equivalence points, half-equivalence points, and buffer regions on titration curves, and connects curve shape to the identity and strength of the analyte."
+  },
+  {
+    "unitId": 10,
+    "section": "chem-phys",
+    "unitTitle": "Acid-Base Chemistry",
+    "lessonNumber": 8,
+    "title": "Acid-Base Chemistry in Biological and Physiological Contexts",
+    "description": "Integrates pH, buffers, and titration concepts into human physiology, examining blood pH regulation, respiratory and metabolic acidosis and alkalosis, the role of hemoglobin as a buffer, and how enzyme activity depends on precise pH control."
+  },
+  {
+    "unitId": 11,
+    "section": "chem-phys",
+    "unitTitle": "Thermodynamics & Kinetics",
+    "lessonNumber": 1,
+    "title": "The First and Second Laws of Thermodynamics",
+    "description": "Covers the conservation of energy and the concept of entropy as a state function, establishing the foundational principles that govern all thermodynamic processes."
+  },
+  {
+    "unitId": 11,
+    "section": "chem-phys",
+    "unitTitle": "Thermodynamics & Kinetics",
+    "lessonNumber": 2,
+    "title": "Enthalpy and Thermochemistry",
+    "description": "Explores enthalpy as a measure of heat flow at constant pressure, including Hess's Law, standard enthalpies of formation, and calorimetry calculations."
+  },
+  {
+    "unitId": 11,
+    "section": "chem-phys",
+    "unitTitle": "Thermodynamics & Kinetics",
+    "lessonNumber": 3,
+    "title": "Entropy: Disorder, Probability, and the Third Law",
+    "description": "Examines entropy at the molecular level using Boltzmann's statistical interpretation, predicting entropy changes in reactions, and the implications of the Third Law of Thermodynamics."
+  },
+  {
+    "unitId": 11,
+    "section": "chem-phys",
+    "unitTitle": "Thermodynamics & Kinetics",
+    "lessonNumber": 4,
+    "title": "Gibbs Free Energy and Spontaneity",
+    "description": "Introduces the Gibbs free energy equation (ΔG = ΔH − TΔS) and uses it to predict reaction spontaneity under varying temperature and pressure conditions."
+  },
+  {
+    "unitId": 11,
+    "section": "chem-phys",
+    "unitTitle": "Thermodynamics & Kinetics",
+    "lessonNumber": 5,
+    "title": "Gibbs Free Energy, Equilibrium, and Standard State",
+    "description": "Connects standard Gibbs free energy (ΔG°) to the equilibrium constant K, and explains how ΔG shifts as a reaction progresses toward equilibrium."
+  },
+  {
+    "unitId": 11,
+    "section": "chem-phys",
+    "unitTitle": "Thermodynamics & Kinetics",
+    "lessonNumber": 6,
+    "title": "Coupled Reactions and Bioenergetics",
+    "description": "Explains how thermodynamically unfavorable reactions can be driven forward by coupling them to favorable ones, with emphasis on ATP hydrolysis and metabolic pathways relevant to biology."
+  },
+  {
+    "unitId": 11,
+    "section": "chem-phys",
+    "unitTitle": "Thermodynamics & Kinetics",
+    "lessonNumber": 7,
+    "title": "Reaction Rates and the Fundamentals of Chemical Kinetics",
+    "description": "Defines reaction rate, introduces rate laws, reaction orders, and the rate constant k, including how to determine rate laws from experimental data."
+  },
+  {
+    "unitId": 11,
+    "section": "chem-phys",
+    "unitTitle": "Thermodynamics & Kinetics",
+    "lessonNumber": 8,
+    "title": "Activation Energy, Transition State Theory, and the Arrhenius Equation",
+    "description": "Explores the energy barrier to reaction, the role of the transition state, and how temperature and activation energy quantitatively affect the rate constant via the Arrhenius equation."
+  },
+  {
+    "unitId": 11,
+    "section": "chem-phys",
+    "unitTitle": "Thermodynamics & Kinetics",
+    "lessonNumber": 9,
+    "title": "Reaction Mechanisms and Rate-Determining Steps",
+    "description": "Analyzes multi-step reaction mechanisms, identifies intermediates and rate-determining steps, and reconciles elementary steps with experimentally observed rate laws."
+  },
+  {
+    "unitId": 11,
+    "section": "chem-phys",
+    "unitTitle": "Thermodynamics & Kinetics",
+    "lessonNumber": 10,
+    "title": "Catalysis: Enzymes, Activation Energy, and Kinetic Control",
+    "description": "Examines how catalysts lower activation energy without altering thermodynamics, with detailed coverage of enzyme kinetics, Michaelis-Menten theory, and the distinction between kinetic and thermodynamic control of reactions."
+  },
+  {
+    "unitId": 12,
+    "section": "chem-phys",
+    "unitTitle": "Solutions & Equilibrium",
+    "lessonNumber": 1,
+    "title": "Concentration Units and Solution Composition",
+    "description": "Covers molarity, molality, mole fraction, mass percent, and interconversions between concentration units with emphasis on MCAT-relevant calculations."
+  },
+  {
+    "unitId": 12,
+    "section": "chem-phys",
+    "unitTitle": "Solutions & Equilibrium",
+    "lessonNumber": 2,
+    "title": "Colligative Properties and Their Applications",
+    "description": "Examines boiling point elevation, freezing point depression, osmotic pressure, and vapor pressure lowering as properties dependent on solute concentration rather than identity."
+  },
+  {
+    "unitId": 12,
+    "section": "chem-phys",
+    "unitTitle": "Solutions & Equilibrium",
+    "lessonNumber": 3,
+    "title": "Solubility Principles and Intermolecular Forces",
+    "description": "Explores the thermodynamic and structural factors governing solubility, including like-dissolves-like, temperature and pressure effects, and Henry's Law for gas solubility."
+  },
+  {
+    "unitId": 12,
+    "section": "chem-phys",
+    "unitTitle": "Solutions & Equilibrium",
+    "lessonNumber": 4,
+    "title": "The Solubility Product Constant (Ksp) and Precipitation",
+    "description": "Introduces Ksp expressions, calculation of molar solubility, the common ion effect, and predicting whether precipitation will occur by comparing the reaction quotient Q to Ksp."
+  },
+  {
+    "unitId": 12,
+    "section": "chem-phys",
+    "unitTitle": "Solutions & Equilibrium",
+    "lessonNumber": 5,
+    "title": "Chemical Equilibrium and the Equilibrium Constant",
+    "description": "Defines dynamic equilibrium, derives Keq expressions for homogeneous and heterogeneous systems, and distinguishes between Kc and Kp with interconversion calculations."
+  },
+  {
+    "unitId": 12,
+    "section": "chem-phys",
+    "unitTitle": "Solutions & Equilibrium",
+    "lessonNumber": 6,
+    "title": "The Reaction Quotient and Predicting Equilibrium Shifts",
+    "description": "Uses the reaction quotient Q to determine the direction a reaction must proceed to reach equilibrium, and introduces ICE table methodology for solving equilibrium problems."
+  },
+  {
+    "unitId": 12,
+    "section": "chem-phys",
+    "unitTitle": "Solutions & Equilibrium",
+    "lessonNumber": 7,
+    "title": "Le Chatelier's Principle and Stress Response",
+    "description": "Applies Le Chatelier's principle to predict how changes in concentration, pressure, volume, and temperature shift equilibrium position and affect equilibrium constant values."
+  },
+  {
+    "unitId": 12,
+    "section": "chem-phys",
+    "unitTitle": "Solutions & Equilibrium",
+    "lessonNumber": 8,
+    "title": "Coupled Equilibria and Integrated Applications",
+    "description": "Analyzes complex systems involving simultaneous equilibria such as acid-base reactions affecting solubility, complex ion formation, and multi-step equilibrium constant calculations."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 1,
+    "title": "Hybridization and Bonding in Organic Molecules",
+    "description": "Covers sp3, sp2, and sp hybridization, sigma and pi bond formation, and how orbital geometry determines molecular shape and reactivity."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 2,
+    "title": "Functional Group Identification and Properties",
+    "description": "Introduces the major organic functional groups including alkanes, alkenes, alkynes, alcohols, ethers, aldehydes, ketones, carboxylic acids, amines, and amides, with emphasis on their physical and chemical properties."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 3,
+    "title": "Nomenclature of Organic Compounds",
+    "description": "Covers IUPAC naming rules for common organic functional groups, including substituent priority, numbering conventions, and interpretation of complex systematic names."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 4,
+    "title": "Stereochemistry: Chirality, Enantiomers, and Diastereomers",
+    "description": "Explains chiral centers, R/S configuration assignment, enantiomers, diastereomers, meso compounds, and the relationship between molecular structure and optical activity."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 5,
+    "title": "Conformational Analysis and Ring Systems",
+    "description": "Covers Newman projections, torsional and steric strain, cyclohexane chair conformations, axial versus equatorial positioning, and the thermodynamic stability of ring conformations."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 6,
+    "title": "Nucleophilic Substitution: SN1 and SN2 Mechanisms",
+    "description": "Details the mechanistic, kinetic, and stereochemical differences between SN1 and SN2 reactions, including the roles of substrate structure, nucleophile strength, leaving group ability, and solvent."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 7,
+    "title": "Elimination Reactions: E1 and E2 Mechanisms",
+    "description": "Covers the mechanisms, regioselectivity (Zaitsev's rule), stereoselectivity, and conditions governing E1 and E2 elimination reactions, including competition with substitution pathways."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 8,
+    "title": "Electrophilic Addition to Alkenes and Alkynes",
+    "description": "Explains Markovnikov's rule, carbocation stability, and the mechanisms of electrophilic addition reactions including hydrohalogenation, hydration, halogenation, and hydroboration-oxidation."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 9,
+    "title": "Aromatic Compounds and Electrophilic Aromatic Substitution",
+    "description": "Covers aromaticity criteria, resonance stabilization of benzene, and the mechanisms and directing effects of electrophilic aromatic substitution reactions including halogenation, nitration, and Friedel-Crafts reactions."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 10,
+    "title": "Carbonyl Chemistry: Nucleophilic Addition to Aldehydes and Ketones",
+    "description": "Examines the electrophilicity of the carbonyl carbon and covers nucleophilic addition reactions including hydration, acetal formation, imine and enamine formation, and reduction mechanisms."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 11,
+    "title": "Carboxylic Acids and Acyl Substitution Reactions",
+    "description": "Covers the structure and acidity of carboxylic acids and the nucleophilic acyl substitution mechanisms governing reactions of acid chlorides, anhydrides, esters, and amides."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 12,
+    "title": "Enols, Enolates, and Alpha-Carbon Reactivity",
+    "description": "Explains keto-enol tautomerism, enolate formation under acidic and basic conditions, and alpha-carbon reactions including aldol condensation, Claisen condensation, and alkylation."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 13,
+    "title": "Amines: Structure, Basicity, and Reactivity",
+    "description": "Covers the classification, basicity, and nucleophilicity of amines, factors affecting amine pKa values, and key reactions including acylation, alkylation, and diazotization."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 14,
+    "title": "Infrared and Mass Spectrometry in Organic Structure Determination",
+    "description": "Explains how infrared spectroscopy identifies functional groups through characteristic absorption frequencies and how mass spectrometry provides molecular weight and fragmentation pattern data for structure elucidation."
+  },
+  {
+    "unitId": 13,
+    "section": "chem-phys",
+    "unitTitle": "Organic Chemistry",
+    "lessonNumber": 15,
+    "title": "Nuclear Magnetic Resonance Spectroscopy",
+    "description": "Covers the principles of 1H and 13C NMR, including chemical shift, spin-spin splitting, integration, and the use of NMR data to determine the connectivity and stereochemistry of organic molecules."
+  },
+  {
+    "unitId": 14,
+    "section": "chem-phys",
+    "unitTitle": "Electrochemistry",
+    "lessonNumber": 1,
+    "title": "Oxidation-Reduction Reactions: Electron Transfer and Oxidation States",
+    "description": "Covers the principles of redox chemistry, including how to assign oxidation states, identify oxidizing and reducing agents, and balance half-reactions in acidic and basic solutions."
+  },
+  {
+    "unitId": 14,
+    "section": "chem-phys",
+    "unitTitle": "Electrochemistry",
+    "lessonNumber": 2,
+    "title": "Galvanic Cells: Converting Chemical Energy to Electrical Energy",
+    "description": "Explores the architecture and function of electrochemical cells, including electrode conventions, salt bridges, cell notation, and the thermodynamic basis for spontaneous electron flow."
+  },
+  {
+    "unitId": 14,
+    "section": "chem-phys",
+    "unitTitle": "Electrochemistry",
+    "lessonNumber": 3,
+    "title": "Standard Reduction Potentials and Cell EMF",
+    "description": "Examines the standard hydrogen electrode reference, the electrochemical series, and how to calculate standard cell potential from tabulated half-reaction values to predict reaction spontaneity."
+  },
+  {
+    "unitId": 14,
+    "section": "chem-phys",
+    "unitTitle": "Electrochemistry",
+    "lessonNumber": 4,
+    "title": "The Nernst Equation: Cell Potential Under Non-Standard Conditions",
+    "description": "Derives and applies the Nernst equation to calculate cell EMF at varying concentrations and temperatures, and establishes the quantitative relationships among cell potential, free energy, and equilibrium constants."
+  },
+  {
+    "unitId": 14,
+    "section": "chem-phys",
+    "unitTitle": "Electrochemistry",
+    "lessonNumber": 5,
+    "title": "Electrolytic Cells, Faraday's Laws, and Biological Electron Transport",
+    "description": "Contrasts electrolytic cells with galvanic cells, applies Faraday's laws to quantitative electrolysis problems, and connects electrochemical principles to biological systems such as the mitochondrial electron transport chain."
+  },
+  {
+    "unitId": 15,
+    "section": "chem-phys",
+    "unitTitle": "Mechanics",
+    "lessonNumber": 1,
+    "title": "Kinematics: Describing Motion in One and Two Dimensions",
+    "description": "Covers displacement, velocity, acceleration, and the kinematic equations for linear and projectile motion."
+  },
+  {
+    "unitId": 15,
+    "section": "chem-phys",
+    "unitTitle": "Mechanics",
+    "lessonNumber": 2,
+    "title": "Newton's Laws of Motion and Free-Body Diagrams",
+    "description": "Introduces Newton's three laws and the systematic use of free-body diagrams to analyze forces acting on objects in equilibrium and non-equilibrium."
+  },
+  {
+    "unitId": 15,
+    "section": "chem-phys",
+    "unitTitle": "Mechanics",
+    "lessonNumber": 3,
+    "title": "Friction, Normal Force, and Inclined Planes",
+    "description": "Examines static and kinetic friction, normal forces, and the resolution of forces on angled surfaces with practical problem-solving strategies."
+  },
+  {
+    "unitId": 15,
+    "section": "chem-phys",
+    "unitTitle": "Mechanics",
+    "lessonNumber": 4,
+    "title": "Uniform Circular Motion and Centripetal Forces",
+    "description": "Explains the kinematics and dynamics of objects moving in circular paths, including centripetal acceleration, tension, and gravitational applications."
+  },
+  {
+    "unitId": 15,
+    "section": "chem-phys",
+    "unitTitle": "Mechanics",
+    "lessonNumber": 5,
+    "title": "Work, Energy, and the Work-Energy Theorem",
+    "description": "Defines mechanical work and kinetic energy, and applies the work-energy theorem to relate net work done on an object to its change in kinetic energy."
+  },
+  {
+    "unitId": 15,
+    "section": "chem-phys",
+    "unitTitle": "Mechanics",
+    "lessonNumber": 6,
+    "title": "Conservative Forces, Potential Energy, and Conservation of Mechanical Energy",
+    "description": "Distinguishes conservative from non-conservative forces, introduces gravitational and elastic potential energy, and applies conservation of mechanical energy to physical systems."
+  },
+  {
+    "unitId": 15,
+    "section": "chem-phys",
+    "unitTitle": "Mechanics",
+    "lessonNumber": 7,
+    "title": "Power, Efficiency, and Non-Conservative Forces",
+    "description": "Defines power as the rate of energy transfer, analyzes the role of friction and other non-conservative forces in energy dissipation, and calculates mechanical efficiency."
+  },
+  {
+    "unitId": 15,
+    "section": "chem-phys",
+    "unitTitle": "Mechanics",
+    "lessonNumber": 8,
+    "title": "Linear Momentum, Impulse, and Conservation of Momentum",
+    "description": "Introduces linear momentum and impulse, derives the impulse-momentum theorem, and applies conservation of momentum to isolated systems."
+  },
+  {
+    "unitId": 15,
+    "section": "chem-phys",
+    "unitTitle": "Mechanics",
+    "lessonNumber": 9,
+    "title": "Elastic and Inelastic Collisions",
+    "description": "Distinguishes perfectly elastic, inelastic, and perfectly inelastic collisions, and applies conservation laws of momentum and kinetic energy to solve collision problems in one and two dimensions."
+  },
+  {
+    "unitId": 15,
+    "section": "chem-phys",
+    "unitTitle": "Mechanics",
+    "lessonNumber": 10,
+    "title": "Torque, Rotational Equilibrium, and Simple Machines",
+    "description": "Covers rotational forces, the conditions for static equilibrium, center of mass, and the mechanical advantage provided by levers, pulleys, and other simple machines relevant to biological and physical systems."
+  },
+  {
+    "unitId": 16,
+    "section": "chem-phys",
+    "unitTitle": "Fluids, Waves & Optics",
+    "lessonNumber": 1,
+    "title": "Fluid Statics: Pressure, Density, and Buoyancy",
+    "description": "Covers hydrostatic pressure as a function of depth, Pascal's principle, Archimedes' principle, and buoyant force calculations with biological applications such as swim bladders and blood pressure."
+  },
+  {
+    "unitId": 16,
+    "section": "chem-phys",
+    "unitTitle": "Fluids, Waves & Optics",
+    "lessonNumber": 2,
+    "title": "Fluid Dynamics: Continuity and Bernoulli's Equation",
+    "description": "Examines ideal fluid flow, the continuity equation for incompressible fluids, and Bernoulli's equation relating pressure, velocity, and height, with applications to cardiovascular flow and the Venturi effect."
+  },
+  {
+    "unitId": 16,
+    "section": "chem-phys",
+    "unitTitle": "Fluids, Waves & Optics",
+    "lessonNumber": 3,
+    "title": "Viscosity, Poiseuille's Law, and Non-Ideal Fluids",
+    "description": "Introduces viscous flow, laminar versus turbulent regimes, Reynolds number, and Poiseuille's law governing flow rate through cylindrical tubes, with emphasis on blood flow in arteries and veins."
+  },
+  {
+    "unitId": 16,
+    "section": "chem-phys",
+    "unitTitle": "Fluids, Waves & Optics",
+    "lessonNumber": 4,
+    "title": "Surface Tension, Capillary Action, and Biological Interfaces",
+    "description": "Explains the molecular basis of surface tension, the Young-Laplace equation, capillary rise, and the role of pulmonary surfactant in alveolar mechanics."
+  },
+  {
+    "unitId": 16,
+    "section": "chem-phys",
+    "unitTitle": "Fluids, Waves & Optics",
+    "lessonNumber": 5,
+    "title": "Wave Properties: Amplitude, Frequency, Wavelength, and Wave Speed",
+    "description": "Establishes foundational wave concepts including transverse and longitudinal waves, the wave equation, superposition, interference, and standing waves as applied to mechanical and biological systems."
+  },
+  {
+    "unitId": 16,
+    "section": "chem-phys",
+    "unitTitle": "Fluids, Waves & Optics",
+    "lessonNumber": 6,
+    "title": "Sound Waves: Intensity, Decibels, and the Doppler Effect",
+    "description": "Covers the production and propagation of longitudinal pressure waves, sound intensity and the logarithmic decibel scale, and the Doppler effect with clinical applications in ultrasound and auscultation."
+  },
+  {
+    "unitId": 16,
+    "section": "chem-phys",
+    "unitTitle": "Fluids, Waves & Optics",
+    "lessonNumber": 7,
+    "title": "Resonance, Harmonics, and Hearing",
+    "description": "Analyzes resonance conditions, harmonic series in open and closed pipes, beats, and the physiological basis of hearing including the function of the cochlea and auditory frequency discrimination."
+  },
+  {
+    "unitId": 16,
+    "section": "chem-phys",
+    "unitTitle": "Fluids, Waves & Optics",
+    "lessonNumber": 8,
+    "title": "Geometric Optics: Reflection, Refraction, and Snell's Law",
+    "description": "Develops the laws of reflection and refraction, Snell's law, total internal reflection, and their application to fiber optics, the human eye, and optical instruments used in medicine."
+  },
+  {
+    "unitId": 16,
+    "section": "chem-phys",
+    "unitTitle": "Fluids, Waves & Optics",
+    "lessonNumber": 9,
+    "title": "Lenses, Mirrors, and the Optics of Vision",
+    "description": "Applies the thin-lens and mirror equations to converging and diverging systems, calculates image characteristics using ray diagrams, and connects these principles to refractive errors and corrective lenses."
+  },
+  {
+    "unitId": 16,
+    "section": "chem-phys",
+    "unitTitle": "Fluids, Waves & Optics",
+    "lessonNumber": 10,
+    "title": "Wave Optics: Diffraction, Interference, and the Electromagnetic Spectrum",
+    "description": "Examines the wave nature of light through single- and double-slit diffraction, thin-film interference, polarization, and the electromagnetic spectrum with emphasis on the interaction of UV, visible, and IR radiation with biological tissues."
+  },
+  {
+    "unitId": 17,
+    "section": "chem-phys",
+    "unitTitle": "Electricity & Magnetism",
+    "lessonNumber": 1,
+    "title": "Coulomb's Law and Electrostatic Forces",
+    "description": "Quantitative analysis of the electrostatic force between point charges using Coulomb's law, including vector addition of forces in multi-charge systems."
+  },
+  {
+    "unitId": 17,
+    "section": "chem-phys",
+    "unitTitle": "Electricity & Magnetism",
+    "lessonNumber": 2,
+    "title": "Electric Fields and Electric Potential",
+    "description": "Defining and calculating electric field vectors and scalar electric potential, and relating potential energy to work done by and against electrostatic forces."
+  },
+  {
+    "unitId": 17,
+    "section": "chem-phys",
+    "unitTitle": "Electricity & Magnetism",
+    "lessonNumber": 3,
+    "title": "Conductors, Insulators, and Charge Distributions",
+    "description": "Examining how charge distributes on conductors and insulators, the behavior of charges in electrostatic equilibrium, and shielding effects relevant to biological membranes."
+  },
+  {
+    "unitId": 17,
+    "section": "chem-phys",
+    "unitTitle": "Electricity & Magnetism",
+    "lessonNumber": 4,
+    "title": "Capacitance and Dielectrics",
+    "description": "Analyzing capacitors as charge-storage devices, calculating capacitance for parallel-plate configurations, and understanding how dielectric materials alter capacitance in biological and circuit contexts."
+  },
+  {
+    "unitId": 17,
+    "section": "chem-phys",
+    "unitTitle": "Electricity & Magnetism",
+    "lessonNumber": 5,
+    "title": "DC Circuits: Current, Resistance, and Ohm's Law",
+    "description": "Applying Ohm's law and Kirchhoff's rules to analyze direct-current circuits with resistors in series and parallel, and calculating power dissipation."
+  },
+  {
+    "unitId": 17,
+    "section": "chem-phys",
+    "unitTitle": "Electricity & Magnetism",
+    "lessonNumber": 6,
+    "title": "Batteries, EMF, and Circuit Analysis",
+    "description": "Understanding electromotive force, internal resistance, and terminal voltage of batteries, and using systematic circuit analysis to solve complex multi-loop DC networks."
+  },
+  {
+    "unitId": 17,
+    "section": "chem-phys",
+    "unitTitle": "Electricity & Magnetism",
+    "lessonNumber": 7,
+    "title": "Magnetic Fields and Forces on Moving Charges",
+    "description": "Describing the origin and direction of magnetic fields, applying the Lorentz force law to moving charges and current-carrying conductors, and analyzing circular motion of charged particles in uniform magnetic fields."
+  },
+  {
+    "unitId": 17,
+    "section": "chem-phys",
+    "unitTitle": "Electricity & Magnetism",
+    "lessonNumber": 8,
+    "title": "Electromagnetic Induction and Faraday's Law",
+    "description": "Explaining how changing magnetic flux induces an electromotive force via Faraday's law, applying Lenz's law to determine induced current direction, and connecting induction to transformers and generators."
+  },
+  {
+    "unitId": 17,
+    "section": "chem-phys",
+    "unitTitle": "Electricity & Magnetism",
+    "lessonNumber": 9,
+    "title": "Bioelectricity: Membrane Potentials and Action Potentials",
+    "description": "Integrating electrochemical gradients, ion channel conductance, and circuit models of the cell membrane to explain resting membrane potential, action potential generation, and propagation in excitable cells."
+  },
+  {
+    "unitId": 18,
+    "section": "psych-soc",
+    "unitTitle": "Learning & Conditioning",
+    "lessonNumber": 1,
+    "title": "Foundations of Learning: Definitions and Theoretical Frameworks",
+    "description": "Introduces the biological and psychological basis of learning, distinguishing between innate behaviors and acquired responses while surveying the major theoretical frameworks that underpin conditioning and behavior change."
+  },
+  {
+    "unitId": 18,
+    "section": "psych-soc",
+    "unitTitle": "Learning & Conditioning",
+    "lessonNumber": 2,
+    "title": "Classical Conditioning: Principles and Pavlovian Mechanisms",
+    "description": "Examines Pavlov's foundational experiments and the core principles of classical conditioning, including the roles of unconditioned and conditioned stimuli, unconditioned and conditioned responses, and the neural substrates of associative learning."
+  },
+  {
+    "unitId": 18,
+    "section": "psych-soc",
+    "unitTitle": "Learning & Conditioning",
+    "lessonNumber": 3,
+    "title": "Classical Conditioning: Higher-Order Processes and Modifications",
+    "description": "Explores advanced classical conditioning phenomena such as extinction, spontaneous recovery, stimulus generalization, stimulus discrimination, higher-order conditioning, and the conditions that strengthen or weaken conditioned associations."
+  },
+  {
+    "unitId": 18,
+    "section": "psych-soc",
+    "unitTitle": "Learning & Conditioning",
+    "lessonNumber": 4,
+    "title": "Operant Conditioning: Reinforcement, Punishment, and Skinnerian Principles",
+    "description": "Covers the foundational principles of operant conditioning established by Thorndike and Skinner, detailing positive and negative reinforcement, positive and negative punishment, the law of effect, and the distinction between operant and classical conditioning."
+  },
+  {
+    "unitId": 18,
+    "section": "psych-soc",
+    "unitTitle": "Learning & Conditioning",
+    "lessonNumber": 5,
+    "title": "Schedules of Reinforcement and Behavioral Shaping",
+    "description": "Analyzes how fixed and variable ratio and interval schedules of reinforcement differentially affect response rates and resistance to extinction, and explains how shaping through successive approximations is used to establish complex behaviors."
+  },
+  {
+    "unitId": 18,
+    "section": "psych-soc",
+    "unitTitle": "Learning & Conditioning",
+    "lessonNumber": 6,
+    "title": "Observational Learning and Social Cognitive Theory",
+    "description": "Presents Bandura's social cognitive theory and the Bobo doll experiments, detailing the processes of attention, retention, reproduction, and motivation that mediate observational learning, along with the concepts of self-efficacy and modeling."
+  },
+  {
+    "unitId": 18,
+    "section": "psych-soc",
+    "unitTitle": "Learning & Conditioning",
+    "lessonNumber": 7,
+    "title": "Cognitive and Biological Constraints on Learning",
+    "description": "Examines how cognitive factors such as latent learning, insight, and cognitive maps challenge strict behaviorist accounts, and how biological preparedness, instinctive drift, and taste aversion demonstrate evolutionary constraints on what organisms can learn."
+  },
+  {
+    "unitId": 18,
+    "section": "psych-soc",
+    "unitTitle": "Learning & Conditioning",
+    "lessonNumber": 8,
+    "title": "Behavior Modification: Clinical and Applied Behavior Analysis",
+    "description": "Applies conditioning principles to therapeutic and real-world contexts, covering systematic desensitization, token economies, applied behavior analysis, biofeedback, and the ethical considerations involved in behavior modification interventions."
+  },
+  {
+    "unitId": 19,
+    "section": "psych-soc",
+    "unitTitle": "Cognition & Memory",
+    "lessonNumber": 1,
+    "title": "Foundations of Cognitive Psychology and Information Processing",
+    "description": "Introduces the information processing model of cognition, including the stages of encoding, storage, and retrieval, and how the mind functions analogously to a computational system."
+  },
+  {
+    "unitId": 19,
+    "section": "psych-soc",
+    "unitTitle": "Cognition & Memory",
+    "lessonNumber": 2,
+    "title": "Sensory Memory and Attention",
+    "description": "Examines iconic and echoic sensory registers, the capacity and duration of sensory memory, and how selective and divided attention determine which information enters further processing."
+  },
+  {
+    "unitId": 19,
+    "section": "psych-soc",
+    "unitTitle": "Cognition & Memory",
+    "lessonNumber": 3,
+    "title": "Short-Term and Working Memory",
+    "description": "Explores the capacity limits, duration, and chunking strategies of short-term memory alongside Baddeley and Hitch's working memory model, including the phonological loop, visuospatial sketchpad, and central executive."
+  },
+  {
+    "unitId": 19,
+    "section": "psych-soc",
+    "unitTitle": "Cognition & Memory",
+    "lessonNumber": 4,
+    "title": "Long-Term Memory: Structures and Systems",
+    "description": "Differentiates the major long-term memory systems—explicit (declarative) versus implicit (nondeclarative) memory—covering episodic, semantic, procedural, and priming memory with relevant neuroanatomical correlates."
+  },
+  {
+    "unitId": 19,
+    "section": "psych-soc",
+    "unitTitle": "Cognition & Memory",
+    "lessonNumber": 5,
+    "title": "Encoding, Storage, and the Biology of Memory Formation",
+    "description": "Analyzes the processes by which memories are encoded through elaborative and maintenance rehearsal, consolidated during sleep and rest, and stored via synaptic changes including long-term potentiation."
+  },
+  {
+    "unitId": 19,
+    "section": "psych-soc",
+    "unitTitle": "Cognition & Memory",
+    "lessonNumber": 6,
+    "title": "Retrieval, Forgetting, and Memory Distortion",
+    "description": "Covers retrieval cues, context-dependent and state-dependent memory, the serial position effect, and major theories of forgetting including decay, interference, and motivated forgetting, as well as reconstructive memory and misinformation effects."
+  },
+  {
+    "unitId": 19,
+    "section": "psych-soc",
+    "unitTitle": "Cognition & Memory",
+    "lessonNumber": 7,
+    "title": "Problem Solving: Strategies, Heuristics, and Barriers",
+    "description": "Examines algorithmic versus heuristic problem-solving approaches, common cognitive biases such as availability and representativeness heuristics, and barriers to effective problem solving including functional fixedness and mental set."
+  },
+  {
+    "unitId": 19,
+    "section": "psych-soc",
+    "unitTitle": "Cognition & Memory",
+    "lessonNumber": 8,
+    "title": "Language, Thought, and the Relationship Between Cognition and Communication",
+    "description": "Explores the structure of language (phonemes, morphemes, syntax, semantics, pragmatics), theories of language acquisition, the Sapir-Whorf hypothesis of linguistic relativity, and how language shapes and is shaped by cognitive processes."
+  },
+  {
+    "unitId": 19,
+    "section": "psych-soc",
+    "unitTitle": "Cognition & Memory",
+    "lessonNumber": 9,
+    "title": "Cognitive Development Across the Lifespan: Piaget and Beyond",
+    "description": "Details Piaget's four stages of cognitive development, key concepts such as schemas, assimilation, accommodation, and object permanence, and evaluates critiques and extensions of Piaget's theory including Vygotsky's sociocultural perspective and the zone of proximal development."
+  },
+  {
+    "unitId": 19,
+    "section": "psych-soc",
+    "unitTitle": "Cognition & Memory",
+    "lessonNumber": 10,
+    "title": "Intelligence: Theories, Measurement, and Sociocultural Influences",
+    "description": "Surveys major theories of intelligence including Spearman's g factor, Gardner's multiple intelligences, and Sternberg's triarchic theory, examines psychometric approaches and IQ testing, and addresses the roles of genetics, environment, and stereotype threat in shaping measured intelligence."
+  },
+  {
+    "unitId": 20,
+    "section": "psych-soc",
+    "unitTitle": "Sensation & Perception",
+    "lessonNumber": 1,
+    "title": "Sensory Thresholds and Signal Detection Theory",
+    "description": "Covers absolute thresholds, difference thresholds, Weber's Law, and the principles of signal detection theory including sensitivity and response bias."
+  },
+  {
+    "unitId": 20,
+    "section": "psych-soc",
+    "unitTitle": "Sensation & Perception",
+    "lessonNumber": 2,
+    "title": "Sensory Adaptation and Transduction",
+    "description": "Explains how sensory receptors convert physical stimuli into neural signals and how prolonged exposure leads to diminished sensitivity through adaptation."
+  },
+  {
+    "unitId": 20,
+    "section": "psych-soc",
+    "unitTitle": "Sensation & Perception",
+    "lessonNumber": 3,
+    "title": "Vision: The Structure and Function of the Visual System",
+    "description": "Examines the anatomy of the eye, photoreceptor function, and the neural pathways from retina to visual cortex that underlie sight."
+  },
+  {
+    "unitId": 20,
+    "section": "psych-soc",
+    "unitTitle": "Sensation & Perception",
+    "lessonNumber": 4,
+    "title": "Audition: The Structure and Function of the Auditory System",
+    "description": "Details the mechanics of sound wave processing through the outer, middle, and inner ear and the auditory pathways that encode pitch, loudness, and timbre."
+  },
+  {
+    "unitId": 20,
+    "section": "psych-soc",
+    "unitTitle": "Sensation & Perception",
+    "lessonNumber": 5,
+    "title": "The Chemical and Somatic Senses: Taste, Smell, Touch, and Pain",
+    "description": "Explores the receptor mechanisms and neural pathways underlying gustation, olfaction, somatosensation, and nociception including gate control theory of pain."
+  },
+  {
+    "unitId": 20,
+    "section": "psych-soc",
+    "unitTitle": "Sensation & Perception",
+    "lessonNumber": 6,
+    "title": "Perceptual Organization: Gestalt Principles and Depth Perception",
+    "description": "Analyzes how the brain groups sensory information into coherent objects using Gestalt laws and interprets three-dimensional space through monocular and binocular cues."
+  },
+  {
+    "unitId": 20,
+    "section": "psych-soc",
+    "unitTitle": "Sensation & Perception",
+    "lessonNumber": 7,
+    "title": "Perceptual Constancy, Illusions, and Top-Down Processing",
+    "description": "Investigates how prior knowledge, expectations, and context shape perception through top-down processing, perceptual constancies, and the mechanisms underlying visual illusions."
+  },
+  {
+    "unitId": 20,
+    "section": "psych-soc",
+    "unitTitle": "Sensation & Perception",
+    "lessonNumber": 8,
+    "title": "Attention, Multimodal Perception, and Individual Differences in Perception",
+    "description": "Examines how selective and divided attention modulate sensory processing, how the brain integrates information across senses, and how culture, experience, and development influence perceptual outcomes."
+  },
+  {
+    "unitId": 21,
+    "section": "psych-soc",
+    "unitTitle": "Emotion, Motivation, Personality",
+    "lessonNumber": 1,
+    "title": "Biological Bases of Emotion: Neural and Physiological Mechanisms",
+    "description": "Examines the brain structures, neural pathways, and physiological responses underlying emotional experience, including the roles of the amygdala, prefrontal cortex, and autonomic nervous system."
+  },
+  {
+    "unitId": 21,
+    "section": "psych-soc",
+    "unitTitle": "Emotion, Motivation, Personality",
+    "lessonNumber": 2,
+    "title": "Major Theories of Emotion: From James-Lange to Cognitive Appraisal",
+    "description": "Compares and contrasts foundational theories of emotion including James-Lange, Cannon-Bard, Schachter-Singer two-factor, and Lazarus cognitive appraisal theory, analyzing their strengths and limitations."
+  },
+  {
+    "unitId": 21,
+    "section": "psych-soc",
+    "unitTitle": "Emotion, Motivation, Personality",
+    "lessonNumber": 3,
+    "title": "Universal and Cultural Dimensions of Emotional Expression",
+    "description": "Explores Ekman's research on universal facial expressions, the role of display rules, and how culture shapes the experience, expression, and interpretation of emotion across societies."
+  },
+  {
+    "unitId": 21,
+    "section": "psych-soc",
+    "unitTitle": "Emotion, Motivation, Personality",
+    "lessonNumber": 4,
+    "title": "Stress, Coping, and the Emotional Response to Adversity",
+    "description": "Analyzes the physiological and psychological stress response, including the HPA axis and sympathetic activation, alongside primary and secondary appraisal and major coping strategies."
+  },
+  {
+    "unitId": 21,
+    "section": "psych-soc",
+    "unitTitle": "Emotion, Motivation, Personality",
+    "lessonNumber": 5,
+    "title": "Foundational Theories of Motivation: Instinct, Drive, and Arousal",
+    "description": "Covers early motivational frameworks including instinct theory, drive-reduction theory, Hull's drive model, and the Yerkes-Dodson law relating arousal to performance."
+  },
+  {
+    "unitId": 21,
+    "section": "psych-soc",
+    "unitTitle": "Emotion, Motivation, Personality",
+    "lessonNumber": 6,
+    "title": "Humanistic and Cognitive Approaches to Motivation",
+    "description": "Examines Maslow's hierarchy of needs, self-determination theory, intrinsic versus extrinsic motivation, and expectancy-value theory as explanations for goal-directed behavior."
+  },
+  {
+    "unitId": 21,
+    "section": "psych-soc",
+    "unitTitle": "Emotion, Motivation, Personality",
+    "lessonNumber": 7,
+    "title": "Hunger, Sexual Motivation, and Biological Drives",
+    "description": "Investigates the neurobiological and hormonal regulation of hunger and eating behavior, set-point theory, and the interplay of biological and social factors in sexual motivation."
+  },
+  {
+    "unitId": 21,
+    "section": "psych-soc",
+    "unitTitle": "Emotion, Motivation, Personality",
+    "lessonNumber": 8,
+    "title": "Personality Trait Theories and the Big Five Model",
+    "description": "Introduces the major trait-based approaches to personality, including Allport's trait hierarchy, Cattell's 16PF, Eysenck's three-factor model, and the empirically supported Five-Factor Model."
+  },
+  {
+    "unitId": 21,
+    "section": "psych-soc",
+    "unitTitle": "Emotion, Motivation, Personality",
+    "lessonNumber": 9,
+    "title": "Psychodynamic, Humanistic, and Social-Cognitive Theories of Personality",
+    "description": "Compares Freud's psychodynamic framework and defense mechanisms, Rogers' and Maslow's humanistic perspectives, and Bandura's social-cognitive theory including self-efficacy and reciprocal determinism."
+  },
+  {
+    "unitId": 21,
+    "section": "psych-soc",
+    "unitTitle": "Emotion, Motivation, Personality",
+    "lessonNumber": 10,
+    "title": "Personality Assessment, Situationism, and the Person-Situation Debate",
+    "description": "Evaluates methods of personality assessment including projective and objective tests, examines Mischel's situationist critique, and synthesizes modern interactionist perspectives on personality consistency and variability."
+  },
+  {
+    "unitId": 22,
+    "section": "psych-soc",
+    "unitTitle": "Psychological Disorders",
+    "lessonNumber": 1,
+    "title": "Classification and Diagnosis: The DSM Framework",
+    "description": "Examines the structure, purpose, and evolution of the DSM, including categorical versus dimensional approaches to classifying psychological disorders and the criteria used to define abnormal behavior."
+  },
+  {
+    "unitId": 22,
+    "section": "psych-soc",
+    "unitTitle": "Psychological Disorders",
+    "lessonNumber": 2,
+    "title": "Neurodevelopmental and Childhood Disorders",
+    "description": "Covers the major neurodevelopmental disorders including ADHD, autism spectrum disorder, and specific learning disorders, focusing on diagnostic criteria, etiology, and developmental trajectories."
+  },
+  {
+    "unitId": 22,
+    "section": "psych-soc",
+    "unitTitle": "Psychological Disorders",
+    "lessonNumber": 3,
+    "title": "Schizophrenia Spectrum and Psychotic Disorders",
+    "description": "Explores the positive and negative symptoms of schizophrenia, related psychotic disorders, and the neurobiological and genetic factors underlying psychosis."
+  },
+  {
+    "unitId": 22,
+    "section": "psych-soc",
+    "unitTitle": "Psychological Disorders",
+    "lessonNumber": 4,
+    "title": "Mood Disorders: Depression and Bipolar Spectrum",
+    "description": "Analyzes the diagnostic criteria, prevalence, and biopsychosocial mechanisms underlying major depressive disorder, persistent depressive disorder, and the bipolar spectrum disorders."
+  },
+  {
+    "unitId": 22,
+    "section": "psych-soc",
+    "unitTitle": "Psychological Disorders",
+    "lessonNumber": 5,
+    "title": "Anxiety, Obsessive-Compulsive, and Trauma-Related Disorders",
+    "description": "Differentiates among the anxiety disorders, OCD and related conditions, and trauma- and stressor-related disorders including PTSD, with emphasis on fear-learning mechanisms and diagnostic distinctions."
+  },
+  {
+    "unitId": 22,
+    "section": "psych-soc",
+    "unitTitle": "Psychological Disorders",
+    "lessonNumber": 6,
+    "title": "Personality Disorders and Dissociative Disorders",
+    "description": "Describes the ten DSM personality disorders organized by cluster, the concept of ego-syntonic pathology, and the features and controversies surrounding dissociative disorders."
+  },
+  {
+    "unitId": 22,
+    "section": "psych-soc",
+    "unitTitle": "Psychological Disorders",
+    "lessonNumber": 7,
+    "title": "Substance Use Disorders and Addictive Behaviors",
+    "description": "Examines the diagnostic criteria for substance use disorders, the neurobiological basis of addiction including reward circuitry and tolerance, and the distinction between dependence and abuse."
+  },
+  {
+    "unitId": 22,
+    "section": "psych-soc",
+    "unitTitle": "Psychological Disorders",
+    "lessonNumber": 8,
+    "title": "Treatment Approaches: Biological, Psychological, and Sociocultural Therapies",
+    "description": "Surveys the major treatment modalities for psychological disorders, including pharmacotherapy, evidence-based psychotherapies such as CBT, and sociocultural factors that influence treatment access and efficacy."
+  },
+  {
+    "unitId": 23,
+    "section": "psych-soc",
+    "unitTitle": "Social Psychology",
+    "lessonNumber": 1,
+    "title": "Foundations of Social Perception: How We Understand Others",
+    "description": "Introduces the basic principles of social cognition, including how people form impressions and make sense of the social world around them."
+  },
+  {
+    "unitId": 23,
+    "section": "psych-soc",
+    "unitTitle": "Social Psychology",
+    "lessonNumber": 2,
+    "title": "Attribution Theory: Explaining Behavior Through Causal Reasoning",
+    "description": "Covers the major attribution theories including Heider's naive psychology, Jones and Davis's correspondent inference theory, and Kelley's covariation model."
+  },
+  {
+    "unitId": 23,
+    "section": "psych-soc",
+    "unitTitle": "Social Psychology",
+    "lessonNumber": 3,
+    "title": "Attribution Errors and Biases: When Explanations Go Wrong",
+    "description": "Examines systematic errors in attribution including the fundamental attribution error, actor-observer bias, self-serving bias, and ultimate attribution error."
+  },
+  {
+    "unitId": 23,
+    "section": "psych-soc",
+    "unitTitle": "Social Psychology",
+    "lessonNumber": 4,
+    "title": "Attitudes and Behavior: Formation, Change, and Consistency",
+    "description": "Explores how attitudes are formed and measured, the attitude-behavior relationship, and cognitive dissonance theory as a driver of attitude change."
+  },
+  {
+    "unitId": 23,
+    "section": "psych-soc",
+    "unitTitle": "Social Psychology",
+    "lessonNumber": 5,
+    "title": "Conformity: Social Norms and the Pressure to Belong",
+    "description": "Analyzes the mechanisms of conformity including normative and informational social influence, Asch's line experiments, and factors that increase or decrease conforming behavior."
+  },
+  {
+    "unitId": 23,
+    "section": "psych-soc",
+    "unitTitle": "Social Psychology",
+    "lessonNumber": 6,
+    "title": "Obedience to Authority: Compliance Under Social Pressure",
+    "description": "Examines Milgram's obedience experiments, the situational factors that drive obedience, and the psychological mechanisms underlying compliance with authority figures."
+  },
+  {
+    "unitId": 23,
+    "section": "psych-soc",
+    "unitTitle": "Social Psychology",
+    "lessonNumber": 7,
+    "title": "Group Dynamics: Performance, Decision-Making, and Polarization",
+    "description": "Covers how group membership affects individual behavior and cognition, including social facilitation, social loafing, groupthink, and group polarization phenomena."
+  },
+  {
+    "unitId": 23,
+    "section": "psych-soc",
+    "unitTitle": "Social Psychology",
+    "lessonNumber": 8,
+    "title": "Prejudice and Discrimination: Origins and Psychological Mechanisms",
+    "description": "Investigates the cognitive and motivational roots of prejudice, including stereotyping, in-group/out-group dynamics, social identity theory, and implicit bias."
+  },
+  {
+    "unitId": 23,
+    "section": "psych-soc",
+    "unitTitle": "Social Psychology",
+    "lessonNumber": 9,
+    "title": "Reducing Prejudice: Intergroup Contact and Structural Interventions",
+    "description": "Evaluates evidence-based strategies for reducing prejudice and discrimination, including Allport's contact hypothesis, cooperative learning, and systemic approaches to bias reduction."
+  },
+  {
+    "unitId": 23,
+    "section": "psych-soc",
+    "unitTitle": "Social Psychology",
+    "lessonNumber": 10,
+    "title": "Aggression, Prosocial Behavior, and the Bystander Effect",
+    "description": "Synthesizes social psychological research on helping behavior and aggression, including Latané and Darley's bystander intervention model, diffusion of responsibility, and social learning theories of aggression."
+  },
+  {
+    "unitId": 24,
+    "section": "psych-soc",
+    "unitTitle": "Sociology & Demographics",
+    "lessonNumber": 1,
+    "title": "Social Stratification: Class, Status, and Power",
+    "description": "Examines the foundations of social stratification including Weber's dimensions of class, status, and party, as well as the structural factors that create and maintain inequality across societies."
+  },
+  {
+    "unitId": 24,
+    "section": "psych-soc",
+    "unitTitle": "Sociology & Demographics",
+    "lessonNumber": 2,
+    "title": "Theories of Social Inequality: Functionalism, Conflict, and Symbolic Interactionism",
+    "description": "Compares major sociological theoretical frameworks—functionalist, conflict, and symbolic interactionist—as applied to understanding the origins, persistence, and consequences of social inequality."
+  },
+  {
+    "unitId": 24,
+    "section": "psych-soc",
+    "unitTitle": "Sociology & Demographics",
+    "lessonNumber": 3,
+    "title": "Social Mobility: Types, Barriers, and Measurement",
+    "description": "Covers the concepts of intragenerational and intergenerational mobility, absolute versus relative mobility, and the structural and individual factors that facilitate or impede movement between social strata."
+  },
+  {
+    "unitId": 24,
+    "section": "psych-soc",
+    "unitTitle": "Sociology & Demographics",
+    "lessonNumber": 4,
+    "title": "Race, Ethnicity, and Social Inequality",
+    "description": "Analyzes how race and ethnicity function as socially constructed categories that intersect with stratification systems, exploring concepts of prejudice, discrimination, institutional racism, and minority group experiences."
+  },
+  {
+    "unitId": 24,
+    "section": "psych-soc",
+    "unitTitle": "Sociology & Demographics",
+    "lessonNumber": 5,
+    "title": "Gender, Sexuality, and Stratification",
+    "description": "Explores how gender and sexuality are socially constructed and institutionalized, including gender role socialization, the gender pay gap, patriarchy, and the influence of intersectionality on lived experiences of inequality."
+  },
+  {
+    "unitId": 24,
+    "section": "psych-soc",
+    "unitTitle": "Sociology & Demographics",
+    "lessonNumber": 6,
+    "title": "Socialization: Agents, Processes, and the Life Course",
+    "description": "Examines how individuals internalize social norms, values, and roles through primary and secondary socialization, focusing on key agents such as family, peers, media, and education across developmental stages."
+  },
+  {
+    "unitId": 24,
+    "section": "psych-soc",
+    "unitTitle": "Sociology & Demographics",
+    "lessonNumber": 7,
+    "title": "Social Institutions: Family, Education, and Religion",
+    "description": "Analyzes the structure, function, and sociological significance of major social institutions—family, education, and religion—and how each reproduces or challenges existing patterns of stratification and socialization."
+  },
+  {
+    "unitId": 24,
+    "section": "psych-soc",
+    "unitTitle": "Sociology & Demographics",
+    "lessonNumber": 8,
+    "title": "Health Disparities and the Social Determinants of Health",
+    "description": "Investigates how socioeconomic status, race, gender, and access to resources create systematic differences in health outcomes, integrating concepts of health disparities, social gradients, and structural determinants of well-being."
+  },
+  {
+    "unitId": 24,
+    "section": "psych-soc",
+    "unitTitle": "Sociology & Demographics",
+    "lessonNumber": 9,
+    "title": "Demographic Measures and Population Dynamics",
+    "description": "Introduces core demographic concepts including birth rates, death rates, fertility, mortality, migration, and dependency ratios, and explains how these measures are used to characterize and compare populations."
+  },
+  {
+    "unitId": 24,
+    "section": "psych-soc",
+    "unitTitle": "Sociology & Demographics",
+    "lessonNumber": 10,
+    "title": "Demographic Transition Theory and Global Population Trends",
+    "description": "Applies the demographic transition model to explain historical and contemporary shifts in birth and death rates across societies, connecting population dynamics to industrialization, urbanization, and global health trends."
+  },
+  {
+    "unitId": 25,
+    "section": "psych-soc",
+    "unitTitle": "Research Methods & Statistics",
+    "lessonNumber": 1,
+    "title": "Foundations of Scientific Inquiry and Research Design",
+    "description": "Covers the scientific method, types of research questions, hypothesis formation, and the key distinctions between experimental, quasi-experimental, and observational study designs."
+  },
+  {
+    "unitId": 25,
+    "section": "psych-soc",
+    "unitTitle": "Research Methods & Statistics",
+    "lessonNumber": 2,
+    "title": "Variables, Controls, and Experimental Methodology",
+    "description": "Examines independent, dependent, and confounding variables, control and experimental groups, randomization, blinding procedures, and the principles of well-controlled experimental design."
+  },
+  {
+    "unitId": 25,
+    "section": "psych-soc",
+    "unitTitle": "Research Methods & Statistics",
+    "lessonNumber": 3,
+    "title": "Epidemiological and Non-Experimental Research Methods",
+    "description": "Explores cohort, case-control, cross-sectional, and longitudinal studies, along with surveys and naturalistic observation, including their strengths, limitations, and appropriate applications."
+  },
+  {
+    "unitId": 25,
+    "section": "psych-soc",
+    "unitTitle": "Research Methods & Statistics",
+    "lessonNumber": 4,
+    "title": "Validity, Reliability, and Research Ethics",
+    "description": "Analyzes internal and external validity, threats to validity, measurement reliability, operationalization of variables, and ethical principles governing human and animal research."
+  },
+  {
+    "unitId": 25,
+    "section": "psych-soc",
+    "unitTitle": "Research Methods & Statistics",
+    "lessonNumber": 5,
+    "title": "Descriptive Statistics and Data Interpretation",
+    "description": "Covers measures of central tendency and variability, normal and skewed distributions, graphical data representation, and how to accurately interpret and critically evaluate data presented in research contexts."
+  },
+  {
+    "unitId": 25,
+    "section": "psych-soc",
+    "unitTitle": "Research Methods & Statistics",
+    "lessonNumber": 6,
+    "title": "Inferential Statistics, Hypothesis Testing, and Research Bias",
+    "description": "Introduces sampling methods, statistical significance, p-values, confidence intervals, Type I and Type II errors, correlation versus causation, and common sources of bias that affect research conclusions."
+  }
+]
