@@ -1,10 +1,33 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import { auth, signOut } from "@/auth";
 
-export default async function UserNav() {
-  const session = await auth();
+type User = {
+  name: string | null;
+  email: string | null;
+  image: string | null;
+};
 
-  if (!session?.user) {
+export default function UserNav() {
+  const [user, setUser] = useState<User | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch("/api/session")
+      .then((r) => r.json())
+      .then((data) => {
+        setUser(data.user);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, []);
+
+  if (loading) {
+    return <div className="w-8 h-8 rounded-full bg-[#0c1a2e15]" />;
+  }
+
+  if (!user) {
     return (
       <Link
         href="/sign-in"
@@ -15,7 +38,7 @@ export default async function UserNav() {
     );
   }
 
-  const initials = (session.user.name || session.user.email || "?")
+  const initials = (user.name || user.email || "?")
     .split(" ")
     .map((s) => s[0])
     .filter(Boolean)
@@ -23,13 +46,17 @@ export default async function UserNav() {
     .join("")
     .toUpperCase();
 
+  function handleSignOut() {
+    window.location.href = "/api/auth/signout?callbackUrl=/";
+  }
+
   return (
     <div className="flex items-center gap-3">
-      {session.user.image ? (
+      {user.image ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={session.user.image}
-          alt={session.user.name || "User"}
+          src={user.image}
+          alt={user.name || "User"}
           className="w-8 h-8 rounded-full border border-[#0c1a2e25]"
         />
       ) : (
@@ -37,19 +64,13 @@ export default async function UserNav() {
           {initials}
         </div>
       )}
-      <form
-        action={async () => {
-          "use server";
-          await signOut({ redirectTo: "/" });
-        }}
+      <button
+        type="button"
+        onClick={handleSignOut}
+        className="font-mono text-[10px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100 transition-opacity"
       >
-        <button
-          type="submit"
-          className="font-mono text-[10px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100 transition-opacity"
-        >
-          Sign out
-        </button>
-      </form>
+        Sign out
+      </button>
     </div>
   );
 }

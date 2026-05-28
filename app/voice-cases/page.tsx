@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import Link from "next/link";
 import Script from "next/script";
+import MainNav from "@/components/MainNav";
 
 type Message = { role: "user" | "assistant"; content: string };
 
@@ -52,18 +52,6 @@ declare global {
     SpeechRecognition: { new (): SR };
     webkitSpeechRecognition: { new (): SR };
   }
-}
-
-function Logo() {
-  return (
-    <div className="flex items-center gap-2.5">
-      <svg width="32" height="18" viewBox="0 0 60 28" fill="none" className="flex-shrink-0">
-        <path d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14" stroke="#a8324a" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-        <circle cx="50" cy="14" r="2.2" fill="#a8324a" />
-      </svg>
-      <span className="font-serif font-semibold text-xl tracking-tight text-[#0c1a2e]">Vitalis</span>
-    </div>
-  );
 }
 
 export default function VoiceCasesPage() {
@@ -196,7 +184,9 @@ export default function VoiceCasesPage() {
     utter.rate = 0.95;
     utter.pitch = gender === "male" ? 0.95 : 1.05;
     window.speechSynthesis.speak(utter);
-  }async function startNewCase() {
+  }
+
+  async function startNewCase() {
     setPhase("loading");
     setMessages([]);
     setFeedback("");
@@ -334,22 +324,13 @@ export default function VoiceCasesPage() {
     }
     if (inList) out += "</ul>";
     return out;
-  }return (
+  }
+
+  return (
     <>
       <Script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" onLoad={() => setChartReady(true)} />
       <div className="min-h-screen flex flex-col bg-[#f5f1ea] text-[#0c1a2e]">
-        <header className="flex items-center justify-between px-8 py-4 border-b border-[#0c1a2e15]">
-          <Logo />
-          <div className="hidden md:flex gap-6 text-sm font-medium">
-            <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
-            <Link href="/tutor" className="opacity-60 hover:opacity-100">Tutor</Link>
-            <Link href="/practice" className="opacity-60 hover:opacity-100">Practice</Link>
-            <Link href="/flashcards" className="opacity-60 hover:opacity-100">Flashcards</Link>
-            <Link href="/voice-cases" className="opacity-100 border-b border-[#a8324a] pb-0.5">Voice Cases</Link>
-            <Link href="/score-calculator" className="opacity-60 hover:opacity-100">Score Calc</Link>
-          </div>
-          <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">Patient Sim · Beta</div>
-        </header>
+        <MainNav active="voice-cases" badge="Patient Sim · Beta" compact />
 
         {phase === "idle" && (
           <div className="flex-1 flex items-center justify-center px-8 py-12">

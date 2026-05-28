@@ -4,6 +4,7 @@ import { useState, useRef, useEffect, useCallback, Suspense } from "react";
 import Link from "next/link";
 import Script from "next/script";
 import { useSearchParams, useRouter } from "next/navigation";
+import MainNav from "@/components/MainNav";
 
 type ImagePart = {
   type: "image";
@@ -39,25 +40,6 @@ declare global {
   interface Window {
     Chart: ChartLib;
   }
-}
-
-function Logo() {
-  return (
-    <div className="flex items-center gap-2.5">
-      <svg width="32" height="18" viewBox="0 0 60 28" fill="none" className="flex-shrink-0">
-        <path
-          d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14"
-          stroke="#a8324a"
-          strokeWidth="2.4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          fill="none"
-        />
-        <circle cx="50" cy="14" r="2.2" fill="#a8324a" />
-      </svg>
-      <span className="font-serif font-semibold text-xl tracking-tight text-[#0c1a2e]">Vitalis</span>
-    </div>
-  );
 }
 
 function TutorPageContent() {
@@ -200,16 +182,9 @@ function TutorPageContent() {
   function handleFileSelect(e: React.ChangeEvent<HTMLInputElement>) {
     const files = e.target.files;
     if (!files || files.length === 0) return;
-
     Array.from(files).forEach((file) => {
-      if (file.size > 5 * 1024 * 1024) {
-        alert(`${file.name} is larger than 5MB. Try a smaller image.`);
-        return;
-      }
-      if (!file.type.startsWith("image/")) {
-        alert(`${file.name} is not an image.`);
-        return;
-      }
+      if (file.size > 5 * 1024 * 1024) { alert(`${file.name} is larger than 5MB.`); return; }
+      if (!file.type.startsWith("image/")) { alert(`${file.name} is not an image.`); return; }
       const reader = new FileReader();
       reader.onload = (ev) => {
         const dataUrl = ev.target?.result as string;
@@ -219,7 +194,6 @@ function TutorPageContent() {
       };
       reader.readAsDataURL(file);
     });
-
     if (fileInputRef.current) fileInputRef.current.value = "";
   }
 
@@ -239,9 +213,7 @@ function TutorPageContent() {
         router.replace(`/tutor?c=${newId}`);
         return newId;
       }
-    } catch (e) {
-      console.error("Failed to create conversation:", e);
-    }
+    } catch (e) { console.error("Failed to create conversation:", e); }
     return null;
   }
 
@@ -252,9 +224,7 @@ function TutorPageContent() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ role, content }),
       });
-    } catch (e) {
-      console.error("Failed to save message:", e);
-    }
+    } catch (e) { console.error("Failed to save message:", e); }
   }
 
   async function send() {
@@ -281,11 +251,7 @@ function TutorPageContent() {
     setPendingImages([]);
     setLoading(true);
 
-    const apiMessages: ApiMessage[] = newDisplayMessages.map((m) => ({
-      role: m.role,
-      content: m.text,
-    }));
-
+    const apiMessages: ApiMessage[] = newDisplayMessages.map((m) => ({ role: m.role, content: m.text }));
     if (imagesForApi.length > 0) {
       const lastIdx = apiMessages.length - 1;
       const parts: Array<TextPart | ImagePart> = [...imagesForApi];
@@ -326,10 +292,7 @@ function TutorPageContent() {
     const convId = await ensureConversation();
     if (convId) await saveMessage(convId, "user", text);
 
-    const apiMessages: ApiMessage[] = newMessages.map((m) => ({
-      role: m.role,
-      content: m.text,
-    }));
+    const apiMessages: ApiMessage[] = newMessages.map((m) => ({ role: m.role, content: m.text }));
 
     try {
       const res = await fetch("/api/chat", {
@@ -385,9 +348,7 @@ function TutorPageContent() {
       return "\x00SVG" + (svgBlocks.length - 1) + "\x00";
     });
     let html = text
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
       .replace(/\*([^*]+)\*/g, "<em>$1</em>")
       .replace(/`([^`]+)`/g, "<code>$1</code>")
@@ -431,28 +392,18 @@ function TutorPageContent() {
     <>
       <Script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" onLoad={() => setChartReady(true)} />
       <div className="h-screen flex flex-col bg-[#f5f1ea] text-[#0c1a2e]">
-        <header className="flex items-center justify-between px-8 py-4 border-b border-[#0c1a2e15]">
-          <Logo />
-          <div className="hidden md:flex gap-6 text-sm font-medium">
-            <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
-            <Link href="/tutor" className="opacity-100 border-b border-[#a8324a] pb-0.5">Tutor</Link>
-            <Link href="/practice" className="opacity-60 hover:opacity-100">Practice</Link>
-            <Link href="/flashcards" className="opacity-60 hover:opacity-100">Flashcards</Link>
-            <Link href="/voice-cases" className="opacity-60 hover:opacity-100">Voice Cases</Link>
-            <Link href="/score-calculator" className="opacity-60 hover:opacity-100">Score Calc</Link>
-          </div>
-          <div className="flex items-center gap-3">
-            {isAuthenticated && (
-              <Link
-                href="/tutor/conversations"
-                className="font-mono text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 px-3 py-1.5 border border-[#0c1a2e25] rounded-full"
-              >
+        <MainNav active="tutor" badge="MCAT Tutor · Beta" compact rightSlot={
+          isAuthenticated ? (
+            <div className="flex items-center gap-3">
+              <Link href="/tutor/conversations" className="font-mono text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 px-3 py-1.5 border border-[#0c1a2e25] rounded-full">
                 Past chats
               </Link>
-            )}
+              <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">MCAT Tutor · Beta</div>
+            </div>
+          ) : (
             <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">MCAT Tutor · Beta</div>
-          </div>
-        </header>
+          )
+        } />
         <div className="flex-1 flex flex-col bg-[#ebe5d6] overflow-hidden">
           <div className="px-8 py-3 border-b border-[#0c1a2e15] flex items-center justify-between">
             <div className="flex items-center gap-2.5 font-serif text-base font-medium">
@@ -461,10 +412,7 @@ function TutorPageContent() {
             </div>
             <div className="flex items-center gap-3">
               {messages.length > 0 && (
-                <button
-                  onClick={startFresh}
-                  className="font-mono text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 px-2 py-1 border border-[#0c1a2e25] rounded"
-                >
+                <button onClick={startFresh} className="font-mono text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 px-2 py-1 border border-[#0c1a2e25] rounded">
                   + New chat
                 </button>
               )}
@@ -484,7 +432,7 @@ function TutorPageContent() {
             ) : messages.length === 0 ? (
               <div className="m-auto max-w-xl text-center px-5 py-10">
                 <h2 className="font-serif text-3xl font-medium tracking-tight mb-3 leading-tight">Built to bring out the physician in you.</h2>
-                <p className="text-sm opacity-65 leading-relaxed mb-6">Ask anything about the MCAT — concepts, study strategy, practice problems. Upload a photo of your homework or a textbook diagram, and I&apos;ll walk you through it.</p>
+                <p className="text-sm opacity-65 leading-relaxed mb-6">Ask anything about the MCAT. Upload a photo of your homework or a textbook diagram, and I&apos;ll walk you through it.</p>
                 {isAuthenticated === false && (
                   <div className="mb-6 p-3 bg-[#a8324a08] border border-[#a8324a25] rounded-lg text-[12px] opacity-75">
                     <Link href="/sign-in" className="text-[#a8324a] font-medium hover:underline">Sign in</Link> to save your conversations and pick up where you left off.
@@ -517,19 +465,12 @@ function TutorPageContent() {
                       <div className="flex flex-wrap gap-2 justify-end">
                         {msg.images.map((src, idx) => (
                           // eslint-disable-next-line @next/next/no-img-element
-                          <img
-                            key={idx}
-                            src={src}
-                            alt="Attached"
-                            className="max-w-[200px] max-h-[200px] rounded-xl object-contain border border-[#0c1a2e25]"
-                          />
+                          <img key={idx} src={src} alt="Attached" className="max-w-[200px] max-h-[200px] rounded-xl object-contain border border-[#0c1a2e25]" />
                         ))}
                       </div>
                     )}
                     {msg.text && (
-                      <div className="bg-[#0c1a2e] text-[#f5f1ea] px-4 py-3 rounded-2xl rounded-br-md text-[15px] leading-relaxed">
-                        {msg.text}
-                      </div>
+                      <div className="bg-[#0c1a2e] text-[#f5f1ea] px-4 py-3 rounded-2xl rounded-br-md text-[15px] leading-relaxed">{msg.text}</div>
                     )}
                   </div>
                 ) : (

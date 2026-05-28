@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import MainNav from "@/components/MainNav";
 
 type Scores = {
   bio: string;
@@ -126,25 +127,6 @@ function scoreInterpretation(total: number): { tier: string; description: string
   };
 }
 
-function Logo() {
-  return (
-    <div className="flex items-center gap-2.5">
-      <svg width="36" height="20" viewBox="0 0 60 28" fill="none" className="flex-shrink-0">
-        <path
-          d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14"
-          stroke="#a8324a"
-          strokeWidth="2.4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          fill="none"
-        />
-        <circle cx="50" cy="14" r="2.2" fill="#a8324a" />
-      </svg>
-      <span className="font-serif font-semibold text-[22px] tracking-tight text-[#0c1a2e]">Vitalis</span>
-    </div>
-  );
-}
-
 export default function ScoreCalculatorPage() {
   const [scores, setScores] = useState<Scores>({ bio: "", chem: "", psych: "", cars: "" });
 
@@ -182,25 +164,16 @@ export default function ScoreCalculatorPage() {
     { key: "cars", label: "CARS", full: "Critical Analysis and Reasoning Skills" },
     { key: "bio", label: "Bio / Biochem", full: "Biological and Biochemical Foundations" },
     { key: "psych", label: "Psych / Soc", full: "Psychological, Social, and Biological Foundations" },
-  ];return (
+  ];
+
+  return (
     <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e] font-sans relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 right-0 w-[900px] h-[500px] bg-[#a8324a] opacity-[0.05] blur-[120px] rounded-full -translate-y-1/3 translate-x-1/4" />
       </div>
 
       <div className="relative z-10">
-        <nav className="flex items-center justify-between px-10 py-5 border-b border-[#0c1a2e15]">
-          <Logo />
-          <div className="hidden md:flex gap-6 text-sm font-medium">
-            <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
-            <Link href="/tutor" className="opacity-60 hover:opacity-100">Tutor</Link>
-            <Link href="/practice" className="opacity-60 hover:opacity-100">Practice</Link>
-            <Link href="/flashcards" className="opacity-60 hover:opacity-100">Flashcards</Link>
-            <Link href="/voice-cases" className="opacity-60 hover:opacity-100">Voice Cases</Link>
-            <Link href="/score-calculator" className="opacity-100 border-b border-[#a8324a] pb-0.5">Score Calc</Link>
-          </div>
-          <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">Score Tools</div>
-        </nav>
+        <MainNav active="score-calculator" badge="Score Tools" />
 
         <section className="px-10 pt-14 pb-8 border-b border-[#0c1a2e15]">
           <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
@@ -320,6 +293,12 @@ export default function ScoreCalculatorPage() {
 
         <div className="mx-10 my-7 p-3.5 px-5 border border-dashed border-[#0c1a2e25] rounded-lg font-mono text-[12px] leading-relaxed opacity-60">
           MCAT alone does not determine admissions. GPA, research, clinical experience, essays, interviews, and state residency all factor in. Use this tool as a rough orientation, not a prediction.
+        </div>
+
+        <div className="px-10 pb-10">
+          <Link href="/" className="font-mono text-[11px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100">
+            ← Back to home
+          </Link>
         </div>
       </div>
     </div>

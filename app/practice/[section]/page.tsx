@@ -1,461 +1,393 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState, useRef, useCallback, Suspense } from "react";
 import Link from "next/link";
-import { useParams, useSearchParams } from "next/navigation";
-
-type Choice = "A" | "B" | "C" | "D";
+import { useParams, useSearchParams, useRouter } from "next/navigation";
+import MainNav from "@/components/MainNav";
 
 type Question = {
   id: string;
-  stem: string;
-  choices: { A: string; B: string; C: string; D: string };
-  correctAnswer: Choice;
+  question_text: string;
+  choice_a: string;
+  choice_b: string;
+  choice_c: string;
+  choice_d: string;
+  correct_answer: string;
   explanation: string;
-  wrongAnswerExplanations: { A?: string; B?: string; C?: string; D?: string };
-  concept: string;
-  difficulty: string;
+  topic: string;
 };
 
-type PassageData = {
-  title: string;
-  content: string;
-};
-
-type QuestionSet = {
-  format: "passage" | "standalone";
-  passage?: PassageData;
-  questions: Question[];
-  section: string;
-};
-
-type TutorMessage = { role: "user" | "assistant"; content: string };
+type Message = { role: "user" | "assistant"; content: string };
 
 const SECTION_NAMES: Record<string, string> = {
   "bio-biochem": "Bio / Biochem",
   "chem-phys": "Chem / Phys",
   "psych-soc": "Psych / Soc",
   "cars": "CARS",
-  "mixed": "Mixed Practice",
+  "mixed": "Mixed",
 };
 
-function Logo() {
-  return (
-    <div className="flex items-center gap-2.5">
-      <svg width="32" height="18" viewBox="0 0 60 28" fill="none" className="flex-shrink-0">
-        <path
-          d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14"
-          stroke="#a8324a"
-          strokeWidth="2.4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          fill="none"
-        />
-        <circle cx="50" cy="14" r="2.2" fill="#a8324a" />
-      </svg>
-      <span className="font-serif font-semibold text-xl tracking-tight text-[#0c1a2e]">Vitalis</span>
-    </div>
-  );
-}
+const SECTION_COLORS: Record<string, string> = {
+  "bio-biochem": "#a8324a",
+  "chem-phys": "#2e4a6b",
+  "psych-soc": "#8a6b2e",
+  "cars": "#4a3b6b",
+  "mixed": "#0c1a2e",
+};
 
-export default function PracticeSessionPage() {
+function PracticeSessionContent() {
   const params = useParams();
   const searchParams = useSearchParams();
-  const section = (params.section as string) || "mixed";
-  const format = (searchParams.get("format") as "standalone" | "passage") || "standalone";
+  const router = useRouter();
+  const sectionId = (params.section as string) || "mixed";
+  const numQuestions = parseInt(searchParams.get("n") || "10", 10);
+  const difficulty = (searchParams.get("d") as "mixed" | "easy" | "medium" | "hard") || "mixed";
 
-  const [questionSet, setQuestionSet] = useState<QuestionSet | null>(null);
+  const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIdx, setCurrentIdx] = useState(0);
-  const [selected, setSelected] = useState<Choice | null>(null);
-  const [submitted, setSubmitted] = useState(false);
+  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+  const [showExplanation, setShowExplanation] = useState(false);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [results, setResults] = useState<{ qId: string; correct: boolean; selected: string }[]>([]);
+  const [sessionComplete, setSessionComplete] = useState(false);
 
-  const [totalAnswered, setTotalAnswered] = useState(0);
-  const [totalCorrect, setTotalCorrect] = useState(0);
-
-  const [timerOn, setTimerOn] = useState(false);
-  const [secondsElapsed, setSecondsElapsed] = useState(0);
-
+  // Tutor pop-up state
   const [showTutor, setShowTutor] = useState(false);
-  const [tutorMessages, setTutorMessages] = useState<TutorMessage[]>([]);
+  const [tutorMessages, setTutorMessages] = useState<Message[]>([]);
   const [tutorInput, setTutorInput] = useState("");
   const [tutorLoading, setTutorLoading] = useState(false);
+  const tutorRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    loadNewQuestion();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  const accent = SECTION_COLORS[sectionId] || "#0c1a2e";
+  const sectionName = SECTION_NAMES[sectionId] || sectionId;
 
-  useEffect(() => {
-    if (!timerOn || submitted) return;
-    const id = setInterval(() => setSecondsElapsed((s) => s + 1), 1000);
-    return () => clearInterval(id);
-  }, [timerOn, submitted, currentIdx]);
-
-  async function loadNewQuestion() {
+  const loadQuestions = useCallback(async () => {
     setLoading(true);
     setError("");
-    setSelected(null);
-    setSubmitted(false);
-    setSecondsElapsed(0);
-    setShowTutor(false);
-    setTutorMessages([]);
     try {
       const res = await fetch("/api/practice/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ section, format }),
+        body: JSON.stringify({ section: sectionId, count: numQuestions, difficulty }),
       });
       const data = await res.json();
-      if (data.questions && data.questions.length > 0) {
-        setQuestionSet(data);
-        setCurrentIdx(0);
-      } else {
-        setError("Couldn't generate a question. Try again?");
+      if (!data.questions || data.questions.length === 0) {
+        setError("Couldn't load questions. Try again.");
+        setLoading(false);
+        return;
       }
+      setQuestions(data.questions);
+      setLoading(false);
     } catch {
-      setError("Connection issue. Try again?");
+      setError("Couldn't load questions. Try again.");
+      setLoading(false);
     }
-    setLoading(false);
+  }, [sectionId, numQuestions, difficulty]);
+
+  useEffect(() => {
+    loadQuestions();
+  }, [loadQuestions]);
+
+  useEffect(() => {
+    if (tutorRef.current) {
+      tutorRef.current.scrollTop = tutorRef.current.scrollHeight;
+    }
+  }, [tutorMessages, tutorLoading]);
+
+  const currentQ = questions[currentIdx];
+
+  function handleSubmit() {
+    if (!selectedAnswer || !currentQ) return;
+    const isCorrect = selectedAnswer === currentQ.correct_answer;
+    setResults([...results, { qId: currentQ.id, correct: isCorrect, selected: selectedAnswer }]);
+    setShowExplanation(true);
   }
 
-  function submitAnswer() {
-    if (!selected || !questionSet) return;
-    setSubmitted(true);
-    setTotalAnswered((n) => n + 1);
-    const correct = selected === questionSet.questions[currentIdx].correctAnswer;
-    if (correct) setTotalCorrect((n) => n + 1);
-    else {
-      const q = questionSet.questions[currentIdx];
-      const wrongExp = q.wrongAnswerExplanations[selected] || "";
-      const seedMessage =
-        `**The correct answer is ${q.correctAnswer}.**\n\n${q.explanation}\n\n**Why ${selected} is wrong:** ${wrongExp}\n\nWant me to dig deeper? Ask anything — I'll walk you through it.`;
-      setTutorMessages([{ role: "assistant", content: seedMessage }]);
-      setTimeout(() => setShowTutor(true), 400);
+  function handleNext() {
+    if (currentIdx + 1 >= questions.length) {
+      setSessionComplete(true);
+      return;
     }
+    setCurrentIdx(currentIdx + 1);
+    setSelectedAnswer(null);
+    setShowExplanation(false);
+    setShowTutor(false);
+    setTutorMessages([]);
   }
 
-  function nextQuestion() {
-    if (!questionSet) return;
-    if (questionSet.format === "passage" && currentIdx < questionSet.questions.length - 1) {
-      setCurrentIdx(currentIdx + 1);
-      setSelected(null);
-      setSubmitted(false);
-      setSecondsElapsed(0);
-      setShowTutor(false);
-      setTutorMessages([]);
-    } else {
-      loadNewQuestion();
-    }
-  }async function askTutor() {
-    if (!tutorInput.trim() || tutorLoading || !questionSet) return;
-    const q = questionSet.questions[currentIdx];
-    const userMsg: TutorMessage = { role: "user", content: tutorInput.trim() };
-    const newMessages = [...tutorMessages, userMsg];
+  function openTutor() {
+    if (!currentQ) return;
+    setShowTutor(true);
+    const lastResult = results[results.length - 1];
+    const wrongAnswerText =
+      lastResult.selected === "A" ? currentQ.choice_a :
+      lastResult.selected === "B" ? currentQ.choice_b :
+      lastResult.selected === "C" ? currentQ.choice_c :
+      currentQ.choice_d;
+    const correctText =
+      currentQ.correct_answer === "A" ? currentQ.choice_a :
+      currentQ.correct_answer === "B" ? currentQ.choice_b :
+      currentQ.correct_answer === "C" ? currentQ.choice_c :
+      currentQ.choice_d;
+    const initialUserMsg = `I got this question wrong. Help me understand why.
+
+Question: ${currentQ.question_text}
+
+I picked: ${lastResult.selected}. ${wrongAnswerText}
+Correct: ${currentQ.correct_answer}. ${correctText}
+
+The explanation says: ${currentQ.explanation}
+
+Can you explain this more deeply and help me build the right intuition so I get questions like this right next time?`;
+
+    setTutorMessages([{ role: "user", content: initialUserMsg }]);
+    setTutorLoading(true);
+    fetch("/api/practice/explain", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ messages: [{ role: "user", content: initialUserMsg }] }),
+    })
+      .then((r) => r.json())
+      .then((d) => {
+        setTutorMessages([
+          { role: "user", content: initialUserMsg },
+          { role: "assistant", content: d.reply || "Sorry — connection issue. Try again?" },
+        ]);
+        setTutorLoading(false);
+      })
+      .catch(() => {
+        setTutorMessages([
+          { role: "user", content: initialUserMsg },
+          { role: "assistant", content: "Sorry — connection issue. Try again?" },
+        ]);
+        setTutorLoading(false);
+      });
+  }
+
+  async function sendTutorMessage() {
+    if (!tutorInput.trim() || tutorLoading) return;
+    const newMessages: Message[] = [...tutorMessages, { role: "user" as const, content: tutorInput.trim() }];
     setTutorMessages(newMessages);
     setTutorInput("");
     setTutorLoading(true);
-
     try {
       const res = await fetch("/api/practice/explain", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          question: q,
-          studentAnswer: selected,
-          messages: newMessages,
-        }),
+        body: JSON.stringify({ messages: newMessages }),
       });
       const data = await res.json();
-      if (data.reply) {
-        setTutorMessages([...newMessages, { role: "assistant", content: data.reply }]);
-      } else {
-        setTutorMessages([
-          ...newMessages,
-          { role: "assistant", content: "Sorry — I had trouble responding. Try again?" },
-        ]);
-      }
+      setTutorMessages([...newMessages, { role: "assistant" as const, content: data.reply || "Sorry — connection issue." }]);
     } catch {
-      setTutorMessages([
-        ...newMessages,
-        { role: "assistant", content: "Connection issue. Try again?" },
-      ]);
+      setTutorMessages([...newMessages, { role: "assistant" as const, content: "Sorry — connection issue." }]);
     }
     setTutorLoading(false);
   }
 
-  function formatMessage(text: string): string {
-    return text
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-      .replace(/\*([^*]+)\*/g, "<em>$1</em>")
-      .replace(/`([^`]+)`/g, "<code>$1</code>")
-      .replace(/\n\n/g, "</p><p>")
-      .replace(/\n/g, "<br/>");
-  }
-
-  function formatTime(s: number): string {
-    const min = Math.floor(s / 60);
-    const sec = s % 60;
-    return `${min}:${sec.toString().padStart(2, "0")}`;
-  }
-
-  const currentQ = questionSet?.questions[currentIdx];
-  const isCorrect = submitted && selected === currentQ?.correctAnswer;
-  const accuracy = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
-
-  return (
-    <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e] font-sans flex flex-col">
-      <header className="flex items-center justify-between px-8 py-4 border-b border-[#0c1a2e15] sticky top-0 bg-[#f5f1ea] z-30">
-        <Logo />
-        <div className="hidden md:flex gap-6 text-sm font-medium">
-          <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
-          <Link href="/tutor" className="opacity-60 hover:opacity-100">Tutor</Link>
-          <Link href="/practice" className="opacity-100 border-b border-[#a8324a] pb-0.5">Practice</Link>
-          <Link href="/flashcards" className="opacity-60 hover:opacity-100">Flashcards</Link>
-          <Link href="/voice-cases" className="opacity-60 hover:opacity-100">Voice Cases</Link>
-          <Link href="/score-calculator" className="opacity-60 hover:opacity-100">Score Calc</Link>
-        </div>
-        <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">
-          {SECTION_NAMES[section] || section}
-        </div>
-      </header>
-
-      <div className="px-8 py-3 border-b border-[#0c1a2e15] flex items-center justify-between text-[12px] font-mono tracking-[0.08em] uppercase">
-        <div className="flex items-center gap-6">
-          <div className="flex items-center gap-2">
-            <span className="opacity-50">Answered:</span>
-            <span className="font-serif text-base font-medium">{totalAnswered}</span>
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-[#f5f1ea] flex items-center justify-center">
+        <div className="text-center">
+          <div className="flex items-center justify-center gap-2 mb-3">
+            <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" />
+            <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
+            <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
           </div>
-          <div className="flex items-center gap-2">
-            <span className="opacity-50">Accuracy:</span>
-            <span className="font-serif text-base font-medium">{totalAnswered > 0 ? `${accuracy}%` : "—"}</span>
-          </div>
-          {timerOn && (
-            <div className="flex items-center gap-2">
-              <span className="opacity-50">Time:</span>
-              <span className="font-serif text-base font-medium">{formatTime(secondsElapsed)}</span>
-            </div>
-          )}
-        </div>
-        <div className="flex items-center gap-2">
-          <button
-            onClick={() => setTimerOn(!timerOn)}
-            className="text-[10px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100 px-2 py-1 border border-[#0c1a2e25] rounded"
-          >
-            {timerOn ? "Timer on" : "Timer off"}
-          </button>
-          <Link
-            href="/practice"
-            className="text-[10px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100 px-2 py-1 border border-[#0c1a2e25] rounded"
-          >
-            ← Sections
-          </Link>
+          <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Generating {numQuestions} {sectionName} questions...</div>
         </div>
       </div>
+    );
+  }
 
-      {loading && (
-        <div className="flex-1 flex items-center justify-center">
-          <div className="text-center">
-            <div className="flex items-center justify-center gap-2 mb-3">
-              <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" />
-              <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
-              <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
-            </div>
-            <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Generating question...</div>
-          </div>
-        </div>
-      )}
-
-      {!loading && error && (
-        <div className="flex-1 flex items-center justify-center px-8">
-          <div className="text-center max-w-md">
-            <div className="text-[#a8324a] text-sm mb-4">{error}</div>
-            <button
-              onClick={loadNewQuestion}
-              className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
-            >
+  if (error) {
+    return (
+      <div className="min-h-screen bg-[#f5f1ea] flex items-center justify-center p-10">
+        <div className="text-center max-w-md">
+          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-50 mb-4">Error</div>
+          <h1 className="font-serif text-3xl font-medium mb-4">{error}</h1>
+          <div className="flex gap-3 justify-center">
+            <button onClick={loadQuestions} className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full">
               Try again
             </button>
+            <Link href="/practice" className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full">
+              Back
+            </Link>
           </div>
         </div>
-      )}{!loading && !error && currentQ && (
-        <div className="flex-1 overflow-y-auto px-8 py-8 grid lg:grid-cols-2 gap-10 max-w-7xl mx-auto w-full">
-          {questionSet?.passage && (
-            <div className="bg-[#ebe5d6] rounded-2xl p-7 max-h-[70vh] overflow-y-auto">
-              <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-2">Passage</div>
-              <h2 className="font-serif text-xl font-medium mb-4 leading-tight">{questionSet.passage.title}</h2>
-              <div className="text-[14px] leading-relaxed whitespace-pre-wrap">{questionSet.passage.content}</div>
-            </div>
-          )}
+      </div>
+    );
+  }
 
-          <div className={questionSet?.passage ? "" : "lg:col-span-2 max-w-3xl mx-auto w-full"}>
-            <div className="flex items-center justify-between mb-4">
-              <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55">
-                Question {currentIdx + 1}{questionSet && questionSet.questions.length > 1 ? ` of ${questionSet.questions.length}` : ""}
-              </div>
-              <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-40">
-                {currentQ.difficulty}
-              </div>
-            </div>
+  if (sessionComplete) {
+    const correctCount = results.filter((r) => r.correct).length;
+    const pct = Math.round((correctCount / results.length) * 100);
+    return (
+      <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e]">
+        <MainNav active="practice" badge="Session complete" />
+        <div className="max-w-2xl mx-auto px-10 py-20 text-center">
+          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4">Session complete</div>
+          <h1 className="font-serif text-[clamp(48px,6vw,88px)] font-medium tracking-tight mb-2">
+            <span style={{ color: accent }}>{correctCount}</span> / {results.length}
+          </h1>
+          <p className="font-mono text-[14px] tracking-[0.1em] uppercase opacity-65 mb-10">{pct}% correct</p>
+          <div className="flex gap-3 justify-center flex-wrap">
+            <Link href={`/practice/${sectionId}?n=${numQuestions}&d=${difficulty}`} className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]">
+              New session →
+            </Link>
+            <Link href="/practice" className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full hover:bg-[#0c1a2e0a]">
+              Pick another section
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
-            <div className="text-[16px] leading-relaxed mb-6 whitespace-pre-wrap">{currentQ.stem}</div>
+  if (!currentQ) return null;
 
-            <div className="space-y-2.5">
-              {(["A", "B", "C", "D"] as Choice[]).map((letter) => {
-                const isSelected = selected === letter;
-                const isCorrectChoice = letter === currentQ.correctAnswer;
-                let borderClass = "border-[#0c1a2e25]";
-                let bgClass = "bg-transparent";
-                if (submitted) {
-                  if (isCorrectChoice) {
-                    borderClass = "border-[#3e6b4a]";
-                    bgClass = "bg-[#3e6b4a15]";
-                  } else if (isSelected && !isCorrectChoice) {
-                    borderClass = "border-[#a8324a]";
-                    bgClass = "bg-[#a8324a15]";
-                  }
-                } else if (isSelected) {
-                  borderClass = "border-[#0c1a2e]";
-                  bgClass = "bg-[#0c1a2e0a]";
-                }
+  const isCorrect = selectedAnswer === currentQ.correct_answer;
 
-                return (
-                  <button
-                    key={letter}
-                    onClick={() => !submitted && setSelected(letter)}
-                    disabled={submitted}
-                    className={`w-full text-left p-4 rounded-xl border-2 transition-all ${borderClass} ${bgClass} ${
-                      !submitted ? "hover:border-[#0c1a2e] hover:bg-[#0c1a2e0a] cursor-pointer" : "cursor-default"
-                    }`}
-                  >
-                    <div className="flex gap-3">
-                      <span className="font-serif font-semibold w-6 flex-shrink-0">{letter}</span>
-                      <span className="text-[14px] leading-relaxed">{currentQ.choices[letter]}</span>
-                    </div>
-                  </button>
-                );
-              })}
-            </div>
+  return (
+    <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e]">
+      <MainNav active="practice" badge={`${currentIdx + 1} / ${questions.length}`} />
 
-            {!submitted ? (
+      <div className="max-w-4xl mx-auto px-10 py-10">
+        <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-60 mb-3 flex items-center gap-2">
+          <Link href="/practice" className="hover:opacity-100 opacity-70">Practice</Link>
+          <span className="opacity-40">/</span>
+          <span style={{ color: accent }}>{sectionName}</span>
+          <span className="opacity-40">·</span>
+          <span>{currentQ.topic}</span>
+        </div>
+
+        <div className="mb-7 flex items-center gap-3">
+          <div className="flex-1 h-1.5 bg-[#0c1a2e15] rounded-full overflow-hidden">
+            <div className="h-full transition-all" style={{ width: `${((currentIdx + (showExplanation ? 1 : 0)) / questions.length) * 100}%`, backgroundColor: accent }} />
+          </div>
+          <div className="font-mono text-[10px] tracking-[0.1em] uppercase opacity-55 flex-shrink-0">
+            {currentIdx + 1} / {questions.length}
+          </div>
+        </div>
+
+        <h1 className="font-serif text-[clamp(22px,2.6vw,30px)] font-medium leading-snug mb-7">
+          {currentQ.question_text}
+        </h1>
+
+        <div className="space-y-3 mb-6">
+          {(["A", "B", "C", "D"] as const).map((letter) => {
+            const text = letter === "A" ? currentQ.choice_a : letter === "B" ? currentQ.choice_b : letter === "C" ? currentQ.choice_c : currentQ.choice_d;
+            const isSel = selectedAnswer === letter;
+            const isAns = letter === currentQ.correct_answer;
+            let cls = "border-[#0c1a2e25]";
+            let bg = "bg-transparent";
+            if (showExplanation) {
+              if (isAns) { cls = "border-[#3e6b4a]"; bg = "bg-[#3e6b4a15]"; }
+              else if (isSel && !isAns) { cls = "border-[#a8324a]"; bg = "bg-[#a8324a15]"; }
+            } else if (isSel) { cls = "border-[#0c1a2e]"; bg = "bg-[#0c1a2e0a]"; }
+            return (
               <button
-                onClick={submitAnswer}
-                disabled={!selected}
-                className="mt-7 font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-6 py-3.5 rounded-full hover:bg-[#1a2c4a] disabled:opacity-30 disabled:cursor-not-allowed"
+                key={letter}
+                onClick={() => !showExplanation && setSelectedAnswer(letter)}
+                disabled={showExplanation}
+                className={`w-full text-left p-4 rounded-xl border-2 transition-all ${cls} ${bg} ${!showExplanation ? "hover:border-[#0c1a2e] hover:bg-[#0c1a2e0a] cursor-pointer" : "cursor-default"}`}
               >
-                Submit answer →
-              </button>
-            ) : (
-              <div className="mt-7">
-                <div className={`p-5 rounded-xl mb-5 ${isCorrect ? "bg-[#3e6b4a15] border border-[#3e6b4a40]" : "bg-[#a8324a15] border border-[#a8324a40]"}`}>
-                  <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-70 mb-2">
-                    {isCorrect ? "✓ Correct" : "✗ Incorrect"}
-                  </div>
-                  <div className="text-[14px] leading-relaxed">
-                    {isCorrect ? (
-                      <span><strong>Answer: {currentQ.correctAnswer}.</strong> {currentQ.explanation}</span>
-                    ) : (
-                      <span>The correct answer is <strong>{currentQ.correctAnswer}</strong>. Vitalis is breaking it down for you →</span>
-                    )}
-                  </div>
-                  {isCorrect && (
-                    <button
-                      onClick={() => {
-                        setTutorMessages([
-                          { role: "assistant", content: `Nice work! The concept here is **${currentQ.concept}**. Want me to go deeper on this — variations, related topics, or what to watch out for on the MCAT?` },
-                        ]);
-                        setShowTutor(true);
-                      }}
-                      className="mt-3 font-mono text-[10px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100"
-                    >
-                      Ask Vitalis →
-                    </button>
-                  )}
-                </div>
                 <div className="flex gap-3">
-                  <button
-                    onClick={nextQuestion}
-                    className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-6 py-3.5 rounded-full hover:bg-[#1a2c4a]"
-                  >
-                    Next question →
-                  </button>
-                  <Link
-                    href="/practice"
-                    className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-6 py-3.5 rounded-full hover:bg-[#0c1a2e0a]"
-                  >
-                    Stop session
-                  </Link>
+                  <span className="font-serif font-semibold w-6 flex-shrink-0">{letter}</span>
+                  <span className="text-[15px] leading-relaxed">{text}</span>
                 </div>
-              </div>
-            )}
-          </div>
-        </div>
-      )}
-
-      {showTutor && currentQ && (
-        <div className="fixed inset-0 bg-[#0c1a2e66] z-50 flex items-end md:items-center justify-center p-0 md:p-6">
-          <div className="bg-[#f5f1ea] w-full md:max-w-2xl md:rounded-2xl shadow-2xl flex flex-col max-h-[90vh] md:max-h-[80vh] rounded-t-2xl">
-            <div className="flex items-center justify-between px-6 py-4 border-b border-[#0c1a2e15]">
-              <div className="flex items-center gap-2.5">
-                <span className="w-2 h-2 rounded-full bg-[#a8324a]" />
-                <div>
-                  <div className="font-serif font-medium">Vitalis explains</div>
-                  <div className="font-mono text-[10px] uppercase tracking-[0.12em] opacity-50">{currentQ.concept}</div>
-                </div>
-              </div>
-              <button
-                onClick={() => setShowTutor(false)}
-                className="font-mono text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 px-2 py-1"
-              >
-                Close ×
               </button>
+            );
+          })}
+        </div>
+
+        {!showExplanation ? (
+          <div className="flex justify-end">
+            <button
+              onClick={handleSubmit}
+              disabled={!selectedAnswer}
+              className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a] disabled:opacity-30 disabled:cursor-not-allowed"
+            >
+              Submit →
+            </button>
+          </div>
+        ) : (
+          <div className="space-y-4">
+            <div className={`p-5 rounded-xl border ${isCorrect ? "border-[#3e6b4a] bg-[#3e6b4a08]" : "border-[#a8324a] bg-[#a8324a08]"}`}>
+              <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-60 mb-2">
+                {isCorrect ? "✓ Correct" : "✗ Incorrect"}
+              </div>
+              <div className="text-[14px] leading-relaxed">{currentQ.explanation}</div>
             </div>
 
-            <div className="flex-1 overflow-y-auto px-6 py-5 flex flex-col gap-4">
+            <div className="flex justify-between items-center flex-wrap gap-3">
+              {!isCorrect && !showTutor && (
+                <button
+                  onClick={openTutor}
+                  className="font-mono text-xs uppercase tracking-[0.08em] border-2 border-[#a8324a] text-[#a8324a] px-5 py-3 rounded-full hover:bg-[#a8324a] hover:text-[#f5f1ea] transition-all"
+                >
+                  Ask the tutor →
+                </button>
+              )}
+              <div className="ml-auto">
+                <button
+                  onClick={handleNext}
+                  className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
+                >
+                  {currentIdx + 1 >= questions.length ? "Finish session →" : "Next question →"}
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* Tutor pop-up */}
+      {showTutor && (
+        <div className="fixed inset-0 bg-[#0c1a2e88] z-50 flex items-end md:items-center justify-center p-0 md:p-6" onClick={() => setShowTutor(false)}>
+          <div className="bg-[#f5f1ea] rounded-t-2xl md:rounded-2xl max-w-3xl w-full max-h-[85vh] flex flex-col shadow-2xl" onClick={(e) => e.stopPropagation()}>
+            <div className="px-6 py-4 border-b border-[#0c1a2e15] flex items-center justify-between flex-shrink-0">
+              <div className="flex items-center gap-3">
+                <span className="w-2 h-2 rounded-full bg-[#a8324a] animate-pulse" />
+                <div className="font-serif text-lg font-medium">Tutor · helping you</div>
+              </div>
+              <button onClick={() => setShowTutor(false)} className="opacity-50 hover:opacity-100 font-mono text-sm">✕</button>
+            </div>
+
+            <div ref={tutorRef} className="flex-1 overflow-y-auto px-6 py-5 space-y-4">
               {tutorMessages.map((msg, i) =>
-                msg.role === "user" ? (
-                  <div key={i} className="self-end max-w-[80%] bg-[#0c1a2e] text-[#f5f1ea] px-4 py-2.5 rounded-2xl rounded-br-md text-[14px] leading-relaxed">
+                msg.role === "user" && i === 0 ? null : msg.role === "user" ? (
+                  <div key={i} className="self-end ml-auto max-w-[78%] bg-[#0c1a2e] text-[#f5f1ea] px-4 py-3 rounded-2xl rounded-br-md text-[14px] leading-relaxed">
                     {msg.content}
                   </div>
                 ) : (
-                  <div
-                    key={i}
-                    className="self-start max-w-[90%] text-[14px] leading-relaxed tutor-content"
-                    dangerouslySetInnerHTML={{ __html: `<p>${formatMessage(msg.content)}</p>` }}
-                  />
+                  <div key={i} className="max-w-[85%]">
+                    <div className="flex items-center gap-2 mb-1.5 font-mono text-[10px] tracking-[0.14em] uppercase opacity-55">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#a8324a]" />
+                      Vitalis
+                    </div>
+                    <div className="text-[14px] leading-relaxed whitespace-pre-wrap">{msg.content}</div>
+                  </div>
                 )
               )}
               {tutorLoading && (
-                <div className="self-start flex items-center gap-1.5 opacity-60 py-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#0c1a2e] animate-bounce" />
+                <div className="flex items-center gap-1.5 opacity-60">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0s" }} />
                   <span className="w-1.5 h-1.5 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
                   <span className="w-1.5 h-1.5 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
                 </div>
               )}
             </div>
 
-            <div className="border-t border-[#0c1a2e15] px-6 py-4 flex gap-3 items-center">
+            <div className="border-t border-[#0c1a2e15] px-6 py-4 flex gap-3 items-center flex-shrink-0">
               <input
                 value={tutorInput}
                 onChange={(e) => setTutorInput(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" && !e.shiftKey) {
-                    e.preventDefault();
-                    askTutor();
-                  }
-                }}
+                onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendTutorMessage(); } }}
                 placeholder="Ask a follow-up..."
                 className="flex-1 bg-transparent border-none outline-none text-[14px] placeholder:text-[#0c1a2e66]"
               />
-              <button
-                onClick={askTutor}
-                disabled={!tutorInput.trim() || tutorLoading}
-                className="bg-[#0c1a2e] text-[#f5f1ea] w-9 h-9 rounded-full flex items-center justify-center disabled:opacity-30"
-              >
+              <button onClick={sendTutorMessage} disabled={tutorLoading || !tutorInput.trim()} className="bg-[#0c1a2e] text-[#f5f1ea] w-9 h-9 rounded-full flex items-center justify-center disabled:opacity-30">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
                   <line x1="22" y1="2" x2="11" y2="13" />
                   <polygon points="22 2 15 22 11 13 2 9 22 2" />
@@ -465,14 +397,14 @@ export default function PracticeSessionPage() {
           </div>
         </div>
       )}
-
-      <style jsx global>{`
-        .tutor-content p { margin-bottom: 8px; }
-        .tutor-content p:last-child { margin-bottom: 0; }
-        .tutor-content strong { font-weight: 600; }
-        .tutor-content em { font-style: italic; }
-        .tutor-content code { background: #0c1a2e14; padding: 1px 5px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 12px; }
-      `}</style>
     </div>
+  );
+}
+
+export default function PracticeSessionPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-[#f5f1ea]" />}>
+      <PracticeSessionContent />
+    </Suspense>
   );
 }
