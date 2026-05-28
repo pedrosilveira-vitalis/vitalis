@@ -14,6 +14,7 @@ const NAV_LINKS: NavLink[] = [
   { href: "/practice", label: "Practice" },
   { href: "/flashcards", label: "Flashcards" },
   { href: "/study", label: "Study" },
+  { href: "/study-plan", label: "My Plan" },
   { href: "/voice-cases", label: "Voice Cases" },
   { href: "/score-calculator", label: "Score Calc" },
 ];
