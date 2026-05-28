@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
+import MainNav from "@/components/MainNav";
 
 type SectionInfo = {
   id: string;
@@ -92,25 +93,6 @@ const SECTIONS: Record<string, SectionInfo> = {
   },
 };
 
-function Logo() {
-  return (
-    <div className="flex items-center gap-2.5">
-      <svg width="36" height="20" viewBox="0 0 60 28" fill="none" className="flex-shrink-0">
-        <path
-          d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14"
-          stroke="#a8324a"
-          strokeWidth="2.4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          fill="none"
-        />
-        <circle cx="50" cy="14" r="2.2" fill="#a8324a" />
-      </svg>
-      <span className="font-serif font-semibold text-[22px] tracking-tight text-[#0c1a2e]">Vitalis</span>
-    </div>
-  );
-}
-
 export default function SectionPage() {
   const params = useParams();
   const sectionId = (params.section as string) || "";
@@ -131,7 +113,9 @@ export default function SectionPage() {
         </div>
       </div>
     );
-  }return (
+  }
+
+  return (
     <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e] font-sans relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
         <div
@@ -141,18 +125,7 @@ export default function SectionPage() {
       </div>
 
       <div className="relative z-10">
-        <nav className="flex items-center justify-between px-10 py-5 border-b border-[#0c1a2e15]">
-          <Logo />
-          <div className="hidden md:flex gap-6 text-sm font-medium">
-            <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
-            <Link href="/tutor" className="opacity-60 hover:opacity-100">Tutor</Link>
-            <Link href="/practice" className="opacity-60 hover:opacity-100">Practice</Link>
-            <Link href="/flashcards" className="opacity-60 hover:opacity-100">Flashcards</Link>
-            <Link href="/voice-cases" className="opacity-60 hover:opacity-100">Voice Cases</Link>
-            <Link href="/score-calculator" className="opacity-60 hover:opacity-100">Score Calc</Link>
-          </div>
-          <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">{section.shortName}</div>
-        </nav>
+        <MainNav active="home" badge={section.shortName} />
 
         <section className="px-10 pt-14 pb-10 border-b border-[#0c1a2e15]">
           <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
@@ -202,7 +175,7 @@ export default function SectionPage() {
                 Start a case →
               </div>
             </Link>
-         ) : (
+          ) : (
             <Link
               href="/section/cars/strategy"
               className="p-8 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group"
@@ -237,18 +210,24 @@ export default function SectionPage() {
               Start →
             </div>
           </Link>
-          <div className="p-8 bg-[#f5f1ea] flex items-center gap-5 cursor-not-allowed opacity-65">
-            <div className="w-10 h-10 rounded-full border-2 border-[#0c1a2e25] flex items-center justify-center flex-shrink-0">
+          <Link
+            href={`/study/${section.id}`}
+            className="p-8 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex items-center gap-5 group"
+          >
+            <div className="w-10 h-10 rounded-full border-2 border-[#0c1a2e25] flex items-center justify-center flex-shrink-0 group-hover:border-[#0c1a2e]">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
                 <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
               </svg>
             </div>
-            <div>
+            <div className="flex-1">
               <div className="font-serif text-xl font-medium">Study guides</div>
-              <div className="text-[13px] opacity-65">Structured notes for every {section.shortName} topic — coming soon</div>
+              <div className="text-[13px] opacity-65">College-level lessons for every {section.shortName} topic. Highlight & take notes.</div>
             </div>
-          </div>
+            <div className="font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
+              Read →
+            </div>
+          </Link>
         </section>
 
         <section className="px-10 py-14">
