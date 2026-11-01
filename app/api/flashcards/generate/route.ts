@@ -1,4 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { parseCards } from "@/lib/practice";
+export const maxDuration = 120;
 
 const SECTION_TOPICS: Record<string, { name: string; highYield: string[] }> = {
   "bio-biochem": {
@@ -119,7 +121,8 @@ const PROMPT = [
 
 export async function POST(request: Request) {
   try {
-    const { section } = await request.json();
+    const { section, count = 20 } = await request.json();
+    if (!Number.isInteger(count) || count < 1 || count > 20) return Response.json({ error: "Choose 1–20 cards." }, { status: 400 });
 
     let actualSection = section;
     if (section === "mixed") {
@@ -138,23 +141,23 @@ export async function POST(request: Request) {
     const randomSeed = Math.random().toString(36).slice(2, 8);
 
     const systemPrompt = [
-      PROMPT,
+      PROMPT.replace("deck of 8 flashcards", `deck of ${count} flashcards`),
       "",
       `Section: ${info.name}`,
-      `Focus this deck on these high-yield topics (mix them across the 8 cards): ${focusTopics.join("; ")}`,
+      `Focus this deck on these high-yield topics (mix them across the ${count} cards): ${focusTopics.join("; ")}`,
       `Variety seed: ${randomSeed}`,
     ].join("\n");
 
     const client = new Anthropic({
-      apiKey: process.env.ANTHROPIC_API_KEY,
+      apiKey: process.env.ANTHROPIC_API_KEY, timeout: 85000, maxRetries: 0,
     });
 
     const response = await client.messages.create({
       model: "claude-sonnet-4-6",
-      max_tokens: 2000,
+      max_tokens: 8000,
       system: systemPrompt,
       messages: [
-        { role: "user", content: `Generate a deck of 8 high-yield MCAT flashcards for ${info.name}.` },
+        { role: "user", content: `Generate a deck of ${count} high-yield MCAT flashcards for ${info.name}.` },
       ],
       temperature: 0.9,
     });
@@ -169,8 +172,9 @@ export async function POST(request: Request) {
     const fenceMatch = text.match(/```(?:json)?\s*([\s\S]*?)```/);
     if (fenceMatch) jsonStr = fenceMatch[1].trim();
 
+    if (response.stop_reason === "max_tokens") throw new Error("Incomplete deck");
     const data = JSON.parse(jsonStr);
-    return Response.json({ ...data, section: actualSection });
+    return Response.json({ cards: parseCards(data, count), section: actualSection });
   } catch (error) {
     console.error("Flashcard generation error:", error);
     return Response.json({ error: "Failed to generate flashcards" }, { status: 500 });

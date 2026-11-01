@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import MainNav from "@/components/MainNav";
+import { fetchJson } from "@/lib/fetch-json";
 import Link from "next/link";
 
 type Lesson = {
@@ -61,12 +63,17 @@ export default function StudyLandingPage() {
   const [data, setData] = useState<SectionsData | null>(null);
   const [loading, setLoading] = useState(true);
 
+  const [error, setError] = useState("");
+  const [attempt, setAttempt] = useState(0);
   useEffect(() => {
-    fetch("/api/study/sections")
-      .then((r) => r.json())
-      .then((d) => { setData(d); setLoading(false); })
-      .catch(() => setLoading(false));
-  }, []);
+    const controller = new AbortController();
+    setLoading(true); setError("");
+    fetchJson("/api/study/sections", { signal: controller.signal }, 20000)
+      .then(d => { if (!controller.signal.aborted) setData(d); })
+      .catch(e => { if (!controller.signal.aborted) setError(e.message); })
+      .finally(() => { if (!controller.signal.aborted) setLoading(false); });
+    return () => controller.abort();
+  }, [attempt]);
 
   function progressForSection(units: Unit[]): { read: number; total: number } {
     let read = 0;
@@ -89,18 +96,8 @@ export default function StudyLandingPage() {
       </div>
 
       <div className="relative z-10">
-        <nav className="flex items-center justify-between px-10 py-5 border-b border-[#0c1a2e15]">
-          <Logo />
-          <div className="hidden md:flex gap-6 text-sm font-medium">
-            <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
-            <Link href="/tutor" className="opacity-60 hover:opacity-100">Tutor</Link>
-            <Link href="/practice" className="opacity-60 hover:opacity-100">Practice</Link>
-            <Link href="/flashcards" className="opacity-60 hover:opacity-100">Flashcards</Link>
-            <Link href="/study" className="opacity-100 border-b border-[#a8324a] pb-0.5">Study</Link>
-            <Link href="/voice-cases" className="opacity-60 hover:opacity-100">Voice Cases</Link>
-          </div>
-          <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">Study Guides</div>
-        </nav>
+        <MainNav active="study" badge="Study guides" />
+        {error && <div role="alert" className="m-6 p-6 rounded-xl border border-[#a8324a]">{error}<button className="ml-4 underline" onClick={() => setAttempt(attempt + 1)}>Try again</button></div>}
 
         <section className="px-10 pt-14 pb-10 border-b border-[#0c1a2e15]">
           <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
