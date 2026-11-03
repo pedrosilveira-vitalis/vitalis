@@ -5,17 +5,8 @@ import Link from "next/link";
 import { useParams, useSearchParams, useRouter } from "next/navigation";
 import MainNav from "@/components/MainNav";
 
-type Question = {
-  id: string;
-  question_text: string;
-  choice_a: string;
-  choice_b: string;
-  choice_c: string;
-  choice_d: string;
-  correct_answer: string;
-  explanation: string;
-  topic: string;
-};
+import type { Question } from "@/lib/practice";
+import { fetchJson } from "@/lib/fetch-json";
 
 type Message = { role: "user" | "assistant"; content: string };
 
@@ -39,10 +30,15 @@ function PracticeSessionContent() {
   const params = useParams();
   const searchParams = useSearchParams();
   const router = useRouter();
+  const requestRef = useRef<AbortController | null>(null);
+  const [generation, setGeneration] = useState(0);
   const sectionId = (params.section as string) || "mixed";
-  const numQuestions = parseInt(searchParams.get("n") || "10", 10);
+  const requestedCount = Number(searchParams.get("n") || "10");
+  const numQuestions = Number.isInteger(requestedCount) && requestedCount >= 1 && requestedCount <= 20 ? requestedCount : 10;
+  const format = searchParams.get("f") === "passage" ? "passage" : "standalone";
   const difficulty = (searchParams.get("d") as "mixed" | "easy" | "medium" | "hard") || "mixed";
 
+  const [starter, setStarter] = useState(false);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIdx, setCurrentIdx] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
@@ -63,31 +59,39 @@ function PracticeSessionContent() {
   const sectionName = SECTION_NAMES[sectionId] || sectionId;
 
   const loadQuestions = useCallback(async () => {
+    requestRef.current?.abort();
+    const controller = new AbortController();
+    requestRef.current = controller;
     setLoading(true);
     setError("");
+    setCurrentIdx(0); setResults([]); setSessionComplete(false); setSelectedAnswer(null); setShowExplanation(false); setShowTutor(false); setTutorMessages([]);
     try {
-      const res = await fetch("/api/practice/generate", {
+      const data = await fetchJson("/api/practice/generate", {
+        signal: controller.signal,
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ section: sectionId, count: numQuestions, difficulty }),
+        body: JSON.stringify({ section: sectionId, count: numQuestions, difficulty, format }),
       });
-      const data = await res.json();
+      if (controller.signal.aborted) return;
       if (!data.questions || data.questions.length === 0) {
         setError("Couldn't load questions. Try again.");
         setLoading(false);
         return;
       }
+      setStarter(data.source === "starter");
       setQuestions(data.questions);
       setLoading(false);
-    } catch {
-      setError("Couldn't load questions. Try again.");
+    } catch (error) {
+      if (controller.signal.aborted) return;
+      setError(error instanceof Error ? error.message : "Couldn't load questions. Try again.");
       setLoading(false);
     }
-  }, [sectionId, numQuestions, difficulty]);
+  }, [sectionId, numQuestions, difficulty, format]);
 
   useEffect(() => {
     loadQuestions();
-  }, [loadQuestions]);
+    return () => requestRef.current?.abort();
+  }, [loadQuestions, generation]);
 
   useEffect(() => {
     if (tutorRef.current) {
@@ -98,7 +102,7 @@ function PracticeSessionContent() {
   const currentQ = questions[currentIdx];
 
   function handleSubmit() {
-    if (!selectedAnswer || !currentQ) return;
+    if (!selectedAnswer || !currentQ || showExplanation) return;
     const isCorrect = selectedAnswer === currentQ.correct_answer;
     setResults([...results, { qId: currentQ.id, correct: isCorrect, selected: selectedAnswer }]);
     setShowExplanation(true);
@@ -117,7 +121,7 @@ function PracticeSessionContent() {
   }
 
   function openTutor() {
-    if (!currentQ) return;
+    if (!currentQ || !results.length) return;
     setShowTutor(true);
     const lastResult = results[results.length - 1];
     const wrongAnswerText =
@@ -130,7 +134,7 @@ function PracticeSessionContent() {
       currentQ.correct_answer === "B" ? currentQ.choice_b :
       currentQ.correct_answer === "C" ? currentQ.choice_c :
       currentQ.choice_d;
-    const initialUserMsg = `I got this question wrong. Help me understand why.
+    const initialUserMsg = `Help me understand the reasoning behind this question.
 
 Question: ${currentQ.question_text}
 
@@ -143,12 +147,11 @@ Can you explain this more deeply and help me build the right intuition so I get 
 
     setTutorMessages([{ role: "user", content: initialUserMsg }]);
     setTutorLoading(true);
-    fetch("/api/practice/explain", {
+    fetchJson("/api/practice/explain", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ messages: [{ role: "user", content: initialUserMsg }] }),
+      body: JSON.stringify({ question: currentQ, studentAnswer: lastResult.selected, messages: [{ role: "user", content: initialUserMsg }] }),
     })
-      .then((r) => r.json())
       .then((d) => {
         setTutorMessages([
           { role: "user", content: initialUserMsg },
@@ -172,12 +175,11 @@ Can you explain this more deeply and help me build the right intuition so I get 
     setTutorInput("");
     setTutorLoading(true);
     try {
-      const res = await fetch("/api/practice/explain", {
+      const data = await fetchJson("/api/practice/explain", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: newMessages }),
+        body: JSON.stringify({ question: currentQ, studentAnswer: selectedAnswer, messages: newMessages }),
       });
-      const data = await res.json();
       setTutorMessages([...newMessages, { role: "assistant" as const, content: data.reply || "Sorry — connection issue." }]);
     } catch {
       setTutorMessages([...newMessages, { role: "assistant" as const, content: "Sorry — connection issue." }]);
@@ -195,6 +197,8 @@ Can you explain this more deeply and help me build the right intuition so I get 
             <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
           </div>
           <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Generating {numQuestions} {sectionName} questions...</div>
+          <p className="mt-4 text-sm opacity-70">Preparing your questions and explanations. This may take up to 90 seconds.</p>
+          <Link href="/practice" className="inline-block mt-5 underline">Cancel and go back</Link>
         </div>
       </div>
     );
@@ -232,9 +236,9 @@ Can you explain this more deeply and help me build the right intuition so I get 
           </h1>
           <p className="font-mono text-[14px] tracking-[0.1em] uppercase opacity-65 mb-10">{pct}% correct</p>
           <div className="flex gap-3 justify-center flex-wrap">
-            <Link href={`/practice/${sectionId}?n=${numQuestions}&d=${difficulty}`} className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]">
+            <button onClick={() => setGeneration(generation + 1)} className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]">
               New session →
-            </Link>
+            </button>
             <Link href="/practice" className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full hover:bg-[#0c1a2e0a]">
               Pick another section
             </Link>
@@ -261,6 +265,7 @@ Can you explain this more deeply and help me build the right intuition so I get 
           <span>{currentQ.topic}</span>
         </div>
 
+        {starter && <p role="status" className="mb-4 text-sm">Starter practice · {questions.length} of {numQuestions} requested. Custom generation is currently unavailable.</p>}
         <div className="mb-7 flex items-center gap-3">
           <div className="flex-1 h-1.5 bg-[#0c1a2e15] rounded-full overflow-hidden">
             <div className="h-full transition-all" style={{ width: `${((currentIdx + (showExplanation ? 1 : 0)) / questions.length) * 100}%`, backgroundColor: accent }} />
@@ -270,6 +275,7 @@ Can you explain this more deeply and help me build the right intuition so I get 
           </div>
         </div>
 
+        {currentQ.passage && <article className="mb-8 rounded-2xl border border-[#0c1a2e20] bg-white/60 p-6" aria-label="Passage"><p className="text-xs uppercase tracking-widest text-[#a8324a] mb-3">Read the passage</p><h2 className="font-serif text-2xl mb-4">{currentQ.passage.title}</h2><div className="whitespace-pre-wrap text-base leading-8">{currentQ.passage.content}</div></article>}
         <h1 className="font-serif text-[clamp(22px,2.6vw,30px)] font-medium leading-snug mb-7">
           {currentQ.question_text}
         </h1>
@@ -318,10 +324,11 @@ Can you explain this more deeply and help me build the right intuition so I get 
                 {isCorrect ? "✓ Correct" : "✗ Incorrect"}
               </div>
               <div className="text-[14px] leading-relaxed">{currentQ.explanation}</div>
+              {selectedAnswer && !isCorrect && currentQ.wrongAnswerExplanations[selectedAnswer] && <p className="mt-3 text-sm leading-relaxed"><strong>Why your choice was incorrect: </strong>{currentQ.wrongAnswerExplanations[selectedAnswer]}</p>}
             </div>
 
             <div className="flex justify-between items-center flex-wrap gap-3">
-              {!isCorrect && !showTutor && (
+              {!starter && !showTutor && (
                 <button
                   onClick={openTutor}
                   className="font-mono text-xs uppercase tracking-[0.08em] border-2 border-[#a8324a] text-[#a8324a] px-5 py-3 rounded-full hover:bg-[#a8324a] hover:text-[#f5f1ea] transition-all"

@@ -1,4 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { sessionSettings, allocateSections, parseQuestions } from "@/lib/practice";
+import { starterResponse } from "./starter";
+export const maxDuration = 120;
 
 const SECTION_CONTEXT: Record<string, { name: string; topics: string[]; style: string }> = {
   "bio-biochem": {
@@ -110,69 +113,39 @@ const STANDALONE_SCHEMA = `{
 }`;
 
 export async function POST(request: Request) {
+  let settings;
+  try { settings = sessionSettings(await request.json()); }
+  catch (error) { return Response.json({ error: error instanceof Error ? error.message : "Invalid settings" }, { status: 400 }); }
+  const apiKey = process.env.ANTHROPIC_API_KEY?.trim();
+  if (!apiKey || /\s/.test(apiKey) || apiKey.startsWith("apikey_")) return starterResponse(settings);
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 85000);
   try {
-    const { section, format } = await request.json();
-
-    let actualSection = section;
-    if (section === "mixed") {
-      const sections = ["bio-biochem", "chem-phys", "psych-soc", "cars"];
-      actualSection = sections[Math.floor(Math.random() * sections.length)];
-    }
-
-    const actualFormat = actualSection === "cars" ? "passage" : format;
-
-    const sectionInfo = SECTION_CONTEXT[actualSection];
-    if (!sectionInfo) {
-      return Response.json({ error: "Invalid section" }, { status: 400 });
-    }
-
-    const randomTopic = sectionInfo.topics[Math.floor(Math.random() * sectionInfo.topics.length)];
-    const randomSeed = Math.random().toString(36).slice(2, 8);
-
-    const schema = actualFormat === "passage" ? PASSAGE_SCHEMA : STANDALONE_SCHEMA;
-
-    const systemPrompt = [
-      PROMPT_INTRO,
-      schema,
-      "",
-      `Section: ${sectionInfo.name}`,
-      `Style notes for this section: ${sectionInfo.style}`,
-      `Focus this question on: ${randomTopic}`,
-      `Format: ${actualFormat === "passage" ? "Passage with 3-4 linked questions" : "1 standalone question"}`,
-      `Variety seed: ${randomSeed} (use to ensure freshness — avoid the most obvious example).`,
-    ].join("\n");
-
-    const client = new Anthropic({
-      apiKey: process.env.ANTHROPIC_API_KEY,
-    });
-
-    const response = await client.messages.create({
-      model: "claude-sonnet-4-6",
-      max_tokens: 3000,
-      system: systemPrompt,
-      messages: [
-        { role: "user", content: `Generate ${actualFormat === "passage" ? "a passage with 3-4 questions" : "1 standalone question"} for the ${sectionInfo.name} section, focused on ${randomTopic}.` },
-      ],
-      temperature: 1.0,
-    });
-
-    const text = response.content
-      .filter((b) => b.type === "text")
-      .map((b) => (b.type === "text" ? b.text : ""))
-      .join("\n")
-      .trim();
-
-    let jsonStr = text;
-    const fenceMatch = text.match(/```(?:json)?\s*([\s\S]*?)```/);
-    if (fenceMatch) jsonStr = fenceMatch[1].trim();
-
-    const data = JSON.parse(jsonStr);
-    return Response.json({ ...data, section: actualSection });
+    const client = new Anthropic({ apiKey, timeout: 85000, maxRetries: 0 });
+    const groups = allocateSections(settings.section, settings.count);
+    const batches = await Promise.all(groups.map(async ({ section, count }) => {
+      const info = SECTION_CONTEXT[section];
+      const passage = section === "cars" || settings.format === "passage";
+      const response = await client.messages.create({
+        model: "claude-sonnet-4-6", max_tokens: Math.min(16000, 1500 + count * 650), temperature: 0.8,
+        system: [PROMPT_INTRO, passage ? PASSAGE_SCHEMA : STANDALONE_SCHEMA,
+          `Section: ${info.name}. ${info.style}`,
+          `Generate EXACTLY ${count} questions. Difficulty: ${settings.difficulty}.`,
+          "For mixed difficulty, vary easy, medium, and hard. Include explanations for every incorrect choice.",
+          `Topics to draw from: ${info.topics.join(", ")}`,
+          passage ? "Include one coherent passage supporting ALL questions." : "Each question must be self-contained. Vary topics across the set."
+        ].join("\n"),
+        messages: [{ role: "user", content: `Create a fresh set of exactly ${count} questions. Return valid JSON only. Variety: ${crypto.randomUUID()}` }],
+      }, { signal: controller.signal });
+      if (response.stop_reason === "max_tokens") throw new Error("Truncated response");
+      const raw = response.content.filter(b => b.type === "text").map(b => b.type === "text" ? b.text : "").join("\n").trim();
+      const match = raw.match(/```(?:json)?\s*([\s\S]*?)```/);
+      return parseQuestions(JSON.parse(match ? match[1] : raw), section, count, passage, settings.difficulty);
+    }));
+    return Response.json({ questions: batches.flat(), section: settings.section });
   } catch (error) {
-    console.error("Question generation error:", error);
-    return Response.json(
-      { error: "Failed to generate question" },
-      { status: 500 }
-    );
-  }
+    controller.abort();
+    console.error("Practice generation failed", error instanceof Error ? error.name : "Unknown error");
+    return starterResponse(settings);
+  } finally { clearTimeout(timer); }
 }
