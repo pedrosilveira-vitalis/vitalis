@@ -1,6 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { sessionSettings, allocateSections, parseQuestions } from "@/lib/practice";
-import { starterResponse } from "./starter";
+import { sessionSettings, sections, allocateSections, parseQuestions } from "@/lib/practice";
+import { fresh, reserveQuestions } from "./rotation";
 export const maxDuration = 120;
 
 const SECTION_CONTEXT: Record<string, { name: string; topics: string[]; style: string }> = {
@@ -113,17 +113,38 @@ const STANDALONE_SCHEMA = `{
 }`;
 
 export async function POST(request: Request) {
-  let settings;
-  try { settings = sessionSettings(await request.json()); }
+  let settings: ReturnType<typeof sessionSettings>;
+  let custom = false;
+  let seen: Set<string>;
+  try {
+    const input = await request.json();
+    settings = sessionSettings(input);
+    custom = input.custom === true;
+    seen = new Set(Array.isArray(input.seen) ? input.seen.slice(-10000).filter((id: unknown) => typeof id === "string" && /^[a-f0-9]{24}$/.test(id)) : []);
+  }
   catch (error) { return Response.json({ error: error instanceof Error ? error.message : "Invalid settings" }, { status: 400 }); }
+  const groups = allocateSections(settings.section, settings.count);
+  const saved = await Promise.all(groups.map(g => reserveQuestions(settings, seen, g.count, g.section)));
+  const bank = saved.flat();
+  if (settings.section==="mixed" && bank.length < settings.count) {
+    for (const section of sections) {
+      const needed=settings.count-bank.length;
+      if (!needed) break;
+      bank.push(...await reserveQuestions(settings,seen,needed,section));
+    }
+  }
+  const deficits = groups.map((g,i)=>({...g,count:g.count-saved[i].length})).filter(g=>g.count>0);
+  function bankResponse() {
+    return Response.json({questions:bank,section:settings.section,source:"bank",exhausted:!bank.length});
+  }
+  if (!custom || bank.length >= settings.count || !deficits.length || ["guide","drills"].includes(settings.format)) return bankResponse();
   const apiKey = process.env.ANTHROPIC_API_KEY?.trim();
-  if (!apiKey || /\s/.test(apiKey) || apiKey.startsWith("apikey_")) return starterResponse(settings);
+  if (!apiKey || /\s/.test(apiKey) || apiKey.startsWith("apikey_")) return bankResponse();
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 85000);
   try {
     const client = new Anthropic({ apiKey, timeout: 85000, maxRetries: 0 });
-    const groups = allocateSections(settings.section, settings.count);
-    const batches = await Promise.all(groups.map(async ({ section, count }) => {
+    const batches = await Promise.all(deficits.map(async ({ section, count }) => {
       const info = SECTION_CONTEXT[section];
       const passage = section === "cars" || settings.format === "passage";
       const response = await client.messages.create({
@@ -142,10 +163,12 @@ export async function POST(request: Request) {
       const match = raw.match(/```(?:json)?\s*([\s\S]*?)```/);
       return parseQuestions(JSON.parse(match ? match[1] : raw), section, count, passage, settings.difficulty);
     }));
-    return Response.json({ questions: batches.flat(), section: settings.section });
+    const generated = batches.flatMap((batch,i)=>fresh(batch,seen,deficits[i].count));
+    const selected=[...bank,...generated].slice(0,settings.count);
+    return Response.json({questions:selected,section:settings.section,source:bank.length ? "blend" : "generated",exhausted:!selected.length});
   } catch (error) {
     controller.abort();
     console.error("Practice generation failed", error instanceof Error ? error.name : "Unknown error");
-    return starterResponse(settings);
+    return bankResponse();
   } finally { clearTimeout(timer); }
 }

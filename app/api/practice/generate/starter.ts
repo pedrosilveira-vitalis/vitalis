@@ -1,9 +1,9 @@
-import { allocateSections, type Question, type Section, type sessionSettings } from "@/lib/practice";
+import { type Question, type Section } from "@/lib/practice";
 
 type Item = [level: string, stem: string, choices: [string, string, string, string], answer: string, explanation: string];
-type Set = { title: string; content: string; items: Item[] };
+type Reading = { title: string; content: string; items: Item[] };
 
-const bank: Record<Section, Set> = {
+const bank: Record<Section, Reading> = {
   "bio-biochem": {
     title: "Following a membrane transporter",
     content: "A team places identical cells in solutions containing different amounts of glucose. Glucose initially moves into the cells down its concentration gradient. At high external concentrations, increasing the glucose concentration barely changes the initial uptake rate. Cells expressing twice as many copies of transporter T show twice the maximum rate. In a separate experiment, compound X increases the glucose concentration needed for half-maximal uptake without changing the maximum.",
@@ -42,21 +42,39 @@ const bank: Record<Section, Set> = {
   }
 };
 
-export function starterResponse(settings: ReturnType<typeof sessionSettings>) {
-  const questions: Question[] = [];
-  for (const group of allocateSections(settings.section, settings.count)) {
-    const { title, content, items } = bank[group.section];
-    const passage = settings.format === "passage" || group.section === "cars";
-    const eligible = items.filter(([level]) => settings.difficulty === "mixed" || level === settings.difficulty);
-    for (const [level, stem, choices, answer, explanation] of eligible.slice(0, group.count)) {
-      questions.push({
-        id: "starter-" + group.section + "-" + level, section: group.section, topic: title,
-        difficulty: level, question_text: passage ? stem : content + "\n\n" + stem,
+const more: Record<Section, Reading> = {
+  "bio-biochem": { title: "A pulse of labeled DNA", content: "Cells grow for many generations in heavy nitrogen. Researchers then switch them to light nitrogen and let them divide synchronously. After the first round of replication, all DNA molecules have intermediate density. After the second, equal numbers have intermediate and light density.", items: [
+    ["easy","What makes the original DNA heavy? ",["Extra phosphate groups","An isotope incorporated into its bases","Extra strands","A longer sugar backbone"],"B","Nitrogen occurs in the bases. Substituting a heavier nitrogen isotope increases DNA density."],
+    ["medium","What accounts for the intermediate band after one division?",["Each duplex contains one original and one new strand.","Every molecule has two new strands.","The heavy strands disappeared.","Only half the cells replicated."],"A","Semiconservative replication pairs each original heavy strand with a newly synthesized light strand."],
+    ["hard","After a third complete round in light nitrogen, what fraction of duplexes would have intermediate density?",["One half","One eighth","Three quarters","One quarter"],"D","Each original duplex gives eight descendants after three rounds. Its two original strands persist in two of those eight duplexes."]
+  ]},
+  "chem-phys": { title: "Two resistors on a bench", content: "A student connects two ideal 6-ohm resistors in series across a 12-volt ideal battery. The wires have negligible resistance. She then disconnects the battery and rewires the same resistors in parallel before reconnecting it.", items: [
+    ["easy","What current flows through the original series circuit?",["0.5 A","1 A","2 A","4 A"],"B","Series resistances add to 12 ohms. Dividing 12 volts by 12 ohms gives 1 ampere."],
+    ["medium","After rewiring, what voltage appears across a single resistor?",["3 V","6 V","12 V","24 V"],"C","Each parallel branch connects directly across both battery terminals and has the full 12-volt potential difference."],
+    ["hard","How does the total power delivered by the battery change after rewiring?",["It doubles.","It halves.","It stays the same.","It quadruples."],"D","Equivalent resistance falls from 12 to 3 ohms. With voltage fixed, total power equals voltage squared divided by resistance and increases fourfold."]
+  ]},
+  "psych-soc": { title: "Listening for a signal", content: "Participants press a button when they think a faint tone is present. Half the trials contain a tone. In a second block the researchers keep the sounds identical but impose a larger penalty for missing a tone. Participants then report more hits and more false alarms.", items: [
+    ["easy","A participant presses the button on a silent trial. How is that response classified?",["A hit","A miss","A correct rejection","A false alarm"],"D","A false alarm occurs when a participant reports a signal on a trial where it was absent."],
+    ["medium","Which change in response strategy fits the second block?",["A more liberal criterion","A more conservative criterion","Responding only to louder tones","Ignoring the penalty"],"A","A lower threshold for reporting a signal produces more reports on both signal and silent trials."],
+    ["hard","Which follow-up design best separates the effect of the penalty from a practice effect?",["Make every tone louder in block two.","Give all participants more trials in block two.","Counterbalance the order of the two penalty conditions.","Remove all silent trials."],"C","Counterbalancing prevents the high penalty from always occurring later, so familiarity with the task is less likely to explain the difference."]
+  ]},
+  cars: { title: "The borrowed chair", content: "A museum once displayed a chair behind glass to preserve the grooves worn into its arms. The label called those grooves signs of a living tradition. The maker's granddaughter disagreed: in her workshop, a chair stayed part of a tradition because someone still knew how to mend it. She did not ask the museum to let visitors sit on the fragile chair. Instead, she offered to teach apprentices to repair another one beside it. A curator worried the new work would distract from the original. Yet what better way to see an old joint than to watch a new one being fitted?", items: [
+    ["easy","What does the granddaughter propose?",["Replacing the original chair","Demonstrating a repair on another chair","Removing the label and the glass","Testing the original under load"],"B","She offers to teach apprentices by repairing a second chair beside the protected original."],
+    ["medium","Why does the author close with a question about fitting a joint?",["To dismiss the skill of the original maker","To ask readers to date the chair","To suggest a demonstration can deepen observation of the original","To argue that all museum visitors must become apprentices"],"C","The question answers the curator's concern by suggesting a way that new work can draw attention to details in the old piece."],
+    ["hard","Which statement would the granddaughter most likely endorse?",["Visible wear alone ensures a craft survives.","Preserving a fragile object is always a mistake.","Replicas have greater value than originals.","A museum can preserve an object and help transmit the skill behind it."],"D","She accepts the original chair's protection and offers a complementary way to keep the craft alive."]
+  ]}
+};
+
+export function starterQuestions(section: Section, format: string, difficulty: string): Question[] {
+  const passage = format === "passage" || section === "cars";
+  return [bank[section], more[section]].flatMap(({ title, content, items }, setIndex) =>
+    items.filter(([level]) => difficulty === "mixed" || level === difficulty)
+      .map(([level, stem, choices, answer, explanation]) => ({
+        id: `starter-${section}-${setIndex}-${level}`, section, topic: title, difficulty: level,
+        question_text: passage ? stem.trim() : content + "\n\n" + stem.trim(),
         passage: passage ? { title, content } : undefined,
         choice_a: choices[0], choice_b: choices[1], choice_c: choices[2], choice_d: choices[3],
         correct_answer: answer, explanation, wrongAnswerExplanations: {}
-      });
-    }
-  }
-  return Response.json({ source: "starter", section: settings.section, questions });
+      }))
+  );
 }

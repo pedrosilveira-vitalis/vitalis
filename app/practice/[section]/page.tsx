@@ -5,8 +5,20 @@ import Link from "next/link";
 import { useParams, useSearchParams, useRouter } from "next/navigation";
 import MainNav from "@/components/MainNav";
 
+import { flagged,toggleFlag } from "@/lib/flagged";
 import type { Question } from "@/lib/practice";
 import { fetchJson } from "@/lib/fetch-json";
+
+const historyKey = "vitalis.practice.seen.v1";
+let memoryHistory: string[] = [];
+
+function readHistory(): string[] {
+  try {
+    const saved = JSON.parse(localStorage.getItem(historyKey) || "[]");
+    if (Array.isArray(saved)) return [...new Set([...saved.filter(id => typeof id === "string"), ...memoryHistory])].slice(-10000);
+  } catch { /* Keep session history when browser storage is unavailable. */ }
+  return memoryHistory;
+}
 
 type Message = { role: "user" | "assistant"; content: string };
 
@@ -35,9 +47,13 @@ function PracticeSessionContent() {
   const sectionId = (params.section as string) || "mixed";
   const requestedCount = Number(searchParams.get("n") || "10");
   const numQuestions = Number.isInteger(requestedCount) && requestedCount >= 1 && requestedCount <= 20 ? requestedCount : 10;
-  const format = searchParams.get("f") === "passage" ? "passage" : "standalone";
+  const format = searchParams.get("f") || "standalone";
   const difficulty = (searchParams.get("d") as "mixed" | "easy" | "medium" | "hard") || "mixed";
 
+  const [exhausted, setExhausted] = useState(false);
+  const [blend, setBlend] = useState(false);
+  const [isFlagged,setIsFlagged]=useState(false);
+  const [flagMessage,setFlagMessage]=useState("");
   const [starter, setStarter] = useState(false);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -58,27 +74,33 @@ function PracticeSessionContent() {
   const accent = SECTION_COLORS[sectionId] || "#0c1a2e";
   const sectionName = SECTION_NAMES[sectionId] || sectionId;
 
-  const loadQuestions = useCallback(async () => {
+  const loadQuestions = useCallback(async (review = false, custom = false) => {
     requestRef.current?.abort();
     const controller = new AbortController();
     requestRef.current = controller;
     setLoading(true);
     setError("");
+    setExhausted(false);
+    setQuestions([]);
     setCurrentIdx(0); setResults([]); setSessionComplete(false); setSelectedAnswer(null); setShowExplanation(false); setShowTutor(false); setTutorMessages([]);
     try {
       const data = await fetchJson("/api/practice/generate", {
         signal: controller.signal,
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ section: sectionId, count: numQuestions, difficulty, format }),
+        body: JSON.stringify({ section: sectionId, count: numQuestions, difficulty, format, custom, seen: review ? [] : readHistory() }),
       });
       if (controller.signal.aborted) return;
+      if (data.exhausted) { setExhausted(true); setLoading(false); return; }
       if (!data.questions || data.questions.length === 0) {
         setError("Couldn't load questions. Try again.");
         setLoading(false);
         return;
       }
-      setStarter(data.source === "starter");
+      setBlend(data.source === "blend" || (data.source === "generated" && data.questions.length < numQuestions));
+      setStarter(data.source === "bank");
+      memoryHistory = [...new Set([...readHistory(), ...data.questions.map((q: Question)=>q.id)])].slice(-10000);
+      try {localStorage.setItem(historyKey,JSON.stringify(memoryHistory));} catch { /* Keep this tab’s history. */ }
       setQuestions(data.questions);
       setLoading(false);
     } catch (error) {
@@ -100,6 +122,12 @@ function PracticeSessionContent() {
   }, [tutorMessages, tutorLoading]);
 
   const currentQ = questions[currentIdx];
+
+  useEffect(() => {
+    if (loading || !currentQ) return;
+    setFlagMessage("");
+    try { setIsFlagged(flagged(currentQ.id)); } catch { setIsFlagged(false); }
+  }, [loading, currentQ]);
 
   function handleSubmit() {
     if (!selectedAnswer || !currentQ || showExplanation) return;
@@ -196,13 +224,22 @@ Can you explain this more deeply and help me build the right intuition so I get 
             <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
             <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
           </div>
-          <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Generating {numQuestions} {sectionName} questions...</div>
+          <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Preparing {numQuestions} {sectionName} questions...</div>
           <p className="mt-4 text-sm opacity-70">Preparing your questions and explanations. This may take up to 90 seconds.</p>
           <Link href="/practice" className="inline-block mt-5 underline">Cancel and go back</Link>
         </div>
       </div>
     );
   }
+
+  if (exhausted) return (
+    <main className="min-h-screen bg-[#f5f1ea] flex flex-col items-center justify-center gap-5 p-8 text-center">
+      <h1 className="font-serif text-3xl">You’ve seen every question currently available for these settings.</h1>
+      <Link href="/practice" className="underline">Choose another section or difficulty</Link>
+      {!["guide","drills"].includes(format) && <button onClick={()=>loadQuestions(false,true)} className="underline">Try generating new questions with the AI tutor</button>}
+      <button onClick={() => loadQuestions(true)} className="rounded-full bg-[#0c1a2e] text-white px-5 py-3">Start a review session</button>
+    </main>
+  );
 
   if (error) {
     return (
@@ -211,7 +248,7 @@ Can you explain this more deeply and help me build the right intuition so I get 
           <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-50 mb-4">Error</div>
           <h1 className="font-serif text-3xl font-medium mb-4">{error}</h1>
           <div className="flex gap-3 justify-center">
-            <button onClick={loadQuestions} className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full">
+            <button onClick={() => loadQuestions()} className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full">
               Try again
             </button>
             <Link href="/practice" className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full">
@@ -265,7 +302,8 @@ Can you explain this more deeply and help me build the right intuition so I get 
           <span>{currentQ.topic}</span>
         </div>
 
-        {starter && <p role="status" className="mb-4 text-sm">Starter practice · {questions.length} of {numQuestions} requested. Custom generation is currently unavailable.</p>}
+        {blend && <p className="mb-4 text-sm">Practice set · {questions.length} of {numQuestions} requested.</p>}
+        {starter && <p role="status" className="mb-4 text-sm">Question bank · {questions.length} of {numQuestions} requested.</p>}
         <div className="mb-7 flex items-center gap-3">
           <div className="flex-1 h-1.5 bg-[#0c1a2e15] rounded-full overflow-hidden">
             <div className="h-full transition-all" style={{ width: `${((currentIdx + (showExplanation ? 1 : 0)) / questions.length) * 100}%`, backgroundColor: accent }} />
@@ -275,6 +313,7 @@ Can you explain this more deeply and help me build the right intuition so I get 
           </div>
         </div>
 
+        <div className="mb-5 flex items-center gap-4"><button className="border rounded-full px-4 py-2 text-sm" aria-pressed={isFlagged} onClick={()=>{try{setIsFlagged(toggleFlag(currentQ));}catch{setFlagMessage("Could not save. Check browser storage permissions or space.");}}}>{isFlagged ? "Flagged ✓" : "Flag for later"}</button><Link href="/flagged" className="text-sm underline">View flagged questions</Link><span role="status">{flagMessage}</span></div>
         {currentQ.passage && <article className="mb-8 rounded-2xl border border-[#0c1a2e20] bg-white/60 p-6" aria-label="Passage"><p className="text-xs uppercase tracking-widest text-[#a8324a] mb-3">Read the passage</p><h2 className="font-serif text-2xl mb-4">{currentQ.passage.title}</h2><div className="whitespace-pre-wrap text-base leading-8">{currentQ.passage.content}</div></article>}
         <h1 className="font-serif text-[clamp(22px,2.6vw,30px)] font-medium leading-snug mb-7">
           {currentQ.question_text}
@@ -328,7 +367,7 @@ Can you explain this more deeply and help me build the right intuition so I get 
             </div>
 
             <div className="flex justify-between items-center flex-wrap gap-3">
-              {!starter && !showTutor && (
+              {!showTutor && (
                 <button
                   onClick={openTutor}
                   className="font-mono text-xs uppercase tracking-[0.08em] border-2 border-[#a8324a] text-[#a8324a] px-5 py-3 rounded-full hover:bg-[#a8324a] hover:text-[#f5f1ea] transition-all"

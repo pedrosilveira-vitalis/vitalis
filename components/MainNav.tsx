@@ -5,7 +5,7 @@ import UserNav from './UserNav';
 import StudyIcon from './StudyIcon';
 const groups = [
  { title: 'Your workspace', links: [{href:'/',label:'Home',icon:'home'},{href:'/study-plan',label:'Study planner',icon:'calendar'},{href:'/tutor',label:'AI tutor',icon:'tutor'}]},
- { title: 'Learn & practice', links: [{href:'/study',label:'Study guides',icon:'book'},{href:'/practice',label:'Practice questions',icon:'practice'},{href:'/flashcards',label:'Flashcards',icon:'cards'}]},
+ { title: 'Learn & practice', links: [{href:'/study',label:'Study guides',icon:'book'},{href:'/practice',label:'Practice questions',icon:'practice'},{href:'/flagged',label:'Flagged questions',icon:'book'},{href:'/flashcards',label:'Flashcards',icon:'cards'}]},
  { title: 'Explore', links: [{href:'/voice-cases',label:'Voice cases',icon:'voice'},{href:'/score-calculator',label:'Score calculator',icon:'score'}]},
 ];
 function Logo() { return <Link href="/" className="vitalis-brand" aria-label="Vitalis home"><svg width="34" height="30" viewBox="0 0 50 30" fill="none" aria-hidden="true"><path d="M1 15h10l5-9 7 19 7-23 7 18 4-5h8" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"/></svg><span>Vitalis<span className="brand-dot">.</span></span></Link>; }

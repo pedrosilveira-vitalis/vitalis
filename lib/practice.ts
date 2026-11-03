@@ -15,7 +15,7 @@ export function sessionSettings(input: Record<string, unknown>) {
   if (typeof section !== 'string' || ![...sections, 'mixed'].includes(section)) throw new Error('Choose a valid section.');
   if (typeof count !== 'number' || !Number.isInteger(count) || count < 1 || count > 20) throw new Error('Choose 1–20 questions.');
   if (!['mixed', 'easy', 'medium', 'hard'].includes(String(difficulty))) throw new Error('Choose a valid difficulty.');
-  if (!['standalone', 'passage'].includes(String(format))) throw new Error('Choose a valid format.');
+  if (!['standalone', 'passage', 'guide', 'drills'].includes(String(format))) throw new Error('Choose a valid format.');
   return { section, count, difficulty: String(difficulty), format: String(format) };
 }
 export function allocateSections(section: string, count: number): { section: Section; count: number }[] {
