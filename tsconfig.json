@@ -30,4 +30,4 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-"exclude": ["node_modules", "vitalis-study-bank", "app 2"]}
+"exclude": ["node_modules", "vitalis-study-bank", "app 2", "vitalis-resume-news"]
