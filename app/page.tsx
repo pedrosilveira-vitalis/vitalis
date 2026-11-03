@@ -1,164 +1,42 @@
-import Link from "next/link";
-import MainNav from "@/components/MainNav";
-
+"use client";
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
+import MainNav from '@/components/MainNav';
+import StudyIcon from '@/components/StudyIcon';
+import { fetchJson } from '@/lib/fetch-json';
+const sections=[
+ {slug:'bio-biochem',name:'Biology & Biochemistry',short:'B/B',text:'Cells, molecules & living systems',icon:'bio',tone:'rose'},
+ {slug:'chem-phys',name:'Chemistry & Physics',short:'C/P',text:'The foundations of physical science',icon:'atom',tone:'blue'},
+ {slug:'psych-soc',name:'Psychology & Sociology',short:'P/S',text:'Behavior, people & society',icon:'people',tone:'sage'},
+ {slug:'cars',name:'Critical Analysis & Reasoning',short:'CARS',text:'Read closely. Reason confidently.',icon:'book',tone:'gold'},
+];
+function localDay(date: Date) { return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`; }
+function dayNumber(value:string) { const [y,m,d]=value.split('-').map(Number); return Date.UTC(y,m-1,d)/86400000; }
+function ScienceArt() { return <svg className="science-art" viewBox="0 0 360 245" fill="none" aria-hidden="true"><circle cx="201" cy="122" r="102" fill="#e5ded2"/><circle cx="201" cy="122" r="83" stroke="#c6b9a9" strokeDasharray="3 7"/><ellipse cx="201" cy="122" rx="105" ry="37" transform="rotate(-35 201 122)" stroke="#a8324a" strokeWidth="2"/><ellipse cx="201" cy="122" rx="105" ry="37" transform="rotate(40 201 122)" stroke="#29485a" strokeWidth="2"/><circle cx="201" cy="122" r="25" fill="#173247"/><path d="M182 122h10l5-9 7 18 5-9h12" stroke="#f5f1ea" strokeWidth="2"/><circle cx="279" cy="68" r="8" fill="#a8324a"/><circle cx="124" cy="57" r="7" fill="#29485a"/><circle cx="282" cy="183" r="6" fill="#ab8c56"/><rect x="42" y="170" width="109" height="43" rx="10" fill="#fcfaf6" stroke="#d9d0c3"/><path d="m56 192 6 6 12-15" stroke="#658476" strokeWidth="2"/><path d="M84 185h50m-50 9h34" stroke="#bbb2a5" strokeWidth="3" strokeLinecap="round"/><path d="M310 25v16m-8-8h16M66 84v12m-6-6h12" stroke="#ab8c56" strokeWidth="2"/></svg>; }
 export default function Home() {
-  return (
-    <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e] font-sans relative overflow-hidden">
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-0 right-0 w-[1200px] h-[600px] bg-[#0c1a2e] opacity-[0.05] blur-[120px] rounded-full -translate-y-1/3 translate-x-1/4" />
-        <div className="absolute bottom-0 left-0 w-[900px] h-[500px] bg-[#a8324a] opacity-[0.05] blur-[120px] rounded-full translate-y-1/3 -translate-x-1/4" />
-      </div>
-
-      <div className="relative z-10">
-        <MainNav active="home" />
-
-        <section className="grid md:grid-cols-[1.2fr_0.8fr] gap-10 px-10 pt-20 pb-14 items-end border-b border-[#0c1a2e15]">
-          <div>
-            <div className="flex items-center gap-3 mb-6 font-mono text-[11px] tracking-[0.18em] uppercase opacity-60">
-              <span className="w-10 h-px bg-[#0c1a2e] opacity-40" />
-              MCAT prep, reimagined · 2026
-            </div>
-            <h1 className="font-serif font-normal leading-[0.92] tracking-[-0.03em] text-[clamp(56px,8vw,128px)]">
-              Think <span className="italic font-light text-[#a8324a]">like</span><br />
-              a physician.
-              <span className="block font-sans font-medium not-italic text-[#0c1a2e] mt-2 text-[0.55em] tracking-[-0.02em]">
-                Built to bring out the physician in you.
-              </span>
-            </h1>
-            <div className="flex gap-6 mt-7">
-              <div>
-                <div className="font-serif font-semibold text-4xl tracking-tight">250+</div>
-                <div className="font-mono text-[10px] uppercase tracking-[0.12em] opacity-60 mt-1">Study lessons</div>
-              </div>
-              <div>
-                <div className="font-serif font-semibold text-4xl tracking-tight">4</div>
-                <div className="font-mono text-[10px] uppercase tracking-[0.12em] opacity-60 mt-1">MCAT sections</div>
-              </div>
-              <div>
-                <div className="font-serif font-semibold text-4xl tracking-tight">24/7</div>
-                <div className="font-mono text-[10px] uppercase tracking-[0.12em] opacity-60 mt-1">AI tutor</div>
-              </div>
-            </div>
-          </div>
-          <div className="text-[15px] leading-relaxed max-w-sm text-[#0c1a2ecc]">
-            Practice across Bio/Biochem, Chem/Phys, Psych/Soc, and CARS. Ask anything. Hear feedback. Build the instincts that score 520+.
-          </div>
-        </section>
-
-        <section className="px-10 pt-14 pb-4">
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-3 flex items-center gap-3">
-            <span className="w-10 h-px bg-[#0c1a2e] opacity-40" />
-            Browse by section
-          </div>
-          <h2 className="font-serif text-[clamp(28px,4vw,44px)] font-medium tracking-tight mb-2">Pick your section.</h2>
-          <p className="text-[14px] opacity-65 max-w-2xl">Every section gets its own hub: topics covered, practice questions, the tutor, and study guides.</p>
-        </section>
-
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-[#0c1a2e15] mx-10 mt-2 rounded-2xl overflow-hidden border border-[#0c1a2e15]">
-          <Link href="/section/bio-biochem" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group min-h-[200px]">
-            <div className="flex items-center justify-between">
-              <div className="font-mono text-[10px] tracking-[0.14em] opacity-50">25%</div>
-              <div className="w-2.5 h-2.5 rounded-full bg-[#a8324a]" />
-            </div>
-            <div className="font-serif text-[24px] font-medium tracking-tight leading-tight">Bio / Biochem</div>
-            <div className="text-[12.5px] opacity-65 leading-relaxed">Biology, biochemistry, physiology, genetics, cells.</div>
-            <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">Open section →</div>
-          </Link>
-          <Link href="/section/chem-phys" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group min-h-[200px]">
-            <div className="flex items-center justify-between">
-              <div className="font-mono text-[10px] tracking-[0.14em] opacity-50">25%</div>
-              <div className="w-2.5 h-2.5 rounded-full bg-[#2e4a6b]" />
-            </div>
-            <div className="font-serif text-[24px] font-medium tracking-tight leading-tight">Chem / Phys</div>
-            <div className="text-[12.5px] opacity-65 leading-relaxed">General chem, organic, physics, quantitative reasoning.</div>
-            <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">Open section →</div>
-          </Link>
-          <Link href="/section/psych-soc" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group min-h-[200px]">
-            <div className="flex items-center justify-between">
-              <div className="font-mono text-[10px] tracking-[0.14em] opacity-50">25%</div>
-              <div className="w-2.5 h-2.5 rounded-full bg-[#8a6b2e]" />
-            </div>
-            <div className="font-serif text-[24px] font-medium tracking-tight leading-tight">Psych / Soc</div>
-            <div className="text-[12.5px] opacity-65 leading-relaxed">Behavior, cognition, sociology, research methods, stats.</div>
-            <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">Open section →</div>
-          </Link>
-          <Link href="/section/cars" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group min-h-[200px]">
-            <div className="flex items-center justify-between">
-              <div className="font-mono text-[10px] tracking-[0.14em] opacity-50">25%</div>
-              <div className="w-2.5 h-2.5 rounded-full bg-[#4a3b6b]" />
-            </div>
-            <div className="font-serif text-[24px] font-medium tracking-tight leading-tight">CARS</div>
-            <div className="text-[12.5px] opacity-65 leading-relaxed">Critical analysis, reading, reasoning. Humanities passages.</div>
-            <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">Open section →</div>
-          </Link>
-        </section>
-
-        <section className="px-10 pt-20 pb-4">
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-3 flex items-center gap-3">
-            <span className="w-10 h-px bg-[#0c1a2e] opacity-40" />
-            Practice modes
-          </div>
-          <h2 className="font-serif text-[clamp(28px,4vw,44px)] font-medium tracking-tight mb-2">Train how you want.</h2>
-          <p className="text-[14px] opacity-65 max-w-2xl">Seven tools, each designed for a different learning style. Use them alone or stack them.</p>
-        </section>
-
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#0c1a2e15] mx-10 mt-2 mb-4 rounded-2xl overflow-hidden border border-[#0c1a2e15]">
-          <Link href="/tutor" className="p-7 bg-[#0c1a2e] text-[#f5f1ea] hover:bg-[#1a2c4a] transition-colors flex flex-col gap-2 min-h-[180px]">
-            <div className="font-mono text-[11px] opacity-70 tracking-[0.12em]">01</div>
-            <div className="font-serif text-[20px] font-medium tracking-tight">Ask the tutor</div>
-            <div className="text-[12.5px] opacity-75 leading-relaxed">Conversational explanations for any MCAT concept. Upload homework photos.</div>
-            <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-70">Start →</div>
-          </Link>
-          <Link href="/study" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-2 min-h-[180px]">
-            <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">02</div>
-            <div className="font-serif text-[20px] font-medium tracking-tight">Study guides</div>
-            <div className="text-[12.5px] opacity-65 leading-relaxed">250+ college-level lessons. Highlight, take notes, test yourself.</div>
-            <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50">Start →</div>
-          </Link>
-          <Link href="/practice" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-2 min-h-[180px]">
-            <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">03</div>
-            <div className="font-serif text-[20px] font-medium tracking-tight">Practice sets</div>
-            <div className="text-[12.5px] opacity-65 leading-relaxed">AAMC-style questions with on-the-fly tutoring.</div>
-            <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50">Start →</div>
-          </Link>
-          <Link href="/flashcards" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-2 min-h-[180px]">
-            <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">04</div>
-            <div className="font-serif text-[20px] font-medium tracking-tight">Flashcards</div>
-            <div className="text-[12.5px] opacity-65 leading-relaxed">High-yield decks plus custom cards. Build the recall muscle.</div>
-            <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50">Start →</div>
-          </Link>
-          <Link href="/voice-cases" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-2 min-h-[180px]">
-            <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">05</div>
-            <div className="font-serif text-[20px] font-medium tracking-tight">Voice cases</div>
-            <div className="text-[12.5px] opacity-65 leading-relaxed">Talk through patient scenarios out loud.</div>
-            <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50">Start →</div>
-          </Link>
-          <Link href="/score-calculator" className="p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-2 min-h-[180px]">
-            <div className="font-mono text-[11px] opacity-50 tracking-[0.12em]">06</div>
-            <div className="font-serif text-[20px] font-medium tracking-tight">Score calculator</div>
-            <div className="text-[12.5px] opacity-65 leading-relaxed">Check what your MCAT score means + comparable schools.</div>
-            <div className="mt-auto font-mono text-[10px] tracking-[0.1em] uppercase opacity-50">Open →</div>
-          </Link>
-        </section>
-
-        <section className="px-10 py-24 text-center border-t border-[#0c1a2e15] mt-6">
-          <h2 className="font-serif italic font-light text-[clamp(36px,5vw,64px)] leading-[1.05] tracking-[-0.02em] max-w-3xl mx-auto">
-            Ready to think like a <span className="text-[#a8324a] not-italic font-medium">physician?</span>
-          </h2>
-          <Link href="/tutor" className="inline-block mt-8 font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-6 py-3.5 rounded-full hover:bg-[#1a2c4a] transition-colors">
-            Start the tutor →
-          </Link>
-        </section>
-
-        <div className="mx-10 my-7 p-3.5 px-5 border border-dashed border-[#0c1a2e25] rounded-lg font-mono text-[12px] leading-relaxed opacity-60">
-          Vitalis is a study aid. It is not medical advice and is not a substitute for a clinical educator. All content is for MCAT preparation only.
-        </div>
-
-        <footer className="px-10 py-10 border-t border-[#0c1a2e15] flex justify-between items-center font-mono text-[11px] tracking-[0.1em] uppercase opacity-60">
-          <div>© 2026 Vitalis · Built for future physicians</div>
-          <div>v0.5 — beta</div>
-        </footer>
-      </div>
-    </div>
-  );
+ const [name,setName]=useState(''); const [greeting,setGreeting]=useState('Welcome to your study space');
+ const [today,setToday]=useState(''); const [examDate,setExamDate]=useState('');
+ const [editing,setEditing]=useState(false); const [storageMessage,setStorageMessage]=useState(''); const [choice,setChoice]=useState<number|null>(null);
+ useEffect(()=>{
+  const now=new Date(); setToday(localDay(now)); setGreeting(now.getHours()<12?'Good morning':now.getHours()<18?'Good afternoon':'Good evening');
+  try { const saved=localStorage.getItem('vitalis-exam-date')||''; if(/^\d{4}-\d{2}-\d{2}$/.test(saved)&&Number.isFinite(dayNumber(saved))) {setExamDate(saved);} } catch {setStorageMessage('Browser storage is unavailable. Your date will last for this visit.');}
+  const controller=new AbortController(); fetchJson('/api/session',{signal:controller.signal},10000).then(data=>{if(!controller.signal.aborted&&typeof data.user?.name==='string')setName(data.user.name.trim().split(/\s+/)[0]);}).catch(()=>{});
+  const timer=setInterval(()=>setToday(localDay(new Date())),60000); return ()=>{controller.abort();clearInterval(timer);};
+ },[]);
+ const days=examDate&&today?dayNumber(examDate)-dayNumber(today):null;
+ function saveDate(e:React.FormEvent<HTMLFormElement>) {e.preventDefault();const value=String(new FormData(e.currentTarget).get('exam-date')||'');if(!value||value<today)return;setExamDate(value);setEditing(false);try{localStorage.setItem('vitalis-exam-date',value);setStorageMessage('Saved on this browser.');}catch{setStorageMessage('Your date is set for this visit; browser storage is unavailable.');}}
+ return <div className="dashboard-page"><MainNav contentId="dashboard-content"/><main id="dashboard-content" tabIndex={-1} className="study-dashboard">
+  <section className="dashboard-welcome"><div><p className="eyebrow">YOUR NEXT CHAPTER STARTS HERE</p><h1>{greeting}{name?<>, <span>{name}.</span></>:'.'}</h1><p>A little more understanding. A little closer to medicine.</p></div><Link href="/study-plan" className="button-outline"><StudyIcon name="calendar"/> My study plan</Link></section>
+  <div className="dashboard-columns"><div className="dashboard-primary">
+   <section className="dashboard-feature"><div className="feature-copy"><span className="feature-tag"><span/> MAKE TODAY COUNT</span><h2>Your future in medicine.<br/><em>One session at a time.</em></h2><p>Start with five questions. Find what clicks,<br className="desktop-break"/> work through what doesn’t, and build from there.</p><Link className="button-primary" href="/practice/bio-biochem?n=5&d=mixed">Start a quick practice <StudyIcon name="arrow"/></Link><span className="feature-meta">BIO / BIOCHEM <span>·</span> 5 QUESTIONS <span>·</span> UNTIMED</span></div><ScienceArt/></section>
+   <section className="dashboard-subjects"><div className="section-heading"><h2>Your MCAT foundations</h2><Link href="/study">All study guides <span aria-hidden="true">↗</span></Link></div><div className="subject-grid">{sections.map(s=><article className={`subject-card ${s.tone}`} key={s.slug}><div className="subject-title"><span className="subject-icon"><StudyIcon name={s.icon}/></span><span className="subject-code">{s.short}</span></div><h3><Link href={`/section/${s.slug}`}>{s.name}</Link></h3><p>{s.text}</p><div className="subject-actions"><Link href={`/study/${s.slug}`}>Study guides <span aria-hidden="true">↗</span></Link><Link href={`/practice/${s.slug}?n=5&d=mixed`}>Practice <span aria-hidden="true">→</span></Link></div></article>)}</div></section>
+   <section className="dashboard-tools"><div className="section-heading"><h2>A little support goes a long way</h2></div><div className="tool-grid"><Link href="/tutor" className="tool-card"><span className="tool-icon"><StudyIcon name="tutor"/></span><div><h3>Talk it through</h3><p>Unpack a tricky concept with your AI tutor.</p></div><span aria-hidden="true">↗</span></Link><Link href="/flashcards" className="tool-card"><span className="tool-icon"><StudyIcon name="cards"/></span><div><h3>Keep it fresh</h3><p>Review key ideas with focused flashcards.</p></div><span aria-hidden="true">↗</span></Link></div></section>
+   <section className="warmup-card" aria-labelledby="warmup-title"><div className="section-heading"><h2 id="warmup-title">A quick concept check</h2><span className="pill">BIOCHEMISTRY</span></div><p className="warmup-question">A competitive inhibitor binds to an enzyme’s active site. What happens to apparent K<sub>m</sub> and V<sub>max</sub>?</p><div className="warmup-options">{['Km increases; Vmax stays the same.','Km stays the same; Vmax decreases.'].map((answer,i)=><button key={answer} onClick={()=>setChoice(i)} aria-pressed={choice===i} className={choice===i?'chosen':''}><span>{i===0?'A':'B'}</span>{answer}</button>)}</div>{choice!==null&&<div className="warmup-feedback" role="status"><strong>{choice===0?'That’s right.':'Take another look.'}</strong> Competitive inhibition increases apparent K<sub>m</sub>. At sufficiently high substrate concentration, the same V<sub>max</sub> can still be reached. <Link href="/practice/bio-biochem?n=5&d=mixed">Keep practicing →</Link></div>}</section>
+  </div><aside className="dashboard-secondary" aria-label="Study planning">
+   <section className="exam-card"><div className="aside-heading"><span className="eyebrow">YOUR MCAT COUNTDOWN</span><StudyIcon name="calendar"/></div>{days===null?<><div className="countdown-empty">A date.<br/><em>A direction.</em></div><p>Give your preparation a destination. Add your test date to see your countdown.</p></>:days<0?<><h2 className="countdown-empty">Your next chapter.</h2><p>Your saved test date has passed. Choose a new date when you’re ready.</p></>:<><div className="countdown-number">{days}</div><h2>{days===0?'Your test day is here.':`day${days===1?'':'s'} until your MCAT`}</h2><p>{new Date(examDate+'T12:00:00').toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})}</p></>}
+   {editing?<form onSubmit={saveDate} className="exam-form"><label htmlFor="exam-date">MCAT test date</label><input id="exam-date" name="exam-date" type="date" required min={today||undefined} defaultValue={examDate}/><div><button className="button-primary" type="submit">Save date</button><button className="text-button" type="button" onClick={()=>setEditing(false)}>Cancel</button></div></form>:<button className="button-outline" onClick={()=>setEditing(true)}>{examDate?'Change test date':'Set my test date'} <span aria-hidden="true">→</span></button>}<p className="storage-note" role="status">{storageMessage||'Your date stays on this browser.'}</p></section>
+   <section className="plan-card"><span className="eyebrow">A PLAN THAT FITS YOU</span><h2>Make room for<br/><em>steady progress.</em></h2><p>Turn your goals and available time into a study schedule.</p><Link href="/study-plan">Build my study plan <StudyIcon name="arrow"/></Link></section>
+   <section className="session-card"><div className="section-heading"><h2>A balanced session</h2><span className="pill">TRY THIS</span></div><p className="session-intro">Three ways to make today a study day.</p><ol><li><span>01</span><div><Link href="/study">Learn one concept</Link><p>Build understanding first.</p></div></li><li><span>02</span><div><Link href="/practice">Put it into practice</Link><p>Apply it to a question set.</p></div></li><li><span>03</span><div><Link href="/flashcards">Come back to it</Link><p>Revisit the essentials.</p></div></li></ol></section>
+  </aside></div><footer className="dashboard-footer"><span>VITALIS <span>·</span> FOR THE PHYSICIAN IN YOU</span><p>AI study support. Check generated explanations against trusted MCAT resources.</p></footer>
+ </main></div>;
 }

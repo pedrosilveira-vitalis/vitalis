@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect,useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import MainNav from "@/components/MainNav";
@@ -81,16 +81,21 @@ function SectionCard({ section, onClick }: { section: Section; onClick: () => vo
 }
 
 export default function PracticeLanding() {
+  const [inventory,setInventory]=useState<{total:number;counts:Record<string,number>;guideBankAvailable:boolean}|null>(null);
+  useEffect(()=>{fetch("/api/practice/inventory").then(r=>r.ok?r.json():null).then(setInventory).catch(()=>{});},[]);
   const router = useRouter();
   const [activeSection, setActiveSection] = useState<Section | null>(null);
   const [numQuestions, setNumQuestions] = useState(10);
   const [difficulty, setDifficulty] = useState<"mixed" | "easy" | "medium" | "hard">("mixed");
 
+  const [format, setFormat] = useState("standalone");
+
   function startSession() {
     if (!activeSection) return;
     const params = new URLSearchParams({
       n: numQuestions.toString(),
-      d: difficulty,
+      d: format==="guide" ? "mixed" : difficulty,
+      f: activeSection.id==="cars" && format!=="guide" ? "passage" : format,
     });
     router.push(`/practice/${activeSection.id}?${params}`);
   }
@@ -113,18 +118,20 @@ export default function PracticeLanding() {
             Build the <span className="italic font-light text-[#a8324a]">instincts.</span>
           </h1>
           <p className="text-[15px] opacity-70 mt-4 max-w-2xl leading-relaxed">
-            AAMC-style multiple choice with on-the-fly explanations. Tag a wrong answer to your tutor to dig deeper.
+            Practice by section, read the explanation, and flag questions for another day.
           </p>
+          {inventory && <p className="mt-3 text-sm">{inventory.total.toLocaleString()} bank questions available across all formats. {inventory.guideBankAvailable ? "" : "Study-guide database currently unavailable."}</p>}
+          <Link href="/flagged" className="inline-block mt-4 underline">My flagged questions →</Link>
         </section>
 
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#0c1a2e15] mx-10 my-10 rounded-2xl overflow-hidden border border-[#0c1a2e15]">
           {SECTIONS.map((s) => (
-            <SectionCard key={s.id} section={s} onClick={() => setActiveSection(s)} />
+            <SectionCard key={s.id} section={s} onClick={() => {setActiveSection(s);setFormat(s.id==="cars"?"passage":"standalone");}} />
           ))}
         </section>
 
         <div className="mx-10 my-7 p-3.5 px-5 border border-dashed border-[#0c1a2e25] rounded-lg font-mono text-[12px] leading-relaxed opacity-60">
-          Practice questions are AI-generated and reviewed for AAMC-style fidelity. Always cross-reference with official AAMC materials for highest accuracy.
+          Choose Calculation drills to revisit a problem type with different measurements. Your browser remembers assigned questions. For another pass, choose review when the matching questions run out.
         </div>
 
         <div className="px-10 py-6 flex justify-between items-center text-[12px] opacity-60">
@@ -143,9 +150,10 @@ export default function PracticeLanding() {
             <h2 className="font-serif text-[32px] font-medium tracking-tight mb-2" style={{ color: activeSection.color }}>
               {activeSection.name}
             </h2>
-            <p className="text-[13px] opacity-65 mb-6">{activeSection.fullName}</p>
+            <p className="text-[13px] opacity-65 mb-6">{activeSection.fullName}{inventory && <> · {inventory.counts[activeSection.id] ?? inventory.total} in bank across all formats</>}</p>
 
-            <div className="mb-5">
+            <div className="mb-6"><label htmlFor="question-format" className="block text-sm mb-2">Question format</label><select id="question-format" value={format} onChange={e => setFormat(e.target.value)} className="w-full border border-[#0c1a2e30] rounded-lg p-3">{activeSection.id!=="cars" && <option value="standalone">Standalone questions</option>}<option value="passage">Passage-based questions</option><option value="guide">Study guide &amp; unit review</option>{activeSection.id!=="cars" && <option value="drills">Calculation drills (includes numerical variants)</option>}</select><p className="text-xs mt-2 opacity-70">Guide review uses the existing lesson and unit quizzes at their original difficulty. CARS passage practice uses original reading passages.</p></div>
+              <div className="mb-5">
               <label className="block font-mono text-[10px] tracking-[0.14em] uppercase opacity-60 mb-2">
                 Number of questions
               </label>
@@ -174,9 +182,9 @@ export default function PracticeLanding() {
                 {(["mixed", "easy", "medium", "hard"] as const).map((d) => (
                   <button
                     key={d}
-                    onClick={() => setDifficulty(d)}
+                    disabled={format==="guide"} onClick={() => setDifficulty(d)}
                     className={`py-2.5 px-3 rounded-xl text-sm font-medium border-2 transition-all capitalize ${
-                      difficulty === d
+                      (format==="guide"?"mixed":difficulty) === d
                         ? "border-[#0c1a2e] bg-[#0c1a2e] text-[#f5f1ea]"
                         : "border-[#0c1a2e25] hover:border-[#0c1a2e]"
                     }`}

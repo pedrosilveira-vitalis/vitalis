@@ -1,4 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { sessionSettings, sections, allocateSections, parseQuestions } from "@/lib/practice";
+import { fresh, reserveQuestions } from "./rotation";
+export const maxDuration = 120;
 
 const SECTION_CONTEXT: Record<string, { name: string; topics: string[]; style: string }> = {
   "bio-biochem": {
@@ -110,69 +113,62 @@ const STANDALONE_SCHEMA = `{
 }`;
 
 export async function POST(request: Request) {
+  let settings: ReturnType<typeof sessionSettings>;
+  let custom = false;
+  let seen: Set<string>;
   try {
-    const { section, format } = await request.json();
-
-    let actualSection = section;
-    if (section === "mixed") {
-      const sections = ["bio-biochem", "chem-phys", "psych-soc", "cars"];
-      actualSection = sections[Math.floor(Math.random() * sections.length)];
-    }
-
-    const actualFormat = actualSection === "cars" ? "passage" : format;
-
-    const sectionInfo = SECTION_CONTEXT[actualSection];
-    if (!sectionInfo) {
-      return Response.json({ error: "Invalid section" }, { status: 400 });
-    }
-
-    const randomTopic = sectionInfo.topics[Math.floor(Math.random() * sectionInfo.topics.length)];
-    const randomSeed = Math.random().toString(36).slice(2, 8);
-
-    const schema = actualFormat === "passage" ? PASSAGE_SCHEMA : STANDALONE_SCHEMA;
-
-    const systemPrompt = [
-      PROMPT_INTRO,
-      schema,
-      "",
-      `Section: ${sectionInfo.name}`,
-      `Style notes for this section: ${sectionInfo.style}`,
-      `Focus this question on: ${randomTopic}`,
-      `Format: ${actualFormat === "passage" ? "Passage with 3-4 linked questions" : "1 standalone question"}`,
-      `Variety seed: ${randomSeed} (use to ensure freshness — avoid the most obvious example).`,
-    ].join("\n");
-
-    const client = new Anthropic({
-      apiKey: process.env.ANTHROPIC_API_KEY,
-    });
-
-    const response = await client.messages.create({
-      model: "claude-sonnet-4-6",
-      max_tokens: 3000,
-      system: systemPrompt,
-      messages: [
-        { role: "user", content: `Generate ${actualFormat === "passage" ? "a passage with 3-4 questions" : "1 standalone question"} for the ${sectionInfo.name} section, focused on ${randomTopic}.` },
-      ],
-      temperature: 1.0,
-    });
-
-    const text = response.content
-      .filter((b) => b.type === "text")
-      .map((b) => (b.type === "text" ? b.text : ""))
-      .join("\n")
-      .trim();
-
-    let jsonStr = text;
-    const fenceMatch = text.match(/```(?:json)?\s*([\s\S]*?)```/);
-    if (fenceMatch) jsonStr = fenceMatch[1].trim();
-
-    const data = JSON.parse(jsonStr);
-    return Response.json({ ...data, section: actualSection });
-  } catch (error) {
-    console.error("Question generation error:", error);
-    return Response.json(
-      { error: "Failed to generate question" },
-      { status: 500 }
-    );
+    const input = await request.json();
+    settings = sessionSettings(input);
+    custom = input.custom === true;
+    seen = new Set(Array.isArray(input.seen) ? input.seen.slice(-10000).filter((id: unknown) => typeof id === "string" && /^[a-f0-9]{24}$/.test(id)) : []);
   }
+  catch (error) { return Response.json({ error: error instanceof Error ? error.message : "Invalid settings" }, { status: 400 }); }
+  const groups = allocateSections(settings.section, settings.count);
+  const saved = await Promise.all(groups.map(g => reserveQuestions(settings, seen, g.count, g.section)));
+  const bank = saved.flat();
+  if (settings.section==="mixed" && bank.length < settings.count) {
+    for (const section of sections) {
+      const needed=settings.count-bank.length;
+      if (!needed) break;
+      bank.push(...await reserveQuestions(settings,seen,needed,section));
+    }
+  }
+  const deficits = groups.map((g,i)=>({...g,count:g.count-saved[i].length})).filter(g=>g.count>0);
+  function bankResponse() {
+    return Response.json({questions:bank,section:settings.section,source:"bank",exhausted:!bank.length});
+  }
+  if (!custom || bank.length >= settings.count || !deficits.length || ["guide","drills"].includes(settings.format)) return bankResponse();
+  const apiKey = process.env.ANTHROPIC_API_KEY?.trim();
+  if (!apiKey || /\s/.test(apiKey) || apiKey.startsWith("apikey_")) return bankResponse();
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 85000);
+  try {
+    const client = new Anthropic({ apiKey, timeout: 85000, maxRetries: 0 });
+    const batches = await Promise.all(deficits.map(async ({ section, count }) => {
+      const info = SECTION_CONTEXT[section];
+      const passage = section === "cars" || settings.format === "passage";
+      const response = await client.messages.create({
+        model: "claude-sonnet-4-6", max_tokens: Math.min(16000, 1500 + count * 650), temperature: 0.8,
+        system: [PROMPT_INTRO, passage ? PASSAGE_SCHEMA : STANDALONE_SCHEMA,
+          `Section: ${info.name}. ${info.style}`,
+          `Generate EXACTLY ${count} questions. Difficulty: ${settings.difficulty}.`,
+          "For mixed difficulty, vary easy, medium, and hard. Include explanations for every incorrect choice.",
+          `Topics to draw from: ${info.topics.join(", ")}`,
+          passage ? "Include one coherent passage supporting ALL questions." : "Each question must be self-contained. Vary topics across the set."
+        ].join("\n"),
+        messages: [{ role: "user", content: `Create a fresh set of exactly ${count} questions. Return valid JSON only. Variety: ${crypto.randomUUID()}` }],
+      }, { signal: controller.signal });
+      if (response.stop_reason === "max_tokens") throw new Error("Truncated response");
+      const raw = response.content.filter(b => b.type === "text").map(b => b.type === "text" ? b.text : "").join("\n").trim();
+      const match = raw.match(/```(?:json)?\s*([\s\S]*?)```/);
+      return parseQuestions(JSON.parse(match ? match[1] : raw), section, count, passage, settings.difficulty);
+    }));
+    const generated = batches.flatMap((batch,i)=>fresh(batch,seen,deficits[i].count));
+    const selected=[...bank,...generated].slice(0,settings.count);
+    return Response.json({questions:selected,section:settings.section,source:bank.length ? "blend" : "generated",exhausted:!selected.length});
+  } catch (error) {
+    controller.abort();
+    console.error("Practice generation failed", error instanceof Error ? error.name : "Unknown error");
+    return bankResponse();
+  } finally { clearTimeout(timer); }
 }

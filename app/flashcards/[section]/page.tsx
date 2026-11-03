@@ -3,6 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
+import { fetchJson } from "@/lib/fetch-json";
 import MainNav from "@/components/MainNav";
 
 type Card = { front: string; back: string };
@@ -40,12 +41,11 @@ export default function FlashcardSession() {
     setLoading(true);
     setError("");
     try {
-      const res = await fetch("/api/flashcards/generate", {
+      const data = await fetchJson("/api/flashcards/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ section: sectionId, count: 20 }),
       });
-      const data = await res.json();
       if (!data.cards || data.cards.length === 0) {
         setError("Couldn't load cards. Try again.");
         setLoading(false);
@@ -53,8 +53,8 @@ export default function FlashcardSession() {
       }
       setCards(data.cards);
       setLoading(false);
-    } catch {
-      setError("Couldn't load cards. Try again.");
+    } catch (error) {
+      setError(error instanceof Error ? error.message : "Couldn't load cards. Try again.");
       setLoading(false);
     }
   }, [sectionId]);
