@@ -34,9 +34,20 @@ function buildSystemPrompt(question: Question, studentAnswer: string | null): st
 
 export async function POST(request: Request) {
   try {
-    const { question, studentAnswer, messages } = await request.json();
+    const { question: raw, studentAnswer, messages } = await request.json();
+    const question = raw && {
+      stem: raw.stem ?? raw.question_text,
+      choices: raw.choices ?? { A: raw.choice_a, B: raw.choice_b, C: raw.choice_c, D: raw.choice_d },
+      correctAnswer: raw.correctAnswer ?? raw.correct_answer,
+      explanation: raw.explanation,
+      concept: raw.concept ?? raw.topic ?? "MCAT practice",
+    };
 
-    if (!question || !messages) {
+    if (!question || typeof question.stem !== "string" ||
+        !["A", "B", "C", "D"].every(key => typeof question.choices?.[key] === "string") ||
+        !["A", "B", "C", "D"].includes(question.correctAnswer) ||
+        !Array.isArray(messages) || !messages.length ||
+        !messages.every(m => m && ["user", "assistant"].includes(m.role) && typeof m.content === "string")) {
       return Response.json({ error: "Missing data" }, { status: 400 });
     }
 

@@ -4,6 +4,7 @@ import { useState, useRef, useEffect, useCallback, Suspense } from "react";
 import Link from "next/link";
 import Script from "next/script";
 import { useSearchParams, useRouter } from "next/navigation";
+import Nori from "@/components/Nori";
 import MainNav from "@/components/MainNav";
 
 type ImagePart = {
@@ -431,7 +432,7 @@ function TutorPageContent() {
               </div>
             ) : messages.length === 0 ? (
               <div className="m-auto max-w-xl text-center px-5 py-10">
-                <h2 className="font-serif text-3xl font-medium tracking-tight mb-3 leading-tight">Built to bring out the physician in you.</h2>
+                <div className="tutor-nori"><Nori/></div><h2 className="font-serif text-3xl font-medium tracking-tight mb-3 leading-tight">Hi, I’m Nori. Let’s make it click.</h2>
                 <p className="text-sm opacity-65 leading-relaxed mb-6">Ask anything about the MCAT. Upload a photo of your homework or a textbook diagram, and I&apos;ll walk you through it.</p>
                 {isAuthenticated === false && (
                   <div className="mb-6 p-3 bg-[#a8324a08] border border-[#a8324a25] rounded-lg text-[12px] opacity-75">

@@ -1,3 +1,4 @@
+import { withQuestionTokens } from "@/lib/question-token";
 import { auth } from "@/auth";
 import { Pool } from "pg";
 
@@ -93,7 +94,7 @@ export async function GET(
 
     return Response.json({
       lesson: lessonRes.rows[0],
-      questions: questionsRes.rows,
+      questions: withQuestionTokens(questionsRes.rows),
       highlights,
       progress,
       prevLesson,

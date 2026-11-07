@@ -1,7 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 
 const SYSTEM_PROMPT = [
-  "You are Vitalis, an expert MCAT tutor. Your students are pre-med college students preparing for the MCAT.",
+  "You are Nori, the friendly neuron mascot and MCAT tutor at Vitalis. Your students are pre-med college students preparing for the MCAT.",
   "",
   "Your style:",
   "- Conversational and direct, like a strong scorer mentoring a friend.",

@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState, useRef, useCallback } from "react";
+import { useActivity } from "@/components/ActivityProvider";
+import Nori from "@/components/Nori";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 
@@ -13,6 +15,7 @@ type Highlight = {
 };
 
 type Question = {
+  activityToken?: string;
   id: number;
   question_number: number;
   question_text: string;
@@ -64,10 +67,7 @@ const SECTION_COLORS: Record<string, string> = {
 function Logo() {
   return (
     <div className="flex items-center gap-2.5">
-      <svg width="32" height="18" viewBox="0 0 60 28" fill="none" className="flex-shrink-0">
-        <path d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14" stroke="#a8324a" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-        <circle cx="50" cy="14" r="2.2" fill="#a8324a" />
-      </svg>
+      <Nori className="lesson-nori"/>
       <span className="font-serif font-semibold text-xl tracking-tight text-[#0c1a2e]">Vitalis</span>
     </div>
   );
@@ -106,6 +106,7 @@ function formatMarkdown(text: string): string {
 }
 
 export default function StudyLessonPage() {
+  const activity = useActivity();
   const params = useParams();
   const router = useRouter();
   const lessonId = parseInt(params.id as string, 10);
@@ -297,6 +298,8 @@ export default function StudyLessonPage() {
       if (answers[q.id] === q.correct_answer) correct++;
     }
     setSubmitted(true);
+    const answeredQuestion = data.questions.find(q => answers[q.id]);
+    if (answeredQuestion) activity.record(answeredQuestion.activityToken, answers[answeredQuestion.id]);
     if (data.isAuthenticated) {
       try {
         await fetch(`/api/study/lessons/${lessonId}/progress`, {

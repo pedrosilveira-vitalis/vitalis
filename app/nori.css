@@ -1,0 +1,102 @@
+/* Nori's study space: Vitalis navy, burgundy, peach and warm cream. */
+body { padding-bottom: 100px; }
+.nori-art { display: block; width: 100%; height: auto; overflow: visible; flex-shrink: 0; }
+.brand-nori { width: 47px; height: 51px; filter: drop-shadow(0 3px 5px #0003); }
+.vitalis-brand { gap: 8px; font-size: 32px; }
+.brand-caption { margin-left: 55px; }
+.vitalis-sidebar { background: linear-gradient(165deg, #294b61 0%, #172f43 38%, #102334 100%); box-shadow: 6px 0 30px #1732470c; }
+.nav-item { transition: background .2s, transform .2s; }
+.nav-item:hover { transform: translateX(3px); background: linear-gradient(100deg,#ffffff1c,#ffffff06); }
+.nav-item[aria-current=page] { background: linear-gradient(120deg,#ffffff29,#ffffff0b); border-top: 1px solid #ffffff27; box-shadow: inset 3px 0 #efbca2, 0 6px 14px #091a2826; }
+.dashboard-page { background: radial-gradient(ellipse at 95% 0%, #f6e4e0, transparent 36%), #f5f1ea; }
+.vitalis-topbar { background: #fffaf5e8; backdrop-filter: blur(18px); }
+.button-primary { background: linear-gradient(160deg,#ce6379 0%,#b53b58 45%,#8d213e 100%); border: 1px solid #982c46; border-top-color: #e994a5; border-radius: 12px; box-shadow: inset 0 1px 0 #ffffff65, inset 0 -2px 0 #6e183366, 0 5px 0 #7c2037, 0 11px 22px #a8324a25; transition: transform .18s, box-shadow .18s, filter .18s; }
+.button-primary:hover { background: linear-gradient(160deg,#da7388,#b53b58 55%,#952742); filter: brightness(1.04); transform: translateY(-2px); box-shadow: inset 0 1px 0 #ffffff75, 0 7px 0 #7c2037, 0 15px 26px #a8324a30; }
+.button-primary:active { transform: translateY(3px); box-shadow: inset 0 1px 0 #ffffff65, 0 1px 0 #7c2037; }
+.button-primary:disabled { opacity: .55; transform: none; cursor: wait; }
+.button-outline { background: linear-gradient(#fffefd,#f0e9df); border-radius: 11px; box-shadow: inset 0 1px 0 white, 0 3px 0 #ddd4c8, 0 5px 10px #233b4a08; }
+.dashboard-feature { min-height: 310px; background: radial-gradient(ellipse at 95% 0%,#f8dbcb,transparent 64%),linear-gradient(130deg,#fff9ec,#f2e5dd 80%); box-shadow: inset 0 1px 0 #fff, 0 8px 24px #5531240a; border-color: #e6cdbd; border-radius: 22px; }
+.hero-nori { position: absolute; right: 12px; bottom: 20px; width: 30%; max-width: 240px; }
+.hero-nori .nori-art { filter: drop-shadow(0 13px 12px #79394c1a); }
+.nori-speech { position: absolute; bottom: 94%; left: -10%; width: max-content; max-width: 180px; transform: rotate(-5deg); background: #fffdf7; border: 1px solid #ebd7ca; border-radius: 16px 16px 2px 16px; padding: 10px 16px; font: 13px Georgia,serif; color: #9a3049; box-shadow: 0 3px 0 #e6d1c1; }
+.subject-card,.tool-card,.exam-card,.session-card,.warmup-card { background: linear-gradient(145deg,#fffefa,#faf5ed); box-shadow: inset 0 1px 0 white,0 4px 14px #17324705; }
+.subject-card { transition: transform .2s,box-shadow .2s; }
+.subject-card:hover { transform: translateY(-3px); box-shadow: 0 10px 22px #17324710; }
+.subject-icon { background: linear-gradient(145deg,white,var(--subject-bg)); border: 1px solid var(--subject-bg); box-shadow: inset 0 1px 0 white,0 3px 0 var(--subject-bg); }
+.plan-card { background: radial-gradient(ellipse at 90% 0%,#46738a,transparent 75%),linear-gradient(145deg,#27485d,#142d41); box-shadow: inset 0 1px 0 #ffffff47,0 5px 15px #17324718; }
+.engagement-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: 18px; margin-top: 24px; align-items: start; }
+.streak-card { padding: 23px; border-radius: 20px; border: 1px solid #e7c4ac; background: radial-gradient(circle at 0 0,#fff0d0,transparent 65%),linear-gradient(145deg,#fff9ed,#f8e0d3); box-shadow: inset 0 2px 0 #fff9,0 7px 0 #ead4c3,0 14px 25px #8e4a2910; }
+.streak-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.streak-top h2 { font: 26px Georgia,serif; margin-top: 7px; }
+.streak-badge { color: #783c2c; font-size: 10px; font-weight: bold; border: 1px solid #e9cbb4; border-radius: 20px; padding: 7px 9px; background: #fff4e3; white-space: nowrap; }
+.sparkle { color: #b47b35; margin-left: 9px; font-size: 18px; }
+.streak-body { display: flex; gap: 16px; align-items: center; margin: 12px 0; }
+.streak-nori { width: 90px; }
+.streak-count { font: 54px/1 Georgia,serif; color: #9d2d48; }
+.streak-count span { font: 17px Arial,sans-serif; color: #384651; }
+.streak-body p { font-size: 12px; line-height: 1.6; max-width: 190px; margin-top: 8px; color: #74564c; }
+.streak-goal { display: flex; justify-content: space-between; gap: 8px; font-size: 11px; margin: 14px 0 8px; }
+.streak-card progress { appearance: none; width: 100%; height: 15px; border: 1px solid #e0bdab; border-radius: 20px; overflow: hidden; display: block; background: #e8cdbd; }
+.streak-card progress::-webkit-progress-bar { background: #ead2c3; box-shadow: inset 0 2px 3px #85554512; }
+.streak-card progress::-webkit-progress-value { background: linear-gradient(#de8c9b,#ac3b56); border-radius: 12px; box-shadow: inset 0 2px 0 #ffffff60; }
+.streak-card progress::-moz-progress-bar { background: linear-gradient(#de8c9b,#ac3b56); border-radius: 12px; }
+.streak-caption { font-size: 10px; color: #775f55; line-height: 1.6; margin: 8px 0 12px; }
+.streak-week { display: flex; justify-content: space-between; gap: 6px; margin: 16px 0; }
+.streak-week span { display: grid; justify-items: center; gap: 6px; }
+.streak-week small { font-size: 10px; color: #82645a; }
+.streak-week b { width: 27px; height: 27px; display: grid; place-items: center; background: #fff3e6; color: #a58b79; border: 1px solid #e4c8b2; border-radius: 50%; font-size: 12px; }
+.streak-week .done b { background: linear-gradient(#c6697d,#9e324b); color: white; border-color: #9e324b; box-shadow: inset 0 1px 0 #ffd8e2; }
+.streak-stats { display: flex; justify-content: space-between; font-size: 11px; padding: 12px 0; border-top: 1px solid #dfbda780; color: #74564c; }
+.streak-stats b { color: #263d4c; }
+.streak-card .button-primary { width: 100%; margin: 5px 0; }
+.calls-card { padding: 23px; border: 1px solid #d9dfe1; border-radius: 20px; background: linear-gradient(145deg,#fffdfa,#edf3f4); box-shadow: inset 0 1px 0 white,0 4px 16px #17324708; }
+.calls-card h2 { font: 23px Georgia,serif; }
+.calls-card>p { font-size: 13px; line-height: 1.7; margin-top: 14px; }
+.calls-card a:not(.button-primary),.portal-page>p>a { color: #94324c; text-decoration: underline; text-underline-offset: 3px; }
+.call-symbol { display: grid; place-items: center; background: linear-gradient(#42627a,#213e55); width: 30px; height: 30px; color: white; border-radius: 9px; box-shadow: inset 0 1px 0 #ffffff66,0 3px 0 #132d40; }
+.calls-empty { padding: 20px 0; }
+.calls-empty>span { font-size: 44px; color: #668b99; }
+.calls-empty h3 { font: 20px/1.4 Georgia,serif; margin: 12px 0 8px; }
+.calls-empty p { font-size: 12px; color: #657984; line-height: 1.7; }
+.calls-links { display: flex; flex-wrap: wrap; gap: 15px; font-size: 11px; padding-top: 15px; border-top: 1px solid #d8e0e0; }
+.call-details { display: flex; gap: 13px; padding: 20px 0; border-top: 1px solid #d8e0e0; overflow-wrap: anywhere; }
+.call-date { display: flex; flex-direction: column; align-items: center; width: 49px; min-width: 49px; height: 65px; border-radius: 10px; background: linear-gradient(#fff,#f5e5dc); border: 1px solid #decbbb; box-shadow: 0 3px 0 #e4d4c6; }
+.call-date strong { font: 26px Georgia,serif; padding-top: 8px; color: #96364b; }
+.call-date span { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; }
+.call-details h3 { font-size: 14px; font-weight: 600; margin-bottom: 6px; }
+.call-details p { font-size: 12px; color: #586c79; line-height: 1.7; }
+.call-details .button-primary { margin-top: 12px; }
+.call-note { white-space: pre-wrap; margin-top: 8px; }
+.nori-companion { position: fixed; bottom: max(22px, env(safe-area-inset-bottom)); right: 22px; width: 94px; z-index: 35; display: flex; align-items: center; flex-direction: column; text-decoration: none; border-radius: 40px; filter: drop-shadow(0 5px 9px #152a4725); transition: transform .2s; }
+.nori-companion .nori-art { width: 83px; animation: nori-float 5s ease-in-out 3; }
+.nori-chat-label { white-space: nowrap; background: linear-gradient(#43647a,#173247); border: 1px solid #153147; border-top-color: #7893a4; border-radius: 20px; color: white; padding: 7px 10px; font-size: 10px; box-shadow: 0 3px 0 #0c2334,inset 0 1px 0 #ffffff30; margin-top: -9px; }
+.nori-hint { position: absolute; right: 80px; top: 35px; background: #fffaf1; color: #754333; font-size: 11px; white-space: nowrap; padding: 10px 14px; border: 1px solid #ddc3b1; border-radius: 16px 16px 2px 16px; opacity: 0; transform: translateX(5px); transition: opacity .2s, transform .2s; pointer-events: none; }
+.nori-companion:hover .nori-hint,.nori-companion:focus-visible .nori-hint { opacity: 1; transform: translateX(0); }
+.nori-companion:hover { transform: translateY(-4px); }
+@keyframes nori-float { 0%,100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-7px) rotate(2deg); } }
+.lesson-nori { width: 42px; height: 44px; }
+.portal-page { max-width: 1050px; margin: 0 auto; padding: 40px 30px 80px; }
+.portal-page>h1 { font: 38px/1.2 Georgia,serif; margin: 12px 0; }
+.portal-page>p { color: #647078; font-size: 14px; line-height: 1.8; margin-bottom: 25px; }
+.portal-page .calls-card { margin-top: 26px; }
+.call-form { padding: 26px; margin: 25px 0; background: #fffaf4; border: 1px solid #ddd0bf; border-radius: 18px; }
+.call-form h2 { font: 25px Georgia,serif; margin-bottom: 24px; }
+.call-form fieldset { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.call-form label { display: flex; flex-direction: column; gap: 7px; font-size: 13px; font-weight: 600; min-width: 0; }
+.call-form input,.call-form textarea { background: white; border: 1px solid #cfc8bd; border-radius: 9px; padding: 12px; color: #203a4a; font-size: 15px; width: 100%; min-width: 0; font-weight: 400; }
+.call-form textarea { min-height: 90px; }
+.full-width { grid-column: 1/-1; }
+.form-actions { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.managed-call { padding: 22px 0; border-bottom: 1px solid #d8e0e0; }
+.managed-call:last-child { border-bottom: 0; }
+.student-email { font-size: 12px; color: #90304b; overflow-wrap: anywhere; margin-bottom: 10px; }
+.portal-error { color: #9a263c; background: #fff0ef; border: 1px solid #e6bdc3; border-radius: 10px; padding: 12px; font-size: 13px; line-height: 1.6; }
+.portal-error button { text-decoration: underline; font-weight: 600; }
+.portal-success { color: #345e4a; background: #e7f0e7; border-radius: 10px; padding: 12px; font-size: 13px; line-height: 1.6; }
+@media(min-width:1600px) { .hero-nori { width: 27%; right: 28px; } }
+@media(max-width:1250px) { .engagement-grid { grid-template-columns: 1fr; } .hero-nori { width: 23%; right: 14px; } .nori-speech { font-size: 11px; left: -35%; padding: 8px; } .feature-copy { width: 74%; } }
+@media(max-width:850px) { .engagement-grid { grid-template-columns: 1fr 1fr; } .hero-nori { width: 25%; } .nori-companion { width: 72px; right: 13px; bottom: 18px; } .nori-companion .nori-art { width: 68px; } .nori-hint { right: 65px; } }
+@media(max-width:580px) { .engagement-grid { grid-template-columns: 1fr; } .hero-nori { width: 86px; bottom: 12px; right: 12px; } .hero-nori .nori-speech { display: none; } .feature-copy { width: 100%; } .dashboard-feature { padding-bottom: 40px; } .feature-meta { max-width: 220px; } .vitalis-brand { font-size: 27px; } .brand-nori { width: 34px; height: 40px; } .portal-page { padding: 28px 16px 90px; } .portal-page>h1 { font-size: 31px; } .call-form { padding: 20px 16px; } .call-form fieldset { grid-template-columns: 1fr; } }
+@media(prefers-reduced-motion:reduce) { .nori-companion .nori-art { animation: none; } .subject-card:hover,.nav-item:hover,.nori-companion:hover { transform: none; } }
+
+.tutor-nori { width: 120px; margin: 0 auto 18px; }

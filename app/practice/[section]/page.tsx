@@ -3,6 +3,7 @@
 import { useEffect, useState, useRef, useCallback, Suspense } from "react";
 import Link from "next/link";
 import { useParams, useSearchParams, useRouter } from "next/navigation";
+import { useActivity } from "@/components/ActivityProvider";
 import MainNav from "@/components/MainNav";
 
 import { flagged,toggleFlag } from "@/lib/flagged";
@@ -39,6 +40,7 @@ const SECTION_COLORS: Record<string, string> = {
 };
 
 function PracticeSessionContent() {
+  const activity = useActivity();
   const params = useParams();
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -132,6 +134,7 @@ function PracticeSessionContent() {
   function handleSubmit() {
     if (!selectedAnswer || !currentQ || showExplanation) return;
     const isCorrect = selectedAnswer === currentQ.correct_answer;
+    activity.record(currentQ.activityToken, selectedAnswer);
     setResults([...results, { qId: currentQ.id, correct: isCorrect, selected: selectedAnswer }]);
     setShowExplanation(true);
   }
@@ -358,6 +361,8 @@ Can you explain this more deeply and help me build the right intuition so I get 
           </div>
         ) : (
           <div className="space-y-4">
+            {activity.error && <p className="portal-error" role="alert">{activity.error} <button onClick={activity.retry}>Retry saving streak</button></p>}
+            {activity.data?.streak.completedToday && <p className="portal-success" role="status">Today’s practice is saved. Your streak is {activity.data.streak.current} day{activity.data.streak.current===1?"":"s"}.</p>}
             <div className={`p-5 rounded-xl border ${isCorrect ? "border-[#3e6b4a] bg-[#3e6b4a08]" : "border-[#a8324a] bg-[#a8324a08]"}`}>
               <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-60 mb-2">
                 {isCorrect ? "✓ Correct" : "✗ Incorrect"}
