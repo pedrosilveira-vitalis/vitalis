@@ -1,0 +1,336 @@
+{
+  "lessonId": 38,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "In eukaryotic cells, transcription and translation are physically separated: DNA is transcribed in the nucleus, and proteins are synthesized in the cytoplasm.",
+      "new": "For animal nuclear genes, transcription occurs in the nucleus and translation on cytoplasmic ribosomes. Mitochondrial gene expression is a separate system.",
+      "reason": "Scope compartment comparison.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "The product of RNA polymerase II is not a mature, functional messenger RNA — it is a **pre-mRNA**, also called a **primary transcript** or **heterogeneous nuclear RNA (hnRNA)**.",
+      "new": "For a nuclear protein-coding gene, Pol II makes a primary RNA that matures through processing. Pol II also transcribes noncoding RNAs; hnRNA is a broader historical term for heterogeneous nuclear RNA, not an exact synonym for every pre-mRNA.",
+      "reason": "Avoid classifying all PolII products as pre-mRNA.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- It contains **introns** — intervening sequences that do not code for protein",
+      "new": "- Many transcripts contain introns that must be removed; introns can contain functional regulatory sequences even though they are absent from that mature mRNA.",
+      "reason": "Introns not universal or functionless.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- Its 5' end terminates in a triphosphate group that is vulnerable to exonuclease degradation",
+      "new": "- Its initially triphosphorylated 5′ end lacks the mature cap and cap-binding proteins needed for normal stability and cap-dependent translation. A triphosphate is not itself a preferred substrate for the usual 5′-monophosphate-dependent XRN exonucleases.",
+      "reason": "Correct triphosphate substrate inference.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "All three major processing events begin *co-transcriptionally* — they do not wait for the polymerase to finish. This co-transcriptional coupling is important: the C-terminal domain (CTD) of RNA Pol II acts as a scaffold that recruits capping enzymes, splicing factors, and polyadenylation machinery as transcription proceeds. Disruption of the CTD impairs all three processing events simultaneously, which underscores how integrated this system is.",
+      "new": "Much processing starts while transcription is still occurring, with the Pol II CTD recruiting processing factors. Some introns are removed later, and different CTD alterations affect processing steps differently; not every perturbation abolishes all three processes equally.",
+      "reason": "Avoid universal timing and CTD outcomes.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "These additional methylations help the innate immune system distinguish host mRNA from viral RNA, which often lacks proper capping.",
+      "new": "These methylations contribute to host RNA recognition by innate immune pathways. Some viruses cap or methylate their own RNA or acquire host caps, so cap status is not an infallible host-versus-virus label.",
+      "reason": "Scope immune discrimination.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "Together, these protein complexes recruit cleavage factors that cut the RNA.",
+      "new": "Within CPSF, CPSF30 and WDR33 recognize the signal and CPSF73 catalyzes cleavage; other processing factors organize this reaction.",
+      "reason": "Identify cleavage enzyme.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5816196/"
+    },
+    {
+      "field": "content",
+      "old": "- **Protection from 3' exonuclease degradation**: The long tail of adenines must be progressively shortened (**deadenylation**) before the mRNA body can be degraded. This makes deadenylation the rate-limiting step in mRNA turnover.",
+      "new": "- **Protection from 3′ degradation**: Tail-associated proteins support stability. Deadenylation initiates many common decay pathways, but it is not obligatory or rate-limiting for every transcript; endonucleolytic and other surveillance pathways also exist.",
+      "reason": "Remove universal decay sequence.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6855384/"
+    },
+    {
+      "field": "content",
+      "old": "- **Translation enhancement**: In the cytoplasm, **cytoplasmic poly-A binding protein (PABPC1)** binds the tail and interacts with eIF4G (part of the eIF4F complex at the 5' cap), creating a **closed-loop structure** that stimulates ribosome recycling and enhances translation efficiency.",
+      "new": "- **Translation enhancement**: Cytoplasmic PABPC1 interacts with eIF4G and can promote productive interactions between the 3′ tail and 5′ initiation machinery. The closed-loop model is useful, but every translating mRNA need not form a stable physical circle.",
+      "reason": "Avoid literal universal loop.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "One key distinction to remember: **histones** are the major exception to polyadenylation. Histone mRNAs are not polyadenylated; instead, their 3' ends form a stem-loop structure that serves a similar protective function. This is a classic MCAT exception.",
+      "new": "Most **replication-dependent histone mRNAs** lack poly-A tails and instead use a specialized 3′ stem-loop and associated proteins. Many histone-variant mRNAs are polyadenylated, so “all histone mRNAs lack poly-A” is incorrect.",
+      "reason": "Scope histone exception.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "Eukaryotic genes are **split genes** — their coding sequences (**exons**) are interrupted by non-coding sequences (**introns**). After transcription, the pre-mRNA contains both, and the introns must be precisely removed and the exons joined. This process is called **splicing**, and its precision is critical: a single nucleotide error in splicing shifts the reading frame and produces a non-functional or toxic protein.",
+      "new": "Many eukaryotic genes contain introns. **Exons are segments retained in a particular mature RNA**, and may include coding sequence, untranslated regions or both. Introns are removed during splicing. A one-nucleotide insertion/deletion within the coding sequence can shift the reading frame, but splice changes in untranslated regions or in-frame exon changes have different consequences.",
+      "reason": "Fix exon definition and universal frameshift claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "contains 79 introns",
+      "new": "has 79 canonical exons separated by 78 introns",
+      "reason": "Correct exon versus intron count.",
+      "sourceUrl": "https://www.dmd.nl/DMD_genomicRefSeq.html"
+    },
+    {
+      "field": "content",
+      "old": "In mammals, the branch point consensus is YNYURAY, where the underlined A is the critical branch point adenosine.",
+      "new": "Mammalian branch-point sequences are degenerate; the branch-point adenosine is the essential nucleophile in the first chemical step.",
+      "reason": "Avoid misleading exact consensus.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "virtually all spliceosomal introns begin with GU and end with AG.",
+      "new": "most major-spliceosome introns begin with GU and end with AG. Rare GC–AG and other boundaries exist, and a minor spliceosome handles a distinct intron class.",
+      "reason": "Scope GUAG rule.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "It is composed of five **small nuclear ribonucleoproteins (snRNPs)**, each containing a small nuclear RNA (snRNA) and associated proteins:",
+      "new": "The major spliceosome assembles dynamically from five snRNP types plus numerous proteins; not all five remain present during catalysis:",
+      "reason": "Distinguish assembly from active complex.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "The spliceosome assembles on each intron in an ordered, stepwise fashion:",
+      "new": "A simplified major-spliceosome assembly pathway is:",
+      "reason": "Avoid absolute assembly model.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "the catalytic activity resides in the RNA components (particularly U6 snRNA and U2 snRNA), not the proteins.",
+      "new": "the U2/U6 RNA network helps organize the catalytic metal-ion center, while proteins are essential for assembly, positioning and regulation. Calling it an RNA-based catalyst does not mean the proteins are dispensable.",
+      "reason": "Avoid RNA-only machine interpretation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "yet the proteome contains hundreds of thousands of distinct proteins. Alternative splicing accounts for a substantial portion of this diversity.",
+      "new": "while alternative RNA processing and post-translational modifications generate additional diversity. A single fixed proteome count depends on how isoforms and modified proteoforms are defined. Not every alternative RNA produces a stable protein.",
+      "reason": "Avoid unsupported fixed count.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "Bound by **SR proteins** (serine/arginine-rich proteins), which promote spliceosome assembly at nearby splice sites",
+      "new": "Often recognized by **SR proteins** (serine/arginine-rich proteins) or other factors that promote nearby splice-site use",
+      "reason": "Scope regulatory factor specificity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "Bound by **hnRNP proteins**, which inhibit spliceosome assembly",
+      "new": "Often recognized by **hnRNP proteins** or other repressors; the effect depends on binding position and context",
+      "reason": "Scope regulatory factor specificity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "The balance between SR proteins and hnRNPs at any given splice site determines whether that site is used.",
+      "new": "Splice-site strength, RNA structure, transcription kinetics and many regulatory proteins jointly influence site selection. SR and hnRNP proteins are important examples, not a universal binary switch.",
+      "reason": "Avoid oversimplified mechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- **Spinal muscular atrophy (SMA)**: Caused by deletion of the *SMN1* gene. The nearly identical *SMN2* gene has a single nucleotide difference in exon 7 that disrupts an ESE, causing exon 7 skipping and production of a truncated, unstable protein. The drug **nusinersen (Spinraza)** is an antisense oligonucleotide that blocks an ISS in SMN2, restoring exon 7 inclusion — a direct therapeutic application of splicing biology.",
+      "new": "- **5q spinal muscular atrophy (SMA)**: Caused by biallelic loss-of-function variants in SMN1, commonly deletions involving exon 7; sequence variants also occur. SMN2 usually skips exon 7 because of sequence-dependent splicing regulation. Nusinersen binds an intronic silencer region in SMN2 pre-mRNA and promotes exon 7 inclusion.",
+      "reason": "Include genetic variants and mechanism scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1352/"
+    },
+    {
+      "field": "content",
+      "old": "- **Familial dysautonomia**: Caused by a mutation in an ESE of the *IKBKAP* gene, leading to tissue-specific exon skipping.",
+      "new": "- **Familial dysautonomia**: The common ELP1 (formerly IKBKAP) c.2204+6T>C variant affects the intron-20 donor region, reducing exon-20 inclusion in a tissue-dependent way. This is an intronic splice-site variant, not an exonic-splicing-enhancer mutation.",
+      "reason": "Correct variant location.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16964593/"
+    },
+    {
+      "field": "content",
+      "old": "approximately 20 to 24 nucleotides upstream of each exon-exon junction",
+      "new": "typically about 20–24 nucleotides upstream of many exon–exon junctions",
+      "reason": "EJC occupancy is not universal.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6855384/"
+    },
+    {
+      "field": "content",
+      "old": "- **Mark spliced junctions**: The ribosome displaces EJCs during translation; if an EJC remains after the ribosome passes (because a premature stop codon halted translation upstream), the cell recognizes this as aberrant.",
+      "new": "- **Mark spliced junctions**: Translating ribosomes remove EJCs they encounter. If translation terminates prematurely, a downstream EJC may remain and help recruit surveillance machinery.",
+      "reason": "Ribosome does not pass a downstream EJC then leave it.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6855384/"
+    },
+    {
+      "field": "content",
+      "old": "- **Nonsense-mediated decay (NMD)**: If a premature stop codon is present more than ~50–55 nucleotides upstream of an EJC, the EJC triggers **NMD** — rapid degradation of the aberrant mRNA. This surveillance mechanism prevents the translation of truncated, potentially dominant-negative proteins.",
+      "new": "- **Nonsense-mediated decay (NMD)**: In a common mammalian pathway, a stop codon more than about 50–55 nucleotides upstream of the final exon–exon junction can trigger NMD through a remaining downstream EJC. Measure this distance to the junction, not to the EJC itself. This is a useful rule with exceptions; EJC-independent NMD also occurs.",
+      "reason": "Correct reference point and universal trigger.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6855384/"
+    },
+    {
+      "field": "content",
+      "old": "the mRNA is degraded before it can be translated efficiently.",
+      "new": "NMD is translation-dependent: premature termination is detected during translation, and subsequent RNA decay limits further protein production. It does not guarantee zero truncated protein.",
+      "reason": "Avoid before-any-translation interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6855384/"
+    },
+    {
+      "field": "content",
+      "old": "| Feature | Prokaryotes | Eukaryotes |\n|---|---|---|\n| 5' cap | Absent | m7G cap present |\n| Poly-A tail | Generally absent (some exceptions) | Present (100–250 nt) |\n| Introns | Rare; no spliceosomal introns | Common; removed by spliceosome |\n| Processing location | Cytoplasm (coupled with translation) | Nucleus (before export) |\n| mRNA stability | Minutes | Hours to days |\n| Polycistronic mRNA | Common | Rare (most eukaryotic mRNAs are monocistronic) |",
+      "new": "| Feature | Typical bacterial mRNA | Typical animal nuclear mRNA |\n|---|---|---|\n| 5′ cap | No canonical m7G cap; alternative caps occur | Usually m7G cap |\n| Poly-A | Can occur, often promoting decay | Common; length is regulated |\n| Introns | Uncommon; no standard spliceosome | Common, but some genes are intronless |\n| Processing | Cytoplasmic RNA processing | Much processing in nucleus |\n| Stability | Often minutes; variable | Minutes to many hours or longer |\n| Coding organization | Often polycistronic | Usually monocistronic |",
+      "reason": "Qualify bacterial comparison and polyA presence.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "In prokaryotes, there is no nuclear envelope, so transcription and translation are coupled — ribosomes begin translating the 5' end of an mRNA while RNA polymerase is still synthesizing the 3' end. This is why prokaryotes cannot perform spliceosomal splicing: there is no opportunity to complete and process the transcript before translation begins.",
+      "new": "Bacterial transcription and translation can be coupled because there is no nuclear envelope. However, this does not prove that RNA processing is impossible: bacteria process many RNAs and some introns self-splice. The absence of the eukaryotic spliceosome is a difference in machinery and evolutionary history, not simply lack of time to process RNA.",
+      "reason": "Remove false causal explanation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "the CTD shifts to **Ser2** phosphorylation",
+      "new": "**Ser2** phosphorylation generally increases alongside other CTD marks",
+      "reason": "Avoid exclusive Ser5toSer2 replacement.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "mutations that impair CTD phosphorylation affect capping, splicing, and polyadenylation simultaneously.",
+      "new": "CTD phosphorylation mutations can affect several processing pathways, with the outcome depending on the site and perturbation.",
+      "reason": "Scope effect.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- **Ivacaftor and related CFTR modulators**: While primarily targeting protein folding, some CFTR mutations affect splicing, and understanding this informs therapeutic design for cystic fibrosis.",
+      "new": "- **Contrast with CFTR modulators**: Ivacaftor is a CFTR channel **potentiator** that increases channel opening at the cell surface; it is not primarily a folding corrector or a direct splicing drug. Some other CFTR modulators improve protein processing/trafficking. A splice defect may limit how much protein is available for a modulator to act on.",
+      "reason": "Correct drug mechanism and category.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0ab0c9f8-3eee-4e0f-9f3f-c1e16aaffe25"
+    },
+    {
+      "field": "content",
+      "old": "Several drugs and therapeutic strategies directly target RNA processing:",
+      "new": "The following examples distinguish RNA-processing therapies from treatments acting at the protein level:",
+      "reason": "Align section with contrasting drug.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0ab0c9f8-3eee-4e0f-9f3f-c1e16aaffe25"
+    },
+    {
+      "field": "content",
+      "old": "- **Poly-A tail**: 100–250 adenines added by poly-A polymerase (no template) after cleavage at the AAUAAA signal; protects 3' end; promotes translation via PABP-eIF4G interaction; histone mRNAs are the major exception.",
+      "new": "- **Poly-A tail**: Added without a DNA template after cleavage downstream of a polyadenylation signal. Tail length is variable; most replication-dependent histone mRNAs are non-polyadenylated exceptions.",
+      "reason": "Repair summary cleavage position/histone scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5816196/"
+    },
+    {
+      "field": "content",
+      "old": "- **Splicing**: removes introns via the spliceosome (U1, U2, U4/U6, U5 snRNPs); two transesterification reactions; introns begin with GU and end with AG (GU-AG rule); branch point adenosine forms the lariat; spliceosome is a ribozyme.",
+      "new": "- **Splicing**: Removes introns and joins exons through two transesterification steps. Major-spliceosome introns usually follow GU–AG boundaries; RNA-based catalysis operates within a dynamic RNA–protein machine.",
+      "reason": "Scope summary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- **Alternative splicing**: generates protein diversity; regulated by SR proteins (enhancers) and hnRNPs (silencers); clinically important in β-thalassemia, SMA, and other diseases.",
+      "new": "- **Alternative splicing**: Produces distinct RNA isoforms and sometimes protein isoforms; regulation depends on sequence, RNA structure and many factors, including SR and hnRNP proteins.",
+      "reason": "Avoid binary regulatory summary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- **EJC and NMD**: EJCs mark exon junctions; premature stop codons upstream of an EJC trigger nonsense-mediated decay, eliminating aberrant mRNAs.",
+      "new": "- **EJC and NMD**: A stop codon more than about 50–55 nt upstream of the final exon–exon junction often promotes EJC-dependent NMD. Translation detects the stop; exceptions and EJC-independent routes exist.",
+      "reason": "Correct summary NMD threshold.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6855384/"
+    },
+    {
+      "field": "content",
+      "old": "- **Prokaryotes lack** 5' caps, poly-A tails, and spliceosomal splicing; their transcription and translation are coupled.",
+      "new": "- **Bacteria**: Typically lack canonical m7G caps and a spliceosome, but do process RNA and can add poly-A tails. Their transcription and translation can be coupled.",
+      "reason": "Remove categorical false polyA absence.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "questions.186.explanation",
+      "old": "The 5' cap protects the mRNA from exonuclease degradation and is recognized by initiation factors during translation, so its absence would lead to rapid mRNA degradation and impaired ribosome recruitment. Choice D is tempting because the cap is added early in processing, but spliceosome assembly depends on consensus sequences at intron-exon boundaries, not the 5' cap itself.",
+      "new": "Loss of the cap impairs cap-dependent initiation and normal RNA stability (C). The cap also promotes processing, particularly first-intron splicing, but its absence does not imply that every intron must be retained or that all spliceosome assembly is impossible. It does not move the poly-A tail to the other end.",
+      "reason": "Acknowledge cap-splicing coupling.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "questions.187.question_text",
+      "old": "During RNA processing, a segment of pre-mRNA is removed and the flanking sequences are joined together. The removed segment does not encode protein and its sequence is not conserved across species. This segment is best described as:",
+      "new": "A nuclear pre-mRNA segment is removed by the spliceosome and the two flanking RNA segments are joined. What is the removed segment called?",
+      "reason": "Do not identify introns by lack of conservation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "questions.187.explanation",
+      "old": "Introns are non-coding intervening sequences that are removed by the spliceosome; their sequences are generally not conserved because they are not translated. Exons, by contrast, are retained in the mature mRNA and often show evolutionary conservation when they encode functional protein domains. The poly-A signal is a specific sequence (AAUAAA) near the 3' end, not a segment flanked by coding sequences.",
+      "new": "An intron is removed during splicing (B); exons are retained in the resulting RNA and can contain coding or untranslated sequence. Some intronic sequences are highly conserved and functional, so absence of protein coding does not imply absence of selection.",
+      "reason": "Correct conservation inference.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "questions.188.question_text",
+      "old": "Alternative splicing of a single pre-mRNA transcript can produce multiple protein isoforms. Which of the following best explains the molecular basis for this phenomenon?",
+      "new": "Alternative processing of transcripts made from the same gene produces different protein isoforms in different tissues. Which option describes alternative splicing?",
+      "reason": "One physical RNA molecule does not become multiple alternative products.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "questions.188.explanation",
+      "old": "Alternative splicing allows different combinations of exons to be joined, producing mRNAs with different coding sequences from a single gene, thereby generating protein isoforms with distinct functions or structures. This is a regulated process controlled by splicing factors that vary among cell types and developmental stages. Choice A describes a different mechanism (leaky scanning or IRES-mediated translation) that is unrelated to splicing.",
+      "new": "Different splice-site or exon choices produce distinct mature RNAs from transcripts of the same gene (B). If coding sequence changes, protein isoforms may result. Alternative translation initiation and post-translational modification are separate mechanisms.",
+      "reason": "Avoid automatically equating alternative AUG with IRES.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "questions.189.explanation",
+      "old": "The poly-A tail protects the 3' end of mRNA from exonuclease attack and is recognized by poly-A binding proteins that facilitate nuclear export and translation efficiency. Blocking poly-A polymerase would leave the 3' end unprotected and impair export through the nuclear pore. Choices A, B, and D describe distinct enzymatic steps that are independent of poly-A polymerase activity.",
+      "new": "For a typical polyadenylated animal mRNA, inhibiting PAP most directly disrupts tail formation and tail-dependent stability/export functions (C). Capping, transcription and splicing use other enzymes, though their regulation is coupled and indirect effects are possible.",
+      "reason": "Avoid claiming processing independence.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "questions.190.question_text",
+      "old": "A point mutation occurs at the 5' splice site of an intron in a pre-mRNA, disrupting the consensus sequence recognized by the spliceosome. Which of the following outcomes is most likely?",
+      "new": "After a 5′ splice-site mutation, sequencing of an exported RNA shows that both flanking exons and the entire intervening intron are present. The retained segment introduces a premature stop in the reading frame. Which change is directly demonstrated?",
+      "reason": "Specify observed product to remove two valid outcomes.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16964593/"
+    },
+    {
+      "field": "questions.190.choice_a",
+      "old": "The intron is retained in the mature mRNA, potentially introducing a premature stop codon",
+      "new": "Intron retention, which can reduce functional protein production",
+      "reason": "Align answer with observation.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16964593/"
+    },
+    {
+      "field": "questions.190.explanation",
+      "old": "The spliceosome recognizes conserved consensus sequences at splice sites; a mutation at the 5' splice site prevents proper recognition and cleavage, causing intron retention in the mature mRNA. Because introns often contain stop codons in all reading frames, their inclusion can truncate the resulting protein. Choice D is tempting because exon skipping is a real alternative splicing outcome, but it typically results from mutations at the 3' splice site or within exonic splicing enhancers, not specifically the 5' splice site of the intron itself.",
+      "new": "The sequence directly demonstrates intron retention (A). A 5′ splice-site mutation can also cause exon skipping or use of a cryptic splice site in other contexts; its location alone does not determine the outcome. Here both exons are present. The premature stop may trigger NMD depending on transcript architecture, or permit a truncated product.",
+      "reason": "Correct false exclusion of exon skipping.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16964593/"
+    }
+  ]
+}

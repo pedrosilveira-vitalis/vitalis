@@ -1,0 +1,245 @@
+{
+  "lessonId": 34,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    166,
+    167,
+    168,
+    169,
+    170
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26821/",
+      "title": "DNA structure and chemistry"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26850/",
+      "title": "DNA replication and repair mechanisms"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9465037/",
+      "title": "Nearest-neighbor DNA duplex thermodynamics"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16537483/",
+      "title": "Model phosphodiester hydrolysis at 25 degrees Celsius"
+    },
+    {
+      "url": "https://medlineplus.gov/genetics/understanding/basics/gene/",
+      "title": "Human protein-coding gene count"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28751582/",
+      "title": "ChromEMT: chromatin organization in cells"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15800630/",
+      "title": "Single-molecule topoisomerase IB swivel mechanism"
+    }
+  ],
+  "visual": {
+    "title": "DNA: chemistry, direction and packaging",
+    "src": "/lesson-diagrams/dna-structure.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "DNA sugar ring contains four carbons and one oxygen with carbon 5 outside. Complementary strands run antiparallel. Hydrogen-bond counts differ for AT and GC but whole duplex stability also depends on stacking and solution conditions. Nucleosome cores contain two each of H2A H2B H3 H4 with about 147 base pairs; H1 is not part of the core.",
+    "caption": "Diagrams are schematic. Sequence, strand direction and local chemical connectivity matter more than treating DNA as a rigid ladder."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "cdec0dbd4c7e10ab16890340e1e269561d5101cb299e3f768fb649bacdd678d3"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "540b09a41b92f4fb4714a6b33a9d1de3c7d026ef25be842046cee3e87e7cc5e6"
+    },
+    {
+      "field": "questions.166.question_text",
+      "sha256": "dc18521d3310c87de5522ae331065bf67a32bd57285e28be28a8f28ded566e0f"
+    },
+    {
+      "field": "questions.166.choice_a",
+      "sha256": "c71e2efb0f5b50e54ed6f1e9e12f44297de1ce2d367aa5d29e3b98e8d81501f0"
+    },
+    {
+      "field": "questions.166.choice_b",
+      "sha256": "4ddec655adbb167c135d51ae7fe4c901c82d1dde12d289ad319daf8f4b8709cd"
+    },
+    {
+      "field": "questions.166.choice_c",
+      "sha256": "4210e48a6caafd40b1878de360970a0581e718331961f2c8fcab28089e002948"
+    },
+    {
+      "field": "questions.166.choice_d",
+      "sha256": "34f6302b70ab145e5305c9c8650a6335aa00efe3ec95195ea4ac5d54f4fa7d14"
+    },
+    {
+      "field": "questions.166.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.166.explanation",
+      "sha256": "f99197cc73bfaa75d3a759d2c408ab572f5afef9733a322651256052b43ce114"
+    },
+    {
+      "field": "questions.167.question_text",
+      "sha256": "99d833048c17cfd718db87595facea7d9ef8555f8b982a286e2817cdae0e9c47"
+    },
+    {
+      "field": "questions.167.choice_a",
+      "sha256": "a0e12e68c140b97635516fbf9571f7b25195ba5067058d553951f63336d8d330"
+    },
+    {
+      "field": "questions.167.choice_b",
+      "sha256": "a6243ea4741806c480b0244e6285b7f1f2ca2a2405e20b2cfe762f3173a337d1"
+    },
+    {
+      "field": "questions.167.choice_c",
+      "sha256": "0ae35e08eeb29b67be5d3761b4e37e1a3bee75b7deaa52ff76b2763d4c02d3dc"
+    },
+    {
+      "field": "questions.167.choice_d",
+      "sha256": "6aeef380f99074283c69f392d51eb84bcb09d97ce6b5082d033b081b72a0f704"
+    },
+    {
+      "field": "questions.167.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.167.explanation",
+      "sha256": "fa66c568a79a4408fe588bfb1ee1f047295370b922a6b886129b3b3e2327cd5f"
+    },
+    {
+      "field": "questions.168.question_text",
+      "sha256": "8a170dcd91f1d09e701825da1db2e93544d00ea6be57154260fd48f068b708e8"
+    },
+    {
+      "field": "questions.168.choice_a",
+      "sha256": "77b7d176df1dfc21fdc847221dfed90aca142ceaed1e715a432ae3f89985949d"
+    },
+    {
+      "field": "questions.168.choice_b",
+      "sha256": "457f4abbf2341883199ed732f8792b436feb235ff007ee04fb5ded74c8914beb"
+    },
+    {
+      "field": "questions.168.choice_c",
+      "sha256": "f8f2f1eeb203bafe4318a94c1a6b784b25fcd9db76d6f9e7dac3197d2ff189c3"
+    },
+    {
+      "field": "questions.168.choice_d",
+      "sha256": "cbdd4a19dc03750b09b008a5f577173f9f9d1fc714e99f2335913c8bde3fce2e"
+    },
+    {
+      "field": "questions.168.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.168.explanation",
+      "sha256": "3f2c2329f68cb84595f8468137235fcb15c362e48fc6a0e364bc38172e2d3dc2"
+    },
+    {
+      "field": "questions.169.question_text",
+      "sha256": "294f4a84c9977bc05a20ecbba3fdef1884e9dee6e32aa863df62103546d53d74"
+    },
+    {
+      "field": "questions.169.choice_a",
+      "sha256": "df43562e61d1b83ca290cd054ec351ca794126a8f7393845a1d6e70689cf6220"
+    },
+    {
+      "field": "questions.169.choice_b",
+      "sha256": "6d79f524c43e447cf84218fff170196037225cd8ad5887507de03325e42e3d2e"
+    },
+    {
+      "field": "questions.169.choice_c",
+      "sha256": "45fe4c7341b32af95beaa60f23a60646e89c144a9acdc271e72a80bcebcfdfef"
+    },
+    {
+      "field": "questions.169.choice_d",
+      "sha256": "f70babd254d58c6cb62374fd805790715e7ad5b23c7d90c089cec37d82138011"
+    },
+    {
+      "field": "questions.169.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.169.explanation",
+      "sha256": "00cfcc88d0b15713d9d0839b96b347be74381237fe10da36a9aec0ea2894a878"
+    },
+    {
+      "field": "questions.170.question_text",
+      "sha256": "46c2a3d8763ba3f08d832c748408372909fa51708a5024490ab8220ee8a71b34"
+    },
+    {
+      "field": "questions.170.choice_a",
+      "sha256": "572172bc651febe8d466347cd55b96a920b6d8b0be239db0125bcf28405be99c"
+    },
+    {
+      "field": "questions.170.choice_b",
+      "sha256": "98bf27e879e77502c7fe36ab07355eace35df41994b3c52edcc8fcea0c13b474"
+    },
+    {
+      "field": "questions.170.choice_c",
+      "sha256": "6062eea021388ac7979ac5eae5ecbae00229a99de16adf54e6134b4caee72de9"
+    },
+    {
+      "field": "questions.170.choice_d",
+      "sha256": "c2e47f8ffd3d3c74e1888cc9a1feb89a6a69f48150f0ef2c5096e292489b6045"
+    },
+    {
+      "field": "questions.170.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.170.explanation",
+      "sha256": "63a6fe078ea3ac0a9704dfa15d9df9c4a917ea2ba5e3590a1945ff81f0ece27e"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "# DNA Structure and the Chemical Basis of Heredity\n\n## Overview and MCAT Relevance\n\nDNA is the molecular foundation of heredity, and understanding its architecture is non-negotiable for the MCAT. Questions on this topic appear across the Biological and Biochemical Foundations section and integrate with topics ranging from replication and repair to gene expression and genetic diseases. More importantly, the logic of DNA structure—why certain bases pair, why the helix is antiparallel, why the molecule is stable—explains nearly everything downstream in molecular biology. Master this material and you build the conceptual scaffolding for an enormous fraction of the exam.\n\nThis lesson covers the chemical composition of nucleotides, the rules governing base pairing, the geometry of the double helix, higher-order organization of DNA in eukaryotes, and the molecular features that make DNA an ideal hereditary molecule. Along the way, we will flag the connections to MCAT passage types and discrete questions you are most likely to encounter.\n\n---\n\n## Nucleotide Structure: The Building Blocks\n\n### Components of a Nucleotide\n\nEvery nucleotide in DNA consists of three covalently bonded components:\n\n- A **pentose sugar** (deoxyribose in DNA, ribose in RNA)\n- A **nitrogenous base**\n- One or more **phosphate groups**\n\nThe sugar has five carbon atoms, but its furanose ring contains **four carbons and one oxygen**; the 5′ carbon lies outside the ring. What distinguishes deoxyribose from ribose is the absence of a hydroxyl group at the **2' carbon**; deoxyribose carries only a hydrogen at that position. This seemingly minor difference has profound consequences: the 2'-OH of RNA makes it more susceptible to hydrolysis, which is part of why DNA is chemically more stable and better suited for long-term storage of genetic information.\n\nThe phosphate group is attached to the **5' carbon** of the sugar. The nitrogenous base is attached to the **1' carbon** via an **N-glycosidic bond** (a covalent bond between the nitrogen of the base and the 1' carbon of the sugar). When a nucleotide carries three phosphate groups (a nucleoside triphosphate, such as dATP), polymerase releases the β and γ phosphates together as pyrophosphate (PPi); subsequent PPi hydrolysis helps favor net polymerization.\n\n### The Nitrogenous Bases\n\nDNA uses four nitrogenous bases, divided into two structural families:\n\n**Purines** (two-ring structures):\n- **Adenine (A)**\n- **Guanine (G)**\n\n**Pyrimidines** (one-ring structures):\n- **Cytosine (C)**\n- **Thymine (T)**\n\nA useful mnemonic: *Pure As Gold* (Purines: Adenine, Guanine). Pyrimidines are *CUT* (Cytosine, Uracil, Thymine—Uracil replaces Thymine in RNA).\n\nThe distinction between purines and pyrimidines matters structurally because each base pair in the double helix consists of one purine paired with one pyrimidine. This maintains a uniform width of approximately **2 nm** across the entire length of the double helix. If two purines paired, the helix would bulge; if two pyrimidines paired, it would pinch inward.\n\n### Nucleosides vs. Nucleotides\n\nA **nucleoside** is simply the sugar + base (no phosphate). A **nucleotide** is the sugar + base + at least one phosphate. The naming convention trips up many students:\n\n| Base | Nucleoside | Nucleotide (monophosphate) |\n|------|-----------|---------------------------|\n| Adenine | Deoxyadenosine | Deoxyadenosine monophosphate (dAMP) |\n| Guanine | Deoxyguanosine | Deoxyguanosine monophosphate (dGMP) |\n| Cytosine | Deoxycytidine | Deoxycytidine monophosphate (dCMP) |\n| Thymine | Deoxythymidine | Deoxythymidine monophosphate (dTMP) |\n\nOn the MCAT, you may see questions that require you to recognize that ATP (adenosine triphosphate) uses *ribose*, not deoxyribose—it is a ribonucleoside triphosphate used both as an energy carrier and as an actual RNA polymerization substrate; DNA polymerization instead uses dATP.\n\n---\n\n## The Phosphodiester Backbone\n\nIndividual nucleotides are linked together by **phosphodiester bonds**. During DNA synthesis, the 3'-OH of the growing chain attacks the alpha-phosphate of the incoming nucleoside triphosphate, releasing pyrophosphate (PPi) and forming a new phosphodiester bond. Each bridging phosphate links the **3′ oxygen of one sugar to the 5′ oxygen of the following sugar** along the strand.\n\nThis creates a chain with distinct ends:\n- The **5′ end** may have a phosphate or a hydroxyl, depending on synthesis and processing.\n- The **3' end** has a free hydroxyl group.\n\nThis directionality is critical. DNA polymerase can only synthesize DNA in the **5'→3' direction**, meaning it adds new nucleotides to the 3'-OH end of the growing strand. This constraint drives the entire machinery of leading and lagging strand synthesis during replication.\n\nThe phosphate groups in the backbone carry a negative charge at physiological pH (pKa of the phosphate groups is approximately 1, so they are essentially fully deprotonated at pH 7.4). This gives DNA its strong negative charge, which is why it migrates toward the positive electrode in gel electrophoresis, and why it interacts tightly with positively charged histone proteins in chromatin.\n\n---\n\n## Watson-Crick Base Pairing\n\n### The Rules\n\nIn 1953, James Watson and Francis Crick proposed the double-helical structure of DNA, relying heavily on Rosalind Franklin's X-ray diffraction data and Erwin Chargaff's empirical observations. **Chargaff's rules** state:\n\n- The amount of adenine equals the amount of thymine: **[A] = [T]**\n- The amount of guanine equals the amount of cytosine: **[G] = [C]**\n- Therefore, purines equal pyrimidines: **[A] + [G] = [T] + [C]**\n\nThese equalities hold for the combined bases of a fully complementary, canonical double-stranded DNA molecule. They need not hold for an individual strand or a single-stranded viral genome. They are a direct consequence of complementary base pairing.\n\n### Hydrogen Bonds\n\nThe two strands of DNA are held together by **hydrogen bonds** between complementary bases:\n\n- **A–T base pair**: 2 hydrogen bonds\n- **G–C base pair**: 3 hydrogen bonds\n\nFor comparable duplexes under matched conditions, increased G–C content generally raises melting temperature. However, duplex stability depends on **neighboring-base stacking, sequence, length, ionic conditions and strand concentration**, not just counting hydrogen bonds. The rough short-oligonucleotide rule Tm ≈ 4°C × (G + C) + 2°C × (A + T) uses base counts for one strand and has limited applicability; nearest-neighbor models are more informative.\n\n### Specificity of Base Pairing\n\nWhy does A pair with T and G pair with C, and not other combinations? The answer lies in the geometry of hydrogen bond donors and acceptors. Each base presents a specific pattern of hydrogen bond donors (N–H or O–H groups) and acceptors (lone pairs on N or O). Canonical Watson–Crick A–T and G–C pairings efficiently satisfy these requirements; mismatches and alternative pairing geometries can also occur. For the canonical pairs:\n\n1. Fit within the constraints of the helix geometry\n2. Maximize hydrogen bonding through complementary donor-acceptor alignment\n\nAdditionally, **base stacking interactions**—including dispersion, electrostatic and solvent-dependent effects between adjacent aromatic bases—contribute significantly to helix stability. Base stacking is often underappreciated, but it provides as much or more stabilization energy than the hydrogen bonds themselves. Solvent reorganization contributes, but base edges remain accessible to water and proteins through the grooves; the duplex is not a completely dry hydrophobic interior.\n\n---\n\n## The Double Helix: Geometry and Properties\n\n### Antiparallel Orientation\n\nThe two strands of DNA run in **antiparallel** directions. If one strand runs 5'→3' from top to bottom, the complementary strand runs 3'→5' from top to bottom (equivalently, 5'→3' from bottom to top). This antiparallel arrangement is required by the geometry of base pairing and is a fundamental structural feature tested on the MCAT.\n\nWhen you are asked to write the complement of a DNA strand, you must:\n1. Write the complementary bases (A↔T, G↔C)\n2. Reverse the orientation (the complement runs antiparallel)\n\nExample: 5'-ATGCGA-3' → complement is 3'-TACGCT-5', which is written 5'-TCGCAT-3' in the conventional 5'→3' direction.\n\n### Physical Dimensions of B-DNA\n\nThe predominant form of DNA under physiological conditions is **B-DNA** (the Watson-Crick form). Its key dimensions:\n\n- Helix diameter: approximately **2 nm** (20 Å)\n- Rise per base pair: approximately **0.34 nm** (3.4 Å)\n- Helical repeat: approximately **10–10.5 base pairs per turn**, depending on conditions\n- Pitch (distance per full turn): approximately **3.4–3.6 nm** (34–36 Å)\n\nThese numbers appear on the MCAT occasionally in the context of X-ray crystallography data or in passages discussing the physical basis of the double helix. The key insight is that these are approximate structural averages; DNA bends and twists in sequence- and protein-dependent ways.\n\n### Major and Minor Grooves\n\nThe double helix is not a simple cylinder; the antiparallel strands wrap around each other asymmetrically, creating two grooves of unequal size:\n\n- **Major groove**: wider groove in B-DNA where most sequence-specific protein-DNA interactions occur. Transcription factors, restriction enzymes, and many regulatory proteins read DNA sequence information through the major groove without unwinding the helix.\n- **Minor groove**: narrower groove in B-DNA. Some proteins and drugs (such as certain antibiotics) bind in the minor groove.\n\nThe existence of grooves is important for MCAT because it explains how proteins can recognize DNA sequence without denaturing DNA—the chemical identity of base pairs is accessible from the outside of the helix through the pattern of hydrogen bond donors, acceptors, and hydrophobic surfaces exposed in the grooves.\n\n### Alternative DNA Forms\n\nWhile B-DNA is the physiologically dominant form, two other conformations appear in MCAT contexts:\n\n- **A-DNA**: shorter, wider helix; 11 base pairs per turn; found in dehydrated conditions and in RNA-DNA hybrid duplexes during transcription.\n- **Z-DNA**: left-handed helix (B and A are right-handed); 12 base pairs per turn; found in regions with alternating purine-pyrimidine sequences; may play a role in transcription regulation.\n\nThe MCAT is unlikely to test detailed parameters of A- and Z-DNA, but you should know they exist and that B-DNA is the standard physiological form.\n\n---\n\n## DNA as the Hereditary Molecule\n\n### Historical Evidence\n\nUnderstanding *why* scientists concluded that DNA (not protein) is the hereditary material is conceptually important and occasionally tested:\n\n- **Griffith's experiment (1928)**: Demonstrated \"transformation\"—a heat-killed virulent strain of *Streptococcus pneumoniae* could transfer heritable virulence to a non-virulent strain, suggesting a \"transforming principle.\"\n- **Avery, MacLeod, and McCarty (1944)**: Identified the transforming principle as DNA by showing that DNase (but not protease or RNase) destroyed transforming activity.\n- **Hershey-Chase experiment (1952)**: Used bacteriophage T2 labeled with radioactive sulfur (³⁵S, in protein) and radioactive phosphorus (³²P, in DNA). After infection, ³²P was found inside bacteria and in progeny phage; ³⁵S remained outside. This supported DNA as the genetic material of T2 phage; it was not a claim that all viruses use DNA.\n\nThe Hershey-Chase experiment is particularly elegant because it exploits the fact that DNA contains phosphorus but not sulfur, while the phage protein-labeling strategy tracks sulfur in cysteine and methionine. Proteins can contain phosphorus through modifications such as phosphorylation, so this is not a universal elemental rule for all proteins. The MCAT may present experimental data from this type of labeling experiment and ask you to interpret results.\n\n### Why DNA Is Suited for Hereditary Storage\n\nSeveral structural features make DNA an ideal molecule for storing and transmitting genetic information:\n\n**Chemical stability**: DNA lacks the RNA 2′-OH that can promote backbone cleavage. Model-compound studies estimate extremely slow uncatalyzed phosphodiester hydrolysis at 25°C (on the order of tens of millions of years). That estimate describes one reaction, not the survival time of an entire DNA molecule: depurination, deamination, oxidation and environmental damage still occur and require repair.\n\n**Complementarity enables faithful replication**: The base-pairing rules mean that each strand serves as a template for synthesis of its complement. During replication, the two strands separate, and each is used as a template to build a new complementary strand. The result is **semiconservative replication**—each daughter molecule contains one original strand and one newly synthesized strand. This was demonstrated by the **Meselson-Stahl experiment (1958)**, which used ¹⁵N (heavy nitrogen) labeling and density-gradient centrifugation.\n\n**Information capacity**: The linear sequence of four bases along the DNA strand encodes genetic information. With four possible bases at each position, a DNA molecule of n base pairs can encode 4ⁿ different sequences—an astronomical number even for short sequences. The human genome contains approximately **3 × 10⁹ base pairs** per haploid genome, encoding roughly about 20,000 protein-coding genes.\n\n**Repairability**: The double-stranded nature of DNA provides a backup copy of every sequence. When one strand is damaged, the complementary strand serves as a template for repair. DNA repair mechanisms (base excision repair, nucleotide excision repair, mismatch repair) all exploit this redundancy. A single strand lacks a paired full-length complementary template within the same molecule; some viruses have double-stranded RNA genomes.\n\n---\n\n## Higher-Order DNA Organization in Eukaryotes\n\n### The Packaging Problem\n\nThe human genome contains approximately 2 meters of DNA per diploid cell (6 × 10⁹ base pairs × 0.34 nm/bp ≈ 2 m). This must be compacted into a nucleus approximately 6–10 μm in diameter—a contour-length-to-nuclear-diameter ratio of roughly 200,000–330,000; this is not itself a linear chromatin-fiber packing ratio. This is achieved through multiple levels of organization.\n\n### Histones and the Nucleosome\n\n**Histones** are small, positively charged proteins rich in the basic amino acids lysine and arginine. The positive charges on histone proteins interact electrostatically with the negatively charged phosphate backbone of DNA, enabling tight association.\n\nThe fundamental unit of chromatin is the **nucleosome**, consisting of:\n\n- An **octamer** of histone proteins: two copies each of H2A, H2B, H3, and H4 (the **core histones**)\n- Approximately **147 base pairs** of DNA wrapped around the octamer in ~1.65 left-handed superhelical turns\n- **Histone H1** can associate with linker and entry/exit DNA, but is **not part of the core histone octamer**\n\nNucleosomes are often described as \"beads on a string\" when viewed by electron microscopy. The string is the linker DNA (~20–80 bp) between nucleosome cores.\n\n### Chromatin Compaction Levels\n\nChromatin is a dynamic nucleosome polymer with loops, domains and variable packing density. The familiar 10 nm → 30 nm → loop → chromosome hierarchy is a **historical model**, not a universal sequence of structures in living cells. Ordered 30 nm fibers can form under particular conditions, but cellular imaging also shows irregular, variably packed nucleosome chains. Mitotic chromosomes involve extensive organization and compaction without requiring a uniform 30 nm intermediate.\n\n### Euchromatin vs. Heterochromatin\n\nNot all chromatin is equally compacted:\n\n- **Euchromatin**: generally less condensed and more transcriptionally permissive regions; DNA is accessible to transcription machinery\n- **Heterochromatin**: generally more compact and transcriptionally restricted; includes **constitutive heterochromatin** (persistent domains, often around centromeres and at telomeres, which can still produce some transcripts) and **facultative heterochromatin** (conditionally silenced, e.g., the largely inactive X chromosome in many XX mammalian cells—the Barr body; some genes escape inactivation)\n\nThe degree of chromatin compaction is regulated in large part by **histone modifications**:\n\n- **Histone acetylation** (addition of acetyl groups to lysine residues by histone acetyltransferases, HATs): neutralizes positive charges on histones, loosens DNA-histone interactions, generally associated with transcriptional *activation*\n- **Histone deacetylation** (removal of acetyl groups by HDACs): restores positive charges, tightens chromatin, generally associated with transcriptional *repression*\n- **Histone methylation**: context-dependent; H3K4 methylation is associated with activation, H3K9 and H3K27 methylation with repression\n- **Histone phosphorylation**: associated with chromosome condensation during mitosis\n\nThese modifications constitute part of the **epigenetic code** and are a growing area of MCAT content. The key principle: histone modifications alter chromatin accessibility and thereby regulate gene expression without changing the underlying DNA sequence.\n\n### Telomeres and Centromeres\n\n**Telomeres** are repetitive sequences (TTAGGG in humans) at the ends of linear chromosomes. They protect chromosome ends from degradation and prevent them from being recognized as double-strand breaks. Telomeres tend to shorten over divisions in cells without sufficient maintenance (the end-replication problem) and are maintained by **telomerase**, a reverse transcriptase that uses an RNA template to extend telomeric sequences. Telomerase is active in germ cells, stem cells, and most cancer cells.\n\n**Centromeres** are specialized chromosomal regions required for proper chromosome segregation during mitosis and meiosis. Kinetochore proteins assemble at centromeres and attach to spindle microtubules. Human centromeres commonly contain alpha-satellite repeats, but their functional identity depends strongly on CENP-A-containing chromatin. The centromeric core is distinct from flanking pericentromeric heterochromatin; repetitive sequence alone does not define every functional centromere.\n\n---\n\n## DNA Topology and Supercoiling\n\n### Topoisomers\n\nBecause the two strands of DNA are intertwined, any process that requires strand separation (replication, transcription) generates **torsional stress**. As the replication fork advances, the helix ahead of it must unwind, which introduces **positive supercoils** (overwinding) ahead of the fork.\n\n**Topoisomerases** are enzymes that relieve this torsional stress by transiently breaking and rejoining DNA strands:\n\n- **Type I topoisomerases** transiently cleave one strand. Type IA changes linking number in steps of one by strand passage; type IB uses controlled rotation and may relax several turns before resealing. Most familiar type I relaxation reactions do not require ATP, but reverse gyrase is an ATP-dependent type IA-containing exception.\n- **Topoisomerase II**: cuts both strands, passes another segment of double-stranded DNA through the break, rejoins. Changes the linking number by ±2 per reaction. Requires ATP. Includes **DNA gyrase** in bacteria (introduces negative supercoils to facilitate replication) and **topoisomerase II** in eukaryotes.\n\nTopoisomerases are important MCAT targets because they are the targets of several clinically relevant drugs:\n- **Fluoroquinolone antibiotics** (e.g., ciprofloxacin): inhibit bacterial DNA gyrase and topoisomerase IV, preventing replication\n- **Camptothecin derivatives** (anticancer drugs): inhibit eukaryotic topoisomerase I\n- **Etoposide** (anticancer drug): inhibits eukaryotic topoisomerase II\n\n---\n\n## Connecting Structure to Function: Key Principles\n\n### The Central Dogma\n\nDNA structure directly enables the **central dogma of molecular biology**: DNA → RNA → Protein. The sequence of bases in DNA encodes information that is first transcribed into messenger RNA and then translated into protein. The complementarity principle that governs DNA replication also governs transcription: RNA polymerase uses one strand of DNA (the **template strand**, read 3'→5') to synthesize a complementary RNA strand in the 5'→3' direction. The RNA sequence matches the **non-template strand** (also called the **coding strand** or **sense strand**), with U replacing T.\n\n### Mutations and Sequence Integrity\n\nBecause genetic information is encoded in base sequence, any alteration in that sequence is a **mutation**. The structural features of DNA that protect against mutation include:\n\n- **Thymine instead of uracil**: Cytosine spontaneously deaminates to uracil at a significant rate. If DNA used uracil, this mutation would be undetectable. Because DNA uses thymine (which is 5-methyluracil), the cell's repair machinery recognizes uracil as inappropriate in canonical cellular DNA; it may arise from cytosine deamination or dUMP misincorporation and removes it via uracil-DNA glycosylase (base excision repair).\n- **Double-strandedness**: Provides a template for repair of damaged bases\n- **Proofreading**: many replicative DNA polymerases have associated 3′→5′ exonuclease activity; not every DNA polymerase does that removes incorrectly incorporated nucleotides\n\n### Denaturation and Renaturation\n\nWhen DNA is heated above its melting temperature (Tm), hydrogen bonds and base stacking interactions are disrupted, and the two strands separate—a process called **denaturation** or **melting**. This can be monitored by the increase in UV absorbance at 260 nm (the **hyperchromic effect**), because unstacked, single-stranded bases absorb more UV light than stacked, base-paired bases.\n\nUpon slow cooling, complementary strands can reform base pairs and re-anneal—a process called **renaturation** or **hybridization**. This principle underlies many molecular biology techniques tested on the MCAT:\n\n- **PCR (polymerase chain reaction)**: cycles of denaturation, primer annealing, and extension\n- **Southern blotting**: hybridization of labeled probe to denatured DNA on a membrane\n- **Northern blotting**: hybridization to RNA\n- **DNA microarrays**: hybridization of sample nucleic acids to thousands of immobilized probes simultaneously\n\n---\n\n## Summary of Key Facts for MCAT\n\n- DNA nucleotides contain deoxyribose (no 2'-OH), a nitrogenous base, and phosphate groups.\n- Purines (A, G) have two rings; pyrimidines (C, T) have one ring.\n- Base pairing: A–T (2 H-bonds), G–C (3 H-bonds). Higher G–C content → higher Tm.\n- Chargaff's rules: [A] = [T], [G] = [C] for fully complementary canonical double-stranded DNA, considering both strands.\n- The two strands are antiparallel; DNA synthesis proceeds 5'→3'.\n- B-DNA: right-handed, about 10–10.5 bp/turn, about 3.4–3.6 nm pitch, 2 nm diameter, 0.34 nm rise per bp.\n- Major groove is the primary site of protein-DNA recognition.\n- The nucleosome core contains 147 bp of DNA wrapped around a histone octamer (H2A, H2B, H3, H4 × 2).\n- Histone acetylation loosens chromatin (activation); deacetylation tightens it (repression).\n- Topoisomerase I cuts one strand; Topoisomerase II cuts both. Fluoroquinolones target bacterial gyrase.\n- The Hershey-Chase experiment used ³²P (DNA) and ³⁵S (protein) to support DNA as the genetic material of T2 phage.\n- Meselson-Stahl used ¹⁵N labeling to demonstrate semiconservative replication.\n- Deamination of cytosine produces uracil; base excision repair removes uracil from DNA.\n- Telomeres (TTAGGG repeats) protect chromosome ends; telomerase extends them using an RNA template.\n\n---\n\n## Practice Connections\n\nWhen you encounter MCAT passages on molecular biology, genetics, or biochemistry, the structural logic of DNA is almost always in the background. A passage about a hereditary disease may require you to reason about which strand is the template. A passage about cancer may hinge on telomerase activity or topoisomerase inhibitors. An experimental passage may present melting curve data and ask you to infer G–C content. A genetics problem may require you to apply Chargaff's rules to determine base composition of a complementary strand.\n\nThe deeper you understand *why* DNA has the structure it does—not just the facts, but the chemical logic connecting structure to function—the more flexibly you can apply this knowledge to novel passages. Every feature of the double helix exists for a reason, and the MCAT rewards students who can explain those reasons, not just recite them."
+    },
+    {
+      "field": "questions.166.explanation",
+      "value": "B gives the sequence-recognition principle: complementary donor/acceptor geometry helps select paired bases, while stacking and solution conditions also contribute to duplex stability. Ordinary annealing forms noncovalent interactions, not new covalent links between the strands. Antiparallel orientation does not prohibit self-complementary hairpins, and backbone charge alone does not select a sequence."
+    },
+    {
+      "field": "questions.168.explanation",
+      "value": "C explains template-directed copying: base complementarity supplies sequence information for a new strand. Actual fidelity also relies on polymerase selectivity, proofreading where available, and repair. Grooves and DNA geometry can contribute to protein recognition, so they are not irrelevant; they do not replace the information supplied by the template."
+    },
+    {
+      "field": "questions.169.choice_a",
+      "value": "The count rises from two to three, guaranteeing a higher melting temperature."
+    },
+    {
+      "field": "questions.169.choice_b",
+      "value": "The count falls from three to two; duplex melting behavior also depends on neighboring sequence and solution conditions."
+    },
+    {
+      "field": "questions.169.choice_c",
+      "value": "The count is unchanged because both are purine–pyrimidine pairs."
+    },
+    {
+      "field": "questions.169.choice_d",
+      "value": "The phosphodiester backbone is broken by changing the base pair."
+    },
+    {
+      "field": "questions.169.explanation",
+      "value": "B is correct: canonical G–C has three interbase hydrogen bonds and A–T has two. However, a duplex is stabilized by a sequence-dependent network of stacking, pairing and solvent interactions. One cannot calculate the full melting change solely by subtracting one hydrogen bond. The base substitution does not inherently break the backbone."
+    },
+    {
+      "field": "questions.169.question_text",
+      "value": "A canonical Watson–Crick G–C pair is replaced by an A–T pair. Which statement correctly distinguishes the immediate hydrogen-bond count from the stability of the entire duplex?"
+    },
+    {
+      "field": "questions.170.choice_c",
+      "value": "The many possible linear sequences of four bases: 4ⁿ possibilities for a specified strand of n positions."
+    },
+    {
+      "field": "questions.170.explanation",
+      "value": "C is correct. A specified n-position strand has 4ⁿ possible canonical base sequences before biological constraints; the complementary strand is then determined. This is enormous but finite capacity. Backbone charge and helix diameter support physical structure without specifying sequence, and antiparallel geometry alone does not determine how many replication forks operate."
+    }
+  ]
+}

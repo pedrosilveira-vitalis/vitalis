@@ -1,0 +1,269 @@
+{
+  "lessonId": 36,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    176,
+    177,
+    178,
+    179,
+    180
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26850/",
+      "title": "DNA replication and repair mechanisms"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8942993/",
+      "title": "RNA polymerase II proofreading and TFIIS"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1211/",
+      "title": "GeneReviews: Lynch syndrome"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21390131/",
+      "title": "DNA ligase III and nuclear repair redundancy"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-019-10745-5",
+      "title": "TFIIH activation in nucleotide excision repair"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1397/",
+      "title": "GeneReviews: Xeroderma pigmentosum including POLH"
+    },
+    {
+      "url": "https://www.cancer.gov/types/skin/hp/skin-genetics-pdq",
+      "title": "NCI: inherited skin cancer and repair syndromes"
+    },
+    {
+      "url": "https://medlineplus.gov/genetics/condition/trichothiodystrophy/",
+      "title": "Photosensitive and nonphotosensitive trichothiodystrophy"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35830881/",
+      "title": "CST–Polα–primase telomere C-strand fill-in"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC137139/",
+      "title": "Human telomerase RNA template and alignment domain"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8934879/",
+      "title": "Telomerase activity across germline development"
+    },
+    {
+      "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-imetelstat-low-intermediate-1-risk-myelodysplastic-syndromes-transfusion-dependent",
+      "title": "FDA approval of imetelstat, June 2024"
+    }
+  ],
+  "visual": {
+    "title": "Match the DNA problem to its response",
+    "src": "/lesson-diagrams/dna-repair.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "Terminal misincorporation is addressed by proofreading, escaped mismatches by mismatch repair, small base lesions by BER, and bulky UV lesions by human NER. Telomerase extends the G-rich end with an RNA template; CST–Pol alpha primase fills the C strand. Lesion bypass is different from lesion removal.",
+    "caption": "These pathways overlap and have exceptions. Human NER removes UV dimers; some other organisms also have photolyase-mediated direct repair."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "873219315f2b89b465991132a14e9dd6745c2807197b8b74a3b6d129c345611b"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "9c2403464974f79f8aeaabaea726f825865d6fc652e729de268ee5c2ea7565bf"
+    },
+    {
+      "field": "questions.176.question_text",
+      "sha256": "5a305aeb4387cfb89fac94e0e06f1a8ccd4f6d07224c00e85ed75e0354efbc65"
+    },
+    {
+      "field": "questions.176.choice_a",
+      "sha256": "e14f709fed68dfbeb3e1ffb3eddce7859180a966475660af7284d529b01e0142"
+    },
+    {
+      "field": "questions.176.choice_b",
+      "sha256": "f6836df8696af9bb6dc06c4c45608be850a33a7808501900534698e11352f3fc"
+    },
+    {
+      "field": "questions.176.choice_c",
+      "sha256": "c4ca82babf27f5653e8ef01a027d470a8bd0f5969bebff82a95d46861aa70fef"
+    },
+    {
+      "field": "questions.176.choice_d",
+      "sha256": "df4a37264e711c06c69d130c9382b64b8126e4ef6d195f935fb00d322a023305"
+    },
+    {
+      "field": "questions.176.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.176.explanation",
+      "sha256": "e0a7db7619b9131463ac649e061a979526df7865ee6b652bd1af331f58af5fbc"
+    },
+    {
+      "field": "questions.177.question_text",
+      "sha256": "c937b3e66a0d522ebe5c33bd2add362819dddf8a6abfb2943dea4be3144da8f8"
+    },
+    {
+      "field": "questions.177.choice_a",
+      "sha256": "081af88749466cd7f6ee84c27229346acb21abcac9875d868646024777fb2f39"
+    },
+    {
+      "field": "questions.177.choice_b",
+      "sha256": "259e23101cb9a6c59978e6dc0c6e7ed4e4e8903d59068e4a1191be5e8935a55c"
+    },
+    {
+      "field": "questions.177.choice_c",
+      "sha256": "a8f73f58276ad1bd99b6a6131f547510eb492a0a43c95f4c319d9efbc8c2b28d"
+    },
+    {
+      "field": "questions.177.choice_d",
+      "sha256": "b90ba66e41b777bb80de6375f287e98d7f8dbb171a695f710f13390248bbc3ba"
+    },
+    {
+      "field": "questions.177.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.177.explanation",
+      "sha256": "a419acafe0ced14c030a711bc85b4afed5b4e2f82ae389e07bc9fd4170045c0b"
+    },
+    {
+      "field": "questions.178.question_text",
+      "sha256": "3520e56dbda6bab2cf2fd5f1aae31088a2965960ef83c463821703651e3b14f1"
+    },
+    {
+      "field": "questions.178.choice_a",
+      "sha256": "11ec1a2224c3cd7cad312a2d860bb3c6f6f3eea3e85ca29043c37708356f69f0"
+    },
+    {
+      "field": "questions.178.choice_b",
+      "sha256": "9832e6b869296e0a8f45a662a3cb879c530235db12b61019c923c665e43567c1"
+    },
+    {
+      "field": "questions.178.choice_c",
+      "sha256": "0dbbfb0e197c3eb2eb5c46b412e321a213a7d725a6d689bca41c6babd1bb34d5"
+    },
+    {
+      "field": "questions.178.choice_d",
+      "sha256": "06ee60596e9e6268cd42e0a7f0fca81780a9e60d33c88f56b2401c3242238835"
+    },
+    {
+      "field": "questions.178.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.178.explanation",
+      "sha256": "d389c64400b6210e7d2b05f0d0412c3fff5bd4507dcf4a723bde31918b601a0b"
+    },
+    {
+      "field": "questions.179.question_text",
+      "sha256": "962ee6280fbb104cf18a52d3562f6bce5b584ec620917c0890dbba1d75133f56"
+    },
+    {
+      "field": "questions.179.choice_a",
+      "sha256": "a4f3a26991add1949ddccdb103e2c069821a92080215e6c9f0724a5f650ea3c3"
+    },
+    {
+      "field": "questions.179.choice_b",
+      "sha256": "3da1010ee4794862739739a9a4c52d36ccc1363d727e0d80d87a405d4e91090c"
+    },
+    {
+      "field": "questions.179.choice_c",
+      "sha256": "e97126d80b9cf397a06886ff0ac51c276531618712a0ed1a4d50ccf4f6812739"
+    },
+    {
+      "field": "questions.179.choice_d",
+      "sha256": "b811e532fe4e3b26c1985524c2b654121d51f1b200167f4b2979b73367fa4707"
+    },
+    {
+      "field": "questions.179.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.179.explanation",
+      "sha256": "4e8a370f72fdf960bd9614a1045206292332b17986f0f659d8a21780d9f0db3d"
+    },
+    {
+      "field": "questions.180.question_text",
+      "sha256": "b761e36cbc3e2054b1e3d7d0678c0cb7d85b024a2bd02455b6e8218a87ac83ac"
+    },
+    {
+      "field": "questions.180.choice_a",
+      "sha256": "4b09ec91a10be56f2234a93b75b1b9dc8c3b1b5409bf8e7477db84337ed82fc8"
+    },
+    {
+      "field": "questions.180.choice_b",
+      "sha256": "830ea66085945dd522f63dd9444f67b335446017de17c0070d4b8c22a533feb0"
+    },
+    {
+      "field": "questions.180.choice_c",
+      "sha256": "db4945a21862f0bfcf4daa2f48f488f5bf0bbea656e4a77aa3dfbf07bb48711d"
+    },
+    {
+      "field": "questions.180.choice_d",
+      "sha256": "ce33f806edf4fab9552a1369ae7e6dfe68ee36f5b4508840d78ae833ef78eb75"
+    },
+    {
+      "field": "questions.180.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.180.explanation",
+      "sha256": "0f9d5b96cf99d0cdfe2f48bf9adacf6c52ca4c77ae822201fb31edcc406757bf"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Fidelity, Repair, and Telomere Maintenance in DNA Replication\n\nDNA replication is often described as remarkably accurate, and that accuracy is not accidental. The cell deploys multiple overlapping systems to detect and correct errors before they become permanent mutations. Understanding these systems—how they work, when they fail, and what the consequences are—is essential for the MCAT, where questions about cancer biology, genetic disease, and molecular mechanisms frequently hinge on these details. This lesson covers the major mechanisms that preserve genomic integrity: polymerase proofreading, mismatch repair, base excision repair, nucleotide excision repair, and the special problem of replicating chromosome ends via telomerase.\n\n---\n\n## DNA Polymerase Fidelity: The First Line of Defense\n\n### Intrinsic Selectivity of DNA Polymerase\n\nBefore any repair system acts, DNA polymerase itself is highly selective about which nucleotide it incorporates. The enzyme's active site enforces **Watson-Crick base pairing geometry**—correct pairing generally favors productive conformational changes that positions the 3'-OH for nucleophilic attack on the incoming dNTP. Many mismatches slow incorporation substantially, but effects depend on the polymerase, mismatch and sequence. Rare geometries can evade initial discrimination.\n\nThis intrinsic selectivity gives an initial error rate of roughly **1 in 10^5** incorporations. That sounds impressive, but with ~3 × 10^9 base pairs in the human genome, this would still produce tens of thousands of errors per replication cycle—far too many for cellular survival.\n\n### 3' to 5' Exonuclease Proofreading\n\nMajor elongating replicases have associated **3′→5′ exonuclease** proofreading. In E. coli Pol III, the ε subunit provides proofreading separately from the α polymerase subunit. Eukaryotic Pol δ and ε have proofreading domains, whereas the initiating Pol α lacks its own proofreading activity. After each nucleotide addition, the enzyme \"checks\" whether the newly added base is correctly paired. A mismatched terminal base pair is thermodynamically unstable and causes the 3' end of the growing strand to fray slightly, which promotes its migration into the exonuclease active site. The mismatched nucleotide is cleaved off, and synthesis resumes.\n\nThis proofreading step reduces the error rate by approximately **100-fold**, bringing the cumulative error rate down to roughly **1 in 10^7** per nucleotide. Combined with intrinsic selectivity, proofreading contributes to high DNA-copying fidelity. RNA polymerases can also proofread by backtracking and transcript cleavage, enhanced by factors such as TFIIS for Pol II; they do not simply lack all proofreading. Numerical error rates vary by enzyme and assay.\n\n*Key mechanistic point for the MCAT*: DNA polymerase can only add nucleotides in the **5' to 3' direction**, but it proofreads in the **3' to 5' direction**. These are not contradictory—synthesis and exonuclease activities use distinct active sites, sometimes in different subunits. RNA primers mark temporary initiation segments that must be processed into mature DNA; their removal should not be justified by claiming all RNA polymerases lack proofreading.\n\n### Why Polymerase Cannot Start a New Strand\n\nA critical limitation of DNA polymerase is that it *requires a free 3'-OH* to extend. It cannot initiate synthesis on a bare template. This is why **primase** (an RNA polymerase) lays down short RNA primers (roughly 10 nucleotides in eukaryotes) to provide that 3'-OH. This limitation has direct consequences for telomere maintenance, discussed later.\n\n---\n\n## Mismatch Repair (MMR)\n\nEven with proofreading, some errors escape. **Mismatch repair (MMR)** is the second major error-correction system, acting on recently synthesized DNA, often coupled closely to replication rather than waiting for completion of the whole chromosome. It reduces the final error rate to approximately **1 in 10^9 to 10^10** per nucleotide per generation.\n\n### Recognition of Mismatches\n\nIn bacteria (*E. coli*), the **MutS protein** scans newly synthesized DNA and recognizes mismatched or unpaired bases (insertions/deletions that form loops are also substrates). MutS binding recruits **MutL**, which acts as a mediator, and then **MutH**, which has a critical role in strand discrimination.\n\nThe central challenge of MMR is knowing *which strand* contains the error. For a polymerase misincorporation, the parental sequence supplies the repair reference and the error is on the new strand. The template itself can separately sustain damage. In *E. coli*, this is solved elegantly: the template strand is **methylated** at GATC sequences by the Dam methylase, but newly synthesized DNA is transiently **hemimethylated** (methylated on only one strand). MutH is an endonuclease that cuts the *unmethylated* (new) strand at a nearby GATC site. Exonucleases then degrade the new strand back through the mismatch, and DNA polymerase III resynthesizes it correctly.\n\n### Eukaryotic MMR\n\nThe human MMR pathway does not use the E. coli MutH/Dam system. The strand discrimination mechanism in humans is not fully understood, but current evidence suggests that **nicks** (discontinuities) in the newly synthesized strand—such as those present at the 5' end of Okazaki fragments or near the replication fork—serve as signals directing repair to the correct strand.\n\nThe key eukaryotic proteins are:\n- **MutSα** (MSH2-MSH6 heterodimer): recognizes single-base mismatches and small insertion/deletion loops\n- **MutSβ** (MSH2-MSH3 heterodimer): recognizes larger insertion/deletion loops\n- **MutLα** (MLH1-PMS2 heterodimer): coordinates downstream repair steps, including nicking the error-containing strand\n\nIn a major pathway, **exonuclease 1 (EXO1)** degrades the error-containing strand; EXO1-independent processing also exists, and **DNA Pol δ** resynthesizes it, with **DNA ligase I** sealing the final nick.\n\n### Clinical Relevance: Lynch Syndrome and Microsatellite Instability\n\nGermline pathogenic variants affecting *MLH1*, *MSH2*, *MSH6*, or *PMS2*, and certain *EPCAM* deletions that silence *MSH2*, can cause **Lynch syndrome**, a hereditary cancer predisposition, one of the most common hereditary cancer syndromes. Without functional MMR, errors accumulate especially at **microsatellites** (short tandem repeats), producing a phenotype called **microsatellite instability (MSI)**. MMR-deficient/MSI-high status can inform immune-checkpoint treatment selection in defined clinical settings; it does not guarantee a response. Tumor MMR deficiency may be acquired and does not by itself establish Lynch syndrome.\n\n---\n\n## Base Excision Repair (BER)\n\nWhile MMR corrects replication errors, **base excision repair (BER)** corrects chemically damaged or inappropriate bases that arise from spontaneous or environmentally induced chemical modifications. These include:\n\n- **Deamination** of cytosine → uracil (occurs ~100–500 times per cell per day)\n- **Oxidative damage**: 8-oxoguanine (8-oxoG), a common oxidative lesion that mispairs with adenine\n- **Alkylation**: methylation of bases by alkylating agents\n- **Depurination**: spontaneous loss of adenine or guanine, creating an **abasic (AP) site** (~10,000 events per cell per day)\n\n### Mechanism of BER\n\nBER proceeds through a defined sequence of steps:\n\n1. **Damage recognition and base removal**: A **DNA glycosylase** recognizes the damaged base and cleaves the N-glycosidic bond between the base and the deoxyribose, releasing the damaged base and leaving an **AP site** (apurinic/apyrimidinic site). Different glycosylases handle different lesions—for example, **uracil-DNA glycosylase (UNG)** removes uracil, and **OGG1** removes 8-oxoguanine.\n\n2. **AP site cleavage**: **AP endonuclease (APE1)** cuts the phosphodiester backbone 5' to the AP site, creating a nick with a 3'-OH on one side and a 5'-deoxyribose phosphate (5'-dRP) on the other.\n\n3. **Removal of the sugar remnant**: In **short-patch BER** (the most common pathway, replacing a single nucleotide), **DNA Pol β** uses its intrinsic **5'-dRP lyase** activity to remove the 5'-dRP group, then fills in the single-nucleotide gap using the undamaged strand as template.\n\n4. **Ligation**: Ligase III/XRCC1 is a familiar short-patch model, but DNA ligase I can also support nuclear BER. Ligase III is not universally obligatory for this nuclear step.\n\nIn **long-patch BER**, which replaces 2–10 nucleotides, **DNA Pol β or Pol δ/ε**, depending on context, displaces the downstream strand (creating a flap), **FEN1** (flap endonuclease 1) removes the flap, and **DNA ligase I** seals the nick.\n\n### Why BER Matters for the MCAT\n\nThe deamination of cytosine to uracil is a common spontaneous **DNA lesion** that can become a mutation if not corrected. If uracil is not removed before replication, the next round of replication will pair the uracil with adenine, permanently converting a G:C pair to an A:T pair—a **transition mutation**. BER prevents this by removing uracil before replication occurs. The frequency of C→T transitions at CpG dinucleotides (where cytosine is often methylated to 5-methylcytosine, which deaminates to thymine rather than uracil) is a major source of heritable point mutations in humans.\n\n---\n\n## Nucleotide Excision Repair (NER)\n\n**Nucleotide excision repair** handles bulky lesions that distort the double helix—damage that base excision repair's single-glycosylase approach cannot address. The classic substrates are:\n\n- **Cyclobutane pyrimidine dimers (CPDs)**: adjacent thymines (or cytosines) covalently linked by UV radiation\n- **6-4 photoproducts**: another UV-induced lesion\n- **Bulky adducts**: formed by carcinogens such as benzo[a]pyrene (from cigarette smoke) or cisplatin **intrastrand** cross-links; interstrand cross-links require coordinated pathways beyond NER alone\n\nNER is distinguished by its ability to recognize *structural distortion* rather than a specific chemical change, making it a versatile repair system.\n\n### Global Genome NER vs. Transcription-Coupled NER\n\nThere are two sub-pathways:\n\n**Global genome NER (GG-NER)** scans the entire genome for helix-distorting lesions. The key damage sensor is the **XPC-RAD23B** complex, which recognizes the distortion in the double helix. In the case of CPDs (which cause relatively modest distortion), the **DDB1-DDB2 (XPE)** complex assists in initial recognition.\n\n**Transcription-coupled NER (TC-NER)** is triggered when RNA polymerase II stalls at a lesion on the template strand. The stalled polymerase itself serves as the damage signal, recruiting **CSA** and **CSB** proteins. TC-NER preferentially repairs the transcribed strand, prioritizing blocking lesions on actively transcribed template strands; it does not globally rank every lesion in the genome.\n\n### Core NER Mechanism\n\nAfter damage recognition, both GG-NER and TC-NER converge on the same core machinery:\n\n1. **Unwinding**: The **TFIIH** complex (which includes the **XPB translocase** and **XPD helicase**) unwinds ~25–30 base pairs around the lesion, creating a bubble.\n\n2. **Verification**: **XPA** and **RPA** stabilize the open complex and verify the presence of damage.\n\n3. **Dual incision**: Two endonucleases cut the damaged strand: **XPG** cuts 3' to the lesion (2–8 nucleotides away) and **XPF-ERCC1** cuts 5' to the lesion (15–24 nucleotides away). This releases an oligonucleotide of **25–30 nucleotides** containing the lesion.\n\n4. **Gap filling and ligation**: DNA Pol δ or ε fills the gap using the undamaged strand as template, and DNA ligase I (or ligase III/XRCC1 in some contexts) seals the nick.\n\n### Clinical Relevance: Xeroderma Pigmentosum and Cockayne Syndrome\n\nMutations in NER genes cause several rare but instructive diseases:\n\n- **Xeroderma pigmentosum (XP)** commonly involves NER defects, but **XP variant (POLH)** instead impairs translesion polymerase η with relatively intact NER. UV-related cancer risk is very high; the magnitude differs by cancer, age and exposure. Neurologic involvement and acute sunburn sensitivity vary by genotype.\n\n- **Cockayne syndrome**: Caused by mutations in *CSA* or *CSB* (TC-NER factors). Patients show UV sensitivity without the marked cancer predisposition seen in classic XP; preserved GG-NER alone is not a complete explanation of the clinical difference, along with severe developmental abnormalities and premature aging. The contrast with XP illustrates why TC-NER is important for development and neurological function.\n\n- **Trichothiodystrophy (TTD)** has brittle, sulfur-poor hair and variable systemic findings. Photosensitive forms often involve *ERCC2/XPD*, *ERCC3/XPB*, or *GTF2H5* and affect TFIIH-related functions. Nonphotosensitive forms have other genetic causes; not all TTD is a NER deficiency.\n\n---\n\n## The End-Replication Problem and Telomeres\n\n### Why Chromosome Ends Are a Problem\n\nEvery time a linear chromosome is replicated, the **end-replication problem** threatens to shorten it. Loss after terminal lagging-strand primer removal is the standard introductory example; leading-end processing and other telomere replication challenges also contribute. As the replication fork moves toward a chromosome end, the last Okazaki fragment requires an RNA primer at its 5' end. When that primer is removed, there is no upstream 3'-OH to prime synthesis of the gap—a suitable upstream primer terminus is unavailable, even though parental template can extend beyond the recessed daughter end. The result is a **3' overhang** on the parental strand and an unreplicated gap at the 5' end of the new strand.\n\nShortening rates vary with cell type, oxidative damage and end processing; tens to hundreds of base pairs per division are commonly discussed estimates, not a fixed loss. Critically short or deprotected telomeres can trigger a DNA-damage response **before essential coding sequences are lost**.\n\n### Telomere Structure\n\n**Telomeres** are the protective caps at chromosome ends. In humans, they consist of thousands of repeats of the hexanucleotide sequence **5'-TTAGGG-3'** (the G-rich strand), extending for 5,000–15,000 base pairs in young somatic cells. The G-rich strand protrudes as a **3′ overhang** whose length varies, often from tens to hundreds of nucleotides called the **G-tail** or **3' overhang**.\n\nTelomeres adopt a higher-order structure called the **T-loop**, in which the 3' overhang loops back and invades the double-stranded telomeric repeat region, forming a displacement loop (D-loop). This structure, stabilized by a protein complex called **shelterin**, physically hides the chromosome end from DNA damage surveillance machinery. Without shelterin, the chromosome end would be recognized as a double-strand break and trigger inappropriate repair or checkpoint activation.\n\n**Shelterin** is a six-protein complex including:\n- **TRF1 and TRF2**: bind double-stranded telomeric repeats; TRF2 is essential for T-loop formation and end protection\n- **POT1**: binds the single-stranded 3' overhang\n- **TIN2, TPP1, RAP1**: bridge and stabilize the complex\n\n### Telomerase: The Solution to Shortening\n\n**Telomerase** is a specialized **reverse transcriptase** that extends the 3' overhang of telomeres, compensating for sequence lost during replication. It is a ribonucleoprotein enzyme with two essential components:\n\n- **TERT** (telomerase reverse transcriptase): the catalytic protein subunit\n- **TERC** (telomerase RNA component, also called TR or hTR): an RNA molecule ~451 nucleotides long in humans, containing a template/alignment region of about 11 nucleotides, **3′-CAAUCCCAAUC-5′**. The shorter AAUCCC sequence is a simplified complement to one TTAGGG repeat, not the entire human template region\n\n### Mechanism of Telomere Extension\n\n1. **Positioning**: Telomerase binds to the 3' overhang of the G-rich strand. Part of the RNA template/alignment region pairs with the DNA 3′ end, positioning it for extension.\n\n2. **Extension**: TERT uses its reverse transcriptase activity to synthesize new DNA in the **5' to 3' direction** along the RNA template, adding one TTAGGG repeat.\n\n3. **Translocation**: Telomerase translocates—repositioning so the new 3' end aligns with the 5' end of the RNA template—and the process repeats, adding multiple TTAGGG repeats.\n\n4. **C-strand synthesis**: After telomerase has extended the G-strand, **CST-associated Pol α–primase** performs complementary C-strand fill-in, which is then processed to regenerate the 3' overhang.\n\n*Key distinction for the MCAT*: Telomerase uses **RNA as a template** to synthesize **DNA**—it is a reverse transcriptase. It still requires a **DNA primer 3′-OH**: the existing G-rich telomere end supplies it. Its internal RNA is the template, not a replacement for the DNA primer. However, it does not solve the end-replication problem for the C-strand directly; that requires conventional lagging-strand synthesis machinery after telomerase has extended the G-strand.\n\n### Telomerase Expression and the Cell Biology of Aging\n\nTelomerase is highly active in:\n- **Selected developing germline cells**: activity changes with differentiation and should not be described as uniformly high in mature sperm and eggs\n- **Embryonic stem cells**\n- **Adult stem cells** (at lower levels): allows self-renewal of tissues like intestinal epithelium and bone marrow\n\nMost **somatic cells** have little or no telomerase activity. As a result, many cultured somatic cell populations have a finite replicative lifespan—the **Hayflick limit** (~50–70 divisions for human fibroblasts). When telomeres shorten to a critical length, cells enter **replicative senescence**, a durable growth arrest mediated by p53 and p21 activation (via the DNA damage response). This is thought to be an anti-tumor mechanism: it limits how many times a cell can divide.\n\n### Telomerase and Cancer\n\nThe connection between telomerase and cancer is one of the most MCAT-relevant aspects of this topic. When a cell bypasses senescence (often by inactivating p53 or Rb), it continues dividing with critically short telomeres. Chromosome ends fuse, creating chromosomal instability—breakage-fusion-bridge cycles that accelerate genomic chaos. Eventually, most of these cells die, but rare cells that reactivate telomerase can achieve **immortalization**: unlimited replicative potential.\n\n*Approximately 85–90% of human cancers show telomerase reactivation*, typically through:\n- Mutations in the **TERT promoter** (the most common mechanism in many cancers, including glioblastoma and melanoma)\n- Amplification of the *TERT* gene\n- Epigenetic reactivation\n\nA minority of cancers use **ALT (Alternative Lengthening of Telomeres)**; reported frequencies vary by tumor type, and not every tumor fits a simple mutually exclusive percentage split, which relies on **homologous recombination** between telomeric sequences rather than telomerase.\n\nTelomerase is a therapeutic target, but inhibiting it is not guaranteed to eliminate a tumor or spare normal renewing tissues. **Imetelstat** received FDA approval in June 2024 for a defined group of adults with lower-risk myelodysplastic syndromes and transfusion-dependent anemia after inadequate response to, loss of response to, or ineligibility for erythropoiesis-stimulating agents. It can cause substantial thrombocytopenia and neutropenia. This is an example of clinical translation, not a general telomerase treatment for all cancers.\n\n---\n\n## Integrating the Repair Pathways: A Comparative Summary\n\nUnderstanding which pathway handles which type of damage is essential for the MCAT:\n\n- **Proofreading (3'→5' exonuclease)**: Misincorporated nucleotides during synthesis; acts immediately during replication\n- **Mismatch repair (MMR)**: Replication errors (mismatches, small indels) that escape proofreading; acts post-replication; requires strand discrimination\n- **Base excision repair (BER)**: Small, non-helix-distorting base modifications (deamination, oxidation, alkylation, AP sites); uses glycosylases for base-specific recognition\n- **Nucleotide excision repair (NER)**: Bulky, helix-distorting lesions (UV dimers, large adducts); recognizes structural distortion; removes 25–30 nucleotide oligonucleotide\n- **Telomerase**: Not a repair pathway per se, but maintains chromosome end integrity across replication cycles\n\nThere are also **double-strand break repair** pathways (**homologous recombination** and **non-homologous end joining**) that are beyond this lesson's scope but are equally important for genomic stability.\n\n---\n\n## High-Yield MCAT Points\n\n- **Error rates**: Intrinsic polymerase selectivity ~10^-5; after proofreading ~10^-7; after MMR ~10^-9 to 10^-10\n- **Proofreading direction**: 3′→5′ exonuclease versus 5′→3′ synthesis; activities can reside in different subunits, as in E. coli Pol III\n- **BER key enzyme**: DNA glycosylase removes the damaged base first; AP endonuclease cuts the backbone\n- **NER excises ~25–30 nucleotides** containing the lesion; BER excises only **1 nucleotide** (short-patch) or 2–10 (long-patch)\n- **XP**: often NER deficiency; the POLH variant is a lesion-bypass defect. UV-related skin cancer risk is greatly elevated.\n- **Lynch syndrome**: MMR deficiency → microsatellite instability → colorectal and other cancers\n- **Telomere sequence**: 5'-TTAGGG-3' repeats (G-rich strand); 3'-AATCCC-5' (C-rich strand)\n- **Telomerase = reverse transcriptase**: RNA template → DNA synthesis; TERT (protein) + TERC (RNA)\n- **Telomerase reactivation in ~85–90% of cancers** is a hallmark of malignancy\n- **Senescence vs. immortalization**: short/deprotected telomeres can induce checkpoints; telomere maintenance supports continued proliferation but does not alone establish a malignant phenotype.\n\n---\n\n## Conclusion\n\nThe fidelity of DNA replication is not a single mechanism but a layered defense. Polymerase proofreading catches errors at the moment of synthesis. Mismatch repair sweeps up errors that survive proofreading. Base excision repair removes chemically altered bases before they mispair in the next round of replication. Nucleotide excision repair addresses bulky structural distortions that would otherwise block transcription and replication. And telomerase solves the unique geometric problem of replicating chromosome ends, with its activity carefully regulated to balance tissue renewal against cancer risk.\n\nEach of these systems is clinically significant—their failure causes recognizable human diseases, many of which appear directly on the MCAT. Mastering the mechanisms, the proteins involved, the types of damage each pathway addresses, and the clinical consequences of pathway failure will pay dividends across multiple question types in the biological and biochemical foundations section."
+    },
+    {
+      "field": "questions.176.explanation",
+      "value": "B is correct: the Pol III ε subunit supplies 3′→5′ exonuclease proofreading and can remove the terminal misincorporation. MMR can correct errors that escape this step. Helicases and topoisomerases have important genome-maintenance roles, but neither is the specific terminal-excision activity asked about."
+    },
+    {
+      "field": "questions.176.question_text",
+      "value": "An E. coli Pol III complex misincorporates a nucleotide at the primer 3′ end. Which associated activity can remove it most directly before extension resumes?"
+    },
+    {
+      "field": "questions.177.explanation",
+      "value": "C is correct. MSH2 participates in MutSα and MutSβ recognition complexes; functional loss impairs correction of replication mismatches and small insertion/deletion loops, increasing mutation rates and often microsatellite instability. This is distinct from direct primer ligation, BER lesion removal or telomerase activity. Inherited Lynch predisposition and complete functional loss in a particular tumor cell should not be equated."
+    },
+    {
+      "field": "questions.177.question_text",
+      "value": "A cell loses functional MSH2-dependent mismatch repair. Which molecular consequence is most directly expected?"
+    },
+    {
+      "field": "questions.178.explanation",
+      "value": "C describes human NER: recognize the lesion, open and verify the region, incise the damaged strand on both sides, remove the lesion-containing oligonucleotide, synthesize replacement DNA and ligate. Photolyase-mediated photoreactivation is available in some other organisms but is not a human repair pathway. DNA polymerase η can bypass some UV lesions; bypass does not excise the dimer."
+    },
+    {
+      "field": "questions.178.question_text",
+      "value": "In a human cell, which pathway excises a UV-induced cyclobutane pyrimidine dimer, and what sequence of steps best describes this repair?"
+    },
+    {
+      "field": "questions.179.choice_b",
+      "value": "There is no upstream primer 3′-OH from which polymerase can fill the terminal gap, leaving a recessed daughter 5′ end."
+    },
+    {
+      "field": "questions.179.explanation",
+      "value": "B identifies the primer problem. Polymerase cannot initiate de novo in the terminal gap. The parental G-rich overhang is not simply discarded; it has a normal protective role and can be extended by telomerase. Actual telomere shortening also involves end processing and other replication challenges."
+    },
+    {
+      "field": "questions.179.question_text",
+      "value": "In the simplified lagging-end replication model, why can removing the terminal RNA primer leave an incompletely copied daughter end when no compensating telomere-extension mechanism operates?"
+    },
+    {
+      "field": "questions.180.choice_b",
+      "value": "Improved maintenance of telomere length, supporting continued proliferation when other cellular constraints permit it."
+    },
+    {
+      "field": "questions.180.explanation",
+      "value": "B is the direct consequence: telomerase can add G-strand repeats and help maintain telomeres. That supports proliferative potential but does not by itself guarantee immortality, transformation or escape from all checkpoints. Telomerase is not a mismatch-repair enzyme."
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import { applyLessonUpdates } from "@/lib/lesson-updates";
 import { withQuestionTokens } from "@/lib/question-token";
 import { auth } from "@/auth";
 import { Pool } from "pg";
@@ -92,9 +93,11 @@ export async function GET(
       );
     }
 
+    const reviewed = applyLessonUpdates(lessonRes.rows[0], questionsRes.rows);
     return Response.json({
-      lesson: lessonRes.rows[0],
-      questions: withQuestionTokens(questionsRes.rows),
+      lesson: reviewed.lesson,
+      questions: withQuestionTokens(reviewed.questions),
+      review: reviewed.review,
       highlights,
       progress,
       prevLesson,

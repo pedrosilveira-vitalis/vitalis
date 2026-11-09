@@ -49,7 +49,7 @@ export default function FlashcardsLanding() {
             Build the <span className="italic font-light text-[#a8324a]">recall.</span>
           </h1>
           <p className="text-[15px] opacity-70 mt-4 max-w-2xl leading-relaxed">
-            High-yield AI-generated decks across the four MCAT sections, plus your own custom cards.
+            AI-generated decks across the four MCAT sections, core review cards when you need them, and your own custom cards.
           </p>
         </section>
 
@@ -91,7 +91,7 @@ export default function FlashcardsLanding() {
         </section>
 
         <div className="mx-10 my-7 p-3.5 px-5 border border-dashed border-[#0c1a2e25] rounded-lg font-mono text-[12px] leading-relaxed opacity-60">
-          Flashcards are generated fresh each session and aren&apos;t a substitute for active reading and practice questions. Use them between sessions to reinforce recall.
+          AI decks are generated on request. Core decks are small, fixed starter sets. Neither replaces active reading and practice questions. Use them between sessions to reinforce recall.
         </div>
       </div>
     </div>

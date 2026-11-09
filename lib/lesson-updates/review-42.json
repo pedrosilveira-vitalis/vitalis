@@ -1,0 +1,343 @@
+{
+  "lessonId": 42,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Bacteria live in environments that change rapidly—nutrient availability shifts, temperatures fluctuate, and metabolic demands vary second to second. Unlike eukaryotes, which can afford the luxury of elaborate chromatin remodeling and multi-step mRNA processing, prokaryotes need to respond almost instantaneously. Their solution is elegant: organize functionally related genes into single transcriptional units called **operons**, and control those units with molecular switches that respond directly to the metabolic state of the cell. This lesson dissects the major mechanisms of prokaryotic gene regulation, using the *lac* and *trp* operons as archetypal models, and extends the analysis to catabolite repression and transcriptional attenuation.",
+      "new": "Bacteria adjust gene expression as nutrients and other environmental conditions change. Many related genes are organized into **operons**, allowing coordinated transcription. This lesson focuses on bacterial mechanisms in *Escherichia coli*, especially the *lac* and *trp* operons. These examples should not be generalized to all prokaryotes: archaea have distinct transcription machinery, and neither bacteria nor eukaryotes use a single universal regulatory strategy.",
+      "reason": "Remove teleological and bacterial/archaeal conflation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "Every operon contains several essential elements:",
+      "new": "The following features describe common bacterial operon models; not every operon has a dedicated operator or an adjacent regulatory gene:",
+      "reason": "Avoid mandatory architecture.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "- **Promoter**: The DNA sequence where RNA polymerase binds. In bacteria, the core promoter contains conserved sequences at the −10 region (Pribnow box, consensus TATAAT) and the −35 region (consensus TTGACA). The spacing between these elements critically affects promoter strength.",
+      "new": "- **Promoter**: DNA at which RNA polymerase initiates transcription. Many promoters recognized by the primary *E. coli* σ⁷⁰ factor have −10 and −35 elements (consensus TATAAT and TTGACA). Other sigma factors recognize different patterns.",
+      "reason": "Scope consensus to sigma class.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "- **Operator**: A DNA sequence, typically overlapping or adjacent to the promoter, where a regulatory protein (**repressor** or **activator**) binds.",
+      "new": "- **Operator**: A DNA site bound by a repressor, often overlapping or near the promoter. Activators bind their own regulatory sites, which need not be called operators.",
+      "reason": "Distinguish operator from activator site.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "- **Regulatory gene**: Often located upstream of the operon, encoding the repressor or activator protein. The regulatory gene has its own promoter and is expressed constitutively at low levels.",
+      "new": "- **Regulatory gene**: Encodes a regulator and may be elsewhere in the genome with its own promoter. Its expression can itself be regulated; low constitutive expression is not a universal rule.",
+      "reason": "Remove obligatory adjacency and constitutive expression.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "- **Negative regulation**: A **repressor protein** binds the operator and physically blocks RNA polymerase from transcribing the structural genes. The operon is *off by default* unless the repressor is inactivated.",
+      "new": "- **Negative regulation**: A repressor reduces transcription when active and bound to its regulatory site. Whether it is active without a ligand depends on the system: LacI and TrpR illustrate different defaults.",
+      "reason": "Negative control does not imply an off default.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "- **Positive regulation**: An **activator protein** binds near the promoter and *enhances* RNA polymerase binding or activity. The operon is *off by default* unless the activator is present.",
+      "new": "- **Positive regulation**: An activator increases transcription, for example by recruiting RNA polymerase. Basal transcription may still occur without the activator.",
+      "reason": "Positive control need not be absolutely off.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "encodes three enzymes needed to import and catabolize lactose:",
+      "new": "encodes three proteins associated with lactose and other galactoside metabolism; LacZ and LacY are the central catabolic enzyme and transporter:",
+      "reason": "LacY is a transporter and LacA not necessary for lactose catabolism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "The *lacI* gene, located just upstream of the operon, encodes the **Lac repressor**—a tetrameric protein that binds the operator (*lacO*) with extremely high affinity (dissociation constant ~10⁻¹³ M). When bound, the repressor physically obstructs RNA polymerase, preventing transcription of *lacZ*, *lacY*, and *lacA*.",
+      "new": "The *lacI* gene encodes a tetrameric repressor. Binding at the *lac* operators strongly reduces transcription of *lacZYA*. Binding affinity and the magnitude of repression depend on the DNA site and experimental conditions; repression is not a permanently locked, absolutely silent state.",
+      "reason": "Remove unsourced universal Kd and absolute blocking.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "This cooperative binding increases repression efficiency by approximately 50-fold compared to O1 alone.",
+      "new": "Looping strengthens repression; the measured fold-change depends on the operator configuration and assay.",
+      "reason": "Avoid fixed context-free factor.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "transcription of the *lac* structural genes increases approximately 1000-fold.",
+      "new": "transcription of the *lac* structural genes can increase greatly, with the magnitude also depending on CAP-cAMP activation and growth conditions.",
+      "reason": "Separate derepression from total induction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "The mechanism coordinating this preference is **catabolite repression**, mediated by positive control.",
+      "new": "**Catabolite repression** includes regulation of CAP-cAMP-dependent transcription. Glucose uptake can also produce **inducer exclusion**: dephosphorylated EIIAᴳˡᶜ binds LacY and inhibits lactose entry. Thus lactose in the medium does not guarantee enough intracellular allolactose to release LacI.",
+      "reason": "Include transport regulation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8943701/"
+    },
+    {
+      "field": "content",
+      "old": "CAP is only active when bound to cAMP.",
+      "new": "For normal *lac* activation, CAP requires cAMP; this statement assumes wild-type CAP.",
+      "reason": "Define model.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "located approximately 60 bp upstream of the *lac* promoter",
+      "new": "centered approximately 61.5 bp upstream of the *lac* transcription start site",
+      "reason": "Use correct coordinate origin.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "increasing transcription initiation by roughly 50-fold.",
+      "new": "increasing transcription initiation; the fold-change depends on the experiment.",
+      "reason": "Remove unsupported universal number.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "The *lac* operon thus integrates two signals simultaneously:",
+      "new": "The simplified classroom model below assumes sufficient intracellular inducer when lactose is listed as present. Real glucose–lactose cultures also exhibit inducer exclusion:",
+      "reason": "Declare table assumptions.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8943701/"
+    },
+    {
+      "field": "content",
+      "old": "| Off |",
+      "new": "| Very low |",
+      "reason": "Repression is not absolute.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "it encodes five enzymes (*trpE*, *trpD*, *trpC*, *trpB*, *trpA*)",
+      "new": "it contains five structural genes (*trpE*, *trpD*, *trpC*, *trpB*, *trpA*) whose products include multifunctional proteins and subunits of enzyme complexes",
+      "reason": "Genes are not five independent enzymes.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK7908/"
+    },
+    {
+      "field": "content",
+      "old": "shutting down transcription of the trp biosynthetic genes.",
+      "new": "reducing initiation of transcription of the trp biosynthetic genes.",
+      "reason": "Repression graded.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK7908/"
+    },
+    {
+      "field": "content",
+      "old": "RNA polymerase transcribes the trp operon freely.",
+      "new": "Transcription initiation increases; leader attenuation separately controls how much transcription reaches the structural genes.",
+      "reason": "Retain second mechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK7908/"
+    },
+    {
+      "field": "content",
+      "old": "This represents classic **feedback inhibition** at the transcriptional level.",
+      "new": "This is **feedback repression** of gene expression. Distinguish it from feedback inhibition of an already-existing enzyme.",
+      "reason": "Separate transcriptional and enzyme regulation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "The Trp repressor binds two molecules of tryptophan per dimer, and the corepressor makes direct contacts with the operator DNA. The operator sequence for the trp operon (trpO) is a 21-bp palindrome that overlaps the promoter, so repressor binding directly competes with RNA polymerase.",
+      "new": "The Trp repressor dimer binds two tryptophan corepressors. Tryptophan changes the conformation of the protein to favor operator binding; it is not a DNA-binding bridge. The operator overlaps the promoter, so bound repressor interferes with transcription initiation.",
+      "reason": "Correct corepressor structural mechanism.",
+      "sourceUrl": "https://www.nature.com/articles/317782a0"
+    },
+    {
+      "field": "content",
+      "old": "This mechanism is unique to prokaryotes and exploits the fact that in bacteria, transcription and translation are *coupled*",
+      "new": "This particular *E. coli* leader-peptide mechanism exploits *coupled* transcription and translation",
+      "reason": "Attenuation broader than translation-coupled version.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21132/"
+    },
+    {
+      "field": "content",
+      "old": "### The Four Stem-Loop Structures",
+      "new": "### Four RNA Regions, Three Alternative Pairings",
+      "reason": "Four regions not four structures.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK7908/"
+    },
+    {
+      "field": "content",
+      "old": "The leader mRNA can fold into four possible stem-loop structures, designated regions 1, 2, 3, and 4:",
+      "new": "The leader contains four complementary regions, labeled 1–4. Three key alternative pairings are:",
+      "reason": "Correct counting.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK7908/"
+    },
+    {
+      "field": "content",
+      "old": "\n- Charged tryptophanyl-tRNA (Trp-tRNA) is plentiful.\n- The ribosome translates through the two Trp codons without stalling.\n- The ribosome reaches region 1 of the mRNA, physically blocking it.\n- Region 2 is now free to pair with region 3, but the ribosome continues translating and reaches the UGA stop codon, releasing region 2.\n- Regions 3 and 4 pair to form the terminator.\n- Transcription terminates. Only about 10% of polymerases read through.\n\n",
+      "new": "\n- Charged Trp-tRNA is plentiful, so the ribosome passes the two Trp codons.\n- Near the leader stop codon, the ribosome covers **region 2** during the critical folding window.\n- Region 2 cannot pair with region 3.\n- Regions **3 and 4** form the terminator, reducing transcription into the biosynthetic genes.\n- Timing is crucial: earlier pairing choices influence what forms as the RNA emerges.\n\n",
+      "reason": "Correct reversed ribosome coverage and competing structures.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK7908/"
+    },
+    {
+      "field": "content",
+      "old": "**When no translation occurs (e.g., in the presence of a translation inhibitor):**",
+      "new": "**If translation never initiates on the leader (simplified model):**",
+      "reason": "An elongation inhibitor may stall at other sites.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK7908/"
+    },
+    {
+      "field": "content",
+      "old": "The system acts as a rheostat, not just an on/off switch.",
+      "new": "The system responds to charged Trp-tRNA availability, rather than simply measuring free tryptophan.",
+      "reason": "Specify sensor.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK7908/"
+    },
+    {
+      "field": "content",
+      "old": "The number and arrangement of the relevant amino acid codons in the leader peptide correlates with the sensitivity of attenuation to that amino acid's availability.",
+      "new": "Leader codons, ribosome position and competing RNA structures together determine the response; codon count alone does not predict sensitivity.",
+      "reason": "Avoid simple unproven correlation.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/392514/"
+    },
+    {
+      "field": "content",
+      "old": "| On (induced) |",
+      "new": "| On when tryptophan is limiting |",
+      "reason": "Derepression not induction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK7908/"
+    },
+    {
+      "field": "content",
+      "old": "- A **sensor histidine kinase**: A membrane-spanning receptor that autophosphorylates a conserved histidine residue upon detecting an environmental signal.",
+      "new": "- A **sensor histidine kinase**: Often membrane-associated, but sometimes soluble; its autophosphorylation and phosphatase activities respond to a signal.",
+      "reason": "Architecture not universal.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097194/"
+    },
+    {
+      "field": "content",
+      "old": "- A **response regulator**: Receives the phosphoryl group on a conserved aspartate residue, which activates it as a transcription factor.",
+      "new": "- A **response regulator**: Usually receives phosphate on a conserved aspartate. Many regulate transcription; others control enzymes or motility.",
+      "reason": "Response output diversity.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097194/"
+    },
+    {
+      "field": "content",
+      "old": "They represent an ancient and elegant form of gene regulation that predates protein-based regulators.",
+      "new": "Their RNA-based sensing is compatible with evolutionary hypotheses about early RNA regulation, but their exact historical precedence is not established. Some eukaryotic TPP riboswitches regulate RNA processing rather than bacterial transcription or translation initiation.",
+      "reason": "Do not present evolutionary speculation as established.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026232/"
+    },
+    {
+      "field": "content",
+      "old": "- *lacI⁻* (no functional repressor): Constitutive expression of *lac* genes, regardless of lactose or glucose.",
+      "new": "- *lacI⁻* (no functional repressor): Expression no longer requires lactose to relieve LacI repression. CAP-cAMP and carbon-source conditions still affect transcription.",
+      "reason": "Constitutive relative to lactose not glucose independence.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "content",
+      "old": "- Attenuation requires *coupled transcription-translation*, so it is *prokaryote-specific*.",
+      "new": "- The *E. coli trp* leader-peptide mechanism requires coupled transcription and translation. Other attenuation mechanisms use RNA-binding proteins or metabolite-sensing RNA rather than a translating leader ribosome.",
+      "reason": "Scope attenuation mechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21132/"
+    },
+    {
+      "field": "content",
+      "old": "### Quantitative Context\n\n- The *lac* operon increases transcription ~1000-fold upon induction (repressor removal + CAP activation combined).\n- CAP activation alone contributes ~50-fold.\n- Repressor removal alone contributes ~20-fold.\n- The Lac repressor binds operator with Kd ~10⁻¹³ M—among the tightest protein-DNA interactions known.\n- Attenuation reduces *trp* operon transcription ~8–10-fold when tryptophan is abundant.\n- The repressor reduces *trp* transcription ~70-fold when tryptophan is abundant.\n- Combined, repressor and attenuation together achieve ~700-fold regulation of the *trp* operon.\n",
+      "new": "### Interpreting Quantitative Data\n\nFold-repression values and binding constants depend on strain, operator arrangement, medium and assay. Use values supplied in an experiment rather than treating fixed factors as universal. Distinguish transcription initiation (repressor control) from readthrough of the leader (attenuation); both influence the amount of full-length *trp* transcript.\n",
+      "reason": "Remove unqualified numerical claims.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK7908/"
+    },
+    {
+      "field": "content",
+      "old": "ensuring that lactose-catabolizing enzymes are made only when lactose is present and glucose is absent",
+      "new": "favoring high expression when lactose is available and glucose is scarce",
+      "reason": "Not absolute exclusivity.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8943701/"
+    },
+    {
+      "field": "questions.206.question_text",
+      "old": "A mutation in the lac operon eliminates the ability of the repressor protein to bind allolactose. Which of the following best describes the consequence of this mutation?",
+      "new": "An E. coli strain has a LacI repressor that retains normal operator binding but cannot bind allolactose. The operator and promoter are intact. Which result is expected when lactose is added?",
+      "reason": "Exclude DNA-binding loss interpretation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "questions.206.choice_a",
+      "old": "The lac operon will be permanently silenced regardless of lactose availability.",
+      "new": "The lac operon remains strongly repressed and cannot be induced by allolactose.",
+      "reason": "Avoid absolute zero.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "questions.206.correct_answer",
+      "old": "B",
+      "new": "A",
+      "reason": "Original stored B contradicts mechanism and explanation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "questions.206.explanation",
+      "old": "The lac repressor normally binds allolactose (the inducer), which causes it to dissociate from the operator and allow transcription. If the repressor cannot bind allolactose, it remains bound to the operator permanently, blocking RNA polymerase access. However, the question states the repressor cannot bind allolactose, meaning it can never be inactivated and would stay on the operator, silencing the operon. Wait, re-reading: the mutation eliminates the repressor's ability to bind allolactose, so the repressor can never be removed from the operator. Actually this would silence the operon. But if we interpret the mutation as eliminating allolactose binding such that the repressor can no longer bind DNA (a conformational change), then constitutive expression results. In standard MCAT framing, a repressor that cannot bind its inducer remains locked in the DNA-binding conformation, keeping the operon permanently OFF. The most defensible answer given standard operon logic is that the operon is permanently silenced (A), but constitutive expression (B) would result from an operator mutation or a repressor that cannot bind DNA. Choice A is correct because without allolactose binding, the repressor stays on the operator and the operon is permanently repressed.",
+      "new": "A is correct. This is an inducer-insensitive superrepressor: it still binds operator DNA, but allolactose cannot relieve that repression. Strong repression persists after lactose addition. A DNA-binding-defective repressor would instead cause lactose-independent expression; that is excluded by the stem.",
+      "reason": "Remove contradictory self-correction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "questions.207.question_text",
+      "old": "In an E. coli cell growing in medium containing both glucose and lactose, which of the following correctly describes the state of the lac operon?",
+      "new": "In a simplified E. coli lac regulation experiment, intracellular inducer is sufficient to release LacI, but cAMP remains low during glucose uptake. What transcriptional state is expected relative to a culture with active CAP-cAMP?",
+      "reason": "Isolate CAP effect without incorrect inducer-exclusion assumption.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8943701/"
+    },
+    {
+      "field": "questions.207.explanation",
+      "old": "When glucose is present, adenylyl cyclase activity is inhibited, keeping cAMP levels low. Without sufficient cAMP, the catabolite activator protein (CAP) cannot bind the CAP site upstream of the lac promoter, so RNA polymerase binds inefficiently and transcription is minimal. Although allolactose is present to inactivate the repressor, the positive control mechanism (CAP-cAMP) is not activated, resulting in only low-level transcription. Choice A is tempting because it correctly notes that the repressor is inactivated, but it ignores the dominant role of catabolite repression in suppressing lac operon expression when glucose is available.",
+      "new": "B is correct. LacI repression has been relieved by assumption, but low cAMP limits CAP-dependent activation, so transcription remains lower than with active CAP-cAMP. In real glucose–lactose cultures, inhibition of lactose transport can also limit intracellular inducer; that extra mechanism is held constant here.",
+      "reason": "Explicit assumptions.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8943701/"
+    },
+    {
+      "field": "questions.208.choice_b",
+      "old": "It will show constitutive transcription of the trp operon regardless of tryptophan levels.",
+      "new": "It loses repressor-mediated control of initiation but still responds to tryptophan through attenuation.",
+      "reason": "Not constitutive full-length output.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK7908/"
+    },
+    {
+      "field": "questions.208.explanation",
+      "old": "The trp repressor, when bound by tryptophan (its corepressor), binds the operator and blocks transcription. Without the repressor gene, there is no protein to repress the operon, so transcription occurs constitutively regardless of tryptophan levels. Choice C is tempting because attenuation is a secondary regulatory mechanism for the trp operon that can reduce transcription when tryptophan is abundant, but attenuation alone cannot fully substitute for repressor-mediated control, and the question asks about comparison to wild type where full repression occurs. Without the repressor, the operon will be expressed at higher levels than wild type even in tryptophan-rich conditions.",
+      "new": "B is correct. Deleting trpR removes repression of transcription initiation. It does not remove the leader: plentiful charged Trp-tRNA still favors the 3–4 terminator and reduces readthrough. Therefore full-length expression remains tryptophan-responsive, although repression is weaker than in otherwise comparable wild-type cells.",
+      "reason": "Preserve two layers.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK7908/"
+    },
+    {
+      "field": "questions.209.explanation",
+      "old": "Attenuation is a uniquely prokaryotic regulatory mechanism that depends on the coupling of transcription and translation. As RNA polymerase transcribes the leader sequence of the trp operon, ribosomes immediately begin translating it. The rate of ribosome movement through the tryptophan codons in the leader peptide determines which secondary structure forms in the nascent mRNA: a terminator hairpin (when tryptophan is abundant and ribosomes move quickly) or an antiterminator hairpin (when tryptophan is scarce and ribosomes stall). This coupling is only possible in prokaryotes where there is no nuclear membrane separating transcription from translation. Choice D is incorrect because prokaryotes do not perform RNA splicing.",
+      "new": "B is correct for the E. coli trp leader-peptide mechanism. Translation of the emerging leader positions a ribosome so that either the 2–3 antiterminator or the 3–4 terminator can form. This requires coupled transcription and translation. Nuclear eukaryotic transcription is separated from cytosolic translation. Other attenuation mechanisms do not require leader translation, and some prokaryotic RNAs do undergo splicing.",
+      "reason": "Remove false no bacterial splicing and all attenuation claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21132/"
+    },
+    {
+      "field": "questions.210.question_text",
+      "old": "A newly discovered bacterial operon contains a promoter, operator, and structural genes encoding enzymes that degrade a toxic compound X. The operon is normally OFF but is activated when compound X is present. Which regulatory model best describes this operon?",
+      "new": "A bacterial operon encodes enzymes that degrade compound X. Without X, a repressor occupies the operator. X binds that repressor and reduces its operator affinity, increasing transcription. Which regulatory model describes this mechanism?",
+      "reason": "Induction alone cannot distinguish positive from negative control.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    },
+    {
+      "field": "questions.210.explanation",
+      "old": "The operon is normally OFF (consistent with a repressor bound to the operator) and is turned ON when compound X is present. This matches the negative control model where a repressor constitutively binds the operator and is inactivated by an inducer molecule (compound X in this case), allowing transcription to proceed. This is directly analogous to the lac operon, where the repressor is inactivated by allolactose. Choice A is incorrect because corepressor models (like the trp operon) are normally ON and turned OFF when the corepressor is present, not the reverse. Choice B is tempting but positive control describes activators that turn genes ON, whereas the key feature here is a repressor-based (negative control) system.",
+      "new": "C is correct because the experiment identifies a repressor that is inactivated by an inducer, analogous to allolactose acting on LacI. Simply observing expression increase after adding X would not distinguish negative control from activation; the repressor-binding evidence resolves that ambiguity.",
+      "reason": "Explain distinguishing evidence.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9850/"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 ## What's included
 
 - Responsive vector Nori beside the sidebar wordmark, on the homepage and beside the separate lesson wordmark.
-- Floating, keyboard-accessible Nori links to the existing /tutor chat. The tutor introduces itself as Nori.
+- Floating, keyboard-accessible Nori opens a non-modal chat panel on the current page. Minimize retains this conversation in memory; New chat clears it. Refresh clears the panel conversation. The separate /tutor page remains available.
 - Glossy burgundy buttons, dimensional cream cards and navy panels. Reduced-motion preferences respected.
 - Homepage streak, seven-day history, best streak, total days visited and practice goal progress.
 - A signed-in student's first submitted practice, lesson or homepage warm-up answer completes the day. Repeated answers/tabs do not increment it twice. A missed practice day breaks the current streak; best streak and visit totals persist.
@@ -22,15 +22,15 @@ Visit and streak history starts when this update is installed. Earlier login dat
 
 ## Verification
 
-Production Next.js build and TypeScript check passed. All 18 tests passed, including actual embedded PostgreSQL tests for concurrent activity updates, retries, date boundaries, student isolation, reassignment and cancellation. Question token tampering, expiry and invalid Zoom hosts are tested.
+Production Next.js build and TypeScript check passed. All 54 tests passed, including actual embedded PostgreSQL tests for concurrent activity updates, retries, date boundaries, student isolation, reassignment and cancellation. Question token tampering, expiry and invalid Zoom hosts are tested.
 
-Browser visual testing is unverified: this environment's managed launcher supplied unsupported arguments to Next.js. Live Google sign-in, production database permissions, Anthropic responses and actual Zoom meetings require a preview check with your configuration. Nothing has been deployed to your Vercel project by this update.
+Interactive browser testing is unverified: a usable browser could not be installed in this environment. Automated production-server HTTP checks passed. Live Google sign-in, production database permissions, Anthropic responses and actual Zoom meetings require a preview check with your configuration. Nothing has been deployed to your Vercel project by this update.
 
 ## Preview acceptance check
 
 1. Open the new Vercel Preview and sign in as a student. The dashboard should display Nori, a streak card and upcoming calls.
 2. Submit one question. Confirm today's check and a one-day streak; refresh and submit again to confirm it remains one day. Days visited should remain one for that date.
-3. Click floating Nori and ask a question in the tutor.
+3. Click floating Nori and ask a question without leaving the page. Test minimize/reopen and New chat.
 4. Sign in as the administrator at /admin/calls. Create a future call using a student email and a Zoom meeting URL. Sign in as that student and verify it appears under /calls; another student should not see it.
 5. Edit and cancel the appointment, and verify the student portal updates. Check the pages on a phone-sized screen.
 6. After preview acceptance, merge the feature branch into main to deploy through the existing Vercel integration.

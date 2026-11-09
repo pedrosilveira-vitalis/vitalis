@@ -100,3 +100,30 @@ body { padding-bottom: 100px; }
 @media(prefers-reduced-motion:reduce) { .nori-companion .nori-art { animation: none; } .subject-card:hover,.nav-item:hover,.nori-companion:hover { transform: none; } }
 
 .tutor-nori { width: 120px; margin: 0 auto 18px; }
+
+/* On-page chat: non-modal so students can continue using their lesson. */
+button.nori-companion { background: transparent; border: 0; padding: 0; cursor: pointer; font: inherit; }
+.nori-chat-panel { position: fixed; z-index: 60; right: 22px; bottom: 24px; width: min(410px,calc(100vw - 28px)); height: min(580px,calc(100dvh - 36px)); display: flex; flex-direction: column; color: #173247; background: #fffaf3; border: 1px solid #d9c6b5; border-radius: 24px; box-shadow: 0 18px 65px #0c1a2e40; overflow: hidden; }
+.nori-panel-header { display: flex; align-items: center; gap: 10px; padding: 18px; background: linear-gradient(120deg,#173247,#436b80); color: white; }
+.nori-panel-header > div { flex: 1; }
+.nori-panel-header strong { font-size: 19px; }
+.nori-panel-header small { display: block; opacity: .8; font-size: 12px; }
+.nori-panel-header button { border: 1px solid #ffffff60; border-radius: 10px; padding: 8px; cursor: pointer; background: #ffffff10; color: white; }
+.nori-panel-messages { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 18px; }
+.nori-panel-welcome { text-align: center; padding: 20px 8px; }
+.nori-panel-welcome .nori-art { width: 100px; margin: auto; }
+.nori-panel-welcome h2 { font-family: Georgia,serif; font-size: 25px; margin: 14px 0; }
+.nori-panel-welcome small { display: block; margin-top: 18px; opacity: .7; }
+.nori-panel-message { background: #f0e9df; border-radius: 14px; padding: 12px; margin-bottom: 12px; overflow-wrap: anywhere; }
+.nori-panel-message.user { background: #173247; color: white; margin-left: 28px; }
+.nori-panel-message.assistant { margin-right: 12px; }
+.nori-panel-message strong { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
+.nori-panel-message p { white-space: pre-wrap; font-size: 14px; line-height: 1.6; margin-top: 5px; }
+.nori-panel-form { display: flex; align-items: end; gap: 8px; border-top: 1px solid #dfd3c5; padding: 12px; }
+.nori-panel-form textarea { flex: 1; min-width: 0; resize: none; background: white; border: 1px solid #d9c6b5; border-radius: 10px; padding: 10px; font-size: 16px; color: #173247; }
+.nori-panel-form button { background: linear-gradient(#bd4966,#982540); color: white; border-radius: 10px; padding: 12px; cursor: pointer; }
+.nori-panel-form button:disabled { opacity: .5; cursor: default; }
+.nori-chat-panel button:focus-visible,.nori-panel-form textarea:focus-visible { outline: 3px solid #cc9a58; outline-offset: 2px; }
+.nori-panel-error { color: #982540; font-size: 13px; padding: 8px 16px; }
+.nori-panel-note { text-align: center; padding: 0 10px 12px; font-size: 10px; opacity: .7; }
+@media(max-width:600px) { .nori-chat-panel { right: 10px; bottom: max(10px,env(safe-area-inset-bottom)); width: calc(100vw - 20px); } }

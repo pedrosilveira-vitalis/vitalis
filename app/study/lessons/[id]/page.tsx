@@ -41,6 +41,7 @@ type Lesson = {
 };
 
 type LessonData = {
+  review?: { reviewedAt: string; sources: { title: string; url: string }[]; visual: { title: string; src: string; width: number; height: number; alt: string; caption: string } } | null;
   lesson: Lesson;
   questions: Question[];
   highlights: Highlight[];
@@ -402,6 +403,17 @@ export default function StudyLessonPage() {
           onClick={handleContentClick}
           dangerouslySetInnerHTML={{ __html: renderedContent() }}
         />
+
+        {data.review && <section className="my-10 rounded-2xl border border-[#d9c6b5] bg-[#fffaf3] p-5" aria-labelledby="lesson-visual-title">
+          <h2 id="lesson-visual-title" className="font-serif text-2xl mb-4">{data.review.visual.title}</h2>
+          <figure>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={data.review.visual.src} width={data.review.visual.width} height={data.review.visual.height} alt={data.review.visual.alt} className="w-full h-auto" loading="lazy"/>
+            <figcaption className="mt-3 text-sm">{data.review.visual.caption}</figcaption>
+            <a className="inline-block mt-3 text-sm underline" href={data.review.visual.src} target="_blank" rel="noopener noreferrer">Open full-size diagram</a>
+          </figure>
+          <details className="mt-5 text-sm"><summary className="cursor-pointer">Sources for these corrections and diagrams</summary><ul className="mt-3 space-y-2">{data.review.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer" className="underline">{source.title}</a></li>)}</ul></details>
+        </section>}
 
         {/* End-of-lesson questions */}
         <div className="mt-16 pt-10 border-t border-[#0c1a2e15]">

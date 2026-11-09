@@ -1,0 +1,252 @@
+{
+  "lessonId": 30,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "NADH produced during glycolysis can no longer be oxidized back to NAD⁺ by complex I, and the entire pool of cytosolic NAD⁺ becomes depleted within seconds.",
+      "new": "Cytosolic NADH cannot be reoxidized through oxygen-dependent shuttles as effectively. Without alternative NAD⁺ regeneration, glycolysis slows as oxidized cofactor becomes limiting; there is no universal seconds-to-depletion value.",
+      "reason": "Compartmentanduniversalclock.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "This is the *only* purpose of fermentation from the cell's perspective: **regenerate NAD⁺ so glycolysis can continue**. The fermentation reactions themselves produce no ATP directly. All ATP under anaerobic conditions comes from substrate-level phosphorylation in glycolysis (specifically at the phosphoglycerate kinase and pyruvate kinase steps).",
+      "new": "For the lactate and ethanol pathways described here, the key redox role is **regenerating NAD⁺ so glycolysis can continue**. Their post-glycolytic redox steps do not directly make ATP. Other microbial fermentations have additional ATP-producing reactions, and anaerobic respiration uses an electron-transport chain with a nonoxygen terminal acceptor. In muscle, phosphocreatine also supplies ATP rapidly.",
+      "reason": "Fermentationnotallanaerobicmetabolism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Pyruvate accepts two electrons (and two protons) from NADH",
+      "new": "Pyruvate accepts a hydride (two electrons and one proton) from NADH and another proton from solution",
+      "reason": "NADHonlyoneproton.",
+      "sourceUrl": "https://journals.physiology.org/doi/10.1152/ajpregu.00114.2004"
+    },
+    {
+      "field": "content",
+      "old": "The conversion of pyruvate to lactate is thermodynamically favorable under cellular conditions (ΔG is negative), which ensures the reaction proceeds spontaneously in the direction of NAD⁺ regeneration when NADH accumulates. The reaction is also fully reversible—under aerobic conditions or during recovery from exercise, LDH catalyzes the reverse reaction, converting lactate back to pyruvate for entry into the citric acid cycle.",
+      "new": "LDH catalyzes a reversible reaction. Direction depends on substrate/product concentrations and redox state, not directly on whether oxygen is present. High pyruvate and NADH favor lactate formation; other conditions favor lactate oxidation to pyruvate.",
+      "reason": "ActualΔGnotalwaysnegative.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557536/"
+    },
+    {
+      "field": "content",
+      "old": "When exercise intensity exceeds the capacity of the cardiovascular system to deliver oxygen—a condition reached during sprinting, heavy lifting, or any maximal-effort activity—fast-twitch (Type II) muscle fibers shift to anaerobic glycolysis coupled with lactic acid fermentation.",
+      "new": "High glycolytic flux can drive lactate formation even when oxygen is available. Oxygen-delivery limits can contribute during intense exercise, but lactate production does not prove anoxia, and oxidative metabolism continues alongside glycolysis.",
+      "reason": "Notbinaryoxygen switch.",
+      "sourceUrl": "https://journals.physiology.org/doi/10.1152/ajpregu.00114.2004"
+    },
+    {
+      "field": "content",
+      "old": "rising AMP, ADP, and Pi concentrations that allosterically activate phosphofructokinase-1 (PFK-1)",
+      "new": "energy-demand signals, including AMP and ADP effects on PFK-1",
+      "reason": "NotallPi universalallosteric.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The accumulation of H⁺ (not lactate itself) is primarily responsible for the acidification that contributes to muscle fatigue.",
+      "new": "Acidification reflects proton balance; the LDH reaction itself consumes H⁺. Muscle fatigue is multifactorial and should not be reduced to a single lactate or proton explanation.",
+      "reason": "Acidosis andfatigue.",
+      "sourceUrl": "https://journals.physiology.org/doi/10.1152/ajpregu.00114.2004"
+    },
+    {
+      "field": "content",
+      "old": "approximately 6 ATP per glucose synthesized via gluconeogenesis",
+      "new": "4 ATP plus 2 GTP, or 6 high-energy phosphate equivalents, per glucose made from two lactates",
+      "reason": "Nucleotidecounts.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "The net energy cost is subsidized by hepatic aerobic metabolism.",
+      "new": "The net whole-body cost of this cycle is four ATP equivalents (six spent, two gained), supported by hepatic fuel oxidation. Lactate can also be oxidized directly by muscle, heart and other tissues; not all lactate must return to glucose.",
+      "reason": "Netcostandalternativefates.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6684275/"
+    },
+    {
+      "field": "content",
+      "old": "LDH requires no special cofactor beyond NAD⁺.",
+      "new": "LDH uses the NADH/NAD⁺ pair; NADH is consumed in the lactate-forming direction.",
+      "reason": "Direction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557536/"
+    },
+    {
+      "field": "content",
+      "old": "Ethanol and CO₂ versus lactate (and H⁺)",
+      "new": "Ethanol and CO₂ versus lactate; lactate formation consumes H⁺ at LDH",
+      "reason": "Wrongprotonproduct.",
+      "sourceUrl": "https://journals.physiology.org/doi/10.1152/ajpregu.00114.2004"
+    },
+    {
+      "field": "content",
+      "old": "Lactate + H⁺ versus ethanol + CO₂",
+      "new": "Lactate versus ethanol + CO₂; the LDH reaction consumes H⁺",
+      "reason": "Same.",
+      "sourceUrl": "https://journals.physiology.org/doi/10.1152/ajpregu.00114.2004"
+    },
+    {
+      "field": "content",
+      "old": "None beyond NAD⁺ (lactic acid)",
+      "new": "NADH/NAD⁺ pair (lactic acid)",
+      "reason": "Same.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557536/"
+    },
+    {
+      "field": "content",
+      "old": "Yeast can tolerate ethanol concentrations up to approximately 12–15% before the accumulating ethanol becomes toxic to the organisms themselves, which is why most naturally fermented beverages fall in this range.",
+      "new": "Ethanol tolerance varies with strain and conditions; beverage alcohol concentration also depends on substrate, processing and fermentation time.",
+      "reason": "Notuniversalcutoff.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4240471/"
+    },
+    {
+      "field": "content",
+      "old": "when oxygen is available, aerobic respiration replaces fermentation.",
+      "new": "oxygen can increase respiratory ATP yield and reduce fermentation, but this is not universal. S. cerevisiae can ferment at high glucose despite oxygen availability (the Crabtree effect).",
+      "reason": "Oxygen doesnotalwayssuppress.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4240471/"
+    },
+    {
+      "field": "content",
+      "old": "Active only under aerobic conditions when NAD⁺ is available (indirectly). Under anaerobic conditions, pyruvate is shunted to fermentation rather than entering the mitochondria.",
+      "new": "PDC does not consume oxygen directly. Its flux is restricted when oxidized cofactors are not regenerated; pyruvate can also undergo other reactions, so oxygen availability is not an absolute on/off switch for transport.",
+      "reason": "PDCnotoxygenenzyme.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "why aerobic organisms consume less glucose than anaerobic ones per unit time",
+      "new": "why a particular facultative organism can lower glucose consumption after oxygen becomes available at comparable ATP demand",
+      "reason": "Withinorganismnotallorganisms.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4240471/"
+    },
+    {
+      "field": "content",
+      "old": "The retina and lens also have high rates of anaerobic glycolysis despite adequate oxygen supply in some regions.",
+      "new": "The retina and lens can show substantial lactate production despite oxygen availability; this is aerobic glycolysis, not proof that all of those tissues lack mitochondrial metabolism.",
+      "reason": "Aerobicnotanaerobicregion.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "- Glycolysis investment phase: −2 ATP\n- Substrate-level phosphorylation (PGK step): +2 ATP (×2 = 4 ATP)\n- Substrate-level phosphorylation (pyruvate kinase step): +2 ATP (×2 = 4 ATP... wait, let's be precise)\n\nTo be precise:",
+      "new": "ATP accounting for **one free glucose molecule**:",
+      "reason": "Removedraftdoublecount.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**Total net ATP under anaerobic conditions: 2 ATP per glucose**",
+      "new": "**Net for glycolysis followed by lactate/ethanol formation: 2 ATP per free glucose**",
+      "reason": "Notallanaerobicenergy.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "why fermentation is an emergency measure, not a preferred strategy",
+      "new": "the lower yield per glucose, but fermentation is also a routine strategy in many cells and organisms",
+      "reason": "ContradictsnormalRBCandyeast.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4240471/"
+    },
+    {
+      "field": "content",
+      "old": "preventing pyruvate from entering the mitochondria",
+      "new": "reducing conversion of mitochondrial pyruvate to acetyl-CoA; transport is a separate step",
+      "reason": "PDKnottransportinhibitor.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**ATP**: Inhibits PFK-1 and hexokinase, slowing glycolysis.",
+      "new": "**ATP**: Can allosterically inhibit PFK-1 at high concentration. ATP is a hexokinase substrate; glucose-6-phosphate inhibits several hexokinase isoforms, whereas glucokinase differs.",
+      "reason": "WronghexokinaseATP.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Favors the reverse reaction (lactate → pyruvate), allowing the heart to use lactate as a fuel.",
+      "new": "Has kinetic properties associated with oxidative tissues; net direction still depends on substrate/product concentrations and redox state.",
+      "reason": "Isoenzymenotequilibriumdirection.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557536/"
+    },
+    {
+      "field": "content",
+      "old": "Favors the forward reaction (pyruvate → lactate), facilitating fermentation.",
+      "new": "Has kinetic properties compatible with high glycolytic flux; it also catalyzes the reverse reaction.",
+      "reason": "Same.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557536/"
+    },
+    {
+      "field": "content",
+      "old": "LDH isoenzyme patterns in the blood are clinically used as markers of tissue damage—elevated LDH-1 in plasma suggests myocardial infarction.",
+      "new": "LDH patterns have historical diagnostic uses, but they are nonspecific and affected by hemolysis. Cardiac troponin is preferred for evaluating myocardial injury; an LDH-1 elevation alone does not diagnose infarction.",
+      "reason": "Moderndiagnosticlimits.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK557536/"
+    },
+    {
+      "field": "content",
+      "old": "When lactate accumulates in the blood faster than it can be cleared by the liver, blood pH falls below 7.35, a condition called **lactic acidosis**. Causes include:\n- Severe tissue hypoxia (septic shock, cardiac arrest, severe anemia)\n- Liver failure (impairs lactate clearance and gluconeogenesis)\n- Metformin toxicity in patients with renal insufficiency (metformin inhibits complex I, increasing NADH/NAD⁺ ratio and driving lactate production)\n- Inherited mitochondrial disorders",
+      "new": "**Hyperlactatemia** and **lactic acidosis** are related but not identical. Elevated lactate may occur without acidemia, including with adequate oxygenation. Lactic acidosis involves a metabolic acid-base disturbance associated with elevated lactate; mixed disorders can mask the expected low blood pH. Increased production and reduced clearance (including liver and kidney contributions) both matter. Causes include:",
+      "reason": "Acidemianotautomaticlactate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK470202/"
+    },
+    {
+      "field": "content",
+      "old": "Normal blood lactate is approximately 0.5–1.5 mmol/L. Lactic acidosis is defined as lactate > 4–5 mmol/L with accompanying acidemia.",
+      "new": "Reference intervals vary by assay and setting. A commonly used clinical threshold is lactate above 4 mmol/L with metabolic acidosis, but interpretation requires the full acid-base context.",
+      "reason": "Notrigidthresholdoruniversalrange.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK470202/"
+    },
+    {
+      "field": "content",
+      "old": "reflecting a shift toward anaerobic glycolysis",
+      "new": "reflecting production exceeding removal, not necessarily a sudden loss of oxygen supply",
+      "reason": "Thresholdinterpretation.",
+      "sourceUrl": "https://journals.physiology.org/doi/10.1152/ajpregu.00114.2004"
+    },
+    {
+      "field": "content",
+      "old": "Without it, glycolysis—and therefore all anaerobic ATP production—would halt within seconds.",
+      "new": "Without an adequate NAD⁺-regeneration route, glycolysis cannot continue indefinitely. This does not encompass every form of anaerobic ATP production.",
+      "reason": "Summaryuniversalerror.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.146.explanation",
+      "old": "During intense exercise, the electron transport chain cannot reoxidize NADH fast enough because oxygen is limiting. Lactate dehydrogenase converts pyruvate to lactate while simultaneously oxidizing NADH to NAD+, which is the coenzyme required by glyceraldehyde-3-phosphate dehydrogenase in glycolysis. Without this NAD+ regeneration, glycolysis would halt and no ATP could be produced anaerobically. Choice C is incorrect because lactate-to-acetyl-CoA conversion requires aerobic conditions and occurs in the liver, not actively in the exercising muscle at that moment.",
+      "new": "B is correct: LDH reduces pyruvate and regenerates cytosolic NAD⁺ for GAPDH. This sustains glycolytic ATP formation when oxidative handling cannot keep up. Lactate can be oxidized by several tissues, including muscle; its important role here is redox recycling, not a direct donation of electrons to the respiratory chain.",
+      "reason": "Originallactateoxidationonlyliverfalse.",
+      "sourceUrl": "https://journals.physiology.org/doi/10.1152/ajpregu.00114.2004"
+    },
+    {
+      "field": "questions.147.explanation",
+      "old": "The Pasteur effect describes the observation that anaerobic organisms consume glucose at a much faster rate than aerobic organisms because fermentation produces only 2 net ATP per glucose compared to approximately 30-32 ATP via oxidative phosphorylation. To maintain adequate ATP levels, glycolytic flux must increase substantially under anaerobic conditions. The Warburg effect (choice D) refers specifically to aerobic glycolysis in cancer cells, not the classic Pasteur effect observed in yeast. The Bohr effect (choice A) is unrelated to yeast metabolism.",
+      "new": "B describes the observed Pasteur effect: the same yeast culture consumes glucose faster after oxygen depletion, consistent with compensation for lower ATP yield per glucose. This does not state that every yeast always stops fermentation in oxygen; Crabtree-positive yeasts can ferment aerobically at high glucose. The other choices do not explain this experimental comparison.",
+      "reason": "Notallanaerobicorganismsandyeastexception.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4240471/"
+    },
+    {
+      "field": "questions.148.explanation",
+      "old": "The reduction of acetaldehyde to ethanol by alcohol dehydrogenase oxidizes NADH back to NAD+. This NAD+ regeneration is the critical function because glycolysis requires NAD+ as an electron acceptor at the glyceraldehyde-3-phosphate dehydrogenase step; without it, glycolysis halts and no ATP is produced. Ethanol itself is a metabolic dead end for yeast under these conditions and is not a high-energy fuel used for further ATP production (choice A). No ATP is generated in this reaction (choice D); it is purely a redox balancing step.",
+      "new": "B is correct: acetaldehyde reduction oxidizes NADH to NAD⁺ and makes no ATP directly. Yeast can later use ethanol as a respiratory carbon source under suitable conditions, but that is not the immediate redox purpose of this reaction during fermentation.",
+      "reason": "Notpermanentethanoldeadend.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4240471/"
+    },
+    {
+      "field": "questions.149.question_text",
+      "old": "A researcher compares two cell types: red blood cells (RBCs) and hepatocytes. RBCs rely entirely on anaerobic glycolysis, while hepatocytes can perform both aerobic and anaerobic metabolism. If both cell types consume glucose at the same molar rate, which outcome is expected?",
+      "new": "Mature RBCs convert free glucose to lactate, while oxygenated hepatocytes completely oxidize the same molar glucose input. Ignore side pathways for this accounting comparison. Which outcome is expected?",
+      "reason": "Specifyoxygen/completeoxidation toguaranteeB.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.149.explanation",
+      "old": "Aerobic metabolism in hepatocytes yields approximately 30-32 ATP per glucose molecule, while anaerobic glycolysis in RBCs yields only 2 net ATP per glucose. The large difference arises because oxidative phosphorylation harnesses the proton gradient generated by the electron transport chain to produce the majority of ATP. RBCs lack mitochondria entirely, so they are completely dependent on the 2 net ATP from glycolysis. Choice C incorrectly equates substrate-level phosphorylation yields with total ATP output, ignoring the enormous contribution of oxidative phosphorylation in aerobic cells.",
+      "new": "B is correct in this stated comparison: mature RBCs lack mitochondria and obtain two net ATP per free glucose through glycolysis, whereas complete oxidative metabolism conventionally yields about 30–32 ATP. Actual cellular yields and glucose fates vary; the stem specifies complete oxidation and excludes side pathways.",
+      "reason": "RBCshunt andconditions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    }
+  ]
+}

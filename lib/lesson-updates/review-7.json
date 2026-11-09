@@ -1,0 +1,383 @@
+{
+  "lessonId": 7,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Full lesson text and five questions read. Scientific corrections, quantitative scope and quiz ambiguity reviewed against linked sources. This is a targeted educational review, not exhaustive certification. MCAT question-frequency claims are not independently verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Enzymes, structural scaffolds, hormones, transport molecules, immune effectors — all are proteins",
+      "new": "Many enzymes, structural scaffolds, hormones, transport molecules and immune effectors are proteins",
+      "reason": "Not all hormones, enzymes or immune effectors are proteins.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "The reaction is a **condensation reaction** (also called a dehydration synthesis), meaning a molecule of water is released as the bond forms.",
+      "new": "The formal net reaction between free amino acids is **condensation** (water loss). This bookkeeping is not the ribosomal mechanism, which transfers a tRNA-bound peptide.",
+      "reason": "Distinguish net chemistry and biological mechanism.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "### The Reaction Mechanism",
+      "new": "### The Formal Net Reaction",
+      "reason": "Do not label net stoichiometry a mechanism.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "When the carboxyl group of the first amino acid reacts with the amino group of the second:",
+      "new": "In the formal net reaction (not spontaneous mixing in water):",
+      "reason": "Clarify activation needed.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "This process can repeat. Each addition of an amino acid releases one water molecule and extends the chain by one residue.",
+      "new": "For a linear chain of n free amino acids, the formal condensation balance loses n−1 water molecules. Translation instead uses activated tRNAs.",
+      "reason": "Avoid water-release claim in translation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "The free energy of peptide bond hydrolysis is approximately **–8 to –16 kJ/mol** under physiological conditions, meaning the reverse reaction (hydrolysis) is spontaneous.",
+      "new": "A favorable hydrolysis free-energy change does not imply a fast reaction: without catalysis, peptide-bond hydrolysis near neutral pH is very slow. The free-energy change depends on the peptide and conditions.",
+      "reason": "Remove unqualified numerical range; distinguish thermodynamics and kinetics.",
+      "sourceUrl": "https://pubs.acs.org/doi/10.1021/ja954077c"
+    },
+    {
+      "field": "content",
+      "old": "Instead, **ribosomes** couple peptide bond formation to the hydrolysis of high-energy bonds in aminoacyl-tRNA molecules.",
+      "new": "Instead, **ribosomes** transfer the growing peptide from peptidyl-tRNA to the amino group of an incoming aminoacyl-tRNA. This ester aminolysis releases deacylated tRNA, not water.",
+      "reason": "Correct mechanism.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "The activation of each amino acid by attachment to its tRNA (catalyzed by **aminoacyl-tRNA synthetase**) consumes **2 ATP equivalents**",
+      "new": "The activation of each amino acid by attachment to its tRNA (catalyzed by **aminoacyl-tRNA synthetase**) uses one ATP and expends **two high-energy phosphate-bond equivalents**",
+      "reason": "Distinguish one ATP molecule from two ATP-equivalent bonds.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "The ribosome then catalyzes the actual peptide bond formation using the energy stored in the aminoacyl-tRNA ester bond, making the overall process thermodynamically favorable.",
+      "new": "The activated ester linkage supports peptide transfer. Elongation also consumes GTP in delivery and translocation steps; tRNA charging is not the entire energy cost of translation.",
+      "reason": "Clarify total translation cost.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9849/"
+    },
+    {
+      "field": "content",
+      "old": "the carbonyl carbon (Cα₁)",
+      "new": "the carbonyl carbon (C₁)",
+      "reason": "Correct atom label.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "The only bonds that *can* rotate freely are:",
+      "new": "The main backbone conformational variables are rotations about the following bonds; steric constraints still limit their allowed angles:",
+      "reason": "Rotation is not free of energetic constraints.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "Glycine, lacking a side chain,",
+      "new": "Glycine, whose R group is hydrogen,",
+      "reason": "Glycine has a hydrogen side chain.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "Approximately **99.95%** of peptide bonds in proteins are trans.",
+      "new": "Non-proline peptide bonds are overwhelmingly trans; X–Pro bonds have a much higher cis frequency.",
+      "reason": "Separate proline frequency.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12102755/"
+    },
+    {
+      "field": "content",
+      "old": "the energy difference between cis and trans configurations is much smaller (~4 kJ/mol vs. ~20 kJ/mol for other residues). Roughly **5–10%**",
+      "new": "the energy difference between cis and trans configurations is smaller and depends on context. Roughly **5%**",
+      "reason": "Avoid universal energy values and unqualified frequency.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12102755/"
+    },
+    {
+      "field": "content",
+      "old": "which is often the rate-limiting step in protein folding",
+      "new": "which can be a slow step in protein folding",
+      "reason": "Not universal rate limitation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12102755/"
+    },
+    {
+      "field": "content",
+      "old": "Every polypeptide chain has inherent directionality. The end retaining",
+      "new": "A linear polypeptide has N-to-C directionality, even if its termini are chemically modified. For an unmodified chain, the end retaining",
+      "reason": "Cyclic peptides and blocked termini exceptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "each unit has lost a water molecule compared to the free amino acid",
+      "new": "residue masses use free-amino-acid masses minus H₂O, with one H₂O added back for an unmodified linear chain",
+      "reason": "Formal mass accounting not per-step mechanism.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "plus 18 Da for the single water molecule that caps the termini",
+      "new": "plus about 18 Da to account for the terminal H and OH groups",
+      "reason": "No physical water molecule caps termini.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "and it is entirely encoded in the gene",
+      "new": "while splicing, processing and modifications can change the mature protein relative to the initially translated chain",
+      "reason": "Qualify mature primary structure.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "a *complete specification* of the protein's biological identity",
+      "new": "a major determinant of the protein's structural and functional properties",
+      "reason": "Environment, partners and modifications matter.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "field": "content",
+      "old": "This proved that *all the information needed for folding is contained within the primary structure itself*.",
+      "new": "This supported sequence-dependent folding **in an appropriate environment**. It does not mean every protein folds unaided or has one structure under all conditions.",
+      "reason": "Anfinsen hypothesis is environment dependent.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "field": "content",
+      "old": "always the initiating residue (start codon AUG)",
+      "new": "the usual initiating residue in cytosolic eukaryotic translation (typically AUG); it may be removed later",
+      "reason": "Qualify biological scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "**Asparagine** (Asn, N) and **Glutamine** (Gln, Q): amide-containing; N-linked and O-linked glycosylation sites",
+      "new": "**Asparagine** (Asn, N) and **Glutamine** (Gln, Q): neutral amide side chains; common N-linked glycans attach to Asn, while common O-linked glycans attach to Ser/Thr",
+      "reason": "Correct modification residues.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK579908/"
+    },
+    {
+      "field": "content",
+      "old": "### Positively Charged (Basic) Side Chains (at pH 7.4)",
+      "new": "### Basic Side Chains (Histidine Is Mostly Neutral at pH 7.4)",
+      "reason": "Heading must match charge.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "always positively charged",
+      "new": "predominantly positive at pH 7.4",
+      "reason": "Avoid pH-independent claim.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "- α-COOH (backbone): ~2.0\n- α-NH₃⁺ (backbone): ~9.0–10.5",
+      "new": "- Free α-COOH or C-terminus: roughly 2–4, context dependent\n- Free α-NH₃⁺: roughly 9–10.5; N-terminal pKa values vary\n- Internal peptide amides do not titrate like these free groups",
+      "reason": "Prevent assigning free amino acid charges to every residue.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "Lys, Arg, and (mostly) His are positively charged.",
+      "new": "Lys and Arg are predominantly positive, while His is mostly neutral with a side-chain pKa near 6.0.",
+      "reason": "Fix histidine charge.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "Adds two negative charges at physiological pH.",
+      "new": "Usually adds substantial negative charge (often approximately −2); the exact average depends on phosphate pKa and environment.",
+      "reason": "Avoid universal integer phosphate charge.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "Does not occur in the reducing cytoplasm.",
+      "new": "Stable structural disulfides are generally disfavored in the reducing cytoplasm, but transient redox-regulatory disulfides occur.",
+      "reason": "Cytoplasmic disulfides are documented.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15031298/"
+    },
+    {
+      "field": "content",
+      "old": "targets proteins for proteasomal degradation.",
+      "new": "can target proteins for proteasomal degradation, but other ubiquitin patterns regulate signaling and trafficking.",
+      "reason": "Ubiquitination is not exclusively degradation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1276169/"
+    },
+    {
+      "field": "content",
+      "old": "Each of these modifications is ultimately dictated by the primary structure — the sequence determines which residues are accessible, which are recognized by modifying enzymes, and which can form the relevant chemical bonds.",
+      "new": "Sequence helps determine potential modification sites. Actual modification also depends on folding, enzyme access, localization and cellular conditions.",
+      "reason": "Avoid sequence-only determinism.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "field": "content",
+      "old": "**Peptide bond formation**: Know that it is a condensation reaction releasing water, that it requires energy input (via aminoacyl-tRNA), and that the ribosome is the catalyst.",
+      "new": "**Peptide bond formation**: Separate formal water loss from ribosomal transfer between activated tRNAs.",
+      "reason": "Maintain consistency.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "**Anfinsen's experiment**: Primary structure contains all information needed for folding.",
+      "new": "**Anfinsen's experiment**: Sequence specifies folding under suitable environmental conditions.",
+      "reason": "Qualify folding inference.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "field": "content",
+      "old": "Acid hydrolysis (6 M HCl, 110°C) cleaves all peptide bonds non-selectively.",
+      "new": "Prolonged strong-acid hydrolysis (commonly 6 M HCl at 110°C) broadly cleaves peptide bonds, but can destroy or alter some amino acids.",
+      "reason": "Analytical hydrolysis has limitations.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-5-amino-acid-analysis-of-peptides"
+    },
+    {
+      "field": "content",
+      "old": "A polypeptide with n amino acids has exactly **n–1 peptide bonds** and releases **n–1 water molecules** during synthesis.",
+      "new": "An unmodified linear chain of n residues has **n−1 backbone peptide bonds** and a mass equal to the sum of n free amino acids minus **(n−1) × 18.015 Da**. This is a formal balance, not water release by the ribosome.",
+      "reason": "Scope count and mass accounting.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "Proline disrupts α-helices and β-sheets because its cyclic structure fixes the φ angle and eliminates the backbone N–H needed for hydrogen bonding.",
+      "new": "Internal proline often interrupts regular helices or sheets because its ring restricts φ and its peptide nitrogen lacks an N–H donor. It can still occur at selected structural positions.",
+      "reason": "Proline does not universally forbid helices.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "The peptide bond is formed by a condensation reaction between the α-carboxyl group of one amino acid and the α-amino group of another, releasing water. In cells, this reaction is driven forward by coupling to the hydrolysis of aminoacyl-tRNA ester bonds on the ribosome, which itself is a ribozyme.",
+      "new": "A peptide bond joins a carboxyl-derived carbonyl to an amino nitrogen. Free-amino-acid condensation formally loses water, whereas ribosomal ester aminolysis releases deacylated tRNA.",
+      "reason": "Correct summary.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "It encodes all the information necessary for the protein to fold into its functional three-dimensional shape, as demonstrated by Anfinsen's refolding experiments.",
+      "new": "Anfinsen's refolding experiments show that sequence can specify native folding under suitable conditions; environment, partners and modifications also matter.",
+      "reason": "Scope summary.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "field": "questions.31.question_text",
+      "old": "During peptide bond formation between two amino acids,",
+      "new": "In the formal net condensation of two free amino acids to a dipeptide,",
+      "reason": "Limit question to net reaction.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "questions.31.choice_b",
+      "old": "The amino group of one amino acid attacks the carboxyl group of another, releasing water.",
+      "new": "A carboxyl-derived carbonyl links to an amino nitrogen, with net loss of H₂O.",
+      "reason": "Avoid mechanistic claim for unactivated mixture.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "questions.31.explanation",
+      "old": "Peptide bond formation is a condensation (dehydration) reaction in which the alpha-amino group of one amino acid acts as a nucleophile and attacks the alpha-carboxyl group of another amino acid, releasing one molecule of water. The product is a dipeptide linked by an amide (peptide) bond. Choice A is incorrect because amino groups do not react with each other in peptide bond formation, and ammonia is not the byproduct.",
+      "new": "The formal condensation balance is two free amino acids → dipeptide + water. It identifies the participating functional groups, not spontaneous synthesis in water. Ribosomes instead use activated tRNAs and release deacylated tRNA during peptide transfer.",
+      "reason": "Consistent explanation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "questions.32.choice_c",
+      "old": "The peptide bond is longer than a typical C=O double bond",
+      "new": "The C–N bond becomes longer than an ordinary C–N single bond",
+      "reason": "Original distractor is physically true though not direct comparison.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK6824/"
+    },
+    {
+      "field": "questions.32.explanation",
+      "old": "oxygen, nitrogen, and the two adjacent alpha-carbons (six atoms total)",
+      "new": "oxygen, nitrogen, its hydrogen, and the two adjacent alpha-carbons (six atoms total)",
+      "reason": "Missing sixth atom.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "questions.35.question_text",
+      "old": "despite being an amine",
+      "new": "despite containing nitrogen",
+      "reason": "Amide is not an amine.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/24-3-basicity-of-amines"
+    },
+    {
+      "field": "questions.35.explanation",
+      "old": "This delocalization significantly reduces the electron density on nitrogen, lowering its basicity (pKa near 0) so it remains unprotonated at physiological pH.",
+      "new": "Amide resonance reduces nitrogen basicity, so a peptide nitrogen normally remains neutral at physiological pH; do not confuse this with the pKa of a free amino group.",
+      "reason": "Remove ambiguous conjugate-acid pKa assignment.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/24-3-basicity-of-amines"
+    },
+    {
+      "field": "questions.34.explanation",
+      "old": "The primary structure (amino acid sequence) encodes all the information needed for a protein to fold into its unique three-dimensional conformation, which in turn determines function.",
+      "new": "Under comparable conditions, sequence strongly influences folding and the spatial arrangement of functional groups.",
+      "reason": "Qualify uniqueness.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NCBI: Shape and structure of proteins",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "title": "Peptidyl transferase mechanism",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "title": "Radzicka and Wolfenden: Peptide hydrolysis kinetics",
+      "url": "https://pubs.acs.org/doi/10.1021/ja954077c"
+    },
+    {
+      "title": "",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9849/"
+    },
+    {
+      "title": "Cis-nonproline peptides: occurrences and roles",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12102755/"
+    },
+    {
+      "title": "Anfinsen: Nobel lecture",
+      "url": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "title": "Essentials of Glycobiology: Glycan-processing enzymes",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK579908/"
+    },
+    {
+      "title": "OpenStax: Amino acid charge",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "title": "Cytoplasmic disulfide formation during oxidative stress",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15031298/"
+    },
+    {
+      "title": "",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1276169/"
+    },
+    {
+      "title": "26 5 amino acid analysis of peptides",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-5-amino-acid-analysis-of-peptides"
+    },
+    {
+      "title": "",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK6824/"
+    },
+    {
+      "title": "OpenStax: Basicity of amines",
+      "url": "https://openstax.org/books/organic-chemistry/pages/24-3-basicity-of-amines"
+    }
+  ]
+}

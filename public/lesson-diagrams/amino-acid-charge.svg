@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="740" viewBox="0 0 800 740" role="img" aria-labelledby="title desc">
+<title id="title">Amino acids: charge, isoelectric point and electrophoresis</title><desc id="desc">Three diagrams show predominant glycine protonation states, histidine charge states and which pKa values determine pI, and the direction of electrophoresis.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6" fill="#a8324a"/></marker></defs>
+<rect width="800" height="740" rx="22" fill="#fffaf3"/>
+<g font-family="Arial,sans-serif" fill="#173247">
+<text x="30" y="38" font-size="22" font-weight="700">01 / As pH rises, protons leave</text>
+<text x="30" y="65" font-size="15">Glycine · schematic predominant forms, not a titration curve</text>
+<g fill="#f0e7dc" stroke="#d9c6b5"><rect x="30" y="88" width="210" height="130" rx="14"/><rect x="295" y="88" width="210" height="130" rx="14"/><rect x="560" y="88" width="210" height="130" rx="14"/></g>
+<g text-anchor="middle"><text x="135" y="117" font-size="15">LOW pH</text><text x="400" y="117" font-size="15">INTERMEDIATE pH</text><text x="665" y="117" font-size="15">HIGH pH</text>
+<g font-size="21"><text x="135" y="155">H₃N⁺—CH₂—COOH</text><text x="400" y="155">H₃N⁺—CH₂—COO⁻</text><text x="665" y="155">H₂N—CH₂—COO⁻</text></g>
+<g font-size="17" font-weight="700"><text x="135" y="190">Net +1</text><text x="400" y="190">Net 0 · zwitterion</text><text x="665" y="190">Net −1</text></g></g>
+<g stroke="#a8324a" stroke-width="2" marker-end="url(#arrow)"><path d="M244 158 H287"/><path d="M509 158 H552"/></g>
+<g font-size="13" text-anchor="middle"><text x="267" y="143">−H⁺</text><text x="532" y="143">−H⁺</text><text x="267" y="243">pKa₁ ≈ 2.34</text><text x="532" y="243">pKa₂ ≈ 9.60</text></g>
+<text x="400" y="274" text-anchor="middle" font-size="18">Glycine pI ≈ (2.34 + 9.60) / 2 = 5.97</text>
+<path d="M30 295 H770" stroke="#d9c6b5"/>
+<text x="30" y="331" font-size="22" font-weight="700">02 / Find the neutral species first</text>
+<text x="30" y="359" font-size="15">Histidine · charge falls by one each time a proton is lost</text>
+<g text-anchor="middle" font-size="26" font-weight="700"><text x="110" y="411">+2</text><text x="300" y="411">+1</text><rect x="447" y="378" width="86" height="53" rx="12" fill="#f7d7c1"/><text x="490" y="411">0</text><text x="690" y="411">−1</text></g>
+<g stroke="#a8324a" stroke-width="2" marker-end="url(#arrow)"><path d="M147 403 H259"/><path d="M338 403 H438"/><path d="M542 403 H650"/></g>
+<g text-anchor="middle" font-size="16"><text x="205" y="382">pKa ≈ 1.8</text><text x="390" y="382">pKa ≈ 6.0</text><text x="596" y="382">pKa ≈ 9.2</text></g>
+<path d="M390 426 V451 H596 V426" stroke="#a8324a" stroke-width="2" fill="none"/>
+<text x="493" y="480" text-anchor="middle" font-size="19" font-weight="700">pI ≈ (6.0 + 9.2) / 2 = 7.6</text>
+<path d="M30 502 H770" stroke="#d9c6b5"/>
+<text x="30" y="541" font-size="22" font-weight="700">03 / Opposite charges attract</text>
+<text x="30" y="570" font-size="15">Electrophoresis · compare the buffer pH with the molecule’s pI</text>
+<rect x="30" y="593" width="163" height="92" rx="12" fill="#173247"/><rect x="607" y="593" width="163" height="92" rx="12" fill="#a8324a"/>
+<g text-anchor="middle"><g fill="white" font-size="20"><text x="111" y="626">Cathode (−)</text><text x="688" y="626">Anode (+)</text></g><g fill="white" font-size="14"><text x="111" y="655">negative electrode</text><text x="688" y="655">positive electrode</text></g>
+<text x="295" y="620" font-size="16">pH &lt; pI: positive</text><text x="505" y="620" font-size="16">pH &gt; pI: negative</text></g>
+<g stroke="#a8324a" stroke-width="3" marker-end="url(#arrow)"><path d="M373 643 H207"/><path d="M427 643 H593"/></g>
+<text x="400" y="716" text-anchor="middle" font-size="15">At pH = pI: zero average net charge → no net electrophoretic migration</text>
+</g></svg>

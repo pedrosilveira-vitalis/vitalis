@@ -1,0 +1,336 @@
+{
+  "lessonId": 27,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "1 FADH₂ (at succinate dehydrogenase)",
+      "new": "1 FADH₂ equivalent (bound FAD relays electrons to ubiquinone at succinate dehydrogenase)",
+      "reason": "Bound flavin is not released.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "1 GTP (at succinyl-CoA synthetase)",
+      "new": "1 GTP or ATP (at succinyl-CoA synthetase, depending on isoenzyme)",
+      "reason": "Isoenzyme specificity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "This is the first committed step of the cycle, making it a logical control point.",
+      "new": "This is an entry/control step, but citrate can also leave for biosynthesis; citrate formation does not commit acetyl carbon to complete oxidation.",
+      "reason": "Entry versus committed oxidation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**Inhibitors of citrate synthase:**\n\n- **ATP** — high ATP signals that the cell has sufficient energy; inhibiting the entry point of the cycle prevents unnecessary NADH production.\n- **NADH** — accumulation of NADH indicates that reducing equivalents are already abundant and the electron transport chain may be saturated.\n- **Succinyl-CoA** — a downstream intermediate that signals the cycle is already running and product is accumulating.\n- **Citrate** — product inhibition; high citrate directly inhibits the enzyme that makes it.\n\n**Activators of citrate synthase:**\n\n- **AMP and ADP** — low energy charge; the cell needs more ATP production.\n- **Oxaloacetate** — as a substrate, increased oxaloacetate availability drives the reaction forward by mass action.\n\n",
+      "new": "**Control of citrate synthase:**\n\nFlux depends on acetyl-CoA and oxaloacetate availability and on product inhibition, including citrate and succinyl-CoA. ATP, ADP and NADH effects vary by species, enzyme preparation and concentrations; do not memorize one universal allosteric list for all citrate synthases. Oxaloacetate is a substrate, so an increased rate after adding it does not by itself demonstrate allosteric activation.\n\n",
+      "reason": "Separate substrate, product and species-dependent nucleotide effects.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1172380/"
+    },
+    {
+      "field": "content",
+      "old": "**Isocitrate dehydrogenase (IDH)** catalyzes",
+      "new": "**Mitochondrial NAD-dependent isocitrate dehydrogenase (IDH3)** catalyzes",
+      "reason": "Specify isoform.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/2818760/"
+    },
+    {
+      "field": "content",
+      "old": "This is considered the *rate-limiting step* of the cycle under most physiological conditions and represents the most important regulatory point.",
+      "new": "This is an important regulated step. Control of whole-cycle flux is distributed and depends on tissue and metabolic state; there is no universal single rate-limiting enzyme.",
+      "reason": "Avoid unqualified rate-limiting claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "(as well as α-ketoglutarate dehydrogenase and pyruvate dehydrogenase)",
+      "new": "(as well as α-ketoglutarate dehydrogenase; PDC activation occurs through calcium-sensitive PDP1)",
+      "reason": "PDC calcium target.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9651365/"
+    },
+    {
+      "field": "content",
+      "old": "- **NAD⁺** — high NAD⁺ availability promotes the forward reaction.",
+      "new": "- **NAD⁺ supply** — this is cosubstrate availability, distinct from allosteric activation.",
+      "reason": "Cosubstrate versus effector.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "which is why it serves as a committed step within the cycle",
+      "new": "making it a useful control point",
+      "reason": "Irreversibility not synonymous with commitment.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "these mutant enzymes produce **2-hydroxyglutarate**",
+      "new": "these mutant enzymes reduce α-ketoglutarate to **D-2-hydroxyglutarate using NADPH**",
+      "reason": "Neomorphic substrate and stereochemistry.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/2818760/"
+    },
+    {
+      "field": "content",
+      "old": "- **ATP** — high energy charge.",
+      "new": "- **Energy status** — ATP/ADP effects depend on experimental context; ATP is not a direct product of this reaction.",
+      "reason": "Product distinction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "- **AMP** — low energy charge.",
+      "new": "- **Energy demand** — do not assume a universal direct AMP activation mechanism.",
+      "reason": "Avoid unsupported direct effector.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "- **CoA** — substrate availability drives the reaction forward.",
+      "new": "- **CoA supply** — availability of a substrate, not proof of allosteric activation.",
+      "reason": "Substrate distinction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The three regulated enzymes share a common theme: they are inhibited by products of high metabolic activity (NADH, succinyl-CoA, ATP, citrate) and activated by signals of energy deficit (ADP, AMP) or increased substrate availability (Ca²⁺ in muscle). This creates a **feedback inhibition** architecture. When the cell is energy-rich, the cycle slows; when the cell is energy-poor, the cycle accelerates. This is fundamentally different from hormonal regulation (which is slower and systemic) and represents intrinsic, moment-to-moment metabolic control.",
+      "new": "Control reflects products, substrate supply and energy demand, but each enzyme has its own responses. Calcium is a signal, not a carbon substrate. Hormones can also act rapidly through signaling and covalent modification; hormonal regulation is not necessarily slower than metabolic regulation.",
+      "reason": "Incorrect universal regulators and timing.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "[ATP + ½ADP] / [ATP + ADP + AMP]",
+      "new": "([ATP] + ½[ADP]) / ([ATP] + [ADP] + [AMP])",
+      "reason": "Concentration notation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "a pathway that functions in both catabolic and anabolic directions",
+      "new": "a pathway serving both catabolic and anabolic roles, not necessarily running every reaction in reverse",
+      "reason": "Amphibolic not reversible.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "This is the key regulated step of gluconeogenesis",
+      "new": "This is one regulated bypass reaction of gluconeogenesis",
+      "reason": "Multiple controls.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "(as a nitrogen donor in CPS II and as a carbon/nitrogen donor in the synthesis of the pyrimidine ring)",
+      "new": "(as a carbon/nitrogen donor to the pyrimidine ring; CPS II instead uses the amide nitrogen of glutamine)",
+      "reason": "Wrong CPS II nitrogen donor.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8662713/"
+    },
+    {
+      "field": "content",
+      "old": "**Succinyl-CoA** is the precursor for:",
+      "new": "**Succinyl-CoA** links biosynthesis with replenishment:",
+      "reason": "Odd-chain catabolism supplies rather than consumes it.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "This is why patients with porphyrias or lead poisoning (which inhibits ALA dehydratase and ferrochelatase) accumulate ALA and other porphyrin precursors.",
+      "new": "Lead inhibits ALA dehydratase and ferrochelatase. Which precursors accumulate in a porphyria depends on the defective enzyme; ALA accumulation is not universal.",
+      "reason": "Porphyria heterogeneity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**Odd-chain fatty acid catabolism** —",
+      "new": "**Replenishment from odd-chain fatty acids** —",
+      "reason": "Direction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "**Fumarate** is produced in the urea cycle (by argininosuccinate lyase) and in purine synthesis (by adenylosuccinate lyase). This means the urea cycle and the citric acid cycle are physically coupled—fumarate produced in the cytoplasm (urea cycle) enters the mitochondria and feeds into the TCA cycle, while OAA from the TCA cycle supports aspartate synthesis for the urea cycle. This interconnection is called the **urea cycle–TCA cycle interface** or the **Krebs bicycle**.",
+      "new": "**Fumarate** is produced by argininosuccinate lyase in the urea cycle and by adenylosuccinate lyase in purine metabolism. In the aspartate–argininosuccinate shunt, cytosolic fumarate can become malate and then OAA, which can be transaminated to aspartate. Malate transport also links cytosolic and mitochondrial metabolism. Do not imply that cytosolic fumarate must directly enter mitochondria for this connection.",
+      "reason": "Compartments and shuttle route.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Pyruvate + CO₂ + ATP → Oxaloacetate + ADP + Pᵢ",
+      "new": "Pyruvate + HCO₃⁻ + ATP → Oxaloacetate + ADP + Pᵢ (biochemical shorthand)",
+      "reason": "Bicarbonate is substrate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "This reaction is reversible and can either drain OAA (cataplerotic) or replenish it (anaplerotic) depending on cellular conditions.",
+      "new": "This reversible reaction interconverts OAA and α-KG while transferring nitrogen. Net replenishment requires external carbon input and appropriate coupled reactions; transamination alone exchanges one cycle intermediate for another.",
+      "reason": "Net intermediate pool accounting.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "elevated serum AST and ALT indicate hepatocellular damage (the enzymes leak from injured liver cells) and are standard markers of liver disease",
+      "new": "elevated serum AST and ALT can indicate hepatocellular injury, but they are not specific proof of liver disease; AST also occurs in other tissues",
+      "reason": "Not diagnostic alone.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Glutamate + NAD⁺ ⇌ α-KG + NH₄⁺ + NADH",
+      "new": "Glutamate + NAD(P)⁺ + H₂O ⇌ α-KG + NH₄⁺ + NAD(P)H + H⁺",
+      "reason": "GDH cofactor options and water.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "and is quantitatively significant in ruminants and humans consuming odd-chain fats",
+      "new": "; its quantitative contribution depends on diet, tissue and amino-acid turnover",
+      "reason": "Avoid unsupported magnitude.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "virtually any carbon source can be used for energy, and that the cycle intermediates can be used to synthesize virtually any biomolecule",
+      "new": "many usable fuels converge on shared intermediates; humans still require essential nutrients and cannot synthesize every biomolecule from these intermediates",
+      "reason": "No universal carbon utilization.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "from chronic alcoholism",
+      "new": "associated with alcohol use disorder or other causes of severe thiamine deficiency",
+      "reason": "Other etiologies.",
+      "sourceUrl": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+    },
+    {
+      "field": "content",
+      "old": "which is why thiamine deficiency impairs both oxidative metabolism and nucleotide synthesis",
+      "new": "illustrating its roles in oxidative metabolism and nonoxidative pentose-phosphate interconversions; nucleotide synthesis is not wholly dependent on transketolase",
+      "reason": "Ribose oxidative pathway.",
+      "sourceUrl": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+    },
+    {
+      "field": "content",
+      "old": "Cancer cells often exhibit the **Warburg effect**: preferential use of aerobic glycolysis (glucose → lactate even in the presence of oxygen) rather than full oxidative phosphorylation. Part of the explanation involves the amphibolic role of the TCA cycle: rapidly dividing cells need biosynthetic precursors (acetyl-CoA for lipids, α-KG for amino acids, OAA for aspartate and nucleotides) more than they need maximal ATP. By running the cycle in a biosynthetic mode and relying on glycolysis for ATP, cancer cells satisfy both needs. Mutations in IDH1/IDH2 and succinate dehydrogenase (SDH) and fumarate hydratase (FH) that impair the cycle are found in specific cancers, and the accumulation of succinate and fumarate in SDH/FH-deficient tumors inhibits prolyl hydroxylases, stabilizing **HIF-1α** and promoting a pseudo-hypoxic, pro-angiogenic phenotype.",
+      "new": "Many cancer cells increase lactate production despite oxygen availability (the Warburg effect), yet can retain substantial mitochondrial ATP production. TCA intermediates support biosynthesis, and glutamine or other carbon sources can replenish them. Mutant NADP-dependent IDH1/2 produces D-2-HG rather than simply blocking IDH3. SDH or FH loss can cause succinate or fumarate accumulation and altered signaling. Cancer metabolism is heterogeneous, so aerobic glycolysis does not establish that mitochondria are inactive.",
+      "reason": "Avoid universal tumor energy model.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5130031/"
+    },
+    {
+      "field": "content",
+      "old": "**2. Allosteric regulation:** As detailed above, citrate synthase, IDH, and α-KGDH are allosterically regulated by ATP, ADP, AMP, NADH, Ca²⁺, and their own substrates and products.",
+      "new": "**2. Enzyme-specific regulation:** IDH3 responds to ADP, NADH, ATP and calcium; α-KGDH responds to products and calcium. Citrate-synthase regulation is species- and condition-dependent. Substrate concentration effects must be distinguished from allostery.",
+      "reason": "Remove universal allosteric list.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1172380/"
+    },
+    {
+      "field": "content",
+      "old": "**PDH phosphatase** (activated by Ca²⁺ and insulin)",
+      "new": "**PDH phosphatase** (PDP1 is calcium-sensitive; insulin effects are tissue-dependent)",
+      "reason": "Isoforms.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9651365/"
+    },
+    {
+      "field": "content",
+      "old": "- **Metformin** (used in type 2 diabetes) inhibits complex I of the electron transport chain, raising the AMP/ATP ratio and activating AMPK. This indirectly affects cycle flux by altering energy charge and reducing gluconeogenesis (which depends on OAA availability).",
+      "new": "- **Metformin** can inhibit respiration and alter energy status in experimental systems. Dose, exposure time and tissue matter; a single Complex-I→AMPK pathway should not be presented as a complete explanation of its clinical action.",
+      "reason": "Mechanism context.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10839993/"
+    },
+    {
+      "field": "content",
+      "old": "- **Succinic acid** analogs are used as anticonvulsants (e.g., ethosuximide acts on T-type Ca²⁺ channels, not the cycle directly, but the structural analogy is tested).",
+      "new": "- **Distinguish structural names from metabolic roles:** a drug’s resemblance to a metabolite does not establish that it regulates the cycle.",
+      "reason": "Unsubstantiated exam drug analogy removed.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "isocitrate dehydrogenase (rate-limiting)",
+      "new": "NAD-dependent isocitrate dehydrogenase (regulated IDH3)",
+      "reason": "Summary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "- **Inhibitors (all three):** NADH, ATP, succinyl-CoA (for CS and α-KGDH); citrate (for CS)",
+      "new": "- **Regulation:** identify the particular enzyme and distinguish product inhibition, substrate supply and allostery.",
+      "reason": "No all-three generalization.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1172380/"
+    },
+    {
+      "field": "content",
+      "old": "- **Activators:** ADP/AMP, Ca²⁺, NAD⁺",
+      "new": "- **Signals:** ADP and calcium can stimulate appropriate enzymes; NAD⁺ is a cosubstrate.",
+      "reason": "Summary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "3 NADH, 1 FADH₂, 1 GTP, 2 CO₂ ≈ 10 ATP equivalents",
+      "new": "3 NADH, 1 QH₂ equivalent, 1 GTP/ATP, 2 CO₂ ≈ 10 ATP equivalents",
+      "reason": "Summary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.131.question_text",
+      "old": "A researcher treats isolated mitochondria with a compound that causes ATP levels to rise sharply while ADP levels fall. Which of the following effects on the citric acid cycle would be most expected?",
+      "new": "In an assay of mammalian NAD-dependent IDH3, ADP concentration is reduced while substrates, NADH and other effectors are held constant. What is the most direct expected effect?",
+      "reason": "Remove inferred unmeasured effectors.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.131.explanation",
+      "old": "Isocitrate dehydrogenase is allosterically activated by ADP and inhibited by ATP and NADH. When ATP rises and ADP falls, the enzyme loses its activator and gains an inhibitor, slowing the cycle. Choice D is partially correct in that NADH inhibits alpha-ketoglutarate dehydrogenase, but the question specifically describes a rise in ATP/fall in ADP, making the isocitrate dehydrogenase effect the most direct and expected consequence of this energetic shift.",
+      "new": "B is correct: reduced ADP removes an activator of IDH3. A states the wrong regulatory direction; C and D introduce enzymes or metabolite changes not manipulated in this assay.",
+      "reason": "Consistent controlled experiment.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.132.explanation",
+      "old": "Anaplerotic reactions refill depleted citric acid cycle intermediates. Pyruvate carboxylase converts pyruvate and CO2 into oxaloacetate using ATP, directly replenishing the withdrawn intermediate. Acetyl-CoA from beta-oxidation cannot net-produce oxaloacetate because its two carbons are fully lost as CO2 in the cycle, making choice A incorrect. Choice C is tempting but simply increasing citrate synthase activity does not create new oxaloacetate; it would only further deplete the already-low pool.",
+      "new": "B is correct: pyruvate carboxylase uses bicarbonate and ATP to replenish OAA. Acetyl-CoA entry does not create a net gain of cycle intermediates: two carbons enter and two leave per turn, although newly entering acetyl carbons survive the first turn. Increasing citrate synthase cannot by itself replace withdrawn OAA.",
+      "reason": "Carbon count not identity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.133.explanation",
+      "old": "Alpha-ketoglutarate demonstrates amphibolic function by serving catabolism (oxidative decarboxylation by alpha-ketoglutarate dehydrogenase to succinyl-CoA and NADH) and anabolism (transamination to form glutamate, a precursor for many amino acids and nucleotide biosynthesis). Choice C incorrectly links alpha-ketoglutarate to citrate formation, which involves oxaloacetate and acetyl-CoA, not alpha-ketoglutarate. The transamination pathway is a classic example of how the cycle feeds biosynthetic needs.",
+      "new": "B illustrates both roles: α-KG oxidation supports energy metabolism, while transamination forms glutamate for nitrogen metabolism and biosynthesis. The existence of reductive carboxylation in some settings does not make C a correct pair: fumarate is produced by the urea cycle rather than entering it as stated.",
+      "reason": "Do not deny possible reductive citrate synthesis.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.134.question_text",
+      "old": "In a cell with high concentrations of NADH, succinyl-CoA, and ATP, which citric acid cycle enzyme would be subject to the GREATEST degree of product inhibition or allosteric inhibition simultaneously?",
+      "new": "NADH and succinyl-CoA accumulate. Which enzyme produces both of these molecules in its own reaction and can therefore undergo product inhibition by both?",
+      "reason": "Greatest inhibition cannot rank without kinetic data.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.134.explanation",
+      "old": "Alpha-ketoglutarate dehydrogenase is inhibited by both of its direct products, NADH and succinyl-CoA, making it subject to product inhibition from both elevated species described. Isocitrate dehydrogenase is inhibited by NADH and ATP but not succinyl-CoA. Citrate synthase is inhibited by NADH, ATP, and citrate, but citrate is not listed among the elevated compounds. Therefore, alpha-ketoglutarate dehydrogenase faces the most complete inhibitory environment given the conditions stated.",
+      "new": "C is correct: α-ketoglutarate dehydrogenase produces succinyl-CoA, CO₂ and NADH. Both named products can inhibit it. The question identifies direct products; it does not rank total inhibition across different enzymes without kinetic data.",
+      "reason": "Remove invalid quantitative inference.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.135.question_text",
+      "old": "A patient with a deficiency in the enzyme that converts succinyl-CoA to succinate would most likely exhibit impaired synthesis of which of the following molecules?",
+      "new": "A cell has markedly reduced mitochondrial ALA synthase activity, with substrates otherwise available. Synthesis of which molecule is most directly impaired?",
+      "reason": "Original consumption defect does not imply reduced substrate supply.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.135.explanation",
+      "old": "Succinyl-CoA is a key anabolic precursor for heme biosynthesis; it condenses with glycine via delta-aminolevulinic acid synthase to begin porphyrin ring formation. A deficiency in succinyl-CoA synthetase would reduce succinyl-CoA availability, impairing this pathway. Choice A is incorrect because cholesterol synthesis uses acetyl-CoA via the mevalonate pathway, not succinyl-CoA. Choice D is incorrect because malonyl-CoA is derived from acetyl-CoA carboxylation, not from succinyl-CoA.",
+      "new": "B is correct: ALA synthase condenses succinyl-CoA with glycine to begin heme synthesis. Succinyl-CoA synthetase is a different enzyme that consumes succinyl-CoA in the TCA cycle; its deficiency does not by itself establish depletion of that substrate. Cholesterol and fatty-acid synthesis use acetyl-CoA, and succinyl-CoA is not a purine-ring carbon donor.",
+      "reason": "Repair causal premise.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    }
+  ]
+}

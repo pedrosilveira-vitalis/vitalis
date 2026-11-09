@@ -1,0 +1,238 @@
+{
+  "lessonId": 38,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    186,
+    187,
+    188,
+    189,
+    190
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26887/",
+      "title": "Molecular Biology of the Cell: From DNA to RNA"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5816196/",
+      "title": "Recognition of the human polyadenylation signal and CPSF73 cleavage"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6855384/",
+      "title": "Quality and quantity control by nonsense-mediated mRNA decay"
+    },
+    {
+      "url": "https://www.dmd.nl/DMD_genomicRefSeq.html",
+      "title": "DMD genomic reference sequence and canonical exon/intron map"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1352/",
+      "title": "GeneReviews: spinal muscular atrophy"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16964593/",
+      "title": "Weak definition of IKBKAP exon 20 leads to aberrant splicing in familial dysautonomia"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0ab0c9f8-3eee-4e0f-9f3f-c1e16aaffe25",
+      "title": "Kalydeco prescribing information: ivacaftor mechanism"
+    }
+  ],
+  "visual": {
+    "src": "/lesson-diagrams/rna-processing.svg",
+    "alt": "RNA processing diagram showing cap chemistry, branch-point splicing and the distinct distances from a premature stop to an exon junction and from an EJC to that junction.",
+    "caption": "NMD distances refer to the exon–exon junction. Splicing joins retained RNA segments, and a splice-site mutation does not predict one universal outcome."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "4b2152a39a8e1431783f5d79d22793d01eda6e40c11cdb84178b8c5fd3b297f3"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "eee95195794dda331d268a1e1d7b96d66d97d4bb3b9cae550df80d44263c08aa"
+    },
+    {
+      "field": "questions.186.question_text",
+      "sha256": "b3bc4b433d194f90ad7de2d5af5b30b0c2089fb5eb3ad6a36f5686a79caea399"
+    },
+    {
+      "field": "questions.186.choice_a",
+      "sha256": "f001ce85ce22b2e8d7c64a49369283ac63f4ded60352d438a0372e9b099b5870"
+    },
+    {
+      "field": "questions.186.choice_b",
+      "sha256": "f1b418f487135c7b975b7661c44a5e0f2139f41c7d895bbe1c8fcc7961898bdf"
+    },
+    {
+      "field": "questions.186.choice_c",
+      "sha256": "75905bcc696991da4515e730ba37c00d12ef206263ce7a5a16f06abc689685e0"
+    },
+    {
+      "field": "questions.186.choice_d",
+      "sha256": "80df48662ac894eac3f827ff5e4f53f8e318d2646b5b091fa17aa4d801811f95"
+    },
+    {
+      "field": "questions.186.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.186.explanation",
+      "sha256": "0787d002dac674c7a046477b26eb563e262372a1504a1b41a31edc6d561b8abb"
+    },
+    {
+      "field": "questions.187.question_text",
+      "sha256": "fa9d048da9fdd6c92e00c98f07251ee79377109fd108060502727839f376fcc7"
+    },
+    {
+      "field": "questions.187.choice_a",
+      "sha256": "cac6d441e780609135df28591e60b79b4b078cb5e7523b19c5c29b09c8f1f928"
+    },
+    {
+      "field": "questions.187.choice_b",
+      "sha256": "2a269d9a906e46ae6c59f6c734375bcd1f2be92cd7f97e40187f7d26bbcf5ed9"
+    },
+    {
+      "field": "questions.187.choice_c",
+      "sha256": "fa16075a782ef872df426c2878b97f2da2cf527cc36982bb5c89980f99780f0f"
+    },
+    {
+      "field": "questions.187.choice_d",
+      "sha256": "3a83cf1deb5a6e929007f1f27bd70ff6a300229de131c72cabe4a5a21dc1b2ea"
+    },
+    {
+      "field": "questions.187.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.187.explanation",
+      "sha256": "7ca670f3d72a34aa12176fbfa891eaf5a979561e1dff3d2e0f8c8cc719536abf"
+    },
+    {
+      "field": "questions.188.question_text",
+      "sha256": "53438a537834e8716c2bf552d7f7ab5cd0188ad3c10487bd46bedc6e8bfebe3c"
+    },
+    {
+      "field": "questions.188.choice_a",
+      "sha256": "519fcca9e97da8be19eb9c1c8752bf0dd2f1f9905572c897bfd3f9de6714f7ef"
+    },
+    {
+      "field": "questions.188.choice_b",
+      "sha256": "03a78da2e974973badb7cf41dffb3c5f5df76834b2216e9057bf2637763ca757"
+    },
+    {
+      "field": "questions.188.choice_c",
+      "sha256": "4add560d54946cd8051e211d5af8444cc7cb6a4506316d378d0251796f69d6a3"
+    },
+    {
+      "field": "questions.188.choice_d",
+      "sha256": "3a6b51e9b480750600e4f5c8b3b6b8fbd0a4789739416dfbd385570141f12b91"
+    },
+    {
+      "field": "questions.188.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.188.explanation",
+      "sha256": "2ed95f11222f2109b7f5509f453346849ea23870d28937538c4a94d0794a71f7"
+    },
+    {
+      "field": "questions.189.question_text",
+      "sha256": "a0545e6d2a5f3e3e70de5f4533f9e2be806c6449a5764bc16169b086d82473cd"
+    },
+    {
+      "field": "questions.189.choice_a",
+      "sha256": "729d3a952182c927d87af0212e37184922c9839ee0228f3789369a27d0def891"
+    },
+    {
+      "field": "questions.189.choice_b",
+      "sha256": "1de6f80b34068f353e975785166bf1068c9d814b8a391e3dbbaedccb69945843"
+    },
+    {
+      "field": "questions.189.choice_c",
+      "sha256": "d28dce7a113f74d81b9e3449d2e94870eb342897aba7705249720974e8dcf2ed"
+    },
+    {
+      "field": "questions.189.choice_d",
+      "sha256": "8e9af93df270c457462aaf0c82fb23b77603169246e72998f9ec0dd6623342a5"
+    },
+    {
+      "field": "questions.189.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.189.explanation",
+      "sha256": "96cc16a26a654f5b7ba05bc521dba0b496c66dcc94d8265859a23ec61cd2d26a"
+    },
+    {
+      "field": "questions.190.question_text",
+      "sha256": "91bfcb6b982a0316801feb0146768ea82593d9a068846d29aca1b7a2f7eed376"
+    },
+    {
+      "field": "questions.190.choice_a",
+      "sha256": "a9a229c046e4b44e14eb1e52b00d61ed1660bf896ba8158ab0ccb7289b56d826"
+    },
+    {
+      "field": "questions.190.choice_b",
+      "sha256": "549fee257213c12e827070d3150fec5be982adf1f9ab2c79da705198aee82af3"
+    },
+    {
+      "field": "questions.190.choice_c",
+      "sha256": "f32f3c137837b266784bc384911f8a3df21272d8989128775ee2fe072cecc6bf"
+    },
+    {
+      "field": "questions.190.choice_d",
+      "sha256": "f509836c9ef8be127be403a8715f01c8ffae51a34f0a8708c7ac088816001722"
+    },
+    {
+      "field": "questions.190.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.190.explanation",
+      "sha256": "cba0c73970b17f3ed2fa2bcc8f9808bffc5804179be34111eaa0bfda625881f6"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## RNA Processing and the Journey from Pre-mRNA to Mature mRNA\n\nFor animal nuclear genes, transcription occurs in the nucleus and translation on cytoplasmic ribosomes. Mitochondrial gene expression is a separate system. This separation creates both a logistical challenge and a remarkable opportunity. The cell must transport RNA across the nuclear envelope, but before it does, it can extensively modify that RNA to regulate gene expression, protect the transcript, and optimize it for translation. For a nuclear protein-coding gene, Pol II makes a primary RNA that matures through processing. Pol II also transcribes noncoding RNAs; hnRNA is a broader historical term for heterogeneous nuclear RNA, not an exact synonym for every pre-mRNA. This precursor must undergo a series of coordinated processing steps before it earns the right to be exported and translated. Understanding these steps — 5' capping, 3' polyadenylation, and splicing — is essential for the MCAT, because they appear in questions ranging from molecular biology mechanics to the consequences of mutations that disrupt them.\n\n---\n\n## The Primary Transcript: What Comes Out of RNA Polymerase II\n\nRNA polymerase II (Pol II) synthesizes pre-mRNA from a DNA template in the 5' to 3' direction. The resulting transcript is a faithful complement of the template strand (and thus identical in sequence to the coding strand, with uracil replacing thymine). However, this raw transcript has several problems that make it unsuitable for immediate translation:\n\n- Many transcripts contain introns that must be removed; introns can contain functional regulatory sequences even though they are absent from that mature mRNA.\n- Its initially triphosphorylated 5′ end lacks the mature cap and cap-binding proteins needed for normal stability and cap-dependent translation. A triphosphate is not itself a preferred substrate for the usual 5′-monophosphate-dependent XRN exonucleases.\n- Its 3' end has no protection from 3' to 5' exonucleases\n- It contains signals that must be recognized by the nuclear export machinery\n\nMuch processing starts while transcription is still occurring, with the Pol II CTD recruiting processing factors. Some introns are removed later, and different CTD alterations affect processing steps differently; not every perturbation abolishes all three processes equally.\n\n---\n\n## 5' Capping: Protecting the Front End\n\n### The Chemistry of the Cap\n\nWithin seconds of transcription initiation — typically when the nascent transcript is only 20 to 30 nucleotides long — the 5' end is modified by the addition of a **7-methylguanosine (m7G) cap**. This is one of the most distinctive features of eukaryotic mRNA.\n\nThe capping reaction proceeds in three enzymatic steps:\n\n1. A **RNA triphosphatase** removes the γ-phosphate from the 5' triphosphate end of the nascent transcript, leaving a diphosphate.\n2. A **guanylyltransferase** adds a GMP molecule from GTP to the diphosphate end via an unusual **5'-to-5' triphosphate linkage** (not the standard 3'-to-5' phosphodiester bond found in the rest of the RNA backbone).\n3. A **methyltransferase** adds a methyl group to the N-7 position of the guanine ring, using S-adenosylmethionine (SAM) as the methyl donor.\n\nThe resulting structure — m7GpppN — is called the **5' cap** or **cap 0**. In vertebrates, additional methylation can occur at the 2'-O position of the first and second nucleotides of the transcript, producing **cap 1** and **cap 2** structures, respectively. These methylations contribute to host RNA recognition by innate immune pathways. Some viruses cap or methylate their own RNA or acquire host caps, so cap status is not an infallible host-versus-virus label.\n\n### Functions of the 5' Cap\n\nThe m7G cap is not merely decorative — it serves multiple critical functions:\n\n- **Protection from degradation**: The 5'-to-5' linkage is not recognized by standard 5' to 3' exonucleases. The cap effectively blocks degradation from the 5' end, dramatically increasing mRNA stability.\n- **Promotion of translation initiation**: The cap is recognized by the **eukaryotic initiation factor eIF4E**, which is part of the eIF4F cap-binding complex. This interaction is the first step in recruiting the 43S ribosomal pre-initiation complex to the mRNA. Without the cap, cap-dependent translation cannot occur.\n- **Nuclear export**: The cap is recognized by the **cap-binding complex (CBC)**, composed of CBP80 and CBP20, which facilitates export through the nuclear pore complex.\n- **Splicing enhancement**: The cap promotes splicing of the first intron, linking 5' processing to the downstream splicing machinery.\n\nOn the MCAT, remember that the 5' cap is added *before* transcription is complete, uses a *5'-to-5'* linkage (unusual!), and is recognized by eIF4E during translation initiation. These are high-yield details.\n\n---\n\n## 3' Polyadenylation: Protecting the Back End\n\n### Cleavage and Poly-A Addition\n\nWhile the 5' cap protects the front of the mRNA, the 3' end is protected by a **poly-A tail** — a stretch of approximately 100 to 250 adenine nucleotides added after transcription of the 3' untranslated region (3' UTR).\n\nPolyadenylation is a two-step process:\n\n1. **Cleavage**: The pre-mRNA is cleaved 10 to 30 nucleotides downstream of a conserved **polyadenylation signal sequence**, which in most mammalian genes is **AAUAAA** (or the closely related AUUAAA). This hexamer is recognized by the **cleavage and polyadenylation specificity factor (CPSF)**. A downstream **GU-rich element** is recognized by the **cleavage stimulation factor (CstF)**. Within CPSF, CPSF30 and WDR33 recognize the signal and CPSF73 catalyzes cleavage; other processing factors organize this reaction.\n\n2. **Polyadenylation**: After cleavage, the enzyme **poly-A polymerase (PAP)** adds adenine nucleotides to the new 3' hydroxyl end. Notably, this addition does *not* require a DNA template — the adenines are added processively from ATP. CPSF remains bound and stimulates PAP activity.\n\n### Functions of the Poly-A Tail\n\nThe poly-A tail serves several important roles:\n\n- **Protection from 3′ degradation**: Tail-associated proteins support stability. Deadenylation initiates many common decay pathways, but it is not obligatory or rate-limiting for every transcript; endonucleolytic and other surveillance pathways also exist.\n- **Nuclear export**: The poly-A tail is bound by **nuclear poly-A binding protein (PABPN1)**, which contributes to export competence.\n- **Translation enhancement**: Cytoplasmic PABPC1 interacts with eIF4G and can promote productive interactions between the 3′ tail and 5′ initiation machinery. The closed-loop model is useful, but every translating mRNA need not form a stable physical circle.\n- **mRNA stability regulation**: The length of the poly-A tail is regulated in a transcript-specific manner and can be shortened or extended in the cytoplasm as a mechanism of post-transcriptional gene regulation.\n\nMost **replication-dependent histone mRNAs** lack poly-A tails and instead use a specialized 3′ stem-loop and associated proteins. Many histone-variant mRNAs are polyadenylated, so “all histone mRNAs lack poly-A” is incorrect.\n\n---\n\n## Splicing: Removing the Introns\n\n### The Intron-Exon Architecture\n\nMany eukaryotic genes contain introns. **Exons are segments retained in a particular mature RNA**, and may include coding sequence, untranslated regions or both. Introns are removed during splicing. A one-nucleotide insertion/deletion within the coding sequence can shift the reading frame, but splice changes in untranslated regions or in-frame exon changes have different consequences.\n\nThe number of introns per gene varies enormously. The dystrophin gene, for example, has 79 canonical exons separated by 78 introns and spans 2.4 million base pairs, though its mRNA is only about 14,000 nucleotides. Some genes have no introns at all.\n\n### Splice Site Sequences\n\nIntrons are defined by conserved sequences at their boundaries:\n\n- **5' splice site (donor site)**: The intron begins with the dinucleotide **GU** (in the RNA; GT in the DNA). The surrounding consensus sequence is AG|GURAGU (where | marks the exon-intron boundary).\n- **3' splice site (acceptor site)**: The intron ends with the dinucleotide **AG**. Upstream of this is a polypyrimidine tract (a stretch of C and U nucleotides) and a **branch point sequence** containing a conserved adenosine, typically 18 to 40 nucleotides upstream of the 3' splice site. Mammalian branch-point sequences are degenerate; the branch-point adenosine is the essential nucleophile in the first chemical step.\n\nThe **GU-AG rule** (also called the GT-AG rule at the DNA level) is a high-yield MCAT fact: most major-spliceosome introns begin with GU and end with AG. Rare GC–AG and other boundaries exist, and a minor spliceosome handles a distinct intron class.\n\n### The Spliceosome: A Molecular Machine\n\nSplicing is catalyzed by the **spliceosome**, one of the largest and most complex molecular machines in the cell. The major spliceosome assembles dynamically from five snRNP types plus numerous proteins; not all five remain present during catalysis:\n\n- **U1 snRNP**: Recognizes and base-pairs with the 5' splice site\n- **U2 snRNP**: Recognizes and base-pairs with the branch point sequence, positioning the branch point adenosine\n- **U4/U6 snRNP**: A di-snRNP; U6 ultimately forms the catalytic core\n- **U5 snRNP**: Helps align the two exons for ligation\n\nA simplified major-spliceosome assembly pathway is:\n\n1. **E complex (early complex)**: U1 snRNP binds the 5' splice site; branch point binding protein (SF1/BBP) binds the branch point; U2AF binds the polypyrimidine tract and AG at the 3' splice site.\n2. **A complex (pre-spliceosome)**: U2 snRNP displaces SF1 and base-pairs with the branch point sequence, bulging out the branch point adenosine.\n3. **B complex**: The U4/U6·U5 tri-snRNP is recruited.\n4. **B* complex (activated spliceosome)**: Extensive rearrangements occur; U1 and U4 are released; U6 rearranges to contact the 5' splice site and base-pair with U2.\n5. **C complex**: Catalytic steps occur.\n\n### The Two Transesterification Reactions\n\nThe actual chemistry of splicing involves two sequential **transesterification reactions** — phosphate ester bonds are broken and formed simultaneously, so no net energy input (ATP hydrolysis) is required for the chemical steps themselves (though ATP is used by RNA helicases during spliceosome rearrangements).\n\n**Step 1 (Branch point attack)**:\nThe 2'-OH of the branch point adenosine performs a nucleophilic attack on the phosphodiester bond at the 5' splice site. This creates:\n- A free 3'-OH on the upstream exon (exon 1)\n- A **lariat intermediate** — the intron loops back on itself with a 2'-5' phosphodiester bond connecting the branch point A to the 5' end of the intron, plus the 3' splice site still attached\n\n**Step 2 (Exon ligation)**:\nThe free 3'-OH of exon 1 attacks the phosphodiester bond at the 3' splice site. This joins the two exons and releases the intron as a **lariat structure**.\n\nThe lariat is subsequently debranched by a **debranching enzyme** that hydrolyzes the 2'-5' bond, linearizing the intron, which is then degraded.\n\n*Key point for the MCAT*: The spliceosome is a **ribozyme** — the U2/U6 RNA network helps organize the catalytic metal-ion center, while proteins are essential for assembly, positioning and regulation. Calling it an RNA-based catalyst does not mean the proteins are dispensable. This places splicing alongside other RNA-catalyzed reactions (peptidyl transfer at the ribosome, RNase P cleavage of tRNA precursors) as evidence that RNA can function as a catalyst.\n\n---\n\n## Alternative Splicing: One Gene, Many Proteins\n\nOne of the most important concepts in molecular biology is **alternative splicing** — the ability to include or exclude different exons from the mature mRNA, generating multiple protein isoforms from a single gene. This dramatically expands the proteome: the human genome contains roughly 20,000 protein-coding genes, while alternative RNA processing and post-translational modifications generate additional diversity. A single fixed proteome count depends on how isoforms and modified proteoforms are defined. Not every alternative RNA produces a stable protein.\n\n### Modes of Alternative Splicing\n\n- **Exon skipping**: An exon is excluded from the mRNA (most common in mammals)\n- **Alternative 5' splice site**: Different donor sites are used, altering the 5' boundary of an intron\n- **Alternative 3' splice site**: Different acceptor sites are used\n- **Intron retention**: An intron is retained in the mature mRNA (common in plants and lower eukaryotes)\n- **Mutually exclusive exons**: One of two adjacent exons is included, but not both\n\n### Regulation of Alternative Splicing\n\nSplice site selection is regulated by **splicing regulatory proteins** that bind to sequences in exons and introns:\n\n- **Exonic splicing enhancers (ESEs)** and **intronic splicing enhancers (ISEs)**: Often recognized by **SR proteins** (serine/arginine-rich proteins) or other factors that promote nearby splice-site use\n- **Exonic splicing silencers (ESSs)** and **intronic splicing silencers (ISSs)**: Often recognized by **hnRNP proteins** or other repressors; the effect depends on binding position and context\n\nSplice-site strength, RNA structure, transcription kinetics and many regulatory proteins jointly influence site selection. SR and hnRNP proteins are important examples, not a universal binary switch. This balance is tissue-specific, developmentally regulated, and can be altered by signaling pathways, providing a powerful mechanism for gene regulation.\n\nThe classic MCAT example of alternative splicing is **tropomyosin**, which undergoes tissue-specific alternative splicing to produce different isoforms in smooth muscle, skeletal muscle, and non-muscle cells. Another example is the **Drosophila Dscam gene**, which can theoretically produce over 38,000 isoforms through alternative splicing — more than the total number of genes in the fly genome.\n\n---\n\n## Consequences of Splicing Errors and Mutations\n\nBecause splicing must be precise to the nucleotide, mutations in splice sites or regulatory sequences can cause disease. This is a high-yield MCAT topic because it connects molecular mechanisms to clinical consequences.\n\n- **β-thalassemia**: Many cases result from point mutations in the splice sites or branch point of the β-globin gene, causing aberrant splicing and reduced or absent β-globin production, leading to hemolytic anemia.\n- **5q spinal muscular atrophy (SMA)**: Caused by biallelic loss-of-function variants in SMN1, commonly deletions involving exon 7; sequence variants also occur. SMN2 usually skips exon 7 because of sequence-dependent splicing regulation. Nusinersen binds an intronic silencer region in SMN2 pre-mRNA and promotes exon 7 inclusion.\n- **Familial dysautonomia**: The common ELP1 (formerly IKBKAP) c.2204+6T>C variant affects the intron-20 donor region, reducing exon-20 inclusion in a tissue-dependent way. This is an intronic splice-site variant, not an exonic-splicing-enhancer mutation.\n\nThese examples illustrate that splicing mutations are not rare edge cases — they account for a significant fraction of disease-causing mutations, and understanding the mechanism is essential for interpreting them.\n\n---\n\n## Nuclear Export and the Exon Junction Complex\n\nAfter processing, the mature mRNA must be exported from the nucleus. This is not passive diffusion — the mRNA is actively transported through **nuclear pore complexes (NPCs)** by export factors. A key player is the **transcription-export (TREX) complex**, which is recruited to mRNA during transcription and splicing.\n\nAn important quality-control landmark deposited during splicing is the **exon junction complex (EJC)** — a protein complex deposited typically about 20–24 nucleotides upstream of many exon–exon junctions as a consequence of spliceosome action. EJCs serve multiple functions:\n\n- **Mark spliced junctions**: Translating ribosomes remove EJCs they encounter. If translation terminates prematurely, a downstream EJC may remain and help recruit surveillance machinery.\n- **Nonsense-mediated decay (NMD)**: In a common mammalian pathway, a stop codon more than about 50–55 nucleotides upstream of the final exon–exon junction can trigger NMD through a remaining downstream EJC. Measure this distance to the junction, not to the EJC itself. This is a useful rule with exceptions; EJC-independent NMD also occurs.\n- **Promote translation efficiency** and **mRNA localization** in some contexts.\n\nNMD is directly relevant to the MCAT because it explains why many nonsense mutations (premature stop codons) result in no detectable protein rather than a truncated protein — NMD is translation-dependent: premature termination is detected during translation, and subsequent RNA decay limits further protein production. It does not guarantee zero truncated protein.\n\n---\n\n## Prokaryotic vs. Eukaryotic mRNA Processing: Key Contrasts\n\nThe MCAT frequently tests the ability to distinguish prokaryotic and eukaryotic gene expression. The contrasts in RNA processing are stark:\n\n| Feature | Typical bacterial mRNA | Typical animal nuclear mRNA |\n|---|---|---|\n| 5′ cap | No canonical m7G cap; alternative caps occur | Usually m7G cap |\n| Poly-A | Can occur, often promoting decay | Common; length is regulated |\n| Introns | Uncommon; no standard spliceosome | Common, but some genes are intronless |\n| Processing | Cytoplasmic RNA processing | Much processing in nucleus |\n| Stability | Often minutes; variable | Minutes to many hours or longer |\n| Coding organization | Often polycistronic | Usually monocistronic |\n\nBacterial transcription and translation can be coupled because there is no nuclear envelope. However, this does not prove that RNA processing is impossible: bacteria process many RNAs and some introns self-splice. The absence of the eukaryotic spliceosome is a difference in machinery and evolutionary history, not simply lack of time to process RNA.\n\n---\n\n## Integration: How the Three Processing Steps Work Together\n\nIt is important to understand that 5' capping, splicing, and polyadenylation are not independent events — they are coupled to each other and to transcription through the CTD of RNA Pol II.\n\n- The CTD is phosphorylated at **Ser5** during early elongation, recruiting capping enzymes.\n- As elongation proceeds, **Ser2** phosphorylation generally increases alongside other CTD marks, recruiting splicing factors and polyadenylation machinery.\n- Splicing can influence polyadenylation: the last intron is typically spliced in a way that stimulates cleavage and polyadenylation at the downstream poly-A signal.\n- The 5' cap stimulates splicing of the first intron.\n- EJCs deposited by splicing promote nuclear export and cytoplasmic mRNA surveillance.\n\nThis integration means that a defect in any single step can cascade to affect others. For example, CTD phosphorylation mutations can affect several processing pathways, with the outcome depending on the site and perturbation.\n\n---\n\n## Clinical and Pharmacological Relevance\n\nThe following examples distinguish RNA-processing therapies from treatments acting at the protein level:\n\n- **Splicing-switching antisense oligonucleotides**: As mentioned for SMA (nusinersen), these can redirect splicing by blocking silencer sequences or promoting exon inclusion.\n- **Pladienolide and related compounds**: Natural products that inhibit the SF3B component of U2 snRNP, blocking spliceosome assembly; under investigation as anti-cancer agents because cancer cells often depend on altered splicing.\n- **Contrast with CFTR modulators**: Ivacaftor is a CFTR channel **potentiator** that increases channel opening at the cell surface; it is not primarily a folding corrector or a direct splicing drug. Some other CFTR modulators improve protein processing/trafficking. A splice defect may limit how much protein is available for a modulator to act on.\n\nAdditionally, many RNA viruses have evolved mechanisms to exploit or evade host RNA processing. Influenza virus, for example, uses alternative splicing of its own transcripts (which are processed in the nucleus) to generate multiple proteins from a limited genome.\n\n---\n\n## Summary: High-Yield Points for the MCAT\n\n- **Pre-mRNA** is the primary transcript of RNA Pol II; it must be processed before export and translation.\n- **5' cap** (m7G): added co-transcriptionally via a 5'-to-5' triphosphate linkage; protects from degradation; recognized by eIF4E for cap-dependent translation initiation; recognized by CBC for nuclear export.\n- **Poly-A tail**: Added without a DNA template after cleavage downstream of a polyadenylation signal. Tail length is variable; most replication-dependent histone mRNAs are non-polyadenylated exceptions.\n- **Splicing**: Removes introns and joins exons through two transesterification steps. Major-spliceosome introns usually follow GU–AG boundaries; RNA-based catalysis operates within a dynamic RNA–protein machine.\n- **Alternative splicing**: Produces distinct RNA isoforms and sometimes protein isoforms; regulation depends on sequence, RNA structure and many factors, including SR and hnRNP proteins.\n- **EJC and NMD**: A stop codon more than about 50–55 nt upstream of the final exon–exon junction often promotes EJC-dependent NMD. Translation detects the stop; exceptions and EJC-independent routes exist.\n- **Bacteria**: Typically lack canonical m7G caps and a spliceosome, but do process RNA and can add poly-A tails. Their transcription and translation can be coupled.\n\nMastery of RNA processing is not just about memorizing steps — it is about understanding *why* each step exists, what happens when it goes wrong, and how it connects to the broader logic of gene expression. The MCAT rewards students who can apply these concepts to novel experimental scenarios, interpret the consequences of mutations in splice sites or polyadenylation signals, and distinguish eukaryotic from prokaryotic mechanisms. With a firm grasp of pre-mRNA processing, you are equipped to tackle a wide range of questions that touch on molecular biology, genetics, and even pharmacology."
+    },
+    {
+      "field": "questions.186.explanation",
+      "value": "Loss of the cap impairs cap-dependent initiation and normal RNA stability (C). The cap also promotes processing, particularly first-intron splicing, but its absence does not imply that every intron must be retained or that all spliceosome assembly is impossible. It does not move the poly-A tail to the other end."
+    },
+    {
+      "field": "questions.187.explanation",
+      "value": "An intron is removed during splicing (B); exons are retained in the resulting RNA and can contain coding or untranslated sequence. Some intronic sequences are highly conserved and functional, so absence of protein coding does not imply absence of selection."
+    },
+    {
+      "field": "questions.187.question_text",
+      "value": "A nuclear pre-mRNA segment is removed by the spliceosome and the two flanking RNA segments are joined. What is the removed segment called?"
+    },
+    {
+      "field": "questions.188.explanation",
+      "value": "Different splice-site or exon choices produce distinct mature RNAs from transcripts of the same gene (B). If coding sequence changes, protein isoforms may result. Alternative translation initiation and post-translational modification are separate mechanisms."
+    },
+    {
+      "field": "questions.188.question_text",
+      "value": "Alternative processing of transcripts made from the same gene produces different protein isoforms in different tissues. Which option describes alternative splicing?"
+    },
+    {
+      "field": "questions.189.explanation",
+      "value": "For a typical polyadenylated animal mRNA, inhibiting PAP most directly disrupts tail formation and tail-dependent stability/export functions (C). Capping, transcription and splicing use other enzymes, though their regulation is coupled and indirect effects are possible."
+    },
+    {
+      "field": "questions.190.choice_a",
+      "value": "Intron retention, which can reduce functional protein production"
+    },
+    {
+      "field": "questions.190.explanation",
+      "value": "The sequence directly demonstrates intron retention (A). A 5′ splice-site mutation can also cause exon skipping or use of a cryptic splice site in other contexts; its location alone does not determine the outcome. Here both exons are present. The premature stop may trigger NMD depending on transcript architecture, or permit a truncated product."
+    },
+    {
+      "field": "questions.190.question_text",
+      "value": "After a 5′ splice-site mutation, sequencing of an exported RNA shows that both flanking exons and the entire intervening intron are present. The retained segment introduces a premature stop in the reading frame. Which change is directly demonstrated?"
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "lessonId": 8,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Full lesson text and five questions read. Scientific corrections, quantitative scope and quiz ambiguity reviewed against linked sources. This is a targeted educational review, not exhaustive certification. MCAT question-frequency claims are not independently verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "stretches of it must adopt one of a small number of energetically favorable conformations",
+      "new": "many stretches adopt characteristic local conformations; other regions remain irregular or intrinsically disordered",
+      "reason": "Avoid rigid folding pathway.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "- The **beta-sheet region**: φ ≈ −120°, ψ ≈ +115° (antiparallel) or φ ≈ −119°, ψ ≈ +113° (parallel)",
+      "new": "- The **beta-sheet region**: broadly negative φ and positive ψ; representative values are about (−119°, +113°) for parallel and (−139°, +135°) for antiparallel sheets",
+      "reason": "Correct representative angles and avoid fixed limits.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7387221/"
+    },
+    {
+      "field": "content",
+      "old": "because it lacks a side chain",
+      "new": "because its R group is hydrogen",
+      "reason": "Clarify glycine.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "because its cyclic structure fixes φ ≈ −60°",
+      "new": "because its cyclic structure restricts φ near −60°",
+      "reason": "Restricted, not fixed.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "A **helical diameter of approximately 10 Å** (considering the backbone; side chains extend outward)",
+      "new": "The **backbone is narrower than the full helix envelope**; side chains project outward and make the overall diameter sequence dependent",
+      "reason": "Remove misleading diameter assignment without false precision.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "content",
+      "old": "Each carbonyl oxygen (C=O) of residue *i* donates a hydrogen bond to the amide nitrogen (N-H) of residue *i+4*.",
+      "new": "The carbonyl oxygen of residue *i* **accepts** a hydrogen bond from the amide N–H of residue *i+4*, which is the **donor**.",
+      "reason": "Reverse incorrect donor/acceptor labels.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "content",
+      "old": "*every* backbone carbonyl and *every* backbone amide participates in a hydrogen bond",
+      "new": "the ideal repeating backbone groups participate in hydrogen bonding",
+      "reason": "Allow imperfect real structures.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "content",
+      "old": "This means side chain interactions do not directly stabilize the helix backbone, but they do influence whether the helix forms at all.",
+      "new": "Side-chain packing, salt bridges and side-chain–backbone hydrogen bonds also influence helix stability.",
+      "reason": "Original contradicts later capping discussion.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "content",
+      "old": "its cyclic pyrrolidine ring fixes φ and places no hydrogen on the backbone nitrogen",
+      "new": "when internal to a peptide, its ring restricts φ and its backbone nitrogen has no hydrogen",
+      "reason": "Distinguish internal and free proline.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "glycine's lack of a side chain permits these unusual angles",
+      "new": "glycine's small hydrogen R group permits these unusual angles",
+      "reason": "Clarify side chain.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "Hydrogen bonds are **perpendicular** to the strand direction and are evenly spaced",
+      "new": "Hydrogen bonds are relatively straight and approximately transverse to the strand direction",
+      "reason": "Avoid inaccurate evenly spaced idealization.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "content",
+      "old": "- More stable per hydrogen bond due to optimal geometry",
+      "new": "- Often has more favorable individual hydrogen-bond geometry; overall stability depends on the full structure",
+      "reason": "Do not rank whole sheets by geometry alone.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "content",
+      "old": "- Slightly less stable per hydrogen bond than antiparallel due to geometry",
+      "new": "- Hydrogen bonds are more oblique; this alone does not determine overall sheet stability",
+      "reason": "Separate geometry from total stability.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "content",
+      "old": "*Every* backbone amide and carbonyl participates in hydrogen bonding in the interior of a well-formed sheet",
+      "new": "In an ideal sheet, most internal backbone donors and acceptors form interstrand hydrogen bonds",
+      "reason": "Proline and defects prevent universal claims.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "content",
+      "old": "and is a universal feature of beta sheets in proteins",
+      "new": "and is a common tendency rather than an invariant rule",
+      "reason": "Remove universal geometry claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "The turn is stabilized by a **hydrogen bond between the carbonyl oxygen of residue *i* and the amide nitrogen of residue *i+3***—a single hydrogen bond spanning the turn.",
+      "new": "Many beta turns have a **carbonyl O(i)···H–N(i+3) hydrogen bond**, but the usual geometric definition does not require this bond in every turn.",
+      "reason": "Distinguish geometry and optional H bond.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6424458/"
+    },
+    {
+      "field": "content",
+      "old": "residue *i+2* can be any amino acid",
+      "new": "residue preferences at *i+2* depend on local geometry and sequence",
+      "reason": "Avoid arbitrary amino acid claim.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6424458/"
+    },
+    {
+      "field": "content",
+      "old": "Individual hydrogen bonds are weak (~2–5 kcal/mol in aqueous solution), but their cumulative effect across many residues provides substantial stability.",
+      "new": "Their net contribution depends on geometry, solvent competition and conformational entropy; a single universal bond energy in water is not appropriate.",
+      "reason": "Replace misleading fixed aqueous energy.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804899/"
+    },
+    {
+      "field": "content",
+      "old": "Secondary structure formation is favorable only when intramolecular backbone hydrogen bonds are more favorable than equivalent bonds with water—which is the case when the geometry is optimal and when the hydrophobic effect drives burial of nonpolar side chains.",
+      "new": "Formation is favorable when the **total free-energy change** is negative, including protein interactions, solvent reorganization and loss of chain conformational entropy. Comparing individual hydrogen bonds with water is not sufficient.",
+      "reason": "Correct thermodynamic criterion.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804899/"
+    },
+    {
+      "field": "content",
+      "old": "The interior of the barrel is typically hydrophobic (in membrane-spanning barrels) or can form a channel.",
+      "new": "In membrane-spanning porins, the lipid-facing exterior is hydrophobic and the aqueous pore is lined by polar groups.",
+      "reason": "Original orientation reversed.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26878/"
+    },
+    {
+      "field": "content",
+      "old": "is composed almost entirely of antiparallel beta sheets. Its sequence is dominated by repeating **Gly-Ala-Gly-Ala** motifs.",
+      "new": "contains beta-sheet-rich crystalline regions interspersed with less ordered regions. Common repeats include **GAGAGS** and **GAGAGA**.",
+      "reason": "Silk contains both crystalline and amorphous regions.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/40994083/"
+    },
+    {
+      "field": "content",
+      "old": "inserting proline into a helix breaks it",
+      "new": "internal proline can kink or interrupt a helix",
+      "reason": "Avoid guarantee of helix break.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "**supersecondary structures** (also called **structural motifs** or **folds**)",
+      "new": "**supersecondary structures** or **structural motifs**; a fold describes the broader arrangement of a protein or domain",
+      "reason": "Motif and fold are not interchangeable.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "- Proline and glycine are helix breakers",
+      "new": "- Internal Pro and Gly often reduce helix propensity; context matters",
+      "reason": "Keep summary qualified.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "- Antiparallel: more stable, perpendicular H-bonds, can form from hairpins",
+      "new": "- Antiparallel: opposing strand directions, relatively straight H-bonds; can form hairpins",
+      "reason": "Remove stability universal.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "content",
+      "old": "- Right-handed twist",
+      "new": "- Usually right-handed twist",
+      "reason": "Qualify summary geometry.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "- Four residues, i to i+3 hydrogen bond",
+      "new": "- Four residues, often an i to i+3 hydrogen bond",
+      "reason": "Bond not universal.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6424458/"
+    },
+    {
+      "field": "content",
+      "old": "- Surface-exposed; antigenic",
+      "new": "- Often surface-exposed; some form antibody-recognition sites",
+      "reason": "Not every turn antigenic.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6424458/"
+    },
+    {
+      "field": "content",
+      "old": "**Stabilizing forces (in order of importance for secondary structure):**",
+      "new": "**Contributions to stability (relative importance depends on context):**",
+      "reason": "Do not rank contributions universally.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804899/"
+    },
+    {
+      "field": "content",
+      "old": "Proline: helix breaker, turn former, rigid (no backbone N-H, fixed φ)",
+      "new": "Proline: often interrupts helices and occurs in turns (internal peptide Pro lacks N–H; φ is restricted)",
+      "reason": "Consistent qualifiers.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "questions.36.choice_a",
+      "old": "The carbonyl oxygen of residue n and the amide nitrogen of residue n+4",
+      "new": "The carbonyl oxygen of residue n and the amide N–H of residue n+4",
+      "reason": "Explicit donor hydrogen.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "questions.36.explanation",
+      "old": "Choice B reverses the donor and acceptor roles, which is the most tempting distractor but is chemically incorrect since the NH is the hydrogen bond donor and the C=O is the acceptor.",
+      "new": "Choice B reverses the sequence order of the pairing, not donor/acceptor chemistry: N–H is the donor and carbonyl oxygen the acceptor.",
+      "reason": "Correct distractor rationale.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "questions.37.question_text",
+      "old": "A researcher mutates a buried hydrophobic leucine residue in the interior of an alpha helix to a charged lysine residue. What is the most likely consequence?",
+      "new": "A researcher replaces a buried leucine on a helix in a soluble protein with lysine. Assume lysine stays positively charged and no compensating interaction forms. What is the likely effect?",
+      "reason": "Isolate energetic assumption rather than guarantee lysine charge.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804899/"
+    },
+    {
+      "field": "questions.37.explanation",
+      "old": "While alpha helix stability is primarily driven by backbone hydrogen bonds, hydrophobic packing of interior residues also contributes significantly.",
+      "new": "Backbone hydrogen bonds and side-chain packing both contribute to structure. Under the stated assumptions, burying an uncompensated charge is unfavorable.",
+      "reason": "Avoid fixed stability hierarchy.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804899/"
+    },
+    {
+      "field": "questions.38.explanation",
+      "old": "eliminating the free NH group needed to donate a hydrogen bond in the alpha helix pattern",
+      "new": "leaving its internal peptide nitrogen without an N–H donor for the helix hydrogen-bond pattern",
+      "reason": "Internal proline, not free proline.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "questions.39.choice_a",
+      "old": "Antiparallel beta sheets have evenly spaced, perpendicular hydrogen bonds and are generally more stable than parallel sheets",
+      "new": "Antiparallel strands run in opposite directions and usually have straighter hydrogen bonds than parallel strands",
+      "reason": "Test geometry rather than universal stability.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "questions.39.explanation",
+      "old": "In antiparallel beta sheets, hydrogen bonds are evenly spaced and approximately perpendicular to the strand direction, creating a more linear and energetically favorable geometry that confers greater stability. Parallel beta sheets have hydrogen bonds that are more oblique and unevenly spaced, making them slightly less stable and requiring longer connecting loops. Choice C is partially true in that antiparallel sheets can be connected by beta turns, but parallel sheets also require connecting loops, so this does not correctly distinguish them.",
+      "new": "Antiparallel strands have opposite N-to-C directions and relatively straight interstrand hydrogen bonds. Parallel strands run in the same direction and have more oblique hydrogen bonds. Neither geometry alone establishes whole-protein stability. Antiparallel strands need not be joined by a short beta turn; they may be connected by longer loops or belong to different chains.",
+      "reason": "Correct overgeneralized explanation.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "questions.40.question_text",
+      "old": "A beta turn connects two antiparallel beta strands. Which residue is most commonly found at position 2 or 3 of a Type I or Type II beta turn because its phi/psi angles are uniquely accommodated there?",
+      "new": "Which residue is especially common at position 3 (i+2) of a conventional Type II beta turn because it readily accommodates the required positive phi angle?",
+      "reason": "Specify position and turn type.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6424458/"
+    },
+    {
+      "field": "questions.40.choice_b",
+      "old": "Glycine, because it lacks a side chain and can adopt phi/psi angles in regions of the Ramachandran plot forbidden to other amino acids",
+      "new": "Glycine, because its hydrogen R group permits positive phi angles with fewer steric constraints",
+      "reason": "Avoid forbidden-for-all-others absolute.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6424458/"
+    },
+    {
+      "field": "questions.40.explanation",
+      "old": "Glycine is unique in lacking a side chain (its R-group is simply a hydrogen), allowing it to adopt phi and psi angles in regions of the Ramachandran plot that are sterically inaccessible to all other amino acids.",
+      "new": "Glycine has a hydrogen R group, so positive phi angles are less sterically restricted than for most other residues.",
+      "reason": "Other residues can occur at positive phi.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6424458/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NCBI: Shape and structure of proteins",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "title": "",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7387221/"
+    },
+    {
+      "title": "OpenStax: Protein structure",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "title": "Shapovalov et al.: Beta-turn classification",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6424458/"
+    },
+    {
+      "title": "Protein folding thermodynamics",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804899/"
+    },
+    {
+      "title": "NCBI: Membrane proteins",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26878/"
+    },
+    {
+      "title": "Solid-state NMR of silk fibroin",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40994083/"
+    }
+  ]
+}

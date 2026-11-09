@@ -1,0 +1,225 @@
+{
+  "lessonId": 23,
+  "reviewedAt": "2026-11-08",
+  "questionIds": [
+    111,
+    112,
+    113,
+    114,
+    115
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+      "title": "Mitochondria, glycolysis and ATP production"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/",
+      "title": "Monomeric glucokinase kinetic cooperativity"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/",
+      "title": "Human PFK isoforms and effectors"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/",
+      "title": "PFK-2/FBPase-2 tissue-specific regulation"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK92001/",
+      "title": "Enzyme kinetics and inhibition models"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5130031/",
+      "title": "Glycolytic and oxidative ATP production in cancer cells"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4352852/",
+      "title": "Fluoride alone does not immediately stabilize glucose"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687410/",
+      "title": "Human liver pyruvate kinase regulation"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4972613/",
+      "title": "Adenylate energy charge"
+    }
+  ],
+  "visual": {
+    "title": "Glycolysis: count carbons and energy twice",
+    "src": "/lesson-diagrams/glycolysis-pathway.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "Glucose uses two ATP to reach fructose bisphosphate, which splits into two three-carbon intermediates. Each of two GAP molecules produces one NADH and two ATP before pyruvate. Net output is two ATP, two NADH and two pyruvate.",
+    "caption": "Amounts are per glucose; after the split, each payoff reaction runs twice. Side pathways and cofactors are simplified."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "6f2333df1fb5cba2453a7d6fee33dcbd2237f2ebc2832640852d747d7e92dcdd"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "17a5c1767237773b836c34ffe445dca3ef3ee030900c5f71b6afba5ff23a07df"
+    },
+    {
+      "field": "questions.111.question_text",
+      "sha256": "74eee1026522c7b7052dc1dd14f48b5439420dd00660df221c658611c7ddcaf1"
+    },
+    {
+      "field": "questions.111.choice_a",
+      "sha256": "82584d23b0fde99ecd55bc4b711124c25e3af7eb1cc2584ed283ed1176a0796f"
+    },
+    {
+      "field": "questions.111.choice_b",
+      "sha256": "8e5f362ebc646d1af3c32ffb4f03586b97150c9f0b47de5e9c9ae26af099ca86"
+    },
+    {
+      "field": "questions.111.choice_c",
+      "sha256": "ab07bcde25c3278e7b558d678b0018977f888c4e560b432d90e47bd530634d27"
+    },
+    {
+      "field": "questions.111.choice_d",
+      "sha256": "fe5a2ca45271aba34be8ced04b73c4d08d323201c85677258b4fdb042c69d975"
+    },
+    {
+      "field": "questions.111.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.111.explanation",
+      "sha256": "b95bc30c50a71c4e7cd05f8617dc5e5bfaecfd50991839cbd5aeb12bb273efaa"
+    },
+    {
+      "field": "questions.112.question_text",
+      "sha256": "84485f35b429368fb8fa6f005643f7764a2736105950313e2f87fc9b0111eb66"
+    },
+    {
+      "field": "questions.112.choice_a",
+      "sha256": "94dda7f488337965d0e9a38b5d868c440ccd522fadbedc034f3f034bd5c06b2b"
+    },
+    {
+      "field": "questions.112.choice_b",
+      "sha256": "76ea6c5a4653cf2d53423625bfe704f18513e1c9357c7078d77b4b4eeb320e55"
+    },
+    {
+      "field": "questions.112.choice_c",
+      "sha256": "4d39e1a28fd8addaee7c3049ecf153d145249d3bdfb5a017f3c503fd9064ce5b"
+    },
+    {
+      "field": "questions.112.choice_d",
+      "sha256": "0521013779c9250e352208354c217e6558f4a85bd7e0a629b05c066d08c6c751"
+    },
+    {
+      "field": "questions.112.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.112.explanation",
+      "sha256": "b55ab80cd31037f1588fc912e0993091075ca38a0cbd241941433854a13d712c"
+    },
+    {
+      "field": "questions.113.question_text",
+      "sha256": "febc68f0fb279b833543833907987171d8c42361c16b76daf027537349d1e274"
+    },
+    {
+      "field": "questions.113.choice_a",
+      "sha256": "76df31d268016925295e85c54b4ebb82d1b372ab627e65c0a397694d412cec03"
+    },
+    {
+      "field": "questions.113.choice_b",
+      "sha256": "b1023ea14deb42fbd9921f553f97dab53138b37d49ee8fc88dd9b2350d0a65f3"
+    },
+    {
+      "field": "questions.113.choice_c",
+      "sha256": "d6f44bbf8fcaa7313a819f1c27948363e3c866b30738d66949e8fc61fb7bb116"
+    },
+    {
+      "field": "questions.113.choice_d",
+      "sha256": "c2bbdf15dec53be7d75a2e35f0492f8c2b31a49c138893dff972bce82fe14a8d"
+    },
+    {
+      "field": "questions.113.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.113.explanation",
+      "sha256": "a8f9bf7b007360d7709717b0fc282cb8c1baa407f63d8591bbb4be00e5ab38d6"
+    },
+    {
+      "field": "questions.114.question_text",
+      "sha256": "c2cd218a6016f7895e6692bd15a6ec1f002cee2557db7f4f3921fc7e21a3d1f9"
+    },
+    {
+      "field": "questions.114.choice_a",
+      "sha256": "36d9000cb87b9a7420b4d1ff54b4c533bfb79a029521147267c4d0b72c1d8523"
+    },
+    {
+      "field": "questions.114.choice_b",
+      "sha256": "cf3b2c61dbd6187bd4d0080efbe1925ab53258e552e1b5d9bc448e9dfa0b5b99"
+    },
+    {
+      "field": "questions.114.choice_c",
+      "sha256": "b41dc14dcc357f8b8737f4b85df7618751b2068690fe97aea44fd92e6a666486"
+    },
+    {
+      "field": "questions.114.choice_d",
+      "sha256": "6539b8938b1894ce6e9aaaf6ff8afec9124754597e0678935444d7111a80517a"
+    },
+    {
+      "field": "questions.114.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.114.explanation",
+      "sha256": "d5086e4644ebdb6144b9221f0f910460b8c0583b17af53cac996db01c7b1c775"
+    },
+    {
+      "field": "questions.115.question_text",
+      "sha256": "2964cae7420131021c986ed6376deaeab3b2126bf7ad2bdab4e29abd4064ab5f"
+    },
+    {
+      "field": "questions.115.choice_a",
+      "sha256": "7b5b1ff8e9906fe2f065053df1b23a68f6da7ebc140638d9db9183875a7dd5a6"
+    },
+    {
+      "field": "questions.115.choice_b",
+      "sha256": "7891aa944ecd42ed2755dd457e624d751e8ce9584c79c243be6a235f870ac6ca"
+    },
+    {
+      "field": "questions.115.choice_c",
+      "sha256": "87d420d80f583f8f755f70b3d091afebc5ba019358ba1a5af744a561d03754b7"
+    },
+    {
+      "field": "questions.115.choice_d",
+      "sha256": "9be0efaebddf8dd2e3e234f15da7c5987e6704fbdeaa94adfff68403839bbb47"
+    },
+    {
+      "field": "questions.115.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.115.explanation",
+      "sha256": "c0633d5262760e824161593aa681b648d8692f90d3618f345e5d9ed9e5077637"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Glycolysis: Converting Glucose to Pyruvate\n\nGlycolysis is the foundational pathway of cellular metabolism. Glycolytic pathways are widespread. This lesson describes the classical ten-step Embden–Meyerhof pathway; not every organism uses this exact sequence. On the MCAT, glycolysis is not merely background knowledge; it is a high-yield topic tested directly through enzyme identification, net yield calculations, regulatory logic, and connections to downstream pathways like the citric acid cycle, fermentation, and gluconeogenesis. Understanding glycolysis at a mechanistic level, not just a memorization level, is essential for top scores.\n\n### Overview and Cellular Location\n\nGlycolysis occurs entirely in the **cytoplasm** (cytosol). No mitochondria are required, which is why even cells lacking mitochondria—and cells under hypoxic conditions—can still perform glycolysis. The pathway converts one molecule of **glucose** (a six-carbon sugar) into two molecules of **pyruvate** (a three-carbon compound), capturing usable energy in the form of ATP and NADH along the way.\n\nThe pathway is divided into two major phases:\n\n- **The investment phase** (steps 1–5): The cell spends ATP to phosphorylate glucose and split it into two three-carbon intermediates. Think of this as priming the pump.\n- **The payoff phase** (steps 6–10): The three-carbon intermediates are oxidized, generating ATP and NADH. This is where the cell recoups its investment and turns a profit.\n\n### Net Energy Yield\n\nBefore diving into individual steps, commit these numbers to memory:\n\n- **ATP consumed (investment phase):** 2 ATP\n- **ATP produced (payoff phase):** 4 ATP\n- **Net ATP gain:** 2 ATP per glucose\n- **NADH produced:** 2 NADH per glucose\n- **Net pyruvate produced:** 2 pyruvate per glucose\n\nThe reducing equivalents of cytosolic NADH can reach the respiratory chain through shuttles; the NADH molecule itself does not cross the inner mitochondrial membrane. In lactate-producing cells, cytosolic NADH can instead be reoxidized by lactate dehydrogenase. The **malate-aspartate shuttle** yields approximately 2.5 ATP per NADH, while the **glycerol-3-phosphate shuttle** yields approximately 1.5 ATP per NADH. This distinction matters for total ATP calculations from complete glucose oxidation.\n\n---\n\n## The Investment Phase: Steps 1–5\n\n### Step 1: Glucose → Glucose-6-Phosphate\n\n**Enzyme:** Hexokinase (or glucokinase in liver and pancreatic β-cells)\n\n**Reaction:** Glucose + ATP → Glucose-6-phosphate (G6P) + ADP\n\nThis is the first **irreversible** step of glycolysis. Hexokinase transfers a phosphate group from ATP to the sixth carbon of glucose. Phosphorylation accomplishes two things simultaneously: it traps glucose inside the cell (because G6P does not pass through glucose transporters and crosses the lipid bilayer poorly), and it couples glucose phosphorylation to ATP use, providing a branch-point metabolite.\n\n**Hexokinase** has a low Km for glucose (~0.1 mM), meaning it is nearly always saturated under normal blood glucose conditions and is inhibited by its own product, G6P. This makes it a sensitive, self-regulating enzyme.\n\n**Glucokinase** (hexokinase IV), found in hepatocytes and pancreatic β-cells, has a glucose S₀.₅ in the millimolar range (often approximately 7–10 mM) and is not inhibited by G6P. It acts as a glucose sensor—increasing its rate as glucose rises, rather than switching on only above a strict threshold—and plays a critical role in postprandial glucose buffering by the liver.\n\n*MCAT tip:* Hexokinase vs. glucokinase differences (Km, inhibition, tissue location) are a classic point of comparison on the exam.\n\n### Step 2: Glucose-6-Phosphate → Fructose-6-Phosphate\n\n**Enzyme:** Phosphoglucose isomerase (PGI)\n\n**Reaction:** G6P → Fructose-6-phosphate (F6P)\n\nThis is a simple isomerization—the aldose G6P is converted to the ketose F6P. No ATP is consumed or produced. The reaction is reversible and is important in gluconeogenesis as well. The purpose of this step is to reposition the carbonyl group so that the next kinase can act on carbon 1.\n\n### Step 3: Fructose-6-Phosphate → Fructose-1,6-Bisphosphate\n\n**Enzyme:** Phosphofructokinase-1 (PFK-1)\n\n**Reaction:** F6P + ATP → Fructose-1,6-bisphosphate (F1,6BP) + ADP\n\nThis is the **primary regulatory step** and the **committed step** of glycolysis. This is conventionally called a committed step, but intermediates can still enter biosynthesis and net flux is regulated throughout the pathway. PFK-1 is the most important allosteric enzyme in glycolysis.\n\n**PFK-1 is activated by:**\n- AMP and ADP (signals low energy status)\n- Fructose-2,6-bisphosphate (F2,6BP)—the most potent activator, produced by PFK-2; hormonal control depends on the isoform and tissue\n\n**PFK-1 is inhibited by:**\n- ATP (high energy status; acts at an allosteric site distinct from the substrate-binding site)\n- Citrate (signals that the citric acid cycle intermediates are abundant)\n- Low pH (accumulation of H⁺ during intense exercise)\n\nThe logic is elegant: when the cell has plenty of energy (high ATP, high citrate), it slows glycolysis. When energy is needed (high AMP/ADP), it accelerates. In the classic liver model, F2,6BP links glycolysis to hormonal control—insulin promotes its synthesis, accelerating glycolysis in the fed state, while glucagon promotes its degradation, slowing glycolysis and enabling gluconeogenesis in the fasted state.\n\n### Step 4: Fructose-1,6-Bisphosphate → DHAP + Glyceraldehyde-3-Phosphate\n\n**Enzyme:** Aldolase\n\n**Reaction:** F1,6BP → Dihydroxyacetone phosphate (DHAP) + Glyceraldehyde-3-phosphate (G3P)\n\nThe six-carbon sugar is cleaved into two three-carbon fragments. DHAP and G3P are isomers of each other. This aldol cleavage is thermodynamically unfavorable under standard conditions but is driven forward by the rapid consumption of G3P in subsequent steps.\n\n### Step 5: DHAP → Glyceraldehyde-3-Phosphate\n\n**Enzyme:** Triose phosphate isomerase (TPI)\n\n**Reaction:** DHAP ⇌ G3P\n\nOnly G3P can continue through glycolysis, so TPI converts DHAP into G3P. This reaction is reversible and near-equilibrium. The net result is that one glucose molecule now yields **two molecules of G3P**, and from this point forward, every subsequent step occurs *twice* per original glucose molecule. All yields (ATP, NADH, pyruvate) from steps 6–10 must be doubled.\n\nTPI is a catalytically perfect enzyme—it operates at the diffusion limit, meaning the rate of reaction is close to the diffusional encounter limit for catalytic efficiency under suitable assay conditions; this does not imply every cellular turnover is limited only by diffusion.\n\n---\n\n## The Payoff Phase: Steps 6–10\n\n### Step 6: G3P → 1,3-Bisphosphoglycerate\n\n**Enzyme:** Glyceraldehyde-3-phosphate dehydrogenase (GAPDH)\n\n**Reaction:** G3P + NAD⁺ + Pᵢ → 1,3-Bisphosphoglycerate (1,3-BPG) + NADH + H⁺\n\nThis step is critically important for two reasons. First, it is the only **oxidation** step in glycolysis—G3P is oxidized by NAD⁺, producing NADH. This is where the reducing power of glucose is captured. Second, the phosphorylation of the intermediate creates a **high-energy acyl phosphate bond** in 1,3-BPG, storing energy that will be used in the next step.\n\nBecause NAD⁺ must be regenerated for glycolysis to continue (there is a finite pool of NAD⁺ in the cell), this step links glycolysis directly to respiratory shuttles or fermentation; lactate fermentation can occur even when oxygen is available. Under anaerobic conditions, NADH is reoxidized by converting pyruvate to lactate (in animals) or ethanol and CO₂ (in yeast), regenerating NAD⁺.\n\n*MCAT relevance:* GAPDH inhibition by iodoacetate is a classic experimental tool used in research passages to block glycolysis at this step.\n\n### Step 7: 1,3-Bisphosphoglycerate → 3-Phosphoglycerate\n\n**Enzyme:** Phosphoglycerate kinase (PGK)\n\n**Reaction:** 1,3-BPG + ADP → 3-Phosphoglycerate (3-PG) + ATP\n\nThis is the first **substrate-level phosphorylation** in glycolysis. The high-energy phosphate from 1,3-BPG is transferred directly to ADP, producing ATP. Because this step occurs twice (once per G3P), it generates **2 ATP total**, recovering the 2 ATP spent in the investment phase. The cell has now broken even.\n\n**Substrate-level phosphorylation** refers to the direct transfer of a phosphate group from a high-energy substrate to ADP, as opposed to oxidative phosphorylation, which uses the proton gradient generated by the electron transport chain.\n\n### Step 8: 3-Phosphoglycerate → 2-Phosphoglycerate\n\n**Enzyme:** Phosphoglycerate mutase\n\n**Reaction:** 3-PG → 2-Phosphoglycerate (2-PG)\n\nThe phosphate group is simply moved from carbon 3 to carbon 2. This repositioning prepares the molecule for the dehydration reaction in step 9. The mammalian cofactor-dependent phosphoglycerate mutase uses 2,3-BPG to prime its catalytic phosphohistidine. Cofactor-independent mutases occur in other organisms.\n\n*Side note:* 2,3-BPG is also an important allosteric regulator of hemoglobin, decreasing its oxygen affinity and facilitating oxygen delivery to tissues. Red blood cells rely exclusively on glycolysis for ATP production (they lack mitochondria), and 2,3-BPG is produced as a side branch from 1,3-BPG.\n\n### Step 9: 2-Phosphoglycerate → Phosphoenolpyruvate\n\n**Enzyme:** Enolase\n\n**Reaction:** 2-PG → Phosphoenolpyruvate (PEP) + H₂O\n\nEnolase catalyzes the **dehydration** of 2-PG to produce **phosphoenolpyruvate (PEP)**, one of the highest-energy phosphate compounds in biochemistry. PEP is an enol phosphate with high phosphoryl-transfer potential. Favorable tautomerization of enolpyruvate to keto pyruvate helps drive the subsequent reaction; breaking a phosphate bond alone does not release energy. This sets up the final, highly exergonic phosphate transfer.\n\nEnolase requires Mg²⁺ as a cofactor and is inhibited by fluoride ions (as fluoride-phosphate complexes), which is why fluoride is added to blood collection tubes used for glucose testing—fluoride inhibits enolase, but fluoride alone does not stop post-collection glycolysis immediately. Sample handling and rapidly effective inhibitors are important for accurate laboratory glucose measurements.\n\n### Step 10: Phosphoenolpyruvate → Pyruvate\n\n**Enzyme:** Pyruvate kinase (PK)\n\n**Reaction:** PEP + ADP → Pyruvate + ATP\n\nThis is the second and final **substrate-level phosphorylation** and the last **irreversible** step of glycolysis. The high-energy phosphate of PEP is transferred to ADP, generating ATP. The coupled PEP + ADP → pyruvate + ATP reaction has ΔG°′ roughly −31 kJ/mol; PEP hydrolysis alone is more exergonic, which drives the reaction strongly forward.\n\n**Pyruvate kinase regulation (classic liver example):**\n\n- **Activated by:** Fructose-1,6-bisphosphate (feedforward activation—when upstream intermediates accumulate, PK is stimulated to help coordinate pathway flux)\n- **Inhibited by:** ATP and alanine, with effects dependent on conditions\n- **Hormonal regulation:** In liver, glucagon promotes phosphorylation of L-type pyruvate kinase (via PKA), inactivating it during fasting to prevent futile cycling with gluconeogenesis\n\nThis step generates **2 ATP total** per glucose (occurring twice), bringing the net ATP gain to 2 ATP for the entire pathway.\n\n---\n\n## Summary of the Ten Steps\n\n| Step | Substrate → Product | Enzyme | Phase | Notable Feature |\n|------|-------------------|--------|-------|-----------------|\n| 1 | Glucose → G6P | Hexokinase | Investment | Irreversible; ATP consumed |\n| 2 | G6P → F6P | PGI | Investment | Isomerization |\n| 3 | F6P → F1,6BP | PFK-1 | Investment | Committed step; key regulation |\n| 4 | F1,6BP → DHAP + G3P | Aldolase | Investment | Carbon-carbon cleavage |\n| 5 | DHAP → G3P | TPI | Investment | Both three-carbon products enter payoff phase |\n| 6 | G3P → 1,3-BPG | GAPDH | Payoff | Oxidation; NADH produced |\n| 7 | 1,3-BPG → 3-PG | PGK | Payoff | 1st substrate-level phosphorylation |\n| 8 | 3-PG → 2-PG | PGM | Payoff | Phosphate group relocation |\n| 9 | 2-PG → PEP | Enolase | Payoff | Dehydration; high-energy PEP formed |\n| 10 | PEP → Pyruvate | Pyruvate kinase | Payoff | 2nd substrate-level phosphorylation; irreversible |\n\n---\n\n## Regulation of Glycolysis: The Big Picture\n\nThe three irreversible steps—catalyzed by hexokinase, PFK-1, and pyruvate kinase—are the primary regulatory checkpoints. Irreversibility means these reactions have large negative ΔG values under cellular conditions, making them essentially one-way valves. Regulation at these points allows the cell to control flux through the entire pathway.\n\n### Energy Charge\n\nThe **adenylate energy charge** is ([ATP] + ½[ADP])/([ATP] + [ADP] + [AMP]); ATP/ADP and ATP/AMP are related but different ratios. A high energy charge (abundant ATP) signals the cell to slow glycolysis; a low energy charge (abundant AMP/ADP) signals the cell to accelerate it. PFK-1 is the most sensitive to energy charge because it has distinct allosteric sites for both ATP (inhibitory) and AMP (stimulatory).\n\n### Hormonal Control: Liver Isoforms\n\n**Insulin** (released after a meal when blood glucose rises):\n- Activates PFK-2, increasing F2,6BP, which activates PFK-1\n- Promotes dephosphorylation and activation of pyruvate kinase\n- Net effect: glycolysis is accelerated\n\n**Glucagon** (released during fasting when blood glucose falls):\n- Activates adenylyl cyclase → cAMP → PKA\n- PKA phosphorylates the liver PFK-2/FBPase-2 protein, favoring its phosphatase activity over its kinase activity and decreasing F2,6BP; it already contains both domains\n- PKA also phosphorylates and inactivates pyruvate kinase\n- Net effect: glycolysis is slowed, gluconeogenesis is promoted\n\n### Substrate Availability\n\nGlucose availability itself is a regulatory factor. Insulin increases surface GLUT4 in skeletal muscle and adipose tissue; not all GLUT isoforms are regulated this way, raising intracellular glucose and substrate availability for glycolysis.\n\n---\n\n## Fate of Pyruvate\n\nGlycolysis produces pyruvate, but pyruvate is a metabolic crossroads, not an endpoint. Its fate depends on oxygen availability and cellular context:\n\n- **Aerobic conditions:** Pyruvate enters the mitochondria and is converted to **acetyl-CoA** by the **pyruvate dehydrogenase complex (PDC)**, releasing CO₂ and generating NADH. Acetyl-CoA then enters the citric acid cycle.\n- **Lactate production (with or without oxygen):** **Lactate dehydrogenase (LDH)** reduces pyruvate to **lactate**, oxidizing NADH back to NAD⁺. This regenerates NAD⁺ and allows glycolysis to continue.\n- **Anaerobic conditions (yeast):** Pyruvate is decarboxylated to acetaldehyde by pyruvate decarboxylase, then reduced to **ethanol** by alcohol dehydrogenase, again regenerating NAD⁺.\n- **Gluconeogenesis:** In the liver and kidneys, pyruvate can be carboxylated to **oxaloacetate** by pyruvate carboxylase (a biotin-dependent enzyme), entering gluconeogenesis.\n- **Amino acid synthesis:** Pyruvate is the precursor to **alanine** via transamination.\n\n---\n\n## Glycolysis in Specific Physiological Contexts\n\n### Red Blood Cells\n\nMature erythrocytes lack mitochondria and depend *entirely* on glycolysis for ATP production. They cannot perform oxidative phosphorylation. Additionally, red blood cells divert some 1,3-BPG through the **Rapoport-Luebering shunt** to produce 2,3-BPG, which modulates hemoglobin's oxygen affinity. This is a direct metabolic connection between glycolysis and oxygen transport.\n\n### Cancer Cells: The Warburg Effect\n\nOne of the most clinically relevant phenomena related to glycolysis is the **Warburg effect**: many cancer cells show increased aerobic glycolysis—converting glucose to lactate even in the presence of oxygen—while often retaining substantial mitochondrial oxidative metabolism. This seems energetically wasteful (2 ATP vs. ~30–32 ATP per glucose), but it provides cancer cells with rapid ATP production and biosynthetic precursors (for nucleotides, amino acids, and lipids) needed for rapid proliferation.\n\nThe Warburg effect is exploited clinically in **PET scans**, which use radioactive ¹⁸F-fluorodeoxyglucose (¹⁸F-FDG). FDG uptake reflects transport and phosphorylation, not a direct measurement of complete glycolytic flux. Many tumors show increased uptake, but normal tissues and inflammation can also be FDG-avid.\n\n### Muscle During Exercise\n\nDuring intense exercise, muscle cells consume ATP faster than oxidative phosphorylation can supply it. Glycolysis is accelerated, producing large amounts of pyruvate. When pyruvate accumulates faster than it can be processed by the mitochondria, LDH converts it to lactate. Lactate is exported to the liver, where it can be converted back to glucose via the **Cori cycle** (gluconeogenesis in the liver → glucose exported back to muscle).\n\n---\n\n## Connections to Other Pathways\n\nGlycolysis does not operate in isolation. Its intermediates feed into and receive input from several other pathways:\n\n- **Pentose phosphate pathway (PPP):** G6P can be diverted from glycolysis into the PPP, which produces NADPH (for reductive biosynthesis and antioxidant defense) and ribose-5-phosphate (for nucleotide synthesis). The branch point at G6P is a critical metabolic decision point.\n- **Glycogen metabolism:** G6P can be converted to glucose-1-phosphate and stored as glycogen. Conversely, glycogenolysis feeds G1P back into glycolysis via G6P.\n- **Lipid synthesis:** DHAP can be converted to glycerol-3-phosphate, a backbone for triacylglycerol and phospholipid synthesis. Pyruvate → acetyl-CoA feeds fatty acid synthesis.\n- **Amino acid metabolism:** Several glycolytic intermediates are precursors for amino acid synthesis. 3-PG → serine; pyruvate → alanine; PEP + erythrose-4-phosphate → aromatic amino acids (in plants and bacteria).\n- **Gluconeogenesis:** Gluconeogenesis is essentially glycolysis run in reverse, with bypass pathways replacing the three irreversible glycolytic steps; the pyruvate-to-PEP bypass uses two enzymes. Understanding glycolysis is prerequisite to understanding gluconeogenesis.\n\n---\n\n## High-Yield MCAT Points\n\nThe following are the most frequently tested concepts from this pathway:\n\n**Enzyme identification and function:**\n- Know all ten enzymes by name and the reaction each catalyzes.\n- Know which steps are irreversible (steps 1, 3, 10).\n- Know which steps consume ATP (steps 1 and 3) and which produce ATP (steps 7 and 10).\n- Know which step produces NADH (step 6, GAPDH).\n\n**Regulation:**\n- PFK-1 is the primary regulatory enzyme and the committed step.\n- Know all allosteric activators and inhibitors of hexokinase, PFK-1, and pyruvate kinase.\n- Know the role of F2,6BP and how insulin/glucagon control its levels.\n- Understand feedforward activation: F1,6BP activates pyruvate kinase.\n\n**Net yield:**\n- Net: 2 ATP, 2 NADH, 2 pyruvate per glucose.\n- Gross: 4 ATP, 2 NADH produced; 2 ATP consumed.\n\n**Substrate-level phosphorylation:**\n- Occurs at steps 7 (PGK) and 10 (pyruvate kinase).\n- Distinguish from oxidative phosphorylation.\n\n**Anaerobic conditions:**\n- Lactate fermentation regenerates NAD⁺, not ATP.\n- The purpose of fermentation is to allow glycolysis to continue, not to produce additional ATP.\n\n**Tissue-specific considerations:**\n- Liver expresses glucokinase (high glucose S₀.₅, not inhibited by G6P).\n- Red blood cells rely solely on glycolysis.\n- Many cancers exhibit increased aerobic glycolysis, with variable oxidative metabolism.\n\n---\n\n## Practice Problem\n\nA researcher treats cells that predominantly express G6P-inhibited hexokinase, with a compound that specifically inhibits phosphoglucose isomerase (PGI). Which of the following is the most likely outcome?\n\nA. Glucose-6-phosphate accumulates, and glycolysis proceeds at an increased rate.\nB. Glucose-6-phosphate accumulates, hexokinase is inhibited, and glycolysis slows.\nC. Fructose-6-phosphate accumulates, and PFK-1 is activated.\nD. Fructose-1,6-bisphosphate accumulates, activating pyruvate kinase.\n\n*Answer: B.* With continued glucose entry and limited alternative G6P disposal, PGI inhibition favors upstream G6P accumulation and reduced downstream glycolysis. In these cells, accumulated G6P also inhibits hexokinase. This additional product-inhibition mechanism would not apply to glucokinase in hepatocytes.\n\n---\n\n## Summary\n\nGlycolysis is a ten-step cytoplasmic pathway converting one glucose into two pyruvate molecules with a net gain of 2 ATP and 2 NADH. The investment phase (steps 1–5) consumes 2 ATP to phosphorylate and cleave glucose into two G3P molecules. The payoff phase (steps 6–10) oxidizes G3P, generating 4 ATP via substrate-level phosphorylation and 2 NADH via oxidation by NAD⁺. The three irreversible steps—hexokinase, PFK-1, and pyruvate kinase—are the key regulatory nodes. PFK-1 is the most critical, responding to energy charge (ATP, AMP), metabolic signals (citrate, F2,6BP), and hormonal input (insulin, glucagon). Pyruvate fate depends on oxygen, tissue and metabolic demand. It can supply acetyl-CoA for the TCA cycle, form lactate to regenerate NAD⁺ even with oxygen present, or enter biosynthetic pathways. Mastery of glycolysis provides the conceptual foundation for understanding virtually every other metabolic pathway tested on the MCAT."
+    },
+    {
+      "field": "questions.111.explanation",
+      "value": "A is most likely: substrate supply continues while PFK-1 throughput falls, favoring F6P and G6P accumulation. Feedback and alternative pathways can subsequently change the concentrations. This prediction does not require feedback to wait until some arbitrary threshold time."
+    },
+    {
+      "field": "questions.111.question_text",
+      "value": "A PFK-1 inhibitor substantially lowers its activity while glucose entry initially continues. Before major compensatory changes, which pattern of intermediates is most likely?"
+    },
+    {
+      "field": "questions.115.explanation",
+      "value": "A is the immediate pathway consequence: blocking enolase prevents new PEP production from 2-phosphoglycerate, which tends to accumulate. Existing PEP may be consumed briefly. NADH is formed upstream at GAPDH, but sustained upstream flux may later fall as intermediates build up; it is not guaranteed to continue indefinitely."
+    }
+  ]
+}

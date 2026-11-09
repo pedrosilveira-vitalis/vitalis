@@ -1,0 +1,329 @@
+{
+  "lessonId": 41,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "A ribosome completing translation hands off a raw polypeptide chain—a linear sequence of amino acids that is, at this point, functionally incomplete. Before most proteins can do their jobs, they must be folded into precise three-dimensional shapes, chemically modified at specific residues, and delivered to exact cellular addresses. These processes—collectively called **post-translational modification (PTM)**, protein folding, and protein targeting—are tightly regulated and represent a major layer of cellular control that the MCAT tests heavily. Errors in any of these steps underlie diseases ranging from cystic fibrosis to Parkinson's disease to cancer.",
+      "new": "Protein folding, modification and targeting often begin while translation is still in progress and can continue afterward. Some proteins need extensive maturation; others function without a fixed folded structure or elaborate modification. These processes regulate activity, interactions and location, and failures can contribute to disease.",
+      "reason": "Remove universal raw linear incomplete protein.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "The native (properly folded) state represents a global free energy minimum. Importantly, the primary sequence alone contains all the information needed to specify the final fold—a principle established by **Anfinsen's experiment** on ribonuclease A.",
+      "new": "For many small proteins under suitable conditions, the native state is thermodynamically favored. **Anfinsen’s ribonuclease A experiment** showed that sequence can specify a functional fold under suitable renaturation conditions; it does not mean every cellular protein spontaneously reaches one universal global minimum without partners, cofactors or assistance.",
+      "reason": "Scope thermodynamic hypothesis.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "demonstrating that folding is thermodynamically spontaneous and encoded in sequence.",
+      "new": "demonstrating recovery of sequence-dependent structure and activity under the experiment’s conditions.",
+      "reason": "Scope inference.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "*not* in the reducing cytosol",
+      "new": "typically uncommon as stable structural bonds in the reducing cytosol, although regulatory oxidation and exceptions occur",
+      "reason": "Avoid absolute compartment exclusion.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "- **Chaperonins (Hsp60/GroEL-GroES system)** — Large barrel-shaped complexes that encapsulate a single polypeptide in an isolated chamber, providing a protected environment for folding. The bacterial homolog GroEL-GroES is the classic model; the eukaryotic equivalent is **TRiC/CCT**. Each folding cycle consumes ATP.",
+      "new": "- **Chaperonins** — Bacterial GroEL/GroES and mitochondrial Hsp60/Hsp10 are group I systems with separate lids. Eukaryotic cytosolic TRiC/CCT is a distinct group II chaperonin with a built-in lid. ATP-dependent cycles provide protected environments for appropriate substrates.",
+      "reason": "Distinguish cytosol andmitochondrialhomologs.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "- **Viral polyproteins** — HIV and other retroviruses encode a single polyprotein that must be cleaved by viral proteases; this is the basis of protease inhibitor drugs.",
+      "new": "- **Viral polyproteins** — HIV produces Gag and Gag–Pol polyprotein precursors that are processed by viral protease during maturation. HIV also makes other proteins, so it does not encode all products as one single polyprotein. Protease inhibitors interfere with this maturation.",
+      "reason": "Correct singlepolyprotein claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "**Phosphorylation** is the most common and reversible PTM in eukaryotes.",
+      "new": "**Phosphorylation** is a widespread reversible regulatory modification in eukaryotes.",
+      "reason": "Remove unsupported mostcommon.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "Phosphorylation adds two negative charges at physiological pH (pKa of the phosphate monoester ~1 and ~6, so both protons are lost near pH 7.4)",
+      "new": "Ser/Thr/Tyr phosphorylation usually adds roughly two negative charges near physiological pH, although local environment shifts phosphate pKa and fractional protonation",
+      "reason": "Avoid exactchargedallmolecules.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "from a dolichol phosphate carrier",
+      "new": "from a dolichol-pyrophosphate-linked carrier",
+      "reason": "Correct assembledglycancarrier.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK579964/"
+    },
+    {
+      "field": "content",
+      "old": "- **O-linked glycosylation** — Carbohydrate is attached to the hydroxyl oxygen of **serine** or **threonine** residues. This modification occurs in the Golgi and is more common in mucins, collagen, and nuclear/cytoplasmic proteins (O-GlcNAc modification).",
+      "new": "- **O-linked glycosylation** — Mucin-type O-GalNAc on Ser/Thr usually begins in the Golgi. Nucleocytoplasmic O-GlcNAc is instead added and removed by enzymes in the cytosol and nucleus. Collagen O-glycans are attached to hydroxylysine and initiated in the ER. “O-linked” describes the linkage, not a single location or pathway.",
+      "reason": "Separate conflated compartmentsandresidues.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK579906/"
+    },
+    {
+      "field": "content",
+      "old": "It occurs primarily in the ER and Golgi apparatus",
+      "new": "Many secretory-pathway glycosylation reactions occur in the ER and Golgi, while nucleocytoplasmic glycosylation also occurs",
+      "reason": "IncludeOGlcNAc.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK453052/"
+    },
+    {
+      "field": "content",
+      "old": "Ubiquitin is attached via an isopeptide bond between its C-terminal glycine and the ε-amino group of a **lysine** residue on the target protein.",
+      "new": "A common ubiquitin linkage is an isopeptide bond between ubiquitin’s C-terminal glycine and a substrate lysine ε-amino group. Alternative attachment sites also exist.",
+      "reason": "Scope linkage.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4987802/"
+    },
+    {
+      "field": "content",
+      "old": "A chain of at least four ubiquitin molecules linked through **Lys48** of ubiquitin targets the protein for degradation by the **26S proteasome**, a large ATP-dependent protease complex. The proteasome unfolds and degrades the protein into small peptides, and ubiquitin is recycled.",
+      "new": "Lys48-linked polyubiquitin is a canonical signal for proteasomal degradation, but four ubiquitins is not a universal minimum and other linkage patterns or multiple single ubiquitins can also support degradation. Productive recognition depends on the substrate and an accessible region for unfolding. The 26S proteasome uses ATP-dependent machinery to unfold substrates, cleaves them into peptides, and recycles ubiquitin.",
+      "reason": "Removeuniversalchainthreshold.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4987802/"
+    },
+    {
+      "field": "content",
+      "old": "Lys63-linked ubiquitin chains (not degradative) activate the NF-κB pathway.",
+      "new": "Lys63-linked chains commonly provide signaling scaffolds in NF-κB pathways; linkage identity does not specify one exclusive fate in every context.",
+      "reason": "Scope nondegradative.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4987802/"
+    },
+    {
+      "field": "content",
+      "old": "Ras proteins are farnesylated (a type of prenylation) and require this modification for membrane association and oncogenic activity.",
+      "new": "Ras proteins commonly use prenylation plus additional targeting features for membrane association. Some isoforms can undergo alternative geranylgeranylation when farnesylation is inhibited, so farnesylation is not an exceptionless requirement.",
+      "reason": "Avoid therapeuticmechanismabsolute.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "The ER is the site of folding for all secretory and membrane proteins.",
+      "new": "The ER folds many proteins entering the conventional secretory pathway. Mitochondrial, peroxisomal and other membrane proteins can use different pathways.",
+      "reason": "RemoveallmembraneproteinsER.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26841/"
+    },
+    {
+      "field": "content",
+      "old": "any other destination requires a signal.",
+      "new": "many other destinations require targeting information, which can be a sequence, folded surface or association with another protein. Small proteins can also passively enter the nucleus.",
+      "reason": "Avoid allsignalslinear.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26841/"
+    },
+    {
+      "field": "content",
+      "old": "Proteins destined for the secretory pathway (ER → Golgi → lysosomes, plasma membrane, or secretion) are targeted to the ER during translation.",
+      "new": "Many conventional secretory-pathway proteins enter the ER during translation; post-translational routes also exist. The following describes a common SRP-dependent route.",
+      "reason": "Scope route.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26841/"
+    },
+    {
+      "field": "content",
+      "old": "6. The signal peptide is cleaved by **signal peptidase** in the ER lumen.",
+      "new": "6. A cleavable signal peptide is removed by signal peptidase on the luminal side. Internal signal-anchor sequences can instead remain as membrane-spanning segments.",
+      "reason": "Scopecleavage.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26841/"
+    },
+    {
+      "field": "content",
+      "old": "Proteins that enter the ER lumen undergo N-linked glycosylation",
+      "new": "Proteins with suitable accessible sequons can undergo N-linked glycosylation in the ER lumen",
+      "reason": "Avoid allproteinNglycosylation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK579964/"
+    },
+    {
+      "field": "content",
+      "old": "Only properly folded proteins are packaged into **COPII vesicles**",
+      "new": "ER quality control preferentially permits suitable cargo to enter **COPII vesicles**",
+      "reason": "Qualitycontrolnotinfallible.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26841/"
+    },
+    {
+      "field": "content",
+      "old": "retrieving escaped ER-resident proteins bearing the **KDEL retention signal** (Lys-Asp-Glu-Leu at the C-terminus).",
+      "new": "retrieving escaped soluble ER proteins through KDEL receptors that recognize their C-terminal **KDEL retrieval signal**. ER membrane proteins can use different retrieval motifs.",
+      "reason": "IncludeKDELreceptorandclass.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26841/"
+    },
+    {
+      "field": "content",
+      "old": "Mitochondrial and chloroplast proteins are encoded by nuclear genes, synthesized on cytosolic ribosomes, and imported *after* translation is complete. This is post-translational targeting.",
+      "new": "Most mitochondrial and chloroplast proteins are nuclear-encoded, synthesized on cytosolic ribosomes and imported, often after translation. Both organelles also encode and synthesize a subset locally. The following describes major import routes, not every organellar protein.",
+      "reason": "Correctallnuclearencoded.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26828/"
+    },
+    {
+      "field": "content",
+      "old": "Proteins destined for the mitochondrial matrix contain",
+      "new": "Many proteins using the mitochondrial matrix presequence pathway contain",
+      "reason": "ScopeMTS.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26828/"
+    },
+    {
+      "field": "content",
+      "old": "The MTS is cleaved by the **mitochondrial processing peptidase (MPP)** after import.",
+      "new": "A cleavable matrix presequence is usually removed by MPP; some proteins retain targeting information.",
+      "reason": "Scopecleavage.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26828/"
+    },
+    {
+      "field": "content",
+      "old": "Proteins destined for the outer membrane, intermembrane space, or inner membrane use different import pathways (TOM/SAM, MIA pathway, or TOM/TIM22, respectively).",
+      "new": "Alternative routes include TOM/SAM for outer-membrane β-barrels, MIA for some intermembrane-space proteins, and TIM22 for many inner-membrane carriers. TIM23 and OXA pathways also contribute to inner-membrane protein insertion.",
+      "reason": "Correctonecompartmentoneroute.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26841/"
+    },
+    {
+      "field": "content",
+      "old": "Small molecules (<40 kDa) diffuse freely through NPCs, but larger proteins require active transport.",
+      "new": "Passive passage through NPCs becomes slower as molecular size increases and depends on shape and interactions; 40 kDa is a rough teaching guideline, not an absolute free-diffusion cutoff. Many larger cargos use transport receptors.",
+      "reason": "Scopecutoff.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26932/"
+    },
+    {
+      "field": "content",
+      "old": "**Nuclear localization signals (NLS)** are short sequences rich in basic residues",
+      "new": "Classical **nuclear localization signals (NLS)** are sequences rich in basic residues",
+      "reason": "NonclassicalNLSexist.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26932/"
+    },
+    {
+      "field": "content",
+      "old": "**Importins** (α and β) recognize the NLS",
+      "new": "In the classical pathway, importin α recognizes the NLS and importin β mediates transport; other import receptors bind cargo directly. These receptors",
+      "reason": "Clarifyreceptors.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26932/"
+    },
+    {
+      "field": "content",
+      "old": "GTP hydrolysis in the cytoplasm (by RanGAP) drives dissociation.",
+      "new": "Ran hydrolyzes GTP in the cytoplasm with stimulation by RanGAP, promoting complex disassembly.",
+      "reason": "RanGAPnotGTPase.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26932/"
+    },
+    {
+      "field": "content",
+      "old": "Peroxisomal matrix proteins carry a **peroxisomal targeting signal type 1 (PTS1)**, a C-terminal tripeptide (consensus Ser-Lys-Leu, SKL) recognized by the cytosolic receptor **Pex5**. The receptor-cargo complex docks at the peroxisomal membrane and the protein is imported. Defects in peroxisomal import cause **Zellweger syndrome**, a severe peroxisome biogenesis disorder.",
+      "new": "Many peroxisomal matrix proteins carry a C-terminal **PTS1**, often SKL or a related motif, recognized by PEX5. A smaller group uses an N-terminal **PTS2** recognized by PEX7 with coreceptors. Peroxisomes can import folded cargo. Defects in peroxisome biogenesis or import can cause Zellweger-spectrum disorders; membrane-protein targeting uses additional machinery.",
+      "reason": "AddPTS2andclassscope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12173945/"
+    },
+    {
+      "field": "content",
+      "old": "EGFR dimerizes and transphosphorylates tyrosine residues in its cytoplasmic kinase domain.",
+      "new": "EGFR forms an active kinase arrangement and transphosphorylates sites chiefly in its cytoplasmic C-terminal tail, creating docking sites.",
+      "reason": "Correctmaindockingsites.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4525312/"
+    },
+    {
+      "field": "content",
+      "old": "- Glycosylation: N-linked on Asn (ER), O-linked on Ser/Thr (Golgi).",
+      "new": "- Glycosylation: N-linked Asn glycans begin in ER; mucin-type O-glycans usually begin in Golgi, while O-GlcNAc is nucleocytoplasmic and collagen uses hydroxylysine glycans.",
+      "reason": "Alignsummary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK579906/"
+    },
+    {
+      "field": "content",
+      "old": "- ER: N-terminal signal peptide → SRP → translocon; cleaved.",
+      "new": "- ER: cleavable signal peptides or retained signal-anchors support targeting/insertion; SRP is one major pathway.",
+      "reason": "Alignsummary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26841/"
+    },
+    {
+      "field": "content",
+      "old": "- Peroxisomes: C-terminal PTS1 (SKL) → Pex5 receptor.",
+      "new": "- Peroxisomes: PTS1 → PEX5; PTS2 → PEX7 with coreceptors.",
+      "reason": "Alignsummary.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12173945/"
+    },
+    {
+      "field": "content",
+      "old": "- Cystic fibrosis: CFTR protein misfolds in ER → ERAD → absent from plasma membrane.",
+      "new": "- Cystic fibrosis: some variants, notably F508del, impair CFTR folding/trafficking; others affect gating, conductance, splicing or production.",
+      "reason": "AvoidallCFsameclass.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "questions.201.question_text",
+      "old": "A researcher discovers a mutant protein that lacks its N-terminal signal sequence but is otherwise identical to the wild-type protein. Which of the following outcomes is most likely for this mutant protein?",
+      "new": "A soluble protein normally enters the conventional ER secretory pathway through its only N-terminal signal peptide. That signal is removed; no internal targeting signal, partner-mediated import or alternative pathway is available. Where is the newly made mutant most likely to remain initially?",
+      "reason": "Constrainlostsignaloutcome.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26841/"
+    },
+    {
+      "field": "questions.201.explanation",
+      "old": "The N-terminal signal sequence directs a ribosome to the rough ER membrane, allowing co-translational translocation into the ER lumen for proteins destined for secretion or membrane insertion. Without this signal, the ribosome completes translation on free ribosomes in the cytosol, and the protein accumulates there by default. Choice C is incorrect because there is no well-established alternative translocation pathway that compensates for a missing signal sequence for ER-targeted proteins. Choice D is incorrect because glycosylation in the Golgi requires prior entry into the ER, which cannot occur without the signal sequence.",
+      "new": "Without any usable ER-targeting route under the stated conditions, the protein is synthesized on cytosolic ribosomes and initially remains in the cytosol (B). It may later be degraded. Alternative targeting routes exist in biology, but the question explicitly excludes them; normal Golgi processing requires access to the secretory pathway.",
+      "reason": "Removefalseabsenceofalternativeroutes.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26841/"
+    },
+    {
+      "field": "questions.203.question_text",
+      "old": "A protein is tagged with ubiquitin chains by an E3 ubiquitin ligase. What is the most likely fate of this protein, and what cellular structure carries out this fate?",
+      "new": "A soluble cytosolic protein gains a proteasome-targeting Lys48-linked ubiquitin chain and has an accessible region for unfolding. Which fate is most directly promoted?",
+      "reason": "Ubiquitinchainunspecifiednotnecessarilydegradative.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4987802/"
+    },
+    {
+      "field": "questions.203.explanation",
+      "old": "Polyubiquitination, particularly via K48-linked chains, serves as a degradation signal recognized by the 26S proteasome, a large multi-subunit protease complex found in the cytosol and nucleus. The proteasome unfolds and cleaves the tagged protein into short peptides, recycling amino acids. Choice A is incorrect because ubiquitination is not a nuclear import signal; nuclear localization sequences (NLS) and importins mediate that process. Choice C is incorrect because ubiquitination does not direct proteins to the ER for glycosylation.",
+      "new": "The specified degradation signal promotes recognition, unfolding and peptide cleavage by the 26S proteasome (B). Ubiquitin is recycled; other peptidases can further break peptides into amino acids. Ubiquitination has many other signaling and trafficking roles, so an unspecified ubiquitin chain alone would not establish this fate.",
+      "reason": "Scopeubiquitinfate.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4987802/"
+    },
+    {
+      "field": "questions.204.explanation",
+      "old": "Although the primary sequence encodes the final structure (Anfinsen's dogma), in the crowded cellular environment, exposed hydrophobic segments of a partially folded polypeptide can aggregate with other proteins before folding is complete. Hsp70 and other chaperones bind these exposed hydrophobic regions, preventing misfolding and aggregation and allowing the polypeptide to fold correctly. Choice A is incorrect because chaperones do not add phosphate groups; kinases do. Choice C is incorrect because chaperones do not cleave disulfide bonds; that role belongs to protein disulfide isomerase.",
+      "new": "Hsp70 shields exposed hydrophobic segments and uses nucleotide-dependent binding cycles to reduce aggregation (B). It does not specify folding by phosphorylation or glycosylation. ER protein-disulfide isomerases can rearrange disulfides and may also have chaperone activity, but disulfide cleavage is not the defining Hsp70 mechanism asked here.",
+      "reason": "AvoidPDIcannotchaperoneclaim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "These receptors and mediate docking at the NPC.",
+      "new": "These receptors mediate docking at the NPC.",
+      "reason": "Repair sentence after receptor clarification.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26932/"
+    },
+    {
+      "field": "content",
+      "old": "while nucleocytoplasmic glycosylation also occurs and is critical for protein folding, stability, cell-cell recognition, and immune function.",
+      "new": "while nucleocytoplasmic glycosylation also occurs. These diverse pathways contribute to folding, stability, signaling and cell recognition.",
+      "reason": "Clarify pathway scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK453052/"
+    },
+    {
+      "field": "content",
+      "old": "- Anfinsen's experiment: primary sequence encodes 3D structure; folding is thermodynamically spontaneous.",
+      "new": "- Anfinsen's experiment: RNase A can regain its native structure under suitable conditions; this does not mean every protein folds unaided in every environment.",
+      "reason": "Align summary with folding limits.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "- Hydrophobic effect is the dominant driving force; disulfide bonds form in ER, not cytosol.",
+      "new": "- Hydrophobic interactions help stabilize many globular proteins. Stable structural disulfides are favored in oxidizing compartments such as ER lumen; the cytosol is generally reducing.",
+      "reason": "Align redox summary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "- Mitochondria: N-terminal MTS (amphipathic helix, Arg-rich) → TOM/TIM; cleaved.",
+      "new": "- Mitochondrial matrix proteins commonly use a cleavable presequence and TOM/TIM23; other destinations use other targeting signals and pathways.",
+      "reason": "Align mitochondrial summary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26828/"
+    }
+  ]
+}

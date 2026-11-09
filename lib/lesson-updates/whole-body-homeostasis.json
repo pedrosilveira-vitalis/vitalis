@@ -1,0 +1,245 @@
+{
+  "lessonId": 33,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    161,
+    162,
+    163,
+    164,
+    165
+  ],
+  "sources": [
+    {
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis",
+      "title": "Fasting plasma glucose diagnostic thresholds"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21399626/",
+      "title": "AMPK structure and ADP protection from dephosphorylation"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK544346/",
+      "title": "Gluconeogenesis and tissue-specific glucose production"
+    },
+    {
+      "url": "https://academic.oup.com/mend/article/12/9/1343/2754466",
+      "title": "Insulin regulation of hepatic PFK2"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31891768/",
+      "title": "Direct glucagon effects in human adipocytes"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20577053/",
+      "title": "Metformin effects in liver AMPK knockout mice"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+      "title": "Mitochondrial metabolism and carbon balance"
+    },
+    {
+      "url": "https://medlineplus.gov/genetics/gene/g6pc1/",
+      "title": "G6PC1 expression and function"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26455443/",
+      "title": "Fatty acid transport across the blood–brain barrier"
+    }
+  ],
+  "visual": {
+    "title": "Follow the tissue before predicting the pathway",
+    "src": "/lesson-diagrams/whole-body-homeostasis.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "Fed-state insulin favors liver storage and muscle and adipose GLUT4 uptake. Fasting hepatic glucagon supports glucose output, while low insulin and catecholamines mobilize adipose fuel. Local AMPK signals energy stress; AMP allosterically activates it and ADP can protect its phosphorylation.",
+    "caption": "Systemic hormones and local energy sensors are different inputs. Liver PFK2 phosphorylation rules should not be applied to every tissue."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "c2b672c5746caf09ee8c00a2551d29bba19ef1a86e56daaf8e6f341b03cb5b2f"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "9054d49a4c0c0c600bd4471f531bfc1d6f2a4ed9196ad16e11c42961c0d2ca6f"
+    },
+    {
+      "field": "questions.161.question_text",
+      "sha256": "5a92e49b31297aedceb0d412ad5b6f3d0b3bbde689106e4723d275dc22d1c0d1"
+    },
+    {
+      "field": "questions.161.choice_a",
+      "sha256": "f6e8c3d0617ba1fa66c1fcbfa6b9eb82cc5a9ee5731b8dc92af0142806d7fee7"
+    },
+    {
+      "field": "questions.161.choice_b",
+      "sha256": "0b9fce89ab84b9942c23d66ecc79c91f58e8e0417a2f0ae7a7173c966f0a81bd"
+    },
+    {
+      "field": "questions.161.choice_c",
+      "sha256": "7cde1cee0fed52805f92dc011b511548cda8f2c3737715c5bff736f903d7197f"
+    },
+    {
+      "field": "questions.161.choice_d",
+      "sha256": "7964599c2982b3758a59c243d6ea9776d2c44a56c01ca7dc19056c3fbc66a094"
+    },
+    {
+      "field": "questions.161.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.161.explanation",
+      "sha256": "602eb7ba699252ca511359045b957030755e0f1345e0908c295141a86dad7539"
+    },
+    {
+      "field": "questions.162.question_text",
+      "sha256": "c2513fa3dd15c5df9d29a4aa39e366ae8022a3980623ed1d5fc9a99d06c95ece"
+    },
+    {
+      "field": "questions.162.choice_a",
+      "sha256": "0d21379a0c8604ee7bda37dbdb803e73e13fb0ae55aa6787002c20a1eae6c21b"
+    },
+    {
+      "field": "questions.162.choice_b",
+      "sha256": "50b26699e8d6215bc0fa9abd52c82bb5312159e58f734baf8447ba88cd53457f"
+    },
+    {
+      "field": "questions.162.choice_c",
+      "sha256": "1d75b11a86eec431326b1a8167fc07c4222226aa914d284c36e3f3bd3ab8905c"
+    },
+    {
+      "field": "questions.162.choice_d",
+      "sha256": "53d88c3805caf5fd7dc9ed9326d1ac0b4b6c715a998af529243e4d6a42a09fc2"
+    },
+    {
+      "field": "questions.162.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.162.explanation",
+      "sha256": "9fe6d1c26e3bfd7b2fba582d2d51e308b7acd4be3bb520c54baa95446ac9524c"
+    },
+    {
+      "field": "questions.163.question_text",
+      "sha256": "a31565a55defaf65915057ff11de6405d7a7d7f64d28701c2a3e8d39fa0b12c9"
+    },
+    {
+      "field": "questions.163.choice_a",
+      "sha256": "df48070c406230185136f4abed2497c140bc7ba955cbec9b0bab698f1fc06b97"
+    },
+    {
+      "field": "questions.163.choice_b",
+      "sha256": "0223203c5a9902c65564e8e222f102c61e3e904593b4f5122e9df09e196c1406"
+    },
+    {
+      "field": "questions.163.choice_c",
+      "sha256": "7ed0b616d24c023d42323ed220d98733bd546ed0b454e38ac2040675374fde4f"
+    },
+    {
+      "field": "questions.163.choice_d",
+      "sha256": "7a011b66fc36870f6c2e215478846b1559cca01ac50b4e0e48d72e8b34cfe2bf"
+    },
+    {
+      "field": "questions.163.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.163.explanation",
+      "sha256": "1b3aaaece8a9e90b3827da51a069a8a0b88178b4abdda8416859b7847a3cf303"
+    },
+    {
+      "field": "questions.164.question_text",
+      "sha256": "28b34b718c4ca333fbc878f1979853ddd93183053fa279de00f964ea159b622d"
+    },
+    {
+      "field": "questions.164.choice_a",
+      "sha256": "8a96be7f2b60299b956f28a77f44f548706043242b09cee9681732ae79f458f8"
+    },
+    {
+      "field": "questions.164.choice_b",
+      "sha256": "800c58a46f5e55f1eb4c2490e292eefdfdb67e99c909f6724126ebc91da4308a"
+    },
+    {
+      "field": "questions.164.choice_c",
+      "sha256": "44a95087ade47212422dca161c54d0075cdc466652e9806b0228020b7f0c7317"
+    },
+    {
+      "field": "questions.164.choice_d",
+      "sha256": "87915a799f180614cefeffcdb083ca8106a96b50b88947551637e5ab261fa80b"
+    },
+    {
+      "field": "questions.164.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.164.explanation",
+      "sha256": "c659bc6599f3eb2d42bae0610078e9c36b02b65bc8ac8405e4f19b63b4ffa263"
+    },
+    {
+      "field": "questions.165.question_text",
+      "sha256": "d56625775f863336cbd9a178ff9fa654e2e3961ed6e92db92bb8b1a8456dfddd"
+    },
+    {
+      "field": "questions.165.choice_a",
+      "sha256": "621bf4779c58c9b04c763e4f3ee5faeaa3f7a0c770fe6b2c9473fc2575adf275"
+    },
+    {
+      "field": "questions.165.choice_b",
+      "sha256": "f4fd9597cdce836691a6a6f3df609c337e654242c7a0d557b756bc5d516e8cb6"
+    },
+    {
+      "field": "questions.165.choice_c",
+      "sha256": "dcdcf294e666302fd12649d67634c13ecb24cbd67eb111ce62b8f691f79445fa"
+    },
+    {
+      "field": "questions.165.choice_d",
+      "sha256": "536512d886a7fdde7c793ab3fcf2809f340d9d39bade669807b14876f4638d0a"
+    },
+    {
+      "field": "questions.165.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.165.explanation",
+      "sha256": "8e6ca94b174907d82001e0cf2dfb0cada0bbdb947fbfe49dda37c67d59c9af0a"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Metabolic Control and Whole-Body Energy Homeostasis\n\n### Overview and MCAT Relevance\n\nThe human body operates under a fundamental biological imperative: maintain blood glucose within a narrow range (roughly 70–99 mg/dL fasting in typical clinical reference ranges) while simultaneously meeting the energy demands of every tissue. This requires continuous, coordinated signaling across the liver, skeletal muscle, adipose tissue, and brain. The MCAT tests your ability to integrate hormonal signals with enzyme-level biochemistry — knowing not just *what* happens in glycolysis or gluconeogenesis, but *why*, *when*, and *in which tissue*.\n\nThis lesson synthesizes the major regulatory players — **insulin**, **glucagon**, and **AMP-activated protein kinase (AMPK)** — and shows how they orchestrate glycolysis, gluconeogenesis, glycogen metabolism, and the citric acid cycle in a tissue-specific manner. Expect MCAT passages to present a metabolic scenario (fasting, exercise, diabetes, or a novel enzyme inhibitor) and ask you to predict consequences across multiple pathways simultaneously.\n\n---\n\n## The Regulatory Logic: Why Metabolism Needs Control\n\nBefore diving into specific pathways, appreciate the underlying logic. Metabolic pathways are not simply on or off — they are continuously modulated by:\n\n1. **Substrate availability** — high glucose drives glycolysis; high fatty acids suppress it\n2. **Energy charge** — adenylate energy charge is ([ATP] + ½[ADP])/([ATP] + [ADP] + [AMP]); nucleotide ratios also signal energy status\n3. **Hormonal signals** — systemic signals that coordinate inter-organ responses\n4. **Allosteric regulation** — immediate, reversible enzyme modulation\n5. **Covalent modification** — phosphorylation/dephosphorylation via kinases and phosphatases\n6. **Transcriptional regulation** — slower, gene-level changes in enzyme abundance\n\nA useful integrating principle is that *anabolic* and *catabolic* pathways are reciprocally regulated — when glycolysis is active, gluconeogenesis is suppressed, and vice versa. Running both simultaneously would waste ATP in futile cycles.\n\n---\n\n## Insulin: The Fed-State Hormone\n\n### Secretion and Signal Transduction\n\n**Insulin** is a 51-amino-acid peptide hormone secreted by the **β-cells of the pancreatic islets of Langerhans** in response to elevated blood glucose (and, to a lesser extent, amino acids and GIP from the gut). Its receptor is a **receptor tyrosine kinase (RTK)**: insulin binding causes receptor autophosphorylation, which initiates a cascade through **IRS-1 (insulin receptor substrate-1)** → **PI3K** → **Akt (protein kinase B)**. Akt is the central effector of most of insulin's metabolic actions.\n\n### Insulin's Actions on Glucose Metabolism\n\n**In the liver:**\n- Activates **glucokinase** (hexokinase IV) transcription — traps glucose as glucose-6-phosphate\n- Activates **phosphofructokinase-1 (PFK-1)** indirectly by increasing **fructose-2,6-bisphosphate (F-2,6-BP)** levels\n- Activates **glycogen synthase** (by promoting its dephosphorylation via phosphatase PP1)\n- Inhibits **glycogen phosphorylase**\n- Suppresses **PEPCK** and **glucose-6-phosphatase** transcription, thereby inhibiting gluconeogenesis\n\n**In skeletal muscle:**\n- Stimulates translocation of **GLUT4** transporters to the plasma membrane — this is the primary mechanism by which muscle takes up glucose post-meal\n- Activates glycogen synthase\n- Promotes protein synthesis via mTOR\n\n**In adipose tissue:**\n- Promotes GLUT4 translocation\n- Activates **lipoprotein lipase (LPL)** — breaks down circulating triglycerides for fatty acid uptake\n- Inhibits **hormone-sensitive lipase (HSL)** — prevents lipolysis\n\nThe net effect: after a meal, insulin drives glucose into muscle and fat, stores it as glycogen in liver and muscle, and suppresses glucose production by the liver.\n\n### The F-2,6-BP Mechanism (High-Yield)\n\n**Fructose-2,6-bisphosphate** is the most potent allosteric activator of PFK-1 and simultaneously inhibits **fructose-1,6-bisphosphatase (FBPase-1)**, the gluconeogenic enzyme that bypasses PFK-1 through phosphate-ester hydrolysis rather than making ATP. F-2,6-BP is synthesized by **PFK-2** and degraded by **FBPase-2** — these are *two activities on the same bifunctional enzyme*.\n\n- **Insulin-dominant liver signaling** → favors dephosphorylation of the hepatic bifunctional enzyme, increasing PFK-2 relative to FBPase-2 activity → F-2,6-BP rises → glycolysis on, gluconeogenesis off\n- **Glucagon** → PKA phosphorylates the same enzyme at a site that *inhibits PFK-2* and *activates FBPase-2* → F-2,6-BP falls → glycolysis off, gluconeogenesis on\n\nThis is an important hepatic control point, not the only determinant of pathway flux. Isoforms in other tissues can respond differently to phosphorylation.\n\n---\n\n## Glucagon: The Fasting Hormone\n\n### Secretion and Signal Transduction\n\n**Glucagon** is a 29-amino-acid peptide secreted by the **α-cells of the pancreatic islets** in response to low blood glucose, amino acids (particularly alanine and arginine), and exercise. It binds a **G-protein coupled receptor (GPCR)** coupled to **Gs**, activating **adenylyl cyclase** → increased **cAMP** → activation of **protein kinase A (PKA)**. This is the canonical cAMP-PKA pathway.\n\n### Glucagon's Actions: Mobilizing Glucose\n\n**In the liver** (glucagon's primary target — hepatocytes express abundant glucagon receptors):\n- PKA phosphorylates **glycogen phosphorylase kinase** → activates **glycogen phosphorylase** → glycogenolysis\n- PKA phosphorylates **glycogen synthase** → *inactivates* it → glycogen synthesis is reduced\n- PKA lowers F-2,6-BP (see above) → PFK-1 inhibited, FBPase-1 activated → gluconeogenesis proceeds\n- PKA activates transcription of **PEPCK** and **glucose-6-phosphatase** via CREB\n- In fasting humans, low insulin and catecholamines strongly promote adipose lipolysis. Do not assume glucagon is a major direct physiological activator of adipocyte HSL. Released fatty acids can fuel hepatic oxidation.\n\n**In muscle:** Muscle lacks glucagon receptors, so glucagon does not directly act on muscle. This distinction is tested on the MCAT.\n\nThe net fasting response: liver breaks down glycogen and synthesizes new glucose (gluconeogenesis), releasing it into the blood. Adipose releases fatty acids to fuel the liver and spare glucose for the brain.\n\n---\n\n## Glycogen Metabolism: Storing and Releasing Glucose\n\n### Synthesis\n\n**Glycogen synthase** adds glucose units (from **UDP-glucose**) to the growing glycogen chain via α-1,4-glycosidic bonds. A branching enzyme creates α-1,6-branch points. Glycogen synthase is the regulated step and is generally more active when dephosphorylated; glucose-6-phosphate also allosterically activates it, including the phosphorylated form.\n\n### Breakdown\n\n**Glycogen phosphorylase** cleaves α-1,4 bonds using inorganic phosphate (P_i), releasing **glucose-1-phosphate** (which is converted to glucose-6-phosphate). A debranching enzyme handles α-1,6 bonds, releasing free glucose. Phosphorylation generally favors phosphorylase activity; allosteric regulation also matters, including AMP activation of muscle phosphorylase b.\n\n### Tissue-Specific Purposes\n\n- **Liver glycogen** (~100 g): primary purpose is to maintain blood glucose between meals. Liver has **glucose-6-phosphatase**, so it can release free glucose into the blood.\n- **Muscle glycogen** (~400 g): primarily supports local muscle metabolism. Muscle *lacks glucose-6-phosphatase*, so it cannot export glucose to the blood. Muscle glycogen is for local use.\n\nThis tissue-specific enzyme distribution is a classic MCAT distinction.\n\n### Epinephrine's Role\n\n**Epinephrine** (from the adrenal medulla) acts during stress/exercise via both α and β adrenergic receptors. In muscle, it signals through Gs → cAMP → PKA, activating glycogen phosphorylase. In the liver, it similarly promotes glycogenolysis. Epinephrine amplifies glucagon's effects and is the primary signal for rapid glycogen mobilization during the fight-or-flight response.\n\n---\n\n## AMPK: The Cellular Energy Sensor\n\n### What Is AMPK?\n\n**AMP-activated protein kinase (AMPK)** is a heterotrimeric serine/threonine kinase that functions as the cell's energy gauge. It is activated when the **AMP:ATP ratio rises** — i.e., when energy is depleted (exercise, fasting, hypoxia, or glucose deprivation). AMP binding to AMPK's γ-subunit causes a conformational change that promotes phosphorylation of AMPK's α-subunit at **Thr172** by upstream kinases (**LKB1** is the primary AMPK kinase; **CaMKKβ** activates AMPK in response to calcium during muscle contraction).\n\nAMPK senses local energy stress; glucagon coordinates systemic glucose supply. They can favor different hepatic outcomes, so they are not interchangeable signals. AMP directly allosterically activates AMPK, and AMP or ADP binding can protect its activating phosphorylation from removal.\n\n### AMPK's Metabolic Actions\n\n**Catabolic (activated by AMPK):**\n- Increases GLUT4 translocation in muscle (independent of insulin)\n- Promotes fatty acid oxidation by phosphorylating and inhibiting **acetyl-CoA carboxylase (ACC)** → less malonyl-CoA → relieves inhibition of **carnitine palmitoyltransferase I (CPT-I)** → fatty acids enter mitochondria\n- Stimulates glycolysis (activates PFK-2 in cardiac muscle)\n- Promotes autophagy\n\n**Anabolic (inhibited by AMPK):**\n- Inhibits fatty acid synthesis (inhibits ACC)\n- Inhibits cholesterol synthesis (inhibits HMG-CoA reductase)\n- Can directly inhibit glycogen synthase by phosphorylation; net glycogen storage also depends on glucose uptake, G6P and recovery state\n- Inhibits protein synthesis (inhibits mTOR)\n- Can oppose hepatic gluconeogenic programs in particular contexts. CRTC2 (formerly called TORC2) is a transcriptional coactivator, not mTOR complex 2. Hepatic glucose output cannot be inferred from AMPK activity alone.\n\n### AMPK and Metformin\n\n**Metformin** lowers blood glucose partly by reducing hepatic glucose production. Its effects involve exposure- and tissue-dependent changes in energy metabolism and signaling. AMPK can participate, but liver AMPK knockout experiments retain metformin responses under some conditions; the drug should not be taught as working exclusively through Complex I → AMPK → gluconeogenic gene repression.\n\n### AMPK vs. Glucagon: A Comparison\n\nBoth AMPK and glucagon suppress anabolism and promote catabolism. The key difference:\n- **Glucagon** is a *systemic* hormone acting primarily on the liver via GPCR → cAMP → PKA\n- **AMPK** is a *cell-autonomous* sensor responding to local energy depletion, active in virtually every cell type\n\nDuring exercise, both are simultaneously active: glucagon rises (insulin falls), and AMPK is activated in contracting muscle by rising AMP and calcium.\n\n---\n\n## Glycolysis and Its Regulation\n\n### Key Regulated Steps\n\nGlycolysis has three essentially irreversible steps, each regulated:\n\n1. **Hexokinase/Glucokinase** (Glucose → G6P)\n   - Hexokinase (tissues): inhibited by its product G6P\n   - Glucokinase (liver, β-cells): not inhibited by G6P, has a relatively high glucose half-saturation concentration (S₀.₅, often about 7–10 mM); its sigmoidal kinetics are not simple Michaelis–Menten kinetics — acts as a glucose sensor\n\n2. **Phosphofructokinase-1** (F6P → F-1,6-BP) — *the primary regulated step*\n   - Activated by: AMP, ADP, F-2,6-BP\n   - Inhibited by: ATP, citrate, H⁺\n\n3. **Pyruvate kinase** (PEP → Pyruvate)\n   - Activated by: F-1,6-BP (feedforward activation)\n   - Inhibited by: ATP, alanine; the liver L isoform is inhibited by PKA phosphorylation during glucagon signaling; this is not a rule for every pyruvate kinase isoform\n\n### Fate of Pyruvate\n\nWhen mitochondrial oxidative metabolism is available, one possible fate is pyruvate → **acetyl-CoA** via **pyruvate dehydrogenase complex (PDC)**. PDC is inhibited by its products (acetyl-CoA, NADH) and by phosphorylation via **pyruvate dehydrogenase kinase (PDK)**. PDK is activated by high acetyl-CoA and NADH (i.e., when the cell is energy-replete or fatty acids are being oxidized). This is why fatty acid oxidation suppresses carbohydrate oxidation — the **glucose-fatty acid (Randle) cycle**.\n\nDuring glycolytic NAD⁺ regeneration, including in oxygenated cells: pyruvate → **lactate** via lactate dehydrogenase, regenerating NAD⁺.\n\n---\n\n## Gluconeogenesis: Making Glucose from Scratch\n\n### Where and When\n\nGluconeogenesis occurs primarily in the **liver** (dominant during short-term fasting) and to a lesser extent in the **kidney cortex** (important during prolonged fasting). It is essentially the reverse of glycolysis, except the three irreversible glycolytic steps are bypassed by four unique enzymes:\n\n1. **Pyruvate carboxylase** (Pyruvate → OAA) — requires biotin, activated by acetyl-CoA; occurs in mitochondria\n2. **PEPCK** (OAA → PEP) — requires GTP; has cytosolic and mitochondrial isoforms; the export route interacts with cytosolic NADH requirements\n3. **Fructose-1,6-bisphosphatase (FBPase-1)** (F-1,6-BP → F6P) — inhibited by AMP and F-2,6-BP\n4. **Glucose-6-phosphatase** (G6P → Glucose) — located in ER membrane; expressed in liver, kidney and small intestine\n\n### Gluconeogenic Substrates\n\n- **Lactate** (from muscle and RBCs) → pyruvate → OAA → glucose (**Cori cycle**)\n- **Alanine** (from muscle proteolysis) → pyruvate → OAA → glucose (**glucose-alanine cycle**; nitrogen is transferred to urea)\n- **Glycerol** (from lipolysis) → DHAP → enters gluconeogenesis\n- **Odd-chain fatty acids** → propionyl-CoA → succinyl-CoA → OAA (even-chain fatty acids *cannot* be net gluconeogenic substrates)\n\n### Energy Cost\n\nSynthesizing one molecule of glucose from two pyruvates costs **4 ATP + 2 GTP + 2 NADH**. This is why gluconeogenesis requires active fatty acid oxidation in the fasting liver — β-oxidation provides the ATP, NADH, and acetyl-CoA needed to drive the process. Acetyl-CoA simultaneously activates pyruvate carboxylase, favoring OAA production for gluconeogenesis or TCA replenishment; this is not a committed gluconeogenic step.\n\n---\n\n## The Citric Acid Cycle: Integration Hub\n\n### Regulation of the TCA Cycle\n\nThe **citric acid cycle (TCA cycle / Krebs cycle)** is regulated at three key steps:\n\n1. **Citrate synthase** (OAA + Acetyl-CoA → Citrate): controlled by substrate availability and product/energy conditions; specific inhibitor effects vary with organism and assay\n2. **Mitochondrial NAD⁺-dependent IDH3** (Isocitrate → α-KG): activated by ADP, Ca²⁺; inhibited by ATP, NADH\n3. **α-Ketoglutarate dehydrogenase** (α-KG → Succinyl-CoA): inhibited by its products succinyl-CoA and NADH; activated by Ca²⁺ in appropriate tissues\n\nThe pattern: high energy charge (high ATP, NADH) slows the cycle; low energy charge (high ADP, AMP) accelerates it.\n\n### The TCA Cycle as a Metabolic Crossroads\n\nThe TCA cycle is not just for energy production — its intermediates are **anaplerotic** and **cataplerotic** substrates for biosynthesis:\n\n- **Citrate** exits to cytoplasm → cleaved to acetyl-CoA + OAA → substrate for fatty acid and cholesterol synthesis\n- **α-Ketoglutarate** → glutamate → other amino acids or neurotransmitters\n- **Succinyl-CoA** → heme synthesis\n- **OAA** → aspartate → nucleotide synthesis; also substrate for gluconeogenesis\n\nWhen biosynthesis drains TCA intermediates (**cataplerosis**), they must be replenished (**anaplerosis**). The primary anaplerotic reaction is **pyruvate carboxylase** (pyruvate + bicarbonate + ATP → OAA + ADP + phosphate). Amino acid catabolism also replenishes intermediates (e.g., glutamine → α-KG).\n\nThis is why the TCA cycle can be thought of as an integration hub: it connects carbohydrate, fat, and amino acid metabolism.\n\n---\n\n## Inter-Organ Coordination: The Big Picture\n\n### The Liver: Master Metabolic Regulator\n\nThe liver is uniquely positioned — it receives portal blood directly from the gut, expresses many glucose-handling enzymes, including glucokinase (whose glucose response is sigmoidal, not simply proportional). In the fed state, the liver takes up glucose and amino acids, synthesizes glycogen, and converts excess acetyl-CoA into fatty acids (lipogenesis) for export as VLDL. In the fasting state, it exports glucose (overlapping glycogenolysis and gluconeogenesis) and produces **ketone bodies** (acetoacetate, β-hydroxybutyrate) from acetyl-CoA during prolonged fasting.\n\n### Skeletal Muscle: The Glucose Sink\n\nMuscle accounts for ~70–80% of insulin-stimulated glucose disposal, making it the dominant site of postprandial glucose clearance. During exercise, AMPK-mediated GLUT4 translocation provides an insulin-independent route for glucose uptake — critical for understanding how exercise benefits type 2 diabetics. Muscle exports **lactate** and **alanine** to the liver during exercise and fasting, respectively, providing gluconeogenic substrates.\n\n### The Brain: Glucose-Obligate (Mostly)\n\nThe adult brain normally uses substantial glucose, with demand varying by body size and state. Fatty acids can cross the blood–brain barrier and brain cells do use some of them; however, neuronal long-chain fatty-acid oxidation is limited, so it is not the main replacement for glucose during starvation. GLUT1 supports transport at the barrier and in glia, while neurons prominently express GLUT3. During prolonged fasting, ketone use progressively rises and reduces, but does not eliminate, glucose requirements. This protein-sparing adaptation develops over days to weeks rather than switching on at one fixed time.\n\n### The Cori Cycle\n\nDuring anaerobic exercise or in RBCs (which lack mitochondria), glucose is converted to lactate. Lactate is exported to the liver, where it is converted back to glucose via gluconeogenesis. This **Cori cycle** effectively transfers the metabolic burden from peripheral tissues to the liver. Net energy cost: the liver expends 4 ATP + 2 GTP (six high-energy phosphate equivalents) to regenerate glucose from 2 lactate; muscle gained only 2 ATP from glycolysis. The difference is subsidized by hepatic fatty acid oxidation.\n\n### The Glucose-Alanine Cycle\n\nDuring fasting/protein catabolism, muscle transfers nitrogen to pyruvate using alanine aminotransferase: pyruvate + glutamate ⇌ alanine + α-ketoglutarate. Alanine travels to the liver, where transamination regenerates pyruvate and transfers nitrogen to glutamate; subsequent reactions supply ammonium and aspartate for urea synthesis. This cycle safely transports nitrogen from muscle to liver while providing gluconeogenic substrate.\n\n---\n\n## Integrating the Signals: Fed vs. Fasting vs. Exercise\n\n### Fed State (High Insulin, Low Glucagon)\n\n- Liver: glycogen synthesis, glycolysis active, gluconeogenesis suppressed, lipogenesis\n- Muscle: GLUT4 insertion, glycogen synthesis, protein synthesis\n- Adipose: lipogenesis, LPL active, HSL suppressed\n- Blood glucose rises after eating and is regulated toward baseline; the peak and timing depend on the meal and individual. A diagnostic oral glucose test is not the same as an ordinary meal.\n\n### Fasting State (Low Insulin, High Glucagon)\n\n- Liver: glycogenolysis and gluconeogenesis overlap. As hepatic glycogen declines, gluconeogenesis contributes a larger fraction and ketogenesis increases; timing depends on intake, activity and reserves.\n- Muscle: GLUT4 internalized, glucose uptake drops; fatty acid oxidation increases; protein catabolism → alanine export\n- Adipose: HSL active → lipolysis → fatty acids and glycerol released\n- Brain: progressively increases ketone use during prolonged fasting while retaining a glucose requirement\n\n### Exercise State (Low Insulin, High Glucagon, High AMPK, High Epinephrine)\n\n- Muscle: AMPK → GLUT4 translocation (insulin-independent), glycogenolysis, fatty acid oxidation\n- Liver: glycogenolysis → glucose export; gluconeogenesis (from lactate, alanine, glycerol)\n- Adipose: epinephrine → HSL activation → fatty acid release\n- Post-exercise: insulin sensitivity of muscle is elevated for hours (multiple contraction-related signaling and transport adaptations contribute)\n\n---\n\n## Key Numbers and Facts for the MCAT\n\n- Typical fasting glucose: about **70–99 mg/dL**. Laboratory fasting plasma glucose **≥126 mg/dL** is a diabetes diagnostic threshold, generally requiring confirmation when unequivocal hyperglycemia is absent.\n- Liver glycogen capacity: ~**100 g** (declines during fasting; depletion timing varies substantially)\n- Muscle glycogen capacity: ~**400 g** (not available to blood glucose)\n- Brain glucose consumption: ~**120 g/day** (reduced to ~40 g/day with ketone adaptation)\n- ATP yield from complete glucose oxidation: approximately **30–32 ATP** per glucose\n- Gluconeogenesis energy cost: **6 phosphoanhydride bonds** (4 ATP + 2 GTP) per glucose\n- F-2,6-BP is the most potent activator of PFK-1 and the master glycolysis/gluconeogenesis switch\n- **AMP** directly allosterically activates AMPK; both AMP and **ADP** can protect Thr172 phosphorylation from removal. ATP competes with these energy-stress signals.\n- Pyruvate carboxylase requires **biotin** and is activated by **acetyl-CoA**\n- PEPCK requires **GTP** (not ATP)\n- The glucose-exporting **G6PC1 system** is expressed in liver, kidney and small intestine. Skeletal muscle lacks the hepatic-style glucose-export pathway; other G6PC isoforms should not be conflated with it.\n\n---\n\n## Common MCAT Traps\n\n- **Muscle cannot export glucose** — it lacks glucose-6-phosphatase. Muscle glycogen fuels only muscle.\n- **Even-chain fatty acids are not net gluconeogenic** — they produce only acetyl-CoA, which cannot be converted to OAA (the TCA cycle is not a net source of OAA from acetyl-CoA because each turn consumes and regenerates OAA). Only propionyl-CoA (from odd-chain fatty acids) can enter gluconeogenesis.\n- **Glucagon does not act on muscle** — muscle lacks glucagon receptors. Epinephrine handles muscle glycogenolysis.\n- **Insulin receptor is an RTK** — not a GPCR. Glucagon receptor is a GPCR.\n- **AMP allostery is not the entire AMPK mechanism** — ADP also regulates phosphorylation protection, although it does not directly activate the kinase allosterically like AMP.\n- **Ketone bodies are made in the liver but the liver cannot use them** — the liver lacks **succinyl-CoA transferase (thiophorase)**, the enzyme needed to activate acetoacetate for oxidation.\n- **F-2,6-BP is not the same as F-1,6-BP** — the former is a regulatory molecule; the latter is a glycolytic intermediate.\n\n---\n\n## Summary\n\nWhole-body glucose homeostasis emerges from the coordinated action of hormonal signals and intracellular energy sensors operating across multiple tissues simultaneously. **Insulin** signals the fed state, driving glucose uptake, glycogen synthesis, and anabolism while suppressing gluconeogenesis — through several signaling and transcriptional routes, including hepatic enzyme dephosphorylation. **Glucagon** signals the fasted state, mobilizing hepatic glycogen and activating gluconeogenesis through cAMP-PKA signaling, while low insulin and catecholamine signals help mobilize human adipose fuel. **AMPK** acts as a cell-autonomous energy sensor, activated by rising AMP to promote catabolism and suppress anabolism at the cellular level ; metformin effects are not limited to this pathway.\n\nThe liver integrates systemic signals and serves as the primary glucose buffer for the blood. Muscle is the dominant site of insulin-stimulated glucose disposal. The brain is largely glucose-obligate but can adapt to ketones during prolonged starvation. The Cori cycle and glucose-alanine cycle link peripheral tissues to hepatic gluconeogenesis, ensuring continuous glucose supply even when dietary carbohydrates are absent.\n\nMastering this integration — knowing which enzyme, which tissue, which hormone, and which direction — is the hallmark of MCAT-level metabolic reasoning."
+    },
+    {
+      "field": "questions.161.explanation",
+      "value": "B describes the hepatic liver-isoform response: glucagon activates cAMP–PKA signaling, shifting PFK-2/FBPase-2 toward lower F2,6BP. This opposes PFK-1 and relieves FBPase-1 inhibition. PKA inhibits liver pyruvate kinase rather than allosterically activating it. Muscle AMPK activation during exercise does not establish the liver energy state, and gluconeogenesis has already been contributing before glycogen depletion."
+    },
+    {
+      "field": "questions.162.choice_c",
+      "value": "Decreased acetyl-CoA carboxylase activity and lower malonyl-CoA production, with other inputs held constant."
+    },
+    {
+      "field": "questions.162.explanation",
+      "value": "C follows from AMPK-mediated inhibitory phosphorylation of ACC. Less malonyl-CoA synthesis tends to reduce fatty-acid synthesis and relieve CPT-I inhibition. AMPK also commonly opposes mTORC1-driven biosynthesis. Net glucose or glycogen flux requires more context than one kinase measurement, so no obligatory CRTC2 or metformin mechanism is needed for this answer."
+    },
+    {
+      "field": "questions.163.choice_a",
+      "value": "Insulin-dominant signaling favors dephosphorylation of the hepatic PFK-2/FBPase-2 isoform, increasing PFK-2 activity relative to FBPase-2."
+    },
+    {
+      "field": "questions.164.choice_b",
+      "value": "Neurons have limited long-chain fatty-acid oxidative capacity, even though fatty acids can enter the brain and some brain cells oxidize them."
+    },
+    {
+      "field": "questions.164.explanation",
+      "value": "B distinguishes transport from metabolism. Fatty acids can cross the blood–brain barrier; it does not lack all fatty-acid transport mechanisms. Limited neuronal long-chain fatty-acid oxidation and the metabolic specialization of brain cells constrain its use as a dominant fuel. Ketones cross through monocarboxylate transporters and provide acetyl-CoA for oxidation. The brain has an active TCA cycle and fatty-acid use is not exclusive to the heart."
+    },
+    {
+      "field": "questions.164.question_text",
+      "value": "During prolonged fasting, the brain increases ketone use while retaining some glucose requirement. Which statement best explains why long-chain fatty acids do not simply replace glucose as the main neuronal fuel?"
+    },
+    {
+      "field": "questions.165.explanation",
+      "value": "B fits excess hepatic glucagon signaling: PKA activates phosphorylase kinase, which phosphorylates glycogen phosphorylase. PKA signaling also opposes glycogen synthase and liver pyruvate kinase, while CREB-linked transcription can increase gluconeogenic enzyme abundance. PKA does not directly perform the phosphorylase-kinase step on glycogen phosphorylase. Actual glycogenolytic flux still depends on glycogen availability."
+    }
+  ]
+}

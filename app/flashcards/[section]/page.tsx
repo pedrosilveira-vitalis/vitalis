@@ -1,9 +1,11 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import { fetchJson } from "@/lib/fetch-json";
+import { coreDeck } from "@/lib/core-flashcards";
+import type { Section } from "@/lib/practice";
 import MainNav from "@/components/MainNav";
 
 type Card = { front: string; back: string };
@@ -32,35 +34,54 @@ export default function FlashcardSession() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [knownCount, setKnownCount] = useState(0);
-  const [reviewCount, setReviewCount] = useState(0);
+  const [reviewCards, setReviewCards] = useState<Card[]>([]);
+  const [notice, setNotice] = useState("");
+  const [sources, setSources] = useState<string[]>([]);
+  const activeRequest = useRef<AbortController | null>(null);
+
+  function startDeck(deck: Card[]) {
+    setCards(deck); setCurrentIdx(0); setFlipped(false); setKnownCount(0); setReviewCards([]);
+  }
+
+  function useCoreDeck() {
+    activeRequest.current?.abort();
+    activeRequest.current = null;
+    const deck = coreDeck(sectionId as Section, 8);
+    startDeck(deck.cards); setSources(deck.sources);
+    setNotice(`Showing ${deck.cards.length} core review cards from a fixed starter set.`);
+    setLoading(false); setError("");
+  }
 
   const accent = SECTION_COLORS[sectionId] || "#0c1a2e";
   const sectionName = SECTION_NAMES[sectionId] || sectionId;
 
   const loadCards = useCallback(async () => {
-    setLoading(true);
-    setError("");
+    if (!SECTION_NAMES[sectionId]) return;
+    activeRequest.current?.abort();
+    const controller = new AbortController();
+    activeRequest.current = controller;
+    setLoading(true); setError(""); setNotice(""); setSources([]);
     try {
       const data = await fetchJson("/api/flashcards/generate", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ section: sectionId, count: 20 }),
-      });
-      if (!data.cards || data.cards.length === 0) {
-        setError("Couldn't load cards. Try again.");
-        setLoading(false);
-        return;
-      }
-      setCards(data.cards);
-      setLoading(false);
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ section: sectionId, count: 8 }), signal: controller.signal,
+      }, 55000);
+      if (!Array.isArray(data.cards) || !data.cards.length || data.cards.some((card: Card) =>
+        typeof card.front !== "string" || typeof card.back !== "string")) throw new Error("Couldn't load cards. Try the core deck.");
+      if (activeRequest.current !== controller) return;
+      startDeck(data.cards); setNotice(data.notice || "AI-generated deck. Check unfamiliar facts against your study sources.");
+      setSources(data.sources || []);
     } catch (error) {
-      setError(error instanceof Error ? error.message : "Couldn't load cards. Try again.");
-      setLoading(false);
+      if (activeRequest.current !== controller || controller.signal.aborted) return;
+      setError(error instanceof Error ? error.message : "Couldn't load cards. Try the core deck.");
+    } finally {
+      if (activeRequest.current === controller) setLoading(false);
     }
   }, [sectionId]);
 
   useEffect(() => {
-    loadCards();
+    void loadCards();
+    return () => { activeRequest.current?.abort(); activeRequest.current = null; };
   }, [loadCards]);
 
   function handleKnown() {
@@ -68,7 +89,7 @@ export default function FlashcardSession() {
     handleNext();
   }
   function handleReview() {
-    setReviewCount(reviewCount + 1);
+    setReviewCards(previous => [...previous, cards[currentIdx]]);
     handleNext();
   }
   function handleNext() {
@@ -102,6 +123,7 @@ export default function FlashcardSession() {
             <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
           </div>
           <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Generating {sectionName} cards...</div>
+          <button onClick={useCoreDeck} className="mt-6 underline">Use core review cards now</button>
         </div>
       </div>
     );
@@ -112,7 +134,9 @@ export default function FlashcardSession() {
       <div className="min-h-screen bg-[#f5f1ea] flex items-center justify-center p-10">
         <div className="text-center max-w-md">
           <h1 className="font-serif text-3xl font-medium mb-4">{error}</h1>
-          <button onClick={loadCards} className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full">Try again</button>
+          <button onClick={() => void loadCards()} className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full">Try again</button>
+          <button onClick={useCoreDeck} className="block mx-auto mt-5 underline">Use core review cards now</button>
+          <Link href="/flashcards" className="block mt-4 underline">Back to flashcards</Link>
         </div>
       </div>
     );
@@ -129,7 +153,8 @@ export default function FlashcardSession() {
           </h1>
           <p className="font-mono text-[14px] tracking-[0.1em] uppercase opacity-65 mb-10">cards known</p>
           <div className="flex gap-3 justify-center flex-wrap">
-            <button onClick={() => { setCurrentIdx(0); setKnownCount(0); setReviewCount(0); setFlipped(false); loadCards(); }} className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]">
+            {reviewCards.length > 0 && <button onClick={() => startDeck(reviewCards)} className="font-mono text-xs border px-5 py-3 rounded-full">Review {reviewCards.length} cards again</button>}
+            <button onClick={() => void loadCards()} className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]">
               New deck →
             </button>
             <button onClick={() => router.push("/flashcards")} className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full hover:bg-[#0c1a2e0a]">
@@ -152,6 +177,8 @@ export default function FlashcardSession() {
           <span className="opacity-40">/</span>
           <span style={{ color: accent }}>{sectionName}</span>
         </div>
+        <p role="status" className="text-sm opacity-75 mb-3">{notice}</p>
+        {sources.length > 0 && <details className="text-sm mb-5"><summary>Core deck sources</summary>{sources.map(url => <a key={url} href={url} target="_blank" rel="noopener noreferrer" className="block underline break-all mt-2">{url}</a>)}</details>}
         <div className="mb-6 flex items-center gap-3">
           <div className="flex-1 h-1.5 bg-[#0c1a2e15] rounded-full overflow-hidden">
             <div className="h-full transition-all" style={{ width: `${(currentIdx / cards.length) * 100}%`, backgroundColor: accent }} />
@@ -162,6 +189,8 @@ export default function FlashcardSession() {
         </div>
 
         <div
+          role="button" tabIndex={0} aria-label={flipped ? "Answer. Flip to question" : "Question. Reveal answer"}
+          onKeyDown={event => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); setFlipped(!flipped); } }}
           onClick={() => setFlipped(!flipped)}
           className="min-h-[300px] md:min-h-[400px] p-10 md:p-14 border-2 border-[#0c1a2e15] rounded-3xl flex items-center justify-center text-center cursor-pointer hover:border-[#0c1a2e] transition-all bg-[#f5f1ea] mb-7"
         >

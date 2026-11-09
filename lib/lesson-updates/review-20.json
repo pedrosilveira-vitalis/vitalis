@@ -1,0 +1,252 @@
+{
+  "lessonId": 20,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "They are **allosteric enzymes**",
+      "new": "Some are **allosteric enzymes**, although allostery does not require a sigmoidal curve",
+      "reason": "Opening notuniversal.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "Allosteric regulation occurs when a molecule binds to a site on an enzyme that is *distinct from the active site*, inducing conformational changes that alter catalytic activity.",
+      "new": "Allosteric regulation couples a change at one site to function at another. Heterotropic effectors often bind a separate regulatory site; substrate binding at one active site can also influence other sites (homotropic cooperativity).",
+      "reason": "Includehomotropic andavoidcontradiction.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "Nearly all allosteric enzymes are **oligomeric**—they consist of multiple subunits.",
+      "new": "Many classic allosteric examples are **oligomeric**, but monomeric proteins can also be regulated allosterically; human glucokinase is an important example.",
+      "reason": "Notnearlyall.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "Because allosteric enzymes have multiple subunits, they possess multiple active sites.",
+      "new": "In oligomeric examples, multiple subunits may provide multiple active sites.",
+      "reason": "Qualify.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "The enzyme is more open and catalytically active.",
+      "new": "In this simplified model it favors substrate binding or activity; “R” does not universally mean a more open structure.",
+      "reason": "Rnotopenuniversal.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026370/"
+    },
+    {
+      "field": "content",
+      "old": "In the absence of substrate or effectors, the equilibrium favors the T state for most allosteric enzymes. When substrate binds to one subunit, it shifts that subunit toward the R state, and—crucially—this conformational change is transmitted to neighboring subunits, making them *more likely* to adopt the R state as well. This is cooperative binding.",
+      "new": "In the classical MWC model, the oligomer interconverts concertedly between all-T and all-R conformations; mixed T/R subunits within one oligomer are excluded. A ligand that binds R more favorably shifts the population toward R. The model does not describe one subunit switching first and then recruiting its neighbors—that is closer to the sequential model.",
+      "reason": "Original conflatedMWCwithKNF.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3276696/"
+    },
+    {
+      "field": "content",
+      "old": "this equation is replaced by the **Hill equation**",
+      "new": "an empirical **Hill equation** can approximate the response over a specified range",
+      "reason": "Hillnotexactuniversal.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "A Hill coefficient approaching the number of subunits indicates highly cooperative behavior.",
+      "new": "For an equilibrium-binding model, a Hill slope approaching the number of interacting sites suggests strong positive cooperativity. A kinetic Hill coefficient is not generally a count of subunits or binding sites.",
+      "reason": "Kinetichillnotstoichiometric.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "When you plot v versus [S] for a cooperative enzyme",
+      "new": "For a positively cooperative system with a sigmoidal response, plotting v versus [S]",
+      "reason": "NegativecoopnotSshape.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "This distinction is critical for the MCAT. Allosteric inhibition is a form of *noncompetitive* or *uncompetitive* inhibition in terms of mechanism (the inhibitor does not compete with substrate for the active site), but it has unique features:",
+      "new": "Allostery describes coupling between sites; competitive, mixed, noncompetitive and uncompetitive describe kinetic patterns under a specified model. An inhibitor’s remote binding location alone does not determine its kinetic class. Determine the response experimentally.",
+      "reason": "Not allallostericnoncomporuncomp.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "They typically affect *sigmoidal* enzymes, not hyperbolic ones",
+      "new": "They can regulate enzymes with sigmoidal or approximately hyperbolic responses",
+      "reason": "Avoidfalseexclusion.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "It shifts the sigmoid curve dramatically leftward and increases Vmax.",
+      "new": "It can lower the fructose-6-phosphate S₀.₅ and relieve ATP inhibition; effects on maximal activity depend on isoform and assay conditions.",
+      "reason": "NoalwaysVmaxincrease.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    },
+    {
+      "field": "content",
+      "old": "**ATCase** catalyzes the first committed step",
+      "new": "**E. coli ATCase** catalyzes the first committed step",
+      "reason": "Specify species.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3276696/"
+    },
+    {
+      "field": "content",
+      "old": "the structural studies by Perutz and others on this enzyme laid the groundwork for the MWC model",
+      "new": "biochemical work by Gerhart and Pardee and subsequent structural studies helped establish its regulatory mechanism; Perutz is especially associated with hemoglobin studies",
+      "reason": "Correcthistoryattribution.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3276696/"
+    },
+    {
+      "field": "content",
+      "old": "**Covalent modification** (e.g., phosphorylation by protein kinases) also regulates many metabolic enzymes but operates on a slightly longer timescale",
+      "new": "**Covalent modification** (e.g., phosphorylation by protein kinases) also regulates many metabolic enzymes, with kinetics that depend on the system",
+      "reason": "Timescalenotfixed.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**Km** is the substrate concentration at half-maximal velocity and is a true constant related to enzyme-substrate affinity",
+      "new": "**Km** is the substrate concentration at half-maximal velocity under the Michaelis–Menten model; it combines kinetic rate constants and is not generally a binding dissociation constant",
+      "reason": "KmnotKd.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "This ensures that when cellular energy is low, all these enzymes are simultaneously activated to increase ATP production. Conversely, when ATP is abundant, they are simultaneously inhibited to prevent futile cycling and unnecessary substrate oxidation.",
+      "new": "Low energy status often promotes ATP-producing pathways, but responses differ by tissue, isoform, substrate availability and additional regulators. For example, PDH regulation also involves phosphorylation. The listed enzymes do not all respond simultaneously or identically to one ratio.",
+      "reason": "Avoiduniversalenergyresponse.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Allosteric drugs include certain HIV protease inhibitors and modulators of G-protein coupled receptors.",
+      "new": "Allosteric drugs include modulators of G-protein-coupled receptors. Most familiar HIV protease inhibitors act at the protease active site; do not infer allostery simply because an inhibitor changes conformation.",
+      "reason": "Avoidunidentifiedproteaseexample.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Allosteric enzymes have **multiple subunits** and **multiple binding sites** (active sites and allosteric sites)",
+      "new": "Allostery involves coupled sites or conformational states and does **not require multiple subunits**",
+      "reason": "Summarycorrect.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "They exist in **T (tense, low affinity)** and **R (relaxed, high affinity)** conformational states",
+      "new": "**T and R states** are a useful model for selected systems, not a universal two-state description of every enzyme",
+      "reason": "ScopeMWC.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3276696/"
+    },
+    {
+      "field": "content",
+      "old": "**Cooperative binding** occurs when substrate binding to one subunit increases affinity at other subunits",
+      "new": "**Positive cooperative binding** occurs when occupancy at one site favors binding at others; negative cooperativity has the opposite effect",
+      "reason": "Positivevsnegative.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Cooperative enzymes display **sigmoidal kinetics** rather than hyperbolic Michaelis-Menten kinetics",
+      "new": "Positive kinetic cooperativity can produce **sigmoidal responses**; other forms of regulation need not",
+      "reason": "Notallsigmoidal.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "| ATCase |",
+      "new": "| E. coli ATCase |",
+      "reason": "Scope table.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3276696/"
+    },
+    {
+      "field": "content",
+      "old": "| Glycogen phosphorylase |",
+      "new": "| Muscle glycogen phosphorylase |",
+      "reason": "Liverisoform differs.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "| Isocitrate dehydrogenase |",
+      "new": "| Mitochondrial NAD-dependent isocitrate dehydrogenase |",
+      "reason": "Isoformsdiffer.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.96.question_text",
+      "old": "An allosteric enzyme displays a sigmoidal velocity curve when substrate concentration is plotted against reaction rate. A researcher adds an allosteric activator and observes that the curve shifts to resemble a hyperbolic Michaelis-Menten plot. Which of the following best explains this observation?",
+      "new": "An enzyme described by a two-state MWC model has a sigmoidal rate curve. A reversible effector makes the curve more nearly hyperbolic and increases rate at low substrate. Which explanation is most consistent with the model?",
+      "reason": "Specifymechanisticmodel.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.97.choice_a",
+      "old": "The enzyme switches to a T (tense) state, increasing its apparent Km for fructose-6-phosphate.",
+      "new": "The enzyme favors a less active state, increasing the fructose-6-phosphate S₀.₅ under these conditions.",
+      "reason": "S0.5ratherKmfornonMM.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    },
+    {
+      "field": "questions.97.choice_b",
+      "old": "The enzyme switches to an R (relaxed) state, decreasing its apparent Km for fructose-6-phosphate.",
+      "new": "The enzyme favors a more active state, decreasing the fructose-6-phosphate S₀.₅ under these conditions.",
+      "reason": "Parallel terminology.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    },
+    {
+      "field": "questions.97.explanation",
+      "old": "High ATP stabilizes the T (tense, low-affinity) state of PFK-1, an allosteric inhibitor effect that increases the apparent Km for fructose-6-phosphate and reduces catalytic efficiency, slowing glycolysis when energy is abundant. Choice B describes the effect of AMP (activator), not ATP. Choice C is incorrect because allosteric inhibition does not work through competitive mechanisms at the active site and does not simply decrease Vmax.",
+      "new": "A is consistent with ATP-mediated allosteric inhibition at high ATP relative to AMP. Use S₀.₅ for the sigmoidal fructose-6-phosphate response. ATP is also a catalytic substrate, so its activating substrate role at low concentration must be distinguished from inhibition at high concentration.",
+      "reason": "Avoid universal switches and wrongnoncompclaim.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    },
+    {
+      "field": "questions.98.question_text",
+      "old": "A researcher compares two enzymes: Enzyme X follows Michaelis-Menten kinetics, and Enzyme Y is allosteric with cooperative binding. Both have the same Vmax. At low substrate concentrations, which enzyme is expected to have higher activity, and why?",
+      "new": "Enzyme X follows v/Vmax = [S]/(K + [S]); enzyme Y follows v/Vmax = [S]²/(K² + [S]²). Both have the same Vmax and half-maximal concentration K. At [S] = 0.1K, which has the higher rate?",
+      "reason": "OriginalinsufficientKmK0.5information.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.98.choice_c",
+      "old": "Enzyme X, because without cooperativity, each active site binds substrate independently and efficiently at low concentrations.",
+      "new": "Enzyme X: its rate is about 9.1% of Vmax, versus about 1.0% for Y.",
+      "reason": "Calculateunambiguously.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.98.explanation",
+      "old": "At low substrate concentrations, a sigmoidal (cooperative) enzyme like Enzyme Y has very low activity because insufficient substrate is present to trigger cooperative activation across subunits. Enzyme X, following hyperbolic kinetics, already operates at a significant fraction of Vmax at low substrate. Choice B is partially true but describes what happens as substrate increases above the threshold, not at low concentrations. Choice D is a false generalization.",
+      "new": "C is correct: X gives 0.1/1.1 ≈ 0.091; Y gives 0.01/1.01 ≈ 0.0099. Equal Vmax alone would not establish the ordering; the equal half-maximal concentrations and explicit models are necessary.",
+      "reason": "Correct missingassumption.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.100.question_text",
+      "old": "An allosteric inhibitor binds to a site distinct from the active site and decreases enzyme activity. Kinetic analysis shows that both Vmax decreases and apparent Km increases. Which model best explains this result?",
+      "new": "For an enzyme fit by the standard reversible Michaelis–Menten inhibition models, an inhibitor binds both free E and ES with unequal affinities. Apparent Vmax decreases and apparent Km increases. Which explanation best fits?",
+      "reason": "Use kineticmodelratherunsupportedMWCforpattern.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.100.choice_b",
+      "old": "The inhibitor stabilizes the T state, reducing the proportion of enzyme in the high-affinity R state and lowering maximum catalytic capacity.",
+      "new": "Mixed inhibition with stronger inhibitor binding to free E than to ES.",
+      "reason": "Directsupportedmodel.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.100.explanation",
+      "old": "Allosteric inhibitors that stabilize the T (tense, low-affinity) state reduce both the affinity for substrate (increased apparent Km) and the overall catalytic efficiency (decreased Vmax) because fewer enzyme molecules exist in the active R conformation. This is distinct from classical competitive or uncompetitive inhibition. Choice A is incorrect because competitive inhibitors do not decrease Vmax. Choice D is incorrect because uncompetitive inhibitors decrease both Km and Vmax, and they bind the ES complex, not an allosteric site.",
+      "new": "B is correct. In the mixed model, Vmax,app = Vmax/α′ and Km,app = Km α/α′. Stronger binding to E means α > α′, so apparent Km rises while Vmax falls. Competitive inhibition leaves Vmax unchanged; uncompetitive inhibition lowers both by the same factor. The graph alone does not establish a unique T/R structural mechanism.",
+      "reason": "No remote-siteuncompetitiveexclusion.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "lessonId": 39,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "three function exclusively as **stop codons**",
+      "new": "three normally act as **stop codons** in the standard code",
+      "reason": "Scope stop assignments.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "content",
+      "old": "These codons do not encode amino acids. Instead, they are recognized by protein release factors that trigger termination of translation and release of the polypeptide chain.",
+      "new": "In ordinary termination, release factors recognize these codons and promote peptide release. Specialized recoding can instead insert selenocysteine at UGA or, in certain organisms, pyrrolysine at UAG; alternative genetic codes and readthrough provide further exceptions.",
+      "reason": "Include context-dependent decoding.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "content",
+      "old": "The **start codon** is **AUG**, which encodes methionine. Every protein begins with a methionine residue at the N-terminus, though this is frequently cleaved post-translationally. Critically, AUG serves a dual role: when it appears at the beginning of an open reading frame, it signals the ribosome to initiate translation; when it appears internally, it simply inserts methionine into the growing chain. In prokaryotes, the initiator methionine is a modified form called **N-formylmethionine (fMet)**, a distinction with clinical significance because the immune system can recognize fMet-containing peptides as bacterial in origin.",
+      "new": "**AUG is the usual start codon**, recruiting a specialized initiator tRNA with methionine. Bacteria can also initiate at codons such as GUG or UUG while still inserting initiator fMet; rare non-AUG initiation occurs in eukaryotes. An internal AUG normally inserts methionine. Bacteria use N-formylmethionine for initiation, whereas archaea and the eukaryotic cytosol use unformylated methionine. Mitochondria also use formylated initiators, so fMet peptides are not exclusively bacterial. Initial residues may be removed during protein maturation.",
+      "reason": "Correct universal AUG/prokaryotic/fMet claims.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "content",
+      "old": "Degeneracy primarily protects against silent and some missense mutations, but it cannot protect against nonsense mutations or frameshifts.",
+      "new": "Degeneracy explains why some substitutions leave the encoded amino acid unchanged. A missense substitution changes the amino acid by definition; a conservative replacement may have a small effect for other reasons. Synonymous changes can still affect splicing, RNA stability or translation efficiency.",
+      "reason": "Distinguish unchanged sequence from no biological effect.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "The genetic code is **non-overlapping**: each nucleotide belongs to exactly one codon.",
+      "new": "Within an ordinary translated reading frame, codons are **non-overlapping**: each nucleotide is used in one triplet. Different genes can overlap in different frames, and programmed frameshifting can alter the decoding frame.",
+      "reason": "Scope nonoverlap to reading frame.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "content",
+      "old": "The reading frame is established by the start codon (AUG)",
+      "new": "The reading frame is established by the initiation site (usually AUG)",
+      "reason": "Scope initiation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "content",
+      "old": "It is the reason recombinant DNA technology works: a human insulin gene inserted into *E. coli* will be translated correctly because both organisms use the same code.",
+      "new": "Shared codon assignments help recombinant expression: an appropriately designed intron-free human insulin coding sequence can be expressed in bacteria. Suitable bacterial expression signals and correct protein maturation/folding are also needed; inserting an unmodified human genomic gene is not sufficient.",
+      "reason": "Avoid genomic gene expression oversimplification.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "and the MCAT treats the code as universal unless a passage explicitly states otherwise.",
+      "new": "so the standard table is a useful default when no alternative code or recoding context is specified.",
+      "reason": "Remove unsupported exam policy claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "content",
+      "old": "The genetic code is **unambiguous**: each codon specifies one and only one amino acid (or stop signal).",
+      "new": "Within a specified code and ordinary decoding context, each codon has a defined assignment: the code is described as **unambiguous**. Context-dependent recoding is an important exception to this introductory rule.",
+      "reason": "Reconcile recoding.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "content",
+      "old": "There are at least 45 distinct tRNA molecules in most organisms (fewer than 64 because of wobble pairing, discussed below). Each tRNA is 73–93 nucleotides long and folds into a characteristic three-dimensional shape.",
+      "new": "The number of tRNA genes, anticodon types and chemically distinct mature tRNAs are different quantities and vary between organisms and compartments. Human mitochondria encode only 22 tRNAs. Typical cytosolic tRNAs are roughly 70–90 nucleotides long, with structural exceptions including mitochondrial tRNAs.",
+      "reason": "Remove false universal minimum and hard size bounds.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "content",
+      "old": "with four major stems and three loops:",
+      "new": "with acceptor, D, anticodon and T arms, plus a variable region:",
+      "reason": "Avoid conflicting loop count.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK6236/"
+    },
+    {
+      "field": "content",
+      "old": "A 7-base-pair stem at the 5' end of the molecule, where the 3' end terminates",
+      "new": "A stem formed by pairing the 5′ and 3′ regions, usually seven base pairs in canonical tRNAs; the mature 3′ end terminates",
+      "reason": "Clarify acceptor stem topology.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK6236/"
+    },
+    {
+      "field": "content",
+      "old": "The amino acid is attached to the 3'-OH of the terminal adenosine.",
+      "new": "The amino acid is ester-linked to the terminal adenosine’s ribose. Initial aminoacylation can use its 2′-OH or 3′-OH, depending on the synthetase; the aminoacyl group can transfer between these positions.",
+      "reason": "Correct charging chemistry.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK6236/"
+    },
+    {
+      "field": "content",
+      "old": "There is at least one synthetase for each of the 20 amino acids, giving a minimum of 20 distinct enzymes.",
+      "new": "A common introductory model has one synthetase specificity per standard amino acid, but a universal minimum of 20 enzymes is incorrect: some organisms use indirect pathways, for example converting glutamate already attached to tRNA-Gln into glutamine.",
+      "reason": "Include indirect charging.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21111/"
+    },
+    {
+      "field": "content",
+      "old": "The aminoacylation reaction proceeds in two steps, both requiring **ATP**:",
+      "new": "The standard aminoacylation reaction uses **one ATP molecule** across two steps:",
+      "reason": "Avoid two ATP molecules.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK6236/"
+    },
+    {
+      "field": "content",
+      "old": "The activated amino acid is transferred to the 3'-OH of the terminal adenosine of the tRNA acceptor stem.",
+      "new": "The activated amino acid is transferred to a ribose hydroxyl of the terminal adenosine: class I synthetases generally use the 2′-OH and class II generally the 3′-OH, with exceptions. No second ATP is consumed in this transfer step.",
+      "reason": "Correct regiochemistry and energy.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK6236/"
+    },
+    {
+      "field": "content",
+      "old": "a single G3:U70 base pair in the acceptor stem is sufficient for recognition.",
+      "new": "the G3:U70 acceptor-stem pair is a major alanine identity determinant; efficient recognition also depends on structural context.",
+      "reason": "Avoid context-free sufficiency.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK6236/"
+    },
+    {
+      "field": "content",
+      "old": "This demonstrates that the relationship between codon and amino acid is entirely mediated by the synthetase-tRNA interaction, not by any direct chemical affinity between codon and amino acid.",
+      "new": "This illustrates that tRNA identity and aminoacylation machinery establish the operational link between a codon and its amino acid. The ribosome primarily checks codon–anticodon geometry rather than rechecking amino-acid identity.",
+      "reason": "Avoid evolutionary absolute unsupported by experiment.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK6236/"
+    },
+    {
+      "field": "content",
+      "old": "If the wrong amino acid is attached, it can be hydrolyzed before or after transfer to the tRNA.",
+      "new": "Pre-transfer editing hydrolyzes a misactivated aminoacyl-adenylate; post-transfer editing hydrolyzes a mischarged aminoacyl-tRNA.",
+      "reason": "Correct before-attached contradiction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK6236/"
+    },
+    {
+      "field": "content",
+      "old": "This editing activity reduces the error rate of aminoacylation to approximately 1 in 10,000, consistent with the overall fidelity of protein synthesis.",
+      "new": "Editing improves fidelity, but error frequencies vary with synthetase, substrate competition and conditions. A value near 10⁻⁴ is an order-of-magnitude teaching estimate, not a universal constant.",
+      "reason": "Scope error estimate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK6236/"
+    },
+    {
+      "field": "content",
+      "old": "If the genetic code has 61 sense codons, one might expect 61 distinct tRNA molecules, each with a unique anticodon perfectly complementary to one codon. However, most organisms have far fewer tRNA genes—humans have approximately 500 tRNA genes, but many are redundant, and the actual number of distinct tRNA anticodon sequences is around 45. How can fewer than 61 tRNAs decode 61 codons?",
+      "new": "The standard code has 61 sense codons, but a one-to-one inventory of anticodons is unnecessary. Wobble allows one tRNA to recognize more than one codon. Organisms may have many duplicate tRNA genes, so gene count must not be confused with the number of distinct anticodons.",
+      "reason": "Remove contradictory fewer-than61genes then500 claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "At the first two codon positions, standard Watson-Crick base pairing applies:",
+      "new": "In the basic wobble model, the first two codon positions use standard Watson–Crick pairing:",
+      "reason": "Scope simplified model.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "At the third codon position (wobble position), non-standard pairings are permitted:",
+      "new": "At the third codon position, the following classical pairings can occur. Actual decoding depends on anticodon modifications and cellular context:",
+      "reason": "Scope modified-base rules.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK6236/"
+    },
+    {
+      "field": "content",
+      "old": "3. Third-position changes are less likely to cause translation errors",
+      "new": "3. Many third-position substitutions are synonymous; that is a sequence-change effect, not necessarily a ribosomal decoding error",
+      "reason": "Distinguish mutation from mistranslation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "EF-Tu (in prokaryotes; eEF1A in eukaryotes)",
+      "new": "EF-Tu (in bacteria; eEF1A in the eukaryotic cytosol)",
+      "reason": "Scope bacterial factor.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "23S rRNA (in prokaryotes)",
+      "new": "23S rRNA (in bacteria)",
+      "reason": "Scope bacterial rRNA.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "A change to **UAA, UAG, or UGA** is always a nonsense mutation",
+      "new": "A sense-to-stop substitution within a coding region is normally a nonsense mutation under the standard code; stop-to-stop substitutions and specialized recoding are different cases",
+      "reason": "Remove always nonsense.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "content",
+      "old": "**AUG** to any other codon eliminates the start signal or causes a missense mutation",
+      "new": "Changing an internal AUG generally changes the encoded amino acid; changing an initiation AUG may reduce or alter initiation, depending on context and alternative start sites",
+      "reason": "Allow nonAUG initiation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "content",
+      "old": "**Linezolid**: inhibits formation of the initiation complex at the 30S subunit",
+      "new": "**Linezolid**: binds bacterial 23S rRNA in the **50S** subunit and inhibits formation of a functional 70S initiation complex",
+      "reason": "Correct antibiotic subunit.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=83a84897-ccca-42a1-ab1a-bbf1d43a982b&type=display"
+    },
+    {
+      "field": "content",
+      "old": "The CCA-3' sequence at the 3' end of every tRNA is added post-transcriptionally by the enzyme **CCA-adding enzyme** (tRNA nucleotidyltransferase) in most organisms. This sequence is not encoded in the tRNA gene. The 3'-OH of the terminal adenosine is the site of amino acid attachment. Any question about where the amino acid is attached to tRNA should direct you to the 3' end of the acceptor stem.",
+      "new": "Mature translation-competent tRNAs end in CCA. This sequence may be encoded in the gene or added during processing: E. coli tRNA genes encode it, whereas human tRNAs require post-transcriptional addition. CCA-adding enzymes can also repair damaged ends. The terminal adenosine ribose carries the aminoacyl ester; initial attachment can use the 2′-OH or 3′-OH.",
+      "reason": "Correct false universal nonencoded CCA.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5824355/"
+    },
+    {
+      "field": "questions.191.question_text",
+      "old": "A researcher discovers a mutation that changes the codon UUA (Leu) to UUG (Leu). Which property of the genetic code best explains why this mutation is unlikely to alter the protein product?",
+      "new": "A substitution changes UUA to UUG without changing splicing or the reading frame. Under the standard code, both specify leucine. Which property explains the unchanged amino-acid sequence?",
+      "reason": "Separate sequence from protein abundance/folding.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "questions.192.correct_answer",
+      "old": "B",
+      "new": "A",
+      "reason": "Attached amino acid determines incorporated identity; original key B contradicted question.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "questions.192.question_text",
+      "old": "An aminoacyl-tRNA synthetase charges a tRNA with the wrong amino acid. If this mischarged tRNA successfully enters the ribosome during translation, what will most likely determine which amino acid is incorporated into the growing polypeptide?",
+      "new": "A mischarged tRNA pairs correctly with an mRNA codon, passes selection and participates in peptide-bond formation. What determines the identity of the amino acid actually incorporated in that step?",
+      "reason": "Distinguish identity from location.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "questions.192.explanation",
+      "old": "Once a tRNA is charged (correctly or incorrectly), the ribosome uses the anticodon to match the tRNA to the mRNA codon; it does not verify the identity of the attached amino acid. Therefore, the wrong amino acid will be incorporated at whatever codon the anticodon recognizes. This illustrates why aminoacyl-tRNA synthetase fidelity is critical: the ribosome trusts the anticodon, not the amino acid. The CCA-3 end is the universal attachment site for all amino acids and carries no amino acid identity information.",
+      "new": "The amino acid physically attached to the accepted tRNA is incorporated (A). Its anticodon determines which codon it pairs with, and therefore where that amino acid is placed; it does not change the attached amino acid into the one normally specified by the codon. This distinction explains why charging fidelity matters.",
+      "reason": "Align explanation with corrected key.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "questions.194.question_text",
+      "old": "A point mutation converts a sense codon to UAG within an open reading frame. Which of the following best predicts the consequence for the resulting protein?",
+      "new": "In a cell-free translation reaction using the standard code, a sense codon inside an open reading frame is replaced with UAG. The RNA remains available, and no suppressor tRNA or special readthrough mechanism is present. What is the expected direct translation outcome?",
+      "reason": "Exclude NMD and recoding ambiguity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "questions.194.explanation",
+      "old": "UAG is a stop (nonsense) codon recognized by release factors, not by any tRNA, so translation terminates prematurely at that position, producing a truncated polypeptide. This is distinct from a missense mutation, which would cause an amino acid substitution. Wobble applies to sense codon-anticodon pairing and does not allow tRNAs to decode stop codons. A frameshift requires an insertion or deletion, not a point substitution.",
+      "new": "Under the stated conditions, a release factor recognizes UAG and terminates translation early (B). The result is a shortened polypeptide. This is not a frameshift. Specialized suppressor tRNAs or recoding can change this outcome, but ordinary wobble alone does not override termination here.",
+      "reason": "Remove categorical no tRNA can decode stop.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "questions.195.question_text",
+      "old": "The genetic code is described as nearly universal, yet mitochondria use a slightly different code. Which of the following best explains why even small deviations from the standard code can be tolerated in mitochondria but not in the cytoplasm of the same cell?",
+      "new": "Human mitochondria decode UGA as tryptophan, whereas ordinary cytosolic translation treats UGA as stop. Which feature allows these different assignments to coexist in the same cell?",
+      "reason": "Remove unsupported cannot alter cytoplasmic code.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "questions.195.choice_a",
+      "old": "Mitochondria have their own ribosomes and tRNAs that operate independently of cytoplasmic translation machinery",
+      "new": "Mitochondrial translation uses a distinct local set of ribosomes, tRNAs and decoding factors",
+      "reason": "Avoid implying independence from nuclear imported proteins.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "questions.195.explanation",
+      "old": "Mitochondria possess their own genome, ribosomes, and a complete but small set of tRNAs that translate only the few proteins encoded by mitochondrial DNA. Because this system is physically and functionally isolated from cytoplasmic translation, alternative codon assignments do not interfere with cytoplasmic protein synthesis. If the cytoplasmic code were altered, all nuclear-encoded proteins (the vast majority) would be mistranslated, which would be lethal. Choice D is incorrect because many mitochondrial proteins are nuclear-encoded and imported, but those are translated in the cytoplasm using the standard code.",
+      "new": "Separate mitochondrial and cytosolic decoding systems permit different codon assignments (A). Mitochondria still depend heavily on imported nuclear-encoded proteins. Human mitochondrial DNA is double-stranded. Nuclear-encoded mitochondrial proteins are translated with the cytosolic code and imported, whereas the mitochondrial genome’s protein products are translated locally.",
+      "reason": "Remove absolute independence/lethality.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    }
+  ]
+}

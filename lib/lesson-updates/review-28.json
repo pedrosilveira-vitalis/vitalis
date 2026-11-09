@@ -1,0 +1,329 @@
+{
+  "lessonId": 28,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "a series of increasingly electronegative carriers",
+      "new": "a redox network with an overall increase in electron-accepting tendency",
+      "reason": "Electronegativity versus redox potential.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Each electron transfer releases free energy",
+      "new": "Overall electron flow releases free energy; individual transfers need not all be downhill",
+      "reason": "Local versus net thermodynamics.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "protons pumped into the IMS cannot leak back except through ATP synthase",
+      "new": "proton return is restricted; ATP synthase provides a productive route, while proton leak and uncoupling routes also exist",
+      "reason": "Not perfectly impermeable.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "more than 45 protein subunits in mammals",
+      "new": "45 subunit copies (44 distinct proteins) in structurally characterized mammalian complexes",
+      "reason": "Modern subunit count.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5164932/"
+    },
+    {
+      "field": "content",
+      "old": "Inhibition of Complex I halts the entire chain downstream and prevents ATP synthesis",
+      "new": "Inhibition of Complex I blocks NADH-linked electron entry; succinate and other Q-linked donors can still support downstream electron flow and some ATP synthesis",
+      "reason": "Contradicts correct quiz elsewhere.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "This is the only direct link between the citric acid cycle and the ETC.",
+      "new": "It is the enzyme shared by the TCA cycle and respiratory chain; NADH provides additional functional links.",
+      "reason": "Not only metabolic link.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Because FADH₂ enters the chain at Complex II (bypassing Complex I), its electrons generate a smaller proton gradient and therefore yield less ATP.",
+      "new": "Succinate-derived electrons enter through bound FAD at Complex II and bypass Complex I, giving less proton translocation per pair. FADH₂ is not a freely diffusing fuel delivered to Complex II, and other flavoproteins can supply Q through different routes.",
+      "reason": "Bound FAD and alternate entries.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**Thermodynamic reasoning:** The reduction potential of the FADH₂/FAD couple (approximately **−0.18 V**) is higher (less negative) than that of NADH/NAD⁺ (approximately **−0.32 V**). A higher reduction potential means less free energy is available for release when electrons from FADH₂ are passed to CoQ. There simply is not enough energy to drive proton pumping at Complex II.",
+      "new": "**Thermodynamic reasoning:** Succinate-to-Q electron transfer supports less energy conservation than NADH-to-Q transfer, and Complex II does not pump protons. Flavin midpoint potentials depend strongly on the bound protein and environment; a value for free FAD must not be applied universally to Complex II.",
+      "reason": "Protein-dependent flavin potential.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "the electron-transferring flavoprotein that handles electrons from fatty acid β-oxidation",
+      "new": "electron-transfer flavoprotein via ETF:ubiquinone oxidoreductase during fatty-acid oxidation",
+      "reason": "Include ETFQO intermediate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**Net result per Q cycle:** 2 CoQH₂ are oxidized to CoQ, 1 CoQ is reduced to CoQH₂ (recycled back to pick up more electrons from Complexes I/II), 2 electrons are delivered to 2 cytochrome c molecules, and **4 H⁺** are pumped into the IMS (2 released at Qo per CoQH₂, minus 2 taken from matrix at Qi, net = 4 released into IMS per 2 electrons transferred).",
+      "new": "**Q-cycle accounting per two electrons delivered to cytochrome c:** Two QH₂ molecules are oxidized at Qo, releasing four protons to the IMS. One Q is reduced at Qi using two matrix protons and recycled as QH₂; net QH₂ consumption is therefore one molecule. Do not subtract matrix proton uptake from IMS proton release as though they occur in one compartment. In conventional chain accounting, Complex III contributes four translocated proton equivalents per electron pair.",
+      "reason": "Original arithmetic and recycled QH2 fate wrong.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "Complex IV contains 13 subunits in mammals.",
+      "new": "Intact human Complex IV has been structurally resolved with 14 subunits, including NDUFA4; older descriptions often list 13.",
+      "reason": "Updated structural evidence.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6170408/"
+    },
+    {
+      "field": "content",
+      "old": "This completely halts electron flow and ATP synthesis—explaining the rapid lethality of cyanide poisoning. Cyanide poisoning is treated with agents that compete for cyanide binding, such as hydroxocobalamin or nitrites (which generate methemoglobin as a decoy).",
+      "new": "Strong inhibition blocks respiratory electron flow and oxidative ATP synthesis; substrate-level ATP formation is a different process. Clinical treatment of poisoning is an emergency matter and is not inferred solely from this pathway diagram.",
+      "reason": "Scope ATP effect, remove oversimplified treatment.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2773210/"
+    },
+    {
+      "field": "content",
+      "old": "| IV | Cyt c → O₂ | 4 |",
+      "new": "| IV | Cyt c → O₂ | 2 |",
+      "reason": "Per two electrons not per oxygen.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "4 + 4 + 4 = **10 H⁺**",
+      "new": "4 + 4 + 2 = **10 H⁺**",
+      "reason": "Arithmetic and stoichiometry.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "0 + 4 + 4 = **8 H⁺** per FADH₂",
+      "new": "0 + 4 + 2 = **6 H⁺** per succinate-derived electron pair",
+      "reason": "Correct lower entry yield.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "The matrix pH is approximately 8, while the IMS pH is approximately 7 under active respiration.",
+      "new": "The size of this pH difference varies with conditions; values near one pH unit are illustrative, not fixed.",
+      "reason": "Variable state.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "PMF = Δψ − (2.303 RT/F) × ΔpH",
+      "new": "Δp = Δψ − (2.303 RT/F) × ΔpH, using Δψ = ψ(matrix) − ψ(IMS) and ΔpH = pH(matrix) − pH(IMS). This signed Δp is usually negative for proton entry; its magnitude expresses the inward driving force.",
+      "reason": "Define sign convention.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "At physiological temperature, each pH unit contributes approximately 59 mV, so a ΔpH of 1 unit adds ~59 mV to the PMF. The total PMF under typical conditions is approximately **200–220 mV**.",
+      "new": "At 37°C, 2.303 RT/F is approximately **61.5 mV per pH unit** (59.2 mV at 25°C). For Δψ = −150 mV and ΔpH = 0.8, Δp ≈ −199 mV. Actual values depend on respiratory state.",
+      "reason": "Temperature and inconsistent numerical example.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "The free energy available per proton re-entering the matrix is approximately **−21.8 kJ/mol** under physiological conditions.",
+      "new": "For the illustrative −199 mV value, ΔG = FΔp ≈ **−19.2 kJ per mole of protons** moving into the matrix.",
+      "reason": "Compute consistent units/value.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "Uncouplers cause increased O₂ consumption (the ETC runs fast trying to restore the gradient) but decreased ATP production.",
+      "new": "Uncouplers can increase O₂ consumption when substrates, oxygen and respiratory capacity remain available, while reducing ATP produced per oxygen consumed.",
+      "reason": "Not unlimited or universal.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "10–15 depending on species",
+      "new": "eight in mammals; the number varies across other organisms",
+      "reason": "Mammalian c8.",
+      "sourceUrl": "https://www.mrc-mbu.cam.ac.uk/research-groups/walker-group/structure-and-function-atp-synthases"
+    },
+    {
+      "field": "content",
+      "old": "open (binding ADP + Pᵢ), tight (catalyzing ATP formation), and loose (releasing ATP)",
+      "new": "loose (holding ADP + Pᵢ), tight (favoring bound ATP formation), and open (allowing ATP release)",
+      "reason": "Binding-change state assignments.",
+      "sourceUrl": "https://www.nature.com/articles/s42003-020-01221-8"
+    },
+    {
+      "field": "content",
+      "old": "**H⁺/ATP ratio:** Approximately **2.7 H⁺** are required to synthesize one ATP in isolated F₁ subunits, but accounting for the c-ring stoichiometry and the cost of transporting ATP, ADP, and phosphate across the IMM (via the **adenine nucleotide translocase, ANT**, and the **phosphate carrier**), the effective ratio is approximately **~3–4 H⁺ per ATP** in the intact mitochondrion.",
+      "new": "**H⁺/ATP ratio:** A mammalian c₈ rotor moves about 8 protons per full rotation and produces 3 ATP, or 8/3 ≈ 2.67 H⁺ per ATP through the assembled synthase. Isolated F₁ has no proton-translocating membrane rotor. Phosphate import, electrogenic ADP/ATP exchange, leak and coupling efficiency affect whole-mitochondrion ATP yield.",
+      "reason": "IsolatedF1 does not translocate protons.",
+      "sourceUrl": "https://www.mrc-mbu.cam.ac.uk/research-groups/walker-group/structure-and-function-atp-synthases"
+    },
+    {
+      "field": "content",
+      "old": "Using 10 H⁺ per NADH and ~3.3 H⁺ per ATP: NADH yields approximately **2.5 ATP** (the modern, chemiosmosis-based estimate). FADH₂, with 8 H⁺, yields approximately **1.5 ATP**.",
+      "new": "For conventional introductory accounting, an effective cost near **4 proton equivalents per exported ATP** gives **10/4 ≈ 2.5 ATP per NADH** and **6/4 ≈ 1.5 ATP per succinate-linked electron pair**. These are useful approximate yields, not exact universal constants derived solely from c-ring size.",
+      "reason": "Original10/3.3not2.5 and8not6.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "These are the values currently favored on the MCAT and in modern biochemistry texts",
+      "new": "These are common introductory accounting values; use values supplied by a question",
+      "reason": "Do not assertexam policy.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "These must be shuttled into the mitochondria.",
+      "new": "Their reducing equivalents must be transferred; NADH itself does not cross the inner membrane.",
+      "reason": "Shuttle terminology.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "is what the MCAT expects",
+      "new": "is a common approximate convention, with actual yields dependent on conditions",
+      "reason": "No unverified exam mandate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Electrons flow from carriers with more negative (lower) **standard reduction potentials (E°')** to those with more positive (higher) reduction potentials. This is thermodynamically favorable because it releases free energy (ΔG = −nFΔE°').",
+      "new": "Overall electron flow favors the acceptor with the more positive actual reduction potential. Standard transformed values describe reference conditions: **ΔG°′ = −nFΔE°′**. Actual ΔG and potentials also depend on concentrations.",
+      "reason": "Standard versus actual.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "| FAD/FADH₂ | −0.18 |",
+      "new": "| FAD/FADH₂ | Protein- and environment-dependent; no universal ETC value |",
+      "reason": "Avoid freeflavin as universal.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "- **Catalase and glutathione peroxidase:** Convert H₂O₂ to H₂O",
+      "new": "- **Glutathione peroxidases and peroxiredoxins:** Important mitochondrial H₂O₂ removal systems. Catalase also removes H₂O₂ but is chiefly peroxisomal in most mammalian cells.",
+      "reason": "Compartment antioxidant distinction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "the entire chain backs up: CoQ and cytochromes become fully reduced",
+      "new": "forward respiratory flow stalls and upstream carriers tend to become more reduced",
+      "reason": "Not every carrier fullyreduced universally.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "the citric acid cycle halts (it requires NAD⁺)",
+      "new": "oxidative cycle flux is strongly restricted as NAD⁺ regeneration falls",
+      "reason": "Partial pathways canpersist.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The inner membrane must remain impermeable to protons.",
+      "new": "The inner membrane must maintain sufficiently low uncontrolled proton permeability.",
+      "reason": "Physiological leak.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "- **NADH** enters at Complex I; **FADH₂** enters at Complex II. Complex II does **not** pump protons, which is why FADH₂ yields less ATP.",
+      "new": "- Matrix **NADH** enters at Complex I; succinate electrons enter through **bound FAD at Complex II**. Other Q-linked entries also bypass Complex I.",
+      "reason": "Summary entryroute.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**10 H⁺ per NADH** (4 at CI + 4 at CIII + 4 at CIV) and **8 H⁺ per FADH₂** (0 + 4 + 4)",
+      "new": "**10 H⁺ per NADH** (4 at CI + 4 at CIII + 2 at CIV) and **6 H⁺ per succinate electron pair** (0 + 4 + 2)",
+      "reason": "Summary arithmetic.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "questions.136.choice_b",
+      "old": "Electrons from NADH could not enter the chain, but FADH2 could still donate electrons at Complex II.",
+      "new": "NADH-linked entry would be blocked, but succinate could still supply electrons through Complex II.",
+      "reason": "FADH2 not diffusing input.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.136.explanation",
+      "old": "Complex I (NADH dehydrogenase) accepts electrons specifically from NADH. Inhibiting it blocks NADH oxidation but leaves Complex II intact, so FADH2 can still donate electrons to ubiquinone and continue partial electron flow. Choice A is wrong because FADH2 feeds into Complex II, which is independent of Complex I. Choice D is tempting but incorrect because electron flow through Complexes II, III, and IV can still oxidize cytochrome c.",
+      "new": "B is correct: Complex I inhibition blocks NADH-linked entry. If succinate and downstream machinery are available, Complex II can reduce Q and support continued electron flow through III and IV. Bound FAD participates within II; free FADH₂ is not delivered as a separate substrate.",
+      "reason": "Consistent with lesson.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.138.question_text",
+      "old": "FADH2 yields fewer ATP equivalents than NADH during oxidative phosphorylation. What is the best mechanistic explanation for this difference?",
+      "new": "Why do succinate-derived electrons generally support less ATP synthesis per electron pair than matrix NADH-derived electrons?",
+      "reason": "Precisely defined donor routes.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "questions.138.choice_b",
+      "old": "FADH2 feeds electrons into the chain at Complex II, which does not pump protons, resulting in fewer protons translocated per electron pair.",
+      "new": "They enter through Complex II and bypass the proton-translocating Complex I.",
+      "reason": "Correct mechanism.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "questions.138.choice_c",
+      "old": "FADH2 has a higher reduction potential than NADH, so less free energy is released.",
+      "new": "The higher reduction potential of a donor necessarily makes more energy available on transfer to oxygen.",
+      "reason": "OriginalCtrueyetexplanationcalledbackwards.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "questions.138.explanation",
+      "old": "FADH2 donates electrons to ubiquinone via Complex II, which does not pump protons across the inner mitochondrial membrane. NADH, by contrast, enters at Complex I, which does pump protons, contributing to a larger proton gradient and thus more ATP synthesis via ATP synthase. Choice C has the reduction potential relationship backwards: FADH2 has a higher (less negative) reduction potential than NADH, meaning less free energy is released, but the primary mechanistic reason for fewer ATP is the bypass of Complex I proton pumping.",
+      "new": "B is correct: bypassing Complex I reduces conventional proton translocation from 10 to 6 per electron pair. Complex II does not pump protons. A higher donor reduction potential would decrease, not increase, the potential difference to a fixed acceptor such as oxygen. Flavin potentials depend on the protein environment.",
+      "reason": "Remove self-contradictory distractor explanation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "questions.139.question_text",
+      "old": "In the electron transport chain, cytochrome c transfers electrons from Complex III to Complex IV. If cytochrome c were experimentally removed from the system, which of the following would occur?",
+      "new": "In an isolated respiratory system with no artificial electron donor to Complex IV, cytochrome c is removed. Which effect on respiratory oxygen consumption is expected after residual reduced intermediates are exhausted?",
+      "reason": "Specify timescale residual carriers.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.139.explanation",
+      "old": "Cytochrome c is the sole electron shuttle between Complex III and Complex IV (cytochrome c oxidase). Without it, electrons cannot reach Complex IV, and the final reduction of O2 to water cannot occur, halting oxygen consumption. Choice B is tempting but incorrect: removing the electron carrier would stall the gradient buildup, not cause its collapse. Choices C and D describe mechanisms that do not exist in the ETC.",
+      "new": "A is correct: III-to-IV electron transfer requires cytochrome c in this system. Without replenishment, IV-linked oxygen consumption stops. The gradient may then decay through leak or ATP synthase; it need not collapse instantaneously. ATP hydrolysis can sometimes support a gradient, so absence of respiration and immediate total depolarization are not identical claims.",
+      "reason": "Originalsaysgradientnevercollapses.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.140.question_text",
+      "old": "A cell is exposed to carbon monoxide (CO), which binds irreversibly to the iron center of cytochrome c oxidase (Complex IV). Which of the following best describes the immediate downstream consequence for the proton gradient?",
+      "new": "CO strongly inhibits Complex IV in isolated mitochondria. Assume ATP-driven reverse proton pumping is prevented. What is expected as the system approaches a new steady state?",
+      "reason": "CO reversible, temporalgradient caveat.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2773210/"
+    },
+    {
+      "field": "questions.140.choice_a",
+      "old": "The proton gradient across the inner mitochondrial membrane would dissipate because proton pumping by all upstream complexes would stop.",
+      "new": "The gradient declines as forward respiratory proton pumping stalls and existing protons return through available pathways.",
+      "reason": "Not necessarilyinstant completecollapse.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "questions.140.explanation",
+      "old": "Complex IV is the terminal acceptor of electrons in the chain; blocking it causes a backup of electrons throughout the entire chain. With no available electron acceptor, the upstream complexes (I, III) can no longer cycle through their redox reactions and cease pumping protons, causing the gradient to dissipate. Choice B is incorrect because backed-up electrons stall, not accelerate, the complexes. Choice D is incorrect because all electron flow converges on Complex IV, so both NADH and FADH2 pathways are blocked.",
+      "new": "A is correct under the stated conditions. Oxygen is the terminal electron acceptor; IV transfers electrons to it. Blocking IV restricts upstream turnover, while proton-return pathways dissipate the existing gradient. CO binding is reversible, although poisoning can still cause severe injury. ATP hydrolysis could otherwise drive reverse ATP-synthase proton pumping.",
+      "reason": "Terminalacceptor oxygennotIV;reversibility.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2773210/"
+    }
+  ]
+}

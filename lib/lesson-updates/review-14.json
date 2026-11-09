@@ -1,0 +1,175 @@
+{
+  "lessonId": 14,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Full lesson and all five quiz questions read. Targeted corrections, not an exhaustive certification; exam-frequency claims are not independently verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Enzymes are classified by the reactions they catalyze into six major classes:",
+      "new": "The traditional six enzyme classes are widely taught; the current EC system also includes a seventh class, **translocases**:",
+      "reason": "Update classification.",
+      "sourceUrl": "https://iubmb.qmul.ac.uk/enzyme/"
+    },
+    {
+      "field": "content",
+      "old": "(e.g., aldolase, citrate synthase)",
+      "new": "(e.g., aldolase, fumarase)",
+      "reason": "Citrate synthase is atransferase.",
+      "sourceUrl": "https://iubmb.qmul.ac.uk/enzyme/EC2/3/3/1.html"
+    },
+    {
+      "field": "content",
+      "old": "- **Ligases** – join two molecules using ATP hydrolysis (e.g., DNA ligase, aminoacyl-tRNA synthetases)",
+      "new": "- **Ligases** – join molecules coupled to cleavage of an energy donor (e.g., ATP-dependent DNA ligase, aminoacyl-tRNA synthetases)\n- **Translocases** – catalyze movement of ions or molecules across membranes or separation within membranes, coupled to an energy-releasing reaction",
+      "reason": "Add EC7withoutATPuniversality.",
+      "sourceUrl": "https://iubmb.qmul.ac.uk/enzyme/"
+    },
+    {
+      "field": "content",
+      "old": "depends entirely on the correct folding of its polypeptide chain",
+      "new": "depends on an appropriate conformation, chemical environment, substrates and any required cofactors",
+      "reason": "Foldaloneinsufficient.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "**Pyruvate kinase**: tetrameric (4 subunits)",
+      "new": "**Pyruvate kinase**: many active forms are tetrameric (4 subunits)",
+      "reason": "Isoforms canchangeoligomerstate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Quaternary structure is important because it enables **allosteric regulation**",
+      "new": "Communication among subunits can support **allosteric regulation**, although allostery can also occur within a single chain",
+      "reason": "Quaternarynotrequired.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "(pKa ~13 for the hydroxyl, but can be activated to ~6 in serine proteases)",
+      "new": "(hydroxyl pKa is high in solution; histidine assists deprotonation during serine-protease catalysis)",
+      "reason": "Remove unsupported serinepKa6.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "found in nearly all enzyme active sites",
+      "new": "used in many acid-base catalytic mechanisms",
+      "reason": "Histidinenotnearlyall.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "This pKa shifting is mechanistically crucial—it allows histidine, for instance, to act as a base even at pH 7.4.",
+      "new": "Such shifts tune catalytic protonation. Histidine need not have an elevated pKa to act as a base at pH 7.4: its neutral form can accept a proton.",
+      "reason": "Neutralhistidinealreadybase.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "The induced fit model is the currently accepted framework.",
+      "new": "Induced fit is an important model; selection among pre-existing conformations can also contribute.",
+      "reason": "Not soleframework.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "In solution, only water (and H₃O⁺ or OH⁻ at extreme pH) can donate or accept protons.",
+      "new": "In solution, water, hydronium, hydroxide and dissolved acids or bases (including buffers) can participate in proton transfer.",
+      "reason": "Solutionbuffers alsoacidbase.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "This lowers the activation energy by breaking the reaction into two steps, each with a lower energy barrier than the uncatalyzed single-step reaction.",
+      "new": "A favorable covalent pathway provides intermediates and transition states whose effective rate-limiting barrier is lower than in the uncatalyzed pathway; the number of steps varies.",
+      "reason": "Not exactlytwosteps.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "- **Cofactors**: inorganic ions (Mg²⁺, Zn²⁺, Fe²⁺/Fe³⁺, Cu²⁺, Mn²⁺, Se)",
+      "new": "- **Inorganic cofactors**: metal ions such as Mg²⁺, Zn²⁺, Fe²⁺/Fe³⁺, Cu²⁺ and Mn²⁺. Selenium in many enzymes is incorporated into the amino acid selenocysteine, rather than supplied as a free Se ion.",
+      "reason": "Cofactorumbrella; Se notmetalion.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "| Methylcobalamin | Cobalamin (B12) | Methyl group transfer, isomerization |",
+      "new": "| Methylcobalamin / adenosylcobalamin | Cobalamin (B12) | Methyl transfer / radical rearrangements, respectively |",
+      "reason": "Correct coenzymeforms.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3120101/"
+    },
+    {
+      "field": "content",
+      "old": "regardless of substrate structure",
+      "new": "within a suitable range of substrate structures",
+      "reason": "Lipasenotallester.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "It is a measure of catalytic efficiency.",
+      "new": "It measures turnover at saturation; kcat/Km describes efficiency at low substrate concentration.",
+      "reason": "Separate turnoverfromefficiency.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "L-amino acids and D-sugars are the biologically active forms recognized by metabolic enzymes.",
+      "new": "Many pathways favor L-amino acids or particular D-sugars, but other stereoisomers also have biological roles and dedicated enzymes.",
+      "reason": "Avoid allothersinactive.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "A reaction that is thermodynamically unfavorable (positive ΔG°') remains unfavorable in the presence of an enzyme.",
+      "new": "An enzyme does not change ΔG°' or Keq. Actual ΔG also depends on concentrations, so positive ΔG°' alone does not determine the direction under every condition.",
+      "reason": "Standardvsactualfreeenergy.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.67.question_text",
+      "old": "The active site of lysozyme contains glutamate and aspartate residues that directly participate in catalysis. A mutation replaces the glutamate with alanine, nearly abolishing enzymatic activity. This finding most directly supports which conclusion?",
+      "new": "Lysozyme contains active-site glutamate and aspartate residues. A Glu→Ala mutation greatly lowers turnover, while independent measurements show preserved global folding and substrate binding. Which conclusion is best supported?",
+      "reason": "Mutationalonecannotruleoutfoldchange.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.67.explanation",
+      "old": "The near-abolishment of activity upon replacing a single active-site residue demonstrates that specific amino acid side chains perform essential chemical roles in catalysis, such as acting as acid-base catalysts or nucleophiles. Choice A is unlikely because alanine is a small, nonpolar residue that would not necessarily cause global unfolding. Choice B is incorrect because charge distribution alone does not determine catalytic activity. Choice D is contradicted by the finding that chemical identity, not just shape, matters for catalysis.",
+      "new": "C is best supported. With folding and substrate binding preserved, the large turnover loss points to an important catalytic role for the glutamate side chain. Without those controls, reduced activity alone could also reflect altered folding or binding.",
+      "reason": "Correct evidentialstrength.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.68.question_text",
+      "old": "An enzyme catalyzes the same reaction at pH 7 and pH 7 after the reaction reaches equilibrium. Compared to the uncatalyzed reaction at equilibrium, the enzyme-catalyzed reaction at equilibrium will have:",
+      "new": "Two closed mixtures begin with identical reactant and product concentrations at the same pH and temperature. One contains a catalyst for the reaction; the other does not. Once both reach equilibrium, the catalyzed mixture will have:",
+      "reason": "Fix garbledstem andconditions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.68.explanation",
+      "old": "Enzymes are catalysts and therefore increase the rate at which equilibrium is reached without changing the equilibrium constant or the final ratio of products to reactants. The delta G of the reaction is unchanged, so the equilibrium position is identical to the uncatalyzed reaction. Choice A is a classic misconception: enzymes speed up both forward and reverse reactions equally, so the equilibrium ratio is unchanged. Choice C is incorrect because lowering activation energy for both directions equally does not shift equilibrium. Choice D is wrong because enzymes do not add energy to a system.",
+      "new": "B is correct. A catalyst accelerates approach to equilibrium without changing the equilibrium constant for the same net reaction and conditions. It provides a reversible catalytic pathway; it does not selectively change the equilibrium in favor of products.",
+      "reason": "Avoid sameabsolute forwardreverse ratesclaim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.70.choice_c",
+      "old": "An enzyme is treated with urea at high concentrations for an extended period, disrupting all hydrogen bonds.",
+      "new": "An enzyme undergoes irreversible covalent oxidation of an essential catalytic residue.",
+      "reason": "Originalureachoicecanalsorenature, secondcorrect.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.70.explanation",
+      "old": "Some proteins, including enzymes, can renature (refold) after mild or transient denaturation if the primary structure is intact and conditions are restored, regaining enzymatic activity. This demonstrates that denaturation is not always permanent. Choices A and D involve irreversible covalent bond cleavage (peptide bond hydrolysis), which would permanently destroy activity. Choice C describes extensive disruption of non-covalent interactions with prolonged treatment, which is more likely to be irreversible in practice, making brief refolding unlikely. Only choice B describes a scenario where renaturation is plausible.",
+      "new": "B explicitly describes successful refolding and restoration of native conditions, so it disproves the claim that every denaturation is permanent. A and D destroy the polypeptide by hydrolysis, while C specifies irreversible chemical damage. Urea treatment alone would not establish irreversibility and is therefore not used as a distractor here.",
+      "reason": "Remove ambiguousureadistractor.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    }
+  ]
+}

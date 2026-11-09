@@ -1,0 +1,350 @@
+{
+  "lessonId": 37,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "The resulting RNA molecule is complementary and antiparallel to the template strand, and it has the same sequence as the **coding strand** (sense strand or nontemplate strand), except that uracil (U) replaces thymine (T).",
+      "new": "The initially synthesized RNA is complementary and antiparallel to the template strand. Across the transcribed region it matches the **coding strand** (sense or nontemplate strand), with U replacing T. Mature RNA can differ after splicing, editing and addition of a nontemplated poly-A tail.",
+      "reason": "Distinguish primary sequence from processed RNA.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "This distinction matters on the MCAT. If you are given a DNA coding strand sequence and asked for the mRNA sequence, the answer is simply the coding strand with T replaced by U. If you are given the template strand, you must take the complement and substitute U for T.",
+      "new": "For a sequence-conversion question, identify strand identity and direction first. A coding strand written 5′→3′ gives the primary RNA by replacing T with U. A template written 3′→5′ gives RNA by direct complementary pairing; a template written 5′→3′ must be reverse-complemented to report RNA 5′→3′. Predicting mature eukaryotic mRNA additionally requires processing information.",
+      "reason": "Prevent orientation and mature-transcript errors.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "The β subunit contains the catalytic active site, and the β' subunit binds the DNA template.",
+      "new": "The β and β′ subunits together form the nucleic-acid-binding cleft and active-center environment. The conserved catalytic aspartate triad belongs to β′ and coordinates catalytic metal ions; β is not the sole catalytic subunit.",
+      "reason": "Correct subunit attribution.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1180743/"
+    },
+    {
+      "field": "content",
+      "old": "Once transcription initiates, the sigma factor dissociates and can be reused.",
+      "new": "Sigma can dissociate and be reused after initiation, but release is not obligatory at promoter escape: some elongation complexes retain sigma and show sigma-dependent pausing.",
+      "reason": "Remove disproven obligatory-release model.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4725480/"
+    },
+    {
+      "field": "content",
+      "old": "**σ32** takes over and directs transcription of heat shock genes.",
+      "new": "**σ32** becomes more active and directs transcription of heat-shock genes; this reprogramming does not mean all σ70-dependent transcription stops.",
+      "reason": "Avoid all-or-none stress response.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4725480/"
+    },
+    {
+      "field": "content",
+      "old": "Eukaryotes have three distinct nuclear RNA polymerases, each transcribing a different class of genes:",
+      "new": "The standard animal-cell model has three major nuclear RNA polymerases. Plants also have specialized Pol IV and V, and organelles use separate transcription machinery:",
+      "reason": "Scope three-polymerase statement.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "Accounts for the majority (~50–70%) of total cellular transcription.",
+      "new": "rRNA synthesis is a large fraction of transcription in actively growing cells; the fraction varies with cell state.",
+      "reason": "Avoid universal numerical fraction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "Transcribes all protein-coding genes (producing pre-mRNA)",
+      "new": "Transcribes nuclear protein-coding genes (producing pre-mRNA)",
+      "reason": "Exclude mitochondrial genes.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "A **promoter** is a DNA sequence upstream (5') of a gene that directs RNA polymerase to the correct transcription start site and establishes the direction of transcription. Promoter architecture differs significantly between prokaryotes and eukaryotes.",
+      "new": "A **promoter** is a DNA region that recruits transcription machinery, positions initiation and helps determine transcription direction. Many promoter elements lie upstream of +1, but others overlap or lie downstream of the start site; some Pol III promoters are internal to the transcribed region.",
+      "reason": "Promoters are not invariably upstream.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "The canonical *E. coli* promoter contains two conserved hexameric sequences:",
+      "new": "A common *E. coli* σ70 promoter architecture has two consensus hexameric elements (other sigma factors and promoter classes differ):",
+      "reason": "Scope promoter consensus.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "The spacing between the –35 and –10 elements (typically 17 ± 1 bp) is critical for proper sigma factor recognition. Mutations in either element or changes in spacing reduce promoter strength. Strong promoters closely match the consensus sequences; weak promoters deviate significantly.",
+      "new": "The spacer between the –35 and –10 hexamers is commonly about 17 bp (often 16–18), not the distance between their centers. Altering sequence or spacing can weaken or strengthen a promoter depending on the starting sequence. Consensus similarity is useful but does not alone predict output: regulators and other promoter elements also matter.",
+      "reason": "Correct spacer interpretation and mutation direction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "Unlike prokaryotic RNA polymerase, eukaryotic Pol II cannot bind the promoter directly. Instead, assembly of the **preinitiation complex (PIC)** at the promoter requires a set of **general transcription factors** that work in concert.",
+      "new": "Pol II contacts DNA, but accurate promoter-specific initiation normally requires general transcription factors and a **preinitiation complex (PIC)**. The distinction is lack of sufficient promoter-recognition specificity on its own, not inability to bind DNA at all.",
+      "reason": "Distinguish binding from specific recruitment.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "The assembly sequence at a TATA-containing promoter proceeds as follows:",
+      "new": "A classical assembly model for a TATA-containing promoter is outlined below. Assembly in cells can involve preassembled factors and alternative routes; this is not a universal rigid order:",
+      "reason": "Scope ordered PIC model.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "a **helicase** that unwinds the DNA at the transcription start site (creating the open complex) and a **kinase** that phosphorylates the **C-terminal domain (CTD)** of the largest Pol II subunit.",
+      "new": "the ATP-dependent **XPB DNA translocase**, which promotes promoter opening, and **CDK7 kinase**, which phosphorylates the **C-terminal domain (CTD)** of the largest Pol II subunit. XPB-driven opening should not be confused with the XPD helicase role in nucleotide-excision repair.",
+      "reason": "Use demonstrated translocase mechanism.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3612373/"
+    },
+    {
+      "field": "content",
+      "old": "Phosphorylation of the CTD is the key regulatory switch. The CTD consists of multiple heptapeptide repeats (consensus: YSPTSPS) that can be phosphorylated at serine residues. **Phosphorylation of Ser5** by TFIIH triggers promoter clearance and the transition from initiation to elongation. **Phosphorylation of Ser2** by the elongation-phase kinase P-TEFb promotes productive elongation. The CTD also serves as a scaffold for RNA processing factors, coupling transcription to capping, splicing, and polyadenylation—a critical concept for the MCAT.",
+      "new": "The Pol II CTD contains repeats of YSPTSPS whose phosphorylation changes during transcription. TFIIH-associated CDK7 promotes Ser5 phosphorylation during early transcription and recruitment of capping machinery. P-TEFb (CDK9–cyclin T) promotes pause release by phosphorylating elongation factors and the CTD; CDK12 and CDK13 also contribute to CTD phosphorylation. These overlapping activities form a regulated cycle, not a single irreversible two-step switch. The CTD recruits RNA-processing factors and couples transcription to capping, splicing and 3′-end formation.",
+      "reason": "Avoid exclusive CDK9 Ser2 assignment.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4333096/"
+    },
+    {
+      "field": "content",
+      "old": "In prokaryotes, the σ factor guides",
+      "new": "In bacteria, the σ factor guides",
+      "reason": "Archaeal transcription does not use bacterial sigma machinery.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "Once the transcript reaches ~9–12 nucleotides, the σ factor is released and the core enzyme transitions to elongation.",
+      "new": "Promoter escape occurs after synthesis of a short initial RNA; sigma may dissociate at different stages or remain associated during elongation. There is no obligatory release at one fixed transcript length.",
+      "reason": "Correct fixed sigma-release threshold.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4725480/"
+    },
+    {
+      "field": "content",
+      "old": "In eukaryotes, the analogous process involves TFIIH helicase activity to melt the DNA and phosphorylation of the Pol II CTD. After promoter escape, the GTFs are left at the promoter, where some of them (particularly TFIID) can facilitate reinitiation—allowing multiple rounds of transcription from a single promoter.",
+      "new": "In the Pol II system, TFIIH-associated XPB promotes DNA opening and CDK7 contributes CTD phosphorylation. During promoter escape, factor contacts rearrange: some factors dissociate, some may remain promoter-associated to support reinitiation, and others can accompany the polymerase.",
+      "reason": "Avoid all GTFs remaining at promoter; correct XPB.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3612373/"
+    },
+    {
+      "field": "content",
+      "old": "- **Transcription rate:** Prokaryotic RNAP synthesizes approximately 40–80 nucleotides per second at 37°C; eukaryotic Pol II is somewhat slower (~20–30 nucleotides per second) but subject to extensive regulatory pausing.",
+      "new": "- **Transcription rate:** Elongation often occurs at tens of nucleotides per second, but rates vary by organism, gene, temperature and pausing. A single fixed bacterial-versus-eukaryotic speed ranking is not reliable.",
+      "reason": "Remove universal rate comparison.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- **Elongation factors:** In eukaryotes, factors such as **DSIF** and **NELF** can cause Pol II to pause shortly after initiation (**promoter-proximal pausing**). Release from this pause requires P-TEFb-mediated phosphorylation of Ser2 on the CTD and of DSIF and NELF themselves—this is a major regulatory checkpoint in metazoans.",
+      "new": "- **Elongation factors:** In metazoans, DSIF and NELF help establish promoter-proximal pausing. P-TEFb phosphorylation of elongation factors and the CTD supports pause release; DSIF subsequently helps productive elongation. CDK12/13 contribute additional CTD regulation.",
+      "reason": "Clarify coordinated pause release.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4333096/"
+    },
+    {
+      "field": "content",
+      "old": "Eukaryotic transcription termination is mechanistically coupled to **cleavage and polyadenylation** of the pre-mRNA.",
+      "new": "For most animal protein-coding Pol II transcripts, termination is coupled to **cleavage and polyadenylation**. Replication-dependent histone transcripts and snRNAs use distinct 3′-end-processing pathways.",
+      "reason": "Scope polyadenylation route.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "The **cleavage and polyadenylation specificity factor (CPSF)** recognizes the AAUAAA signal, while **cleavage stimulation factor (CstF)** binds the downstream GU-rich element. These factors, along with cleavage factors CF I and CF II, assemble on the CTD of Pol II and cleave the RNA ~10–30 nucleotides downstream of the poly-A signal. **Poly(A) polymerase (PAP)** then adds ~200 adenosine residues to the 3'-OH of the cleaved RNA, creating the **poly-A tail**.",
+      "new": "Within **CPSF**, CPSF30 and WDR33 recognize the AAUAAA signal, while **CstF** recognizes a downstream GU/U-rich region. Together with additional factors, they position cleavage; **CPSF73 is the endonuclease** that cuts the RNA. Poly(A) polymerase then extends the upstream RNA’s new 3′-OH without a DNA template. Newly synthesized mammalian tails are often roughly 200–250 A residues, but length varies and is subsequently regulated.",
+      "reason": "Identify recognition and catalytic subunits; variable tails.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5816196/"
+    },
+    {
+      "field": "content",
+      "old": "These processing events occur co-transcriptionally in the nucleus and are coordinated by the Pol II CTD.",
+      "new": "Much processing begins co-transcriptionally in the nucleus and is coordinated by the Pol II CTD, but some splicing and maturation finish after transcription.",
+      "reason": "Avoid all processing being cotranscriptional.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "Most eukaryotic genes are interrupted by **introns**—non-coding intervening sequences that must be removed. The protein-coding sequences are called **exons**. Intron removal occurs in the **spliceosome**, a large ribonucleoprotein complex consisting of five small nuclear ribonucleoproteins (snRNPs): **U1, U2, U4, U5, and U6**.",
+      "new": "Many eukaryotic protein-coding genes contain **introns**, sequences removed from the primary RNA. **Exons are sequences retained in a particular mature RNA**: they may contain protein-coding sequence, untranslated regions, or both. Introns can also contain regulatory elements or functional RNA genes. The major spliceosome assembles dynamically from U1, U2, U4, U5 and U6 snRNPs plus proteins; its composition changes during catalysis.",
+      "reason": "Fix exon definition and static spliceosome description.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "The consensus sequences at intron boundaries are:",
+      "new": "For most major-spliceosome introns, the characteristic boundary signals are listed below. GU–AG is a useful rule, not absolute: GC–AG and other rare classes exist, and the minor spliceosome recognizes a separate intron class.",
+      "reason": "Scope GUAG.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "consensus YNYURAY (Y = pyrimidine, R = purine, N = any)",
+      "new": "with a surrounding sequence that is relatively degenerate in mammals; the branch-point A is the chemically important residue",
+      "reason": "Avoid universal branchpoint consensus.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "As described in the termination section, a poly-A tail of ~200 adenosines is added to the 3' end. The poly-A tail protects the mRNA from 3' exonuclease degradation, facilitates nuclear export via poly-A binding proteins, and enhances translation efficiency.",
+      "new": "Poly(A) polymerase adds the tail after 3′ cleavage, without copying a DNA template. Tail-associated proteins support export, stability and translation; the tail is dynamically shortened or extended. Replication-dependent histone mRNAs are a major non-polyadenylated exception, whereas many histone-variant mRNAs are polyadenylated.",
+      "reason": "Correct tail universality and histone scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "Understanding the differences between prokaryotic and eukaryotic transcription is essential for MCAT success. The following distinctions appear repeatedly on the exam:",
+      "new": "The comparisons below chiefly contrast bacterial transcription with animal nuclear transcription. Archaea and organelles require separate treatment; exam-frequency claims are not used here.",
+      "reason": "Clarify model comparison.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- **Location:** Prokaryotic transcription occurs in the cytoplasm; eukaryotic transcription occurs in the nucleus.",
+      "new": "- **Location:** Bacterial transcription occurs in the cytoplasm/nucleoid. Animal nuclear genes are transcribed in the nucleus; mitochondrial genes are transcribed in mitochondria.",
+      "reason": "Qualify bacterial/animal comparison.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- **Coupling with translation:** In prokaryotes, translation begins on the mRNA while transcription is still occurring (**coupled transcription-translation**). In eukaryotes, the transcript must be processed and exported to the cytoplasm before translation.",
+      "new": "- **Coupling with translation:** Bacterial translation can begin on a nascent transcript. Nuclear eukaryotic transcripts are processed and exported before cytoplasmic translation.",
+      "reason": "Qualify bacterial/animal comparison.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- **RNA polymerase:** Prokaryotes use one RNAP for all RNA types; eukaryotes use three distinct polymerases.",
+      "new": "- **RNA polymerase:** Bacteria generally use one cellular RNAP type for their RNA classes; animal nuclei use Pol I, II and III.",
+      "reason": "Qualify bacterial/animal comparison.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- **Promoter recognition:** Prokaryotic RNAP uses the σ factor directly; eukaryotic Pol II requires multiple GTFs.",
+      "new": "- **Promoter recognition:** Bacterial RNAP uses sigma factors. Pol II uses multiple general transcription factors; archaeal initiation resembles the latter more than bacterial sigma-dependent initiation.",
+      "reason": "Qualify bacterial/animal comparison.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- **Post-transcriptional processing:** Prokaryotic mRNA requires minimal processing (some have 5' modifications, but no capping or splicing in the classical sense). Eukaryotic pre-mRNA undergoes 5' capping, splicing, and 3' polyadenylation.",
+      "new": "- **Post-transcriptional processing:** Typical animal pre-mRNA receives a cap, intron removal when applicable, and 3′-end maturation. Bacterial RNAs also undergo processing; bacterial polyadenylation often supports RNA degradation rather than the protective role typical of animal mRNA tails.",
+      "reason": "Qualify bacterial/animal comparison.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- **Introns:** Prokaryotic genes are generally continuous (no introns); eukaryotic genes typically contain introns.",
+      "new": "- **Introns:** Introns are common in animal nuclear genes and uncommon, but not absent, in bacteria. Not every eukaryotic gene has introns.",
+      "reason": "Qualify bacterial/animal comparison.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- **mRNA stability:** Prokaryotic mRNA is typically very short-lived (half-life of minutes), allowing rapid responses to environmental changes. Eukaryotic mRNA is more stable (half-life of hours to days), partly due to the 5' cap and poly-A tail.",
+      "new": "- **mRNA stability:** Many bacterial mRNAs have half-lives of minutes. Animal mRNA half-lives vary widely from minutes to many hours or longer; stability depends on sequence, RNA-binding proteins and decay pathways.",
+      "reason": "Qualify bacterial/animal comparison.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "- **Polycistronic vs. monocistronic mRNA:** Prokaryotic mRNA is often **polycistronic**, encoding multiple proteins from a single transcript (e.g., operons). Eukaryotic mRNA is typically **monocistronic**, encoding a single protein.",
+      "new": "- **Polycistronic vs. monocistronic mRNA:** Bacterial mRNAs are often polycistronic, while animal nuclear mRNAs are usually monocistronic. These are common patterns, not exceptionless rules.",
+      "reason": "Qualify bacterial/animal comparison.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "**Chromatin remodeling** (via histone acetylation, methylation, and other modifications) controls DNA accessibility.",
+      "new": "ATP-dependent **chromatin remodeling** changes nucleosome positioning or composition. Histone modifications such as acetylation and methylation are related but distinct regulatory mechanisms; their effects depend on the residue and context.",
+      "reason": "Separate remodeling from covalent histone marks.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "5. **Poly-A tail:** Added post-transcriptionally by poly(A) polymerase; not encoded in the DNA template (except for histone mRNAs, which lack poly-A tails).",
+      "new": "5. **Poly-A tail:** Added after RNA cleavage by poly(A) polymerase without copying the DNA. Most replication-dependent histone mRNAs instead end in a specialized stem-loop; many histone variants do have poly-A tails.",
+      "reason": "Fix exception wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "6. **Sigma factor function:** The σ factor confers promoter specificity but is not part of the elongating polymerase. Different σ factors allow differential gene expression in response to stress.",
+      "new": "6. **Sigma factor function:** Sigma confers bacterial promoter specificity. It can be released or retained during elongation; alternative sigma factors redirect transcription under different conditions.",
+      "reason": "Remove repeated sigma misconception.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4725480/"
+    },
+    {
+      "field": "content",
+      "old": "9. **Alternative splicing:** This is the primary reason the human proteome (~100,000+ proteins) is far more complex than the genome (~20,000–25,000 protein-coding genes).",
+      "new": "9. **Alternative splicing:** Different exon combinations can produce distinct RNA and protein isoforms from one gene. Together with alternative initiation/termination and post-translational modification, this expands protein diversity beyond the roughly 20,000 human protein-coding genes; a single universal proteome count is misleading.",
+      "reason": "Avoid unsupported fixed protein count.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "content",
+      "old": "**Rifampicin** inhibits bacterial RNAP by blocking the RNA exit channel",
+      "new": "**Rifampicin** binds bacterial RNAP near the β-subunit active-center region and sterically blocks extension of very short RNA products beyond about 2–3 nucleotides",
+      "reason": "Correct initiation-stage drug mechanism.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11290327/"
+    },
+    {
+      "field": "content",
+      "old": "Transcription converts the genetic information in DNA into an RNA transcript through the coordinated action of RNA polymerase and associated factors. In prokaryotes, a single RNA polymerase with interchangeable sigma factors recognizes –10 and –35 promoter elements, initiates synthesis at the +1 site, elongates processively, and terminates via intrinsic hairpin formation or Rho factor activity. In eukaryotes, three distinct RNA polymerases handle different RNA classes; Pol II, which transcribes protein-coding genes, requires a large preinitiation complex assembled by general transcription factors at promoters containing TATA boxes and other elements. The Pol II CTD is phosphorylated sequentially to coordinate promoter escape, elongation, and RNA processing. Eukaryotic pre-mRNA undergoes 5' capping, splicing by the spliceosome, and 3' polyadenylation before export to the cytoplasm. These processing steps, absent in prokaryotes, are critical for mRNA stability, export, and translation. Mastery of the mechanistic details, the structural elements involved, and the key differences between prokaryotic and eukaryotic systems will position you to handle the full range of MCAT questions on this fundamental topic.",
+      "new": "Transcription makes RNA 5′→3′ while reading a DNA template 3′→5′. Bacterial sigma factors guide promoter recognition and may dissociate or remain during elongation. Animal nuclear Pol I, II and III have different transcript classes; Pol II initiation uses general factors and TFIIH-associated XPB/CDK7 activities. Changing CTD phosphorylation coordinates elongation and processing. Typical animal pre-mRNA is capped, spliced when introns are present, and cleaved/polyadenylated, with important exceptions. Exons are retained RNA segments, not necessarily protein-coding sequence. Correct strand orientation and careful distinction between bacterial, nuclear and organellar mechanisms are essential when interpreting experiments.",
+      "reason": "Align summary with corrections.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "questions.181.question_text",
+      "old": "A researcher introduces a mutation that prevents the sigma factor from binding to the RNA polymerase holoenzyme in a bacterial cell. Which of the following would be the most likely consequence?",
+      "new": "A mutation prevents an E. coli sigma factor from binding the RNA polymerase core enzyme, while leaving core catalytic activity intact. What is the most direct consequence for promoters recognized by that sigma factor?",
+      "reason": "Holoenzyme already includes sigma.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4725480/"
+    },
+    {
+      "field": "questions.181.choice_c",
+      "old": "The 3' to 5' exonuclease proofreading activity of RNA polymerase would be abolished.",
+      "new": "All RNA-cleavage proofreading by the core enzyme would be abolished.",
+      "reason": "Avoid implying separate DNA-like exonuclease.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1180743/"
+    },
+    {
+      "field": "questions.181.explanation",
+      "old": "The sigma factor is the component of the prokaryotic RNA polymerase holoenzyme responsible for recognizing and binding specific promoter sequences, particularly the -10 and -35 elements. Without sigma, the core enzyme cannot initiate transcription at the correct locations. Choice A is incorrect because loss of promoter recognition would reduce, not increase, specific transcription. Choices C and D describe unrelated functions not associated with the sigma factor.",
+      "new": "Sigma supplies promoter-recognition specificity to the core enzyme. Preventing this association impairs initiation at its target promoters (B), without abolishing core catalysis or all RNA-cleavage proofreading. It does not directly eliminate intrinsic termination. Other sigma factors may still support their own target genes.",
+      "reason": "Scope direct effect.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4725480/"
+    },
+    {
+      "field": "questions.183.choice_c",
+      "old": "TFIID will fail to bind, impairing assembly of the preinitiation complex and reducing transcription.",
+      "new": "Reduced TBP/TFIID recruitment would impair preinitiation-complex assembly and lower transcription.",
+      "reason": "Avoid absolute loss of all TFIID binding.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "questions.183.explanation",
+      "old": "The TATA box is a core promoter element recognized by the TATA-binding protein (TBP), a subunit of the general transcription factor TFIID. TFIID binding is the first step in assembling the preinitiation complex for RNA polymerase II. Disruption of the TATA box prevents TFIID binding, which impairs recruitment of other general transcription factors and RNA pol II, greatly reducing transcription. Choice A is incorrect because the TATA box is an activating, not repressive, element. Choice B is wrong because RNA pol III transcribes different gene classes and cannot substitute here.",
+      "new": "At a TATA-dependent Pol II promoter, disrupting the TATA element reduces TBP-dependent recruitment and can lower transcription (C). TFIID also makes other promoter contacts, so complete loss of every TFIID interaction is not required. Pol III does not simply replace Pol II, and a promoter mutation does not directly alter the distant RNA polyadenylation signal.",
+      "reason": "Avoid universal assembly/binding claims.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "questions.184.question_text",
+      "old": "In prokaryotic transcription, a Rho-independent terminator causes RNA polymerase to dissociate from the DNA template. What structural feature of the nascent RNA is primarily responsible for this termination?",
+      "new": "At a typical bacterial intrinsic (Rho-independent) terminator, which nascent-RNA feature helps terminate transcription?",
+      "reason": "Scope bacterial mechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    },
+    {
+      "field": "questions.184.explanation",
+      "old": "Rho-independent (intrinsic) termination relies on a GC-rich inverted repeat sequence in the RNA that forms a stable hairpin structure, followed by a run of 6-8 uracil residues. The hairpin causes RNA polymerase to pause, and the weak rU-dA base pairs in the RNA-DNA hybrid destabilize the transcription bubble, leading to dissociation. Choice D describes Rho-dependent termination, which is a separate mechanism requiring the Rho protein. Choice A is a eukaryotic mRNA processing event, not a prokaryotic termination mechanism.",
+      "new": "A GC-rich inverted repeat forms a hairpin followed by a U-rich tract (B). Pausing, hairpin formation and the weak RNA–DNA hybrid cooperate in release. Rho-dependent termination instead needs Rho. A poly-A tail is not the defining intrinsic-terminator structure; bacteria can also polyadenylate RNA, often to promote decay.",
+      "reason": "Avoid claiming polyadenylation exclusively eukaryotic.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="740" viewBox="0 0 800 740" role="img" aria-labelledby="title desc">
+<title id="title">Amino acid structure and charge</title><desc id="desc">A free amino acid has an alpha carbon bonded to amino, carboxyl, hydrogen and side-chain groups. Glycine has two hydrogens. At pH7.4 with the stated pKa values histidine is mostly neutral and cysteine mostly protonated. Peptide formation converts internal backbone groups into amides.</desc>
+<rect width="800" height="740" rx="20" fill="#fffaf3"/>
+<style>text{font-family:Arial,sans-serif;fill:#19374a}.heading{font-size:23px;font-weight:700}.body{font-size:19px}.small{font-size:16px}.chem{font-size:28px;font-weight:600}.line{stroke:#19374a;stroke-width:3}</style>
+<text x="28" y="38" class="heading">1 / The shared scaffold</text>
+<rect x="24" y="54" width="752" height="220" rx="16" fill="#eaf0f2"/>
+<text x="67" y="174" class="chem">H₃N⁺</text><text x="253" y="174" class="chem">Cα</text><text x="377" y="174" class="chem">COO⁻</text>
+<text x="266" y="105" class="chem">H</text><text x="265" y="239" class="chem" fill="#a83150">R</text>
+<path d="M151 164 H241 M303 164 H361 M277 115 V145 M277 182 V210" class="line"/>
+<text x="510" y="103" class="body">Free amino acid, pH 7.4</text>
+<text x="510" y="139" class="body">R = H → glycine: achiral</text>
+<text x="510" y="175" class="body">Other standard amino acids</text><text x="510" y="201" class="body">a chiral alpha carbon</text>
+<text x="48" y="259" class="small">Connectivity only; no stereochemistry implied. Proline has a secondary amino group.</text>
+<text x="28" y="316" class="heading">2 / A “basic” category does not mean always positive</text>
+<rect x="24" y="332" width="752" height="192" rx="16" fill="#f6e5de"/>
+<text x="46" y="363" class="body">At pH 7.4, using His pKa = 6.0 and Cys pKa = 8.3:</text>
+<text x="46" y="402" class="body">His</text><rect x="112" y="382" width="240" height="26" rx="4" fill="#d6e5ea"/><rect x="112" y="382" width="9" height="26" rx="3" fill="#a83150"/>
+<text x="378" y="402" class="body">≈ 4% positive / 96% neutral</text>
+<text x="46" y="446" class="body">Cys</text><rect x="112" y="426" width="240" height="26" rx="4" fill="#d6e5ea"/><rect x="112" y="426" width="27" height="26" rx="3" fill="#a83150"/>
+<text x="378" y="446" class="body">≈ 11% negative / 89% neutral</text>
+<text x="46" y="486" class="small">Burgundy = charged side-chain fraction. These are solution-model estimates.</text>
+<text x="46" y="509" class="small">Local protein environments can change pKa and therefore the fractions.</text>
+<text x="28" y="565" class="heading">3 / Free amino acid ≠ internal peptide residue</text>
+<rect x="24" y="581" width="752" height="135" rx="16" fill="#eaf0f2"/>
+<rect x="248" y="595" width="170" height="44" rx="8" fill="#f2cab9"/>
+<text x="50" y="625" class="chem">H₃N⁺–CH(R₁)–C(=O)–NH–CH(R₂)–COO⁻</text>
+<text x="50" y="664" class="body">N-terminus</text><text x="265" y="664" class="body">Peptide amide</text><text x="530" y="664" class="body">C-terminus</text>
+<text x="50" y="697" class="small">Internal amides do not titrate like the free amino and carboxyl groups.</text>
+</svg>

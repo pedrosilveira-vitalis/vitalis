@@ -1,0 +1,290 @@
+{
+  "lessonId": 5,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Full lesson and all five questions read. Corrections rechecked against linked sources; inaccurate absolutes and ambiguous quiz items repaired. This is not an exhaustive accuracy certification. Broad MCAT frequency claims are not independently verified.",
+  "sources": [
+    {
+      "title": "MedlinePlus: Selenocysteine synthesis",
+      "url": "https://medlineplus.gov/genetics/gene/sepsecs/"
+    },
+    {
+      "title": "OpenStax: Amino acid charge and isoelectric points",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "title": "OpenStax: Amino acid structures",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "title": "Reactome: Collagen formation",
+      "url": "https://www.reactome.org/content/detail/R-HSA-1474290"
+    },
+    {
+      "title": "Shakin-Eshleman et al.: N-glycosylation sequons",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8626433/"
+    },
+    {
+      "title": "Cumming et al.: Cytoplasmic disulfides during oxidative stress",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15031298/"
+    },
+    {
+      "title": "Pace et al.: Protein absorption coefficients",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8563639/"
+    },
+    {
+      "title": "Ribosomal peptidyl transferase chemistry",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "title": "OpenStax: Protein structure",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    }
+  ],
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Every protein in the human body—every enzyme, receptor, structural scaffold, and signaling molecule—is built from combinations of the same 20 standard amino acids.",
+      "new": "Human proteins are built predominantly from the 20 standard amino acids; some also contain genetically encoded selenocysteine, and many undergo post-translational modification.",
+      "reason": "Selenocysteine exception; not every signaling molecule is protein.",
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/sepsecs/"
+    },
+    {
+      "field": "content",
+      "old": "making the molecule a **zwitterion**—electrically neutral overall but carrying both positive and negative charges",
+      "new": "making amino acids with neutral side chains predominantly **zwitterions**—electrically neutral overall but carrying both positive and negative charges; ionized side chains change the net charge",
+      "reason": "Net charge depends on side chains.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "These amino acids have R groups consisting entirely of carbon and hydrogen chains or rings (no heteroatoms).",
+      "new": "These amino acids have predominantly nonpolar side chains; methionine contains sulfur, and proline’s side chain closes onto the backbone nitrogen.",
+      "reason": "Methionine contradicts blanket no-heteroatom claim.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "**collagen** (Gly-X-Pro repeats)",
+      "new": "**collagen** (Gly-X-Y repeats, often with Pro at X and hydroxyproline at Y)",
+      "reason": "Correct consensus collagen repeat.",
+      "sourceUrl": "https://www.reactome.org/content/detail/R-HSA-1474290"
+    },
+    {
+      "field": "content",
+      "old": "This makes proline an **imino acid** rather than a true amino acid. The cyclic structure eliminates the N–H hydrogen, preventing proline from acting as a hydrogen bond donor.",
+      "new": "Proline is a secondary amino acid, historically called an **imino acid**. When internal to a peptide, its nitrogen lacks an N–H hydrogen and cannot donate a backbone hydrogen bond; free proline does contain N–H bonds.",
+      "reason": "Chemical category and free versus peptide-bound proline.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "Asn–X–Ser/Thr",
+      "new": "Asn–X–Ser/Thr, where X is not proline; the motif permits but does not guarantee glycosylation",
+      "reason": "Consensus sequon caveat.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8626433/"
+    },
+    {
+      "field": "content",
+      "old": "At physiological pH, these amino acids carry a **net positive charge** on their side chains.",
+      "new": "Lysine and arginine are predominantly positively charged at physiological pH. Histidine is classified as basic but is predominantly neutral at pH 7.4 when its side-chain pKa is 6.0.",
+      "reason": "Histidine correction.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "which is *closest to physiological pH* of all amino acids",
+      "new": "which permits acid-base catalysis near neutral pH",
+      "reason": "Cysteine8.3 closer to7.4.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "They are *absent* in cytoplasmic proteins (reducing environment).",
+      "new": "They are generally disfavored in the reducing cytoplasm, although regulatory and oxidative-stress-associated disulfides can occur.",
+      "reason": "Avoid absolute absence.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15031298/"
+    },
+    {
+      "field": "questions.21.choice_d",
+      "old": "Lysine replaced by histidine",
+      "new": "Glutamine replaced by asparagine",
+      "reason": "Original D also removes most positive charge, making item ambiguous.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "questions.21.explanation",
+      "old": "Arginine (pKa ~12.5) is positively charged at physiological pH, while glutamine is a polar, uncharged residue. Replacing arginine with glutamine removes the positive charge needed for electrostatic interaction with the negatively charged substrate, explaining the loss of activity. Option D is tempting because histidine has a pKa near 6, meaning it is largely uncharged at pH 7.4, so replacing lysine with histidine would also reduce positive charge. However, the question specifies the original residue carries a positive charge at pH 7.4, and arginine-to-glutamine is the clearest swap from a charged to a neutral residue.",
+      "new": "Arginine-to-glutamine removes a predominantly positive side chain at pH 7.4. A retains positive charge, B increases the usual positive charge, and D exchanges two neutral amides. This isolates the charge effect; actual enzyme activity can also depend on geometry and the local environment.",
+      "reason": "Remove invalid justification for original ambiguous distractor.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "questions.23.explanation",
+      "old": "Aromatic amino acids absorb UV light due to their conjugated ring systems. Tryptophan absorbs most strongly at 280 nm, tyrosine absorbs at 280 nm as well, and phenylalanine absorbs near 257 nm. Together these three aromatic residues account for the characteristic 280 nm absorbance used to estimate protein concentration. The other answer choices contain aliphatic, charged, or polar uncharged amino acids that lack aromatic rings and do not significantly absorb at 280 nm.",
+      "new": "Tryptophan and tyrosine absorb strongly near 280 nm and are the principal contributors to the usual protein A280 measurement. Phenylalanine absorbs near 257 nm and contributes little at 280 nm. Choice C contains the residues that best explain the observation; the other sets lack tryptophan and tyrosine.",
+      "reason": "Do not assign substantial A280 to phenylalanine.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8563639/"
+    },
+    {
+      "field": "content",
+      "old": "At physiological pH (~7.4), the amino group",
+      "new": "For free amino acids, at physiological pH (~7.4), the amino group",
+      "reason": "Free amino acids rather than peptide amides.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "All amino acids except **glycine** are **chiral** at the alpha-carbon",
+      "new": "Among the 20 standard amino acids, all except **glycine** are **chiral** at the alpha-carbon",
+      "reason": "Restrict generalization to standard alpha amino acids.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "Biological proteins are constructed exclusively from **L-amino acids**",
+      "new": "Ribosomal translation uses **L-amino acids** (and achiral glycine)",
+      "reason": "Avoid treating glycine as L or excluding modifications.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "**Peptide bonds** form between the carboxyl group of one amino acid and the amino group of the next, releasing water (condensation reaction).",
+      "new": "**Peptide bonds** link a carboxyl-derived carbonyl to an amino nitrogen. Free-amino-acid condensation formally releases water; ribosomal synthesis instead transfers a tRNA-bound peptide, releasing deacylated tRNA.",
+      "reason": "Separate formal condensation and ribosomal ester transfer.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "- **Spectroscopy**: only aromatic amino acids absorb UV light significantly (Trp > Tyr > Phe at 280 nm)",
+      "new": "- **Spectroscopy**: Trp and Tyr dominate typical A280 measurements; peptide bonds absorb at shorter UV wavelengths and disulfides also contribute at 280 nm.",
+      "reason": "UV absorption is wavelength dependent and not exclusive to aromatic residues.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8563639/"
+    },
+    {
+      "field": "content",
+      "old": "**positively charged (basic)**",
+      "new": "**basic (Lys/Arg mainly positive; His mainly neutral at pH 7.4)**",
+      "reason": "Classification is not a charge guarantee.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "every eukaryotic protein translation begins with methionine (AUG)",
+      "new": "standard cytosolic eukaryotic translation initiates with methionine, commonly at AUG; the initial residue may later be removed",
+      "reason": "Qualify scope and mature-protein distinction.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "These three amino acids contain aromatic ring systems and are responsible for most of a protein's UV absorbance at 280 nm.",
+      "new": "Phe, Tyr, and Trp form the usual aromatic category. Histidine is also chemically aromatic, although commonly grouped as basic. At 280 nm, Trp and Tyr are the main residue contributors.",
+      "reason": "Separate category convenience from ring chemistry and A280.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8563639/"
+    },
+    {
+      "field": "content",
+      "old": "*strongest* UV absorber at 280 nm—it dominates the spectroscopic signature of most proteins",
+      "new": "strongest per-residue UV absorber at 280 nm; the total signal also depends on residue counts",
+      "reason": "Do not infer all protein compositions from per-residue strength.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8563639/"
+    },
+    {
+      "field": "content",
+      "old": "Tryptophan is essential and is the *rarest* amino acid in most dietary proteins.",
+      "new": "Tryptophan is essential; its abundance varies among proteins.",
+      "reason": "Remove unsupported dietary abundance ranking.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "but their side chains are *not* ionized at physiological pH",
+      "new": "but their side chains are predominantly neutral at physiological pH",
+      "reason": "Cysteine retains a minority thiolate population.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "fully deprotonated",
+      "new": "predominantly deprotonated",
+      "reason": "Use equilibrium language.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "## Positively Charged (Basic) Amino Acids",
+      "new": "## Basic Amino Acids: Check the pH",
+      "reason": "Heading must not imply histidine predominantly positive.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "making it an exceptionally effective **biological buffer** and **general acid-base catalyst**",
+      "new": "supporting **general acid-base catalysis**. With pKa 6.0, only about 4% of its side chains are protonated at pH 7.4; buffering is strongest near its pKa",
+      "reason": "Quantify histidine and avoid maximum buffering at7.4.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "Arg pKa ~12.5 (always positive)",
+      "new": "Arg pKa ~12.5 (predominantly positive at 7.4)",
+      "reason": "Avoid pH-independent charge.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "**Positively Charged (Basic)**: Lys (K), Arg (R), His (H)",
+      "new": "**Basic**: Lys (K), Arg (R), His (H); only Lys and Arg are predominantly positive at pH 7.4 with the stated pKa values",
+      "reason": "Summary must match detailed charge explanation.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "His (~6.0) is the best physiological buffer",
+      "new": "His (~6.0) supports acid-base catalysis; buffering is strongest near the relevant pKa",
+      "reason": "No universal best physiological buffer.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "The **hydrophobic effect** is the primary driver of protein folding.",
+      "new": "The **hydrophobic effect** is a major driving force in folding soluble globular proteins.",
+      "reason": "State scope, not universal mechanism.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "content",
+      "old": "Polar and charged residues occupy the protein surface where they can interact with the aqueous environment.",
+      "new": "Polar and charged residues often face water, though some are buried in active sites or internal interaction networks. Membrane proteins also expose nonpolar surfaces to lipids.",
+      "reason": "Qualify simple folding heuristic.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "content",
+      "old": "Pro *breaks* helices (no N–H for hydrogen bonding, rigid ring)",
+      "new": "internal Pro often interrupts helices (no backbone N–H donor, rigid ring)",
+      "reason": "Proline can occur in helices.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "content",
+      "old": "serine kinases are the most common kinases in eukaryotes",
+      "new": "many protein kinases phosphorylate serine or threonine",
+      "reason": "Remove imprecise unsupported kinase classification.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "questions.25.question_text",
+      "old": "An amino acid has a side chain with a pKa of approximately 10.5, contains a hydroxyl group, and is classified as polar uncharged at physiological pH.",
+      "new": "An amino acid has a phenolic side chain with a pKa of approximately 10–10.5 and a hydroxyl group that is predominantly neutral at physiological pH.",
+      "reason": "Avoid conflicting category and precise pKa convention.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "questions.21.question_text",
+      "old": "A researcher is studying a protein active site and finds that a single amino acid substitution dramatically reduces enzymatic activity at physiological pH. The substituted residue normally carries a positive charge at pH 7.4 and participates in electrostatic interactions with a negatively charged substrate. Which substitution would most likely cause this loss of activity?",
+      "new": "Assume standard side-chain pKa values and unchanged active-site geometry. Which substitution removes a predominantly positive side-chain charge at pH 7.4, weakening electrostatic attraction to a negatively charged substrate?",
+      "reason": "Isolate tested variable instead of predicting enzyme activity from charge alone.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    }
+  ]
+}

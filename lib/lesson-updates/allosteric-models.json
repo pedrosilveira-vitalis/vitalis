@@ -1,0 +1,237 @@
+{
+  "lessonId": 20,
+  "reviewedAt": "2026-11-08",
+  "questionIds": [
+    96,
+    97,
+    98,
+    99,
+    100
+  ],
+  "sources": [
+    {
+      "title": "Kinetic cooperativity of monomeric glucokinase",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "title": "Distinguishing conformational selection and induced fit",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026370/"
+    },
+    {
+      "title": "E. coli ATCase structure and mechanisms",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3276696/"
+    },
+    {
+      "title": "Assay Guidance Manual: enzyme kinetics",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "title": "Human PFK isoforms and regulation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    }
+  ],
+  "visual": {
+    "title": "Allostery: distinguish the model from the evidence",
+    "src": "/lesson-diagrams/allosteric-models.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "MWC contrasts all-T and all-R oligomers with sequential mixed states. Glucokinase illustrates a monomeric exception. A comparison at equal half-maximal concentration shows hyperbolic and sigmoidal rates.",
+    "caption": "Simplified model schemes, not molecular structures. Curve shape alone does not identify a unique mechanism."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "69ff2135d869954754b3e62d48a1267dbaed52d9fddccfa46c707f69ecb148ef"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "2489b979343956faf8c8672560ab4243ee1af12010c61d686651644a46d911c8"
+    },
+    {
+      "field": "questions.96.question_text",
+      "sha256": "c35fd2c75c9b93b62da6d89bf08519c2ed073d870d24c19678c1371085b147b1"
+    },
+    {
+      "field": "questions.96.choice_a",
+      "sha256": "d232baf1e3b835b80e33ac4a2725c7aad32fca045803de1bc2374280bc2688a3"
+    },
+    {
+      "field": "questions.96.choice_b",
+      "sha256": "ed51ffadf441ae592c32c8ea1875bb81fbc36387806e1cb2053e17dde9615afa"
+    },
+    {
+      "field": "questions.96.choice_c",
+      "sha256": "b7e630b7c4422562a22cc7314e467ab511515bab7d4ce368f88dbda7220ce380"
+    },
+    {
+      "field": "questions.96.choice_d",
+      "sha256": "63cfb9613a230da10fd2dfee16d1f27f76b9051b2e45154f0c2779a1b5dd6116"
+    },
+    {
+      "field": "questions.96.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.96.explanation",
+      "sha256": "d1dfc0059ae963d89a251ea6542a374e94877f8fd94df9cbc92a5e6c613611a6"
+    },
+    {
+      "field": "questions.97.question_text",
+      "sha256": "5df99acb48b550edb108001380170c5e8a34fcf04255f1a5ff87385c4901f989"
+    },
+    {
+      "field": "questions.97.choice_a",
+      "sha256": "e5bf3d156684e551699d9fb38daf847993a9973df4a862617832ba24fc5ccab3"
+    },
+    {
+      "field": "questions.97.choice_b",
+      "sha256": "b2aa9751fa9c4c2ed955930d9e010db7a8c9bd20069fb7bc9e407e6d8626229f"
+    },
+    {
+      "field": "questions.97.choice_c",
+      "sha256": "c5f110df15ba0d5ce9df69580f478b0725441af206d5268fec88dbaf5d06f68b"
+    },
+    {
+      "field": "questions.97.choice_d",
+      "sha256": "66d246a358b1642d6c9ae11d927c8b15bfc5e8cfc950c7c87662a52666304390"
+    },
+    {
+      "field": "questions.97.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.97.explanation",
+      "sha256": "423b8f7a6ba7c35072eef11569afda9613df1ba4b375cdf197355e19c3fd3d8b"
+    },
+    {
+      "field": "questions.98.question_text",
+      "sha256": "2fdc2621150696d8e6028c9af603021176ac026688f62e294fa12d51a7acc3b8"
+    },
+    {
+      "field": "questions.98.choice_a",
+      "sha256": "b2eeee29c121eb8f198381bd3a5af77b1fc59f07fd28683ca5a8ec60fe0019aa"
+    },
+    {
+      "field": "questions.98.choice_b",
+      "sha256": "5c6c3a38e0a832080706c1f0a3f99b3811f0a494b18a1ab421a93229b5183b4c"
+    },
+    {
+      "field": "questions.98.choice_c",
+      "sha256": "c9af1920c844cc78359f0e54ea8103115713e7143251c8c3f2fb5c7b5b5bdcbf"
+    },
+    {
+      "field": "questions.98.choice_d",
+      "sha256": "55adda2557d3a534e3df0a232712d9a87b77a564f7d196610b57c77e3658c268"
+    },
+    {
+      "field": "questions.98.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.98.explanation",
+      "sha256": "cae82367d759906f9afaa90396eade4501c32492ea1e9196671f72f83d10afd5"
+    },
+    {
+      "field": "questions.99.question_text",
+      "sha256": "024d5fa28624aa0350f28554d0b1934b21a91f3b0a2b8fa616761e900a59c3f8"
+    },
+    {
+      "field": "questions.99.choice_a",
+      "sha256": "aad85e65b5c5b29eb472834f6ba7582acaab8fb86c1c5591f1efa68feaf2cf7a"
+    },
+    {
+      "field": "questions.99.choice_b",
+      "sha256": "344c10f23224cfbb4c1febcb74d17f2e27cd86b753f82b7df3f5726f0522807f"
+    },
+    {
+      "field": "questions.99.choice_c",
+      "sha256": "8878a8aadad7195d25c3ca11f46a31bdaec28ae35286c2f59f4f5cdb4dd4990c"
+    },
+    {
+      "field": "questions.99.choice_d",
+      "sha256": "10868d8bc4b6add85753d3fb30cad1a55d3b1e002eeeab231c411c3bb93f8fab"
+    },
+    {
+      "field": "questions.99.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.99.explanation",
+      "sha256": "56268918b1f9e78afed36947aae15b90c8530dbe2830831206e9e501c0225523"
+    },
+    {
+      "field": "questions.100.question_text",
+      "sha256": "d85412061dd1817d6a673b2eeb8c2630f930ab5962280aeed4cdcb66d3bad515"
+    },
+    {
+      "field": "questions.100.choice_a",
+      "sha256": "654029163dd70acf18ddc842920016e9e157b6daeebb502519445a2fa5dc25a5"
+    },
+    {
+      "field": "questions.100.choice_b",
+      "sha256": "a4bd76ba8983f92cf994333a29aafe28b80a306d2b4235c7dcf91fe975a9aece"
+    },
+    {
+      "field": "questions.100.choice_c",
+      "sha256": "e226e57be4195d2a5e7fc94bafab1319fa51c807af5a464d3c348caf5ab87d85"
+    },
+    {
+      "field": "questions.100.choice_d",
+      "sha256": "96efba9cb8abf9bf2b2ebbe192cbc609cdc61f57b044b9e4dd32a96a9bb7410b"
+    },
+    {
+      "field": "questions.100.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.100.explanation",
+      "sha256": "898076dbea19eef8e66949b2d382dfc154908bb5c180a196422463fb77491be1"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Allosteric Regulation and Cooperative Enzyme Behavior\n\n### Introduction: Why Simple Michaelis-Menten Kinetics Isn't Always Enough\n\nThe Michaelis-Menten model describes enzyme behavior elegantly for many single-subunit enzymes: a hyperbolic curve, a defined Km, a maximum velocity, and straightforward inhibition patterns. But a significant class of enzymes in human metabolism refuses to follow these rules. These enzymes display *sigmoidal* kinetics, respond to molecules that bind far from the active site, and can be switched on or off with remarkable sensitivity. Some are **allosteric enzymes**, although allostery does not require a sigmoidal curve, and understanding them is essential for grasping how metabolic pathways are regulated in real cells—and for performing well on the MCAT.\n\nThe word \"allosteric\" comes from the Greek *allos* (other) and *stereos* (solid or shape), meaning \"other site.\" Allosteric regulation couples a change at one site to function at another. Heterotropic effectors often bind a separate regulatory site; substrate binding at one active site can also influence other sites (homotropic cooperativity). This mechanism gives cells extraordinary control over metabolism, allowing them to respond to energy status, substrate availability, and product accumulation in milliseconds without requiring new protein synthesis.\n\n---\n\n## The Allosteric Enzyme: Structural Basis\n\n### Quaternary Structure and Multiple Subunits\n\nMany classic allosteric examples are **oligomeric**, but monomeric proteins can also be regulated allosterically; human glucokinase is an important example. The classic example is **hemoglobin**, which, while not technically an enzyme, is the textbook model for cooperative binding and allosteric behavior. In the enzymatic world, **aspartate transcarbamoylase (ATCase)** and **phosphofructokinase-1 (PFK-1)** serve as the canonical examples.\n\nIn oligomeric examples, multiple subunits may provide multiple active sites. These active sites can communicate with each other through conformational changes propagated across subunit interfaces. This communication is the structural foundation of **cooperativity**.\n\n### The Two Conformational States: T and R\n\nThe **concerted model** (also called the **MWC model**, after Monod, Wyman, and Changeux, 1965) describes allosteric enzymes as existing in two interconvertible states:\n\n- **T state (tense state):** Low affinity for substrate. The enzyme is constrained, often by ionic interactions between subunits. This is the less active conformation.\n- **R state (relaxed state):** High affinity for substrate. In this simplified model it favors substrate binding or activity; “R” does not universally mean a more open structure.\n\nIn the classical MWC model, the oligomer interconverts concertedly between all-T and all-R conformations; mixed T/R subunits within one oligomer are excluded. A ligand that binds R more favorably shifts the population toward R. The model does not describe one subunit switching first and then recruiting its neighbors—that is closer to the sequential model.\n\nThe **sequential model** (KNF model, Koshland, Nemethy, and Filmer, 1966) offers an alternative view: each subunit changes conformation *individually* upon substrate binding, and the conformational change in one subunit *induces* changes in adjacent subunits. The two models are not mutually exclusive, and real enzymes often show behavior intermediate between them.\n\n---\n\n## Cooperative Binding and Sigmoidal Kinetics\n\n### The Hill Equation and Hill Coefficient\n\nFor a simple Michaelis-Menten enzyme, the relationship between reaction velocity and substrate concentration follows:\n\nv = (Vmax [S]) / (Km + [S])\n\nFor allosteric enzymes exhibiting cooperativity, an empirical **Hill equation** can approximate the response over a specified range:\n\nv = (Vmax [S]^n) / (K0.5^n + [S]^n)\n\nHere, **n** is the **Hill coefficient**, and **K0.5** is the substrate concentration at half-maximal velocity (analogous to Km but used specifically for cooperative enzymes).\n\nThe Hill coefficient tells you about the degree of cooperativity:\n\n- **n = 1:** No cooperativity; hyperbolic kinetics (Michaelis-Menten behavior)\n- **n > 1:** Positive cooperativity; sigmoidal kinetics; binding of one substrate molecule *increases* affinity for subsequent substrate molecules\n- **n < 1:** Negative cooperativity; binding of one substrate molecule *decreases* affinity for subsequent substrate molecules\n\nFor hemoglobin binding oxygen, n ≈ 2.8 (out of a theoretical maximum of 4 for a tetrameric protein). For PFK-1, n is approximately 2–4 depending on conditions. For an equilibrium-binding model, a Hill slope approaching the number of interacting sites suggests strong positive cooperativity. A kinetic Hill coefficient is not generally a count of subunits or binding sites.\n\n### The Sigmoidal Curve: Shape and Significance\n\nFor a positively cooperative system with a sigmoidal response, plotting v versus [S], you get an **S-shaped (sigmoidal) curve** rather than a hyperbola. This shape has profound physiological consequences.\n\nConsider the sigmoidal curve in three regions:\n\n- **Low [S]:** The enzyme is mostly in the T state. Velocity increases slowly with increasing substrate. The enzyme is relatively *insensitive* to small changes in substrate concentration.\n- **Transition region (near K0.5):** A small increase in [S] produces a *disproportionately large* increase in velocity. This is the steep portion of the sigmoid.\n- **High [S]:** The enzyme approaches Vmax. Additional substrate produces diminishing returns.\n\nThis sigmoidal response means allosteric enzymes act as **molecular switches** rather than simple linear transducers. In the physiological range of substrate concentrations—which often falls near the steep portion of the sigmoid—the enzyme is exquisitely sensitive to small changes in [S]. A twofold change in substrate concentration can produce a much larger change in enzyme activity than would be possible with a hyperbolic enzyme.\n\n*This is why allosteric enzymes are preferentially positioned at metabolic branch points and committed steps—they can rapidly amplify or dampen flux through a pathway.*\n\n---\n\n## Allosteric Effectors: Activators and Inhibitors\n\n### What Are Allosteric Effectors?\n\n**Allosteric effectors** (also called **allosteric modulators** or **ligands**) are small molecules that bind to the **allosteric site** (also called the **regulatory site**), which is physically distinct from the active site. Binding of an effector changes the enzyme's conformation, altering its affinity for substrate (K0.5) or its maximum catalytic rate (Vmax), or both.\n\nThere are two categories:\n\n- **Allosteric activators:** Bind to the allosteric site and *increase* enzyme activity. They typically stabilize the R state, shifting the T-to-R equilibrium toward the active conformation. On a kinetic plot, they shift the sigmoidal curve *to the left* (lower K0.5) or increase Vmax.\n- **Allosteric inhibitors:** Bind to the allosteric site and *decrease* enzyme activity. They stabilize the T state. On a kinetic plot, they shift the curve *to the right* (higher K0.5) or decrease Vmax.\n\n### Distinguishing Allosteric Inhibition from Competitive and Noncompetitive Inhibition\n\nAllostery describes coupling between sites; competitive, mixed, noncompetitive and uncompetitive describe kinetic patterns under a specified model. An inhibitor’s remote binding location alone does not determine its kinetic class. Determine the response experimentally.\n\n- Allosteric inhibitors bind to a *separate* allosteric site, not the active site\n- They work by inducing conformational changes, not by blocking substrate access directly\n- They can regulate enzymes with sigmoidal or approximately hyperbolic responses\n- They can change both K0.5 and Vmax, depending on the enzyme\n\nIn classical noncompetitive inhibition (for Michaelis-Menten enzymes), Km is unchanged but Vmax decreases. Allosteric inhibition does not fit neatly into this framework because the enzymes themselves don't follow Michaelis-Menten kinetics.\n\n---\n\n## Key Metabolic Examples\n\n### Phosphofructokinase-1 (PFK-1): The Master Regulator of Glycolysis\n\n**PFK-1** catalyzes the phosphorylation of fructose-6-phosphate to fructose-1,6-bisphosphate, the committed step of glycolysis. It is the quintessential allosteric enzyme and a favorite MCAT topic.\n\nPFK-1 is a tetramer and displays sigmoidal kinetics with respect to its substrate fructose-6-phosphate.\n\n**Allosteric inhibitors of PFK-1:**\n- **ATP (high concentrations):** When cellular [ATP] is high, the cell has sufficient energy and glycolysis should slow. ATP binds an allosteric site (distinct from the substrate ATP-binding site in the active site) and inhibits PFK-1, shifting the sigmoidal curve rightward.\n- **Citrate:** High citrate signals that the TCA cycle is running well and the cell has ample biosynthetic precursors. Citrate inhibits PFK-1, slowing glycolysis.\n- **H⁺ (low pH):** Inhibits PFK-1, which serves as a safety mechanism to prevent excessive lactate accumulation during anaerobic conditions.\n\n**Allosteric activators of PFK-1:**\n- **AMP and ADP:** When ATP is being consumed rapidly, AMP and ADP accumulate. These molecules activate PFK-1, accelerating glycolysis to regenerate ATP.\n- **Fructose-2,6-bisphosphate (F-2,6-BP):** Produced by PFK-2 (a bifunctional enzyme regulated by glucagon and insulin signaling), F-2,6-BP is the most potent allosteric activator of PFK-1. It can lower the fructose-6-phosphate S₀.₅ and relieve ATP inhibition; effects on maximal activity depend on isoform and assay conditions.\n\nThe regulation of PFK-1 perfectly illustrates the logic of allosteric control: the enzyme's activity is coupled to the energy status of the cell (via ATP/AMP/ADP ratios) and to hormonal signals (via F-2,6-BP).\n\n### Pyruvate Kinase: Feedforward and Feedback in Glycolysis\n\n**Pyruvate kinase** catalyzes the final step of glycolysis, converting phosphoenolpyruvate (PEP) to pyruvate with production of ATP. The liver isoform (L-type) is allosterically activated by **fructose-1,6-bisphosphate** (the product of PFK-1) in a **feedforward activation** mechanism: when PFK-1 is active and producing F-1,6-BP, pyruvate kinase is simultaneously activated to handle the increased flux. Pyruvate kinase is inhibited by **ATP** and **alanine** (which signals adequate amino acid and energy status).\n\n### Aspartate Transcarbamoylase (ATCase): Feedback Inhibition in Pyrimidine Synthesis\n\n**E. coli ATCase** catalyzes the first committed step in pyrimidine biosynthesis. It is a 12-subunit enzyme (6 catalytic, 6 regulatory subunits) and displays classic cooperative kinetics.\n\n- **CTP (cytidine triphosphate):** The end product of the pyrimidine pathway, CTP inhibits ATCase allosterically—classic **feedback inhibition** (also called **end-product inhibition**). When CTP accumulates, it signals that the pathway has produced sufficient product and the committed step should slow.\n- **ATP:** Activates ATCase. High ATP (relative to CTP) signals that the cell needs more pyrimidines to balance purine production for nucleic acid synthesis.\n\nATCase is the historical model for understanding allosteric regulation, and biochemical work by Gerhart and Pardee and subsequent structural studies helped establish its regulatory mechanism; Perutz is especially associated with hemoglobin studies.\n\n### Hemoglobin: The Archetypal Cooperative Binding Protein\n\nThough hemoglobin is a transport protein rather than an enzyme, it is *the* textbook example of cooperative binding and allosteric regulation. Every MCAT student must understand it thoroughly.\n\nHemoglobin is a tetramer (2α + 2β subunits), each with one heme group capable of binding one O₂. The Hill coefficient for O₂ binding is approximately 2.8, indicating strong positive cooperativity.\n\n**Allosteric regulation of hemoglobin:**\n\n- **2,3-Bisphosphoglycerate (2,3-BPG):** Binds to the central cavity of deoxyhemoglobin (T state), stabilizing it and *decreasing* O₂ affinity (rightward shift of the O₂ dissociation curve). This is critical at high altitude and in fetal vs. maternal hemoglobin (fetal hemoglobin has γ subunits that bind 2,3-BPG less avidly, giving it higher O₂ affinity).\n- **CO₂:** Binds to N-terminal amino groups of hemoglobin subunits (forming carbaminohemoglobin), stabilizing the T state and decreasing O₂ affinity—facilitating O₂ unloading in metabolically active tissues where CO₂ is high.\n- **H⁺ (Bohr effect):** Low pH (high [H⁺]) stabilizes the T state, decreasing O₂ affinity. In active tissues where lactic acid and CO₂ lower pH, hemoglobin releases O₂ more readily.\n\n---\n\n## Comparing Allosteric Regulation to Other Forms of Enzyme Regulation\n\n### Covalent Modification vs. Allosteric Regulation\n\nAllosteric regulation is *noncovalent* and *reversible*—the effector binds and dissociates without forming covalent bonds. This allows for rapid, moment-to-moment adjustment of enzyme activity.\n\n**Covalent modification** (e.g., phosphorylation by protein kinases) also regulates many metabolic enzymes, with kinetics that depend on the system and requires enzymatic machinery (kinases and phosphatases). Many enzymes are regulated by *both* mechanisms—for example, glycogen phosphorylase is allosterically regulated by AMP (activator) and ATP/glucose-6-phosphate (inhibitors) *and* is activated by phosphorylation.\n\n### Feedback Inhibition and Feedforward Activation\n\nTwo recurring themes in allosteric regulation:\n\n- **Feedback inhibition:** The end product of a pathway inhibits an early enzyme in that pathway (usually the committed step). Examples: CTP inhibiting ATCase, ATP inhibiting PFK-1. This prevents overproduction of metabolic products and wasteful use of precursors.\n- **Feedforward activation:** A substrate or early intermediate activates a downstream enzyme, preparing the pathway for increased flux. Example: Fructose-1,6-bisphosphate activating pyruvate kinase.\n\n---\n\n## Graphical Analysis: What to Expect on the MCAT\n\n### Velocity vs. Substrate Concentration Plots\n\nOn the MCAT, you will be asked to interpret kinetic plots. Key points:\n\n- A **sigmoidal v vs. [S] curve** indicates cooperative, allosteric behavior\n- A **hyperbolic v vs. [S] curve** indicates Michaelis-Menten behavior\n- An allosteric **activator** shifts the sigmoidal curve *to the left* (lower K0.5, same or higher Vmax)—the enzyme becomes active at lower substrate concentrations\n- An allosteric **inhibitor** shifts the sigmoidal curve *to the right* (higher K0.5, same or lower Vmax)—the enzyme requires more substrate to achieve half-maximal velocity\n\n### Hill Plots\n\nA **Hill plot** linearizes cooperative binding data. You plot log(v / (Vmax - v)) on the y-axis versus log[S] on the x-axis. The slope of the linear portion equals the Hill coefficient *n*. While you won't need to construct Hill plots on the MCAT, you should know that the Hill coefficient is derived from such analysis and what different values of *n* signify.\n\n### Comparing Km and K0.5\n\nFor Michaelis-Menten enzymes, **Km** is the substrate concentration at half-maximal velocity under the Michaelis–Menten model; it combines kinetic rate constants and is not generally a binding dissociation constant. For allosteric enzymes, the analogous parameter is **K0.5** (sometimes written S0.5), which is the substrate concentration at half-maximal velocity but *is not a simple dissociation constant*—it reflects the complex interplay between T and R states and cooperative interactions. K0.5 can be shifted by allosteric effectors; Km in a strict Michaelis-Menten context is an intrinsic property of the enzyme-substrate pair (though apparent Km can be changed by inhibitors).\n\n---\n\n## Physiological Logic of Allosteric Regulation\n\n### Sensitivity and the Threshold Effect\n\nThe sigmoidal response of allosteric enzymes provides a **threshold effect**: at substrate concentrations below a certain level, the enzyme is nearly inactive; above that level, activity increases steeply. This creates a switch-like behavior that is ideal for metabolic control.\n\nConsider PFK-1 in a resting muscle cell: [AMP] is low, [ATP] is high, and PFK-1 is inhibited—glycolysis runs slowly. When exercise begins, ATP is consumed, AMP rises sharply (due to the adenylate kinase reaction: 2 ADP → ATP + AMP), and within seconds PFK-1 is activated. The sigmoidal kinetics mean that even a modest increase in AMP produces a dramatic increase in PFK-1 activity, rapidly accelerating glycolysis to meet energy demands.\n\n### Metabolic Flux and Pathway Coordination\n\nAllosteric regulation coordinates multiple enzymes within a pathway and across pathways. The ATP/ADP/AMP ratio serves as a universal energy signal that allosterically regulates:\n\n- PFK-1 (glycolysis)\n- Isocitrate dehydrogenase and α-ketoglutarate dehydrogenase (TCA cycle)\n- Glycogen phosphorylase (glycogenolysis)\n- Pyruvate dehydrogenase complex (pyruvate oxidation)\n\nLow energy status often promotes ATP-producing pathways, but responses differ by tissue, isoform, substrate availability and additional regulators. For example, PDH regulation also involves phosphorylation. The listed enzymes do not all respond simultaneously or identically to one ratio.\n\n### Allosteric Regulation in Disease and Pharmacology\n\nSeveral diseases involve dysregulation of allosteric enzymes:\n\n- **Cancer:** Many cancer cells upregulate PFK-1 activity (the Warburg effect involves enhanced glycolysis even in the presence of oxygen). Mutations in allosteric regulatory sites can contribute to this.\n- **Sickle cell disease:** The mutant HbS polymerizes in the deoxy (T) state. 2,3-BPG binding, which stabilizes the T state, is relevant to understanding sickling.\n- **Drug design:** Many drugs are designed as allosteric modulators rather than active-site inhibitors because allosteric sites are often more unique to specific enzyme isoforms, potentially reducing off-target effects. Allosteric drugs include modulators of G-protein-coupled receptors. Most familiar HIV protease inhibitors act at the protease active site; do not infer allostery simply because an inhibitor changes conformation.\n\n---\n\n## Summary: Key Concepts for MCAT Mastery\n\n### Core Principles\n\n- Allostery involves coupled sites or conformational states and does **not require multiple subunits**\n- **T and R states** are a useful model for selected systems, not a universal two-state description of every enzyme\n- **Positive cooperative binding** occurs when occupancy at one site favors binding at others; negative cooperativity has the opposite effect\n- Positive kinetic cooperativity can produce **sigmoidal responses**; other forms of regulation need not\n- The **Hill coefficient (n)** quantifies cooperativity: n > 1 is positive cooperativity, n < 1 is negative cooperativity, n = 1 is no cooperativity\n\n### Allosteric Effectors\n\n- **Activators** stabilize the R state, shift the sigmoidal curve left (lower K0.5), increase sensitivity to substrate\n- **Inhibitors** stabilize the T state, shift the sigmoidal curve right (higher K0.5), decrease sensitivity to substrate\n- Effectors bind at sites *distinct* from the active site\n- Regulation is **noncovalent and reversible**\n\n### High-Yield Examples\n\n| Enzyme | Activators | Inhibitors | Pathway |\n|---|---|---|---|\n| PFK-1 | AMP, ADP, F-2,6-BP | ATP, citrate, H⁺ | Glycolysis |\n| Pyruvate kinase (liver) | F-1,6-BP | ATP, alanine | Glycolysis |\n| E. coli ATCase | ATP | CTP | Pyrimidine synthesis |\n| Mitochondrial NAD-dependent isocitrate dehydrogenase | ADP, Ca²⁺ | ATP, NADH | TCA cycle |\n| Muscle glycogen phosphorylase | AMP | ATP, glucose-6-phosphate | Glycogenolysis |\n| Hemoglobin | — | 2,3-BPG, CO₂, H⁺ | O₂ transport |\n\n### MCAT Strategy\n\nWhen you encounter an enzyme kinetics question on the MCAT:\n\n1. **Identify the curve shape:** Sigmoidal = allosteric/cooperative; hyperbolic = Michaelis-Menten\n2. **Identify what changes:** Does the effector shift the curve left/right (K0.5 change) or up/down (Vmax change)?\n3. **Apply metabolic logic:** Does the regulation make physiological sense? (e.g., end product inhibiting committed step = feedback inhibition)\n4. **Know your Hill coefficient:** n > 1 means positive cooperativity and sigmoidal kinetics\n5. **Distinguish allosteric sites from active sites:** Allosteric effectors bind elsewhere and work through conformational change\n\nThe MCAT frequently presents data tables or graphs showing enzyme velocity under different conditions and asks you to identify the type of regulation, predict the effect of an effector, or explain the physiological rationale. Mastery of the concepts in this lesson—the structural basis of cooperativity, the meaning of the sigmoidal curve, and the logic of allosteric feedback and feedforward—will allow you to approach these questions systematically and confidently.\n\n---\n\n### Conclusion\n\nAllosteric regulation represents one of evolution's most elegant solutions to the problem of metabolic control. By building cooperativity into multi-subunit enzymes and creating distinct regulatory sites, cells achieve exquisite sensitivity to metabolic signals—responding to changes in substrate concentration, product accumulation, and energy status with speed and precision that simple on/off switches or linear responses could never provide. The sigmoidal kinetic curve is not merely a mathematical curiosity; it is the graphical signature of a molecular machine designed for sensitive, threshold-based control. Understanding the structural basis of cooperativity, the roles of T and R states, and the physiological logic of allosteric activators and inhibitors will serve you not only on the MCAT but in every subsequent encounter with metabolic biochemistry."
+    },
+    {
+      "field": "questions.100.choice_b",
+      "value": "Mixed inhibition with stronger inhibitor binding to free E than to ES."
+    },
+    {
+      "field": "questions.100.explanation",
+      "value": "B is correct. In the mixed model, Vmax,app = Vmax/α′ and Km,app = Km α/α′. Stronger binding to E means α > α′, so apparent Km rises while Vmax falls. Competitive inhibition leaves Vmax unchanged; uncompetitive inhibition lowers both by the same factor. The graph alone does not establish a unique T/R structural mechanism."
+    },
+    {
+      "field": "questions.100.question_text",
+      "value": "For an enzyme fit by the standard reversible Michaelis–Menten inhibition models, an inhibitor binds both free E and ES with unequal affinities. Apparent Vmax decreases and apparent Km increases. Which explanation best fits?"
+    },
+    {
+      "field": "questions.96.question_text",
+      "value": "An enzyme described by a two-state MWC model has a sigmoidal rate curve. A reversible effector makes the curve more nearly hyperbolic and increases rate at low substrate. Which explanation is most consistent with the model?"
+    },
+    {
+      "field": "questions.97.choice_a",
+      "value": "The enzyme favors a less active state, increasing the fructose-6-phosphate S₀.₅ under these conditions."
+    },
+    {
+      "field": "questions.97.choice_b",
+      "value": "The enzyme favors a more active state, decreasing the fructose-6-phosphate S₀.₅ under these conditions."
+    },
+    {
+      "field": "questions.97.explanation",
+      "value": "A is consistent with ATP-mediated allosteric inhibition at high ATP relative to AMP. Use S₀.₅ for the sigmoidal fructose-6-phosphate response. ATP is also a catalytic substrate, so its activating substrate role at low concentration must be distinguished from inhibition at high concentration."
+    },
+    {
+      "field": "questions.98.choice_c",
+      "value": "Enzyme X: its rate is about 9.1% of Vmax, versus about 1.0% for Y."
+    },
+    {
+      "field": "questions.98.explanation",
+      "value": "C is correct: X gives 0.1/1.1 ≈ 0.091; Y gives 0.01/1.01 ≈ 0.0099. Equal Vmax alone would not establish the ordering; the equal half-maximal concentrations and explicit models are necessary."
+    },
+    {
+      "field": "questions.98.question_text",
+      "value": "Enzyme X follows v/Vmax = [S]/(K + [S]); enzyme Y follows v/Vmax = [S]²/(K² + [S]²). Both have the same Vmax and half-maximal concentration K. At [S] = 0.1K, which has the higher rate?"
+    }
+  ]
+}

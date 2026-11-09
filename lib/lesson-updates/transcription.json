@@ -1,0 +1,230 @@
+{
+  "lessonId": 37,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    181,
+    182,
+    183,
+    184,
+    185
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26887/",
+      "title": "Molecular Biology of the Cell: From DNA to RNA (foundational mechanisms; updated exceptions noted)"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1180743/",
+      "title": "Mutational analysis of the RNA polymerase active-center aspartate triad"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4725480/",
+      "title": "Single-molecule measurements: bacterial RNA polymerase can retain sigma70 throughout transcription"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3612373/",
+      "title": "Structural visualization of key steps in human transcription initiation"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4333096/",
+      "title": "Characterization of human CDK12 and CDK13 complexes"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5816196/",
+      "title": "Structural recognition of the human AAUAAA polyadenylation signal"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11290327/",
+      "title": "Structural mechanism for rifampicin inhibition of bacterial RNA polymerase"
+    }
+  ],
+  "visual": {
+    "src": "/lesson-diagrams/transcription.svg",
+    "alt": "DNA strand directions and the conversion of a primary animal RNA into a mature RNA with coding and untranslated exons.",
+    "caption": "Follow strand direction first, then distinguish primary RNA sequence from processed mRNA. Exons can include untranslated regions."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "99afefa13e01dfa974338063572fa59ce866d0695617d6bffb6ce18715673498"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "1ad3cdc48a0ab89c79d34b96ada400d1074a576fdb386cc3f9a73ed076c4db50"
+    },
+    {
+      "field": "questions.181.question_text",
+      "sha256": "28a266c310d95397c05171ce4e8a26dd0c7691c0a5dee1be0698f30bc2c7c053"
+    },
+    {
+      "field": "questions.181.choice_a",
+      "sha256": "1728b4a56ac84684a98509220ad6a34900b8a3d6ea3915a6d227f82a639fb9ed"
+    },
+    {
+      "field": "questions.181.choice_b",
+      "sha256": "edb25a927adc8b4a3044dbff00662b4bdedf74ecfa183d3aba4faa9af32acd0d"
+    },
+    {
+      "field": "questions.181.choice_c",
+      "sha256": "a1bd000232d8c0ad9b708c2a210d43388d5068f3ec197f9243f2a4551ad2f207"
+    },
+    {
+      "field": "questions.181.choice_d",
+      "sha256": "aa26a5ed56ce6c7b384c78529465c865e4d1dd2dbe3d195abb6072add02d5262"
+    },
+    {
+      "field": "questions.181.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.181.explanation",
+      "sha256": "560627011f7c9534ea70adc83c08f1e2e390edac2537d8fdf613d3df4da5182d"
+    },
+    {
+      "field": "questions.182.question_text",
+      "sha256": "ea7e3839d7e75720859c5423a518ac149d5d8594bc5a542936cc056dfd7d6031"
+    },
+    {
+      "field": "questions.182.choice_a",
+      "sha256": "d4bf3880755acf49b91da6cc9ba6d74487f315f5e85efbf76efb64eab1a82718"
+    },
+    {
+      "field": "questions.182.choice_b",
+      "sha256": "c072b590a3ab3b87dd8fc6a55a13a95915dce6e7d4ecbbf490d2ab5b8f3ec974"
+    },
+    {
+      "field": "questions.182.choice_c",
+      "sha256": "1a6255c4ff782c100652897e0b50de72327a2987185653d8e04d2967ea699a03"
+    },
+    {
+      "field": "questions.182.choice_d",
+      "sha256": "fdcfd1ce6454e2f23e07b15df00b854df783657049382c9eb4391098edd002fa"
+    },
+    {
+      "field": "questions.182.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.182.explanation",
+      "sha256": "3252b274874747b81b1ecf93593242e09b1fee6003a320f16aa6121690a821e6"
+    },
+    {
+      "field": "questions.183.question_text",
+      "sha256": "a97de42d7aac78e60632c3e3ffb3d93e6d15b0127a0d8909d3b0754ee9f51801"
+    },
+    {
+      "field": "questions.183.choice_a",
+      "sha256": "2453c06f96b75d62840758556027284a5cd8e86cd451c0f985976e4087054197"
+    },
+    {
+      "field": "questions.183.choice_b",
+      "sha256": "f21b44271feee88d10afba3320d61659ef5cc1ab5f8c6fae7f72c5b09ebd8763"
+    },
+    {
+      "field": "questions.183.choice_c",
+      "sha256": "4e8ad7d811336f6ef954d2d9ec55f8f6ffae5d9a974150777694317fde9bcdfe"
+    },
+    {
+      "field": "questions.183.choice_d",
+      "sha256": "4e05018e33b315a6ac14b4002a198eb4976ebb6e1e6a671061c5db0f820f016d"
+    },
+    {
+      "field": "questions.183.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.183.explanation",
+      "sha256": "6ba86fa9dbec5e088ad02888d8fa1afd6cb4d3736c415033089029801824872a"
+    },
+    {
+      "field": "questions.184.question_text",
+      "sha256": "36930f2c521d9d5fddf0e07cc0f6074bb1b255ae4424577cfdb5328d83e7f9a4"
+    },
+    {
+      "field": "questions.184.choice_a",
+      "sha256": "f0f5089174878af99e97365503f1a67e94575b5b6fc0a4ac95ca300abfd62176"
+    },
+    {
+      "field": "questions.184.choice_b",
+      "sha256": "b4f5ae3f85e769a7ee30607e3076dacfda3e3f0121a054b0a4d93b9c1cfa9745"
+    },
+    {
+      "field": "questions.184.choice_c",
+      "sha256": "2c905ba3ea7929f0d244479a660354f37325974eb25abd5353539b636f4bd60b"
+    },
+    {
+      "field": "questions.184.choice_d",
+      "sha256": "efb4e15f73e34b971871deaaa21003b817e55333dc74ef789fa5e0c83643a629"
+    },
+    {
+      "field": "questions.184.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.184.explanation",
+      "sha256": "2f66138451303699c7249a6e153cf740b44d1aa6d714cbd915db88f27380216d"
+    },
+    {
+      "field": "questions.185.question_text",
+      "sha256": "da737edacf367c41ba0751200479f7a5a9948b6250edb2998c11fc24322f9b39"
+    },
+    {
+      "field": "questions.185.choice_a",
+      "sha256": "b4ee94650e655b50502fa52072dd18c8c71b679ace42999787fb9a5524b754eb"
+    },
+    {
+      "field": "questions.185.choice_b",
+      "sha256": "7a27a7862b97f8d388d76e01e617103fdd4d3522f838b3dcabea535f0097826e"
+    },
+    {
+      "field": "questions.185.choice_c",
+      "sha256": "2e081ca24f4a855760c2521afa39f513038464bf35e62aa16e19c7a7452c270b"
+    },
+    {
+      "field": "questions.185.choice_d",
+      "sha256": "16a45855b7f5aac55cb9dd8575fc3817333030a2846d29806b5cd842324a69c7"
+    },
+    {
+      "field": "questions.185.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.185.explanation",
+      "sha256": "1870cf0fd6cbedcb5b036af06d3e57ee75e7dafe3b328b2231e96919c4773e81"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Transcription: From DNA Template to RNA Transcript\n\nTranscription is the process by which the information encoded in a DNA sequence is copied into a complementary RNA molecule. It represents the first major step in gene expression—the bridge between the static information stored in the genome and the dynamic proteins that carry out cellular functions. For the MCAT, transcription is a high-yield topic that appears in questions ranging from straightforward mechanism identification to complex experimental interpretation. A thorough understanding of both prokaryotic and eukaryotic transcription, including the molecular machinery involved and the regulatory logic underlying each step, is essential.\n\n---\n\n## The Central Dogma and the Role of Transcription\n\nThe central dogma of molecular biology describes the flow of genetic information: DNA → RNA → Protein. Transcription accomplishes the first arrow. During transcription, one strand of the DNA double helix—the **template strand** (also called the antisense strand or noncoding strand)—serves as the blueprint for RNA synthesis. The initially synthesized RNA is complementary and antiparallel to the template strand. Across the transcribed region it matches the **coding strand** (sense or nontemplate strand), with U replacing T. Mature RNA can differ after splicing, editing and addition of a nontemplated poly-A tail.\n\nFor a sequence-conversion question, identify strand identity and direction first. A coding strand written 5′→3′ gives the primary RNA by replacing T with U. A template written 3′→5′ gives RNA by direct complementary pairing; a template written 5′→3′ must be reverse-complemented to report RNA 5′→3′. Predicting mature eukaryotic mRNA additionally requires processing information.\n\nRNA synthesis proceeds in the **5' to 3' direction**, reading the template strand in the **3' to 5' direction**. Unlike DNA replication, transcription does not require a primer—RNA polymerase can initiate synthesis de novo on a template.\n\n---\n\n## RNA Polymerase: The Core Enzyme\n\n**RNA polymerase (RNAP)** is the enzyme responsible for catalyzing the polymerization of ribonucleotides into an RNA chain. It uses the four ribonucleoside triphosphates (ATP, GTP, CTP, UTP) as substrates and releases pyrophosphate (PPi) with each nucleotide addition. The subsequent hydrolysis of PPi by pyrophosphatase drives the reaction thermodynamically forward.\n\n### Prokaryotic RNA Polymerase\n\nIn bacteria such as *Escherichia coli*, a single type of RNA polymerase transcribes all RNA species. The **core enzyme** consists of five subunits: two alpha (α) subunits, one beta (β) subunit, one beta-prime (β') subunit, and one omega (ω) subunit. The β and β′ subunits together form the nucleic-acid-binding cleft and active-center environment. The conserved catalytic aspartate triad belongs to β′ and coordinates catalytic metal ions; β is not the sole catalytic subunit.\n\nThe core enzyme alone can elongate RNA but cannot initiate transcription at specific promoter sequences. To achieve specificity, the core enzyme associates with a dissociable **sigma (σ) factor** to form the **holoenzyme**. The sigma factor is responsible for recognizing and binding to promoter sequences upstream of the gene. Sigma can dissociate and be reused after initiation, but release is not obligatory at promoter escape: some elongation complexes retain sigma and show sigma-dependent pausing.\n\nDifferent sigma factors recognize different promoter sequences, allowing bacteria to rapidly reprogram gene expression in response to environmental stress. The most common sigma factor in *E. coli* under normal conditions is **σ70** (also written σ^70), named for its molecular weight of approximately 70 kDa. Under heat shock conditions, **σ32** becomes more active and directs transcription of heat-shock genes; this reprogramming does not mean all σ70-dependent transcription stops.\n\n### Eukaryotic RNA Polymerases\n\nThe standard animal-cell model has three major nuclear RNA polymerases. Plants also have specialized Pol IV and V, and organelles use separate transcription machinery:\n\n- **RNA Polymerase I (Pol I):** Located in the nucleolus; transcribes the large ribosomal RNA precursor (pre-rRNA), which is processed into 28S, 18S, and 5.8S rRNA. rRNA synthesis is a large fraction of transcription in actively growing cells; the fraction varies with cell state.\n- **RNA Polymerase II (Pol II):** Transcribes nuclear protein-coding genes (producing pre-mRNA), as well as most small nuclear RNAs (snRNAs) and microRNAs (miRNAs). This is the most MCAT-relevant polymerase.\n- **RNA Polymerase III (Pol III):** Transcribes small structural RNAs including transfer RNA (tRNA), 5S rRNA, and some snRNAs.\n\nA useful mnemonic: **1, 2, 3 = rRNA, mRNA, tRNA**. Each polymerase is a multisubunit complex and, unlike prokaryotic RNAP, cannot directly recognize promoters on its own—eukaryotic RNA polymerases require **general transcription factors (GTFs)** to assemble at the promoter.\n\n---\n\n## Promoters: The Starting Signal\n\nA **promoter** is a DNA region that recruits transcription machinery, positions initiation and helps determine transcription direction. Many promoter elements lie upstream of +1, but others overlap or lie downstream of the start site; some Pol III promoters are internal to the transcribed region.\n\n### Prokaryotic Promoters\n\nA common *E. coli* σ70 promoter architecture has two consensus hexameric elements (other sigma factors and promoter classes differ):\n\n- **–10 element (Pribnow box):** Consensus sequence **TATAAT**, centered approximately 10 base pairs upstream of the transcription start site (+1). This AT-rich sequence facilitates DNA strand separation (melting) during initiation.\n- **–35 element:** Consensus sequence **TTGACA**, centered approximately 35 base pairs upstream of +1. Recognized by the sigma factor and important for initial polymerase binding.\n\nThe spacer between the –35 and –10 hexamers is commonly about 17 bp (often 16–18), not the distance between their centers. Altering sequence or spacing can weaken or strengthen a promoter depending on the starting sequence. Consensus similarity is useful but does not alone predict output: regulators and other promoter elements also matter.\n\n### Eukaryotic Promoters for RNA Pol II\n\nEukaryotic promoters are more complex and modular. Key elements include:\n\n- **TATA box:** Consensus sequence **TATAAA**, located approximately 25–30 bp upstream of the transcription start site. Not all eukaryotic genes have a TATA box; it is most common in highly regulated, tissue-specific genes.\n- **Initiator element (Inr):** Spans the transcription start site (+1) and is present in many genes lacking a TATA box.\n- **Downstream promoter element (DPE):** Found ~30 bp downstream of +1 in some TATA-less promoters.\n- **CpG islands:** Regions of high CG dinucleotide density found near the promoters of many constitutively expressed (housekeeping) genes. These are often unmethylated and associated with active transcription.\n\n---\n\n## General Transcription Factors and Preinitiation Complex Assembly\n\nPol II contacts DNA, but accurate promoter-specific initiation normally requires general transcription factors and a **preinitiation complex (PIC)**. The distinction is lack of sufficient promoter-recognition specificity on its own, not inability to bind DNA at all.\n\nA classical assembly model for a TATA-containing promoter is outlined below. Assembly in cells can involve preassembled factors and alternative routes; this is not a universal rigid order:\n\n1. **TFIID** binds the TATA box via its **TATA-binding protein (TBP)** subunit. TBP binding induces a sharp ~80° bend in the DNA, partially unwinding the double helix and marking the promoter.\n2. **TFIIA** and **TFIIB** stabilize the TBP–DNA complex. TFIIB also interacts directly with Pol II and helps position the polymerase over the start site.\n3. **RNA Pol II–TFIIF complex** is recruited to the growing assembly.\n4. **TFIIE** joins and recruits TFIIH.\n5. **TFIIH** is a multisubunit factor with two critical enzymatic activities: the ATP-dependent **XPB DNA translocase**, which promotes promoter opening, and **CDK7 kinase**, which phosphorylates the **C-terminal domain (CTD)** of the largest Pol II subunit. XPB-driven opening should not be confused with the XPD helicase role in nucleotide-excision repair.\n\nThe Pol II CTD contains repeats of YSPTSPS whose phosphorylation changes during transcription. TFIIH-associated CDK7 promotes Ser5 phosphorylation during early transcription and recruitment of capping machinery. P-TEFb (CDK9–cyclin T) promotes pause release by phosphorylating elongation factors and the CTD; CDK12 and CDK13 also contribute to CTD phosphorylation. These overlapping activities form a regulated cycle, not a single irreversible two-step switch. The CTD recruits RNA-processing factors and couples transcription to capping, splicing and 3′-end formation.\n\n---\n\n## Stages of Transcription\n\n### Initiation\n\nInitiation encompasses promoter recognition, preinitiation complex assembly, DNA melting, and synthesis of the first few phosphodiester bonds.\n\nIn bacteria, the σ factor guides the holoenzyme to the promoter. The enzyme first forms a **closed complex** in which the DNA remains double-stranded. The enzyme then melts approximately 12–14 base pairs of DNA around the –10 element to form the **open complex**, also called the transcription bubble. Synthesis begins at the +1 site, and the first nucleotide retains its 5'-triphosphate group. Early on, the polymerase often makes short abortive transcripts (2–9 nucleotides) before achieving a stable elongation complex. Promoter escape occurs after synthesis of a short initial RNA; sigma may dissociate at different stages or remain associated during elongation. There is no obligatory release at one fixed transcript length.\n\nIn the Pol II system, TFIIH-associated XPB promotes DNA opening and CDK7 contributes CTD phosphorylation. During promoter escape, factor contacts rearrange: some factors dissociate, some may remain promoter-associated to support reinitiation, and others can accompany the polymerase.\n\n### Elongation\n\nDuring elongation, RNA polymerase moves along the template strand in the 3' to 5' direction, synthesizing the RNA transcript in the 5' to 3' direction. The enzyme maintains a **transcription bubble** of approximately 12–14 unpaired base pairs. Within this bubble, approximately 8–9 nucleotides of the growing RNA strand are base-paired with the template DNA, forming an **RNA–DNA hybrid**.\n\nKey features of elongation:\n\n- **Processivity:** Once in the elongation phase, RNAP is highly processive, rarely dissociating before reaching a termination signal.\n- **Proofreading:** RNAP has limited intrinsic proofreading ability. It can backtrack and cleave misincorporated nucleotides, but its error rate (~1 per 10^4–10^5 nucleotides) is higher than that of DNA polymerase.\n- **Transcription rate:** Elongation often occurs at tens of nucleotides per second, but rates vary by organism, gene, temperature and pausing. A single fixed bacterial-versus-eukaryotic speed ranking is not reliable.\n- **Elongation factors:** In metazoans, DSIF and NELF help establish promoter-proximal pausing. P-TEFb phosphorylation of elongation factors and the CTD supports pause release; DSIF subsequently helps productive elongation. CDK12/13 contribute additional CTD regulation.\n\n### Termination\n\nTranscription must terminate at defined locations to prevent read-through into adjacent genes and to allow the transcript to be released for processing. Termination mechanisms differ between prokaryotes and eukaryotes.\n\n**Prokaryotic Termination**\n\nTwo major mechanisms operate in bacteria:\n\n1. **Intrinsic (Rho-independent) termination:** The RNA transcript itself encodes a **GC-rich inverted repeat** followed by a run of U residues (encoded by a run of A's in the template). The inverted repeat folds into a **stem-loop hairpin** structure in the nascent RNA. This hairpin destabilizes the RNA–DNA hybrid and causes RNAP to pause. The weak rU:dA base pairs in the hybrid then dissociate, releasing the transcript and the polymerase.\n\n2. **Rho-dependent termination:** The **Rho factor** is an ATP-dependent RNA helicase/translocase that binds the nascent RNA at a **Rho utilization (rut) site**—a cytosine-rich, unstructured region. Rho tracks along the RNA in the 5' to 3' direction and, upon catching the paused polymerase, uses ATP hydrolysis to unwind the RNA–DNA hybrid and displace the transcript.\n\n**Eukaryotic Termination (Pol II)**\n\nFor most animal protein-coding Pol II transcripts, termination is coupled to **cleavage and polyadenylation**. Replication-dependent histone transcripts and snRNAs use distinct 3′-end-processing pathways. The key sequence is the **polyadenylation signal (poly-A signal)**, consensus **AAUAAA**, located approximately 10–30 nucleotides upstream of the cleavage site. A GU-rich or U-rich downstream sequence element (DSE) also contributes.\n\nWithin **CPSF**, CPSF30 and WDR33 recognize the AAUAAA signal, while **CstF** recognizes a downstream GU/U-rich region. Together with additional factors, they position cleavage; **CPSF73 is the endonuclease** that cuts the RNA. Poly(A) polymerase then extends the upstream RNA’s new 3′-OH without a DNA template. Newly synthesized mammalian tails are often roughly 200–250 A residues, but length varies and is subsequently regulated.\n\nAfter cleavage, Pol II continues transcribing downstream, but the exposed 5' end of the downstream RNA is degraded by the **Xrn2 exonuclease** (the \"torpedo\" model of termination), eventually causing Pol II to disengage. An alternative or complementary model—the **allosteric model**—proposes that passage through the poly-A signal changes the conformation of Pol II, destabilizing the elongation complex.\n\n---\n\n## Post-Transcriptional Processing of Eukaryotic Pre-mRNA\n\nA critical distinction between prokaryotic and eukaryotic transcription is that eukaryotic primary transcripts (pre-mRNA) undergo extensive processing before becoming mature, translatable mRNA. Much processing begins co-transcriptionally in the nucleus and is coordinated by the Pol II CTD, but some splicing and maturation finish after transcription.\n\n### 5' Capping\n\nShortly after initiation, when the nascent transcript is approximately 20–30 nucleotides long, a **7-methylguanosine (m7G) cap** is added to the 5' end. This involves:\n\n1. Removal of the γ-phosphate from the 5'-triphosphate of the first nucleotide by an RNA triphosphatase.\n2. Addition of GMP (from GTP) in an unusual **5'-to-5' triphosphate linkage** by guanylyl transferase.\n3. Methylation of the N-7 position of guanosine by guanine-N7-methyltransferase.\n\nThe 5' cap serves multiple functions: it protects the mRNA from 5' exonuclease degradation, facilitates nuclear export, and is recognized by the **eIF4E** translation initiation factor to promote ribosome recruitment during translation.\n\n### Splicing\n\nMany eukaryotic protein-coding genes contain **introns**, sequences removed from the primary RNA. **Exons are sequences retained in a particular mature RNA**: they may contain protein-coding sequence, untranslated regions, or both. Introns can also contain regulatory elements or functional RNA genes. The major spliceosome assembles dynamically from U1, U2, U4, U5 and U6 snRNPs plus proteins; its composition changes during catalysis.\n\nFor most major-spliceosome introns, the characteristic boundary signals are listed below. GU–AG is a useful rule, not absolute: GC–AG and other rare classes exist, and the minor spliceosome recognizes a separate intron class.\n\n- **5' splice site (donor site):** GU at the 5' end of the intron (consensus: AG|GURAGU, where | is the exon-intron boundary)\n- **3' splice site (acceptor site):** AG at the 3' end of the intron\n- **Branch point sequence:** An adenosine residue ~18–40 nucleotides upstream of the 3' splice site, with a surrounding sequence that is relatively degenerate in mammals; the branch-point A is the chemically important residue\n\nThe splicing reaction proceeds in two transesterification steps:\n\n1. The 2'-OH of the branch point adenosine attacks the 5' splice site, cleaving the exon–intron junction and forming a **lariat intermediate** (the intron loops back on itself).\n2. The free 3'-OH of the upstream exon attacks the 3' splice site, joining the two exons and releasing the lariat intron, which is subsequently debranched and degraded.\n\n**Alternative splicing** allows different combinations of exons to be included in the mature mRNA, dramatically expanding the protein diversity encoded by the genome. A single gene can produce dozens or even thousands of different protein isoforms through alternative splicing—a concept directly relevant to MCAT questions about proteome complexity exceeding genome size.\n\n### 3' Polyadenylation\n\nPoly(A) polymerase adds the tail after 3′ cleavage, without copying a DNA template. Tail-associated proteins support export, stability and translation; the tail is dynamically shortened or extended. Replication-dependent histone mRNAs are a major non-polyadenylated exception, whereas many histone-variant mRNAs are polyadenylated.\n\n---\n\n## Prokaryotic vs. Eukaryotic Transcription: Key Comparisons\n\nThe comparisons below chiefly contrast bacterial transcription with animal nuclear transcription. Archaea and organelles require separate treatment; exam-frequency claims are not used here.\n\n- **Location:** Bacterial transcription occurs in the cytoplasm/nucleoid. Animal nuclear genes are transcribed in the nucleus; mitochondrial genes are transcribed in mitochondria.\n- **Coupling with translation:** Bacterial translation can begin on a nascent transcript. Nuclear eukaryotic transcripts are processed and exported before cytoplasmic translation.\n- **RNA polymerase:** Bacteria generally use one cellular RNAP type for their RNA classes; animal nuclei use Pol I, II and III.\n- **Promoter recognition:** Bacterial RNAP uses sigma factors. Pol II uses multiple general transcription factors; archaeal initiation resembles the latter more than bacterial sigma-dependent initiation.\n- **Post-transcriptional processing:** Typical animal pre-mRNA receives a cap, intron removal when applicable, and 3′-end maturation. Bacterial RNAs also undergo processing; bacterial polyadenylation often supports RNA degradation rather than the protective role typical of animal mRNA tails.\n- **Introns:** Introns are common in animal nuclear genes and uncommon, but not absent, in bacteria. Not every eukaryotic gene has introns.\n- **mRNA stability:** Many bacterial mRNAs have half-lives of minutes. Animal mRNA half-lives vary widely from minutes to many hours or longer; stability depends on sequence, RNA-binding proteins and decay pathways.\n- **Polycistronic vs. monocistronic mRNA:** Bacterial mRNAs are often polycistronic, while animal nuclear mRNAs are usually monocistronic. These are common patterns, not exceptionless rules.\n\n---\n\n## Regulation of Transcription\n\nTranscription is the primary point at which gene expression is regulated. While detailed regulatory mechanisms are covered in dedicated lessons, the MCAT expects you to understand the basic logic:\n\n- **Prokaryotic regulation** operates largely through **operons**—gene clusters regulated by a single promoter. Regulatory proteins called **repressors** block RNAP binding or elongation, while **activators** enhance RNAP recruitment. The classic examples are the *lac* operon (inducible) and the *trp* operon (repressible).\n- **Eukaryotic regulation** involves **transcription factors** that bind **enhancer** and **silencer** sequences, which can be located thousands of base pairs from the promoter. These factors interact with the **Mediator complex** and the general transcription machinery to activate or repress transcription. ATP-dependent **chromatin remodeling** changes nucleosome positioning or composition. Histone modifications such as acetylation and methylation are related but distinct regulatory mechanisms; their effects depend on the residue and context.\n\n---\n\n## MCAT-Specific High-Yield Points\n\nSeveral concepts from this lesson are disproportionately represented on the MCAT:\n\n1. **Template vs. coding strand:** Always clarify which strand you are working with. The RNA sequence matches the coding strand (with U for T) and is complementary to the template strand.\n\n2. **RNA Polymerase II and the CTD:** Phosphorylation of the CTD is the molecular switch linking initiation to elongation and coupling transcription to RNA processing. Questions may ask about the functional consequences of CTD mutations.\n\n3. **Splicing signals:** Know the GU-AG rule (5' splice site starts with GU, 3' splice site ends with AG). The branch point adenosine forms the lariat. Mutations in splice sites cause disease (e.g., some forms of β-thalassemia result from splice site mutations).\n\n4. **5' cap structure:** The m7G cap is added in a 5'-to-5' linkage—this is unusual and commonly tested. The cap is recognized by eIF4E for translation initiation.\n\n5. **Poly-A tail:** Added after RNA cleavage by poly(A) polymerase without copying the DNA. Most replication-dependent histone mRNAs instead end in a specialized stem-loop; many histone variants do have poly-A tails.\n\n6. **Sigma factor function:** Sigma confers bacterial promoter specificity. It can be released or retained during elongation; alternative sigma factors redirect transcription under different conditions.\n\n7. **Rho-independent termination:** The stem-loop hairpin followed by a poly-U sequence is a classic mechanism. The thermodynamic instability of rU:dA base pairs is the driving force for transcript release.\n\n8. **Coupled transcription-translation in prokaryotes:** This coupling is possible because there is no nuclear membrane. It is the basis for regulatory mechanisms like attenuation in the *trp* operon.\n\n9. **Alternative splicing:** Different exon combinations can produce distinct RNA and protein isoforms from one gene. Together with alternative initiation/termination and post-translational modification, this expands protein diversity beyond the roughly 20,000 human protein-coding genes; a single universal proteome count is misleading.\n\n10. **Antibiotics targeting transcription:** **Rifampicin** binds bacterial RNAP near the β-subunit active-center region and sterically blocks extension of very short RNA products beyond about 2–3 nucleotides (clinically important for tuberculosis treatment). **α-Amanitin** (from death cap mushrooms) inhibits eukaryotic Pol II at low concentrations and Pol III at higher concentrations; Pol I is resistant. These are classic MCAT pharmacology/biochemistry crossover points.\n\n---\n\n## Summary\n\nTranscription makes RNA 5′→3′ while reading a DNA template 3′→5′. Bacterial sigma factors guide promoter recognition and may dissociate or remain during elongation. Animal nuclear Pol I, II and III have different transcript classes; Pol II initiation uses general factors and TFIIH-associated XPB/CDK7 activities. Changing CTD phosphorylation coordinates elongation and processing. Typical animal pre-mRNA is capped, spliced when introns are present, and cleaved/polyadenylated, with important exceptions. Exons are retained RNA segments, not necessarily protein-coding sequence. Correct strand orientation and careful distinction between bacterial, nuclear and organellar mechanisms are essential when interpreting experiments."
+    },
+    {
+      "field": "questions.181.choice_c",
+      "value": "All RNA-cleavage proofreading by the core enzyme would be abolished."
+    },
+    {
+      "field": "questions.181.explanation",
+      "value": "Sigma supplies promoter-recognition specificity to the core enzyme. Preventing this association impairs initiation at its target promoters (B), without abolishing core catalysis or all RNA-cleavage proofreading. It does not directly eliminate intrinsic termination. Other sigma factors may still support their own target genes."
+    },
+    {
+      "field": "questions.181.question_text",
+      "value": "A mutation prevents an E. coli sigma factor from binding the RNA polymerase core enzyme, while leaving core catalytic activity intact. What is the most direct consequence for promoters recognized by that sigma factor?"
+    },
+    {
+      "field": "questions.183.choice_c",
+      "value": "Reduced TBP/TFIID recruitment would impair preinitiation-complex assembly and lower transcription."
+    },
+    {
+      "field": "questions.183.explanation",
+      "value": "At a TATA-dependent Pol II promoter, disrupting the TATA element reduces TBP-dependent recruitment and can lower transcription (C). TFIID also makes other promoter contacts, so complete loss of every TFIID interaction is not required. Pol III does not simply replace Pol II, and a promoter mutation does not directly alter the distant RNA polyadenylation signal."
+    },
+    {
+      "field": "questions.184.explanation",
+      "value": "A GC-rich inverted repeat forms a hairpin followed by a U-rich tract (B). Pausing, hairpin formation and the weak RNA–DNA hybrid cooperate in release. Rho-dependent termination instead needs Rho. A poly-A tail is not the defining intrinsic-terminator structure; bacteria can also polyadenylate RNA, often to promote decay."
+    },
+    {
+      "field": "questions.184.question_text",
+      "value": "At a typical bacterial intrinsic (Rho-independent) terminator, which nascent-RNA feature helps terminate transcription?"
+    }
+  ]
+}

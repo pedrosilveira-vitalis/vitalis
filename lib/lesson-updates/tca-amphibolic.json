@@ -1,0 +1,245 @@
+{
+  "lessonId": 27,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    131,
+    132,
+    133,
+    134,
+    135
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+      "title": "Mitochondrial energy conversion and metabolic intermediates"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1172380/",
+      "title": "Species-dependent citrate synthase inhibition"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/2818760/",
+      "title": "Mutant IDH1 produces D-2-hydroxyglutarate"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9651365/",
+      "title": "PDP1 and PDP2 differ in calcium regulation"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK544346/",
+      "title": "Gluconeogenesis substrates and bypass reactions"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8662713/",
+      "title": "Mammalian CPS II uses glutamine-derived nitrogen"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+      "title": "NIH: thiamin roles and deficiency"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5130031/",
+      "title": "Cancer cells can retain substantial oxidative ATP production"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10839993/",
+      "title": "Dose- and time-dependent metformin inhibition of respiration"
+    }
+  ],
+  "visual": {
+    "title": "Anaplerosis and cataplerosis: balance the intermediate pool",
+    "src": "/lesson-diagrams/tca-amphibolic.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "A central TCA intermediate pool receives oxaloacetate from pyruvate carboxylase and succinyl-CoA from propionyl-CoA. Exits supply citrate for lipid synthesis, alpha-ketoglutarate for glutamate, oxaloacetate for glucose or aspartate and succinyl-CoA for heme. Acetyl-CoA entry does not make a net gain of intermediate molecules.",
+    "caption": "Refilling is a net carbon-input problem. Enzyme activation and acetyl-CoA entry alone cannot replace intermediates lost to biosynthesis."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "53705dc943381940b90ab5450fc2cd440f4eb47f9ffdeb75969fe8ae1c58e695"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "ed7b2acad168712ece702c1878551dd28276f6e61c0235bd9e7559dd7af75402"
+    },
+    {
+      "field": "questions.131.question_text",
+      "sha256": "3fdcf2aeb886471ab90c8ec2b872d5ca531cd9386010d2d255399a0f3110043d"
+    },
+    {
+      "field": "questions.131.choice_a",
+      "sha256": "8de828bf6528f42db4559219aad0b47624e00b62db46e721190cf8c0852a6d8b"
+    },
+    {
+      "field": "questions.131.choice_b",
+      "sha256": "5f002f65ee944e7184cb91824dc398c7e91db67fe53daf65a8bdd6c1a20c662e"
+    },
+    {
+      "field": "questions.131.choice_c",
+      "sha256": "f58302784669198d32029ad4c22fb79a0cb563dfb182ee928942ce2ccf98c7bd"
+    },
+    {
+      "field": "questions.131.choice_d",
+      "sha256": "871270416767cb690727e555f9a243c7bc99733969b9373413995d360e725d90"
+    },
+    {
+      "field": "questions.131.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.131.explanation",
+      "sha256": "df40e09436c3f16ba2ef7a85bf2714ce59497c44c0daeba0dc1cee3dd669a3fa"
+    },
+    {
+      "field": "questions.132.question_text",
+      "sha256": "55131577e2e72ba7016a394033a79442a9b7b3f3d13d461260374dc486810fa6"
+    },
+    {
+      "field": "questions.132.choice_a",
+      "sha256": "308dcde0b5c987cdf5dc77f54851cccb627173a553c85cefa519a4c8fd361698"
+    },
+    {
+      "field": "questions.132.choice_b",
+      "sha256": "2a8d5bdf1b66e50517c87ac896de8f06ccbaeabb0988c29195815b290c81b5db"
+    },
+    {
+      "field": "questions.132.choice_c",
+      "sha256": "03785c870f8f10c4099927b084f212bfd98a3888c0e9263027605e70cbbb11ff"
+    },
+    {
+      "field": "questions.132.choice_d",
+      "sha256": "dbbcfd97321601115705a40a64a4df1b51f4fbd34e02b9e477343db5b580ec98"
+    },
+    {
+      "field": "questions.132.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.132.explanation",
+      "sha256": "439c76a61c805126d8b35b0b8b15fed31786824538cdeed26e72b2d907999ed2"
+    },
+    {
+      "field": "questions.133.question_text",
+      "sha256": "321518f1bdec35967a9aed2d872793e69a2f9317baf2a58fab4471981498278e"
+    },
+    {
+      "field": "questions.133.choice_a",
+      "sha256": "7c205637c0778ad0d96635e5359f07bfa0fc7d98ee32d684e27c7c08ea22cbb8"
+    },
+    {
+      "field": "questions.133.choice_b",
+      "sha256": "e94b50c7b5314bc1b35c81042ea4b3fb71e3a5c05874e7dcb58cb050333fb717"
+    },
+    {
+      "field": "questions.133.choice_c",
+      "sha256": "790d5abfbe87a31799adeff5a926b46f782de1e8b159a3087be8f86d53b511da"
+    },
+    {
+      "field": "questions.133.choice_d",
+      "sha256": "45d5bb4f58832d82a6a9dcec4fcfa921f88910354f09af560a7032e713d32352"
+    },
+    {
+      "field": "questions.133.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.133.explanation",
+      "sha256": "6618e4a434618804205699c69f2ec004ce4bd7b5605d8799c03199d5dfa26f38"
+    },
+    {
+      "field": "questions.134.question_text",
+      "sha256": "aafec179a584961a421a4766a76316b70b50eae6c882a2da765d99e1c16bcefe"
+    },
+    {
+      "field": "questions.134.choice_a",
+      "sha256": "3f2c9aa73a32fbf1e8539e4a5a7fb38d872f9c4db8c6d07501123b722412fd55"
+    },
+    {
+      "field": "questions.134.choice_b",
+      "sha256": "2c3e371c16407bdf407a60bdb219c3e2b14c2fe4edaf2357ad2264706d360b81"
+    },
+    {
+      "field": "questions.134.choice_c",
+      "sha256": "8fc1904ed9fa11cddf025914d227f8379594d317df0a34df9efd90691864c3bb"
+    },
+    {
+      "field": "questions.134.choice_d",
+      "sha256": "e996d4f95291c3e9a5cd6b1482a688e107c75b966c55e2ecef4229b802f80eba"
+    },
+    {
+      "field": "questions.134.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.134.explanation",
+      "sha256": "524a511697078698aef83bc7b8e6dc6d6cb97162c30032459dab47e5aa5ffe6e"
+    },
+    {
+      "field": "questions.135.question_text",
+      "sha256": "edffa709dfdd5df5aae6badaa99cfee47dc02b05bfb0a715d633b8da78985292"
+    },
+    {
+      "field": "questions.135.choice_a",
+      "sha256": "f1ad6d2838f890bc938219b7aae1ebbb1ac374c00e5a248d711a5801bf36852e"
+    },
+    {
+      "field": "questions.135.choice_b",
+      "sha256": "854801a66ba668f37525cd6d618cb5e642be1230ad1b5371a36cc2cd9934286d"
+    },
+    {
+      "field": "questions.135.choice_c",
+      "sha256": "e0c3da06552e2d071f8a7ddd3e3dcd52c9f3834e470093ade1f481ea2822cbf0"
+    },
+    {
+      "field": "questions.135.choice_d",
+      "sha256": "553be462628986654443fb8b38ad256dac5ffaca105a94dd199b5c8643e2627b"
+    },
+    {
+      "field": "questions.135.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.135.explanation",
+      "sha256": "b97aa24e278dce02473126f2c4c70d16de091a5adba871e7570cff4d60661b3b"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Regulation and Amphibolic Roles of the Citric Acid Cycle\n\nThe citric acid cycle (CAC), also called the Krebs cycle or TCA cycle, is often introduced as a purely catabolic pathway—a sequence of reactions that burns acetyl-CoA to CO₂ and captures energy as NADH, FADH₂, and GTP. That framing is incomplete and, for MCAT purposes, dangerously so. The cycle is **amphibolic**, meaning it serves simultaneously as a catabolic hub and an anabolic reservoir. Intermediates are continuously drained off to synthesize amino acids, heme, nucleotides, and glucose precursors, and they are continuously replenished by **anaplerotic reactions**. Layered on top of this dual role is a sophisticated regulatory system that matches cycle flux to the cell's energetic and biosynthetic demands. Understanding both dimensions—regulation and amphibolism—is essential for reasoning through MCAT passages on metabolism, disease states, and pharmacology.\n\n---\n\n## Overview of the Cycle and Why Regulation Matters\n\nBefore examining regulation in detail, recall the cycle's stoichiometry. One turn of the cycle beginning with acetyl-CoA produces:\n\n- 3 NADH (at isocitrate dehydrogenase, α-ketoglutarate dehydrogenase, and malate dehydrogenase)\n- 1 FADH₂ equivalent (bound FAD relays electrons to ubiquinone at succinate dehydrogenase)\n- 1 GTP or ATP (at succinyl-CoA synthetase, depending on isoenzyme)\n- 2 CO₂ (released at isocitrate dehydrogenase and α-ketoglutarate dehydrogenase)\n\nThese reduced coenzymes feed the electron transport chain, where NADH yields approximately 2.5 ATP and FADH₂ yields approximately 1.5 ATP per molecule under modern P/O ratio estimates. A single turn therefore contributes roughly 10 ATP equivalents.\n\nThe cycle cannot simply run at maximum speed all the time. If NADH and GTP accumulate beyond what the electron transport chain and cellular processes can use, the cell wastes resources and disrupts redox balance. Conversely, if the cycle is too slow during high-energy demand, ATP production lags. Three enzymes function as the primary regulatory checkpoints, each responding to signals that reflect the cell's current energy charge and substrate availability.\n\n---\n\n## The Three Major Regulatory Enzymes\n\n### Citrate Synthase\n\n**Citrate synthase** catalyzes the condensation of acetyl-CoA (2 carbons) with oxaloacetate (4 carbons) to form citrate (6 carbons). This is an entry/control step, but citrate can also leave for biosynthesis; citrate formation does not commit acetyl carbon to complete oxidation.\n\n**Control of citrate synthase:**\n\nFlux depends on acetyl-CoA and oxaloacetate availability and on product inhibition, including citrate and succinyl-CoA. ATP, ADP and NADH effects vary by species, enzyme preparation and concentrations; do not memorize one universal allosteric list for all citrate synthases. Oxaloacetate is a substrate, so an increased rate after adding it does not by itself demonstrate allosteric activation.\n\nThe inhibition by citrate has an additional physiological consequence worth noting: citrate exported from the mitochondria to the cytoplasm is cleaved by **ATP-citrate lyase** back into acetyl-CoA and oxaloacetate. This cytoplasmic acetyl-CoA feeds fatty acid synthesis. Simultaneously, cytoplasmic citrate inhibits **phosphofructokinase-1 (PFK-1)**, slowing glycolysis. This cross-pathway regulation explains why high citrate—signaling an energy-replete state—simultaneously brakes glycolysis and fuels lipogenesis. The MCAT frequently tests this connection.\n\n### Isocitrate Dehydrogenase\n\n**Mitochondrial NAD-dependent isocitrate dehydrogenase (IDH3)** catalyzes the oxidative decarboxylation of isocitrate to α-ketoglutarate, releasing CO₂ and reducing NAD⁺ to NADH. This is an important regulated step. Control of whole-cycle flux is distributed and depends on tissue and metabolic state; there is no universal single rate-limiting enzyme.\n\n**Inhibitors of IDH:**\n\n- **NADH** — product of the reaction itself; high NADH/NAD⁺ ratio signals that reducing equivalents are plentiful.\n- **ATP** — high energy charge inhibits the enzyme allosterically.\n\n**Activators of IDH:**\n\n- **ADP** — low energy charge activates the enzyme to speed up the cycle.\n- **Ca²⁺** — particularly important in muscle and cardiac tissue. During muscle contraction, cytoplasmic Ca²⁺ rises, and Ca²⁺ enters the mitochondrial matrix where it directly activates IDH (as well as α-ketoglutarate dehydrogenase; PDC activation occurs through calcium-sensitive PDP1). This elegantly couples the energy demand of contraction to increased oxidative metabolism.\n- **NAD⁺ supply** — this is cosubstrate availability, distinct from allosteric activation.\n\nThe IDH reaction is essentially irreversible under cellular conditions, making it a useful control point. The MCAT has also tested the distinction between the mitochondrial **IDH3** (NAD⁺-dependent, regulated as described above) and the cytoplasmic and mitochondrial **IDH1/IDH2** isoforms (NADP⁺-dependent). Gain-of-function mutations in IDH1 and IDH2 are found in gliomas and acute myeloid leukemia; these mutant enzymes reduce α-ketoglutarate to **D-2-hydroxyglutarate using NADPH**, an oncometabolite that inhibits α-ketoglutarate–dependent dioxygenases and disrupts epigenetic regulation. This is a high-yield clinical connection.\n\n### Alpha-Ketoglutarate Dehydrogenase\n\n**Alpha-ketoglutarate dehydrogenase (α-KGDH)**, also called the α-ketoglutarate dehydrogenase complex, catalyzes the oxidative decarboxylation of α-ketoglutarate to succinyl-CoA, releasing CO₂ and reducing NAD⁺ to NADH. This reaction is structurally and mechanistically analogous to the pyruvate dehydrogenase complex: both use the same five cofactors (**TPP, lipoic acid, CoA, FAD, and NAD⁺**) and both are essentially irreversible.\n\n**Inhibitors of α-KGDH:**\n\n- **Succinyl-CoA** — product inhibition.\n- **NADH** — product inhibition; high NADH/NAD⁺ ratio.\n- **Energy status** — ATP/ADP effects depend on experimental context; ATP is not a direct product of this reaction.\n\n**Activators of α-KGDH:**\n\n- **Energy demand** — do not assume a universal direct AMP activation mechanism.\n- **Ca²⁺** — as with IDH, calcium activates this enzyme in muscle tissue, coordinating metabolic rate with contractile activity.\n- **CoA supply** — availability of a substrate, not proof of allosteric activation.\n\nThe α-KGDH step is also notable because α-ketoglutarate (also called 2-oxoglutarate) is the carbon skeleton for **glutamate** synthesis via transamination, and glutamate is the precursor for several other amino acids and for GABA. Draining α-ketoglutarate for biosynthesis reduces flux through this step; anaplerotic reactions must replenish the cycle.\n\n---\n\n## Summary of Regulatory Logic\n\nControl reflects products, substrate supply and energy demand, but each enzyme has its own responses. Calcium is a signal, not a carbon substrate. Hormones can also act rapidly through signaling and covalent modification; hormonal regulation is not necessarily slower than metabolic regulation.\n\nAn important MCAT principle: the **energy charge** of the cell, defined as ([ATP] + ½[ADP]) / ([ATP] + [ADP] + [AMP]), is a single number between 0 and 1 that summarizes the adenylate pool's status. A high energy charge (near 1.0) inhibits catabolic pathways and activates anabolic ones; a low energy charge (near 0) does the opposite. The regulatory enzymes of the citric acid cycle are exquisitely sensitive to this ratio.\n\n---\n\n## The Amphibolic Nature of the Cycle\n\n### What Amphibolic Means\n\nThe term **amphibolic** (from the Greek *amphi*, meaning both) describes a pathway serving both catabolic and anabolic roles, not necessarily running every reaction in reverse. The citric acid cycle is the premier example in biochemistry. Its intermediates are not merely transient molecules waiting to be oxidized; they are branch points from which major biosynthetic pathways diverge.\n\nFor the cycle to continue functioning when intermediates are diverted to biosynthesis, those intermediates must be replenished. Reactions that replenish cycle intermediates are called **anaplerotic reactions** (from the Greek *ana*, meaning up, and *pleroun*, meaning to fill). Conversely, reactions that drain intermediates from the cycle for biosynthesis are called **cataplerotic reactions**.\n\n### Biosynthetic Pathways Drawing from Cycle Intermediates\n\n**Oxaloacetate (OAA)** is arguably the most biosynthetically important intermediate because it is the starting substrate for:\n\n- **Gluconeogenesis** — OAA is converted to phosphoenolpyruvate (PEP) by **PEPCK (phosphoenolpyruvate carboxykinase)**, which uses GTP. This is one regulated bypass reaction of gluconeogenesis and is why the citric acid cycle and gluconeogenesis are intimately linked. During fasting, the liver drains OAA from the cycle to make glucose, and anaplerosis must compensate.\n- **Aspartate synthesis** — OAA undergoes transamination (amino group from glutamate) to yield aspartate. Aspartate is then used in the urea cycle, purine synthesis, and pyrimidine synthesis (as a carbon/nitrogen donor to the pyrimidine ring; CPS II instead uses the amide nitrogen of glutamine).\n\n**Citrate** exits the mitochondria and is cleaved by **ATP-citrate lyase** in the cytoplasm to yield acetyl-CoA and OAA. The cytoplasmic acetyl-CoA is the substrate for:\n\n- **Fatty acid synthesis** — the committed step is carboxylation of acetyl-CoA to malonyl-CoA by **acetyl-CoA carboxylase (ACC)**, which requires biotin. This is why dietary carbohydrates can be converted to fat: pyruvate → acetyl-CoA → citrate → (exported) → cytoplasmic acetyl-CoA → fatty acids.\n- **Cholesterol synthesis** — acetyl-CoA is the starting material for the mevalonate pathway.\n\n**Alpha-ketoglutarate (α-KG)** is the carbon skeleton for:\n\n- **Glutamate** — via transamination or glutamate dehydrogenase. Glutamate is the most abundant excitatory neurotransmitter and is also the precursor for GABA (via glutamate decarboxylase, which requires pyridoxal phosphate/vitamin B₆) and for glutamine, proline, and arginine.\n- **Nitrogen metabolism** — glutamate serves as the major amino group donor in transamination reactions throughout the body.\n\n**Succinyl-CoA** links biosynthesis with replenishment:\n\n- **Heme synthesis** — succinyl-CoA condenses with glycine (catalyzed by **ALA synthase**, which requires pyridoxal phosphate) to form δ-aminolevulinic acid (ALA), the first committed step of porphyrin and heme biosynthesis. Lead inhibits ALA dehydratase and ferrochelatase. Which precursors accumulate in a porphyria depends on the defective enzyme; ALA accumulation is not universal.\n- **Replenishment from odd-chain fatty acids** — propionyl-CoA from odd-chain fatty acids is converted to succinyl-CoA via methylmalonyl-CoA, a reaction requiring **vitamin B₁₂** (adenosylcobalamin). Deficiency of B₁₂ causes methylmalonyl-CoA accumulation and methylmalonic acidemia.\n\n**Fumarate** is produced by argininosuccinate lyase in the urea cycle and by adenylosuccinate lyase in purine metabolism. In the aspartate–argininosuccinate shunt, cytosolic fumarate can become malate and then OAA, which can be transaminated to aspartate. Malate transport also links cytosolic and mitochondrial metabolism. Do not imply that cytosolic fumarate must directly enter mitochondria for this connection.\n\n**Malate** can be exported from the mitochondria and converted to OAA in the cytoplasm, supporting gluconeogenesis. Malate can also be oxidatively decarboxylated to pyruvate by **malic enzyme** (NADP⁺-dependent), generating NADPH for reductive biosynthesis.\n\n---\n\n## Anaplerotic Reactions: Refilling the Cycle\n\nIf intermediates are continuously drained for biosynthesis, the cycle would grind to a halt without replenishment. Anaplerotic reactions are therefore essential for sustained cycle function.\n\n### Pyruvate Carboxylase\n\n**Pyruvate carboxylase** converts pyruvate to OAA:\n\nPyruvate + HCO₃⁻ + ATP → Oxaloacetate + ADP + Pᵢ (biochemical shorthand)\n\nThis reaction requires **biotin** as a cofactor and is activated by **acetyl-CoA**. The activation by acetyl-CoA is elegant: when acetyl-CoA accumulates (because OAA is limiting and the cycle is slow), it signals pyruvate carboxylase to make more OAA, restoring cycle flux. This is the primary anaplerotic reaction in liver and kidney.\n\nPyruvate carboxylase is also essential for gluconeogenesis—it is the first step in converting pyruvate to glucose. Deficiency of pyruvate carboxylase causes lactic acidosis (pyruvate backs up and is reduced to lactate) and hypoglycemia.\n\n### Transamination of Aspartate and Glutamate\n\n- **Aspartate aminotransferase (AST)** catalyzes: Aspartate + α-KG ⇌ OAA + Glutamate. This reversible reaction interconverts OAA and α-KG while transferring nitrogen. Net replenishment requires external carbon input and appropriate coupled reactions; transamination alone exchanges one cycle intermediate for another.\n- **Alanine aminotransferase (ALT)** catalyzes: Alanine + α-KG ⇌ Pyruvate + Glutamate. Pyruvate can then be carboxylated to OAA.\n\nThese aminotransferases are clinically important: elevated serum AST and ALT can indicate hepatocellular injury, but they are not specific proof of liver disease; AST also occurs in other tissues.\n\n### Glutamate Dehydrogenase\n\n**Glutamate dehydrogenase** catalyzes: Glutamate + NAD(P)⁺ + H₂O ⇌ α-KG + NH₄⁺ + NAD(P)H + H⁺. This reaction replenishes α-KG and is important in the liver during amino acid catabolism. The NH₄⁺ released feeds the urea cycle.\n\n### Propionyl-CoA Carboxylase\n\nCatabolism of odd-chain fatty acids, isoleucine, valine, methionine, and threonine produces **propionyl-CoA**, which is carboxylated to methylmalonyl-CoA (requiring biotin) and then converted to succinyl-CoA (requiring vitamin B₁₂). This feeds succinyl-CoA directly into the cycle ; its quantitative contribution depends on diet, tissue and amino-acid turnover.\n\n---\n\n## Integration with Other Pathways: High-Yield MCAT Connections\n\n### The Glucose–Fatty Acid–Amino Acid Triangle\n\nThe citric acid cycle is the metabolic crossroads where carbohydrate, fat, and protein metabolism converge:\n\n- **Carbohydrates** → pyruvate → acetyl-CoA → enters cycle; excess citrate → fatty acid synthesis\n- **Fats** → acetyl-CoA (even-chain) or succinyl-CoA (odd-chain) → enters cycle\n- **Amino acids** → enter as pyruvate, acetyl-CoA, α-KG, succinyl-CoA, fumarate, or OAA depending on the amino acid\n\nThis convergence means that many usable fuels converge on shared intermediates; humans still require essential nutrients and cannot synthesize every biomolecule from these intermediates. The MCAT tests this by asking which amino acids are glucogenic (can be converted to OAA, α-KG, succinyl-CoA, fumarate, or malate, which can feed gluconeogenesis) versus ketogenic (converted to acetyl-CoA or acetoacetyl-CoA, which cannot enter gluconeogenesis in mammals).\n\n### Thiamine (Vitamin B₁) Deficiency\n\nBoth the **pyruvate dehydrogenase complex** (which feeds acetyl-CoA into the cycle) and **α-ketoglutarate dehydrogenase** require **thiamine pyrophosphate (TPP)** as a cofactor. Thiamine deficiency (as in Wernicke-Korsakoff syndrome associated with alcohol use disorder or other causes of severe thiamine deficiency, or beriberi) impairs both complexes, causing:\n\n- Accumulation of pyruvate and α-ketoglutarate\n- Lactic acidosis (from pyruvate → lactate)\n- Impaired ATP production in neural tissue (high glucose demand)\n- Neurological symptoms (Wernicke's encephalopathy: confusion, ataxia, ophthalmoplegia)\n\nThe MCAT commonly asks which enzymes are affected by thiamine deficiency. The answer includes pyruvate dehydrogenase, α-KGDH, and also **transketolase** (in the pentose phosphate pathway), illustrating its roles in oxidative metabolism and nonoxidative pentose-phosphate interconversions; nucleotide synthesis is not wholly dependent on transketolase.\n\n### Calcium Signaling in Muscle\n\nIn cardiac and skeletal muscle, **Ca²⁺** released during contraction activates three mitochondrial enzymes: pyruvate dehydrogenase phosphatase (activating PDH), isocitrate dehydrogenase, and α-ketoglutarate dehydrogenase. This simultaneous activation of multiple rate-limiting steps ensures that ATP production scales with the intensity of muscular work. This is a beautiful example of coordinated metabolic regulation and appears in MCAT passages on exercise physiology and cardiac metabolism.\n\n### Cancer Metabolism and the Warburg Effect\n\nMany cancer cells increase lactate production despite oxygen availability (the Warburg effect), yet can retain substantial mitochondrial ATP production. TCA intermediates support biosynthesis, and glutamine or other carbon sources can replenish them. Mutant NADP-dependent IDH1/2 produces D-2-HG rather than simply blocking IDH3. SDH or FH loss can cause succinate or fumarate accumulation and altered signaling. Cancer metabolism is heterogeneous, so aerobic glycolysis does not establish that mitochondria are inactive.\n\n---\n\n## Regulatory Hierarchy: Substrate Availability, Allosteric Control, and Covalent Modification\n\nThe citric acid cycle is regulated at three levels:\n\n**1. Substrate availability (mass action):** The availability of acetyl-CoA, OAA, NAD⁺, and CoA directly influences reaction rates. When NAD⁺ is limiting (high NADH/NAD⁺), the cycle slows because three of its steps require NAD⁺. This is why the electron transport chain (which regenerates NAD⁺ from NADH) is functionally coupled to the cycle—in the absence of oxygen, NADH cannot be reoxidized, NAD⁺ becomes limiting, and the cycle halts.\n\n**2. Enzyme-specific regulation:** IDH3 responds to ADP, NADH, ATP and calcium; α-KGDH responds to products and calcium. Citrate-synthase regulation is species- and condition-dependent. Substrate concentration effects must be distinguished from allostery.\n\n**3. Covalent modification:** The **pyruvate dehydrogenase complex (PDC)**, which gates entry of pyruvate into the cycle, is regulated by phosphorylation. **PDH kinase** (activated by NADH, acetyl-CoA, and ATP) phosphorylates and *inactivates* PDC. **PDH phosphatase** (PDP1 is calcium-sensitive; insulin effects are tissue-dependent) dephosphorylates and *activates* PDC. Within the cycle itself, the three regulatory enzymes are primarily allosteric rather than covalently modified, but the PDC gating mechanism means that covalent modification controls the flow of substrate into the cycle.\n\n---\n\n## Clinical and Pharmacological Applications\n\n- **Metformin** can inhibit respiration and alter energy status in experimental systems. Dose, exposure time and tissue matter; a single Complex-I→AMPK pathway should not be presented as a complete explanation of its clinical action.\n\n- **Fluoroacetate** (a poison found in some plants and used as a rodenticide) is converted to fluorocitrate, which inhibits **aconitase**, blocking the conversion of citrate to isocitrate. This traps citrate, halts the cycle, and causes rapid cell death. It is a classic example of a mechanism-based inhibitor.\n\n- **Arsenic** (as arsenite) inhibits lipoic acid–containing enzyme complexes, including pyruvate dehydrogenase and α-KGDH, by binding to the dithiol groups of lipoic acid. Chronic arsenic poisoning impairs oxidative metabolism.\n\n- **Distinguish structural names from metabolic roles:** a drug’s resemblance to a metabolite does not establish that it regulates the cycle.\n\n---\n\n## Putting It Together: A Conceptual Framework for the MCAT\n\nWhen approaching a passage on the citric acid cycle, organize your thinking around three questions:\n\n1. **What is the energy status of the cell?** High ATP/NADH → cycle inhibited. Low ATP/high AMP → cycle activated. Ca²⁺ present (muscle contraction) → cycle activated.\n\n2. **Which intermediates are being drained?** If OAA is used for gluconeogenesis, cycle flux decreases unless anaplerosis compensates. If α-KG is used for amino acid synthesis, the cycle needs replenishment via glutamate dehydrogenase or transamination.\n\n3. **What cofactors are present?** Thiamine deficiency impairs PDH and α-KGDH. B₁₂ deficiency impairs conversion of propionyl-CoA to succinyl-CoA. Biotin deficiency impairs pyruvate carboxylase and propionyl-CoA carboxylase. NAD⁺ availability (niacin status) directly limits cycle flux.\n\nThe citric acid cycle is not an isolated loop. It is embedded in a network of competing demands: energy production, biosynthesis, amino acid metabolism, heme synthesis, and gluconeogenesis all pull on its intermediates simultaneously. Regulation ensures that the cycle responds appropriately to which demand is dominant at any given moment.\n\n---\n\n## Key Terms and Values to Memorize\n\n- **Regulated enzymes:** citrate synthase, NAD-dependent isocitrate dehydrogenase (regulated IDH3), α-ketoglutarate dehydrogenase\n- **Regulation:** identify the particular enzyme and distinguish product inhibition, substrate supply and allostery.\n- **Signals:** ADP and calcium can stimulate appropriate enzymes; NAD⁺ is a cosubstrate.\n- **Anaplerotic reactions:** pyruvate carboxylase (requires biotin, activated by acetyl-CoA), transamination, glutamate dehydrogenase, propionyl-CoA → succinyl-CoA (requires B₁₂)\n- **Cataplerotic outputs:** OAA → gluconeogenesis/aspartate; citrate → fatty acid/cholesterol synthesis; α-KG → glutamate/GABA; succinyl-CoA → heme; fumarate → urea cycle interface\n- **Cofactors of α-KGDH and PDH:** TPP (B₁), lipoic acid, CoA (pantothenate/B₅), FAD (B₂), NAD⁺ (niacin/B₃)\n- **Per-turn yield:** 3 NADH, 1 QH₂ equivalent, 1 GTP/ATP, 2 CO₂ ≈ 10 ATP equivalents\n- **IDH mutations in cancer:** produce 2-hydroxyglutarate (oncometabolite)\n- **Fluoroacetate:** inhibits aconitase via fluorocitrate\n\nMastery of this material requires not just memorizing the regulatory signals but understanding *why* each signal makes physiological sense. The MCAT rewards integrated reasoning—the ability to trace a perturbation (a vitamin deficiency, a mutation, a drug) through multiple pathways and predict the metabolic consequences. The citric acid cycle, as the central hub of cellular metabolism, is the ideal lens through which to develop that skill."
+    },
+    {
+      "field": "questions.131.explanation",
+      "value": "B is correct: reduced ADP removes an activator of IDH3. A states the wrong regulatory direction; C and D introduce enzymes or metabolite changes not manipulated in this assay."
+    },
+    {
+      "field": "questions.131.question_text",
+      "value": "In an assay of mammalian NAD-dependent IDH3, ADP concentration is reduced while substrates, NADH and other effectors are held constant. What is the most direct expected effect?"
+    },
+    {
+      "field": "questions.132.explanation",
+      "value": "B is correct: pyruvate carboxylase uses bicarbonate and ATP to replenish OAA. Acetyl-CoA entry does not create a net gain of cycle intermediates: two carbons enter and two leave per turn, although newly entering acetyl carbons survive the first turn. Increasing citrate synthase cannot by itself replace withdrawn OAA."
+    },
+    {
+      "field": "questions.133.explanation",
+      "value": "B illustrates both roles: α-KG oxidation supports energy metabolism, while transamination forms glutamate for nitrogen metabolism and biosynthesis. The existence of reductive carboxylation in some settings does not make C a correct pair: fumarate is produced by the urea cycle rather than entering it as stated."
+    },
+    {
+      "field": "questions.134.explanation",
+      "value": "C is correct: α-ketoglutarate dehydrogenase produces succinyl-CoA, CO₂ and NADH. Both named products can inhibit it. The question identifies direct products; it does not rank total inhibition across different enzymes without kinetic data."
+    },
+    {
+      "field": "questions.134.question_text",
+      "value": "NADH and succinyl-CoA accumulate. Which enzyme produces both of these molecules in its own reaction and can therefore undergo product inhibition by both?"
+    },
+    {
+      "field": "questions.135.explanation",
+      "value": "B is correct: ALA synthase condenses succinyl-CoA with glycine to begin heme synthesis. Succinyl-CoA synthetase is a different enzyme that consumes succinyl-CoA in the TCA cycle; its deficiency does not by itself establish depletion of that substrate. Cholesterol and fatty-acid synthesis use acetyl-CoA, and succinyl-CoA is not a purine-ring carbon donor."
+    },
+    {
+      "field": "questions.135.question_text",
+      "value": "A cell has markedly reduced mitochondrial ALA synthase activity, with substrates otherwise available. Synthesis of which molecule is most directly impaired?"
+    }
+  ]
+}

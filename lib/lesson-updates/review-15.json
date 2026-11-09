@@ -1,0 +1,189 @@
+{
+  "lessonId": 15,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "regardless of the flanking groups",
+      "new": "within an appropriate range of surrounding structures",
+      "reason": "Bond specificitynotuniversal.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "it can distinguish enantiomers and diastereomers with near-perfect precision",
+      "new": "it can discriminate between enantiomers and diastereomers; the degree of selectivity varies",
+      "reason": "Avoid universallyperfect.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "Correctly predicts that closely related molecules with different stereochemistry or functional groups will not be substrates",
+      "new": "Illustrates why some closely related molecules have different binding or catalytic behavior",
+      "reason": "Relatedsubstratesmaybothreact.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "- It cannot account for the catalytic activity of **ribozymes** (RNA enzymes), which are inherently more flexible than proteins.",
+      "new": "- RNA catalysts also have structured, dynamic active sites. Being RNA does not by itself prove or disprove a particular binding model.",
+      "reason": "Unsupported RNAmoreflexiblegeneralization.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "The fully closed enzyme-substrate complex (**ES complex**) is the catalytically competent form.",
+      "new": "In a closure-type example, the rearranged enzyme-substrate complex (**ES complex**) positions residues for catalysis; not every enzyme closes in the same way.",
+      "reason": "Avoid universalclosure.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026370/"
+    },
+    {
+      "field": "content",
+      "old": "Induced fit is now the *accepted* model for most enzymes, supported by multiple lines of evidence:",
+      "new": "Many enzymes show binding-linked conformational changes. Distinguishing induced fit from conformational selection requires kinetic evidence, not only before/after structures:",
+      "reason": "Structuraldifferencecannotproveorder.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026370/"
+    },
+    {
+      "field": "content",
+      "old": "The formation of the enzyme-substrate complex is driven entirely by **non-covalent interactions**. No covalent bonds are formed during the binding step itself (though covalent bonds may form during the catalytic step in some mechanisms). This is crucial: non-covalent binding is reversible, which allows the enzyme to release product and be used again.",
+      "new": "Initial recognition in the simple ES model is represented by reversible **non-covalent interactions**. Some mechanisms also form reversible covalent intermediates. Product release and regeneration of the catalyst depend on the complete reaction pathway.",
+      "reason": "Reversible doesnotmeanonlynoncovalent.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "Contribute approximately 1–5 kcal/mol each",
+      "new": "Have context-dependent net contributions after accounting for interactions with solvent",
+      "reason": "Not fixedbindingenergy.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "content",
+      "old": "positively charged residues (Lys, Arg, His)",
+      "new": "positively charged groups (usually Lys and Arg; His when protonated)",
+      "reason": "Histidinenotmostlypositiveat7.4.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "Contribute approximately 3–8 kcal/mol in the interior of a protein (where the dielectric constant is low), less on the surface",
+      "new": "Depend on charge, geometry, dielectric environment and the cost of desolvating the interacting groups",
+      "reason": "Netbindingnotfixed.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "content",
+      "old": "**Hydrophobic interactions** are not true bonds but rather the thermodynamically favorable clustering of nonpolar groups in an aqueous environment. When a nonpolar substrate (or nonpolar portion of a substrate) enters a hydrophobic active site pocket, water molecules are released from both surfaces. This increases the entropy of the system (released water molecules gain translational freedom), making the interaction thermodynamically favorable.",
+      "new": "**Hydrophobic interactions** reflect solvent-dependent free-energy changes when nonpolar surfaces become buried. Water reorganization and dispersion contacts contribute; the balance of enthalpy and entropy depends on temperature and the surfaces involved. Binding also changes the conformational and translational freedom of the solutes.",
+      "reason": "No universallypositivebindingentropy.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "content",
+      "old": "Hydrophobic interactions are *entropic* in origin (ΔS > 0 upon binding)",
+      "new": "Hydrophobic burial can favor binding, but total binding ΔS is not necessarily positive",
+      "reason": "Correct unconditionalentropy.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "content",
+      "old": "(~0.5 kcal/mol per pair)",
+      "new": "(with magnitude depending on atom type and separation)",
+      "reason": "Avoid fixed pairenergy.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "content",
+      "old": "ΔG°binding = RT ln(Kd)",
+      "new": "ΔG°binding = RT ln(Kd / c°), where c° = 1 M",
+      "reason": "Dimensionlesslog.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "For many enzymes, Km ≈ Kd, making it a useful approximation of binding affinity in kinetic experiments.",
+      "new": "For E + S ⇌ ES → E + P, Km = (k₋₁ + kcat)/k₁, while Kd = k₋₁/k₁. Km approximates Kd only when kcat is much smaller than k₋₁; do not assume this without evidence.",
+      "reason": "Stateconditionnotgeneralapprox.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "*Note: Tables are acceptable markdown formatting for comparison purposes.*",
+      "new": "",
+      "reason": "Remove generation instruction from student lesson.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**induced fit is the more accurate and experimentally supported model** for the majority of enzymes",
+      "new": "binding-linked flexibility is widely supported; induced fit and conformational selection are mechanistic alternatives that may coexist",
+      "reason": "No unverifiedmajorityclaim.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026370/"
+    },
+    {
+      "field": "content",
+      "old": "(as described by Michaelis-Menten kinetics)",
+      "new": "(described by a one-site equilibrium binding model; Michaelis–Menten instead describes initial reaction rates)",
+      "reason": "Hbnotcatalytickinetics.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "*Interpretation*: This result is inconsistent with the lock-and-key model (which would predict no effect, since binding is preserved). It supports the induced fit model: the enzyme can still bind the substrate in the initial, open conformation, but the proline mutation prevents the conformational change needed to position catalytic residues correctly, dramatically reducing the rate of catalysis.",
+      "new": "*Interpretation*: Preserved Kd but reduced kcat shows that binding affinity and catalytic turnover can change independently. It is consistent with impaired conformational motion, but by itself does not prove induced fit: additional structural and kinetic measurements are needed to identify the affected step.",
+      "reason": "Mutationnotuniquemechanism.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026370/"
+    },
+    {
+      "field": "content",
+      "old": "while the natural substrate has a Km of 10⁻³ M (1 millimolar)",
+      "new": "while an independent equilibrium assay measures substrate Kd = 10⁻³ M (1 millimolar), and the inhibitor Ki is an equilibrium dissociation constant under the same conditions",
+      "reason": "Cannot compareKmwithKi asaffinityratio.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "lower Km = higher substrate affinity",
+      "new": "[S] at half Vmax for Michaelis–Menten behavior; not generally an equilibrium affinity",
+      "reason": "Fix contradicting summary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "these values are shifted from free amino acid values by the microenvironment of the active site",
+      "new": "these are approximate solution values; actual active-site pKa values may differ",
+      "reason": "Listednumberswerenotspecificshiftedvalues.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "questions.72.explanation",
+      "old": "Hydrogen bonds are directional and highly sensitive to the precise positioning of donor and acceptor groups, so a single change in hydroxyl orientation can abolish binding. Van der Waals interactions are also geometry-dependent, contributing to shape complementarity. Covalent bonds (choice A) are not typically responsible for substrate specificity during initial recognition. Hydrophobic interactions (choice C) would not distinguish two molecules that differ only in hydroxyl orientation, as both glucose and galactose are similarly polar overall.",
+      "new": "B best accounts for recognition of the different hydroxyl orientations: directional hydrogen bonds and local packing can differ. Similar overall polarity does not guarantee identical local solvation or hydrophobic interactions. A lack of activity alone does not prove a complete absence of binding; turnover may also differ.",
+      "reason": "Avoid globalpolarityexcludeslocalcontacts andactivityequalsbinding.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "questions.73.explanation",
+      "old": "The lock-and-key model predicts that the active site shape is fixed and complementary to the substrate regardless of whether substrate is present. If crystallography reveals a different active site conformation in the unbound versus bound state, this directly contradicts the rigid active site assumption and supports the induced fit model. Choice C is tempting but actually consistent with the lock-and-key model, since competitive inhibitors fitting a pre-formed site is expected. Michaelis-Menten kinetics (choice D) are compatible with both models.",
+      "new": "B directly challenges a strictly rigid active site. It supports binding-linked conformational flexibility, but static bound and unbound structures alone cannot establish whether the conformational change occurred before binding (selection) or after it (induced fit). The other observations can occur in a rigid-site model.",
+      "reason": "Do notinferorderingfromcrystals.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026370/"
+    },
+    {
+      "field": "questions.75.question_text",
+      "old": "A newly synthesized molecule is structurally identical to an enzyme's natural substrate except that it lacks the ability to induce any conformational change in the active site upon binding. According to the induced fit model, what would be the most likely consequence for catalysis?",
+      "new": "A substrate analog is observed to bind an enzyme but does not trigger the conformational adjustment that normally positions its catalytic residues. Under an induced-fit mechanism, what is the most likely consequence?",
+      "reason": "Identicalstructurebuthasdifferentproperty contradictionremoved.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026370/"
+    },
+    {
+      "field": "questions.75.explanation",
+      "old": "According to the induced fit model, conformational changes upon substrate binding serve to correctly position catalytic residues and create the optimal environment for the reaction. If the analog cannot trigger this change, the catalytic machinery may remain misaligned, reducing catalytic efficiency even if binding occurs. Choice A is a common misconception; the energy of the conformational change is not wasted but is functionally important for catalysis. Choice C is incorrect because initial binding can occur through complementarity before conformational adjustment, and the molecule is structurally identical to the natural substrate.",
+      "new": "B is best: binding is explicitly observed, but failure of a catalytically necessary adjustment can reduce turnover. This does not imply permanent modification of the enzyme or activation at a separate regulatory site. The effect must be interpreted in the specified mechanism.",
+      "reason": "Alignwithrevisedstem.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5026370/"
+    }
+  ]
+}

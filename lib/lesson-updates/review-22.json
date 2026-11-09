@@ -1,0 +1,294 @@
+{
+  "lessonId": 22,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "The molecule that makes this coupling possible is **adenosine triphosphate (ATP)**.",
+      "new": "**ATP** is a major coupling molecule; reduced cofactors and ion gradients also connect energy-releasing and energy-requiring processes.",
+      "reason": "ATP not sole coupling mechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The change in Gibbs free energy (ΔG) for a reaction determines whether it is spontaneous:",
+      "new": "At constant temperature and pressure, the reaction Gibbs energy indicates the thermodynamically favored direction under the stated conditions. It does not specify reaction speed:",
+      "reason": "Separate kinetics and thermodynamics.",
+      "sourceUrl": "https://goldbook.iupac.org/terms/view/S05927"
+    },
+    {
+      "field": "content",
+      "old": "The **standard free energy change (ΔG°)** is the free energy change measured under standard conditions: 25°C (298 K), 1 atm pressure, and all solutes at 1 M concentration. In biochemistry, we use **ΔG°'** (delta G zero prime), which additionally specifies pH = 7.0, because biological reactions occur near neutral pH.",
+      "new": "The **standard reaction Gibbs energy (ΔG°)** uses defined reference activities and a specified temperature. Standard pressure is 1 bar; 25°C is a common reporting temperature, not part of the definition of a standard state. For dilute solutions, unit activity is often approximated by a 1 M reference concentration. Biochemical transformed quantities (ΔG°′) hold pH fixed, commonly at 7; temperature, ionic strength and magnesium conditions may also need specification.",
+      "reason": "Correct pressure, temperature and biochemical standard conventions.",
+      "sourceUrl": "https://goldbook.iupac.org/terms/view/S05927"
+    },
+    {
+      "field": "content",
+      "old": "Q is the reaction quotient (the ratio of product concentrations to reactant concentrations at any given moment).",
+      "new": "Q is the dimensionless reaction quotient, built from activities raised to their stoichiometric powers; dilute-solution concentration ratios are an approximation. In the biochemical convention, pH is held fixed consistently.",
+      "reason": "Not simple unspecified product/reactant ratio.",
+      "sourceUrl": "https://goldbook.iupac.org/terms/view/S05927"
+    },
+    {
+      "field": "content",
+      "old": "When ATP hydrolysis is coupled to an endergonic reaction, the free energies are additive.",
+      "new": "When reactions are physically coupled through a mechanism, their free-energy changes add. Simply mixing ATP with an unrelated reaction does not establish coupling.",
+      "reason": "Mechanistic coupling necessary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The phosphoanhydride bonds — specifically the bonds between the beta and gamma phosphate groups — store energy not because they are inherently \"high-energy bonds\" in a classical sense, but because their hydrolysis is highly exergonic.",
+      "new": "ATP has phosphoanhydride links between α–β and β–γ phosphates. ATP-to-ADP hydrolysis cleaves the terminal linkage; the overall hydrolysis reaction is exergonic, although breaking a bond by itself requires energy.",
+      "reason": "Both linkages; energy from overall reaction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "1. **ATP → ADP + Pi**",
+      "new": "1. **ATP + H₂O → ADP + Pi**",
+      "reason": "Water in hydrolysis schematic; proton convention omitted.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "2. **ATP → AMP + PPi**",
+      "new": "2. **ATP + H₂O → AMP + PPi**",
+      "reason": "Water in hydrolysis.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "(PPi → 2 Pi)",
+      "new": "(PPi + H₂O → 2 Pi)",
+      "reason": "Water in hydrolysis.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The second reaction is used in biosynthetic pathways (such as DNA and RNA synthesis, fatty acid activation) where the cell needs to drive reactions to completion.",
+      "new": "Fatty acid activation uses ATP to form an acyl-adenylate and release PPi; subsequent chemistry yields acyl-CoA and AMP. During nucleic-acid synthesis, a nucleotide triphosphate is incorporated as a nucleotide-monophosphate residue in the polymer, releasing PPi—not simply free AMP. PPi hydrolysis helps pull these linked processes forward.",
+      "reason": "Differentiate nucleotidyl transfer from free ATP hydrolysis.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "When ATP phosphorylates a substrate, the substrate gains energy and becomes activated for subsequent reactions.",
+      "new": "Phosphoryl transfer can couple reactions or change molecular properties; it does not universally activate a protein or make every phosphorylated product more reactive.",
+      "reason": "Phosphorylation can inhibit.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "ATP is continuously synthesized and hydrolyzed. The human body turns over approximately its own body weight in ATP every day — meaning a 70 kg person synthesizes and hydrolyzes roughly 40 kg of ATP daily. This is only possible because ADP and Pi are continuously recycled back to ATP through catabolic processes.",
+      "new": "ATP is continuously recycled. Daily turnover is commonly estimated in tens of kilograms for an adult, depending on energy expenditure; this is repeated use of a relatively small ATP pool, not a body mass of ATP stored at once.",
+      "reason": "Remove self-contradictory bodyweight/40kg equation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Every catabolic pathway involves the oxidation of fuel molecules and the reduction of electron carriers.",
+      "new": "Many energy-yielding catabolic pathways oxidize fuels and reduce electron carriers; individual catabolic processes such as hydrolytic digestion need not be redox reactions.",
+      "reason": "Not every degradation redox.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**FAD/FADH₂**: E°' = −0.18 V",
+      "new": "**FAD/FADH₂**: reduction potential depends strongly on its protein environment; a single tabulated value cannot represent all flavoproteins",
+      "reason": "FAD redox context.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11551223/"
+    },
+    {
+      "field": "content",
+      "old": "Electrons flow spontaneously from molecules with *lower* (more negative) reduction potential to molecules with *higher* (more positive) reduction potential.",
+      "new": "For the corresponding redox couples under the specified conditions, favorable net transfer is from the reduced donor with a lower reduction potential to the oxidized acceptor with a higher one. Standard potentials alone do not capture every concentration effect in a cell.",
+      "reason": "Specify redox species and actual conditions.",
+      "sourceUrl": "https://goldbook.iupac.org/terms/view/S05927"
+    },
+    {
+      "field": "content",
+      "old": "FADH₂ carries electrons with slightly less energy than NADH, which is reflected in its lower ATP yield when oxidized through the electron transport chain.",
+      "new": "In succinate dehydrogenase, enzyme-bound FAD transfers reducing equivalents to ubiquinone through iron–sulfur centers. This entry bypasses proton-pumping Complex I, explaining the lower conventional ATP yield; it is not a universal energy label for every FADH₂ molecule.",
+      "reason": "Entry point rather than generic energy carrier ranking.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11551223/"
+    },
+    {
+      "field": "content",
+      "old": "It is used primarily in *anabolic* reactions (e.g., fatty acid synthesis, the pentose phosphate pathway) as a reducing agent, donating electrons to biosynthetic reactions.",
+      "new": "NADPH donates reducing equivalents in biosynthesis and antioxidant defense. The oxidative pentose phosphate pathway is a major source of NADPH, not an example of NADPH consumption in an anabolic reaction.",
+      "reason": "PPP produces NADPH.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "These monomers are then fed into central metabolic pathways that converge on a common intermediate: **acetyl-CoA**.",
+      "new": "Many fuels converge on **acetyl-CoA**, while others enter as pyruvate or TCA-cycle intermediates; not every carbon skeleton passes through acetyl-CoA first.",
+      "reason": "Multiple entry points.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "It is the only ATP-generating pathway available to cells under anaerobic conditions (though the ATP yield is far lower than aerobic metabolism).",
+      "new": "In human cells without adequate oxygen, glycolytic substrate-level phosphorylation becomes the main sustained ATP source. Other organisms can use additional fermentation pathways or anaerobic respiration; phosphocreatine can buffer ATP briefly in muscle.",
+      "reason": "Human scope; anaerobic not universal glycolysisonly.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Under aerobic conditions, pyruvate enters the mitochondria",
+      "new": "In mitochondria-containing cells, pyruvate can enter the mitochondria",
+      "reason": "Oxygen alone not obligatory pyruvate fate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "occurs in the mitochondrial matrix. Per turn of the cycle",
+      "new": "occurs mainly in the mitochondrial matrix; succinate dehydrogenase is embedded in the inner membrane. Per turn of the cycle",
+      "reason": "Membrane enzyme exception.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**2 CO₂** (the carbons of acetyl-CoA are fully oxidized)",
+      "new": "**2 CO₂** (net two-carbon oxidation; the newly entering acetyl carbons are not the CO₂ released in their first turn)",
+      "reason": "Carbon tracing correction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The **electron transport chain (ETC)** is located in the inner mitochondrial membrane. NADH and FADH₂ donate their electrons to protein complexes (I, II, III, IV) that pump protons (H⁺) from the mitochondrial matrix into the intermembrane space, creating a **proton gradient** — the **proton motive force**.",
+      "new": "The **electron transport chain (ETC)** is located in the inner mitochondrial membrane. NADH-derived electrons enter at Complex I; succinate-derived electrons enter through Complex II and its bound FAD. Complexes **I, III and IV** pump protons; **Complex II does not**. The proton-motive force includes both a membrane voltage and a pH difference.",
+      "reason": "Original implies all four pump and omits electrical component.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "- Glycolysis: 2 ATP (substrate-level) + 2 NADH (cytoplasmic) → ~5 ATP via ETC",
+      "new": "- Glycolysis: 2 ATP directly, plus ~3 or ~5 ATP from its two cytosolic NADH equivalents, depending on the shuttle",
+      "reason": "Original sum omitted2directATP and30vs32branch.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/28270511/"
+    },
+    {
+      "field": "content",
+      "old": "Each cycle of beta-oxidation removes two carbons from a fatty acid chain, producing:",
+      "new": "For a typical saturated even-chain fatty acyl-CoA, each cycle shortens the chain by two carbons and produces the following; the final four-carbon cycle yields **two** acetyl-CoA:",
+      "reason": "Terminalcycle exception.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**Beta-oxidation** of fatty acids occurs in the mitochondrial matrix.",
+      "new": "**Beta-oxidation** occurs in mitochondria and peroxisomes; the following ATP accounting describes mitochondrial oxidation of a typical even-chain saturated fatty acid.",
+      "reason": "Peroxisomes exception.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The amino group enters the **urea cycle** for disposal.",
+      "new": "Amino nitrogen is transferred and collected for disposal; much is converted to urea in the liver, with additional nitrogen excretion routes such as renal ammonium.",
+      "reason": "Not direct eachgroup entersurea.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The **energy charge** of a cell — the ratio of ATP to ADP and AMP — is a master regulatory signal:",
+      "new": "The **adenylate energy charge** is ([ATP] + ½[ADP])/([ATP] + [ADP] + [AMP]), between 0 and 1. ATP/ADP and ATP/AMP ratios are related signals, but are not this same defined quantity:",
+      "reason": "Correct definition.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/4972613/"
+    },
+    {
+      "field": "content",
+      "old": "promotes glycogenolysis, gluconeogenesis, and fatty acid mobilization",
+      "new": "promotes hepatic glycogenolysis and gluconeogenesis; direct stimulation of human adipocyte lipolysis is not a universal established effect",
+      "reason": "Species/tissue scope.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/31891768/"
+    },
+    {
+      "field": "content",
+      "old": "These hormonal signals act through second messenger cascades (cAMP, protein kinase A) that phosphorylate key metabolic enzymes, rapidly switching their activity on or off.",
+      "new": "Glucagon and β-adrenergic signaling can act through cAMP/PKA. Insulin instead signals through a receptor tyrosine kinase and downstream pathways such as PI3K–Akt; hormones do not all use the same cAMP cascade.",
+      "reason": "Insulin not Gs receptor.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "This compartmentalization is critical. Fatty acid synthesis and beta-oxidation, for example, cannot occur simultaneously in the same compartment — they use different carriers (NADPH vs. FADH₂/NADH), different enzymes, and are located in different cellular compartments. The cell uses **malonyl-CoA** (an intermediate in fatty acid synthesis) as a signal to inhibit carnitine acyltransferase, preventing fatty acids from entering the mitochondria for oxidation when synthesis is active.",
+      "new": "Compartmentalization helps coordinate pathways, but does not by itself prohibit simultaneous opposing fluxes. Cytosolic fatty acid synthesis uses ACP and NADPH; mitochondrial oxidation uses CoA-linked intermediates and oxidized redox cofactors. Malonyl-CoA inhibits **CPT1**, restricting entry of long-chain fatty acyl groups into mitochondria. Chain length, organelle and tissue matter; not every fatty acid uses this transport step.",
+      "reason": "Correct carriers, CPT1specificity, not absolutephysicalban.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Thiamine deficiency, for example, impairs pyruvate dehydrogenase activity, causing pyruvate accumulation and resulting in conditions such as Wernicke's encephalopathy and beriberi",
+      "new": "Thiamine deficiency impairs several thiamine-dependent enzymes and can cause Wernicke encephalopathy or beriberi; these disorders are not explained solely by pyruvate accumulation",
+      "reason": "Multienzyme deficiency.",
+      "sourceUrl": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+    },
+    {
+      "field": "content",
+      "old": "storing and transferring free energy through its phosphoanhydride bonds",
+      "new": "coupling reactions through favorable overall chemical transformations",
+      "reason": "Summary avoids bondbreak releasesenergy misconception.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.106.question_text",
+      "old": "A researcher treats isolated mitochondria with a compound that blocks the transfer of electrons along the electron transport chain. Which of the following would be the most immediate consequence for cellular ATP production?",
+      "new": "A researcher blocks electron transfer to oxygen in isolated mammalian mitochondria. Which effect on oxidative ATP synthesis is expected as the existing proton-motive force dissipates?",
+      "reason": "Not instantly collapsed gradient or wholecell isolatedorganelles.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.106.choice_b",
+      "old": "The proton gradient across the inner mitochondrial membrane would collapse, halting ATP synthase activity.",
+      "new": "Respiratory proton pumping cannot sustain the proton-motive force, so ATP synthesis by ATP synthase falls.",
+      "reason": "ATP synthase may reverse; not all activity ceases instantly.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.106.explanation",
+      "old": "Electron transport drives proton pumping across the inner mitochondrial membrane, creating the electrochemical gradient that powers ATP synthase. Blocking electron transfer eliminates this gradient, so oxidative phosphorylation stops. Substrate-level phosphorylation in glycolysis and the Krebs cycle would continue briefly, making choice A incorrect. Glycolysis does not depend on mitochondrial ATP and would actually upregulate, ruling out choice C. Choice D describes a real phenomenon in some plants but is not the primary cellular response in most organisms.",
+      "new": "B is correct. Blocking respiratory electron flow prevents it from sustaining proton pumping; the existing electrochemical gradient dissipates over time. ATP synthase may even hydrolyze ATP in reverse under some conditions. This is not direct inhibition of glycolysis, which is absent from an isolated-mitochondrial preparation.",
+      "reason": "Remove misleading immediacy and glycolysis inference.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.107.explanation",
+      "old": "Glycolysis requires NAD+ as an electron acceptor; when oxygen is limited, the electron transport chain cannot reoxidize NADH fast enough. Converting pyruvate to lactate reoxidizes NADH to NAD+, allowing glycolysis to continue generating ATP via substrate-level phosphorylation. Choice A is incorrect because lactate does not directly enter the Krebs cycle and is less efficient. Choice C is wrong because aerobic respiration yields far more ATP than anaerobic glycolysis. Choice D describes negative feedback, but lactate does not inhibit PFK; rather, AMP and ADP activate it.",
+      "new": "B is correct: lactate dehydrogenase reoxidizes cytosolic NADH to NAD⁺, sustaining the glyceraldehyde-3-phosphate dehydrogenase step of glycolysis. Lactate production can occur with oxygen present when glycolytic flux is high. It does not produce ATP directly; lactate can later be oxidized after conversion to pyruvate.",
+      "reason": "Lactate notalwayshypoxia or intrinsicallyinferiorfuel.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.108.question_text",
+      "old": "The hydrolysis of ATP to ADP and inorganic phosphate releases energy with a standard free energy change of approximately -7.3 kcal/mol. A biosynthetic reaction in the cell has a standard free energy change of +5.0 kcal/mol. Which of the following best describes how the cell drives this unfavorable reaction?",
+      "new": "Under the same biochemical standard conditions, ATP hydrolysis has ΔG°′ ≈ −7.3 kcal/mol and a biosynthetic reaction has ΔG°′ = +5.0 kcal/mol. Which strategy gives a favorable combined standard reaction?",
+      "reason": "Standard data alone do not establishactualcellΔG.",
+      "sourceUrl": "https://goldbook.iupac.org/terms/view/S05927"
+    },
+    {
+      "field": "questions.108.explanation",
+      "old": "Cells drive endergonic reactions by coupling them to the exergonic hydrolysis of ATP. The combined free energy change (-7.3 + 5.0 = -2.3 kcal/mol) is negative, making the overall process spontaneous. Choice A is incorrect because increasing product concentration would further disfavor the forward reaction. Choice C confuses electron transfer with direct energy coupling for biosynthesis. Choice D is incorrect because lowering activation energy (the role of enzymes) does not change the thermodynamic favorability of a reaction.",
+      "new": "B is correct: mechanistically coupling one ATP hydrolysis to the biosynthetic step gives ΔG°′ = −7.3 + 5.0 = −2.3 kcal/mol. Actual cellular ΔG also depends on activities. An enzyme lowers the activation barrier, not the reaction Gibbs energy; merely adding ATP without a coupling mechanism is insufficient.",
+      "reason": "Standardversusactual.",
+      "sourceUrl": "https://goldbook.iupac.org/terms/view/S05927"
+    },
+    {
+      "field": "questions.110.question_text",
+      "old": "A cell is placed in a nutrient-rich environment but is then treated with a drug that prevents all catabolic reactions. Which of the following best predicts the effect on the cell's anabolic processes?",
+      "new": "A nonphotosynthetic cell has no alternative energy input. A hypothetical treatment blocks all fuel-degrading pathways that replenish ATP and reducing equivalents. After existing stores are depleted, what happens to ATP-dependent biosynthesis?",
+      "reason": "Exclude photosynthetic alternative andunboundedallcatabolism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.110.explanation",
+      "old": "Anabolism requires ATP and reducing equivalents such as NADPH, which are generated by catabolic pathways like glycolysis, the Krebs cycle, and the pentose phosphate pathway. Blocking catabolism eliminates this supply, so biosynthetic reactions cannot proceed. Choice A is incorrect because accumulated substrates cannot drive anabolism without the energy currency produced by catabolism. Choice B is wrong because anabolic reactions consume ATP rather than produce it. Choice D is incorrect because both pathways use ATP as the primary energy currency and are tightly interconnected.",
+      "new": "C is correct under the stated assumptions: energy-requiring biosynthesis slows and cannot be sustained once ATP and needed reducing equivalents are depleted. NADPH production has several sources, including the oxidative pentose phosphate pathway; it should not be confused with the NADH generated by the TCA cycle.",
+      "reason": "AvoidclaimTCAgeneratesanabolicNADPHbydefault.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    }
+  ]
+}

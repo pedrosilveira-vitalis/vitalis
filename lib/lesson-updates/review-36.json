@@ -1,0 +1,343 @@
+{
+  "lessonId": 36,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "only a correctly paired nucleotide (A:T or G:C) fits snugly enough to trigger the conformational change",
+      "new": "correct pairing generally favors productive conformational changes",
+      "reason": "Absolute only contradicts misincorporation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "Mismatched nucleotides distort the active site and slow catalysis by several orders of magnitude.",
+      "new": "Many mismatches slow incorporation substantially, but effects depend on the polymerase, mismatch and sequence. Rare geometries can evade initial discrimination.",
+      "reason": "Not universal magnitude.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "All replicative DNA polymerases (DNA Pol III in prokaryotes; DNA Pol δ and ε in eukaryotes) carry an intrinsic **3' to 5' exonuclease** activity in a separate domain from the polymerase active site.",
+      "new": "Major elongating replicases have associated **3′→5′ exonuclease** proofreading. In E. coli Pol III, the ε subunit provides proofreading separately from the α polymerase subunit. Eukaryotic Pol δ and ε have proofreading domains, whereas the initiating Pol α lacks its own proofreading activity.",
+      "reason": "All replicases and domain-versus-subunit.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "proofreading is why DNA polymerase is so much more accurate than RNA polymerase (which lacks proofreading and has an error rate around 1 in 10^4).",
+      "new": "proofreading contributes to high DNA-copying fidelity. RNA polymerases can also proofread by backtracking and transcript cleavage, enhanced by factors such as TFIIS for Pol II; they do not simply lack all proofreading. Numerical error rates vary by enzyme and assay.",
+      "reason": "RNAproofreading false.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8942993/"
+    },
+    {
+      "field": "content",
+      "old": "synthesis and exonuclease activities use distinct active sites on the same enzyme",
+      "new": "synthesis and exonuclease activities use distinct active sites, sometimes in different subunits",
+      "reason": "PolIII separate epsilon.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "Also note that RNA primers are eventually removed because RNA polymerase lacks proofreading, making primer sequences inherently less reliable.",
+      "new": "RNA primers mark temporary initiation segments that must be processed into mature DNA; their removal should not be justified by claiming all RNA polymerases lack proofreading.",
+      "reason": "False rationale.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8942993/"
+    },
+    {
+      "field": "content",
+      "old": "operating *after* replication is complete or nearly complete",
+      "new": "acting on recently synthesized DNA, often coupled closely to replication rather than waiting for completion of the whole chromosome",
+      "reason": "Timing.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "The template strand is correct; the newly synthesized strand contains the mistake.",
+      "new": "For a polymerase misincorporation, the parental sequence supplies the repair reference and the error is on the new strand. The template itself can separately sustain damage.",
+      "reason": "Absolute template correctness.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "Eukaryotes lack MutH and Dam methylation.",
+      "new": "The human MMR pathway does not use the E. coli MutH/Dam system.",
+      "reason": "Scope human not every methylation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "After strand discrimination, **exonuclease 1 (EXO1)** degrades the error-containing strand",
+      "new": "In a major pathway, **exonuclease 1 (EXO1)** degrades the error-containing strand; EXO1-independent processing also exists",
+      "reason": "Not obligatory EXO1.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "Germline mutations in MMR genes—particularly *MLH1*, *MSH2*, *MSH6*, and *PMS2*—cause **Lynch syndrome (hereditary nonpolyposis colorectal cancer, HNPCC)**",
+      "new": "Germline pathogenic variants affecting *MLH1*, *MSH2*, *MSH6*, or *PMS2*, and certain *EPCAM* deletions that silence *MSH2*, can cause **Lynch syndrome**, a hereditary cancer predisposition",
+      "reason": "Pathogenic variants and EPCAM.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1211/"
+    },
+    {
+      "field": "content",
+      "old": "MSI-high tumors are now clinically important because they respond particularly well to **immune checkpoint inhibitors** (a connection the MCAT may test in the context of cancer biology).",
+      "new": "MMR-deficient/MSI-high status can inform immune-checkpoint treatment selection in defined clinical settings; it does not guarantee a response. Tumor MMR deficiency may be acquired and does not by itself establish Lynch syndrome.",
+      "reason": "Predictive not guarantee and somatic.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1211/"
+    },
+    {
+      "field": "content",
+      "old": "4. **Ligation**: **DNA ligase III** (in complex with **XRCC1**) seals the nick.",
+      "new": "4. **Ligation**: Ligase III/XRCC1 is a familiar short-patch model, but DNA ligase I can also support nuclear BER. Ligase III is not universally obligatory for this nuclear step.",
+      "reason": "Ligase redundancy.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21390131/"
+    },
+    {
+      "field": "content",
+      "old": "**DNA Pol δ/ε** displaces the downstream strand",
+      "new": "**DNA Pol β or Pol δ/ε**, depending on context, displaces the downstream strand",
+      "reason": "LongpatchPolbeta.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21390131/"
+    },
+    {
+      "field": "content",
+      "old": "one of the most common spontaneous mutations",
+      "new": "a common spontaneous **DNA lesion** that can become a mutation if not corrected",
+      "reason": "Lesion not yet fixed mutation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "or cisplatin cross-links",
+      "new": "or cisplatin **intrastrand** cross-links; interstrand cross-links require coordinated pathways beyond NER alone",
+      "reason": "Interstrand notsimpleNER.",
+      "sourceUrl": "https://www.nature.com/articles/s41467-019-10745-5"
+    },
+    {
+      "field": "content",
+      "old": "ensuring that actively expressed genes are repaired first",
+      "new": "prioritizing blocking lesions on actively transcribed template strands; it does not globally rank every lesion in the genome",
+      "reason": "No globalrepairpriority.",
+      "sourceUrl": "https://www.nature.com/articles/s41467-019-10745-5"
+    },
+    {
+      "field": "content",
+      "old": "the helicases **XPB** and **XPD**",
+      "new": "the **XPB translocase** and **XPD helicase**",
+      "reason": "Distinct ATPase roles.",
+      "sourceUrl": "https://www.nature.com/articles/s41467-019-10745-5"
+    },
+    {
+      "field": "content",
+      "old": "- **Xeroderma pigmentosum (XP)**: Caused by mutations in any of seven complementation groups (XPA–XPG). Patients have extreme UV sensitivity, a dramatically elevated risk of skin cancers (1000-fold increased), and in some forms, neurological degeneration. This is a classic MCAT example of the connection between DNA repair deficiency and cancer.",
+      "new": "- **Xeroderma pigmentosum (XP)** commonly involves NER defects, but **XP variant (POLH)** instead impairs translesion polymerase η with relatively intact NER. UV-related cancer risk is very high; the magnitude differs by cancer, age and exposure. Neurologic involvement and acute sunburn sensitivity vary by genotype.",
+      "reason": "Omitted XPV and universal phenotype.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1397/"
+    },
+    {
+      "field": "content",
+      "old": "UV sensitivity but *not* elevated cancer rates (because GG-NER is intact)",
+      "new": "UV sensitivity without the marked cancer predisposition seen in classic XP; preserved GG-NER alone is not a complete explanation of the clinical difference",
+      "reason": "Avoid solemechanisticexplanation.",
+      "sourceUrl": "https://www.cancer.gov/types/skin/hp/skin-genetics-pdq"
+    },
+    {
+      "field": "content",
+      "old": "- **Trichothiodystrophy (TTD)**: Mutations in *XPD* or *XPB* (components of TFIIH) cause brittle hair, intellectual disability, and photosensitivity. Because TFIIH is also required for transcription (as a general transcription factor), TTD reflects combined defects in both NER and transcription.",
+      "new": "- **Trichothiodystrophy (TTD)** has brittle, sulfur-poor hair and variable systemic findings. Photosensitive forms often involve *ERCC2/XPD*, *ERCC3/XPB*, or *GTF2H5* and affect TFIIH-related functions. Nonphotosensitive forms have other genetic causes; not all TTD is a NER deficiency.",
+      "reason": "Genetic/phenotypic heterogeneity.",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/trichothiodystrophy/"
+    },
+    {
+      "field": "content",
+      "old": "The issue arises specifically on the lagging strand.",
+      "new": "Loss after terminal lagging-strand primer removal is the standard introductory example; leading-end processing and other telomere replication challenges also contribute.",
+      "reason": "Not laggingonly.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35830881/"
+    },
+    {
+      "field": "content",
+      "old": "the machinery has run out of template",
+      "new": "a suitable upstream primer terminus is unavailable, even though parental template can extend beyond the recessed daughter end",
+      "reason": "Template not missing.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "Without a solution, chromosomes would shorten by 50–200 base pairs per replication cycle. After enough divisions, essential coding sequences would be lost, triggering a DNA damage response and cell senescence or apoptosis.",
+      "new": "Shortening rates vary with cell type, oxidative damage and end processing; tens to hundreds of base pairs per division are commonly discussed estimates, not a fixed loss. Critically short or deprotected telomeres can trigger a DNA-damage response **before essential coding sequences are lost**.",
+      "reason": "Critical uncappingnotcodingloss.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35830881/"
+    },
+    {
+      "field": "content",
+      "old": "a **3' overhang** of 100–200 nucleotides",
+      "new": "a **3′ overhang** whose length varies, often from tens to hundreds of nucleotides",
+      "reason": "Notfixedoverhang.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35830881/"
+    },
+    {
+      "field": "content",
+      "old": "containing the template sequence **3'-AAUCCC-5'** (complementary to the telomeric repeat)",
+      "new": "containing a template/alignment region of about 11 nucleotides, **3′-CAAUCCCAAUC-5′**. The shorter AAUCCC sequence is a simplified complement to one TTAGGG repeat, not the entire human template region",
+      "reason": "Actual template length.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC137139/"
+    },
+    {
+      "field": "content",
+      "old": "The RNA template (AAUCCC) base-pairs with the terminal TTAGGG repeats.",
+      "new": "Part of the RNA template/alignment region pairs with the DNA 3′ end, positioning it for extension.",
+      "reason": "Fullregion notsixnt.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC137139/"
+    },
+    {
+      "field": "content",
+      "old": "conventional DNA replication machinery (primase, DNA Pol α, then Pol δ) synthesizes the complementary C-strand (CCCTAA repeats)",
+      "new": "**CST-associated Pol α–primase** performs complementary C-strand fill-in",
+      "reason": "SpecificCSTPolalpha.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35830881/"
+    },
+    {
+      "field": "content",
+      "old": "It does not require an external primer in the traditional sense because the 3' overhang of the telomere itself serves as the substrate.",
+      "new": "It still requires a **DNA primer 3′-OH**: the existing G-rich telomere end supplies it. Its internal RNA is the template, not a replacement for the DNA primer.",
+      "reason": "Primer requirementclear.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC137139/"
+    },
+    {
+      "field": "content",
+      "old": "- **Germline cells** (sperm and eggs): essential for maintaining telomere length across generations",
+      "new": "- **Selected developing germline cells**: activity changes with differentiation and should not be described as uniformly high in mature sperm and eggs",
+      "reason": "Maturegametes notactivity.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8934879/"
+    },
+    {
+      "field": "content",
+      "old": "somatic cells have a finite replicative lifespan",
+      "new": "many cultured somatic cell populations have a finite replicative lifespan",
+      "reason": "Notall somatic cells divide.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35830881/"
+    },
+    {
+      "field": "content",
+      "old": "a permanent growth arrest",
+      "new": "a durable growth arrest",
+      "reason": "Senescence not absolutereversibility.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35830881/"
+    },
+    {
+      "field": "content",
+      "old": "The remaining ~10–15% of cancers use an alternative mechanism called **ALT (Alternative Lengthening of Telomeres)**",
+      "new": "A minority of cancers use **ALT (Alternative Lengthening of Telomeres)**; reported frequencies vary by tumor type, and not every tumor fits a simple mutually exclusive percentage split",
+      "reason": "Not all remainderprovenALT.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35830881/"
+    },
+    {
+      "field": "content",
+      "old": "This biology makes telomerase an attractive cancer drug target: inhibiting telomerase in cancer cells should eventually cause telomere shortening and cell death, while sparing most normal somatic cells that have little telomerase activity. Several telomerase inhibitors (e.g., **imetelstat**) are in clinical development.",
+      "new": "Telomerase is a therapeutic target, but inhibiting it is not guaranteed to eliminate a tumor or spare normal renewing tissues. **Imetelstat** received FDA approval in June 2024 for a defined group of adults with lower-risk myelodysplastic syndromes and transfusion-dependent anemia after inadequate response to, loss of response to, or ineligibility for erythropoiesis-stimulating agents. It can cause substantial thrombocytopenia and neutropenia. This is an example of clinical translation, not a general telomerase treatment for all cancers.",
+      "reason": "Outdated development status and false noharm expectation.",
+      "sourceUrl": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-imetelstat-low-intermediate-1-risk-myelodysplastic-syndromes-transfusion-dependent"
+    },
+    {
+      "field": "content",
+      "old": "- **Proofreading direction**: 3'→5' exonuclease; synthesis direction is 5'→3'—these are distinct activities on the same enzyme",
+      "new": "- **Proofreading direction**: 3′→5′ exonuclease versus 5′→3′ synthesis; activities can reside in different subunits, as in E. coli Pol III",
+      "reason": "Repeated subunit distinction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "- **XP**: NER deficiency → UV sensitivity + dramatically elevated skin cancer risk",
+      "new": "- **XP**: often NER deficiency; the POLH variant is a lesion-bypass defect. UV-related skin cancer risk is greatly elevated.",
+      "reason": "RepeatedXPexception.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1397/"
+    },
+    {
+      "field": "content",
+      "old": "- **Senescence vs. immortalization**: short telomeres → senescence (normal); telomerase reactivation → immortalization (cancer)",
+      "new": "- **Senescence vs. immortalization**: short/deprotected telomeres can induce checkpoints; telomere maintenance supports continued proliferation but does not alone establish a malignant phenotype.",
+      "reason": "Not telomerase alonecancer.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35830881/"
+    },
+    {
+      "field": "questions.176.question_text",
+      "old": "During DNA replication, DNA polymerase III incorporates an incorrect nucleotide. Which of the following best describes the mechanism by which this error is most immediately corrected?",
+      "new": "An E. coli Pol III complex misincorporates a nucleotide at the primer 3′ end. Which associated activity can remove it most directly before extension resumes?",
+      "reason": "Species and correctionnotguarantee.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.176.explanation",
+      "old": "DNA polymerase has an intrinsic 3' to 5' exonuclease (proofreading) activity that detects and removes a misincorporated nucleotide immediately after its addition, before the next nucleotide is added. This is the first and most immediate line of defense. Mismatch repair (choice A) is a post-replicative mechanism that catches errors missed by proofreading, making it a secondary rather than immediate correction. Topoisomerase and helicase do not perform error correction functions.",
+      "new": "B is correct: the Pol III ε subunit supplies 3′→5′ exonuclease proofreading and can remove the terminal misincorporation. MMR can correct errors that escape this step. Helicases and topoisomerases have important genome-maintenance roles, but neither is the specific terminal-excision activity asked about.",
+      "reason": "Separateepsilon andavoidno roles.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.177.question_text",
+      "old": "A patient is found to have a hereditary defect in MSH2, a protein involved in mismatch repair. Which of the following best predicts the molecular consequence of this defect during DNA replication?",
+      "new": "A cell loses functional MSH2-dependent mismatch repair. Which molecular consequence is most directly expected?",
+      "reason": "Heterozygousgermline notnecessarilycompletecellloss.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1211/"
+    },
+    {
+      "field": "questions.177.explanation",
+      "old": "MSH2 is part of the MutS homolog complex that recognizes mispaired bases in the newly synthesized strand after replication. Without functional MSH2, mismatches that escaped polymerase proofreading are not repaired, leading to a significantly elevated mutation rate and microsatellite instability, as seen in Lynch syndrome. Base excision repair (choice B) addresses chemically damaged or altered bases and relies on DNA glycosylases, not MSH2. Telomerase recruitment is unrelated to mismatch repair machinery.",
+      "new": "C is correct. MSH2 participates in MutSα and MutSβ recognition complexes; functional loss impairs correction of replication mismatches and small insertion/deletion loops, increasing mutation rates and often microsatellite instability. This is distinct from direct primer ligation, BER lesion removal or telomerase activity. Inherited Lynch predisposition and complete functional loss in a particular tumor cell should not be equated.",
+      "reason": "Genotypephenotype scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1211/"
+    },
+    {
+      "field": "questions.178.question_text",
+      "old": "UV radiation causes thymine dimers that distort the DNA helix. Which repair pathway is primarily responsible for removing these bulky lesions, and what is the correct sequence of key steps?",
+      "new": "In a human cell, which pathway excises a UV-induced cyclobutane pyrimidine dimer, and what sequence of steps best describes this repair?",
+      "reason": "Humanexplicit removes photolyase ambiguity.",
+      "sourceUrl": "https://www.nature.com/articles/s41467-019-10745-5"
+    },
+    {
+      "field": "questions.178.explanation",
+      "old": "Bulky helix-distorting lesions such as thymine dimers are repaired by nucleotide excision repair (NER), which involves recognition of the distortion, dual incision by endonucleases flanking the lesion, removal of an approximately 25-30 nucleotide oligonucleotide, gap filling by DNA polymerase, and ligation. Choice D describes photolyase-mediated direct repair, which is valid in some organisms but is not the primary pathway asked about and does not involve strand incision. Base excision repair (choice A) handles small, non-helix-distorting base damage, not bulky dimers.",
+      "new": "C describes human NER: recognize the lesion, open and verify the region, incise the damaged strand on both sides, remove the lesion-containing oligonucleotide, synthesize replacement DNA and ligate. Photolyase-mediated photoreactivation is available in some other organisms but is not a human repair pathway. DNA polymerase η can bypass some UV lesions; bypass does not excise the dimer.",
+      "reason": "Species andbypassdistinction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1397/"
+    },
+    {
+      "field": "questions.179.question_text",
+      "old": "In the absence of telomerase activity, somatic cells undergo progressive telomere shortening with each round of replication. Which of the following best explains the molecular basis for this shortening?",
+      "new": "In the simplified lagging-end replication model, why can removing the terminal RNA primer leave an incompletely copied daughter end when no compensating telomere-extension mechanism operates?",
+      "reason": "Notallshorteningmechanisms.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.179.choice_b",
+      "old": "The RNA primer at the 5' end of the lagging strand cannot be replaced once it is removed, leaving a short 3' overhang on the template strand that is degraded",
+      "new": "There is no upstream primer 3′-OH from which polymerase can fill the terminal gap, leaving a recessed daughter 5′ end.",
+      "reason": "Original overhang degraded false.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.179.explanation",
+      "old": "The end replication problem arises because the most terminal RNA primer on the lagging strand template cannot be replaced by DNA once it is removed, since there is no upstream 3'-OH to prime synthesis in that gap. This leaves a recessed 5' end and a 3' overhang on the parental strand, resulting in net shortening of the daughter chromosome with each division. Choice A incorrectly attributes the problem to 5' to 3' exonuclease activity rather than the inability to prime synthesis at the very end. DNA polymerase always synthesizes 5' to 3', making choice D incorrect.",
+      "new": "B identifies the primer problem. Polymerase cannot initiate de novo in the terminal gap. The parental G-rich overhang is not simply discarded; it has a normal protective role and can be extended by telomerase. Actual telomere shortening also involves end processing and other replication challenges.",
+      "reason": "Overhangprotective notdegradation.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35830881/"
+    },
+    {
+      "field": "questions.180.choice_b",
+      "old": "Replicative immortality because telomere length is maintained, preventing cells from reaching crisis",
+      "new": "Improved maintenance of telomere length, supporting continued proliferation when other cellular constraints permit it.",
+      "reason": "Notguaranteedimmortality.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35830881/"
+    },
+    {
+      "field": "questions.180.explanation",
+      "old": "Telomerase adds TTAGGG repeats to chromosome ends, compensating for the end replication problem and preventing the progressive telomere shortening that would normally trigger the DNA damage response and replicative senescence or crisis. By maintaining telomere length, cancer cells with active telomerase can divide indefinitely, which is a hallmark of malignancy. Normal somatic cells repress telomerase, so their telomeres shorten over time and act as a mitotic clock. Telomerase has no known mismatch repair function (choice C), and its activity promotes rather than inhibits proliferation.",
+      "new": "B is the direct consequence: telomerase can add G-strand repeats and help maintain telomeres. That supports proliferative potential but does not by itself guarantee immortality, transformation or escape from all checkpoints. Telomerase is not a mismatch-repair enzyme.",
+      "reason": "Sufficientcause removed.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35830881/"
+    }
+  ]
+}

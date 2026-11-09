@@ -1,0 +1,371 @@
+{
+  "lessonId": 33,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "roughly 70–100 mg/dL fasting",
+      "new": "roughly 70–99 mg/dL fasting in typical clinical reference ranges",
+      "reason": "100 is impaired fasting glucose threshold.",
+      "sourceUrl": "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis"
+    },
+    {
+      "field": "content",
+      "old": "the ratio of ATP to AMP/ADP signals cellular energy status",
+      "new": "adenylate energy charge is ([ATP] + ½[ADP])/([ATP] + [ADP] + [AMP]); nucleotide ratios also signal energy status",
+      "reason": "Formal definition distinct from ratios.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21399626/"
+    },
+    {
+      "field": "content",
+      "old": "The MCAT emphasizes the first four. The critical insight",
+      "new": "A useful integrating principle",
+      "reason": "Unsupported exam weighting.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "the gluconeogenic enzyme that reverses PFK-1's reaction",
+      "new": "the gluconeogenic enzyme that bypasses PFK-1 through phosphate-ester hydrolysis rather than making ATP",
+      "reason": "Bypass not exact reverse.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "**Insulin** → Akt phosphorylates the bifunctional enzyme at a site that *activates PFK-2* and *inhibits FBPase-2*",
+      "new": "**Insulin-dominant liver signaling** → favors dephosphorylation of the hepatic bifunctional enzyme, increasing PFK-2 relative to FBPase-2 activity",
+      "reason": "Heart phosphorylation response misapplied to liver.",
+      "sourceUrl": "https://academic.oup.com/mend/article/12/9/1343/2754466"
+    },
+    {
+      "field": "content",
+      "old": "This single regulatory molecule is the master switch between glycolysis and gluconeogenesis in the liver. Memorize this mechanism — it appears repeatedly on the MCAT.",
+      "new": "This is an important hepatic control point, not the only determinant of pathway flux. Isoforms in other tissues can respond differently to phosphorylation.",
+      "reason": "Scope and unsupported frequency.",
+      "sourceUrl": "https://academic.oup.com/mend/article/12/9/1343/2754466"
+    },
+    {
+      "field": "content",
+      "old": "- PKA phosphorylates and activates **HSL** in adipose tissue → lipolysis → fatty acids released for hepatic β-oxidation, which provides the ATP and NADH needed to drive gluconeogenesis",
+      "new": "- In fasting humans, low insulin and catecholamines strongly promote adipose lipolysis. Do not assume glucagon is a major direct physiological activator of adipocyte HSL. Released fatty acids can fuel hepatic oxidation.",
+      "reason": "Human versus animal lipolysis.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/31891768/"
+    },
+    {
+      "field": "content",
+      "old": "glycogen synthesis stops",
+      "new": "glycogen synthesis is reduced",
+      "reason": "Not binary flux.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "*active when dephosphorylated* (insulin state) and *inactive when phosphorylated* (glucagon/epinephrine state)",
+      "new": "generally more active when dephosphorylated; glucose-6-phosphate also allosterically activates it, including the phosphorylated form",
+      "reason": "Phosphorylation not absolute.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "Phosphorylase is *active when phosphorylated* — the opposite of glycogen synthase.",
+      "new": "Phosphorylation generally favors phosphorylase activity; allosteric regulation also matters, including AMP activation of muscle phosphorylase b.",
+      "reason": "Avoid on/off rule.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "fuels muscle contraction only",
+      "new": "primarily supports local muscle metabolism",
+      "reason": "Other muscle processes.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "Think of AMPK as a cellular-level analog to glucagon: both respond to low energy and both suppress anabolism while promoting catabolism.",
+      "new": "AMPK senses local energy stress; glucagon coordinates systemic glucose supply. They can favor different hepatic outcomes, so they are not interchangeable signals. AMP directly allosterically activates AMPK, and AMP or ADP binding can protect its activating phosphorylation from removal.",
+      "reason": "ADP distinction.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21399626/"
+    },
+    {
+      "field": "content",
+      "old": "- Inhibits glycogen synthesis (phosphorylates glycogen synthase → inactivates it)",
+      "new": "- Can directly inhibit glycogen synthase by phosphorylation; net glycogen storage also depends on glucose uptake, G6P and recovery state",
+      "reason": "Net flux depends context.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21399626/"
+    },
+    {
+      "field": "content",
+      "old": "- Inhibits gluconeogenesis in the liver (inhibits TORC2/CREB-regulated transcription coactivator, reducing PEPCK and G6Pase expression)",
+      "new": "- Can oppose hepatic gluconeogenic programs in particular contexts. CRTC2 (formerly called TORC2) is a transcriptional coactivator, not mTOR complex 2. Hepatic glucose output cannot be inferred from AMPK activity alone.",
+      "reason": "CRTC2 confusion and mechanism overstatement.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/20577053/"
+    },
+    {
+      "field": "content",
+      "old": "**Metformin**, the most widely prescribed type 2 diabetes drug, works primarily by activating AMPK in the liver (by inhibiting Complex I of the electron transport chain, which raises AMP levels). AMPK activation in the liver suppresses gluconeogenesis, lowering fasting blood glucose. This is a favorite MCAT pharmacology connection.",
+      "new": "**Metformin** lowers blood glucose partly by reducing hepatic glucose production. Its effects involve exposure- and tissue-dependent changes in energy metabolism and signaling. AMPK can participate, but liver AMPK knockout experiments retain metformin responses under some conditions; the drug should not be taught as working exclusively through Complex I → AMPK → gluconeogenic gene repression.",
+      "reason": "Not sole proven mechanism.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/20577053/"
+    },
+    {
+      "field": "content",
+      "old": "has a high Km for glucose (~10 mM)",
+      "new": "has a relatively high glucose half-saturation concentration (S₀.₅, often about 7–10 mM); its sigmoidal kinetics are not simple Michaelis–Menten kinetics",
+      "reason": "GCK kinetic nomenclature.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "phosphorylated (inactivated) by PKA (glucagon state)",
+      "new": "the liver L isoform is inhibited by PKA phosphorylation during glucagon signaling; this is not a rule for every pyruvate kinase isoform",
+      "reason": "Tissue scope.",
+      "sourceUrl": "https://academic.oup.com/mend/article/12/9/1343/2754466"
+    },
+    {
+      "field": "content",
+      "old": "In aerobic conditions: pyruvate →",
+      "new": "When mitochondrial oxidative metabolism is available, one possible fate is pyruvate →",
+      "reason": "Oxygen alone not sole fate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "In anaerobic conditions or rapid glycolysis: pyruvate →",
+      "new": "During glycolytic NAD⁺ regeneration, including in oxygenated cells: pyruvate →",
+      "reason": "Lactate not necessarily hypoxia.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "occurs in cytoplasm (after OAA is shuttled out as malate or aspartate)",
+      "new": "has cytosolic and mitochondrial isoforms; the export route interacts with cytosolic NADH requirements",
+      "reason": "Missing mitochondrial PEPCK.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "present only in liver and kidney",
+      "new": "expressed in liver, kidney and small intestine",
+      "reason": "Missing intestinal G6PC1.",
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/g6pc1/"
+    },
+    {
+      "field": "content",
+      "old": "ensuring the first committed step of gluconeogenesis is fueled",
+      "new": "favoring OAA production for gluconeogenesis or TCA replenishment; this is not a committed gluconeogenic step",
+      "reason": "PC anaplerosis.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "inhibited by ATP, NADH, succinyl-CoA, citrate",
+      "new": "controlled by substrate availability and product/energy conditions; specific inhibitor effects vary with organism and assay",
+      "reason": "Citrate synthase allostery species.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**Isocitrate dehydrogenase** (Isocitrate → α-KG)",
+      "new": "**Mitochondrial NAD⁺-dependent IDH3** (Isocitrate → α-KG)",
+      "reason": "Isoform distinction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "inhibited by succinyl-CoA, NADH, ATP; activated by Ca²⁺",
+      "new": "inhibited by its products succinyl-CoA and NADH; activated by Ca²⁺ in appropriate tissues",
+      "reason": "ATP not universal direct inhibitor.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "pyruvate + CO₂ → OAA",
+      "new": "pyruvate + bicarbonate + ATP → OAA + ADP + phosphate",
+      "reason": "Missing ATP and bicarbonate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "has the full enzymatic complement for all major pathways, and expresses glucokinase (which responds proportionally to glucose concentration)",
+      "new": "expresses many glucose-handling enzymes, including glucokinase (whose glucose response is sigmoidal, not simply proportional)",
+      "reason": "Liver lacks SCOT and generality.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "glycogenolysis, then gluconeogenesis",
+      "new": "overlapping glycogenolysis and gluconeogenesis",
+      "reason": "Not sequential switch.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "The brain consumes ~120 g of glucose per day under normal conditions and *cannot* use fatty acids (they don't cross the blood-brain barrier efficiently). The brain expresses **GLUT1** (not GLUT4), so its glucose uptake is insulin-independent. However, after 3–4 days of fasting, the brain adapts to use **ketone bodies** (which do cross the blood-brain barrier), reducing its glucose requirement to ~40 g/day and sparing muscle protein from gluconeogenic catabolism. This adaptation is a key survival mechanism.",
+      "new": "The adult brain normally uses substantial glucose, with demand varying by body size and state. Fatty acids can cross the blood–brain barrier and brain cells do use some of them; however, neuronal long-chain fatty-acid oxidation is limited, so it is not the main replacement for glucose during starvation. GLUT1 supports transport at the barrier and in glia, while neurons prominently express GLUT3. During prolonged fasting, ketone use progressively rises and reduces, but does not eliminate, glucose requirements. This protein-sparing adaptation develops over days to weeks rather than switching on at one fixed time.",
+      "reason": "BBB false barrier, missing GLUT3, rigid timing.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/26455443/"
+    },
+    {
+      "field": "content",
+      "old": "the liver expends 6 ATP to regenerate glucose from 2 lactate",
+      "new": "the liver expends 4 ATP + 2 GTP (six high-energy phosphate equivalents) to regenerate glucose from 2 lactate",
+      "reason": "Distinguish nucleotide cost.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "muscle transaminate amino acids to form **alanine** (pyruvate + amino group → alanine)",
+      "new": "muscle transfers nitrogen to pyruvate using alanine aminotransferase: pyruvate + glutamate ⇌ alanine + α-ketoglutarate",
+      "reason": "Specify transamination donor.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "transamination regenerates pyruvate (enters gluconeogenesis) and releases the amino group for urea synthesis",
+      "new": "transamination regenerates pyruvate and transfers nitrogen to glutamate; subsequent reactions supply ammonium and aspartate for urea synthesis",
+      "reason": "ALT does not liberate free ammonium.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "- Blood glucose: 80–120 mg/dL post-meal, returns to ~90 mg/dL within 2 hours",
+      "new": "- Blood glucose rises after eating and is regulated toward baseline; the peak and timing depend on the meal and individual. A diagnostic oral glucose test is not the same as an ordinary meal.",
+      "reason": "Rigid normal meal range.",
+      "sourceUrl": "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis"
+    },
+    {
+      "field": "content",
+      "old": "- Liver: glycogenolysis (first 4–8 hours), then gluconeogenesis (dominant after 16–24 hours), ketogenesis (after 24–48 hours)",
+      "new": "- Liver: glycogenolysis and gluconeogenesis overlap. As hepatic glycogen declines, gluconeogenesis contributes a larger fraction and ketogenesis increases; timing depends on intake, activity and reserves.",
+      "reason": "False sequential fixed timing.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "- Brain: initially glucose-dependent; shifts to ketone bodies after 3–4 days",
+      "new": "- Brain: progressively increases ketone use during prolonged fasting while retaining a glucose requirement",
+      "reason": "Gradual not binary.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/26455443/"
+    },
+    {
+      "field": "content",
+      "old": "(AMPK effects on GLUT4 persist)",
+      "new": "(multiple contraction-related signaling and transport adaptations contribute)",
+      "reason": "Not sole AMPK cause.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21399626/"
+    },
+    {
+      "field": "content",
+      "old": "- Normal fasting blood glucose: **70–100 mg/dL**; diabetic threshold: **≥126 mg/dL** fasting",
+      "new": "- Typical fasting glucose: about **70–99 mg/dL**. Laboratory fasting plasma glucose **≥126 mg/dL** is a diabetes diagnostic threshold, generally requiring confirmation when unequivocal hyperglycemia is absent.",
+      "reason": "Diagnostic precision.",
+      "sourceUrl": "https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis"
+    },
+    {
+      "field": "content",
+      "old": "(depleted after ~12–16 hours of fasting)",
+      "new": "(declines during fasting; depletion timing varies substantially)",
+      "reason": "Unjustified fixed depletion.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "- AMPK is activated by **AMP** (not ADP or ATP) — AMP binding is the key signal",
+      "new": "- **AMP** directly allosterically activates AMPK; both AMP and **ADP** can protect Thr172 phosphorylation from removal. ATP competes with these energy-stress signals.",
+      "reason": "False ADP exclusion.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21399626/"
+    },
+    {
+      "field": "content",
+      "old": "- Glucose-6-phosphatase is present in **liver and kidney only** — not in muscle or brain",
+      "new": "- The glucose-exporting **G6PC1 system** is expressed in liver, kidney and small intestine. Skeletal muscle lacks the hepatic-style glucose-export pathway; other G6PC isoforms should not be conflated with it.",
+      "reason": "Isoforms and intestine.",
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/g6pc1/"
+    },
+    {
+      "field": "content",
+      "old": "- **AMPK activation is by AMP, not ADP** — although both rise during energy depletion, AMP is the specific allosteric activator.",
+      "new": "- **AMP allostery is not the entire AMPK mechanism** — ADP also regulates phosphorylation protection, although it does not directly activate the kinase allosterically like AMP.",
+      "reason": "Internal consistency.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21399626/"
+    },
+    {
+      "field": "content",
+      "old": "primarily through Akt-mediated changes in F-2,6-BP and enzyme phosphorylation state",
+      "new": "through several signaling and transcriptional routes, including hepatic enzyme dephosphorylation",
+      "reason": "Correct liver mechanism.",
+      "sourceUrl": "https://academic.oup.com/mend/article/12/9/1343/2754466"
+    },
+    {
+      "field": "content",
+      "old": "while simultaneously driving lipolysis to fuel the liver",
+      "new": "while low insulin and catecholamine signals help mobilize human adipose fuel",
+      "reason": "Direct glucagon claim.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/31891768/"
+    },
+    {
+      "field": "content",
+      "old": "— a mechanism exploited by metformin to lower hepatic glucose production",
+      "new": "; metformin effects are not limited to this pathway",
+      "reason": "Mechanistic certainty.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/20577053/"
+    },
+    {
+      "field": "questions.161.explanation",
+      "old": "During prolonged exercise, falling blood glucose triggers glucagon release, which activates hepatic PKA. PKA phosphorylates the bifunctional enzyme PFK-2/FBPase-2, inhibiting PFK-2 and lowering fructose-2,6-bisphosphate, which relieves inhibition of gluconeogenesis and inhibits glycolysis. This promotes glucose output to working muscles. Choice C is tempting because AMPK is activated by high AMP during exercise, but in the liver AMPK inhibits gluconeogenesis rather than promoting it, and pyruvate kinase is inhibited, not activated, under glucagon signaling.",
+      "new": "B describes the hepatic liver-isoform response: glucagon activates cAMP–PKA signaling, shifting PFK-2/FBPase-2 toward lower F2,6BP. This opposes PFK-1 and relieves FBPase-1 inhibition. PKA inhibits liver pyruvate kinase rather than allosterically activating it. Muscle AMPK activation during exercise does not establish the liver energy state, and gluconeogenesis has already been contributing before glycogen depletion.",
+      "reason": "Remove conflation tissues and absolute AMPK role.",
+      "sourceUrl": "https://academic.oup.com/mend/article/12/9/1343/2754466"
+    },
+    {
+      "field": "questions.162.choice_c",
+      "old": "Decreased acetyl-CoA carboxylase activity and decreased CREB-driven gluconeogenic gene expression",
+      "new": "Decreased acetyl-CoA carboxylase activity and lower malonyl-CoA production, with other inputs held constant.",
+      "reason": "Test direct established target instead uncertain transcription.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21399626/"
+    },
+    {
+      "field": "questions.162.explanation",
+      "old": "AMPK is activated when cellular energy is low (high AMP:ATP ratio) and acts to restore energy by inhibiting anabolic pathways and stimulating catabolism. It phosphorylates and inactivates acetyl-CoA carboxylase, reducing malonyl-CoA and thus fatty acid synthesis. AMPK also phosphorylates TORC2 (a CREB co-activator), suppressing transcription of gluconeogenic genes like PEPCK and G6Pase. Choice A is incorrect because AMPK inhibits, not activates, both fatty acid synthesis and gluconeogenesis. Choice D is wrong because AMPK inhibits glycogen synthase and HMG-CoA reductase.",
+      "new": "C follows from AMPK-mediated inhibitory phosphorylation of ACC. Less malonyl-CoA synthesis tends to reduce fatty-acid synthesis and relieve CPT-I inhibition. AMPK also commonly opposes mTORC1-driven biosynthesis. Net glucose or glycogen flux requires more context than one kinase measurement, so no obligatory CRTC2 or metformin mechanism is needed for this answer.",
+      "reason": "Direct target rationale.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21399626/"
+    },
+    {
+      "field": "questions.163.choice_a",
+      "old": "Insulin activates protein phosphatase 2A, which dephosphorylates PFK-2, increasing its kinase activity",
+      "new": "Insulin-dominant signaling favors dephosphorylation of the hepatic PFK-2/FBPase-2 isoform, increasing PFK-2 activity relative to FBPase-2.",
+      "reason": "No single phosphatase assumption.",
+      "sourceUrl": "https://academic.oup.com/mend/article/12/9/1343/2754466"
+    },
+    {
+      "field": "questions.164.question_text",
+      "old": "The brain relies almost exclusively on glucose under normal conditions. During prolonged starvation, however, it adapts to use ketone bodies. Which statement best explains why the brain cannot simply use fatty acids as its primary fuel under any condition?",
+      "new": "During prolonged fasting, the brain increases ketone use while retaining some glucose requirement. Which statement best explains why long-chain fatty acids do not simply replace glucose as the main neuronal fuel?",
+      "reason": "Remove impossible under any condition.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/26455443/"
+    },
+    {
+      "field": "questions.164.choice_b",
+      "old": "The brain lacks sufficient beta-oxidation enzymes and the blood-brain barrier limits long-chain fatty acid transport",
+      "new": "Neurons have limited long-chain fatty-acid oxidative capacity, even though fatty acids can enter the brain and some brain cells oxidize them.",
+      "reason": "No false impermeable BBB.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/26455443/"
+    },
+    {
+      "field": "questions.164.explanation",
+      "old": "Long-chain fatty acids are bound to albumin in the blood and cannot efficiently cross the blood-brain barrier, which lacks the fatty acid transport proteins needed for significant uptake. Additionally, neurons have very limited capacity for beta-oxidation. Ketone bodies, in contrast, are small, water-soluble molecules that cross the blood-brain barrier via monocarboxylate transporters and can be converted to acetyl-CoA for the TCA cycle. Choice A is incorrect because fatty acids are hydrophobic, not hydrophilic. Choice C is wrong because the brain does run the TCA cycle normally; the limitation is in fatty acid uptake and oxidation.",
+      "new": "B distinguishes transport from metabolism. Fatty acids can cross the blood–brain barrier; it does not lack all fatty-acid transport mechanisms. Limited neuronal long-chain fatty-acid oxidation and the metabolic specialization of brain cells constrain its use as a dominant fuel. Ketones cross through monocarboxylate transporters and provide acetyl-CoA for oxidation. The brain has an active TCA cycle and fatty-acid use is not exclusive to the heart.",
+      "reason": "Transport and tissue scope.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/26455443/"
+    },
+    {
+      "field": "questions.165.explanation",
+      "old": "Excess glucagon chronically activates hepatic PKA, which phosphorylates and activates glycogen phosphorylase (promoting glycogenolysis) and phosphorylates and inactivates glycogen synthase (inhibiting glycogen storage). PKA also phosphorylates CREB, upregulating transcription of PEPCK and other gluconeogenic enzymes, driving excess glucose output and hyperglycemia. Choice A is incorrect because glucagon signaling phosphorylates and inhibits pyruvate kinase in the liver. Choice C describes the insulin-dominant fed state. Choice D describes glycolytic activation, which is suppressed by glucagon.",
+      "new": "B fits excess hepatic glucagon signaling: PKA activates phosphorylase kinase, which phosphorylates glycogen phosphorylase. PKA signaling also opposes glycogen synthase and liver pyruvate kinase, while CREB-linked transcription can increase gluconeogenic enzyme abundance. PKA does not directly perform the phosphorylase-kinase step on glycogen phosphorylase. Actual glycogenolytic flux still depends on glycogen availability.",
+      "reason": "Indirect kinase cascade.",
+      "sourceUrl": "https://academic.oup.com/mend/article/12/9/1343/2754466"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "lessonId": 13,
+  "reviewedAt": "2026-11-08",
+  "questionIds": [
+    61,
+    62,
+    63,
+    64,
+    65
+  ],
+  "sources": [
+    {
+      "title": "Protein folding and processing",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "title": "Essentials of Glycobiology: N-glycans",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK579964/"
+    },
+    {
+      "title": "Cellular organization of glycosylation",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK453052/"
+    },
+    {
+      "title": "Non-lysine ubiquitination",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769291/"
+    },
+    {
+      "title": "Collagen structure and stability",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19344236/"
+    },
+    {
+      "title": "Proinsulin folding and processing",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2740536/"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5940312/",
+      "title": "Insulin receptor activation: structural study"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5724187/",
+      "title": "SUMO and ubiquitin co-modification"
+    }
+  ],
+  "visual": {
+    "title": "Protein processing: location and order matter",
+    "src": "/lesson-diagrams/protein-processing.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "Three panels compare reversible phosphorylation, insulin processing with disulfide formation before C-peptide removal, and ER Golgi versus nuclear cytoplasmic glycosylation.",
+    "caption": "Schematic overview. Modification effects depend on protein, site and cell context."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "9f43b4900faa9a0a1919eb8db09ca64cb2a826fce71652a964097eae6f4037fc"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "663858f789a8eead470a7284fba6f7ce96518f37fb234e7371aae779c04d24da"
+    },
+    {
+      "field": "questions.61.question_text",
+      "sha256": "2fcfef298f5b5ec8afb284c07ddd8079d54c71a52d51029cdb7ac96fa9cd7f60"
+    },
+    {
+      "field": "questions.61.choice_a",
+      "sha256": "b5329da4f9575dd47c6c2e508df7111e07a82eec569fa2a3127175f076ffe7f5"
+    },
+    {
+      "field": "questions.61.choice_b",
+      "sha256": "4f09463758cf82ec10032af5aac2d2821d04437ecfd32c76ca8be06840aa9c46"
+    },
+    {
+      "field": "questions.61.choice_c",
+      "sha256": "e2cf81cf6f77fa107ce18f1b9947437588a941d1da7ff3141da89e1cdce5836e"
+    },
+    {
+      "field": "questions.61.choice_d",
+      "sha256": "4360a34b4076d45b35e294dbcd0549d16e1f004836eb531f175581c101e1ccc6"
+    },
+    {
+      "field": "questions.61.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.61.explanation",
+      "sha256": "5ee73161957739ea3c3f3d8f940d7cda33aae7381d81a91e5a7708ba36d9d4f2"
+    },
+    {
+      "field": "questions.62.question_text",
+      "sha256": "7d23996661c41f72bd327685bf3e7dd4694f22d6e1a85c5d600e2d53412f60bb"
+    },
+    {
+      "field": "questions.62.choice_a",
+      "sha256": "03c208b4a4c8a49be36ce72180e45417d7b15ab63229f540c004a28b64d33bd9"
+    },
+    {
+      "field": "questions.62.choice_b",
+      "sha256": "2267c00ac2ca037aaba0caa0ddd279e86e7914af3b658adc8857be1fc8fefd0e"
+    },
+    {
+      "field": "questions.62.choice_c",
+      "sha256": "82956d22348f97b1f771f49ba5897c4e2bfa8d713bd61e4f49d7d4a87a313f18"
+    },
+    {
+      "field": "questions.62.choice_d",
+      "sha256": "d3b157247fd633ca0fcf7446bef65a47f0a0e2ee355301e92f0206dfd0a23f10"
+    },
+    {
+      "field": "questions.62.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.62.explanation",
+      "sha256": "a87b3a050d1a75a0066a0a105351142841ee94bebe0534590d22b97686b53c62"
+    },
+    {
+      "field": "questions.63.question_text",
+      "sha256": "e47467500a55721b7095e86b87e086e5f9c952cea218a371dcff0912f38237e2"
+    },
+    {
+      "field": "questions.63.choice_a",
+      "sha256": "5912cbd59f8c7e99d849cf1ae0cc31b4054a467af18cb380c21c60dd78086ecf"
+    },
+    {
+      "field": "questions.63.choice_b",
+      "sha256": "aee89befafd6ac92ab2ecb008674aac7fbd31fd070f95b675ba98662ee295d59"
+    },
+    {
+      "field": "questions.63.choice_c",
+      "sha256": "4408d85bc73b89dfff0584a0e181f843c1d3499dde0c20684cd1525861ce589b"
+    },
+    {
+      "field": "questions.63.choice_d",
+      "sha256": "7763aed17aabac1b9e85cad6548229e628d3afe68b613a3a1f4ab378f7b0ea23"
+    },
+    {
+      "field": "questions.63.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.63.explanation",
+      "sha256": "b75fe8a51841292dfb15c57c8a4321bd09a54fefe3cdaf5ac5c46b06d9b09d0d"
+    },
+    {
+      "field": "questions.64.question_text",
+      "sha256": "87fe30f2d81e2ac626be607e5a8d1d24cce6999ac6d0eb2bc42c42ee9cdd471f"
+    },
+    {
+      "field": "questions.64.choice_a",
+      "sha256": "5c85d82c0eaaab04e4db843b39c96ea8f33a6aaee0864935d26b6739f520f00f"
+    },
+    {
+      "field": "questions.64.choice_b",
+      "sha256": "366575d19eea5f21f85e4630a9487f02aacb9323b28ecaebd4af9d79c0d4db98"
+    },
+    {
+      "field": "questions.64.choice_c",
+      "sha256": "a8c7c6d6d202ce600b9b1df60d30680fadb410eb8b6e3f02daed7a4657f8c1fa"
+    },
+    {
+      "field": "questions.64.choice_d",
+      "sha256": "e896d0c20dac980ff27392637933cf086211ac65b823768f94bf1ed4f08e5cd5"
+    },
+    {
+      "field": "questions.64.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.64.explanation",
+      "sha256": "1d82e7959c8f3838860af1ec98a73c1a046bb88d6bb75722d7d2e17b4646dc38"
+    },
+    {
+      "field": "questions.65.question_text",
+      "sha256": "7e003cb01edaf54e38cd87aed3c9400b427e13059b890a4b1ddd5f315c4f19e1"
+    },
+    {
+      "field": "questions.65.choice_a",
+      "sha256": "7d28a7ac71b32538a604dd5bd4aa7fa8464660ec5f3b4afe3aa841bb6e4fb0bf"
+    },
+    {
+      "field": "questions.65.choice_b",
+      "sha256": "ca838f4a18dc7409f934117c26438a0b35f8e6b591de465e71cd6b1f9c9d81eb"
+    },
+    {
+      "field": "questions.65.choice_c",
+      "sha256": "2c2fa5ddecea1ef9a3a0b1d99606ca8719e9e63337758e87ad710a4736340002"
+    },
+    {
+      "field": "questions.65.choice_d",
+      "sha256": "3e1132a4411a33b45d4d6126e16b5bd43cdb7256b7401171ef39157dc230894a"
+    },
+    {
+      "field": "questions.65.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.65.explanation",
+      "sha256": "24efc980322c478dc7263a665aa8f4f829a0ee2d6cac5efa448551eb0989110c"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Post-Translational Modifications and Protein Diversity\n\n### Introduction: Why the Proteome Is Larger Than the Genome\n\nThe human genome encodes roughly 20,000 protein-coding genes, while splicing and chemical processing generate many more protein forms (proteoforms). This enormous disparity cannot be explained by gene count alone. **Post-translational modifications (PTMs)** are covalent chemical changes made to proteins during protein maturation or after synthesis; some modifications commonly discussed in this category begin co-translationally. These modifications dramatically expand functional diversity, allow rapid and reversible regulation of protein activity, determine protein localization, control protein lifespan, and orchestrate nearly every cellular signaling cascade. For the MCAT, PTMs appear in the context of enzyme regulation, signal transduction, cell biology, and molecular genetics. Understanding the chemistry, location, and functional consequences of the major PTMs is essential for integrating these topics.\n\n---\n\n## The Logic of Post-Translational Modification\n\nBefore examining individual modifications, it is worth appreciating the general logic. Changing gene expression often takes longer than modifying an existing protein. Rates vary widely: some regulatory modifications respond rapidly, while others are slow or stable. This makes them ideal for rapid regulatory responses. Many PTMs are also *reversible*, meaning the same protein can be switched on and off repeatedly without new synthesis. Others are *irreversible*, committing a protein to a particular fate such as degradation or permanent activation.\n\nPTMs work by changing the protein's:\n- **Charge** – adding or removing charged groups alters electrostatic interactions and protein conformation\n- **Steric bulk** – large sugar chains or protein tags physically block or expose binding sites\n- **Hydrophobicity** – lipid additions anchor proteins to membranes\n- **Recognition signals** – certain modifications create docking sites for downstream proteins or target the protein for destruction\n\nWith this framework in mind, each major PTM category becomes easier to understand mechanistically.\n\n---\n\n## Phosphorylation\n\n### Chemistry and Enzymology\n\n**Phosphorylation** is the addition of a phosphate group (–PO₄²⁻) to a protein, most commonly on the hydroxyl side chains of **serine**, **threonine**, or **tyrosine** residues. The reaction is catalyzed by **protein kinases**, which transfer the γ-phosphate from ATP to the target residue, producing ADP as a byproduct. Removal of the phosphate group is catalyzed by **protein phosphatases**, which hydrolyze the phosphoester bond. Because both addition and removal require specific enzymes, phosphorylation is tightly regulated and fully reversible.\n\nThe phosphate group carries two negative charges at physiological pH (the pKa values for the two ionizable protons of a phosphomonoester are approximately 1.0 and 6.0, so the dianionic state predominates at pH 7.4; local environment can shift ionization). This introduction of negative charge can:\n- Disrupt hydrophobic cores, inducing conformational change\n- Create or destroy binding interfaces for other proteins\n- Directly activate or inhibit catalytic activity by repositioning active-site residues\n\n### Functional Consequences\n\nPhosphorylation can both *activate* and *inhibit* target proteins. Classic examples illustrate both outcomes:\n\n- **Glycogen phosphorylase**: Phosphorylation by phosphorylase kinase at Ser14 activates the enzyme, promoting glycogen breakdown during the fight-or-flight response.\n- **Glycogen synthase**: Phosphorylation by glycogen synthase kinase-3 (GSK-3) and other kinases *inhibits* this enzyme, coordinately shutting down glycogen synthesis when breakdown is activated.\n- **Receptor tyrosine kinases (RTKs)**: For many RTKs, ligand binding promotes dimerization and *trans-autophosphorylation*; preassembled receptors can instead rearrange of tyrosine residues in the cytoplasmic domain. These phosphotyrosines serve as docking sites for SH2-domain-containing proteins, propagating the signal downstream.\n\n### Kinase Cascades and Signal Amplification\n\nA single extracellular signal can activate one kinase, which phosphorylates and activates many copies of a second kinase, which in turn phosphorylates many copies of a third kinase. This **kinase cascade** provides enormous signal amplification. The MAP kinase pathway (Ras → Raf → MEK → ERK) is a canonical example tested on the MCAT. Catalytic tiers can amplify the signal, although feedback and phosphatases shape the response, so even a small number of activated receptors can trigger a large cellular response.\n\n### MCAT Relevance\n\nPhosphorylation is embedded throughout MCAT biochemistry: insulin signaling, cAMP/PKA pathways, the cell cycle (CDK-cyclin complexes phosphorylate Rb to release E2F), and muscle contraction (myosin light-chain kinase). Recognizing that a kinase *adds* phosphate from ATP and a phosphatase *removes* it is foundational.\n\n---\n\n## Glycosylation\n\n### N-linked vs. O-linked Glycosylation\n\n**Glycosylation** is the attachment of carbohydrate chains (**glycans**) to proteins. It is the most structurally diverse PTM because the sugar units themselves can vary in identity, sequence, and branching pattern, generating enormous combinatorial complexity. Two major forms exist:\n\n**N-linked glycosylation** occurs in the endoplasmic reticulum (ER) and is completed in the Golgi apparatus. A pre-assembled oligosaccharide (Glc₃Man₉GlcNAc₂) is transferred en bloc from a dolichol-pyrophosphate-linked donor to the amide nitrogen of an **asparagine** residue within the consensus sequence **Asn-X-Ser/Thr** (where X is any amino acid except proline). Subsequent trimming and remodeling of this core oligosaccharide occurs as the protein moves through the ER and Golgi, producing high-mannose, complex, or hybrid glycan structures.\n\n**Mucin-type O-GalNAc glycosylation** begins mainly in the Golgi. O-GlcNAc cycling on nuclear and cytoplasmic proteins occurs in those compartments, not in the Golgi. Individual sugar residues are added sequentially to the hydroxyl oxygen of **serine** or **threonine** residues. There is no strict consensus sequence. O-GalNAc glycosylation of mucins is a prominent example; O-GlcNAc modification of nuclear and cytoplasmic proteins is another, and the latter can compete with phosphorylation at the same serine/threonine residues.\n\n### Functions of Glycosylation\n\nGlycosylation serves multiple roles:\n- **Protein folding quality control**: In the ER, the lectin chaperones **calnexin** and **calreticulin** bind to monoglucosylated N-linked glycans, retaining incompletely folded proteins until they achieve their native conformation. This quality-control system favors export of correctly folded proteins, but it is not infallible.\n- **Cell-cell recognition**: Glycans on the cell surface mediate adhesion. Selectins on leukocytes and endothelial cells recognize specific carbohydrate structures (e.g., sialyl-Lewis X) during inflammation.\n- **Protection from proteolysis**: Bulky glycan chains sterically shield the polypeptide backbone from protease attack, extending protein half-life. Mucins lining the gastrointestinal tract exemplify this.\n- **ABO blood group antigens**: The ABO system is determined by glycosyltransferases that add specific terminal sugars to a core oligosaccharide on red blood cell surface glycoproteins and glycolipids. The A allele encodes an enzyme adding GalNAc; the B allele encodes an enzyme adding galactose; the O allele encodes a nonfunctional enzyme, leaving the H antigen unmodified.\n\n### Glycosylation and Disease\n\nCongenital disorders of glycosylation (CDGs) arise from mutations in glycosylation enzymes and cause multisystem disease. Lysosomal storage diseases such as I-cell disease result from failure to add mannose-6-phosphate targeting signals (a form of glycan modification) to lysosomal enzymes, causing them to be secreted rather than delivered to lysosomes.\n\n---\n\n## Ubiquitination\n\n### The Ubiquitin System\n\n**Ubiquitin** is a highly conserved 76-amino-acid protein found in all eukaryotic cells. **Ubiquitination** (also spelled ubiquitylation) is the covalent attachment of ubiquitin to a target protein, typically via an isopeptide bond between the C-terminal glycine of ubiquitin and the ε-amino group of a **lysine** residue on the substrate.\n\nThe reaction requires three classes of enzymes working in sequence:\n- **E1 (ubiquitin-activating enzyme)**: Uses ATP to form a high-energy thioester bond between ubiquitin and the E1 active-site cysteine, \"charging\" ubiquitin.\n- **E2 (ubiquitin-conjugating enzyme)**: Accepts ubiquitin from E1 via transthioesterification.\n- **E3 (ubiquitin ligase)**: Binds both the E2-ubiquitin complex and the substrate protein, facilitating transfer of ubiquitin to the substrate. E3 ligases provide substrate specificity—there are hundreds of E3 ligases in humans, each recognizing specific substrate proteins or **degrons** (degradation signals).\n\n### Polyubiquitin Chains and the Proteasome\n\nUbiquitin itself contains seven lysine residues (K6, K11, K27, K29, K33, K48, K63) and a free N-terminal methionine, all of which can serve as attachment points for additional ubiquitin molecules, forming **polyubiquitin chains**. The type of linkage determines the functional outcome:\n\n- **K48-linked polyubiquitin chains** are a canonical signal for proteasomal degradation. The **26S proteasome** recognizes K48-linked chains, unfolds the substrate using AAA-ATPase subunits, and threads it into the 20S catalytic core, where it is cleaved into peptides of varying lengths. Ubiquitin is recycled by deubiquitinating enzymes (DUBs).\n- **K63-linked polyubiquitin chains** are typically non-degradative and instead function in DNA damage repair, endosomal sorting, and NF-κB activation.\n- **Monoubiquitination** (addition of a single ubiquitin) regulates histone function, receptor endocytosis, and DNA damage tolerance.\n\n### Physiological Importance\n\nThe ubiquitin-proteasome system (UPS) is the primary mechanism for degrading short-lived regulatory proteins and misfolded proteins in the cytoplasm and nucleus. Key examples include:\n- **Cyclins**: Rapid cyclin degradation by the anaphase-promoting complex/cyclosome (APC/C) E3 ligase is essential for cell cycle progression. Cyclin B must be destroyed to exit mitosis.\n- **p53**: Under normal conditions, the E3 ligase MDM2 ubiquitinates p53, targeting it for proteasomal degradation and keeping p53 levels low. DNA damage disrupts this interaction, allowing p53 to accumulate and activate target genes.\n- **IκB**: The NF-κB transcription factor is held inactive in the cytoplasm by IκB. Phosphorylation of IκB by IKK kinase triggers its ubiquitination and proteasomal degradation, freeing NF-κB to enter the nucleus.\n\n### Ubiquitination and Disease\n\nDysregulation of ubiquitination contributes to cancer (for example, excessive degradation of tumor suppressors or impaired degradation of oncoproteins), neurodegeneration (accumulation of ubiquitinated protein aggregates in Parkinson's and Alzheimer's diseases), and viral pathogenesis (viruses hijack E3 ligases to degrade host immune proteins). Proteasome inhibitors such as **bortezomib** are used clinically to treat multiple myeloma.\n\n---\n\n## Proteolytic Cleavage\n\n### Irreversible Activation and Inactivation\n\nUnlike the modifications discussed above, **proteolytic cleavage** is irreversible. Ordinary regulatory proteolysis is not reversed by a phosphatase-like enzyme; restoring the original protein generally requires synthesis. Specialized peptide-ligation reactions exist. Despite this permanence, proteolytic cleavage is one of the most important PTMs in biology, used to activate enzymes, generate hormones, and enforce directionality in developmental and physiological processes.\n\n### Zymogens\n\nMany proteases and other enzymes are synthesized as inactive precursors called **zymogens** (or proenzymes). The inactive form prevents premature activity that could damage the cell of origin. Cleavage of a specific peptide segment—often called the **propeptide** or **activation peptide**—exposes or rearranges the active site.\n\nClassic examples:\n- **Pepsinogen → Pepsin**: The gastric chief cells secrete pepsinogen. In the acidic stomach (pH ~2), the propeptide is cleaved autocatalytically and by existing pepsin, generating active pepsin. Low pH changes protonation and disrupts interactions that keep the propeptide inhibitory, enabling cleavage and active-site access.\n- **Trypsinogen → Trypsin**: Secreted by the pancreas into the small intestine. The brush-border enzyme **enterokinase** (enteropeptidase) cleaves the N-terminal hexapeptide of trypsinogen. Active trypsin then autocatalytically activates more trypsinogen and also activates chymotrypsinogen, proelastase, and other pancreatic zymogens.\n- **Chymotrypsinogen → Chymotrypsin**: Trypsin cleaves between Arg15 and Ile16, producing π-chymotrypsin. Two additional cleavages produce α-chymotrypsin, the fully active form. The newly formed N-terminus (Ile16) tucks into the protein and forms a salt bridge with Asp194, stabilizing the oxyanion hole.\n\n### Prohormones and Neuropeptides\n\nMany hormones are synthesized as larger precursors that undergo proteolytic processing:\n- **Proinsulin → Insulin**: Proinsulin contains A and B chains connected by the C-peptide. Prohormone convertases cleave out the C-peptide in secretory granules, generating the disulfide-bonded mature insulin. C-peptide is co-secreted in equimolar amounts with insulin and is used clinically to distinguish endogenous insulin secretion from exogenous insulin injection.\n- **POMC (pro-opiomelanocortin)**: A single precursor protein that is differentially cleaved in different tissues to produce ACTH, β-endorphin, α-MSH, and other peptides, illustrating how one gene can yield multiple bioactive products.\n\n### Blood Coagulation Cascade\n\nThe coagulation cascade is an elegant example of sequential zymogen activation. Several clotting factors are protease zymogens activated by cleavage. Other components act as cofactors (V and VIII), substrates (fibrinogen), or enzymes of another class (factor XIII is a transglutaminase). This cascade architecture provides signal amplification (a small initial stimulus generates a large burst of thrombin) and spatial restriction (localized surfaces, inhibitors, and blood flow normally restrict activation). Thrombin itself cleaves fibrinogen to fibrin, which polymerizes into the clot.\n\n---\n\n## Additional Important PTMs\n\n### Acetylation\n\n**Acetylation** is the transfer of an acetyl group from acetyl-CoA to the ε-amino group of lysine residues, catalyzed by **histone acetyltransferases (HATs)**. Removal is catalyzed by **histone deacetylases (HDACs)**. On histones, acetylation neutralizes the positive charge of lysine, weakening interactions with negatively charged DNA and generally *opening* chromatin (**euchromatin**), thereby promoting transcription. Acetylation also occurs on non-histone proteins; for example, p53 is acetylated to enhance its transcriptional activity.\n\n### Methylation\n\n**Methylation** of lysine and arginine residues on histones is catalyzed by **histone methyltransferases** using S-adenosylmethionine (SAM) as the methyl donor. Unlike acetylation, methylation does not change the charge of lysine. The functional outcome depends on the residue, degree of methylation, reader proteins and chromatin context (mono-, di-, or trimethylation):\n- **H3K4me3** (trimethylation of histone H3 lysine 4) marks active promoters\n- **H3K27me3** marks repressed genes (added by PRC2 complex)\n- **H3K9me3** marks constitutive heterochromatin\n\n### Lipid Modifications\n\nLipid modifications promote membrane association. The side of the membrane depends on the modification:\n- **Myristoylation**: Co-translational attachment of myristic acid (C14 saturated fatty acid) to the N-terminal glycine via an amide bond. Src-family kinases are myristoylated.\n- **Palmitoylation**: Post-translational attachment of palmitic acid (C16) to cysteine via a thioester bond. This modification is reversible, allowing dynamic membrane association.\n- **Prenylation (farnesylation/geranylgeranylation)**: Attachment of isoprenoid lipids to cysteine residues near the C-terminus. Ras proteins are farnesylated; this is required for their membrane localization and oncogenic activity.\n- **GPI anchors**: Glycosylphosphatidylinositol anchors attach proteins to the extracellular leaflet of the plasma membrane. Many complement regulatory proteins and cell-surface markers (CD55, CD59) are GPI-anchored.\n\n### Hydroxylation\n\n**Hydroxylation** of proline and lysine residues in collagen is catalyzed by prolyl hydroxylase and lysyl hydroxylase, both of which require **vitamin C (ascorbate)** as a cofactor to maintain the iron cofactor in the Fe²⁺ state. Hydroxyproline favors collagen triple-helix stability through stereoelectronic and conformational effects; hydration also contributes. Vitamin C deficiency causes **scurvy** because under-hydroxylated collagen is unstable and cannot form normal fibers, leading to connective tissue breakdown. Hydroxylation of **HIF-1α** (hypoxia-inducible factor) by prolyl hydroxylases under normoxic conditions targets it for VHL-mediated ubiquitination and degradation—a beautiful example of PTM cross-talk.\n\n### Disulfide Bond Formation\n\n**Disulfide bonds** form between the thiol groups of two cysteine residues by oxidation. In eukaryotes, this occurs in the oxidizing environment of the ER lumen, facilitated by **protein disulfide isomerase (PDI)**. Disulfide bonds stabilize the folded structure of secreted and membrane proteins. Insulin's A and B chains are held together by two inter-chain disulfide bonds, with one additional intra-chain disulfide in the A chain.\n\n---\n\n## Cross-Talk Among PTMs\n\nOne of the most important concepts for the MCAT is that PTMs do not act in isolation—they interact in complex regulatory networks. Several examples:\n\n- **Phosphorylation primes ubiquitination**: IκB must be phosphorylated before the SCF E3 ligase can ubiquitinate it. β-catenin must be phosphorylated by GSK-3β before β-TrCP E3 ligase targets it for degradation. In both cases, phosphorylation creates a **phosphodegron**, a degradation signal recognized by a specific E3 ligase.\n- **Acetylation and methylation compete on histones**: The same lysine residue can be either acetylated or methylated, but not both simultaneously. The balance between HATs, HDACs, methyltransferases, and demethylases determines the transcriptional state of a locus.\n- **O-GlcNAcylation and phosphorylation compete**: O-GlcNAc transferase modifies many of the same serine/threonine residues as protein kinases, sometimes competing at the same site and sometimes influencing nearby sites or enzymes; the relationship is context-dependent.\n- **Ubiquitination and SUMOylation compete**: **SUMO** (small ubiquitin-like modifier) is attached to many of the same lysine residues targeted by ubiquitin. SUMOylation may compete with ubiquitination, alter interactions, or recruit SUMO-targeted ubiquitin ligases that promote degradation.\n\n---\n\n## Proteome Diversity: Putting It All Together\n\nConsider a single protein as it moves through the cell. It may be:\n1. **Co-translationally** N-glycosylated in the ER and folded with chaperone assistance\n2. **Trimmed and remodeled** in the Golgi, acquiring complex glycans\n3. **Phosphorylated** by a kinase in response to a signal, changing its activity\n4. **Ubiquitinated** when the signal ends, targeting it for proteasomal degradation\n5. Or alternatively, **acetylated** to protect it from ubiquitination\n\nEach modification state is a chemically distinct proteoform; not every difference has a demonstrated functional consequence, even though the underlying amino acid sequence is identical. Multiply this by the number of proteins in the cell, and the logic of proteome diversity becomes clear.\n\n**Alternative splicing** further compounds this diversity at the RNA level—the same gene can produce multiple protein isoforms that are then differentially modified. Alternative splicing and protein modifications expand diversity far beyond gene number; the total depends on how proteoforms are defined and measured.\n\n---\n\n## Summary Table of Key PTMs\n\n- **Phosphorylation**: Residues Ser/Thr/Tyr; added by kinases (ATP), removed by phosphatases; regulates activity, creates docking sites; reversible\n- **N-glycosylation**: Residue Asn; initial transfer by oligosaccharyltransferase in ER, followed by ER/Golgi processing; folding and trafficking; not a simple reversible on/off switch\n- **O-glycosylation**: Residues Ser/Thr; mucin-type glycans added mainly in Golgi; nuclear/cytoplasmic O-GlcNAc added by OGT and removed by OGA; reversibility depends on type\n- **Ubiquitination**: Residue Lys; added by E1/E2/E3 cascade (ATP); proteasomal degradation (K48), DNA repair (K63); reversible by DUBs\n- **Proteolytic cleavage**: Peptide backbone; by specific proteases; zymogen activation, hormone maturation; *irreversible*\n- **Acetylation**: Residue Lys; added by HATs (acetyl-CoA), removed by HDACs; chromatin regulation, protein stability; reversible\n- **Methylation**: Residues Lys/Arg; added by methyltransferases (SAM); chromatin regulation; reversible by demethylases\n- **Palmitoylation**: Residue Cys; by palmitoyl transferases; membrane anchoring; reversible (thioester)\n- **Hydroxylation**: Residues Pro/Lys; by hydroxylases (vitamin C required); collagen stability, HIF-1α degradation; irreversible\n\n---\n\n## MCAT High-Yield Takeaways\n\n- Phosphorylation is the dominant regulatory PTM in signal transduction. Know that kinases use ATP, phosphatases remove phosphate, and the same modification can activate one protein while inhibiting another.\n- N-glycosylation begins in the ER and is completed in the Golgi; the calnexin/calreticulin quality control cycle depends on glycan trimming.\n- Ubiquitin-mediated proteasomal degradation commonly uses an E1-E2-E3 cascade and ATP; K48 chains are a classic targeting signal, but not the only degradation signal. Cell cycle control (cyclin degradation) and tumor suppression (p53/MDM2) depend on this system.\n- Proteolytic cleavage is irreversible and is used to activate zymogens (digestive enzymes, clotting factors) and process prohormones (proinsulin, POMC).\n- Vitamin C deficiency impairs prolyl hydroxylation of collagen, causing scurvy—a direct connection between a micronutrient and a specific PTM.\n- PTM cross-talk (phosphorylation priming ubiquitination; acetylation vs. methylation on histones) is a recurring theme in regulation and appears in MCAT passages on signal transduction and gene expression.\n- The enormous diversity of the proteome relative to the genome is explained by the combination of alternative splicing and post-translational modifications.\n\nUnderstanding PTMs as a unified conceptual framework—covalent modifications that alter protein function, localization, interaction, and stability—will allow you to reason through novel MCAT passages even when the specific protein is unfamiliar. The underlying chemistry and logic remain constant."
+    },
+    {
+      "field": "questions.61.explanation",
+      "value": "B is supported by the kinase reaction and the phenotype: inhibitory phosphorylation is lost. Serine can undergo other modifications, including O-glycosylation and some noncanonical ubiquitination, so its identity alone would not prove the mechanism. Unchanged abundance helps distinguish activity regulation from altered degradation."
+    },
+    {
+      "field": "questions.61.question_text",
+      "value": "A signaling protein normally loses activity after a kinase transfers phosphate from ATP to a specific serine. A Ser→Ala mutant remains active despite normal protein abundance. Which modification is missing, and what is the most likely consequence?"
+    },
+    {
+      "field": "questions.62.choice_b",
+      "value": "Processing removes the signal peptide and then C-peptide, yielding mature insulin whose A and B chains retain disulfide bonds formed in proinsulin."
+    },
+    {
+      "field": "questions.62.explanation",
+      "value": "B is correct. Signal-peptide removal and folding produce proinsulin in the ER, including its disulfide bonds. Later cleavage at the C-peptide junctions and trimming produce mature insulin. C-peptide removal does not create the disulfide bonds for the first time; insulin maturation is not glycosylation, phosphorylation, or secretion through a proteasome."
+    },
+    {
+      "field": "questions.64.explanation",
+      "value": "A is correct: linkage architecture helps determine ubiquitin-dependent recognition. K48 chains commonly promote proteasomal degradation, while K63 chains have important signaling roles. These are characteristic associations rather than absolute, mutually exclusive fates for every substrate."
+    }
+  ]
+}
