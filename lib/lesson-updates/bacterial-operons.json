@@ -45,7 +45,10 @@
   "visual": {
     "src": "/lesson-diagrams/bacterial-operons.svg",
     "alt": "Lac repressor and CAP are separate controls. In the trp leader, a ribosome covering region 2 favors the 3–4 terminator; stalling in region 1 permits the 2–3 antiterminator.",
-    "caption": "Two regulatory layers: lactose-independent expression does not imply glucose independence, and loss of TrpR does not remove attenuation."
+    "caption": "Two regulatory layers: lactose-independent expression does not imply glucose independence, and loss of TrpR does not remove attenuation.",
+    "title": "Separate switches in lac and trp regulation",
+    "width": 800,
+    "height": 740
   },
   "guards": [
     {

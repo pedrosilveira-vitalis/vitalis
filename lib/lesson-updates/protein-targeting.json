@@ -53,7 +53,10 @@
   "visual": {
     "src": "/lesson-diagrams/protein-targeting.svg",
     "alt": "A compartment map distinguishes ER and Golgi glycosylation from nuclear and cytosolic O-GlcNAc, with separate mitochondrial, nuclear and peroxisomal targeting routes.",
-    "caption": "A modification’s location and a protein’s destination depend on the pathway. These are representative routes, not universal requirements for every protein."
+    "caption": "A modification’s location and a protein’s destination depend on the pathway. These are representative routes, not universal requirements for every protein.",
+    "title": "Protein destinations and modification compartments",
+    "width": 800,
+    "height": 740
   },
   "guards": [
     {

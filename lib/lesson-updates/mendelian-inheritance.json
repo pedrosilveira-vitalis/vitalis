@@ -1,0 +1,217 @@
+{
+  "lessonId": 44,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    216,
+    217,
+    218,
+    219,
+    220
+  ],
+  "sources": [
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance",
+      "title": "OpenStax Biology 2e: Laws of inheritance"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-025-08891-6",
+      "title": "Feng et al. (2025): Genomic and genetic insights into Mendel’s pea genes"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK2267/",
+      "title": "NCBI: The ABO blood group"
+    },
+    {
+      "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/",
+      "title": "MedlinePlus Genetics: Inheritance patterns"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35f.htm",
+      "title": "NIST: Chi-square goodness-of-fit test"
+    }
+  ],
+  "visual": {
+    "title": "Read the cross: probability, not a quota",
+    "src": "/lesson-diagrams/mendelian-inheritance.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "A Tt by Tt Punnett square has TT, Tt, Tt and tt cells. Three cells give the dominant phenotype. An independent two-gene branch multiplies probabilities to give 9/16, 3/16, 3/16 and 1/16.",
+    "caption": "Each square is an equally likely gamete pair under the stated model. Expected fractions do not require a small family to contain those exact proportions."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "74aebbdf2a0512dd71a46e33e2f08aff276786c7350d85182d96748c9b62cea8"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "e544d20f039e1996cd32356b7c58726de19ae1195b26fc67901497ce341902ca"
+    },
+    {
+      "field": "questions.216.question_text",
+      "sha256": "49a050894c40c0e23acb4336db3614cd6327fd0e7574abcc0022ef4e84038d50"
+    },
+    {
+      "field": "questions.216.choice_a",
+      "sha256": "0fa33c746ee8db617316a7307ecf4d0c8f43c734a48f84dd74f58e8b0433ec55"
+    },
+    {
+      "field": "questions.216.choice_b",
+      "sha256": "fc4ac5f6f6dc1751c41ea558361cb52c3f326238bf31eb7ba4dc84c12a3b26ea"
+    },
+    {
+      "field": "questions.216.choice_c",
+      "sha256": "786c7af8138b5990e8e6802361e8725f6e14ebf5395b0b85a47516330111186c"
+    },
+    {
+      "field": "questions.216.choice_d",
+      "sha256": "f5f850187bcb16dd8a81369271468397d833123370024958454b6ab0010a1b40"
+    },
+    {
+      "field": "questions.216.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.216.explanation",
+      "sha256": "8690c2a5337298f35f40c485c4995dbab04a313a0dc5d86d122a300da4832e8b"
+    },
+    {
+      "field": "questions.217.question_text",
+      "sha256": "9f3090262e751a4a3f24de29b21635d52c8ab12f48d2bce3fd588330c720b313"
+    },
+    {
+      "field": "questions.217.choice_a",
+      "sha256": "d3d4976c68ee6510ecfc5746c64845dde8ce7315fc502a2273277189ec1f46d5"
+    },
+    {
+      "field": "questions.217.choice_b",
+      "sha256": "55b0a188911e964b4ab318e77149491569d5339e6fcd1f18e515960bc4ce0124"
+    },
+    {
+      "field": "questions.217.choice_c",
+      "sha256": "6c3c8cddfeb414324507c444b95d279b4acb1df54bb965423e64c92380ec4c7e"
+    },
+    {
+      "field": "questions.217.choice_d",
+      "sha256": "350e3191ed36e9b182b35856dc8db7f50a4434ef6708db75d8f3345dc1a5c544"
+    },
+    {
+      "field": "questions.217.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.217.explanation",
+      "sha256": "d9880841f76631962b157f0a3582b75229a869cea45bb5c4ba058082cd5e87d9"
+    },
+    {
+      "field": "questions.218.question_text",
+      "sha256": "cd6270b5c3d6e008d3113c21ceca3c18f974c8a82db8115445cc8f71d5a4325e"
+    },
+    {
+      "field": "questions.218.choice_a",
+      "sha256": "d939926f05444b0f4495fb9629ecbfa80d99a8ec1a20d06800ca5a3d5f4fd276"
+    },
+    {
+      "field": "questions.218.choice_b",
+      "sha256": "f70b94aeb67de2a5eb4bd8c2ea85128f13776cb545a661abe422b378a6cf3099"
+    },
+    {
+      "field": "questions.218.choice_c",
+      "sha256": "52e90ae24326591c8161e2e05a8f3b9b57287ca13aba3be7e84043691e160ba6"
+    },
+    {
+      "field": "questions.218.choice_d",
+      "sha256": "ece2d97a690303566cb7ba329f7bf3e25baedb393c113372798d4230af8de720"
+    },
+    {
+      "field": "questions.218.correct_answer",
+      "sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    },
+    {
+      "field": "questions.218.explanation",
+      "sha256": "fbd817957f93e22c02afc2118a1ed95d66d7433f7cdc1dfd36c0c2c88008c2a7"
+    },
+    {
+      "field": "questions.219.question_text",
+      "sha256": "eb69e1ca298958cafa0f838415f5cf98b869375cba200c69dd3f3a54b4a7b330"
+    },
+    {
+      "field": "questions.219.choice_a",
+      "sha256": "9faa15d8a6957352e0def57b9e58c8f3318ce113b2452333b0b3a11820f20c02"
+    },
+    {
+      "field": "questions.219.choice_b",
+      "sha256": "0961b20dc051bd3e72d2843fb1b10975202b3627a7175886b662d6fa5e553213"
+    },
+    {
+      "field": "questions.219.choice_c",
+      "sha256": "1b8da4bbaf0f20ce72c12719867158b3f0a7002a32c86ba1fea2e0d1d70afe63"
+    },
+    {
+      "field": "questions.219.choice_d",
+      "sha256": "b50f42c12ab568ecc44708dca263aec6cd34b55b46474a51781b9b0a339e1a89"
+    },
+    {
+      "field": "questions.219.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.219.explanation",
+      "sha256": "8c492d6492ed8a1dc312c832825582cee07502772d9e3802d0c7150e09dde367"
+    },
+    {
+      "field": "questions.220.question_text",
+      "sha256": "b8222dd206a957203e250a13600dc71d6b29348d62887bdd3bf5fc69b0005a88"
+    },
+    {
+      "field": "questions.220.choice_a",
+      "sha256": "6400a9c2479f8ecfa5c411fd1b5655edd94d6b501fdbdd89b4cc84be9ae804cd"
+    },
+    {
+      "field": "questions.220.choice_b",
+      "sha256": "a24476e44eb6d8246855b45274b0ac5b77fd79114be06dc7e81e277372d679b3"
+    },
+    {
+      "field": "questions.220.choice_c",
+      "sha256": "def4b348e1e2d89ab719eece5e90a5b10caf76c05ea12baef8e4a73b518f3b6d"
+    },
+    {
+      "field": "questions.220.choice_d",
+      "sha256": "7a5b1e44ff6e7fa48554d6c3019f7dda56aaef1a158f2eec2ec44524baf14c9b"
+    },
+    {
+      "field": "questions.220.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.220.explanation",
+      "sha256": "61470ecfe4c67bcaac6f57f0be4678c123c3713b5c11baa041447c581e1f9195"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "# Mendelian Inheritance: Laws of Segregation and Independent Assortment\n\n## Introduction and Historical Context\n\nGregor Mendel's work in the 1860s established the quantitative foundation of genetics decades before anyone knew what a gene or chromosome actually was. Working with *Pisum sativum* (garden peas) in an Augustinian monastery in Brno, Mendel chose his experimental system with remarkable insight. Pea plants offered distinct, easily scored traits, a short generation time, the ability to self-fertilize or be cross-pollinated under controlled conditions, and large sample sizes that made statistical patterns visible.\n\nWhat made Mendel's approach revolutionary was not just his careful observation but his insistence on counting offspring and applying mathematical reasoning to biological inheritance. Before Mendel, the prevailing \"blending inheritance\" model predicted that parental traits would blend like paint colors and eventually homogenize across generations. Mendel's data demolished this idea. Traits disappeared in one generation and reappeared in the next, in predictable ratios, pointing to discrete, particulate units of inheritance.\n\nMendelian models provide a starting point for interpreting crosses. State the assumptions, calculate probabilities, then compare those predictions with the observations. Not every trait follows a single-gene model.\n\n---\n\n## Mendel's Experimental Design\n\n### Choosing the Right Traits\n\nMendel studied seven traits in pea plants, each with two distinct variants:\n\n- Seed shape: round vs. wrinkled\n- Seed color: yellow vs. green\n- Pod shape: inflated vs. constricted\n- Pod color: green vs. yellow\n- Flower color: purple vs. white\n- Flower position: axial vs. terminal\n- Plant height: tall vs. dwarf\n\nThe familiar pea crosses illustrate discrete inheritance, but their molecular genetics is more complex than a blanket claim that all seven traits are isolated, independent single-gene systems. Modern work identifies modifier effects for some traits. Independent assortment must be evaluated for the particular loci and cross.\n\n### True-Breeding Lines and Hybridization\n\nMendel began by establishing **true-breeding lines**: plants that, when self-fertilized for multiple generations, always produced offspring identical to the parent for a given trait. A true-breeding tall plant always produced tall offspring; a true-breeding short plant always produced short offspring.\n\nHe then performed **reciprocal crosses**: crossing true-breeding plants of opposite variants (tall × short, and short × tall). The offspring of these crosses are called the **F1 generation** (first filial generation). Critically, the F1 offspring from both reciprocal crosses looked identical—all tall, all round-seeded, all purple-flowered—demonstrating that the direction of the cross (which parent was mother vs. father) did not matter. This ruled out maternal inheritance as the sole mechanism.\n\nWhen Mendel allowed the F1 plants to self-fertilize, he obtained the **F2 generation**. Here, the \"missing\" trait reappeared. In crosses involving seed shape, approximately 3/4 of F2 plants were round and 1/4 were wrinkled—a 3:1 ratio. This ratio appeared consistently across all seven traits.\n\n---\n\n## Key Terminology\n\nBefore proceeding, precise vocabulary is essential for MCAT success.\n\n- **Gene**: a DNA region associated with a functional RNA or protein product; a gene may influence multiple traits\n- **Allele**: one of two or more variant forms of a gene at a given locus\n- **Locus** (plural: loci): the specific chromosomal location of a gene\n- **Genotype**: the allelic composition of an organism (e.g., *Tt*, *TT*, *tt*)\n- **Phenotype**: an observable characteristic influenced by genotype and environment\n- **Homozygous**: having two identical alleles at a locus (*TT* or *tt*)\n- **Heterozygous**: having two different alleles at a locus (*Tt*)\n- **Dominant allele**: the allele whose phenotype is expressed in heterozygotes; conventionally written with a capital letter\n- **Recessive allele**: the allele whose phenotype is masked in heterozygotes; written with a lowercase letter\n- **P generation**: the parental generation in a cross\n- **F1 generation**: first filial generation (offspring of P cross)\n- **F2 generation**: second filial generation (offspring of F1 × F1 or F1 self-fertilization)\n\n---\n\n## The Law of Segregation\n\n### Statement of the Law\n\nMendel's **Law of Segregation** states: *the two alleles for a gene separate from each other during gamete formation, so that each gamete carries only one allele for each gene.*\n\nThis law has four underlying principles:\n\n1. Genes exist in alternative forms (alleles).\n2. For a typical diploid autosomal locus, an offspring inherits one allele from each parent. This model does not cover every ploidy level or sex-linked locus.\n3. When gametes form, the two alleles segregate so each gamete receives exactly one.\n4. When two gametes unite at fertilization, the resulting offspring has two alleles, one from each parent.\n\n### Chromosomal Basis\n\nThe physical mechanism underlying segregation is **meiosis**. Diploid organisms carry two homologous chromosomes for each pair, one maternal and one paternal. During meiosis I, homologous chromosomes separate (disjoin) into different cells. During meiosis II, sister chromatids separate. The result is haploid gametes, each containing one chromosome from each homologous pair—and therefore one allele from each gene pair.\n\nThis is why Mendel's law, formulated without any knowledge of chromosomes, turned out to be mechanistically correct. Homologs separate at meiosis I and sister chromatids at meiosis II; together these divisions distribute alleles into haploid products. Crossing over can change which alleles remain together on sister chromatids.\n\n### Monohybrid Cross: Mechanics\n\nA **monohybrid cross** examines inheritance of a single gene. Consider plant height in peas, where *T* (tall) is dominant over *t* (dwarf).\n\n**P generation**: *TT* (tall) × *tt* (dwarf)\n\nAll F1 offspring receive one *T* allele from the tall parent and one *t* allele from the dwarf parent → all F1 are *Tt* (tall phenotype, heterozygous genotype).\n\n**F1 × F1**: *Tt* × *Tt*\n\nUsing a Punnett square:\n\n- *TT*: 1/4\n- *Tt*: 2/4 (1/2)\n- *tt*: 1/4\n\n**Genotype ratio**: 1 *TT* : 2 *Tt* : 1 *tt*\n**Phenotype ratio**: 3 tall : 1 dwarf\n\nThe 3:1 phenotype ratio is the hallmark of an F2 monohybrid cross with complete dominance. The recessive phenotype has probability 1/4 per offspring under this model; a finite sample need not contain exactly that fraction—it was never lost, only hidden in the heterozygous F1 generation.\n\n### Testcross\n\nA **testcross** helps infer an unknown genotype. A backcross instead means a cross to a parent or its equivalent genotype; some testcrosses are backcrosses, but the terms are not interchangeable. An individual showing the dominant phenotype is crossed with a homozygous recessive individual (*tt*).\n\n- If the unknown is *TT*: all offspring are *Tt* → all tall (1:0 ratio)\n- If the unknown is *Tt*: offspring are 1/2 *Tt* and 1/2 *tt* → 1:1 tall:dwarf ratio\n\nThe testcross is powerful because the homozygous recessive parent contributes only recessive alleles, so the offspring phenotypes directly reveal the gametes produced by the unknown parent. Under the ideal model, one recessive offspring establishes that the unknown parent contributed a recessive allele. All-dominant offspring do not prove homozygosity: a heterozygous parent has probability (1/2)^n of producing n dominant offspring in this testcross.\n\n---\n\n## The Law of Independent Assortment\n\n### Statement of the Law\n\nMendel's **Law of Independent Assortment** states: *alleles of different genes assort independently of one another during gamete formation.*\n\nIn other words, the allele a gamete receives for one gene does not influence which allele it receives for another gene—provided those genes are on different chromosomes (or are sufficiently far apart on the same chromosome).\n\n### Chromosomal Basis\n\nIndependent assortment reflects the random orientation of homologous chromosome pairs at the **metaphase plate** during meiosis I. Each bivalent (tetrad) aligns independently of every other bivalent. For an organism with *n* pairs of chromosomes, there are 2^n possible combinations of maternal and paternal chromosomes in the gametes. Humans, with 23 pairs, can produce 2^23 (approximately 8.4 million) different chromosomal combinations through independent assortment alone—before even considering crossing over.\n\nDifferent chromosome pairs assort independently. Nearby loci on one chromosome usually show linkage; widely separated loci can have a recombination fraction approaching 50% and behave as though unlinked.\n\n### Dihybrid Cross: Mechanics\n\nA **dihybrid cross** examines inheritance of two genes simultaneously. Consider seed shape (*R* = round dominant, *r* = wrinkled recessive) and seed color (*Y* = yellow dominant, *y* = green recessive).\n\n**P generation**: *RRYY* × *rryy*\n\nAll F1 offspring: *RrYy* (round, yellow)\n\n**F1 × F1**: *RrYy* × *RrYy*\n\nEach parent produces four types of gametes in equal proportions: *RY*, *Ry*, *rY*, *ry* (each at 1/4 frequency).\n\nThe 4 × 4 Punnett square yields 16 equally probable gamete-pair combinations, representing nine distinct two-locus genotypes. Counting phenotypes:\n\n- Round, Yellow (R_Y_): 9/16\n- Round, Green (R_yy): 3/16\n- Wrinkled, Yellow (rrY_): 3/16\n- Wrinkled, Green (rryy): 1/16\n\n**Phenotype ratio**: 9:3:3:1\n\nThis **9:3:3:1 ratio** is expected for this dihybrid F2 model with complete dominance at each locus, independent assortment, no phenotype-altering epistasis, and equal viability. It is a prediction, not proof of a unique mechanism. Each 3:1 ratio from the individual traits combines multiplicatively: (3:1) × (3:1) = 9:3:3:1.\n\n### The Forked-Line (Branch Diagram) Method\n\nFor dihybrid and trihybrid crosses, the forked-line method is faster than a large Punnett square.\n\nFor *RrYy* × *RrYy*:\n\n**Seed shape** (independent monohybrid):\n- 3/4 Round\n- 1/4 Wrinkled\n\n**Seed color** (independent monohybrid):\n- 3/4 Yellow\n- 1/4 Green\n\n**Combined probabilities** (multiply because events are independent):\n- Round AND Yellow: 3/4 × 3/4 = 9/16\n- Round AND Green: 3/4 × 1/4 = 3/16\n- Wrinkled AND Yellow: 1/4 × 3/4 = 3/16\n- Wrinkled AND Green: 1/4 × 1/4 = 1/16\n\nThis method is faster and less error-prone than a 16-box Punnett square, especially for trihybrid crosses (which would require a 64-box grid).\n\n---\n\n## Probability Rules in Genetics\n\n### The Product Rule\n\nThe **product rule** states that the probability of two independent events both occurring equals the product of their individual probabilities.\n\n*P(A and B) = P(A) × P(B)*\n\nThis is the mathematical foundation of the forked-line method. Apply it to independent events. A genotype and the phenotype it causes are generally not independent; in general, P(A and B) = P(A) × P(B given A).\n\nExample: For independently assorting loci in a cross *AaBb* × *AaBb*, what is the probability of an offspring being *aabb*?\n- P(*aa*) from *Aa* × *Aa* = 1/4\n- P(*bb*) from *Bb* × *Bb* = 1/4\n- P(*aabb*) = 1/4 × 1/4 = 1/16\n\n### The Sum Rule\n\nThe **sum rule** states that the probability of either one event or another (mutually exclusive) occurring equals the sum of their individual probabilities.\n\n*P(A or B) = P(A) + P(B)*\n\nExample: In a cross *Aa* × *Aa*, what is the probability of being *AA* or *Aa*?\n- P(*AA*) = 1/4\n- P(*Aa*) = 2/4\n- P(*AA* or *Aa*) = 1/4 + 2/4 = 3/4 (i.e., showing dominant phenotype)\n\n### Applying Both Rules Together\n\nMCAT questions often require combining both rules. For independently assorting loci with complete dominance and no epistasis in *AaBb* × *AaBb*, what is the probability of an offspring showing at least one dominant phenotype?\n\nIt is easier to use the complement: P(at least one dominant) = 1 − P(all recessive) = 1 − 1/16 = 15/16.\n\n---\n\n## Extensions and Complications to Mendelian Ratios\n\nPure Mendelian ratios appear only under ideal conditions. The MCAT tests whether you can recognize modified ratios and understand their causes.\n\n### Incomplete Dominance\n\nIn **incomplete dominance**, heterozygotes show an intermediate phenotype. Classic example: snapdragon flower color, where *RR* (red) × *rr* (white) produces *Rr* (pink).\n\n- F2 genotype ratio: 1 *RR* : 2 *Rr* : 1 *rr*\n- F2 phenotype ratio: 1 red : 2 pink : 1 white\n\nThe phenotype ratio now mirrors the genotype ratio (1:2:1) because heterozygotes are distinguishable from both homozygotes.\n\n### Codominance\n\nIn **codominance**, both alleles are fully expressed in heterozygotes, producing a phenotype with both parental traits simultaneously. The ABO blood group system is a classic example. Type AB individuals express both A and B antigens on red blood cells. Neither allele is dominant over the other.\n\n### Multiple Alleles\n\nA diploid individual ordinarily carries at most two alleles at an autosomal locus, while a population can contain many. The simplified ABO model uses three major allele classes (with multiple sequence variants within those classes): *I^A*, *I^B*, and *i*. *I^A* and *I^B* are codominant with each other; both are dominant over *i*.\n\nPossible genotypes and phenotypes:\n- *I^A I^A* or *I^A i* → Type A\n- *I^B I^B* or *I^B i* → Type B\n- *I^A I^B* → Type AB\n- *ii* → Type O\n\n### Epistasis\n\n**Epistasis** occurs when the alleles of one gene mask or modify the expression of alleles at a different gene. This produces modified dihybrid ratios in F2 crosses. Common modified ratios include:\n\n- **9:3:4** (recessive epistasis): one homozygous recessive genotype masks expression of another gene\n- **12:3:1** (dominant epistasis): one dominant allele at one locus masks expression of another locus\n- **9:7** (duplicate recessive epistasis): homozygous recessive at either locus produces the same phenotype\n- **15:1** (duplicate dominant epistasis): a dominant allele at either locus produces the same phenotype\n\nRecognizing these modified ratios on the MCAT requires understanding that they are all derived from the basic 9:3:3:1 by combining phenotypic classes.\n\n### Pleiotropy\n\n**Pleiotropy** occurs when a single gene affects multiple, seemingly unrelated phenotypic traits. Sickle cell disease is a classic example: a single point mutation in the β-globin gene affects red blood cell shape, oxygen-carrying capacity, spleen function, bone development, and many other systems. Pleiotropy does not violate Mendelian segregation—the gene still segregates normally—but it means that tracking one gene can explain multiple phenotypic outcomes.\n\n---\n\n## Pedigree Analysis\n\nPedigree analysis applies Mendelian principles to human family histories. The MCAT frequently presents pedigrees and asks you to determine the mode of inheritance.\n\n### Conventions\n\n- Squares represent males; circles represent females\n- Filled symbols indicate affected individuals\n- A horizontal line between two symbols represents a mating\n- A vertical line descending from a mating leads to offspring\n- A double horizontal line indicates a consanguineous (related) mating\n\n### Autosomal Recessive Inheritance\n\nKey features:\n- Affected individuals often have unaffected parents (parents are carriers)\n- Trait can skip generations\n- Both sexes affected equally\n- Consanguinity increases risk\n- Two affected parents → all affected offspring in the fully penetrant, same-locus recessive model; different causal genes can give a different outcome\n\nExample: If two unaffected parents have an affected child, the simple, fully penetrant autosomal recessive model predicts carrier parents (*Aa* × *Aa*) and an *aa* child. Real families can involve new variants, mosaicism or other complexities.\n\n### Autosomal Dominant Inheritance\n\nKey features:\n- Affected individuals typically have at least one affected parent\n- Often seen in successive generations; incomplete penetrance, age-dependent onset and new variants complicate the pattern\n- Both sexes affected equally\n- An affected individual has a 50% chance of passing the allele to each offspring (if heterozygous)\n\n### X-Linked Recessive Inheritance\n\nKey features:\n- Males affected more frequently than females (males are hemizygous—only one X chromosome)\n- Carrier females are typically unaffected\n- No father-to-son transmission (fathers pass Y to sons, not X)\n- Affected fathers pass their X-linked allele to all daughters; the daughters’ genotype and phenotype also depend on the maternal allele and X-inactivation\n- Examples: hemophilia A and B, Duchenne muscular dystrophy, red-green color blindness\n\n### X-Linked Dominant Inheritance\n\nKey features:\n- Affected fathers pass the trait to all daughters but no sons\n- A heterozygous mother has a 50% chance of passing the allele to each child; phenotype also depends on penetrance\n- Sex-specific prevalence depends on allele frequency, transmission, penetrance and viability; it is not fixed by chromosome count alone\n- Examples: hypophosphatemia (vitamin D–resistant rickets)\n\n### Y-Linked (Holandric) Inheritance\n\n- Only males affected\n- Passed from father to all sons\n- Rare; few confirmed Y-linked traits\n\n---\n\n## Chi-Square Analysis and Goodness of Fit\n\nMendel used large sample sizes to reveal ratios that deviate from expectations due to random sampling. The **chi-square (χ²) test** is the statistical tool used to determine whether observed offspring ratios deviate significantly from expected Mendelian ratios.\n\n**Formula**: χ² = Σ [(Observed − Expected)² / Expected]\n\n**Steps**:\n1. Specify the null model and its predicted class probabilities.\n2. Multiply each probability by sample size to obtain expected counts.\n3. Compute χ² from observed and expected counts.\n4. For k classes and fully specified probabilities, use k − 1 degrees of freedom; estimating parameters can reduce this.\n5. Compare with a critical value at a chosen significance level, such as α = 0.05. Check that sample size and expected counts support the approximation.\n\nRejecting the null indicates incompatibility with that specified model at the chosen significance level. It does not identify the cause: biological departures, ascertainment or measurement problems can all matter.\n\nFor a monohybrid cross with a 3:1 expected ratio and 2 phenotypic classes: df = 1, critical value = 3.84. A χ² below this threshold means failure to reject at α = 0.05, not proof that the model is true.\n\nSmall samples may require an exact test instead of a chi-square approximation. Statistical non-significance can reflect limited power.\n\n---\n\n## Connecting Mendelian Genetics to Molecular Mechanisms\n\nMendel described inheritance patterns without knowing the molecular basis. Modern genetics reveals the mechanisms:\n\n- **Alleles** correspond to different DNA sequences at the same locus, often differing by point mutations, insertions, deletions, or larger rearrangements.\n- **Dominance** depends on the measured phenotype. One functional allele may provide sufficient activity (haplosufficiency); insufficient activity from one copy is haploinsufficiency. Dominant-negative and gain-of-function effects are other mechanisms.\n- **Recessive alleles** typically encode nonfunctional or absent proteins; the single functional copy in heterozygotes is sufficient for normal phenotype.\n- **Segregation** reflects allele distribution through the meiotic divisions, as described earlier.\n- **Independent assortment** reflects random metaphase I chromosome alignment.\n\n---\n\n## MCAT Strategy and High-Yield Points\n\n### Recognizing Cross Types Quickly\n\n- **3:1 phenotype ratio** in F2 → monohybrid cross, complete dominance\n- **1:2:1 phenotype ratio** in F2 → monohybrid cross, incomplete dominance or codominance\n- **9:3:3:1 phenotype ratio** in F2 → dihybrid cross, complete dominance, independent assortment\n- **1:1 ratio** in offspring → testcross of a heterozygote\n- **All offspring same phenotype** → consider the parental genotypes, dominance model and sample size; this observation alone does not uniquely determine the cross\n\n### Modified Ratios Signal Epistasis\n\nModified ratios such as 9:7 or 9:3:4 can arise when phenotypic classes of an independently assorting dihybrid cross are combined by epistasis. A ratio summing to 16 is not, by itself, evidence of epistasis. Check the biological model and sample size.\n\n### Pedigree Red Flags\n\n- Trait skips generations → consider recessive inheritance, but also incomplete penetrance or age-dependent onset\n- All affected individuals have an affected parent → likely dominant\n- Only males affected → consider X-linked recessive\n- Affected father, all daughters affected → X-linked dominant\n\n### Probability Shortcuts\n\n- Probability of a specific genotype from *Aa* × *Aa*: *AA* = 1/4, *Aa* = 1/2, *aa* = 1/4\n- Probability of showing dominant phenotype from *Aa* × *Aa*: 3/4\n- For independent genes, multiply individual probabilities\n\n### Don't Confuse Genotype and Phenotype Ratios\n\nIn complete dominance, the phenotype ratio (3:1) masks the genotype ratio (1:2:1). In incomplete dominance or codominance, phenotype and genotype ratios are the same (1:2:1) because all three genotypes are distinguishable.\n\n---\n\n## Summary\n\nMendel's laws represent one of the most elegant examples of hypothesis-driven science in biology. The **Law of Segregation** tells us that allele pairs separate during gamete formation, ensuring each gamete carries exactly one allele per gene. The **Law of Independent Assortment** tells us that alleles of different genes (on different chromosomes) sort into gametes independently of one another.\n\nUnder their assumptions, these laws predict expected probabilities rather than exact finite-sample ratios: 3:1 for monohybrid F2 crosses, 9:3:3:1 for dihybrid F2 crosses, and 1:1 for testcrosses of heterozygotes. Observed deviations can arise by random sampling or from phenomena such as incomplete dominance, codominance, epistasis, or gene linkage.\n\nFor each problem, distinguish the genotype model, phenotype assumptions and sampling variation. A pedigree or numerical ratio can support an inheritance model without uniquely proving it."
+    },
+    {
+      "field": "questions.216.question_text",
+      "value": "In pea plants, tall (T) is completely dominant over short (t). Which parental cross predicts an expected 1 tall : 1 short ratio, assuming equal viability?"
+    },
+    {
+      "field": "questions.217.explanation",
+      "value": "With no crossover between this locus and its centromere, the two allele-bearing homologs separate at anaphase I. Sister chromatids separate in meiosis II. DNA replication duplicates chromosomes; it does not separate them. The stated crossover assumption makes this a first-division segregation example."
+    },
+    {
+      "field": "questions.217.question_text",
+      "value": "At a heterozygous locus, assume no crossing over between the locus and its centromere. Which meiotic event first separates the homologs carrying the two different alleles?"
+    },
+    {
+      "field": "questions.218.explanation",
+      "value": "Each locus gives a recessive-homozygote probability of 1/4. Independent assortment permits multiplication: P(aabb) = 1/4 × 1/4 = 1/16. The 16 equally likely Punnett-square boxes represent gamete pairs, not 16 distinct genotypes; several boxes share the same genotype."
+    },
+    {
+      "field": "questions.219.question_text",
+      "value": "A geneticist crosses a true-breeding round, yellow pea plant (RRYY) with a true-breeding wrinkled, green pea plant (rryy). The F1 offspring are then allowed to self-fertilize. Which phenotypic ratio is expected in the F2 generation, assuming independent assortment, complete dominance at each locus, no epistasis and equal viability?"
+    }
+  ]
+}

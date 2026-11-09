@@ -41,7 +41,10 @@
   "visual": {
     "src": "/lesson-diagrams/transcription.svg",
     "alt": "DNA strand directions and the conversion of a primary animal RNA into a mature RNA with coding and untranslated exons.",
-    "caption": "Follow strand direction first, then distinguish primary RNA sequence from processed mRNA. Exons can include untranslated regions."
+    "caption": "Follow strand direction first, then distinguish primary RNA sequence from processed mRNA. Exons can include untranslated regions.",
+    "title": "Transcription: strand direction and RNA processing",
+    "width": 800,
+    "height": 740
   },
   "guards": [
     {

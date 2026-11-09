@@ -41,7 +41,10 @@
   "visual": {
     "src": "/lesson-diagrams/rna-processing.svg",
     "alt": "RNA processing diagram showing cap chemistry, branch-point splicing and the distinct distances from a premature stop to an exon junction and from an EJC to that junction.",
-    "caption": "NMD distances refer to the exon–exon junction. Splicing joins retained RNA segments, and a splice-site mutation does not predict one universal outcome."
+    "caption": "NMD distances refer to the exon–exon junction. Splicing joins retained RNA segments, and a splice-site mutation does not predict one universal outcome.",
+    "title": "RNA processing and quality control",
+    "width": 800,
+    "height": 740
   },
   "guards": [
     {

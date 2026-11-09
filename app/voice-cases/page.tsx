@@ -96,7 +96,7 @@ export default function VoiceCasesPage() {
         const raw = decodeURIComponent(canvas.getAttribute("data-chart") || "");
         const spec = JSON.parse(raw);
         canvas.setAttribute("data-rendered", "1");
-        const colors = ["#a8324a", "#0c1a2e", "#8a6b2e", "#4a3b6b"];
+        const colors = ["#245574", "#0c1a2e", "#245574", "#245574"];
         const datasets = (spec.datasets || []).map((ds: { label?: string; data: { x: number; y: number }[] }, i: number) => ({
           label: ds.label || "",
           data: ds.data || [],
@@ -134,7 +134,7 @@ export default function VoiceCasesPage() {
               const py = chart.scales.y.getPixelForValue(a.y);
               ctx.beginPath();
               ctx.arc(px, py, 5, 0, Math.PI * 2);
-              ctx.fillStyle = "#a8324a";
+              ctx.fillStyle = "#245574";
               ctx.fill();
               ctx.font = "500 11px 'Inter Tight', sans-serif";
               const m = ctx.measureText(a.label);
@@ -335,22 +335,22 @@ export default function VoiceCasesPage() {
         {phase === "idle" && (
           <div className="flex-1 flex items-center justify-center px-8 py-12">
             <div className="max-w-xl text-center">
-              <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4">Mode 02 · Voice clinical cases</div>
-              <h1 className="font-serif text-4xl md:text-5xl font-light italic tracking-tight leading-tight mb-5">
-                Talk through a case <span className="text-[#a8324a] not-italic font-medium">out loud.</span>
+              <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4">Mode 02 · Voice clinical cases</div>
+              <h1 className="font-sans text-4xl md:text-5xl font-light italic tracking-tight leading-tight mb-5">
+                Talk through a case <span className="text-[#245574] not-italic font-medium">out loud.</span>
               </h1>
               <p className="text-[15px] opacity-70 leading-relaxed mb-8">
                 Interview a simulated patient. Ask them about symptoms, history, anything you&apos;d want to know. When you&apos;re done, get feedback on your clinical thinking AND the underlying MCAT science.
               </p>
-              {error && <p className="text-[#a8324a] text-sm mb-4">{error}</p>}
+              {error && <p className="text-[#245574] text-sm mb-4">{error}</p>}
               <button
                 onClick={startNewCase}
-                className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-6 py-3.5 rounded-full hover:bg-[#1a2c4a] transition-colors"
+                className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-6 py-3.5 rounded-full hover:bg-[#1a2c4a] transition-colors"
               >
                 Start a new case →
               </button>
               {!voiceSupported && (
-                <p className="font-mono text-[10px] uppercase tracking-[0.1em] opacity-50 mt-6">
+                <p className="font-sans text-[10px] uppercase tracking-[0.1em] opacity-50 mt-6">
                   Voice not supported in this browser — text mode only
                 </p>
               )}
@@ -366,7 +366,7 @@ export default function VoiceCasesPage() {
                 <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
                 <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
               </div>
-              <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Generating case...</div>
+              <div className="font-sans text-[11px] uppercase tracking-[0.12em] opacity-60">Generating case...</div>
             </div>
           </div>
         )}
@@ -375,22 +375,22 @@ export default function VoiceCasesPage() {
           <div className="flex-1 flex flex-col bg-[#ebe5d6] overflow-hidden">
             <div className="px-8 py-3 border-b border-[#0c1a2e15] flex items-center justify-between flex-wrap gap-2">
               <div className="flex items-center gap-3">
-                <span className="w-2 h-2 rounded-full bg-[#a8324a] animate-pulse" />
+                <span className="w-2 h-2 rounded-full bg-[#245574] animate-pulse" />
                 <div>
-                  <div className="font-serif text-base font-medium leading-tight">{caseData.patientName}, {caseData.patientAge}</div>
-                  <div className="font-mono text-[10px] uppercase tracking-[0.12em] opacity-55">{caseData.setting}</div>
+                  <div className="font-sans text-base font-medium leading-tight">{caseData.patientName}, {caseData.patientAge}</div>
+                  <div className="font-sans text-[10px] uppercase tracking-[0.12em] opacity-55">{caseData.setting}</div>
                 </div>
               </div>
               <div className="flex items-center gap-2">
                 <button
                   onClick={() => setVoiceEnabled(!voiceEnabled)}
-                  className="font-mono text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 transition-opacity px-2 py-1 border border-[#0c1a2e25] rounded"
+                  className="font-sans text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 transition-opacity px-2 py-1 border border-[#0c1a2e25] rounded"
                 >
                   {voiceEnabled ? "Voice on" : "Voice off"}
                 </button>
                 <button
                   onClick={endInterview}
-                  className="font-mono text-[10px] uppercase tracking-[0.1em] bg-[#0c1a2e] text-[#f5f1ea] px-3 py-1.5 rounded-full hover:bg-[#1a2c4a]"
+                  className="font-sans text-[10px] uppercase tracking-[0.1em] bg-[#0c1a2e] text-[#f5f1ea] px-3 py-1.5 rounded-full hover:bg-[#1a2c4a]"
                 >
                   End and Get Feedback
                 </button>
@@ -405,8 +405,8 @@ export default function VoiceCasesPage() {
                   </div>
                 ) : (
                   <div key={i} className="self-start max-w-[85%]">
-                    <div className="flex items-center gap-2 mb-1.5 font-mono text-[10px] tracking-[0.14em] uppercase opacity-55">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#a8324a]" />
+                    <div className="flex items-center gap-2 mb-1.5 font-sans text-[10px] tracking-[0.14em] uppercase opacity-55">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#245574]" />
                       {caseData.patientName}
                     </div>
                     <div className="text-[15px] leading-relaxed italic text-[#0c1a2ecc]">&quot;{msg.content}&quot;</div>
@@ -420,7 +420,7 @@ export default function VoiceCasesPage() {
                 <button
                   onClick={toggleListening}
                   className={`w-10 h-10 rounded-full flex items-center justify-center transition-all ${
-                    isListening ? "bg-[#a8324a] text-[#f5f1ea] animate-pulse" : "bg-[#0c1a2e1a] text-[#0c1a2e] hover:bg-[#0c1a2e2a]"
+                    isListening ? "bg-[#245574] text-[#f5f1ea] animate-pulse" : "bg-[#0c1a2e1a] text-[#0c1a2e] hover:bg-[#0c1a2e2a]"
                   }`}
                 >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -464,7 +464,7 @@ export default function VoiceCasesPage() {
                 <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
                 <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
               </div>
-              <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Vitalis is reviewing your interview...</div>
+              <div className="font-sans text-[11px] uppercase tracking-[0.12em] opacity-60">Vitalis is reviewing your interview...</div>
             </div>
           </div>
         )}
@@ -472,19 +472,19 @@ export default function VoiceCasesPage() {
         {phase === "feedback" && (
           <div className="flex-1 overflow-y-auto px-8 py-10">
             <div className="max-w-2xl mx-auto">
-              <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-3">Session feedback</div>
-              <h2 className="font-serif text-3xl font-medium tracking-tight mb-6">Here&apos;s what happened.</h2>
+              <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-60 mb-3">Session feedback</div>
+              <h2 className="font-sans text-3xl font-medium tracking-tight mb-6">Here&apos;s what happened.</h2>
               <div className="feedback-content text-[15px] leading-relaxed" dangerouslySetInnerHTML={{ __html: formatFeedback(feedback) }} />
               <div className="mt-10 flex gap-3">
                 <button
                   onClick={startNewCase}
-                  className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
+                  className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
                 >
                   New case
                 </button>
                 <button
                   onClick={resetCase}
-                  className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full hover:bg-[#0c1a2e0a]"
+                  className="font-sans text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full hover:bg-[#0c1a2e0a]"
                 >
                   Back to start
                 </button>
@@ -501,7 +501,7 @@ export default function VoiceCasesPage() {
         .feedback-content ul { margin: 12px 0; padding-left: 24px; }
         .feedback-content li { margin-bottom: 6px; }
         .feedback-content code { background: #0c1a2e14; padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 13px; }
-        .feedback-content h3 { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 500; margin: 24px 0 10px; color: #0c1a2e; }
+        .feedback-content h3 { font-family: var(--font-geist-sans), Arial, sans-serif; font-size: 22px; font-weight: 500; margin: 24px 0 10px; color: #0c1a2e; }
         .feedback-content .chart-wrap { margin: 18px 0; padding: 18px; background: #0c1a2e08; border: 1px solid #0c1a2e15; border-radius: 10px; height: 300px; position: relative; }
       `}</style>
     </>

@@ -32,10 +32,10 @@ const SECTION_NAMES: Record<string, string> = {
 };
 
 const SECTION_COLORS: Record<string, string> = {
-  "bio-biochem": "#a8324a",
-  "chem-phys": "#2e4a6b",
-  "psych-soc": "#8a6b2e",
-  "cars": "#4a3b6b",
+  "bio-biochem": "#245574",
+  "chem-phys": "#245574",
+  "psych-soc": "#245574",
+  "cars": "#245574",
   "mixed": "#0c1a2e",
 };
 
@@ -227,7 +227,7 @@ Can you explain this more deeply and help me build the right intuition so I get 
             <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
             <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
           </div>
-          <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Preparing {numQuestions} {sectionName} questions...</div>
+          <div className="font-sans text-[11px] uppercase tracking-[0.12em] opacity-60">Preparing {numQuestions} {sectionName} questions...</div>
           <p className="mt-4 text-sm opacity-70">Preparing your questions and explanations. This may take up to 90 seconds.</p>
           <Link href="/practice" className="inline-block mt-5 underline">Cancel and go back</Link>
         </div>
@@ -237,7 +237,7 @@ Can you explain this more deeply and help me build the right intuition so I get 
 
   if (exhausted) return (
     <main className="min-h-screen bg-[#f5f1ea] flex flex-col items-center justify-center gap-5 p-8 text-center">
-      <h1 className="font-serif text-3xl">You’ve seen every question currently available for these settings.</h1>
+      <h1 className="font-sans text-3xl">You’ve seen every question currently available for these settings.</h1>
       <Link href="/practice" className="underline">Choose another section or difficulty</Link>
       {!["guide","drills"].includes(format) && <button onClick={()=>loadQuestions(false,true)} className="underline">Try generating new questions with the AI tutor</button>}
       <button onClick={() => loadQuestions(true)} className="rounded-full bg-[#0c1a2e] text-white px-5 py-3">Start a review session</button>
@@ -248,13 +248,13 @@ Can you explain this more deeply and help me build the right intuition so I get 
     return (
       <div className="min-h-screen bg-[#f5f1ea] flex items-center justify-center p-10">
         <div className="text-center max-w-md">
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-50 mb-4">Error</div>
-          <h1 className="font-serif text-3xl font-medium mb-4">{error}</h1>
+          <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-50 mb-4">Error</div>
+          <h1 className="font-sans text-3xl font-medium mb-4">{error}</h1>
           <div className="flex gap-3 justify-center">
-            <button onClick={() => loadQuestions()} className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full">
+            <button onClick={() => loadQuestions()} className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full">
               Try again
             </button>
-            <Link href="/practice" className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full">
+            <Link href="/practice" className="font-sans text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full">
               Back
             </Link>
           </div>
@@ -270,16 +270,16 @@ Can you explain this more deeply and help me build the right intuition so I get 
       <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e]">
         <MainNav active="practice" badge="Session complete" />
         <div className="max-w-2xl mx-auto px-10 py-20 text-center">
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4">Session complete</div>
-          <h1 className="font-serif text-[clamp(48px,6vw,88px)] font-medium tracking-tight mb-2">
+          <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4">Session complete</div>
+          <h1 className="font-sans text-[clamp(48px,6vw,88px)] font-medium tracking-tight mb-2">
             <span style={{ color: accent }}>{correctCount}</span> / {results.length}
           </h1>
-          <p className="font-mono text-[14px] tracking-[0.1em] uppercase opacity-65 mb-10">{pct}% correct</p>
+          <p className="font-sans text-[14px] tracking-[0.1em] uppercase opacity-65 mb-10">{pct}% correct</p>
           <div className="flex gap-3 justify-center flex-wrap">
-            <button onClick={() => setGeneration(generation + 1)} className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]">
+            <button onClick={() => setGeneration(generation + 1)} className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]">
               New session →
             </button>
-            <Link href="/practice" className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full hover:bg-[#0c1a2e0a]">
+            <Link href="/practice" className="font-sans text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full hover:bg-[#0c1a2e0a]">
               Pick another section
             </Link>
           </div>
@@ -297,7 +297,7 @@ Can you explain this more deeply and help me build the right intuition so I get 
       <MainNav active="practice" badge={`${currentIdx + 1} / ${questions.length}`} />
 
       <div className="max-w-4xl mx-auto px-10 py-10">
-        <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-60 mb-3 flex items-center gap-2">
+        <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-60 mb-3 flex items-center gap-2">
           <Link href="/practice" className="hover:opacity-100 opacity-70">Practice</Link>
           <span className="opacity-40">/</span>
           <span style={{ color: accent }}>{sectionName}</span>
@@ -311,14 +311,14 @@ Can you explain this more deeply and help me build the right intuition so I get 
           <div className="flex-1 h-1.5 bg-[#0c1a2e15] rounded-full overflow-hidden">
             <div className="h-full transition-all" style={{ width: `${((currentIdx + (showExplanation ? 1 : 0)) / questions.length) * 100}%`, backgroundColor: accent }} />
           </div>
-          <div className="font-mono text-[10px] tracking-[0.1em] uppercase opacity-55 flex-shrink-0">
+          <div className="font-sans text-[10px] tracking-[0.1em] uppercase opacity-55 flex-shrink-0">
             {currentIdx + 1} / {questions.length}
           </div>
         </div>
 
         <div className="mb-5 flex items-center gap-4"><button className="border rounded-full px-4 py-2 text-sm" aria-pressed={isFlagged} onClick={()=>{try{setIsFlagged(toggleFlag(currentQ));}catch{setFlagMessage("Could not save. Check browser storage permissions or space.");}}}>{isFlagged ? "Flagged ✓" : "Flag for later"}</button><Link href="/flagged" className="text-sm underline">View flagged questions</Link><span role="status">{flagMessage}</span></div>
-        {currentQ.passage && <article className="mb-8 rounded-2xl border border-[#0c1a2e20] bg-white/60 p-6" aria-label="Passage"><p className="text-xs uppercase tracking-widest text-[#a8324a] mb-3">Read the passage</p><h2 className="font-serif text-2xl mb-4">{currentQ.passage.title}</h2><div className="whitespace-pre-wrap text-base leading-8">{currentQ.passage.content}</div></article>}
-        <h1 className="font-serif text-[clamp(22px,2.6vw,30px)] font-medium leading-snug mb-7">
+        {currentQ.passage && <article className="mb-8 rounded-2xl border border-[#0c1a2e20] bg-white/60 p-6" aria-label="Passage"><p className="text-xs uppercase tracking-widest text-[#245574] mb-3">Read the passage</p><h2 className="font-sans text-2xl mb-4">{currentQ.passage.title}</h2><div className="whitespace-pre-wrap text-base leading-8">{currentQ.passage.content}</div></article>}
+        <h1 className="font-sans text-[clamp(22px,2.6vw,30px)] font-medium leading-snug mb-7">
           {currentQ.question_text}
         </h1>
 
@@ -331,7 +331,7 @@ Can you explain this more deeply and help me build the right intuition so I get 
             let bg = "bg-transparent";
             if (showExplanation) {
               if (isAns) { cls = "border-[#3e6b4a]"; bg = "bg-[#3e6b4a15]"; }
-              else if (isSel && !isAns) { cls = "border-[#a8324a]"; bg = "bg-[#a8324a15]"; }
+              else if (isSel && !isAns) { cls = "border-[#245574]"; bg = "bg-[#24557415]"; }
             } else if (isSel) { cls = "border-[#0c1a2e]"; bg = "bg-[#0c1a2e0a]"; }
             return (
               <button
@@ -341,7 +341,7 @@ Can you explain this more deeply and help me build the right intuition so I get 
                 className={`w-full text-left p-4 rounded-xl border-2 transition-all ${cls} ${bg} ${!showExplanation ? "hover:border-[#0c1a2e] hover:bg-[#0c1a2e0a] cursor-pointer" : "cursor-default"}`}
               >
                 <div className="flex gap-3">
-                  <span className="font-serif font-semibold w-6 flex-shrink-0">{letter}</span>
+                  <span className="font-sans font-semibold w-6 flex-shrink-0">{letter}</span>
                   <span className="text-[15px] leading-relaxed">{text}</span>
                 </div>
               </button>
@@ -354,7 +354,7 @@ Can you explain this more deeply and help me build the right intuition so I get 
             <button
               onClick={handleSubmit}
               disabled={!selectedAnswer}
-              className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a] disabled:opacity-30 disabled:cursor-not-allowed"
+              className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a] disabled:opacity-30 disabled:cursor-not-allowed"
             >
               Submit →
             </button>
@@ -363,8 +363,8 @@ Can you explain this more deeply and help me build the right intuition so I get 
           <div className="space-y-4">
             {activity.error && <p className="portal-error" role="alert">{activity.error} <button onClick={activity.retry}>Retry saving streak</button></p>}
             {activity.data?.streak.completedToday && <p className="portal-success" role="status">Today’s practice is saved. Your streak is {activity.data.streak.current} day{activity.data.streak.current===1?"":"s"}.</p>}
-            <div className={`p-5 rounded-xl border ${isCorrect ? "border-[#3e6b4a] bg-[#3e6b4a08]" : "border-[#a8324a] bg-[#a8324a08]"}`}>
-              <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-60 mb-2">
+            <div className={`p-5 rounded-xl border ${isCorrect ? "border-[#3e6b4a] bg-[#3e6b4a08]" : "border-[#245574] bg-[#24557408]"}`}>
+              <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-60 mb-2">
                 {isCorrect ? "✓ Correct" : "✗ Incorrect"}
               </div>
               <div className="text-[14px] leading-relaxed">{currentQ.explanation}</div>
@@ -375,7 +375,7 @@ Can you explain this more deeply and help me build the right intuition so I get 
               {!showTutor && (
                 <button
                   onClick={openTutor}
-                  className="font-mono text-xs uppercase tracking-[0.08em] border-2 border-[#a8324a] text-[#a8324a] px-5 py-3 rounded-full hover:bg-[#a8324a] hover:text-[#f5f1ea] transition-all"
+                  className="font-sans text-xs uppercase tracking-[0.08em] border-2 border-[#245574] text-[#245574] px-5 py-3 rounded-full hover:bg-[#245574] hover:text-[#f5f1ea] transition-all"
                 >
                   Ask the tutor →
                 </button>
@@ -383,7 +383,7 @@ Can you explain this more deeply and help me build the right intuition so I get 
               <div className="ml-auto">
                 <button
                   onClick={handleNext}
-                  className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
+                  className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
                 >
                   {currentIdx + 1 >= questions.length ? "Finish session →" : "Next question →"}
                 </button>
@@ -399,10 +399,10 @@ Can you explain this more deeply and help me build the right intuition so I get 
           <div className="bg-[#f5f1ea] rounded-t-2xl md:rounded-2xl max-w-3xl w-full max-h-[85vh] flex flex-col shadow-2xl" onClick={(e) => e.stopPropagation()}>
             <div className="px-6 py-4 border-b border-[#0c1a2e15] flex items-center justify-between flex-shrink-0">
               <div className="flex items-center gap-3">
-                <span className="w-2 h-2 rounded-full bg-[#a8324a] animate-pulse" />
-                <div className="font-serif text-lg font-medium">Tutor · helping you</div>
+                <span className="w-2 h-2 rounded-full bg-[#245574] animate-pulse" />
+                <div className="font-sans text-lg font-medium">Tutor · helping you</div>
               </div>
-              <button onClick={() => setShowTutor(false)} className="opacity-50 hover:opacity-100 font-mono text-sm">✕</button>
+              <button onClick={() => setShowTutor(false)} className="opacity-50 hover:opacity-100 font-sans text-sm">✕</button>
             </div>
 
             <div ref={tutorRef} className="flex-1 overflow-y-auto px-6 py-5 space-y-4">
@@ -413,8 +413,8 @@ Can you explain this more deeply and help me build the right intuition so I get 
                   </div>
                 ) : (
                   <div key={i} className="max-w-[85%]">
-                    <div className="flex items-center gap-2 mb-1.5 font-mono text-[10px] tracking-[0.14em] uppercase opacity-55">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#a8324a]" />
+                    <div className="flex items-center gap-2 mb-1.5 font-sans text-[10px] tracking-[0.14em] uppercase opacity-55">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#245574]" />
                       Vitalis
                     </div>
                     <div className="text-[14px] leading-relaxed whitespace-pre-wrap">{msg.content}</div>

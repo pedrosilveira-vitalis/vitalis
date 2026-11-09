@@ -15,7 +15,7 @@ export default function FlaggedPage(){
     load();window.addEventListener("storage",load);return ()=>window.removeEventListener("storage",load);
   },[]);
   return <><MainNav badge="Flagged questions" contentId="saved-questions"/><main id="saved-questions" className="max-w-4xl mx-auto px-6 py-10">
-    <p className="text-sm text-[#a8324a]">Your practice notebook</p><h1 className="font-serif text-4xl my-3">Flagged questions</h1>
+    <p className="text-sm text-[#245574]">Your practice notebook</p><h1 className="font-sans text-4xl my-3">Flagged questions</h1>
     <p>Revisit questions saved in this browser. Open a question to try it again before revealing its explanation.</p>
     <p role="status">{error}</p>
     {ready && !questions.length && <p className="my-8">Use “Flag for later” during a session to save your first question. <Link className="underline" href="/practice">Open practice</Link></p>}

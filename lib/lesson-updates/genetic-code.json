@@ -37,7 +37,10 @@
   "visual": {
     "src": "/lesson-diagrams/genetic-code.svg",
     "alt": "Codon–anticodon orientation with G wobble and a mischarged-tRNA example distinguishing the amino acid carried from the codon selected, plus one-ATP charging accounting.",
-    "caption": "The anticodon selects the codon; the attached amino acid supplies the residue. One ATP is used for charging, equivalent to two high-energy phosphate bonds."
+    "caption": "The anticodon selects the codon; the attached amino acid supplies the residue. One ATP is used for charging, equivalent to two high-energy phosphate bonds.",
+    "title": "tRNA decoding: position versus payload",
+    "width": 800,
+    "height": 740
   },
   "guards": [
     {

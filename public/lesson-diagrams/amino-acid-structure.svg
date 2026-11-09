@@ -5,7 +5,7 @@
 <text x="28" y="38" class="heading">1 / The shared scaffold</text>
 <rect x="24" y="54" width="752" height="220" rx="16" fill="#eaf0f2"/>
 <text x="67" y="174" class="chem">H₃N⁺</text><text x="253" y="174" class="chem">Cα</text><text x="377" y="174" class="chem">COO⁻</text>
-<text x="266" y="105" class="chem">H</text><text x="265" y="239" class="chem" fill="#a83150">R</text>
+<text x="266" y="105" class="chem">H</text><text x="265" y="239" class="chem" fill="#245574">R</text>
 <path d="M151 164 H241 M303 164 H361 M277 115 V145 M277 182 V210" class="line"/>
 <text x="510" y="103" class="body">Free amino acid, pH 7.4</text>
 <text x="510" y="139" class="body">R = H → glycine: achiral</text>
@@ -14,9 +14,9 @@
 <text x="28" y="316" class="heading">2 / A “basic” category does not mean always positive</text>
 <rect x="24" y="332" width="752" height="192" rx="16" fill="#f6e5de"/>
 <text x="46" y="363" class="body">At pH 7.4, using His pKa = 6.0 and Cys pKa = 8.3:</text>
-<text x="46" y="402" class="body">His</text><rect x="112" y="382" width="240" height="26" rx="4" fill="#d6e5ea"/><rect x="112" y="382" width="9" height="26" rx="3" fill="#a83150"/>
+<text x="46" y="402" class="body">His</text><rect x="112" y="382" width="240" height="26" rx="4" fill="#d6e5ea"/><rect x="112" y="382" width="9" height="26" rx="3" fill="#245574"/>
 <text x="378" y="402" class="body">≈ 4% positive / 96% neutral</text>
-<text x="46" y="446" class="body">Cys</text><rect x="112" y="426" width="240" height="26" rx="4" fill="#d6e5ea"/><rect x="112" y="426" width="27" height="26" rx="3" fill="#a83150"/>
+<text x="46" y="446" class="body">Cys</text><rect x="112" y="426" width="240" height="26" rx="4" fill="#d6e5ea"/><rect x="112" y="426" width="27" height="26" rx="3" fill="#245574"/>
 <text x="378" y="446" class="body">≈ 11% negative / 89% neutral</text>
 <text x="46" y="486" class="small">Burgundy = charged side-chain fraction. These are solution-model estimates.</text>
 <text x="46" y="509" class="small">Local protein environments can change pKa and therefore the fractions.</text>

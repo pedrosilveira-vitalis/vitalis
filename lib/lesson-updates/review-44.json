@@ -1,0 +1,287 @@
+{
+  "lessonId": 44,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "For the MCAT, Mendelian genetics is foundational. Every genetics question—whether it involves pedigree analysis, molecular genetics, or population genetics—builds on the principles Mendel established. Mastery of these laws is non-negotiable.",
+      "new": "Mendelian models provide a starting point for interpreting crosses. State the assumptions, calculate probabilities, then compare those predictions with the observations. Not every trait follows a single-gene model.",
+      "reason": "Remove unsupported exam-wide claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "Each of these traits happened to be controlled by a single gene with two alleles, and the genes for these seven traits are located on different chromosomes (or far enough apart on the same chromosome to assort independently). This was extraordinarily fortunate—had Mendel chosen linked genes, his laws would have appeared to fail.",
+      "new": "The familiar pea crosses illustrate discrete inheritance, but their molecular genetics is more complex than a blanket claim that all seven traits are isolated, independent single-gene systems. Modern work identifies modifier effects for some traits. Independent assortment must be evaluated for the particular loci and cross.",
+      "reason": "Correct oversimplified historical genetics.",
+      "sourceUrl": "https://www.nature.com/articles/s41586-025-08891-6"
+    },
+    {
+      "field": "content",
+      "old": "**Phenotype**: the observable physical expression of the genotype",
+      "new": "**Phenotype**: an observable characteristic influenced by genotype and environment",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "**Gene**: a heritable unit that influences a specific trait; occupies a specific chromosomal locus",
+      "new": "**Gene**: a DNA region associated with a functional RNA or protein product; a gene may influence multiple traits",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "An organism inherits two alleles for each gene, one from each parent.",
+      "new": "For a typical diploid autosomal locus, an offspring inherits one allele from each parent. This model does not cover every ploidy level or sex-linked locus.",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "The law of segregation is the genetic expression of meiosis I separation of homologs.",
+      "new": "Homologs separate at meiosis I and sister chromatids at meiosis II; together these divisions distribute alleles into haploid products. Crossing over can change which alleles remain together on sister chromatids.",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "The recessive phenotype reappears in exactly 1/4 of offspring",
+      "new": "The recessive phenotype has probability 1/4 per offspring under this model; a finite sample need not contain exactly that fraction",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "A **testcross** (backcross) is the definitive method for determining an unknown genotype.",
+      "new": "A **testcross** helps infer an unknown genotype. A backcross instead means a cross to a parent or its equivalent genotype; some testcrosses are backcrosses, but the terms are not interchangeable.",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "This is a frequently tested concept on the MCAT.",
+      "new": "Under the ideal model, one recessive offspring establishes that the unknown parent contributed a recessive allele. All-dominant offspring do not prove homozygosity: a heterozygous parent has probability (1/2)^n of producing n dominant offspring in this testcross.",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "This law applies to genes on *different chromosomes*. Genes on the same chromosome tend to be **linked** and violate independent assortment (covered in the genetics unit on linkage and recombination).",
+      "new": "Different chromosome pairs assort independently. Nearby loci on one chromosome usually show linkage; widely separated loci can have a recombination fraction approaching 50% and behave as though unlinked.",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "16 equally probable genotypic combinations",
+      "new": "16 equally probable gamete-pair combinations, representing nine distinct two-locus genotypes",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "This **9:3:3:1 ratio** is the diagnostic signature of a dihybrid F2 cross with complete dominance and independent assortment.",
+      "new": "This **9:3:3:1 ratio** is expected for this dihybrid F2 model with complete dominance at each locus, independent assortment, no phenotype-altering epistasis, and equal viability. It is a prediction, not proof of a unique mechanism.",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "It applies when asking: \"What is the probability that an offspring has genotype X *and* phenotype Y?\"",
+      "new": "Apply it to independent events. A genotype and the phenotype it causes are generally not independent; in general, P(A and B) = P(A) × P(B given A).",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "Example: In a cross *AaBb* × *AaBb*,",
+      "new": "Example: For independently assorting loci in a cross *AaBb* × *AaBb*,",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "For a dihybrid cross *AaBb* × *AaBb*, what is the probability",
+      "new": "For independently assorting loci with complete dominance and no epistasis in *AaBb* × *AaBb*, what is the probability",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "where *R* (red) × *r* (white) produces *Rr* (pink).",
+      "new": "where *RR* (red) × *rr* (white) produces *Rr* (pink).",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "A gene may have more than two alleles in a population, even though any individual carries at most two. The ABO blood group locus has three alleles:",
+      "new": "A diploid individual ordinarily carries at most two alleles at an autosomal locus, while a population can contain many. The simplified ABO model uses three major allele classes (with multiple sequence variants within those classes):",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK2267/"
+    },
+    {
+      "field": "content",
+      "old": "Two affected parents → all affected offspring (if trait is recessive)",
+      "new": "Two affected parents → all affected offspring in the fully penetrant, same-locus recessive model; different causal genes can give a different outcome",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "both parents must be carriers (*Aa* × *Aa*), and the affected child is *aa*.",
+      "new": "the simple, fully penetrant autosomal recessive model predicts carrier parents (*Aa* × *Aa*) and an *aa* child. Real families can involve new variants, mosaicism or other complexities.",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "Trait appears in every generation (no skipping, unless penetrance is incomplete)",
+      "new": "Often seen in successive generations; incomplete penetrance, age-dependent onset and new variants complicate the pattern",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "Affected fathers pass the allele to all daughters (who become carriers)",
+      "new": "Affected fathers pass their X-linked allele to all daughters; the daughters’ genotype and phenotype also depend on the maternal allele and X-inactivation",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "Affected mothers pass the trait to 50% of sons and 50% of daughters",
+      "new": "A heterozygous mother has a 50% chance of passing the allele to each child; phenotype also depends on penetrance",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "Females affected more often than males (two X chromosomes = two chances to inherit the allele)",
+      "new": "Sex-specific prevalence depends on allele frequency, transmission, penetrance and viability; it is not fixed by chromosome count alone",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "**Steps**:\n1. State the null hypothesis (e.g., \"the data fit a 3:1 ratio\")\n2. Calculate expected numbers from the total offspring\n3. Compute χ² using the formula above\n4. Determine degrees of freedom: df = (number of phenotypic classes) − 1\n5. Compare χ² to a critical value table at p = 0.05",
+      "new": "**Steps**:\n1. Specify the null model and its predicted class probabilities.\n2. Multiply each probability by sample size to obtain expected counts.\n3. Compute χ² from observed and expected counts.\n4. For k classes and fully specified probabilities, use k − 1 degrees of freedom; estimating parameters can reduce this.\n5. Compare with a critical value at a chosen significance level, such as α = 0.05. Check that sample size and expected counts support the approximation.",
+      "reason": "Correct statistical procedure.",
+      "sourceUrl": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35f.htm"
+    },
+    {
+      "field": "content",
+      "old": "If χ² exceeds the critical value, the null hypothesis is rejected—the data do not fit the expected ratio, suggesting the genes may be linked, epistatic, or otherwise non-Mendelian.",
+      "new": "Rejecting the null indicates incompatibility with that specified model at the chosen significance level. It does not identify the cause: biological departures, ascertainment or measurement problems can all matter.",
+      "reason": "Separate inference from mechanism.",
+      "sourceUrl": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35f.htm"
+    },
+    {
+      "field": "content",
+      "old": "A χ² < 3.84 supports the null hypothesis.",
+      "new": "A χ² below this threshold means failure to reject at α = 0.05, not proof that the model is true.",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35f.htm"
+    },
+    {
+      "field": "content",
+      "old": "The MCAT does not require you to perform full chi-square calculations, but you must understand its purpose: distinguishing true deviations from expected ratios from deviations due to chance sampling.",
+      "new": "Small samples may require an exact test instead of a chi-square approximation. Statistical non-significance can reflect limited power.",
+      "reason": "Remove unsupported exam restriction.",
+      "sourceUrl": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35f.htm"
+    },
+    {
+      "field": "content",
+      "old": "- **Dominance** at the molecular level can reflect: (1) one functional allele producing enough protein (haploinsufficiency is the exception, not the rule—most genes produce sufficient product from one copy), (2) dominant negative alleles where one mutant protein interferes with the normal protein, or (3) gain-of-function mutations.",
+      "new": "- **Dominance** depends on the measured phenotype. One functional allele may provide sufficient activity (haplosufficiency); insufficient activity from one copy is haploinsufficiency. Dominant-negative and gain-of-function effects are other mechanisms.",
+      "reason": "Clarify dominance mechanisms.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "- **Segregation** is mechanistically meiosis I separation of homologs, as described earlier.",
+      "new": "- **Segregation** reflects allele distribution through the meiotic divisions, as described earlier.",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "- **All offspring same phenotype** → either P generation is homozygous dominant, or testcross of homozygous dominant",
+      "new": "- **All offspring same phenotype** → consider the parental genotypes, dominance model and sample size; this observation alone does not uniquely determine the cross",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "Any dihybrid F2 ratio that sums to 16 but does not show 9:3:3:1 suggests epistasis. Always check that the modified ratio components sum to 16 (e.g., 9+7=16, 12+3+1=16, 9+3+4=16).",
+      "new": "Modified ratios such as 9:7 or 9:3:4 can arise when phenotypic classes of an independently assorting dihybrid cross are combined by epistasis. A ratio summing to 16 is not, by itself, evidence of epistasis. Check the biological model and sample size.",
+      "reason": "Avoid pattern-based proof.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "- Trait skips generations → recessive",
+      "new": "- Trait skips generations → consider recessive inheritance, but also incomplete penetrance or age-dependent onset",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "These laws predict precise offspring ratios:",
+      "new": "Under their assumptions, these laws predict expected probabilities rather than exact finite-sample ratios:",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "Deviations from these ratios point to phenomena like",
+      "new": "Observed deviations can arise by random sampling or from phenomena such as",
+      "reason": "Clarify model assumptions and avoid absolute claims.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "The chromosomal basis of these laws—meiotic segregation of homologs and random metaphase I alignment—provides the mechanistic explanation that Mendel could not have known. For the MCAT, Mendelian genetics is not merely historical background; it is the analytical framework for every genetics problem you will encounter. Master the ratios, master the probability rules, and practice pedigree analysis until pattern recognition is automatic.",
+      "new": "For each problem, distinguish the genotype model, phenotype assumptions and sampling variation. A pedigree or numerical ratio can support an inheritance model without uniquely proving it.",
+      "reason": "Remove absolute exam promise.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "questions.216.question_text",
+      "old": "In pea plants, tall (T) is dominant over short (t). A researcher crosses two plants and obtains offspring in a 1 tall : 1 short ratio. Which of the following best describes the parental genotypes?",
+      "new": "In pea plants, tall (T) is completely dominant over short (t). Which parental cross predicts an expected 1 tall : 1 short ratio, assuming equal viability?",
+      "reason": "Distinguish predicted and observed ratios.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "questions.217.question_text",
+      "old": "Mendel's law of segregation states that alleles separate during gamete formation. Which stage of meiosis is most directly responsible for this separation of alleles at a single locus?",
+      "new": "At a heterozygous locus, assume no crossing over between the locus and its centromere. Which meiotic event first separates the homologs carrying the two different alleles?",
+      "reason": "Make first-division answer unambiguous.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "questions.217.explanation",
+      "old": "The law of segregation is physically explained by the separation of homologous chromosomes during meiosis I (anaphase I), which carries one allele of each gene pair into different daughter cells. Meiosis II separates sister chromatids, not homologs. Crossing over in prophase I can shuffle alleles but is not the mechanism of segregation itself. DNA replication in S phase precedes meiosis and does not separate alleles.",
+      "new": "With no crossover between this locus and its centromere, the two allele-bearing homologs separate at anaphase I. Sister chromatids separate in meiosis II. DNA replication duplicates chromosomes; it does not separate them. The stated crossover assumption makes this a first-division segregation example.",
+      "reason": "Align explanation with assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "questions.218.explanation",
+      "old": "For an AaBb x AaBb cross, the probability of aa offspring is 1/4 and the probability of bb offspring is independently 1/4. By the product rule, the probability of aabb is 1/4 x 1/4 = 1/16. This is one of 16 equally probable genotype combinations in a dihybrid cross. A common mistake is selecting 1/4, which only accounts for one gene rather than both simultaneously.",
+      "new": "Each locus gives a recessive-homozygote probability of 1/4. Independent assortment permits multiplication: P(aabb) = 1/4 × 1/4 = 1/16. The 16 equally likely Punnett-square boxes represent gamete pairs, not 16 distinct genotypes; several boxes share the same genotype.",
+      "reason": "Correct genotype counting.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "questions.219.question_text",
+      "old": "A geneticist crosses a true-breeding round, yellow pea plant (RRYY) with a true-breeding wrinkled, green pea plant (rryy). The F1 offspring are then allowed to self-fertilize. Which phenotypic ratio is expected in the F2 generation, assuming independent assortment?",
+      "new": "A geneticist crosses a true-breeding round, yellow pea plant (RRYY) with a true-breeding wrinkled, green pea plant (rryy). The F1 offspring are then allowed to self-fertilize. Which phenotypic ratio is expected in the F2 generation, assuming independent assortment, complete dominance at each locus, no epistasis and equal viability?",
+      "reason": "State ratio assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    }
+  ]
+}

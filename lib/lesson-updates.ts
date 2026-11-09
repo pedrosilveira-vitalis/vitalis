@@ -63,8 +63,10 @@ import operons from "./lesson-updates/bacterial-operons.json";
 
 import eukRegulation from "./lesson-updates/eukaryotic-regulation.json";
 
+import mendelian from "./lesson-updates/mendelian-inheritance.json";
+
 type Row = { id: number; [key: string]: unknown };
-const reviews = [structure, classification, acidBase, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation];
+const reviews = [structure, classification, acidBase, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation, mendelian];
 export function applyLessonUpdates<L extends Row, Q extends Row>(lesson: L, questions: Q[]) {
   const reviewed = reviews.find(entry => entry.lessonId === lesson.id);
   if (!reviewed) return { lesson, questions, review: null };

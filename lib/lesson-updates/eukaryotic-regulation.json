@@ -49,7 +49,10 @@
   "visual": {
     "src": "/lesson-diagrams/eukaryotic-regulation.svg",
     "alt": "Three distinct regulatory layers: chromatin and promoter control affect transcription; RNA destabilization lowers mRNA and protein; translation inhibition can lower protein while measured mRNA stays stable.",
-    "caption": "Measure the regulated step. Chromatin-mark enrichment is an association; RNA and protein measurements help distinguish transcription, RNA decay and translation."
+    "caption": "Measure the regulated step. Chromatin-mark enrichment is an association; RNA and protein measurements help distinguish transcription, RNA decay and translation.",
+    "title": "Distinguishing levels of gene regulation",
+    "width": 800,
+    "height": 740
   },
   "guards": [
     {

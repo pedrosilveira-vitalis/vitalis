@@ -88,3 +88,11 @@ Draft lesson IDs: 4, 5, 6, 7, 8, 44, 45, 46, 47, 48, 89, 90, 91, 92, 109, 110, 1
 - On-page Nori and flashcard reliability changes are included with the original streak/calls features. Core fallback decks are explicitly labeled; 6 per section, 24 total. They are not claimed to be newly generated AI cards.
 - 54 automated tests passed. Final production build and package reconstruction checks are recorded in the release README. No live deployment or authenticated AI/browser verification is claimed.
 - Packaging excludes source snapshots and unfinished draft audits; guarded overlays preserve database content and skip changed lesson sources atomically.
+
+## Typography and review checkpoint — 2026-11-09
+- Standardized application typography on Geist sans; replaced decorative burgundy with blue in application UI and all 41 lesson diagrams. Preserved Nori's character coloring and the Google identity mark.
+- Filled missing diagram title/dimension metadata; added assertions covering all reviewed visual metadata.
+- Integrated lesson 44 after full lesson/five-question reading: 40 targeted corrections to Mendelian probability, genotype counting, linkage, pedigree scope and statistical interpretation. Added and rendered a Punnett-square/branch diagram.
+- Total: **41/250 lessons, 205 quiz questions; 209 lessons remain**. No 100% accuracy guarantee or exhaustive certification.
+- **55 tests passed; production build passed**. New SVG rendered with Sharp and visually inspected. Full browser interaction and live authenticated APIs have not been reverified for this checkpoint.
+- No production deployment performed. Next content review: lesson 45.

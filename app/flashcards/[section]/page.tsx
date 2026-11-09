@@ -18,10 +18,10 @@ const SECTION_NAMES: Record<string, string> = {
 };
 
 const SECTION_COLORS: Record<string, string> = {
-  "bio-biochem": "#a8324a",
-  "chem-phys": "#2e4a6b",
-  "psych-soc": "#8a6b2e",
-  "cars": "#4a3b6b",
+  "bio-biochem": "#245574",
+  "chem-phys": "#245574",
+  "psych-soc": "#245574",
+  "cars": "#245574",
 };
 
 export default function FlashcardSession() {
@@ -105,9 +105,9 @@ export default function FlashcardSession() {
     return (
       <div className="min-h-screen bg-[#f5f1ea] flex items-center justify-center p-10">
         <div className="text-center max-w-md">
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-50 mb-4">404</div>
-          <h1 className="font-serif text-3xl font-medium mb-4">No such section.</h1>
-          <Link href="/flashcards" className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full">← Back</Link>
+          <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-50 mb-4">404</div>
+          <h1 className="font-sans text-3xl font-medium mb-4">No such section.</h1>
+          <Link href="/flashcards" className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full">← Back</Link>
         </div>
       </div>
     );
@@ -122,7 +122,7 @@ export default function FlashcardSession() {
             <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
             <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
           </div>
-          <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Generating {sectionName} cards...</div>
+          <div className="font-sans text-[11px] uppercase tracking-[0.12em] opacity-60">Generating {sectionName} cards...</div>
           <button onClick={useCoreDeck} className="mt-6 underline">Use core review cards now</button>
         </div>
       </div>
@@ -133,8 +133,8 @@ export default function FlashcardSession() {
     return (
       <div className="min-h-screen bg-[#f5f1ea] flex items-center justify-center p-10">
         <div className="text-center max-w-md">
-          <h1 className="font-serif text-3xl font-medium mb-4">{error}</h1>
-          <button onClick={() => void loadCards()} className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full">Try again</button>
+          <h1 className="font-sans text-3xl font-medium mb-4">{error}</h1>
+          <button onClick={() => void loadCards()} className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full">Try again</button>
           <button onClick={useCoreDeck} className="block mx-auto mt-5 underline">Use core review cards now</button>
           <Link href="/flashcards" className="block mt-4 underline">Back to flashcards</Link>
         </div>
@@ -147,17 +147,17 @@ export default function FlashcardSession() {
       <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e]">
         <MainNav active="flashcards" badge="Deck complete" />
         <div className="max-w-2xl mx-auto px-10 py-20 text-center">
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4">Deck complete</div>
-          <h1 className="font-serif text-[clamp(48px,6vw,88px)] font-medium tracking-tight mb-3" style={{ color: accent }}>
+          <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4">Deck complete</div>
+          <h1 className="font-sans text-[clamp(48px,6vw,88px)] font-medium tracking-tight mb-3" style={{ color: accent }}>
             {knownCount} / {cards.length}
           </h1>
-          <p className="font-mono text-[14px] tracking-[0.1em] uppercase opacity-65 mb-10">cards known</p>
+          <p className="font-sans text-[14px] tracking-[0.1em] uppercase opacity-65 mb-10">cards known</p>
           <div className="flex gap-3 justify-center flex-wrap">
-            {reviewCards.length > 0 && <button onClick={() => startDeck(reviewCards)} className="font-mono text-xs border px-5 py-3 rounded-full">Review {reviewCards.length} cards again</button>}
-            <button onClick={() => void loadCards()} className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]">
+            {reviewCards.length > 0 && <button onClick={() => startDeck(reviewCards)} className="font-sans text-xs border px-5 py-3 rounded-full">Review {reviewCards.length} cards again</button>}
+            <button onClick={() => void loadCards()} className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]">
               New deck →
             </button>
-            <button onClick={() => router.push("/flashcards")} className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full hover:bg-[#0c1a2e0a]">
+            <button onClick={() => router.push("/flashcards")} className="font-sans text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full hover:bg-[#0c1a2e0a]">
               Pick another section
             </button>
           </div>
@@ -172,7 +172,7 @@ export default function FlashcardSession() {
     <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e]">
       <MainNav active="flashcards" badge={`${currentIdx + 1} / ${cards.length}`} />
       <div className="max-w-3xl mx-auto px-10 py-10">
-        <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-60 mb-3 flex items-center gap-2">
+        <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-60 mb-3 flex items-center gap-2">
           <Link href="/flashcards" className="hover:opacity-100 opacity-70">Flashcards</Link>
           <span className="opacity-40">/</span>
           <span style={{ color: accent }}>{sectionName}</span>
@@ -183,7 +183,7 @@ export default function FlashcardSession() {
           <div className="flex-1 h-1.5 bg-[#0c1a2e15] rounded-full overflow-hidden">
             <div className="h-full transition-all" style={{ width: `${(currentIdx / cards.length) * 100}%`, backgroundColor: accent }} />
           </div>
-          <div className="font-mono text-[10px] tracking-[0.1em] uppercase opacity-55 flex-shrink-0">
+          <div className="font-sans text-[10px] tracking-[0.1em] uppercase opacity-55 flex-shrink-0">
             {currentIdx + 1} / {cards.length}
           </div>
         </div>
@@ -195,10 +195,10 @@ export default function FlashcardSession() {
           className="min-h-[300px] md:min-h-[400px] p-10 md:p-14 border-2 border-[#0c1a2e15] rounded-3xl flex items-center justify-center text-center cursor-pointer hover:border-[#0c1a2e] transition-all bg-[#f5f1ea] mb-7"
         >
           <div>
-            <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-4">
+            <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55 mb-4">
               {flipped ? "Back" : "Front"} · click to flip
             </div>
-            <div className="font-serif text-[clamp(20px,2.6vw,28px)] leading-snug">
+            <div className="font-sans text-[clamp(20px,2.6vw,28px)] leading-snug">
               {flipped ? card.back : card.front}
             </div>
           </div>
@@ -206,15 +206,15 @@ export default function FlashcardSession() {
 
         {flipped ? (
           <div className="flex gap-3 justify-center flex-wrap">
-            <button onClick={handleReview} className="flex-1 md:flex-none font-mono text-xs uppercase tracking-[0.08em] border-2 border-[#a8324a] text-[#a8324a] px-7 py-3.5 rounded-full hover:bg-[#a8324a] hover:text-[#f5f1ea] transition-all">
+            <button onClick={handleReview} className="flex-1 md:flex-none font-sans text-xs uppercase tracking-[0.08em] border-2 border-[#245574] text-[#245574] px-7 py-3.5 rounded-full hover:bg-[#245574] hover:text-[#f5f1ea] transition-all">
               Review again
             </button>
-            <button onClick={handleKnown} className="flex-1 md:flex-none font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-7 py-3.5 rounded-full hover:bg-[#1a2c4a]">
+            <button onClick={handleKnown} className="flex-1 md:flex-none font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-7 py-3.5 rounded-full hover:bg-[#1a2c4a]">
               Got it ✓
             </button>
           </div>
         ) : (
-          <div className="text-center font-mono text-[11px] tracking-[0.12em] uppercase opacity-55">
+          <div className="text-center font-sans text-[11px] tracking-[0.12em] uppercase opacity-55">
             Click the card to reveal the back
           </div>
         )}

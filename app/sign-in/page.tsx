@@ -5,10 +5,10 @@ function Logo() {
   return (
     <div className="flex items-center gap-2.5">
       <svg width="36" height="20" viewBox="0 0 60 28" fill="none" className="flex-shrink-0">
-        <path d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14" stroke="#a8324a" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-        <circle cx="50" cy="14" r="2.2" fill="#a8324a" />
+        <path d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14" stroke="#245574" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+        <circle cx="50" cy="14" r="2.2" fill="#245574" />
       </svg>
-      <span className="font-serif font-semibold text-[22px] tracking-tight text-[#0c1a2e]">Vitalis</span>
+      <span className="font-sans font-semibold text-[22px] tracking-tight text-[#0c1a2e]">Vitalis</span>
     </div>
   );
 }
@@ -20,19 +20,19 @@ export default function SignInPage() {
         <Link href="/">
           <Logo />
         </Link>
-        <Link href="/" className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-60 hover:opacity-100">
+        <Link href="/" className="font-sans text-[11px] tracking-[0.12em] uppercase opacity-60 hover:opacity-100">
           ← Back home
         </Link>
       </header>
 
       <div className="flex-1 flex items-center justify-center px-8 py-14">
         <div className="w-full max-w-md">
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
+          <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
             <span className="w-10 h-px bg-[#0c1a2e] opacity-40" />
             Sign in
           </div>
-          <h1 className="font-serif text-[clamp(36px,5vw,56px)] font-medium leading-[1.05] tracking-tight mb-3">
-            Welcome to <span className="italic font-light text-[#a8324a]">Vitalis.</span>
+          <h1 className="font-sans text-[clamp(36px,5vw,56px)] font-medium leading-[1.05] tracking-tight mb-3">
+            Welcome to <span className="italic font-light text-[#245574]">Vitalis.</span>
           </h1>
           <p className="text-[14px] opacity-70 leading-relaxed mb-10">
             Sign in to save your progress, build custom flashcards, and access your tutor conversation history.
@@ -58,7 +58,7 @@ export default function SignInPage() {
             </button>
           </form>
 
-          <div className="mt-6 text-center font-mono text-[10px] tracking-[0.1em] uppercase opacity-50">
+          <div className="mt-6 text-center font-sans text-[10px] tracking-[0.1em] uppercase opacity-50">
             Microsoft sign-in coming next
           </div>
         </div>

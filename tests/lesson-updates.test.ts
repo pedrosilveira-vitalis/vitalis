@@ -1,3 +1,4 @@
+import mendelian from "./fixtures/lesson-44.json";
 import eukRegulation from "./fixtures/lesson-43.json";
 import operons from "./fixtures/lesson-42.json";
 import proteinTargeting from "./fixtures/lesson-41.json";
@@ -64,7 +65,7 @@ test("changed source is left untouched and not marked reviewed", (t) => {
   assert.equal(result.lesson.content, changed.lesson.content);
 });
 test("unreviewed lessons are left untouched", () => {
-  const other = { ...fixture.lesson, id: 44 };
+  const other = { ...fixture.lesson, id: 45 };
   assert.deepEqual(applyLessonUpdates(other, fixture.questions), { lesson: other, questions: fixture.questions, review: null });
 });
 
@@ -97,11 +98,13 @@ test("classification review removes second charge-loss answer and repairs A280 e
 
 test("each reviewed lesson has a distinct, accessible visual and valid quiz keys", () => {
   const paths = new Set<string>();
-  for (const source of [structure, classification, fixture, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation]) {
+  for (const source of [structure, classification, fixture, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation, mendelian]) {
     const { review, questions } = applyLessonUpdates(source.lesson, source.questions);
     assert.ok(review);
     paths.add(review.visual.src);
     assert.ok(review.visual.alt.length > 50);
+    assert.ok(review.visual.title.length > 5);
+    assert.ok(review.visual.width > 0 && review.visual.height > 0);
     const path = join(process.cwd(), "public", review.visual.src);
     assert.ok(existsSync(path));
     const svg = readFileSync(path, "utf8");
@@ -112,12 +115,12 @@ test("each reviewed lesson has a distinct, accessible visual and valid quiz keys
       assert.equal(new Set([q.choice_a, q.choice_b, q.choice_c, q.choice_d]).size, 4);
     }
   }
-  assert.equal(paths.size, 40);
+  assert.equal(paths.size, 41);
 });
 
 test("added, missing or duplicate questions invalidate review; changed order does not", (t) => {
   t.mock.method(console, "warn", () => {});
-  for (const source of [structure, classification, fixture, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation]) {
+  for (const source of [structure, classification, fixture, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation, mendelian]) {
     const qs = source.questions;
     const variants = [qs.slice(1), [...qs, { ...qs[0], id: 99999 }], [...qs.slice(1), qs[1]]];
     for (const variant of variants) {
@@ -132,7 +135,7 @@ test("added, missing or duplicate questions invalidate review; changed order doe
 
 test("every guarded lesson and question field blocks a stale review when changed", (t) => {
   t.mock.method(console, "warn", () => {});
-  for (const source of [structure, classification, fixture, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation]) {
+  for (const source of [structure, classification, fixture, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation, mendelian]) {
     for (const field of ["title", "content"] as const) {
       const changed = structuredClone(source);
       changed.lesson[field] += " changed";
@@ -386,3 +389,12 @@ test("eukaryotic regulation review separates SMN genes and RNA-decay mechanisms"
  assert.match(r.questions.find(q => q.id === 212)!.explanation, /4-fold/);
  assert.doesNotMatch(r.lesson.content, /predominant outcome is translational repression with partial/);
 });
+
+ test("Mendelian review distinguishes finite samples and distinct genotypes", () => {
+ const r=applyLessonUpdates(mendelian.lesson,mendelian.questions);
+ assert.ok(r.review);
+ assert.match(r.lesson.content,/nine distinct two-locus genotypes/);
+ assert.doesNotMatch(r.lesson.content,/reappears in exactly 1\/4/);
+ assert.match(r.questions.find(q=>q.id===217)!.question_text,/no crossing over/);
+ assert.match(r.questions.find(q=>q.id===218)!.explanation,/not 16 distinct genotypes/);
+ });

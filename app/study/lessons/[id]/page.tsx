@@ -59,17 +59,17 @@ const SECTION_NAMES: Record<string, string> = {
 };
 
 const SECTION_COLORS: Record<string, string> = {
-  "bio-biochem": "#a8324a",
-  "chem-phys": "#2e4a6b",
-  "psych-soc": "#8a6b2e",
-  "cars": "#4a3b6b",
+  "bio-biochem": "#245574",
+  "chem-phys": "#245574",
+  "psych-soc": "#245574",
+  "cars": "#245574",
 };
 
 function Logo() {
   return (
     <div className="flex items-center gap-2.5">
       <Nori className="lesson-nori"/>
-      <span className="font-serif font-semibold text-xl tracking-tight text-[#0c1a2e]">Vitalis</span>
+      <span className="font-sans font-semibold text-xl tracking-tight text-[#0c1a2e]">Vitalis</span>
     </div>
   );
 }
@@ -327,7 +327,7 @@ export default function StudyLessonPage() {
             <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
             <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
           </div>
-          <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Loading lesson...</div>
+          <div className="font-sans text-[11px] uppercase tracking-[0.12em] opacity-60">Loading lesson...</div>
         </div>
       </div>
     );
@@ -337,9 +337,9 @@ export default function StudyLessonPage() {
     return (
       <div className="min-h-screen bg-[#f5f1ea] flex items-center justify-center p-10">
         <div className="text-center max-w-md">
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-50 mb-4">Error</div>
-          <h1 className="font-serif text-3xl font-medium mb-4">{error || "Lesson not found"}</h1>
-          <Link href="/study" className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]">
+          <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-50 mb-4">Error</div>
+          <h1 className="font-sans text-3xl font-medium mb-4">{error || "Lesson not found"}</h1>
+          <Link href="/study" className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]">
             ← Back to Study
           </Link>
         </div>
@@ -360,24 +360,24 @@ export default function StudyLessonPage() {
           <Link href="/tutor" className="opacity-60 hover:opacity-100">Tutor</Link>
           <Link href="/practice" className="opacity-60 hover:opacity-100">Practice</Link>
           <Link href="/flashcards" className="opacity-60 hover:opacity-100">Flashcards</Link>
-          <Link href="/study" className="opacity-100 border-b border-[#a8324a] pb-0.5">Study</Link>
+          <Link href="/study" className="opacity-100 border-b border-[#245574] pb-0.5">Study</Link>
           <Link href="/voice-cases" className="opacity-60 hover:opacity-100">Voice Cases</Link>
         </div>
-        <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">Reading</div>
+        <div className="font-sans text-[11px] tracking-[0.12em] uppercase opacity-50">Reading</div>
       </nav>
 
       <header className="px-10 pt-10 pb-6 border-b border-[#0c1a2e15] max-w-4xl mx-auto">
-        <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-60 mb-3 flex items-center gap-2 flex-wrap">
+        <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-60 mb-3 flex items-center gap-2 flex-wrap">
           <Link href="/study" className="hover:opacity-100 opacity-70">Study</Link>
           <span className="opacity-40">/</span>
           <Link href={`/study/${data.lesson.section}`} className="hover:opacity-100 opacity-70">{SECTION_NAMES[data.lesson.section]}</Link>
           <span className="opacity-40">/</span>
           <span>Unit {data.lesson.unit_number} · {data.lesson.unit_title}</span>
         </div>
-        <h1 className="font-serif text-[clamp(32px,4vw,52px)] font-medium tracking-tight leading-tight mb-3">
+        <h1 className="font-sans text-[clamp(32px,4vw,52px)] font-medium tracking-tight leading-tight mb-3">
           {data.lesson.title}
         </h1>
-        <div className="flex items-center gap-4 font-mono text-[10px] tracking-[0.12em] uppercase opacity-55">
+        <div className="flex items-center gap-4 font-sans text-[10px] tracking-[0.12em] uppercase opacity-55">
           <span>Lesson {data.lesson.lesson_number}</span>
           <span>·</span>
           <span>{data.lesson.estimated_minutes} min read</span>
@@ -389,8 +389,8 @@ export default function StudyLessonPage() {
           )}
         </div>
         {!data.isAuthenticated && (
-          <div className="mt-4 p-3 bg-[#a8324a08] border border-[#a8324a25] rounded-lg text-[12px] opacity-80 max-w-2xl">
-            <Link href="/sign-in" className="text-[#a8324a] font-medium hover:underline">Sign in</Link> to highlight, take notes, and save progress.
+          <div className="mt-4 p-3 bg-[#24557408] border border-[#24557425] rounded-lg text-[12px] opacity-80 max-w-2xl">
+            <Link href="/sign-in" className="text-[#245574] font-medium hover:underline">Sign in</Link> to highlight, take notes, and save progress.
           </div>
         )}
       </header>
@@ -405,7 +405,7 @@ export default function StudyLessonPage() {
         />
 
         {data.review && <section className="my-10 rounded-2xl border border-[#d9c6b5] bg-[#fffaf3] p-5" aria-labelledby="lesson-visual-title">
-          <h2 id="lesson-visual-title" className="font-serif text-2xl mb-4">{data.review.visual.title}</h2>
+          <h2 id="lesson-visual-title" className="font-sans text-2xl mb-4">{data.review.visual.title}</h2>
           <figure>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={data.review.visual.src} width={data.review.visual.width} height={data.review.visual.height} alt={data.review.visual.alt} className="w-full h-auto" loading="lazy"/>
@@ -419,22 +419,22 @@ export default function StudyLessonPage() {
         <div className="mt-16 pt-10 border-t border-[#0c1a2e15]">
           {!showQuestions ? (
             <div className="text-center">
-              <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-3">Check your understanding</div>
-              <h2 className="font-serif text-2xl font-medium mb-3">5 questions on this lesson</h2>
+              <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55 mb-3">Check your understanding</div>
+              <h2 className="font-sans text-2xl font-medium mb-3">5 questions on this lesson</h2>
               <p className="text-[14px] opacity-70 mb-5 max-w-md mx-auto">
                 Optional, but recommended. Test what you remember before moving on.
               </p>
               <div className="flex gap-3 justify-center flex-wrap">
                 <button
                   onClick={() => setShowQuestions(true)}
-                  className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
+                  className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
                 >
                   Start questions →
                 </button>
                 {data.isAuthenticated && (
                   <button
                     onClick={markComplete}
-                    className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full hover:bg-[#0c1a2e0a]"
+                    className="font-sans text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full hover:bg-[#0c1a2e0a]"
                   >
                     Skip · mark complete
                   </button>
@@ -443,7 +443,7 @@ export default function StudyLessonPage() {
             </div>
           ) : (
             <div>
-              <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-3 flex items-center justify-between">
+              <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55 mb-3 flex items-center justify-between">
                 <span>Check your understanding</span>
                 {submitted && (
                   <span className="text-[#0c1a2e]">{correctCount} / {data.questions.length} correct</span>
@@ -457,7 +457,7 @@ export default function StudyLessonPage() {
                   const userAns = answers[q.id];
                   return (
                     <div key={q.id} className="border border-[#0c1a2e15] rounded-2xl p-6">
-                      <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-2">Q{q.question_number}</div>
+                      <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55 mb-2">Q{q.question_number}</div>
                       <p className="text-[15px] leading-relaxed mb-4 font-medium">{q.question_text}</p>
                       <div className="space-y-2">
                         {(["A","B","C","D"] as const).map((letter) => {
@@ -468,7 +468,7 @@ export default function StudyLessonPage() {
                           let bg = "bg-transparent";
                           if (submitted) {
                             if (isCorrect) { cls = "border-[#3e6b4a]"; bg = "bg-[#3e6b4a15]"; }
-                            else if (isSelected && !isCorrect) { cls = "border-[#a8324a]"; bg = "bg-[#a8324a15]"; }
+                            else if (isSelected && !isCorrect) { cls = "border-[#245574]"; bg = "bg-[#24557415]"; }
                           } else if (isSelected) { cls = "border-[#0c1a2e]"; bg = "bg-[#0c1a2e0a]"; }
                           return (
                             <button
@@ -478,7 +478,7 @@ export default function StudyLessonPage() {
                               className={`w-full text-left p-3 rounded-xl border-2 transition-all ${cls} ${bg} ${!submitted ? "hover:border-[#0c1a2e] hover:bg-[#0c1a2e0a] cursor-pointer" : "cursor-default"}`}
                             >
                               <div className="flex gap-3">
-                                <span className="font-serif font-semibold w-5 flex-shrink-0">{letter}</span>
+                                <span className="font-sans font-semibold w-5 flex-shrink-0">{letter}</span>
                                 <span className="text-[13.5px] leading-relaxed">{text}</span>
                               </div>
                             </button>
@@ -487,7 +487,7 @@ export default function StudyLessonPage() {
                       </div>
                       {submitted && (
                         <div className="mt-4 p-4 bg-[#0c1a2e0a] rounded-xl text-[13px] leading-relaxed">
-                          <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-1">Explanation</div>
+                          <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55 mb-1">Explanation</div>
                           {q.explanation}
                         </div>
                       )}
@@ -501,7 +501,7 @@ export default function StudyLessonPage() {
                   <button
                     onClick={submitQuestions}
                     disabled={answeredCount < data.questions.length}
-                    className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a] disabled:opacity-30 disabled:cursor-not-allowed"
+                    className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a] disabled:opacity-30 disabled:cursor-not-allowed"
                   >
                     Submit answers →
                   </button>
@@ -511,14 +511,14 @@ export default function StudyLessonPage() {
                   {data.nextLesson ? (
                     <Link
                       href={`/study/lessons/${data.nextLesson.id}`}
-                      className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
+                      className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
                     >
                       Next lesson →
                     </Link>
                   ) : (
                     <Link
                       href={`/study/${data.lesson.section}`}
-                      className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
+                      className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
                     >
                       Back to unit
                     </Link>
@@ -532,16 +532,16 @@ export default function StudyLessonPage() {
         {/* Nav at bottom */}
         <div className="mt-12 pt-6 border-t border-[#0c1a2e15] flex justify-between gap-4 flex-wrap">
           {data.prevLesson ? (
-            <Link href={`/study/lessons/${data.prevLesson.id}`} className="font-mono text-[11px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100">
+            <Link href={`/study/lessons/${data.prevLesson.id}`} className="font-sans text-[11px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100">
               ← Previous: {data.prevLesson.title}
             </Link>
           ) : <div />}
           {data.nextLesson ? (
-            <Link href={`/study/lessons/${data.nextLesson.id}`} className="font-mono text-[11px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100 text-right">
+            <Link href={`/study/lessons/${data.nextLesson.id}`} className="font-sans text-[11px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100 text-right">
               Next: {data.nextLesson.title} →
             </Link>
           ) : (
-            <Link href={`/study/${data.lesson.section}`} className="font-mono text-[11px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100 text-right">
+            <Link href={`/study/${data.lesson.section}`} className="font-sans text-[11px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100 text-right">
               Back to {SECTION_NAMES[data.lesson.section]} →
             </Link>
           )}
@@ -560,13 +560,13 @@ export default function StudyLessonPage() {
         >
           <button
             onClick={() => saveHighlight(false)}
-            className="px-3 py-1.5 text-[11px] font-mono uppercase tracking-[0.08em] hover:bg-[#1a2c4a] rounded-full"
+            className="px-3 py-1.5 text-[11px] font-sans uppercase tracking-[0.08em] hover:bg-[#1a2c4a] rounded-full"
           >
             Highlight
           </button>
           <button
             onClick={() => saveHighlight(true)}
-            className="px-3 py-1.5 text-[11px] font-mono uppercase tracking-[0.08em] hover:bg-[#1a2c4a] rounded-full"
+            className="px-3 py-1.5 text-[11px] font-sans uppercase tracking-[0.08em] hover:bg-[#1a2c4a] rounded-full"
           >
             + Note
           </button>
@@ -583,7 +583,7 @@ export default function StudyLessonPage() {
             className="bg-[#f5f1ea] rounded-2xl max-w-lg w-full p-7 shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-3">Note</div>
+            <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55 mb-3">Note</div>
             <div className="bg-[#fef3a3] rounded-lg p-3 mb-4 text-[13px] leading-relaxed italic">
               &quot;{activeHighlight.highlighted_text}&quot;
             </div>
@@ -597,20 +597,20 @@ export default function StudyLessonPage() {
             <div className="mt-5 flex gap-3 justify-between">
               <button
                 onClick={deleteHighlight}
-                className="font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 hover:opacity-100 hover:text-[#a8324a]"
+                className="font-sans text-[10px] tracking-[0.1em] uppercase opacity-50 hover:opacity-100 hover:text-[#245574]"
               >
                 Delete highlight
               </button>
               <div className="flex gap-3">
                 <button
                   onClick={() => setActiveHighlight(null)}
-                  className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-4 py-2.5 rounded-full hover:bg-[#0c1a2e0a]"
+                  className="font-sans text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-4 py-2.5 rounded-full hover:bg-[#0c1a2e0a]"
                 >
                   Cancel
                 </button>
                 <button
                   onClick={updateNote}
-                  className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-4 py-2.5 rounded-full hover:bg-[#1a2c4a]"
+                  className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-4 py-2.5 rounded-full hover:bg-[#1a2c4a]"
                 >
                   Save note
                 </button>
@@ -622,9 +622,9 @@ export default function StudyLessonPage() {
 
       <style jsx global>{`
         .study-content p { font-size: 16px; line-height: 1.75; margin-bottom: 18px; color: #0c1a2ed8; }
-        .study-content h1 { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 500; margin: 32px 0 14px; color: #0c1a2e; }
-        .study-content h2 { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 500; margin: 28px 0 12px; color: #0c1a2e; }
-        .study-content h3 { font-family: 'Fraunces', serif; font-size: 19px; font-weight: 600; margin: 22px 0 10px; color: ${accent}; }
+        .study-content h1 { font-family: var(--font-geist-sans), Arial, sans-serif; font-size: 28px; font-weight: 500; margin: 32px 0 14px; color: #0c1a2e; }
+        .study-content h2 { font-family: var(--font-geist-sans), Arial, sans-serif; font-size: 22px; font-weight: 500; margin: 28px 0 12px; color: #0c1a2e; }
+        .study-content h3 { font-family: var(--font-geist-sans), Arial, sans-serif; font-size: 19px; font-weight: 600; margin: 22px 0 10px; color: ${accent}; }
         .study-content strong { font-weight: 600; color: #0c1a2e; }
         .study-content em { font-style: italic; }
         .study-content code { background: #0c1a2e14; padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 14px; }
@@ -642,7 +642,7 @@ export default function StudyLessonPage() {
           background: #fde672;
         }
         .study-content mark.study-highlight .note-indicator {
-          color: #a8324a;
+          color: #245574;
           font-size: 10px;
           margin-left: 2px;
           vertical-align: super;

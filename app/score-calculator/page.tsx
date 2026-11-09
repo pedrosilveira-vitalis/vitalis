@@ -108,22 +108,22 @@ function scoreInterpretation(total: number): { tier: string; description: string
   if (total >= 510) return {
     tier: "Strong",
     description: "Competitive at most US MD programs. Around the average accepted score at many mid-tier schools.",
-    color: "#8a6b2e",
+    color: "#245574",
   };
   if (total >= 505) return {
     tier: "Solid",
     description: "Competitive at many MD programs and most DO programs. Often paired with strong GPA and ECs.",
-    color: "#8a6b2e",
+    color: "#245574",
   };
   if (total >= 500) return {
     tier: "Average",
     description: "Around the average MCAT score for applicants. Competitive primarily at DO programs and some MD programs with strong holistic review.",
-    color: "#a8324a",
+    color: "#245574",
   };
   return {
     tier: "Below average",
     description: "Below the average matriculant score. Consider retaking if your GPA is strong, or strengthening other parts of your application.",
-    color: "#a8324a",
+    color: "#245574",
   };
 }
 
@@ -169,19 +169,19 @@ export default function ScoreCalculatorPage() {
   return (
     <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e] font-sans relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-0 right-0 w-[900px] h-[500px] bg-[#a8324a] opacity-[0.05] blur-[120px] rounded-full -translate-y-1/3 translate-x-1/4" />
+        <div className="absolute top-0 right-0 w-[900px] h-[500px] bg-[#245574] opacity-[0.05] blur-[120px] rounded-full -translate-y-1/3 translate-x-1/4" />
       </div>
 
       <div className="relative z-10">
         <MainNav active="score-calculator" badge="Score Tools" />
 
         <section className="px-10 pt-14 pb-8 border-b border-[#0c1a2e15]">
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
+          <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
             <span className="w-10 h-px bg-[#0c1a2e] opacity-40" />
             Tool · Score calculator
           </div>
-          <h1 className="font-serif font-normal leading-[0.95] tracking-[-0.03em] text-[clamp(48px,6vw,88px)] max-w-4xl">
-            What does your <span className="italic font-light text-[#a8324a]">score</span> mean?
+          <h1 className="font-sans font-normal leading-[0.95] tracking-[-0.03em] text-[clamp(48px,6vw,88px)] max-w-4xl">
+            What does your <span className="italic font-light text-[#245574]">score</span> mean?
           </h1>
           <p className="text-[15px] opacity-70 mt-4 max-w-xl leading-relaxed">
             Enter your section scores (each 118–132) to see your total, approximate percentile, and example medical schools where students with similar scores tend to matriculate.
@@ -198,21 +198,21 @@ export default function ScoreCalculatorPage() {
               return (
                 <div key={s.key}>
                   <label className="block">
-                    <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-2">{s.full}</div>
+                    <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55 mb-2">{s.full}</div>
                     <div className="flex items-center gap-3">
-                      <div className="font-serif text-lg font-medium w-32">{s.label}</div>
+                      <div className="font-sans text-lg font-medium w-32">{s.label}</div>
                       <input
                         type="text"
                         inputMode="numeric"
                         value={val}
                         onChange={(e) => updateScore(s.key, e.target.value)}
                         placeholder="118–132"
-                        className={`flex-1 px-4 py-3 border-2 rounded-xl bg-transparent outline-none transition-colors text-lg font-serif font-medium ${
-                          invalid ? "border-[#a8324a]" : valid ? "border-[#3e6b4a]" : "border-[#0c1a2e25] focus:border-[#0c1a2e]"
+                        className={`flex-1 px-4 py-3 border-2 rounded-xl bg-transparent outline-none transition-colors text-lg font-sans font-medium ${
+                          invalid ? "border-[#245574]" : valid ? "border-[#3e6b4a]" : "border-[#0c1a2e25] focus:border-[#0c1a2e]"
                         }`}
                       />
                     </div>
-                    {invalid && <div className="text-[12px] text-[#a8324a] mt-1.5 font-mono">Score must be between 118 and 132</div>}
+                    {invalid && <div className="text-[12px] text-[#245574] mt-1.5 font-sans">Score must be between 118 and 132</div>}
                   </label>
                 </div>
               );
@@ -220,7 +220,7 @@ export default function ScoreCalculatorPage() {
 
             <button
               onClick={reset}
-              className="mt-4 font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 hover:opacity-100"
+              className="mt-4 font-sans text-[10px] tracking-[0.1em] uppercase opacity-50 hover:opacity-100"
             >
               Reset all
             </button>
@@ -229,60 +229,60 @@ export default function ScoreCalculatorPage() {
           <div>
             {!allValid ? (
               <div className="border-2 border-dashed border-[#0c1a2e25] rounded-2xl p-10 text-center">
-                <div className="font-mono text-[11px] tracking-[0.14em] uppercase opacity-50 mb-3">Result</div>
-                <div className="font-serif text-2xl font-light opacity-60">Enter all four scores to see your total.</div>
+                <div className="font-sans text-[11px] tracking-[0.14em] uppercase opacity-50 mb-3">Result</div>
+                <div className="font-sans text-2xl font-light opacity-60">Enter all four scores to see your total.</div>
               </div>
             ) : (
               <div className="rounded-2xl p-8 border-2" style={{ borderColor: interpretation?.color || "#0c1a2e" }}>
-                <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-2">Total MCAT score</div>
-                <div className="font-serif text-7xl font-medium tracking-tight leading-none mb-4">{total}</div>
+                <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55 mb-2">Total MCAT score</div>
+                <div className="font-sans text-7xl font-medium tracking-tight leading-none mb-4">{total}</div>
                 <div className="text-[14px] opacity-70 mb-6">out of 528 · approximately <strong>{percentile}th percentile</strong></div>
 
                 <div className="border-t border-[#0c1a2e15] pt-5">
-                  <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-2">Tier</div>
-                  <div className="font-serif text-2xl font-medium mb-3" style={{ color: interpretation?.color }}>
+                  <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55 mb-2">Tier</div>
+                  <div className="font-sans text-2xl font-medium mb-3" style={{ color: interpretation?.color }}>
                     {interpretation?.tier}
                   </div>
                   <p className="text-[14px] leading-relaxed opacity-80">{interpretation?.description}</p>
                 </div>
 
                 <div className="mt-6 pt-5 border-t border-[#0c1a2e15]">
-                  <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-3">Schools with similar median MCAT</div>
+                  <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55 mb-3">Schools with similar median MCAT</div>
                   <ul className="space-y-2">
                     {schools.map((school, i) => (
                       <li key={i} className="flex items-center justify-between gap-4 text-[14px]">
                         <span className="leading-relaxed">{school.name}</span>
                         {school.median > 0 && (
-                          <span className="font-mono text-[11px] tracking-[0.05em] opacity-60 flex-shrink-0">
+                          <span className="font-sans text-[11px] tracking-[0.05em] opacity-60 flex-shrink-0">
                             median {school.median}
                           </span>
                         )}
                       </li>
                     ))}
                   </ul>
-                  <div className="mt-4 font-mono text-[10px] tracking-[0.08em] opacity-50 leading-relaxed">
+                  <div className="mt-4 font-sans text-[10px] tracking-[0.08em] opacity-50 leading-relaxed">
                     Medians shown are approximate from publicly reported MSAR data. School competitiveness depends on many factors beyond MCAT.
                   </div>
                 </div>
 
                 <div className="mt-6 pt-5 border-t border-[#0c1a2e15]">
-                  <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-3">Section breakdown</div>
+                  <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55 mb-3">Section breakdown</div>
                   <div className="grid grid-cols-4 gap-2 text-center">
                     <div>
-                      <div className="font-serif text-2xl font-medium">{scores.chem}</div>
-                      <div className="font-mono text-[9px] uppercase tracking-[0.1em] opacity-50 mt-1">C/P</div>
+                      <div className="font-sans text-2xl font-medium">{scores.chem}</div>
+                      <div className="font-sans text-[9px] uppercase tracking-[0.1em] opacity-50 mt-1">C/P</div>
                     </div>
                     <div>
-                      <div className="font-serif text-2xl font-medium">{scores.cars}</div>
-                      <div className="font-mono text-[9px] uppercase tracking-[0.1em] opacity-50 mt-1">CARS</div>
+                      <div className="font-sans text-2xl font-medium">{scores.cars}</div>
+                      <div className="font-sans text-[9px] uppercase tracking-[0.1em] opacity-50 mt-1">CARS</div>
                     </div>
                     <div>
-                      <div className="font-serif text-2xl font-medium">{scores.bio}</div>
-                      <div className="font-mono text-[9px] uppercase tracking-[0.1em] opacity-50 mt-1">B/B</div>
+                      <div className="font-sans text-2xl font-medium">{scores.bio}</div>
+                      <div className="font-sans text-[9px] uppercase tracking-[0.1em] opacity-50 mt-1">B/B</div>
                     </div>
                     <div>
-                      <div className="font-serif text-2xl font-medium">{scores.psych}</div>
-                      <div className="font-mono text-[9px] uppercase tracking-[0.1em] opacity-50 mt-1">P/S</div>
+                      <div className="font-sans text-2xl font-medium">{scores.psych}</div>
+                      <div className="font-sans text-[9px] uppercase tracking-[0.1em] opacity-50 mt-1">P/S</div>
                     </div>
                   </div>
                 </div>
@@ -291,12 +291,12 @@ export default function ScoreCalculatorPage() {
           </div>
         </section>
 
-        <div className="mx-10 my-7 p-3.5 px-5 border border-dashed border-[#0c1a2e25] rounded-lg font-mono text-[12px] leading-relaxed opacity-60">
+        <div className="mx-10 my-7 p-3.5 px-5 border border-dashed border-[#0c1a2e25] rounded-lg font-sans text-[12px] leading-relaxed opacity-60">
           MCAT alone does not determine admissions. GPA, research, clinical experience, essays, interviews, and state residency all factor in. Use this tool as a rough orientation, not a prediction.
         </div>
 
         <div className="px-10 pb-10">
-          <Link href="/" className="font-mono text-[11px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100">
+          <Link href="/" className="font-sans text-[11px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100">
             ← Back to home
           </Link>
         </div>

@@ -45,7 +45,10 @@
   "visual": {
     "src": "/lesson-diagrams/translation.svg",
     "alt": "Three panels track peptidyl-tRNA through peptide transfer, translocation and release, with the ribosome moving toward the mRNA three-prime end and energy costs separated.",
-    "caption": "Peptide transfer moves the chain P→A; translocation moves the peptidyl-tRNA A→P. Release hydrolyzes the remaining tRNA ester."
+    "caption": "Peptide transfer moves the chain P→A; translocation moves the peptidyl-tRNA A→P. Release hydrolyzes the remaining tRNA ester.",
+    "title": "Track the chain through translation",
+    "width": 800,
+    "height": 740
   },
   "guards": [
     {

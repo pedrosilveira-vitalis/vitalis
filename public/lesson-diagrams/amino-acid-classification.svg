@@ -9,7 +9,7 @@
 <text x="149" y="155" class="body">Leu</text><text x="127" y="184" class="body">Val   Phe</text>
 <text x="90" y="112" class="body">Asp</text><text x="218" y="117" class="body">Lys</text><text x="85" y="219" class="body">Ser</text><text x="232" y="217" class="body">Gln</text>
 <text x="347" y="103" class="body">Soluble globular protein</text>
-<path d="M264 162 H326" stroke="#a83150" stroke-width="2"/>
+<path d="M264 162 H326" stroke="#245574" stroke-width="2"/>
 <text x="347" y="161" class="body">Nonpolar core: away from water</text>
 <text x="347" y="202" class="body">Polar / charged surface: faces water</text>
 <text x="46" y="253" class="small">Tendencies, not rules: active sites and membrane proteins need extra context.</text>
