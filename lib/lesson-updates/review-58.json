@@ -1,0 +1,182 @@
+{
+  "lessonId": 58,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "A **ligand** is any molecule that binds specifically to a receptor to initiate a biological response.",
+      "new": "A **ligand** binds a target such as a receptor. Agonists activate receptors, whereas antagonists can bind without activating the corresponding response.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10989/"
+    },
+    {
+      "field": "content",
+      "old": "Cannot cross the lipid bilayer. Must bind cell-surface receptors.",
+      "new": "Generally do not readily diffuse through the lipid bilayer and usually signal through cell-surface receptors.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10989/"
+    },
+    {
+      "field": "content",
+      "old": "Cross the plasma membrane freely. Bind intracellular receptors.",
+      "new": "Often act through intracellular receptors. Thyroid hormones rely on transporters such as MCT8 for cellular entry; lipophilicity does not guarantee unrestricted diffusion.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16887882/"
+    },
+    {
+      "field": "content",
+      "old": "At a ligand concentration equal to K_d, 50% of receptors are occupied.",
+      "new": "In a simple, noncooperative single-site equilibrium model, free ligand concentration equal to K_d gives half occupancy.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10989/"
+    },
+    {
+      "field": "content",
+      "old": "At very high ligand concentrations, all receptors become occupied; the response plateaus.",
+      "new": "Occupancy approaches saturation at high free ligand concentrations. Functional response can plateau before full occupancy because of receptor reserve or downstream limits.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10989/"
+    },
+    {
+      "field": "content",
+      "old": "**Gβ and Gγ**: Form a stable dimer; hold Gα-GDP at the receptor",
+      "new": "**Gβ and Gγ**: Form a stable signaling dimer associated with Gα-GDP in the inactive heterotrimer; the complex need not remain permanently receptor-bound",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "3. GTP-bound Gα dissociates from Gβγ.",
+      "new": "3. GTP binding rearranges the heterotrimer and exposes effector-binding surfaces; physical subunit separation varies with the system.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "requires both glutamate binding and membrane depolarization (to relieve Mg²⁺ block)",
+      "new": "requires glutamate plus a coagonist (glycine or D-serine); depolarization relieves the usual Mg²⁺ block",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10781100/"
+    },
+    {
+      "field": "content",
+      "old": "Cl⁻ channel; opens upon GABA binding; mediates fast inhibitory neurotransmission",
+      "new": "primarily anion-selective channel (including Cl⁻ and some HCO₃⁻); often mediates fast inhibition, with the effect depending on the anion reversal potential",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10989/"
+    },
+    {
+      "field": "content",
+      "old": "The key distinction for the MCAT: ionotropic receptors produce *electrical* signals directly, whereas metabotropic receptors (GPCRs) produce *chemical* second messenger signals.",
+      "new": "Ionotropic receptors directly gate a pore. Metabotropic receptors act through G proteins, which can regulate channels directly as well as through second messengers.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10989/"
+    },
+    {
+      "field": "content",
+      "old": "In the absence of ligand, many nuclear receptors reside in the cytoplasm complexed with **heat shock proteins (HSPs)**, which keep them inactive and prevent DNA binding. Ligand binding causes:",
+      "new": "The following sequence is a simplified model for receptors such as the glucocorticoid receptor. Thyroid and retinoic-acid receptors are often already nuclear and DNA-associated, and ligand binding changes coregulator recruitment rather than requiring cytoplasmic import:",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "*MCAT distinction*: Nuclear receptor signaling is *slow* (hours to days) because it requires new protein synthesis. GPCR and RTK signaling can be fast (seconds to minutes) because they modify existing proteins.",
+      "new": "Transcription-dependent responses often take longer than modification of existing proteins. Steroids can also produce rapid non-genomic effects, while GPCRs and RTKs can produce long-lasting transcriptional responses.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "**Caffeine** inhibits phosphodiesterase, prolonging cAMP's effects. **Theophylline** (used in asthma) works similarly.",
+      "new": "At usual exposures, **caffeine** acts mainly by antagonizing adenosine receptors; PDE inhibition requires higher concentrations. Theophylline has multiple mechanisms, including PDE inhibition and adenosine-receptor antagonism.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK519490/"
+    },
+    {
+      "field": "content",
+      "old": "activates **protein kinase C (PKC)** in conjunction with Ca²⁺",
+      "new": "helps activate **conventional PKC isoforms** together with Ca²⁺ and membrane lipids",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54587/"
+    },
+    {
+      "field": "content",
+      "old": "- Ca²⁺ and DAG recruit PKC to the plasma membrane and activate it",
+      "new": "- Conventional PKCs require Ca²⁺ and DAG; novel PKCs respond to DAG without Ca²⁺; atypical PKCs respond to neither",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54587/"
+    },
+    {
+      "field": "content",
+      "old": "- Ca²⁺ also directly activates PKC and various other enzymes",
+      "new": "- Ca²⁺ contributes to activation of conventional PKCs; it is not a universal requirement for every PKC isoform",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54587/"
+    },
+    {
+      "field": "content",
+      "old": "The result: a single epinephrine molecule can ultimately trigger the release of millions of glucose molecules. This is a **cascade amplification** or **enzymatic cascade**.",
+      "new": "Enzyme turnover can generate many product molecules per initiating event. The gain is context-dependent rather than a fixed number, and glycogen phosphorylase mainly releases glucose-1-phosphate, not free glucose.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "In the MAPK pathway, transient ERK activation promotes cell proliferation, while sustained ERK activation promotes differentiation.",
+      "new": "In some experimental systems, transient ERK activity favors proliferation while sustained activity favors differentiation; this is not a universal rule across all cell types.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "IP₃ is rapidly dephosphorylated to inositol, terminating Ca²⁺ release",
+      "new": "IP₃ is metabolized by phosphatases and kinases; lowering active IP₃ helps terminate its Ca²⁺-release signal",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "reducing the sensitivity of the entire receptor population",
+      "new": "reducing responsiveness of susceptible receptors, including receptors not directly occupied by the initiating ligand",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "This underlies **tachyphylaxis** (rapidly diminishing response to a drug) and is clinically relevant in opioid tolerance and β-agonist tolerance in asthma.",
+      "new": "Desensitization can contribute to rapidly diminishing drug responses; receptor loss is not required for every example of tachyphylaxis or tolerance.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "slow response (hours); HSP70/90 chaperones in cytoplasm until ligand binds",
+      "new": "often slower transcriptional responses; localization and chaperone dependence differ among receptor families",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "Cascades multiply the signal at each enzymatic step",
+      "new": "Enzymatic steps can amplify signals; feedback and saturation constrain the actual gain",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "questions.288.explanation",
+      "old": "Phospholipase C cleaves PIP2 into two second messengers: inositol trisphosphate (IP3) and diacylglycerol (DAG). IP3 is water-soluble and diffuses to the ER, where it opens IP3-gated calcium channels, releasing Ca2+ into the cytoplasm. DAG remains in the plasma membrane and, together with Ca2+, activates protein kinase C (PKC). Choice A describes a different pathway involving adenylyl cyclase and guanylyl cyclase. Choice D incorrectly assigns the targets of IP3 and DAG.",
+      "new": "Phospholipase C cleaves PIP2 into two second messengers: inositol trisphosphate (IP3) and diacylglycerol (DAG). IP3 is water-soluble and diffuses to the ER, where it opens IP3-gated calcium channels, releasing Ca2+ into the cytoplasm. DAG remains in the plasma membrane and, together with Ca2+, activates conventional protein kinase C isoforms. Choice A describes a different pathway involving adenylyl cyclase and guanylyl cyclase. Choice D incorrectly assigns the targets of IP3 and DAG.",
+      "reason": "Scope calcium requirement to conventional PKC.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54587/"
+    },
+    {
+      "field": "questions.287.explanation",
+      "old": "Signal amplification occurs because each activated component in a signaling cascade can activate many copies of the next component. One receptor activates many G proteins, each G protein activates adenylyl cyclase producing many cAMP molecules, cAMP activates PKA which phosphorylates many targets, and so on, creating an exponential increase in signal output. Choice C describes specificity, not amplification, and is also factually imprecise. Choice D describes cooperativity, a property of some ligand-binding proteins like hemoglobin, not a general feature of signal transduction cascades.",
+      "new": "Amplification means an activated enzyme or receptor can produce or activate multiple downstream molecules. The receptor–G protein–adenylyl cyclase–cAMP–PKA sequence contains several such opportunities, supporting B. The gain is not necessarily exponential or constant: substrate supply, phosphatases, feedback and saturation limit the output.",
+      "reason": "Avoid unjustified exponential gain.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    }
+  ]
+}

@@ -1,3 +1,23 @@
+import lesson45 from "./lesson-updates/dominance-gene-interactions.json";
+import lesson46 from "./lesson-updates/chromosomal-linkage.json";
+import lesson47 from "./lesson-updates/sex-linked-inheritance.json";
+import lesson48 from "./lesson-updates/pedigree-probability.json";
+import lesson49 from "./lesson-updates/mutation-consequences.json";
+import lesson50 from "./lesson-updates/repair-pathway-choice.json";
+import lesson51 from "./lesson-updates/hardy-weinberg-model.json";
+import lesson52 from "./lesson-updates/evolutionary-forces.json";
+import lesson53 from "./lesson-updates/membrane-architecture.json";
+import lesson54 from "./lesson-updates/passive-transport.json";
+import lesson55 from "./lesson-updates/active-transport-coupling.json";
+import lesson56 from "./lesson-updates/vesicular-trafficking.json";
+import lesson57 from "./lesson-updates/membrane-electrochemistry.json";
+import lesson58 from "./lesson-updates/signal-routing.json";
+import lesson59 from "./lesson-updates/receptor-pathway-comparison.json";
+import lesson60 from "./lesson-updates/cell-cycle-checkpoints.json";
+import lesson61 from "./lesson-updates/mitosis-cytokinesis.json";
+import lesson62 from "./lesson-updates/apoptosis-pathways.json";
+import lesson63 from "./lesson-updates/cardiac-cycle.json";
+import lesson64 from "./lesson-updates/cardiac-electrical.json";
 import { createHash } from "node:crypto";
 import acidBase from "./lesson-updates/amino-acid-acid-base.json";
 import structure from "./lesson-updates/amino-acid-structure.json";
@@ -66,7 +86,7 @@ import eukRegulation from "./lesson-updates/eukaryotic-regulation.json";
 import mendelian from "./lesson-updates/mendelian-inheritance.json";
 
 type Row = { id: number; [key: string]: unknown };
-const reviews = [structure, classification, acidBase, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation, mendelian];
+const reviews = [structure, classification, acidBase, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation, mendelian, lesson45, lesson46, lesson47, lesson48, lesson49, lesson50, lesson51, lesson52, lesson53, lesson54, lesson55, lesson56, lesson57, lesson58, lesson59, lesson60, lesson61, lesson62, lesson63, lesson64];
 export function applyLessonUpdates<L extends Row, Q extends Row>(lesson: L, questions: Q[]) {
   const reviewed = reviews.find(entry => entry.lessonId === lesson.id);
   if (!reviewed) return { lesson, questions, review: null };

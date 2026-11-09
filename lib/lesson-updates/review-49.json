@@ -1,0 +1,315 @@
+{
+  "lessonId": 49,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Mutations are heritable changes in the nucleotide sequence of DNA.",
+      "new": "A mutation is a change in DNA sequence. It may be passed to daughter cells; transmission to offspring requires involvement of the reproductive lineage.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "**Universal**: essentially the same in all organisms (with minor exceptions in mitochondria)",
+      "new": "**Nearly universal**: the standard code is widely shared, with alternative codes in some organelles and organisms",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "Point mutations are the most common class of mutations and the most frequently tested on the MCAT.",
+      "new": "Here, point substitution means replacement of one base pair; insertion/deletion variants are considered separately.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "transitions occur more frequently in nature because the structural similarity between purines (and between pyrimidines) makes mispairing more likely during replication.",
+      "new": "transitions are often more frequent, with the bias depending on sequence context, damage processes and repair; methylated-cytosine deamination is one important contributor.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "The functional impact of a point mutation depends entirely on what codon change it produces.",
+      "new": "The impact depends on its location and molecular effect; noncoding substitutions can change regulation or splicing without changing a codon.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "a phenomenon called **wobble**",
+      "new": "a pattern related to code degeneracy; **wobble** specifically describes flexible pairing at the third codon/first anticodon position",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "A GAG codon (glutamic acid) is changed to GTG (valine) at position 6 of the β-globin chain.",
+      "new": "On the coding DNA strand, GAG becomes GTG; the corresponding mRNA change is GAG to GUG. This replaces glutamate with valine at residue 6 of mature β-globin (residue 7 when counting the initiator methionine).",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "The result is **premature termination** of translation, producing a truncated protein.",
+      "new": "If the transcript is translated, this creates **premature termination**; surveillance may instead reduce the transcript before much truncated protein accumulates.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "Truncated proteins are almost always nonfunctional because:",
+      "new": "Truncation can impair function for several reasons:",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "Nonsense mutations are also subject to **nonsense-mediated mRNA decay (NMD)**",
+      "new": "Many, but not all, transcripts with premature termination codons are subject to **nonsense-mediated mRNA decay (NMD)**",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "Though technically a type of point mutation, **splice-site mutations**",
+      "new": "**Splice-site variants**, which may be substitutions or larger changes,",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "the intron is not removed and is translated as part of the mRNA",
+      "new": "the intron is not removed; the RNA may be retained, degraded, or translated if exported and otherwise competent",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "The molecular consequence is an altered reading frame or insertion/deletion of amino acids, often producing a nonfunctional protein. **Spinal muscular atrophy (SMA)** is a classic example: mutations in the SMN1 gene disrupt splicing, and the disease severity correlates with how much functional SMN protein is produced from the backup SMN2 gene (which has a splice-site difference that causes exon 7 skipping in most transcripts).",
+      "new": "Splicing changes can alter reading frame, add or remove residues, or change RNA stability. In 5q spinal muscular atrophy, the primary defect is biallelic loss of SMN1 function, commonly deletion/conversion involving exon 7. SMN2 differs in splicing regulation and often skips exon 7; its copy number and full-length output modify severity. SMA is not simply a generic SMN1 splice-site mutation disorder.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1352/"
+    },
+    {
+      "field": "content",
+      "old": "insertions or deletions of nucleotides that are *not* multiples of three",
+      "new": "insertions or deletions within a translated coding region whose lengths are *not* multiples of three",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "All amino acids downstream of the mutation are incorrect (the wrong reading frame produces a completely different amino acid sequence)",
+      "new": "Downstream codon boundaries change; many residues differ, although individual amino acids can coincide by chance",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "The resulting protein bears no resemblance to the normal protein beyond the mutation site",
+      "new": "The downstream sequence usually changes substantially; a second compensating indel can restore the original frame later",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "In-frame insertions and deletions of three nucleotides (or multiples of three) are far less disruptive.",
+      "new": "In-frame insertions and deletions preserve the downstream reading frame but can still be severely disruptive.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "- **Duchenne muscular dystrophy (DMD)**: caused by frameshift mutations in the dystrophin gene, resulting in a completely nonfunctional truncated protein. Severe, progressive muscle wasting beginning in childhood.",
+      "new": "- **Duchenne muscular dystrophy (DMD)**: often results from variants that disrupt the reading frame or introduce premature stops, leaving little or no functional dystrophin. Other variant classes also cause DMD.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nature.com/articles/s41431-020-0643-7"
+    },
+    {
+      "field": "content",
+      "old": "- **Becker muscular dystrophy (BMD)**: caused by in-frame deletions in the same gene, producing a shorter but partially functional dystrophin protein. Milder phenotype, later onset.",
+      "new": "- **Becker muscular dystrophy (BMD)**: often involves in-frame variants allowing partially functional dystrophin. The reading-frame rule is useful but has documented exceptions.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nature.com/articles/s41431-020-0643-7"
+    },
+    {
+      "field": "content",
+      "old": "This example illustrates a fundamental principle: the reading frame is everything. Whether a deletion disrupts the reading frame determines whether a functional protein can be produced.",
+      "new": "Reading frame is an important predictor, not a complete diagnosis. Affected domains, RNA splicing and residual protein expression also matter.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nature.com/articles/s41431-020-0643-7"
+    },
+    {
+      "field": "content",
+      "old": "which is not recognized as aberrant by repair machinery, making CpG dinucleotides **mutational hotspots**",
+      "new": "which creates a T:G mismatch that can be repaired by enzymes such as TDG and MBD4; less efficient recognition of a normal DNA base contributes to CpG **mutational hotspots**",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "These are visible under a light microscope using standard karyotyping techniques.",
+      "new": "Large changes can be detected by karyotyping, whereas smaller copy-number changes require higher-resolution methods.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nichd.nih.gov/health/topics/down/conditioninfo/causes"
+    },
+    {
+      "field": "content",
+      "old": "- **Robertsonian translocation**: fusion of two acrocentric chromosomes (13, 14, 15, 21, 22) at their centromeres. The classic example is Robertsonian translocation involving chromosome 21, which accounts for approximately 4% of Down syndrome cases. A carrier has 45 chromosomes but normal phenotype; their offspring have a 1 in 3 risk of Down syndrome.",
+      "new": "- **Robertsonian translocation**: a rearrangement joining the long arms of two acrocentric chromosomes. A balanced carrier often has 45 chromosomes. When chromosome 21 is involved, recurrence risk depends on the exact rearrangement and which parent carries it; there is no universal 1-in-3 risk.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nichd.nih.gov/health/topics/down/conditioninfo/causes"
+    },
+    {
+      "field": "content",
+      "old": "Notable because monosomy is generally lethal for autosomes but tolerated for the X chromosome due to X-inactivation.",
+      "new": "X-inactivation limits some dosage imbalance, but genes escaping inactivation contribute to Turner features; most 45,X conceptions do not survive to birth.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nichd.nih.gov/health/topics/down/conditioninfo/causes"
+    },
+    {
+      "field": "content",
+      "old": "NHEJ is error-prone and often introduces small insertions or deletions.",
+      "new": "NHEJ can join compatible ends accurately; processing damaged or incompatible ends can introduce indels.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "Error-prone; often introduces small insertions or deletions. Active throughout the cell cycle.",
+      "new": "Can be accurate for compatible ends; end processing may produce indels. Active throughout the cell cycle.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "(e.g., mutations in tumor suppressor genes like RB1 or TP53 in cancer)",
+      "new": "(the effect is gene- and variant-dependent; inherited cancer predisposition is not synonymous with cellular haploinsufficiency)",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/causes-prevention/genetics"
+    },
+    {
+      "field": "content",
+      "old": "may alter Km (substrate affinity) without affecting Vmax",
+      "new": "may alter Km and/or Vmax; Km is not generally identical to a binding dissociation constant",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "deamination of 5-methylcytosine → thymine (not recognized as damaged)",
+      "new": "deamination of 5-methylcytosine → thymine, forming a potentially repairable T:G mismatch",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "UV light → thymine dimers → NER repair; XP = NER defect",
+      "new": "UV light → pyrimidine photoproducts → NER; most XP groups impair NER, while XP-V impairs POLH-mediated bypass",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1397/"
+    },
+    {
+      "field": "questions.241.choice_d",
+      "old": "The substitution changed glutamate to lysine, but the change occurred outside the active site and was functionally conservative.",
+      "new": "The substitution changes glutamate to lysine, but the tested activity tolerates this nonconservative change.",
+      "reason": "Do not label a charge reversal chemically conservative or infer its location.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "questions.241.explanation",
+      "old": "GAG encodes glutamate and AAG encodes lysine, so an amino acid change did occur, making this a missense mutation. However, if the substitution is outside the active site and does not disrupt protein folding or function, enzymatic activity can be preserved. Choice B is incorrect because GAG and AAG do not encode the same amino acid. Choice C is wrong because GAG encodes glutamate, not lysine. The most tempting wrong answer is B, which confuses the codons, but the correct reasoning requires knowing that a missense mutation can be functionally silent if it does not affect critical residues.",
+      "new": "GAG encodes glutamate and AAG lysine. This is a nonconservative missense change, yet the measured enzyme activity is retained. Activity alone does not establish that the residue lies outside the active site or that every other protein function is unaffected.",
+      "reason": "Remove unsupported structural inference.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "questions.243.question_text",
+      "old": "A point mutation occurs at the highly conserved GT dinucleotide at the 5 prime splice site of an intron. Which of the following is the most likely consequence for the mature mRNA?",
+      "new": "A 5′ splice-donor variant is followed by RNA sequencing showing that the entire neighboring intron remains between two exons. Which outcome is demonstrated?",
+      "reason": "Make splicing outcome observed rather than assume most common.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "questions.243.explanation",
+      "old": "The GT dinucleotide at the 5 prime end of an intron is essential for recognition by the spliceosome. Mutation of this conserved sequence disrupts normal splicing, most commonly causing intron retention in the mature mRNA. The retained intronic sequence can introduce a frameshift or a premature stop codon, disrupting protein function. Choice C is incorrect because disrupting a splice site does not enhance splicing. Choice D is unrelated to splice-site mutations. The most tempting wrong answer is C, since students might confuse splice-site mutations with alternative splicing events that produce shorter transcripts.",
+      "new": "The sequencing result demonstrates intron retention. Splice-donor variants can also cause exon skipping or cryptic splice-site use, so the position of the DNA variant alone does not uniquely predict the RNA product. Translation and decay depend on the resulting transcript.",
+      "reason": "Correct overly deterministic splice claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "questions.244.question_text",
+      "old": "Exposure to UV radiation causes the formation of thymine dimers. If left unrepaired before replication, which type of mutation is most likely to result?",
+      "new": "Which substitution pattern is a characteristic UV mutational signature at dipyrimidine sites in DNA?",
+      "reason": "Replace internally contradictory UV question.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15590329/"
+    },
+    {
+      "field": "questions.244.choice_a",
+      "old": "A chromosomal inversion due to double-strand breaks at the dimer site.",
+      "new": "A→G substitutions occurring only at isolated purines",
+      "reason": "Distinct incorrect pattern.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15590329/"
+    },
+    {
+      "field": "questions.244.choice_b",
+      "old": "A transition mutation as adenine is incorrectly paired opposite the dimer during replication.",
+      "new": "C→T substitutions and tandem CC→TT substitutions",
+      "reason": "Correct UV signature.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15590329/"
+    },
+    {
+      "field": "questions.244.choice_c",
+      "old": "A transversion mutation as cytosine is inserted opposite the thymine dimer.",
+      "new": "Only G→C transversions, with no sequence-context preference",
+      "reason": "Distinct incorrect pattern.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15590329/"
+    },
+    {
+      "field": "questions.244.choice_d",
+      "old": "A frameshift mutation caused by the polymerase skipping the dimer entirely.",
+      "new": "Only insertions of exactly three nucleotides",
+      "reason": "Distinct incorrect pattern.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15590329/"
+    },
+    {
+      "field": "questions.244.correct_answer",
+      "old": "C",
+      "new": "B",
+      "reason": "Repair incorrect answer key.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15590329/"
+    },
+    {
+      "field": "questions.244.explanation",
+      "old": "Thymine dimers stall replication, and error-prone translesion synthesis polymerases often insert adenine opposite each thymine, which is actually correct. However, the classic mutational consequence of unrepaired thymine dimers is CC to TT transitions at dipyrimidine sites, or misincorporation events. More precisely, when cytosine-containing dimers form, deamination can lead to C-to-T transitions. The most well-established consequence is a transition mutation. Choice C describes a transversion, which is less characteristic. The best answer is C only if cytosine is mispaired, but the most accurate answer for thymine dimers is transversion when non-adenine bases are incorporated. For MCAT purposes, UV-induced thymine dimers most commonly lead to transition mutations (C to T), making C the best available answer reflecting misincorporation opposite the dimer site.",
+      "new": "C→T and CC→TT changes at dipyrimidine sites are characteristic UV signatures. Cytosine-containing photoproducts and subsequent processing/bypass contribute to them. A thymine-thymine dimer can be bypassed relatively accurately by polymerase eta; inserting adenine opposite thymine is not itself a mismatch. UV damage does not imply one obligatory mutation in every lesion.",
+      "reason": "Align question, key and explanation.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15590329/"
+    },
+    {
+      "field": "questions.245.question_text",
+      "old": "A missense mutation changes an amino acid in the middle of a protein from arginine to proline. The protein is found to be completely nonfunctional. Which explanation best accounts for this loss of function?",
+      "new": "A missense mutation replaces arginine with proline in the middle of an α-helix required for protein function. The protein loses activity. Which is the most plausible structural explanation?",
+      "reason": "Supply structural context needed for inference.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "questions.245.explanation",
+      "old": "Proline is a unique amino acid whose side chain forms a ring with its own backbone nitrogen, preventing rotation and introducing a rigid kink or bend in the polypeptide chain. When proline replaces an amino acid in the middle of an alpha-helix or beta-sheet, it disrupts the secondary structure and consequently the tertiary structure, abolishing protein function. Choice B is incorrect because proline is an amino acid, not a stop codon. Choice D is incorrect because arginine and proline have very different side chains. The most tempting wrong answer is C, which correctly notes the charge difference but incorrectly describes the mechanism of functional loss.",
+      "new": "Proline restricts backbone φ rotation and lacks a backbone N–H donor in a peptide, so insertion into this required α-helix can disrupt its geometry and hydrogen-bonding pattern. Proline does not invariably abolish every protein’s function; the location specified in the question matters.",
+      "reason": "Avoid universal proline claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "These are far more likely to disrupt protein function.",
+      "new": "These can disrupt protein function; the effect depends on the residue’s position, structural role and the function being measured.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    }
+  ]
+}

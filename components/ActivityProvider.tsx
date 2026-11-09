@@ -1,5 +1,7 @@
 "use client";
 import { createContext, useContext, useEffect, useRef, useState, useCallback } from "react";
+import StudyReward from "./StudyReward";
+import { dailyStudyReward, type StudyReward as Reward } from "@/lib/study-rewards";
 import type { Streak } from "@/lib/engagement";
 type Activity = { streak: Streak; visitDays: number; timeZone: string; warmupToken?: string };
 type State = { data: Activity | null; guest: boolean; loading: boolean; error: string; record: (token: string | undefined, answer: string) => void; retry: () => void };
@@ -10,6 +12,10 @@ export default function ActivityProvider({ children }: { children: React.ReactNo
   const [guest, setGuest] = useState(false);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [reward, setReward] = useState<Reward | null>(null);
+  const latestStreak = useRef<Streak | null>(null);
+  const celebratedDays = useRef(new Set<string>());
+  const dismissReward = useCallback(() => setReward(null), []);
   const pending = useRef<{ token?: string; answer: string } | null>(null);
   const queue = useRef(Promise.resolve());
   const sync = useCallback((kind: "visit" | "answer", token?: string, answer?: string) => {
@@ -22,9 +28,15 @@ export default function ActivityProvider({ children }: { children: React.ReactNo
           method: "POST", headers: { "Content-Type": "application/json" }, signal: controller.signal,
           body: JSON.stringify({ kind, token, answer, timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }),
         });
-        if (response.status === 401) { setGuest(true); setData(null); setError(""); pending.current = null; return; }
+        if (response.status === 401) { setGuest(true); setData(null); setReward(null); latestStreak.current = null; setError(""); pending.current = null; return; }
         const result = await response.json();
         if (!response.ok) throw new Error(result.error || "Could not save your progress.");
+        const celebration = dailyStudyReward(latestStreak.current, result.streak, kind);
+        latestStreak.current = result.streak;
+        if (celebration && !celebratedDays.current.has(celebration.day)) {
+          celebratedDays.current.add(celebration.day);
+          setReward(celebration);
+        }
         setData(result); setGuest(false);
         if (!pending.current || kind === "answer") setError("");
         if (kind === "answer") pending.current = null;
@@ -47,5 +59,5 @@ export default function ActivityProvider({ children }: { children: React.ReactNo
     sync("answer", token, answer);
   }
   function retry() { const item = pending.current; item ? sync("answer", item.token, item.answer) : sync("visit"); }
-  return <Context.Provider value={{ data, guest, loading, error, record, retry }}>{children}</Context.Provider>;
+  return <Context.Provider value={{ data, guest, loading, error, record, retry }}>{children}<StudyReward reward={reward} onDismiss={dismissReward}/></Context.Provider>;
 }

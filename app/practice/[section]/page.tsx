@@ -4,6 +4,7 @@ import { useEffect, useState, useRef, useCallback, Suspense } from "react";
 import Link from "next/link";
 import { useParams, useSearchParams, useRouter } from "next/navigation";
 import { useActivity } from "@/components/ActivityProvider";
+import Nori from "@/components/Nori";
 import MainNav from "@/components/MainNav";
 
 import { flagged,toggleFlag } from "@/lib/flagged";
@@ -270,7 +271,10 @@ Can you explain this more deeply and help me build the right intuition so I get 
       <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e]">
         <MainNav active="practice" badge="Session complete" />
         <div className="max-w-2xl mx-auto px-10 py-20 text-center">
+          <div className="session-achievement"><Nori/><span aria-hidden="true">✦</span></div>
           <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4">Session complete</div>
+          <h2 className="text-2xl font-semibold mb-3">You made time to learn.</h2>
+          <p className="text-sm mb-6 opacity-75">Review what surprised you, or take a well-earned break.</p>
           <h1 className="font-sans text-[clamp(48px,6vw,88px)] font-medium tracking-tight mb-2">
             <span style={{ color: accent }}>{correctCount}</span> / {results.length}
           </h1>
@@ -308,7 +312,7 @@ Can you explain this more deeply and help me build the right intuition so I get 
         {blend && <p className="mb-4 text-sm">Practice set · {questions.length} of {numQuestions} requested.</p>}
         {starter && <p role="status" className="mb-4 text-sm">Question bank · {questions.length} of {numQuestions} requested.</p>}
         <div className="mb-7 flex items-center gap-3">
-          <div className="flex-1 h-1.5 bg-[#0c1a2e15] rounded-full overflow-hidden">
+          <div className="practice-progress flex-1" role="progressbar" aria-label="Questions answered" aria-valuemin={0} aria-valuemax={questions.length} aria-valuenow={currentIdx + (showExplanation ? 1 : 0)}>
             <div className="h-full transition-all" style={{ width: `${((currentIdx + (showExplanation ? 1 : 0)) / questions.length) * 100}%`, backgroundColor: accent }} />
           </div>
           <div className="font-sans text-[10px] tracking-[0.1em] uppercase opacity-55 flex-shrink-0">
@@ -363,9 +367,9 @@ Can you explain this more deeply and help me build the right intuition so I get 
           <div className="space-y-4">
             {activity.error && <p className="portal-error" role="alert">{activity.error} <button onClick={activity.retry}>Retry saving streak</button></p>}
             {activity.data?.streak.completedToday && <p className="portal-success" role="status">Today’s practice is saved. Your streak is {activity.data.streak.current} day{activity.data.streak.current===1?"":"s"}.</p>}
-            <div className={`p-5 rounded-xl border ${isCorrect ? "border-[#3e6b4a] bg-[#3e6b4a08]" : "border-[#245574] bg-[#24557408]"}`}>
+            <div className={`answer-feedback p-5 rounded-xl border ${isCorrect ? "border-[#3e6b4a] bg-[#3e6b4a08]" : "border-[#245574] bg-[#24557408]"}`}>
               <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-60 mb-2">
-                {isCorrect ? "✓ Correct" : "✗ Incorrect"}
+                {isCorrect ? "✓ Correct — nicely reasoned" : "Not quite — let’s work through it"}
               </div>
               <div className="text-[14px] leading-relaxed">{currentQ.explanation}</div>
               {selectedAnswer && !isCorrect && currentQ.wrongAnswerExplanations[selectedAnswer] && <p className="mt-3 text-sm leading-relaxed"><strong>Why your choice was incorrect: </strong>{currentQ.wrongAnswerExplanations[selectedAnswer]}</p>}

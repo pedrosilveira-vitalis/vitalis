@@ -1,0 +1,234 @@
+{
+  "lessonId": 48,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    236,
+    237,
+    238,
+    239,
+    240
+  ],
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/",
+      "title": "MedlinePlus Genetics: Inheritance patterns"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1305/",
+      "title": "GeneReviews: Huntington disease"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1504/",
+      "title": "GeneReviews: Phenylalanine hydroxylase deficiency"
+    },
+    {
+      "url": "https://www.cdc.gov/muscular-dystrophy/research/summary.html",
+      "title": "CDC: Muscular dystrophy research summary"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1497/",
+      "title": "GeneReviews: MECP2 disorders"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1174/",
+      "title": "GeneReviews: Leber hereditary optic neuropathy"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance",
+      "title": "OpenStax Biology 2e: Laws of inheritance"
+    }
+  ],
+  "visual": {
+    "title": "Read the denominator before calculating risk",
+    "src": "/lesson-diagrams/pedigree-probability.svg",
+    "width": 900,
+    "height": 800,
+    "alt": "A pedigree of two autosomal recessive carriers shows three unaffected genotype possibilities and one affected possibility. The unaffected carrier probability is 2/3. A separate X-linked cross distinguishes 1/2 of sons from 1/4 of all children.",
+    "caption": "Pedigree probabilities assume the specified model and full penetrance. The denominator changes when a question conditions on being unaffected or being a son.",
+    "beforeHeading": "Common MCAT Traps and Edge Cases"
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "dcb296829a912a5d876786f9ea64f9a4e0ff34b72ac4304d4d624d8631d611bd"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "fae526ea6a379070917b3ad74924a6f27a4f2deebe2e422e4b94ace33451c34a"
+    },
+    {
+      "field": "questions.236.question_text",
+      "sha256": "71e866ed1f788337635d94ab4b320c8f34f8bf02b1e24126ad03efd89cb00f29"
+    },
+    {
+      "field": "questions.236.choice_a",
+      "sha256": "d09e9c88d35405eef2571effe49234cb8de7a22a6e974959f65d88444fb11eaf"
+    },
+    {
+      "field": "questions.236.choice_b",
+      "sha256": "1ae4883b686f9c3f7ac8b52907e0f839aa4096806181919b573bd8fc6d30638d"
+    },
+    {
+      "field": "questions.236.choice_c",
+      "sha256": "f93a06ce5d50647857f39692aae2126b140a13dc80201171006410dac1c937b7"
+    },
+    {
+      "field": "questions.236.choice_d",
+      "sha256": "83d7ba5e1433d02ed43031e39cf632b5db78c242e46300e7e5ee0b2a0de7a2dd"
+    },
+    {
+      "field": "questions.236.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.236.explanation",
+      "sha256": "f01ab5eb515867e1c3802a86e22e4d51b9ad7dcb3fa9b2986dbc28533abfcc1b"
+    },
+    {
+      "field": "questions.237.question_text",
+      "sha256": "4b6331524f61e610903c9b59deeadf9f16a46c12387f6e769ba96b6b24b3438b"
+    },
+    {
+      "field": "questions.237.choice_a",
+      "sha256": "83d7ba5e1433d02ed43031e39cf632b5db78c242e46300e7e5ee0b2a0de7a2dd"
+    },
+    {
+      "field": "questions.237.choice_b",
+      "sha256": "1ae4883b686f9c3f7ac8b52907e0f839aa4096806181919b573bd8fc6d30638d"
+    },
+    {
+      "field": "questions.237.choice_c",
+      "sha256": "d09e9c88d35405eef2571effe49234cb8de7a22a6e974959f65d88444fb11eaf"
+    },
+    {
+      "field": "questions.237.choice_d",
+      "sha256": "f93a06ce5d50647857f39692aae2126b140a13dc80201171006410dac1c937b7"
+    },
+    {
+      "field": "questions.237.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.237.explanation",
+      "sha256": "454fae7b37423af02918c18bcf6ccbdb2dfd35d2106b1fc9c548b677a11638cc"
+    },
+    {
+      "field": "questions.238.question_text",
+      "sha256": "7502eeffe6d307f6426609d78dd3cfb5e4095f15a92d128466e523e397d19bd7"
+    },
+    {
+      "field": "questions.238.choice_a",
+      "sha256": "1ae4883b686f9c3f7ac8b52907e0f839aa4096806181919b573bd8fc6d30638d"
+    },
+    {
+      "field": "questions.238.choice_b",
+      "sha256": "83d7ba5e1433d02ed43031e39cf632b5db78c242e46300e7e5ee0b2a0de7a2dd"
+    },
+    {
+      "field": "questions.238.choice_c",
+      "sha256": "837931624df8217b07739b2bebe03b3546cc8db79e98e0192bced2ac308b32b7"
+    },
+    {
+      "field": "questions.238.choice_d",
+      "sha256": "d09e9c88d35405eef2571effe49234cb8de7a22a6e974959f65d88444fb11eaf"
+    },
+    {
+      "field": "questions.238.correct_answer",
+      "sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    },
+    {
+      "field": "questions.238.explanation",
+      "sha256": "b01ab450f0a554ffc2a9de502bb7d6288dc28666e8f220bcca957d5121ea5be0"
+    },
+    {
+      "field": "questions.239.question_text",
+      "sha256": "2619e9105126fee381891c5cef4a447847a9f3ba7951290744762d70e1ae9697"
+    },
+    {
+      "field": "questions.239.choice_a",
+      "sha256": "d09e9c88d35405eef2571effe49234cb8de7a22a6e974959f65d88444fb11eaf"
+    },
+    {
+      "field": "questions.239.choice_b",
+      "sha256": "f93a06ce5d50647857f39692aae2126b140a13dc80201171006410dac1c937b7"
+    },
+    {
+      "field": "questions.239.choice_c",
+      "sha256": "837931624df8217b07739b2bebe03b3546cc8db79e98e0192bced2ac308b32b7"
+    },
+    {
+      "field": "questions.239.choice_d",
+      "sha256": "1ae4883b686f9c3f7ac8b52907e0f839aa4096806181919b573bd8fc6d30638d"
+    },
+    {
+      "field": "questions.239.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.239.explanation",
+      "sha256": "d7bd0e798e7affc85da5012e55636218acbc97ce585670bfbcdf4af340955f1f"
+    },
+    {
+      "field": "questions.240.question_text",
+      "sha256": "5aa312ec12fe84710d6ba801b204d09b0c788d6aeb5e05ad2768b78006b4b282"
+    },
+    {
+      "field": "questions.240.choice_a",
+      "sha256": "f70b94aeb67de2a5eb4bd8c2ea85128f13776cb545a661abe422b378a6cf3099"
+    },
+    {
+      "field": "questions.240.choice_b",
+      "sha256": "d939926f05444b0f4495fb9629ecbfa80d99a8ec1a20d06800ca5a3d5f4fd276"
+    },
+    {
+      "field": "questions.240.choice_c",
+      "sha256": "52e90ae24326591c8161e2e05a8f3b9b57287ca13aba3be7e84043691e160ba6"
+    },
+    {
+      "field": "questions.240.choice_d",
+      "sha256": "0d7f0e336166042f8cc9e4c20ae427ba367c279d6e3dfd1bd7247b0fbce61d50"
+    },
+    {
+      "field": "questions.240.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.240.explanation",
+      "sha256": "157dd0a6ac9d8e9b60652cae97b54537f72161e7ff4d5c39afb2cae74842a19c"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "# Pedigree Analysis and Patterns of Disease Transmission\n\n## Introduction: Why Pedigrees Matter on the MCAT\n\nA pedigree records family relationships and phenotypes. Use it to test possible inheritance models and calculate conditional probabilities. Small families, age-dependent onset and incomplete penetrance can make more than one model compatible with the same diagram.\n\nThis lesson covers the four major inheritance patterns tested on the MCAT: **autosomal dominant (AD)**, **autosomal recessive (AR)**, **X-linked recessive (XR)**, and **X-linked dominant (XD)**. We will also touch on mitochondrial inheritance, which appears occasionally. For each pattern, you will learn the defining rules, the key clues to look for in a pedigree, and the exceptions that can mislead you.\n\n---\n\n## Pedigree Conventions and Symbols\n\nBefore interpreting patterns, you must be fluent in the standard notation.\n\n- **Circles** represent females; **squares** represent males.\n- **Filled (shaded) symbols** indicate an affected individual.\n- **Half-filled symbols** indicate a known carrier (used primarily in X-linked and autosomal recessive conditions).\n- **Horizontal lines** connecting a circle and square represent a mating pair.\n- **Vertical lines** descending from a mating pair lead to **offspring**, which are arranged horizontally and connected by a **sibship line**.\n- **Roman numerals** label generations (I, II, III, etc.) from top to bottom.\n- **Arabic numerals** label individuals within each generation from left to right (e.g., II-3 refers to the third individual in generation II).\n- A **diagonal line** through a symbol indicates the individual is deceased.\n- **Double horizontal lines** between mates indicate a **consanguineous** (related) mating, which is a major clue for autosomal recessive conditions.\n\nWhen you first encounter a pedigree question, take 30 seconds to orient yourself: count the generations, note the sex of affected individuals, and identify whether affected individuals appear in every generation or skip generations.\n\n---\n\n## The Systematic Approach to Pedigree Analysis\n\nExperienced test-takers follow a logical decision tree rather than guessing. Apply these steps in order:\n\n### Step 1: Determine the Sex Distribution of Affected Individuals\n\nAsk yourself: *Are affected individuals predominantly male, predominantly female, or equally distributed between sexes?*\n\n- If *only males* are affected, strongly consider **X-linked recessive**.\n- If *more females* are affected, consider **X-linked dominant** (but sex-specific prevalence also depends on allele frequency, penetrance and viability).\n- If both sexes are roughly equally affected, consider **autosomal** inheritance.\n\n### Step 2: Determine Whether the Trait Skips Generations\n\n- Traits that *skip generations* (unaffected parents have affected children) suggest **recessive** inheritance.\n- Traits that *appear in every generation* suggest **dominant** inheritance.\n- Important complications include age-dependent onset, new variants and **incomplete penetrance**, where a dominant allele is present but not expressed — this can mimic a skipping pattern.\n\n### Step 3: Examine Parent-to-Child Transmission\n\n- If an **affected father passes the trait to all his daughters but none of his sons**, this is the hallmark of **X-linked dominant** inheritance (fathers pass their single X to all daughters).\n- If an **affected father passes the trait to none of his sons**, this is compatible with X-linkage but does not rule out autosomal inheritance: a small set of sons may be unaffected by chance.\n- If **two unaffected parents have an affected child**, recessive inheritance is one explanation; de novo dominant variants, reduced penetrance and mosaicism are alternatives.\n\n### Step 4: Assess Carrier Status\n\nOnce you identify the likely inheritance pattern, assign genotypes to key individuals. **Obligate carriers** are individuals who *must* carry one copy of the recessive allele based on their family relationships, even if they are phenotypically unaffected. Identifying obligate carriers is essential for calculating probabilities.\n\n---\n\n## Autosomal Dominant Inheritance\n\n### Defining Features\n\nIn autosomal dominant inheritance, a single copy of the mutant allele on an autosome is sufficient to cause the disease. The allele is not on a sex chromosome, so its transmission is not intrinsically sex-linked. Disease expression or penetrance can still differ by sex.\n\nKey hallmarks of AD inheritance:\n- Affected individuals appear in *every generation* (vertical transmission).\n- With a heterozygous affected parent and unaffected noncarrier partner, each child has a 50% transmission probability; disease probability also depends on penetrance.\n- Both males and females are affected with equal frequency.\n- Affected individuals typically have *at least one affected parent* (unless the mutation is de novo).\n- Two affected parents can have unaffected children (if both parents are heterozygous: Aa × Aa yields 25% AA, 50% Aa, 25% aa — with AA and Aa both affected, 75% affected overall; by contrast, an affected Aa parent and unaffected aa parent predict 50% affected under this model).\n\n### Genotypic Logic\n\nIf the disease allele is **A** (dominant) and the normal allele is **a** (recessive), then:\n- Affected individuals are most commonly **Aa** (heterozygous), since homozygous dominant (AA) is often lethal or extremely rare.\n- Unaffected individuals are **aa**.\n\n### Classic MCAT Examples\n\n**Huntington disease** is associated with an HTT CAG-repeat expansion. A heterozygous parent has a 50% chance of transmitting the expanded allele. Alleles with 36–39 repeats have reduced penetrance; alleles with 40 or more are generally fully penetrant over a typical lifespan. Age at onset varies.\n\n**Achondroplasia** (a form of dwarfism) and **Marfan syndrome** are other high-yield AD conditions. Neurofibromatosis type 1 and familial hypercholesterolemia are also autosomal dominant.\n\n### Complicating Factors: Penetrance and Expressivity\n\n- **Penetrance** refers to the proportion of individuals with a given genotype who actually express the phenotype. A dominant allele with *incomplete penetrance* may appear to skip generations, mimicking recessive inheritance. If you see what looks like an AD pattern but with occasional skipping, suspect reduced penetrance.\n- **Variable expressivity** means individuals with the same genotype may show different severity of disease. This does not change the inheritance pattern but complicates clinical prediction.\n\n---\n\n## Autosomal Recessive Inheritance\n\n### Defining Features\n\nIn autosomal recessive inheritance, pathogenic variants affecting both copies of a gene are typically required; they can be the same variant or two different variants (compound heterozygosity). A single pathogenic allele usually produces an unaffected carrier in the simple model, though heterozygote effects depend on the condition.\n\nKey hallmarks of AR inheritance:\n- The trait *skips generations* — unaffected parents (carriers) have affected children.\n- Approximately **25% of offspring** from two carrier parents will be affected.\n- Both males and females are affected with equal frequency.\n- Consanguinity (related parents) dramatically increases the probability of AR disease.\n- Affected individuals often have *two unaffected carrier parents*.\n\n### Genotypic Logic\n\nUsing **A** for the normal dominant allele and **a** for the recessive disease allele:\n- Affected individuals are **aa**.\n- Carriers are **Aa** (unaffected but can transmit the allele).\n- Two carrier parents (Aa × Aa) produce offspring in a 1:2:1 ratio — 25% AA (unaffected, non-carrier), 50% Aa (unaffected carrier), 25% aa (affected).\n\nThe probability that an *unaffected* sibling of an affected child is a carrier is **2/3** (not 1/2). This is because among the unaffected offspring of two carriers, the genotypic ratio is 1 AA : 2 Aa, so two-thirds of unaffected siblings are carriers. This conditional probability calculation is a favorite MCAT question type.\n\n### Classic MCAT Examples\n\n**Cystic fibrosis** is an autosomal recessive CFTR-related condition. The common p.Phe508del variant removes phenylalanine at position 508. Carrier and variant frequencies vary by ancestry; a single frequency should not be applied to all populations.\n\n**Phenylketonuria (PKU)** results from deficiency of phenylalanine hydroxylase, which converts phenylalanine to tyrosine. Untreated PKU causes intellectual disability due to phenylalanine accumulation. Newborn screening measures phenylalanine, commonly with tandem mass spectrometry in modern programs; the Guthrie bacterial inhibition assay is historically important.\n\n**Sickle cell disease** (HbS, a point mutation in the β-globin gene causing a glutamate-to-valine substitution at position 6) is AR, though heterozygous carriers (sickle cell trait) have some protection against malaria — an important concept in population genetics.\n\n**Tay-Sachs disease** (hexosaminidase A deficiency), **albinism**, and **galactosemia** are other high-yield AR conditions.\n\n### The Role of Consanguinity\n\nWhen a pedigree shows double lines between parents, this signals a consanguineous mating. Related individuals are more likely to carry the same recessive allele inherited from a common ancestor. This increases the probability of an AR condition appearing in offspring and is a strong clue when you see an unusual AR pattern in a pedigree.\n\n---\n\n## X-Linked Recessive Inheritance\n\n### Defining Features\n\nX-linked recessive conditions are caused by a recessive allele on the X chromosome. Because males are **hemizygous** (they have only one X chromosome, written as X^Y), a single copy of the disease allele is sufficient to cause disease in males. The simple recessive model assigns affected females two pathogenic alleles. However, heterozygous females can be symptomatic, for example with skewed X-inactivation, and 45,X individuals can manifest an X-linked recessive condition with one allele.\n\nKey hallmarks of XR inheritance:\n- *Males are predominantly affected*; females are usually unaffected carriers.\n- No **father-to-son transmission** — fathers pass their Y chromosome to sons, not their X.\n- Affected males are often born to *carrier mothers* (who are unaffected).\n- The trait may appear to skip generations (carrier females pass it silently).\n- With an unaffected father, a heterozygous mother has a **50% risk among sons** and a **50% chance of heterozygosity among daughters**. Assuming equal sex probabilities, an affected son is 25% per pregnancy, not 50%.\n\n### Genotypic Logic\n\nLet X^A represent the normal allele and X^a represent the disease allele:\n- Affected males: X^a Y\n- Carrier females: X^A X^a (unaffected phenotypically)\n- Affected females: X^a X^a (rare, requires an affected father and carrier/affected mother)\n- Normal females: X^A X^A\n\nThe cross of a carrier female (X^A X^a) with a normal male (X^A Y):\n- 1/4 X^A X^A: normal female\n- 1/4 X^A X^a: carrier female\n- 1/4 X^A Y: normal male\n- 1/4 X^a Y: affected male\n\n### Classic MCAT Examples\n\n**Hemophilia A** (Factor VIII deficiency) and **Hemophilia B** (Factor IX deficiency) are the canonical XR examples. The famous pedigree of Queen Victoria's family demonstrated hemophilia B spreading through European royal families — a classic example of carrier females transmitting the allele to affected sons.\n\n**Duchenne muscular dystrophy (DMD)** is caused by mutations in the dystrophin gene, the largest known human gene (~2.4 Mb on the X chromosome). It presents in early childhood with progressive muscle weakness, Survival varies with care and complications; a fixed early-twenties cutoff is inappropriate. Cardiac and respiratory management have improved outcomes.\n\n**Red-green color blindness** is the most common XR condition, affecting approximately 8% of males and only 0.5% of females in populations of Northern European descent — reflecting hemizygous expression in XY individuals, not a biological “advantage”.\n\n**Glucose-6-phosphate dehydrogenase (G6PD) deficiency** is another high-yield XR condition causing hemolytic anemia upon exposure to oxidative stressors (certain drugs, fava beans).\n\n### The Critical \"No Father-to-Son\" Rule\n\nA father does not directly transmit his non-PAR X allele to a son. However, an affected father and affected son can coexist in an X-linked pedigree if the son inherits the variant from his mother. Establish the route of allele transmission rather than inferring it from matching phenotypes alone.\n\n---\n\n## X-Linked Dominant Inheritance\n\n### Defining Features\n\nX-linked dominant conditions require only one copy of the disease allele on the X chromosome to cause disease, in either males or females. However, because males are hemizygous, they often have a *more severe* phenotype than heterozygous females (who have one normal X to partially compensate). Some XD conditions are **lethal in hemizygous males**, meaning only females survive to be born with the condition.\n\nKey hallmarks of XD inheritance:\n- Both males and females are affected, but *more females than males* are typically affected (but sex-specific prevalence also depends on allele frequency, penetrance and viability).\n- An **affected father passes the trait to ALL of his daughters** (since he gives his X to every daughter) and to *none* of his sons (since he gives his Y to sons).\n- An **affected mother** (heterozygous) passes the trait to 50% of her sons and 50% of her daughters.\n- If the condition is *lethal in males*, the pedigree will show only affected females, with a 2:1 female-to-male ratio among offspring and increased miscarriage rates (the male fetuses die in utero).\n\n### Genotypic Logic\n\nLet X^D represent the dominant disease allele:\n- Affected females: X^D X (heterozygous, most common) or X^D X^D (homozygous, often more severe or lethal)\n- Affected males: X^D Y\n- If X^D Y is lethal, no affected males survive; the pedigree shows only affected females.\n\nThe cross of an affected heterozygous female (X^D X) with a normal male (X Y):\n- 1/4 X^D X: affected female\n- 1/4 X X: normal female\n- 1/4 X^D Y: affected male (or lethal)\n- 1/4 X Y: normal male\n\n### Classic MCAT Examples\n\n**MECP2-related disorders**, including Rett syndrome, follow X-linked inheritance. Most classic Rett cases occur in females, but affected males can survive and show diverse, often severe phenotypes; universal male lethality is incorrect.\n\n**Incontinentia pigmenti** (IKBKG gene) is an X-linked condition often lethal in hemizygous males, with surviving mosaic and 47,XXY males among the exceptions.\n\n**Vitamin D-resistant rickets (X-linked hypophosphatemia)** is an XD condition that is *not* lethal in males, so both sexes are affected, with females generally showing milder disease.\n\n### Distinguishing XD from AD\n\nThis is one of the trickier distinctions on the MCAT. Both AD and XD show vertical transmission with affected individuals in every generation. The critical distinguishing feature is the **father-to-son transmission test**:\n- In AD: affected fathers can pass the trait to sons (50% of sons affected).\n- In XD: affected fathers pass the trait to *all daughters* and *no sons*.\n\nAn affected father and affected son do not by themselves exclude X-linked dominance: the son might inherit the allele from his mother. Direct molecular father-to-son transmission would exclude ordinary non-PAR X-linkage. If you see an affected father whose sons are all unaffected but all daughters are affected, this is the signature of XD.\n\n---\n\n## Mitochondrial Inheritance\n\n### Defining Features\n\nMitochondrial DNA is inherited exclusively from the mother through the cytoplasm of the egg. Sperm contribute almost no mitochondria to the fertilized egg.\n\nKey hallmarks of mitochondrial inheritance:\n- Children of a mother carrying a pathogenic mtDNA variant can inherit it, but heteroplasmy and the mitochondrial bottleneck cause variable transmission and disease risk.\n- Fathers *never* transmit the condition to their children.\n- Both sexes can inherit mtDNA variants; penetrance and severity may differ by sex.\n- The pattern shows *maternal lineage transmission*.\n\n### Heteroplasmy\n\nMitochondrial genetics is complicated by **Heteroplasmy** — the presence of more than one mtDNA sequence variant within a cell or individual; in disease examples, these may include reference and pathogenic variants. The proportion of mutant mitochondria varies between cells and tissues, which explains the variable expressivity of mitochondrial diseases.\n\n### Classic MCAT Examples\n\n**Leber hereditary optic neuropathy (LHON)** causes sudden vision loss, predominantly in young males (though the inheritance is still maternal — the male predilection is due to other genetic and environmental factors).\n\n**MELAS** (mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes) and **MERRF** (myoclonic epilepsy with ragged red fibers) are other mitochondrial diseases.\n\n---\n\n## Calculating Probabilities from Pedigrees\n\nPedigree probability questions are common and require integration of Mendelian ratios with conditional probability.\n\n### Basic Probability Rules\n\n- **Product rule**: The probability of two independent events both occurring equals the product of their individual probabilities. Use it only after checking independence. In general, P(A and B) = P(A) × P(B given A); sex and carrier status are not necessarily independent in sex-linked models.\n- **Sum rule**: The probability of either of two mutually exclusive events occurring equals the sum of their individual probabilities.\n\n### Sample Calculation: Autosomal Recessive\n\nSuppose two carrier parents (Aa × Aa) have four children. Three are unaffected and one is affected. What is the probability that a specific unaffected child is a carrier?\n\nAmong unaffected offspring of Aa × Aa parents, the ratio is 1 AA : 2 Aa. Therefore, the probability that any specific unaffected child is a carrier is **2/3**.\n\nNow suppose that unaffected child (probability 2/3 of being Aa) mates with an individual known to be a carrier (Aa). What is the probability their first child will be affected?\n\n- P(parent 1 is Aa) = 2/3\n- P(parent 2 is Aa) = 1 (given)\n- P(affected child | both parents Aa) = 1/4\n- P(affected child) = 2/3 × 1/4 = **1/6**\n\n### Sample Calculation: X-Linked Recessive\n\nA woman is an obligate carrier of hemophilia (X^A X^a). Her husband is unaffected (X^A Y). What is the probability their first child will be an affected son?\n\n- P(child is male) = 1/2\n- P(child has hemophilia | child is male) = 1/2 (50% of sons will be X^a Y)\n- P(first child is an affected son) = 1/2 × 1/2 = **1/4**. If the question instead says “given that the child is a son,” the answer is **1/2**.\n\n---\n\n## Common MCAT Traps and Edge Cases\n\n### Trap 1: Autosomal Recessive Mimicking Dominant\n\nIf a pedigree shows affected individuals in every generation, students often jump to autosomal dominant. However, if the population carrier frequency is high (as with sickle cell trait in certain populations), carrier × carrier matings can occur frequently enough that every generation appears affected. Always check whether unaffected parents appear in the pedigree.\n\n### Trap 2: X-Linked Recessive in Females\n\nXR conditions can affect females if they are homozygous (X^a X^a). In the simple inherited two-allele model, this usually involves an affected father and a heterozygous or affected mother. De novo variants, mosaicism and symptomatic heterozygosity create exceptions. If you see an affected female in a pedigree, check whether her father is also affected — if so, XR remains possible. If her father is unaffected, XR is less likely for her.\n\n### Trap 3: De Novo Mutations\n\nA new (de novo) mutation can make a dominant condition appear to arise spontaneously in a child with two unaffected parents. Achondroplasia is a classic example — approximately 80% of cases arise from de novo mutations in the FGFR3 gene, often associated with advanced paternal age. This can mimic autosomal recessive inheritance in a pedigree.\n\n### Trap 4: Incomplete Penetrance vs. Skipping Generations\n\nIf a dominant condition has incomplete penetrance, an individual may carry the allele without expressing the disease. This creates the appearance of a skipped generation. The key clue is that the \"unaffected\" individual in the middle generation has both an affected parent and an affected child — statistically unlikely unless they carry the allele themselves.\n\n### Trap 5: Pseudoautosomal Regions\n\nGenes in the **pseudoautosomal regions (PARs)** of the X and Y chromosomes behave like autosomal genes because they undergo recombination between X and Y during male meiosis. Traits encoded in these regions can be transmitted from father to son, which would appear to violate X-linked rules. This is rarely tested but worth knowing.\n\n---\n\n## Summary Table: Key Features of Each Inheritance Pattern\n\n**Autosomal Dominant:**\n- Both sexes can be affected; sex-specific penetrance can differ\n- Every generation affected (vertical transmission)\n- 50% of offspring affected (from heterozygous parent)\n- No father-to-son restriction\n- Examples: Huntington's disease, achondroplasia, Marfan syndrome\n\n**Autosomal Recessive:**\n- Both sexes can be affected; sex-specific penetrance can differ\n- Skips generations; unaffected carrier parents\n- 25% of offspring affected (from two carrier parents)\n- Consanguinity increases risk\n- Examples: Cystic fibrosis, PKU, sickle cell disease, Tay-Sachs\n\n**X-Linked Recessive:**\n- Males predominantly affected\n- No father-to-son transmission\n- Heterozygous mothers may be unaffected or symptomatic\n- 50% of sons of carrier mother are affected\n- Examples: Hemophilia A/B, DMD, color blindness, G6PD deficiency\n\n**X-Linked Dominant:**\n- More females than males affected\n- Affected father → all daughters affected, no sons affected\n- Some conditions lethal in hemizygous males\n- Examples: Rett syndrome, incontinentia pigmenti, X-linked hypophosphatemia\n\n**Mitochondrial:**\n- Maternal mtDNA transmission; offspring risk varies with heteroplasmy and penetrance\n- Fathers never transmit\n- Both sexes can be affected; sex-specific penetrance can differ\n- Examples: LHON, MELAS, MERRF\n\n---\n\n## Final MCAT Strategy\n\nWhen you encounter a pedigree question on the MCAT, follow this sequence:\n\n1. *Identify the sex distribution* of affected individuals.\n2. *Check for father-to-son transmission* — direct non-PAR X transmission is excluded if established; observing no affected sons is only a clue.\n3. *Determine if the trait skips generations* — skipping can suggest recessive inheritance but also reflect reduced penetrance or age-dependent onset.\n4. *Look for consanguinity* — double lines suggest AR.\n5. *Assign genotypes* to key individuals, starting with obligate carriers.\n6. *Apply probability rules* (product rule, conditional probability) to calculate the requested probability.\n\nPedigree analysis rewards systematic thinking over intuition. Practice by working through as many pedigrees as possible, deliberately testing each inheritance pattern against the data before committing to an answer. The logic is consistent — once you internalize the biological rules governing each pattern, some pedigrees require additional clinical or molecular evidence to distinguish models."
+    },
+    {
+      "field": "questions.237.explanation",
+      "value": "Under the stated assumptions, Aa × Aa allows affected sons and daughters with a 1/4 probability per child. Three affected children in a small family need not equal the expected fraction. Unaffected parents exclude fully penetrant dominant inheritance here, while a noncarrier father excludes affected daughters in the simple X-linked recessive model."
+    },
+    {
+      "field": "questions.237.question_text",
+      "value": "Assume full penetrance, no new variants and the simple single-gene models. Two unaffected parents have affected sons and daughters. Which inheritance pattern is most consistent with this family?"
+    },
+    {
+      "field": "questions.238.explanation",
+      "value": "Autosomal dominant inheritance fits vertical transmission, both sexes and direct father-to-son allele transmission. Ordinary X-linked transmission cannot pass a paternal X to a son, and mitochondrial transmission is maternal."
+    },
+    {
+      "field": "questions.238.question_text",
+      "value": "In a large pedigree, affected individuals occur in each generation, both sexes are represented, and direct father-to-son transmission of the causal allele is documented. Affected heterozygotes with unaffected noncarrier partners transmit the allele to about half their children. Which model fits best?"
+    },
+    {
+      "field": "questions.239.explanation",
+      "value": "Maternal-line transmission is most consistent with an mtDNA-associated condition among these choices. The observed family may have all children affected, but this is not a universal mitochondrial rule: heteroplasmy, tissue thresholds and penetrance can produce unaffected children or variable severity."
+    },
+    {
+      "field": "questions.240.explanation",
+      "value": "Conditioned on a son, the maternal variant has transmission probability 1/2. The question asks about the next child being both male and affected, so multiply 1/2 × 1/2 = 1/4."
+    },
+    {
+      "field": "questions.240.question_text",
+      "value": "A woman is known to be heterozygous for an X-linked recessive pathogenic variant. Her partner does not carry the variant. Assume full penetrance in sons and equal probabilities of XX and XY offspring. What is the probability that her next child will be an affected son?"
+    }
+  ]
+}

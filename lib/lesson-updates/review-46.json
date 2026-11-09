@@ -1,0 +1,280 @@
+{
+  "lessonId": 46,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Each chromosome is a single, enormously long DNA molecule complexed with histone proteins to form chromatin.",
+      "new": "Before replication, a typical nuclear chromosome contains one long double-stranded DNA molecule with associated proteins. After replication it has two sister chromatids, each with a DNA molecule.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/13-1-chromosomal-theory-and-genetic-linkage"
+    },
+    {
+      "field": "content",
+      "old": "Human somatic cells contain 46 chromosomes:",
+      "new": "Typical nucleated diploid human cells contain 46 chromosomes:",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/13-1-chromosomal-theory-and-genetic-linkage"
+    },
+    {
+      "field": "content",
+      "old": "The critical limitation: **independent assortment fails when genes are on the same chromosome**.",
+      "new": "The critical limitation: **nearby loci on one chromosome tend to show linkage; distant loci can behave as though unlinked**.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/13-1-chromosomal-theory-and-genetic-linkage"
+    },
+    {
+      "field": "content",
+      "old": "The degree of deviation from 25% recombinants tells you how tightly linked the genes are.",
+      "new": "Under independent assortment, each class is expected at 25%, but the two recombinant classes together total 50%. Linkage is assessed using the combined recombinant fraction and the sampling uncertainty.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/13-1-chromosomal-theory-and-genetic-linkage"
+    },
+    {
+      "field": "content",
+      "old": "In a testcross, recombinants are the less-frequent classes.",
+      "new": "For a typical linked-marker testcross with comparable offspring viability and accurate scoring, the two recombinant classes are less frequent than the parental classes. Parentage or phase information should be used when available.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "The maximum observable recombination frequency is **50%**.",
+      "new": "In the standard linkage model, the recombination fraction has an upper limit of **50%**. A finite observed sample can depart from its underlying probability.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "because they are so far apart on the same chromosome that at least one crossover almost always occurs between them.",
+      "new": "because repeated crossovers between distant loci randomize their association.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "The lower the RF, the more tightly linked the genes are and the closer together they are on the chromosome.",
+      "new": "Lower RF means tighter genetic linkage. It is not a uniform ruler of physical base-pair distance because recombination rates vary across regions and sexes.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "**One map unit** (also called a **centimorgan**, abbreviated cM) is defined as a recombination frequency of 1%. If two genes show 12% recombination, they are approximately 12 cM apart on the genetic map.",
+      "new": "For a short interval, 1% recombinant gametes is approximately 1 centimorgan (cM). Genetic map distance measures recombination, not base pairs; over longer intervals, multiple crossovers make the observed two-marker fraction underestimate map length.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "*Important caveat for the MCAT*: Recombination frequency is not a perfect measure of physical distance, especially over long distances. Multiple crossovers between two distant loci can cancel each other out, causing an underestimate of the true genetic distance. However, for MCAT purposes, treat 1% RF = 1 cM as a reliable approximation.",
+      "new": "Use RF ≈ cM only as a short-interval approximation. Genetic distances can exceed 50 cM, whereas a two-locus recombination fraction approaches 50%.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "they are 15 cM apart.",
+      "new": "a simple approximation places them 15 cM apart.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "The two most frequent classes are the **parental classes** (no crossovers). The two least frequent classes are the **double crossover classes** (two crossovers between the outer markers).",
+      "new": "In the usual short-interval model, the most frequent classes are parental and the least frequent classes are double recombinants. This ranking assumes no strong viability or scoring distortions; additional crossovers can be invisible to the markers.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "Note that the sum RF₁ + RF₂ will be greater",
+      "new": "When double recombinants are present, the sum RF₁ + RF₂ will be greater",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "ABc / abC: 95",
+      "new": "ABc / abc: 95",
+      "reason": "Repair tester haplotype in worked cross.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "abC / ABc: 90",
+      "new": "abC / abc: 90",
+      "reason": "Repair tester haplotype in worked cross.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "Abc / aBC: 18",
+      "new": "Abc / abc: 18",
+      "reason": "Repair tester haplotype in worked cross.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "aBC / Abc: 17",
+      "new": "aBC / abc: 17",
+      "reason": "Repair tester haplotype in worked cross.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "AbC / aBc: 5",
+      "new": "AbC / abc: 5",
+      "reason": "Repair tester haplotype in worked cross.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "aBc / AbC: 5",
+      "new": "aBc / abc: 5",
+      "reason": "Repair tester haplotype in worked cross.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "Affects females more than males (females have two X chromosomes, two chances to inherit the allele)",
+      "new": "Can affect both sexes; prevalence and severity depend on penetrance, allele frequency and viability",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "Y-linked traits are rare and include genes involved in spermatogenesis (e.g., the *SRY* gene for sex determination, *AZF* regions for azoospermia).",
+      "new": "Y-linked loci include SRY, involved in testis determination, and AZF regions important for spermatogenesis. SRY should not be described as a spermatogenesis gene.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK279001/"
+    },
+    {
+      "field": "content",
+      "old": "Genes in these regions undergo obligatory crossover during male meiosis and thus behave like autosomal genes, assorted independently of sex.",
+      "new": "PAR1 normally has an obligatory crossover during male meiosis; PAR2 recombination is not obligatory. Pseudoautosomal genes can be transmitted father to son and do not follow the usual non-PAR X-linked rules.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9233459/"
+    },
+    {
+      "field": "content",
+      "old": "In real chromosomes, double crossovers occur less frequently than expected by chance alone.",
+      "new": "Positive crossover interference makes nearby double crossovers less frequent than an independence model predicts; interference is not universal and depends on the organism and region.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "For the MCAT, you are unlikely to be asked to calculate interference directly, but understanding that double crossovers are suppressed—and that this causes underestimation of map distances in two-point crosses—is conceptually important.",
+      "new": "Two-point maps underestimate distance because some multiple crossovers restore parental marker associations. Positive interference reduces nearby double crossovers; it is not itself the reason that double recombinants are missed.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "If you see roughly equal proportions of all four phenotypic classes → genes are unlinked (independent assortment)",
+      "new": "Roughly equal proportions of all four classes are consistent with independent assortment; distant loci on one chromosome can give the same result",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "Calculate RF = (recombinants / total) × 100% to determine map distance",
+      "new": "Calculate RF = (recombinants / total) × 100%; interpret map distance with the short-interval approximation or an appropriate mapping model",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "content",
+      "old": "All daughters of an affected father are carriers (X-linked recessive) or affected (X-linked dominant)",
+      "new": "All daughters inherit the paternal X allele; the maternal allele, penetrance and X-inactivation influence phenotype",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "Skipping generations: recessive inheritance (autosomal or X-linked)",
+      "new": "Skipping generations suggests recessive inheritance but can also reflect reduced penetrance or age-dependent onset",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "**1 centimorgan (cM) = 1% recombination frequency**.",
+      "new": "**For short intervals, 1 cM corresponds approximately to 1% recombinant gametes**.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "questions.226.choice_b",
+      "old": "16%; the genes are linked and located 16 cM apart",
+      "new": "16%; the genes are linked, with an approximate map distance of 16 cM",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "questions.226.explanation",
+      "old": "Recombination frequency is calculated by dividing the number of recombinant offspring by the total offspring. The recombinant classes are AB and ab (8% + 8% = 16%), so the genes are 16 cM apart on the same chromosome. The parental classes (Ab and aB at 42% each) are more frequent, confirming linkage in the repulsion configuration. Choice A is wrong because 8% represents only one recombinant class, not the total recombination frequency.",
+      "new": "The two recombinant classes total 8% + 8% = 16%. The abundant Ab and aB classes indicate repulsion phase. The simple RF-to-map-distance estimate is about 16 cM; multiple crossovers can make the true map length larger.",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "questions.227.question_text",
+      "old": "Three genes on the same chromosome show the following recombination frequencies: A-B = 12 cM, B-C = 7 cM, A-C = 19 cM. What is the correct gene order and what concept does this illustrate?",
+      "new": "Three genes have estimated genetic map distances A–B = 12 cM, B–C = 7 cM and A–C = 19 cM. Which order fits this linear map?",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "questions.227.explanation",
+      "old": "When A-B = 12 cM and B-C = 7 cM, these two distances sum to 19 cM, which exactly equals A-C = 19 cM. This additivity confirms that B is between A and C, giving the order A-B-C. This illustrates that genetic maps are linear and that map distances are additive when there is no double crossover interference in the region. Choice C is incorrect because the middle gene is flanked by the two outer markers, and the largest interval (A-C = 19 cM) spans the entire region, not just the middle gene.",
+      "new": "B lies between A and C because 12 cM + 7 cM = 19 cM. A–B–C and its reverse C–B–A describe the same order. Map distances are additive along a chromosome; raw two-marker recombination fractions need not be additive because they can miss multiple crossovers.",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "questions.228.choice_b",
+      "old": "The genes are linked in coupling (cis) configuration and are 18 cM apart",
+      "new": "The genes are linked in coupling (cis), with an approximate map distance of 18 cM",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "questions.228.explanation",
+      "old": "The parental classes (gray-long and black-vestigial at 41% each) are most frequent, confirming linkage in coupling (cis) configuration where G and L are on the same chromosome. The recombinant classes (gray-vestigial and black-long) together total 18%, placing the genes 18 cM apart. Repulsion (trans) configuration would show gray-vestigial and black-long as the parental classes. Choice D is wrong because map distance equals recombination frequency (18%), not the frequency of parental types.",
+      "new": "The abundant gray-long and black-vestigial classes match GL/gl parental phase, so linkage is in cis. Recombinants total 9% + 9% = 18%. The short-interval mapping approximation gives about 18 cM; the percentage of parental offspring is not the map distance.",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "questions.230.question_text",
+      "old": "In humans, hemophilia A (X-linked) and red-green color blindness (X-linked) show a recombination frequency of approximately 5%. A woman who is a carrier for both conditions (alleles in coupling on one X chromosome) has children with an unaffected man. What is the approximate probability that her son will have both conditions?",
+      "new": "For a simplified cross, assume two X-linked recessive loci have a recombination fraction of 5%. A mother carries both disease alleles together on one X and neither on the other (coupling phase). The father carries neither. Given that a child is a son, what is his probability of inheriting both disease alleles?",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "questions.230.choice_b",
+      "old": "47.5%, because sons receive the parental X chromosome most often",
+      "new": "47.5%, because one of the two parental classes carries both disease alleles",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "questions.230.correct_answer",
+      "old": "D",
+      "new": "B",
+      "reason": "Correct wrong stored answer key.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    },
+    {
+      "field": "questions.230.explanation",
+      "old": "Because the alleles are in coupling (cis), the parental X chromosomes carry either both mutant alleles or neither. Sons who inherit the parental chromosome with both mutant alleles represent 47.5% of sons, and those with neither represent another 47.5%. Recombinant sons (5% total) are split between those with only hemophilia A (2.5%) and only color blindness (2.5%). The question asks for sons with BOTH conditions via recombination, which is 2.5% of all sons. Choice B confuses the parental class frequency with the probability of having both conditions simultaneously through a recombinant chromosome.",
+      "new": "The parental gametes together account for 95%, split equally: 47.5% carry both disease alleles and 47.5% carry neither. Recombinants each carry just one allele at 2.5%. Since the question conditions on the child being a son, do not multiply by the probability of a male birth.",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21116/"
+    }
+  ]
+}

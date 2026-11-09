@@ -1,0 +1,273 @@
+{
+  "lessonId": 64,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Each component has its own intrinsic rate of depolarization, a concept called **automaticity**.",
+      "new": "Pacemaker-capable tissues can depolarize spontaneously, a property called **automaticity**; the following rates are approximate clinical teaching ranges, not immutable intrinsic rates of every conduction-system component.",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "content",
+      "old": "If the SA node fails, the AV node takes over; if the AV node fails, the Purkinje fibers can sustain a slow ventricular escape rhythm.",
+      "new": "If normal impulses fail, a subsidiary junctional or ventricular pacemaker may generate an escape rhythm; a reliable escape rhythm is not guaranteed.",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "content",
+      "old": "Working myocardial cells have a stable **resting membrane potential** of approximately −90 mV",
+      "new": "Typical ventricular working myocytes have a relatively stable **resting membrane potential** near −90 mV; atrial and other cardiac cell values differ",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3064561/"
+    },
+    {
+      "field": "content",
+      "old": "The plateau lasts 200–300 ms and is physiologically critical",
+      "new": "Ventricular action potentials often last roughly 200–300 ms in total, depending on rate and cell type; the plateau is a substantial part of that event and is physiologically critical",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3064561/"
+    },
+    {
+      "field": "content",
+      "old": "spontaneous diastolic depolarization** (also called the **pacemaker potential** or \"funny current\")",
+      "new": "spontaneous diastolic depolarization** (the **pacemaker potential**). The funny current is one contributing ionic current, not a synonym for the entire pacemaker potential",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3064561/"
+    },
+    {
+      "field": "content",
+      "old": "allows a slow inward Na⁺ and K⁺ current that gradually depolarizes the membrane",
+      "new": "conducts both Na⁺ and K⁺. At typical diastolic voltages, inward Na⁺ movement exceeds outward K⁺ movement, yielding a net inward depolarizing current",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8285948/"
+    },
+    {
+      "field": "content",
+      "old": "Unlike fast-response cells, pacemaker cells lack fast Na⁺ channels. Their upstroke is mediated entirely by **L-type Ca²⁺ channels**, making it slower and less steep (hence \"slow-response\").",
+      "new": "The upstroke of central SA and typical AV nodal cells depends mainly on **L-type Ca²⁺ current**, rather than the fast Na⁺ current that dominates working ventricular cells. Sodium-channel expression and contribution vary across nodal regions; a claim that every pacemaker cell lacks Na⁺ channels is too broad.",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3064561/"
+    },
+    {
+      "field": "content",
+      "old": "It is the *only* normal electrical connection between atria and ventricles",
+      "new": "It forms part of the normal AV conduction axis; the penetrating His bundle crosses the insulating fibrous skeleton",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "content",
+      "old": "When a wave of depolarization moves through cardiac tissue, the leading edge is negative (depolarized) and the trailing portion is positive (resting). This creates an electrical **dipole**. An electrode facing the positive end of the dipole records an upward (positive) deflection; an electrode facing the negative end records a downward (negative) deflection.",
+      "new": "A surface lead measures a voltage difference, not the intracellular potential of one cell. In a simple wavefront model, depolarization moving toward a lead’s positive electrode usually gives an upward deflection; movement away gives a downward one. Reversing the direction of a repolarization wave reverses its sign relative to an otherwise comparable depolarization wave. The observed tracing depends on the net vector and lead orientation.",
+      "reason": "Correct reversed leading/trailing polarity model.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "content",
+      "old": "A standard 12-lead ECG uses:",
+      "new": "A standard 12-lead ECG derives 12 views from 10 electrodes:",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "content",
+      "old": "time for the impulse to travel from the SA node through the atria",
+      "new": "time from the onset of atrial depolarization, through atrial and AV conduction",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "content",
+      "old": "a slowing of conduction through the AV node",
+      "new": "delayed AV conduction, often at the AV node but potentially in the His-Purkinje system",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://doi.org/10.1161/CIR.0000000000000628"
+    },
+    {
+      "field": "content",
+      "old": "Normal duration: **60–100 ms (<0.10 s).**",
+      "new": "A typical adult QRS is roughly **70–110 ms**. A duration ≥120 ms is an important threshold in complete bundle-branch-block criteria, interpreted together with morphology.",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ahajournals.org/doi/epdf/10.1161/CIRCULATIONAHA.108.191095"
+    },
+    {
+      "field": "content",
+      "old": "**Pathological Q waves** (>40 ms wide or >25% of the QRS height) indicate prior myocardial infarction—dead tissue cannot depolarize, so the electrode \"sees\" depolarization moving away from it.",
+      "new": "**Pathological Q waves** can support prior myocardial infarction, but criteria depend on the leads and pattern, and non-infarction causes exist. Neither one size rule nor a Q wave alone establishes the diagnosis.",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.jacc.org/doi/10.1016/j.jacc.2008.12.014"
+    },
+    {
+      "field": "content",
+      "old": "during which all ventricular cells are depolarized and there is no net electrical gradient",
+      "new": "during which much of the ventricular myocardium is in its plateau; normally there is little net surface potential difference",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "content",
+      "old": "**ST elevation** occurs when a region of myocardium is injured and its cells cannot fully repolarize, creating a persistent current of injury. ST elevation in contiguous leads is the hallmark of **ST-elevation myocardial infarction (STEMI)**—a medical emergency requiring immediate reperfusion.",
+      "new": "**ST elevation** can occur with acute ischemic injury, but also with early repolarization, pericarditis and secondary repolarization changes. Acute coronary occlusion must be assessed urgently in the clinical context; ST elevation alone is not synonymous with infarction.",
+      "reason": "Avoid false diagnostic equivalence.",
+      "sourceUrl": "https://www.jacc.org/doi/10.1016/j.jacc.2008.12.014"
+    },
+    {
+      "field": "content",
+      "old": "The **T wave** represents **ventricular repolarization**. Repolarization proceeds from epicardium to endocardium (opposite to depolarization), so the T wave is normally in the same direction as the QRS complex—both are upright in most leads. This may seem counterintuitive: if depolarization and repolarization move in opposite directions, why are they both positive? Because repolarization produces a positive deflection when moving *away* from an electrode, and since it moves from epicardium (away from the endocardial electrodes) back toward the baseline, the net effect is a positive T wave in most leads.",
+      "new": "The **T wave** represents ventricular repolarization. Spatial differences in action-potential duration make the recovery sequence different from the activation sequence. In a simplified transmural model, epicardium repolarizes before endocardium; reversing both the wavefront direction and electrical polarity permits a T wave concordant with the main QRS. Surface electrodes are on the body, not the endocardium, and real recovery is three-dimensional.",
+      "reason": "Correct direction explanation and nonexistent endocardial electrodes.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "content",
+      "old": "Normal QTc: **≤440 ms in men, ≤460 ms in women.**",
+      "new": "For adults, commonly used prolonged-QTc thresholds are >450 ms in men and >460 ms in women; criteria vary with context. Use seconds for QT and RR in Bazett’s formula. Bazett tends to overcorrect at high rates and undercorrect at low rates, so alternative corrections may be preferable.",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000000527"
+    },
+    {
+      "field": "content",
+      "old": "Lead I positive, aVF negative → **left axis deviation** (LAD; seen in left anterior fascicular block, inferior MI)",
+      "new": "Lead I positive, aVF negative → inspect lead II: a positive QRS in II can still be normal (approximately −30° to 0°); a negative QRS in II supports left axis deviation below −30°",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK470532/"
+    },
+    {
+      "field": "content",
+      "old": "**First-degree AV block:** PR interval >200 ms; every P wave conducts. Benign.",
+      "new": "**First-degree AV block:** PR interval >200 ms with every P wave conducted. It is often asymptomatic, but significance depends on symptoms, degree of delay and underlying disease.",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://doi.org/10.1161/CIR.0000000000000628"
+    },
+    {
+      "field": "content",
+      "old": "Site of block: AV node.",
+      "new": "Site of block: usually the AV node, but exceptions occur.",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://doi.org/10.1161/CIR.0000000000000628"
+    },
+    {
+      "field": "content",
+      "old": "Requires pacemaker implantation.",
+      "new": "Requires urgent clinical evaluation; persistent acquired complete block without a reversible or physiological cause generally warrants permanent pacing.",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://doi.org/10.1161/CIR.0000000000000628"
+    },
+    {
+      "field": "content",
+      "old": "This widens the QRS to >120 ms.",
+      "new": "Complete bundle branch block in adults generally has QRS duration ≥120 ms plus characteristic morphology; incomplete blocks have shorter QRS durations.",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ahajournals.org/doi/epdf/10.1161/CIRCULATIONAHA.108.191095"
+    },
+    {
+      "field": "content",
+      "old": "LBBB makes ST and T wave interpretation unreliable and can mask MI changes.",
+      "new": "LBBB produces secondary ST–T changes and complicates ischemia assessment; appropriate criteria and clinical context can still identify concerning patterns.",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.jacc.org/doi/10.1016/j.jacc.2008.12.014"
+    },
+    {
+      "field": "content",
+      "old": "is immediately fatal without defibrillation",
+      "new": "causes cardiac arrest and requires immediate CPR and rapid defibrillation; it is not an instantaneous irreversible death",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "content",
+      "old": "Elevated extracellular K⁺ reduces the K⁺ equilibrium potential",
+      "new": "Elevated extracellular K⁺ makes the K⁺ equilibrium potential less negative",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "content",
+      "old": "**Hyperkalemia** (elevated serum K⁺):",
+      "new": "**Hyperkalemia** (elevated serum K⁺): possible patterns include the following, but ECG changes do not reliably follow a fixed sequence or quantify potassium concentration:",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "content",
+      "old": "- QRS duration (normal <100 ms); widening indicates bundle branch block or ventricular origin.",
+      "new": "- QRS widening can reflect conduction delay, ventricular activation, pacing, electrolyte disturbances or other causes; interpret duration with morphology.",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ahajournals.org/doi/epdf/10.1161/CIRCULATIONAHA.108.191095"
+    },
+    {
+      "field": "content",
+      "old": "- ST elevation = injury current (STEMI); ST depression = subendocardial ischemia.",
+      "new": "- ST elevation and depression have several causes; interpret the lead pattern and clinical context rather than using a one-to-one diagnostic rule.",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.jacc.org/doi/10.1016/j.jacc.2008.12.014"
+    },
+    {
+      "field": "content",
+      "old": "- Hyperkalemia → peaked T waves → wide QRS → sine wave → VF.",
+      "new": "- Hyperkalemia can cause peaked T waves, conduction slowing or dangerous rhythms, but this is not an obligatory sequence.",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "content",
+      "old": "The following points represent the most frequently tested concepts in this area:",
+      "new": "Use the following mechanism-based summary; relative examination frequency is not established here:",
+      "reason": "Correct electrical mechanism or interpretation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "questions.316.choice_b",
+      "old": "A funny current (If) carried by HCN channels allows slow inward Na+ and K+ flow, driving spontaneous depolarization",
+      "new": "HCN channels carry a mixed Na+/K+ current that is net inward at diastolic voltages and contributes to pacemaker depolarization",
+      "reason": "Correct individual ion directions.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8285948/"
+    },
+    {
+      "field": "questions.316.explanation",
+      "old": "SA node cells exhibit automaticity because of the funny current (If) through HCN channels, which opens during hyperpolarization and carries a depolarizing inward Na+/K+ current, slowly raising the membrane potential to threshold. This pacemaker potential is also aided by T-type Ca2+ channels. Choice A is incorrect because SA node cells lack fast voltage-gated Na+ channels; their upstroke depends on L-type Ca2+ channels. Choice D is wrong because SA node cells do have K+ channels that contribute to repolarization.",
+      "new": "Hyperpolarization-activated HCN channels pass both Na+ and K+. At diastolic voltages the inward Na+ component exceeds the outward K+ component, so the net current helps depolarize the cell. Other currents and intracellular calcium cycling also contribute. The central nodal upstroke relies mainly on L-type Ca2+ channels; nodal sodium-channel expression is not universally absent.",
+      "reason": "Correct mixed current and channel scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3064561/"
+    },
+    {
+      "field": "questions.317.explanation",
+      "old": "The PR interval reflects the time from atrial depolarization to ventricular depolarization, and the primary source of physiological delay in this interval is the AV node, which slows conduction to allow ventricular filling. A prolonged PR interval (first-degree AV block) indicates impaired conduction through the AV node. The Bundle of His and Purkinje fibers conduct rapidly and would not typically produce this pattern. The SA node initiates the impulse but does not contribute to PR interval prolongation.",
+      "new": "The AV node is the usual major source of physiological AV delay and is the best answer among these choices. A prolonged PR interval does not, however, uniquely localize a pathological delay: atrial and His-Purkinje conduction also contribute. Additional ECG and electrophysiological information may be needed.",
+      "reason": "Avoid false exclusive localization.",
+      "sourceUrl": "https://doi.org/10.1161/CIR.0000000000000628"
+    },
+    {
+      "field": "questions.318.explanation",
+      "old": "The QT interval represents the duration of ventricular depolarization and repolarization (phases 0-3). Blocking delayed rectifier K+ channels (IKr, encoded by hERG) slows phase 3 repolarization, prolonging the action potential duration and thus the QT interval. This is a well-known drug-induced arrhythmia risk. Blocking Na+ channels would affect phase 0 and QRS width, not QT duration. Blocking L-type Ca2+ channels would shorten the plateau (phase 2) and could shorten, not lengthen, the QT interval.",
+      "new": "Blocking IKr slows ventricular repolarization and can prolong QT with a relatively normal QRS, matching the stem. QT includes both depolarization and repolarization, so sodium-channel blockade that widens QRS can also lengthen measured QT; the normal-QRS condition distinguishes this question. L-type calcium-channel blockade generally shortens the plateau.",
+      "reason": "Correct false claim QRS widening cannot lengthen QT.",
+      "sourceUrl": "https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000000527"
+    },
+    {
+      "field": "questions.319.question_text",
+      "old": "On a standard ECG, lead II shows a positive P wave, a positive QRS complex, and a positive T wave. A student claims the T wave is positive because ventricular repolarization proceeds in the same direction as depolarization. Why is this physiologically notable?",
+      "new": "In a simplified transmural model, ventricular depolarization travels from endocardium toward epicardium. Which statement correctly explains how the T wave can have the same predominant polarity as the QRS?",
+      "reason": "Make model and question coherent.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "questions.319.choice_b",
+      "old": "It occurs because repolarization proceeds from endocardium to epicardium, opposite to the depolarization direction, yet produces a concordant deflection",
+      "new": "Repolarization can proceed from epicardium toward endocardium; reversing both propagation direction and wavefront polarity can give a concordant deflection",
+      "reason": "Fix answer choice whose direction contradicted its explanation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    },
+    {
+      "field": "questions.319.explanation",
+      "old": "Ventricular depolarization spreads from endocardium to epicardium (driven by the Purkinje system), producing a positive QRS in lead II. Repolarization, however, proceeds in the opposite direction, from epicardium to endocardium, because epicardial cells have shorter action potentials. Because repolarization moves away from the endocardium (opposite direction of depolarization), and repolarization is a negative electrical event, the two negatives produce a net positive T wave in the same direction as the QRS. This is physiologically unique to the heart and not a universal property of all excitable cells.",
+      "new": "In this simplified model epicardial cells recover earlier, so the repolarization front travels opposite to depolarization. Repolarization also reverses wavefront polarity: the two reversals can yield the same sign in a given lead. Real ventricular activation and recovery are three-dimensional; a surface lead records their net projection.",
+      "reason": "Repair reversed-direction and electrode-location errors.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK354/"
+    }
+  ]
+}

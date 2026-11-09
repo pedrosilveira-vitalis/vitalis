@@ -1,0 +1,294 @@
+{
+  "lessonId": 48,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Pedigree analysis is one of the highest-yield skills in the genetics section of the MCAT. A pedigree is a visual representation of a family's genetic history, and your ability to extract inheritance patterns from these diagrams directly determines your score on a significant cluster of questions. The MCAT will present you with a pedigree, ask you to identify the mode of inheritance, calculate carrier probabilities, or predict the likelihood of disease in future offspring. Mastering this material requires both a systematic approach and a deep understanding of the biological logic underlying each inheritance pattern.",
+      "new": "A pedigree records family relationships and phenotypes. Use it to test possible inheritance models and calculate conditional probabilities. Small families, age-dependent onset and incomplete penetrance can make more than one model compatible with the same diagram.",
+      "reason": "Remove unsupported exam-frequency and deterministic claims.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "(since females have two X chromosomes and thus two chances to inherit the allele)",
+      "new": "(but sex-specific prevalence also depends on allele frequency, penetrance and viability)",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "The only exception is dominant traits with **incomplete penetrance**,",
+      "new": "Important complications include age-dependent onset, new variants and **incomplete penetrance**,",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "this rules out autosomal dominant and confirms X-linked inheritance (fathers pass their Y to sons, not their X)",
+      "new": "this is compatible with X-linkage but does not rule out autosomal inheritance: a small set of sons may be unaffected by chance",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "the trait must be **recessive** — the parents are obligate carriers",
+      "new": "recessive inheritance is one explanation; de novo dominant variants, reduced penetrance and mosaicism are alternatives",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "The allele is not located on a sex chromosome, so males and females are affected equally.",
+      "new": "The allele is not on a sex chromosome, so its transmission is not intrinsically sex-linked. Disease expression or penetrance can still differ by sex.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "Approximately **50% of offspring** of an affected heterozygous parent will be affected.",
+      "new": "With a heterozygous affected parent and unaffected noncarrier partner, each child has a 50% transmission probability; disease probability also depends on penetrance.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "but if one parent is Aa and the other is aa, 50% are affected",
+      "new": "by contrast, an affected Aa parent and unaffected aa parent predict 50% affected under this model",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "**Huntington's disease** is the canonical AD example. It is caused by an expanded CAG repeat in the HTT gene on chromosome 4. Every child of an affected Huntington's parent has a 50% chance of inheriting the allele. Notably, Huntington's shows **complete penetrance** — every individual who inherits the allele will eventually develop the disease, though onset is typically in midlife (age 30–50).",
+      "new": "**Huntington disease** is associated with an HTT CAG-repeat expansion. A heterozygous parent has a 50% chance of transmitting the expanded allele. Alleles with 36–39 repeats have reduced penetrance; alleles with 40 or more are generally fully penetrant over a typical lifespan. Age at onset varies.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1305/"
+    },
+    {
+      "field": "content",
+      "old": "*two copies* of the mutant allele are required for disease expression",
+      "new": "pathogenic variants affecting both copies of a gene are typically required; they can be the same variant or two different variants (compound heterozygosity)",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "A single copy produces a carrier who is phenotypically normal.",
+      "new": "A single pathogenic allele usually produces an unaffected carrier in the simple model, though heterozygote effects depend on the condition.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "**Cystic fibrosis** (CFTR gene, chromosome 7) is the most common lethal AR disease in individuals of Northern European descent, with a carrier frequency of approximately 1 in 25. The ΔF508 mutation (deletion of phenylalanine at position 508) accounts for about 70% of CF alleles.",
+      "new": "**Cystic fibrosis** is an autosomal recessive CFTR-related condition. The common p.Phe508del variant removes phenylalanine at position 508. Carrier and variant frequencies vary by ancestry; a single frequency should not be applied to all populations.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "It is screened at birth via the Guthrie test.",
+      "new": "Newborn screening measures phenylalanine, commonly with tandem mass spectrometry in modern programs; the Guthrie bacterial inhibition assay is historically important.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1504/"
+    },
+    {
+      "field": "content",
+      "old": "Females must have *two copies* of the disease allele (one on each X chromosome) to be affected; females with one copy are carriers.",
+      "new": "The simple recessive model assigns affected females two pathogenic alleles. However, heterozygous females can be symptomatic, for example with skewed X-inactivation, and 45,X individuals can manifest an X-linked recessive condition with one allele.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "Carrier females have a **50% chance** of having an affected son and a **50% chance** of having a carrier daughter.",
+      "new": "With an unaffected father, a heterozygous mother has a **50% risk among sons** and a **50% chance of heterozygosity among daughters**. Assuming equal sex probabilities, an affected son is 25% per pregnancy, not 50%.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "and most affected males do not survive past their early 20s.",
+      "new": "Survival varies with care and complications; a fixed early-twenties cutoff is inappropriate. Cardiac and respiratory management have improved outcomes.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.cdc.gov/muscular-dystrophy/research/summary.html"
+    },
+    {
+      "field": "content",
+      "old": "a direct consequence of the hemizygous advantage in males",
+      "new": "reflecting hemizygous expression in XY individuals, not a biological “advantage”",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "This is the single most reliable rule for identifying X-linked inheritance. If you see an affected father with an affected son, X-linked inheritance is *ruled out*. The father must have passed his Y chromosome to his son, so the son's X chromosome came from the mother. If the son is affected, either the mother contributed the disease allele (possible in XR if mother is a carrier) or the inheritance is autosomal.",
+      "new": "A father does not directly transmit his non-PAR X allele to a son. However, an affected father and affected son can coexist in an X-linked pedigree if the son inherits the variant from his mother. Establish the route of allele transmission rather than inferring it from matching phenotypes alone.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "**Rett syndrome** (MECP2 gene mutations) is an XD condition that is lethal in hemizygous males; it presents almost exclusively in females with progressive neurological deterioration.",
+      "new": "**MECP2-related disorders**, including Rett syndrome, follow X-linked inheritance. Most classic Rett cases occur in females, but affected males can survive and show diverse, often severe phenotypes; universal male lethality is incorrect.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1497/"
+    },
+    {
+      "field": "content",
+      "old": "another XD condition lethal in males, appearing only in females.",
+      "new": "an X-linked condition often lethal in hemizygous males, with surviving mosaic and 47,XXY males among the exceptions.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "If you see an affected father with an affected son, the condition cannot be X-linked dominant.",
+      "new": "An affected father and affected son do not by themselves exclude X-linked dominance: the son might inherit the allele from his mother. Direct molecular father-to-son transmission would exclude ordinary non-PAR X-linkage.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "*All offspring of an affected mother* are affected (or at risk), regardless of sex.",
+      "new": "Children of a mother carrying a pathogenic mtDNA variant can inherit it, but heteroplasmy and the mitochondrial bottleneck cause variable transmission and disease risk.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1174/"
+    },
+    {
+      "field": "content",
+      "old": "Both males and females are equally affected.",
+      "new": "Both sexes can inherit mtDNA variants; penetrance and severity may differ by sex.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1174/"
+    },
+    {
+      "field": "content",
+      "old": "**heteroplasmy** — the presence of both normal and mutant mitochondrial DNA within the same cell.",
+      "new": "**Heteroplasmy** — the presence of more than one mtDNA sequence variant within a cell or individual; in disease examples, these may include reference and pathogenic variants.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1174/"
+    },
+    {
+      "field": "content",
+      "old": "Use this when asking \"what is the probability that this child is both a carrier AND female?\"",
+      "new": "Use it only after checking independence. In general, P(A and B) = P(A) × P(B given A); sex and carrier status are not necessarily independent in sex-linked models.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "What is the probability their first son will have hemophilia?",
+      "new": "What is the probability their first child will be an affected son?",
+      "reason": "Correct mismatch between question and worked 1/4 answer.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "P(first child is an affected son) = 1/2 × 1/2 = **1/4**",
+      "new": "P(first child is an affected son) = 1/2 × 1/2 = **1/4**. If the question instead says “given that the child is a son,” the answer is **1/2**.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "This requires an affected father (who must be X^a Y) and a carrier or affected mother.",
+      "new": "In the simple inherited two-allele model, this usually involves an affected father and a heterozygous or affected mother. De novo variants, mosaicism and symptomatic heterozygosity create exceptions.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "- All offspring of affected mother are affected",
+      "new": "- Maternal mtDNA transmission; offspring risk varies with heteroplasmy and penetrance",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1174/"
+    },
+    {
+      "field": "content",
+      "old": "- Both sexes equally affected",
+      "new": "- Both sexes can be affected; sex-specific penetrance can differ",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "- Carrier mothers are unaffected",
+      "new": "- Heterozygous mothers may be unaffected or symptomatic",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "if present, autosomal; if absent, possibly X-linked.",
+      "new": "direct non-PAR X transmission is excluded if established; observing no affected sons is only a clue.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "if yes, recessive; if no, dominant.",
+      "new": "skipping can suggest recessive inheritance but also reflect reduced penetrance or age-dependent onset.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "no pedigree should be uninterpretable.",
+      "new": "some pedigrees require additional clinical or molecular evidence to distinguish models.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "questions.237.question_text",
+      "old": "In a pedigree, two unaffected parents have three affected children and two unaffected children. The affected children include both males and females. Which inheritance pattern is most consistent with this pedigree?",
+      "new": "Assume full penetrance, no new variants and the simple single-gene models. Two unaffected parents have affected sons and daughters. Which inheritance pattern is most consistent with this family?",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "questions.237.explanation",
+      "old": "Autosomal recessive best fits because two unaffected (carrier) parents can produce affected offspring at a 1-in-4 probability per child, and the trait affects both sexes equally. Autosomal dominant is ruled out because unaffected parents almost never produce affected children with dominant traits. X-linked recessive is unlikely because affected females would require two copies of the recessive allele, which would require the mother to be at least a carrier and the father to be affected, contradicting the unaffected father in this scenario.",
+      "new": "Under the stated assumptions, Aa × Aa allows affected sons and daughters with a 1/4 probability per child. Three affected children in a small family need not equal the expected fraction. Unaffected parents exclude fully penetrant dominant inheritance here, while a noncarrier father excludes affected daughters in the simple X-linked recessive model.",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "questions.238.question_text",
+      "old": "A researcher examines a pedigree in which the trait skips generations and affected individuals appear in every generation. Affected males and females are equally represented, and affected individuals always have at least one affected parent. Which inheritance pattern does this most likely represent?",
+      "new": "In a large pedigree, affected individuals occur in each generation, both sexes are represented, and direct father-to-son transmission of the causal allele is documented. Affected heterozygotes with unaffected noncarrier partners transmit the allele to about half their children. Which model fits best?",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "questions.238.explanation",
+      "old": "Autosomal dominant inheritance is characterized by the trait appearing in every generation (no skipping), equal representation in males and females, and every affected individual having an affected parent. Autosomal recessive typically skips generations because carriers are unaffected. X-linked recessive would show a higher prevalence in males and would not appear in every generation in the same pattern. The phrase 'skips generations' in the stem is a distractor; the other clues confirm dominant inheritance.",
+      "new": "Autosomal dominant inheritance fits vertical transmission, both sexes and direct father-to-son allele transmission. Ordinary X-linked transmission cannot pass a paternal X to a son, and mitochondrial transmission is maternal.",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "questions.239.explanation",
+      "old": "Mitochondrial inheritance is characterized by maternal-only transmission, where all offspring of an affected mother are affected regardless of the father's status, and the trait is never passed through the paternal line. X-linked dominant would not affect all children of an affected mother, since sons have a 50% chance of being unaffected. Autosomal dominant would also show only 50% of offspring being affected on average, not all offspring.",
+      "new": "Maternal-line transmission is most consistent with an mtDNA-associated condition among these choices. The observed family may have all children affected, but this is not a universal mitochondrial rule: heteroplasmy, tissue thresholds and penetrance can produce unaffected children or variable severity.",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1174/"
+    },
+    {
+      "field": "questions.240.question_text",
+      "old": "In a pedigree, an unaffected female in generation II has an affected brother and an affected son. Her husband is unaffected. What is the probability that her next child will be an affected son?",
+      "new": "A woman is known to be heterozygous for an X-linked recessive pathogenic variant. Her partner does not carry the variant. Assume full penetrance in sons and equal probabilities of XX and XY offspring. What is the probability that her next child will be an affected son?",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "questions.240.explanation",
+      "old": "The pattern of an unaffected female with an affected brother and affected son strongly suggests X-linked recessive inheritance, making the woman an obligate carrier (X^A X^a). She has a 1/2 chance of passing the recessive allele to any child, and a 1/2 chance the next child is male, so the probability of an affected son is 1/2 x 1/2 = 1/4. Choice B is tempting because students may only consider the probability of passing the allele without accounting for the probability of the child being male.",
+      "new": "Conditioned on a son, the maternal variant has transmission probability 1/2. The question asks about the next child being both male and affected, so multiply 1/2 × 1/2 = 1/4.",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    }
+  ]
+}

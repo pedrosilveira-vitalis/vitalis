@@ -1,0 +1,252 @@
+{
+  "lessonId": 52,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Hardy-Weinberg equilibrium holds only when all five conditions are met simultaneously:",
+      "new": "The standard model uses the following assumptions to predict constant allele frequencies and HWE genotype proportions:",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "- **No gene flow** — no individuals enter or leave the population",
+      "new": "- **No gene flow** — no net transfer of alleles through reproduction by immigrants or incoming gametes",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "content",
+      "old": "- **Random mating** — individuals pair without regard to genotype or phenotype",
+      "new": "- **Random mating** — mating is random with respect to the locus being modeled",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "any deviation from HWE signals that at least one evolutionary force is operating.",
+      "new": "departures from predicted genotype proportions may reflect biology, population mixture, sampling or genotyping error. HWE proportions at one time do not prove constant allele frequencies over time.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "Fitness is always relative, not absolute.",
+      "new": "Absolute fitness can also be measured; the w used here is relative fitness, normalized to a reference genotype.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-3-adaptive-evolution"
+    },
+    {
+      "field": "content",
+      "old": "A lethal recessive allele in homozygous form has s = 1 (w = 0), meaning those individuals contribute no offspring.",
+      "new": "A genotype that contributes no offspring has relative fitness zero and s = 1 in this convention; lethality after reproduction does not necessarily imply zero reproductive fitness.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-3-adaptive-evolution"
+    },
+    {
+      "field": "content",
+      "old": "On the MCAT, directional selection is associated with *decreasing* genetic variation because one allele is being favored at the expense of others.",
+      "new": "A selective sweep can reduce variation near the selected locus, but a change in a trait mean does not imply that all genome-wide variation decreases.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-3-adaptive-evolution"
+    },
+    {
+      "field": "content",
+      "old": "The result is a stable polymorphism where both alleles persist indefinitely",
+      "new": "Under constant fitnesses in an idealized large population, this can maintain a stable polymorphism",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-3-adaptive-evolution"
+    },
+    {
+      "field": "content",
+      "old": "7 individuals might carry A and only 3 might carry a, shifting p to 0.7.",
+      "new": "the next generation might contain 14 A copies and 6 a copies among its 20 diploid allele copies, shifting p to 0.7.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "content",
+      "old": "and subsequent inbreeding within the closed community amplified its frequency.",
+      "new": "and drift and demographic history affected allele frequencies; inbreeding increases homozygosity, not allele frequency by itself.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "content",
+      "old": "skin grafts between unrelated cheetahs are not rejected because individuals are so genetically similar.",
+      "new": "early transplantation experiments found unusual skin-graft tolerance, consistent with limited immune-genetic diversity; this is not a guarantee that every unrelated pair is compatible.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "content",
+      "old": "**Mutation** is the only evolutionary force that creates *new* genetic variation.",
+      "new": "**Mutation** creates new sequence variants. Recombination also creates new combinations of existing variants, while gene flow can introduce variants new to a recipient population.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "content",
+      "old": "Spontaneous mutation rates in humans are approximately 10⁻⁸ per base pair per generation, or roughly 30–60 new mutations per individual per generation across the entire genome. At any specific locus, mutation rates are typically 10⁻⁵ to 10⁻⁶ per generation—low enough that mutation alone changes allele frequencies very slowly.",
+      "new": "A human germline single-nucleotide mutation rate is of order 10⁻⁸ per base per generation, with variation by parental age and sequence context. Whole-genome counts depend on which variant types and callable regions are included. A mutation rate per locus cannot be specified without defining the locus and variant class.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "content",
+      "old": "As a standalone evolutionary force, mutation is weak. To shift an allele frequency from 0.5 to 0.51 by mutation alone would require thousands of generations. However, mutation is indispensable because it continuously replenishes variation that selection and drift deplete.",
+      "new": "Mutation pressure is often weak per site, but its effect depends on mutation rate, direction and time. There is no universal number of generations needed to move an allele frequency by 0.01.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "content",
+      "old": "For deleterious recessive alleles, there is an equilibrium frequency",
+      "new": "In a large, randomly mating population with a rare fully recessive deleterious allele, negligible back mutation and no other forces, there is an approximate equilibrium frequency",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-3-adaptive-evolution"
+    },
+    {
+      "field": "content",
+      "old": "F = 1 indicates complete inbreeding (all loci homozygous).",
+      "new": "F = 1 indicates identity by descent with probability one under the specified ancestry/reference model; identity by state and identity by descent are different concepts.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "content",
+      "old": "Like inbreeding, positive assortative mating increases homozygosity, but it does so specifically at loci affecting the trait under assortment, not genome-wide.",
+      "new": "Positive assortment can change genotype proportions and create correlations between trait-associated loci. Its effects depend on trait architecture and mating mechanism; it is not identical to genome-wide inbreeding.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "content",
+      "old": "**Sexual selection** is a special form of non-random mating in which individuals of one sex (usually females) preferentially mate with certain individuals of the other sex based on traits like plumage, song, or body size.",
+      "new": "**Sexual selection** arises through differences in mating or fertilization success, including mate choice and competition within a sex.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-3-adaptive-evolution"
+    },
+    {
+      "field": "content",
+      "old": "Beneficial alleles reliably increase in frequency; deleterious alleles reliably decrease.",
+      "new": "Selection is more effective relative to drift when the relevant Ne×s is large, but a newly arisen beneficial allele can still be lost.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12807795/"
+    },
+    {
+      "field": "content",
+      "old": "Ne is almost always smaller than the census population size.",
+      "new": "Ne is often below census size, but the relationship depends on demographic and reproductive structure.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12807795/"
+    },
+    {
+      "field": "content",
+      "old": "**Cystic fibrosis**: most common lethal recessive in Northern Europeans; carrier frequency ~1 in 25",
+      "new": "**Cystic fibrosis**: a recessive condition whose variant and carrier frequencies vary among populations; survival has changed with treatment",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "content",
+      "old": "**Sympatric speciation** occurs within a single geographic area, driven by disruptive selection and assortative mating.",
+      "new": "**Sympatric speciation** occurs without geographic separation; possible mechanisms include polyploidy, ecological divergence and assortative mating.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-3-adaptive-evolution"
+    },
+    {
+      "field": "content",
+      "old": "A locus is **polymorphic** if the most common allele has a frequency below 0.99 (i.e., at least one other allele is present at frequency ≥ 0.01).",
+      "new": "A locus is **polymorphic** when multiple alleles occur. Some studies impose a frequency cutoff, such as 1%, but it is a convention; with several rare alleles, their combined frequency need not equal any one allele’s frequency.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "content",
+      "old": "1. Identify q² from the given disease/phenotype frequency",
+      "new": "1. Use phenotype frequency as q² only for an appropriate fully penetrant recessive model at HWE; otherwise use the supplied genotype/allele data",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "When you see a passage describing an unusually high frequency of a rare genetic disease in a specific community, think founder effect first.",
+      "new": "An elevated disease frequency can suggest founder history, but selection, population structure, ascertainment and other causes need evaluation; frequency alone does not establish a founder effect.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "questions.256.question_text",
+      "old": "A small population of birds is blown to an isolated island by a storm. Over several generations, the population shows dramatically reduced genetic variation compared to the mainland source population. Which evolutionary force best explains this observation, and what is the specific mechanism?",
+      "new": "A few birds establish an island population. At neutral markers, they initially carry only a random subset of mainland alleles, and additional alleles disappear by chance in later generations. Which force and mechanism best explain this?",
+      "reason": "Supply evidence distinguishing drift from selection.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "questions.256.explanation",
+      "old": "This scenario describes the founder effect, a form of genetic drift in which a small founding group carries only a random, non-representative sample of the source population's alleles. In small populations, random sampling error has an outsized influence on allele frequencies each generation, causing alleles to drift to fixation or loss rapidly. Choice A is tempting because island environments do impose new selective pressures, but selection increases adaptation rather than uniformly reducing variation, and it does not account for the random loss of alleles seen here. Choice C describes a consequence of isolation but not the mechanism driving variation loss.",
+      "new": "Random sampling of neutral alleles by founders, followed by chance loss in a small population, describes genetic drift. The absence of migration limits replenishment but is not the sampling mechanism itself. Selection can also reduce variation, so the neutral-marker and random-loss observations are essential.",
+      "reason": "Avoid false claim selection cannot reduce variation.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "questions.259.question_text",
+      "old": "A researcher studies a plant population and finds that individuals preferentially self-fertilize rather than outcross. Compared to a randomly mating population with the same allele frequencies, what genetic consequence is most expected after several generations of self-fertilization?",
+      "new": "A large plant population begins self-fertilizing. Assume no selection, mutation or migration and negligible drift. Compared with random mating at the same starting allele frequencies, what change is expected?",
+      "reason": "Isolate mating effect from other forces.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "questions.260.question_text",
+      "old": "A new mutation arises in a population of 10,000 individuals that confers a slight survival advantage (s = 0.01). In a second population of only 50 individuals, an identical mutation arises. In which population is the beneficial mutation more likely to be lost by chance, and why?",
+      "new": "Two idealized diploid populations have effective sizes Ne = 10,000 and Ne = 50. The same allele has an additive selective effect s = 0.01 and begins at frequency 0.10 in both. In which population is random drift stronger relative to selection?",
+      "reason": "Use equal starting frequencies and ask relative strength, not single-copy fixation.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12807795/"
+    },
+    {
+      "field": "questions.260.choice_a",
+      "old": "The large population, because more competing alleles reduce the probability of fixation.",
+      "new": "The larger population, because its sampling variance is greater.",
+      "reason": "Unambiguous distractor.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12807795/"
+    },
+    {
+      "field": "questions.260.choice_b",
+      "old": "Both populations equally, because the selective advantage is identical in both.",
+      "new": "Both equally, because the selection coefficient alone determines the balance.",
+      "reason": "Unambiguous distractor.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12807795/"
+    },
+    {
+      "field": "questions.260.choice_c",
+      "old": "The small population, because genetic drift is stronger relative to selection when population size is small.",
+      "new": "The smaller population, because chance sampling is stronger relative to the same selective effect.",
+      "reason": "Correct relative-strength comparison.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12807795/"
+    },
+    {
+      "field": "questions.260.choice_d",
+      "old": "The large population, because natural selection is less efficient in large populations.",
+      "new": "Neither population, because beneficial alleles cannot be lost.",
+      "reason": "Unambiguous distractor.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12807795/"
+    },
+    {
+      "field": "questions.260.explanation",
+      "old": "The relative power of genetic drift versus natural selection depends on the product of effective population size and selection coefficient (Ne x s). In small populations, random sampling error (drift) is large relative to the weak selective advantage, so even a beneficial mutation can easily be lost by chance before selection can increase its frequency. In the large population, Ne x s is much larger, making selection the dominant force and increasing the probability of fixation. Choice A is a common misconception; more competing alleles do not make beneficial alleles more likely to be lost. Choice B ignores the interaction between drift and selection that depends on population size.",
+      "new": "At the same allele frequency and selective effect, drift is stronger relative to selection in the smaller effective population. Ne×s is 100 versus 0.5. This does not imply that every beneficial allele fixes in a large population. Comparing a single newly arisen copy in populations of different sizes also changes its starting frequency, so that is a different question.",
+      "reason": "Repair misleading fixation-probability inference.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/12807795/"
+    },
+    {
+      "field": "content",
+      "old": "The surviving individuals represent a random, reduced sample of the original genetic diversity. Even if the population later rebounds to large numbers, it carries only the genetic variation present in the bottleneck survivors.",
+      "new": "When survival is independent of the genotype being tracked, survivors are a chance sample and drift can change allele frequencies. If survival depends on genotype, selection also contributes. Rebound in population size alone does not restore lost alleles; mutation or gene flow can introduce variation later.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    }
+  ]
+}

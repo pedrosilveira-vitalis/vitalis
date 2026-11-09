@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef, useCallback } from "react";
+import { splitLessonForVisual } from "@/lib/lesson-presentation";
 import { useActivity } from "@/components/ActivityProvider";
 import Nori from "@/components/Nori";
 import Link from "next/link";
@@ -41,7 +42,7 @@ type Lesson = {
 };
 
 type LessonData = {
-  review?: { reviewedAt: string; sources: { title: string; url: string }[]; visual: { title: string; src: string; width: number; height: number; alt: string; caption: string } } | null;
+  review?: { reviewedAt: string; sources: { title: string; url: string }[]; visual: { beforeHeading?: string; title: string; src: string; width: number; height: number; alt: string; caption: string } } | null;
   lesson: Lesson;
   questions: Question[];
   highlights: Highlight[];
@@ -150,9 +151,9 @@ export default function StudyLessonPage() {
   }, [lessonId]);
 
   // Render highlights into the content
-  const renderedContent = useCallback(() => {
+  const renderedContent = useCallback((content: string) => {
     if (!data) return "";
-    const formatted = formatMarkdown(data.lesson.content);
+    const formatted = formatMarkdown(content);
     if (highlights.length === 0) return formatted;
 
     // We highlight by wrapping text matches. Since offsets are character-based on raw text,
@@ -185,6 +186,12 @@ export default function StudyLessonPage() {
     }
     if (!contentRef.current || !contentRef.current.contains(sel.anchorNode)) return;
 
+    const selectedArticle = (node: Node | null) => {
+      const element = node?.nodeType === Node.ELEMENT_NODE ? node as Element : node?.parentElement;
+      return element?.closest("[data-lesson-text]");
+    };
+    const startArticle = selectedArticle(sel.anchorNode);
+    if (!startArticle || startArticle !== selectedArticle(sel.focusNode)) return;
     const range = sel.getRangeAt(0);
     const rect = range.getBoundingClientRect();
     setSelection({
@@ -347,6 +354,7 @@ export default function StudyLessonPage() {
     );
   }
 
+  const [beforeVisual, afterVisual] = splitLessonForVisual(data.lesson.content, data.review?.visual.beforeHeading);
   const accent = SECTION_COLORS[data.lesson.section] || "#0c1a2e";
   const answeredCount = Object.keys(answers).length;
   const correctCount = submitted ? data.questions.filter((q) => answers[q.id] === q.correct_answer).length : 0;
@@ -396,15 +404,11 @@ export default function StudyLessonPage() {
       </header>
 
       <main className="max-w-3xl mx-auto px-10 py-10">
-        <article
-          ref={contentRef}
-          className="study-content"
-          onMouseUp={handleMouseUp}
-          onClick={handleContentClick}
-          dangerouslySetInnerHTML={{ __html: renderedContent() }}
-        />
+        <div ref={contentRef} onMouseUp={handleMouseUp} onClick={handleContentClick}>
+        {beforeVisual && <article data-lesson-text className="study-content" dangerouslySetInnerHTML={{ __html: renderedContent(beforeVisual) }}/>}
 
-        {data.review && <section className="my-10 rounded-2xl border border-[#d9c6b5] bg-[#fffaf3] p-5" aria-labelledby="lesson-visual-title">
+
+        {data.review && <section className="lesson-visual my-10 rounded-2xl border border-[#cbd7df] bg-[#fcfaf6] p-5" aria-labelledby="lesson-visual-title">
           <h2 id="lesson-visual-title" className="font-sans text-2xl mb-4">{data.review.visual.title}</h2>
           <figure>
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -414,6 +418,8 @@ export default function StudyLessonPage() {
           </figure>
           <details className="mt-5 text-sm"><summary className="cursor-pointer">Sources for these corrections and diagrams</summary><ul className="mt-3 space-y-2">{data.review.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer" className="underline">{source.title}</a></li>)}</ul></details>
         </section>}
+        {afterVisual && <article data-lesson-text className="study-content" dangerouslySetInnerHTML={{ __html: renderedContent(afterVisual) }}/>}
+        </div>
 
         {/* End-of-lesson questions */}
         <div className="mt-16 pt-10 border-t border-[#0c1a2e15]">

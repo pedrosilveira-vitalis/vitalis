@@ -1,0 +1,210 @@
+{
+  "lessonId": 51,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    251,
+    252,
+    253,
+    254,
+    255
+  ],
+  "sources": [
+    {
+      "url": "https://www.nist.gov/glossary-term/43061",
+      "title": "NIST: Hardy-Weinberg equilibrium"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/19-1-population-evolution",
+      "title": "OpenStax Biology 2e: Population evolution"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics",
+      "title": "OpenStax Biology 2e: Population genetics"
+    }
+  ],
+  "visual": {
+    "title": "Allele frequency is not genotype frequency",
+    "src": "/lesson-diagrams/hardy-weinberg-model.svg",
+    "width": 960,
+    "height": 820,
+    "alt": "A weighted gamete square uses p=0.7 and q=0.3; its areas are 0.49 AA, 0.21 Aa, 0.21 aA and 0.09 aa. A second comparison holds p=0.6 fixed while showing different observed and expected heterozygote frequencies.",
+    "caption": "The square shows a random-union model. Matching or departing from these proportions in one sample does not alone prove whether allele frequencies changed over time.",
+    "beforeHeading": "The Five Assumptions of Hardy-Weinberg Equilibrium"
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "512987a0437975de845177790bd7cea8508c3378d15bb0a37750120911fe84a6"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "fe55d31fa8b3550ce74c4785d21c0f680ce0eb004b39ebf60752b6d0e2c4edf0"
+    },
+    {
+      "field": "questions.251.question_text",
+      "sha256": "b8e0b6014e3fecafdc429b2cb5d0ec5e369a87e2ca63d7a99a2d25de9d65bfbf"
+    },
+    {
+      "field": "questions.251.choice_a",
+      "sha256": "811786ad1ae74adfdd20dd0372abaaebc6246e343aebd01da0bfc4c02bf0106c"
+    },
+    {
+      "field": "questions.251.choice_b",
+      "sha256": "d29d53701d3c859e29e1b90028eec1ca8e2f29439198b6e036c60951fb458aa1"
+    },
+    {
+      "field": "questions.251.choice_c",
+      "sha256": "9556b82499cc0aaf86aee7f0d253e17c61b7ef73d48a295f37d98f08b04ffa7f"
+    },
+    {
+      "field": "questions.251.choice_d",
+      "sha256": "983bd614bb5afece5ab3b6023f71147cd7b6bc2314f9d27af7422541c6558389"
+    },
+    {
+      "field": "questions.251.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.251.explanation",
+      "sha256": "93288fd702c6b075b87ecee2d9639758b7a8a103976cfa76ef49fa275f7861f9"
+    },
+    {
+      "field": "questions.252.question_text",
+      "sha256": "35519514e67b7c09019ee97f79226faad21c35b67be46a8b2b238271e1ead961"
+    },
+    {
+      "field": "questions.252.choice_a",
+      "sha256": "78fe36665047c7f3af1276ed4edc4e2b65519d386b87f00e69b41febee8b67c6"
+    },
+    {
+      "field": "questions.252.choice_b",
+      "sha256": "345a3055a406129a511198f14e5e650b9b70765a9ad77044f2632ecbbc1f12d2"
+    },
+    {
+      "field": "questions.252.choice_c",
+      "sha256": "0005533a63f6e8a58d93eedf12751e5fa9d08c2271065029d5ec623fdb2cf02d"
+    },
+    {
+      "field": "questions.252.choice_d",
+      "sha256": "28a014c85f0e969c4c942f145e7fc3bcc45c8bd3e5623eebe6bacbd17c4b2c1e"
+    },
+    {
+      "field": "questions.252.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.252.explanation",
+      "sha256": "1f84a68c13f378672fae77c2f94386c8114c7947bccdf004fb7c524a54bafd3a"
+    },
+    {
+      "field": "questions.253.question_text",
+      "sha256": "18f71bae5c88fb859b46778b040b0b0d7e02ad7b41c53c5713bc421c289f3b8a"
+    },
+    {
+      "field": "questions.253.choice_a",
+      "sha256": "057cf5457c459a1b0e9ae0ea79fd5e365f851326f546bdc7d979c5047a339bf3"
+    },
+    {
+      "field": "questions.253.choice_b",
+      "sha256": "13ee5339cf40db8e09cda7ec3672ff4054f9f1a176f0d7d23df6ca92205cc125"
+    },
+    {
+      "field": "questions.253.choice_c",
+      "sha256": "e069d65f6ebabc528baac6e09d04de032cef495a689ce9b460b48abe17beea6f"
+    },
+    {
+      "field": "questions.253.choice_d",
+      "sha256": "7bc97415dd42a7d89ae1fca8884c13f79e6b68b943b708afb52f352c04bb245b"
+    },
+    {
+      "field": "questions.253.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.253.explanation",
+      "sha256": "308b958bf08a63171cec426559991a9c3eb6e935d701ae87ebb35c84d809636b"
+    },
+    {
+      "field": "questions.254.question_text",
+      "sha256": "cefc5ad81b9b5c663daa9425398d2413e10a45c3bff193079f318b6688a9c2d0"
+    },
+    {
+      "field": "questions.254.choice_a",
+      "sha256": "e339ffe64101310951cf97ac2bd8db1ad692331036a0638186032df6c9fe0035"
+    },
+    {
+      "field": "questions.254.choice_b",
+      "sha256": "31cb2d8e43244962cc4aa526a700c19c6b868632c73da08814a327ed54ccb010"
+    },
+    {
+      "field": "questions.254.choice_c",
+      "sha256": "dc6302debd05678852005ee923478f4f8301599dcde864587275570bcfd6b19a"
+    },
+    {
+      "field": "questions.254.choice_d",
+      "sha256": "922891f698364be5d79d6a777ff9921b32a2cf70f0a39ca0a298f3bd9d029145"
+    },
+    {
+      "field": "questions.254.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.254.explanation",
+      "sha256": "655e2d95a124ab4171d312840901af295dc3f86617ed317346dc2472312ee63d"
+    },
+    {
+      "field": "questions.255.question_text",
+      "sha256": "750e6c62a072f44e70aae30b35e2d87ecc500732f573f258370807099f6e0131"
+    },
+    {
+      "field": "questions.255.choice_a",
+      "sha256": "42a99f9136a3a65d4a603877686c66763e763a017a677567574a0f4c129b9787"
+    },
+    {
+      "field": "questions.255.choice_b",
+      "sha256": "e9f92d6412a41c1473955079e750c1b914939db465f9d4e5ce9f653fffe71e84"
+    },
+    {
+      "field": "questions.255.choice_c",
+      "sha256": "b27b898e4a235a6e4207fed0f0df20acdbc9793e2099e85a08a91231ffc1712a"
+    },
+    {
+      "field": "questions.255.choice_d",
+      "sha256": "b193bdea7635dfcda1ac50c75372bbf899e54d20de47420cbf2aa0d05d9a508d"
+    },
+    {
+      "field": "questions.255.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.255.explanation",
+      "sha256": "1a44059a25525b59868f1d729f13fe02d8b036447eb9f458245a0b045eb4e27a"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "# Population Genetics: Hardy-Weinberg Equilibrium and Allele Frequencies\n\n## Overview and MCAT Relevance\n\nPopulation genetics sits at the intersection of Mendelian inheritance and evolutionary biology, making it one of the most conceptually rich and frequently tested areas on the MCAT. The exam consistently presents passages with population data and asks you to calculate allele frequencies, determine genotype frequencies, identify violations of equilibrium assumptions, and interpret what deviations mean biologically. Understanding the **Hardy-Weinberg principle** is not optional — it is a foundational tool for reasoning about how genetic variation is maintained or altered in populations over time.\n\nBeyond calculation, the MCAT tests conceptual understanding: *Why* does a population remain in equilibrium? *What forces* disrupt it? *What does deviation from expected frequencies tell us about evolutionary pressures?* This lesson addresses all of these dimensions, giving you both the mathematical framework and the biological intuition to handle any Hardy-Weinberg question the exam can throw at you.\n\n---\n\n## What Is a Population in Genetic Terms?\n\nBefore diving into the math, it is essential to define what geneticists mean by a **population**. In population genetics, a population is a group of individuals of the same species that occupy the same geographic area and *interbreed with one another*. The collective set of all alleles carried by all individuals in a population at a given time is called the **gene pool**.\n\nPopulation genetics asks: how do allele and genotype frequencies change — or stay the same — from one generation to the next? The answer depends on whether certain conditions are met.\n\n---\n\n## The Hardy-Weinberg Principle\n\nIn 1908, the mathematician G.H. Hardy and the physician Wilhelm Weinberg independently derived the same fundamental insight: in the absence of disturbing forces, allele frequencies in a population will remain constant from generation to generation, and genotype frequencies will reach a predictable equilibrium after just one generation of random mating.\n\nThis is the **Hardy-Weinberg equilibrium (HWE)**, sometimes called the Hardy-Weinberg law. It serves as a *null model* for population genetics — a baseline expectation against which real populations can be compared. A departure from expected genotype proportions can reflect biological processes, population mixture, sampling variation or genotyping error; it does not by itself establish a change in allele frequency over time.\n\n### The Hardy-Weinberg Equations\n\nFor a diploid autosomal locus with two alleles, **A** at frequency **p** and **a** at frequency **q** (dominance is irrelevant to the genotype-frequency equations) — the following relationships hold:\n\n**Allele frequency equation:**\n\np + q = 1\n\nThis simply states that the frequencies of all alleles at a locus must sum to 1 (100%). If p = 0.7, then q = 0.3.\n\n**Genotype frequency equation:**\n\np² + 2pq + q² = 1\n\nWhere:\n- **p²** = frequency of the homozygous dominant genotype (AA)\n- **2pq** = frequency of the heterozygous genotype (Aa)\n- **q²** = frequency of the homozygous recessive genotype (aa)\n\nThis equation is derived by expanding (p + q)² = 1, which reflects the random combination of alleles during sexual reproduction. Each parent contributes one allele randomly, so the probability of producing an AA offspring is p × p = p², an Aa offspring is 2 × p × q = 2pq (factor of 2 accounts for both Aa and aA combinations), and an aa offspring is q × q = q².\n\n---\n\n## The Five Assumptions of Hardy-Weinberg Equilibrium\n\nThe standard assumptions provide a sufficient idealized model for constant allele frequencies and Hardy-Weinberg genotype proportions. Violating an assumption does not guarantee an allele-frequency change: nonrandom mating alone can change genotype proportions without changing p or q.\n\n### 1. No Mutation\n\nMutations create new alleles or change existing ones. If new alleles are being introduced into the gene pool through mutation, allele frequencies will shift over time. Hardy-Weinberg requires that mutation rates are effectively zero, or at least that forward and reverse mutation rates perfectly balance each other.\n\n### 2. No Gene Flow\n\n**Gene flow** (also called migration) refers to the movement of alleles into or out of a population through the movement of individuals or gametes. Immigration brings new alleles in; emigration removes alleles. Allele frequencies change only if the net contribution differs in allele composition; equal numbers of immigrants and emigrants do not by themselves guarantee cancellation. Hardy-Weinberg requires a *closed* population with no gene flow.\n\n### 3. No Natural Selection\n\nNatural selection occurs when certain genotypes have higher reproductive success than others — that is, when fitness differs among genotypes. If AA individuals produce more offspring than Aa or aa individuals, the A allele will increase in frequency over generations. Hardy-Weinberg requires that all genotypes have *equal fitness* — no genotype confers a survival or reproductive advantage.\n\n### 4. Random Mating (Panmixia)\n\nHardy-Weinberg requires that individuals mate randomly with respect to genotype. **Non-random mating** — such as **inbreeding** (mating with relatives) or **assortative mating** (preferentially mating with individuals of similar phenotype) — alters genotype frequencies without necessarily changing allele frequencies. Inbreeding, for example, increases homozygosity and decreases heterozygosity, shifting genotype frequencies away from Hardy-Weinberg expectations even if p and q remain unchanged.\n\n### 5. Large Population Size (No Genetic Drift)\n\n**Genetic drift** refers to random fluctuations in allele frequencies due to chance sampling events. In small populations, these random fluctuations can be large enough to significantly alter allele frequencies over time. Hardy-Weinberg requires an *infinitely large* population, where sampling error is negligible. Two special cases of genetic drift — the **founder effect** (a small group establishes a new population) and the **bottleneck effect** (a population is drastically reduced in size) — are classic examples of conditions that violate this assumption.\n\n### Memory Aid\n\nA useful mnemonic for the five assumptions is **MANGA**:\n- **M**utation (none)\n- **A**llele flow / gene flow (none)\n- **N**atural selection (none)\n- **G**enetic drift / large population (no drift)\n- **A**ssortative mating / random mating (random)\n\n---\n\n## Calculating Allele and Genotype Frequencies\n\nThe most practical MCAT skill is using Hardy-Weinberg equations to solve for unknown frequencies. The key insight is that the starting point depends on the data. If genotypes are known, count alleles directly: p = (2NAA + NAa)/(2N). If only phenotype is known, using the recessive-phenotype frequency as q² requires HWE, complete penetrance and an appropriate single-locus model.\n\n### Standard Problem-Solving Strategy\n\n1. For a fully penetrant recessive two-allele model at HWE, identify the aa phenotype frequency; under those assumptions it estimates **q²**.\n2. Take the square root to find **q**.\n3. Subtract from 1 to find **p**: p = 1 − q.\n4. Calculate genotype frequencies: p², 2pq, q².\n5. Multiply by population size if needed to get actual numbers.\n\n### Worked Example 1: Classic Two-Allele Problem\n\nIn a population of 10,000 individuals, 900 individuals display the recessive phenotype (albinism, genotype aa). Assuming Hardy-Weinberg equilibrium, calculate the allele and genotype frequencies.\n\n**Step 1:** q² = 900/10,000 = 0.09\n\n**Step 2:** q = √0.09 = 0.30\n\n**Step 3:** p = 1 − 0.30 = 0.70\n\n**Step 4:**\n- Frequency of AA = p² = (0.70)² = 0.49\n- Frequency of Aa = 2pq = 2(0.70)(0.30) = 0.42\n- Frequency of aa = q² = 0.09\n- Check: 0.49 + 0.42 + 0.09 = 1.00 ✓\n\n**Step 5:** Expected numbers in 10,000 individuals:\n- AA: 0.49 × 10,000 = 4,900\n- Aa: 0.42 × 10,000 = 4,200\n- aa: 0.09 × 10,000 = 900\n\n### Worked Example 2: Carrier Frequency\n\nUsing the same population above, what fraction of the *phenotypically normal* individuals are carriers (Aa)?\n\nNormal individuals include AA and Aa:\n- Total normal = 4,900 + 4,200 = 9,100\n- Carriers among normal = 4,200\n- Fraction of carriers among normal = 4,200/9,100 ≈ 0.46\n\nThis type of question — asking about carrier frequency among unaffected individuals — is extremely common on the MCAT, particularly in the context of autosomal recessive diseases like **cystic fibrosis**, **phenylketonuria (PKU)**, or **sickle cell disease**.\n\n### Worked Example 3: X-Linked Traits\n\nFor the usual XX/XY model, males are hemizygous at non-pseudoautosomal X loci. The following simplified X-linked recessive calculations assume complete penetrance and equal allele frequencies in the male and female breeding pools:\n\n- Frequency of affected males = q (since males only need one copy of the recessive allele)\n- Frequency of affected females = q²\n- Frequency of carrier females = 2pq\n\nIf 1 in 100 males is affected by red-green color blindness, then q = 0.01. The frequency of affected females would be q² = (0.01)² = 0.0001, or 1 in 10,000. This explains why X-linked recessive conditions are far more common in males than females — a critical conceptual point for the MCAT.\n\n---\n\n## Testing Whether a Population Is in Hardy-Weinberg Equilibrium\n\nReal MCAT passages may give you *observed* genotype frequencies and ask whether the population is in equilibrium. The process involves comparing observed frequencies to those *expected* under Hardy-Weinberg.\n\n### Procedure\n\n1. Calculate allele frequencies from the observed genotype data.\n2. Use those allele frequencies to calculate expected genotype frequencies.\n3. Compare observed to expected.\n\n**Example:** A population of 500 individuals has the following observed genotype counts:\n- AA: 180\n- Aa: 240\n- aa: 80\n\n**Step 1:** Calculate allele frequencies.\n- Total alleles = 500 × 2 = 1,000\n- Number of A alleles = (2 × 180) + (1 × 240) = 360 + 240 = 600\n- p = 600/1,000 = 0.60\n- q = 1 − 0.60 = 0.40\n\n**Step 2:** Calculate expected genotype frequencies.\n- Expected AA = p² × 500 = (0.36)(500) = 180\n- Expected Aa = 2pq × 500 = (0.48)(500) = 240\n- Expected aa = q² × 500 = (0.16)(500) = 80\n\n**Step 3:** Compare.\n- Observed: 180, 240, 80\n- Expected: 180, 240, 80\n\nThese counts exactly match the HWE prediction for this locus and sample. A single match does not prove that all evolutionary forces are absent or that frequencies are stable across generations.\n\nIf observed heterozygosity is *lower* than expected, possible explanations include inbreeding, assortative mating, population mixture or technical error; sample size and statistical testing matter. If observed heterozygosity is *higher* than expected, **heterozygote advantage** (a form of balancing selection) may be operating.\n\n---\n\n## Evolutionary Forces That Disrupt Hardy-Weinberg Equilibrium\n\nUnderstanding which forces disrupt equilibrium — and *how* they do so — is essential for the MCAT's conceptual questions.\n\n### Natural Selection\n\nNatural selection is the most directional force. It systematically changes allele frequencies by favoring certain genotypes. There are several modes:\n\n- **Directional selection:** One allele is consistently favored, driving it toward fixation (frequency = 1.0) while the other allele is eliminated.\n- **Stabilizing selection:** Intermediate phenotypes are favored; extreme phenotypes are selected against. This reduces variation without necessarily changing the mean.\n- **Disruptive (diversifying) selection:** Extreme phenotypes are favored over intermediate ones. This can lead to increased variation and potentially speciation.\n- **Balancing selection:** Multiple alleles are maintained in the population. The classic example is **heterozygote advantage** (overdominance), exemplified by sickle cell trait in malaria-endemic regions. Individuals heterozygous for the sickle cell allele (HbA/HbS) have higher fitness than either homozygote in malaria-endemic regions, maintaining both alleles at stable frequencies.\n\n### Genetic Drift\n\nGenetic drift causes random changes in allele frequencies, particularly pronounced in small populations. Its effects include:\n\n- **Loss of alleles:** Rare alleles may be lost entirely by chance, reducing genetic diversity.\n- **Fixation:** An allele may reach 100% frequency purely by chance, not because it is advantageous.\n- **Founder effect:** When a small group colonizes a new area, the founding population may not represent the genetic diversity of the original population. The Amish community's elevated frequency of Ellis-van Creveld syndrome is a textbook example.\n- **Bottleneck effect:** A drastic reduction in population size (due to disease, disaster, etc.) causes a random subset of alleles to survive. The genetic diversity of cheetahs is famously low due to ancient bottleneck events.\n\n### Gene Flow\n\nGene flow tends to *homogenize* allele frequencies between populations. When individuals migrate between populations with different allele frequencies, they introduce alleles that shift the receiving population's gene pool. Gene flow generally *reduces* genetic differentiation between populations and can counteract the effects of natural selection or genetic drift.\n\n### Mutation\n\nMutation is the ultimate source of all genetic variation. While individual mutation rates are low (approximately 10⁻⁸ per nucleotide per generation in humans), mutations continuously introduce new alleles into the gene pool. The effect of mutation alone on allele frequencies is very slow, but mutation provides the raw material upon which selection, drift, and gene flow act.\n\n### Non-Random Mating\n\nNon-random mating changes *genotype* frequencies but does *not* directly change *allele* frequencies. Inbreeding increases homozygosity and decreases heterozygosity. This is clinically significant because inbreeding increases the probability that offspring will be homozygous for deleterious recessive alleles, increasing the incidence of autosomal recessive diseases.\n\n---\n\n## Heterozygote Advantage and Balanced Polymorphism\n\nThe most MCAT-relevant example of **balanced polymorphism** — the maintenance of two or more alleles at a locus — is sickle cell disease and malaria. This is worth understanding in detail.\n\nThe HbS allele causes sickle cell disease in homozygotes (HbS/HbS), who suffer severe anemia. However, in regions where *Plasmodium falciparum* malaria is endemic, heterozygotes (HbA/HbS) are *more fit* than either homozygote because the sickle cell trait provides partial protection against malaria. This is **overdominance** or **heterozygote advantage**.\n\nUnder an idealized, stable heterozygote-advantage model, selection can maintain both alleles. Real populations also experience drift, changing environments and other forces:\n- Selection acts against HbS/HbS (sickle cell disease)\n- Selection acts against HbA/HbA (susceptibility to malaria)\n- HbA/HbS is favored\n\nThe equilibrium frequency of the HbS allele is higher in malaria-endemic regions of sub-Saharan Africa, the Mediterranean, and South Asia — a striking example of how environment shapes allele frequencies through natural selection.\n\n---\n\n## Hardy-Weinberg with Multiple Alleles\n\nThe MCAT may occasionally present problems involving more than two alleles at a locus. The ABO blood group system is a classic example with three alleles: I^A, I^B, and i.\n\nFor three alleles with frequencies p, q, and r:\n\np + q + r = 1\n\nGenotype frequencies are given by expanding (p + q + r)²:\n\np² + q² + r² + 2pq + 2pr + 2qr = 1\n\nFor ABO:\n- Frequency of blood type O (ii) = r²\n- Frequency of blood type A (I^A I^A or I^A i) = p² + 2pr\n- Frequency of blood type B (I^B I^B or I^B i) = q² + 2qr\n- Frequency of blood type AB (I^A I^B) = 2pq\n\nThe strategy remains the same: use the homozygous recessive frequency (blood type O = r²) as your starting point to find r, then use additional information to solve for p and q.\n\n---\n\n## Common MCAT Traps and Pitfalls\n\n### Trap 1: Confusing Allele Frequency with Genotype Frequency\n\np is the frequency of the A *allele*, not the A genotype. The frequency of the AA *genotype* is p². Students often confuse these and use p where p² is needed or vice versa.\n\n### Trap 2: Forgetting That q² Is Your Entry Point\n\nWhen genotype counts are given, calculate p directly by allele counting. Use a square root of phenotype frequency only when the recessive/HWE assumptions apply.\n\n### Trap 3: X-Linked Loci\n\nFor X-linked loci, the Hardy-Weinberg equations apply to females (who have two X chromosomes), but males express whatever single allele they carry. The frequency of affected males equals q, not q².\n\n### Trap 4: Dominant Phenotype ≠ p²\n\nThe dominant phenotype includes *both* AA and Aa individuals. Its frequency is p² + 2pq, not just p². A common error is to set p² equal to the dominant phenotype frequency.\n\n### Trap 5: Population Is in Equilibrium ≠ No Evolution Ever\n\nHardy-Weinberg genotype proportions in a snapshot do not demonstrate stable allele frequencies. Random mating can regenerate those proportions even as selection or migration changes allele frequencies between generations.\n\n---\n\n## Clinical Applications\n\nHardy-Weinberg calculations have direct clinical relevance, which the MCAT loves to test through passage-based questions.\n\n### Calculating Disease Carrier Frequencies\n\nFor a hypothetical fully penetrant recessive condition with birth frequency 1 in 2,500, using a two-allele HWE model:\n- q² = 1/2,500 = 0.0004\n- q = 0.02\n- p = 0.98\n- Carrier frequency (2pq) = 2(0.98)(0.02) ≈ 0.039, or approximately 1 in 25\n\nThis calculation gives about 1 in 25 carriers in the hypothetical population. Actual disease frequencies and carrier estimates depend on the population and variant spectrum.\n\n### Phenylketonuria (PKU)\n\nFor a second hypothetical fully penetrant recessive condition with frequency 1 in 10,000:\n- q² = 0.0001\n- q = 0.01\n- p = 0.99\n- Carrier frequency = 2(0.99)(0.01) ≈ 0.02, or 1 in 50\n\n### Genetic Counseling Implications\n\nWhen two carriers mate (Aa × Aa), there is a 1/4 probability of an affected child. If the carrier frequency in a population is 2pq, the probability that two random individuals from that population are both carriers is (2pq)². The joint probability of choosing two carriers and having an affected child is (2pq)² × 1/4. This is not the total affected-birth probability from all parental genotype combinations. If parents are known to be unaffected, use conditional carrier frequencies instead. This type of multi-step probability calculation is a high-yield MCAT skill.\n\n---\n\n## Summary of Key Equations and Concepts\n\n- **p + q = 1** (allele frequencies sum to 1)\n- **p² + 2pq + q² = 1** (genotype frequencies at HWE)\n- **p²** = homozygous dominant frequency\n- **2pq** = heterozygous (carrier) frequency\n- **q²** = homozygous recessive frequency\n- Use allele counts when genotypes are known; use **q²** from phenotype only under the appropriate assumptions\n- For X-linked traits: affected male frequency = **q**; affected female frequency = **q²**\n- Five assumptions (MANGA): No Mutation, no Allele/gene flow, No natural selection, no Genetic drift (large population), random mating (no Assortative mating)\n- A genotype-frequency departure requires investigation; it does not uniquely identify a cause or prove an allele-frequency change\n\n---\n\n## Final Thoughts\n\nHardy-Weinberg is a useful null model, not a diagnostic proof of non-evolution. Distinguish genotype proportions at a sampled life stage from allele-frequency changes across generations, and consider sampling, population structure and measurement before inferring a mechanism.\n\nPractice problems with varied entry points (given q², given p, given carrier frequency), work through X-linked examples, and always double-check that your frequencies sum to 1. The calculations themselves are not difficult, but precision under time pressure requires deliberate practice. Combined with a solid conceptual understanding of the five assumptions and the forces that violate them, Hardy-Weinberg becomes one of the most tractable high-yield topics on the entire MCAT."
+    },
+    {
+      "field": "questions.252.choice_d",
+      "value": "A large population exchanging migrants with the same allele frequencies as the residents"
+    },
+    {
+      "field": "questions.252.explanation",
+      "value": "The severe bottleneck makes random allele-frequency sampling especially important, so B is the best answer. Migrants with the same allele composition do not systematically change recipient allele frequencies; merely having equal immigration and emigration headcounts would not be enough to establish that."
+    },
+    {
+      "field": "questions.253.explanation",
+      "value": "Before selection, AA = 0.36, Aa = 0.48 and aa = 0.16. Removing aa from the breeding pool leaves q′ = (0.48/2)/(0.36+0.48) = 2/7 ≈ 0.286 and p′ ≈ 0.714. Random mating of survivors can produce HWE zygote proportions at these new frequencies. Thus allele-frequency change and zygote HWE proportions are distinct concepts."
+    },
+    {
+      "field": "questions.254.choice_b",
+      "value": "The observed heterozygote frequency is below the HWE prediction; these data alone do not prove an allele-frequency change over time."
+    },
+    {
+      "field": "questions.254.explanation",
+      "value": "With p = 0.60, the predicted Aa frequency is 2pq = 0.48, versus the observed 0.20. The counts depart from the predicted proportions, but without sample size a significance test is not possible. Inbreeding, population mixture, selection or genotyping error are possible explanations; longitudinal allele-frequency change is not established."
+    }
+  ]
+}

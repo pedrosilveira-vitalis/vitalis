@@ -1,0 +1,245 @@
+{
+  "lessonId": 45,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Mendel's original experiments with pea plants produced beautifully clean 3:1 and 9:3:3:1 ratios because he happened to choose traits governed by completely dominant alleles at independent loci. The biological reality is far messier. Most traits you will encounter on the MCAT deviate from these idealized ratios in ways that reveal the underlying complexity of gene expression and allelic interaction. Understanding these extensions is not merely an academic exercise — the MCAT regularly presents novel genetic scenarios and asks you to predict phenotypic ratios, identify the mode of inheritance, or explain why observed offspring frequencies diverge from Mendelian expectations. This lesson covers the major categories of deviation: incomplete dominance, codominance, pleiotropy, epistasis, and polygenic inheritance.",
+      "new": "Mendelian ratios are predictions from specified crosses and assumptions, not a universal description of every trait. This lesson distinguishes interactions between alleles at one locus from interactions between different loci, and separates observed phenotypes from the molecular products that generate them.",
+      "reason": "Remove unsupported exam-frequency and historical generalizations.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "Complete dominance arises mechanistically when",
+      "new": "One mechanism of complete dominance occurs when",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    },
+    {
+      "field": "content",
+      "old": "Incomplete dominance is mechanistically explained by **gene dosage effects**. The R¹ allele encodes a functional pigment-producing enzyme. Two copies (R¹R¹) produce enough pigment for full red coloration. One copy (R¹R²) produces half as much enzyme, generating a reduced amount of pigment and therefore a pink intermediate. Zero copies (R²R²) produce no pigment, yielding white flowers. The heterozygote phenotype is literally the average of the two homozygotes at the biochemical level.",
+      "new": "A dosage-sensitive pigment pathway can produce an intermediate heterozygote phenotype: one functional allele may yield less pigment than two. Neither enzyme abundance nor pigment intensity must be exactly half, and the phenotype need not equal the arithmetic mean of the homozygotes. Dosage is a useful mechanism, not the definition of incomplete dominance.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    },
+    {
+      "field": "content",
+      "old": "or describes a heterozygote with a phenotype intermediate between two homozygotes, you should immediately recognize incomplete dominance.",
+      "new": "or describes an intermediate heterozygote, consider incomplete dominance. A 1:2:1 phenotypic ratio alone can also occur with codominance.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    },
+    {
+      "field": "content",
+      "old": "both alleles are *simultaneously and fully expressed*",
+      "new": "both allelic products are detectable in the heterozygote; their quantities need not be equal or match homozygote levels",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    },
+    {
+      "field": "content",
+      "old": "**i**: encodes a nonfunctional enzyme → no antigen added (O antigen remains)",
+      "new": "**i**: in the simplified model, lacks functional A/B transferase activity → H antigen remains unmodified; there is no separate “O antigen”",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK2267/"
+    },
+    {
+      "field": "content",
+      "old": "Also remember that the Rh factor (positive/negative) is a separate gene governed by simple dominance, so ABO and Rh are inherited independently.",
+      "new": "RhD status is distinct from ABO. The Rh system involves the adjacent RHD and RHCE genes on chromosome 1, whereas ABO is on chromosome 9. A simple D-present/D-absent model can be useful for introductory crosses, but weak D, partial D and other variants make actual Rh typing more complex than a universal single dominant allele.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK2269/"
+    },
+    {
+      "field": "content",
+      "old": "Both ABO and MN blood groups also illustrate the concept of **multiple alleles** — a single gene locus that exists in more than two allelic forms in a population. While any individual can only carry two alleles (one per homologous chromosome), the population may harbor many variants. Multiple alleles expand the number of possible genotypes and phenotypes well beyond what two alleles allow. This is not itself a deviation from Mendelian mechanics; the same rules of segregation apply. The deviation lies in the phenotypic complexity that emerges.",
+      "new": "Multiple alleles means more than two allelic forms at a locus in a population. ABO illustrates this with its major A, B and O classes. The usual M/N teaching model has two alleles and demonstrates codominance, not by itself multiple allelism. A typical diploid individual carries at most two alleles at an autosomal locus.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK2267/"
+    },
+    {
+      "field": "content",
+      "old": "This is actually the norm rather than the exception in biology — most genes have pleiotropic effects to some degree, because",
+      "new": "Pleiotropy can arise because",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    },
+    {
+      "field": "content",
+      "old": "A loss-of-function mutation in the gene encoding phenylalanine hydroxylase (PAH) causes accumulation of phenylalanine.",
+      "new": "Biallelic pathogenic variants affecting PAH activity impair phenylalanine metabolism. Untreated PAH deficiency can cause phenylalanine accumulation.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1504/"
+    },
+    {
+      "field": "content",
+      "old": "Hypopigmentation of skin and hair (phenylalanine competes with tyrosine for entry into melanocytes, reducing melanin synthesis)",
+      "new": "Hypopigmentation of skin and hair, reflecting disturbed melanin synthesis",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1504/"
+    },
+    {
+      "field": "content",
+      "old": "Musty body odor (due to phenylpyruvate accumulation)",
+      "new": "Musty body odor associated with excess phenylalanine metabolites",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1504/"
+    },
+    {
+      "field": "content",
+      "old": "Gene A is therefore epistatic to gene B in this pathway.",
+      "new": "The loss-of-function aa genotype can mask the downstream B/b difference for this particular readout. Which genotype is epistatic depends on the phenotype measured.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "The MCAT expects you to recognize the modified ratios that result from different epistatic interactions in dihybrid crosses (AaBb × AaBb). The standard 9:3:3:1 is the baseline.",
+      "new": "The following expected ratios use AaBb × AaBb, independent assortment, the stated phenotype rules, complete penetrance and equal viability. Start with the four genotype classes A_B_, A_bb, aaB_ and aabb in proportions 9:3:3:1, then combine classes with the same phenotype.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "Dogs homozygous recessive at the E locus (ee) cannot deposit any pigment, resulting in a yellow coat regardless of their B genotype.",
+      "new": "Dogs homozygous recessive at the MC1R E locus (ee) do not produce eumelanin in the coat; red/yellow pheomelanin remains. Thus a yellow coat does not mean no pigment. The B/b difference between black and brown eumelanin is masked.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://vgl.vetmed.ucdavis.edu/test/mc1r-dog"
+    },
+    {
+      "field": "content",
+      "old": "Observed: 9 black : 3 brown : 4 yellow",
+      "new": "Expected: 9 black : 3 brown : 4 yellow",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://vgl.vetmed.ucdavis.edu/test/mc1r-dog"
+    },
+    {
+      "field": "content",
+      "old": "**Recessive epistasis with heterozygous effect (13:3)**\n\nLess commonly tested but worth knowing conceptually.",
+      "new": "**Dominant suppression (13:3)**\n\nFor one model, A_ suppresses a B_-dependent phenotype: A_B_, A_bb and aabb share one phenotype (9+3+1=13), while aaB_ has the other (3).",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "When the MCAT presents a dihybrid cross that does not yield 9:3:3:1, count the phenotypic classes and the ratio. If the ratio sums to 16 (as all dihybrid ratios should), you can identify the epistatic pattern. The most commonly tested examples are 9:3:4 (recessive epistasis) and 9:7 (complementary gene interaction). Understanding the underlying biochemical logic — pathway steps, enzyme requirements — helps you reason through novel scenarios rather than memorizing every case.",
+      "new": "A deviation from 9:3:3:1 can suggest an interaction, linkage, viability differences or sampling variation. Ratios need not sum to 16 when expressed in reduced form, and summing to 16 does not diagnose epistasis. Derive probabilities from the proposed phenotype rule.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "the two mutations complement each other and therefore lie in *different* genes.",
+      "new": "the mutations usually affect different genes in the standard recessive-loss-of-function model. Intragenic complementation and nonallelic noncomplementation are exceptions; the result is not an absolute proof.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    },
+    {
+      "field": "content",
+      "old": "traits controlled by two or more genes, each contributing additively to the phenotype. Rather than discrete phenotypic classes, polygenic traits produce a *continuous distribution* in the population, typically approximating a normal (bell-shaped) curve.",
+      "new": "traits influenced by multiple genes. Additive effects are a useful model, but dominance, epistasis and environment can also contribute. Many quantitative traits show roughly continuous distributions; polygenic inheritance does not require equal effects, additivity or a normal distribution.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    },
+    {
+      "field": "content",
+      "old": "These traits are influenced by many genes, each contributing a small, roughly equal, and additive effect.",
+      "new": "The contributing variants can have different effect sizes, with both additive and nonadditive components.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    },
+    {
+      "field": "content",
+      "old": "with 5 genes, 11 classes — practically indistinguishable from a continuous distribution.",
+      "new": "with 5 independent, equally weighted loci, the model has 11 discrete dosage classes. Environmental variation and many more loci can blur classes into a nearly continuous distribution.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    },
+    {
+      "field": "content",
+      "old": "The proportion of phenotypic variance attributable to genetic variance is called **heritability** (h²). It ranges from 0 to 1. A heritability of 1.0 means all phenotypic variation in a population is due to genetic differences; a heritability of 0 means all phenotypic variation is environmental. Heritability is a population statistic — it describes a specific population in a specific environment and cannot be directly generalized.",
+      "new": "Broad-sense heritability H² is genetic variance divided by phenotypic variance; narrow-sense heritability h² includes only additive genetic variance. Both refer to variation in a specified population and environment, not a percentage of one person’s trait. A high estimate does not mean environmental change cannot alter the trait.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/heritability/"
+    },
+    {
+      "field": "content",
+      "old": "The MCAT may ask you to interpret twin studies, which are used to estimate heritability. Identical (monozygotic, MZ) twins share ~100% of their DNA; fraternal (dizygotic, DZ) twins share ~50%. If MZ twins are more concordant for a trait than DZ twins, the trait has a heritable component. The greater the MZ/DZ concordance difference, the higher the heritability.",
+      "new": "Twin comparisons can help estimate genetic contributions under assumptions about shared environments and other factors. Monozygotic twins share nearly all inherited sequence variants; dizygotic twins share, on average, half their segregating alleles identical by descent—not only half of all DNA sequence. Greater MZ similarity is evidence to evaluate, not proof that environmental confounding is absent.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/heritability/"
+    },
+    {
+      "field": "content",
+      "old": "**Count the ratio** and check whether it sums to expected values (4 for monohybrid, 16 for dihybrid).",
+      "new": "**Compare the observed classes with model probabilities**, allowing for finite-sample variation.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "When solving MCAT genetics problems involving modified ratios, always start",
+      "new": "For the independently assorting, complete-dominance two-locus model, start",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+    },
+    {
+      "field": "content",
+      "old": "any variant of these principles, no matter how the question is framed.",
+      "new": "new scenarios while checking the assumptions in the passage.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    },
+    {
+      "field": "questions.223.question_text",
+      "old": "Sickle cell disease is caused by a single point mutation in the HBB gene, yet it affects multiple organ systems including the spleen, kidneys, bones, and brain. This best illustrates which genetic concept?",
+      "new": "A pathogenic HBB variant can contribute to sickle cell disease, affecting the spleen, kidneys, bones and brain. One gene influencing multiple organ systems best illustrates which concept?",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "questions.224.question_text",
+      "old": "In Labrador retrievers, the E gene controls whether pigment is deposited in the fur (E_) or not (ee). The B gene controls pigment color: black (B_) or brown (bb). A dog with genotype eeB_ will be yellow regardless of the B locus. This is an example of:",
+      "new": "In Labrador retrievers, ee at MC1R prevents eumelanin production in the coat, leaving yellow/red pigment. E_ permits eumelanin; the B locus determines black (B_) versus brown (bb). An ee dog has a yellow coat regardless of B/b. This is an example of:",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://vgl.vetmed.ucdavis.edu/test/mc1r-dog"
+    },
+    {
+      "field": "questions.224.explanation",
+      "old": "Epistasis occurs when one gene masks or modifies the expression of another gene. Here, the homozygous recessive genotype ee prevents pigment deposition entirely, masking whether the dog carries B or b alleles, which is classic recessive epistasis. This interaction produces a modified 9:3:4 ratio in a dihybrid cross rather than the standard 9:3:3:1, distinguishing it from simple independent assortment.",
+      "new": "The recessive ee genotype masks the B/b effect on eumelanin color, an example of recessive epistasis. Yellow/red pheomelanin remains, so ee does not eliminate all pigment. With independent assortment and the stated phenotype model, EeBb × EeBb predicts 9 black : 3 brown : 4 yellow.",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://vgl.vetmed.ucdavis.edu/test/mc1r-dog"
+    },
+    {
+      "field": "content",
+      "old": "simple dominant-recessive relationships are the exception rather than the rule.",
+      "new": "dominant–recessive relationships are one of several possible allele interactions.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    },
+    {
+      "field": "content",
+      "old": "**Polygenic inheritance** generates continuous phenotypic distributions through the additive effects of multiple genes, and is influenced substantially by environmental factors.",
+      "new": "**Polygenic inheritance** involves multiple genes; additive effects, dominance, epistasis and environment can contribute to quantitative variation.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/heritability/"
+    },
+    {
+      "field": "questions.225.explanation",
+      "old": "Polygenic inheritance involves multiple gene loci that each contribute to a single quantitative trait, producing a continuous distribution of phenotypes. Skin color is a classic example, as several genes additively determine melanin levels. Pleiotropy (choice A) is the reverse situation where one gene affects multiple traits, and would be incorrect here since multiple genes are affecting one trait.",
+      "new": "Polygenic inheritance means that multiple gene loci influence a trait. Their effects need not be equal or purely additive. Environmental variation can also contribute to the observed phenotype.",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/heritability/"
+    },
+    {
+      "field": "questions.225.question_text",
+      "old": "Human skin color is determined by multiple gene loci, each contributing additively to the amount of melanin produced, resulting in a continuous range of phenotypes in the population. This pattern of inheritance is called:",
+      "new": "A quantitative trait is influenced by variants at many gene loci, together with environmental effects. Which term describes this genetic architecture?",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/heritability/"
+    }
+  ]
+}

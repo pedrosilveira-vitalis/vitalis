@@ -4,7 +4,9 @@
 
 - Responsive vector Nori beside the sidebar wordmark, on the homepage and beside the separate lesson wordmark.
 - Floating, keyboard-accessible Nori opens a non-modal chat panel on the current page. Minimize retains this conversation in memory; New chat clears it. Refresh clears the panel conversation. The separate /tutor page remains available.
-- Glossy burgundy buttons, dimensional cream cards and navy panels. Reduced-motion preferences respected.
+- Glossy blue buttons, dimensional cream cards and navy panels. Reduced-motion preferences respected.
+- A brief dismissible Nori celebration appears after the server confirms a first answer for the day. Visits and repeated answers do not repeatedly celebrate. Session completion encourages reflection and breaks. No sounds or endless animation.
+- 61 lessons and 305 quiz questions have source-backed targeted reviews; 189 lessons remain. New diagrams for IDs 45–64 appear beside related sections. These reviews are not an exhaustive certification.
 - Homepage streak, seven-day history, best streak, total days visited and practice goal progress.
 - A signed-in student's first submitted practice, lesson or homepage warm-up answer completes the day. Repeated answers/tabs do not increment it twice. A missed practice day breaks the current streak; best streak and visit totals persist.
 - Upcoming calls on the dashboard and /calls. Admin /admin/calls creates, edits and cancels appointments assigned to a student's Google sign-in email. Students see only their own calls. Zoom links are supplied by the admin, not created through Zoom's API; no invitations or reminder emails are sent.
@@ -22,9 +24,9 @@ Visit and streak history starts when this update is installed. Earlier login dat
 
 ## Verification
 
-Production Next.js build and TypeScript check passed. All 54 tests passed, including actual embedded PostgreSQL tests for concurrent activity updates, retries, date boundaries, student isolation, reassignment and cancellation. Question token tampering, expiry and invalid Zoom hosts are tested.
+Production Next.js build and TypeScript check passed. All 67 tests passed, including actual embedded PostgreSQL tests for concurrent activity updates, retries, date boundaries, student isolation, reassignment and cancellation. Question token tampering, expiry and invalid Zoom hosts are tested.
 
-Interactive browser testing is unverified: a usable browser could not be installed in this environment. Automated production-server HTTP checks passed. Live Google sign-in, production database permissions, Anthropic responses and actual Zoom meetings require a preview check with your configuration. Nothing has been deployed to your Vercel project by this update.
+Interactive browser testing is unverified: the managed preview launcher supplied arguments unsupported by this Next.js project. Earlier production-server HTTP checks passed; this checkpoint was checked through tests and a production build. Live Google sign-in, production database permissions, Anthropic responses and actual Zoom meetings require a preview check with your configuration. Nothing has been deployed to your Vercel project by this update.
 
 ## Preview acceptance check
 

@@ -1,0 +1,226 @@
+{
+  "lessonId": 59,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    291,
+    292,
+    293,
+    294,
+    295
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK10989/",
+      "title": "Purves et al.: Receptor types"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21059/",
+      "title": "Alberts et al.: Cell communication"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK519490/",
+      "title": "NCBI StatPearls: Caffeine mechanism"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK54587/",
+      "title": "NCBI: Protein kinase C isoform regulation"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16887882/",
+      "title": "Friesema et al.: Human MCT8 thyroid-hormone transport"
+    }
+  ],
+  "visual": {
+    "title": "Two receptor families, different molecular switches",
+    "src": "/lesson-diagrams/receptor-pathway-comparison.svg",
+    "width": 900,
+    "height": 820,
+    "alt": "Side-by-side membrane diagrams contrast a seven-pass GPCR coupled to a GDP/GTP switch and cAMP production with paired RTK kinase domains bearing phosphotyrosines. The RTK branch follows Grb2/SOS, Ras, Raf, MEK and ERK. GTP hydrolysis and phosphodiesterase provide off switches.",
+    "caption": "Receptor association/rearrangement activates RTKs; insulin receptors are already paired. Ras and Gα are different GTPase systems.",
+    "beforeHeading": "Comparing GPCR and RTK Signaling"
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "ded7bf33aaa263e54c0d3d869357de2ddb2314c72a18d9a07b7799cfcd9884d0"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "7027364a66b321ac7380f92075755a2a86439915e9626d3074b9eeea98ee2a5e"
+    },
+    {
+      "field": "questions.291.question_text",
+      "sha256": "fc29fcd77d30d72c35e67e999a88e680577afb4d9f04890c2699d751c9ec99ca"
+    },
+    {
+      "field": "questions.291.choice_a",
+      "sha256": "09a9f9277297d1dedc2638cb13f202b6cbeaee065e5d7b2c5f7a40d82de3557f"
+    },
+    {
+      "field": "questions.291.choice_b",
+      "sha256": "4dd311349a4e1ba548f5e8cafb178404b63d9c25537a988a8939968e930cc865"
+    },
+    {
+      "field": "questions.291.choice_c",
+      "sha256": "e50f7f90ce5b3bf9a3d759ed8ffd8fa87c52cf7dc81e36a5b08c66f4d1142c06"
+    },
+    {
+      "field": "questions.291.choice_d",
+      "sha256": "e1f58789532a55259e17bd76350cde95f7ddd6b4a6cf45fcfa583af7765c74b3"
+    },
+    {
+      "field": "questions.291.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.291.explanation",
+      "sha256": "0e7b7f7d906fda63a310eb9571a3631638e70525fc456fb82e58086c43bdd5b1"
+    },
+    {
+      "field": "questions.292.question_text",
+      "sha256": "7274a8ffa9db8cb8c568f76b12fe2a4592f3aef93cbab9b3e4fe2b97b1e5d909"
+    },
+    {
+      "field": "questions.292.choice_a",
+      "sha256": "f3fc2d6983178b1af823ed6b5d2f3d64e11a710c671c289fbf196f0840aefb60"
+    },
+    {
+      "field": "questions.292.choice_b",
+      "sha256": "02c2b79e652162511b91c31b369c754cd856327218cfdf61ec80640693378b25"
+    },
+    {
+      "field": "questions.292.choice_c",
+      "sha256": "93ecfa23a57b0aaca008afb15591ffa4c7bdb41ba3b47f24df57109132f7c870"
+    },
+    {
+      "field": "questions.292.choice_d",
+      "sha256": "61d8531525ac65596fc0d715ad727718def5962bdffa1d708fd0ea6401a508af"
+    },
+    {
+      "field": "questions.292.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.292.explanation",
+      "sha256": "8b9bf70bf2b5b33d16e1063a4470e7b9451b8d958a4afe144de00b204602e6ba"
+    },
+    {
+      "field": "questions.293.question_text",
+      "sha256": "a8812481ea81bbfd9025e49b9a712a0fae61f3f7d71e4fdca570105b181d930d"
+    },
+    {
+      "field": "questions.293.choice_a",
+      "sha256": "e2cca7a5814a591b42228f1394bb726822f426c9ec52f296c70fb6763bb706a3"
+    },
+    {
+      "field": "questions.293.choice_b",
+      "sha256": "7d7c7cbfba68bd915040b468e58f5a7eda788f56ff3b8bb55203f4080f13add5"
+    },
+    {
+      "field": "questions.293.choice_c",
+      "sha256": "fb842279120a30b65222c3d75f9f0f21693e430a766a73b6d93b5c59613d4517"
+    },
+    {
+      "field": "questions.293.choice_d",
+      "sha256": "d9bef415f6fe518ad171bdf8c4503a3dd1f829ec30bb40be7be30f8a2ac46e07"
+    },
+    {
+      "field": "questions.293.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.293.explanation",
+      "sha256": "544f39485d246c681a853127a0f2ba96bf3043f42a51c14a80a39f4e80f69f56"
+    },
+    {
+      "field": "questions.294.question_text",
+      "sha256": "62403b86978415464de730db31eb7879fb3cb6bebd4955eff8b2e370b7fe3cf0"
+    },
+    {
+      "field": "questions.294.choice_a",
+      "sha256": "244f238775f50a41c3f9467ce7a0db9acc5a0529f64a7fafbf1eb9a36392f963"
+    },
+    {
+      "field": "questions.294.choice_b",
+      "sha256": "62e0de03a6dc084fe3f2fd747703e9ee317ec5a16b85328d6bc293b35cbddfd4"
+    },
+    {
+      "field": "questions.294.choice_c",
+      "sha256": "a073d659b5598814b5785b42cb0293a530231962e0cdb3b63ba07908a7e9cae5"
+    },
+    {
+      "field": "questions.294.choice_d",
+      "sha256": "4ef0cc6558416d09bab59abb9734db8f44130d8d09ba28678a49acf2861dbe49"
+    },
+    {
+      "field": "questions.294.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.294.explanation",
+      "sha256": "d67f777aff8b341a74a296adc602829dc3720c0a85553f3113e3f236bf9dc2f2"
+    },
+    {
+      "field": "questions.295.question_text",
+      "sha256": "1d5974622a5a4575fc9f47d0c6275987f2869d12c51be935e9e78220979ab2f9"
+    },
+    {
+      "field": "questions.295.choice_a",
+      "sha256": "603de213e501cc611605376a677dc5af6dfd7f9b357f8fc6aacba4a8b998feda"
+    },
+    {
+      "field": "questions.295.choice_b",
+      "sha256": "0bf8e3e6b71a6c1474a0309536b829f791f2252f9c59647591d36d676823e537"
+    },
+    {
+      "field": "questions.295.choice_c",
+      "sha256": "a34470b6e3b28d2acc9c35482e2ddfaaa65d28d9711082a96562f4562e3219e9"
+    },
+    {
+      "field": "questions.295.choice_d",
+      "sha256": "2d2f11ddb1ab18c3fca46bdadb1a6a470b490b1c7d2e44a959838c9bbb577456"
+    },
+    {
+      "field": "questions.295.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.295.explanation",
+      "sha256": "239a218d8ebc82ad0f0a980cf6128f5a0fd18b9eef23a3b2ee6b8e3dc6eb3ec7"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## G Protein-Coupled Receptors and Enzyme-Linked Receptors\n\nCell signaling is the molecular language that allows cells to receive, interpret, and respond to information from their environment. Two of the most clinically and biochemically significant receptor families—**G protein-coupled receptors (GPCRs)** and **enzyme-linked receptors**—appear repeatedly on the MCAT, both as standalone topics and as context for pharmacology, endocrinology, and cancer biology questions. This lesson provides a rigorous, side-by-side analysis of both receptor classes, their signaling cascades, and the downstream effectors that translate extracellular signals into cellular responses.\n\n---\n\n## G Protein-Coupled Receptors\n\n### Structure and Basic Mechanism\n\nGPCRs are the largest family of cell surface receptors in the human genome, with over 800 members. Their defining structural feature is a **seven-transmembrane (7-TM) alpha-helical domain** that threads back and forth across the plasma membrane. Ligand-binding sites vary: many small ligands bind within the transmembrane bundle, while larger ligands contact extracellular domains. Cytoplasmic receptor surfaces couple to heterotrimeric G proteins.\n\nThe **heterotrimeric G protein** consists of three subunits:\n- **Gα subunit**: binds guanine nucleotides (GDP or GTP) and contains intrinsic GTPase activity\n- **Gβ subunit**: forms a stable dimer with Gγ; anchors the complex to the membrane\n- **Gγ subunit**: lipid-modified; helps localize the complex\n\nIn the **inactive state**, Gα is bound to GDP and associated with the Gβγ dimer. When a ligand (the **first messenger**) binds the GPCR, the receptor undergoes a conformational change that allows it to act as a **guanine nucleotide exchange factor (GEF)**. This catalyzes the exchange of GDP for GTP on Gα. GTP binding rearranges the heterotrimer and permits Gα and Gβγ to regulate effectors; complete physical dissociation is not obligatory in every system. The signal terminates when Gα hydrolyzes GTP back to GDP using its intrinsic GTPase activity, reassembling the inactive heterotrimer.\n\n### Classes of G Proteins and Their Effectors\n\nThe identity of the Gα subunit determines which downstream pathway is activated. The MCAT requires familiarity with four major classes:\n\n**Gs (stimulatory)**\n- Activates **adenylyl cyclase**\n- Adenylyl cyclase converts ATP → **cyclic AMP (cAMP)**\n- cAMP activates **protein kinase A (PKA)**\n- PKA phosphorylates serine/threonine residues on target proteins\n- Example: β-adrenergic receptors in cardiac muscle; glucagon receptors in liver\n\n**Gi (inhibitory)**\n- *Inhibits* adenylyl cyclase, decreasing cAMP\n- Also activates inwardly rectifying K⁺ channels (via Gβγ) and inhibits voltage-gated Ca²⁺ channels\n- Example: muscarinic M2 receptors in the heart; α2-adrenergic receptors\n\n**Gq**\n- Activates **phospholipase C-β (PLC-β)**\n- PLC-β cleaves **phosphatidylinositol 4,5-bisphosphate (PIP₂)** into two second messengers:\n  - **Inositol 1,4,5-trisphosphate (IP₃)**: diffuses to the endoplasmic reticulum, opens IP₃-gated Ca²⁺ channels, releasing Ca²⁺ into the cytosol\n  - **Diacylglycerol (DAG)**: remains in the membrane; activates **protein kinase C (PKC)**\n- PKC phosphorylates numerous targets; Ca²⁺ activates calmodulin-dependent kinases\n- Example: α1-adrenergic receptors; muscarinic M1/M3 receptors; angiotensin II receptors\n\n**G12/13**\n- Activates **Rho GEFs**, leading to Rho GTPase activation\n- Regulates cytoskeletal organization and gene expression\n- Less commonly tested but relevant in vascular biology\n\n### The cAMP-PKA Pathway in Detail\n\nThe **Gs/cAMP/PKA axis** is the most heavily tested GPCR pathway. Understanding its logic is essential.\n\nAdenylyl cyclase is a transmembrane enzyme with a catalytic domain on the cytoplasmic face. When activated by Gαs-GTP, it produces cAMP from ATP. cAMP is a **second messenger**—a small intracellular molecule that amplifies and propagates the signal. Phosphodiesterases (PDEs) degrade cAMP to 5'-AMP, terminating the signal. Caffeine’s usual stimulant action mainly reflects adenosine-receptor antagonism; PDE inhibition occurs at higher concentrations. Theophylline has several mechanisms, including PDE inhibition.\n\n**PKA** is a tetramer consisting of two regulatory (R) subunits and two catalytic (C) subunits. In the absence of cAMP, R subunits keep C subunits inactive. When four molecules of cAMP bind (two per R subunit), the complex dissociates, releasing active catalytic subunits. PKA then phosphorylates cytoplasmic targets and can translocate to the nucleus to phosphorylate **CREB (cAMP response element-binding protein)**, a transcription factor that drives expression of cAMP-responsive genes.\n\nPhysiological examples worth memorizing:\n- **Liver**: glucagon → Gs → cAMP → PKA → phosphorylation and activation of glycogen phosphorylase kinase → glycogenolysis; simultaneous phosphorylation and *inactivation* of glycogen synthase\n- **Adipose tissue**: epinephrine → Gs → cAMP → PKA → phosphorylation of hormone-sensitive lipase → lipolysis\n- **Heart**: epinephrine → β1-adrenergic → Gs → increased heart rate and contractility\n\n### The Gq/PLC/PKC Pathway in Detail\n\nWhen PLC-β cleaves PIP₂, it simultaneously generates IP₃ and DAG. These two second messengers act synergistically:\n\n- **IP₃** is water-soluble and diffuses through the cytoplasm to bind **IP₃ receptors** (ligand-gated Ca²⁺ channels) on the ER membrane. Ca²⁺ floods into the cytoplasm, where it binds **calmodulin**. The Ca²⁺-calmodulin complex activates **calmodulin-dependent protein kinases (CaMKs)**, myosin light chain kinase (MLCK), and other targets.\n- **DAG** is lipid-soluble and remains embedded in the plasma membrane. It recruits DAG-sensitive PKCs. Conventional PKCs also require Ca²⁺, novel PKCs do not, and atypical PKCs respond to neither DAG nor Ca²⁺. PKC phosphorylates diverse substrates involved in proliferation, differentiation, and immune responses.\n\nClinically, **phorbol esters** (found in croton oil) are DAG mimetics that activate DAG-sensitive PKCs acutely; prolonged exposure can downregulate these enzymes. Tumor promotion is context-dependent and does not mean all PKC activity is oncogenic.\n\n### Receptor Desensitization and Internalization\n\nGPCRs are subject to regulatory mechanisms that prevent overstimulation:\n\n1. **Phosphorylation by GRKs**: G protein-coupled receptor kinases (GRKs) phosphorylate the activated receptor's intracellular domain.\n2. **β-arrestin recruitment**: Phosphorylated receptors recruit β-arrestin, which sterically blocks G protein coupling (desensitization).\n3. **Internalization (endocytosis)**: β-arrestin also links the receptor to clathrin-coated pits, leading to receptor internalization. Internalized receptors can be recycled back to the surface or targeted for lysosomal degradation (**downregulation**).\n\nThis mechanism explains **tachyphylaxis**—the rapid decrease in drug response with repeated dosing—a concept relevant to MCAT pharmacology passages.\n\n---\n\n## Enzyme-Linked Receptors\n\n### Overview and Classification\n\n**Enzyme-linked receptors** are single-pass transmembrane proteins with an extracellular ligand-binding domain and an intracellular domain that either *possesses* enzymatic activity or *directly associates* with an enzyme. The most important subclasses are:\n\n- **Receptor tyrosine kinases (RTKs)**: phosphorylate tyrosine residues\n- **Receptor serine/threonine kinases**: e.g., TGF-β receptors\n- **Receptor-associated tyrosine kinases**: e.g., cytokine receptors that associate with JAK kinases\n- **Receptor guanylyl cyclases**: produce cGMP (e.g., ANP receptor)\n\nThe MCAT focuses most heavily on **receptor tyrosine kinases (RTKs)** and their downstream pathways.\n\n### Receptor Tyrosine Kinases: Structure and Activation\n\nRTKs include receptors for many growth factors and hormones: **epidermal growth factor receptor (EGFR)**, **insulin receptor**, **platelet-derived growth factor receptor (PDGFR)**, **fibroblast growth factor receptor (FGFR)**, and **vascular endothelial growth factor receptor (VEGFR)**, among others.\n\nA common RTK activation model starts with separated monomers, although pre-existing dimers or oligomers occur. Ligand binding induces **receptor dimerization**—two receptor monomers come together to form a dimer. Dimerization brings the two intracellular kinase domains into proximity, enabling **trans-autophosphorylation**: each receptor phosphorylates tyrosine residues on its partner. These phosphotyrosines serve as docking sites for intracellular signaling proteins containing **SH2 (Src homology 2) domains** or **PTB (phosphotyrosine-binding) domains**.\n\n*The insulin receptor is a notable exception*: it is a preformed disulfide-linked heterotetramer (α₂β₂), so insulin binding activates the receptor without requiring dimerization per se.\n\n### The Ras/MAPK Pathway\n\nThe **mitogen-activated protein kinase (MAPK) pathway** is one of the most important signaling cascades in cell biology and cancer pharmacology.\n\n**Step-by-step cascade:**\n\n1. **Ligand binds RTK** → receptor dimerizes → autophosphorylation of tyrosine residues\n2. **Grb2** (an adaptor protein with SH2 and SH3 domains) binds phosphotyrosines on the activated RTK via its SH2 domain\n3. Grb2 recruits **SOS** (Son of Sevenless), a GEF, via SH3 domain interactions with proline-rich sequences on SOS\n4. SOS activates **Ras** by catalyzing GDP → GTP exchange on Ras\n5. **Ras-GTP** recruits **Raf** (a MAP kinase kinase kinase, MAPKKK) to the membrane\n6. Raf phosphorylates and activates **MEK** (MAP kinase kinase, MAPKK)\n7. MEK phosphorylates and activates **ERK** (extracellular signal-regulated kinase, MAPK)\n8. ERK translocates to the nucleus and regulates transcription factors such as **Elk-1** and **c-Fos** (c-Jun is classically associated with the JNK branch), driving expression of genes promoting **proliferation and differentiation**\n\n**Ras is a small GTPase** with intrinsic GTPase activity, analogous to Gα. **GAPs (GTPase-activating proteins)** like neurofibromin accelerate GTP hydrolysis, returning Ras to its inactive GDP-bound state.\n\n**Cancer connection**: *RAS* is one of the most commonly mutated oncogenes in human cancer (with prevalence varying substantially by cancer type). Point mutations (most commonly at codons 12, 13, or 61) impair GTPase activity, favoring persistent Ras-GTP signaling; individual oncogenic variants differ in cycling and regulatory sensitivity. This drives uncontrolled proliferation. Similarly, loss-of-function mutations in **NF1** (encoding neurofibromin, a Ras GAP) lead to neurofibromatosis type 1 and elevated Ras activity.\n\nThe drug **vemurafenib** targets mutant BRAF (V600E), a constitutively active Raf variant found in ~50% of melanomas—a clinically relevant MCAT connection.\n\n### The PI3K/Akt/mTOR Pathway\n\nThe **phosphoinositide 3-kinase (PI3K)/Akt pathway** is the second major RTK downstream cascade, critical for cell survival, growth, and metabolism.\n\n**Step-by-step cascade:**\n\n1. **Activated RTK** recruits and activates **PI3K** (either directly or via adaptor proteins like IRS-1 in the insulin signaling pathway)\n2. PI3K phosphorylates **PIP₂** at the 3-position of the inositol ring, generating **PIP₃ (phosphatidylinositol 3,4,5-trisphosphate)**\n3. PIP₃ recruits **PDK1** and **Akt (protein kinase B)** to the plasma membrane via their **PH (pleckstrin homology) domains**\n4. PDK1 phosphorylates Akt at **Thr308**; full activation requires additional phosphorylation at **Ser473** by mTORC2\n5. Active **Akt** phosphorylates numerous targets:\n   - **GSK-3β** (glycogen synthase kinase 3β): Akt phosphorylates and *inactivates* GSK-3β → promotes glycogen synthesis (since active GSK-3β normally inhibits glycogen synthase)\n   - **FOXO transcription factors**: phosphorylation causes cytoplasmic sequestration, preventing transcription of pro-apoptotic genes\n   - **BAD**: phosphorylation inactivates this pro-apoptotic protein → promotes survival\n   - **mTORC1 (mechanistic target of rapamycin complex 1)**: Akt activates mTORC1 indirectly by phosphorylating and inhibiting **TSC2** within the TSC complex (whose GAP activity acts on Rheb) → Rheb-GTP activates mTORC1\n6. **mTORC1** promotes anabolic processes: protein synthesis (via S6K and 4E-BP1), ribosome biogenesis, lipid synthesis, and inhibits autophagy\n\n**PTEN** (phosphatase and tensin homolog) is the critical negative regulator of this pathway. PTEN is a phosphatase that converts PIP₃ back to PIP₂, opposing PI3K activity. *PTEN* is one of the most commonly deleted tumor suppressors in human cancer; loss of PTEN leads to constitutive Akt activation and cell survival.\n\n**Insulin signaling** is the paradigmatic example of PI3K/Akt signaling:\n- Insulin binds its preformed α₂β₂ RTK\n- Autophosphorylation activates the receptor\n- **IRS-1 (insulin receptor substrate 1)** is phosphorylated on multiple tyrosines, creating docking sites for PI3K\n- PI3K → PIP₃ → Akt → multiple metabolic effects:\n  - Translocation of **GLUT4** glucose transporters to the plasma membrane in muscle and adipose tissue\n  - Activation of glycogen synthase (via GSK-3β inhibition)\n  - Activation of lipid synthesis\n  - Inhibition of gluconeogenesis (via FOXO phosphorylation)\n\n---\n\n## Comparing GPCR and RTK Signaling\n\n### Speed and Duration\n\nGPCRs typically mediate **rapid, transient responses**. Signal termination is built into the system: Gα has intrinsic GTPase activity, PDEs degrade cAMP, and phosphatases dephosphorylate PKA substrates. Responses occur within seconds to minutes.\n\nRTK pathways, particularly through MAPK, often mediate **slower but sustained responses** that alter gene expression and drive long-term changes like proliferation, differentiation, or survival. However, the initial biochemical events (phosphorylation) occur within minutes.\n\n### Signal Amplification\n\nBoth pathways involve **signal amplification cascades**:\n- One ligand-bound GPCR can activate many G protein heterotrimers\n- Gαs stimulates adenylyl cyclase while bound; catalytic production of many cAMP molecules provides amplification\n- One adenylyl cyclase produces many cAMP molecules\n- Each PKA molecule phosphorylates many substrates\n\nSimilarly, RTK pathways use kinase cascades (Raf → MEK → ERK) where each kinase activates multiple downstream molecules. The phosphorylation of multiple tyrosines on an activated RTK allows simultaneous activation of multiple pathways (MAPK and PI3K can both be activated by the same RTK).\n\n### Second Messengers: A Comparison\n\n| Second Messenger | Source | Upstream stimulus | Clearance / inactivation |\n|---|---|---|---|\n| cAMP | Adenylyl cyclase | Gαs | Phosphodiesterases |\n| cGMP | Guanylyl cyclase | ANP, NO | Phosphodiesterases |\n| IP₃ | PLC-β (GPCR) or PLC-γ (RTK) | Gαq, RTKs | IP₃ phosphatase |\n| DAG | PLC-β or PLC-γ | Gαq, RTKs | DAG kinases and lipases |\n| PIP₃ | PI3K | RTKs | PTEN |\n| Ca²⁺ | ER release or extracellular influx | IP₃ and other channel regulators | Sequestration/export, including SERCA and PMCA; Ca²⁺ is not chemically degraded |\n\nNote that **PLC-γ** (activated by RTKs via SH2 domain binding to phosphotyrosines) generates the same IP₃ and DAG second messengers as PLC-β (activated by Gαq). This is a key point of **crosstalk** between the two receptor families.\n\n### Receptor Regulation\n\n- **GPCRs**: desensitized by GRK phosphorylation and β-arrestin; internalized via clathrin-mediated endocytosis\n- **RTKs**: downregulated by ubiquitination (e.g., by Cbl E3 ligase) and lysosomal degradation after ligand-induced endocytosis; also regulated by receptor tyrosine phosphatases\n\n---\n\n## JAK-STAT Pathway: Receptor-Associated Tyrosine Kinases\n\nCytokine receptors (for interferons, interleukins, erythropoietin, growth hormone, prolactin) lack intrinsic kinase activity but associate constitutively with **Janus kinases (JAKs)**. Ligand binding induces assembly or rearrangement of receptor complexes, enabling associated JAKs to become activated. Some receptor chains are already associated before ligand binding.\n\nActive JAKs phosphorylate tyrosines on the receptor, creating docking sites for **STATs (Signal Transducers and Activators of Transcription)**. JAKs then phosphorylate STATs, causing them to:\n1. Dissociate from the receptor\n2. Dimerize via reciprocal SH2-phosphotyrosine interactions\n3. Translocate to the nucleus\n4. Bind specific DNA sequences and activate transcription of target genes\n\nThe **JAK-STAT pathway** is notably direct—it goes from membrane receptor to transcription factor activation with minimal intermediate steps. This pathway is critical for immune function, hematopoiesis, and inflammatory responses. **Tofacitinib** and **ruxolitinib** are JAK inhibitors used in rheumatoid arthritis and myelofibrosis, respectively.\n\n---\n\n## TGF-β Receptors: Receptor Serine/Threonine Kinases\n\n**TGF-β (transforming growth factor-β)** signals through a distinct class of enzyme-linked receptors with **serine/threonine kinase** activity. The pathway involves two receptor types:\n\n- **Type II receptor (TGFBR2)**: constitutively active kinase; binds TGF-β\n- **Type I receptor (TGFBR1, also called ALK5)**: recruited and phosphorylated by Type II receptor upon ligand binding\n\nThe activated Type I receptor phosphorylates **Smad2** and **Smad3** on serine residues. Phosphorylated R-Smads associate with **Smad4** (a co-Smad), and the complex translocates to the nucleus to regulate transcription of genes involved in cell cycle arrest, differentiation, apoptosis, and extracellular matrix production.\n\nTGF-β is a **tumor suppressor** in normal epithelial cells (it induces growth arrest via p21 and p15 upregulation) but paradoxically promotes invasion and metastasis in late-stage cancers—a concept tested in MCAT biology passages.\n\n---\n\n## MCAT High-Yield Connections\n\n### Pharmacology\n\n- **Beta-blockers** (propranolol, metoprolol): competitive antagonists at β-adrenergic GPCRs → decrease cAMP → reduce heart rate and contractility\n- **Cholera toxin**: ADP-ribosylates Gαs, locking it in the GTP-bound active state → constitutive adenylyl cyclase activation → massive cAMP production in intestinal epithelium → Cl⁻ secretion → secretory diarrhea\n- **Pertussis toxin**: ADP-ribosylates Gαi, preventing GDP/GTP exchange → Gαi cannot be activated → blocks inhibitory signaling\n- **Imatinib (Gleevec)**: inhibits BCR-Abl (a constitutively active tyrosine kinase in CML) and PDGFR; paradigmatic example of targeted therapy\n- **Herceptin (trastuzumab)**: monoclonal antibody targeting HER2/neu (an RTK overexpressed in ~20% of breast cancers)\n\n### Hormones and Their Receptor Types\n\nKnowing which receptor type a hormone uses is essential:\n\n- **Peptide/protein hormones** (insulin, glucagon, GH, PTH, TSH, FSH, LH, ACTH, ADH, oxytocin, ANP): cannot cross the membrane → act predominantly on surface receptors, including RTKs, GPCRs, cytokine receptors and receptor guanylyl cyclases\n  - Insulin, IGF-1, EGF, PDGF: RTKs\n  - GH: cytokine-receptor/JAK-STAT signaling; ANP: receptor guanylyl cyclase\n  - Glucagon, epinephrine (β-receptors), PTH, TSH, ACTH, FSH, LH, ADH (V2 receptor): GPCRs (Gs)\n  - Oxytocin, ADH (V1 receptor), angiotensin II, α1-adrenergic: GPCRs (Gq)\n- **Steroid hormones** (cortisol, aldosterone, estrogen, testosterone, progesterone) commonly signal through intracellular nuclear receptors. **Thyroid hormones** also act through nuclear receptors but use membrane transporters, including MCT8, for cell entry\n\n### Signal Integration and Crosstalk\n\nReal cells integrate signals from multiple receptors simultaneously. Key crosstalk points:\n- PKC (activated by Gq) can phosphorylate and modulate RTK activity\n- ERK (MAPK) can phosphorylate and desensitize GPCRs\n- Akt can regulate GPCR signaling components\n- Both GPCR (via Gβγ) and RTK pathways can activate PI3K\n\nUnderstanding that signaling networks are interconnected—not linear—is a conceptual skill the MCAT tests in complex passage-based questions.\n\n---\n\n## Summary of Key Concepts\n\n**GPCRs:**\n- 7-transmembrane receptors; signal through heterotrimeric G proteins\n- Gs → adenylyl cyclase → cAMP → PKA\n- Gi → inhibits adenylyl cyclase\n- Gq → PLC-β → IP₃ + DAG → Ca²⁺/calmodulin + PKC\n- Desensitized by GRK/β-arrestin; internalized by endocytosis\n\n**RTKs:**\n- Single-pass transmembrane; activated by dimerization and autophosphorylation\n- MAPK pathway: RTK → Grb2/SOS → Ras → Raf → MEK → ERK → proliferation/differentiation\n- PI3K/Akt pathway: RTK → PI3K → PIP₃ → Akt → survival, growth, metabolism\n- Regulated by PTEN (tumor suppressor) and ubiquitin-mediated degradation\n\n**Other enzyme-linked receptors:**\n- JAK-STAT: cytokine receptors → JAK activation → STAT phosphorylation → direct transcriptional activation\n- TGF-β receptors: serine/threonine kinases → Smad phosphorylation → transcriptional regulation\n\nMastering these pathways—their components, logic, and physiological examples—gives you the foundation to answer not only direct recall questions but also complex MCAT passages on cancer biology, endocrinology, pharmacology, and immunology."
+    },
+    {
+      "field": "questions.291.choice_a",
+      "value": "Gi directly phosphorylates adenylyl cyclase more strongly after toxin treatment."
+    },
+    {
+      "field": "questions.291.choice_c",
+      "value": "The agonist fails to lower cAMP through Gi-mediated inhibition of adenylyl cyclase."
+    },
+    {
+      "field": "questions.291.explanation",
+      "value": "Gi normally reduces adenylyl-cyclase activity. Pertussis toxin prevents receptor-mediated activation of Gi, so the agonist loses this inhibitory effect under the stated matched conditions. It does not directly increase Gs activity or make Gi a protein kinase. Choice C describes the lost inhibitory response without assuming a particular absolute cAMP concentration."
+    },
+    {
+      "field": "questions.291.question_text",
+      "value": "A researcher treats cells with pertussis toxin, which prevents activation of Gi by its receptor. With the same adenylyl-cyclase stimulus in treated and untreated cells, what happens to the response to a Gi-coupled receptor agonist?"
+    },
+    {
+      "field": "questions.292.choice_b",
+      "value": "A common RTK mechanism involves ligand-induced receptor association or rearrangement and tyrosine autophosphorylation."
+    },
+    {
+      "field": "questions.292.explanation",
+      "value": "RTKs have intrinsic tyrosine-kinase domains and commonly activate by receptor association or rearrangement followed by phosphorylation. Some, including the insulin receptor, are preformed dimers. GPCRs instead catalyze nucleotide exchange on heterotrimeric G proteins. RTKs also use small GTPases such as Ras downstream, so the distinction is not that all G proteins are exclusive to GPCR pathways."
+    },
+    {
+      "field": "questions.294.explanation",
+      "value": "An activating PI3K mutation can increase PIP₃-dependent recruitment of Akt and PDK1 to the membrane. PDK1 and mTORC2 provide regulatory phosphorylation of Akt, promoting survival and growth in an appropriate signaling context. GLUT4 translocation is relevant to muscle and adipose cells, not a universal tumor-cell response. C is the expected pathway-level outcome among these choices; it is not a guarantee of proliferation in every cell."
+    }
+  ]
+}

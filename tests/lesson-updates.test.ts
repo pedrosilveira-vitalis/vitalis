@@ -1,3 +1,23 @@
+import lesson45 from "./fixtures/lesson-45.json";
+import lesson46 from "./fixtures/lesson-46.json";
+import lesson47 from "./fixtures/lesson-47.json";
+import lesson48 from "./fixtures/lesson-48.json";
+import lesson49 from "./fixtures/lesson-49.json";
+import lesson50 from "./fixtures/lesson-50.json";
+import lesson51 from "./fixtures/lesson-51.json";
+import lesson52 from "./fixtures/lesson-52.json";
+import lesson53 from "./fixtures/lesson-53.json";
+import lesson54 from "./fixtures/lesson-54.json";
+import lesson55 from "./fixtures/lesson-55.json";
+import lesson56 from "./fixtures/lesson-56.json";
+import lesson57 from "./fixtures/lesson-57.json";
+import lesson58 from "./fixtures/lesson-58.json";
+import lesson59 from "./fixtures/lesson-59.json";
+import lesson60 from "./fixtures/lesson-60.json";
+import lesson61 from "./fixtures/lesson-61.json";
+import lesson62 from "./fixtures/lesson-62.json";
+import lesson63 from "./fixtures/lesson-63.json";
+import lesson64 from "./fixtures/lesson-64.json";
 import mendelian from "./fixtures/lesson-44.json";
 import eukRegulation from "./fixtures/lesson-43.json";
 import operons from "./fixtures/lesson-42.json";
@@ -43,6 +63,7 @@ import structure from "./fixtures/lesson-4.json";
 import classification from "./fixtures/lesson-5.json";
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { splitLessonForVisual } from "../lib/lesson-presentation";
 import { applyLessonUpdates } from "../lib/lesson-updates";
 
 test("review overlay fixes charge chemistry and the quiz answer together without mutating source", () => {
@@ -65,7 +86,7 @@ test("changed source is left untouched and not marked reviewed", (t) => {
   assert.equal(result.lesson.content, changed.lesson.content);
 });
 test("unreviewed lessons are left untouched", () => {
-  const other = { ...fixture.lesson, id: 45 };
+  const other = { ...fixture.lesson, id: 65 };
   assert.deepEqual(applyLessonUpdates(other, fixture.questions), { lesson: other, questions: fixture.questions, review: null });
 });
 
@@ -98,10 +119,15 @@ test("classification review removes second charge-loss answer and repairs A280 e
 
 test("each reviewed lesson has a distinct, accessible visual and valid quiz keys", () => {
   const paths = new Set<string>();
-  for (const source of [structure, classification, fixture, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation, mendelian]) {
-    const { review, questions } = applyLessonUpdates(source.lesson, source.questions);
+  for (const source of [structure, classification, fixture, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation, mendelian, lesson45, lesson46, lesson47, lesson48, lesson49, lesson50, lesson51, lesson52, lesson53, lesson54, lesson55, lesson56, lesson57, lesson58, lesson59, lesson60, lesson61, lesson62, lesson63, lesson64]) {
+    const { lesson, review, questions } = applyLessonUpdates(source.lesson, source.questions);
     assert.ok(review);
     paths.add(review.visual.src);
+    if ("beforeHeading" in review.visual && typeof review.visual.beforeHeading === "string") {
+      const parts=splitLessonForVisual(lesson.content,review.visual.beforeHeading);
+      assert.ok(parts[1], "Inline diagram heading must exist in the corrected lesson");
+      assert.equal(parts.join(""),lesson.content);
+    }
     assert.ok(review.visual.alt.length > 50);
     assert.ok(review.visual.title.length > 5);
     assert.ok(review.visual.width > 0 && review.visual.height > 0);
@@ -115,12 +141,12 @@ test("each reviewed lesson has a distinct, accessible visual and valid quiz keys
       assert.equal(new Set([q.choice_a, q.choice_b, q.choice_c, q.choice_d]).size, 4);
     }
   }
-  assert.equal(paths.size, 41);
+  assert.equal(paths.size, 61);
 });
 
 test("added, missing or duplicate questions invalidate review; changed order does not", (t) => {
   t.mock.method(console, "warn", () => {});
-  for (const source of [structure, classification, fixture, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation, mendelian]) {
+  for (const source of [structure, classification, fixture, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation, mendelian, lesson45, lesson46, lesson47, lesson48, lesson49, lesson50, lesson51, lesson52, lesson53, lesson54, lesson55, lesson56, lesson57, lesson58, lesson59, lesson60, lesson61, lesson62, lesson63, lesson64]) {
     const qs = source.questions;
     const variants = [qs.slice(1), [...qs, { ...qs[0], id: 99999 }], [...qs.slice(1), qs[1]]];
     for (const variant of variants) {
@@ -135,7 +161,7 @@ test("added, missing or duplicate questions invalidate review; changed order doe
 
 test("every guarded lesson and question field blocks a stale review when changed", (t) => {
   t.mock.method(console, "warn", () => {});
-  for (const source of [structure, classification, fixture, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation, mendelian]) {
+  for (const source of [structure, classification, fixture, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation, mendelian, lesson45, lesson46, lesson47, lesson48, lesson49, lesson50, lesson51, lesson52, lesson53, lesson54, lesson55, lesson56, lesson57, lesson58, lesson59, lesson60, lesson61, lesson62, lesson63, lesson64]) {
     for (const field of ["title", "content"] as const) {
       const changed = structuredClone(source);
       changed.lesson[field] += " changed";
@@ -398,3 +424,52 @@ test("eukaryotic regulation review separates SMN genes and RNA-decay mechanisms"
  assert.match(r.questions.find(q=>q.id===217)!.question_text,/no crossing over/);
  assert.match(r.questions.find(q=>q.id===218)!.explanation,/not 16 distinct genotypes/);
  });
+
+test("linkage and pedigree reviews keep conditional risks and corrected keys aligned", () => {
+ const linkage=applyLessonUpdates(lesson46.lesson,lesson46.questions);
+ assert.equal(linkage.questions.find(q=>q.id===230)!.correct_answer,"B");
+ assert.match(linkage.questions.find(q=>q.id===230)!.choice_b,/47.5%/);
+ assert.match(linkage.questions.find(q=>q.id===230)!.question_text,/Given that a child is a son/);
+ const pedigree=applyLessonUpdates(lesson48.lesson,lesson48.questions);
+ assert.equal(pedigree.questions.find(q=>q.id===238)!.correct_answer,"D");
+ assert.doesNotMatch(pedigree.questions.find(q=>q.id===238)!.question_text,/skips/);
+});
+test("mutation review repairs UV signature and specifies the observed splice product", () => {
+ const r=applyLessonUpdates(lesson49.lesson,lesson49.questions);
+ assert.equal(r.questions.find(q=>q.id===244)!.correct_answer,"B");
+ assert.match(r.questions.find(q=>q.id===244)!.choice_b,/C→T.*CC→TT/);
+ assert.match(r.questions.find(q=>q.id===243)!.question_text,/RNA sequencing/);
+});
+test("population reviews separate migration composition, genotype proportions and drift", () => {
+ const h=applyLessonUpdates(lesson51.lesson,lesson51.questions);
+ assert.match(h.questions.find(q=>q.id===252)!.choice_d,/same allele frequencies/);
+ assert.match(h.questions.find(q=>q.id===253)!.explanation,/2\/7/);
+ assert.match(h.questions.find(q=>q.id===254)!.choice_b,/do not prove/);
+ const e=applyLessonUpdates(lesson52.lesson,lesson52.questions);
+ assert.match(e.questions.find(q=>q.id===260)!.question_text,/0.10 in both/);
+ assert.equal(e.questions.find(q=>q.id===260)!.correct_answer,"C");
+});
+test("membrane reviews distinguish a pump's ongoing work and cargo-specific dissociation", () => {
+ const a=applyLessonUpdates(lesson55.lesson,lesson55.questions);
+ assert.match(a.questions.find(q=>q.id===274)!.explanation,/continue working during a spike/);
+ const t=applyLessonUpdates(lesson56.lesson,lesson56.questions);
+ assert.match(t.questions.find(q=>q.id===277)!.explanation,/apo-transferrin stays receptor-bound/);
+ assert.match(t.questions.find(q=>q.id===280)!.choice_c,/endolysosomes/);
+});
+test("signaling reviews fix GHK calculation and remove duplicate pertussis-toxin answers", () => {
+ const m=applyLessonUpdates(lesson57.lesson,lesson57.questions);
+ assert.match(m.questions.find(q=>q.id===285)!.explanation,/−0.35/);
+ const g=applyLessonUpdates(lesson59.lesson,lesson59.questions);
+ const q=g.questions.find(q=>q.id===291)!;
+ assert.equal(q.correct_answer,"C");
+ assert.match(q.choice_c,/fails to lower cAMP/);
+ assert.doesNotMatch(q.choice_a,/increased cAMP/i);
+});
+test("apoptosis and cardiac reviews retain experimental scope and correct electrical direction", () => {
+ const a=applyLessonUpdates(lesson62.lesson,lesson62.questions);
+ assert.match(a.questions.find(q=>q.id===310)!.question_text,/cultured cell line/);
+ assert.equal(a.questions.find(q=>q.id===310)!.correct_answer,"B");
+ const c=applyLessonUpdates(lesson64.lesson,lesson64.questions);
+ assert.match(c.questions.find(q=>q.id===316)!.choice_b,/mixed Na\+\/K\+/);
+ assert.match(c.questions.find(q=>q.id===319)!.choice_b,/epicardium toward endocardium/);
+});

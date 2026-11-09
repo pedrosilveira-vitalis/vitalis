@@ -1,0 +1,217 @@
+{
+  "lessonId": 60,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "a rapidly dividing embryonic cell may spend only minutes in G1, while a differentiated neuron may arrest in G1 (a state called **G0**) for years or permanently.",
+      "new": "some early embryonic cycles omit recognizable gap phases, while many differentiated cells leave the active cycle. Reversible quiescence (G0) is distinct from terminal differentiation.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9876/"
+    },
+    {
+      "field": "content",
+      "old": "beyond which the cell is committed to completing division regardless of external mitogenic signals",
+      "new": "after which progression is less dependent on continued mitogenic stimulation; DNA damage and other stresses can still interrupt the cycle",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9876/"
+    },
+    {
+      "field": "content",
+      "old": "Replication initiates at thousands of **origins of replication** simultaneously",
+      "new": "Replication initiates at many **origins of replication** in a regulated temporal program, rather than all origins firing simultaneously",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9876/"
+    },
+    {
+      "field": "content",
+      "old": "**DNA content** doubles from 2N (diploid) to 4N during S phase, though the cell remains diploid in terms of chromosome number until M phase.",
+      "new": "**DNA content** doubles from 2C to 4C during S phase; ploidy remains 2n. In a normal human somatic cell, 46 chromosomes become 92 sister chromatids, still counted as 46 duplicated chromosomes before anaphase.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9876/"
+    },
+    {
+      "field": "content",
+      "old": "two identical **sister chromatids** joined at the **centromere**",
+      "new": "two normally near-identical **sister chromatids**, held by cohesin along their lengths and especially at centromeres until segregation",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9876/"
+    },
+    {
+      "field": "content",
+      "old": "- Condenses chromatin in preparation for chromosome segregation",
+      "new": "- Prepares for mitotic chromosome condensation, which becomes prominent in prophase",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9876/"
+    },
+    {
+      "field": "content",
+      "old": "each with a 2N DNA content",
+      "new": "each normally with 2C DNA content and 2n ploidy",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9876/"
+    },
+    {
+      "field": "content",
+      "old": "followed by **cytokinesis**",
+      "new": "with **cytokinesis** overlapping late mitosis in many cells",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9876/"
+    },
+    {
+      "field": "content",
+      "old": "Phosphorylation of Rb by Cyclin D–CDK4/6 releases E2F, which then drives transcription of genes needed for S phase entry, including Cyclin E.",
+      "new": "Cyclin D–CDK4/6 participates in Rb regulation and G1 progression. Rb phosphorylation is site- and context-dependent: early monophosphorylated forms can retain E2F repression, whereas extensive phosphorylation is associated with loss of that repression.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24876129/"
+    },
+    {
+      "field": "content",
+      "old": "This complex is also required for firing origins of replication.",
+      "new": "Cyclin E–CDK2 helps initiate the normal G1/S program; other CDK activities can compensate in some cells, so it is not universally indispensable.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26824/"
+    },
+    {
+      "field": "content",
+      "old": "and is required for DNA replication initiation and elongation",
+      "new": "and contributes to replication control while helping prevent re-replication",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26824/"
+    },
+    {
+      "field": "content",
+      "old": "a complex of Cyclin H and CDK7",
+      "new": "a complex containing Cyclin H, CDK7 and MAT1",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26824/"
+    },
+    {
+      "field": "content",
+      "old": "active in late G1 and S phase",
+      "new": "with substrate selection controlled by F-box proteins and substrate phosphorylation, rather than activity confined to a single phase",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26824/"
+    },
+    {
+      "field": "content",
+      "old": "active from anaphase through G1",
+      "new": "active in mitosis and G1, with substrate timing controlled by its coactivators and checkpoint signals",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26856/"
+    },
+    {
+      "field": "content",
+      "old": "The key sensors are **ATM**",
+      "new": "Upstream damage-recognition complexes activate signaling kinases including **ATM**",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26856/"
+    },
+    {
+      "field": "content",
+      "old": "preventing its interaction with **MDM2**",
+      "new": "helping reduce inhibitory regulation by **MDM2**",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26856/"
+    },
+    {
+      "field": "content",
+      "old": "Once all kinetochores are attached and under tension, MCC production ceases.",
+      "new": "When productive attachments silence kinetochore checkpoint signaling, MCC production falls.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2557037/"
+    },
+    {
+      "field": "content",
+      "old": "**Tension vs. attachment:** An important nuance is that the SAC is satisfied by *tension* across the kinetochore, not merely by microtubule attachment. Syntelic attachments (both kinetochores attached to the same pole) can satisfy the attachment requirement but do not generate tension. The kinase **Aurora B** detects lack of tension and destabilizes improper attachments, allowing the checkpoint to re-engage until biorientation is achieved.",
+      "new": "**Tension vs. attachment:** Stable kinetochore–microtubule attachment is central to SAC silencing. Tension helps stabilize correct biorientation and regulate Aurora B–dependent error correction; it is not a simple independent requirement that replaces attachment sensing. Some incorrect attachments, notably merotelic ones, can escape checkpoint detection. Consequently, a silenced SAC is not proof that every attachment is error-free.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2557037/"
+    },
+    {
+      "field": "content",
+      "old": "Cells treated with taxol activate the SAC and arrest in mitosis, eventually undergoing apoptosis—this is the basis for taxol's use as a chemotherapy agent.",
+      "new": "Taxol can activate the SAC and prolong mitosis, but cell fate depends on dose and context: apoptosis, mitotic slippage and abnormal division are possible outcomes.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2557037/"
+    },
+    {
+      "field": "content",
+      "old": "- Cyclin D–CDK4/6 phosphorylates Rb at multiple sites\n- Partially phosphorylated Rb releases E2F",
+      "new": "- Cyclin D–CDK4/6 initiates context-dependent Rb regulation\n- A single phosphate is not synonymous with complete E2F release; site-specific and multisite regulation matter",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/30982746/"
+    },
+    {
+      "field": "content",
+      "old": "- Once Rb is hyperphosphorylated, E2F-driven transcription is irreversible—this is the molecular basis of the restriction point",
+      "new": "- Feedback helps sustain the G1/S program, but phosphorylation and E2F repression are reset later; DNA-damage responses can still restrain progression",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26856/"
+    },
+    {
+      "field": "content",
+      "old": "*Terminally differentiated* cells (neurons, skeletal muscle fibers, cardiac muscle cells) are permanently withdrawn from the cell cycle and cannot re-enter under normal physiological conditions. This is why heart attacks and strokes cause permanent tissue loss.",
+      "new": "Many mature neurons and skeletal muscle fibers have extremely limited proliferative capacity. Adult human cardiomyocytes show low but measurable renewal, insufficient to replace major injury. Tissue loss therefore reflects inadequate regeneration, not a universal absolute absence of new cardiac cells.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/26073943/"
+    },
+    {
+      "field": "content",
+      "old": "DNA content doubles from 2N to 4N",
+      "new": "DNA content doubles from 2C to 4C while ploidy remains 2n",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9876/"
+    },
+    {
+      "field": "content",
+      "old": "Phosphorylates Rb → releases E2F → G1 progression",
+      "new": "Regulates Rb phosphorylation and G1 progression; the outcome depends on phosphorylation state",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24876129/"
+    },
+    {
+      "field": "content",
+      "old": "Stabilizes microtubules → activates SAC → mitotic arrest → apoptosis",
+      "new": "Suppresses microtubule dynamics → can prolong mitosis; subsequent cell fate varies",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2557037/"
+    },
+    {
+      "field": "content",
+      "old": "*Answer:* Without p21, DNA damage cannot inhibit CDK2 activity through the p53 pathway. Even if p53 is activated and transcribes the p21 gene, no p21 protein is produced. Cyclin E–CDK2 and Cyclin A–CDK2 remain active, the G1/S checkpoint fails to arrest the cell, and replication of damaged DNA proceeds. This cell is at high risk for accumulating mutations and undergoing malignant transformation—illustrating why *CDKN1A* (the p21 gene) functions as a tumor suppressor.",
+      "new": "*Answer:* Deleting the p21-coding gene eliminates p21 protein, weakening p53-dependent inhibition of cyclin–CDK activity. A deleted gene cannot be transcribed. Other checkpoint branches (including Cdc25 regulation), alternative CDK inhibitors, senescence or apoptosis can still act. Therefore, impaired arrest is expected in susceptible cells, but checkpoint failure and cancer are not inevitable from this deletion alone.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26856/"
+    },
+    {
+      "field": "questions.298.question_text",
+      "old": "A mutation causes constitutive (always-on) phosphorylation of the retinoblastoma protein (Rb). How would this affect cell cycle progression?",
+      "new": "An engineered Rb variant cannot bind or repress E2F, mimicking the loss of repression associated with extensive Rb phosphorylation. With other growth requirements met, which immediate outcome is most likely?",
+      "reason": "Avoid treating any phosphorylation as inactivation.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24876129/"
+    },
+    {
+      "field": "questions.298.choice_b",
+      "old": "Cells would proliferate uncontrollably because E2F transcription factors would be permanently released.",
+      "new": "E2F-dependent S-phase transcription increases, weakening the G1/S brake.",
+      "reason": "Do not equate one lesion with guaranteed uncontrolled proliferation.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24876129/"
+    },
+    {
+      "field": "questions.298.explanation",
+      "old": "Hypophosphorylated Rb sequesters E2F transcription factors, preventing S-phase gene expression and acting as a brake on proliferation. Cyclin D-CDK4/6 normally phosphorylates Rb to release E2F. If Rb is constitutively phosphorylated (mimicking always-active CDK signaling), E2F is permanently free to drive S-phase entry, leading to uncontrolled proliferation. Choice C is incorrect because released E2F promotes, not arrests, cell cycle progression.",
+      "new": "Rb normally restrains E2F-dependent transcription. The stated variant removes that restraint, favoring S-phase gene expression. This predicts loss of a regulatory brake, not inevitable cancer or unlimited cell division; other controls and resources still matter. A single phosphorylation event is not universally equivalent to this engineered loss of function.",
+      "reason": "Match corrected premise.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/24876129/"
+    },
+    {
+      "field": "questions.300.explanation",
+      "old": "DNA damage in G2 activates ATM/ATR kinases, which phosphorylate and activate Chk1 and Chk2. These checkpoint kinases phosphorylate Cdc25C phosphatase, targeting it for degradation or cytoplasmic sequestration. Without Cdc25C, the inhibitory phosphates on CDK1 cannot be removed, CDK1-cyclin B (MPF) remains inactive, and the cell arrests in G2 to allow repair before mitosis. Choice A describes the G1/S checkpoint response, which is relevant to G1 damage, not G2 damage.",
+      "new": "DNA damage in G2 activates checkpoint signaling that restrains Cdc25 phosphatases and supports inhibitory phosphorylation of CDK1. Cdc25C can be inhibited and sequestered through phosphorylation and 14-3-3 binding; degradation is particularly associated with Cdc25A in damage responses. This keeps cyclin B–CDK1 from triggering mitotic entry while repair is attempted. C is the best simplified pathway among the options.",
+      "reason": "Distinguish Cdc25 paralog regulation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26856/"
+    }
+  ]
+}

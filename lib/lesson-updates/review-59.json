@@ -1,0 +1,182 @@
+{
+  "lessonId": 59,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "The extracellular loops and N-terminus form the ligand-binding domain, while the intracellular loops and C-terminus interact with heterotrimeric G proteins.",
+      "new": "Ligand-binding sites vary: many small ligands bind within the transmembrane bundle, while larger ligands contact extracellular domains. Cytoplasmic receptor surfaces couple to heterotrimeric G proteins.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10989/"
+    },
+    {
+      "field": "content",
+      "old": "GTP binding causes Gα to dissociate from Gβγ, and both components can now independently activate downstream effectors.",
+      "new": "GTP binding rearranges the heterotrimer and permits Gα and Gβγ to regulate effectors; complete physical dissociation is not obligatory in every system.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "Drugs like **caffeine** and **theophylline** work by inhibiting PDEs, prolonging cAMP signaling.",
+      "new": "Caffeine’s usual stimulant action mainly reflects adenosine-receptor antagonism; PDE inhibition occurs at higher concentrations. Theophylline has several mechanisms, including PDE inhibition.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK519490/"
+    },
+    {
+      "field": "content",
+      "old": "It recruits and activates **PKC**, which requires both DAG and Ca²⁺ for full activation.",
+      "new": "It recruits DAG-sensitive PKCs. Conventional PKCs also require Ca²⁺, novel PKCs do not, and atypical PKCs respond to neither DAG nor Ca²⁺.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54587/"
+    },
+    {
+      "field": "content",
+      "old": "constitutively activate PKC, making them potent tumor promoters—a pharmacology point the MCAT has tested.",
+      "new": "activate DAG-sensitive PKCs acutely; prolonged exposure can downregulate these enzymes. Tumor promotion is context-dependent and does not mean all PKC activity is oncogenic.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54587/"
+    },
+    {
+      "field": "content",
+      "old": "Most RTKs exist as monomers in the resting state.",
+      "new": "A common RTK activation model starts with separated monomers, although pre-existing dimers or oligomers occur.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10989/"
+    },
+    {
+      "field": "content",
+      "old": "phosphorylates transcription factors (e.g., **Elk-1**, **c-Fos**, **c-Jun**)",
+      "new": "regulates transcription factors such as **Elk-1** and **c-Fos** (c-Jun is classically associated with the JNK branch)",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "(~30% of all cancers)",
+      "new": "(with prevalence varying substantially by cancer type)",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "locking Ras in the constitutively active GTP-bound state",
+      "new": "favoring persistent Ras-GTP signaling; individual oncogenic variants differ in cycling and regulatory sensitivity",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "**TSC1/TSC2** complex (a GAP for Rheb)",
+      "new": "**TSC2** within the TSC complex (whose GAP activity acts on Rheb)",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "- One Gαs can activate many adenylyl cyclase molecules",
+      "new": "- Gαs stimulates adenylyl cyclase while bound; catalytic production of many cAMP molecules provides amplification",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "| Second Messenger | Produced By | Activated By | Degraded By |",
+      "new": "| Second Messenger | Source | Upstream stimulus | Clearance / inactivation |",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "| DAG | PLC-β or PLC-γ | Gαq, RTKs | DAG lipase |",
+      "new": "| DAG | PLC-β or PLC-γ | Gαq, RTKs | DAG kinases and lipases |",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "| Ca²⁺ | Released from ER | IP₃ | SERCA pumps, plasma membrane Ca²⁺-ATPase |",
+      "new": "| Ca²⁺ | ER release or extracellular influx | IP₃ and other channel regulators | Sequestration/export, including SERCA and PMCA; Ca²⁺ is not chemically degraded |",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "Ligand binding causes receptor dimerization, bringing two JAKs into proximity for trans-phosphorylation and activation.",
+      "new": "Ligand binding induces assembly or rearrangement of receptor complexes, enabling associated JAKs to become activated. Some receptor chains are already associated before ligand binding.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "content",
+      "old": "act on surface receptors (RTKs or GPCRs)",
+      "new": "act predominantly on surface receptors, including RTKs, GPCRs, cytokine receptors and receptor guanylyl cyclases",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10989/"
+    },
+    {
+      "field": "content",
+      "old": "  - Insulin, IGF-1, EGF, PDGF: RTKs",
+      "new": "  - Insulin, IGF-1, EGF, PDGF: RTKs\n  - GH: cytokine-receptor/JAK-STAT signaling; ANP: receptor guanylyl cyclase",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10989/"
+    },
+    {
+      "field": "content",
+      "old": "and **thyroid hormones**: lipid-soluble → cross membrane → intracellular nuclear receptors → direct gene regulation",
+      "new": "commonly signal through intracellular nuclear receptors. **Thyroid hormones** also act through nuclear receptors but use membrane transporters, including MCT8, for cell entry",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16887882/"
+    },
+    {
+      "field": "questions.291.question_text",
+      "old": "A researcher treats cells with pertussis toxin, which ADP-ribosylates the alpha subunit of Gi proteins, locking them in their GDP-bound inactive state. Which of the following downstream effects would be expected in cells stimulated with a Gi-coupled receptor agonist after this treatment?",
+      "new": "A researcher treats cells with pertussis toxin, which prevents activation of Gi by its receptor. With the same adenylyl-cyclase stimulus in treated and untreated cells, what happens to the response to a Gi-coupled receptor agonist?",
+      "reason": "Specify comparison and remove two correct distractors.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "questions.291.choice_a",
+      "old": "Increased cAMP levels due to unopposed adenylyl cyclase activity",
+      "new": "Gi directly phosphorylates adenylyl cyclase more strongly after toxin treatment.",
+      "reason": "Remove duplicate correct choice A.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "questions.291.choice_c",
+      "old": "Increased cAMP levels due to inability of Gi to inhibit adenylyl cyclase",
+      "new": "The agonist fails to lower cAMP through Gi-mediated inhibition of adenylyl cyclase.",
+      "reason": "Make effect conditional on same stimulus.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "questions.291.explanation",
+      "old": "Gi normally inhibits adenylyl cyclase when activated, reducing cAMP. Pertussis toxin locks Gi in its inactive GDP-bound state, preventing it from inhibiting adenylyl cyclase even when the receptor is stimulated. This results in elevated cAMP because the inhibitory brake is removed. Choice A is tempting but incorrectly attributes the increase to unopposed Gs activity rather than the loss of Gi inhibition, which is the direct mechanism here.",
+      "new": "Gi normally reduces adenylyl-cyclase activity. Pertussis toxin prevents receptor-mediated activation of Gi, so the agonist loses this inhibitory effect under the stated matched conditions. It does not directly increase Gs activity or make Gi a protein kinase. Choice C describes the lost inhibitory response without assuming a particular absolute cAMP concentration.",
+      "reason": "Repair explanation that contradicted original A.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    },
+    {
+      "field": "questions.292.choice_b",
+      "old": "RTK activation involves ligand-induced dimerization and autophosphorylation of intracellular tyrosine residues",
+      "new": "A common RTK mechanism involves ligand-induced receptor association or rearrangement and tyrosine autophosphorylation.",
+      "reason": "Accommodate preformed insulin receptor.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10989/"
+    },
+    {
+      "field": "questions.292.explanation",
+      "old": "RTKs are single-pass transmembrane receptors that, upon ligand binding, dimerize and transphosphorylate each other on intracellular tyrosine residues, creating docking sites for adapter proteins. GPCRs are seven-pass receptors that work through heterotrimeric G proteins and second messengers like cAMP or IP3/DAG. Choice A is incorrect because G proteins are associated with GPCRs, not RTKs. Choice D is incorrect because cAMP is a GPCR-associated second messenger, not typically a primary RTK effector.",
+      "new": "RTKs have intrinsic tyrosine-kinase domains and commonly activate by receptor association or rearrangement followed by phosphorylation. Some, including the insulin receptor, are preformed dimers. GPCRs instead catalyze nucleotide exchange on heterotrimeric G proteins. RTKs also use small GTPases such as Ras downstream, so the distinction is not that all G proteins are exclusive to GPCR pathways.",
+      "reason": "Distinguish heterotrimeric G proteins from Ras.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10989/"
+    },
+    {
+      "field": "questions.294.explanation",
+      "old": "PI3K phosphorylates PIP2 to PIP3, which recruits and activates PDK1, leading to phosphorylation and activation of Akt. Active Akt promotes cell survival by phosphorylating and inactivating pro-apoptotic proteins, and promotes proliferation via mTOR activation. A constitutively active PI3K would continuously drive Akt activity, enhancing survival and proliferation characteristic of cancer. Choice A is the opposite effect; Akt normally inhibits apoptosis. Choice D is incorrect because Akt activation actually promotes GLUT4 translocation and glucose uptake.",
+      "new": "An activating PI3K mutation can increase PIP₃-dependent recruitment of Akt and PDK1 to the membrane. PDK1 and mTORC2 provide regulatory phosphorylation of Akt, promoting survival and growth in an appropriate signaling context. GLUT4 translocation is relevant to muscle and adipose cells, not a universal tumor-cell response. C is the expected pathway-level outcome among these choices; it is not a guarantee of proliferation in every cell.",
+      "reason": "Correct PDK1 activation and GLUT4 scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+    }
+  ]
+}

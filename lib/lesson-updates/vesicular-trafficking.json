@@ -1,0 +1,238 @@
+{
+  "lessonId": 56,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    276,
+    277,
+    278,
+    279,
+    280
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9897/",
+      "title": "The Cell: Protein sorting and transport"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34117107/",
+      "title": "Complement receptor 3 forms a compact high-affinity complex with iC3b"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3003311/",
+      "title": "Revisiting caveolin trafficking: the end of the caveosome"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18022370/",
+      "title": "LIMP-2 is a receptor for M6P-independent targeting of glucocerebrosidase"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1296/",
+      "title": "GeneReviews: Niemann-Pick disease type C"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1218/",
+      "title": "GeneReviews: HEXA disorders"
+    },
+    {
+      "url": "https://www.nature.com/articles/pr2003223",
+      "title": "Distribution of the IgG Fc receptor in the human fetal intestine"
+    }
+  ],
+  "visual": {
+    "beforeHeading": "Transcytosis and Specialized Transport",
+    "title": "Follow cargo; preserve membrane orientation",
+    "src": "/lesson-diagrams/vesicular-trafficking.svg",
+    "width": 900,
+    "height": 760,
+    "alt": "A cell-surface receptor enters a coated pit and reaches an early endosome. One arrow returns receptor to the plasma membrane; another takes cargo to a late endosome and lysosome. A separate ER-to-Golgi secretory path shows luminal cargo becoming extracellular after vesicle fusion.",
+    "caption": "Lumen stays topologically outside the cytosol. The diagram separates receptor recycling, cargo degradation and secretion; it does not imply every cargo follows the same route."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "4be6cb84221439d8a8c2d29d14ccddbd224d57d7f5a16e1d9ffc79e7bda34ca6"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "5a40e50361dfb2f2c26280b82a66e74ee86bd27cacb2c6e21958376525ddea64"
+    },
+    {
+      "field": "questions.276.question_text",
+      "sha256": "32fe348b777711168de5c38c9d952bafe800dc2510af4d2aadf2eab86a230f0f"
+    },
+    {
+      "field": "questions.276.choice_a",
+      "sha256": "9b979797e319c8e8cd2ce4aafe92fb69f25f5c9d517f39ae8048259e3431380a"
+    },
+    {
+      "field": "questions.276.choice_b",
+      "sha256": "ea966e1cdc45b2cd1b334205f9f1fd16d4a97672b0df37e159027a0568f9aefe"
+    },
+    {
+      "field": "questions.276.choice_c",
+      "sha256": "6fd2ca495bc278a1a667a88727de6de96e8171de3b6d63caa75966915d1518c2"
+    },
+    {
+      "field": "questions.276.choice_d",
+      "sha256": "481d56b2827764a63dc5c0f4781c174613329dff4b8c870349a227876eaa6e52"
+    },
+    {
+      "field": "questions.276.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.276.explanation",
+      "sha256": "160862525f74760bc625b237174654b860fd218fe551632cb6aca93d428b87ed"
+    },
+    {
+      "field": "questions.277.question_text",
+      "sha256": "050381e9de17c50bd3e4eb1c04061d282a5a5db09a627d41bcb9d4987b585520"
+    },
+    {
+      "field": "questions.277.choice_a",
+      "sha256": "f1f23ada534a7e40ae82370947da8193557c2b68f284e881eb9f87b57b82feb8"
+    },
+    {
+      "field": "questions.277.choice_b",
+      "sha256": "0c10fd12a872016bb1467ef441b474205b1cea9e98f78d8c5d0857e77f037a59"
+    },
+    {
+      "field": "questions.277.choice_c",
+      "sha256": "686200251119c17be2ac1d52095229544fd4ee2eba850ae32a43aa8cc0524bd3"
+    },
+    {
+      "field": "questions.277.choice_d",
+      "sha256": "5fffc5a4111ce5740390bcccc9b65fc1cdd828af2718063488869f6d7e19a520"
+    },
+    {
+      "field": "questions.277.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.277.explanation",
+      "sha256": "04bf377e3f62f9fe91787a2b730f2f2d3819f716dade08472a1151ab1edafda4"
+    },
+    {
+      "field": "questions.278.question_text",
+      "sha256": "ce9e5bb80fd5a6d311037439f8c0733a73de23021c24ea8f6b665b5dc45347d8"
+    },
+    {
+      "field": "questions.278.choice_a",
+      "sha256": "1b9ff249acb357dec7d94b5f1bbaca5cb1406eaecf8609b017107c6476909a44"
+    },
+    {
+      "field": "questions.278.choice_b",
+      "sha256": "5ea9b3f516b667fbb41c45840f97f274ef44a476087948fbbd120c29b38a25c1"
+    },
+    {
+      "field": "questions.278.choice_c",
+      "sha256": "f63b091f07e61b7140cf27fd8a28587e779e05f77d2c7d00332e88a0dfc6757b"
+    },
+    {
+      "field": "questions.278.choice_d",
+      "sha256": "fd91657924402965ae7a09facdc32a354f1e952272e532ad957629e642a7ad3c"
+    },
+    {
+      "field": "questions.278.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.278.explanation",
+      "sha256": "68f015c6d4292b308532441b605adf85a6abaf764d35f83262ce199cb6d551cf"
+    },
+    {
+      "field": "questions.279.question_text",
+      "sha256": "c142715defeb8a04dcd89fdf481a2c0133a1b56281c41a709a9cfa1e73a48201"
+    },
+    {
+      "field": "questions.279.choice_a",
+      "sha256": "035c825ca3242663823ef576f15101518dce012def4ec2194d8460522452e364"
+    },
+    {
+      "field": "questions.279.choice_b",
+      "sha256": "409cdcf8ef6e8b6da0267165dea253d1a48c4cc420da34b38cdbfa52966ecb9f"
+    },
+    {
+      "field": "questions.279.choice_c",
+      "sha256": "bd758759c8a464e206c8224f8f8334844423da3098a3d1abc894c45b872b16ca"
+    },
+    {
+      "field": "questions.279.choice_d",
+      "sha256": "879c219645480e9c997dc2ecc2d18e313c7ae8a1c7ddd668aee3bd28c58d1913"
+    },
+    {
+      "field": "questions.279.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.279.explanation",
+      "sha256": "9437df406ad58c557601b5e299a87b0dd0aeda86f2435adb4e9cda553a3b1424"
+    },
+    {
+      "field": "questions.280.question_text",
+      "sha256": "a2bff06b227be437ea70679a62269373aa212842da101ed5542c2d5e92918c4b"
+    },
+    {
+      "field": "questions.280.choice_a",
+      "sha256": "539af68c0c595a63eddcd0c955a89bbbc444bdf7d628c0ea4da4d3c5db656998"
+    },
+    {
+      "field": "questions.280.choice_b",
+      "sha256": "adf925440ea2cd2381bbb1fc3b3907f097e6238ac759e46c8ca07631b1ca4d9b"
+    },
+    {
+      "field": "questions.280.choice_c",
+      "sha256": "c9840a94181a1c9ed6732113888d60f34bcf8626bfe5ae5e70884323da474c5e"
+    },
+    {
+      "field": "questions.280.choice_d",
+      "sha256": "b92502fdef90ed3eaf48c014671c965b312654a5cd74ce39c4a4b0c8c662234b"
+    },
+    {
+      "field": "questions.280.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.280.explanation",
+      "sha256": "701b9ca3a89e44aa3ffcdd5b6f39e77355dbc4267679a312fb4142c1f8916091"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Bulk Transport: Endocytosis, Exocytosis, and Vesicular Trafficking\n\nThe plasma membrane presents a fundamental barrier to the movement of large molecules. While small, nonpolar compounds diffuse freely across the lipid bilayer and ions move through channels, macromolecules like proteins, polysaccharides, and even entire pathogens cannot cross the membrane by simple or facilitated diffusion. Cells solve this problem through **bulk transport**—a collection of energy-dependent processes that use membrane vesicles to import and export large cargo. Understanding these mechanisms is essential for the MCAT, where they appear in the context of receptor biology, immune function, hormone secretion, lysosomal storage diseases, and membrane dynamics.\n\n---\n\n## Foundational Concepts: Vesicular Transport and the Endomembrane System\n\nBefore examining specific pathways, it is worth establishing why vesicular transport is necessary and how it integrates with the cell's internal membrane architecture.\n\nThe **endomembrane system** includes the nuclear envelope, endoplasmic reticulum (ER), Golgi apparatus, lysosomes, endosomes, and the plasma membrane. The ER, Golgi, endosomes, lysosomes and plasma membrane exchange material through vesicular and tubular carriers. The nuclear envelope is continuous with the ER rather than being a routine vesicle destination. This continuous flow of membrane maintains compartment identity while allowing selective transfer of cargo.\n\nAll forms of bulk transport share several characteristics:\n- They require **ATP** (directly or indirectly through GTP-binding proteins and motor proteins).\n- They involve membrane deformation, budding, and fusion events.\n- Cargo can be specifically selected, but fluid-phase uptake can also sample extracellular material without selecting each solute.\n- Many pathways use coat proteins for budding and SNAREs for fusion, but neither coats nor one universal mechanism apply to every bulk-transport event.\n\nThe directionality of bulk transport matters. **Endocytosis** moves material *into* the cell; **exocytosis** moves material *out of* the cell. Both processes involve transient membrane intermediates and are tightly regulated.\n\n---\n\n## Endocytosis: Bringing Material Into the Cell\n\n**Endocytosis** is the process by which cells engulf extracellular material by invaginating the plasma membrane to form an intracellular vesicle. A useful broad division is phagocytosis of large particles versus pinocytic uptake of fluid and smaller cargo. Pinocytic routes include clathrin-mediated and several clathrin-independent mechanisms, including macropinocytosis.\n\n### Clathrin-Mediated Endocytosis\n\n**Clathrin-mediated endocytosis (CME)** is a well-characterized route of selective receptor uptake. It is the primary mechanism by which cells internalize specific receptor-ligand complexes, membrane proteins, and nutrients.\n\nThe process begins when extracellular ligands bind to specific **transmembrane receptors** on the cell surface. The cytoplasmic tails of these receptors contain sorting signals—short amino acid sequences, often including tyrosine-based motifs (YxxΦ) or dileucine motifs—that are recognized by **adaptor proteins** (AP2 complex). AP2 bridges the receptor tail to **clathrin**, a triskelion-shaped protein that polymerizes into a lattice on the cytoplasmic face of the membrane.\n\nAs clathrin assembles, it mechanically deforms the membrane inward, forming a **clathrin-coated pit**. The GTPase **dynamin** is recruited to the neck of the forming vesicle, where it oligomerizes and uses GTP hydrolysis to pinch off the vesicle from the plasma membrane. The result is a **clathrin-coated vesicle** approximately 100–150 nm in diameter.\n\nShortly after budding, the clathrin coat is rapidly disassembled by the ATPase **Hsc70** (heat shock cognate protein 70) and its cofactor **auxilin**, recycling clathrin back to the cytoplasm for future rounds of endocytosis.\n\nThe uncoated vesicle then fuses with an **early endosome**. The early endosome is a sorting station with a mildly acidic lumen (pH ≈ 6.0–6.5), maintained by a vacuolar H⁺-ATPase (V-ATPase) that pumps protons into the lumen at the cost of ATP. This acidification triggers conformational changes in many receptor-ligand complexes, causing ligand dissociation.\n\n**Classic example—LDL receptor pathway:**\n- LDL particles in the blood bind to **LDL receptors** on hepatocytes and other cells.\n- The receptor-LDL complex is internalized via CME.\n- In the early endosome (pH ~6.0), LDL dissociates from its receptor.\n- The LDL receptor is recycled back to the plasma membrane via recycling endosomes.\n- LDL is delivered to lysosomes, where cholesterol esters are hydrolyzed and free cholesterol is released for cellular use.\n- Loss-of-function mutations in the LDL receptor cause **familial hypercholesterolemia**, a condition tested frequently on the MCAT.\n\n**Receptor recycling versus degradation** is a critical decision made in the early endosome. Receptors destined for recycling (like the LDL receptor and transferrin receptor) are sorted into tubular extensions that bud off as **recycling endosomes** and return to the plasma membrane. Receptors destined for degradation (like activated EGF receptor) are ubiquitinated and sorted into **multivesicular bodies (MVBs)**, which are endosomes containing intraluminal vesicles and often mature toward late endosomes; the terms are related but not strict synonyms. MVBs ultimately fuse with lysosomes, exposing their contents to hydrolytic enzymes.\n\n### Phagocytosis\n\n**Phagocytosis** (\"cell eating\") is the engulfment of large particles—typically ≥0.5 µm—including bacteria, dead cells, and cellular debris. It is a specialized function performed primarily by **professional phagocytes**: macrophages, neutrophils, and dendritic cells, while some nonprofessional phagocytes also engulf particles; this is not an ability shared equally by all nucleated cells.\n\nThe process is fundamentally different from CME in scale and mechanism:\n\n1. **Recognition:** Phagocytes recognize targets through surface receptors. **Fc receptors** bind antibodies coating pathogens (opsonization with IgG); **complement receptors** recognize opsonins: CR3 prominently recognizes iC3b, whereas CR1 recognizes C3b; **pattern recognition receptors** contribute recognition and signaling. Scavenger receptors can mediate uptake; TLR signaling can modulate phagocytosis without itself supplying the main engulfment receptor.\n\n2. **Signaling:** Receptor engagement activates intracellular signaling cascades involving **Rho family GTPases** (Rac, Cdc42, RhoA) and **PI3-kinase**, leading to local actin polymerization.\n\n3. **Pseudopod extension:** The actin cytoskeleton drives the extension of **pseudopods** that surround and engulf the target in a \"zipper\" mechanism—receptors sequentially engage ligands along the particle surface, ensuring complete engulfment.\n\n4. **Phagosome formation:** The pseudopods fuse, enclosing the particle in a **phagosome** (up to several micrometers in diameter).\n\n5. **Phagolysosome formation:** The phagosome fuses with lysosomes to form a **phagolysosome**, where the engulfed material is destroyed. Macrophages also produce reactive oxygen species (ROS) through the **NADPH oxidase** complex (respiratory burst) and nitric oxide to kill pathogens.\n\nPhagocytosis is *not* a constitutive process—it requires specific receptor engagement. Its energy use depends on particle size and the machinery engaged; a universal energetic comparison with CME is not justified. On the MCAT, phagocytosis is most commonly tested in the context of the innate immune response and antigen presentation (macrophages and dendritic cells phagocytose pathogens and present peptide fragments on MHC II to helper T cells).\n\n### Pinocytosis\n\n**Pinocytosis** (\"cell drinking\") refers to the non-selective or semi-selective uptake of extracellular fluid and small solutes. Several distinct mechanisms fall under this umbrella:\n\n**Macropinocytosis** involves the formation of large, irregular vesicles (0.2–5 µm) called **macropinosomes** through actin-driven ruffling of the plasma membrane. It is largely non-selective and allows cells to sample the extracellular environment. Dendritic cells use macropinocytosis extensively to survey their surroundings for antigens.\n\n**Caveolae** are small flask-shaped plasma-membrane invaginations assembled with caveolins and cavins, abundant in certain endothelial cells, adipocytes and muscle cells. They participate in membrane-tension buffering and can internalize selected cargo. Uptake and destination depend on cell and cargo. The older idea of a distinct, obligatory “caveosome” compartment should not be presented as established; caveolar carriers can communicate with conventional endosomes.\n\n---\n\n## Endosomal Sorting and Lysosomal Degradation\n\nThe **endolysosomal system** is the cell's main degradative pathway for endocytosed material. Understanding the pH gradient along this pathway is critical:\n\n- Early endosome: pH 6.0–6.5\n- Late endosome/MVB: pH 5.5–6.0\n- Lysosome: pH 4.5–5.0\n\nThis progressive acidification is driven by V-ATPases and is essential for:\n- Ligand-receptor dissociation\n- Activation of lysosomal hydrolases (which are optimally active at low pH)\n- Membrane targeting (mannose-6-phosphate receptors deliver lysosomal enzymes to lysosomes and release them at late endosome pH)\n\n**Lysosomes** contain over 60 different hydrolytic enzymes capable of degrading virtually all biological macromolecules: proteases (cathepsins), lipases, glycosidases, nucleases, phosphatases, and sulfatases. Many soluble lysosomal hydrolases enter the ER and receive mannose-6-phosphate targeting information in the Golgi. M6P receptors direct them toward endosomes. Not all lysosomal proteins use that route: glucocerebrosidase is delivered by LIMP-2 through an M6P-independent mechanism.\n\n**Lysosomal storage diseases** can arise from defects in enzymes, transporters, activators or trafficking proteins, causing accumulation of undigested substrates. Key examples for the MCAT:\n- **Gaucher disease:** Deficiency of glucocerebrosidase → accumulation of glucocerebroside in macrophages. Its frequency depends on the population studied.\n- **Tay-Sachs disease:** Deficiency of hexosaminidase A → accumulation of GM2 ganglioside in neurons. The severe infantile form causes early neurodegeneration; juvenile and later-onset forms also occur.\n- **Acid sphingomyelinase deficiency** (historically Niemann-Pick A/B): impaired sphingomyelin breakdown. **Niemann-Pick C** instead involves NPC1/NPC2-dependent intracellular lipid trafficking, including cholesterol handling.\n- **Hurler syndrome (MPS I):** Deficiency of α-L-iduronidase → accumulation of glycosaminoglycans.\n\nI-cell disease (**mucolipidosis II**) is a particularly instructive example: a deficiency in the enzyme that adds M6P tags to lysosomal proteins means that lysosomal enzymes are secreted extracellularly rather than delivered to lysosomes. Many hydrolases are mistargeted and substrates accumulate. This is a targeting defect rather than a mutation in every hydrolase gene; residual and M6P-independent lysosomal functions can remain.\n\n---\n\n## Exocytosis: Secreting Material from the Cell\n\n**Exocytosis** is the process by which intracellular vesicles fuse with the plasma membrane and release their contents into the extracellular space. It serves multiple functions: secretion of hormones, neurotransmitters, and digestive enzymes; delivery of membrane proteins and lipids to the plasma membrane; and removal of material from lysosomes.\n\nThere are two major pathways of exocytosis: constitutive and regulated.\n\n### Constitutive Exocytosis\n\n**Constitutive exocytosis** is ongoing in many cells with a functional secretory pathway without requiring a specific trigger. It is the default pathway for secretory proteins and membrane components processed through the ER-Golgi pathway. Proteins that lack specific retention or diversion signals travel through the secretory pathway and are delivered to the plasma membrane or extracellular space by default.\n\nThis pathway is responsible for:\n- Continuous secretion of extracellular matrix components (collagen, fibronectin)\n- Delivery of newly synthesized receptors and transporters to the plasma membrane\n- Basal secretion of many signaling molecules\n\n### Regulated Exocytosis\n\n**Regulated exocytosis** is stimulus-dependent, often triggered by an increase in cytosolic Ca²⁺. The trigger can involve electrical activity, metabolism or extracellular receptor signaling. It is characteristic of specialized secretory cells and is the mechanism underlying neurotransmitter release, hormone secretion, and degranulation of immune cells.\n\nIn regulated exocytosis, secretory products are stored in **secretory vesicles** (also called secretory granules) until a signal triggers fusion. The key steps are:\n\n1. **Vesicle docking:** Secretory vesicles are transported along cytoskeletal tracks (microtubules via kinesin/dynein, actin filaments via myosin) to the plasma membrane, where they dock in a process mediated by **Rab GTPases** and their effectors.\n\n2. **Priming:** Vesicles undergo ATP-dependent priming reactions that prepare them for rapid fusion. This involves partial SNARE complex assembly and phosphoinositide metabolism.\n\n3. **Triggering:** An increase in cytoplasmic Ca²⁺ (typically from 100 nM resting to 10–100 µM near active zones) is sensed by **synaptotagmin**, a Ca²⁺-sensing protein on the vesicle membrane.\n\n4. **Fusion:** Ca²⁺-bound synaptotagmin relieves inhibitory clamps and promotes full **SNARE complex** assembly, driving membrane fusion.\n\n### SNARE Proteins: The Fusion Machinery\n\n**SNARE proteins** (Soluble NSF Attachment protein REceptors) are central to fusion in the endomembrane trafficking system. Mitochondrial fusion uses a different machinery, so “all intracellular fusion” is too broad. They come in two classes:\n- **v-SNAREs** (a location-based term; neuronal synaptobrevin is an R-SNARE): on the vesicle membrane. The prototypical v-SNARE is **synaptobrevin** (VAMP) in neurons.\n- **t-SNAREs** (a location-based term; neuronal syntaxin/SNAP-25 supply Q-SNARE helices): on the target membrane. These include **syntaxin** and **SNAP-25** at the neuronal plasma membrane.\n\nThe Q/R classification refers to conserved residues and is not strictly interchangeable with vesicle/target location. When a vesicle approaches its target membrane, the v-SNARE and t-SNAREs on the opposing membranes interact, \"zippering\" together from their N-termini toward their C-terminal membrane anchors. This **trans-SNARE complex** (or SNAREpin) generates the mechanical force needed to overcome the energy barrier of membrane fusion, bringing the two bilayers into close apposition and ultimately merging them.\n\nAfter fusion, the *cis*-SNARE complex (now on the same membrane) is disassembled by the ATPase **NSF** (N-ethylmaleimide-sensitive factor) and its cofactor **α-SNAP**, recycling the SNARE proteins for subsequent rounds of fusion.\n\n**Clostridial neurotoxins** (botulinum toxin and tetanus toxin) are zinc-dependent proteases that cleave specific SNARE proteins, blocking neurotransmitter release. Botulinum toxin cleaves synaptobrevin, SNAP-25, or syntaxin (depending on the serotype), causing flaccid paralysis. Tetanus toxin cleaves synaptobrevin in inhibitory interneurons, causing spastic paralysis. These are classic MCAT examples of how disrupting vesicular trafficking has profound physiological consequences.\n\n### Rab GTPases: Directing Vesicle Traffic\n\nEach membrane compartment in the cell has a characteristic set of **Rab GTPases** that serve as molecular address labels. Over 60 Rab proteins exist in humans, each associated with a specific compartment:\n- **Rab5:** early endosomes\n- **Rab7:** late endosomes/lysosomes\n- **Rab11:** recycling endosomes\n- **Rab3:** synaptic vesicles\n- **Rab1:** ER-to-Golgi transport\n\nRabs cycle between an active GTP-bound state (membrane-associated, recruits effectors) and an inactive GDP-bound state that can be extracted from membranes by GDP-dissociation inhibitor (GDI). **GEFs** (guanine nucleotide exchange factors) activate Rabs; **GAPs** (GTPase-activating proteins) inactivate them. Rab effectors include tethering factors, motor proteins, and SNARE regulators that collectively ensure vesicles reach the correct destination.\n\n---\n\n## The Secretory Pathway: From ER to Plasma Membrane\n\nTo fully appreciate exocytosis, it is important to understand the **secretory pathway** that produces secretory vesicles.\n\n1. **Synthesis:** Secretory proteins are synthesized on ribosomes bound to the **rough ER**. A signal sequence on the nascent peptide directs it into the ER lumen cotranslationally. In the ER, proteins are folded (assisted by chaperones like BiP/GRP78), disulfide bonds form, and N-linked glycosylation begins.\n\n2. **ER to Golgi:** Properly folded proteins exit the ER in **COPII-coated vesicles** from ER exit sites (ERES). COPII coat proteins (Sec23/24 for cargo selection, Sec13/31 for coat structure) are recruited by the small GTPase **Sar1**.\n\n3. **Golgi processing:** Proteins transit through the Golgi stack (cis → medial → trans) where glycans are trimmed and modified, and additional modifications (O-linked glycosylation, phosphorylation, sulfation) occur. The **trans-Golgi network (TGN)** is the main sorting station where proteins are directed to their final destinations.\n\n4. **TGN sorting:** From the TGN, proteins are sorted into different vesicles:\n   - Default pathway → constitutive secretory vesicles → plasma membrane\n   - M6P-tagged proteins → late endosomes/lysosomes\n   - Regulated secretory proteins → secretory granules (stored until signal)\n\nRetrograde transport (from Golgi back to ER, or from later Golgi cisternae to earlier ones) is mediated by **COPI-coated vesicles**, which retrieve ER-resident proteins bearing KDEL (for soluble proteins) or KKXX (for membrane proteins) retrieval sequences.\n\n---\n\n## Transcytosis and Specialized Transport\n\n**Transcytosis** is a specialized form of vesicular transport in which material is endocytosed on one side of a polarized cell and exocytosed on the opposite side. This is critical in:\n\n- **Intestinal epithelial cells:** IgA antibodies are transcytosed from the basolateral to apical surface for secretion into the intestinal lumen.\n- **Endothelial cells:** Albumin and other plasma proteins are transcytosed across the blood vessel wall. Caveolae are particularly important here.\n- **Neonatal Fc receptor (FcRn):** Maternal IgG transport across neonatal intestine is especially important in rodents. In humans, prenatal transfer across the placenta is the major source of systemic maternal IgG; do not transfer the rodent intestinal model directly to human newborns.\n\n---\n\n## Receptor-Mediated Endocytosis: Additional Examples\n\nThe MCAT tests several specific examples of receptor-mediated endocytosis beyond LDL:\n\n**Transferrin receptor pathway:** Transferrin (iron-carrying protein) binds its receptor at neutral pH, is internalized via CME, and releases iron in the acidic endosome. Uniquely, both transferrin and its receptor are recycled back to the cell surface—the receptor for another round, and apo-transferrin (iron-free) which dissociates at neutral extracellular pH.\n\n**Insulin receptor:** Insulin binding triggers receptor internalization via CME, which changes receptor location and allows recycling or degradation; internalized receptors can also signal from endosomes, so internalization is not synonymous with immediate signal termination. Chronic high insulin levels downregulate receptor number (receptor downregulation), contributing to insulin resistance.\n\n**Viral entry:** Many viruses exploit endocytic pathways to enter cells. Influenza virus binds sialic acid residues and is internalized via CME. In the acidic endosome, the viral hemagglutinin undergoes a conformational change that triggers membrane fusion between the viral envelope and the endosomal membrane, releasing the viral genome into the cytoplasm. SARS-CoV-2 can enter cells via endocytosis as an alternative to direct plasma membrane fusion.\n\n---\n\n## Energy Requirements and Regulation\n\nAll forms of bulk transport are **energy-dependent**. The energy costs come from multiple sources:\n\n- **Direct ATP hydrolysis:** Clathrin uncoating (Hsc70), SNARE disassembly (NSF), V-ATPase proton pumping, actin polymerization (via ATP-actin)\n- **GTP hydrolysis:** Dynamin (vesicle scission), Rab GTPases (vesicle targeting), Sar1/Arf1 (coat assembly)\n- **Ion gradients:** The proton gradient across endosomal membranes (maintained by V-ATPase) drives pH-dependent sorting\n\nBulk transport is regulated at multiple levels:\n- **Receptor availability:** Receptor number on the cell surface determines endocytic capacity. Receptors can be upregulated (increased synthesis) or downregulated (increased degradation after internalization).\n- **Phosphoinositides:** Different phosphoinositide species (PI(4,5)P₂ at the plasma membrane, PI3P on early endosomes, PI(3,5)P₂ on late endosomes) recruit specific effector proteins that coordinate vesicle formation and fusion at each stage.\n- **Ubiquitination:** Ubiquitination, including mono- and appropriate polyubiquitin signals, can direct their sorting into MVBs for lysosomal degradation rather than recycling.\n\n---\n\n## MCAT High-Yield Summary\n\nThe following points represent the most heavily tested aspects of bulk transport on the MCAT:\n\n**Clathrin-mediated endocytosis:**\n- Requires clathrin, AP2 adaptor, and dynamin (GTPase for scission)\n- Key example: LDL receptor recycling; familial hypercholesterolemia from LDL receptor mutation\n- Acidic endosome (pH 6.0–6.5) dissociates ligand from receptor\n\n**Phagocytosis:**\n- Large particles (bacteria, dead cells); performed by macrophages, neutrophils, dendritic cells\n- Requires actin polymerization; Fc receptors and complement receptors trigger uptake\n- Phagolysosome formation; respiratory burst (NADPH oxidase) kills pathogens\n- Dendritic cells present antigens on MHC II after phagocytosis → adaptive immunity\n\n**Lysosomes and storage diseases:**\n- pH 4.5–5.0; V-ATPase maintains acidity\n- M6P tag directs lysosomal enzymes from Golgi to lysosomes\n- Tay-Sachs (hexosaminidase A), Gaucher (glucocerebrosidase), I-cell disease (M6P tagging enzyme deficiency)\n\n**Exocytosis:**\n- Constitutive (ongoing in secretory-pathway-competent cells) vs. regulated (signal-triggered, Ca²⁺-dependent)\n- SNARE proteins (v-SNARE + t-SNARE) mediate membrane fusion\n- Botulinum toxin cleaves SNAREs → flaccid paralysis; tetanus toxin → spastic paralysis\n- Rab GTPases direct vesicles to correct target membranes\n\n**Secretory pathway:**\n- ER → COPII vesicles → Golgi (cis to trans) → TGN sorting → destination\n- COPI vesicles for retrograde transport; KDEL retrieval signal for ER-resident proteins\n\n**Transcytosis:**\n- Endocytosis on one face, exocytosis on opposite face of polarized cells\n- IgA secretion across intestinal epithelium; maternal IgG transfer across human placenta and neonatal rodent intestine\n\nMastering bulk transport requires integrating membrane biology, cell signaling, and pathophysiology. The MCAT rewards students who can move fluidly between molecular mechanisms (which proteins are involved and why) and clinical consequences (what happens when these pathways fail). Whether it is a passage on cholesterol metabolism, a question about immune cell function, or a scenario involving a toxin that blocks neurotransmitter release, the underlying principles of vesicular trafficking provide the explanatory framework."
+    },
+    {
+      "field": "questions.276.choice_c",
+      "value": "Actin-driven macropinocytosis of extracellular fluid without clathrin-coated pits"
+    },
+    {
+      "field": "questions.276.explanation",
+      "value": "LDL receptor uptake is a classic clathrin-dependent pathway. Actin-driven phagocytosis and the specified macropinocytosis route do not require clathrin-coated pits; rapid neurotransmitter release uses Ca²⁺-regulated SNARE-mediated fusion. Some fluid uptake can accompany CME, which is why the alternative specifies a clathrin-independent route."
+    },
+    {
+      "field": "questions.277.explanation",
+      "value": "In the LDL pathway, lower endosomal pH promotes LDL release from its receptor, enabling receptor recycling while LDL proceeds toward degradation. This is not universal for all ligands: iron is released from transferrin in the endosome, but apo-transferrin stays receptor-bound until return to the neutral cell surface."
+    },
+    {
+      "field": "questions.277.question_text",
+      "value": "After LDL-receptor complexes enter an early endosome, what does acidification directly promote in the classic LDL uptake pathway?"
+    },
+    {
+      "field": "questions.279.explanation",
+      "value": "Glucose metabolism raises the ATP/ADP ratio, closes ATP-sensitive K⁺ channels, depolarizes the β-cell and opens voltage-gated Ca²⁺ channels. Ca²⁺ sensors including synaptotagmins promote SNARE-mediated granule fusion. Clathrin participates in other trafficking steps, but coat disassembly is not the immediate trigger for insulin-granule fusion."
+    },
+    {
+      "field": "questions.280.choice_c",
+      "value": "Fuse late endosomes with lysosomes to form degradative endolysosomes"
+    },
+    {
+      "field": "questions.280.explanation",
+      "value": "The observed failure is late-endosome–lysosome fusion, normally coordinated by trafficking regulators, tethers and SNAREs. A phagolysosome instead derives from a phagosome. Accumulated undegraded material alone would not prove a fusion defect, because defective enzymes or acidification can also cause it; this question supplies the distinguishing observations."
+    },
+    {
+      "field": "questions.280.question_text",
+      "value": "Endocytosed cargo reaches late endosomes in a mutant cell, and lysosomal enzymes are active, but the two compartments fail to merge. Which defect most directly explains the resulting undegraded cargo?"
+    }
+  ]
+}

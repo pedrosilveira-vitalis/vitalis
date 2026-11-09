@@ -1,0 +1,196 @@
+{
+  "lessonId": 57,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Every living cell maintains an electrical potential difference across its plasma membrane.",
+      "new": "Most living cells maintain an electrical potential difference across their plasma membrane; its magnitude depends on cell type and physiological state.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK11102/"
+    },
+    {
+      "field": "content",
+      "old": "ΔG = RT ln([ion]_in / [ion]_out)",
+      "new": "ΔG_chemical(out → in) = RT ln([ion]_in / [ion]_out)",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK11102/"
+    },
+    {
+      "field": "content",
+      "old": "where z is the valence of the ion (e.g., +1 for Na⁺, +2 for Ca²⁺, −1 for Cl⁻), F is Faraday's constant (96,485 C/mol), and V is the membrane potential.",
+      "new": "Here the transfer direction is outside → inside. z is valence, F is Faraday’s constant, and V = ψ_inside − ψ_outside. Concentrations approximate activities in these introductory calculations.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK11102/"
+    },
+    {
+      "field": "content",
+      "old": "Before diving into equations, you need to memorize the typical ion concentrations in mammalian cells. These numbers appear in MCAT passages and are the foundation for all quantitative reasoning.",
+      "new": "These are illustrative mammalian-cell values, not universal constants. Use the concentrations and temperature supplied in a problem; intracellular chloride in particular varies substantially between cell types and developmental stages.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10931/"
+    },
+    {
+      "field": "content",
+      "old": "At room temperature (25°C), the constant is approximately 25.7 mV, giving the familiar approximation:",
+      "new": "At 25°C, RT/F ≈ 25.7 mV and 2.303RT/F ≈ 59.2 mV. A rounded calculation may use:",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK11102/"
+    },
+    {
+      "field": "content",
+      "old": "The MCAT frequently uses the 25°C approximation with 61 mV or rounds to 60 mV. Know both.",
+      "new": "Use 59.2 mV at 25°C or 61.5 mV at 37°C for log₁₀; use RT/F for the natural logarithm. The worked examples below consistently use a rounded 60 mV coefficient.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK11102/"
+    },
+    {
+      "field": "content",
+      "old": "Only a large positive inside voltage (+65 mV) would counteract both forces.",
+      "new": "At E_Na ≈ +65 mV, the outward electrical force balances the inward chemical force; the chemical gradient has not changed.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK11102/"
+    },
+    {
+      "field": "content",
+      "old": "The membrane potential is a *weighted average* of the Nernst potentials, with each ion's weight determined by its relative permeability.",
+      "new": "GHK takes the logarithm of permeability-weighted concentration sums; it is not an arithmetic permeability-weighted average of Nernst potentials. A conductance-weighted voltage average belongs to a different, approximately ohmic current-balance model.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10931/"
+    },
+    {
+      "field": "content",
+      "old": "(roughly 25:1 in most neurons)",
+      "new": "(with the ratio depending on the neuron and its state)",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10931/"
+    },
+    {
+      "field": "content",
+      "old": "For non-excitable cells (epithelial cells, red blood cells), RMP varies but is typically between −40 mV and −70 mV.",
+      "new": "Non-excitable cells vary widely: many epithelia are tens of millivolts negative, whereas erythrocytes are often near −10 mV.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10076030/"
+    },
+    {
+      "field": "content",
+      "old": "though this direct contribution is small (approximately −5 mV in most cells).",
+      "new": "though the size of this direct contribution is cell- and condition-dependent.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10931/"
+    },
+    {
+      "field": "content",
+      "old": "both fully deprotonated at physiological pH",
+      "new": "both predominantly deprotonated at physiological pH",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK11102/"
+    },
+    {
+      "field": "content",
+      "old": "This fixed negative charge contributes to the **Donnan equilibrium**, helping maintain the negative interior and influencing the distribution of diffusible ions.",
+      "new": "Impermeant ions influence ion and osmotic distributions (Donnan effects), but living cells with active pumps are not generally at passive Donnan equilibrium. Bulk solutions are nearly electroneutral; only a tiny charge separation at membrane surfaces is needed for voltage.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10931/"
+    },
+    {
+      "field": "content",
+      "old": "**Leak channels** (also called background channels): These are always open and are responsible for the resting permeability to K⁺ and Na⁺. K⁺ leak channels (K₂P family) are the dominant contributors to resting K⁺ permeability.",
+      "new": "**Leak/background channels** contribute current at rest. Their open probability can still be regulated by voltage, pH, lipids or other signals. The relative contributions of K₂P, Kir and other channels depend on the cell.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://med.uth.edu/nba/nso/s1_cellular-molecular/ch-1-resting-potentials-and-action-potentials/"
+    },
+    {
+      "field": "content",
+      "old": "**Voltage-gated channels**: These are closed at rest and open in response to membrane depolarization. They are critical for action potentials but do not significantly contribute to the resting potential.",
+      "new": "**Voltage-gated channels** change their opening probability with voltage. Some have resting or subthreshold activity; not all open with depolarization. Their contribution depends on their activation range and cell type.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://med.uth.edu/nba/nso/s1_cellular-molecular/ch-1-resting-potentials-and-action-potentials/"
+    },
+    {
+      "field": "content",
+      "old": "**Ligand-gated channels**: These open in response to neurotransmitter binding. They are relevant to synaptic transmission but not to the resting state.",
+      "new": "**Ligand-gated channels** can produce phasic synaptic currents or tonic conductances when ambient ligand is present.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://med.uth.edu/nba/nso/s1_cellular-molecular/ch-1-resting-potentials-and-action-potentials/"
+    },
+    {
+      "field": "content",
+      "old": "**Permeability** (P) is a membrane property describing how easily an ion can cross — it depends on the channel protein structure and is independent of concentration. **Conductance** (g) is an electrical property equal to the reciprocal of resistance. Conductance depends on both permeability and the concentration of the ion: g = P × zF × [ion] (approximately). The MCAT uses these terms somewhat interchangeably in qualitative contexts, but know the distinction.",
+      "new": "**Permeability** is a transport parameter, whereas **conductance** is electrical current per voltage difference (or the local slope of an I–V curve). They are related through an ion-current model and depend on channel state and ionic conditions. The expression g = P × zF × [ion] is not a general conductance formula. For an approximately ohmic ion channel, I_ion = g_ion(V_m − E_ion).",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10931/"
+    },
+    {
+      "field": "content",
+      "old": "They lack voltage-gated channels and do not generate action potentials.",
+      "new": "They do not generate neuronal-style action potentials; voltage-dependent cation currents have nevertheless been measured in human erythrocytes.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10076030/"
+    },
+    {
+      "field": "content",
+      "old": "pmf ≈ −180 mV − (−61.5 mV × ΔpH)\n\nFor ΔpH = 1: pmf ≈ −180 − (−61.5) = −118.5 mV (the negative sign indicates the matrix is at lower electrochemical potential for protons, driving them in)",
+      "new": "Define ΔΨ = ψ_matrix − ψ_intermembrane and ΔpH = pH_matrix − pH_intermembrane. Then ΔG for H⁺ entry divided by F is ΔΨ − 61.5 mV × ΔpH.\n\nFor ΔΨ = −180 mV and ΔpH = +1: ΔG/F = −180 − 61.5 = −241.5 mV. Both the negative matrix and its lower H⁺ concentration favor proton entry. The driving-force magnitude is 241.5 mV for these illustrative values; other measured conditions give different values.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3115691/"
+    },
+    {
+      "field": "content",
+      "old": "Approximately 3 protons must flow through ATP synthase to synthesize 1 ATP. The total pmf of ~200 mV across the inner mitochondrial membrane makes ATP synthesis thermodynamically favorable.",
+      "new": "For the mammalian eight-subunit c-ring, one full rotation transports 8 H⁺ and produces 3 ATP (8/3 H⁺ per ATP through the enzyme). Supplying phosphate and exchanging ATP/ADP add energetic costs. The available proton-motive force must be compared with the actual phosphorylation free energy.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/20847295/"
+    },
+    {
+      "field": "content",
+      "old": "E_K shifts from −87 mV to approximately −73 mV",
+      "new": "E_K shifts from about −87 mV to −69 mV using the same 60 mV coefficient",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK11102/"
+    },
+    {
+      "field": "content",
+      "old": "The resting potential depolarizes toward threshold, increasing excitability and risking arrhythmias and cardiac arrest.",
+      "new": "Depolarization can initially increase excitability, but sustained depolarization can inactivate Na⁺ channels and reduce excitability and conduction. The cardiac effect depends on severity and other conditions.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6892421/"
+    },
+    {
+      "field": "content",
+      "old": "This is why potassium disorders are life-threatening cardiac emergencies.",
+      "new": "Severe potassium disturbances can be life-threatening; the significance of a measured change depends on its magnitude and clinical context.",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6892421/"
+    },
+    {
+      "field": "content",
+      "old": "**E_Cl**: approximately −89 mV (near resting potential; Cl⁻ near equilibrium)",
+      "new": "**E_Cl**: approximately −89 mV for the stated concentrations and 60 mV coefficient; it is not necessarily equal to V_m",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10931/"
+    },
+    {
+      "field": "content",
+      "old": "**Hyperkalemia** depolarizes cells (dangerous); **hypokalemia** hyperpolarizes cells",
+      "new": "**Extracellular K⁺ changes** shift E_K; excitability also depends on channel gating, conductance and pump activity",
+      "reason": "Correct mechanism, quantitative interpretation or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6892421/"
+    },
+    {
+      "field": "questions.285.question_text",
+      "old": "If a cell membrane were equally permeable to Na+ and K+ (and impermeable to all other ions), and Na+ and K+ were present at their typical physiological concentrations, what would happen to the resting membrane potential compared to a membrane selectively permeable only to K+?",
+      "new": "A model membrane is permeable only to Na⁺ and K⁺. Concentrations are Na⁺: 145 mM outside, 12 mM inside; K⁺: 5 mM outside, 140 mM inside. Increasing Na⁺ permeability from zero to equal K⁺ permeability shifts the GHK voltage in which direction?",
+      "reason": "Fix undefined typical concentrations.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10931/"
+    },
+    {
+      "field": "questions.285.explanation",
+      "old": "When permeabilities are equal, the GHK equation weights each ion equally, and the resulting membrane potential falls between the individual Nernst potentials for K+ (approximately -90 mV) and Na+ (approximately +60 mV), yielding a less negative value than a K+-only membrane. The resting potential does not reach zero because the ion concentrations are still asymmetric. Choice D is tempting but incorrect; equal permeability does not mean equal concentrations, so a potential difference still exists.",
+      "new": "For equal permeabilities, GHK gives V_m = 61.5 log₁₀[(145 + 5)/(12 + 140)] mV at 37°C, approximately −0.35 mV. This is less negative than the K⁺-only potential of about −89 mV, so C is correct. It is not the arithmetic average of E_Na and E_K. Equal permeabilities give exactly zero only when the two concentration sums are equal in this model.",
+      "reason": "Correct GHK averaging explanation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10931/"
+    }
+  ]
+}

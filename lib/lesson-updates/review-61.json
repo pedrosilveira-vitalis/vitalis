@@ -1,0 +1,161 @@
+{
+  "lessonId": 61,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "to produce two genetically identical daughter cells",
+      "new": "normally to distribute equivalent replicated chromosome sets to two daughter cells; replication or segregation errors can produce differences",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9833/"
+    },
+    {
+      "field": "content",
+      "old": "**G2 phase**: continued cell growth and preparation for mitosis, including duplication of the centrosome",
+      "new": "**G2 phase**: continued growth and preparation for mitosis, including centrosome maturation. In typical cycling animal cells, centriole duplication begins around the G1/S transition rather than being confined to G2",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9833/"
+    },
+    {
+      "field": "content",
+      "old": "The cell also contains two **centrosomes**",
+      "new": "A typical animal somatic cell also contains two **centrosomes**",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9833/"
+    },
+    {
+      "field": "content",
+      "old": "Prophase is the first and longest stage of mitosis.",
+      "new": "Prophase is the first stage of mitosis; relative stage durations vary with cell type and conditions.",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9833/"
+    },
+    {
+      "field": "content",
+      "old": "which use ATP hydrolysis to introduce positive supercoils into DNA, compacting it into a series of loops",
+      "new": "which use ATP-dependent DNA interactions and loop extrusion to organize and compact chromosomes; supercoiling alone is not a complete description",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8406421/"
+    },
+    {
+      "field": "content",
+      "old": "The nuclear envelope fragments into vesicles that are absorbed into the endoplasmic reticulum.",
+      "new": "Nuclear-envelope membrane proteins redistribute into the endoplasmic reticulum during open mitosis; universal fragmentation into separate vesicles is not required.",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9833/"
+    },
+    {
+      "field": "content",
+      "old": "assembled on a specific DNA sequence called the **centromere**",
+      "new": "assembled at the **centromere**, a specialized chromatin region. In humans, centromere identity is largely epigenetically specified by CENP-A rather than by one universally sufficient DNA sequence",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8406421/"
+    },
+    {
+      "field": "content",
+      "old": "When tension is absent (as in incorrect attachments)",
+      "new": "When attachment geometry leaves susceptible substrates accessible to Aurora B",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6496767/"
+    },
+    {
+      "field": "content",
+      "old": "until every kinetochore has achieved proper bioriented attachment",
+      "new": "while kinetochores generate an attachment-dependent checkpoint signal. It is not a perfect test of geometry: merotelic attachments can evade the checkpoint",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6496767/"
+    },
+    {
+      "field": "content",
+      "old": "Once all kinetochores achieve proper attachment, MCC production ceases, APC/C is activated, and the cell transitions to anaphase.",
+      "new": "Once attachment-dependent checkpoint signaling is silenced and existing MCC inhibition is relieved, APC/C–Cdc20 can drive anaphase. Alignment alone does not prove that every attachment is correct.",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6496767/"
+    },
+    {
+      "field": "content",
+      "old": "- **Flux-based pulling**: microtubule subunits are continuously added at the pole-proximal minus end and removed at the kinetochore-proximal plus end; this **poleward flux** contributes to chromosome movement",
+      "new": "- **Flux-based movement**: the microtubule lattice moves toward the spindle pole, generally coupled to tubulin addition at plus ends and loss at pole-proximal minus ends. The original opposite assignment of the ends is incorrect. Contributions to movement vary by cell type.",
+      "reason": "Repair reversed microtubule-end dynamics.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7705458/"
+    },
+    {
+      "field": "content",
+      "old": "When all chromosomes are properly aligned and bioriented, the SAC is satisfied and the cell proceeds to anaphase.",
+      "new": "Correct biorientation normally stabilizes attachments and permits SAC silencing, but merotelic errors can persist into anaphase despite checkpoint satisfaction.",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6496767/"
+    },
+    {
+      "field": "content",
+      "old": "It is divided into two mechanistically distinct phases: **anaphase A** and **anaphase B**.",
+      "new": "Two overlapping processes are distinguished: **anaphase A** and **anaphase B**; they need not occur as strictly consecutive phases.",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9833/"
+    },
+    {
+      "field": "content",
+      "old": "Depolymerization at the kinetochore end is driven by **MCAK** (a kinesin-13 depolymerizing kinesin) and by the curved protofilaments of depolymerizing microtubule plus ends exerting a pulling force on the kinetochore",
+      "new": "Depolymerizing microtubule ends can couple to kinetochores and generate force. Kinesin-13 proteins regulate microtubule dynamics, but MCAK should not be treated as the universal motor responsible for anaphase chromosome movement",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7705458/"
+    },
+    {
+      "field": "content",
+      "old": "The contractile ring is a transient, highly organized structure approximately 0.2 μm thick and positioned just beneath the plasma membrane at the cell equator.",
+      "new": "The contractile ring is a transient actomyosin structure beneath the equatorial plasma membrane; its dimensions and organization vary with cell type.",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9833/"
+    },
+    {
+      "field": "content",
+      "old": "**Actin filaments** (both F-actin and the formin-nucleated linear actin)",
+      "new": "**Actin filaments (F-actin)**, including linear filaments nucleated by formins",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9833/"
+    },
+    {
+      "field": "content",
+      "old": "The ring shrinks in diameter while maintaining its thickness, which means actin and myosin components are continuously disassembled and removed as the ring contracts.",
+      "new": "Ring constriction involves force generation and turnover of actin and myosin; thickness and remodeling behavior are not identical in every cell type.",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9833/"
+    },
+    {
+      "field": "content",
+      "old": "Multinucleation** can result from failed cytokinesis, which is observed in some cancer cells and in normal physiology (e.g., skeletal muscle syncytia, osteoclasts).",
+      "new": "Multinucleation** can result from failed cytokinesis in some cells. Skeletal muscle fibers and osteoclasts, however, normally become multinucleated mainly through cell fusion; they are not examples of failed cytokinesis.",
+      "reason": "Correct mechanism or scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9833/"
+    },
+    {
+      "field": "questions.301.explanation",
+      "old": "Tubulin polymerization is required to form the mitotic spindle, which is responsible for capturing chromosomes at kinetochores and aligning them at the metaphase plate. Without functional spindle fibers, chromosomes can still condense (which depends on condensins, not tubulin) but cannot be properly aligned or segregated. Choice C is tempting but incorrect because the contractile ring is composed of actin and myosin II, not tubulin, so tubulin inhibition would not directly prevent cytokinesis.",
+      "new": "Preventing tubulin polymerization disrupts spindle formation, so condensed chromosomes cannot align normally. The actomyosin ring itself uses actin and myosin rather than tubulin, but microtubules also help position and regulate cytokinesis. Thus spindle failure can indirectly disrupt cytokinesis; failure of alignment is the most direct listed outcome.",
+      "reason": "Do not imply microtubules are irrelevant to cytokinesis.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9833/"
+    },
+    {
+      "field": "questions.302.explanation",
+      "old": "The spindle assembly checkpoint (SAC) operates at the metaphase-to-anaphase transition and ensures that every kinetochore is properly attached to spindle microtubules from opposite poles before anaphase proceeds. Unattached kinetochores release the inhibitory signal (via Mad1/Mad2) that prevents the anaphase-promoting complex from triggering sister chromatid separation. Choice A is tempting because DNA replication is a prerequisite for mitosis, but that is monitored by the G2/M checkpoint, not the SAC.",
+      "new": "The checkpoint restrains the metaphase-to-anaphase transition and is active during prometaphase as well. Unattached kinetochores catalyze MCC production, inhibiting APC/C–Cdc20. Proper attachments usually silence this signal, but some merotelic attachments escape detection. DNA-replication surveillance is a different checkpoint.",
+      "reason": "Scope checkpoint activity and limitations.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6496767/"
+    },
+    {
+      "field": "questions.303.question_text",
+      "old": "A cell in anaphase is observed to have 46 chromosomes moving toward each pole. What was the ploidy of this cell before S phase, and how many chromosomes will each daughter cell contain after cytokinesis?",
+      "new": "A human somatic cell (normal haploid number n = 23) undergoes normal mitosis. At anaphase, 46 chromosomes move toward each pole. What was its ploidy before S phase, and how many chromosomes will each daughter cell contain?",
+      "reason": "Supply species haploid number needed to infer ploidy.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9833/"
+    },
+    {
+      "field": "questions.304.question_text",
+      "old": "Which of the following best explains why inhibiting myosin II activity would disrupt cytokinesis but not chromosome segregation in animal cells?",
+      "new": "In an animal-cell experiment, a selective myosin II inhibitor blocks furrow ingression while spindle function remains intact. Which explanation best accounts for this result?",
+      "reason": "Avoid universal claim that myosin perturbation never affects segregation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9833/"
+    }
+  ]
+}

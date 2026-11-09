@@ -1,0 +1,210 @@
+{
+  "lessonId": 58,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    286,
+    287,
+    288,
+    289,
+    290
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK10989/",
+      "title": "Purves et al.: Receptor types"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16887882/",
+      "title": "Friesema et al.: Human MCT8 thyroid-hormone transport"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21059/",
+      "title": "Alberts et al.: Cell communication"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10781100/",
+      "title": "Mothet et al.: D-serine as an endogenous NMDA coagonist"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK519490/",
+      "title": "NCBI StatPearls: Caffeine mechanism"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK54587/",
+      "title": "NCBI: Protein kinase C isoform regulation"
+    }
+  ],
+  "visual": {
+    "title": "Follow the message through the membrane",
+    "src": "/lesson-diagrams/signal-routing.svg",
+    "width": 900,
+    "height": 820,
+    "alt": "A Gq receptor activates PLC beta on the inner membrane face. PLC cleaves PIP2 into membrane-bound DAG and soluble IP3. IP3 opens an ER calcium channel; calcium and DAG converge on conventional PKC. A separate soluble calcium-calmodulin branch reaches its targets.",
+    "caption": "Compartments matter: DAG stays in the membrane; IP₃ travels to the ER. The Ca²⁺ plus DAG requirement shown is for conventional PKC.",
+    "beforeHeading": "Signal Amplification and the Concept of Signaling Cascades"
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "3a0bd1179f361b03999386219ace2151c6b83ca0f9ae8554ddf2c18941b37c58"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "5a85056925c58e3c652bef0bae5cb78dd5a082da842f1d47cbff069ad23bca68"
+    },
+    {
+      "field": "questions.286.question_text",
+      "sha256": "4ec048c954dd7fd7b324f9bf483c14b61137f0901c0cb035f8fc22a6e601cc09"
+    },
+    {
+      "field": "questions.286.choice_a",
+      "sha256": "ef0658453f99c33f3dadf5d8de4f5c37b61fa2d304671df51a5c08dfc6466e89"
+    },
+    {
+      "field": "questions.286.choice_b",
+      "sha256": "9d618b63b48b43a0f9a9b6739cd77468fb6a935082a560bf859c5412d07a24c2"
+    },
+    {
+      "field": "questions.286.choice_c",
+      "sha256": "7b554fd6d1b4b45bed9dc7824bcd8988d55ef0767e7154f88c63e5bdee142235"
+    },
+    {
+      "field": "questions.286.choice_d",
+      "sha256": "325e6fbc7450d9236354336a28f93f2946bb331eea56084acefc262c09d854a5"
+    },
+    {
+      "field": "questions.286.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.286.explanation",
+      "sha256": "3d4beb9db174d18c60933d8ea464766033bd6f76e611f4980c1670d40187ee87"
+    },
+    {
+      "field": "questions.287.question_text",
+      "sha256": "0669829580d150954baaed8cbe770552a6df2bbfe6c8690738272681d7eda197"
+    },
+    {
+      "field": "questions.287.choice_a",
+      "sha256": "84360330078f64e1f70531bf337261eff3ae43718653c0e39454040d76b7d136"
+    },
+    {
+      "field": "questions.287.choice_b",
+      "sha256": "5f83c7d0a6856283658c5676e200c831b49abff3503db0b3ffe1ca13923041f8"
+    },
+    {
+      "field": "questions.287.choice_c",
+      "sha256": "a991e6e8a5d15685fcc59572e8012bd2de8538051774258f4bfa809654d8ea5e"
+    },
+    {
+      "field": "questions.287.choice_d",
+      "sha256": "9efc0a660fe8ae85d6b47fad0e8deecd3cc9dfb3312000851e97547db39249ea"
+    },
+    {
+      "field": "questions.287.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.287.explanation",
+      "sha256": "929f822aeb69232cd4bb3534eaa6dcdf1b6f90c8e17182c0b796328d59a04ef8"
+    },
+    {
+      "field": "questions.288.question_text",
+      "sha256": "3e4240454599c7477ab4d32befa321a0aa7db0fdfdf6d17f03b5746859367a8f"
+    },
+    {
+      "field": "questions.288.choice_a",
+      "sha256": "e9cd90a0fa5d2fbab1c937cf36d981c2e47e3bb7a05b896d345c474e27d9b174"
+    },
+    {
+      "field": "questions.288.choice_b",
+      "sha256": "3cc1197e3b73bab45c801f7543fc0c3ec8f301a53e470901a8327532e07641c3"
+    },
+    {
+      "field": "questions.288.choice_c",
+      "sha256": "e5068946c279de6a4df3f60317e50bb095ea62d1988c06fe91e84a6a3f280c4d"
+    },
+    {
+      "field": "questions.288.choice_d",
+      "sha256": "abe809770272d93c3722dde27692124e6168ad9219b63b19597c57930306091a"
+    },
+    {
+      "field": "questions.288.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.288.explanation",
+      "sha256": "245c978a739e2a09e35a54daa5aed9fb9accbb2fa6c404b5e6159db395de969c"
+    },
+    {
+      "field": "questions.289.question_text",
+      "sha256": "ad40638c40ced2d193024248aa26cf2b6945e281928f9b92b1d13f76fe053d9b"
+    },
+    {
+      "field": "questions.289.choice_a",
+      "sha256": "799f2cceddaf01e919b90e5ce70d48b495cb822f07c0df94e90a1c4196740ae1"
+    },
+    {
+      "field": "questions.289.choice_b",
+      "sha256": "e1ba122ea1847f4947e644b5eac36efe96dca59a2446f4371f99376087652402"
+    },
+    {
+      "field": "questions.289.choice_c",
+      "sha256": "a955808b187bfa2a8771c1acbe1f3c7fd9dd494607a50c931f7416a6500a1252"
+    },
+    {
+      "field": "questions.289.choice_d",
+      "sha256": "a91d5f851e9f662771aeb961649ded953616f0da2d4b49823175a93fa3ec3406"
+    },
+    {
+      "field": "questions.289.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.289.explanation",
+      "sha256": "db4f95cc4753a36a538c95345251f4656f0a00007965be2d57439c9adb9dc678"
+    },
+    {
+      "field": "questions.290.question_text",
+      "sha256": "a653b7b9b862f0743ca5249829bb27e6062945697d3d2de6e9b2c8ff5e0d375a"
+    },
+    {
+      "field": "questions.290.choice_a",
+      "sha256": "fb71b2601bae53e163c5aa717ab512f05b7007cce2b7d385fab3daf08f085314"
+    },
+    {
+      "field": "questions.290.choice_b",
+      "sha256": "7deae0128c9d0a8eb56c36b05ae27cc804f28c67af13620a7fc12faef5248a59"
+    },
+    {
+      "field": "questions.290.choice_c",
+      "sha256": "9c48ec278040fa2ecebb0898da8131849edfb07a0e67f27509e8cc87ed02ebbe"
+    },
+    {
+      "field": "questions.290.choice_d",
+      "sha256": "2e31d16dbe8bcbddac598fbcf875abdc4d6854f921cb079a72c002b53ae7c956"
+    },
+    {
+      "field": "questions.290.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.290.explanation",
+      "sha256": "9baab82a53a48866b9d9636cb3cb32d5946f5b7e6d09a607dd2a9adb90cc927e"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Cell Signaling: Receptors, Ligands, and Signal Transduction Pathways\n\nCell signaling is the molecular language that allows cells to perceive and respond to their environment. From the moment a hormone binds its receptor to the final transcriptional response in the nucleus, a cascade of precisely coordinated molecular events unfolds. Understanding this language is essential for the MCAT, where cell signaling questions appear across biochemistry, physiology, and pharmacology contexts. This lesson builds a mechanistic framework: what types of receptors exist, how ligands activate them, what second messengers do, and how signals are amplified and terminated.\n\n---\n\n## The Basic Vocabulary: Ligands and Receptors\n\n### Ligands\n\nA **ligand** binds a target such as a receptor. Agonists activate receptors, whereas antagonists can bind without activating the corresponding response. Ligands include hormones, neurotransmitters, growth factors, cytokines, and even gases like nitric oxide. The binding of a ligand to its receptor is governed by affinity (how tightly they bind, expressed as the dissociation constant K_d) and specificity (the selectivity of the receptor for particular molecular shapes).\n\nLigands can be classified by their chemical nature, which determines *where* they can act:\n\n- **Hydrophilic ligands** (peptide hormones, catecholamines, most neurotransmitters): Generally do not readily diffuse through the lipid bilayer and usually signal through cell-surface receptors.\n- **Hydrophobic ligands** (steroid hormones, thyroid hormones, retinoic acid): Often act through intracellular receptors. Thyroid hormones rely on transporters such as MCT8 for cellular entry; lipophilicity does not guarantee unrestricted diffusion.\n- **Gaseous ligands** (nitric oxide, NO): Diffuse directly into cells and activate intracellular targets such as guanylyl cyclase.\n\nThis distinction has enormous MCAT relevance. Epinephrine (hydrophilic) acts through a G protein-coupled receptor at the cell surface. Cortisol (hydrophobic) crosses the membrane and binds a nuclear receptor. The location of the receptor dictates the entire downstream cascade.\n\n### Receptor Properties\n\nReceptors are proteins (or glycoproteins) with a **ligand-binding domain** and an **effector domain** that initiates signaling. Key properties:\n\n- **Specificity**: Determined by the three-dimensional shape of the binding site. A receptor binds only certain ligands.\n- **Affinity**: Quantified by K_d; lower K_d means higher affinity. In a simple, noncooperative single-site equilibrium model, free ligand concentration equal to K_d gives half occupancy.\n- **Saturation**: Occupancy approaches saturation at high free ligand concentrations. Functional response can plateau before full occupancy because of receptor reserve or downstream limits.\n- **Reversibility**: Ligand-receptor binding is generally non-covalent and reversible, allowing signal termination.\n- **Signal amplification**: One ligand-receptor interaction can activate many downstream molecules.\n\n---\n\n## Major Classes of Cell-Surface Receptors\n\n### G Protein-Coupled Receptors (GPCRs)\n\n**G protein-coupled receptors** are the largest family of cell-surface receptors in the human genome, with over 800 members. They share a characteristic **seven-transmembrane (7-TM) domain** structure, with the N-terminus extracellular and the C-terminus intracellular. The third intracellular loop and C-terminal tail interact with heterotrimeric G proteins.\n\n**Heterotrimeric G proteins** consist of three subunits:\n- **Gα**: Binds GDP in the inactive state; has intrinsic GTPase activity\n- **Gβ and Gγ**: Form a stable signaling dimer associated with Gα-GDP in the inactive heterotrimer; the complex need not remain permanently receptor-bound\n\n**Activation mechanism:**\n1. Ligand binds the extracellular face of the GPCR, causing a conformational change.\n2. The activated receptor acts as a **guanine nucleotide exchange factor (GEF)**: it catalyzes the exchange of GDP for GTP on Gα.\n3. GTP binding rearranges the heterotrimer and exposes effector-binding surfaces; physical subunit separation varies with the system.\n4. Both Gα-GTP and free Gβγ can activate downstream effectors.\n5. Gα's intrinsic GTPase hydrolyzes GTP → GDP, returning the system to the inactive state.\n\nThe identity of the Gα subunit determines which effector is activated:\n\n- **Gαs** (\"stimulatory\"): Activates **adenylyl cyclase** → increases cAMP\n- **Gαi** (\"inhibitory\"): Inhibits adenylyl cyclase → decreases cAMP\n- **Gαq**: Activates **phospholipase C-β (PLC-β)** → generates IP₃ and DAG\n- **Gα12/13**: Activates Rho GTPases → cytoskeletal changes\n\n*Pharmacological note*: Cholera toxin ADP-ribosylates Gαs, locking it in the active (GTP-bound) state. Pertussis toxin ADP-ribosylates Gαi, preventing its activation. Both toxins cause unregulated signaling—a classic MCAT connection between microbiology and cell biology.\n\n### Receptor Tyrosine Kinases (RTKs)\n\n**Receptor tyrosine kinases** are single-pass transmembrane receptors with an extracellular ligand-binding domain and an intracellular kinase domain that phosphorylates tyrosine residues. Examples include the receptors for insulin, epidermal growth factor (EGF), platelet-derived growth factor (PDGF), and fibroblast growth factor (FGF).\n\n**Activation mechanism:**\n1. Ligand (often a growth factor) binds the extracellular domain.\n2. Ligand binding induces **receptor dimerization** (two receptor monomers come together).\n3. Dimerization activates the intracellular kinase domains, which **trans-autophosphorylate** each other on specific tyrosine residues.\n4. Phosphotyrosine residues serve as docking sites for intracellular signaling proteins containing **SH2 domains** (Src homology 2 domains) or **PTB domains** (phosphotyrosine-binding domains).\n5. Docked proteins are activated and propagate the signal.\n\nKey downstream pathways activated by RTKs:\n- **RAS/MAPK pathway**: Promotes cell proliferation and differentiation\n- **PI3K/AKT pathway**: Promotes cell survival and growth\n- **PLCγ pathway**: Generates IP₃ and DAG (similar to Gαq)\n\n*Insulin receptor specifics*: The insulin receptor is a pre-formed dimer (two α and two β subunits linked by disulfide bonds). Insulin binding to the extracellular α subunits activates the kinase domains of the β subunits, leading to autophosphorylation and phosphorylation of **insulin receptor substrate (IRS) proteins**, which then activate PI3K.\n\n*Cancer connection*: Gain-of-function mutations in RTKs or their downstream effectors (particularly RAS) are among the most common oncogenic mutations. A constitutively active RAS drives uncontrolled proliferation.\n\n### Ligand-Gated Ion Channels\n\n**Ligand-gated ion channels** (also called **ionotropic receptors**) are transmembrane proteins that open an ion channel pore directly upon ligand binding. The response is extremely rapid (milliseconds), making them ideal for fast synaptic transmission.\n\nExamples:\n- **Nicotinic acetylcholine receptor (nAChR)**: Cation channel (Na⁺, K⁺, Ca²⁺); opens upon acetylcholine binding; critical at the neuromuscular junction\n- **GABA_A receptor**: primarily anion-selective channel (including Cl⁻ and some HCO₃⁻); often mediates fast inhibition, with the effect depending on the anion reversal potential; target of benzodiazepines and barbiturates\n- **NMDA receptor**: Cation channel permeable to Ca²⁺; requires glutamate plus a coagonist (glycine or D-serine); depolarization relieves the usual Mg²⁺ block; central to synaptic plasticity\n\nIonotropic receptors directly gate a pore. Metabotropic receptors act through G proteins, which can regulate channels directly as well as through second messengers.\n\n### Receptor Serine/Threonine Kinases\n\nThese receptors phosphorylate serine and threonine residues rather than tyrosine. The primary example is the **TGF-β (transforming growth factor-β) receptor family**. TGF-β receptors signal through **SMAD proteins**, which translocate to the nucleus and regulate gene expression. TGF-β signaling controls cell growth, differentiation, and apoptosis, and is frequently dysregulated in cancer.\n\n### Receptor Guanylyl Cyclases\n\nSome receptors have intrinsic guanylyl cyclase activity. When activated (e.g., by atrial natriuretic peptide, ANP), they produce **cyclic GMP (cGMP)** from GTP. cGMP activates **protein kinase G (PKG)** and phosphodiesterases. This pathway regulates smooth muscle relaxation and fluid balance.\n\n---\n\n## Intracellular Receptors\n\n### Nuclear Receptors\n\n**Intracellular receptors** bind hydrophobic ligands that cross the plasma membrane. Most are **nuclear receptors** that function as **ligand-activated transcription factors**.\n\nStructure: These receptors contain a **ligand-binding domain**, a **DNA-binding domain** (with zinc finger motifs), and a **transactivation domain**.\n\nThe following sequence is a simplified model for receptors such as the glucocorticoid receptor. Thyroid and retinoic-acid receptors are often already nuclear and DNA-associated, and ligand binding changes coregulator recruitment rather than requiring cytoplasmic import:\n1. Conformational change → dissociation from HSPs\n2. Receptor dimerization (homodimerization or heterodimerization)\n3. Translocation to the nucleus\n4. Binding to specific DNA sequences called **hormone response elements (HREs)**\n5. Recruitment of coactivators or corepressors → altered gene transcription\n\nExamples and their ligands:\n- **Glucocorticoid receptor (GR)**: Cortisol → anti-inflammatory gene expression\n- **Mineralocorticoid receptor (MR)**: Aldosterone → Na⁺ reabsorption genes\n- **Androgen receptor (AR)**: Testosterone, DHT → male sexual development genes\n- **Estrogen receptor (ER)**: Estradiol → female reproductive genes\n- **Thyroid hormone receptor (TR)**: T₃ (triiodothyronine) → metabolic genes\n- **Retinoic acid receptor (RAR)**: Retinoic acid → developmental genes\n\nTranscription-dependent responses often take longer than modification of existing proteins. Steroids can also produce rapid non-genomic effects, while GPCRs and RTKs can produce long-lasting transcriptional responses.\n\n---\n\n## Second Messenger Systems\n\nSecond messengers are small intracellular signaling molecules that rapidly propagate and amplify the signal from a cell-surface receptor. The two most important for the MCAT are the **cAMP pathway** and the **IP₃/DAG pathway**.\n\n### The cAMP Pathway\n\n**Cyclic AMP (cAMP)** is synthesized from ATP by the enzyme **adenylyl cyclase**, which is activated by Gαs and inhibited by Gαi. cAMP is degraded to 5'-AMP by **phosphodiesterase (PDE)**.\n\nThe primary target of cAMP is **protein kinase A (PKA)**:\n- In the inactive state, PKA is a tetramer: two regulatory (R) subunits and two catalytic (C) subunits\n- Four cAMP molecules bind to the two R subunits (two per R subunit), causing a conformational change\n- The C subunits dissociate and become active\n- Active PKA phosphorylates serine and threonine residues on numerous target proteins\n\n**PKA substrates and their effects:**\n\n- **Glycogen phosphorylase kinase**: Phosphorylated → active → activates glycogen phosphorylase → glycogen breakdown (glycogenolysis)\n- **Glycogen synthase**: Phosphorylated → *inactive* → inhibits glycogen synthesis\n- **Hormone-sensitive lipase (HSL)**: Phosphorylated → active → triglyceride breakdown (lipolysis)\n- **CREB (cAMP response element-binding protein)**: PKA translocates to the nucleus and phosphorylates CREB → CREB binds CRE sequences → gene transcription\n\nThis is why epinephrine, acting through β-adrenergic receptors (Gαs-coupled), simultaneously stimulates glycogenolysis, lipolysis, and gene expression changes—all through a single second messenger, cAMP.\n\n**Hormones using cAMP as second messenger:**\n- Epinephrine (β receptors), glucagon, TSH, FSH, LH, ACTH, PTH, calcitonin, ADH (V2 receptors in kidney)\n\n*Pharmacological relevance*: At usual exposures, **caffeine** acts mainly by antagonizing adenosine receptors; PDE inhibition requires higher concentrations. Theophylline has multiple mechanisms, including PDE inhibition and adenosine-receptor antagonism. **Sildenafil (Viagra)** inhibits PDE5 (cGMP-specific phosphodiesterase) in smooth muscle.\n\n### The IP₃/DAG Pathway\n\nWhen Gαq activates **phospholipase C-β (PLC-β)**, or when PLCγ is activated by an RTK, PLC cleaves the membrane phospholipid **phosphatidylinositol 4,5-bisphosphate (PIP₂)** into two second messengers:\n\n1. **Inositol 1,4,5-trisphosphate (IP₃)**: Water-soluble; diffuses through the cytoplasm to the **endoplasmic reticulum (ER)**, where it binds IP₃ receptors (ligand-gated Ca²⁺ channels) → releases Ca²⁺ from ER stores into the cytoplasm\n\n2. **Diacylglycerol (DAG)**: Lipid-soluble; remains in the plasma membrane; helps activate **conventional PKC isoforms** together with Ca²⁺ and membrane lipids\n\n**Protein kinase C (PKC):**\n- Normally cytosolic and inactive\n- Conventional PKCs require Ca²⁺ and DAG; novel PKCs respond to DAG without Ca²⁺; atypical PKCs respond to neither\n- PKC phosphorylates serine and threonine residues on various target proteins\n- Different PKC isoforms have different tissue distributions and substrates\n- PKC activation promotes cell growth, differentiation, and immune responses\n\n**Calcium as a second messenger:**\n- Resting cytoplasmic Ca²⁺: ~100 nM (10⁻⁷ M)\n- Extracellular Ca²⁺: ~1–2 mM; ER lumen Ca²⁺: ~0.5 mM\n- IP₃-triggered Ca²⁺ release can raise cytoplasmic Ca²⁺ to ~1 μM, a 10-fold increase\n- Ca²⁺ binds **calmodulin (CaM)**, a ubiquitous Ca²⁺-sensing protein\n- Ca²⁺/calmodulin activates **calmodulin-dependent protein kinases (CaMKs)**, **myosin light chain kinase (MLCK)** (smooth muscle contraction), and **calcineurin** (phosphatase that activates NFAT transcription factor)\n- Ca²⁺ contributes to activation of conventional PKCs; it is not a universal requirement for every PKC isoform\n\n**Hormones using IP₃/DAG:**\n- Epinephrine (α₁ receptors), angiotensin II, oxytocin, ADH (V1 receptors in vessels), TRH, GnRH, histamine (H1 receptors)\n\n*Memory tip*: FLAT ChAMP is a common mnemonic for cAMP-using hormones (FSH, LH, ACTH, TSH, CRH, ADH, MSH, PTH, and others). Gαq-coupled hormones tend to be those involved in smooth muscle contraction and secretion.\n\n---\n\n## Signal Amplification and the Concept of Signaling Cascades\n\nOne of the most powerful features of cell signaling is **amplification**—a small number of ligand-receptor interactions can produce a massive cellular response. This is achieved through enzymatic cascades where each step multiplies the signal.\n\n### Amplification in the cAMP Cascade\n\nConsider β-adrenergic stimulation:\n1. One epinephrine molecule binds one GPCR\n2. One activated GPCR activates multiple Gαs molecules (receptor acts catalytically before being desensitized)\n3. Each adenylyl cyclase molecule produces many cAMP molecules\n4. Each PKA molecule phosphorylates many substrate proteins\n5. Activated glycogen phosphorylase kinase phosphorylates many glycogen phosphorylase molecules\n6. Each glycogen phosphorylase cleaves many glucose-1-phosphate units from glycogen\n\nEnzyme turnover can generate many product molecules per initiating event. The gain is context-dependent rather than a fixed number, and glycogen phosphorylase mainly releases glucose-1-phosphate, not free glucose.\n\n### The MAPK Cascade: An RTK Example\n\nThe **mitogen-activated protein kinase (MAPK) cascade** illustrates cascade amplification through sequential kinase activation:\n\n1. RTK activation → recruits **GRB2** (adaptor protein with SH2 domain) → recruits **SOS** (a GEF)\n2. SOS activates **RAS** (monomeric GTPase) by exchanging GDP for GTP\n3. RAS-GTP activates **RAF** (a MAP kinase kinase kinase, MAP3K)\n4. RAF phosphorylates and activates **MEK** (MAP kinase kinase, MAP2K)\n5. MEK phosphorylates and activates **ERK** (MAP kinase, MAPK)\n6. ERK phosphorylates transcription factors (e.g., ELK-1) → gene expression changes promoting proliferation\n\nAt each step, one active kinase phosphorylates many molecules of the next kinase, amplifying the signal enormously. **RAS-GAP** (GTPase-activating protein) stimulates RAS's GTPase activity, returning RAS to the inactive GDP-bound state and terminating the signal.\n\n---\n\n## Signal Specificity\n\nGiven that many signals use the same second messengers (cAMP, Ca²⁺), how do cells produce specific responses? Several mechanisms ensure specificity:\n\n### Receptor Expression\n\nA cell responds only to ligands for which it expresses receptors. Hepatocytes express glucagon receptors; skeletal muscle cells do not. This tissue-specific receptor expression is the primary determinant of signaling specificity.\n\n### Scaffold Proteins and Signaling Complexes\n\n**Scaffold proteins** organize signaling components into discrete complexes, ensuring that signals are passed efficiently between specific partners and not to other proteins sharing the same second messenger. For example, **AKAP proteins (A-kinase anchoring proteins)** tether PKA near specific substrates, ensuring that cAMP signals activate only the correct targets in a given subcellular location.\n\n### Signal Duration and Intensity\n\nCells can distinguish between transient and sustained signals. In some experimental systems, transient ERK activity favors proliferation while sustained activity favors differentiation; this is not a universal rule across all cell types. The same kinase, activated for different durations, produces different outcomes.\n\n### Combinatorial Signaling\n\nMultiple signaling pathways interact through **cross-talk**. PKA can phosphorylate and modulate components of the MAPK pathway. Ca²⁺/calmodulin can regulate adenylyl cyclase isoforms. These interactions allow cells to integrate multiple inputs and produce nuanced responses.\n\n---\n\n## Signal Termination and Receptor Regulation\n\nSignals must be terminated to allow the cell to reset and respond to future stimuli. Failure to terminate signals is a hallmark of cancer.\n\n### Mechanisms of Signal Termination\n\n- **Ligand removal**: Diffusion away, enzymatic degradation (e.g., acetylcholinesterase degrades ACh in the synapse), reuptake\n- **Receptor inactivation**: GPCRs are phosphorylated by **G protein-coupled receptor kinases (GRKs)** on their intracellular tails → **β-arrestin** binds → uncouples receptor from G protein (**desensitization**)\n- **Receptor internalization**: β-arrestin also recruits clathrin → receptor is endocytosed → either recycled to the surface or degraded (**downregulation**)\n- **GTPase activity**: Gα and RAS have intrinsic GTPase activity; hydrolyzing GTP to GDP returns them to the inactive state\n- **Phosphodiesterases**: Degrade cAMP and cGMP\n- **Phosphoprotein phosphatases**: Remove phosphate groups added by kinases, reversing phosphorylation events\n- **IP₃ dephosphorylation**: IP₃ is metabolized by phosphatases and kinases; lowering active IP₃ helps terminate its Ca²⁺-release signal\n- **Ca²⁺ pumps**: SERCA pumps restore Ca²⁺ to the ER; plasma membrane Ca²⁺-ATPase and Na⁺/Ca²⁺ exchangers remove Ca²⁺ from the cytoplasm\n\n### Receptor Desensitization and Downregulation\n\n**Homologous desensitization**: Activated receptor is phosphorylated by GRKs → β-arrestin binding → signal termination. This is specific to the activated receptor.\n\n**Heterologous desensitization**: PKA or PKC (activated by other pathways) phosphorylate receptors that are *not* currently bound by ligand, reducing responsiveness of susceptible receptors, including receptors not directly occupied by the initiating ligand.\n\n**Downregulation**: Chronic exposure to high ligand concentrations causes receptor internalization and degradation, reducing total receptor number. Desensitization can contribute to rapidly diminishing drug responses; receptor loss is not required for every example of tachyphylaxis or tolerance.\n\n---\n\n## Nitric Oxide: A Gaseous Signaling Molecule\n\n**Nitric oxide (NO)** is a special case. It is synthesized from arginine by **nitric oxide synthase (NOS)** in endothelial cells, neurons, and macrophages. NO diffuses freely across membranes and directly activates **soluble guanylyl cyclase** in target cells (particularly vascular smooth muscle), producing cGMP, which activates PKG, leading to smooth muscle relaxation and vasodilation.\n\nNO has a very short half-life (seconds) because it reacts with oxygen and superoxide. This limits its range of action to paracrine and autocrine signaling.\n\n*Clinical relevance*: Nitroglycerin (used in angina) is converted to NO in the body. Sildenafil inhibits PDE5, which degrades cGMP in smooth muscle—both drugs ultimately increase cGMP and cause vasodilation.\n\n---\n\n## Integrating the Concepts: Epinephrine as a Case Study\n\nEpinephrine (adrenaline) illustrates how a single hormone can activate multiple receptor types to produce coordinated physiological responses.\n\n- **β₁-adrenergic receptors** (heart): Gαs → ↑cAMP → PKA → ↑heart rate and contractility\n- **β₂-adrenergic receptors** (bronchioles, blood vessels in skeletal muscle): Gαs → ↑cAMP → PKA → smooth muscle relaxation (bronchodilation, vasodilation)\n- **β₃-adrenergic receptors** (adipose tissue): Gαs → ↑cAMP → PKA → ↑HSL → lipolysis\n- **α₁-adrenergic receptors** (blood vessels in skin, gut): Gαq → PLC → IP₃/DAG → Ca²⁺/PKC → smooth muscle contraction (vasoconstriction)\n- **α₂-adrenergic receptors** (presynaptic neurons, pancreatic β-cells): Gαi → ↓cAMP → ↓PKA → inhibition of neurotransmitter release, ↓insulin secretion\n- **Liver**: β₂ + α₁ → ↑cAMP + ↑Ca²⁺ → glycogenolysis, gluconeogenesis\n\nThe net effect of epinephrine during the fight-or-flight response: increased cardiac output, bronchodilation, redistribution of blood flow, mobilization of glucose and fatty acids, and inhibition of non-essential functions.\n\n---\n\n## MCAT High-Yield Summary\n\n- **Hydrophilic ligands** → cell-surface receptors (GPCRs, RTKs, ion channels); **hydrophobic ligands** → intracellular receptors (nuclear receptors acting as transcription factors)\n- **GPCRs**: 7-TM; activate heterotrimeric G proteins; Gαs↑cAMP, Gαi↓cAMP, Gαq→IP₃/DAG\n- **RTKs**: Dimerize upon ligand binding; trans-autophosphorylate on tyrosine; activate RAS/MAPK and PI3K/AKT; insulin receptor is a pre-formed dimer\n- **cAMP** → PKA → phosphorylates glycogen phosphorylase kinase (↑glycogenolysis), glycogen synthase (↓glycogen synthesis), HSL (↑lipolysis), CREB (↑transcription)\n- **IP₃** → ER Ca²⁺ release; **DAG** → PKC activation; Ca²⁺ → calmodulin → CaMKs, MLCK, calcineurin\n- **Signal amplification**: Enzymatic steps can amplify signals; feedback and saturation constrain the actual gain\n- **Signal termination**: GTPases (Gα, RAS), phosphodiesterases, phosphatases, GRKs/β-arrestin, receptor internalization\n- **Cholera toxin** locks Gαs ON (↑↑cAMP); **pertussis toxin** locks Gαi OFF (prevents ↓cAMP)\n- **Nuclear receptors**: Zinc finger DNA-binding domains; bind HREs; often slower transcriptional responses; localization and chaperone dependence differ among receptor families\n- **NO**: Synthesized by NOS from arginine; activates soluble guanylyl cyclase → ↑cGMP → vasodilation\n\nMastering cell signaling means understanding not just the individual pathways but the logic underlying them: receptor type determines second messenger, second messenger determines kinase, kinase determines cellular response. With this framework, even unfamiliar signaling scenarios on the MCAT become tractable."
+    },
+    {
+      "field": "questions.287.explanation",
+      "value": "Amplification means an activated enzyme or receptor can produce or activate multiple downstream molecules. The receptor–G protein–adenylyl cyclase–cAMP–PKA sequence contains several such opportunities, supporting B. The gain is not necessarily exponential or constant: substrate supply, phosphatases, feedback and saturation limit the output."
+    },
+    {
+      "field": "questions.288.explanation",
+      "value": "Phospholipase C cleaves PIP2 into two second messengers: inositol trisphosphate (IP3) and diacylglycerol (DAG). IP3 is water-soluble and diffuses to the ER, where it opens IP3-gated calcium channels, releasing Ca2+ into the cytoplasm. DAG remains in the plasma membrane and, together with Ca2+, activates conventional protein kinase C isoforms. Choice A describes a different pathway involving adenylyl cyclase and guanylyl cyclase. Choice D incorrectly assigns the targets of IP3 and DAG."
+    }
+  ]
+}

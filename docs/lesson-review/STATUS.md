@@ -96,3 +96,13 @@ Draft lesson IDs: 4, 5, 6, 7, 8, 44, 45, 46, 47, 48, 89, 90, 91, 92, 109, 110, 1
 - Total: **41/250 lessons, 205 quiz questions; 209 lessons remain**. No 100% accuracy guarantee or exhaustive certification.
 - **55 tests passed; production build passed**. New SVG rendered with Sharp and visually inspected. Full browser interaction and live authenticated APIs have not been reverified for this checkpoint.
 - No production deployment performed. Next content review: lesson 45.
+
+
+## Glossy study experience + next 20 lessons — 2026-11-09
+- Completed full-text targeted reviews of IDs **45–64**, with all **100 quiz items**, **627 source-linked corrections**, and **20 new scientific SVG diagrams**. Each diagram rendered and visually inspected; chamber-label overlap in the ECG diagram corrected during QA.
+- Added exact heading-based inline diagram placement; tests verify every placement exists and preserve all lesson text. Selection/highlighting remains restricted to lesson text.
+- Cumulative **61/250 lessons and 305 quiz questions** reviewed; **189 lessons remain**. Next lesson ID65. Review stopped at this requested batch.
+- Restored stronger blue enamel buttons with sheen, depth and press feedback. Added server-confirmed first-answer daily celebration, milestone wording, session-completion Nori and reduced-motion support. No repeated reward for visits or repeated same-day answers.
+- 67 tests passed, including all review guards/quiz uniqueness and corrected-key regressions; production build and TypeScript check passed.
+- Browser QA blocked: managed preview supplies unsupported --host/--strictPort arguments to next dev. No working-app code was changed to bypass that limitation. Full authenticated browser/production verification remains a Preview acceptance task.
+- Original database content is not overwritten; reviews skip atomically if stored content or quiz items have changed. Dependency audit warnings from the previous install have not been remediated in this feature update.

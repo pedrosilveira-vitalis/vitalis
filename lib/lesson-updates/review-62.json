@@ -1,0 +1,238 @@
+{
+  "lessonId": 62,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Multicellular organisms depend on a precise balance between cell proliferation and cell death. **Apoptosis** — derived from the Greek word for \"falling leaves\" — is a form of programmed cell death that allows an organism to eliminate damaged, infected, or unnecessary cells in a controlled, immunologically silent manner. Unlike **necrosis**, which is passive cell death caused by acute injury and triggers inflammation, apoptosis is an active, ATP-dependent process that proceeds through defined molecular cascades, resulting in cellular self-dismantling without spillage of intracellular contents.",
+      "new": "Apoptosis is a regulated cell-death process that removes damaged or unnecessary cells through coordinated molecular dismantling. It commonly preserves membrane integrity until clearance and is often anti-inflammatory, but it is not invariably immunologically silent. Necrotic morphology can result from accidental injury or from regulated pathways such as necroptosis; “necrosis” does not mean universally passive death.",
+      "reason": "Replace obsolete binary classification.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "In adults, roughly 50–70 billion cells undergo apoptosis every day to maintain tissue homeostasis.",
+      "new": "Large numbers of cells turn over daily, with rates varying by tissue; one fixed whole-body apoptotic count should not be treated as an established universal measurement.",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "Excessive apoptosis underlies conditions such as HIV-associated immunodeficiency and ischemia-reperfusion injury.",
+      "new": "Apoptosis can contribute to tissue injury, but HIV-associated immune-cell loss and ischemia-reperfusion injury also involve other death pathways.",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "no inflammatory response is triggered",
+      "new": "clearance commonly limits inflammation; delayed clearance or particular stimuli can change the immune response",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "The absence of inflammation is a key distinguishing feature.",
+      "new": "Efficient clearance often suppresses inflammation, but absence of inflammation is not an absolute diagnostic criterion.",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "macrophage receptors such as TIM-4 and MFG-E8",
+      "new": "receptors such as TIM-4, or bridging proteins such as MFG-E8 that link phosphatidylserine to phagocyte integrins",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "Caspases are divided into two functional groups:",
+      "new": "Apoptotic caspases are commonly grouped as follows; inflammatory caspases form additional functional categories:",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2755903/"
+    },
+    {
+      "field": "content",
+      "old": "Initiator procaspases are activated by **induced proximity** — when recruited into large multiprotein complexes, their local concentration rises high enough that weak, intrinsic proteolytic activity allows them to cleave and activate each other. Once active, initiator caspases cleave the short prodomains of executioner procaspases, generating fully active executioner caspases.",
+      "new": "Activation platforms recruit initiator procaspases and promote productive dimerization/conformational activation. Processing can stabilize or regulate their activity; cleavage is not the universal initiating event. Executioner procaspases such as caspase-3 and -7 are activated chiefly by cleavage of the intersubunit linker, not simply removal of a short prodomain.",
+      "reason": "Correct initiator versus effector activation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2755903/"
+    },
+    {
+      "field": "content",
+      "old": "MOMP is generally considered the *point of no return* in intrinsic apoptosis.",
+      "new": "Widespread MOMP is usually a commitment step, but limited MOMP and recovery can occur in some settings; “point of no return” is not absolute.",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "Smac/DIABLO ensures that caspase activation proceeds unimpeded.",
+      "new": "Smac/DIABLO can relieve XIAP inhibition; the outcome still depends on the wider regulatory network.",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "Loss-of-function mutations in *TP53* (the gene encoding p53) are found in more than 50% of human cancers, largely because cells lose this critical apoptotic checkpoint.",
+      "new": "*TP53* alterations are frequent in cancer, with prevalence varying strongly by tumor type. p53 also regulates cell-cycle arrest, senescence, repair and metabolism; its cancer role cannot be reduced to apoptosis alone.",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "by competitively binding to them, freeing Bax/Bak (primarily Bad, Noxa, Puma)",
+      "new": "by binding to them (for example Bad and Noxa); BH3-only protein behavior is context-dependent rather than a rigid activator-versus-sensitizer classification",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "Upon ligand binding, death receptors trimerize.",
+      "new": "For Fas and TRAIL receptors, ligand-dependent receptor clustering organizes an apoptotic signaling platform; preassembled receptor complexes can also exist.",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "c-FLIP structurally resembles procaspase-8 but lacks catalytic activity; it competes with procaspase-8 for DISC incorporation, thereby inhibiting caspase-8 activation.",
+      "new": "c-FLIP resembles procaspase-8 but lacks caspase catalytic activity. Its effects depend on isoform and abundance: some complexes inhibit apoptosis, whereas c-FLIP-L/caspase-8 heterodimers can retain restricted catalytic activity.",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2755903/"
+    },
+    {
+      "field": "content",
+      "old": "based on how much active caspase-8 is generated at the DISC",
+      "new": "based on the need for mitochondrial amplification, influenced by DISC signaling strength and downstream inhibition such as XIAP",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "both converge on the **activation of caspase-3**",
+      "new": "both can converge on executioner caspases, especially **caspase-3 and caspase-7**; dependence on a particular executioner varies",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "failure leads to syndactyly",
+      "new": "impaired interdigital tissue removal can contribute to syndactyly, but alternative death mechanisms can compensate in some experimental models",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10508592/"
+    },
+    {
+      "field": "content",
+      "old": "clonal deletion of autoreactive T cells in the thymus (negative selection) depends on Fas/FasL-mediated apoptosis and intrinsic pathway activation",
+      "new": "deletion of autoreactive thymocytes commonly involves Bim and the intrinsic pathway; Fas is especially important in peripheral immune homeostasis and is not universally required for thymic negative selection",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7609743/"
+    },
+    {
+      "field": "content",
+      "old": "under control of the immunoglobulin heavy chain promoter",
+      "new": "under the influence of immunoglobulin heavy-chain regulatory elements",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "**Overexpression of c-FLIP** — blocks DISC formation",
+      "new": "**Altered c-FLIP expression** — can suppress productive apoptotic caspase-8 signaling at the DISC",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2755903/"
+    },
+    {
+      "field": "content",
+      "old": "| Feature | Apoptosis | Necrosis | Autophagy |\n|---|---|---|---|\n| Energy requirement | ATP-dependent | Passive | ATP-dependent |\n| Trigger | Programmed signals | Acute injury | Nutrient deprivation, stress |\n| Inflammation | None (anti-inflammatory) | Yes (pro-inflammatory) | Minimal |\n| Membrane integrity | Maintained until phagocytosis | Lost early | Maintained |\n| DNA fragmentation | Internucleosomal (~180 bp ladder) | Random, non-specific | Not primary feature |\n| Morphology | Shrinkage, blebbing, apoptotic bodies | Swelling, lysis | Autophagosomes |",
+      "new": "| Process | Distinguishing features |\n|---|---|\n| Apoptosis | Caspase-associated dismantling; shrinkage and blebbing; efficient clearance often limits inflammation |\n| Necrotic morphology | Swelling and membrane rupture; may result from accidental injury or regulated mechanisms |\n| Autophagy | Lysosomal recycling, often a survival response; autophagosomes alone do not establish autophagy-dependent cell death |",
+      "reason": "Do not equate autophagy with a death mechanism or necrosis with passive death.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "though they are less commonly tested on the current MCAT",
+      "new": "which have distinct molecular mechanisms; their relative exam frequency is not established here",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "specific for apoptosis (necrosis gives a smear)",
+      "new": "can support apoptosis but is neither universally present nor sufficient alone to identify the death mechanism",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "used in tissue sections and flow cytometry",
+      "new": "used in tissue sections and flow cytometry; DNA breaks can occur outside apoptosis, so combine with other evidence",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "necrotic cells are positive for both",
+      "new": "late apoptotic and membrane-damaged cells can also be double-positive; this pattern alone does not uniquely distinguish mechanisms",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "content",
+      "old": "**Apoptosis is ATP-dependent and inflammation-free**; necrosis is passive and pro-inflammatory.",
+      "new": "**Apoptosis commonly involves energy-dependent dismantling and non-inflammatory clearance**; inflammatory outcomes vary. Necrotic morphology may arise from regulated or accidental death.",
+      "reason": "Correct biological scope and interpretation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "questions.310.question_text",
+      "old": "During embryonic limb development, the cells between the digits undergo apoptosis to sculpt the hand. A mutation abolishes caspase-9 function in these cells. Which of the following would most likely be observed?",
+      "new": "A cultured cell line relies on cytochrome c–Apaf-1–caspase-9 signaling for apoptosis after a defined stimulus. Caspase-9 activity is abolished, with no compensatory pathway activated. Which outcome is most directly predicted?",
+      "reason": "Replace false universal developmental phenotype with a controlled mechanistic experiment.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10508592/"
+    },
+    {
+      "field": "questions.310.choice_a",
+      "old": "Normal digit separation because the extrinsic pathway fully compensates",
+      "new": "Unchanged apoptosome-mediated executioner activation because extrinsic signaling automatically compensates",
+      "reason": "Align answer set with controlled experiment.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26873/"
+    },
+    {
+      "field": "questions.310.choice_b",
+      "old": "Failure of digit separation due to impaired intrinsic pathway apoptosis",
+      "new": "Reduced apoptosome-mediated activation of executioner caspases",
+      "reason": "Correct direct consequence.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26873/"
+    },
+    {
+      "field": "questions.310.choice_c",
+      "old": "Accelerated digit separation because caspase-3 is upregulated in compensation",
+      "new": "Increased executioner activation because caspase-9 normally inhibits caspase-3",
+      "reason": "Distinct incorrect mechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26873/"
+    },
+    {
+      "field": "questions.310.choice_d",
+      "old": "Increased cell proliferation in digit regions with no effect on interdigital cells",
+      "new": "Immediate membrane rupture caused directly by loss of caspase-9",
+      "reason": "Avoid implying a specific alternative death pathway.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    },
+    {
+      "field": "questions.310.explanation",
+      "old": "Interdigital cell death is a classic example of developmentally programmed apoptosis mediated by the intrinsic pathway, which requires caspase-9 as the initiator caspase activated by the apoptosome. Loss of caspase-9 would block apoptosome-mediated caspase activation, preventing interdigital cell death and resulting in webbed or fused digits. Choice A is tempting because the extrinsic pathway exists, but developmental sculpting in this context is predominantly driven by the intrinsic pathway, and the extrinsic pathway does not fully substitute. Choice C is incorrect because caspase-3 is an executioner caspase that requires upstream initiator caspase activation.",
+      "new": "Caspase-9 links the apoptosome to downstream executioner activation, so blocking it reduces this route under the stated assumptions. This does not establish that all developmental tissue removal must fail: primary mouse experiments show that interdigital cells can be removed through alternative, caspase-independent mechanisms.",
+      "reason": "Correct unsupported limb phenotype prediction.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10508592/"
+    },
+    {
+      "field": "questions.307.explanation",
+      "old": "Bcl-2 is an anti-apoptotic protein that resides on the outer mitochondrial membrane and inhibits pro-apoptotic proteins such as Bax and Bak, thereby preventing mitochondrial outer membrane permeabilization (MOMP) and cytochrome c release. Overexpression of Bcl-2 would therefore confer resistance to intrinsic pathway apoptosis triggered by DNA damage. Choice C is incorrect because Bcl-2 primarily regulates the intrinsic, not extrinsic, pathway. Choice D is a tempting distractor but there is no established mechanism by which Bcl-2 overexpression redirects cells toward necrosis.",
+      "new": "Bcl-2 overexpression can raise resistance to mitochondrial apoptosis by restraining pro-apoptotic Bcl-2-family activity and MOMP. Resistance depends on the cellular context and strength of the stimulus. A switch to another death mechanism is not determined merely by knowing that Bcl-2 is overexpressed.",
+      "reason": "Remove absolute claim about alternative death pathways.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5864239/"
+    }
+  ]
+}
