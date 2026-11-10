@@ -1,0 +1,206 @@
+{
+  "lessonId": 63,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    311,
+    312,
+    313,
+    314,
+    315
+  ],
+  "sources": [
+    {
+      "url": "https://store.aamc.org/aamc-cars-question-bank-online-1-year-subscription.html",
+      "title": "AAMC: CARS humanities and social science scope"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10813445/",
+      "title": "Pressure–volume loops and cardiac pathophysiology"
+    },
+    {
+      "url": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2022/03/29/19/53/2022-AHA-ACC-HFSA-Heart-Failure-Guideline-gl-hf",
+      "title": "ACC: Heart failure guideline classifications"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK541010/",
+      "title": "NCBI Bookshelf: Heart sounds"
+    },
+    {
+      "url": "https://obgyn.onlinelibrary.wiley.com/doi/10.1111/aogs.12919",
+      "title": "Hemodynamics of normal fetal–placental circulation"
+    }
+  ],
+  "visual": {
+    "title": "Follow pressure, volume and valve timing",
+    "src": "/lesson-diagrams/cardiac-cycle.svg",
+    "width": 900,
+    "height": 760,
+    "alt": "A counterclockwise left ventricular pressure–volume loop labels filling, mitral closure, isovolumetric contraction, aortic opening, ejection, aortic closure, isovolumetric relaxation and mitral opening. Stroke volume is the width between ESV and EDV.",
+    "caption": "Illustrative left ventricular loop, not a patient measurement. Both valves are closed along the vertical isovolumetric segments.",
+    "beforeHeading": "The Frank-Starling Mechanism"
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "e3fe4d586143b6e8d0b3221975de04d975419c7db7c5c6c2ee7736c97bfaf48a"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "5d400a8db5aad743a854e137b82e9d3fef3ccb668cec0579144ea4f3286dfb7e"
+    },
+    {
+      "field": "questions.311.question_text",
+      "sha256": "efff4156e83656d642e6950dedaf80e1b194249a2fba0f8b2bc67e8a83d3a7ce"
+    },
+    {
+      "field": "questions.311.choice_a",
+      "sha256": "b071d5247896497b7be6b42818e97773e3e598e3133ef5063b961e6a98a3a63d"
+    },
+    {
+      "field": "questions.311.choice_b",
+      "sha256": "c2c66b4edb037793b8a7fc5e379bf7a76a2dd65948d39b2ce6354a72a7e04594"
+    },
+    {
+      "field": "questions.311.choice_c",
+      "sha256": "a5f24e65bf6ef66dca49daca2bc362dc4741e45d83f27a6f7ddba28d95a4223f"
+    },
+    {
+      "field": "questions.311.choice_d",
+      "sha256": "1c2aed2b7d6519633d3c04f455bf0345884f8b042a9f2f9d185db22853853c15"
+    },
+    {
+      "field": "questions.311.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.311.explanation",
+      "sha256": "a0cc30b4ccfc2595246423c796a74d7ae1e27912fc92ec495a57f980ba9bc9af"
+    },
+    {
+      "field": "questions.312.question_text",
+      "sha256": "32297cc40ac0515f9004eaeafff4bd7afab00bebd37be1bf10c438dfe6a70b17"
+    },
+    {
+      "field": "questions.312.choice_a",
+      "sha256": "d10d6844acbfe45ecb2787c9fff7c074a3dd4e136b9f6fbe2cd38419787ca48c"
+    },
+    {
+      "field": "questions.312.choice_b",
+      "sha256": "b72a32fb6077b38f69469f77463e033b3425432d09f4a9d2a39a53d9c0f496ab"
+    },
+    {
+      "field": "questions.312.choice_c",
+      "sha256": "f3025be65eaa674b659aef9d4d62f8322e0510d7fca123617b5edcf5b2867d52"
+    },
+    {
+      "field": "questions.312.choice_d",
+      "sha256": "df94b18ae9e488b43891c1baf3de59a3aa022fbe5c258ad06a1808906d03944c"
+    },
+    {
+      "field": "questions.312.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.312.explanation",
+      "sha256": "5ed1fb1a718425e454b55092925d5406eb98efaf1b6a36f208b1f67823bcb1a7"
+    },
+    {
+      "field": "questions.313.question_text",
+      "sha256": "5daa858e57d48aa9dde3b0483be8f44c60318851a685d6089b8385290f89b3e0"
+    },
+    {
+      "field": "questions.313.choice_a",
+      "sha256": "118b7865bb87d28818df5130eb29e946d0b587c498e3d01c4660ed756095915f"
+    },
+    {
+      "field": "questions.313.choice_b",
+      "sha256": "2a0467ee85c0a690b618e13872d76adbe4553badd54b14b17cacba7ed8e42116"
+    },
+    {
+      "field": "questions.313.choice_c",
+      "sha256": "98406a124b9cdf146257ebf1de9f6f4fd2e0fa3e74d8da7f62780d6e8f7e51a9"
+    },
+    {
+      "field": "questions.313.choice_d",
+      "sha256": "719c3e021e2a39a91e19a7248018b328ff6c6fa3b59508cbe30515a1e0f280ce"
+    },
+    {
+      "field": "questions.313.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.313.explanation",
+      "sha256": "67068b3e000170adf061751426a0fff694c8494bae78c3f4d52fae5f3248df2e"
+    },
+    {
+      "field": "questions.314.question_text",
+      "sha256": "d686d62a0751696b78c5d85c8056d74e77eb1739318ce24e5d5188eed6df0a64"
+    },
+    {
+      "field": "questions.314.choice_a",
+      "sha256": "50abcd37c4fd8c407051114bc44fa2a7fcb421f19d9741e68fb052eb866fdab6"
+    },
+    {
+      "field": "questions.314.choice_b",
+      "sha256": "d3eb45491b216bb669e5f1c14171713bff191f97e534717e3433209e358f3937"
+    },
+    {
+      "field": "questions.314.choice_c",
+      "sha256": "0d89818d5ea6acdfbc061c793116419d44d5cc17628c378319d6e6277b7324f0"
+    },
+    {
+      "field": "questions.314.choice_d",
+      "sha256": "6da0bbbffb7074417e748e912cd88b78461e58a08fd3aa21a34facbdd4ad1553"
+    },
+    {
+      "field": "questions.314.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.314.explanation",
+      "sha256": "94edd4a884dedaf02a555dd0dbceec662186855a54352b3bc9814712821792a9"
+    },
+    {
+      "field": "questions.315.question_text",
+      "sha256": "2b13427e3ac16889d6b3e47a515a294c69589baf5047340fa20d9e955771b8e1"
+    },
+    {
+      "field": "questions.315.choice_a",
+      "sha256": "4350ca95e05ff37174548b24399ec1f82f54a99646a48bdac684a6f560958e71"
+    },
+    {
+      "field": "questions.315.choice_b",
+      "sha256": "548fed890abf6476e7c8a8d5361aabccec23d9386ccd6a84c700c9fb3474bce8"
+    },
+    {
+      "field": "questions.315.choice_c",
+      "sha256": "2e812fe50fedde3a1eed3d56548319d155d8015159006a8bb4c06f6da62a0b69"
+    },
+    {
+      "field": "questions.315.choice_d",
+      "sha256": "841f825d68ecc12ed0ece9a8302a29f6c914f94a97bd42d338a73f1d052c4ffb"
+    },
+    {
+      "field": "questions.315.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.315.explanation",
+      "sha256": "df6e17b8b4114d283cd5672b7094c078e73bb6308b1cb25c1dde769c64f2a307"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "# Cardiac Anatomy and the Cardiac Cycle\n\n## Overview and MCAT Relevance\n\nThe heart uses pressure differences and timed muscle contraction to move blood through two connected circuits. This lesson links anatomy, valve behavior, ventricular pressure–volume changes and cardiac output. These are science topics; CARS assesses passage reasoning in humanities and social science disciplines rather than requiring memorized cardiac physiology.\n\n---\n\n## Structural Organization of the Heart\n\n### Chambers and Walls\n\nThe heart contains **four chambers**: the right atrium, right ventricle, left atrium, and left ventricle. These chambers are not symmetric, and their wall thicknesses directly reflect the pressure work each must perform.\n\n- The **right ventricle** pumps blood through the pulmonary circuit, which operates at mean pressures of roughly 15 mmHg (systolic ~25 mmHg, diastolic ~8 mmHg). Its wall is relatively thin; representative adult values are around 3–5 mm and depend on measurement method.\n- The **left ventricle** pumps against the systemic circuit, which has a mean arterial pressure of approximately 93 mmHg (systolic ~120 mmHg, diastolic ~80 mmHg). Its wall is correspondingly thick, averaging 8–12 mm.\n- The **atria** are thin-walled receiving chambers whose primary job is to top off ventricular filling during diastole. Atrial pressures rarely exceed 8–12 mmHg under normal conditions.\n\nThe **interventricular septum** separates the two ventricles and is functionally part of the left ventricular wall. The **interatrial septum** separates the atria and contains the **fossa ovalis**, a remnant of the foramen ovale that allowed fetal blood to bypass the pulmonary circuit.\n\n### Fibrous Skeleton and Myocardium\n\nThe heart's four valves are anchored to a ring of dense fibrous connective tissue called the **cardiac skeleton** (or fibrous skeleton). This structure serves three functions: it provides mechanical support for the valves, it electrically insulates the atria from the ventricles (so that the normal atrioventricular conduction axis passes through the AV node and penetrating His bundle), and it gives the myocardium a rigid attachment point.\n\nCardiac muscle cells (**cardiomyocytes**) are striated, branched, and connected by **intercalated discs** that contain gap junctions and desmosomes. Gap junctions allow rapid ionic coupling so that the ventricles contract as a functional syncytium. This is fundamentally different from skeletal muscle, where individual motor units are recruited independently.\n\n### The Pericardium\n\nThe heart is enclosed in the **pericardium**, a double-walled sac. The outer **fibrous pericardium** anchors the heart to surrounding structures and prevents overdistension. The inner **serous pericardium** has two layers—the **parietal layer** lining the fibrous sac and the **visceral layer** (epicardium) adherent to the heart surface—with the **pericardial cavity** between them containing 15–50 mL of serous fluid that reduces friction. Pericardial effusion (fluid accumulation) can compress the heart and impair filling, a condition called **cardiac tamponade**.\n\n---\n\n## Valves and the Direction of Blood Flow\n\n### Atrioventricular Valves\n\nThe **atrioventricular (AV) valves** sit between each atrium and its corresponding ventricle.\n\n- The **tricuspid valve** (right AV valve) has three leaflets and separates the right atrium from the right ventricle.\n- The **mitral valve** (bicuspid valve, left AV valve) has two leaflets and separates the left atrium from the left ventricle.\n\nBoth AV valves are anchored by **chordae tendineae** (\"heartstrings\") to **papillary muscles** projecting from the ventricular floor. When the ventricle contracts, the papillary muscles also contract, tensioning the chordae and preventing the valve leaflets from prolapsing back into the atrium. *If a papillary muscle ruptures—for example, following a myocardial infarction—the valve cannot be held shut during systole, producing acute mitral or tricuspid regurgitation.*\n\n### Semilunar Valves\n\nThe **semilunar valves** sit at the exit of each ventricle.\n\n- The **pulmonary valve** separates the right ventricle from the pulmonary trunk.\n- The **aortic valve** separates the left ventricle from the aorta.\n\nUnlike the AV valves, the semilunar valves have no chordae tendineae. They close passively when ventricular pressure falls below arterial pressure, with the cusps filling with blood that pushes them shut. The **sinuses of Valsalva** are dilations of the aortic root just above the aortic valve cusps; the left and right coronary arteries arise from two of these sinuses, supplying coronary blood flow throughout the cycle, with left ventricular perfusion predominantly during diastole.\n\n### Valve Behavior Is Governed by Pressure Gradients\n\nThis is a core MCAT principle: *valves open when pressure is higher on the upstream side and close when pressure is higher on the downstream side.* No active mechanism is required. Understanding this principle lets you reconstruct valve timing for any phase of the cardiac cycle without memorizing it as a list.\n\n---\n\n## The Pulmonary and Systemic Circuits\n\nBlood flows through two circuits in series:\n\n1. **Pulmonary circuit**: Right ventricle → pulmonary arteries → pulmonary capillaries (gas exchange) → pulmonary veins → left atrium. This is a *low-resistance, low-pressure* circuit.\n2. **Systemic circuit**: Left ventricle → aorta → systemic arteries → capillaries → systemic veins → right atrium. This is a *high-resistance, high-pressure* circuit.\n\nBecause the circuits are in series, the output of the right ventricle must equal the output of the left ventricle over time (both approximately 5 L/min at rest). A sustained imbalance would cause fluid to accumulate in the lungs (pulmonary edema) or periphery (systemic edema).\n\n---\n\n## The Cardiac Cycle: Mechanical Events\n\nThe **cardiac cycle** refers to the repeating sequence of contraction and relaxation that moves blood through the heart. At a resting heart rate of 75 beats per minute, each cycle lasts approximately 0.8 seconds: roughly 0.3 seconds of ventricular systole and 0.5 seconds of diastole.\n\n### Phase 1: Ventricular Filling (Early Through Late Diastole)\n\nDuring most of diastole, the ventricles are relaxed and filling passively. The AV valves are **open** (atrial pressure > ventricular pressure), and blood flows down its pressure gradient from atria into ventricles. Approximately 70–75% of ventricular filling occurs passively during early-to-mid diastole.\n\nAtrial systole contributes the final portion of filling. Its fraction varies with age, heart rate and ventricular compliance, so 25–30% is illustrative rather than fixed. Loss of coordinated atrial contraction can impair filling, especially with a stiff ventricle; tolerance of atrial fibrillation cannot be predicted from resting versus exercise status alone.\n\nThe volume of blood in the ventricle at the end of diastole is the **end-diastolic volume (EDV)**, typically about 120–130 mL in the left ventricle at rest.\n\n### Phase 2: Isovolumetric Contraction\n\nWhen the ventricles begin to depolarize and contract, ventricular pressure rises rapidly. As soon as ventricular pressure exceeds atrial pressure, the AV valves **close**. The closure of the mitral and tricuspid valves produces the **first heart sound (S1)**, often described as \"lub.\"\n\nAt this moment, both the AV valves and the semilunar valves are **closed**. The ventricle is a sealed chamber, so as myocardial tension develops, pressure rises steeply but volume does not change. This is **isovolumetric contraction**: tension and pressure rise without ejection. It consumes metabolic energy, but external pressure–volume work during an ideal constant-volume segment is zero because dV = 0. No universal ranking of instantaneous metabolic cost follows from this fact.\n\nThis phase ends when ventricular pressure exceeds aortic pressure (left side, ~80 mmHg) or pulmonary arterial pressure (right side, ~8 mmHg), forcing the semilunar valves **open**.\n\n### Phase 3: Rapid Ejection\n\nOnce the semilunar valves open, blood is ejected rapidly into the aorta and pulmonary trunk. Ventricular pressure continues to rise briefly, reaching a peak of approximately 120 mmHg on the left and 25 mmHg on the right. Systemic systolic blood pressure is an arterial measurement. Left ventricular and aortic systolic pressures are similar with an unobstructed aortic valve, but they can differ substantially with aortic stenosis.\n\nThe velocity of ejection is highest in early systole and declines as the ventricle begins to repolarize and relax. The **stroke volume (SV)** is the volume ejected per beat, typically 70–80 mL at rest. Not all blood is ejected: the **end-systolic volume (ESV)** remaining in the ventricle is approximately 50–60 mL.\n\n**Ejection fraction (EF)** = SV / EDV × 100%. Normal left ventricular EF is 55–70%. An EF of 40% or less defines the reduced-EF category in patients with heart failure. EF alone is not a complete diagnosis, and heart failure can occur with preserved EF.\n\n### Phase 4: Isovolumetric Relaxation\n\nAs the ventricle repolarizes and myocardial tension falls, ventricular pressure drops below aortic pressure. The pressure gradient reverses, and the semilunar valves **close**. Closure of the aortic and pulmonary valves produces the **second heart sound (S2)**, described as \"dub.\"\n\nAgain, both sets of valves are closed. Pressure falls rapidly as the myocardium relaxes, but volume remains constant—**isovolumetric relaxation**. This phase ends when ventricular pressure falls below atrial pressure, the AV valves open, and filling begins again.\n\n### Summary Table of Cardiac Cycle Phases\n\n- **Late diastole / atrial systole**: AV valves open, semilunar valves closed; ventricles filling; atrial kick adds final volume.\n- **Isovolumetric contraction**: All valves closed; pressure rises, volume constant; S1 heard at AV valve closure.\n- **Rapid ejection**: Semilunar valves open, AV valves closed; volume decreases; peak systolic pressure reached.\n- **Isovolumetric relaxation**: All valves closed; pressure falls, volume constant; S2 heard at semilunar valve closure.\n- **Rapid filling (early diastole)**: AV valves open; passive filling resumes.\n\n---\n\n## Pressure-Volume (PV) Loops\n\nThe **pressure-volume loop** is the graphical representation of one cardiac cycle, with ventricular volume on the x-axis and ventricular pressure on the y-axis. It is one of the highest-yield concepts in MCAT cardiac physiology.\n\n### Tracing the Loop\n\nStarting at the lower right corner (end-diastole, high volume, low pressure):\n\n1. **Isovolumetric contraction**: Vertical line upward (pressure rises, volume constant). The loop travels from lower right to upper right.\n2. **Ejection**: Pressure rises to peak systolic, then falls as ejection continues; volume decreases. The loop travels left along the upper portion.\n3. **Isovolumetric relaxation**: Vertical line downward (pressure falls, volume constant). The loop travels from upper left to lower left.\n4. **Filling**: Pressure remains low as volume increases. The loop travels right along the bottom.\n\nThe **width** of the loop equals stroke volume (EDV − ESV). The **area** enclosed by the loop equals the **stroke work** performed by the ventricle.\n\n### Effects of Preload and Afterload on the PV Loop\n\n**Preload** is the ventricular wall stress at end-diastole, clinically approximated by EDV or end-diastolic pressure. Increasing preload (e.g., increased venous return) shifts the loop to the right, increasing EDV and, by the **Frank-Starling mechanism**, increasing stroke volume. The loop widens.\n\n**Afterload** is the load opposing ejection, related to ventricular wall stress and arterial load rather than resistance alone. With an acute afterload increase at fixed EDV and contractility, end-systolic pressure and ESV rise: the end-systolic point moves upward and rightward, and the loop narrows. It does not shift left as previously stated.\n\n**Contractility** (inotropy) refers to the intrinsic force-generating capacity of the myocardium independent of preload and afterload. Increased contractility (e.g., catecholamines, digoxin) shifts the end-systolic pressure-volume relationship (ESPVR) line to the left, allowing more complete emptying at any given afterload. The loop both widens and shifts.\n\n---\n\n## The Frank-Starling Mechanism\n\nThe **Frank-Starling law** states that within a physiological range, increased filling lengthens cardiac sarcomeres and increases developed force. Length-dependent activation involves increased myofilament calcium sensitivity and other structural effects; it is not an unlimited linear relationship or simply a change in filament overlap. This is an intrinsic, beat-to-beat mechanism that allows the heart to match output to venous return without requiring neural or hormonal input.\n\nClinically, this relationship is depicted as a **Starling curve** (cardiac output vs. ventricular filling pressure). In heart failure, the curve is shifted downward and to the right: for any given filling pressure, cardiac output is lower than normal. Positive inotropes shift the curve upward; diuretics reduce filling pressure and move the patient along the curve toward a less congested state.\n\nThe Frank-Starling mechanism also explains why the two ventricles, despite being anatomically separate, automatically match their outputs: if the right ventricle transiently delivers more blood to the pulmonary circulation, the left ventricle receives more preload and increases its stroke volume to match.\n\n---\n\n## Heart Sounds and Their Clinical Significance\n\n### S1 and S2\n\n- **S1** (\"lub\"): Closure of mitral and tricuspid valves at the beginning of isovolumetric contraction. Best heard at the cardiac apex. Marks the onset of systole.\n- **S2** (\"dub\"): Closure of aortic and pulmonary valves at the beginning of isovolumetric relaxation. Best heard at the base (upper sternal border). Marks the onset of diastole.\n\n*Physiological splitting of S2* occurs during inspiration: increased venous return to the right heart prolongs right ventricular ejection, delaying pulmonic valve closure, while reduced pulmonary venous return shortens left ventricular ejection, causing earlier aortic valve closure. The two components of S2 (A2 and P2) separate audibly.\n\n*Fixed splitting* of S2 (splitting that does not vary with respiration) is a hallmark of **atrial septal defect (ASD)**, where right ventricular volume loading and respiratory variation in shunt flow help maintain a relatively fixed split; this does not mean the two ventricles have equal filling pressures.\n\n### S3 and S4\n\n- **S3** (\"ventricular gallop\"): Occurs in early diastole during rapid ventricular filling. In young adults it can be physiological, but in older patients it can suggest abnormal filling or volume overload and requires clinical interpretation; it does not uniquely establish systolic heart failure.\n- **S4** (\"atrial gallop\"): Occurs late in diastole during the atrial kick. It indicates a stiff, noncompliant ventricle (diastolic dysfunction), as seen in hypertensive heart disease or hypertrophic cardiomyopathy.\n\n### Murmurs\n\nMurmurs arise from turbulent blood flow. Their timing (systolic vs. diastolic) tells you which valves are involved:\n\n- **Systolic murmurs**: Occur when semilunar valves should be open and AV valves should be closed. *Aortic stenosis* (obstruction to outflow) and *mitral regurgitation* (backflow into the left atrium) both produce systolic murmurs, but by different mechanisms.\n- **Diastolic murmurs**: Occur when AV valves should be open and semilunar valves should be closed. *Aortic regurgitation* (backflow into the left ventricle) and *mitral stenosis* (obstruction to filling) produce diastolic murmurs.\n\n---\n\n## Cardiac Output and Its Determinants\n\n**Cardiac output (CO)** = Heart rate (HR) × Stroke volume (SV).\n\nAt rest: CO ≈ 75 beats/min × 70 mL/beat ≈ 5.25 L/min.\n\nStroke volume is determined by three variables:\n1. **Preload** (Frank-Starling mechanism): ↑ preload → ↑ SV\n2. **Afterload**: ↑ afterload → ↓ SV\n3. **Contractility**: ↑ contractility → ↑ SV\n\nHeart rate is regulated by the autonomic nervous system:\n- **Sympathetic stimulation** (epinephrine, norepinephrine): increases HR (positive chronotropy) and contractility (positive inotropy) via β1-adrenergic receptors.\n- **Parasympathetic stimulation** (acetylcholine via vagus nerve): decreases HR (negative chronotropy) via M2 muscarinic receptors; has minimal effect on ventricular contractility.\n\n**Cardiac index** normalizes CO for body surface area (normal: 2.5–4.0 L/min/m²) and is used to compare patients of different sizes.\n\n---\n\n## Coronary Circulation\n\nThe heart receives its own blood supply from the **left and right coronary arteries**, which arise from the aortic root immediately above the aortic valve. A critical anatomical feature: coronary perfusion occurs *predominantly during diastole*, because during systole the contracting myocardium compresses the intramural coronary vessels and impedes flow. This is especially true for the subendocardial layers of the left ventricle, which are the most vulnerable to ischemia.\n\n- The **left coronary artery (LCA)** divides into the **left anterior descending (LAD)** artery (supplies the anterior left ventricle and anterior interventricular septum) and the **left circumflex (LCx)** artery (supplies the lateral and posterior left ventricle).\n- The **right coronary artery (RCA)** supplies the right ventricle and, in most people (right-dominant circulation), gives rise to the **posterior descending artery (PDA)**, which supplies the inferior left ventricle and posterior septum.\n\nThe **AV node** is supplied by the RCA in ~90% of individuals. This explains why inferior myocardial infarctions (RCA territory) frequently cause AV conduction blocks.\n\n---\n\n## Integration: Putting It All Together\n\nConsider a patient with **severe aortic stenosis** (narrowing of the aortic valve). The left ventricle must generate much higher pressures to eject blood across the stenotic valve (increased afterload). Over time:\n\n1. The left ventricle undergoes **concentric hypertrophy** (walls thicken, chamber volume stays normal or decreases) to normalize wall stress (by the law of Laplace: wall stress ≈ (pressure × radius) / (2 × wall thickness), using an idealized thin-walled spherical approximation).\n2. The hypertrophied ventricle is stiff and noncompliant, impairing diastolic filling → diastolic dysfunction → S4 heart sound.\n3. Stroke volume may fall as obstruction, impaired filling or ventricular dysfunction progresses; compensation can maintain output in some stages.\n4. The PV loop shows a taller, narrower shape: higher peak pressure, reduced stroke volume (narrower width), and increased end-systolic volume.\n5. Coronary perfusion is compromised because the hypertrophied muscle has increased oxygen demand and the elevated end-diastolic pressure reduces the diastolic pressure gradient driving coronary flow.\n\nThis integrated analysis—from structural change to hemodynamic consequence to clinical finding—is exactly the type of reasoning the MCAT tests in complex passage-based questions.\n\n---\n\n## Key Numbers to Memorize\n\n- Normal left ventricular systolic pressure: ~120 mmHg\n- Normal left ventricular diastolic pressure: ~8–12 mmHg\n- Normal right ventricular systolic pressure: ~25 mmHg\n- Normal right ventricular diastolic pressure: ~4–8 mmHg\n- Aortic systolic/diastolic pressure: ~120/80 mmHg; mean ~93 mmHg\n- Pulmonary artery systolic/diastolic pressure: ~25/8 mmHg; mean ~15 mmHg\n- Normal EDV: ~120–130 mL\n- Normal ESV: ~50–60 mL\n- Normal stroke volume: ~70–80 mL\n- Normal ejection fraction: 55–70%\n- Normal cardiac output (rest): ~5 L/min\n- Resting heart rate: ~60–100 bpm; typical MCAT problems use 75 bpm\n- Left ventricular wall thickness: 8–12 mm\n- Right ventricular wall thickness: 3–5 mm\n\n---\n\n## Summary\n\nThe heart is a pressure pump whose anatomy—four chambers, four valves, fibrous skeleton, and asymmetric wall thicknesses—is precisely matched to the demands of two circuits operating at very different pressures. The cardiac cycle proceeds through isovolumetric contraction, ejection, isovolumetric relaxation, and filling, with valve behavior entirely determined by pressure gradients. The PV loop encodes all of this information graphically and shifts predictably with changes in preload, afterload, and contractility. S1 and S2 are associated with valve closure; other sounds, including opening snaps, have different mechanisms. Timing supports interpretation but does not by itself identify every lesion. Cardiac output is the product of heart rate and stroke volume, with stroke volume governed by the Frank-Starling mechanism, afterload, and contractility. Mastering these relationships—mechanistically, not as isolated facts—supports reasoning through pressure, volume and flow problems; it is not a guarantee of answering every examination question."
+    },
+    {
+      "field": "questions.313.explanation",
+      "value": "Pulmonary veins return oxygenated blood from the lungs to the left atrium. Blood then crosses the mitral valve to the left ventricle. Vessels are named by direction relative to the heart, not oxygen content. The fetal umbilical vein is another vein carrying relatively oxygen-rich blood, so pulmonary veins are not universally the only example."
+    },
+    {
+      "field": "questions.315.explanation",
+      "value": "S2 is associated with aortic and pulmonary valve closure near the end of ventricular systole. S1 is associated with AV valve closure. Rapid early filling can produce S3, which may be physiological in children and young adults; S3 is not invariably abnormal."
+    }
+  ]
+}

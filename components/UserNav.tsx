@@ -31,7 +31,7 @@ export default function UserNav() {
     return (
       <Link
         href="/sign-in"
-        className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-4 py-2.5 rounded-full hover:bg-[#1a2c4a] transition-colors"
+        className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-4 py-2.5 rounded-full hover:bg-[#1a2c4a] transition-colors"
       >
         Sign in →
       </Link>
@@ -60,14 +60,14 @@ export default function UserNav() {
           className="w-8 h-8 rounded-full border border-[#0c1a2e25]"
         />
       ) : (
-        <div className="w-8 h-8 rounded-full bg-[#0c1a2e] text-[#f5f1ea] flex items-center justify-center font-mono text-[11px] font-medium">
+        <div className="w-8 h-8 rounded-full bg-[#0c1a2e] text-[#f5f1ea] flex items-center justify-center font-sans text-[11px] font-medium">
           {initials}
         </div>
       )}
       <button
         type="button"
         onClick={handleSignOut}
-        className="font-mono text-[10px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100 transition-opacity"
+        className="font-sans text-[10px] tracking-[0.1em] uppercase opacity-60 hover:opacity-100 transition-opacity"
       >
         Sign out
       </button>

@@ -1,0 +1,238 @@
+{
+  "lessonId": 64,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    316,
+    317,
+    318,
+    319,
+    320
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK354/",
+      "title": "NCBI Clinical Methods: Electrocardiography"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3064561/",
+      "title": "The cardiac conduction system: membrane and calcium clocks"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8285948/",
+      "title": "Peters et al.: Bidirectional funny current in sinoatrial myocytes"
+    },
+    {
+      "url": "https://doi.org/10.1161/CIR.0000000000000628",
+      "title": "ACC/AHA/HRS: Bradycardia and conduction delay guideline"
+    },
+    {
+      "url": "https://www.ahajournals.org/doi/epdf/10.1161/CIRCULATIONAHA.108.191095",
+      "title": "AHA/ACCF/HRS: Intraventricular conduction interpretation"
+    },
+    {
+      "url": "https://www.jacc.org/doi/10.1016/j.jacc.2008.12.014",
+      "title": "AHA/ACCF/HRS: ST segments, T waves and QT interval"
+    },
+    {
+      "url": "https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000000527",
+      "title": "AHA: ECG monitoring, QT measurement and rate correction"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470532/",
+      "title": "NCBI Bookshelf: Electrical right and left axis deviation"
+    }
+  ],
+  "visual": {
+    "title": "An ECG records events, not a single-cell voltage",
+    "src": "/lesson-diagrams/cardiac-electrical.svg",
+    "width": 900,
+    "height": 760,
+    "alt": "A schematic ECG labels P as atrial depolarization, QRS as ventricular depolarization and T as ventricular repolarization. Brackets mark PR from P onset to QRS onset and QT from QRS onset to T end. A conduction sketch traces SA node, AV node, His bundle and Purkinje network.",
+    "caption": "Schematic waveform in one representative lead; polarity varies by lead. PR and QT include several events and must not be confused with individual action-potential phases.",
+    "beforeHeading": "Axis Determination"
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "239e15da2b40004efc6d796c2e3ff36014821c07293396fc0b55814d41697a06"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "21ae192e6baad58ac431867c06dacc92f64e65aa37f35d605d69be8c36c93fc3"
+    },
+    {
+      "field": "questions.316.question_text",
+      "sha256": "e98e4f626ca667cd0c2600e5e1dd60e7f57c0f37f01d80134849fc24cb4047d5"
+    },
+    {
+      "field": "questions.316.choice_a",
+      "sha256": "04149b33aab5abf065eac04409ae4038503405f66c609b03fe05f7692d3a7e21"
+    },
+    {
+      "field": "questions.316.choice_b",
+      "sha256": "c1273a5c0d053ef48c1f21d261964921f530c415a2cb1b01f17a43bff7ebbdcb"
+    },
+    {
+      "field": "questions.316.choice_c",
+      "sha256": "b336423cff07c8603f5d0a6f5e476d0b20762498d3d424a74229ca9f4a8aaff9"
+    },
+    {
+      "field": "questions.316.choice_d",
+      "sha256": "c849a3521d58e6552656ace126a87cb1527c164f87ef5ab788cdde3270fe8c33"
+    },
+    {
+      "field": "questions.316.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.316.explanation",
+      "sha256": "f9831524af095f9b7e81419666a10d60e224f9cf31de7825c36fdb9d06330657"
+    },
+    {
+      "field": "questions.317.question_text",
+      "sha256": "c5a0ab0dcf82f879a67157eca002100df0e332ec1b0a33d9ae03afa197957ece"
+    },
+    {
+      "field": "questions.317.choice_a",
+      "sha256": "6bd1e9a02a2f003083681752788010f4cafc9c91be33c47a8167dcbc956951da"
+    },
+    {
+      "field": "questions.317.choice_b",
+      "sha256": "514bd987a73e13c7fad732791952812a2a35ff0eab201383ff51ba0f5093ca0d"
+    },
+    {
+      "field": "questions.317.choice_c",
+      "sha256": "d535cc1e29b8b704c13aa2fdb891af4db4365fa2d71e3d4e45b4c5967dd7b8a9"
+    },
+    {
+      "field": "questions.317.choice_d",
+      "sha256": "6e01cac5f368e3c53714f07b70e35574e9786e04539daf5774675cd6f9ba820c"
+    },
+    {
+      "field": "questions.317.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.317.explanation",
+      "sha256": "9cb07ba81a9670d9a27ef108a957b6f53d302baf484fcd5a4d54c4151fcb9755"
+    },
+    {
+      "field": "questions.318.question_text",
+      "sha256": "2c6bb2b72052913305ef9392e73d9c2d39b3e73a058325f0f533487df109d053"
+    },
+    {
+      "field": "questions.318.choice_a",
+      "sha256": "b51ed30c686dc525adbc2364086696c2c34ebb588e568c95174e14da3bbe3bcb"
+    },
+    {
+      "field": "questions.318.choice_b",
+      "sha256": "30fde5fd8db4d0e083436037208c1d77e12166f923755d95ad92ef2b8843af7e"
+    },
+    {
+      "field": "questions.318.choice_c",
+      "sha256": "be8cdc1214ac68e94fe7724eb548ef86f70dd064c01754b421e5e6d9af7cde2f"
+    },
+    {
+      "field": "questions.318.choice_d",
+      "sha256": "325d282cb7012028ef09cad2a8ee393e347194ea2f9f9234697feb7f75b85a7e"
+    },
+    {
+      "field": "questions.318.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.318.explanation",
+      "sha256": "d5200644bb9faa864b1497bf694305ddc4cbced69d42b893d8d1fe132fb778c4"
+    },
+    {
+      "field": "questions.319.question_text",
+      "sha256": "5f67d02520cc30a3205fd567539d2cd0e8bff142f835a1db5d76c4cd67c49405"
+    },
+    {
+      "field": "questions.319.choice_a",
+      "sha256": "13d68524bda715d1e6a39af55474bcd2f4b08801158a7b6af2c00a259812889d"
+    },
+    {
+      "field": "questions.319.choice_b",
+      "sha256": "3ba33231041015a6a055820129c02bcdd00133cd3918dc009b20573992f9ae02"
+    },
+    {
+      "field": "questions.319.choice_c",
+      "sha256": "dcae7172b5b439bb149cf91a50c854376df9601b8f4d27f502e46a652866a207"
+    },
+    {
+      "field": "questions.319.choice_d",
+      "sha256": "1aa015e7d7cfa612914d65f299976a3fc272477df1eb9dd85f8b3037d4e86ebc"
+    },
+    {
+      "field": "questions.319.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.319.explanation",
+      "sha256": "0b841bcadfc9afc0d589e231dd04448c430b1e8962c0be25770850bfc709684c"
+    },
+    {
+      "field": "questions.320.question_text",
+      "sha256": "9b6065f715a32b746ed3e60564382749a94924d8e00449cb9e7c0633a2a648d0"
+    },
+    {
+      "field": "questions.320.choice_a",
+      "sha256": "c74eae2fcf72ef9f6706b18b8b1b34b66054e0e6a7e66ab8f4af0cdf12d2435e"
+    },
+    {
+      "field": "questions.320.choice_b",
+      "sha256": "ce0d5e3e60f85f5e8d15931cb34df820182a042b94fb2aed4f9c9b93e2a92d74"
+    },
+    {
+      "field": "questions.320.choice_c",
+      "sha256": "0b504fd6a49a5339fae0e29653dff1c8dcd54e0e001f696dc6d034b2ddcafb3f"
+    },
+    {
+      "field": "questions.320.choice_d",
+      "sha256": "c44695caf1b440b0557901c12cdee138a5af271b5e0e581f7055202fa1ce454d"
+    },
+    {
+      "field": "questions.320.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.320.explanation",
+      "sha256": "aee36585fc3729668adf650736ab15b2a8640c8e1422ea7f5910eb3b3bdaa7f5"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Electrical Conduction and the Electrocardiogram\n\nThe heart is not merely a pump—it is an electrically coordinated organ whose mechanical output depends entirely on the precise timing and propagation of action potentials through specialized tissue. Understanding how electrical signals originate, travel, and are recorded is essential for the MCAT, which tests both the mechanistic underpinnings of cardiac physiology and the clinical interpretation of electrocardiographic data.\n\n---\n\n## The Cardiac Conduction System: An Overview\n\nThe heart generates its own rhythm through a network of specialized cardiomyocytes that have been modified for electrical conduction rather than forceful contraction. This **intrinsic conduction system** ensures that atria and ventricles contract in a coordinated, sequential manner.\n\nThe major components of the conduction system, in order of normal signal propagation, are:\n\n- **Sinoatrial (SA) node**\n- **Atrioventricular (AV) node**\n- **Bundle of His (atrioventricular bundle)**\n- **Right and left bundle branches**\n- **Purkinje fibers**\n\nPacemaker-capable tissues can depolarize spontaneously, a property called **automaticity**; the following rates are approximate clinical teaching ranges, not immutable intrinsic rates of every conduction-system component. The SA node fires at approximately 60–100 beats per minute (bpm), the AV node at 40–60 bpm, and the Purkinje fibers at 20–40 bpm. Because the SA node fires fastest, it normally overrides the slower pacemakers and is called the **dominant pacemaker**. If normal impulses fail, a subsidiary junctional or ventricular pacemaker may generate an escape rhythm; a reliable escape rhythm is not guaranteed.\n\n---\n\n## Cardiac Action Potentials\n\nCardiac muscle cells are not all electrically identical. There are two fundamentally different types of action potentials in the heart: those in **non-pacemaker (fast-response) cells** (working atrial and ventricular myocytes, Purkinje fibers) and those in **pacemaker (slow-response) cells** (SA and AV nodes).\n\n### Non-Pacemaker (Fast-Response) Action Potentials\n\nTypical ventricular working myocytes have a relatively stable **resting membrane potential** near −90 mV; atrial and other cardiac cell values differ, maintained primarily by the inward rectifier potassium current (I_K1). Their action potential has five distinct phases:\n\n**Phase 0 — Rapid Depolarization**\nWhen the membrane potential reaches threshold (approximately −70 mV), voltage-gated fast Na⁺ channels open rapidly. The massive Na⁺ influx drives the membrane potential toward +30 mV. This phase is extremely fast (1–2 ms) and produces the steep upstroke characteristic of fast-response cells.\n\n**Phase 1 — Early Repolarization**\nFast Na⁺ channels inactivate. A transient outward K⁺ current (I_to) briefly repolarizes the membrane, producing a small notch on the action potential curve.\n\n**Phase 2 — Plateau**\nThis is the most distinctive feature of cardiac action potentials and has no equivalent in skeletal muscle or neurons. Voltage-gated **L-type Ca²⁺ channels** open, allowing Ca²⁺ influx that nearly balances the ongoing K⁺ efflux. Ventricular action potentials often last roughly 200–300 ms in total, depending on rate and cell type; the plateau is a substantial part of that event and is physiologically critical: the prolonged Ca²⁺ entry triggers **calcium-induced calcium release (CICR)** from the sarcoplasmic reticulum, initiating contraction. The long plateau also creates a prolonged **absolute refractory period**, which prevents tetanic contraction—a vital protection for the heart.\n\n**Phase 3 — Rapid Repolarization**\nL-type Ca²⁺ channels inactivate. Delayed rectifier K⁺ channels (I_Kr and I_Ks) open fully, driving rapid repolarization back toward −90 mV.\n\n**Phase 4 — Resting Membrane Potential**\nIn non-pacemaker cells, phase 4 is stable at −90 mV. The Na⁺/K⁺-ATPase and Ca²⁺-ATPase pumps restore ionic gradients.\n\n### Pacemaker (Slow-Response) Action Potentials\n\nSA and AV nodal cells lack a stable resting membrane potential. Instead, they exhibit **spontaneous diastolic depolarization** (the **pacemaker potential**). The funny current is one contributing ionic current, not a synonym for the entire pacemaker potential:\n\n**Phase 4 — Spontaneous Depolarization**\nAfter each action potential, the membrane does not remain stable. The **I_f current** (\"funny\" current, carried by HCN channels) conducts both Na⁺ and K⁺. At typical diastolic voltages, inward Na⁺ movement exceeds outward K⁺ movement, yielding a net inward depolarizing current. Simultaneously, a T-type Ca²⁺ current contributes as the membrane approaches threshold. This slow drift from approximately −60 mV to the threshold of −40 mV is the cellular basis of automaticity.\n\n**Phase 0 — Slow Upstroke**\nThe upstroke of central SA and typical AV nodal cells depends mainly on **L-type Ca²⁺ current**, rather than the fast Na⁺ current that dominates working ventricular cells. Sodium-channel expression and contribution vary across nodal regions; a claim that every pacemaker cell lacks Na⁺ channels is too broad.\n\n**Phase 3 — Repolarization**\nK⁺ efflux via delayed rectifier channels repolarizes the cell back to approximately −60 mV, and the cycle repeats.\n\n*Key MCAT point:* Drugs and neurotransmitters that affect heart rate do so primarily by altering phase 4 slope in pacemaker cells. Sympathetic stimulation (norepinephrine, β₁ receptors) steepens the phase 4 slope via increased I_f and Ca²⁺ current, raising heart rate (**positive chronotropy**). Parasympathetic stimulation (acetylcholine, M₂ receptors) increases K⁺ conductance, hyperpolarizes the cell, and flattens the phase 4 slope, slowing heart rate (**negative chronotropy**).\n\n---\n\n## Signal Propagation Through the Conduction System\n\n### The SA Node\n\nLocated in the posterior wall of the right atrium near the superior vena cava, the SA node initiates each heartbeat. Its action potential spreads through the atrial myocardium via gap junctions at approximately 1 m/s, causing both atria to depolarize nearly simultaneously.\n\n### The AV Node\n\nThe **atrioventricular node** sits at the junction of the atria and ventricles in the interatrial septum. It forms part of the normal AV conduction axis; the penetrating His bundle crosses the insulating fibrous skeleton (the fibrous cardiac skeleton electrically insulates the two chambers). The AV node deliberately slows conduction to approximately 0.05 m/s, introducing a delay of about 100–150 ms. This **AV nodal delay** allows the atria to complete their contraction and fill the ventricles before ventricular contraction begins—a mechanically essential pause.\n\nThe AV node is also the site of many clinically important arrhythmias and the target of drugs like **adenosine**, **β-blockers**, and **calcium channel blockers** that slow AV conduction.\n\n### Bundle of His and Bundle Branches\n\nFrom the AV node, the signal enters the **bundle of His**, which penetrates the fibrous skeleton and travels along the interventricular septum. It divides into the **right bundle branch** and the **left bundle branch** (which further divides into anterior and posterior fascicles). Conduction velocity here is fast, approximately 2–4 m/s.\n\n### Purkinje Fibers\n\nThe bundle branches terminate in the **Purkinje fiber network**, which spreads across the subendocardial surface of both ventricles. Conduction here is the fastest in the heart, approximately 4 m/s. This rapid distribution ensures that ventricular depolarization proceeds from endocardium to epicardium and from apex to base, producing a coordinated, efficient contraction that ejects blood into the aorta and pulmonary artery.\n\n---\n\n## From Electrical Events to the ECG\n\nThe **electrocardiogram (ECG or EKG)** records the sum of all electrical activity in the heart from electrodes placed on the body surface. It does not record individual action potentials; instead, it captures the **net electrical vector** of millions of depolarizing and repolarizing cells at each moment in time.\n\n### The Dipole Concept\n\nA surface lead measures a voltage difference, not the intracellular potential of one cell. In a simple wavefront model, depolarization moving toward a lead’s positive electrode usually gives an upward deflection; movement away gives a downward one. Reversing the direction of a repolarization wave reverses its sign relative to an otherwise comparable depolarization wave. The observed tracing depends on the net vector and lead orientation.\n\n### Standard ECG Leads\n\nA standard 12-lead ECG derives 12 views from 10 electrodes:\n\n- **Limb leads (I, II, III):** Bipolar leads measuring potential differences between limb electrodes.\n- **Augmented limb leads (aVR, aVL, aVF):** Unipolar leads referencing a calculated central terminal.\n- **Precordial leads (V1–V6):** Unipolar chest leads providing a horizontal cross-section of ventricular electrical activity.\n\n**Einthoven's triangle** describes the geometric relationship between leads I, II, and III, with the heart at the center. Einthoven's law states: Lead II = Lead I + Lead III.\n\n---\n\n## The Normal ECG Waveform\n\nEach cardiac cycle produces a characteristic pattern on the ECG. Every component corresponds to a specific electrical event.\n\n### The P Wave\n\nThe **P wave** represents **atrial depolarization**. It is small (≤0.25 mV, ≤120 ms) and normally upright in leads II and aVF. The SA node itself generates too little current to be visible; what is seen is the spread of depolarization through the atrial myocardium.\n\n*Note:* Atrial repolarization does occur but is usually hidden within the QRS complex and is not separately visible on a standard ECG.\n\n### The PR Interval\n\nThe **PR interval** (measured from the start of the P wave to the start of the QRS) represents the time from the onset of atrial depolarization, through atrial and AV conduction, AV node, bundle of His, and bundle branches to the ventricular myocardium. Normal duration: **120–200 ms (0.12–0.20 s, or 3–5 small boxes on standard ECG paper).**\n\nA prolonged PR interval (>200 ms) indicates **first-degree AV block**, delayed AV conduction, often at the AV node but potentially in the His-Purkinje system. A short PR interval may indicate an accessory pathway (as in Wolff-Parkinson-White syndrome).\n\n### The QRS Complex\n\nThe **QRS complex** represents **ventricular depolarization**. It is large because the ventricular muscle mass is much greater than that of the atria. A typical adult QRS is roughly **70–110 ms**. A duration ≥120 ms is an important threshold in complete bundle-branch-block criteria, interpreted together with morphology.\n\nThe naming convention:\n- **Q wave:** First negative deflection (if present)\n- **R wave:** First positive deflection\n- **S wave:** Negative deflection following the R wave\n\nVentricular depolarization proceeds in a specific sequence:\n1. Septal depolarization (left to right) → small Q in lateral leads, small R in V1\n2. Left ventricular free wall depolarization (dominant) → large R waves in lateral leads (I, aVL, V5, V6)\n3. Basal ventricular depolarization → terminal forces\n\nA **widened QRS complex** (>120 ms) indicates abnormal ventricular conduction, such as a **bundle branch block** or a ventricular origin of the impulse (as in ventricular tachycardia).\n\n**Pathological Q waves** can support prior myocardial infarction, but criteria depend on the leads and pattern, and non-infarction causes exist. Neither one size rule nor a Q wave alone establishes the diagnosis.\n\n### The ST Segment\n\nThe **ST segment** connects the end of the QRS (the **J point**) to the beginning of the T wave. It represents the **plateau phase (Phase 2)** of ventricular action potentials, during which much of the ventricular myocardium is in its plateau; normally there is little net surface potential difference. Normally, the ST segment is isoelectric (flat, at baseline).\n\n**ST elevation** can occur with acute ischemic injury, but also with early repolarization, pericarditis and secondary repolarization changes. Acute coronary occlusion must be assessed urgently in the clinical context; ST elevation alone is not synonymous with infarction.\n\n**ST depression** can indicate subendocardial ischemia or, in certain leads, a reciprocal change to ST elevation elsewhere.\n\n### The T Wave\n\nThe **T wave** represents ventricular repolarization. Spatial differences in action-potential duration make the recovery sequence different from the activation sequence. In a simplified transmural model, epicardium repolarizes before endocardium; reversing both the wavefront direction and electrical polarity permits a T wave concordant with the main QRS. Surface electrodes are on the body, not the endocardium, and real recovery is three-dimensional.\n\n**T wave inversions** can indicate ischemia, ventricular hypertrophy, or bundle branch blocks. **Peaked, tall T waves** are an early sign of hyperkalemia.\n\n### The QT Interval\n\nThe **QT interval** is measured from the start of the QRS to the end of the T wave. It represents the total duration of ventricular depolarization and repolarization. The QT interval varies with heart rate; the rate-corrected value is the **QTc**, calculated by Bazett's formula: QTc = QT / √(RR interval). For adults, commonly used prolonged-QTc thresholds are >450 ms in men and >460 ms in women; criteria vary with context. Use seconds for QT and RR in Bazett’s formula. Bazett tends to overcorrect at high rates and undercorrect at low rates, so alternative corrections may be preferable.\n\nA **prolonged QT interval** predisposes to a dangerous ventricular arrhythmia called **Torsades de pointes**, which can degenerate into ventricular fibrillation. Causes include congenital long QT syndrome, hypokalemia, hypomagnesemia, hypocalcemia, and numerous drugs (class IA and III antiarrhythmics, certain antibiotics, antihistamines).\n\n### The U Wave\n\nA small **U wave** sometimes follows the T wave, most prominent in V2–V3. Its origin is debated (possibly Purkinje fiber repolarization or mid-myocardial cell repolarization). Prominent U waves are associated with **hypokalemia**.\n\n---\n\n## Axis Determination\n\nThe **electrical axis** of the heart describes the net direction of ventricular depolarization in the frontal plane. Normal axis: **−30° to +90°**.\n\nA quick method using leads I and aVF:\n- Both positive → normal axis\n- Lead I positive, aVF negative → inspect lead II: a positive QRS in II can still be normal (approximately −30° to 0°); a negative QRS in II supports left axis deviation below −30°\n- Lead I negative, aVF positive → **right axis deviation** (RAD; seen in right ventricular hypertrophy, left posterior fascicular block, pulmonary embolism)\n- Both negative → **extreme axis deviation** (northwest axis; seen in ventricular tachycardia)\n\n---\n\n## Common Arrhythmias and Their ECG Patterns\n\n### Sinus Bradycardia and Tachycardia\n\nNormal sinus rhythm has a rate of 60–100 bpm with a P wave before every QRS and a normal PR interval. **Sinus bradycardia** (<60 bpm) and **sinus tachycardia** (>100 bpm) maintain this pattern but at altered rates.\n\n### Atrial Fibrillation\n\n**Atrial fibrillation (AF)** is the most common sustained arrhythmia. Multiple chaotic re-entrant circuits in the atria fire at 350–600 impulses per minute. The ECG shows:\n- Absence of distinct P waves, replaced by an irregular fibrillatory baseline\n- **Irregularly irregular** RR intervals (hallmark)\n- Normal QRS morphology (if conduction below the AV node is intact)\n\nThe AV node filters most atrial impulses, allowing a ventricular rate of 100–180 bpm if untreated. AF predisposes to atrial thrombus formation (especially in the left atrial appendage) and stroke.\n\n### AV Blocks\n\n- **First-degree AV block:** PR interval >200 ms with every P wave conducted. It is often asymptomatic, but significance depends on symptoms, degree of delay and underlying disease.\n- **Second-degree AV block, Mobitz I (Wenckebach):** Progressive PR prolongation until a P wave is not conducted (dropped QRS), then the cycle resets. Site of block: usually the AV node, but exceptions occur.\n- **Second-degree AV block, Mobitz II:** Constant PR interval with sudden, unpredictable non-conducted P waves. Site of block: His-Purkinje system. More dangerous; can progress to complete block.\n- **Third-degree (complete) AV block:** No relationship between P waves and QRS complexes (**AV dissociation**). Atria and ventricles beat independently. Ventricular rate is set by an escape pacemaker (40–60 bpm if junctional, 20–40 bpm if ventricular). Requires urgent clinical evaluation; persistent acquired complete block without a reversible or physiological cause generally warrants permanent pacing.\n\n### Bundle Branch Blocks\n\nWhen one bundle branch fails to conduct, the affected ventricle is depolarized slowly via cell-to-cell conduction rather than the fast Purkinje system. Complete bundle branch block in adults generally has QRS duration ≥120 ms plus characteristic morphology; incomplete blocks have shorter QRS durations.\n\n**Right bundle branch block (RBBB):** RSR' pattern (\"rabbit ears\") in V1, wide S wave in V6. The right ventricle depolarizes late.\n\n**Left bundle branch block (LBBB):** Broad, notched R wave in lateral leads (I, aVL, V5, V6); deep S in V1. LBBB produces secondary ST–T changes and complicates ischemia assessment; appropriate criteria and clinical context can still identify concerning patterns.\n\n### Ventricular Fibrillation\n\n**Ventricular fibrillation (VF)** is chaotic, disorganized electrical activity with no coordinated ventricular contraction. The ECG shows an irregular, chaotic waveform with no identifiable QRS complexes. VF causes cardiac arrest and causes cardiac arrest and requires immediate CPR and rapid defibrillation; it is not an instantaneous irreversible death.\n\n---\n\n## Autonomic Modulation and Pharmacology\n\nThe autonomic nervous system profoundly modifies cardiac electrical activity:\n\n**Sympathetic stimulation** (via β₁-adrenergic receptors):\n- Increases SA node firing rate (positive chronotropy) by steepening phase 4\n- Speeds AV nodal conduction (positive dromotropy)\n- Increases contractility (positive inotropy)\n- Increases Ca²⁺ current via PKA-mediated phosphorylation of L-type channels\n\n**Parasympathetic stimulation** (via M₂ muscarinic receptors, vagus nerve):\n- Slows SA node (negative chronotropy) by increasing K⁺ conductance (I_KACh), hyperpolarizing the cell\n- Slows AV nodal conduction (negative dromotropy)\n- Minimal direct effect on ventricles\n\n**Clinically relevant drugs:**\n- **β-blockers** (metoprolol, atenolol): Block β₁ receptors, slow heart rate and AV conduction; used in arrhythmias, hypertension, heart failure\n- **Non-dihydropyridine calcium channel blockers** (verapamil, diltiazem): Block L-type Ca²⁺ channels in SA and AV nodes; slow rate and AV conduction; used in AF rate control and SVT\n- **Adenosine:** Activates A₁ receptors, markedly increases K⁺ conductance in AV node, transiently blocks AV conduction; used to terminate paroxysmal supraventricular tachycardia (PSVT)\n- **Digoxin:** Inhibits Na⁺/K⁺-ATPase, indirectly increases intracellular Ca²⁺; also enhances vagal tone to slow AV conduction; used in AF and heart failure\n\n---\n\n## Electrolyte Effects on the ECG\n\nElectrolyte disturbances directly alter membrane potentials and action potential morphology, producing characteristic ECG changes that are high-yield for the MCAT.\n\n**Hyperkalemia** (elevated serum K⁺): possible patterns include the following, but ECG changes do not reliably follow a fixed sequence or quantify potassium concentration:\n- Mild: Peaked, tall, narrow T waves (earliest sign)\n- Moderate: Widened QRS, flattened P waves\n- Severe: Sine wave pattern, ventricular fibrillation, asystole\n- Mechanism: Elevated extracellular K⁺ makes the K⁺ equilibrium potential less negative, depolarizing the resting membrane and inactivating Na⁺ channels\n\n**Hypokalemia** (low serum K⁺):\n- Flattened T waves, prominent U waves, ST depression\n- Prolonged QU interval (often mistaken for prolonged QT)\n- Predisposes to Torsades de pointes and digoxin toxicity\n\n**Hypercalcemia** (elevated Ca²⁺):\n- Shortened QT interval (shortened plateau phase)\n\n**Hypocalcemia** (low Ca²⁺):\n- Prolonged QT interval (prolonged plateau phase)\n- Predisposes to Torsades de pointes\n\n---\n\n## MCAT High-Yield Summary\n\nUse the following mechanism-based summary; relative examination frequency is not established here:\n\n- The SA node is the primary pacemaker at 60–100 bpm; AV node at 40–60 bpm; Purkinje fibers at 20–40 bpm.\n- Pacemaker cells use L-type Ca²⁺ channels for phase 0 (not fast Na⁺ channels); automaticity arises from phase 4 spontaneous depolarization (I_f).\n- Non-pacemaker cells have a stable −90 mV resting potential and a prominent phase 2 plateau due to L-type Ca²⁺ channels.\n- The plateau phase creates a long absolute refractory period, preventing tetanic contraction.\n- AV nodal delay (~100–150 ms) allows atrial systole to complete before ventricular contraction.\n- P wave = atrial depolarization; QRS = ventricular depolarization; T wave = ventricular repolarization.\n- PR interval (normal 120–200 ms) reflects AV conduction time.\n- QRS widening can reflect conduction delay, ventricular activation, pacing, electrolyte disturbances or other causes; interpret duration with morphology.\n- ST elevation and depression have several causes; interpret the lead pattern and clinical context rather than using a one-to-one diagnostic rule.\n- QTc prolongation predisposes to Torsades de pointes; caused by hypokalemia, hypocalcemia, drugs.\n- Hyperkalemia can cause peaked T waves, conduction slowing or dangerous rhythms, but this is not an obligatory sequence.\n- Sympathetic stimulation steepens phase 4 slope (faster rate); parasympathetic stimulation flattens it (slower rate).\n- AF: irregularly irregular rhythm, no P waves, normal QRS.\n- Complete heart block: AV dissociation, P waves and QRS complexes have no relationship.\n\nMastery of cardiac electrophysiology and ECG interpretation requires understanding the ionic mechanisms underlying each phase of the action potential, recognizing how those mechanisms translate into ECG waveforms, and knowing how pathological states—ischemia, electrolyte disturbances, conduction system disease—alter both. The MCAT will test these connections at the level of mechanism, not mere memorization, so always ask *why* a given drug, ion, or disease state produces its characteristic ECG change."
+    },
+    {
+      "field": "questions.316.choice_b",
+      "value": "HCN channels carry a mixed Na+/K+ current that is net inward at diastolic voltages and contributes to pacemaker depolarization"
+    },
+    {
+      "field": "questions.316.explanation",
+      "value": "Hyperpolarization-activated HCN channels pass both Na+ and K+. At diastolic voltages the inward Na+ component exceeds the outward K+ component, so the net current helps depolarize the cell. Other currents and intracellular calcium cycling also contribute. The central nodal upstroke relies mainly on L-type Ca2+ channels; nodal sodium-channel expression is not universally absent."
+    },
+    {
+      "field": "questions.317.explanation",
+      "value": "The AV node is the usual major source of physiological AV delay and is the best answer among these choices. A prolonged PR interval does not, however, uniquely localize a pathological delay: atrial and His-Purkinje conduction also contribute. Additional ECG and electrophysiological information may be needed."
+    },
+    {
+      "field": "questions.318.explanation",
+      "value": "Blocking IKr slows ventricular repolarization and can prolong QT with a relatively normal QRS, matching the stem. QT includes both depolarization and repolarization, so sodium-channel blockade that widens QRS can also lengthen measured QT; the normal-QRS condition distinguishes this question. L-type calcium-channel blockade generally shortens the plateau."
+    },
+    {
+      "field": "questions.319.choice_b",
+      "value": "Repolarization can proceed from epicardium toward endocardium; reversing both propagation direction and wavefront polarity can give a concordant deflection"
+    },
+    {
+      "field": "questions.319.explanation",
+      "value": "In this simplified model epicardial cells recover earlier, so the repolarization front travels opposite to depolarization. Repolarization also reverses wavefront polarity: the two reversals can yield the same sign in a given lead. Real ventricular activation and recovery are three-dimensional; a surface lead records their net projection."
+    },
+    {
+      "field": "questions.319.question_text",
+      "value": "In a simplified transmural model, ventricular depolarization travels from endocardium toward epicardium. Which statement correctly explains how the T wave can have the same predominant polarity as the QRS?"
+    }
+  ]
+}

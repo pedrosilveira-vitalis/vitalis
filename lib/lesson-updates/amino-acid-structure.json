@@ -1,0 +1,225 @@
+{
+  "lessonId": 4,
+  "reviewedAt": "2026-11-08",
+  "questionIds": [
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "sources": [
+    {
+      "title": "OpenStax: Amino acid structures",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "title": "NCBI: Malate-aspartate shuttle",
+      "url": "https://www.ncbi.nlm.nih.gov/medgen/273544"
+    },
+    {
+      "title": "OpenStax: Amino acid charge and isoelectric points",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "title": "Ribosomal peptidyl transferase chemistry",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "title": "Pace et al.: Protein absorption coefficients",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8563639/"
+    },
+    {
+      "title": "OpenStax: Protein structure",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "title": "Oculocutaneous albinism",
+      "url": "https://medlineplus.gov/genetics/condition/oculocutaneous-albinism/"
+    },
+    {
+      "title": "Homocystinuria",
+      "url": "https://medlineplus.gov/genetics/condition/homocystinuria/"
+    },
+    {
+      "title": "Phenylketonuria",
+      "url": "https://www.medlineplus.gov/genetics/condition/phenylketonuria/"
+    }
+  ],
+  "visual": {
+    "title": "Read the structure, then predict the charge",
+    "alt": "A free alpha amino acid with NH3+, COO−, H and R around C-alpha; glycine has R=H. At pH 7.4, model histidine side chains are about 4% positive and cysteine side chains about 11% negative. In peptides, internal backbone groups are amides.",
+    "caption": "Connectivity schematic, not a stereochemical drawing. Fractions use the stated pKa values; protein environments can shift them.",
+    "src": "/lesson-diagrams/amino-acid-structure.svg",
+    "width": 800,
+    "height": 740
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "d80fae50b880bbcf3f026075255c961584e81fc72b0d3d759265fc0983e3cd9f"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "7ffa8ef148f84a6bc2520284eb24b46238dd8c33bc31b0875caefe484fa1be28"
+    },
+    {
+      "field": "questions.16.question_text",
+      "sha256": "d0d5ec87a50259f0d5ed07468e45751be7b684e6f113098cdeda0d2181d489bd"
+    },
+    {
+      "field": "questions.16.choice_a",
+      "sha256": "d56395581ecb0da84d1b2c3011b1141f3dc99320be90212e1da474fb0033bcbc"
+    },
+    {
+      "field": "questions.16.choice_b",
+      "sha256": "debcd130d0f3e5f10366d792facb242445056f5609d7174c2371608ed5f93faf"
+    },
+    {
+      "field": "questions.16.choice_c",
+      "sha256": "cf9899c390367c480d60e2430b6f889d62235d498cc5f819da7a7ba1aedad10d"
+    },
+    {
+      "field": "questions.16.choice_d",
+      "sha256": "9fca5e0cded4968ecbd7a56e0fd4cdff40d006e5af47a40d986e33965473acec"
+    },
+    {
+      "field": "questions.16.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.16.explanation",
+      "sha256": "375fd8a7fd2c54842b9937350a6ebbf9f9c42c39220d05637066aeeaab8f0490"
+    },
+    {
+      "field": "questions.17.question_text",
+      "sha256": "845958f991c288525c982f51eb85751fb6871f7dfe5504b02265de605a77ac22"
+    },
+    {
+      "field": "questions.17.choice_a",
+      "sha256": "7d61e7b45a7cdb3048eb54651724d47cbb1d93440ca33431b253e339c0ca53ca"
+    },
+    {
+      "field": "questions.17.choice_b",
+      "sha256": "e349a43c4239e477428190fb979dc7d9a1fc913f2ba0381f5606d8f27b3166a2"
+    },
+    {
+      "field": "questions.17.choice_c",
+      "sha256": "56dab69fd12e144c4b940b80607bcc9d10cd68d1c6272de3b920a98ed7baf947"
+    },
+    {
+      "field": "questions.17.choice_d",
+      "sha256": "7b28d6b2d7d710a6df336d0ac44d642b5d74320761b7ce6ed0d2a58864445641"
+    },
+    {
+      "field": "questions.17.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.17.explanation",
+      "sha256": "c39d7490baac27504cc0502bb035f994bba2b87d566a92c792d4bd7aa3a06829"
+    },
+    {
+      "field": "questions.18.question_text",
+      "sha256": "baf964af64131a37ecf7ecb423e6cdb28920816783ea1ebdd476d7b3e2134a0e"
+    },
+    {
+      "field": "questions.18.choice_a",
+      "sha256": "2289278a2635274f279cb0c7105c2c02950d342d7d23b1bf72c2b8246bdec38a"
+    },
+    {
+      "field": "questions.18.choice_b",
+      "sha256": "bccca0d6125c2c2402b70dbb6de741a0b30d615791f135968f80525cfba258e4"
+    },
+    {
+      "field": "questions.18.choice_c",
+      "sha256": "7776659448335637f4f8d3a7a9df7da09b31e5c0c621a7594060cc7bed5c747b"
+    },
+    {
+      "field": "questions.18.choice_d",
+      "sha256": "d785b7d32f2c32431a490148e0a0f6ee5f07e3f3fc8c89deb2a1afa22aead951"
+    },
+    {
+      "field": "questions.18.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.18.explanation",
+      "sha256": "ae993c9027d6206fdee408d33eb5bcfe2334da940a68182f64c094a198e99960"
+    },
+    {
+      "field": "questions.19.question_text",
+      "sha256": "2cd3525a4106fce939b9175ec78846b941985f34f2ed8c5c368516fa473aaf87"
+    },
+    {
+      "field": "questions.19.choice_a",
+      "sha256": "a649d98121d0f34a54e5075dfde354e21af63c597120d764e6b97e7d81cdd550"
+    },
+    {
+      "field": "questions.19.choice_b",
+      "sha256": "ecf6d794b31c656c0a2a21f4b69131d9b4997641581a45ac2f4cd9a9ed7ffb43"
+    },
+    {
+      "field": "questions.19.choice_c",
+      "sha256": "1dc80a9cb60bd4e99a90bbcf19154b2620aa7c6bca2b051e2a46257d5c965900"
+    },
+    {
+      "field": "questions.19.choice_d",
+      "sha256": "25db100dce10777fce00475a8a8dfe710b948b5a3b8ca8faf229b70f212b17a3"
+    },
+    {
+      "field": "questions.19.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.19.explanation",
+      "sha256": "a72bc8955c03bfb5274e10dcbeeae2f8a3b8d47fbbfed553e7323cc2d5a13cfe"
+    },
+    {
+      "field": "questions.20.question_text",
+      "sha256": "680772e441170fec5f5be6dfe1c31815d08fdb72cc892c26a0460dc531e8d762"
+    },
+    {
+      "field": "questions.20.choice_a",
+      "sha256": "93d09156c043fba3d98004e4479cbfeb22ea0d4761921e06dbdefd5ba8b2e198"
+    },
+    {
+      "field": "questions.20.choice_b",
+      "sha256": "1252cb264fe49dd1af3e9a508c1177bc0ccf7616707c9fdb2af4f1a380cad541"
+    },
+    {
+      "field": "questions.20.choice_c",
+      "sha256": "2e5b43834b6f331e868e1ad169f0c3897ef2870efe75be067b3aae62b703c3d4"
+    },
+    {
+      "field": "questions.20.choice_d",
+      "sha256": "3be21d206fb1bba006dac789b1b2b0fd48e7cc221d9dcc0e4be22bf425c3732b"
+    },
+    {
+      "field": "questions.20.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.20.explanation",
+      "sha256": "f132b7ce11169206c5aa42ce46241ce2919b0c775d456e4c14a9914359a0fc76"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "# Amino Acid Structure and Chemical Properties\n\n## Overview and MCAT Relevance\n\nAmino acids are the molecular building blocks of proteins, and understanding their structure and chemical behavior is foundational to nearly every biochemistry topic on the MCAT. Questions about enzyme mechanisms, protein folding, receptor-ligand interactions, and even genetic mutations all trace back to amino acid chemistry. The MCAT tests not just memorization of amino acid names but your ability to *reason* about how structural features predict chemical behavior—how a charged residue might stabilize an enzyme active site, why a mutation from glycine to proline disrupts an alpha helix, or how pH shifts alter the ionization state of a histidine residue.\n\nThis lesson covers the universal structural scaffold of amino acids, the acid-base chemistry governing their ionization, and the classification system built on R-group properties. Mastery here pays dividends across biochemistry, physiology, and organic chemistry sections of the test.\n\n---\n\n## The General Structure of an Amino Acid\n\nEvery standard amino acid shares the same core architecture centered on a **tetrahedral alpha carbon** (Cα). Four substituents are bonded to this central carbon (two are hydrogen in glycine):\n\n- An **amino group** (-NH₂)\n- A **carboxyl group** (-COOH)\n- A **hydrogen atom** (-H)\n- A **side chain**, or **R-group**, which is unique to each amino acid\n\nThis arrangement makes the alpha carbon a **chiral center** in all amino acids except glycine. Because glycine's R-group is simply a hydrogen atom, it has two identical substituents and is therefore *achiral*. All other standard amino acids have a chiral alpha carbon; ribosomal proteins use the **L-configuration**. The L designation refers to the stereochemical configuration analogous to L-glyceraldehyde; in R/S nomenclature, most L-amino acids are S configuration (with the exception of L-cysteine, which is R due to sulfur's higher atomic number altering priority rankings).\n\n### The Amino Group\n\nThe following charges describe free amino acids, not internal peptide amides; proline has a secondary amino group. At physiological pH (~7.4), the amino group is **protonated** (-NH₃⁺), carrying a positive charge. The pKa of the alpha-amino group is typically around **9.0–10.5**, meaning that at pH 7.4, the equilibrium strongly favors the protonated form. This group acts as a **proton donor** (Brønsted acid) when pH rises above its pKa.\n\n### The Carboxyl Group\n\nThe carboxyl group at physiological pH is **deprotonated** (-COO⁻), carrying a negative charge. Its pKa is approximately **1.8–2.4**, meaning that even at moderately acidic pH values, this group readily loses its proton. At physiological pH, the carboxyl group is almost entirely in the ionized, negatively charged form.\n\n### The Zwitterion\n\nBecause the amino group is protonated and the carboxyl group is deprotonated at physiological pH, a free amino acid with a neutral side chain predominantly exists as a **zwitterion**—a molecule with no net charge but with internal positive and negative charges. Ionizable side chains can produce a nonzero net charge. The zwitterionic form is the dominant species at the **isoelectric point (pI)**, the pH at which the net charge of the molecule is zero.\n\n---\n\n## Acid-Base Chemistry of Amino Acids\n\n### Ionization and pKa Values\n\nAmino acids are **polyprotic acids**—they can donate or accept more than one proton. A simple amino acid with no ionizable R-group (like alanine) has two ionizable groups:\n\n- **pKa1 ≈ 2.3** (carboxyl group)\n- **pKa2 ≈ 9.7** (amino group)\n\nUsing the Henderson-Hasselbalch equation, you can calculate the ratio of protonated to deprotonated species at any given pH:\n\npH = pKa + log([A⁻]/[HA])\n\nAt pH 7.4, the carboxyl group (pKa ~2.3) is nearly 100% deprotonated, and the amino group (pKa ~9.7) is nearly 100% protonated. The molecule carries a net charge close to zero, consistent with the zwitterionic form.\n\n### Calculating the Isoelectric Point\n\nFor amino acids with only two ionizable groups, the **pI** is calculated as:\n\npI = (pKa1 + pKa2) / 2\n\nFor alanine: pI = (2.3 + 9.7) / 2 = **6.0**\n\nFor amino acids with ionizable R-groups, you must identify which two pKa values flank the neutral species and average those. This is critical for MCAT calculations involving electrophoresis or chromatographic separation.\n\n- For **acidic amino acids** (aspartate, glutamate), the pI is calculated from the two *lower* pKa values (pKa1 of carboxyl and pKa of the side chain carboxyl), placing the pI in the acidic range (~3).\n- For **basic amino acids** (lysine, arginine, histidine), the pI is calculated from the two *higher* pKa values (pKa of the side chain and pKa2 of the amino group), giving pI values of roughly 7.6 (His), 9.7 (Lys), and 10.8 (Arg).\n\n### Titration Curves\n\nA simple amino-acid titration has two buffering regions near its pKa values; these are half-equivalence points. The steeper equivalence regions are distinct. At each pKa, the amino acid is an effective buffer because equal concentrations of protonated and deprotonated forms coexist. Between the two pKa values lies the isoelectric point, where the zwitterionic form predominates and solubility is often lower; isoelectric focusing separates molecules by migration to their pI in a pH gradient.\n\n---\n\n## Classification of Amino Acids by R-Group Chemistry\n\nThe 20 standard amino acids are classified based on the chemical nature of their side chains. The MCAT expects you to know each amino acid's classification and to predict how side chain properties influence protein structure and function.\n\n### Nonpolar, Aliphatic Amino Acids\n\nThese amino acids have **hydrophobic** side chains consisting of carbon-hydrogen bonds with no polar or charged groups. They tend to cluster in the **interior of folded proteins**, away from the aqueous environment.\n\n- **Glycine (Gly, G)**: R-group is -H. Smallest amino acid; achiral; provides maximum conformational flexibility. Frequently found in tight turns and in collagen's repeating Gly-X-Y sequence.\n- **Alanine (Ala, A)**: R-group is -CH₃. Simple methyl group; very common in protein secondary structures.\n- **Valine (Val, V)**: R-group is -CH(CH₃)₂. Branched-chain amino acid; mutations involving valine are clinically significant (e.g., sickle cell disease involves Glu→Val substitution in hemoglobin).\n- **Leucine (Leu, L)**: R-group is -CH₂CH(CH₃)₂. Branched; highly hydrophobic; abundant in leucine zipper motifs.\n- **Isoleucine (Ile, I)**: R-group is -CH(CH₃)CH₂CH₃. Has *two* chiral centers; branched-chain amino acid.\n- **Proline (Pro, P)**: R-group forms a **cyclic pyrrolidine ring** by bonding back to the nitrogen of the backbone. This makes proline a secondary amino acid (historically called an **imino acid**). The cyclic structure rigidly constrains the backbone dihedral angle, making proline a **helix breaker** and a common component of turns and collagen.\n- **Methionine (Met, M)**: Contains a thioether (-CH₂CH₂SCH₃). Nonpolar due to the low polarity of C-S bonds. Notably, methionine is the **start codon amino acid** (AUG codes for Met).\n\n### Aromatic Amino Acids\n\nAromatic side chains are generally hydrophobic but have unique properties due to their ring structures.\n\n- **Phenylalanine (Phe, F)**: Contains a benzyl group (-CH₂-C₆H₅). Purely hydrophobic; no polar substituents. Absorbs near 257 nm, with little contribution at 280 nm.\n- **Tyrosine (Tyr, Y)**: Contains a hydroxyphenyl group (-CH₂-C₆H₄-OH). The phenolic -OH makes tyrosine **weakly acidic** (pKa ~10.5) and capable of hydrogen bonding. Tyrosine is a target for **phosphorylation** in signal transduction.\n- **Tryptophan (Trp, W)**: Contains an indole ring system. Largest standard amino acid; absorbs UV strongly at ~280 nm. The UV absorbance of proteins at 280 nm is primarily due to tryptophan and tyrosine.\n\n### Polar, Uncharged Amino Acids\n\nThese amino acids have side chains capable of hydrogen bonding but carry no net charge at physiological pH.\n\n- **Serine (Ser, S)**: R-group is -CH₂OH. Hydroxyl group enables hydrogen bonding and is a common site of **phosphorylation** and glycosylation.\n- **Threonine (Thr, T)**: R-group is -CH(OH)CH₃. Has a hydroxyl group and a second chiral center; also a phosphorylation target.\n- **Cysteine (Cys, C)**: R-group is -CH₂SH. The **thiol group** (pKa ~8.3) has a more nucleophilic conjugate base (thiolate, –S⁻) and can form **disulfide bonds** (-S-S-) with other cysteine residues under oxidizing conditions. Disulfide bonds are critical for stabilizing extracellular proteins and the tertiary structure of many enzymes.\n- **Asparagine (Asn, N)**: R-group is -CH₂CONH₂. The side-chain amide is neutral over the usual biological pH range and participates in hydrogen bonding. Site of **N-linked glycosylation** (attachment to the nitrogen of asparagine's amide).\n- **Glutamine (Gln, Q)**: R-group is -CH₂CH₂CONH₂. Longer chain version of asparagine. Important in nitrogen transport and metabolism.\n\n### Acidic Amino Acids (Negatively Charged at pH 7.4)\n\nThese amino acids have side chains with carboxyl groups that are deprotonated at physiological pH, giving them a **net negative charge**.\n\n- **Aspartate (Asp, D)**: R-group is -CH₂COO⁻. Side chain pKa ~3.9. Frequently found in enzyme active sites where it acts as a proton shuttle or electrostatic stabilizer.\n- **Glutamate (Glu, E)**: R-group is -CH₂CH₂COO⁻. Side chain pKa ~4.1. Serves as a neurotransmitter in addition to its structural role in proteins. Both aspartate and glutamate are used in the **malate-aspartate shuttle** for moving reducing equivalents across the mitochondrial membrane.\n\n### Basic Amino Acids (Histidine Is Mostly Neutral at pH 7.4)\n\nLysine and arginine have predominantly positive side chains at physiological pH; histidine is classified as basic but its side chain is mostly neutral when its pKa is about 6.0.\n\n- **Lysine (Lys, K)**: R-group terminates in -CH₂CH₂CH₂CH₂NH₃⁺. Side chain pKa ~10.5; predominantly protonated at physiological pH. Lysine residues are sites of **ubiquitination**, **acetylation**, and **methylation** in histone modification.\n- **Arginine (Arg, R)**: R-group contains a **guanidinium group** (-CH₂CH₂CH₂NH-C(=NH)-NH₂). pKa ~12.5, making it the *most basic* standard amino acid and predominantly positively charged at physiological pH. The distributed positive charge of the guanidinium group makes it especially effective at ion pairing with phosphate groups in DNA and RNA.\n- **Histidine (His, H)**: R-group is an **imidazole ring** with pKa ~6.0. This pKa permits proton exchange near neutral pH, allowing histidine to act as a proton donor or acceptor depending on its environment. Histidine participates in many **enzyme active sites** requiring acid-base catalysis (e.g., serine proteases use a catalytic triad involving His). Histidine coordinates metal ions in metalloproteins and hemoglobin.\n\n---\n\n## Special Structural Features and Their Functional Consequences\n\n### Disulfide Bonds\n\nTwo cysteine residues can be oxidized to form a **covalent disulfide bond** (-S-S-). This reaction is:\n\n2 Cys-SH → Cys-S-S-Cys + 2H⁺ + 2e⁻\n\nDisulfide bonds are found predominantly in **extracellular proteins** because the oxidizing environment outside cells (and in the endoplasmic reticulum lumen) favors their formation. Insulin, antibodies, and many receptor proteins rely on disulfide bonds for structural stability. In reducing environments (like the cytoplasm), these bonds are generally absent.\n\n### Proline's Conformational Restriction\n\nProline's pyrrolidine ring restricts the **phi (φ) dihedral angle** of the backbone, restricting its conformations and often disrupting internal alpha-helical or beta-sheet hydrogen bonding because an internal proline lacks an amide hydrogen. This is why proline is called a **helix breaker**. However, proline is essential in **collagen**, where three polypeptide chains wind into a triple helix stabilized by the rigid proline (and hydroxyproline) residues.\n\n### The Aromatic Ring and UV Absorbance\n\nTryptophan, tyrosine, and phenylalanine all absorb ultraviolet light due to their conjugated ring systems. The standard **A₂₈₀ absorbance** used to measure protein concentration relies primarily on tryptophan (ε ≈ 5,500 M⁻¹cm⁻¹) and tyrosine (ε ≈ 1,490 M⁻¹cm⁻¹). This is a practical biochemistry technique frequently referenced in MCAT experimental passages.\n\n---\n\n## Essential Amino Acids\n\nNine amino acids cannot be synthesized by the human body in sufficient quantities and must be obtained from the diet. These are called **essential amino acids**:\n\n- Histidine\n- Isoleucine\n- Leucine\n- Lysine\n- Methionine\n- Phenylalanine\n- Threonine\n- Tryptophan\n- Valine\n\nA useful mnemonic is **\"PVT TIM HaLL\"** (Phenylalanine, Valine, Threonine, Tryptophan, Isoleucine, Methionine, Histidine, Leucine, Lysine). The MCAT may present clinical scenarios involving nutritional deficiencies or metabolic disorders tied to specific amino acids (e.g., phenylketonuria involves phenylalanine metabolism).\n\n---\n\n## Amino Acids as Precursors to Biomolecules\n\nThe MCAT frequently tests the metabolic roles of amino acids beyond protein synthesis. Key relationships to know:\n\n- **Tryptophan** → serotonin, melatonin, niacin (vitamin B3)\n- **Phenylalanine/Tyrosine** → dopamine, norepinephrine, epinephrine, thyroid hormones, melanin\n- **Histidine** → histamine\n- **Glutamate** → GABA (gamma-aminobutyric acid, an inhibitory neurotransmitter)\n- **Glycine + Arginine + Methionine** → creatine\n- **Cysteine, Glycine, Glutamate** → glutathione (a major antioxidant)\n- **Serine** → phospholipid head groups; contributes to one-carbon metabolism\n\nUnderstanding these biosynthetic connections helps you answer questions about neurotransmitter pharmacology, endocrine disorders, and metabolic pathways.\n\n---\n\n## Amino Acid Abbreviations and MCAT Strategy\n\nThe MCAT uses both three-letter and single-letter abbreviations for amino acids. You must know both systems fluently because experimental passages (particularly those involving protein sequences, mutations, or electrophoresis results) use them interchangeably.\n\nA high-yield approach to memorization is to group amino acids by their properties and learn representative examples deeply rather than trying to memorize all 20 in isolation:\n\n- **Predominantly charged at pH 7.4**: Asp (D), Glu (E), Lys (K), Arg (R); His (H) is mostly neutral at a side-chain pKa of 6.0 — know their charges and pKa values\n- **Polar uncharged**: Ser (S), Thr (T), Cys (C), Asn (N), Gln (Q) — know their functional groups\n- **Nonpolar aliphatic**: Gly (G), Ala (A), Val (V), Leu (L), Ile (I), Pro (P), Met (M)\n- **Aromatic**: Phe (F), Tyr (Y), Trp (W)\n\nUseful examples to connect chemistry with function include **histidine** (acid-base catalysis, metal coordination), **cysteine** (disulfide bonds, nucleophilicity), **serine** (enzyme mechanisms, phosphorylation), **glycine** (conformational flexibility, collagen), **proline** (helix breaking, collagen), and the charged residues (Asp, Glu, Lys, Arg) for electrostatics and pI calculations.\n\n---\n\n## Connecting Amino Acid Properties to Protein Structure\n\nThe properties of amino acid side chains directly determine how proteins fold and function:\n\n- **Hydrophobic residues** (Val, Leu, Ile, Phe, Trp) drive protein folding by clustering in the **hydrophobic core**, minimizing contact with water. This is the primary thermodynamic force behind protein folding.\n- **Charged residues** (Asp, Glu, Lys, Arg) are typically found on the **protein surface**, where they interact with the aqueous environment and can form **salt bridges** with oppositely charged residues to stabilize tertiary structure.\n- **Polar uncharged residues** can be found on surfaces or buried in active sites where hydrogen bonding contributes to substrate binding or catalysis.\n- **Cysteine** residues can be buried or surface-exposed; when oxidized, disulfide bonds lock tertiary or quaternary structure in place.\n- **Glycine** and **proline** are disproportionately found in **loops and turns** due to their unique backbone properties.\n\nThe concept of **conservative versus nonconservative substitutions** in mutations follows directly from amino acid classification: replacing valine with leucine (both nonpolar aliphatic) is conservative and often tolerated; replacing glutamate with lysine (opposite charges) is nonconservative and likely to disrupt protein structure or function.\n\n---\n\n## Summary of Key Numerical Values\n\nUse approximate values for reasoning and use the values supplied in a question when given. Values vary with conditions and the protein environment:\n\n- **Alpha-carboxyl group**: pKa ≈ 2.0–2.5 (deprotonated at physiological pH)\n- **Alpha-amino group**: pKa ≈ 9.0–10.5 (protonated at physiological pH)\n- **Asp/Glu side chain carboxyl**: pKa ≈ 3.9–4.1 (deprotonated at physiological pH)\n- **His imidazole**: pKa ≈ 6.0 (near physiological pH; partially protonated)\n- **Cys thiol**: pKa ≈ 8.3 (mostly protonated at physiological pH; about 11% deprotonated at pH 7.4)\n- **Tyr phenol**: pKa ≈ 10.5 (protonated at physiological pH)\n- **Lys amino**: pKa ≈ 10.5 (protonated at physiological pH)\n- **Arg guanidinium**: pKa ≈ 12.5 (predominantly protonated at physiological pH)\n\nThese values allow you to determine the charge state of any residue at a given pH using the Henderson-Hasselbalch equation—a skill directly tested in MCAT biochemistry and general chemistry sections.\n\n---\n\n## Clinical Connections\n\nSeveral genetic diseases arise from defects in amino acid metabolism or from mutations that alter critical amino acid residues:\n\n- **Phenylketonuria (PKU)**: Deficiency of phenylalanine hydroxylase, which converts phenylalanine to tyrosine. Untreated high phenylalanine can damage brain development. Treatment includes medically supervised phenylalanine restriction and, for some patients, additional therapies.\n- **Sickle cell disease**: A single Glu→Val substitution at position 6 of the beta-globin chain. Glutamate is charged and hydrophilic; valine is nonpolar. Under low oxygen conditions, the hydrophobic valine creates a sticky patch that causes hemoglobin polymerization.\n- **Oculocutaneous albinism**: Several genetic causes impair melanin production. Some involve tyrosinase, but not all forms eliminate melanin synthesis completely.\n- **Classic homocystinuria**: Cystathionine beta-synthase deficiency impairs homocysteine-to-cystathionine conversion, an upstream step toward cysteine, and increases thrombosis risk. Other genetic forms affect remethylation to methionine.\n- **Maple syrup urine disease**: Defective branched-chain alpha-keto acid dehydrogenase complex; accumulation of leucine, isoleucine, and valine (and their keto acids) is toxic to the nervous system.\n\nThese clinical vignettes are high-yield MCAT material because they require you to connect amino acid chemistry to metabolic pathways and disease mechanisms.\n\n---\n\n## Conclusion\n\nAmino acid structure and chemical properties form the bedrock of biochemistry on the MCAT. The tetrahedral alpha carbon, the ionizable amino and carboxyl groups, and the chemically diverse R-groups collectively determine how amino acids behave in solution, how they interact within proteins, and how mutations alter protein function. The ability to predict charge states from pKa values, classify amino acids by side chain properties, and connect structural features to biological function is not merely a memorization task—it is a reasoning skill that the MCAT rewards consistently across multiple question types and disciplines. Invest time in understanding *why* these chemical properties matter, and you will find that amino acid chemistry illuminates every subsequent topic in protein biochemistry."
+    },
+    {
+      "field": "questions.20.choice_b",
+      "value": "The carboxyl-derived carbonyl of one amino acid and the amino nitrogen of another."
+    },
+    {
+      "field": "questions.20.explanation",
+      "value": "The peptide linkage joins the carboxyl-derived carbonyl of one amino acid to the alpha-amino nitrogen of another. Formally, condensation of free amino acids releases water; during translation the amino group attacks a peptidyl-tRNA ester, releasing the deacylated tRNA rather than water. Side chains generally do not form the backbone peptide bond."
+    },
+    {
+      "field": "questions.20.question_text",
+      "value": "Which pair of amino acid functional groups supplies the atoms of a peptide bond?"
+    }
+  ]
+}

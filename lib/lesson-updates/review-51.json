@@ -1,0 +1,175 @@
+{
+  "lessonId": 51,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "If a population is *not* in Hardy-Weinberg equilibrium, something evolutionary is happening.",
+      "new": "A departure from expected genotype proportions can reflect biological processes, population mixture, sampling variation or genotyping error; it does not by itself establish a change in allele frequency over time.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "The Hardy-Weinberg principle holds *only* when five specific conditions are met. These assumptions define what a non-evolving population looks like. Violating any one of them means the population is evolving — that is, allele frequencies are changing over time.",
+      "new": "The standard assumptions provide a sufficient idealized model for constant allele frequencies and Hardy-Weinberg genotype proportions. Violating an assumption does not guarantee an allele-frequency change: nonrandom mating alone can change genotype proportions without changing p or q.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-1-population-evolution"
+    },
+    {
+      "field": "content",
+      "old": "Either process changes allele frequencies and disrupts equilibrium.",
+      "new": "Allele frequencies change only if the net contribution differs in allele composition; equal numbers of immigrants and emigrants do not by themselves guarantee cancellation.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "content",
+      "old": "For a single gene locus with two alleles — a dominant allele **A** with frequency **p** and a recessive allele **a** with frequency **q**",
+      "new": "For a diploid autosomal locus with two alleles, **A** at frequency **p** and **a** at frequency **q** (dominance is irrelevant to the genotype-frequency equations)",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "**the recessive homozygote frequency (q²) is almost always the starting point**, because recessive homozygotes are the only genotype that can be directly identified from phenotype alone.",
+      "new": "the starting point depends on the data. If genotypes are known, count alleles directly: p = (2NAA + NAa)/(2N). If only phenotype is known, using the recessive-phenotype frequency as q² requires HWE, complete penetrance and an appropriate single-locus model.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "1. Identify the frequency of the recessive phenotype (aa individuals) from the data. This gives you **q²**.",
+      "new": "1. For a fully penetrant recessive two-allele model at HWE, identify the aa phenotype frequency; under those assumptions it estimates **q²**.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "Hardy-Weinberg applies differently to X-linked traits because males are hemizygous (only one X chromosome). For an X-linked recessive condition:",
+      "new": "For the usual XX/XY model, males are hemizygous at non-pseudoautosomal X loci. The following simplified X-linked recessive calculations assume complete penetrance and equal allele frequencies in the male and female breeding pools:",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-1-population-evolution"
+    },
+    {
+      "field": "content",
+      "old": "The population is in Hardy-Weinberg equilibrium.",
+      "new": "These counts exactly match the HWE prediction for this locus and sample. A single match does not prove that all evolutionary forces are absent or that frequencies are stable across generations.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "If observed heterozygosity is *lower* than expected, inbreeding or assortative mating is likely.",
+      "new": "If observed heterozygosity is *lower* than expected, possible explanations include inbreeding, assortative mating, population mixture or technical error; sample size and statistical testing matter.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "The result is a stable equilibrium where both alleles are maintained in the population indefinitely, because:",
+      "new": "Under an idealized, stable heterozygote-advantage model, selection can maintain both alleles. Real populations also experience drift, changing environments and other forces:",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "content",
+      "old": "Unless you are given allele frequencies directly, you almost always start with q² (the recessive phenotype frequency). Don't try to calculate p first.",
+      "new": "When genotype counts are given, calculate p directly by allele counting. Use a square root of phenotype frequency only when the recessive/HWE assumptions apply.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "Hardy-Weinberg equilibrium means allele frequencies are *currently* stable. It does not mean the population has never evolved or will never evolve. It is a snapshot in time.",
+      "new": "Hardy-Weinberg genotype proportions in a snapshot do not demonstrate stable allele frequencies. Random mating can regenerate those proportions even as selection or migration changes allele frequencies between generations.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "For **cystic fibrosis**, the disease incidence in Northern European populations is approximately 1 in 2,500 live births. Using Hardy-Weinberg:",
+      "new": "For a hypothetical fully penetrant recessive condition with birth frequency 1 in 2,500, using a two-allele HWE model:",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "This means roughly 1 in 25 Northern Europeans is a carrier of a CFTR mutation — a clinically important figure for genetic counseling.",
+      "new": "This calculation gives about 1 in 25 carriers in the hypothetical population. Actual disease frequencies and carrier estimates depend on the population and variant spectrum.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "PKU affects approximately 1 in 10,000 individuals in the United States:",
+      "new": "For a second hypothetical fully penetrant recessive condition with frequency 1 in 10,000:",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "The probability of producing an affected child from such a mating is (2pq)² × 1/4.",
+      "new": "The joint probability of choosing two carriers and having an affected child is (2pq)² × 1/4. This is not the total affected-birth probability from all parental genotype combinations. If parents are known to be unaffected, use conditional carrier frequencies instead.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "- Start calculations from **q²** (recessive phenotype frequency)",
+      "new": "- Use allele counts when genotypes are known; use **q²** from phenotype only under the appropriate assumptions",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "- Deviation from HWE indicates evolutionary forces are acting",
+      "new": "- A genotype-frequency departure requires investigation; it does not uniquely identify a cause or prove an allele-frequency change",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "content",
+      "old": "The Hardy-Weinberg principle is elegant precisely because it defines what *non-evolution* looks like. Every real population deviates from these idealized conditions to some degree, which is exactly why evolution is universal. For the MCAT, mastery of Hardy-Weinberg means being able to move fluidly between the math and the biology — calculating frequencies quickly and accurately, but also explaining *why* a population might deviate from expected values and *what evolutionary mechanism* is responsible.",
+      "new": "Hardy-Weinberg is a useful null model, not a diagnostic proof of non-evolution. Distinguish genotype proportions at a sampled life stage from allele-frequency changes across generations, and consider sampling, population structure and measurement before inferring a mechanism.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "questions.252.choice_d",
+      "old": "A population receiving equal numbers of immigrants and emigrants each generation",
+      "new": "A large population exchanging migrants with the same allele frequencies as the residents",
+      "reason": "Equal headcounts do not guarantee equal allele flux.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "questions.252.explanation",
+      "old": "Hardy-Weinberg equilibrium requires a large population size, random mating, no mutation, no gene flow, and no natural selection. A small island population that survived a catastrophic event represents a genetic bottleneck, drastically reducing population size and causing random genetic drift, violating the large-population assumption. Equal immigration and emigration effectively cancel out gene flow, and the other scenarios describe conditions consistent with H-W assumptions.",
+      "new": "The severe bottleneck makes random allele-frequency sampling especially important, so B is the best answer. Migrants with the same allele composition do not systematically change recipient allele frequencies; merely having equal immigration and emigration headcounts would not be enough to establish that.",
+      "reason": "Repair incorrect migration assertion.",
+      "sourceUrl": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    },
+    {
+      "field": "questions.253.explanation",
+      "old": "Selection against the homozygous recessive genotype removes copies of the a allele from the population each generation, decreasing q and increasing p. This violates the no-selection assumption of Hardy-Weinberg, so the population is no longer in equilibrium and allele frequencies will change. Choice D is tempting because heterozygotes do preserve the a allele, but the net removal of aa individuals still reduces the overall frequency of a.",
+      "new": "Before selection, AA = 0.36, Aa = 0.48 and aa = 0.16. Removing aa from the breeding pool leaves q′ = (0.48/2)/(0.36+0.48) = 2/7 ≈ 0.286 and p′ ≈ 0.714. Random mating of survivors can produce HWE zygote proportions at these new frequencies. Thus allele-frequency change and zygote HWE proportions are distinct concepts.",
+      "reason": "Show calculation and avoid false HWE implication.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "questions.254.choice_b",
+      "old": "The population is evolving because the observed heterozygote frequency is lower than expected",
+      "new": "The observed heterozygote frequency is below the HWE prediction; these data alone do not prove an allele-frequency change over time.",
+      "reason": "Correct inference from a single snapshot.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    },
+    {
+      "field": "questions.254.explanation",
+      "old": "With p = 0.6 and q = 0.4, Hardy-Weinberg predicts 2pq = 0.48 for heterozygotes, but the observed frequency is only 0.20. This significant deficit of heterozygotes suggests the population is not in equilibrium, possibly due to inbreeding or assortative mating. The mere presence of both alleles or their summing to 1.0 does not confirm equilibrium; the key test is whether observed genotype frequencies match Hardy-Weinberg predictions.",
+      "new": "With p = 0.60, the predicted Aa frequency is 2pq = 0.48, versus the observed 0.20. The counts depart from the predicted proportions, but without sample size a significance test is not possible. Inbreeding, population mixture, selection or genotyping error are possible explanations; longitudinal allele-frequency change is not established.",
+      "reason": "Avoid untested significance and evolution claim.",
+      "sourceUrl": "https://www.nist.gov/glossary-term/43061"
+    }
+  ]
+}

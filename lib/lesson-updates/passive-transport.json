@@ -1,0 +1,234 @@
+{
+  "lessonId": 54,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    266,
+    267,
+    268,
+    269,
+    270
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26815/",
+      "title": "Molecular Biology of the Cell: Principles of membrane transport"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK285565/",
+      "title": "Endotext: Cellular uptake of thyroid hormones"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK541095/",
+      "title": "Biochemistry: Hypertonicity"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK500033/",
+      "title": "Crystalloid solutions in intravenous fluid therapy"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/mesh/68051397",
+      "title": "NCBI MeSH: Aquaglyceroporins"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26896/",
+      "title": "Molecular Biology of the Cell: Carrier proteins and active membrane transport"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38775784/",
+      "title": "Glucose transporters are key components of the human glucostat"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8112322/",
+      "title": "Facilitative glucose transporters"
+    }
+  ],
+  "visual": {
+    "beforeHeading": "Facilitated Diffusion",
+    "title": "Water movement: count effective particles",
+    "src": "/lesson-diagrams/passive-transport.svg",
+    "width": 900,
+    "height": 760,
+    "alt": "Two compartments separated by a water-only membrane show 0.1 M glucose on one side and 0.1 M NaCl on the other; initial water movement favors the salt side. Three cell outlines show shrinking in hypertonic, stable volume in isotonic, and swelling in hypotonic solutions.",
+    "caption": "Initial water flow assumes equal hydrostatic pressure and ideal solutes. Tonicity is about nonpenetrating solutes relative to the specific cell and time scale."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "de2bab45e41423892e1ccf24e93a43b0e92a110d67189d979afe4dc76b25a3ae"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "a041326f9d343e63ad48f94e5c08310ddd14c965a5c6a15cd232bd989602bdfd"
+    },
+    {
+      "field": "questions.266.question_text",
+      "sha256": "c5a98d26c46664e6924e877440b71ea6f16d64f5ae4d5f4a8ea0d8ba8ba19882"
+    },
+    {
+      "field": "questions.266.choice_a",
+      "sha256": "3f9c7e79b2849fae7f1d383ddf34b53a3e58c8773cdb7bf24d7a4a5654fbe10e"
+    },
+    {
+      "field": "questions.266.choice_b",
+      "sha256": "7919e8d0ee5fc346b9e2ecbb1c7c383a3506efb3e33742442642cd4de90a863f"
+    },
+    {
+      "field": "questions.266.choice_c",
+      "sha256": "0e92d4e990b715f5518cb790d975514c7f4817c82102b10b6cbc82fdee03db38"
+    },
+    {
+      "field": "questions.266.choice_d",
+      "sha256": "c64cc61f8b627eb863a579ec70d1bf3f0d5d79c919b9e850f0dbd135b06dc6b0"
+    },
+    {
+      "field": "questions.266.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.266.explanation",
+      "sha256": "20faaf4477463ebd5f90ecc2b4c4140617ae1338dad74c46f32d36c38cc205ac"
+    },
+    {
+      "field": "questions.267.question_text",
+      "sha256": "856d47d1b0b6f8c74700526a6a2e6832dc7b7f8b9e547c73231b145c3ac149bb"
+    },
+    {
+      "field": "questions.267.choice_a",
+      "sha256": "e36c9225627853c3d61cfc8dec643c85d87b1e973ffddc6f1eb7c03f71a77d6b"
+    },
+    {
+      "field": "questions.267.choice_b",
+      "sha256": "01772a7ac5ca997f6bfdc1e473b835092174d56c7918003c394407b2aadce9a9"
+    },
+    {
+      "field": "questions.267.choice_c",
+      "sha256": "62fb7795c8fbf2254310cfa0c68904b2c673842d6bdb4b4694ffc9d2a861092f"
+    },
+    {
+      "field": "questions.267.choice_d",
+      "sha256": "f68242b096cbfcc98ea790520e4cc49178fd368e88596bf9f25f7cfaca0c07dd"
+    },
+    {
+      "field": "questions.267.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.267.explanation",
+      "sha256": "741f193a5f735f36a7a0a3422649528e809de2ab05efd686771934f8e4d5ab21"
+    },
+    {
+      "field": "questions.268.question_text",
+      "sha256": "8e60786f21c1d15591911b56cfa0e68cbb9abff3d906512d6d4a43cb3c42c4a3"
+    },
+    {
+      "field": "questions.268.choice_a",
+      "sha256": "083ce6f6f7e0a2dead80ef49840924f04921cc0b1fc5a325d5d34d4aefa12861"
+    },
+    {
+      "field": "questions.268.choice_b",
+      "sha256": "d835f038933a27d1c1f8ddbbb9fc3545b9446a65f06b0666d0f66574ca713182"
+    },
+    {
+      "field": "questions.268.choice_c",
+      "sha256": "14f0ef8f251ffeeab2177801968af521c2c8775d33666f3b43f3b30cec5c6e59"
+    },
+    {
+      "field": "questions.268.choice_d",
+      "sha256": "3e13d265112b2966ac11302265d5f7739a2ff5349fd4e57a3b99ce0db6dbed9c"
+    },
+    {
+      "field": "questions.268.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.268.explanation",
+      "sha256": "cf3e25193ff725cc84745df48c81697985536901d6d1cbb9a2ecf850e9edaef7"
+    },
+    {
+      "field": "questions.269.question_text",
+      "sha256": "596e937e999e9eddb7ed421200c352021a3eeb42886ef70c4a716ea66f463fd4"
+    },
+    {
+      "field": "questions.269.choice_a",
+      "sha256": "e7c5815f0bae5fa6bcda28a84485a95669d46ecc277521050acdb0baaa101db5"
+    },
+    {
+      "field": "questions.269.choice_b",
+      "sha256": "eb1f059105719413d02e0a8190e81135090b48bf316de83dfa19d394b72dcd0b"
+    },
+    {
+      "field": "questions.269.choice_c",
+      "sha256": "cd1560a9ee5577ed80341728f06193bb33149a191099a7780ae26f64c06ec0a7"
+    },
+    {
+      "field": "questions.269.choice_d",
+      "sha256": "b033e813214464624248720bcf71463729d838baea222ac61ab8c9c3eb97896f"
+    },
+    {
+      "field": "questions.269.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.269.explanation",
+      "sha256": "e6b1e24d22010ed38a7a27b485a7c2face3c1918922acc45b5c14d0ad055f440"
+    },
+    {
+      "field": "questions.270.question_text",
+      "sha256": "585b54c46f4d7088465b4a1c0be55fa8443d486d14e19ed7726f20901ed94d3d"
+    },
+    {
+      "field": "questions.270.choice_a",
+      "sha256": "6b2c844b7258be8a47369107a6d7de8c881bad3df87e14d94d8e135acc9ca06a"
+    },
+    {
+      "field": "questions.270.choice_b",
+      "sha256": "b7f2cc15012a59238c19fe4940aa423c05f0c5a7b1af8979111e642b254b7a70"
+    },
+    {
+      "field": "questions.270.choice_c",
+      "sha256": "de4c59decbb80a94a30c5e32689d13e2355b0295dcaa841c69fdfae9cc944085"
+    },
+    {
+      "field": "questions.270.choice_d",
+      "sha256": "a90785abd11a07c65ce847c9defca3f24b388202da91f8c533c8d5dcb1547246"
+    },
+    {
+      "field": "questions.270.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.270.explanation",
+      "sha256": "569577aaf4ef52ade6a31210bfa6831a0679fe1741b90e95f4d9ff29c3bb20d2"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Passive Transport: Diffusion, Osmosis, and Facilitated Diffusion\n\nMovement of molecules across biological membranes is one of the most fundamental processes in cell biology, and the MCAT tests it relentlessly—not just as isolated definitions, but as integrated thermodynamic reasoning. You need to understand *why* molecules move, *how* the membrane architecture permits or restricts that movement, and *what happens* when transport goes wrong. This lesson covers the three major forms of passive transport: simple diffusion, osmosis, and facilitated diffusion. Each obeys the same thermodynamic logic, but the molecular mechanisms differ in ways that have significant physiological consequences.\n\n---\n\n## Thermodynamic Foundation: Why Passive Transport Occurs\n\n### Free Energy and Chemical Potential\n\nAll passive transport is driven by a decrease in **Gibbs free energy (ΔG)**. For an uncharged solute moving from one compartment to another, the relevant quantity is the **chemical potential (μ)**, which depends on concentration. A solute will spontaneously move from a region of high concentration to low concentration because doing so increases the entropy of the system and lowers the overall free energy—no energy input is required.\n\nFor an uncharged solute, the free energy change for moving from compartment 1 to compartment 2 is:\n\nΔG = RT ln([C₂]/[C₁])\n\nWhere R is the gas constant (8.314 J/mol·K), T is absolute temperature, and [C₁] and [C₂] are the concentrations in the two compartments. When [C₁] > [C₂], the ratio [C₂]/[C₁] is less than 1, ln of that ratio is negative, and ΔG is negative—meaning the process is spontaneous.\n\nFor **charged solutes (ions)**, the driving force is more complex. Ions respond to both concentration gradients and electrical gradients. The combined driving force is called the **electrochemical gradient**, and the free energy calculation must include both terms:\n\nΔG = RT ln([C₂]/[C₁]) + zFΔV\n\nWhere z is the charge of the ion, F is Faraday's constant (96,485 C/mol), and ΔV = V₂ − V₁ is the destination-minus-source electrical potential difference across the membrane. This is the foundation for understanding nerve impulses and membrane potentials, topics that build directly on passive transport principles.\n\n### The Key Distinction: Passive vs. Active\n\nPassive transport requires *no direct input of metabolic energy* (no ATP hydrolysis). The driving force is entirely the electrochemical gradient. Active transport, by contrast, moves solutes against their electrochemical gradient and requires energy. This distinction is critical on the MCAT: classify ion movement using the combined electrochemical gradient, not concentration alone. An ion can move passively against its concentration gradient if a stronger electrical gradient favors that direction.\n\n---\n\n## Simple Diffusion\n\n### Mechanism\n\n**Simple diffusion** is the unassisted movement of molecules directly through the phospholipid bilayer. No membrane proteins are required. The molecule must be able to dissolve into and pass through the hydrophobic core of the membrane, which is approximately 3–4 nm thick and composed primarily of fatty acid tails.\n\nThe phospholipid bilayer is selectively permeable. Molecules that cross readily by simple diffusion share certain characteristics:\n\n- **Small, nonpolar molecules**: O₂, CO₂, N₂, diffuse readily. Many steroid hormones can cross the bilayer; thyroid hormone uptake importantly uses transporters such as MCT8 and should not be classified simply as free lipid diffusion.\n- **Small, uncharged polar molecules**: Water (H₂O) and urea cross slowly but measurably by simple diffusion; water moves primarily through aquaporins in most physiological contexts.\n- **Larger polar molecules and ions**: Glucose, amino acids, Na⁺, K⁺, Cl⁻, and Ca²⁺ are essentially impermeant by simple diffusion. Their hydration shells and/or charges make traversal of the hydrophobic core thermodynamically prohibitive.\n\n### Rate of Simple Diffusion: Fick's First Law\n\nThe rate of simple diffusion is described by **Fick's First Law**:\n\nRate₁→₂ = P × A × (C₁ − C₂)\n\nHere Rate is the net amount crossing per time, P is the permeability coefficient, and A is area. Flux density (amount per area per time) is Rate/A. This expression assumes a constant permeability and defines positive movement from compartment 1 to 2. Several important points follow from this relationship:\n\n- Flux is *directly proportional* to the concentration gradient. Double the gradient, double the flux.\n- Flux is directly proportional to surface area. This is why cells that need high transport rates (intestinal epithelial cells, kidney tubule cells) have microvilli that dramatically increase surface area.\n- The permeability coefficient P depends on the solubility of the molecule in the lipid bilayer (often expressed as the **partition coefficient**, the ratio of solubility in oil vs. water) and the diffusion coefficient within the bilayer.\n- There is *no saturation* with simple diffusion. Unlike protein-mediated transport, there are no binding sites to become occupied. The simple constant-permeability model is linear; extrapolating indefinitely ignores changes in activity, membrane properties and other physical limits.\n\n### Physiological Examples\n\nCarbon dioxide produced in metabolically active tissues diffuses down its concentration gradient into the blood, and then from blood into the lungs for exhalation. Oxygen follows the reverse path. The efficiency of gas exchange in the alveoli depends on the thin diffusion distance (the alveolar-capillary membrane is roughly 0.5 μm), large surface area (~70 m² in human lungs), and high permeability of O₂ and CO₂.\n\nSteroid hormones (cortisol, estradiol, testosterone, aldosterone) are derived from cholesterol and are highly lipid-soluble. They diffuse directly through the plasma membrane of target cells to bind intracellular receptors. This is in sharp contrast to peptide hormones (insulin, glucagon), which cannot cross the membrane and must bind surface receptors.\n\n---\n\n## Osmosis\n\n### Definition and Driving Force\n\n**Osmosis** is the net movement of *water* across a **semipermeable membrane** from a region of lower solute concentration (higher water concentration) to a region of higher solute concentration (lower water concentration). The driving force is the difference in **water activity**, or equivalently, the difference in **osmotic pressure** between the two compartments.\n\nOsmosis is thermodynamically equivalent to diffusion—water moves down its own chemical potential gradient. Adding solute to a solution lowers the chemical potential of water in that solution, because solute particles occupy space and reduce the effective concentration of water molecules.\n\n### Osmolarity and Tonicity\n\n**Osmolarity** is the total concentration of all solute particles in solution, expressed in osmoles per liter (Osm/L or mOsm/L). Each dissolved particle, regardless of size, contributes equally to osmolarity. For dissociating solutes, you must account for all ions: 1 M NaCl → approximately 2 Osm/L (1 Osm from Na⁺ + 1 Osm from Cl⁻). Typical plasma osmolality is approximately **275–295 mOsm/kg**; osmolarity uses volume rather than solvent mass, so the units are not interchangeable, maintained tightly by the kidneys and antidiuretic hormone (ADH).\n\n**Tonicity** describes the *effect* of a solution on cell volume, and it accounts only for *nonpenetrating* solutes—those that cannot cross the membrane. This is a crucial distinction from osmolarity.\n\n- **Isotonic** solution: same effective osmolarity of nonpenetrating solutes as the cell interior. No net water movement; cells maintain normal volume. Normal saline (0.9% NaCl) is approximately isotonic. Dextrose 5% in water is not a sustained isotonic solution in vivo: after glucose uptake/metabolism it supplies free water.\n- **Hypotonic** solution: lower concentration of nonpenetrating solutes than the cell. Water moves *into* the cell, causing it to swell. In extreme cases, red blood cells undergo **lysis** (bursting); this process is called **hemolysis**. Plant cells, protected by cell walls, develop **turgor pressure** instead.\n- **Hypertonic** solution: higher concentration of nonpenetrating solutes than the cell. Water moves *out* of the cell, causing it to shrink. Red blood cells undergo **crenation** (shriveling). Plant cells undergo **plasmolysis** (the plasma membrane pulls away from the cell wall).\n\nA penetrating solute can contribute to osmolarity without maintaining tonicity. For example, a solution containing only urea can be hyperosmolar yet hypotonic to a cell that readily takes up urea, leading eventually to swelling. Urea added to otherwise isotonic saline does not make the same prediction: the nonpenetrating solutes still matter. Permeability, time and hydrostatic pressure must be specified.\n\n### Osmotic Pressure\n\n**Osmotic pressure (π)** is the hydrostatic pressure that must be applied to a solution to prevent net osmosis from occurring when the solution is separated from pure water by a semipermeable membrane. It is given by the **van't Hoff equation**:\n\nπ = iMRT\n\nWhere i is the **van't Hoff factor** (number of particles a solute dissociates into; 1 for glucose, 2 for NaCl, 3 for CaCl₂), M is molarity, R is the gas constant, and T is absolute temperature. For dilute aqueous solutions at body temperature (~310 K), this gives osmotic pressures in the range of atmospheres for physiologically relevant concentrations—osmosis is a powerful force.\n\nIn the capillaries, the balance between hydrostatic pressure and osmotic pressure governs fluid exchange between blood and interstitial fluid. Plasma proteins (primarily albumin) create **colloid osmotic pressure** (also called **oncotic pressure**), which opposes filtration. Sustained venous-end reabsorption is not universal; lymphatic return is important in steady-state fluid balance. In patients with severe liver disease or malnutrition, albumin synthesis drops, oncotic pressure falls, and fluid accumulates in the interstitial space—this is one mechanism of **edema**.\n\n### Aquaporins\n\nAlthough water can cross lipid bilayers by simple diffusion at a slow rate, most physiologically important water movement occurs through **aquaporins**—integral membrane proteins that form water-selective channels. Water-selective aquaporins greatly increase water permeability while excluding ions. Some family members are aquaglyceroporins and also conduct small neutral solutes such as glycerol; not every aquaporin is water-only.\n\nThere are 13 known mammalian aquaporins (AQP0–AQP12). **AQP2** in the kidney collecting duct is regulated by ADH (vasopressin): when plasma osmolarity rises, ADH is released from the posterior pituitary, binds V2 receptors on collecting duct cells, triggers a cAMP/PKA signaling cascade, and causes AQP2-containing vesicles to fuse with the apical membrane. This increases water permeability, allowing more water reabsorption and concentrating the urine. In **diabetes insipidus**, either ADH is not produced (central DI) or the kidney doesn't respond to it (nephrogenic DI), and patients produce enormous volumes of dilute urine.\n\nOsmosis through aquaporins is still *passive*—water moves down its osmotic gradient. Aquaporins speed the process but do not change its thermodynamic direction.\n\n---\n\n## Facilitated Diffusion\n\n### Overview and Distinction from Simple Diffusion\n\n**Facilitated diffusion** is passive transport mediated by membrane proteins. Like simple diffusion, it is driven by the electrochemical gradient and requires no energy input. Unlike simple diffusion, it uses specific membrane proteins—either **channel proteins** or **carrier proteins (uniporters)**—to move hydrophilic or charged molecules across the hydrophobic membrane core.\n\nCarrier-mediated facilitated diffusion often shows a saturating transport curve because binding sites and turnover are finite. Under appropriate conditions a Michaelis–Menten-like model is useful. Ion-channel currents instead depend on conductance, gating and electrochemical driving force; they do not universally obey this carrier kinetic model.\n\n- At low substrate concentrations, transport rate increases approximately linearly with concentration.\n- As concentration rises, rate increases more slowly.\n- At very high concentrations, the transporters become saturated and the rate reaches a maximum (**Vmax**).\n- The concentration at half-maximal transport rate is the **Km** (analogous to the enzyme Km), which is an apparent kinetic parameter; it is not necessarily the substrate dissociation constant or a pure binding-affinity measurement.\n\nThis saturation behavior is a diagnostic feature: if you can demonstrate that transport shows saturation kinetics, specificity for particular substrates, and inhibition by structural analogs, you are looking at facilitated diffusion (or active transport), not simple diffusion.\n\n### Channel Proteins\n\n**Channel proteins** form hydrophilic pores through the membrane, allowing specific ions or molecules to flow through when the channel is open. Transport through channels is extremely fast—up to 10⁸ ions per second—because ions simply flow through the water-filled pore without binding tightly to the protein.\n\n#### Ion Channels\n\n**Ion channels** are selective for specific ions based on the size of the channel pore and the distribution of charged amino acid residues lining the channel. The **selectivity filter** of a K⁺ channel, for example, is lined with carbonyl oxygen atoms that mimic the water molecules in K⁺'s hydration shell. K⁺ (ionic radius 1.33 Å) fits perfectly and sheds its hydration shell to pass through; Na⁺ (ionic radius 0.95 Å) is too small to interact optimally with the filter and is excluded. This selectivity is the basis for the differential permeability of neuronal membranes that underlies action potentials.\n\nIon channels can be:\n\n- **Leak/background channels**: contribute conductance at rest; their open probability can still be regulated; important for maintaining resting membrane potential. The resting membrane potential of neurons (approximately −70 mV) reflects the high resting permeability to K⁺ through leak channels.\n- **Voltage-gated channels**: open or close in response to changes in membrane potential. Voltage-gated Na⁺ channels open during the depolarization phase of action potentials; voltage-gated K⁺ channels open during repolarization.\n- **Ligand-gated channels**: open in response to binding of a specific molecule (neurotransmitter, second messenger). The nicotinic acetylcholine receptor at the neuromuscular junction is a ligand-gated cation channel that opens when acetylcholine binds, allowing Na⁺ influx and depolarization.\n- **Mechanically-gated channels**: open in response to physical deformation of the membrane, as in hair cells of the inner ear.\n\n#### Aquaporins as Channels\n\nAs discussed in the osmosis section, aquaporins are a specialized type of channel protein. They are technically channels that facilitate the diffusion of water, illustrating that facilitated diffusion applies to water movement as well as ion and solute movement.\n\n### Carrier Proteins (Uniporters)\n\n**Carrier proteins** bind their substrate on one side of the membrane, undergo a conformational change, and release the substrate on the other side. This alternating-access mechanism is fundamentally different from channels: the substrate is never in a continuous open pore. As a result, carrier-mediated transport is *much slower* than channel-mediated transport—typically 10²–10⁴ molecules per second.\n\nA **uniporter** carries one solute type without obligatorily coupling it to another. A passive uniporter can transport in either direction; the gradient determines net flux.\n\n#### GLUT Transporters\n\nThe **GLUT (glucose transporter) family** is the paradigmatic example of uniporters and is heavily tested on the MCAT. There are 14 known GLUT isoforms (GLUT1–GLUT14), each with distinct tissue distribution, kinetics, and regulatory properties.\n\n- **GLUT1**: ubiquitous; high affinity for glucose (Km ~1 mM); constitutively expressed; important for basal glucose uptake in red blood cells, brain endothelium, and many other tissues. Mutations in GLUT1 cause GLUT1 deficiency syndrome, characterized by low CSF glucose and seizures.\n- **GLUT2**: a relatively high-Km, high-capacity transporter in liver and basolateral intestinal/renal membranes. Rodent β-cells prominently express GLUT2, whereas human β-cells predominantly express GLUT1. Glucokinase-dependent metabolism is central to glucose sensing; GLUT2 alone is not the universal human β-cell sensor.\n- **GLUT3**: very high affinity (Km ~1 mM); found in neurons; ensures glucose uptake even when blood glucose is low.\n- **GLUT4**: the insulin-regulated transporter in muscle and adipose tissue. At rest, GLUT4 is sequestered in intracellular vesicles. When insulin binds its receptor on the cell surface, a signaling cascade (involving PI3K and Akt) causes GLUT4-containing vesicles to fuse with the plasma membrane, dramatically increasing glucose uptake. This is the molecular basis for insulin's role in postprandial glucose clearance. In **type 2 diabetes**, insulin signaling is impaired and GLUT4 translocation is defective, contributing to hyperglycemia.\n\nThe GLUT/SLC2 family has differing substrate preferences; GLUT5 primarily transports fructose. In the intestine, apical SGLT1 takes up glucose/galactose using the Na⁺ gradient, apical GLUT5 takes up fructose by facilitated diffusion, and basolateral GLUT2 permits sugar exit down the enterocyte-to-interstitial gradient. Luminal concentration alone does not determine flux across the basolateral membrane.\n\n### Comparison of Channel Proteins vs. Carrier Proteins\n\nUnderstanding the differences between channels and carriers is essential for MCAT reasoning:\n\n- **Speed**: Channels are orders of magnitude faster (10⁸ vs. 10²–10⁴ per second).\n- **Mechanism**: Channels provide a continuous aqueous pore; carriers undergo conformational change.\n- **Substrate interaction**: Channels have weak, transient interactions; carriers have specific, tight binding.\n- **Gating**: Channels can be gated (opened/closed); carrier conformational changes are substrate-driven.\n- **Examples**: Channels—Na⁺, K⁺, Cl⁻, Ca²⁺ channels, aquaporins. Carriers—GLUT transporters. CFTR belongs with channels despite its ABC-family ancestry.\n\n---\n\n## Integration: Membrane Composition and Permeability\n\nThe phospholipid bilayer composition modulates passive transport rates. Several factors matter:\n\n- **Fatty acid saturation**: Unsaturated fatty acids (with double bonds that introduce kinks) increase membrane fluidity, which generally increases permeability to small molecules. Saturated fatty acids pack tightly, reducing fluidity and permeability.\n- **Cholesterol**: At physiological temperatures, cholesterol intercalates between phospholipids and moderates fluidity. It prevents membranes from becoming too fluid at high temperatures and too rigid at low temperatures. Cholesterol also reduces the permeability of membranes to small polar molecules like water and ions.\n- **Temperature**: Higher temperatures increase membrane fluidity and simple diffusion rates. This is why poikilothermic (cold-blooded) organisms adjust membrane lipid composition seasonally.\n- **Membrane thickness**: Thicker membranes reduce diffusion rates. Myelin, which wraps around axons and serves as electrical insulation, is a highly specialized, thick membrane structure with very low ion permeability.\n\n---\n\n## Clinical and Pharmacological Relevance\n\n### Cystic Fibrosis\n\n**CFTR (cystic fibrosis transmembrane conductance regulator)** is a Cl⁻ channel in epithelial cells of the lungs, pancreas, sweat glands, and reproductive tract. Despite being a member of the ABC transporter superfamily (which typically uses ATP), CFTR functions as an ion channel—ATP binding and hydrolysis regulate its gating, but Cl⁻ moves passively down its electrochemical gradient when the channel is open. Mutations in CFTR (most commonly ΔF508, a deletion of phenylalanine at position 508) prevent proper protein folding and trafficking, resulting in absent or dysfunctional Cl⁻ channels. Without Cl⁻ secretion, water does not follow osmotically, and mucus in the airways becomes thick and viscous, predisposing to bacterial infections and progressive lung damage.\n\n### Diuretics and Renal Transport\n\nMany diuretics work by blocking transport proteins in the kidney. **Furosemide** blocks the Na⁺/K⁺/2Cl⁻ cotransporter (NKCC2) in the thick ascending limb of the loop of Henle—this is secondary active transport, not passive. However, the *consequence* of blocking this transporter is that the medullary osmotic gradient (which drives passive water reabsorption in the descending limb and collecting duct) is dissipated, reducing urine concentration. Understanding passive osmotic water movement is essential for understanding why loop diuretics are effective.\n\n### Neurological Pharmacology\n\nMany anesthetic agents and drugs of abuse target ion channels. Local anesthetics like **lidocaine** block voltage-gated Na⁺ channels, preventing the propagation of action potentials. Benzodiazepines and barbiturates enhance GABA_A receptor-mediated inhibition. Its voltage effect depends on the anion gradient; inhibition can involve shunting as well as hyperpolarization. The specificity of these drugs for particular channel types illustrates the selectivity of facilitated diffusion mechanisms.\n\n---\n\n## Summary of Key Concepts\n\n- **All passive transport** is driven by the electrochemical gradient (concentration gradient for uncharged solutes, combined concentration + electrical gradient for ions). No ATP is required.\n- **Simple diffusion**: direct passage through the lipid bilayer; limited to small, nonpolar or small uncharged polar molecules; rate follows Fick's First Law; no saturation.\n- **Osmosis**: net water movement from low solute concentration to high solute concentration across a semipermeable membrane; driven by differences in water chemical potential; osmotic pressure described by van't Hoff equation (π = iMRT); tonicity (not osmolarity) determines cell volume changes; aquaporins dramatically accelerate physiological water transport.\n- **Facilitated diffusion**: protein-mediated passive transport; includes channel proteins (fast, pore-based, gated or constitutive) and carrier proteins/uniporters (slower, conformational change, saturable); carrier kinetics may be Michaelis–Menten-like, but this is not a universal channel law; GLUT transporters are the canonical MCAT example.\n- **Carrier evidence**: saturability, substrate specificity and inhibition by structural analogs support carrier-mediated transport. Channels need a different kinetic analysis, and protein involvement alone does not establish whether transport is passive or active.\n- **Clinical connections**: GLUT4 and type 2 diabetes, aquaporin-2 and diabetes insipidus, CFTR and cystic fibrosis, osmotic principles and edema.\n\nMastering passive transport means understanding the thermodynamic logic first, then layering on the molecular mechanisms. Every MCAT question about membrane transport—whether it involves neurons, kidneys, the GI tract, or pharmacology—ultimately rests on these foundational principles."
+    },
+    {
+      "field": "questions.266.choice_a",
+      "value": "Water moves into the cell down its chemical-potential gradient because the external effective solute concentration is lower."
+    },
+    {
+      "field": "questions.266.explanation",
+      "value": "With no opposing hydrostatic-pressure difference, the hypotonic external solution favors net water entry. The membrane eventually ruptures if swelling exceeds its capacity. Tonicity depends on effectively nonpenetrating solutes, not simply all particles counted in osmolarity."
+    },
+    {
+      "field": "questions.266.question_text",
+      "value": "An otherwise intact red blood cell is placed in a hypotonic solution of nonpenetrating solutes and swells until it lyses. What drives the initial water entry?"
+    },
+    {
+      "field": "questions.267.explanation",
+      "value": "Small nonpolar gases can traverse the lipid core readily. Ions face a large energetic barrier and need an appropriate membrane protein for appreciable transport. Gas flux follows its chemical gradient; passive ion flux follows its combined electrical and chemical gradients. Higher external ion concentration alone does not establish the direction of net ion flow."
+    },
+    {
+      "field": "questions.269.question_text",
+      "value": "Two initially equal-pressure compartments are separated by a membrane permeable only to water. A contains 0.1 M NaCl and B contains 0.1 M glucose. Assume ideal behavior and complete NaCl dissociation. What is the initial net water movement?"
+    },
+    {
+      "field": "questions.270.question_text",
+      "value": "Two otherwise identical intact cells differ only in aquaporin function. They enter a mildly hypotonic medium. Assume no lysis, solute transport or active volume regulation. How does aquaporin loss change their response?"
+    }
+  ]
+}

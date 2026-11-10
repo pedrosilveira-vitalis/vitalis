@@ -1,0 +1,237 @@
+{
+  "lessonId": 39,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    191,
+    192,
+    193,
+    194,
+    195
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi",
+      "title": "NCBI genetic code tables and alternative initiation codons"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26829/",
+      "title": "Molecular Biology of the Cell: From RNA to Protein"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK6236/",
+      "title": "Transfer RNA Structure and Identity"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21111/",
+      "title": "Synthesis and Processing of the Proteome: indirect aminoacylation"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=83a84897-ccca-42a1-ab1a-bbf1d43a982b&type=display",
+      "title": "Linezolid prescribing information: bacterial 23S/50S target"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5824355/",
+      "title": "Examining tRNA 3′ ends in Escherichia coli"
+    }
+  ],
+  "visual": {
+    "src": "/lesson-diagrams/genetic-code.svg",
+    "alt": "Codon–anticodon orientation with G wobble and a mischarged-tRNA example distinguishing the amino acid carried from the codon selected, plus one-ATP charging accounting.",
+    "caption": "The anticodon selects the codon; the attached amino acid supplies the residue. One ATP is used for charging, equivalent to two high-energy phosphate bonds.",
+    "title": "tRNA decoding: position versus payload",
+    "width": 800,
+    "height": 740
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "dc95a85ad5c3b864fbd0b3666dfcf20894ff9c343f84a11cb32be6655e32f40b"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "be2a5cf408558875427ffce576d75c93e6f2682a8df068fb4a1399a6153864a0"
+    },
+    {
+      "field": "questions.191.question_text",
+      "sha256": "ab13a02b269cd388119090a74188bcbecdc3fc2c2747fbad721625688978128d"
+    },
+    {
+      "field": "questions.191.choice_a",
+      "sha256": "29bb727eef3265777a24d538d1dc1c1bfcf98b76f3b4fde43c6854252c4b2256"
+    },
+    {
+      "field": "questions.191.choice_b",
+      "sha256": "a71490cd4cc66ae1b037df90583db13819da32be7360fb7e2052c8a8a4ba33d1"
+    },
+    {
+      "field": "questions.191.choice_c",
+      "sha256": "ccfa77b6644d1c51c2b70f212d405d3a3baa989251ce3aad4f46b67deab6fa3a"
+    },
+    {
+      "field": "questions.191.choice_d",
+      "sha256": "6d55da16e053b3a2303db521d148e23b2ed1864f3bbfdf9d653676f8690cf2ab"
+    },
+    {
+      "field": "questions.191.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.191.explanation",
+      "sha256": "b8a2e8c3a39f7af10cbfab2187a0e823176de2104809bade1a6377321bd2875a"
+    },
+    {
+      "field": "questions.192.question_text",
+      "sha256": "c6008587df9d35f8c7a1910e5ed7f37a577068b50a0a76b9845be1fc6d153d7f"
+    },
+    {
+      "field": "questions.192.choice_a",
+      "sha256": "0fe023f63ddf78b922f8af91b3811c3324cfc094c51c2d80f9eeae762d2eedd0"
+    },
+    {
+      "field": "questions.192.choice_b",
+      "sha256": "996f21d844fcce187fa85a91dadbae3d7de164d1ff704fbd0e2c04eefc5bac3b"
+    },
+    {
+      "field": "questions.192.choice_c",
+      "sha256": "250a2b3b2ad4922fc5ed0507cd77b7edd9540232bc26b6da180c3e848be265ab"
+    },
+    {
+      "field": "questions.192.choice_d",
+      "sha256": "c4c0a84b149900ab8d5008846ce7d25962c8e53d5670cf3721f28c2e73a40a3f"
+    },
+    {
+      "field": "questions.192.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.192.explanation",
+      "sha256": "9e92821c65dee94a190636ba2c21a71ca5b0215b2678c2d2c1353f7c9a9e8cab"
+    },
+    {
+      "field": "questions.193.question_text",
+      "sha256": "2f58e4f9e03db69f7f1c6abac83bba85d2b76b783932bf22436b68ba26f7ecc3"
+    },
+    {
+      "field": "questions.193.choice_a",
+      "sha256": "1cce8ba027eb9154f225c7b64fcdc5c15286e3e55f2f180d1d36c315a7a4b1b8"
+    },
+    {
+      "field": "questions.193.choice_b",
+      "sha256": "ead3da272a575f95767301fab2a09cf985a470f0a0d5498935b4f628ce92d729"
+    },
+    {
+      "field": "questions.193.choice_c",
+      "sha256": "bd79e6b3e000cb8e726d2b4f0ef6e2bdaf112b83363d5a8aaf6ca7b2301cead3"
+    },
+    {
+      "field": "questions.193.choice_d",
+      "sha256": "821b17f4832a4c3222bfddf0eb43b588311e418526fb0cdc62816884761a98f5"
+    },
+    {
+      "field": "questions.193.correct_answer",
+      "sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    },
+    {
+      "field": "questions.193.explanation",
+      "sha256": "cddd32361a6213912f2024b93d39c930f02e7b7115b46d25f9026cd543239aa2"
+    },
+    {
+      "field": "questions.194.question_text",
+      "sha256": "2ac3154f9cffadab07dddec9b34c21e6a5a905cf4f4b93de8d092ab20ce249dd"
+    },
+    {
+      "field": "questions.194.choice_a",
+      "sha256": "2b77f8ec34ed08138de19d0a0ced2af72fc697d68a43e98ef054530e35efb344"
+    },
+    {
+      "field": "questions.194.choice_b",
+      "sha256": "bc9d88d7936d97638fb6a726da11f6c9b7c5f12547d36d74951bbb62d806d693"
+    },
+    {
+      "field": "questions.194.choice_c",
+      "sha256": "1f4603237ba613e85d963854f83126c65e507a3617f6999bea86381d46cbc526"
+    },
+    {
+      "field": "questions.194.choice_d",
+      "sha256": "1bc524859244903430ca4e7dd0c41e81f273d2508fc982064185364acb367494"
+    },
+    {
+      "field": "questions.194.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.194.explanation",
+      "sha256": "17364453833107e2e368808001bba7e2acdd595df37894f63fdb154c90181697"
+    },
+    {
+      "field": "questions.195.question_text",
+      "sha256": "a743e5e150f686e053cfa173f0f0992c0b2a159fd9b577f38aadb14a933dfdad"
+    },
+    {
+      "field": "questions.195.choice_a",
+      "sha256": "0889275412589837f75d13121320711e0e462ba891674fad479510d351b40d5a"
+    },
+    {
+      "field": "questions.195.choice_b",
+      "sha256": "b17ac2a1a90c329319f7cc712c473586fd052d878beabccc915592f1950192c4"
+    },
+    {
+      "field": "questions.195.choice_c",
+      "sha256": "370f0b58adaefffe56c3f04c83a5225350155abe011ce8721861116bf4ebd6c5"
+    },
+    {
+      "field": "questions.195.choice_d",
+      "sha256": "a799954354007585c0f8c2deea5a228d659dc0542f133554208926403c8ecf9f"
+    },
+    {
+      "field": "questions.195.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.195.explanation",
+      "sha256": "8e60c8e1ae6e6674a3556990e065004f1ff0adf5a7c537aac1d107c31bd2cb7e"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## The Genetic Code and Transfer RNA: Decoding the Message\n\nThe central dogma establishes that information flows from DNA to RNA to protein, but the actual conversion of nucleotide sequence into amino acid sequence requires a sophisticated decoding apparatus. At the heart of this process lies the **genetic code**—a set of rules mapping trinucleotide sequences to specific amino acids—and **transfer RNA (tRNA)**, the adapter molecules that physically connect codons to their corresponding amino acids. Understanding both the properties of the code itself and the structural biology of tRNA is essential for MCAT success, as these concepts underpin questions ranging from mutation analysis to antibiotic mechanisms.\n\n---\n\n## The Structure of the Genetic Code\n\n### Codons: The Basic Unit of Information\n\nThe genetic code is read in units called **codons**, each consisting of three consecutive nucleotides in messenger RNA. Because RNA has four possible bases (A, U, G, C), a three-nucleotide sequence yields 4³ = 64 possible codons. These 64 codons encode only 20 standard amino acids plus signals for termination, which immediately raises an important question: how does the code handle this numerical surplus?\n\nThe answer lies in **degeneracy** (also called redundancy), one of the most important properties of the genetic code. Most amino acids are specified by more than one codon. For example:\n- **Leucine** is encoded by six codons: UUA, UUG, CUU, CUC, CUA, CUG\n- **Serine** is also encoded by six codons: UCU, UCC, UCA, UCG, AGU, AGC\n- **Methionine** and **tryptophan** are each encoded by only a single codon (AUG and UGG, respectively)\n\nThis degeneracy is not random. In most cases, synonymous codons (codons encoding the same amino acid) differ only at the **third position**, a pattern known as **third-position degeneracy** or **wobble degeneracy**. This is not coincidental—it reflects the structural rules governing how tRNA anticodons pair with codons, which we will examine in detail when discussing the wobble hypothesis.\n\n### The Start and Stop Codons\n\nAmong the 64 codons, three normally act as **stop codons** in the standard code (also called nonsense codons or termination codons):\n- **UAA** (ochre)\n- **UAG** (amber)\n- **UGA** (opal or umber)\n\nIn ordinary termination, release factors recognize these codons and promote peptide release. Specialized recoding can instead insert selenocysteine at UGA or, in certain organisms, pyrrolysine at UAG; alternative genetic codes and readthrough provide further exceptions.\n\n**AUG is the usual start codon**, recruiting a specialized initiator tRNA with methionine. Bacteria can also initiate at codons such as GUG or UUG while still inserting initiator fMet; rare non-AUG initiation occurs in eukaryotes. An internal AUG normally inserts methionine. Bacteria use N-formylmethionine for initiation, whereas archaea and the eukaryotic cytosol use unformylated methionine. Mitochondria also use formylated initiators, so fMet peptides are not exclusively bacterial. Initial residues may be removed during protein maturation.\n\n---\n\n## Properties of the Genetic Code\n\n### Degeneracy\n\nAs introduced above, the genetic code is **degenerate**: multiple codons can specify the same amino acid. This property has profound biological consequences. Because many mutations at the third codon position do not change the amino acid sequence, degeneracy provides a buffer against the effects of point mutations. A mutation that changes UUU to UUC, for example, still encodes phenylalanine—this is called a **synonymous** or **silent mutation**.\n\nFor the MCAT, understand the distinction between:\n- **Synonymous (silent) mutations**: nucleotide change does not alter the amino acid sequence\n- **Missense mutations**: nucleotide change results in a different amino acid\n- **Nonsense mutations**: nucleotide change converts an amino acid codon to a stop codon, prematurely terminating translation\n- **Frameshift mutations**: insertion or deletion of nucleotides (not a multiple of three) shifts the reading frame, altering all downstream codons\n\nDegeneracy explains why some substitutions leave the encoded amino acid unchanged. A missense substitution changes the amino acid by definition; a conservative replacement may have a small effect for other reasons. Synonymous changes can still affect splicing, RNA stability or translation efficiency.\n\n### Non-Overlapping and Comma-Free Reading\n\nWithin an ordinary translated reading frame, codons are **non-overlapping**: each nucleotide is used in one triplet. Different genes can overlap in different frames, and programmed frameshifting can alter the decoding frame. The ribosome reads codons sequentially without skipping or reusing nucleotides. This means that a sequence like AUGCCUGAA is read as AUG-CCU-GAA (Met-Pro-Glu), not as overlapping triplets.\n\nThe code is also read **without commas**—there are no punctuation nucleotides between codons. The reading frame is established by the initiation site (usually AUG) and maintained continuously throughout translation. This is why insertions or deletions of single nucleotides are so devastating: they shift the reading frame for every codon downstream of the mutation.\n\n### Universality\n\nThe genetic code is **nearly universal**: with very few exceptions, every organism on Earth—from bacteria to humans—uses the same codon assignments. This universality is powerful evidence for the common ancestry of all life and has enormous practical implications. Shared codon assignments help recombinant expression: an appropriately designed intron-free human insulin coding sequence can be expressed in bacteria. Suitable bacterial expression signals and correct protein maturation/folding are also needed; inserting an unmodified human genomic gene is not sufficient.\n\nThe exceptions to universality are instructive:\n- Mitochondria use a slightly different code. For example, in human mitochondria, UGA encodes tryptophan rather than serving as a stop codon, and AUA encodes methionine rather than isoleucine.\n- Some organisms use alternative codon assignments for a small number of codons.\n\nThese exceptions are rare enough that universality remains a defining feature of the code, so the standard table is a useful default when no alternative code or recoding context is specified.\n\n### Unambiguous\n\nWithin a specified code and ordinary decoding context, each codon has a defined assignment: the code is described as **unambiguous**. Context-dependent recoding is an important exception to this introductory rule. This is distinct from degeneracy, which refers to multiple codons encoding the same amino acid. The code is degenerate but unambiguous—many-to-one, not one-to-many.\n\n---\n\n## Transfer RNA: Structure and Function\n\n### Overview of tRNA's Role\n\nTransfer RNA molecules are the physical adapters that interpret the genetic code. Each tRNA carries a specific amino acid at one end and displays an **anticodon**—a three-nucleotide sequence complementary to a specific codon—at the other end. When the anticodon of a charged tRNA base-pairs with the complementary codon in the ribosomal A site, the amino acid it carries is added to the growing polypeptide chain.\n\nThe number of tRNA genes, anticodon types and chemically distinct mature tRNAs are different quantities and vary between organisms and compartments. Human mitochondria encode only 22 tRNAs. Typical cytosolic tRNAs are roughly 70–90 nucleotides long, with structural exceptions including mitochondrial tRNAs.\n\n### The Cloverleaf Secondary Structure\n\nWhen drawn in two dimensions, the base-paired regions of tRNA form a **cloverleaf structure** with acceptor, D, anticodon and T arms, plus a variable region:\n\n- **Acceptor stem**: A stem formed by pairing the 5′ and 3′ regions, usually seven base pairs in canonical tRNAs; the mature 3′ end terminates in the universally conserved sequence **CCA-3'**. The amino acid is ester-linked to the terminal adenosine’s ribose. Initial aminoacylation can use its 2′-OH or 3′-OH, depending on the synthetase; the aminoacyl group can transfer between these positions.\n- **D loop** (dihydrouracil loop): Named for the modified base dihydrouracil it contains; involved in recognition by aminoacyl-tRNA synthetases.\n- **Anticodon loop**: Contains the three-nucleotide **anticodon** sequence that base-pairs with the mRNA codon. This is the decoding center of the tRNA.\n- **TψC loop** (T-loop): Contains the sequence thymine-pseudouridine-cytosine; involved in ribosome binding.\n- **Variable loop**: Located between the anticodon loop and the TψC loop; varies in size among different tRNA species and contributes to synthetase recognition.\n\n### The L-Shaped Tertiary Structure\n\nIn three dimensions, the cloverleaf folds further into an **L-shaped structure** stabilized by tertiary base pairs and stacking interactions. This L-shape has two functional ends separated by approximately 7.5 nm:\n- One end carries the **CCA-3' acceptor stem** where the amino acid is attached\n- The other end presents the **anticodon loop** for codon recognition\n\nThis spatial separation is functionally critical. When the anticodon end is engaged with the mRNA codon in the ribosomal A site, the amino acid end is positioned near the peptidyl transferase center of the large ribosomal subunit, enabling peptide bond formation.\n\n### Modified Nucleotides in tRNA\n\ntRNA molecules contain a high proportion of **modified nucleotides**—bases or sugars that have been chemically altered after transcription. These modifications include pseudouridine (ψ), dihydrouracil (D), inosine (I), and numerous methylated bases. Modified bases serve several functions:\n- Fine-tune the three-dimensional folding of the tRNA\n- Contribute to recognition by aminoacyl-tRNA synthetases\n- Influence codon-anticodon pairing specificity, particularly at the wobble position\n\nInosine is particularly important for the wobble hypothesis and will be discussed in that section.\n\n---\n\n## Aminoacyl-tRNA Synthetases: Charging the Adapters\n\n### The Aminoacylation Reaction\n\nFor tRNA to function in translation, it must first be loaded with the correct amino acid—a process called **aminoacylation** or **charging**. This reaction is catalyzed by a family of enzymes called **aminoacyl-tRNA synthetases (aaRS)**. A common introductory model has one synthetase specificity per standard amino acid, but a universal minimum of 20 enzymes is incorrect: some organisms use indirect pathways, for example converting glutamate already attached to tRNA-Gln into glutamine.\n\nThe standard aminoacylation reaction uses **one ATP molecule** across two steps:\n\n**Step 1 — Amino acid activation:**\nAmino acid + ATP → aminoacyl-AMP + PPi\n\nThe amino acid is activated by adenylation, forming a high-energy aminoacyl-adenylate intermediate (aa-AMP) that remains bound to the enzyme. Pyrophosphate (PPi) is released and subsequently hydrolyzed by pyrophosphatase, making the overall reaction thermodynamically favorable.\n\n**Step 2 — Transfer to tRNA:**\nAminoacyl-AMP + tRNA → aminoacyl-tRNA + AMP\n\nThe activated amino acid is transferred to a ribose hydroxyl of the terminal adenosine: class I synthetases generally use the 2′-OH and class II generally the 3′-OH, with exceptions. No second ATP is consumed in this transfer step. The resulting **aminoacyl-tRNA** (also called a charged tRNA) contains a high-energy ester bond between the amino acid and the tRNA.\n\nThe net cost of aminoacylation is **2 ATP equivalents** per amino acid (ATP is hydrolyzed to AMP + 2 Pi, equivalent to consuming two high-energy phosphate bonds).\n\n### The \"Second Genetic Code\"\n\nThe accuracy of protein synthesis depends critically on aminoacyl-tRNA synthetases correctly pairing each amino acid with its cognate tRNA(s). This specificity is sometimes called the **\"second genetic code\"** because errors at this step—attaching the wrong amino acid to a tRNA—would cause systematic mistranslation regardless of how accurately the ribosome reads codons.\n\nSynthetases achieve their specificity through recognition of **identity elements** on the tRNA, which include:\n- The anticodon sequence (for many but not all synthetases)\n- The discriminator base (nucleotide 73, just before the CCA-3' end)\n- Specific bases in the acceptor stem\n- Features of the D loop or variable loop\n\nThe identity elements differ for each tRNA, allowing synthetases to discriminate among structurally similar tRNA molecules. Notably, for some synthetases (like alanyl-tRNA synthetase), the anticodon is *not* the primary identity element—the G3:U70 acceptor-stem pair is a major alanine identity determinant; efficient recognition also depends on structural context. This illustrates that tRNA identity and aminoacylation machinery establish the operational link between a codon and its amino acid. The ribosome primarily checks codon–anticodon geometry rather than rechecking amino-acid identity.\n\n### Proofreading by Synthetases\n\nSome amino acids are structurally similar enough that a synthetase might occasionally activate the wrong one. For example, isoleucyl-tRNA synthetase can accidentally activate valine (which differs from isoleucine by only a methyl group). To prevent mistranslation, many synthetases have a **proofreading (editing) active site** distinct from the aminoacylation active site. Pre-transfer editing hydrolyzes a misactivated aminoacyl-adenylate; post-transfer editing hydrolyzes a mischarged aminoacyl-tRNA. Editing improves fidelity, but error frequencies vary with synthetase, substrate competition and conditions. A value near 10⁻⁴ is an order-of-magnitude teaching estimate, not a universal constant.\n\n---\n\n## The Wobble Hypothesis\n\n### The Problem: 61 Sense Codons, Fewer Than 61 tRNAs\n\nThe standard code has 61 sense codons, but a one-to-one inventory of anticodons is unnecessary. Wobble allows one tRNA to recognize more than one codon. Organisms may have many duplicate tRNA genes, so gene count must not be confused with the number of distinct anticodons.\n\nFrancis Crick proposed the answer in 1966 with the **wobble hypothesis**. He suggested that the base-pairing rules at the **third position of the codon** (which corresponds to the **first position of the anticodon**, designated the **wobble position**) are relaxed compared to the strict Watson-Crick rules governing the first two codon positions.\n\n### Wobble Pairing Rules\n\nIn the basic wobble model, the first two codon positions use standard Watson–Crick pairing: A pairs with U, and G pairs with C. At the third codon position, the following classical pairings can occur. Actual decoding depends on anticodon modifications and cellular context:\n\n- **G in the anticodon** can pair with either **C or U** in the codon\n- **U in the anticodon** can pair with either **A or G** in the codon\n- **Inosine (I) in the anticodon** can pair with **U, C, or A** in the codon\n\n**Inosine** is a modified nucleoside derived from adenosine by deamination. It is found at the wobble position of many tRNA anticodons and is particularly important because it can pair with three different codon bases. A single tRNA carrying inosine at the wobble position can therefore recognize three different codons—a remarkable economy of molecular design.\n\nThe wobble hypothesis explains why:\n1. Fewer than 61 tRNA species are needed to decode all 61 sense codons\n2. Synonymous codons tend to differ at the third position—because a single tRNA can recognize multiple third-position variants\n3. Many third-position substitutions are synonymous; that is a sequence-change effect, not necessarily a ribosomal decoding error\n\n### Anticodon Orientation and Antiparallel Pairing\n\nIt is essential to understand the **antiparallel orientation** of codon-anticodon pairing. The mRNA is read 5' to 3', and the anticodon pairs antiparallel to it, meaning the anticodon is oriented 3' to 5'. The **wobble position** is defined as position 34 of the tRNA (the first nucleotide of the anticodon in the 5' to 3' direction of the tRNA, which pairs with the *third* nucleotide of the codon).\n\nFor a concrete example: the codon **5'-GCU-3'** encodes alanine. The anticodon of an alanine tRNA might be **3'-CGI-5'** (written in the anticodon's own 5' to 3' direction: IGC). The inosine at the wobble position of the anticodon can pair with U (in GCU), C (in GCC), or A (in GCA), allowing this single tRNA to recognize three of the four alanine codons.\n\n---\n\n## Connecting the Pieces: From Codon to Amino Acid\n\n### The Ribosomal Sites\n\nTo fully appreciate tRNA function, it is useful to place it in the context of ribosomal translation. The ribosome has three tRNA-binding sites:\n- **A site (aminoacyl site)**: where incoming aminoacyl-tRNA enters and codon-anticodon pairing is verified\n- **P site (peptidyl site)**: where the tRNA carrying the growing polypeptide chain is held\n- **E site (exit site)**: where deacylated (uncharged) tRNA exits the ribosome\n\nDuring elongation, aminoacyl-tRNA enters the A site as part of a **ternary complex** with elongation factor EF-Tu (in bacteria; eEF1A in the eukaryotic cytosol) and GTP. Codon-anticodon pairing triggers GTP hydrolysis and release of EF-Tu, allowing the aminoacyl-tRNA to be fully accommodated in the A site. The ribosome then catalyzes peptide bond formation via the peptidyl transferase activity of the 23S rRNA (in bacteria), transferring the growing chain from the P-site tRNA to the A-site amino acid.\n\n### Fidelity of Decoding\n\nThe ribosome actively monitors codon-anticodon pairing in the A site. Correct pairing induces a conformational change in the small subunit (involving universally conserved bases A1492, A1493, and G530 in prokaryotic 16S rRNA) that accelerates GTP hydrolysis by EF-Tu and promotes accommodation. Incorrect or near-cognate tRNAs are rejected at multiple kinetic checkpoints, achieving an overall translation error rate of approximately 1 in 10,000 amino acids incorporated.\n\n---\n\n## MCAT-Specific Applications and High-Yield Points\n\n### Mutation Analysis\n\nThe genetic code table is a powerful tool for analyzing mutations. On the MCAT, you may be given a codon change and asked to predict its effect on the protein. Key patterns to recognize:\n\n- Changes at the **third codon position** are most likely to be silent (synonymous), due to wobble degeneracy\n- Changes at the **first or second codon position** are more likely to cause missense or nonsense mutations\n- A sense-to-stop substitution within a coding region is normally a nonsense mutation under the standard code; stop-to-stop substitutions and specialized recoding are different cases\n- Changing an internal AUG generally changes the encoded amino acid; changing an initiation AUG may reduce or alter initiation, depending on context and alternative start sites\n\n### Antibiotic Targets\n\nMany clinically important antibiotics target the bacterial translation machinery, exploiting differences between prokaryotic and eukaryotic ribosomes (70S vs. 80S). Relevant examples for the MCAT:\n\n- **Aminoglycosides** (e.g., streptomycin): bind the 30S subunit, cause misreading of codons by stabilizing near-cognate tRNA binding\n- **Tetracyclines**: block aminoacyl-tRNA from entering the A site of the 30S subunit\n- **Chloramphenicol**: inhibits the peptidyl transferase activity of the 50S subunit\n- **Linezolid**: binds bacterial 23S rRNA in the **50S** subunit and inhibits formation of a functional 70S initiation complex\n\nThese mechanisms directly relate to the codon-decoding and aminoacyl-tRNA accommodation processes described in this lesson.\n\n### Suppressor tRNAs\n\nA clinically and experimentally relevant concept is the **suppressor tRNA**. Certain mutations in tRNA genes alter the anticodon, enabling the tRNA to recognize a stop codon and insert an amino acid instead of terminating translation. These **nonsense suppressor tRNAs** can \"suppress\" the effects of nonsense mutations in protein-coding genes by reading through premature stop codons. This concept has therapeutic implications: drugs like aminoglycosides can promote read-through of premature stop codons, and engineered suppressor tRNAs are used in synthetic biology to incorporate non-canonical amino acids.\n\n### The Importance of the CCA-3' End\n\nMature translation-competent tRNAs end in CCA. This sequence may be encoded in the gene or added during processing: E. coli tRNA genes encode it, whereas human tRNAs require post-transcriptional addition. CCA-adding enzymes can also repair damaged ends. The terminal adenosine ribose carries the aminoacyl ester; initial attachment can use the 2′-OH or 3′-OH.\n\n---\n\n## Summary of Key Concepts\n\nThe genetic code and tRNA represent a beautifully integrated system for information transfer:\n\n- The **genetic code** maps 64 codons to 20 amino acids and 3 stop signals; it is degenerate, non-overlapping, comma-free, unambiguous, and nearly universal\n- **Degeneracy** is concentrated at the third codon position and buffers against the mutational effects of synonymous substitutions\n- **tRNA** molecules have a cloverleaf secondary structure and L-shaped tertiary structure, with the acceptor stem (amino acid attachment at CCA-3') and anticodon loop as the two functional ends\n- **Aminoacyl-tRNA synthetases** charge tRNAs with their correct amino acids in a two-step, ATP-dependent reaction; their specificity constitutes the \"second genetic code\"\n- The **wobble hypothesis** explains how fewer than 61 tRNA species can decode all 61 sense codons through relaxed base-pairing rules at the third codon position (first anticodon position), particularly involving inosine\n- Codon-anticodon pairing is **antiparallel**, and wobble pairing allows G:U, U:G, and I:U/C/A interactions at the third codon position\n\nMastery of these concepts will allow you to analyze mutations, understand antibiotic mechanisms, interpret experimental data involving cell-free translation systems, and reason about the evolutionary origins of life—all common MCAT contexts for this material."
+    },
+    {
+      "field": "questions.191.question_text",
+      "value": "A substitution changes UUA to UUG without changing splicing or the reading frame. Under the standard code, both specify leucine. Which property explains the unchanged amino-acid sequence?"
+    },
+    {
+      "field": "questions.192.correct_answer",
+      "value": "A"
+    },
+    {
+      "field": "questions.192.explanation",
+      "value": "The amino acid physically attached to the accepted tRNA is incorporated (A). Its anticodon determines which codon it pairs with, and therefore where that amino acid is placed; it does not change the attached amino acid into the one normally specified by the codon. This distinction explains why charging fidelity matters."
+    },
+    {
+      "field": "questions.192.question_text",
+      "value": "A mischarged tRNA pairs correctly with an mRNA codon, passes selection and participates in peptide-bond formation. What determines the identity of the amino acid actually incorporated in that step?"
+    },
+    {
+      "field": "questions.194.explanation",
+      "value": "Under the stated conditions, a release factor recognizes UAG and terminates translation early (B). The result is a shortened polypeptide. This is not a frameshift. Specialized suppressor tRNAs or recoding can change this outcome, but ordinary wobble alone does not override termination here."
+    },
+    {
+      "field": "questions.194.question_text",
+      "value": "In a cell-free translation reaction using the standard code, a sense codon inside an open reading frame is replaced with UAG. The RNA remains available, and no suppressor tRNA or special readthrough mechanism is present. What is the expected direct translation outcome?"
+    },
+    {
+      "field": "questions.195.choice_a",
+      "value": "Mitochondrial translation uses a distinct local set of ribosomes, tRNAs and decoding factors"
+    },
+    {
+      "field": "questions.195.explanation",
+      "value": "Separate mitochondrial and cytosolic decoding systems permit different codon assignments (A). Mitochondria still depend heavily on imported nuclear-encoded proteins. Human mitochondrial DNA is double-stranded. Nuclear-encoded mitochondrial proteins are translated with the cytosolic code and imported, whereas the mitochondrial genome’s protein products are translated locally."
+    },
+    {
+      "field": "questions.195.question_text",
+      "value": "Human mitochondria decode UGA as tryptophan, whereas ordinary cytosolic translation treats UGA as stop. Which feature allows these different assignments to coexist in the same cell?"
+    }
+  ]
+}

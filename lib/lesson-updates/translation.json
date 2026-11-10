@@ -1,0 +1,245 @@
+{
+  "lessonId": 40,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    196,
+    197,
+    198,
+    199,
+    200
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26829/",
+      "title": "From RNA to Protein: ribosomal translation"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4501431/",
+      "title": "Structure of the human mitochondrial ribosome"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4234590/",
+      "title": "Ribosome profiling reveals context-specific macrolide inhibition"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=83a84897-ccca-42a1-ab1a-bbf1d43a982b&type=display",
+      "title": "Linezolid prescribing information: 23S/50S target"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi",
+      "title": "NCBI genetic code assignments and initiation exceptions"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21111/",
+      "title": "Synthesis and Processing of the Proteome"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3581429/",
+      "title": "Initiation-factor rearrangements and phosphate release at start-codon recognition"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15479734/",
+      "title": "ATF4 translational regulation during integrated stress response"
+    }
+  ],
+  "visual": {
+    "src": "/lesson-diagrams/translation.svg",
+    "alt": "Three panels track peptidyl-tRNA through peptide transfer, translocation and release, with the ribosome moving toward the mRNA three-prime end and energy costs separated.",
+    "caption": "Peptide transfer moves the chain P→A; translocation moves the peptidyl-tRNA A→P. Release hydrolyzes the remaining tRNA ester.",
+    "title": "Track the chain through translation",
+    "width": 800,
+    "height": 740
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "bfee30750648a0b5c9105a6511b6c732ccadc572953485b55f4dee7b97b2ab29"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "83f9b48617add73408b12f8b56880aeb44e7076c3ca806800a4a49e61b96a6c6"
+    },
+    {
+      "field": "questions.196.question_text",
+      "sha256": "9d8899f257d5b4b8f0aaa29b992fa43b25aae61c8144fc37c10f0cfe2650bfe8"
+    },
+    {
+      "field": "questions.196.choice_a",
+      "sha256": "e8e5dc3883e66753d6d99456c5cc10ac10f06f8836e7fd45f040b8b5febf05f7"
+    },
+    {
+      "field": "questions.196.choice_b",
+      "sha256": "7246d891334f4c3e9eccac1e79a599e443fb10ba6f0ef0e19a61d6f25285f173"
+    },
+    {
+      "field": "questions.196.choice_c",
+      "sha256": "647a7f376fb68bdbfc2c04926cce95f87e87f826de537a6818bea2affd4c0fae"
+    },
+    {
+      "field": "questions.196.choice_d",
+      "sha256": "19656c6fc16a0ad2c7edd07fce5a6c0378990d0914f66de5ce760a09effc4eed"
+    },
+    {
+      "field": "questions.196.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.196.explanation",
+      "sha256": "5c74e31938aa481679289a1f6a84056f7b90175c96de2e158d33467d06167a17"
+    },
+    {
+      "field": "questions.197.question_text",
+      "sha256": "56d3b661e7c97b347771163076ba82d319a603be6939f7138794185fedc6ed30"
+    },
+    {
+      "field": "questions.197.choice_a",
+      "sha256": "46d44e7c9267850b0c55409328a06f6100a9ad8229b062aafce5114391af40aa"
+    },
+    {
+      "field": "questions.197.choice_b",
+      "sha256": "059ef673857c79df7ba13ffe0c3cae5575774cedb21375cc96c34e48d797e236"
+    },
+    {
+      "field": "questions.197.choice_c",
+      "sha256": "fb27a18872cb75477125329ada8c2fe6bed592bbe18d05ad1cbbcc7b6dd6da02"
+    },
+    {
+      "field": "questions.197.choice_d",
+      "sha256": "deea836cd2d3701afadd1a6512f9319ef704b2d8624384615454f03b5d570cad"
+    },
+    {
+      "field": "questions.197.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.197.explanation",
+      "sha256": "909cb4a94adc828266d9e2e69904ae3fa3adf8e9893946d1b796d07dec7eb9be"
+    },
+    {
+      "field": "questions.198.question_text",
+      "sha256": "211a99110a11673afd1946a019e4e992f5f5a755eeb530b134166d5b8e068148"
+    },
+    {
+      "field": "questions.198.choice_a",
+      "sha256": "f8f8f9e0b0bb8905173f0b0e805d538451d3b11b53d37f8b2b98e14438847328"
+    },
+    {
+      "field": "questions.198.choice_b",
+      "sha256": "e75152243e67b5dbc6bf93513df9d40e6df0e0fb4f49269ad5ac3c5b32f6ffd1"
+    },
+    {
+      "field": "questions.198.choice_c",
+      "sha256": "141ba4ced6b89779e360843ead5981f9b2f76cb5bb6f628783c9d2dbd9e80ca0"
+    },
+    {
+      "field": "questions.198.choice_d",
+      "sha256": "869b5bf17bdf9aa680dff1ab3f997ae98c925fa143d817087c97e8f8fb123f6a"
+    },
+    {
+      "field": "questions.198.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.198.explanation",
+      "sha256": "87c7954231c1e9c61da23a2bfbad77f810c68dc5eaddb1dfecab77ac3db5d00b"
+    },
+    {
+      "field": "questions.199.question_text",
+      "sha256": "4f411bd80c4cd9fb481996c367e8e83e92afd32888743512c5e49c91375d0203"
+    },
+    {
+      "field": "questions.199.choice_a",
+      "sha256": "8f224f878f3ca36429c19f8ec07f898959e71eea0b0985d59952732413c84d2a"
+    },
+    {
+      "field": "questions.199.choice_b",
+      "sha256": "effee1c680442d8fe1819f105cb3b8cb48749eda1fbf2dc62231bf4675735ebe"
+    },
+    {
+      "field": "questions.199.choice_c",
+      "sha256": "8215cfd9f3a6d57f9d7d69e0fd031dd5ed11b5fce4fb421a374ec31d4a95654e"
+    },
+    {
+      "field": "questions.199.choice_d",
+      "sha256": "34db4d7c097e99bbdb0dadc9bbdf7e4f5f677c5d57c16a1fbf488fab9a5ae3f2"
+    },
+    {
+      "field": "questions.199.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.199.explanation",
+      "sha256": "d69ee8b59cfbefdf5bd8f0c2af44f53be67986f12c622bc5ee9a0a22a747fcaa"
+    },
+    {
+      "field": "questions.200.question_text",
+      "sha256": "0b85b2918284a96a8b310ea51a7ba7a194a741c505917660a87952191b497531"
+    },
+    {
+      "field": "questions.200.choice_a",
+      "sha256": "13689659af17e77aab161b3f8d3a91b3ee1ad843048c63b845d8df46aea475cc"
+    },
+    {
+      "field": "questions.200.choice_b",
+      "sha256": "5f581ef97351547eb9c4e0b9c9f5b58314fb9da9a3940b70d2865df6d9a6bb03"
+    },
+    {
+      "field": "questions.200.choice_c",
+      "sha256": "6daf2cd7b2e3f24fac07ff3dfc1372c42923ec64721407e4586edbb66aafd8b4"
+    },
+    {
+      "field": "questions.200.choice_d",
+      "sha256": "d32331ec0aa7d4748974e0fe74a526be60c580bdcc4ca941a81b7a9c8b72e5d2"
+    },
+    {
+      "field": "questions.200.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.200.explanation",
+      "sha256": "8c62e292e3fcb20a14a9e7a58d3bf02da4dbae0a0abc2faffc524ec5a4e14c23"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Translation: Ribosome Function and Protein Synthesis\n\nTranslation is the process by which the nucleotide sequence of an mRNA molecule is decoded to produce a specific sequence of amino acids, ultimately forming a functional protein. For the MCAT, translation is one of the most heavily tested molecular biology topics, and understanding it requires more than memorizing steps — you need to understand the *mechanistic logic* behind each phase, the structural differences between prokaryotic and eukaryotic ribosomes, and how GTP-driven conformational changes power the entire process.\n\n---\n\n## Ribosome Structure: Prokaryotic vs. Eukaryotic\n\nThe ribosome is a large ribonucleoprotein complex — meaning it is composed of both RNA and protein. The catalytic activity of the ribosome resides primarily in its RNA components (ribosomal RNA, or rRNA), making the ribosome a **ribozyme**. This is a critical MCAT concept: the peptidyl transferase activity that forms peptide bonds is carried out by rRNA, not by ribosomal proteins.\n\n### Bacterial Ribosomes (70S)\n\nBacterial ribosomes have a sedimentation coefficient of **70S** (Svedberg units, which are not additive because they depend on shape and density as well as mass). The 70S ribosome is composed of two subunits:\n\n- **Large subunit (50S):** Contains 23S rRNA, 5S rRNA, and approximately 31 proteins. The **peptidyl transferase center (PTC)** is located here.\n- **Small subunit (30S):** Contains 16S rRNA and approximately 21 proteins. The **Shine-Dalgarno sequence** on mRNA base-pairs with the 3' end of 16S rRNA during initiation.\n\nThree tRNA-binding sites span the ribosomal subunits, with anticodons on the small subunit and acceptor ends on the large subunit: the **A site** (aminoacyl site), the **P site** (peptidyl site), and the **E site** (exit site). These sites are where tRNA molecules bind and move during elongation.\n\n### Eukaryotic Ribosomes (80S)\n\nTypical animal cytosolic ribosomes sediment at **80S**; organellar ribosomes differ. They consist of:\n\n- **Large subunit (60S):** Contains 28S rRNA, 5.8S rRNA, 5S rRNA, and approximately 49 proteins.\n- **Small subunit (40S):** Contains 18S rRNA and approximately 33 proteins.\n\nThe eukaryotic small subunit uses the **Kozak sequence** (consensus: GCC(A/G)CCAUGG) surrounding the start codon for initiation, rather than the Shine-Dalgarno sequence. 18S rRNA contributes to decoding in the small subunit, but the Kozak context is not a Shine–Dalgarno-like sequence that simply base-pairs with 18S rRNA.\n\n### Mitochondrial and Chloroplast Ribosomes\n\nHuman **mitoribosomes** sediment at about **55S**, with 28S and 39S subunits. These coefficients are not simple physical-size or mass measurements. Human mitoribosomes have reduced rRNA and extensive added protein compared with bacterial ribosomes. Chloroplast ribosomes are generally bacterial-type 70S. Similarities at antibiotic-binding sites can allow some bacterial translation inhibitors to affect mitochondrial translation; this depends on the drug and ribosome, not the S value alone.\n\n### Antibiotic Targets — A High-Yield Summary\n\nUnderstanding ribosome structure has direct pharmacological relevance:\n\n- **Aminoglycosides** (e.g., streptomycin): Bind 30S subunit, cause misreading of mRNA\n- **Tetracyclines:** Block A-site of 30S, prevent aminoacyl-tRNA entry\n- **Chloramphenicol:** Inhibits peptidyl transferase activity of 50S\n- **Macrolides** (e.g., erythromycin): Bind in the bacterial 50S nascent-peptide exit tunnel and cause context-dependent elongation arrest. They are not simply a universal plug that stops every peptide at the same length.\n- **Linezolid:** Binds 23S rRNA in the 50S subunit and inhibits formation of a functional 70S initiation complex.\n- **Cycloheximide:** Inhibits 80S (eukaryotic) elongation — used experimentally, not therapeutically\n\n---\n\n## The Genetic Code and tRNA\n\nBefore diving into the phases of translation, it is essential to understand how mRNA codons are read. The **genetic code** is a triplet code — each codon consists of three consecutive nucleotides and specifies one amino acid (or a stop signal). Key properties of the genetic code:\n\n- **Degenerate (redundant):** Most amino acids are encoded by more than one codon. For example, leucine has 6 codons, while methionine and tryptophan each have only 1.\n- **Unambiguous:** Each codon specifies only one amino acid.\n- **Non-overlapping:** Codons are read sequentially without overlap.\n- **Universal:** With minor exceptions (e.g., mitochondria), the same code is used across virtually all life.\n\nAUG is the usual start codon. Bacteria can use alternative starts such as GUG/UUG while inserting initiator fMet; archaea and the eukaryotic cytosol use unformylated initiator methionine. Internal AUG specifies methionine. Under ordinary standard-code termination, the three **stop codons** are UAA, UAG, and UGA — remember these as \"UAA = U Are Away,\" or simply memorize all three.\n\n**Transfer RNA (tRNA)** molecules are the physical adaptors that match codons to amino acids. Each tRNA has:\n\n- An **anticodon loop** that base-pairs with the mRNA codon (antiparallel, 3' to 5')\n- A **3' CCA tail** where the cognate amino acid is attached by an aminoacyl-tRNA synthetase\n- A characteristic L-shaped three-dimensional structure stabilized by modified bases and base pairing within the molecule\n\n**Aminoacyl-tRNA synthetases** are the enzymes that \"charge\" tRNAs by attaching the correct amino acid. A common model has one synthetase specificity per standard amino acid, but some organisms use indirect aminoacylation pathways rather than 20 distinct enzymes. Standard direct charging uses ATP cleavage (ATP → AMP + PPi) to form the aminoacyl-tRNA bond. The subsequent hydrolysis of pyrophosphate (PPi → 2 Pi) by pyrophosphatase strongly favors net charging under cellular conditions. These enzymes carry out the true \"decoding\" step — they must correctly recognize both the amino acid and its cognate tRNA.\n\n**Wobble base pairing** occurs at the third position of the codon (5' position of the anticodon). This flexibility allows a single tRNA to recognize multiple codons that differ only at the third position, reducing the number of distinct tRNA molecules needed.\n\n---\n\n## Translation Initiation\n\nInitiation is the most regulated phase of translation and differs significantly between prokaryotes and eukaryotes.\n\n### Bacterial Initiation\n\nThe standard bacterial initiation model uses three **initiation factors**: IF-1, IF-2, and IF-3.\n\n1. **IF-3** binds the free 30S subunit and prevents premature association with the 50S subunit.\n2. In a common bacterial initiation pathway, the **Shine-Dalgarno sequence** — a purine-rich sequence on the mRNA located approximately 5–10 nucleotides upstream (5') of the AUG start codon — base-pairs with a complementary sequence at the 3' end of the 16S rRNA. This helps position the start codon in the P site. Some bacterial mRNAs initiate without a canonical Shine–Dalgarno sequence.\n3. **IF-2** (a GTPase) brings the initiator tRNA, **fMet-tRNA^fMet**, to the P site. Note that in prokaryotes, the initiator tRNA goes directly to the P site, not the A site.\n4. **IF-1** occupies the A site to prevent any other tRNA from entering during initiation.\n5. The **50S subunit** joins the complex, triggering GTP hydrolysis by IF-2. Factor rearrangements and release, coupled to subunit joining and IF-2 activity, produce the **70S initiation complex** with fMet-tRNA^fMet in the P site and an empty A site.\n\nIF-2 GTP turnover supports bacterial initiation; charging the initiator tRNA has a separate ATP cost.\n\n### Eukaryotic Initiation\n\nCanonical cap-dependent initiation in the eukaryotic cytosol uses many initiation factors, GTP turnover by eIF2 and eIF5B, and ATP-dependent RNA remodeling. Alternative initiation routes also exist.\n\nKey steps:\n\n1. **eIF-2** (a GTPase) bound to GTP recruits the initiator **Met-tRNA^Met_i** to form a ternary complex. This complex, along with other eIFs, assembles on the 40S subunit to form the **43S pre-initiation complex**.\n2. The **5' cap** (7-methylguanosine cap) of the mRNA is recognized by **eIF-4E** (the cap-binding protein), which is part of the **eIF-4F** complex (also containing eIF-4G and eIF-4A, an ATP-dependent helicase that unwinds secondary structure in the 5' UTR).\n3. The 43S complex is recruited to the 5' end of the mRNA and **scans** in the 5' → 3' direction to select an initiation codon, usually AUG in a favorable context. A weak-context AUG can be bypassed (leaky scanning); not every initiating AUG exactly matches the consensus.\n4. Start-codon recognition stabilizes initiator tRNA in the P site and couples the eIF2 GTPase cycle to factor release. In the well-studied yeast pathway, GTP can already be hydrolyzed during scanning, with phosphate release gated by start recognition. Hydrolysis and phosphate release are distinct events.\n5. **eIF-5B** (another GTPase) facilitates joining of the **60S subunit**, with its GTP hydrolysis driving the release of remaining initiation factors and forming the **80S initiation complex**.\n\nAn important regulatory mechanism: **eIF-2 recycling** requires the guanine nucleotide exchange factor **eIF-2B** to exchange GDP for GTP. When cells are under stress (e.g., viral infection, amino acid deprivation, ER stress), kinases such as **PKR, GCN2, PERK, and HRI** phosphorylate eIF-2α, converting eIF-2 into a competitive inhibitor of eIF-2B. This usually reduces bulk initiation while increasing translation of selected stress-response messages such as ATF4 through upstream-ORF regulation. It does not suppress every mRNA equally.\n\n---\n\n## Translation Elongation\n\nElongation is the phase during which amino acids are added one at a time to the growing polypeptide chain. Each cycle of elongation consists of three steps: **aminoacyl-tRNA delivery, peptide bond formation, and translocation**. Each complete cycle adds one amino acid and requires **2 GTP molecules** (one per elongation factor).\n\n### Step 1: Aminoacyl-tRNA Delivery (A-site Entry)\n\nThe **elongation factor EF-Tu** (in bacteria) or **eEF-1A** (in eukaryotes) forms a ternary complex with GTP and an aminoacyl-tRNA. This complex delivers the aminoacyl-tRNA to the **A site** of the ribosome.\n\n- When the anticodon of the incoming tRNA correctly base-pairs with the mRNA codon in the A site, a conformational change in the ribosome is induced — this is called **induced fit** or **decoding**.\n- Correct codon-anticodon pairing triggers **GTP hydrolysis by EF-Tu**, causing EF-Tu to release the aminoacyl-tRNA and dissociate from the ribosome.\n- The aminoacyl-tRNA then fully accommodates into the A site, positioning its 3' CCA end in the peptidyl transferase center of the 50S subunit.\n- **EF-Tu-GDP** is recycled back to EF-Tu-GTP by the guanine nucleotide exchange factor **EF-Ts** in bacteria; eEF1A is recycled by **eEF1B** in the eukaryotic cytosol.\n\nThe GTP hydrolysis step serves as a **proofreading mechanism**: incorrect tRNAs are rejected after GTP hydrolysis but before full accommodation, providing kinetic discrimination that improves translational fidelity beyond what Watson-Crick base pairing alone could achieve.\n\n### Step 2: Peptide Bond Formation\n\nWith a peptidyl-tRNA in the P site and an aminoacyl-tRNA in the A site, the **peptidyl transferase center (PTC)** catalyzes peptide bond formation. This is a **nucleophilic attack** by the α-amino group of the A-site amino acid on the **carbonyl carbon** of the ester bond linking the peptide chain to the P-site tRNA.\n\nThe result:\n- The growing peptide chain is transferred to the A-site tRNA (the chain is now one amino acid longer).\n- The P-site tRNA becomes **deacylated** (uncharged).\n- The ribosome now has a deacylated tRNA in the P site and a peptidyl-tRNA in the A site.\n\nCritically, this reaction is **catalyzed by the 23S rRNA** (in prokaryotes) or **28S rRNA** (in eukaryotes) — this is the ribozyme activity of the ribosome. The rRNA positions the substrates and may participate in proton transfer. The active center is predominantly rRNA, while proteins and tRNA functional groups support the geometry and reaction environment. This is why the ribosome is described as an RNA-based catalyst, not an RNA-only machine. This reaction does *not* require additional energy input from GTP or ATP — the activated peptidyl-tRNA ester is consumed as the chain transfers to the A-site amino group. No extra ATP or GTP is hydrolyzed by the bond-forming step itself.\n\n### Step 3: Translocation\n\nAfter peptide bond formation, the ribosome must move exactly one codon (3 nucleotides) in the 5' → 3' direction along the mRNA. This is called **translocation** and is driven by **EF-G-GTP** (prokaryotes) or **eEF-2-GTP** (eukaryotes).\n\n- **EF-G** (a GTPase) binds the ribosome and, upon GTP hydrolysis, drives a large-scale conformational change.\n- The deacylated tRNA moves from the P site to the **E site** (exit site).\n- The peptidyl-tRNA moves from the A site to the P site.\n- Relative to the mRNA, the ribosome advances one codon toward the mRNA 3′ end; relative to the ribosome, the mRNA shifts in the opposite direction.\n- The A site is now empty and ready for the next aminoacyl-tRNA.\n- The deacylated tRNA is released from the E site.\n\nThis movement is sometimes described in two stages: **pre-translocation state** (peptidyl-tRNA in A site, deacylated in P site) and **post-translocation state** (peptidyl-tRNA in P site, empty A site). EF-G-GTP binding promotes the transition from pre- to post-translocation.\n\n### Elongation Rate and Energy Cost\n\nRapidly growing bacteria can elongate at roughly 15–20 residues per second, but rates depend on organism, temperature, message and conditions. Animal cytosolic rates are often lower. In the idealized elongation cycle, the energy bookkeeping is:\n\n- **2 ATP equivalents** for aminoacyl-tRNA charging (ATP → AMP + PPi, then PPi → 2 Pi)\n- **2 GTP** for elongation (1 for EF-Tu/eEF-1A during decoding, 1 for EF-G/eEF-2 during translocation)\n\nThis gives an idealized cost of **four high-energy phosphate bonds per elongation-added residue**, including its charging. Initiation, termination, recycling and rejected substrates add costs, so this is not an exact total for a whole protein. When combined with initiation (which also uses GTP), translation is energetically expensive — this is why cells tightly regulate translation.\n\n---\n\n## Translation Termination\n\nTermination occurs when one of the three **stop codons** (UAA, UAG, UGA) enters the A site. In ordinary termination, release factors recognize stop codons. Specialized recoding and suppressor tRNAs can override a stop in particular contexts; these are exceptions to this termination model.\n\n### Bacterial Termination\n\n- **RF-1** recognizes UAA and UAG.\n- **RF-2** recognizes UAA and UGA.\n- **RF-3** is a GTPase that stimulates the activity of RF-1 and RF-2 and facilitates their release after termination.\n\nWhen RF-1 or RF-2 binds the A site at a stop codon, they stimulate the peptidyl transferase center to catalyze **hydrolysis** of the ester bond between the peptide chain and the P-site tRNA. This releases the completed polypeptide. RF-3-GTP then promotes dissociation of RF-1 or RF-2.\n\n### Eukaryotic Termination\n\nCanonical eukaryotic cytosolic termination uses **eRF1 and eRF3**, alongside other recycling and quality-control machinery:\n\n- **eRF-1** recognizes all three stop codons (UAA, UAG, UGA) — a single factor handles what two factors do in prokaryotes.\n- **eRF-3** is a GTPase that works with eRF-1 to stimulate polypeptide release.\n\n### Ribosome Recycling\n\nAfter termination, the ribosome must be disassembled so its components can be reused. In bacteria, **ribosome recycling factor (RRF)** works with EF-G and IF-3 to dissociate the 70S ribosome, release the mRNA, and recycle the tRNA and subunits. In eukaryotes, **ABCE1** (an ATPase) and other factors carry out analogous functions.\n\n---\n\n## Polyribosomes and Translational Efficiency\n\nA single mRNA molecule is typically translated by multiple ribosomes simultaneously. This structure is called a **polyribosome** or **polysome**. As one ribosome moves along the mRNA, another can initiate at the 5' end, allowing many copies of the protein to be produced from a single mRNA in a short time. Polysomes are visible by electron microscopy as beaded structures along an mRNA strand.\n\nIn many animal mRNAs, PABP–eIF4G interactions link tail-associated proteins to cap-associated initiation machinery and can enhance translation. The closed-loop model describes these interactions; a stable circle is not obligatory for every translating message.\n\n---\n\n## Post-Translational Considerations\n\nWhile technically beyond translation itself, the MCAT often connects translation to immediate post-translational events:\n\n- **ER targeting:** Many secreted and membrane proteins have an N-terminal signal peptide or an internal signal-anchor recognized by SRP. SRP can slow elongation while directing the ribosome to the ER translocon. Not all membrane proteins use a cleaved N-terminal signal, and some targeting routes act after translation.\n- **Protein folding:** Many proteins require **molecular chaperones** (e.g., Hsp70, Hsp90) to fold correctly. Some chaperones bind nascent polypeptides as they emerge from the ribosomal exit tunnel.\n- **Proteolytic cleavage:** Many proteins are synthesized as inactive precursors (**zymogens** or **proproteins**) that require cleavage to become active (e.g., insulin, digestive enzymes).\n\n---\n\n## Connecting Translation to the Central Dogma\n\nTranslation is the final step of the **central dogma**: DNA → RNA → Protein. Key connections to keep in mind for the MCAT:\n\n- **Bacterial transcription and translation can be coupled.** Animal nuclear transcription is separated from cytoplasmic translation; mitochondrial gene expression is a distinct system.\n- **Animal nuclear mRNA maturation** usually precedes cytoplasmic translation. Not every transcript is spliced or polyadenylated, and some initiation routes are cap-independent.\n- **Regulation of translation** can occur at the level of initiation (most common), elongation, or mRNA stability. In animals, miRNA-loaded Argonaute complexes commonly bind 3′-UTR sites and promote translational repression and/or mRNA decay; sites can also occur elsewhere.\n\n---\n\n## Summary of Key Comparisons\n\nThe following distinctions are frequently tested:\n\n**Ribosome size:**\n- Prokaryotes: 70S (50S + 30S)\n- Eukaryotes: 80S (60S + 40S)\n- Human mitochondria: 55S; mitochondrial ribosomes vary among organisms\n\n**Initiator tRNA and start amino acid:**\n- Bacteria: initiator tRNA carries fMet; archaea use unformylated Met\n- Eukaryotes: tRNA^Met_i, carries methionine\n\n**Start codon recognition:**\n- Many bacteria: Shine–Dalgarno pairing helps position the start; SD-independent pathways exist\n- Typical animal cap-dependent initiation: small-subunit complex scans and selects a start in context\n\n**Elongation factors:**\n- Prokaryotes: EF-Tu (decoding, GTPase), EF-Ts (GEF for EF-Tu), EF-G (translocation, GTPase)\n- Eukaryotes: eEF-1A (decoding, GTPase), eEF-1B (GEF), eEF-2 (translocation, GTPase)\n\n**Release factors:**\n- Prokaryotes: RF-1 (UAA, UAG), RF-2 (UAA, UGA), RF-3 (GTPase)\n- Eukaryotes: eRF-1 (all three stop codons), eRF-3 (GTPase)\n\n---\n\n## High-Yield MCAT Points\n\n- The ribosome is a ribozyme — **rRNA catalyzes peptide bond formation**, not ribosomal proteins.\n- **GTP, not ATP**, powers elongation factor function and translocation.\n- Each amino acid costs **4 high-energy phosphate bonds** during elongation.\n- **eIF2α phosphorylation** generally lowers bulk initiation but can enhance selected stress-response proteins such as ATF4.\n- **Prokaryotic initiation** places the initiator tRNA directly in the P site; **eukaryotic initiation** involves cap-dependent scanning.\n- Antibiotics exploit the structural differences between 70S and 80S ribosomes — know which drugs target which subunit and what step they inhibit.\n- **Diphtheria toxin** and **Pseudomonas exotoxin A** ADP-ribosylate **eEF-2**, irreversibly inhibiting eukaryotic translocation — a classic MCAT toxin mechanism.\n- **Ricin** removes a specific adenine from 28S rRNA, inactivating the 60S subunit and halting translation.\n\n---\n\nTranslation is a molecular machine of remarkable precision and efficiency. Every step — from the initial assembly of the initiation complex to the final hydrolysis of the peptide-tRNA bond — is driven by specific molecular interactions, GTP-dependent conformational changes, and the catalytic power of RNA. Mastering the mechanistic details of translation, particularly the structural differences between prokaryotic and eukaryotic systems and the roles of GTPase elongation factors, will position you to handle any translation question the MCAT presents."
+    },
+    {
+      "field": "questions.196.choice_b",
+      "value": "Release of aminoacyl-tRNA from EF-Tu and its full accommodation into the A site"
+    },
+    {
+      "field": "questions.196.explanation",
+      "value": "EF-Tu GTP turnover enables factor rearrangement, release and full tRNA accommodation (B). Initial delivery can occur in the stated experiment. Peptide transfer itself does not directly hydrolyze GTP, and the mutation does not directly target initiation or recycling factors."
+    },
+    {
+      "field": "questions.196.question_text",
+      "value": "In a bacterial cell-free elongation assay, an EF-Tu mutant binds GTP and aminoacyl-tRNA and reaches the ribosome but cannot complete GTP hydrolysis. Which listed step is most directly impaired?"
+    },
+    {
+      "field": "questions.197.choice_c",
+      "value": "Codon decoding and aminoacyl-tRNA selection"
+    },
+    {
+      "field": "questions.197.explanation",
+      "value": "The small-subunit decoding center checks codon–anticodon pairing, so disrupting it directly affects tRNA selection (C). Peptide transfer occurs in the large-subunit center. The experiment specifies cytosolic selectivity; it does not establish safety for mitochondrial translation or whole cells."
+    },
+    {
+      "field": "questions.197.question_text",
+      "value": "A drug binds the bacterial 30S decoding center but has no affinity for the animal cytosolic 40S subunit in a cell-free comparison. Which process is most directly affected in the bacterial system?"
+    },
+    {
+      "field": "questions.198.explanation",
+      "value": "EF-G couples GTP turnover to bacterial translocation (B). The ribosome advances one codon toward the mRNA 3′ end. Relative to the ribosome, the mRNA shifts in the opposite direction, carrying the former A-site codon into the P site. Peptidyl-tRNA moves A→P and deacylated tRNA P→E. EF-Tu instead supports aminoacyl-tRNA selection."
+    },
+    {
+      "field": "questions.200.explanation",
+      "value": "Without RF1/RF2, normal stop-dependent hydrolysis of the P-site peptidyl-tRNA ester fails, leaving the chain tethered (C). Release factors stimulate the ribosomal catalytic center rather than acting as a separate protease. Cellular rescue pathways can sometimes resolve stalled complexes, but they are excluded here."
+    },
+    {
+      "field": "questions.200.question_text",
+      "value": "In a bacterial cell-free reaction lacking both RF1 and RF2 and any rescue pathway, a stop codon reaches the A site. Which immediate consequence is expected?"
+    }
+  ]
+}

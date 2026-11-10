@@ -1,0 +1,257 @@
+{
+  "lessonId": 25,
+  "reviewedAt": "2026-11-08",
+  "questionIds": [
+    121,
+    122,
+    123,
+    124,
+    125
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+      "title": "The mitochondrion: central metabolic pathways"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK544346/",
+      "title": "Gluconeogenesis substrates and odd-chain fatty acids"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7275779/",
+      "title": "Human dihydrolipoamide dehydrogenase structure and catalytic centers"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3486978/",
+      "title": "PDK regulation by fuels and hormonal signals"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9651365/",
+      "title": "Pyruvate dehydrogenase phosphatase isoenzymes"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK571223/",
+      "title": "GeneReviews: primary pyruvate dehydrogenase deficiency"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+      "title": "NIH ODS: thiamin deficiency"
+    }
+  ],
+  "visual": {
+    "title": "Pyruvate oxidation: separate carbon flow and electron flow",
+    "src": "/lesson-diagrams/pyruvate-oxidation.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "Each three-carbon pyruvate loses one carbon as CO2 and contributes a two-carbon acetyl group to CoA. E1 uses TPP, E2 uses a lipoyl arm and CoA, and E3 transfers electrons through a disulfide and FAD to NAD. PDK inhibits E1 by phosphorylation; PDP removes phosphate.",
+    "caption": "Amounts are per pyruvate. CoA and NAD⁺ are cosubstrates; TPP, lipoyl groups and FAD are regenerated within the complex."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "82bc590305a4fe8a6726af59620fe36ce84c18eff49f23eedaff904f7428f0ae"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "192d8dc0fa47988cb71c4eceec0c4432237294fe008a400b6422e3efe83107b8"
+    },
+    {
+      "field": "questions.121.question_text",
+      "sha256": "355d1fcb08831e5f8be179e6a8de149b03fb417a7095c44f2d781936632db304"
+    },
+    {
+      "field": "questions.121.choice_a",
+      "sha256": "0b15d93a2f2b8d69b9e5ce194929cb782431545b5784520780e5568fe85adec2"
+    },
+    {
+      "field": "questions.121.choice_b",
+      "sha256": "30befc20f49473f84057411778e4d2149d4a5e283f6ea78b4da598b94820a3d7"
+    },
+    {
+      "field": "questions.121.choice_c",
+      "sha256": "31a2b442453b5f6e01e9211aa3b56d6bafb826c84d3dfeff3d430ac6da817d25"
+    },
+    {
+      "field": "questions.121.choice_d",
+      "sha256": "7d6b8f3f60a2154ea2d8435423df0d582484385477e996c44bdeb51072841a33"
+    },
+    {
+      "field": "questions.121.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.121.explanation",
+      "sha256": "271dc752ba0753ed6d08ec3f2d774f0fd6bf75da3f7984cec6294e31bfa23bf7"
+    },
+    {
+      "field": "questions.122.question_text",
+      "sha256": "0744dbf9260921e9f24ac24c63a515b44cee0eb1402e6868bfcd37207e06fc23"
+    },
+    {
+      "field": "questions.122.choice_a",
+      "sha256": "160fc8fc5839577b6c7cbab4b14ffd6469766b4161109bbda012cd051a0ee3eb"
+    },
+    {
+      "field": "questions.122.choice_b",
+      "sha256": "18b2c7293d30e3b2ac72fffe20866cc3772010874675a972a5810d4627107602"
+    },
+    {
+      "field": "questions.122.choice_c",
+      "sha256": "a49a4e7525459f89f3165e644652de9f55e9531d74b6cafa6095d70c20f2e8cc"
+    },
+    {
+      "field": "questions.122.choice_d",
+      "sha256": "c4eb7edd3cd16468d77039172eaec66ac3e5da8e30c58adc7bdc651a1be1a110"
+    },
+    {
+      "field": "questions.122.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.122.explanation",
+      "sha256": "4b342fb01287e9c4abdb66dc6fc703ebf5f0f65216f9fa5042a6acc7c753fcd3"
+    },
+    {
+      "field": "questions.123.question_text",
+      "sha256": "61c3724454edcc85aec6b48497ae7b8634ae20b20e18bb080bc57becf13ae28f"
+    },
+    {
+      "field": "questions.123.choice_a",
+      "sha256": "f39f7a20bf5bc63e44805764681351cf19f6a35b5d1f283610a1317819898286"
+    },
+    {
+      "field": "questions.123.choice_b",
+      "sha256": "31cefd76d7c9c3707535b7570ce34939ee24927f4f5d610f8989c1a3eed86fd0"
+    },
+    {
+      "field": "questions.123.choice_c",
+      "sha256": "447ce89cd955e1a4d9c343f148e8e5fd769b1add926769871319ace82a504084"
+    },
+    {
+      "field": "questions.123.choice_d",
+      "sha256": "46c4c5cb48322ae25596f21a64dd6fab9c403b8a1c2d27d87c1fdbce15148e68"
+    },
+    {
+      "field": "questions.123.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.123.explanation",
+      "sha256": "a82a61b36d4808b6f08c37ef1776bb4b259fe77bbc8e07da6a3b0b4e82948789"
+    },
+    {
+      "field": "questions.124.question_text",
+      "sha256": "9c07eb550c08fcd5dd759b6aa672ea7789b1aa8dd7011c2e8120468ddd0cd149"
+    },
+    {
+      "field": "questions.124.choice_a",
+      "sha256": "454580e574da487a3e54da61111c1485237fe642ca2bc9e7b0b3f18f1abaa109"
+    },
+    {
+      "field": "questions.124.choice_b",
+      "sha256": "99c7e966f45568756b3c4a5a87932f0ad7ef43bd3ce4b675ac592e207e6120a8"
+    },
+    {
+      "field": "questions.124.choice_c",
+      "sha256": "bc79694ed31b249aea8df1e3e7fdc522806101875e9eba7d14b554400f5b827a"
+    },
+    {
+      "field": "questions.124.choice_d",
+      "sha256": "48448cfbef2513e4a7fcb1556090c9cdd675a2f939355207a2de6878d37440b6"
+    },
+    {
+      "field": "questions.124.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.124.explanation",
+      "sha256": "5a15f3127dec664183a317a6f4d6cd4d75665140dd992f5f241504b5c0ba2558"
+    },
+    {
+      "field": "questions.125.question_text",
+      "sha256": "fdca10b43cad63f92b912e481b56f581362399bfc6a8516c281664da4843aa6a"
+    },
+    {
+      "field": "questions.125.choice_a",
+      "sha256": "1ba1f69dc07ce869ffa9cdaf6af893209fba8b0e2acc90d865e940caa9ea912c"
+    },
+    {
+      "field": "questions.125.choice_b",
+      "sha256": "7a9b037afa8b812a87bee04214211559fdb755791c24d38115c7943be89510dc"
+    },
+    {
+      "field": "questions.125.choice_c",
+      "sha256": "757b9a9120d10789b9466dd9bffe9ef642015d31f5abdcba110c2c0967f32b50"
+    },
+    {
+      "field": "questions.125.choice_d",
+      "sha256": "3cee4d9386cdf3c2b2b62c72a30a9563340b1b6efebe38bd2af5ae6b68efe0ea"
+    },
+    {
+      "field": "questions.125.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.125.explanation",
+      "sha256": "c9506bba6f92a872ad7cc1f51ce9116951b17a385298faeb3a13e81c41dbf721"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Pyruvate Oxidation and Acetyl-CoA Formation\n\nGlycolysis converts glucose into two molecules of pyruvate in the cytoplasm, yielding a modest return of 2 ATP and 2 NADH. Pyruvate has several metabolic fates. Its conversion to acetyl-CoA links glycolysis to oxidative metabolism and biosynthesis. The bridge between these two central pathways is a single, irreversible reaction catalyzed by the **pyruvate dehydrogenase complex (PDC)**: the oxidative decarboxylation of pyruvate to acetyl-CoA. This step is far more than a simple conversion; it is a committed, regulated, thermodynamically irreversible gateway that helps control pyruvate entry into acetyl-CoA metabolism; acetyl-CoA may support oxidation, lipid synthesis or other pathways. Understanding the PDC — its structure, cofactors, mechanism, and regulation — is essential for the MCAT and for understanding metabolic integration broadly.\n\n---\n\n## Location and Overview of the Reaction\n\nPyruvate is produced in the cytoplasm. Before it can be oxidized by the PDC, it must be transported across the inner mitochondrial membrane into the **mitochondrial matrix**, where the PDC resides. This transport is mediated by the **mitochondrial pyruvate carrier (MPC)**, a symporter that co-transports pyruvate with a proton down the proton gradient.\n\nOnce in the matrix, pyruvate undergoes oxidative decarboxylation according to the following overall reaction:\n\n**Pyruvate + CoA + NAD⁺ → Acetyl-CoA + CO₂ + NADH**\n\nThe ΔG°' for this reaction is approximately **−33.4 kJ/mol**, making it highly exergonic and physiologically irreversible. This irreversibility has profound metabolic consequences: animals cannot convert acetyl-CoA back into pyruvate, and therefore cannot perform net gluconeogenesis from acetyl-CoA. This explains why even-chain fatty-acid acetyl units do not provide net glucose through the conventional human TCA/gluconeogenic pathways. Odd-chain fatty acids supply glucogenic propionyl-CoA, and the glycerol portion of stored triacylglycerol can also supply glucose — a fact with direct MCAT relevance.\n\nThe three products to memorize:\n- One molecule of **acetyl-CoA** (two carbons)\n- One molecule of **CO₂** (the carboxyl carbon of pyruvate is lost)\n- One molecule of **NADH** (from reduction of NAD⁺)\n\n---\n\n## The Pyruvate Dehydrogenase Complex: Architecture\n\nThe PDC is one of the largest and most elaborate enzyme complexes in the cell. In mammals, it has a molecular weight exceeding **9 million daltons** — larger than a ribosome. It is not a single enzyme but rather a **multienzyme complex** consisting of three catalytic enzymes and multiple copies of each, organized around a central core.\n\n### The Three Catalytic Components\n\n**E1 — Pyruvate Dehydrogenase component** (distinct from the standalone pyruvate decarboxylase of alcoholic fermentation)\n- Catalyzes the decarboxylation of pyruvate and the subsequent reductive acetylation of the lipoamide cofactor on E2\n- Requires **thiamine pyrophosphate (TPP)** as a tightly bound cofactor\n- E1 is the target of inhibitory phosphorylation; overall flux also depends on other components, products and substrates\n\n**E2 — Dihydrolipoyl Acetyltransferase**\n- Transfers the acetyl group from the reduced lipoamide to CoA, forming acetyl-CoA\n- Contains covalently attached **lipoic acid (lipoamide)** — a flexible \"swinging arm\" that physically shuttles intermediates among E1, E2 and E3 active sites\n- Forms the structural core of the entire complex\n\n**E3 — Dihydrolipoyl Dehydrogenase**\n- Reoxidizes the reduced lipoamide (dihydrolipoamide) back to its oxidized form, enabling another catalytic cycle\n- Transfers electrons to **FAD** (its prosthetic group), then to **NAD⁺**, generating NADH\n- E3 is shared with two other α-ketoacid dehydrogenase complexes: α-ketoglutarate dehydrogenase and branched-chain α-ketoacid dehydrogenase\n\n### The Five Cofactors\n\nThe PDC requires **five cofactors**, each with a distinct chemical role. Memorizing these is a high-yield MCAT task because deficiencies in the vitamins that generate them cause recognizable clinical syndromes.\n\n| Cofactor | Vitamin Precursor | Enzyme | Role |\n|---|---|---|---|\n| Thiamine pyrophosphate (TPP) | Thiamine (B1) | E1 | Decarboxylation of pyruvate; stabilizes carbanion intermediate |\n| Lipoic acid (lipoamide) | None (synthesized de novo) | E2 | Swinging arm; accepts and transfers acetyl group |\n| Coenzyme A (CoA) | Pantothenic acid (B5) | E2 | Accepts acetyl group to form acetyl-CoA |\n| FAD | Riboflavin (B2) | E3 | Accepts electrons from dihydrolipoamide |\n| NAD⁺ | Niacin (B3) | E3 | Final electron acceptor; becomes NADH |\n\nA useful mnemonic: **\"The Lovely Couple Frequently Naps\"** — TPP, Lipoic acid, CoA, FAD, NAD⁺.\n\n---\n\n## Mechanism: Step-by-Step\n\nUnderstanding the mechanism conceptually (rather than memorizing every bond) is the level of detail the MCAT expects. The reaction proceeds in five coordinated steps, with the lipoyl arm coordinating acetyl-group transfer and redox regeneration; not every substrate is carried on that arm.\n\n### Step 1: Decarboxylation by E1 (TPP-dependent)\n\nPyruvate enters the E1 active site and binds to the **thiazolium ring** of TPP. The carbon-2 of TPP acts as a nucleophile (it forms a carbanion readily due to the adjacent positively charged nitrogen). This carbanion attacks the carbonyl carbon of pyruvate, forming a covalent adduct. The C–C bond between the carboxyl group and the carbonyl carbon then breaks, releasing **CO₂**. What remains is a **hydroxyethyl-TPP** intermediate (also called **2-α-hydroxyethylidene-TPP**), in which the two-carbon unit is covalently attached to TPP in a reduced, electron-rich form.\n\n### Step 2: Oxidative Transfer to Lipoamide (E1 → E2)\n\nThe hydroxyethyl group is transferred from TPP to the **oxidized lipoamide** arm of E2. During this transfer, the hydroxyethyl group is *oxidized* to an acetyl group, and the disulfide bond of lipoamide is *reduced* — one sulfur receives the acetyl group (forming a thioester), and the other sulfur is reduced to a thiol. The result is **acetyl-lipoamide** (S-acetyldihydrolipoamide). This step simultaneously regenerates free TPP on E1 and creates a high-energy thioester bond on E2.\n\n### Step 3: Acetyl Transfer to CoA (E2)\n\nThe **acetyltransferase** activity of E2 catalyzes the transfer of the acetyl group from the thioester on lipoamide to the thiol group of **coenzyme A**. This produces **acetyl-CoA** and leaves the lipoamide fully reduced (both sulfur atoms are now free thiols — this is **dihydrolipoamide**). Acetyl-CoA is released into the matrix to enter the citric acid cycle.\n\n### Step 4: Reoxidation of Lipoamide by E3 (FAD-dependent)\n\nThe dihydrolipoamide arm swings to the active site of **E3 (dihydrolipoyl dehydrogenase)**. E3 contains a tightly bound **FAD** cofactor. Electrons pass from dihydrolipoamide through E3’s catalytic disulfide to FAD. This restores oxidized lipoamide and reduces the enzyme-bound flavin; FADH₂ is not released as a separate product.\n\n### Step 5: Electron Transfer to NAD⁺ (E3)\n\nFADH₂ on E3 immediately transfers its electrons to **NAD⁺**, reducing it to **NADH**. This step regenerates the oxidized FAD on E3, allowing E3 to accept electrons from the next reduced lipoamide. The NADH produced here will enter the electron transport chain, ultimately yielding approximately **2.5 ATP** (using the modern P/O ratio).\n\nThe elegance of this system is that the lipoamide arm physically moves between three enzyme active sites, preventing the release of potentially toxic or reactive intermediates and channeling the substrate with extraordinary efficiency.\n\n---\n\n## Irreversibility and the Committed Step Concept\n\nThe PDC reaction strongly favors acetyl-CoA formation under usual cellular conditions. Its overall oxidation/decarboxylation is energetically favorable while some energy is conserved in NADH and the acetyl-CoA thioester. Formation of a high-transfer-potential thioester is not itself an energy-releasing explanation. Actual ΔG depends on concentrations as well as the standard value.\n\nBecause this step is irreversible, it serves as a **metabolic commitment**: once pyruvate is converted to acetyl-CoA, the carbon cannot return to the gluconeogenic pathway. This is why:\n\n1. **Even-chain fatty acids do not supply net glucose carbon through these pathways**, but their oxidation supplies ATP and reducing power that can fuel gluconeogenesis. Odd-chain propionyl-CoA and triacylglycerol glycerol are glucogenic. Net carbon contribution and energetic support are different questions.\n\n2. **Alcoholic ketoacidosis and starvation ketosis** both involve acetyl-CoA accumulation that cannot be diverted to glucose.\n\n3. **Pyruvate carboxylase** provides an alternative fate for pyruvate — converting it to oxaloacetate for gluconeogenesis — but this competes with PDC activity. The balance between these two enzymes determines whether pyruvate is oxidized or used for glucose synthesis.\n\nThis irreversibility also means that the PDC is a logical site for tight regulation.\n\n---\n\n## Regulation of the Pyruvate Dehydrogenase Complex\n\nThe PDC is regulated by both **allosteric mechanisms** and **covalent modification (phosphorylation/dephosphorylation)**. This dual control allows the cell to respond rapidly to immediate energy status and to sustain long-term metabolic adjustments.\n\n### Products, substrates and regulatory enzymes\n\nAcetyl-CoA and NADH inhibit PDC through product effects and can favor PDK activity via the state of lipoyl groups. CoA and NAD⁺ are substrates, not simply allosteric activators. Pyruvate and ADP can inhibit PDK; high ATP/ADP and reduced/acetylated lipoyl states tend to favor phosphorylation and reduced PDC flux. These responses differ among PDK isoforms. Calcium can stimulate calcium-sensitive PDP1, especially important in muscle; this is distinct from binding directly to the E1 catalytic site.\n\n### Covalent Regulation: Phosphorylation by PDC Kinase and Dephosphorylation by PDC Phosphatase\n\nThis is the most important regulatory mechanism for the MCAT. The E1 subunit contains specific serine residues that can be phosphorylated by **pyruvate dehydrogenase kinase (PDK)**, which *inactivates* the complex. Dephosphorylation by **pyruvate dehydrogenase phosphatase (PDP)** *reactivates* it.\n\n**PDC Kinase (phosphorylates E1 → INACTIVATES PDC):**\n- Favored by high ATP/ADP and reduced/acetylated lipoyl states associated with high NADH and acetyl-CoA\n- Pyruvate and ADP can inhibit PDK; product/substrate ratios and isoform affect the response\n- Note: pyruvate itself inhibits PDK, so high pyruvate keeps PDC active — a feedforward activation\n\n**PDC Phosphatase (dephosphorylates E1 → ACTIVATES PDC):**\n- PDP1 is calcium-sensitive; PDP2 has different calcium regulation.\n- Insulin can favor PDC activation in particular tissues; do not infer universal direct inhibition of PDP by NADH or acetyl-CoA.\n\n**Insulin's role** is clinically significant: insulin can promote PDC activity in a tissue-dependent manner, including effects on dephosphorylation and PDK expression. This accelerates pyruvate oxidation and acetyl-CoA production, steering glucose toward complete oxidation and fatty acid synthesis in the fed state. This is one mechanism by which insulin promotes anabolic metabolism.\n\n**Calcium's role** is especially important in muscle contraction: Ca²⁺ released during muscle activation simultaneously triggers contraction and activates PDC (via PDC phosphatase), ensuring that ATP production ramps up when mechanical work increases.\n\n### Summary Table: PDC Regulation\n\n| Signal | Effect on PDK | Effect on PDP | Net Effect on PDC |\n|---|---|---|---|\n| High NADH/NAD⁺ | Can favor PDK via reduced lipoyl groups | Not a universal direct effect | Favors lower flux |\n| High acetyl-CoA/CoA | Can favor PDK via acetylated lipoyl groups | Not a universal direct effect | Favors lower flux |\n| High ATP | Activates PDK | — | Inhibits PDC |\n| High pyruvate | Inhibits PDK | — | Activates PDC |\n| Ca²⁺ | Do not assume a universal direct response | Activates calcium-sensitive PDP1 | Can activate PDC |\n| Insulin | Can reduce PDK expression | Activation is tissue-dependent | Often promotes pyruvate oxidation |\n| High NAD⁺/CoA | Inhibits PDK | — | Activates PDC |\n\n---\n\n## Clinical Correlations: Vitamin Deficiencies and PDC Dysfunction\n\nVitamin availability and defects in cofactor synthesis can affect PDC, but the five cofactors do not correspond to five equivalent dietary-deficiency syndromes. The MCAT frequently tests these connections.\n\n### Thiamine (Vitamin B1) Deficiency — Beriberi and Wernicke-Korsakoff Syndrome\n\nThiamine is the precursor to **TPP**, the cofactor for E1. Without TPP, the PDC cannot decarboxylate pyruvate. Pyruvate may accumulate and be reduced to lactate, contributing to **lactic acidosis**, and cells cannot generate adequate acetyl-CoA for the citric acid cycle.\n\n- **Dry beriberi**: peripheral neuropathy (nervous tissue is highly dependent on glucose oxidation)\n- **Wet beriberi**: cardiac failure with edema\n- **Wernicke-Korsakoff syndrome**: associated with severe thiamine deficiency from several causes, including alcohol use disorder; Wernicke's encephalopathy (confusion, ataxia, ophthalmoplegia) progresses to Korsakoff's psychosis (anterograde amnesia, confabulation) if untreated\n\nThe brain is particularly vulnerable because brain energy metabolism normally relies strongly on glucose but can also use ketones and other substrates, and without functional PDC, they cannot generate sufficient ATP.\n\nTPP is also required by **α-ketoglutarate dehydrogenase** (in the citric acid cycle) and **transketolase** (in the pentose phosphate pathway), so thiamine deficiency has broad metabolic consequences.\n\n### Niacin (Vitamin B3) Deficiency — Pellagra\n\nNiacin is the precursor to **NAD⁺**. Deficiency impairs all NAD⁺-dependent reactions, including the E3 step of PDC. Pellagra presents with the classic \"4 Ds\": **Dermatitis, Diarrhea, Dementia, and Death**.\n\n### Riboflavin (Vitamin B2) Deficiency\n\nRiboflavin is the precursor to **FAD**. Deficiency impairs E3 function and numerous other flavoprotein-dependent reactions. Clinical features include cheilosis (cracking at mouth corners), glossitis, and corneal vascularization — though isolated riboflavin deficiency is rare.\n\n### Pantothenic Acid (Vitamin B5) Deficiency\n\nPantothenic acid is required for **CoA** synthesis. Deficiency is extremely rare (pantothenic acid is found in virtually all foods) but would impair all CoA-dependent reactions, including PDC, fatty acid oxidation, and the citric acid cycle.\n\n### PDC Deficiency (Genetic)\n\nInherited deficiency of PDC components — most commonly E1α — causes **lactic acidosis** in neonates and young children, with neurological deterioration. Because acetyl-CoA production is impaired, the brain cannot generate adequate energy. Specialist-managed treatment can include a **ketogenic diet** to supply ketone-derived acetyl-CoA without PDC. Management depends on the genetic defect; thiamine helps some variants, and DLD deficiency requires distinct consideration. This is not a general diet recommendation.\n\n### Arsenic and Mercury Poisoning\n\nArsenic (as arsenite) and mercury (as mercuric ions) inhibit **lipoic acid** by binding to its dithiol groups. This poisons the PDC (and α-ketoglutarate dehydrogenase) by preventing the lipoamide swinging arm from functioning. The result is inhibition of the citric acid cycle and severe cellular energy failure.\n\n---\n\n## Integration with Other Metabolic Pathways\n\n### Connection to the Citric Acid Cycle\n\nAcetyl-CoA produced by PDC condenses with **oxaloacetate** in the first step of the citric acid cycle, catalyzed by **citrate synthase**. The cycle releases two CO₂ per turn in net balance, but newly entering acetyl carbons are not the CO₂ released in that first turn. The NADH produced by PDC feeds directly into the electron transport chain at **Complex I (NADH dehydrogenase)**, contributing to the proton gradient that drives ATP synthesis.\n\n### Connection to Fatty Acid Synthesis\n\nIn the fed state, when carbohydrate intake exceeds energy needs, acetyl-CoA is the building block for **de novo fatty acid synthesis**. However, fatty acid synthesis occurs in the cytoplasm, while acetyl-CoA is produced in the mitochondrial matrix. Acetyl-CoA cannot cross the inner mitochondrial membrane directly; instead, it is exported as **citrate** (via the citrate shuttle), cleaved back to acetyl-CoA by ATP-citrate lyase in the cytoplasm, and used by fatty acid synthase. The PDC thus indirectly fuels lipogenesis.\n\n### Connection to Amino Acid Metabolism\n\nSeveral amino acids are **glucogenic** (their carbon skeletons can enter gluconeogenesis via pyruvate or other citric acid cycle intermediates) or **ketogenic** (their skeletons yield acetyl-CoA or acetoacetate). Alanine, for example, is transaminated to pyruvate, which can then be oxidized by PDC to acetyl-CoA. This is one route by which amino acid catabolism feeds the citric acid cycle.\n\n### The Glucose-Fatty Acid (Randle) Cycle\n\nIn tissues like heart and skeletal muscle, **fatty acid oxidation inhibits PDC activity**. This occurs because fatty acid oxidation generates abundant acetyl-CoA and NADH, which activate PDC kinase, phosphorylating and inactivating PDC. This reciprocal relationship — fatty acids suppressing glucose oxidation and vice versa — is the basis of the **Randle cycle** (glucose-fatty acid cycle). In insulin resistance and type 2 diabetes, excessive fatty acid oxidation chronically suppresses glucose oxidation in muscle, contributing to hyperglycemia.\n\n---\n\n## Quantitative Yield and Energetic Significance\n\nFor each molecule of glucose oxidized:\n- Glycolysis produces **2 pyruvate**\n- PDC converts each pyruvate to acetyl-CoA, producing **2 NADH** and **2 CO₂** total\n- Each NADH from the mitochondrial matrix yields approximately **2.5 ATP** via oxidative phosphorylation\n- Therefore, PDC contributes **5 ATP equivalents** per glucose (from 2 NADH)\n\nThis is before the citric acid cycle even begins. The NADH from PDC alone represents a significant fraction of the total ATP yield from glucose oxidation (~30–32 ATP total under modern accounting).\n\nThe CO₂ released at this step accounts for 2 of the 6 carbons of glucose being lost before the citric acid cycle. The remaining four carbons enter as two acetyl groups and are ultimately oxidized over subsequent turns; the first-turn CO₂ comes from the pre-existing oxaloacetate skeleton.\n\n---\n\n## High-Yield MCAT Summary Points\n\n- **PDC location**: mitochondrial matrix; pyruvate must be transported in from cytoplasm\n- **Overall reaction**: Pyruvate + CoA + NAD⁺ → Acetyl-CoA + CO₂ + NADH\n- **Three enzymes**: E1 (pyruvate dehydrogenase, uses TPP), E2 (acetyltransferase, uses lipoic acid and CoA), E3 (dihydrolipoyl dehydrogenase, uses FAD and NAD⁺)\n- **Five cofactors**: TPP (B1), lipoic acid, CoA (B5), FAD (B2), NAD⁺ (B3)\n- **Irreversible**: ΔG°' = −33.4 kJ/mol; committed step linking glycolysis to citric acid cycle\n- **Regulation**: Inhibited by acetyl-CoA, NADH, ATP; regulated by substrate supply, PDK/PDP and tissue-specific calcium/hormonal signals; PDK inactivates (phosphorylates), PDP activates (dephosphorylates)\n- **Clinical**: Thiamine deficiency → pyruvate accumulation, lactic acidosis, Wernicke-Korsakoff; PDC deficiency → lactic acidosis in neonates, treated with ketogenic diet; arsenic poisons lipoic acid\n- **Cannot reverse**: Explains why acetyl-CoA from fatty acids cannot generate net glucose; odd-chain propionyl-CoA and triacylglycerol glycerol are important exceptions to a blanket “fat cannot make glucose” statement\n- **Energetic yield**: 2 NADH per glucose (≈5 ATP) from PDC alone\n\n---\n\n## Conclusion\n\nThe pyruvate dehydrogenase complex occupies a pivotal position in cellular metabolism. It is the irreversible gateway through which the products of glycolysis enter the mitochondrial oxidative machinery, a branch point supplying acetyl-CoA for oxidation and biosynthesis, and a finely tuned regulatory node that integrates signals about energy status, substrate availability, and hormonal state. Its five cofactors, three enzymes, and dual regulatory mechanisms (allosteric and covalent) reflect the metabolic importance of this single reaction. For the MCAT, mastering the PDC means understanding not just the chemistry of this one step, but how it connects glycolysis, the citric acid cycle, fatty acid metabolism, gluconeogenesis, and clinical nutritional disorders into a coherent metabolic whole."
+    },
+    {
+      "field": "questions.121.choice_a",
+      "value": "Failure to regenerate oxidized lipoamide, stalling repeated PDC turnover and favoring pyruvate accumulation."
+    },
+    {
+      "field": "questions.122.choice_b",
+      "value": "The complete oxidative decarboxylation has a strongly negative reaction ΔG under usual cellular conditions."
+    },
+    {
+      "field": "questions.122.explanation",
+      "value": "B is correct: overall reaction thermodynamics favor forward flux. CO₂ can be fixed in other reactions, so “carbon cannot be recaptured” is not the reason. PDC forms rather than hydrolyzes the acetyl-CoA thioester. TPP, lipoamide and FAD are regenerated internally; CoA and NAD⁺ are stoichiometric cosubstrates converted to acetyl-CoA and NADH. Acetyl-CoA activates, rather than inhibits, pyruvate carboxylase."
+    },
+    {
+      "field": "questions.123.explanation",
+      "value": "C is correct: E1 uses TPP to support pyruvate decarboxylation and transfer to the lipoyl group. The variant impairs enzyme function; it need not damage TPP itself. CoA is used at E2 and FAD/NAD⁺ at E3. E1 is not the standalone pyruvate decarboxylase used in alcoholic fermentation."
+    },
+    {
+      "field": "questions.123.question_text",
+      "value": "An E1 loss-of-function variant impairs pyruvate oxidation. Which cofactor normally participates directly in E1 catalysis?"
+    },
+    {
+      "field": "questions.124.choice_a",
+      "value": "PDC is inhibited when PDK phosphorylates and inactivates E1."
+    },
+    {
+      "field": "questions.124.explanation",
+      "value": "A is correct. High energy/product signals can favor PDK-dependent E1 phosphorylation, reducing PDC activity. PDP removes those phosphates. Exact responses depend on kinase/phosphatase isoforms, metabolites and tissue; low-energy signals should not be treated as universal direct E2 activators."
+    },
+    {
+      "field": "questions.125.choice_a",
+      "value": "All six carbons remain in the two acetyl groups; no CO₂ is released."
+    },
+    {
+      "field": "questions.125.choice_b",
+      "value": "Four carbons remain in two acetyl groups; two leave as CO₂, and two NAD⁺ are reduced to NADH."
+    },
+    {
+      "field": "questions.125.choice_c",
+      "value": "Two carbons remain in the acetyl groups; four leave as CO₂, with no NADH formed."
+    },
+    {
+      "field": "questions.125.choice_d",
+      "value": "All six carbons leave as CO₂ and no acetyl-CoA forms."
+    },
+    {
+      "field": "questions.125.explanation",
+      "value": "B is correct: each three-carbon pyruvate supplies a two-carbon acetyl group and one CO₂ while NAD⁺ is reduced. Count the pyruvate-derived acetyl carbons separately from the many carbons already present in CoA. Comparing average carbon oxidation states of whole pyruvate and acetyl-CoA would not answer this carbon-balance question."
+    },
+    {
+      "field": "questions.125.question_text",
+      "value": "Two pyruvate molecules undergo the PDC reaction. Considering only their six pyruvate-derived carbons, which product accounting is correct?"
+    }
+  ]
+}

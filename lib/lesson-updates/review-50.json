@@ -1,0 +1,210 @@
+{
+  "lessonId": 50,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Every cell in the human body sustains thousands of DNA lesions per day",
+      "new": "DNA-containing human cells can sustain many DNA lesions each day",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "The most common product is **O^6-methylguanine**",
+      "new": "An important mutagenic product is **O^6-methylguanine**; adduct proportions depend on the agent, and N7-guanine methylation is often more abundant",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "MutS, MutL, MutH (bacteria); MSH, MLH (humans)",
+      "new": "MutS, MutL, MutH (E. coli model); MSH, MLH (humans)",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9520609/"
+    },
+    {
+      "field": "content",
+      "old": "### Mechanism in Bacteria (Model System)",
+      "new": "### Methyl-directed MMR in E. coli (Model System)",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9520609/"
+    },
+    {
+      "field": "content",
+      "old": "The bacterial system is conceptually simpler and provides the framework for understanding the eukaryotic system.",
+      "new": "E. coli provides a useful model, but most bacteria lack the MutH/Dam methyl-directed mechanism described below.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9520609/"
+    },
+    {
+      "field": "content",
+      "old": "In bacteria, newly synthesized DNA is transiently unmethylated by **Dam methylase**",
+      "new": "In E. coli, newly synthesized DNA is initially unmethylated and is subsequently methylated by **Dam methylase**",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9520609/"
+    },
+    {
+      "field": "content",
+      "old": "Eukaryotes lack Dam methylation and MutH.",
+      "new": "Human MMR does not use E. coli-style Dam methylation/MutH strand discrimination.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9520609/"
+    },
+    {
+      "field": "content",
+      "old": "The clinical importance of NER is illustrated by **xeroderma pigmentosum (XP)**, an autosomal recessive disorder caused by mutations in any of seven genes (XPA through XPG).",
+      "new": "Most **xeroderma pigmentosum (XP)** complementation groups involve NER defects. XP-V instead involves biallelic POLH variants affecting translesion synthesis; XPA–XPG are historical complementation-group names, not a complete list of current gene symbols.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1397/"
+    },
+    {
+      "field": "content",
+      "old": "**Trichothiodystrophy (TTD)** is caused by mutations in XPB, XPD, or TTDA (subunits of TFIIH). Because TFIIH is also essential for transcription initiation, TTD patients display developmental defects beyond cancer predisposition.",
+      "new": "Photosensitive trichothiodystrophy can involve TFIIH subunits such as ERCC2/XPD, ERCC3/XPB or GTF2H5/TTDA. Other genetic forms are not photosensitive; TTD should not be described as exclusively a TFIIH disorder.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1397/"
+    },
+    {
+      "field": "content",
+      "old": "**Lynch syndrome** (hereditary nonpolyposis colorectal cancer, HNPCC) is the most common hereditary colorectal cancer syndrome, caused by germline mutations in **MLH1, MSH2, MSH6**, or **PMS2**. It follows an autosomal dominant pattern with high penetrance. Patients have a ~70–80% lifetime risk of colorectal cancer, and elevated risks of endometrial, ovarian, gastric, and urinary tract cancers. The tumors display high MSI (MSI-H). Importantly, MSI-H tumors respond well to **immune checkpoint inhibitors** (e.g., pembrolizumab), because the high mutational burden generates neoantigens that stimulate immune recognition — a direct clinical application of understanding MMR.",
+      "new": "**Lynch syndrome** involves inherited pathogenic variants in MLH1, MSH2, MSH6 or PMS2, or certain EPCAM deletions that silence MSH2. Cancer risks vary substantially by gene, sex, age and family history; a single 70–80% colorectal-risk figure is not valid for every carrier. Deficient-MMR/MSI-high status can guide checkpoint-inhibitor treatment in appropriate clinical settings, but does not guarantee a response.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1211/"
+    },
+    {
+      "field": "content",
+      "old": "The MRN complex (MRE11-RAD50-NBS1) and associated nucleases (CtIP, EXO1, BLM)",
+      "new": "The MRN complex (MRE11-RAD50-NBS1), CtIP and long-range resection machinery (including EXO1 or DNA2 with the BLM helicase)",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "**BRCA1 and BRCA2** are the most clinically important HR genes. Germline mutations in *BRCA1* or *BRCA2* confer dramatically elevated lifetime risks of breast cancer (~50–70% for *BRCA1*, ~45–65% for *BRCA2*) and ovarian cancer (~40–45% for *BRCA1*, ~15–20% for *BRCA2*). Both follow autosomal dominant inheritance with loss of heterozygosity (second-hit somatic mutation) in tumors — consistent with the **two-hit hypothesis** for tumor suppressor genes. BRCA-deficient tumors are selectively sensitive to **PARP inhibitors** (e.g., olaparib) because they rely on PARP-mediated single-strand break repair; blocking PARP in cells that cannot perform HR causes lethal DSB accumulation — a concept called **synthetic lethality**.",
+      "new": "Pathogenic BRCA1/BRCA2 variants increase susceptibility to several cancers; not every variant is harmful. Predisposition is inherited dominantly, while loss of remaining gene function commonly occurs in tumors. Risk estimates depend on gene and population. Some HR-deficient tumors are sensitive to PARP inhibitors through synthetic lethality involving disrupted repair, PARP trapping and replication-associated damage; resistance can emerge.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet"
+    },
+    {
+      "field": "content",
+      "old": "NHEJ is faster than HR but is *error-prone* — it can introduce small insertions or deletions at the junction.",
+      "new": "NHEJ can accurately rejoin compatible ends. Processing damaged or incompatible ends can introduce insertions or deletions; accuracy depends on the substrate.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "NHEJ is the mechanism exploited by CRISPR-Cas9 for gene disruption: the Cas9 nuclease creates a DSB, and error-prone NHEJ repair introduces frameshift mutations that knock out the gene.",
+      "new": "After a CRISPR-Cas9 break, end joining can produce indels that disrupt a gene, but repair may also be precise or in-frame. Cutting alone does not guarantee a knockout; the resulting genotype and function must be checked.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "energy from visible light (300–500 nm)",
+      "new": "energy from near-UV/blue light (approximately 300–500 nm)",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "humans rely entirely on NER to repair UV damage",
+      "new": "humans use NER to excise pyrimidine photoproducts; other UV-associated lesions, such as oxidized bases, can involve other repair pathways",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "**Pol η** (encoded by *XPV*) accurately inserts two adenines opposite a cyclobutane pyrimidine dimer",
+      "new": "**Pol η** (encoded by *POLH*, historically called *XPV*) can accurately insert two adenines opposite a thymine-thymine cyclobutane dimer",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/gene/5429/"
+    },
+    {
+      "field": "content",
+      "old": "Patients with mutations in *XPV*",
+      "new": "Patients with biallelic pathogenic variants in *POLH*",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/gene/5429/"
+    },
+    {
+      "field": "content",
+      "old": "which displays the same skin cancer phenotype as classical XP",
+      "new": "which also predisposes to UV-associated skin cancers",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1397/"
+    },
+    {
+      "field": "content",
+      "old": "**Insertions/deletions (indels):** Frameshift mutations from intercalating agents, polymerase slippage on microsatellites, or NHEJ.",
+      "new": "**Insertions/deletions (indels):** Changes arising from slippage, mutagens or repair; coding-region indels shift the reading frame only when their length is not divisible by three.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "**Tumor suppressor genes** encoding repair proteins follow the **two-hit model**: one allele is inactivated by germline mutation (in hereditary syndromes) or somatic mutation, and the second allele is inactivated by a somatic event (loss of heterozygosity, second mutation, or epigenetic silencing). Once both alleles are lost, repair capacity is abolished in that cell lineage.",
+      "new": "The two-hit model is important for many tumor-suppressor and repair genes: inherited or acquired loss of one allele can be followed by loss of the other through mutation, deletion or silencing. It is not universal, and loss of a gene does not abolish all DNA repair pathways. Dominant-negative effects, haploinsufficiency and pathway redundancy complicate this model.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet"
+    },
+    {
+      "field": "content",
+      "old": "**NHEJ:** Error-prone DSB repair in all phases",
+      "new": "**NHEJ:** Template-independent DSB repair that can be accurate or introduce indels",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "content",
+      "old": "Pol η bypasses CPDs accurately",
+      "new": "Pol η can bypass thymine-thymine CPDs relatively accurately",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/gene/5429/"
+    },
+    {
+      "field": "content",
+      "old": "XP genes A–G are the components.",
+      "new": "Most XP groups involve NER; XP-V involves POLH-mediated bypass.",
+      "reason": "Correct scope, mechanism or unsupported absolute claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1397/"
+    },
+    {
+      "field": "questions.246.question_text",
+      "old": "A researcher discovers a mutation in a gene encoding a glycosylase enzyme. Which DNA repair pathway would be most directly impaired, and what type of damage would accumulate?",
+      "new": "A loss-of-function variant eliminates the activity of a DNA glycosylase. Which repair pathway is most directly affected?",
+      "reason": "A generic mutation need not impair function.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    },
+    {
+      "field": "questions.247.question_text",
+      "old": "Xeroderma pigmentosum (XP) patients have extreme sensitivity to UV light and very high rates of skin cancer. Which molecular defect best explains this phenotype?",
+      "new": "In a patient with classical XP, cultured cells show deficient excision of UV-induced pyrimidine dimers. Which defect best explains this result?",
+      "reason": "Distinguish excision-deficient XP from XP-V.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1397/"
+    },
+    {
+      "field": "questions.247.explanation",
+      "old": "UV radiation primarily creates cyclobutane pyrimidine dimers and 6-4 photoproducts, bulky helix-distorting lesions removed by nucleotide excision repair. XP is caused by mutations in NER genes (XPA through XPG), leaving these lesions unrepaired and causing mutations that drive skin cancer. Mismatch repair defects cause microsatellite instability and colorectal cancer, not UV sensitivity. Base excision repair handles small, non-bulky lesions and is not the primary UV repair pathway.",
+      "new": "The observed failure to excise pyrimidine photoproducts points to nucleotide excision repair. Most XP groups involve this pathway. XP-V is a separate POLH-mediated lesion-bypass defect and can occur with intact NER, so the measured excision defect is important.",
+      "reason": "Keep XP exception consistent.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1397/"
+    },
+    {
+      "field": "questions.248.explanation",
+      "old": "During replication of repetitive microsatellite sequences, DNA polymerase frequently slips, creating insertion-deletion loops. MMR proteins MSH2 and MLH1 recognize and correct these loops. When MMR is defective, these errors persist, causing microsatellite sequences to vary in length between cells, a hallmark called microsatellite instability. MMR does not remove UV photoproducts; that is the role of NER. MMR is not involved in methylation or double-strand break signaling as its primary function.",
+      "new": "Replication slippage at repeated sequences creates insertion-deletion loops. MutS complexes containing MSH2 recognize these abnormalities, while MutL complexes containing MLH1 coordinate downstream repair. Deficiency lets repeat-length changes accumulate. MLH1 itself is not the primary mismatch-recognition protein.",
+      "reason": "Distinguish recognition and coordination.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9520609/"
+    },
+    {
+      "field": "questions.250.explanation",
+      "old": "BRCA1 facilitates homologous recombination, which is the high-fidelity pathway for repairing double-strand breaks using a sister chromatid as a template. When HR is impaired, DSBs are repaired by error-prone non-homologous end joining or left unrepaired, causing deletions, translocations, and loss of heterozygosity at tumor suppressor genes. These chromosomal instabilities can inactivate remaining tumor suppressor alleles or activate oncogenes, driving malignant transformation. BRCA1 mutations do not directly affect mismatch repair or base deamination pathways.",
+      "new": "HR impairment increases genome instability by preventing faithful repair of some double-strand breaks and replication-associated lesions. Breaks may persist or be processed by alternative pathways, producing rearrangements. NHEJ is not inevitably inaccurate; the outcome depends on end structure and processing. These changes can contribute to malignant transformation.",
+      "reason": "Avoid blanket NHEJ inaccuracy.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import { withQuestionTokens } from "@/lib/question-token";
 import Anthropic from "@anthropic-ai/sdk";
 import { sessionSettings, sections, allocateSections, parseQuestions } from "@/lib/practice";
 import { fresh, reserveQuestions } from "./rotation";
@@ -135,7 +136,7 @@ export async function POST(request: Request) {
   }
   const deficits = groups.map((g,i)=>({...g,count:g.count-saved[i].length})).filter(g=>g.count>0);
   function bankResponse() {
-    return Response.json({questions:bank,section:settings.section,source:"bank",exhausted:!bank.length});
+    return Response.json({questions:withQuestionTokens(bank),section:settings.section,source:"bank",exhausted:!bank.length});
   }
   if (!custom || bank.length >= settings.count || !deficits.length || ["guide","drills"].includes(settings.format)) return bankResponse();
   const apiKey = process.env.ANTHROPIC_API_KEY?.trim();
@@ -165,7 +166,7 @@ export async function POST(request: Request) {
     }));
     const generated = batches.flatMap((batch,i)=>fresh(batch,seen,deficits[i].count));
     const selected=[...bank,...generated].slice(0,settings.count);
-    return Response.json({questions:selected,section:settings.section,source:bank.length ? "blend" : "generated",exhausted:!selected.length});
+    return Response.json({questions:withQuestionTokens(selected),section:settings.section,source:bank.length ? "blend" : "generated",exhausted:!selected.length});
   } catch (error) {
     controller.abort();
     console.error("Practice generation failed", error instanceof Error ? error.name : "Unknown error");

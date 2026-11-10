@@ -1,0 +1,210 @@
+{
+  "lessonId": 11,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Full text and five quiz questions read. Targeted scientific review; source-specific corrections and explanatory diagrams are not an exhaustive certification. Claims about exam frequency are not independently verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "which is encoded by DNA and determines everything downstream",
+      "new": "which is specified by gene expression and strongly constrains structure; environment and processing also matter",
+      "reason": "Avoid sequence-only determinism.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "field": "content",
+      "old": "**binding site** or **active site** (in enzymes)",
+      "new": "**binding site**. An enzyme’s **active site** is its catalytic region; regulatory ligands may bind elsewhere",
+      "reason": "Not every enzyme binding site is active.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "Ligand binding is almost always reversible and driven by non-covalent forces:",
+      "new": "Many protein–ligand interactions are reversible and noncovalent; covalent ligands and inhibitors also exist. Common contributions include:",
+      "reason": "Avoid excluding covalent drugs.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "Typical bond energy: 1–5 kcal/mol each.",
+      "new": "Net binding contributions depend on geometry and interactions lost to solvent.",
+      "reason": "Do not count fixed Hbond energies.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "content",
+      "old": "Because binding is non-covalent, it is governed by **equilibrium thermodynamics**. The dissociation constant **K_d** describes binding affinity:",
+      "new": "For a reversible 1:1 interaction P + L ⇌ PL, the equilibrium dissociation constant **K_d** describes affinity using free P and free L concentrations:",
+      "reason": "Define model and freeconcentrations.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "This model is not tested explicitly on the MCAT, but understanding that proteins are dynamic—not rigid—is essential.",
+      "new": "Induced fit and conformational selection can both contribute; use the experimental context rather than treating either as universal.",
+      "reason": "Unsupported exclusion from exam removed.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "Enzymes are highly stereospecific. Most enzymes act exclusively on L-amino acids or D-sugars because the binding site is itself chiral—constructed from L-amino acids—and can only accommodate one enantiomer. A substrate's mirror image will not fit the binding site properly and will not be processed.",
+      "new": "Many enzymes discriminate strongly between stereoisomers because their binding sites are chiral. The preferred stereoisomer depends on the enzyme: enzymes acting on D-amino acids and on different sugar stereoisomers also exist. A mirror-image substrate may bind or react differently rather than being universally excluded.",
+      "reason": "Correct L-aminoacid/Dsugar universal.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "increasing K_d from ~10⁻⁶ M (primary response) to ~10⁻¹⁰ M or lower (secondary response)",
+      "new": "decreasing K_d as affinity improves; the magnitude varies with antibody and antigen",
+      "reason": "Correct backwards Kd direction.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5591402/"
+    },
+    {
+      "field": "content",
+      "old": "ΔG° = RT ln(K_d)",
+      "new": "ΔG°_binding = RT ln(K_d / c°), with standard concentration c° = 1 M",
+      "reason": "Log argument must be dimensionless.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "a K_d of 10⁻⁹ M corresponds to ΔG° ≈ –12 kcal/mol",
+      "new": "a K_d of 10⁻⁹ M corresponds to ΔG° ≈ –12.8 kcal/mol (using c° = 1 M)",
+      "reason": "Numerical calculation R .001987 times310 ln1e-9.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "Allosteric enzymes do *not* follow Michaelis-Menten kinetics. Their v vs. [S] plots are sigmoidal, not hyperbolic. The Hill equation is used instead:",
+      "new": "Some allosteric enzymes show sigmoidal substrate-response curves, while others do not. Allostery is communication between sites, not a requirement for a particular curve shape. For systems with cooperative responses, an empirical Hill equation can be useful:",
+      "reason": "Allostery is not identical to kinetic cooperativity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "**Sickle cell disease**: Val→Glu substitution",
+      "new": "**Sickle cell disease**: Glu→Val substitution",
+      "reason": "Mutation direction reversed.",
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/hbb/"
+    },
+    {
+      "field": "content",
+      "old": "The conformational effect is that met-Hb subunits lock remaining subunits in the T state, dramatically reducing O₂ affinity.",
+      "new": "Oxidized hemes reduce O₂-carrying capacity; the remaining ferrous hemes can have increased O₂ affinity, impairing unloading (left shift).",
+      "reason": "Correct methemoglobin affinity direction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK537317/"
+    },
+    {
+      "field": "content",
+      "old": "**Mixed (non-competitive) inhibitors** bind either free enzyme or enzyme–substrate complex at an allosteric site, reducing catalytic efficiency (lower V_max) without competing with substrate.",
+      "new": "**Mixed inhibitors** bind both free enzyme and enzyme–substrate complex with unequal affinities: apparent V_max decreases, while apparent K_m may increase or decrease. **Pure noncompetitive inhibition** is the equal-affinity special case with unchanged apparent K_m.",
+      "reason": "Separate mixed frompure noncompetitive.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "competitive inhibitors change the x-intercept (K_m) but not y-intercept (1/V_max); uncompetitive inhibitors shift both intercepts equally (parallel lines on double-reciprocal plot); non-competitive inhibitors change the y-intercept but not the x-intercept.",
+      "new": "competitive inhibitors change the x-intercept (−1/K_m) but not the y-intercept (1/V_max); uncompetitive inhibitors give parallel lines because apparent K_m and V_max decrease by the same factor; pure noncompetitive inhibitors change the y-intercept but not the x-intercept.",
+      "reason": "Correct reciprocal intercept and equalshift wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "This is a one-way conformational change.",
+      "new": "The peptide-bond cleavage is not reversed by simply removing the activating signal; subsequent conformational motions can still be reversible.",
+      "reason": "Proteolysis not irreversibleallmotions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "In the inactive state, the receptor is associated with a heterotrimeric G protein",
+      "new": "Depending on the system, the receptor may already associate with or recruit a heterotrimeric G protein",
+      "reason": "Not all receptors prebound.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "Free Gα-GTP activates downstream effectors (adenylyl cyclase, phospholipase C, etc.).",
+      "new": "Gα-GTP regulates subtype-specific effectors: Gs stimulates adenylyl cyclase, Gi inhibits it, and Gq stimulates phospholipase Cβ. Gβγ can also signal.",
+      "reason": "Avoid all Gproteins activateAC.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "nicotinic acetylcholine receptor** (nAChR) are pentameric proteins",
+      "new": "nicotinic acetylcholine receptors** (nAChRs) are pentameric proteins",
+      "reason": "Agreement and subtype framing.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "Binding of two acetylcholine molecules (one per α subunit) induces",
+      "new": "In the muscle-type receptor, binding of two acetylcholine molecules at α-subunit interfaces induces",
+      "reason": "Alpha7 hasfivealpha; specify muscle.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "which must be compensated by enthalpic gains",
+      "new": "which must be compensated by favorable contributions elsewhere, including enthalpy or solvent entropy",
+      "reason": "Not enthalpy-only compensation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "content",
+      "old": "**Ubiquitination** tags proteins for proteasomal degradation",
+      "new": "**Ubiquitination** can tag proteins for proteasomal degradation or regulate other processes, depending on the modification",
+      "reason": "Qualify linkage roles.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1276169/"
+    },
+    {
+      "field": "questions.52.question_text",
+      "old": "Hemoglobin exhibits sigmoidal oxygen binding kinetics, whereas myoglobin exhibits hyperbolic kinetics. A medical student claims this difference arises because hemoglobin has allosteric subunit communication while myoglobin does not. Which additional finding would most directly support this claim?",
+      "new": "Hemoglobin exhibits a sigmoidal equilibrium oxygen-binding curve, whereas myoglobin exhibits a hyperbolic curve. Which finding most directly supports a role for communication among hemoglobin subunits?",
+      "reason": "Binding equilibrium not kinetics.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "questions.52.explanation",
+      "old": "hyperbolic kinetics",
+      "new": "hyperbolic equilibrium binding",
+      "reason": "Correct equilibrium terminology.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "questions.54.question_text",
+      "old": "A signaling protein exists in two conformations: an inactive GDP-bound state and an active GTP-bound state. Mutation of a glycine residue in the GTPase domain to valine locks the protein in the active conformation. Which explanation best accounts for how this mutation constitutively activates the protein?",
+      "new": "A Ras protein with a Gly12→Val substitution remains predominantly in its active GTP-bound state. Which mechanism best explains this effect?",
+      "reason": "Name specific mutant rather thananygly.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8295990/"
+    },
+    {
+      "field": "questions.54.choice_b",
+      "old": "The bulkier valine side chain sterically prevents the conformational change required for GTP hydrolysis, trapping the active state.",
+      "new": "The substitution impairs intrinsic and GAP-stimulated GTP hydrolysis, prolonging the active GTP-bound state.",
+      "reason": "Mechanism supported forG12V.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8295990/"
+    },
+    {
+      "field": "questions.54.explanation",
+      "old": "Glycine is the smallest amino acid and often occupies positions requiring backbone flexibility or tight packing, such as the phosphate-binding loop in GTPases. Replacing glycine with the bulkier valine restricts the conformational flexibility needed for the catalytic water molecule to attack GTP, impairing hydrolysis and locking the protein in its GTP-bound active state. Choice A is incorrect because valine is a nonpolar aliphatic residue with no hydroxyl group; that description applies to serine or threonine.",
+      "new": "B is correct for Ras G12V: altered active-site geometry impairs GTP hydrolysis, including GAP-stimulated hydrolysis. This prolongs GTP occupancy; it does not mean every glycine-to-valine mutation blocks all motion. Valine has no hydroxyl group, and neither loss of protein expression nor permanent membrane binding explains the nucleotide-state switch.",
+      "reason": "Avoid overspecified unsupportedcatalyticwaterstory.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8295990/"
+    },
+    {
+      "field": "questions.53.choice_c",
+      "old": "Inhibitor binding induces a conformational change that alters both the geometry of the active site and the enzyme-substrate interaction energy.",
+      "new": "The inhibitor binds free enzyme and enzyme–substrate complex with unequal affinities and reduces catalytic turnover.",
+      "reason": "Identify mixed inhibition without equating Km and Kd.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.53.explanation",
+      "old": "A mixed allosteric inhibitor that changes both Vmax and Km does so by inducing a conformational change that propagates to the active site, affecting both the maximum catalytic rate and substrate binding affinity. This is a hallmark of allosteric regulation through conformational coupling between distant sites. Choice B is incorrect because competitive inhibitors only raise apparent Km without changing Vmax, and the question specifies the inhibitor does not compete with substrate.",
+      "new": "C describes the standard mixed-inhibition model: unequal binding to E and ES changes apparent Km while inhibition lowers apparent Vmax. Binding at a distant site can couple to catalysis and substrate interactions. However, Km is a kinetic parameter and is not generally identical to a substrate dissociation constant. Competitive inhibition leaves Vmax unchanged in the standard model.",
+      "reason": "Separate kinetic Km from thermodynamic binding affinity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    }
+  ]
+}

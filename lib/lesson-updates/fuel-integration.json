@@ -1,0 +1,249 @@
+{
+  "lessonId": 31,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    151,
+    152,
+    153,
+    154,
+    155
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+      "title": "Mitochondrial metabolism and carbon balance"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1527/",
+      "title": "GeneReviews: CPT1A deficiency and long-chain fuel entry"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3436514/",
+      "title": "Unsaturated fatty-acid oxidation auxiliary enzymes"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK544346/",
+      "title": "Gluconeogenic substrates and fasting"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC131051/",
+      "title": "Human threonine dehydrogenase is a pseudogene"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34350876/",
+      "title": "Starvation adaptation and nitrogen conservation"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3486978/",
+      "title": "PDC kinase regulation and metabolic state"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31891768/",
+      "title": "Physiological glucagon effects on human adipocytes"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1172380/",
+      "title": "Citrate-synthase regulation varies by enzyme source"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7674659/",
+      "title": "Brain cell fatty-acid metabolism"
+    },
+    {
+      "url": "https://medlineplus.gov/genetics/gene/g6pc1/",
+      "title": "G6PC1 expression in liver, kidney and intestine"
+    }
+  ],
+  "visual": {
+    "title": "Fuel integration: carbon supply is different from energy supply",
+    "src": "/lesson-diagrams/fuel-integration.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "Glucose supplies pyruvate, which can form acetyl-CoA or oxaloacetate. Even-chain fatty-acid acetyl units supply oxidation and ketones but no net glucose carbon. Glycerol enters at DHAP and odd-chain propionyl-CoA at succinyl-CoA. Amino acids enter at distinct points; leucine and lysine are purely ketogenic.",
+    "caption": "Long-chain fatty-acid entry uses the carnitine shuttle. Its oxidation can power gluconeogenesis without donating net glucose carbon."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "7330dc027a0b66d5ef88e25b807a55a9fe53daa9897779d444bbdf4909f380e9"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "1e0cb3c167fccad187b15108a34bd2b5e6fc94d7c3a95c975f83354f54ede91c"
+    },
+    {
+      "field": "questions.151.question_text",
+      "sha256": "9581d5aa1e77f9a9432b03102533a1147b3c0b1cb31554c5ef8d94ce8cee84b0"
+    },
+    {
+      "field": "questions.151.choice_a",
+      "sha256": "dcb03caf26b55a6f6543c924f008c43fcc781d818d62dfee6bfdc2012afb2b36"
+    },
+    {
+      "field": "questions.151.choice_b",
+      "sha256": "4d3a5d3ee4dca559d8d5e6904285758eedd60f69cde180ade1de7877e8d748cb"
+    },
+    {
+      "field": "questions.151.choice_c",
+      "sha256": "aadc6c7bc8379a48ef8de564f953703f013890a8d3bd41b632a5302c56f7e256"
+    },
+    {
+      "field": "questions.151.choice_d",
+      "sha256": "fb7b430b34a9acf59c42ea29a83e3e88ae0a94587a5d2537eaed8bafa43ef5bd"
+    },
+    {
+      "field": "questions.151.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.151.explanation",
+      "sha256": "219c975924c93926d96914e9f925db4a3e64467eb7cdef2b5a47ddcd08c1122a"
+    },
+    {
+      "field": "questions.152.question_text",
+      "sha256": "6e179986971eb90f517649fae19020ebb00c839bf4a3b1906adbca6cf71915b1"
+    },
+    {
+      "field": "questions.152.choice_a",
+      "sha256": "270e34ed76c822b696bebf43d82b770e53537340ce3abcaa1e0d5dbc46c39f5a"
+    },
+    {
+      "field": "questions.152.choice_b",
+      "sha256": "003b90cdbbfa79e3bc1582b661e6c57e6fc6c78a4cdc352319f7db19e636e62d"
+    },
+    {
+      "field": "questions.152.choice_c",
+      "sha256": "3c33c7641dc2027c9bf6aba453acc5e06f9e6bb6975dabdde977f2f3d9b3e29f"
+    },
+    {
+      "field": "questions.152.choice_d",
+      "sha256": "c8559187c209d68cc9e14f6d134daa52f52f99b1627abeea0d1fcc4f31f8b036"
+    },
+    {
+      "field": "questions.152.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.152.explanation",
+      "sha256": "d5a89397db46682cea35f613cc830b92dd7d85e16fd086973fc962ac8b176145"
+    },
+    {
+      "field": "questions.153.question_text",
+      "sha256": "2c2515625c0404456f18385af21ea49e26e2bba64ab307f3af46227554285254"
+    },
+    {
+      "field": "questions.153.choice_a",
+      "sha256": "d8df01fd3bcb199ab4dd7b1b91fc467008a93e268c261f4d3427ee1dd2bcd9d6"
+    },
+    {
+      "field": "questions.153.choice_b",
+      "sha256": "92081b0eeea1ce70909fee74fbfa32920be6325b19ab3287de721c3e42f2cead"
+    },
+    {
+      "field": "questions.153.choice_c",
+      "sha256": "92c748a7881aed4549c7806a6d58762a36283c515b71eebef0ff4af63e3d95bb"
+    },
+    {
+      "field": "questions.153.choice_d",
+      "sha256": "6d18268839f37665270521d9138e5a582724610fd8b71a17824050e7c30cdee6"
+    },
+    {
+      "field": "questions.153.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.153.explanation",
+      "sha256": "b49d1a3eec9700166428bb0ee64cbee65482c6e06923fc185a66ca83755d8be2"
+    },
+    {
+      "field": "questions.154.question_text",
+      "sha256": "ad0bcb1265a87243ba580ba13aaded6477fa183d2bd7b585a9a4ef09c3823205"
+    },
+    {
+      "field": "questions.154.choice_a",
+      "sha256": "37d8c624909d358727129c7139331bb9c27d6399ea004d110d17432913c84a4e"
+    },
+    {
+      "field": "questions.154.choice_b",
+      "sha256": "ddad70a36c0daa838738741048f37676e2791b44befd1af0c674f2ee6e4ecb4e"
+    },
+    {
+      "field": "questions.154.choice_c",
+      "sha256": "546f6c251a86b87be31b22d95772b30ed2d3e00e7be85b6291117454e537e0a6"
+    },
+    {
+      "field": "questions.154.choice_d",
+      "sha256": "20b7ba9782bdade36aedebf3fef3e6a2495c13865c095dabad896b69f7d85539"
+    },
+    {
+      "field": "questions.154.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.154.explanation",
+      "sha256": "9de69964ffdac1e39d737734ac0dc3798eeb423099099631dc3b33b6362c1b51"
+    },
+    {
+      "field": "questions.155.question_text",
+      "sha256": "256c679c89171ce7c6858f0c9e3f28850a7c70bae362b1917a5eb4bb70407390"
+    },
+    {
+      "field": "questions.155.choice_a",
+      "sha256": "03c231c3b2b1ed35e9f805db5558879f40c20d6d9940cdb1d4b803ffd419ecc1"
+    },
+    {
+      "field": "questions.155.choice_b",
+      "sha256": "55e910e608e99bfe7f4ef54cfa13129978b016c6794e6dfc96b38b7638d6a74a"
+    },
+    {
+      "field": "questions.155.choice_c",
+      "sha256": "f8a3967fada0d26c4df17291de84f65f4ed79cf2bf37d6167f366c8c09f6a92a"
+    },
+    {
+      "field": "questions.155.choice_d",
+      "sha256": "54f031ac2e23b42398e0ed528f4a37146d9705c2a2948721fa0eb8a8d2acd005"
+    },
+    {
+      "field": "questions.155.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.155.explanation",
+      "sha256": "58f5a18876ed8d36da3a784ce62a4a9821681874f45b2b5d462b11a3497f719a"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Integration of Carbohydrate, Fat, and Protein Catabolism\n\n### Overview and Why This Matters for the MCAT\n\nThe cell does not run on a single fuel. At any given moment, different tissues use different mixtures of fuels; carbon may support ATP production, storage or biosynthesis. Understanding how these three streams converge—and how the cell decides which stream to use—is one of the highest-yield conceptual areas on the MCAT. Questions rarely ask you to memorize an isolated pathway; they ask you to reason about what happens when a pathway is blocked, when a substrate is in excess, or when hormonal signals shift the metabolic landscape. This lesson builds the integrative framework you need to answer those questions confidently.\n\n---\n\n## The Central Hub: Acetyl-CoA and the Citric Acid Cycle\n\nMany fuels converge on oxidative metabolism through the following routes, although not every molecule is fully oxidized in every cell:\n\n- **Acetyl-CoA**, which condenses with oxaloacetate (OAA) to enter the citric acid cycle (TCA cycle)\n- **Anaplerotic intermediates**, which replenish the TCA cycle directly as four-, five-, or six-carbon compounds\n\nThink of the TCA cycle as a spinning turbine. Acetyl-CoA provides the two-carbon \"fuel\" that keeps the turbine loaded, while anaplerotic substrates maintain the structural components of the turbine itself (the organic acid intermediates: citrate, isocitrate, α-ketoglutarate, succinyl-CoA, succinate, fumarate, malate, and oxaloacetate). If either supply fails, the turbine slows.\n\nCarbohydrates feed both entry points. Glucose → pyruvate → **acetyl-CoA** via pyruvate dehydrogenase (PDH), and pyruvate can also be carboxylated to **oxaloacetate** by pyruvate carboxylase, directly replenishing the cycle. Fats feed almost exclusively as acetyl-CoA (with the exception of odd-chain fatty acids and the glycerol backbone). Amino acids are the most versatile, feeding both as acetyl-CoA and as multiple TCA intermediates depending on their carbon skeleton.\n\n---\n\n## Fatty Acid Beta-Oxidation: Feeding Acetyl-CoA\n\n### Activation and Transport\n\nFor the long-chain mitochondrial pathway considered here, fatty acids are activated to **acyl-CoA** at appropriate membrane-associated synthetases by **acyl-CoA synthetase** (also called fatty acyl-CoA ligase), consuming 2 ATP equivalents (ATP → AMP + PPi, and subsequent hydrolysis of PPi makes this effectively irreversible). The long-chain acyl group, not intact acyl-CoA, then crosses the inner membrane via the **carnitine shuttle**:\n\n- Acyl-CoA + carnitine → **acylcarnitine** (catalyzed by carnitine acyltransferase I, CPT-I, on the outer mitochondrial membrane)\n- Acylcarnitine crosses the inner membrane via a translocase\n- Carnitine acyltransferase II (CPT-II) regenerates acyl-CoA inside the matrix\n\nCPT-I is an important regulated entry step for long-chain mitochondrial fatty-acid oxidation; short/medium-chain substrates and peroxisomal oxidation differ. **Malonyl-CoA** (the first committed intermediate of fatty acid synthesis) inhibits CPT-I, creating a critical reciprocal switch: when the cell is synthesizing fat, it simultaneously blocks fat oxidation. This prevents a futile cycle and is a favorite MCAT concept.\n\n### The Beta-Oxidation Spiral\n\nOnce inside the mitochondria, the acyl-CoA undergoes four repeating reactions:\n\n1. **Oxidation** by FAD-dependent acyl-CoA dehydrogenase → trans-enoyl-CoA + FADH₂\n2. **Hydration** by enoyl-CoA hydratase → L-3-hydroxyacyl-CoA\n3. **Oxidation** by NAD⁺-dependent 3-hydroxyacyl-CoA dehydrogenase → 3-ketoacyl-CoA + NADH\n4. **Thiolysis** by thiolase → acetyl-CoA + shortened acyl-CoA (two carbons shorter)\n\nEach ordinary shortening round yields one NADH and one FAD-linked reducing equivalent (passed through ETF and ETF:Q oxidoreductase), plus an acetyl group. The last cleavage of a four-carbon chain yields **two acetyl-CoA**. Bound FADH₂ is not released. For a saturated even-chain fatty acid with *n* carbons, the spiral runs **n/2 − 1** times, releasing **n/2 acetyl-CoA** molecules total.\n\nFor **palmitate (C16)**, the math works out as follows:\n- 7 rounds of beta-oxidation → 7 FADH₂ + 7 NADH + 8 acetyl-CoA\n- Each acetyl-CoA through the TCA cycle yields ~10 ATP (3 NADH × 2.5 + 1 FADH₂ × 1.5 + 1 GTP)\n- 8 acetyl-CoA × 10 = 80 ATP from TCA\n- 7 NADH × 2.5 = 17.5 ATP\n- 7 FADH₂ × 1.5 = 10.5 ATP\n- Subtract 2 ATP for activation\n- **Net ≈ 106 ATP per palmitate** (using modern P/O ratios)\n\nThis enormous yield explains why fat is the body's preferred long-term energy storage molecule. By mass, fat stores more than twice the energy of glycogen.\n\n### Unsaturated and Odd-Chain Fatty Acids\n\n**Unsaturated fatty acids** require auxiliary reactions dictated by the intermediates reached during shortening. Enoyl-CoA isomerase converts cis-Δ3 enoyl-CoA to trans-Δ2 enoyl-CoA. Conjugated 2,4-dienoyl intermediates require NADPH-dependent 2,4-dienoyl-CoA reductase followed by isomerization. Do not assign the enzymes using the original lesson’s reversed odd/even rule. ATP yield depends on which dehydrogenation steps are bypassed and which reductase reactions consume NADPH.\n\n**Odd-chain fatty acids** (rare in humans, but common in ruminant-derived foods and a classic MCAT topic) produce acetyl-CoA during shortening and a final **propionyl-CoA** fragment. Propionyl-CoA is converted to succinyl-CoA in three steps:\n1. Propionyl-CoA carboxylase (biotin-dependent) → D-methylmalonyl-CoA\n2. Methylmalonyl-CoA racemase → L-methylmalonyl-CoA\n3. Methylmalonyl-CoA mutase (vitamin B12-dependent) → **succinyl-CoA**\n\nSuccinyl-CoA enters the TCA cycle directly, making odd-chain fatty acids *gluconeogenic* (unlike even-chain fatty acids, which yield only acetyl-CoA and cannot produce net glucose). This distinction is high-yield: **even-chain acetyl units do not provide net glucose carbon, but their oxidation powers gluconeogenesis; odd-chain propionyl units can supply glucose carbon**.\n\n### Ketogenesis: When Acetyl-CoA Exceeds OAA\n\nDuring prolonged fasting, starvation, or uncontrolled type 1 diabetes, the liver generates acetyl-CoA from fatty acids faster than it can be consumed by the TCA cycle. The bottleneck is **oxaloacetate**, which is being drained for gluconeogenesis. With insufficient OAA to accept acetyl-CoA, the liver diverts acetyl-CoA into **ketone bodies**:\n\n- 2 acetyl-CoA → **acetoacetyl-CoA**\n- Acetoacetyl-CoA + acetyl-CoA → **HMG-CoA** (via HMG-CoA synthase)\n- HMG-CoA → **acetoacetate** + acetyl-CoA (via HMG-CoA lyase)\n- Acetoacetate → **β-hydroxybutyrate** (NADH-dependent reduction) or spontaneously decarboxylates to **acetone**\n\nKetone bodies are exported to extrahepatic tissues (brain, heart, muscle) where they are reconverted to acetyl-CoA and oxidized. The brain, which normally depends on glucose, can derive up to 75% of its energy from ketone bodies after several weeks of starvation. The liver *cannot* use its own ketone bodies because it lacks **succinyl-CoA:acetoacetate CoA-transferase** (thiophorase).\n\n---\n\n## Amino Acid Catabolism: Diverse Entry Points\n\nAmino acids are the most structurally diverse fuel molecules, and their catabolism reflects that diversity. The first step for most amino acids is **removal of the amino group**, followed by catabolism of the remaining carbon skeleton.\n\n### Transamination and the Urea Cycle Connection\n\nMost amino acids transfer their α-amino group to α-ketoglutarate via **transamination**, producing **glutamate** and the corresponding α-keto acid. The key enzyme is **aminotransferase** (also called transaminase), which requires **pyridoxal phosphate (PLP, vitamin B6)** as a cofactor.\n\nGlutamate then undergoes **oxidative deamination** by glutamate dehydrogenase (GDH) in the mitochondria, releasing NH₄⁺ and regenerating α-ketoglutarate. The NH₄⁺ enters the urea cycle for disposal. GDH is allosterically activated by ADP (low energy) and inhibited by GTP and NADH (high energy), linking amino acid catabolism directly to cellular energy status.\n\n### Glucogenic vs. Ketogenic Amino Acids\n\nThe carbon skeletons of amino acids are classified based on their metabolic fate:\n\n- **Glucogenic amino acids**: degraded to pyruvate, oxaloacetate, α-ketoglutarate, succinyl-CoA, or fumarate—all of which can support net gluconeogenesis. *Most amino acids fall into this category.*\n- **Ketogenic amino acids**: degraded to acetyl-CoA or acetoacetyl-CoA, which cannot produce net glucose. **Leucine and lysine** are the *only purely ketogenic* amino acids.\n- **Both glucogenic and ketogenic**: isoleucine, phenylalanine, tyrosine and tryptophan. Some generalized charts include threonine, but human TDH is a nonfunctional pseudogene; the human dehydratase route supplies glucogenic propionyl-CoA. Use the organism/pathway specified.\n\nThis classification is directly testable. Memorize leucine and lysine as purely ketogenic, and remember that amino acids supply gluconeogenic carbon, but lactate and glycerol also contribute; prolonged ketone adaptation reduces the need for muscle-protein breakdown.\n\n### Key Entry Points into Central Metabolism\n\nDifferent amino acids feed different TCA intermediates:\n\n- **Alanine, cysteine and serine**, with glycine via serine, can supply **pyruvate**. Human threonine dehydratase instead forms α-ketobutyrate, feeding propionyl-CoA.\n- **Aspartate, asparagine** → **oxaloacetate**\n- **Glutamate, glutamine, proline, arginine, histidine** → **α-ketoglutarate**\n- **Isoleucine, methionine, valine, threonine** → **succinyl-CoA** (valine and isoleucine via propionyl-CoA, requiring vitamin B12)\n- **Phenylalanine, tyrosine** → **fumarate + acetoacetate**\n- **Leucine, lysine, tryptophan, phenylalanine, tyrosine, isoleucine** → **acetyl-CoA or acetoacetyl-CoA**\n\nThe **glucose-alanine cycle** deserves special mention. During exercise and fasting, muscle breaks down amino acids, particularly branched-chain amino acids (BCAAs: leucine, isoleucine, valine). The resulting amino groups are transferred to pyruvate, forming **alanine**, which travels to the liver. The liver converts alanine back to pyruvate (via alanine aminotransferase, ALT) and uses pyruvate for gluconeogenesis, while nitrogen transferred to glutamate can subsequently reach urea through ammonium or aspartate; ALT itself does not release free NH₄⁺. This cycle effectively transports nitrogen from muscle to liver while shuttling gluconeogenic substrate in the opposite direction.\n\n---\n\n## Coordinating Fuel Selection: Energy Status and Hormonal Signals\n\n### The AMP/ATP Ratio and AMPK\n\nThe cell's most immediate energy sensor is the ratio of AMP to ATP. When ATP is consumed faster than it is produced, AMP accumulates (because adenylate kinase equilibrates: 2 ADP ⇌ ATP + AMP). **AMP-activated protein kinase (AMPK)** is activated by high AMP and acts as a master metabolic switch:\n\n- AMPK **activates**: fatty acid oxidation (phosphorylates and inhibits ACC, reducing malonyl-CoA → relieves CPT-I inhibition), glucose uptake (GLUT4 translocation), glycolysis\n- AMPK **inhibits**: fatty acid synthesis, cholesterol synthesis, gluconeogenesis, glycogen synthesis, protein synthesis\n\nIn essence, AMPK activation shifts the cell from anabolic to catabolic mode. AMPK contributes to exercise-related metabolic adaptation. Drug mechanisms such as metformin’s glucose-lowering effect are context-dependent and should not be reduced to AMPK alone.\n\n### Insulin and Glucagon: The Hormonal Tier\n\nAt the organismal level, fuel selection is governed primarily by insulin and glucagon, which respond to blood glucose:\n\n**Insulin** (released when blood glucose is high, fed state):\n- Activates glycogen synthase, fatty acid synthesis, protein synthesis\n- Inhibits glycogenolysis, gluconeogenesis, lipolysis, beta-oxidation\n- Promotes glucose uptake (GLUT4 in muscle and adipose)\n\n**Glucagon** (released when blood glucose is low, fasted state):\n- Promotes hepatic glycogenolysis, gluconeogenesis, fatty-acid oxidation and ketogenesis. Human adipose lipolysis is strongly influenced by insulin withdrawal and catecholamines; physiological direct glucagon effects are limited.\n- Inhibits glycolysis, glycogen synthesis, fatty acid synthesis\n\nThe **glucagon/insulin ratio** is the key determinant of hepatic metabolic direction. A high ratio (fasting) drives glucose production and fat catabolism; a low ratio (fed) drives glucose storage and fat synthesis.\n\n**Epinephrine** (released during stress/exercise) mimics glucagon effects in liver and additionally activates glycogenolysis in muscle (muscle lacks glucagon receptors).\n\n### Allosteric Regulation of Key Enzymes\n\nFuel integration also operates at the level of individual enzymes through allosteric control. Several critical regulatory points:\n\n- **Pyruvate dehydrogenase (PDH)**: product effects, cofactor/substrate supply and PDK/PDP regulate flux. High fatty-acid oxidation can favor reduced/acetylated lipoyl states and PDK-dependent inhibitory E1 phosphorylation. CoA and NAD⁺ are cosubstrates, not simply allosteric activators.\n- **Citrate synthase**: substrate supply and product inhibition are important; nucleotide effects vary by species/preparation. OAA is a substrate.\n- **Isocitrate dehydrogenase**: inhibited by ATP and NADH; activated by ADP and Ca²⁺\n- **α-Ketoglutarate dehydrogenase**: inhibited by succinyl-CoA and NADH; activated by Ca²⁺\n- **Phosphofructokinase-1 (PFK-1)**: inhibited by ATP and citrate; activated by AMP and fructose-2,6-bisphosphate. *Citrate inhibition of PFK-1* is the mechanism by which high TCA cycle activity (from fat or amino acid oxidation) slows glycolysis—another manifestation of the Randle cycle.\n\n### The Randle Cycle (Glucose-Fatty Acid Cycle)\n\nThe **Randle cycle** describes the reciprocal relationship between glucose and fatty acid oxidation in muscle and heart:\n\n1. High fatty acid availability → increased beta-oxidation → elevated mitochondrial acetyl-CoA, NADH, and citrate\n2. Acetyl-CoA and NADH inhibit PDH (via PDH kinase) → pyruvate oxidation decreases, with additional glycolytic control depending on metabolites and tissue\n3. Citrate exits mitochondria and inhibits PFK-1 → further slows glycolysis\n4. Glucose-6-phosphate accumulates → inhibits hexokinase → reduced glucose uptake\n\nNet result: when fat is abundant, the cell preferentially burns fat and suppresses glucose oxidation, preserving glucose for tissues that require it (brain, red blood cells). In type 2 diabetes and obesity, chronically elevated fatty acids contribute to insulin resistance partly through this mechanism.\n\n---\n\n## Organ-Specific Fuel Preferences\n\nDifferent organs have evolved distinct fuel preferences that reflect their functional demands:\n\n**Brain**: Glucose is a major usual fuel and ketone use rises during prolonged fasting. Fatty acids can cross the blood–brain barrier, and astrocytes have fatty-acid oxidation capacity. Neurons rely little on long-chain fatty-acid oxidation, so it is incorrect to say the entire brain never uses fatty acids or that all are excluded by the barrier.\n\n**Red blood cells**: *Obligate glycolytic*. No mitochondria, so no TCA cycle or oxidative phosphorylation. Entirely dependent on glucose → lactate (anaerobic glycolysis).\n\n**Liver**: The metabolic hub. Performs gluconeogenesis, glycogen synthesis and breakdown, fatty acid synthesis and beta-oxidation, ketogenesis, urea synthesis, and amino acid interconversion. The liver does not use ketone bodies (lacks thiophorase) but produces them for export.\n\n**Skeletal muscle**: At rest, prefers fatty acids. During intense exercise, shifts to glycolysis (fast-twitch fibers) or continues oxidative metabolism (slow-twitch fibers). Muscle cannot export glucose (lacks glucose-6-phosphatase) but exports lactate (Cori cycle) and alanine (glucose-alanine cycle).\n\n**Cardiac muscle**: Almost entirely oxidative. Prefers fatty acids (~60-70% of energy from fat at rest), but can use glucose, lactate, and ketone bodies. Has very high mitochondrial density.\n\n**Adipose tissue**: Stores and releases fatty acids. Under insulin stimulation, takes up glucose and converts it to glycerol-3-phosphate (for triglyceride synthesis). Insulin withdrawal and catecholamine signaling favor lipolysis. ATGL, HSL and monoglyceride lipase act sequentially; HSL is especially important for diacylglycerol hydrolysis. Direct physiological glucagon effects in human adipose tissue are not equivalent to catecholamine effects.\n\n**Kidney**: Uses fatty acids and glutamine as primary fuels. The renal cortex is highly oxidative; the medulla is glycolytic.\n\n---\n\n## Integration During Physiological States\n\n### Fed State (Post-Prandial)\n\nBlood glucose rises → insulin released → liver takes up glucose via GLUT2 (a low-affinity, high-capacity facilitated transporter; net uptake also depends on gradients and intracellular metabolism) → glycogen synthesis and glycolysis activated → acetyl-CoA from pyruvate drives fatty acid synthesis → excess amino acids from dietary protein are transaminated, and carbon skeletons enter gluconeogenesis or lipogenesis.\n\n### Fasting (Overnight, ~12-16 hours)\n\nBlood glucose falls → glucagon rises → liver glycogenolysis → blood glucose maintained. Adipose begins releasing free fatty acids. Liver beta-oxidation increases. Gluconeogenesis, already active earlier, contributes increasingly using lactate, glycerol and amino acids. Ketogenesis is minimal at this stage.\n\n### Prolonged Fasting/Starvation (Days to Weeks)\n\nHepatic glycogen falls substantially over roughly a day, with timing dependent on diet and activity; muscle glycogen is a separate pool. Gluconeogenesis becomes the sole source of blood glucose, using lactate, glycerol and amino acids, with proportions changing during adaptation. Fatty-acid oxidation is increased; ketogenesis produces acetoacetate and β-hydroxybutyrate at high rates. The brain adapts to use ketone bodies, reducing its glucose requirement and thus slowing muscle protein catabolism. After early fasting, ketone adaptation reduces protein catabolism and urea production relative to the early phase; nitrogen conservation is central to prolonged survival.\n\n### Exercise\n\nDuring moderate-intensity exercise, skeletal muscle uses a mix of glycogen and fatty acids. At higher exercise intensity, carbohydrate use and glycolytic flux increase; contributions depend on duration and training, not a universal 70% cutoff. Epinephrine activates muscle glycogenolysis and adipose lipolysis simultaneously. After exercise, increased glucose uptake and insulin sensitivity support glycogen restoration; glycogen synthesis cannot be assigned to direct AMPK activation alone.\n\n---\n\n## High-Yield Summary for MCAT Preparation\n\nThe following connections are the most frequently tested integrative concepts:\n\n- **Acetyl-CoA cannot produce net glucose**: two carbons enter and two leave per turn with no net gain of OAA, although newly entering acetyl carbons are retained during the first turn. This is why even-chain fatty acids and purely ketogenic amino acids cannot support gluconeogenesis.\n\n- **The TCA cycle requires anaplerosis**: the cycle intermediates are catalytic—they are regenerated, not consumed—but they can be drained for biosynthesis (e.g., OAA for gluconeogenesis, α-ketoglutarate for amino acid synthesis, succinyl-CoA for heme synthesis). Anaplerotic reactions (pyruvate carboxylase, glutamate dehydrogenase, odd-chain fatty acid oxidation) replenish the pool.\n\n- **Malonyl-CoA is the reciprocal switch**: high malonyl-CoA (active lipogenesis) inhibits CPT-I, preventing simultaneous fat oxidation. This is regulated by ACC (activated by citrate, inhibited by palmitoyl-CoA and AMPK-mediated phosphorylation).\n\n- **PDH is the irreversible gateway**: once pyruvate is converted to acetyl-CoA, it cannot be converted back to pyruvate in animals through a reversal of the PDC reaction; ATP-citrate lyase is a separate reaction. This makes PDH regulation critical: high-fat oxidation inhibits PDH, preserving pyruvate for gluconeogenesis.\n\n- **Vitamin and cofactor dependencies**: beta-oxidation requires FAD and NAD⁺; odd-chain fatty acid processing requires biotin (propionyl-CoA carboxylase) and vitamin B12 (methylmalonyl-CoA mutase); transamination requires PLP (vitamin B6); PDH requires thiamine (B1), lipoic acid, CoA, FAD, and NAD⁺.\n\n- **Tissue-specific enzyme expression creates metabolic specialization**: G6PC1 supports glucose export from liver, kidney and intestine. Hepatic lack of SCOT limits ketone utilization. Glucokinase is important in liver and glucose-sensing cells; avoid treating those examples as exhaustive expression lists.\n\n- **Hormonal and allosteric regulation are layered**: allosteric regulation is immediate (seconds); covalent modification can also be rapid (seconds to minutes); transcriptional regulation (e.g., SREBP for lipogenic genes, PEPCK for gluconeogenesis) operates over hours. The MCAT tests all three layers.\n\nUnderstanding the integration of these three catabolic streams—and the regulatory logic that coordinates them—gives you a powerful framework for reasoning through any metabolism question, whether it involves a specific enzyme deficiency, a hormonal perturbation, a nutritional state, or a pharmacological intervention. The key insight is that the cell always acts to match fuel supply to energy demand, and the molecular machinery for doing so is conserved, elegant, and thoroughly testable."
+    },
+    {
+      "field": "questions.151.choice_b",
+      "value": "Impaired hepatic long-chain fatty-acid entry reduces oxidative support for glucose production and ketone availability during fasting."
+    },
+    {
+      "field": "questions.151.explanation",
+      "value": "B is correct: hepatic long-chain fatty-acid oxidation normally helps meet energy needs and supplies ketones during fasting. CPT1A deficiency compromises that support. It does not abolish every fatty-acid pathway, activate fatty acids itself, or transport OAA."
+    },
+    {
+      "field": "questions.151.question_text",
+      "value": "A person with CPT1A deficiency develops hypoketotic hypoglycemia during fasting. Which mechanism best connects the transport defect to this phenotype?"
+    },
+    {
+      "field": "questions.152.choice_a",
+      "value": "Low insulin favors fatty-acid delivery to liver; β-oxidation increases acetyl-CoA supply while gluconeogenesis and redox state constrain its oxidation in the TCA cycle."
+    },
+    {
+      "field": "questions.152.explanation",
+      "value": "A is correct: fasting increases hepatic fatty-acid delivery and oxidation, while OAA availability and redox state can limit TCA disposal of acetyl-CoA. Hormonal regulation also favors ketogenesis. Insulin withdrawal and catecholamines are important in human adipose lipolysis; direct glucagon action on adipocytes should not be assumed."
+    },
+    {
+      "field": "questions.153.explanation",
+      "value": "C is correct: intense exercise can increase glycolytic flux beyond oxidative handling, so LDH regenerates cytosolic NAD⁺. This can occur without complete oxygen deprivation. Fat oxidation supports exercise but does not generally supply the fastest ATP response; phosphocreatine also contributes early. The Cori cycle is not the immediate dominant ATP source in muscle."
+    },
+    {
+      "field": "questions.154.explanation",
+      "value": "B is correct: AST links OAA/α-KG carbon skeletons to aspartate/glutamate nitrogen transfer. Nitrogen can reach urea as ammonium after GDH or as aspartate through coupled transamination; glutamate does not donate an amino group directly to a urea-cycle enzyme. AST itself produces no ATP and exchanges one TCA intermediate for another."
+    }
+  ]
+}

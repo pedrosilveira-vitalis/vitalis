@@ -1,0 +1,266 @@
+{
+  "lessonId": 56,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "These compartments are functionally connected by vesicles—small, membrane-enclosed spheres that bud from one compartment and fuse with another.",
+      "new": "The ER, Golgi, endosomes, lysosomes and plasma membrane exchange material through vesicular and tubular carriers. The nuclear envelope is continuous with the ER rather than being a routine vesicle destination.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "They are selective—specific cargo is recognized and sorted.",
+      "new": "Cargo can be specifically selected, but fluid-phase uptake can also sample extracellular material without selecting each solute.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "They depend on **coat proteins** and **SNARE proteins** for vesicle formation and targeting.",
+      "new": "Many pathways use coat proteins for budding and SNAREs for fusion, but neither coats nor one universal mechanism apply to every bulk-transport event.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "There are three major categories: clathrin-mediated endocytosis, phagocytosis, and pinocytosis (including macropinocytosis and caveolae-mediated endocytosis).",
+      "new": "A useful broad division is phagocytosis of large particles versus pinocytic uptake of fluid and smaller cargo. Pinocytic routes include clathrin-mediated and several clathrin-independent mechanisms, including macropinocytosis.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "is the best-characterized and most selective form of endocytosis",
+      "new": "is a well-characterized route of selective receptor uptake",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "also called late endosomes (pH ≈ 5.5)",
+      "new": "which are endosomes containing intraluminal vesicles and often mature toward late endosomes; the terms are related but not strict synonyms",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "though all nucleated cells can perform limited phagocytosis.",
+      "new": "while some nonprofessional phagocytes also engulf particles; this is not an ability shared equally by all nucleated cells.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "**complement receptors** (CR3) bind complement fragments (C3b) deposited on targets",
+      "new": "**complement receptors** recognize opsonins: CR3 prominently recognizes iC3b, whereas CR1 recognizes C3b",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/34117107/"
+    },
+    {
+      "field": "content",
+      "old": "**pattern recognition receptors** like TLRs and scavenger receptors recognize pathogen-associated molecular patterns (PAMPs) directly.",
+      "new": "**pattern recognition receptors** contribute recognition and signaling. Scavenger receptors can mediate uptake; TLR signaling can modulate phagocytosis without itself supplying the main engulfment receptor.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/34117107/"
+    },
+    {
+      "field": "content",
+      "old": "It also requires significantly more energy than CME due to the extensive actin remodeling involved.",
+      "new": "Its energy use depends on particle size and the machinery engaged; a universal energetic comparison with CME is not justified.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "**Caveolae-mediated endocytosis** uses flask-shaped membrane invaginations called **caveolae** (50–80 nm), which are enriched in cholesterol, sphingolipids, and **caveolin-1** protein. Caveolae are particularly abundant in endothelial cells, adipocytes, and smooth muscle cells. They mediate the uptake of specific ligands (including albumin, folate, and certain viruses) and play roles in lipid homeostasis and cell signaling. Unlike clathrin-coated pits, caveolae are relatively stable structures and may cycle between the plasma membrane and caveosomes. Notably, caveolae-mediated endocytosis often bypasses lysosomes, which is relevant to pathogens that exploit this pathway to avoid degradation.",
+      "new": "**Caveolae** are small flask-shaped plasma-membrane invaginations assembled with caveolins and cavins, abundant in certain endothelial cells, adipocytes and muscle cells. They participate in membrane-tension buffering and can internalize selected cargo. Uptake and destination depend on cell and cargo. The older idea of a distinct, obligatory “caveosome” compartment should not be presented as established; caveolar carriers can communicate with conventional endosomes.",
+      "reason": "Correct scope or mechanism.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3003311/"
+    },
+    {
+      "field": "content",
+      "old": "These enzymes are synthesized in the rough ER, modified in the Golgi (receiving the **mannose-6-phosphate (M6P) tag** that directs them to lysosomes), and delivered via M6P receptors.",
+      "new": "Many soluble lysosomal hydrolases enter the ER and receive mannose-6-phosphate targeting information in the Golgi. M6P receptors direct them toward endosomes. Not all lysosomal proteins use that route: glucocerebrosidase is delivered by LIMP-2 through an M6P-independent mechanism.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/18022370/"
+    },
+    {
+      "field": "content",
+      "old": "**Lysosomal storage diseases** result from deficiency of specific lysosomal enzymes,",
+      "new": "**Lysosomal storage diseases** can arise from defects in enzymes, transporters, activators or trafficking proteins,",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1296/"
+    },
+    {
+      "field": "content",
+      "old": "Most common lysosomal storage disease.",
+      "new": "Its frequency depends on the population studied.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1296/"
+    },
+    {
+      "field": "content",
+      "old": "Fatal in early childhood.",
+      "new": "The severe infantile form causes early neurodegeneration; juvenile and later-onset forms also occur.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1218/"
+    },
+    {
+      "field": "content",
+      "old": "- **Niemann-Pick disease:** Deficiency of sphingomyelinase → accumulation of sphingomyelin.",
+      "new": "- **Acid sphingomyelinase deficiency** (historically Niemann-Pick A/B): impaired sphingomyelin breakdown. **Niemann-Pick C** instead involves NPC1/NPC2-dependent intracellular lipid trafficking, including cholesterol handling.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1296/"
+    },
+    {
+      "field": "content",
+      "old": "Cells have non-functional lysosomes despite having normal enzyme genes—the sorting machinery is broken, not the enzymes themselves.",
+      "new": "Many hydrolases are mistargeted and substrates accumulate. This is a targeting defect rather than a mutation in every hydrolase gene; residual and M6P-independent lysosomal functions can remain.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/18022370/"
+    },
+    {
+      "field": "content",
+      "old": "occurs continuously in all cells",
+      "new": "is ongoing in many cells with a functional secretory pathway",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "occurs only in response to a specific extracellular signal, typically a rise in intracellular Ca²⁺.",
+      "new": "is stimulus-dependent, often triggered by an increase in cytosolic Ca²⁺. The trigger can involve electrical activity, metabolism or extracellular receptor signaling.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "are the core machinery for all intracellular membrane fusion events.",
+      "new": "are central to fusion in the endomembrane trafficking system. Mitochondrial fusion uses a different machinery, so “all intracellular fusion” is too broad.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "**v-SNAREs** (vesicle SNAREs, also called R-SNAREs)",
+      "new": "**v-SNAREs** (a location-based term; neuronal synaptobrevin is an R-SNARE)",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "**t-SNAREs** (target SNAREs, also called Q-SNAREs)",
+      "new": "**t-SNAREs** (a location-based term; neuronal syntaxin/SNAP-25 supply Q-SNARE helices)",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "When a vesicle approaches its target membrane",
+      "new": "The Q/R classification refers to conserved residues and is not strictly interchangeable with vesicle/target location. When a vesicle approaches its target membrane",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "an inactive GDP-bound state (cytoplasmic)",
+      "new": "an inactive GDP-bound state that can be extracted from membranes by GDP-dissociation inhibitor (GDI)",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "**Neonatal Fc receptor (FcRn):** Mediates transcytosis of maternal IgG across intestinal epithelium in neonates, providing passive immunity.",
+      "new": "**Neonatal Fc receptor (FcRn):** Maternal IgG transport across neonatal intestine is especially important in rodents. In humans, prenatal transfer across the placenta is the major source of systemic maternal IgG; do not transfer the rodent intestinal model directly to human newborns.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.nature.com/articles/pr2003223"
+    },
+    {
+      "field": "content",
+      "old": "which both terminates signaling and allows receptor recycling or degradation.",
+      "new": "which changes receptor location and allows recycling or degradation; internalized receptors can also signal from endosomes, so internalization is not synonymous with immediate signal termination.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "Monoubiquitination of receptor cytoplasmic tails signals",
+      "new": "Ubiquitination, including mono- and appropriate polyubiquitin signals, can direct",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "Constitutive (continuous, all cells)",
+      "new": "Constitutive (ongoing in secretory-pathway-competent cells)",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "content",
+      "old": "IgA secretion across intestinal epithelium; maternal IgG transfer in neonates",
+      "new": "IgA secretion across intestinal epithelium; maternal IgG transfer across human placenta and neonatal rodent intestine",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.nature.com/articles/pr2003223"
+    },
+    {
+      "field": "questions.276.choice_c",
+      "old": "Non-specific uptake of extracellular fluid by breast epithelial cells",
+      "new": "Actin-driven macropinocytosis of extracellular fluid without clathrin-coated pits",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "questions.276.explanation",
+      "old": "Clathrin-mediated endocytosis relies on the polymerization of clathrin triskelions into a coated pit that internalizes receptor-ligand complexes such as LDL-receptor complexes. Disrupting clathrin assembly would block this specific pathway. Phagocytosis (engulfment of bacteria) relies on actin-driven pseudopod extension, not clathrin. Pinocytosis involves non-specific fluid uptake via small vesicles that may use different coat proteins. Neurotransmitter release is a regulated exocytosis event driven by SNARE proteins and calcium influx, not clathrin.",
+      "new": "LDL receptor uptake is a classic clathrin-dependent pathway. Actin-driven phagocytosis and the specified macropinocytosis route do not require clathrin-coated pits; rapid neurotransmitter release uses Ca²⁺-regulated SNARE-mediated fusion. Some fluid uptake can accompany CME, which is why the alternative specifies a clathrin-independent route.",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "questions.277.question_text",
+      "old": "During receptor-mediated endocytosis, after a vesicle is internalized it fuses with an early endosome that becomes increasingly acidic. What is the PRIMARY functional consequence of this acidification?",
+      "new": "After LDL-receptor complexes enter an early endosome, what does acidification directly promote in the classic LDL uptake pathway?",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "questions.277.explanation",
+      "old": "The progressive acidification of the endosomal lumen (pH drops from ~7 to ~5-6) causes conformational changes in receptors that reduce ligand affinity, releasing the ligand for eventual degradation while the receptor is recycled back to the plasma membrane. This is well illustrated by the LDL receptor pathway. Clathrin uncoating by Hsc70 occurs shortly after vesicle formation, before endosomal fusion, and is not driven by acidification. Full lysosomal hydrolase activity requires the lower pH of lysosomes, not early endosomes, and targets the cargo rather than the membrane itself.",
+      "new": "In the LDL pathway, lower endosomal pH promotes LDL release from its receptor, enabling receptor recycling while LDL proceeds toward degradation. This is not universal for all ligands: iron is released from transferrin in the endosome, but apo-transferrin stays receptor-bound until return to the neutral cell surface.",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "questions.279.explanation",
+      "old": "Insulin secretion is a classic example of regulated exocytosis because release occurs only in response to a specific stimulus (elevated glucose leading to ATP production, K+ channel closure, membrane depolarization, and Ca2+ influx). The rise in intracellular calcium is sensed by synaptotagmin, a calcium sensor on secretory granules, which then promotes the zippering of SNARE complexes (v-SNARE with t-SNARE) to drive membrane fusion. Constitutive exocytosis occurs continuously without a trigger. Clathrin is involved in endocytosis, not exocytosis. Rab GTPases assist in vesicle docking and tethering but do not directly provide energy for membrane fusion.",
+      "new": "Glucose metabolism raises the ATP/ADP ratio, closes ATP-sensitive K⁺ channels, depolarizes the β-cell and opens voltage-gated Ca²⁺ channels. Ca²⁺ sensors including synaptotagmins promote SNARE-mediated granule fusion. Clathrin participates in other trafficking steps, but coat disassembly is not the immediate trigger for insulin-granule fusion.",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "questions.280.question_text",
+      "old": "A cell biologist observes that a mutant cell line accumulates undigested material in large intracellular vacuoles and fails to degrade endocytosed cargo. The most likely defect in this cell line is an inability to:",
+      "new": "Endocytosed cargo reaches late endosomes in a mutant cell, and lysosomal enzymes are active, but the two compartments fail to merge. Which defect most directly explains the resulting undegraded cargo?",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "questions.280.choice_c",
+      "old": "Fuse late endosomes with lysosomes to form phagolysosomes or endolysosomes",
+      "new": "Fuse late endosomes with lysosomes to form degradative endolysosomes",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    },
+    {
+      "field": "questions.280.explanation",
+      "old": "The accumulation of undigested material in large vacuoles is characteristic of a failure to deliver endocytosed cargo to lysosomes for degradation. This requires fusion of late endosomes (or phagosomes) with lysosomes, a process mediated by specific Rab GTPases and SNARE proteins on those compartments. If clathrin pit formation were defective, endocytosis itself would fail and material would not be internalized at all. Impaired receptor recycling would reduce surface receptor levels but would not cause accumulation of undigested cargo. Defective secretory SNARE assembly would impair exocytosis, not endolysosomal degradation.",
+      "new": "The observed failure is late-endosome–lysosome fusion, normally coordinated by trafficking regulators, tethers and SNAREs. A phagolysosome instead derives from a phagosome. Accumulated undegraded material alone would not prove a fusion defect, because defective enzymes or acidification can also cause it; this question supplies the distinguishing observations.",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9897/"
+    }
+  ]
+}

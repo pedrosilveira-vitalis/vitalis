@@ -1,0 +1,371 @@
+{
+  "lessonId": 40,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "### Prokaryotic Ribosomes (70S)",
+      "new": "### Bacterial Ribosomes (70S)",
+      "reason": "Scope bacterial composition.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "Prokaryotic ribosomes have a sedimentation coefficient",
+      "new": "Bacterial ribosomes have a sedimentation coefficient",
+      "reason": "Scope bacterial composition.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "The 50S subunit contains three important sites that span both subunits structurally:",
+      "new": "Three tRNA-binding sites span the ribosomal subunits, with anticodons on the small subunit and acceptor ends on the large subunit:",
+      "reason": "Avoid assigning full sites to50S.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "Eukaryotic ribosomes are larger, with a sedimentation coefficient of **80S**.",
+      "new": "Typical animal cytosolic ribosomes sediment at **80S**; organellar ribosomes differ.",
+      "reason": "Scope cytosolic model.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4501431/"
+    },
+    {
+      "field": "content",
+      "old": "The 18S rRNA plays an analogous role to 16S rRNA in prokaryotes.",
+      "new": "18S rRNA contributes to decoding in the small subunit, but the Kozak context is not a Shine–Dalgarno-like sequence that simply base-pairs with 18S rRNA.",
+      "reason": "Avoid false recognition analogy.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "Mitochondrial ribosomes (**mitoribosomes**) in humans are **55S** in size — smaller than cytoplasmic eukaryotic ribosomes but distinct from prokaryotic 70S ribosomes as well. This reflects the endosymbiotic origin of mitochondria. The MCAT may test that mitochondria use ribosomes more similar to bacterial ribosomes, which is why antibiotics targeting the 70S ribosome (e.g., aminoglycosides, chloramphenicol) can sometimes have mitochondrial toxicity.",
+      "new": "Human **mitoribosomes** sediment at about **55S**, with 28S and 39S subunits. These coefficients are not simple physical-size or mass measurements. Human mitoribosomes have reduced rRNA and extensive added protein compared with bacterial ribosomes. Chloroplast ribosomes are generally bacterial-type 70S. Similarities at antibiotic-binding sites can allow some bacterial translation inhibitors to affect mitochondrial translation; this depends on the drug and ribosome, not the S value alone.",
+      "reason": "Correct size inference and add missing chloroplast scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4501431/"
+    },
+    {
+      "field": "content",
+      "old": "- **Macrolides** (e.g., erythromycin): Block the exit tunnel of 50S, inhibit translocation",
+      "new": "- **Macrolides** (e.g., erythromycin): Bind in the bacterial 50S nascent-peptide exit tunnel and cause context-dependent elongation arrest. They are not simply a universal plug that stops every peptide at the same length.",
+      "reason": "Update tunnel mechanism.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4234590/"
+    },
+    {
+      "field": "content",
+      "old": "- **Linezolid:** Inhibits 70S initiation complex formation",
+      "new": "- **Linezolid:** Binds 23S rRNA in the 50S subunit and inhibits formation of a functional 70S initiation complex.",
+      "reason": "Specify target.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=83a84897-ccca-42a1-ab1a-bbf1d43a982b&type=display"
+    },
+    {
+      "field": "content",
+      "old": "The **start codon** is AUG, which codes for methionine (Met) in eukaryotes and N-formylmethionine (fMet) in prokaryotes.",
+      "new": "AUG is the usual start codon. Bacteria can use alternative starts such as GUG/UUG while inserting initiator fMet; archaea and the eukaryotic cytosol use unformylated initiator methionine. Internal AUG specifies methionine.",
+      "reason": "Correct prokaryotic generalization.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "content",
+      "old": "The three **stop codons** are UAA, UAG, and UGA",
+      "new": "Under ordinary standard-code termination, the three **stop codons** are UAA, UAG, and UGA",
+      "reason": "Scope recoding exceptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "content",
+      "old": "There are 20 aminoacyl-tRNA synthetases (one per amino acid), and each uses ATP hydrolysis",
+      "new": "A common model has one synthetase specificity per standard amino acid, but some organisms use indirect aminoacylation pathways rather than 20 distinct enzymes. Standard direct charging uses ATP cleavage",
+      "reason": "Include indirect charging.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK21111/"
+    },
+    {
+      "field": "content",
+      "old": "makes this reaction thermodynamically irreversible",
+      "new": "strongly favors net charging under cellular conditions",
+      "reason": "Avoid absolute thermodynamic irreversibility.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "### Prokaryotic Initiation",
+      "new": "### Bacterial Initiation",
+      "reason": "Scope factors.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "Prokaryotic initiation requires three",
+      "new": "The standard bacterial initiation model uses three",
+      "reason": "Scope factors.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "2. The **Shine-Dalgarno sequence**",
+      "new": "2. In a common bacterial initiation pathway, the **Shine-Dalgarno sequence**",
+      "reason": "Not universal bacterial initiation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "This positions the AUG codon in the P site of the 30S subunit.",
+      "new": "This helps position the start codon in the P site. Some bacterial mRNAs initiate without a canonical Shine–Dalgarno sequence.",
+      "reason": "Scope SD.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "This releases all three initiation factors and leaves",
+      "new": "Factor rearrangements and release, coupled to subunit joining and IF-2 activity, produce",
+      "reason": "IF3releasebeforejoiningnotallafter.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "The energy for this process comes from GTP hydrolysis by IF-2.",
+      "new": "IF-2 GTP turnover supports bacterial initiation; charging the initiator tRNA has a separate ATP cost.",
+      "reason": "Energy accounting.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "Eukaryotic initiation is considerably more complex, involving at least **12 eukaryotic initiation factors (eIFs)** and two rounds of GTP hydrolysis.",
+      "new": "Canonical cap-dependent initiation in the eukaryotic cytosol uses many initiation factors, GTP turnover by eIF2 and eIF5B, and ATP-dependent RNA remodeling. Alternative initiation routes also exist.",
+      "reason": "Avoid fixed exhaustive factor/energy count.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "until it encounters the AUG start codon within the Kozak consensus sequence.",
+      "new": "to select an initiation codon, usually AUG in a favorable context. A weak-context AUG can be bypassed (leaky scanning); not every initiating AUG exactly matches the consensus.",
+      "reason": "Scope Kozak.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "Recognition of the AUG triggers **GTP hydrolysis by eIF-2**, stabilizing the Met-tRNA in the P site and releasing eIF-2-GDP.",
+      "new": "Start-codon recognition stabilizes initiator tRNA in the P site and couples the eIF2 GTPase cycle to factor release. In the well-studied yeast pathway, GTP can already be hydrolyzed during scanning, with phosphate release gated by start recognition. Hydrolysis and phosphate release are distinct events.",
+      "reason": "Correct initiation kinetics with organism scope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3581429/"
+    },
+    {
+      "field": "content",
+      "old": "This globally reduces translation initiation — a critical stress response mechanism tested on the MCAT.",
+      "new": "This usually reduces bulk initiation while increasing translation of selected stress-response messages such as ATF4 through upstream-ORF regulation. It does not suppress every mRNA equally.",
+      "reason": "Include selective ISR translation.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15479734/"
+    },
+    {
+      "field": "content",
+      "old": "EF-Tu** (in prokaryotes)",
+      "new": "EF-Tu** (in bacteria)",
+      "reason": "Scope bacterial factor.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "**EF-Ts** (prokaryotes) or **eEF-1B** (eukaryotes)",
+      "new": "**EF-Ts** in bacteria; eEF1A is recycled by **eEF1B** in the eukaryotic cytosol",
+      "reason": "Correct which substrate eEF1B recycles.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "No protein has direct catalytic involvement in the chemistry of peptide bond formation.",
+      "new": "The active center is predominantly rRNA, while proteins and tRNA functional groups support the geometry and reaction environment. This is why the ribosome is described as an RNA-based catalyst, not an RNA-only machine.",
+      "reason": "Avoid absolute protein dispensability.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "the energy comes from the high-energy aminoacyl-tRNA ester bond.",
+      "new": "the activated peptidyl-tRNA ester is consumed as the chain transfers to the A-site amino group. No extra ATP or GTP is hydrolyzed by the bond-forming step itself.",
+      "reason": "Identify donor ester energy.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "- The mRNA advances by one codon.",
+      "new": "- Relative to the mRNA, the ribosome advances one codon toward the mRNA 3′ end; relative to the ribosome, the mRNA shifts in the opposite direction.",
+      "reason": "Correct reference frame.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "The ribosome adds approximately **15–20 amino acids per second** in prokaryotes and somewhat more slowly in eukaryotes. The energy cost per amino acid added is:",
+      "new": "Rapidly growing bacteria can elongate at roughly 15–20 residues per second, but rates depend on organism, temperature, message and conditions. Animal cytosolic rates are often lower. In the idealized elongation cycle, the energy bookkeeping is:",
+      "reason": "Scope rates.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "This gives a total of **4 high-energy phosphate bonds per amino acid** incorporated during elongation.",
+      "new": "This gives an idealized cost of **four high-energy phosphate bonds per elongation-added residue**, including its charging. Initiation, termination, recycling and rejected substrates add costs, so this is not an exact total for a whole protein.",
+      "reason": "Scope energy tally.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "Unlike sense codons, stop codons are not recognized by tRNA molecules. Instead, they are recognized by protein factors called **release factors (RFs)**.",
+      "new": "In ordinary termination, release factors recognize stop codons. Specialized recoding and suppressor tRNAs can override a stop in particular contexts; these are exceptions to this termination model.",
+      "reason": "Scope stop tRNAs.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "content",
+      "old": "### Prokaryotic Termination",
+      "new": "### Bacterial Termination",
+      "reason": "Scope RF system.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "Eukaryotes use only **two release factors**:",
+      "new": "Canonical eukaryotic cytosolic termination uses **eRF1 and eRF3**, alongside other recycling and quality-control machinery:",
+      "reason": "Avoid exhaustive factor claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "In prokaryotes, **ribosome recycling factor (RRF)**",
+      "new": "In bacteria, **ribosome recycling factor (RRF)**",
+      "reason": "Scope RRF.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "In eukaryotes, the **poly-A tail** at the 3' end of mRNA interacts with the 5' cap via **PABP (poly-A binding protein)** and **eIF-4G**, effectively circularizing the mRNA. This circularization enhances translation efficiency and mRNA stability.",
+      "new": "In many animal mRNAs, PABP–eIF4G interactions link tail-associated proteins to cap-associated initiation machinery and can enhance translation. The closed-loop model describes these interactions; a stable circle is not obligatory for every translating message.",
+      "reason": "Scope loop.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "- **Signal peptides:** Proteins destined for the ER, secretion, or membrane insertion contain an N-terminal signal sequence recognized by the **signal recognition particle (SRP)**. SRP pauses translation and docks the ribosome to the ER membrane, where translation resumes co-translationally.",
+      "new": "- **ER targeting:** Many secreted and membrane proteins have an N-terminal signal peptide or an internal signal-anchor recognized by SRP. SRP can slow elongation while directing the ribosome to the ER translocon. Not all membrane proteins use a cleaved N-terminal signal, and some targeting routes act after translation.",
+      "reason": "Avoid universal NterminalSRProute.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "- **Transcription and translation are coupled in prokaryotes** — ribosomes can begin translating mRNA while it is still being synthesized. This is not possible in eukaryotes because transcription occurs in the nucleus and translation in the cytoplasm.",
+      "new": "- **Bacterial transcription and translation can be coupled.** Animal nuclear transcription is separated from cytoplasmic translation; mitochondrial gene expression is a distinct system.",
+      "reason": "Scope compartment contrast.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "- **mRNA processing in eukaryotes** (5' capping, 3' polyadenylation, splicing) must occur before translation. The 5' cap and poly-A tail both enhance translational efficiency and mRNA stability.",
+      "new": "- **Animal nuclear mRNA maturation** usually precedes cytoplasmic translation. Not every transcript is spliced or polyadenylated, and some initiation routes are cap-independent.",
+      "reason": "Scope processing exceptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "MicroRNAs (miRNAs) silence translation by binding to the 3' UTR of mRNA.",
+      "new": "In animals, miRNA-loaded Argonaute complexes commonly bind 3′-UTR sites and promote translational repression and/or mRNA decay; sites can also occur elsewhere.",
+      "reason": "Include decay and sites.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "- Mitochondria: 55S",
+      "new": "- Human mitochondria: 55S; mitochondrial ribosomes vary among organisms",
+      "reason": "Scope size.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4501431/"
+    },
+    {
+      "field": "content",
+      "old": "- Prokaryotes: tRNA^fMet, carries N-formylmethionine",
+      "new": "- Bacteria: initiator tRNA carries fMet; archaea use unformylated Met",
+      "reason": "Correct archaea.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+    },
+    {
+      "field": "content",
+      "old": "- Prokaryotes: Shine-Dalgarno sequence base-pairs with 16S rRNA",
+      "new": "- Many bacteria: Shine–Dalgarno pairing helps position the start; SD-independent pathways exist",
+      "reason": "Scope summary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "- Eukaryotes: 43S complex scans from 5' cap to Kozak sequence",
+      "new": "- Typical animal cap-dependent initiation: small-subunit complex scans and selects a start in context",
+      "reason": "Scope summary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "- **eIF-2 phosphorylation** by stress-activated kinases globally inhibits translation initiation — a key regulatory mechanism.",
+      "new": "- **eIF2α phosphorylation** generally lowers bulk initiation but can enhance selected stress-response proteins such as ATF4.",
+      "reason": "Align summary.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15479734/"
+    },
+    {
+      "field": "questions.196.question_text",
+      "old": "A researcher treats a cell-free translation system with a non-hydrolyzable GTP analog (GTPgammaS). Which step of translation elongation would be most directly inhibited?",
+      "new": "In a bacterial cell-free elongation assay, an EF-Tu mutant binds GTP and aminoacyl-tRNA and reaches the ribosome but cannot complete GTP hydrolysis. Which listed step is most directly impaired?",
+      "reason": "Avoid GTPgammaSslowhydrolysis and allGTPases confound.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "questions.196.choice_b",
+      "old": "Aminoacyl-tRNA delivery to the A site by EF-Tu and subsequent proofreading",
+      "new": "Release of aminoacyl-tRNA from EF-Tu and its full accommodation into the A site",
+      "reason": "Separate delivery from accommodation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "questions.196.explanation",
+      "old": "EF-Tu (in prokaryotes) delivers aminoacyl-tRNA to the A site as a ternary complex with GTP; GTP hydrolysis is required for EF-Tu to release the tRNA and dissociate, allowing accommodation and proofreading. A non-hydrolyzable GTP analog would trap EF-Tu on the ribosome, blocking tRNA accommodation. Peptide bond formation is catalyzed by the peptidyl transferase center of the rRNA and does not require GTP hydrolysis directly. Initiation and subunit dissociation involve different factors and mechanisms.",
+      "new": "EF-Tu GTP turnover enables factor rearrangement, release and full tRNA accommodation (B). Initial delivery can occur in the stated experiment. Peptide transfer itself does not directly hydrolyze GTP, and the mutation does not directly target initiation or recycling factors.",
+      "reason": "Match constrained assay.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "questions.197.question_text",
+      "old": "Eukaryotic ribosomes are 80S, composed of 60S and 40S subunits, while prokaryotic ribosomes are 70S, composed of 50S and 30S subunits. A drug that specifically binds the 30S subunit and prevents correct mRNA-tRNA codon-anticodon base pairing would most likely affect which process?",
+      "new": "A drug binds the bacterial 30S decoding center but has no affinity for the animal cytosolic 40S subunit in a cell-free comparison. Which process is most directly affected in the bacterial system?",
+      "reason": "Avoid allprokonly/noorganelletoxicity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "questions.197.choice_c",
+      "old": "Decoding and aminoacyl-tRNA selection in prokaryotes only",
+      "new": "Codon decoding and aminoacyl-tRNA selection",
+      "reason": "Remove unsupported organism exclusivity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "questions.197.explanation",
+      "old": "The 30S (small) subunit of prokaryotic ribosomes contains the decoding center where codon-anticodon interactions are monitored; drugs like aminoglycosides target this site to cause miscoding or block tRNA selection. Because the drug specifically targets the 30S subunit found only in prokaryotes, eukaryotic 40S-containing ribosomes would be unaffected. Peptide bond formation occurs in the large subunit (50S/60S), and translocation involves EF-G/EF-2 acting on both subunits. Release factor recognition also occurs at the A site but is a distinct event from initial decoding.",
+      "new": "The small-subunit decoding center checks codon–anticodon pairing, so disrupting it directly affects tRNA selection (C). Peptide transfer occurs in the large-subunit center. The experiment specifies cytosolic selectivity; it does not establish safety for mitochondrial translation or whole cells.",
+      "reason": "Scope experimental conclusion.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "questions.198.explanation",
+      "old": "Translocation is catalyzed by EF-G (prokaryotes) using GTP hydrolysis; this moves the mRNA one codon (3 nucleotides) in the 5 to 3 direction relative to the ribosome, shifting the peptidyl-tRNA from the A site to the P site and the deacylated tRNA from the P site to the E site, thereby vacating the A site for the next aminoacyl-tRNA. The energy source is GTP, not ATP. EF-Tu is involved in aminoacyl-tRNA delivery, not translocation. Movement is in the 5 to 3 direction along the mRNA, not 3 to 5.",
+      "new": "EF-G couples GTP turnover to bacterial translocation (B). The ribosome advances one codon toward the mRNA 3′ end. Relative to the ribosome, the mRNA shifts in the opposite direction, carrying the former A-site codon into the P site. Peptidyl-tRNA moves A→P and deacylated tRNA P→E. EF-Tu instead supports aminoacyl-tRNA selection.",
+      "reason": "Fix reversed relative-motion explanation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "questions.200.question_text",
+      "old": "A mutation eliminates the activity of release factors in a prokaryotic cell. Which of the following would be the most likely consequence for protein synthesis?",
+      "new": "In a bacterial cell-free reaction lacking both RF1 and RF2 and any rescue pathway, a stop codon reaches the A site. Which immediate consequence is expected?",
+      "reason": "Separate normal release from rescue.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "questions.200.explanation",
+      "old": "Release factors (RF1 and RF2 in prokaryotes) recognize stop codons in the A site and catalyze hydrolysis of the ester bond between the polypeptide and the P-site tRNA, releasing the completed protein. Without release factors, the peptidyl-tRNA bond cannot be hydrolyzed, so the polypeptide remains tethered to the last tRNA and cannot be released from the ribosome. While the ribosome might eventually stall, the key biochemical consequence is failure to release the polypeptide, not a failure of initiation or accelerated elongation. Ribosome rescue pathways would eventually act, but normal termination and protein release would be abolished.",
+      "new": "Without RF1/RF2, normal stop-dependent hydrolysis of the P-site peptidyl-tRNA ester fails, leaving the chain tethered (C). Release factors stimulate the ribosomal catalytic center rather than acting as a separate protease. Cellular rescue pathways can sometimes resolve stalled complexes, but they are excluded here.",
+      "reason": "Remove absolute nohydrolysisever claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    }
+  ]
+}

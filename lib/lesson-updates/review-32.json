@@ -1,0 +1,231 @@
+{
+  "lessonId": 32,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Pyruvate + CO₂ + ATP + H₂O → Oxaloacetate + ADP + Pᵢ",
+      "new": "Pyruvate + HCO₃⁻ + ATP → Oxaloacetate + ADP + Pᵢ (biochemical shorthand)",
+      "reason": "Bicarbonate substrate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "commits the carbon skeleton to gluconeogenesis only when acetyl-CoA is abundant",
+      "new": "can supply gluconeogenesis or replenish TCA intermediates; it does not commit all newly formed OAA to glucose",
+      "reason": "PC anaplerotic notcommitted.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "making this reaction unique among metabolic enzymes",
+      "new": "in the human PEPCK isoenzymes; GTP use is not unique among metabolic enzymes",
+      "reason": "OtherGTPenzymes.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3943549/"
+    },
+    {
+      "field": "content",
+      "old": "Once in the cytoplasm, OAA is regenerated and then acted upon by **PEPCK**, which decarboxylates and phosphorylates OAA to form PEP:",
+      "new": "For the cytosolic route, OAA is regenerated and acted on by **PEPCK-C**. **PEPCK-M** can instead form PEP in mitochondria for export. Route choice interacts with cytosolic NADH supply: lactate oxidation already generates NADH, while malate export can transfer reducing equivalents. The PEPCK reaction is:",
+      "reason": "Missingmitochondrialroute.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3943549/"
+    },
+    {
+      "field": "content",
+      "old": "the energy stored in the phosphoanhydride bond is lost as heat. This is metabolically \"wasteful\" by design: the irreversibility ensures that gluconeogenesis proceeds in one direction.",
+      "new": "a **phosphate ester**, not a phosphoanhydride, is hydrolyzed. The hydrolysis provides a distinct bypass reaction rather than reversing ATP-dependent PFK-1. The two routes are regulated to limit wasteful cycling.",
+      "reason": "Wrongbondtype andpurpose.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "G6Pase is located on the **endoplasmic reticulum (ER) membrane**",
+      "new": "the glucose-producing G6PC1 system is located on the **ER membrane**, with its catalytic site facing the lumen",
+      "reason": "Compartment.",
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/g6pc1/"
+    },
+    {
+      "field": "content",
+      "old": "Lactate + NAD⁺ → Pyruvate + NADH",
+      "new": "Lactate + NAD⁺ ⇌ Pyruvate + NADH + H⁺",
+      "reason": "Protonbalance and reversibility.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "This hepatic oxidation regenerates NAD⁺ and produces pyruvate",
+      "new": "This hepatic oxidation consumes NAD⁺ and produces NADH plus pyruvate",
+      "reason": "Redoxdirectionopposite.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3943549/"
+    },
+    {
+      "field": "content",
+      "old": "Fatty acids themselves *cannot* be converted to glucose in mammals because acetyl-CoA (the product of β-oxidation) cannot be converted to net OAA (the two carbons entering the TCA cycle as acetyl-CoA are both lost as CO₂ before OAA is regenerated).",
+      "new": "Even-chain fatty-acid acetyl units do not give a net gain of OAA through the conventional TCA cycle: two carbons enter and two leave per turn. The newly entering acetyl carbons are retained in the first turn, however. Odd-chain propionyl-CoA can contribute glucose carbon.",
+      "reason": "Exceptionandcarbonidentity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "preventing pyruvate from being committed to the TCA cycle",
+      "new": "reducing pyruvate conversion to acetyl-CoA",
+      "reason": "Notcommitscompleteoxidation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The two activities reside on the same polypeptide, and their balance is controlled by phosphorylation.",
+      "new": "The two activities reside on one polypeptide. The following phosphorylation response describes the **liver isoform**; heart and other isoforms differ.",
+      "reason": "Tissue-specific.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "content",
+      "old": "4. Activates hormone-sensitive lipase in adipose tissue (via cAMP in adipocytes), increasing free fatty acid release, which fuels hepatic oxidative phosphorylation and provides acetyl-CoA to activate pyruvate carboxylase.",
+      "new": "4. Coordinates hepatic fuel use during fasting. Human adipose lipolysis is strongly influenced by reduced insulin and catecholamines; a major direct physiological glucagon→adipocyte HSL effect should not be assumed. Released fatty acids can support hepatic ATP production and acetyl-CoA supply.",
+      "reason": "Humanlipolysis.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/31891768/"
+    },
+    {
+      "field": "content",
+      "old": "insulin opposes glucagon at every level",
+      "new": "insulin generally opposes hepatic glucose production through several mechanisms",
+      "reason": "Notuniversalalllevels.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "Activates protein phosphatase 2A, dephosphorylating PFK-2/FBPase-2",
+      "new": "Favors dephosphorylation of the liver PFK-2/FBPase-2 isoform",
+      "reason": "Avoidsinglephosphataseoverspecification.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "content",
+      "old": "The liver is the dominant gluconeogenic organ, responsible for approximately 80–90% of endogenous glucose production during fasting.",
+      "new": "The liver is a major glucose-producing organ. Its fraction of endogenous glucose production changes with fasting duration and with renal contribution; total glucose production includes glycogenolysis as well as gluconeogenesis.",
+      "reason": "Mixeddenominatorfixedpercentage.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "receives gluconeogenic substrates directly via the portal circulation",
+      "new": "receives substrates from both portal and systemic circulations",
+      "reason": "Musclelactatesystemic.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "The kidneys contribute roughly 10–20% of gluconeogenesis during prolonged fasting.",
+      "new": "The renal contribution rises during prolonged fasting and can approach about 40% of gluconeogenesis in studied settings; it is not fixed at 10–20%.",
+      "reason": "Renalunderestimate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "When gluconeogenesis is maximally active (prolonged fasting)",
+      "new": "During prolonged fasting, as gluconeogenesis continues",
+      "reason": "Notnecessarilymaximalrate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "Leucine and lysine → acetyl-CoA only",
+      "new": "Leucine and lysine → ketogenic products (acetyl-CoA/acetoacetate-related routes)",
+      "reason": "Notonlyacetyl.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "and hypoglycemia worsened by glucagon (which cannot stimulate gluconeogenesis effectively)",
+      "new": "and fasting intolerance. Glucagon cannot bypass the missing gluconeogenic reaction; clinical responses also depend on glycogen stores and other conditions",
+      "reason": "Avoiduniversalworseningclaim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK550349/"
+    },
+    {
+      "field": "content",
+      "old": "Metformin, the first-line drug for type 2 diabetes, lowers blood glucose primarily by **inhibiting hepatic gluconeogenesis**. Its molecular mechanism involves inhibition of mitochondrial complex I, which raises the AMP:ATP ratio and activates **AMPK**. Activated AMPK phosphorylates and inactivates the TORC2/CRTC2 complex (a transcriptional coactivator of gluconeogenic genes), reducing PEPCK and G6Pase expression. AMPK also phosphorylates PFK-2/FBPase-2 in a manner that lowers F2,6BP in some contexts, though the primary effect in hepatocytes is transcriptional.",
+      "new": "Metformin lowers glucose in part by suppressing hepatic glucose production. Experiments implicate respiratory, redox and signaling changes, with effects dependent on exposure and tissue. It is not accurate to present Complex I→AMPK→CRTC2 as the sole established mechanism, to call CRTC2 a TORC2 complex, or to infer reduced F2,6BP as a universal explanation of suppressed gluconeogenesis.",
+      "reason": "OverstatedmechanismconfusedCRTCmTORandF26direction.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/10839993/"
+    },
+    {
+      "field": "questions.156.choice_a",
+      "old": "Fructose-1,6-bisphosphatase catalyzes the same reaction as phosphofructokinase-1 but in the opposite direction, and glycolysis uses phosphofructokinase-1 instead.",
+      "new": "It hydrolyzes F1,6BP to F6P in a gluconeogenic bypass; glycolysis instead uses ATP-dependent PFK-1 to make F1,6BP.",
+      "reason": "Not exactreverse reaction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "questions.156.explanation",
+      "old": "Fructose-1,6-bisphosphatase hydrolyzes fructose-1,6-bisphosphate to fructose-6-phosphate in gluconeogenesis, bypassing the irreversible phosphofructokinase-1 (PFK-1) step of glycolysis. Because glycolysis uses PFK-1 (not fructose-1,6-bisphosphatase) to catalyze the forward reaction, glycolysis is unaffected by this deficiency. Choice B is incorrect because phosphorylation of fructose-6-phosphate is the PFK-1 reaction in glycolysis, not a gluconeogenic step. Choice C confuses this enzyme with PEPCK, which handles the pyruvate-to-PEP bypass.",
+      "new": "A is correct: the hydrolytic FBPase-1 reaction bypasses PFK-1 without synthesizing ATP. It is not the exact reverse of PFK-1. Glycolysis does not require FBPase-1 directly. Pyruvate-to-PEP conversion requires both pyruvate carboxylase and PEPCK, and AMP inhibits FBPase-1.",
+      "reason": "Reactionstoichiometry.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "questions.157.explanation",
+      "old": "Lactate is converted to pyruvate by LDH, then pyruvate carboxylase (requiring biotin and ATP) converts pyruvate to oxaloacetate in the mitochondria, and finally PEPCK converts oxaloacetate to phosphoenolpyruvate (PEP), allowing entry into gluconeogenesis. Choice B is correct that glycerol bypasses PEPCK, entering as DHAP. Choice C is incorrect because alanine is transaminated to pyruvate, which still requires pyruvate carboxylase and PEPCK. Choice D is wrong because acetyl-CoA cannot be converted to net glucose in mammals; fatty acid carbons are not gluconeogenic substrates.",
+      "new": "A correctly traces lactate→pyruvate→OAA→PEP. Glycerol enters at DHAP and bypasses this sequence; alanine supplies pyruvate rather than glucose directly. Even-chain acetyl units do not supply net glucose carbon, but odd-chain propionyl-CoA can. Cytosolic and mitochondrial PEPCK routes both exist.",
+      "reason": "Oddchainexceptionandmito.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "questions.158.choice_b",
+      "old": "A skeletal muscle cell during intense exercise, when ATP is rapidly consumed and AMP accumulates.",
+      "new": "A hepatocyte experiencing rapid ATP use with increased AMP, all else equal.",
+      "reason": "Avoidmuscleasmodelnetgluconeogenesis.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "questions.158.explanation",
+      "old": "During intense exercise, ATP is rapidly hydrolyzed to ADP and then AMP via adenylate kinase, causing AMP to accumulate. High AMP signals low energy, which simultaneously activates PFK-1 (promoting glycolysis to generate ATP) and inhibits fructose-1,6-bisphosphatase (suppressing gluconeogenesis). Choice A describes high-energy conditions where the opposite allosteric pattern would occur. Choice C involves cAMP-mediated signaling, which is distinct from AMP-mediated allosteric regulation. Choice D describes a high-energy, high-NADH state that would favor gluconeogenesis, not glycolysis.",
+      "new": "B provides the stated low-energy signal. Adenylate kinase catalyzes 2 ADP ⇌ ATP + AMP; it does not simply hydrolyze ADP to AMP. AMP favors glycolytic PFK-1 activity and inhibits hepatic FBPase-1. AMP is distinct from the second messenger cAMP.",
+      "reason": "Correctadenylatekinaseandcellcontext.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "questions.159.question_text",
+      "old": "Insulin and glucagon reciprocally regulate gluconeogenesis in the liver. If a researcher adds a glucagon receptor antagonist to isolated hepatocytes during fasting conditions, which of the following outcomes is most expected?",
+      "new": "Glucagon-stimulated hepatocytes are treated with a glucagon receptor antagonist, with other hormonal inputs held constant. Which mechanism most directly favors reduced gluconeogenic flux?",
+      "reason": "Focusdirectionandcontrolledinput.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "questions.159.choice_c",
+      "old": "Increased glycolysis because fructose-2,6-bisphosphate levels would rise, activating PFK-1.",
+      "new": "Lower F2,6BP directly activates FBPase-1 while simultaneously activating PFK-1.",
+      "reason": "OriginalCtrue secondanswer.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "questions.159.explanation",
+      "old": "Glucagon normally binds its receptor, raises cAMP, activates PKA, and promotes gluconeogenesis by increasing PEPCK transcription and activating PFK-2/FBPase-2 to lower fructose-2,6-bisphosphate (F-2,6-BP), which relieves inhibition of fructose-1,6-bisphosphatase. Blocking glucagon signaling would reduce PEPCK expression and allow F-2,6-BP to accumulate, inhibiting gluconeogenesis and stimulating glycolysis. Choice C correctly identifies that F-2,6-BP would rise and activate PFK-1, but the primary expected outcome in the context of gluconeogenesis is its decrease. Choice D is incorrect because while cortisol does support PEPCK transcription, the question asks for the most expected acute outcome of blocking glucagon signaling.",
+      "new": "B is correct: reducing glucagon-dependent PKA signaling opposes the liver-isoform phosphorylation state that lowers F2,6BP, and can oppose gluconeogenic gene expression over longer times. Increased F2,6BP inhibits FBPase-1 and activates PFK-1. Acute enzyme regulation and slower transcriptional responses should not be conflated.",
+      "reason": "Removeacknowledgedtwotrueanswers.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "questions.160.question_text",
+      "old": "A researcher studying gluconeogenesis labels the carbon skeleton of oxaloacetate with a radioactive tracer. After one round of gluconeogenesis producing glucose, in which carbons of glucose would the label most likely appear?",
+      "new": "In a simplified tracer experiment, one uniformly carbon-labeled OAA molecule forms one PEP, losing one labeled CO₂. That three-carbon unit and one entirely unlabeled three-carbon unit form a glucose molecule. Ignore exchange with other pathways. Which labeling pattern is expected?",
+      "reason": "Originallabelpositionandnumberunspecified.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "questions.160.choice_b",
+      "old": "Carbons 1 through 3 or 4 through 6, because each three-carbon PEP molecule contributes one half of the glucose molecule.",
+      "new": "One three-carbon half of glucose is labeled: carbons 1–3 or 4–6, depending on which triose role the labeled unit takes.",
+      "reason": "Specifyoneunit.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "questions.160.explanation",
+      "old": "PEPCK converts oxaloacetate (4 carbons) to PEP (3 carbons) by releasing one CO2, so the remaining 3-carbon PEP retains the labeled carbons from OAA. Two molecules of PEP are combined (via reversal of glycolytic steps) to form one glucose molecule, so the labeled carbons from one OAA-derived PEP would appear in carbons 1-3 or carbons 4-6 of glucose. Choice A is incorrect because CO2 is lost from oxaloacetate, but the remaining carbons are not restricted to positions 1 and 6. Choice C is incorrect because the label is distributed across the three-carbon unit, not just the central carbons. Choice D is incorrect because the aldol condensation (fructose-1,6-bisphosphate to two trioses) does scramble label between the two halves of glucose due to triose phosphate isomerase equilibrium, but the label still appears in defined halves.",
+      "new": "B is correct under the stated assumptions: one uniformly labeled OAA loses one carbon and supplies a labeled three-carbon unit. Aldolase joins two trioses without completely scrambling their carbon skeletons; triose-phosphate isomerization affects which half receives the labeled unit. Real tracer experiments require specifying labeled positions and accounting for exchanges.",
+      "reason": "Aldolcondensationnotcleavage/scrambling.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    }
+  ]
+}

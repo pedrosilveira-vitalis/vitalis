@@ -1,0 +1,222 @@
+{
+  "lessonId": 55,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    271,
+    272,
+    273,
+    274,
+    275
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26815/",
+      "title": "Molecular Biology of the Cell: Principles of membrane transport"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK9903/",
+      "title": "The Cell: Metabolic energy"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26896/",
+      "title": "Molecular Biology of the Cell: Carrier proteins and active membrane transport"
+    },
+    {
+      "url": "https://www.niddk.nih.gov/news/archive/2016/story-discovery-sglt2-inhibitors-harnessing-kidneys-help-treat-diabetes",
+      "title": "NIDDK: Discovery of SGLT2 inhibitors"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+      "title": "Molecular Biology of the Cell: The mitochondrion"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9380678/",
+      "title": "Subunit rotation in E. coli ATP synthase during oxidative phosphorylation"
+    }
+  ],
+  "visual": {
+    "beforeHeading": "Establishing and Exploiting Electrochemical Gradients",
+    "title": "Trace the energy through an enterocyte",
+    "src": "/lesson-diagrams/active-transport-coupling.svg",
+    "width": 900,
+    "height": 760,
+    "alt": "An intestinal enterocyte separates lumen from interstitial fluid. Apical SGLT1 moves two sodium ions with glucose inward. Basolateral sodium-potassium ATPase moves three sodium out and two potassium in using ATP; GLUT2 moves glucose outward down its gradient.",
+    "caption": "Arrows show typical absorptive operation, not an irreversible direction. ATP powers the pump; the Na⁺ gradient powers SGLT1, while GLUT2 mediates passive sugar movement."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "934572ccaa0ed23405b44dc47c7ba386e834d2d0403070bb573dc1d9b77790fc"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "4cd624b90b58347769676c121366229fdaed643d629af197230a174674131b7a"
+    },
+    {
+      "field": "questions.271.question_text",
+      "sha256": "22aa1153d9459c691f6476139dfe20355f40e3fd37d7e99a7ccedbcbf1986c46"
+    },
+    {
+      "field": "questions.271.choice_a",
+      "sha256": "68ed47747a4e9c501390d749c06bea982b207103426ceef839c44b8e8c13bc90"
+    },
+    {
+      "field": "questions.271.choice_b",
+      "sha256": "40cf3b07461cb0047e713e724f680fc4dc36a9d0230d5ff0224f1a65558c47ae"
+    },
+    {
+      "field": "questions.271.choice_c",
+      "sha256": "a0a6fa30bb46026b15b7fd8458d449eb38710b52d3c5b9103107cc70b70142e9"
+    },
+    {
+      "field": "questions.271.choice_d",
+      "sha256": "92beb1275efef67d45e6ccafe03adaf61f061b538ad8075415ff526f5adcc223"
+    },
+    {
+      "field": "questions.271.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.271.explanation",
+      "sha256": "5056c9548e6b5d56e5d54377e24a5bb4374d07c46450a87d21cb3299ac53b6ea"
+    },
+    {
+      "field": "questions.272.question_text",
+      "sha256": "26617318c7239d824651c593e2748a642b86bd68107ddf53ab7e9d7af5b903dc"
+    },
+    {
+      "field": "questions.272.choice_a",
+      "sha256": "e404d98cf3fbe35a92c643ab654143d3b4696d2c31977092f82fb83e503769da"
+    },
+    {
+      "field": "questions.272.choice_b",
+      "sha256": "cd9a1b91f4be89efca2cfb8f0435af4fc017a977c477b0d3727ae5d13a043398"
+    },
+    {
+      "field": "questions.272.choice_c",
+      "sha256": "86be656d535f4ce20e3325859d5b00effb5eac10c394853138689848e4ec57e0"
+    },
+    {
+      "field": "questions.272.choice_d",
+      "sha256": "db063f5cd85fae68f26356ae5b77e0ee00ec995c986cdcabd32aac053a4eb3b7"
+    },
+    {
+      "field": "questions.272.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.272.explanation",
+      "sha256": "68e93067096241dd97af753d496b52a828b4fdbfd429b72c33c1a2591773cc55"
+    },
+    {
+      "field": "questions.273.question_text",
+      "sha256": "c2b7e5777200ac50af43dc8ab178cc2ed8c5f71d76805a37c3244135c3d6aba9"
+    },
+    {
+      "field": "questions.273.choice_a",
+      "sha256": "79dc7e496efdb53b05c3a3733e33ad363585eb07d8394550f13f0ec27969e44e"
+    },
+    {
+      "field": "questions.273.choice_b",
+      "sha256": "ea12b193cfdaed113b58c5444113bea2eb15b4dc601e5e1d3787aef4f635397b"
+    },
+    {
+      "field": "questions.273.choice_c",
+      "sha256": "57cedac316b08f79653d9f636935a1f5fa4c74acfa38d55a208e1fb055c38eb2"
+    },
+    {
+      "field": "questions.273.choice_d",
+      "sha256": "17f0e61c12919e627dabd692d011710a827864b5f95818cb3f27e715e943ae41"
+    },
+    {
+      "field": "questions.273.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.273.explanation",
+      "sha256": "1a6e5f98852ddd77f5d7d3c702f1bd585b7f88478cc58ba067381712d8f0c073"
+    },
+    {
+      "field": "questions.274.question_text",
+      "sha256": "76d340adb711936520b34f129264b100a335d3c81dde59a590365cbef644e151"
+    },
+    {
+      "field": "questions.274.choice_a",
+      "sha256": "3ca2b442cf228290b12c061da18a05a3be7aa871645cb0ffe917f2bcd706ec73"
+    },
+    {
+      "field": "questions.274.choice_b",
+      "sha256": "8d51e11ac8f5e3a6c927592bd3519a5c0ec17f7544852215b1ad15e507f6feb5"
+    },
+    {
+      "field": "questions.274.choice_c",
+      "sha256": "67e0f8fa9ddb7221571e54e271d9d3d1535cbd229b49b20503e89a08e0fd204b"
+    },
+    {
+      "field": "questions.274.choice_d",
+      "sha256": "76b098084e5800d87d365904f8a264f15a15da1e971e0742c2525d816a3aa55d"
+    },
+    {
+      "field": "questions.274.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.274.explanation",
+      "sha256": "0b7fcabaff0f938fbc8e400a6d4b01490d2bfe6069e67056cf65f2ca95f610c3"
+    },
+    {
+      "field": "questions.275.question_text",
+      "sha256": "9e45e42e12eff0b99db062d12525f963fe2a50e34617684aaba2b5f5c758c488"
+    },
+    {
+      "field": "questions.275.choice_a",
+      "sha256": "264cf2730f67830dc9c066bc79be4d66c446f2710a62d05a532acde354d733ae"
+    },
+    {
+      "field": "questions.275.choice_b",
+      "sha256": "653207655f99ac4822e54c3631d95da8e58252f4a0f0eb416f6b79175c542ce6"
+    },
+    {
+      "field": "questions.275.choice_c",
+      "sha256": "8353934903545da0806e8ffff5339390fd58df11489b69e4cdf0204b11fe72c3"
+    },
+    {
+      "field": "questions.275.choice_d",
+      "sha256": "fc7b79aa5f33fa114cd08da67f34fcdf1db57db91612cd64ddf08b3ae8a22449"
+    },
+    {
+      "field": "questions.275.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.275.explanation",
+      "sha256": "d7a9aa5c2319be4c28ebd599d7748ede1562e9687f314e5282167944c63f6c14"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Active Transport: Pumps, Gradients, and Energy Coupling\n\n### Overview and Why This Matters\n\nEvery living cell maintains an internal environment that differs dramatically from its surroundings. Sodium concentrations inside a typical mammalian cell hover around 12 mM, while the extracellular fluid contains roughly 145 mM. Potassium shows the reverse: approximately 140 mM inside versus 4–5 mM outside. These gradients do not arise spontaneously, nor do they persist without continuous energy investment. They are the product of **active transport** — the movement of solutes against their electrochemical gradients, powered by cellular energy.\n\nUnderstanding active transport is essential for the MCAT because it underlies virtually every physiological system you will encounter: nerve impulse generation, muscle contraction, renal reabsorption, intestinal absorption, cardiac function, and pharmacology. Questions frequently require you to predict what happens when a pump is inhibited, how a secondary transporter depends on a primary one, or how membrane potential is established and maintained. Mastering this topic means understanding not just the mechanisms in isolation, but how they are coupled and what happens when coupling fails.\n\n---\n\n## Electrochemical Gradients: The Foundation\n\nBefore examining specific pumps and transporters, you must understand what an **electrochemical gradient** actually is. Solute movement across membranes is governed by two forces simultaneously:\n\n- **Chemical gradient**: the difference in concentration of the solute across the membrane. Solutes tend to diffuse from high to low concentration.\n- **Electrical gradient**: the difference in charge across the membrane. Charged solutes are attracted toward the side with opposite charge.\n\nThe combined influence of these two forces is the **electrochemical gradient** (a difference in **electrochemical potential** between the two sides). For a given ion, the electrochemical gradient determines the net driving force for movement. When both forces point in the same direction, the driving force is strong. When they oppose each other, the net force is reduced — and at a specific voltage called the **equilibrium potential**, the two forces exactly cancel and there is no net movement.\n\nThe **Nernst equation** calculates the equilibrium potential for a single ion:\n\nE = (RT/zF) × ln([X]_out / [X]_in)\n\nAt physiological temperature (37°C), this simplifies to approximately (61.5/z) × log([X]_out / [X]_in) millivolts. For sodium (z = +1), with 145 mM outside and 12 mM inside, the Nernst potential is approximately +67 mV. Because the actual resting membrane potential is around −70 mV, both the chemical gradient (high outside) and the electrical gradient (negative interior attracting positive ions) drive sodium *into* the cell. This means sodium entry is strongly thermodynamically favored — a fact that secondary active transport exploits relentlessly.\n\nFor potassium (z = +1), with 140 mM inside and 4 mM outside, the Nernst potential is approximately −94 mV. The resting membrane potential of −70 mV is less negative than −94 mV, so there is a small net driving force pushing potassium *out* of the cell. Potassium leak channels allow this efflux, which itself contributes to maintaining the negative resting potential.\n\n**The resting membrane potential** of approximately −70 mV in neurons (ranging from −40 mV to −90 mV in different cell types) is itself a product of active transport and selective permeability working together. Active transport does not just move solutes — it creates the electrical landscape that governs all membrane-based physiology.\n\n---\n\n## Primary Active Transport\n\n**Primary active transport** uses energy directly — almost always from ATP hydrolysis — to move solutes against their electrochemical gradients. The proteins that accomplish this are called **pumps** or **ATPases**. ATP-driven pumps couple conformational changes to ATP hydrolysis. Breaking a bond alone costs energy; the overall hydrolysis reaction is favorable because its products have lower free energy. Cellular ΔG depends on ATP, ADP, phosphate and conditions; −54 kJ/mol is an illustrative value, not a constant.\n\n### The Na⁺/K⁺-ATPase (Sodium-Potassium Pump)\n\nThe **Na⁺/K⁺-ATPase** is the most important pump for the MCAT and arguably for mammalian physiology as a whole. It is a **P-type ATPase**, meaning it forms a phosphorylated intermediate during its catalytic cycle. Its core includes a catalytic α subunit and a β subunit important for folding, trafficking and stability; FXYD proteins can provide additional regulation.\n\n**The transport stoichiometry is critical**: for every ATP hydrolyzed, the pump moves **3 Na⁺ out** of the cell and **2 K⁺ in**. This ratio is not arbitrary. Because three positive charges leave and only two return, each cycle results in a net export of one positive charge. This makes the Na⁺/K⁺-ATPase **electrogenic** — it directly contributes to the negative interior charge of the resting membrane potential, with a contribution that varies by cell type and activity; the resting potential also depends strongly on ion-selective permeability.\n\n**The catalytic cycle** proceeds through two major conformational states:\n\n- **E1 conformation**: high affinity for Na⁺, faces the cytoplasm. Three Na⁺ ions bind to the cytoplasmic face.\n- **ATP hydrolysis and phosphorylation**: ATP phosphorylates an aspartate residue on the α subunit. This drives the conformational change to E2.\n- **E2 conformation**: low affinity for Na⁺, faces the extracellular space. Na⁺ is released extracellularly. Two K⁺ ions bind from outside.\n- **Dephosphorylation**: K⁺ binding stimulates dephosphorylation, returning the pump to E1. K⁺ is released into the cytoplasm.\n\nThis cycle repeats approximately 100–200 times per second under normal conditions. A single neuron may have millions of these pumps, and in some tissues (like the kidney), the Na⁺/K⁺-ATPase consumes up to 70% of total cellular ATP.\n\n**Pharmacological relevance**: **Cardiac glycosides** such as **digoxin** and **ouabain** inhibit the Na⁺/K⁺-ATPase by binding to the extracellular face of the α subunit during the E2 state, blocking K⁺ binding and preventing dephosphorylation. When the pump is inhibited, intracellular Na⁺ rises. This blunts the Na⁺ gradient that drives the **Na⁺/Ca²⁺ exchanger** (which normally exports Ca²⁺ using the inward Na⁺ gradient). With less Na⁺ gradient available, less Ca²⁺ is exported, so intracellular Ca²⁺ rises, increasing the force of cardiac contraction. This is the therapeutic mechanism in heart failure. On the MCAT, you may be asked to trace this multi-step cascade — know it cold.\n\n### The Ca²⁺-ATPase (SERCA and PMCA)\n\n**Calcium pumps** are another important class of P-type ATPases. The **sarco/endoplasmic reticulum Ca²⁺-ATPase (SERCA)** pumps Ca²⁺ from the cytoplasm into the ER/SR lumen, maintaining cytoplasmic Ca²⁺ at approximately 100 nM (versus ~1 mM in the ER and ~1–2 mM extracellularly). For each ATP hydrolyzed, SERCA moves **2 Ca²⁺** ions. This is essential for muscle relaxation — after a contraction, SERCA rapidly sequesters Ca²⁺ back into the SR, allowing Ca²⁺ to dissociate from troponin C in striated muscle so the troponin–tropomyosin complex again restricts actin–myosin interaction.\n\nThe **plasma membrane Ca²⁺-ATPase (PMCA)** pumps Ca²⁺ out of the cell entirely and is regulated by calmodulin.\n\n### The H⁺/K⁺-ATPase (Proton Pump of the Stomach)\n\nIn gastric parietal cells, the **H⁺/K⁺-ATPase** pumps H⁺ into the stomach lumen in exchange for K⁺, generating the extremely low pH (1–2) of gastric acid. This pump is the target of **proton pump inhibitors (PPIs)** such as omeprazole, which irreversibly inhibit it by covalently modifying a cysteine residue. PPIs are among the most commonly prescribed drugs worldwide, used for GERD and peptic ulcer disease.\n\n### The H⁺-ATPase (V-type ATPase)\n\n**V-type ATPases** (vacuolar ATPases) acidify intracellular compartments including lysosomes, endosomes, and the Golgi apparatus. Lysosomal pH of approximately 4.5–5.0 is essential for the acid hydrolases that degrade macromolecules. V-type ATPases pump protons using ATP hydrolysis but do not form a phosphorylated intermediate — they are mechanistically distinct from P-type ATPases.\n\n---\n\n## Secondary Active Transport\n\n**Secondary active transport** does not use ATP directly. Instead, it harnesses the electrochemical gradient of one solute — often Na⁺ in animal plasma membranes, although H⁺ and other gradients also power important transporters — to drive the uphill transport of another solute. The energy is stored in the Na⁺ gradient itself, which was established at the cost of ATP by the Na⁺/K⁺-ATPase. This is the essence of **energy coupling**: ATP energy is converted into ionic gradient energy, which is then used as currency for secondary transport.\n\nSecondary active transporters fall into two categories based on the direction of transport:\n\n### Symporters (Co-transporters)\n\n**Symporters** move two solutes in the *same direction* across the membrane. The \"downhill\" movement of Na⁺ into the cell (driven by its electrochemical gradient) provides the energy to drag a second solute *into* the cell even against its own concentration gradient.\n\n**The Na⁺/glucose co-transporter (SGLT)** is the archetypal example. In intestinal epithelial cells and renal proximal tubule cells, SGLT1 (intestine and late proximal tubule) couples 2 Na⁺ to 1 glucose, whereas SGLT2 (early proximal tubule) couples 1 Na⁺ to 1 glucose. Even when luminal glucose concentrations are low, the steep Na⁺ gradient provides enough energy to pull glucose in against its gradient. The glucose that accumulates intracellularly then exits the cell on the basolateral side via GLUT2, a facilitated diffusion transporter, moving down its concentration gradient into the bloodstream.\n\nThis **transcellular transport** mechanism is how the intestine absorbs virtually all dietary glucose and how the kidney normally reabsorbs nearly all filtered glucose below its transport capacity. SGLT2 handles the majority, often approximated as 90%; downstream SGLT1 recovers the remainder. **SGLT2 inhibitors** (gliflozins, e.g., empagliflozin) are a major class of diabetes drugs that block renal glucose reabsorption, causing glucosuria and lowering blood glucose.\n\n**The Na⁺/amino acid co-transporters** work similarly, using the Na⁺ gradient to absorb amino acids in the intestine and kidney. There are multiple families of these transporters with different amino acid specificities.\n\n**The Na⁺-K⁺-2Cl⁻ co-transporter (NKCC)** is important in the thick ascending limb of the loop of Henle, where it moves 1 Na⁺, 1 K⁺, and 2 Cl⁻ into the cell together. **Loop diuretics** such as furosemide block NKCC2, impairing the kidney's ability to concentrate urine and producing a powerful diuretic effect.\n\n### Antiporters (Exchangers)\n\n**Antiporters** move two solutes in *opposite directions* across the membrane. One solute moves down its electrochemical gradient while the other is moved against its gradient.\n\n**The Na⁺/H⁺ exchanger (NHE)** is critical for intracellular pH regulation. Na⁺ entering the cell down its gradient drives H⁺ out of the cell, helping to alkalinize the cytoplasm during acidosis. NHE is particularly important in the kidney and intestine for acid-base balance.\n\n**The Na⁺/Ca²⁺ exchanger (NCX)** commonly uses inward Na⁺ movement to export Ca²⁺, but its direction can reverse as voltage and ion gradients change. The stoichiometry is **3 Na⁺ in for 1 Ca²⁺ out**, making it electrogenic (net movement of 1 positive charge inward). NCX is the major mechanism for Ca²⁺ extrusion from cardiac myocytes. As noted above, when the Na⁺ gradient is reduced (by Na⁺/K⁺-ATPase inhibition), NCX function is impaired and intracellular Ca²⁺ rises.\n\n**The Cl⁻/HCO₃⁻ exchanger (AE1, Band 3)** in red blood cells moves Cl⁻ in as HCO₃⁻ moves out (or vice versa). This is electrically neutral (1:1 exchange of monovalent anions); anion exchange is not intrinsically uphill in every condition. It facilitates CO₂ transport: CO₂ produced in tissues is hydrated to H₂CO₃ by carbonic anhydrase, dissociating to H⁺ + HCO₃⁻. The HCO₃⁻ is exported via AE1 in exchange for Cl⁻ (the **chloride shift**), allowing more CO₂ to be carried as bicarbonate in the plasma.\n\n---\n\n## Establishing and Exploiting Electrochemical Gradients\n\n### The Sodium Gradient as Universal Energy Currency\n\nIn animal cells, the Na⁺ gradient functions as a **rechargeable battery**. The Na⁺/K⁺-ATPase continuously charges this battery using ATP. Secondary transporters then discharge it to accomplish useful work. The beauty of this system is efficiency: a single Na⁺/K⁺-ATPase can indirectly power dozens of secondary transporters. The energy from one ATP molecule, stored as Na⁺ gradient, can be parceled out across multiple transport events.\n\nThis is why the Na⁺/K⁺-ATPase is so energetically expensive and why it must run continuously. If ATP is depleted (as in ischemia), the Na⁺ gradient collapses within minutes. Na⁺-dependent transport weakens or can reverse; Ca²⁺ regulation and volume control deteriorate. Passive GLUT-mediated glucose transport need not stop simply because the Na⁺ gradient falls. The course depends on cell type and available energy reserves. This cascade of events underlies ischemic cell death.\n\n### The Proton Gradient in Mitochondria\n\nIn bacteria and mitochondria, the equivalent of the Na⁺ gradient is the **proton gradient** (also called the **proton motive force**). The electron transport chain pumps H⁺ across the inner mitochondrial membrane (from matrix to intermembrane space), creating both a pH gradient (ΔpH ≈ 1 unit, more acidic in the IMS) and an electrical gradient (membrane potential ΔΨ ≈ −180 mV, negative in matrix). Together, these constitute the proton motive force.\n\n**ATP synthase (Complex V)** is a rotary F-type enzyme. In its synthesis mode it couples downhill proton movement to ATP synthesis; in the reverse mode ATP hydrolysis can drive proton pumping. It is not a Na⁺-coupled secondary carrier. Protons flow down their electrochemical gradient through ATP synthase, and the energy released drives the phosphorylation of ADP to ATP. This is **chemiosmotic coupling**, the mechanism responsible for the majority of cellular ATP production (commonly estimated as ~26–28 of ~30–32 ATP per glucose under standard textbook assumptions).\n\n**Uncouplers** like **2,4-dinitrophenol (DNP)** dissipate the proton gradient by carrying H⁺ across the membrane independently of ATP synthase. This uncouples electron transport from ATP synthesis — the ETC continues running (consuming NADH and O₂) but the energy is released as heat rather than stored as ATP. DNP was used as a weight loss drug in the 1930s before its toxicity (hyperthermia, death) was recognized. Brown adipose tissue uses a regulated uncoupling protein (**UCP1/thermogenin**) to generate heat for thermoregulation in newborns and hibernating mammals.\n\n### Membrane Potential and the Action Potential\n\nThe electrochemical gradients maintained by primary active transport are the substrate for electrical signaling. In a neuron at rest:\n\n- Na⁺ is poised to rush in (strong electrochemical gradient inward)\n- K⁺ has a small gradient driving it out\n- The resting potential is approximately −70 mV\n\nWhen a stimulus depolarizes the membrane to threshold (approximately −55 mV), **voltage-gated Na⁺ channels** open. Na⁺ floods in along its electrochemical gradient, rapidly depolarizing the membrane to approximately +30 to +40 mV. This is the **action potential** upstroke. Na⁺ channels then inactivate, and voltage-gated K⁺ channels open, allowing K⁺ to flow out and repolarize the membrane.\n\nAfter each action potential, the Na⁺/K⁺-ATPase must restore the ionic gradients. Interestingly, a single action potential moves only a tiny fraction of the total Na⁺ and K⁺ across the membrane — gradients are not meaningfully depleted by a single spike. But during sustained high-frequency firing, the pump must work harder to keep up.\n\n---\n\n## Membrane Transport Proteins: Structure and Classification\n\n### P-type ATPases\n\nNamed for the **phosphorylated intermediate** they form during catalysis. Examples: Na⁺/K⁺-ATPase, SERCA, PMCA, H⁺/K⁺-ATPase. Vanadate inhibits many P-type ATPases by stabilizing a phosphate-transition-state-like complex; sensitivity varies with the enzyme and conditions.\n\n### V-type ATPases\n\n**Vacuolar-type** ATPases acidify intracellular compartments. They do not form phosphorylated intermediates. They consist of a cytoplasmic V₁ domain (ATP hydrolysis) and a membrane-embedded V₀ domain (proton translocation), structurally similar to the F-type ATP synthase.\n\n### F-type ATPases (ATP Synthase)\n\n**F-type ATPases** in mitochondria and bacteria normally run in reverse — using proton gradients to synthesize ATP. They contain an F₁ catalytic head on the mitochondrial matrix side (cytoplasmic side in bacteria) and a membrane F₀ sector. Proton flow rotates the c-ring and central rotor shaft relative to the largely stationary α₃β₃ catalytic head; this changes β-subunit conformations during ATP synthesis.\n\n### ABC Transporters\n\n**ATP-binding cassette (ABC) transporters** use ATP binding and hydrolysis to drive conformational changes that transport substrates across membranes. They are primary active transporters but structurally distinct from P-type ATPases. Important examples include:\n\n- **CFTR (Cystic Fibrosis Transmembrane conductance Regulator)**: actually a Cl⁻ channel regulated by ATP hydrolysis, not a pump. Mutations cause cystic fibrosis.\n- **MDR1 (P-glycoprotein)**: exports hydrophobic drugs from cells, causing multidrug resistance in cancer.\n- **TAP transporters**: move peptides into the ER lumen for MHC class I antigen presentation.\n\n---\n\n## Physiological Integration: Case Studies\n\n### Intestinal Glucose Absorption\n\nThe intestinal epithelium illustrates the elegant integration of primary and secondary active transport. On the **apical surface** (facing the intestinal lumen), SGLT1 uses the Na⁺ gradient to co-transport Na⁺ and glucose into the enterocyte. On the **basolateral surface** (facing the bloodstream), the Na⁺/K⁺-ATPase continuously pumps Na⁺ out of the cell, maintaining the low intracellular Na⁺ that drives SGLT1. Glucose exits the basolateral surface via GLUT2 by facilitated diffusion.\n\nThis arrangement — active transport on the apical surface powered by a pump on the basolateral surface — is the paradigm for **transcellular transport** in many absorptive epithelia, although transporter identities and directionality vary by tissue. The same logic applies to amino acid absorption, renal glucose reabsorption, and many other processes.\n\n### Renal Tubular Transport\n\nThe kidney provides perhaps the richest example of active transport physiology. In the **proximal tubule**, SGLT2 reabsorbs ~90% of filtered glucose, and various Na⁺-coupled transporters reabsorb amino acids, phosphate, and other solutes. In the **thick ascending limb**, NKCC2 reabsorbs Na⁺, K⁺, and Cl⁻ (target of loop diuretics). In the **late distal nephron, connecting tubule and collecting duct**, Na⁺ channels (ENaC) allow Na⁺ reabsorption driven by the electrochemical gradient, with aldosterone regulating ENaC expression.\n\nThe **H⁺-ATPase** in intercalated cells of the collecting duct secretes H⁺ into the tubular lumen, a critical mechanism for urinary acidification and systemic pH regulation.\n\n### Cardiac Physiology and Digoxin\n\nAs discussed under Na⁺/K⁺-ATPase pharmacology, digoxin inhibits the pump, raising intracellular Na⁺, which secondarily raises intracellular Ca²⁺ via NCX. The increased Ca²⁺ enhances contractility (**positive inotropic effect**). This is beneficial in heart failure but toxic in overdose — excess Ca²⁺ causes arrhythmias. Digoxin toxicity is worsened by hypokalemia (low extracellular K⁺), because K⁺ normally competes with digoxin for binding to the pump; less K⁺ means digoxin binds more effectively, increasing its inhibitory effect.\n\n---\n\n## Key Numbers and Facts for the MCAT\n\n- **Na⁺/K⁺-ATPase stoichiometry**: 3 Na⁺ out, 2 K⁺ in, 1 ATP hydrolyzed per cycle\n- **Resting membrane potential**: approximately −70 mV in neurons\n- **Intracellular Na⁺**: ~12 mM; extracellular: ~145 mM\n- **Intracellular K⁺**: ~140 mM; extracellular: ~4–5 mM\n- **Intracellular Ca²⁺**: ~100 nM (free); extracellular: ~1–2 mM\n- **Lysosomal pH**: ~4.5–5.0 (maintained by V-type H⁺-ATPase)\n- **Gastric pH**: 1–2 (maintained by H⁺/K⁺-ATPase)\n- **SGLT1**: intestinal glucose/galactose absorption (2 Na⁺ : 1 glucose)\n- **SGLT2**: renal glucose reabsorption (~90% of filtered load)\n- **NCX stoichiometry**: 3 Na⁺ in : 1 Ca²⁺ out (electrogenic)\n- **NKCC2**: 1 Na⁺ + 1 K⁺ + 2 Cl⁻ (target of loop diuretics)\n\n---\n\n## Summary\n\nActive transport is the engine of cellular physiology. **Primary active transport** — exemplified by the Na⁺/K⁺-ATPase, SERCA, H⁺/K⁺-ATPase, and V-type ATPases — uses ATP hydrolysis directly to move ions against their electrochemical gradients. These pumps establish the ionic asymmetries that define the living cell.\n\n**Secondary active transport** exploits these gradients without directly consuming ATP. **Symporters** use the downhill movement of Na⁺ (or H⁺ in bacteria and mitochondria) to co-transport other solutes against their gradients in the same direction. **Antiporters** use the same driving force to move a second solute in the opposite direction.\n\nThe Na⁺ gradient is the master energy currency of animal cell membranes, recharged continuously by the Na⁺/K⁺-ATPase at enormous ATP cost. The proton gradient serves the equivalent role in mitochondria, powering ATP synthesis itself through the F-type ATP synthase. Both represent the same fundamental principle: **energy stored in ionic gradients can be coupled to do work**, whether that work is transporting nutrients, generating electrical signals, or synthesizing ATP.\n\nFor the MCAT, always trace the energy chain: ATP → Na⁺ gradient → secondary transport. Understand what happens when any link in this chain is broken. Know the stoichiometries, the pharmacological targets, and the physiological consequences of pump inhibition. These questions reward mechanistic thinking over memorization — and the mechanisms, once understood, are elegant in their logic."
+    },
+    {
+      "field": "questions.271.explanation",
+      "value": "Three Na⁺ leave and two K⁺ enter, so one net positive charge leaves per pump cycle. Electrogenicity means net charge transfer. It does not mean each transported ion must move uphill against both its concentration and electrical gradients separately."
+    },
+    {
+      "field": "questions.273.question_text",
+      "value": "A membrane protein couples downhill Na⁺ entry to uphill Ca²⁺ extrusion, with no direct ATP hydrolysis. What type of transport does this describe?"
+    },
+    {
+      "field": "questions.274.explanation",
+      "value": "The immediate driving force for Na⁺ flow through an open voltage-gated channel is its electrochemical gradient. The Na⁺/K⁺ pump maintains ion gradients over time and can continue working during a spike; it does not directly power each channel-mediated ion movement."
+    },
+    {
+      "field": "questions.275.explanation",
+      "value": "The leak exceeds pump capacity, so Na⁺ accumulates. Under the stated conditions counterion movement permits net osmolyte accumulation and water follows, causing swelling. Increased permeability changes conductance, not the electrochemical driving force itself; gradients and voltage evolve as ions move."
+    },
+    {
+      "field": "questions.275.question_text",
+      "value": "A drug creates a large Na⁺ leak that exceeds the intact Na⁺/K⁺ pump’s maximum capacity. Assume counterion movement permits net salt accumulation, water is permeable and volume regulation cannot compensate. What outcome is most likely after prolonged treatment?"
+    }
+  ]
+}

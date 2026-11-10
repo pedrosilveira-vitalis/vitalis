@@ -1,0 +1,276 @@
+{
+  "lessonId": 4,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Full lesson and all five questions read. Corrections rechecked against linked sources; inaccurate absolutes and ambiguous quiz items repaired. This is not an exhaustive accuracy certification. Broad MCAT frequency claims are not independently verified.",
+  "sources": [
+    {
+      "title": "OpenStax: Amino acid structures",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "title": "NCBI: Malate-aspartate shuttle",
+      "url": "https://www.ncbi.nlm.nih.gov/medgen/273544"
+    },
+    {
+      "title": "OpenStax: Amino acid charge and isoelectric points",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "title": "Ribosomal peptidyl transferase chemistry",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "title": "Pace et al.: Protein absorption coefficients",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8563639/"
+    },
+    {
+      "title": "OpenStax: Protein structure",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "title": "Oculocutaneous albinism",
+      "url": "https://medlineplus.gov/genetics/condition/oculocutaneous-albinism/"
+    },
+    {
+      "title": "Homocystinuria",
+      "url": "https://medlineplus.gov/genetics/condition/homocystinuria/"
+    },
+    {
+      "title": "Phenylketonuria",
+      "url": "https://www.medlineplus.gov/genetics/condition/phenylketonuria/"
+    }
+  ],
+  "replacements": [
+    {
+      "field": "content",
+      "old": "higher atomic mass altering priority rankings",
+      "new": "higher atomic number altering priority rankings",
+      "reason": "CIP priorities use atomic number, not atomic mass (except isotopes).",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "a free amino acid in solution exists as a **zwitterion**—a molecule with no net charge but with internal positive and negative charges.",
+      "new": "a free amino acid with a neutral side chain predominantly exists as a **zwitterion**—a molecule with no net charge but with internal positive and negative charges. Ionizable side chains can produce a nonzero net charge.",
+      "reason": "Charged side chains invalidate blanket net-neutral claim.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "an **imino acid** rather than an amino acid in the strict sense",
+      "new": "a secondary amino acid (historically called an **imino acid**)",
+      "reason": "Proline has a secondary amine, not an imine.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "**aspartate-glutamate shuttle**",
+      "new": "**malate-aspartate shuttle**",
+      "reason": "Correct shuttle name.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/medgen/273544"
+    },
+    {
+      "field": "content",
+      "old": "These amino acids have side chains that carry a positive charge at physiological pH.",
+      "new": "Lysine and arginine have predominantly positive side chains at physiological pH; histidine is classified as basic but its side chain is mostly neutral when its pKa is about 6.0.",
+      "reason": "Histidine charge caveat.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "This pKa is closest to physiological pH among all ionizable side chains",
+      "new": "This pKa permits proton exchange near neutral pH",
+      "reason": "Cysteine pKa8.3 is numerically closer to7.4 than histidine6.0.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "preventing the residue from fitting into standard alpha-helical or beta-sheet geometries",
+      "new": "restricting its conformations and often disrupting internal alpha-helical or beta-sheet hydrogen bonding because an internal proline lacks an amide hydrogen",
+      "reason": "Proline can occur in helices; phi near-60 is compatible.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "**Charged at pH 7.4**: Asp (D), Glu (E), Lys (K), Arg (R), His (H) — know their charges and pKa values",
+      "new": "**Predominantly charged at pH 7.4**: Asp (D), Glu (E), Lys (K), Arg (R); His (H) is mostly neutral at a side-chain pKa of 6.0 — know their charges and pKa values",
+      "reason": "Histidine predominantly neutral.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "**Cys thiol**: pKa ≈ 8.3 (mostly deprotonated at physiological pH)",
+      "new": "**Cys thiol**: pKa ≈ 8.3 (mostly protonated at physiological pH; about 11% deprotonated at pH 7.4)",
+      "reason": "Henderson-Hasselbalch calculation.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "questions.20.question_text",
+      "old": "Which feature of amino acid structure is directly responsible for the formation of the peptide bond during protein synthesis?",
+      "new": "Which pair of amino acid functional groups supplies the atoms of a peptide bond?",
+      "reason": "Avoid asserting direct water release on ribosome.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "questions.20.choice_b",
+      "old": "The carboxyl group of one amino acid reacting with the amino group of another, releasing water.",
+      "new": "The carboxyl-derived carbonyl of one amino acid and the amino nitrogen of another.",
+      "reason": "Ribosomal reaction is ester aminolysis.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "questions.20.explanation",
+      "old": "Peptide bond formation is a condensation reaction in which the carboxyl group (-COOH) of one amino acid reacts with the alpha-amino group (-NH2) of another, releasing a water molecule and forming the -CO-NH- peptide linkage. The R-groups do not participate in peptide bond formation; they remain as side chains that determine amino acid identity and protein properties. Choice A is incorrect because R-groups are not involved. Choices C and D misidentify the reactive groups and byproducts.",
+      "new": "The peptide linkage joins the carboxyl-derived carbonyl of one amino acid to the alpha-amino nitrogen of another. Formally, condensation of free amino acids releases water; during translation the amino group attacks a peptidyl-tRNA ester, releasing the deacylated tRNA rather than water. Side chains generally do not form the backbone peptide bond.",
+      "reason": "Distinguish formal condensation from translation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "field": "content",
+      "old": "Four distinct groups are bonded to this central carbon:",
+      "new": "Four substituents are bonded to this central carbon (two are hydrogen in glycine):",
+      "reason": "Glycine does not have four distinct substituents.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "### The Amino Group\n\nAt physiological pH",
+      "new": "### The Amino Group\n\nThe following charges describe free amino acids, not internal peptide amides; proline has a secondary amino group. At physiological pH",
+      "reason": "Distinguish free backbone groups and proline exception.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "amino acids are chiral and exist predominantly as the **L-enantiomer** in biological systems",
+      "new": "amino acids have a chiral alpha carbon; ribosomal proteins use the **L-configuration**",
+      "reason": "Scope stereochemistry to protein synthesis; D amino acids also occur in biology.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "placing the pI in the basic range (~8–12)",
+      "new": "giving pI values of roughly 7.6 (His), 9.7 (Lys), and 10.8 (Arg)",
+      "reason": "Correct basic amino acid pI range.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "A titration curve for a simple amino acid shows two inflection points corresponding to pKa1 and pKa2, with two buffering plateaus.",
+      "new": "A simple amino-acid titration has two buffering regions near its pKa values; these are half-equivalence points. The steeper equivalence regions are distinct.",
+      "reason": "Separate buffering from equivalence.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "the molecule has minimum solubility in water (relevant to isoelectric focusing techniques)",
+      "new": "solubility is often lower; isoelectric focusing separates molecules by migration to their pI in a pH gradient",
+      "reason": "Do not confuse precipitation with isoelectric focusing.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "Strongly absorbs UV light at ~257 nm.",
+      "new": "Absorbs near 257 nm, with little contribution at 280 nm.",
+      "reason": "Phenylalanine is a weak contributor at A280.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8563639/"
+    },
+    {
+      "field": "content",
+      "old": "is highly nucleophilic and can form",
+      "new": "has a more nucleophilic conjugate base (thiolate, –S⁻) and can form",
+      "reason": "Differentiate thiol and thiolate reactivity.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "The amide group cannot ionize but participates in hydrogen bonding.",
+      "new": "The side-chain amide is neutral over the usual biological pH range and participates in hydrogen bonding.",
+      "reason": "Avoid an unrestricted absolute claim.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "### Basic Amino Acids (Positively Charged at pH 7.4)",
+      "new": "### Basic Amino Acids (Histidine Is Mostly Neutral at pH 7.4)",
+      "reason": "Keep heading consistent with corrected body.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "fully protonated at physiological pH",
+      "new": "predominantly protonated at physiological pH",
+      "reason": "Protonation is an equilibrium.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "always positively charged under physiological conditions",
+      "new": "predominantly positively charged at physiological pH",
+      "reason": "Avoid absolute charge claims.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "Histidine is the most common residue in **enzyme active sites** requiring acid-base catalysis",
+      "new": "Histidine participates in many **enzyme active sites** requiring acid-base catalysis",
+      "reason": "Remove unsupported superlative.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "content",
+      "old": "fixes the **phi (φ) dihedral angle**",
+      "new": "restricts the **phi (φ) dihedral angle**",
+      "reason": "Conformational restriction is not a single fixed angle.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "field": "content",
+      "old": "(always protonated under physiological conditions)",
+      "new": "(predominantly protonated at physiological pH)",
+      "reason": "Keep summary consistent.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "The MCAT does not require memorization of every pKa to three decimal places, but you must know approximate values and relative rankings:",
+      "new": "Use approximate values for reasoning and use the values supplied in a question when given. Values vary with conditions and the protein environment:",
+      "reason": "Avoid unsupported exam policy and acknowledge pKa variability.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "For the MCAT, the most heavily tested amino acids are typically",
+      "new": "Useful examples to connect chemistry with function include",
+      "reason": "Remove unverified exam frequency ranking.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+    },
+    {
+      "field": "content",
+      "old": "- **Albinism**: Deficiency in enzymes of the tyrosine-to-melanin pathway; tyrosine cannot be converted to melanin.",
+      "new": "- **Oculocutaneous albinism**: Several genetic causes impair melanin production. Some involve tyrosinase, but not all forms eliminate melanin synthesis completely.",
+      "reason": "Albinism is genetically heterogeneous.",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/oculocutaneous-albinism/"
+    },
+    {
+      "field": "content",
+      "old": "- **Homocystinuria**: Defects in cystathionine beta-synthase impair conversion of homocysteine to cysteine; elevated homocysteine is associated with cardiovascular disease.",
+      "new": "- **Classic homocystinuria**: Cystathionine beta-synthase deficiency impairs homocysteine-to-cystathionine conversion, an upstream step toward cysteine, and increases thrombosis risk. Other genetic forms affect remethylation to methionine.",
+      "reason": "Name immediate product and distinguish forms.",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/homocystinuria/"
+    },
+    {
+      "field": "content",
+      "old": "Accumulation of phenylalanine and its metabolites causes intellectual disability. Treatment involves a diet low in phenylalanine.",
+      "new": "Untreated high phenylalanine can damage brain development. Treatment includes medically supervised phenylalanine restriction and, for some patients, additional therapies.",
+      "reason": "Avoid inevitable outcome and incomplete universal treatment framing.",
+      "sourceUrl": "https://www.medlineplus.gov/genetics/condition/phenylketonuria/"
+    },
+    {
+      "field": "content",
+      "old": "making histidine uniquely capable of acting as either a proton donor or acceptor near pH 7.4",
+      "new": "allowing histidine to act as a proton donor or acceptor depending on its environment",
+      "reason": "Histidine is not the only residue capable of acid-base catalysis.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "lessonId": 7,
+  "reviewedAt": "2026-11-08",
+  "questionIds": [
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "sources": [
+    {
+      "title": "NCBI: Shape and structure of proteins",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "title": "Peptidyl transferase mechanism",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1370378/"
+    },
+    {
+      "title": "Radzicka and Wolfenden: Peptide hydrolysis kinetics",
+      "url": "https://pubs.acs.org/doi/10.1021/ja954077c"
+    },
+    {
+      "title": "",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9849/"
+    },
+    {
+      "title": "Cis-nonproline peptides: occurrences and roles",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12102755/"
+    },
+    {
+      "title": "Anfinsen: Nobel lecture",
+      "url": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "title": "Essentials of Glycobiology: Glycan-processing enzymes",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK579908/"
+    },
+    {
+      "title": "OpenStax: Amino acid charge",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "title": "Cytoplasmic disulfide formation during oxidative stress",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15031298/"
+    },
+    {
+      "title": "",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1276169/"
+    },
+    {
+      "title": "26 5 amino acid analysis of peptides",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-5-amino-acid-analysis-of-peptides"
+    },
+    {
+      "title": "",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK6824/"
+    },
+    {
+      "title": "OpenStax: Basicity of amines",
+      "url": "https://openstax.org/books/organic-chemistry/pages/24-3-basicity-of-amines"
+    }
+  ],
+  "visual": {
+    "title": "Follow the peptide backbone",
+    "src": "/lesson-diagrams/peptide-backbone.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "A four-residue linear peptide has three backbone peptide bonds and grows from N to C. Formal free-amino-acid condensation loses water, whereas ribosomal transfer releases tRNA. Amide resonance restricts C–N rotation; phi and psi describe the adjacent backbone rotations.",
+    "caption": "Connectivity schematics, not atomic-scale structures. The water balance is mass bookkeeping; the ribosome uses activated tRNAs."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "eca3c1aec0eb4d7a2119c01b19094cffdface314dc5910bda429440ccef188dd"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "3e04392485f45f549ea9ce19eabca54e935469ffdc29d5aa3d6313be4da5cbb8"
+    },
+    {
+      "field": "questions.31.question_text",
+      "sha256": "9c1439397c9dce120f6c772847bb07361225146358387099d7e1a06d6f731142"
+    },
+    {
+      "field": "questions.31.choice_a",
+      "sha256": "3f1942fcb27c3b115ae89f870083fd08f9ac5d95484a962b9e8b1d288200b8ad"
+    },
+    {
+      "field": "questions.31.choice_b",
+      "sha256": "d4a7e567ecbfccbba5b2bb14c32c6929435c0961ebb86c24ddb95556457b48db"
+    },
+    {
+      "field": "questions.31.choice_c",
+      "sha256": "4d699bf5921508e13ead9123b891c21e368dff27e4b55fec572e1246cc16e79a"
+    },
+    {
+      "field": "questions.31.choice_d",
+      "sha256": "c426f2f7d14ea67ebf4ae9796c81f4cd89ddfb1d1bd1662c8d37dbea94a9c86a"
+    },
+    {
+      "field": "questions.31.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.31.explanation",
+      "sha256": "66048f69b094da2c11277d0e1cc072df0de13f98d81c883878fc48fb015462e8"
+    },
+    {
+      "field": "questions.32.question_text",
+      "sha256": "572709d57252e2aa0fdc2dd3faf703459f64fa241277fc5d1180fdfb9e4ea389"
+    },
+    {
+      "field": "questions.32.choice_a",
+      "sha256": "75c4054ad5f2b7a6d2a3f8c58b9e8b8e260030ac3d892e74cd91b3f1b1f681aa"
+    },
+    {
+      "field": "questions.32.choice_b",
+      "sha256": "7a424544298a0a4a0a64d52e4c6d964efe829e770e615525729c212d13589e0b"
+    },
+    {
+      "field": "questions.32.choice_c",
+      "sha256": "74c7589d1c3841a61fce3598f020004f562fc0d962c1f1c39e582edd7a586b26"
+    },
+    {
+      "field": "questions.32.choice_d",
+      "sha256": "0d7d98828c629bc71cbb36961c25e1b2dc39a05dcf2980fba9444a15c711443f"
+    },
+    {
+      "field": "questions.32.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.32.explanation",
+      "sha256": "18862fe0c346188337d63ecdb33cdee03f4dc105c266ce9afe09c723c129f493"
+    },
+    {
+      "field": "questions.33.question_text",
+      "sha256": "dcd3870de8c3b3594f13170dfb16b421cab8a44f47676edcf90e3d3b05dc2c12"
+    },
+    {
+      "field": "questions.33.choice_a",
+      "sha256": "ee058213bb8ea77481e5377444307ac0c19908a4bfad875f28be1e400de53d46"
+    },
+    {
+      "field": "questions.33.choice_b",
+      "sha256": "5963093c5b84f9e8935d720d97b2aa4f0b6b2a33c2bae0575487204d0f917291"
+    },
+    {
+      "field": "questions.33.choice_c",
+      "sha256": "9f8e9c33c3aca8ccd986e4edb699f1d8629d696a6deb74f1240701c5f3d125fa"
+    },
+    {
+      "field": "questions.33.choice_d",
+      "sha256": "1f12776d040b3458c26bd658a32d10089151eab17471d35afebe92ec1b4d3fd6"
+    },
+    {
+      "field": "questions.33.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.33.explanation",
+      "sha256": "117a038c1502d08ed11c4314efc04c4d2f0156fa4695387e8c0acd9088a4a384"
+    },
+    {
+      "field": "questions.34.question_text",
+      "sha256": "fd0f50641fb29d5cf289a8464bab9dedf2b4c55ea5b32dd0a3117a61b8845b72"
+    },
+    {
+      "field": "questions.34.choice_a",
+      "sha256": "4b41417df00162e83daf8cc6777a1b14f7f96c78459f2d4e49756e80e14eae1c"
+    },
+    {
+      "field": "questions.34.choice_b",
+      "sha256": "0618ac1f8edfe3ab06c7cbcb2d0b462131e200f4e345ca207213418a1a4c2f6a"
+    },
+    {
+      "field": "questions.34.choice_c",
+      "sha256": "01b6e787166459d76707ca0f85872d99856fc78d3d4fc8c1d504cba3c03b3bd9"
+    },
+    {
+      "field": "questions.34.choice_d",
+      "sha256": "ca723659a2583c974d1b3df923c548b5626d13d4e7de5ee3c3f8172705d85135"
+    },
+    {
+      "field": "questions.34.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.34.explanation",
+      "sha256": "d4a6b69645f707c85c7b55a8db8dbaf8786b73eb639022ccf0c5356c02f6fff0"
+    },
+    {
+      "field": "questions.35.question_text",
+      "sha256": "68c1dd9408c231b4436e8c49ef3a3291244137eac6218a75b402471a216b0ff5"
+    },
+    {
+      "field": "questions.35.choice_a",
+      "sha256": "458b8e247f2e1298977c40a0946ec61aae9de5be47764d933355946c77bb06da"
+    },
+    {
+      "field": "questions.35.choice_b",
+      "sha256": "11e91aa6bb719b019647c40723bb29af11ca01728edb980db90d849b8d5a5829"
+    },
+    {
+      "field": "questions.35.choice_c",
+      "sha256": "857fdc51ce42f645f6242cb7159c02fc0db7c46f3ac88e35a3ad18c2bb11829f"
+    },
+    {
+      "field": "questions.35.choice_d",
+      "sha256": "faa5d7faf69b04e4008548f260d8f77dbdadc3634c9e745e7d9232d424546ca4"
+    },
+    {
+      "field": "questions.35.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.35.explanation",
+      "sha256": "22810fed60438b3464fb31cde18d4dd5a5cbceb3d5baf1268780120f3b9476b6"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Peptide Bond Formation and the Primary Structure of Proteins\n\nProteins are the workhorses of biology. Many enzymes, structural scaffolds, hormones, transport molecules and immune effectors are proteins, and all derive their function from a single foundational principle: a specific sequence of amino acids linked together by peptide bonds. Understanding how those bonds form, what their chemical properties are, and how the resulting sequence encodes biological information is not just foundational biochemistry — it is essential MCAT territory.\n\n---\n\n## The Condensation Reaction: How Peptide Bonds Form\n\nA **peptide bond** is a covalent amide bond formed between the **α-carboxyl group** of one amino acid and the **α-amino group** of another. The formal net reaction between free amino acids is **condensation** (water loss). This bookkeeping is not the ribosomal mechanism, which transfers a tRNA-bound peptide.\n\n### The Formal Net Reaction\n\nConsider two free amino acids in solution. Each has a central α-carbon bearing an amino group (–NH₂), a carboxyl group (–COOH), a hydrogen atom, and a unique side chain (R group). In the formal net reaction (not spontaneous mixing in water):\n\n- The hydroxyl (–OH) of the carboxyl group and one hydrogen (–H) from the amino group are eliminated as H₂O.\n- The remaining carbon of the first residue forms a direct C–N bond with the nitrogen of the second residue.\n- The product is a **dipeptide** with a central amide linkage: –C(=O)–NH–.\n\nThe generalized reaction is:\n\nH₂N–CHR₁–COOH + H₂N–CHR₂–COOH → H₂N–CHR₁–CO–NH–CHR₂–COOH + H₂O\n\nFor a linear chain of n free amino acids, the formal condensation balance loses n−1 water molecules. Translation instead uses activated tRNAs. A chain of amino acids linked by peptide bonds is called a **polypeptide**.\n\n### Thermodynamics and the Role of Ribosomes\n\nIn aqueous solution, the condensation reaction is thermodynamically *unfavorable* — the equilibrium strongly favors hydrolysis (breaking the bond) rather than synthesis. A favorable hydrolysis free-energy change does not imply a fast reaction: without catalysis, peptide-bond hydrolysis near neutral pH is very slow. The free-energy change depends on the peptide and conditions.\n\nThis is a critical MCAT point: cells do not simply mix amino acids and wait for peptide bonds to form. Instead, **ribosomes** transfer the growing peptide from peptidyl-tRNA to the amino group of an incoming aminoacyl-tRNA. This ester aminolysis releases deacylated tRNA, not water. The activation of each amino acid by attachment to its tRNA (catalyzed by **aminoacyl-tRNA synthetase**) uses one ATP and expends **two high-energy phosphate-bond equivalents** (ATP → AMP + PPi, followed by pyrophosphate hydrolysis). The activated ester linkage supports peptide transfer. Elongation also consumes GTP in delivery and translocation steps; tRNA charging is not the entire energy cost of translation.\n\nThe **peptidyl transferase activity** responsible for catalysis resides in the **23S rRNA** of the large ribosomal subunit (in prokaryotes) or the **28S rRNA** (in eukaryotes) — the ribosome is fundamentally a **ribozyme**. Ribosomal proteins play structural and regulatory roles but are not the catalytic agents.\n\n---\n\n## The Peptide Bond: Resonance and Planarity\n\nOnce formed, the peptide bond has chemical properties that are far more interesting — and more consequential for protein structure — than a simple single bond.\n\n### Resonance Stabilization\n\nThe peptide bond is not a pure single bond. The lone pair on the nitrogen atom is delocalized into the adjacent carbonyl group (C=O), creating **partial double bond character** across the C–N bond. This can be represented as two resonance structures:\n\n- **Structure 1**: –C(=O)–NH– (nitrogen bears no formal charge; carbon-nitrogen is a single bond)\n- **Structure 2**: –C(–O⁻)=NH⁺– (nitrogen bears a positive charge; carbon-nitrogen is a double bond)\n\nThe actual peptide bond is a **resonance hybrid** of these two structures. The result is that the C–N bond in a peptide linkage has *partial double bond character*, with a bond length of approximately **1.33 Å** — intermediate between a typical C–N single bond (~1.47 Å) and a C=N double bond (~1.27 Å).\n\n### Planarity: The Peptide Plane\n\nBecause of this partial double bond character, **rotation around the C–N bond is restricted**. The energy barrier to rotation is approximately **80 kJ/mol**, which is high enough to make the bond essentially rigid at physiological temperatures.\n\nThe consequence is profound: the six atoms that form the peptide unit — the carbonyl carbon (C₁), the carbonyl oxygen (O), the amide nitrogen (N), the amide hydrogen (H), and the two flanking α-carbons (Cα₁ and Cα₂) — are all constrained to lie in the same plane. This flat unit is called the **peptide plane** or **amide plane**.\n\nA polypeptide chain can be thought of as a series of rigid, planar peptide units connected at the α-carbons. The main backbone conformational variables are rotations about the following bonds; steric constraints still limit their allowed angles:\n\n- **φ (phi)**: the bond between the α-carbon and the backbone nitrogen (N–Cα)\n- **ψ (psi)**: the bond between the α-carbon and the carbonyl carbon (Cα–C)\n\nThese two dihedral angles define the backbone conformation at each residue. The **Ramachandran plot** maps the sterically allowed combinations of φ and ψ angles for each amino acid residue, and the clustered regions on this plot correspond directly to the major secondary structures (α-helices, β-sheets, and turns). Glycine, whose R group is hydrogen, occupies a much broader region of the Ramachandran plot than other amino acids.\n\n### Cis and Trans Configurations\n\nThe restricted rotation of the peptide bond means that the two α-carbons flanking the peptide bond can be on the same side or opposite sides of the C–N bond — analogous to geometric isomerism in alkenes. These are termed **cis** and **trans** configurations.\n\nIn the **trans** configuration, the two α-carbons are on opposite sides of the peptide bond. This is the *strongly preferred* configuration for virtually all peptide bonds because it minimizes steric clashes between the bulky side chains. Non-proline peptide bonds are overwhelmingly trans; X–Pro bonds have a much higher cis frequency.\n\nThe exception involves **proline**. Because proline's side chain forms a ring that connects back to the backbone nitrogen, the energy difference between cis and trans configurations is smaller and depends on context. Roughly **5%** of X-Pro peptide bonds (where X is any amino acid preceding proline) adopt the cis configuration. **Peptidyl-prolyl isomerases** (such as cyclophilin) catalyze the interconversion of cis and trans X-Pro bonds, which can be a slow step in protein folding.\n\n---\n\n## Directionality: The N-terminus and C-terminus\n\nA linear polypeptide has N-to-C directionality, even if its termini are chemically modified. For an unmodified chain, the end retaining a free α-amino group is the **N-terminus** (amino terminus), and the end with a free α-carboxyl group is the **C-terminus** (carboxyl terminus).\n\nBy convention, amino acid sequences are always written and read from **N-terminus to C-terminus** (left to right). This convention mirrors the direction of biosynthesis: ribosomes synthesize polypeptides starting from the N-terminus and proceeding toward the C-terminus, adding one amino acid at a time.\n\nWhen amino acids are incorporated into a polypeptide, they are referred to as **amino acid residues** — the term \"residue\" acknowledges that residue masses use free-amino-acid masses minus H₂O, with one H₂O added back for an unmodified linear chain. The molecular weight of a polypeptide is approximately the sum of the residue masses (average residue mass ≈ **110 Da**) plus about 18 Da to account for the terminal H and OH groups.\n\n---\n\n## Primary Structure: The Amino Acid Sequence\n\nThe **primary structure** of a protein is simply the linear sequence of amino acid residues from N-terminus to C-terminus, connected by peptide bonds. It is the most fundamental level of protein structure, while splicing, processing and modifications can change the mature protein relative to the initially translated chain.\n\n### Why Sequence Matters: The Information Content of Primary Structure\n\nThe primary structure is not merely a list of building blocks — it is a major determinant of the protein's structural and functional properties. The sequence determines:\n\n1. **Secondary structure**: The pattern of hydrogen bonding between backbone atoms is dictated by which residues are present and their spacing.\n2. **Tertiary structure**: The three-dimensional fold arises from interactions among side chains — hydrophobic packing, disulfide bonds, hydrogen bonds, electrostatic interactions, and van der Waals forces — all of which depend on which residues occupy which positions.\n3. **Quaternary structure**: The interfaces between subunits are determined by the surface properties of each polypeptide, which arise from sequence.\n4. **Function**: Enzyme active sites, receptor binding domains, and structural motifs are all defined by specific residues at specific positions.\n\n**Anfinsen's experiment** (Nobel Prize, 1972) demonstrated this principle definitively. When ribonuclease A (a small enzyme with four disulfide bonds) was denatured with urea and reduced with β-mercaptoethanol, it lost all enzymatic activity. Upon removal of the denaturant and reductant, the enzyme spontaneously refolded and regained full activity — including the correct formation of all four disulfide bonds from among eight possible cysteines. This supported sequence-dependent folding **in an appropriate environment**. It does not mean every protein folds unaided or has one structure under all conditions.\n\n### The Genetic Code and Sequence Encoding\n\nEach amino acid in a polypeptide is specified by a **codon** — a triplet of nucleotides in mRNA. The **genetic code** is degenerate (multiple codons can specify the same amino acid), nearly universal across all life, and read in the 5'→3' direction. The correspondence between codon sequence and amino acid sequence means that a mutation in DNA — even a single nucleotide change — can alter the primary structure of a protein.\n\nThe classic example is **sickle cell disease**: a single A→T transversion in the gene for the β-globin subunit of hemoglobin changes codon 6 from GAG (glutamic acid) to GTG (valine). Glutamic acid is negatively charged and hydrophilic; valine is nonpolar and hydrophobic. This single residue substitution causes the deoxygenated form of hemoglobin to polymerize, distorting red blood cells into a sickle shape and producing the clinical syndrome. One amino acid change. Profound consequences.\n\n---\n\n## The 20 Standard Amino Acids and Their Side Chains\n\nThe properties of a protein's primary structure depend critically on the chemical nature of the side chains (R groups) present. The 20 standard amino acids are grouped by side chain chemistry:\n\n### Nonpolar, Aliphatic Side Chains\n- **Glycine** (Gly, G): smallest amino acid; no side chain chirality issues; high conformational flexibility\n- **Alanine** (Ala, A): methyl group; common in α-helices\n- **Valine** (Val, V), **Leucine** (Leu, L), **Isoleucine** (Ile, I): branched aliphatic chains; strongly hydrophobic; found in protein cores\n- **Methionine** (Met, M): sulfur-containing; nonpolar; the usual initiating residue in cytosolic eukaryotic translation (typically AUG); it may be removed later\n- **Proline** (Pro, P): cyclic; constrains backbone; helix-breaker; found in turns\n\n### Aromatic Side Chains\n- **Phenylalanine** (Phe, F): benzyl group; strongly hydrophobic\n- **Tyrosine** (Tyr, Y): hydroxyl on benzene ring; pKa ~10; can be phosphorylated\n- **Tryptophan** (Trp, W): indole ring; largest standard amino acid; strong UV absorbance at 280 nm\n\n### Polar, Uncharged Side Chains\n- **Serine** (Ser, S) and **Threonine** (Thr, T): hydroxyl groups; common phosphorylation sites\n- **Cysteine** (Cys, C): thiol group (–SH); pKa ~8.3; forms disulfide bonds; critical in active sites\n- **Asparagine** (Asn, N) and **Glutamine** (Gln, Q): neutral amide side chains; common N-linked glycans attach to Asn, while common O-linked glycans attach to Ser/Thr\n\n### Basic Side Chains (Histidine Is Mostly Neutral at pH 7.4)\n- **Lysine** (Lys, K): ε-amino group; pKa ~10.5; positively charged at physiological pH\n- **Arginine** (Arg, R): guanidinium group; pKa ~12.5; most basic standard amino acid; predominantly positive at pH 7.4\n- **Histidine** (His, H): imidazole ring; pKa ~6.0; can be protonated or neutral near physiological pH; critical in enzyme active sites as a general acid/base catalyst\n\n### Negatively Charged (Acidic) Side Chains (at pH 7.4)\n- **Aspartate** (Asp, D): carboxylate; pKa ~3.9; negatively charged at physiological pH\n- **Glutamate** (Glu, E): carboxylate; pKa ~4.1; negatively charged at physiological pH\n\n### Key pKa Values to Memorize for MCAT\n\nThe ionization state of amino acid side chains depends on pH and their pKa values. These are essential for calculating isoelectric points and predicting charge:\n\n- Free α-COOH or C-terminus: roughly 2–4, context dependent\n- Free α-NH₃⁺: roughly 9–10.5; N-terminal pKa values vary\n- Internal peptide amides do not titrate like these free groups\n- Asp/Glu side chain: ~3.9/4.1\n- His imidazole: ~6.0\n- Cys thiol: ~8.3\n- Tyr hydroxyl: ~10.1\n- Lys ε-amino: ~10.5\n- Arg guanidinium: ~12.5\n\nAt physiological pH (~7.4), Asp and Glu are negatively charged; Lys and Arg are predominantly positive, while His is mostly neutral with a side-chain pKa near 6.0. Cys and Tyr are predominantly uncharged.\n\n---\n\n## Post-Translational Modifications: Extending the Information in Primary Structure\n\nThe primary structure as translated from mRNA is not always the final form. **Post-translational modifications (PTMs)** chemically alter specific residues after translation, expanding the functional repertoire of proteins enormously.\n\nCommon PTMs relevant to the MCAT include:\n\n- **Phosphorylation**: Addition of a phosphate group to Ser, Thr, or Tyr by kinases; removed by phosphatases. Fundamental to signal transduction. Usually adds substantial negative charge (often approximately −2); the exact average depends on phosphate pKa and environment.\n- **Glycosylation**: Addition of carbohydrate chains to Asn (N-linked) or Ser/Thr (O-linked). Important for protein folding, stability, and cell-surface recognition.\n- **Disulfide bond formation**: Oxidation of two Cys thiol groups (–SH) to form a covalent disulfide bridge (–S–S–). Stabilizes extracellular proteins and secreted proteins. Stable structural disulfides are generally disfavored in the reducing cytoplasm, but transient redox-regulatory disulfides occur.\n- **Proteolytic cleavage**: Removal of signal peptides or propeptide sequences; activation of zymogens (e.g., chymotrypsinogen → chymotrypsin).\n- **Acetylation**: Addition of acetyl group to Lys or the N-terminus; important in histone modification and gene regulation.\n- **Ubiquitination**: Addition of ubiquitin to Lys residues; can target proteins for proteasomal degradation, but other ubiquitin patterns regulate signaling and trafficking.\n- **Hydroxylation**: Conversion of Pro to hydroxyproline and Lys to hydroxylysine in collagen; requires vitamin C (ascorbate) as a cofactor.\n\nSequence helps determine potential modification sites. Actual modification also depends on folding, enzyme access, localization and cellular conditions.\n\n---\n\n## Sequence Determines Structure: A Hierarchy of Consequences\n\nIt is worth pausing to appreciate the elegance of the information hierarchy in proteins:\n\n1. **DNA sequence** (gene) encodes\n2. **mRNA sequence** (transcript), which is translated into\n3. **Amino acid sequence** (primary structure), which determines\n4. **Local backbone geometry** (secondary structure) through hydrogen bonding patterns constrained by the φ/ψ angles available at each residue\n5. **Three-dimensional fold** (tertiary structure) through the cumulative effect of all side chain interactions\n6. **Oligomeric assembly** (quaternary structure) through surface complementarity between subunits\n7. **Biological function** through the precise positioning of catalytic residues, binding interfaces, and structural elements\n\nThis is not merely a conceptual ladder — it has profound experimental consequences. Knowing the sequence (easily obtained from DNA sequencing) allows prediction of structure (computationally, via tools like AlphaFold) and inference of function (via homology to characterized proteins). The sequence *is* the protein, in a very real informational sense.\n\n---\n\n## MCAT-Specific Considerations\n\n### What the MCAT Tests Directly\n\n- **Peptide bond formation**: Separate formal water loss from ribosomal transfer between activated tRNAs.\n- **Peptide bond properties**: Understand resonance, partial double bond character, restricted rotation, and planarity. Know that the peptide bond is *trans* in almost all cases.\n- **Directionality**: N-terminus to C-terminus; synthesis proceeds in this direction.\n- **Primary structure definition**: Linear sequence of amino acids; encoded by DNA; determines all higher-order structure.\n- **Amino acid side chain properties**: Know the charge states at physiological pH, pKa values for ionizable groups, which residues are hydrophobic vs. hydrophilic, and which are involved in specific chemistry (Cys in disulfide bonds, His in catalysis, Ser/Thr/Tyr in phosphorylation).\n- **Anfinsen's experiment**: Sequence specifies folding under suitable environmental conditions.\n\n### Common MCAT Question Patterns\n\n*Charge and isoelectric point calculations*: Given a peptide sequence, you may be asked to determine the net charge at a specific pH or calculate the isoelectric point (pI). Remember: pI = average of the two pKa values flanking the neutral form. For a simple amino acid with only backbone groups, pI = (pKa₁ + pKa₂)/2. For amino acids with ionizable side chains, identify which two pKa values flank the zwitterionic (neutral net charge) form.\n\n*Peptide bond hydrolysis*: The MCAT may ask about conditions that cleave peptide bonds. Prolonged strong-acid hydrolysis (commonly 6 M HCl at 110°C) broadly cleaves peptide bonds, but can destroy or alter some amino acids. Specific proteases cleave at defined sequences (e.g., trypsin cleaves after Lys and Arg; chymotrypsin cleaves after large aromatic/nonpolar residues; cyanogen bromide cleaves after Met).\n\n*Number of peptide bonds*: An unmodified linear chain of n residues has **n−1 backbone peptide bonds** and a mass equal to the sum of n free amino acids minus **(n−1) × 18.015 Da**. This is a formal balance, not water release by the ribosome.\n\n*Molecular weight estimation*: Using the average residue mass of ~110 Da, a 100-residue protein has a molecular weight of approximately 11,000 Da (11 kDa).\n\n*Proline's special properties*: Internal proline often interrupts regular helices or sheets because its ring restricts φ and its peptide nitrogen lacks an N–H donor. It can still occur at selected structural positions. Expect questions about why proline appears in turns or as a helix-terminating residue.\n\n---\n\n## Summary\n\nA peptide bond joins a carboxyl-derived carbonyl to an amino nitrogen. Free-amino-acid condensation formally loses water, whereas ribosomal ester aminolysis releases deacylated tRNA. The resulting C–N bond has partial double bond character due to resonance delocalization, making it rigid and planar. This planarity forces polypeptide backbone flexibility to be concentrated at the φ and ψ dihedral angles flanking each α-carbon, directly shaping the protein's capacity for secondary structure formation.\n\nThe primary structure — the linear sequence of amino acid residues from N-terminus to C-terminus — is the foundational level of protein architecture. Anfinsen's refolding experiments show that sequence can specify native folding under suitable conditions; environment, partners and modifications also matter. Single amino acid changes can have dramatic functional consequences, as illustrated by sickle cell disease. Post-translational modifications extend the chemical diversity of proteins beyond what the 20 standard amino acids alone can provide, but these modifications are themselves sequence-dependent.\n\nMastery of peptide bond chemistry, amino acid properties, and the concept of primary structure as information is not optional for the MCAT — it is the foundation on which all of protein biochemistry, enzymology, and molecular biology rests."
+    },
+    {
+      "field": "questions.31.choice_b",
+      "value": "A carboxyl-derived carbonyl links to an amino nitrogen, with net loss of H₂O."
+    },
+    {
+      "field": "questions.31.explanation",
+      "value": "The formal condensation balance is two free amino acids → dipeptide + water. It identifies the participating functional groups, not spontaneous synthesis in water. Ribosomes instead use activated tRNAs and release deacylated tRNA during peptide transfer."
+    },
+    {
+      "field": "questions.31.question_text",
+      "value": "In the formal net condensation of two free amino acids to a dipeptide, which of the following correctly describes the reaction and its products?"
+    },
+    {
+      "field": "questions.32.choice_c",
+      "value": "The C–N bond becomes longer than an ordinary C–N single bond"
+    },
+    {
+      "field": "questions.32.explanation",
+      "value": "Resonance between the carbonyl oxygen and the nitrogen lone pair gives the C-N bond partial double-bond character, which restricts rotation around that bond and forces the carbonyl carbon, oxygen, nitrogen, its hydrogen, and the two adjacent alpha-carbons (six atoms total) into a planar arrangement. This planarity is a defining structural feature of the peptide backbone. Choice A is the opposite of what resonance causes; restricted rotation, not free rotation, results from the partial double-bond character."
+    },
+    {
+      "field": "questions.34.explanation",
+      "value": "Under comparable conditions, sequence strongly influences folding and the spatial arrangement of functional groups. Even with identical composition, a different sequence places residues in different spatial relationships, altering secondary, tertiary, and quaternary structure and therefore biological activity. Choice D is directly contradicted by the central principle that sequence, not mere composition, encodes biological information."
+    },
+    {
+      "field": "questions.35.explanation",
+      "value": "In a peptide bond, the nitrogen lone pair is delocalized into the pi system of the adjacent carbonyl group through resonance, giving the C-N bond partial double-bond character. Amide resonance reduces nitrogen basicity, so a peptide nitrogen normally remains neutral at physiological pH; do not confuse this with the pKa of a free amino group. Choice C is incorrect because the peptide nitrogen is sp2 hybridized due to resonance, not sp3."
+    },
+    {
+      "field": "questions.35.question_text",
+      "value": "At physiological pH, the nitrogen atom of a peptide bond is predominantly unprotonated despite containing nitrogen. What best accounts for this observation?"
+    }
+  ]
+}

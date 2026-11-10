@@ -1,5 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { parseCards } from "@/lib/practice";
+import { parseCards, sections, type Section } from "@/lib/practice";
+import { coreDeck } from "@/lib/core-flashcards";
+import { randomUUID } from "node:crypto";
 export const maxDuration = 120;
 
 const SECTION_TOPICS: Record<string, { name: string; highYield: string[] }> = {
@@ -102,7 +104,7 @@ const PROMPT = [
   "- Front side should be specific (not 'what is metabolism?' but 'what is the net ATP yield of glycolysis?').",
   "- Back side should be concise (2-3 sentences max) but complete.",
   "- Mix definition cards (term → definition), application cards (scenario → concept), and quantitative cards (numbers, equations).",
-  "- Use **bold** for key terms in the back side.",
+  "- Use plain text; do not include markdown formatting.",
   "- Avoid trivia. Test understanding, not memorization of obscure facts.",
   "",
   "OUTPUT — return ONLY valid JSON with this structure (no markdown, no extra text):",
@@ -120,63 +122,61 @@ const PROMPT = [
 ].join("\n");
 
 export async function POST(request: Request) {
+  let input: unknown;
+  try { input = await request.json(); }
+  catch { return Response.json({ error: "Send a valid JSON request." }, { status: 400 }); }
+  if (!input || typeof input !== "object" || Array.isArray(input)) {
+    return Response.json({ error: "Choose a section and card count." }, { status: 400 });
+  }
+  const { section, count = 8, mode = "ai" } = input as Record<string, unknown>;
+  if (typeof section !== "string" || ![...sections, "mixed"].includes(section) ||
+      typeof count !== "number" || !Number.isInteger(count) || count < 1 || count > 20 ||
+      !["ai", "core"].includes(String(mode))) {
+    return Response.json({ error: "Choose a valid section, 1–20 cards, and AI or core mode." }, { status: 400 });
+  }
+  const requestId = randomUUID();
+  const fallback = (unavailable: boolean) => {
+    const deck = coreDeck(section as Section | "mixed", count);
+    return Response.json({ ...deck, section, source: "core", requestId,
+      notice: `${unavailable ? "AI generation is unavailable. " : ""}Showing ${deck.cards.length} core review cards from a fixed starter set.` });
+  };
+  if (mode === "core") return fallback(false);
+  const apiKey = process.env.ANTHROPIC_API_KEY?.trim();
+  if (!apiKey || /[\r\n]/.test(apiKey)) {
+    console.warn("Flashcard fallback", { requestId, reason: "key_configuration" });
+    return fallback(true);
+  }
   try {
-    const { section, count = 20 } = await request.json();
-    if (!Number.isInteger(count) || count < 1 || count > 20) return Response.json({ error: "Choose 1–20 cards." }, { status: 400 });
-
-    let actualSection = section;
-    if (section === "mixed") {
-      const sections = ["bio-biochem", "chem-phys", "psych-soc", "cars"];
-      actualSection = sections[Math.floor(Math.random() * sections.length)];
+    const selected = section === "mixed" ? [...sections] : [section as Section];
+    const info = selected.map(s => SECTION_TOPICS[s]);
+    const topics = info.flatMap(s => s.highYield);
+    for (let i = topics.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [topics[i], topics[j]] = [topics[j], topics[i]];
     }
-
-    const info = SECTION_TOPICS[actualSection];
-    if (!info) {
-      return Response.json({ error: "Invalid section" }, { status: 400 });
-    }
-
-    // Pick 2-3 random high-yield topics for variety
-    const shuffled = [...info.highYield].sort(() => Math.random() - 0.5);
-    const focusTopics = shuffled.slice(0, 3);
-    const randomSeed = Math.random().toString(36).slice(2, 8);
-
-    const systemPrompt = [
-      PROMPT.replace("deck of 8 flashcards", `deck of ${count} flashcards`),
-      "",
-      `Section: ${info.name}`,
-      `Focus this deck on these high-yield topics (mix them across the ${count} cards): ${focusTopics.join("; ")}`,
-      `Variety seed: ${randomSeed}`,
+    const system = [PROMPT.replace("deck of 8 flashcards", `deck of ${count} flashcards`),
+      `Sections: ${info.map(s => s.name).join("; ")}`,
+      `Suggested topics: ${topics.slice(0, 5).join("; ")}`,
+      "Every front must be distinct. Do not invent facts. Include only the deck, front and back fields.",
     ].join("\n");
-
-    const client = new Anthropic({
-      apiKey: process.env.ANTHROPIC_API_KEY, timeout: 85000, maxRetries: 0,
-    });
-
+    const client = new Anthropic({ apiKey, timeout: 45000, maxRetries: 0 });
     const response = await client.messages.create({
-      model: "claude-sonnet-4-6",
-      max_tokens: 8000,
-      system: systemPrompt,
-      messages: [
-        { role: "user", content: `Generate a deck of ${count} high-yield MCAT flashcards for ${info.name}.` },
-      ],
-      temperature: 0.9,
-    });
-
-    const text = response.content
-      .filter((b) => b.type === "text")
-      .map((b) => (b.type === "text" ? b.text : ""))
-      .join("\n")
-      .trim();
-
-    let jsonStr = text;
-    const fenceMatch = text.match(/```(?:json)?\s*([\s\S]*?)```/);
-    if (fenceMatch) jsonStr = fenceMatch[1].trim();
-
+      model: process.env.ANTHROPIC_FLASHCARD_MODEL?.trim() || "claude-sonnet-4-6",
+      max_tokens: 8000, system,
+      messages: [{ role: "user", content: `Generate exactly ${count} flashcards.` }],
+      temperature: 0.7,
+    }, { signal: request.signal });
+    const text = response.content.filter(b => b.type === "text").map(b => b.type === "text" ? b.text : "").join("\n").trim();
     if (response.stop_reason === "max_tokens") throw new Error("Incomplete deck");
-    const data = JSON.parse(jsonStr);
-    return Response.json({ cards: parseCards(data, count), section: actualSection });
+    const json = text.match(/^```(?:json)?\s*([\s\S]*?)```$/)?.[1] || text;
+    const cards = parseCards(JSON.parse(json), count);
+    if (new Set(cards.map(c => c.front.toLowerCase().replace(/\s+/g, " "))).size !== cards.length ||
+        cards.some(c => c.front.length > 1500 || c.back.length > 4000)) throw new Error("Invalid deck");
+    return Response.json({ cards, section, source: "ai", requestId, sources: [] });
   } catch (error) {
-    console.error("Flashcard generation error:", error);
-    return Response.json({ error: "Failed to generate flashcards" }, { status: 500 });
+    // Never log SDK error bodies or credentials. The local ID correlates fallback reports.
+    const status = error instanceof Anthropic.APIError ? error.status : undefined;
+    console.warn("Flashcard fallback", { requestId, status, reason: status ? "provider_error" : "generation_failed" });
+    return fallback(true);
   }
 }

@@ -1,0 +1,336 @@
+{
+  "lessonId": 43,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Gene regulation in eukaryotes is orders of magnitude more complex than in prokaryotes. Where a bacterial operon can be toggled on or off by a single repressor protein, a human gene may require the coordinated action of dozens of transcription factors, specific patterns of histone modification, repositioning of nucleosomes, long-range DNA looping, and post-transcriptional silencing mechanisms—all acting simultaneously and in sequence. Understanding this multilevel architecture is essential for the MCAT, which tests not just isolated facts but your ability to reason about how disruptions at any level produce disease phenotypes.",
+      "new": "Eukaryotic gene expression is regulated at multiple interacting levels: chromatin accessibility, transcription, RNA processing, RNA stability and translation. Bacteria also have complex regulatory networks; the useful contrast is in the machinery and cellular organization, not a universal numerical ranking of complexity. Experiments that measure DNA marks, RNA abundance and protein output probe different parts of this system.",
+      "reason": "Remove unsupported complexity comparison.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "The human genome contains approximately 3 × 10⁹ base pairs, yet must be compacted into a nucleus roughly 6 µm in diameter.",
+      "new": "A human haploid genome contains roughly 3 × 10⁹ base pairs; a diploid cell before DNA replication has approximately twice that amount. Nuclear dimensions vary by cell type.",
+      "reason": "Correct haploid/diploid quantity.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/28751582/"
+    },
+    {
+      "field": "content",
+      "old": "Nucleosomes are connected by 10–80 bp of **linker DNA**, giving the 10 nm \"beads-on-a-string\" fiber. Further coiling produces the 30 nm fiber, and additional looping and scaffolding interactions ultimately generate the highly condensed chromosomes visible during mitosis.",
+      "new": "Nucleosomes are connected by variable lengths of **linker DNA**. A regular 30-nm fiber can form under some experimental conditions, but it is not an obligatory intermediate of chromatin packaging in living cells. Imaging shows irregular nucleosome arrangements and local differences in packing density, rather than one universal hierarchy of successively thicker fibers.",
+      "reason": "Update obsolete universal30nm model.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/28751582/"
+    },
+    {
+      "field": "content",
+      "old": "The key regulatory consequence is this: *when DNA is tightly wrapped around nucleosomes and nucleosomes are compacted into higher-order structures, transcription factors and RNA polymerase II cannot access promoters.* Regulation therefore begins with controlling DNA accessibility.",
+      "new": "Nucleosome occupancy and compaction can restrict access to regulatory DNA. This is not an absolute barrier: DNA can transiently unwrap, and pioneer factors can engage some nucleosomal sites. Accessibility is dynamic and depends on sequence, factor binding and remodeling.",
+      "reason": "Avoid absolute inaccessible.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "permanently silenced regions",
+      "new": "usually persistently compacted regions with restricted transcription",
+      "reason": "Heterochromatin transcription not impossible.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "maintained by H3K27me3 marks deposited by the Polycomb repressive complex.",
+      "new": "associated with H3K27me3 deposited by PRC2, together with other mechanisms that establish and maintain silencing.",
+      "reason": "Not solemaintenancefactor.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "HATs**) transfer acetyl groups from acetyl-CoA to lysine residues on H3 and H4 tails.",
+      "new": "HATs**) transfer acetyl groups from acetyl-CoA to lysines on histones, including H3 and H4.",
+      "reason": "Not restricted to H3/H4tails.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "This loosens chromatin and promotes transcription.",
+      "new": "Acetylation can weaken chromatin interactions and recruit acetyl-lysine readers; it is commonly associated with transcriptional activity but is not sufficient by itself to activate every gene.",
+      "reason": "Mark not deterministic.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "restoring positive charge and promoting chromatin compaction and gene silencing.",
+      "new": "restoring lysine charge and often supporting repression, with effects that depend on locus and protein context.",
+      "reason": "Avoid unconditionalHDACoutcome.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "reliably marks actively transcribed genes.",
+      "new": "is commonly associated with transcriptional activity, but marks alone do not establish the transcription rate or prove causation.",
+      "reason": "Distinguish associationcausation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "silences one X chromosome per cell",
+      "new": "largely silences one X chromosome in typical XX somatic cells, while some genes escape inactivation,",
+      "reason": "Escape andscope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "Loss of normal imprinting causes diseases such as Prader-Willi syndrome (loss of paternal 15q11-q13 expression) and Angelman syndrome (loss of maternal UBE3A expression).",
+      "new": "Imprinting disorders include Prader-Willi syndrome (loss of expression of paternally active genes in 15q11-q13) and Angelman syndrome (loss of maternal UBE3A function in neurons). Deletions, uniparental disomy, imprinting defects and, for Angelman syndrome, pathogenic UBE3A variants are distinct possible causes.",
+      "reason": "Not all diseasecases imprintingdefect.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "Even when histone modifications mark a gene for activation, nucleosomes must be physically repositioned to allow transcription factor binding and RNA polymerase loading.",
+      "new": "At many loci, changes in nucleosome occupancy or structure help factors access regulatory DNA. Histone marks and remodeling influence each other; neither imposes one obligatory sequence of events at every gene.",
+      "reason": "Avoid universaltiming.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "The most important core promoter element is the **TATA box**",
+      "new": "One well-studied, but non-universal, core promoter element is the **TATA box**",
+      "reason": "MosthumanpromotersnotTATA.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29946135/"
+    },
+    {
+      "field": "content",
+      "old": "Many constitutively expressed housekeeping genes lack a TATA box and instead rely on Inr and DPE elements.",
+      "new": "Many human housekeeping promoters are TATA-less and CpG-rich, with dispersed initiation sites. TATA-less does not imply that a promoter must contain a DPE; promoter elements and their use vary across genes and organisms.",
+      "reason": "NoobligateDPE.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29946135/"
+    },
+    {
+      "field": "content",
+      "old": "They are not responsible for tissue-specific or signal-dependent regulation.",
+      "new": "Sequence-specific regulators provide much of the tissue and signal specificity, but general factors, their paralogs and cofactor interactions can also contribute to regulated expression.",
+      "reason": "NoabsoluteGTFnotregulated.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29946135/"
+    },
+    {
+      "field": "content",
+      "old": "These factors have two functional domains:",
+      "new": "Many sequence-specific regulators have separable DNA-binding and effector functions, although proteins can contain multiple domains and also act through partners:",
+      "reason": "Notstrictlytwodomains.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "functioning in an orientation- and position-independent manner.",
+      "new": "often tolerating inversion or repositioning in reporter assays. In their native genome, distance, promoter compatibility and local chromatin architecture constrain enhancer action.",
+      "reason": "Notgenomicpositionindependent.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "and are marked by H3K4me1 (monomethylation) and H3K27ac (active) or H3K27me3 (poised/inactive).",
+      "new": "and often show H3K4me1; H3K27ac is associated with active enhancers. H3K27me3 occurs at some poised regulatory regions but is not a universal mark of all inactive enhancers.",
+      "reason": "Markerpatternsnotdefinitions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "How does an enhancer communicate with a distant promoter? Through **DNA looping**, facilitated by the **Mediator complex** and the **cohesin** ring complex, which tethers the enhancer and promoter together in three-dimensional space. This brings transcription factors bound at the enhancer into direct contact with the PIC at the promoter, stimulating transcription initiation and elongation.",
+      "new": "Chromatin looping and spatial proximity can facilitate communication between an enhancer and its target promoter. Mediator, cohesin and other proteins contribute in context-dependent ways; no single permanent tether explains every enhancer. An enhancer-deletion result establishes a regulatory requirement but does not, by itself, prove the physical contact mechanism.",
+      "reason": "Distinguish mechanismfromexperiment.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29946135/"
+    },
+    {
+      "field": "content",
+      "old": "prevent enhancers from activating inappropriate genes by blocking enhancer-promoter communication across topological domain boundaries",
+      "new": "can constrain enhancer-promoter communication, depending on their position, orientation and chromatin context",
+      "reason": "Boundariesnotabsolute.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29946135/"
+    },
+    {
+      "field": "content",
+      "old": "Recall that eukaryotic pre-mRNAs undergo three major processing steps before export from the nucleus:",
+      "new": "Most mammalian Pol II pre-mRNAs use the following processing pathways, often beginning during transcription; intronless genes and non-polyadenylated transcripts are important exceptions:",
+      "reason": "Scopeprocessing.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "which protects from degradation and is required for ribosome recognition",
+      "new": "which protects the RNA and supports cap-dependent translation; some RNAs use cap-independent initiation",
+      "reason": "Capnotuniversallyrequired.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "producing multiple protein isoforms from a single gene.",
+      "new": "potentially producing different protein isoforms or changing untranslated regions, RNA stability or susceptibility to decay. Not every RNA isoform produces a stable distinct protein.",
+      "reason": "RNAisoformnotnecessarilyprotein.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "SR proteins promote inclusion; hnRNPs often promote skipping",
+      "new": "SR proteins and hnRNPs have position- and context-dependent effects",
+      "reason": "Avoidfixedsplicingroles.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "spinal muscular atrophy (loss of SMN1 exon 7 inclusion)",
+      "new": "spinal muscular atrophy, usually due to biallelic SMN1 loss or pathogenic variants. The related SMN2 gene predominantly skips exon 7 and only partly compensates; increasing SMN2 exon 7 inclusion is a therapeutic strategy.",
+      "reason": "CorrectSMN1vsSMN2.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1352/"
+    },
+    {
+      "field": "content",
+      "old": "and some forms of familial dysautonomia.",
+      "new": "Other examples include splice-altering variants causing familial dysautonomia.",
+      "reason": "Repair resulting sentence.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1352/"
+    },
+    {
+      "field": "content",
+      "old": "The biogenesis pathway:",
+      "new": "The canonical animal miRNA biogenesis pathway (some miRNAs use alternative routes):",
+      "reason": "Canonicalnotuniversal.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "microprocessor complex** (an RNase III enzyme)",
+      "new": "microprocessor complex** (Drosha is the RNase III enzyme; DGCR8 is its partner)",
+      "reason": "Complexnotbothenzyme.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "the catalytic core of the **RNA-induced silencing complex (RISC)**",
+      "new": "the central guide-binding protein of the **RNA-induced silencing complex (RISC)**",
+      "reason": "NotallAGOcleave.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5714244/"
+    },
+    {
+      "field": "content",
+      "old": "- **Translational repression**: RISC blocks ribosome elongation or promotes ribosome drop-off, reducing protein output without necessarily degrading the mRNA.",
+      "new": "- **Translational repression**: RISC-associated factors reduce translation, often by inhibiting initiation. The relative contribution and timing vary among targets and conditions.",
+      "reason": "Avoidelongationonlymechanism.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2990499/"
+    },
+    {
+      "field": "content",
+      "old": "Target mRNAs are often sequestered in cytoplasmic **P-bodies (processing bodies)** where degradation occurs.",
+      "new": "Silenced RNAs and decay factors can accumulate in **P-bodies**, but a visible P-body is not a required site for every decay event.",
+      "reason": "NoobligatePbody.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4292926/"
+    },
+    {
+      "field": "content",
+      "old": "In animals, the predominant outcome is translational repression with partial mRNA destabilization.",
+      "new": "In many mammalian experiments, reduced mRNA abundance accounts for most sustained repression once a substantial effect develops. Translational repression can contribute earlier or in particular settings; do not infer a universal balance from imperfect pairing alone.",
+      "reason": "Correctpredominantoutcome.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2990499/"
+    },
+    {
+      "field": "content",
+      "old": "Unlike miRNAs (which are encoded in the genome), siRNAs in nature arise from long double-stranded RNA (dsRNA)—produced by RNA viruses, transposons, or experimental introduction.",
+      "new": "siRNAs can arise from long double-stranded RNA, including viral RNA, transposon-related transcripts, endogenous complementary transcripts or experimental material. Endogenous siRNAs can therefore also have genomic origins; origin alone is not an absolute miRNA/siRNA distinction.",
+      "reason": "CorrectendogenoussiRNA.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+    },
+    {
+      "field": "content",
+      "old": "AGO2 (the only catalytic Argonaute in humans) cleaves the target mRNA endonucleolytically between nucleotides 10 and 11 of the siRNA.",
+      "new": "AGO2, the major human slicer, can cleave the target RNA at the bond opposite guide nucleotides 10 and 11. The guide itself is not cut at that position. AGO3 also has guide-dependent slicer activity in biochemical studies, so AGO2 is not absolutely the only catalytically capable human Argonaute.",
+      "reason": "CorrectcleavagemoleculeandAGO3.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5714244/"
+    },
+    {
+      "field": "content",
+      "old": "1. **Signal transduction** activates a kinase that phosphorylates a transcription factor (e.g., NF-κB), causing it to translocate to the nucleus.",
+      "new": "1. In the canonical **NF-κB pathway**, signals activate IKK, which phosphorylates IκB inhibitors. Their ubiquitination and proteasomal degradation release NF-κB, permitting nuclear accumulation.",
+      "reason": "CorrectcanonicalNFkBmechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK100914/figure/nfkb.F2/"
+    },
+    {
+      "field": "content",
+      "old": "exposing the TATA box and transcription factor binding sites.",
+      "new": "changing accessibility at the promoter and regulatory binding sites; not every target promoter has a TATA box.",
+      "reason": "ConsistentTATAscope.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29946135/"
+    },
+    {
+      "field": "content",
+      "old": "- GTFs + TBP assemble the PIC at the TATA box (~25 bp upstream of TSS)",
+      "new": "- GTFs help assemble a Pol II PIC; TATA-containing and TATA-less promoters use different combinations of core elements.",
+      "reason": "Summaryconsistent.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29946135/"
+    },
+    {
+      "field": "content",
+      "old": "- Histone acetylation (by HATs) → activates transcription; deacetylation (by HDACs) → represses",
+      "new": "- Histone acetylation commonly supports active chromatin; deacetylation often supports repression, with locus-dependent effects.",
+      "reason": "Summarynotabsolute.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "content",
+      "old": "- Splicing mutations: spinal muscular atrophy",
+      "new": "- SMA: loss of SMN1 function; SMN2 exon 7 skipping limits compensation.",
+      "reason": "Summarygeneidentity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1352/"
+    },
+    {
+      "field": "questions.211.question_text",
+      "old": "A researcher discovers that a specific gene is silenced in differentiated liver cells but not in embryonic stem cells. Chromatin immunoprecipitation (ChIP) assays reveal that the gene's promoter region is associated with trimethylated histone H3 lysine 27 (H3K27me3) in liver cells but not in stem cells. Which of the following best explains the mechanism by which H3K27me3 silences this gene?",
+      "new": "A silenced promoter is enriched in H3K27me3. Which mechanism is consistent with this mark contributing to repression, although ChIP enrichment alone does not establish causation?",
+      "reason": "ChIPcorrelationnotproof.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "questions.211.explanation",
+      "old": "H3K27me3 is a repressive histone mark deposited by the Polycomb Repressive Complex 2 (PRC2). It recruits PRC1, which compacts chromatin and limits accessibility of transcription factors and RNA polymerase II. Choice A is incorrect because H3K27me3 acts indirectly through chromatin structure rather than directly blocking polymerase. Choice C is a tempting distractor because DNA methylation does silence genes, but H3K27me3 itself does not degrade DNA; these are distinct regulatory mechanisms.",
+      "new": "B is consistent with the observation. PRC2 deposits H3K27me3, which can be recognized by canonical PRC1 complexes and contribute to a repressive chromatin state. Not all PRC1 recruitment depends on H3K27me3. The mark neither degrades promoter DNA nor directly sequesters factors in the cytoplasm. Additional perturbation experiments are needed to establish causation at this promoter.",
+      "reason": "Polycombpathwayqualified.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "questions.212.explanation",
+      "old": "Combinatorial control refers to the synergistic action of multiple transcription factors that together produce an output far exceeding the sum of their individual effects. This occurs because factors can cooperatively recruit coactivators, stabilize each other's binding, or remodel chromatin in concert. Choice D is a tempting distractor because it invokes a plausible biological process (translation), but the question specifies transcription factor proteins acting at the DNA level, not a translational amplification loop. The 40-fold increase versus the expected 6-fold additive increase is the hallmark of synergy, not simple addition.",
+      "new": "B is correct. The combined 40-fold output indicates synergy under the stated conditions. If each factor adds one baseline unit, simple additive increments predict 1 + 1 + 1 + 1 = 4-fold; independent multiplication predicts 2 × 2 × 2 = 8-fold. Forty-fold exceeds both benchmarks. Cooperative recruitment or chromatin changes could explain it, but the result alone does not identify which molecular interaction occurs. Combinatorial control can also yield non-synergistic outcomes.",
+      "reason": "Fixbaselinearithmeticanddefinition.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9904/"
+    },
+    {
+      "field": "questions.213.explanation",
+      "old": "When a miRNA has imperfect complementarity to its target mRNA (common in animals), the RISC complex represses translation without cleaving the mRNA, leaving mRNA levels relatively unchanged while protein output drops. Choice A is incorrect because cleavage by RISC (as in siRNA) requires near-perfect complementarity and would reduce mRNA abundance, which was not observed. Choice C is a tempting distractor because cap modifications do affect translation, but this is not the mechanism of miRNA-mediated repression.",
+      "new": "B is most consistent with lower protein output and unchanged measured mRNA abundance in this experiment. The data support translational repression but do not imply that all imperfectly paired miRNAs leave mRNA levels unchanged; miRNAs commonly promote deadenylation and decay too. Measurements of translation and protein turnover would further test the mechanism.",
+      "reason": "Noimperfectpairingimpliesnodecay.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2990499/"
+    },
+    {
+      "field": "questions.214.question_text",
+      "old": "During development, a transcription factor (TF-X) is expressed only in cells that will become muscle. TF-X binds an enhancer 30 kb downstream of the myosin heavy chain gene. Deletion of this enhancer abolishes myosin expression even when TF-X is present. Which of the following best explains how the enhancer communicates with the myosin promoter over 30 kb?",
+      "new": "TF-X binds an enhancer 30 kb downstream of a gene. Deleting the enhancer lowers expression, and chromosome-contact experiments support proximity to the promoter during activation. Which model best explains these combined findings?",
+      "reason": "Addcontactevidencetoresolvemechanisminference.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29946135/"
+    },
+    {
+      "field": "questions.214.explanation",
+      "old": "Enhancers communicate with distant promoters through chromatin looping, facilitated by mediator complexes and cohesin, which physically juxtapose the enhancer and promoter regardless of the intervening genomic distance. This allows activator proteins bound at the enhancer to directly stimulate the pre-initiation complex at the promoter. Choice A is a tempting distractor because enhancer RNAs (eRNAs) do exist, but they facilitate looping rather than diffusing to recruit polymerase. Choice C incorrectly describes a linear spreading mechanism that is not how enhancers function over large distances.",
+      "new": "B is the supported model: chromatin looping can bring enhancer-bound regulators near promoter machinery. Cofactors including Mediator and architectural proteins can contribute, but enhancer function is context-dependent. Enhancer deletion alone would not prove looping, and enhancer RNAs can have diverse roles; the added contact evidence makes B the best answer here.",
+      "reason": "Removeuniversalcohesin/eRNAclaims.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29946135/"
+    },
+    {
+      "field": "content",
+      "old": "Mutations that disrupt splice sites or regulatory elements cause diseases including spinal muscular atrophy, usually due to biallelic SMN1 loss or pathogenic variants.",
+      "new": "Splice-site and regulatory-sequence variants can cause disease. In spinal muscular atrophy, the primary defect is usually biallelic SMN1 loss or pathogenic variants.",
+      "reason": "Separate primary gene loss from modifier splicing.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1352/"
+    }
+  ]
+}

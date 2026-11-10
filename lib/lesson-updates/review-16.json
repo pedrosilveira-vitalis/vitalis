@@ -1,0 +1,196 @@
+{
+  "lessonId": 16,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "parameters that describe an enzyme's affinity for its substrate, its maximum catalytic rate, and its overall efficiency",
+      "new": "parameters describing substrate dependence of rate, maximum catalytic rate, and low-substrate efficiency; Km is not generally an equilibrium affinity",
+      "reason": "Openingprecision.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "so there is always excess substrate to replenish ES as it breaks down",
+      "new": "together with an initial-rate window in which substrate depletion and reverse flux are negligible",
+      "reason": "Not excessforever.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**Km reflects enzyme-substrate affinity in a practical sense.** A *low* Km means the enzyme reaches half-maximal velocity at a low substrate concentration—the enzyme has high apparent affinity for its substrate and does not need much substrate to be operating near maximum capacity. A *high* Km means the enzyme needs a lot of substrate to reach half-maximal velocity—lower apparent affinity.",
+      "new": "**Km describes the concentration dependence of rate.** A lower Km means half Vmax is reached at lower [S]. It does not, by itself, prove stronger equilibrium binding or a larger kcat. Half Vmax is also not the same as being near maximum capacity.",
+      "reason": "Separatehalfmaxandaffinity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Glucokinase (glucose substrate): Km ≈ 10 mM — low affinity, only active when glucose is abundant (acts as a glucose sensor in the liver and pancreatic β-cells)",
+      "new": "Glucokinase: glucose S₀.₅ is several millimolar (often around 8 mM, condition-dependent). Its response is sigmoidal, so S₀.₅ is more appropriate than a simple Km. It remains active below this concentration and acts as a glucose sensor",
+      "reason": "Monomerickineticcooperativity.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "This difference in Km between hexokinase and glucokinase",
+      "new": "This difference in substrate-response range between hexokinase and glucokinase",
+      "reason": "Use S0.5 forGCK.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "**Vmax** has units of concentration per time (e.g., μM/s or μmol/min).",
+      "new": "**Vmax** may be reported as concentration per time (μM/s), or amount per time (μmol/min) for a specified assay volume. Match these units to enzyme concentration or amount when calculating kcat.",
+      "reason": "Amountnotconcentration.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "kcat reflects the rate-limiting step among all steps after substrate binding",
+      "new": "kcat summarizes the complete saturated catalytic cycle; it can depend on several microscopic rate constants, including product release",
+      "reason": "Not alwaysonestep.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "every encounter leads to catalysis",
+      "new": "a large fraction of productive encounters leads to catalysis",
+      "reason": "Not everycollision.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "This is the inflection region of the curve where the transition from first-order to zero-order behavior occurs.",
+      "new": "This is the half-maximum point. The Michaelis–Menten hyperbola is concave down for positive [S] and has no inflection point there.",
+      "reason": "Hyperbolanoinflection.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Both y-intercept and x-intercept shift upward/rightward.",
+      "new": "The y-intercept increases (upward); the x-intercept becomes more negative (leftward), because −1/Km becomes more negative as apparent Km decreases.",
+      "reason": "Criticaluncompetitiveleftnotright.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "reducing both Km and Vmax in complex ways",
+      "new": "changing apparent Km and Vmax in mechanism-dependent ways; Km need not decrease",
+      "reason": "pHnotnecessarilyreduceKm.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Enzyme activity generally increases with temperature up to an optimum (typically 37°C for human enzymes), beyond which the enzyme denatures and activity drops precipitously. The Arrhenius equation governs the temperature dependence of rate constants: higher temperature increases k₁, k₋₁, and k₂, affecting both Km and Vmax. On the MCAT, know that moderate temperature increases raise Vmax; excessive heat irreversibly denatures the enzyme.",
+      "new": "Rate constants and enzyme stability depend on temperature. Warming may accelerate a reaction over a limited range, while loss of active conformation can reduce activity. The apparent optimum depends on enzyme, assay duration and conditions; it is not universally 37°C for human enzymes. Heat-induced loss of activity can be reversible or irreversible.",
+      "reason": "Remove temperatureandirreversibilityabsolutes.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Not all enzymes follow Michaelis-Menten kinetics. **Allosteric enzymes** (typically oligomeric, with multiple subunits) show **sigmoidal v vs. [S] curves** rather than hyperbolic ones. This arises from **cooperativity**: binding of substrate to one subunit alters the affinity of other subunits for substrate (positive cooperativity increases affinity; negative cooperativity decreases it).",
+      "new": "Not all enzymes follow Michaelis–Menten kinetics. Some regulated enzymes show sigmoidal substrate-response curves, while some allosteric enzymes remain approximately hyperbolic. Oligomeric interactions can produce cooperativity, but monomeric glucokinase is an example of kinetic cooperativity without multiple subunits.",
+      "reason": "Allosterynotsigmoidalrequirement.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "**ATCase** (aspartate transcarbamoylase, rate-limiting enzyme of pyrimidine synthesis)",
+      "new": "**E. coli ATCase** (aspartate transcarbamoylase, a regulated enzyme of pyrimidine synthesis)",
+      "reason": "Specifybacterialenzyme; mammalianCPSIIregulation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "- Show sigmoidal (S-shaped) v vs. [S] curves",
+      "new": "- May show sigmoidal curves; this is not required for allostery",
+      "reason": "Not allsigmoid.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "- Are not accurately described by a single Km (use K₀.₅, the [S] at half-maximal velocity)",
+      "new": "- Use K₀.₅ or S₀.₅ for a non-Michaelis–Menten response rather than interpreting it as a microscopic affinity",
+      "reason": "Scopehalfmaxnotation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "- The steady-state assumption is valid",
+      "new": "- After the initial transient, a suitable early linear interval can support steady-state analysis; early measurement alone does not guarantee it",
+      "reason": "Initialtransientnotsteadystate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "(relevant in overdose situations)",
+      "new": "in the standard reversible model; this is not a general instruction for treating overdose",
+      "reason": "Remove unsafeclinicalinference.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "the enzyme operates in the steep, linear portion of the curve and is highly sensitive to substrate changes",
+      "new": "the enzyme operates at half Vmax and responds to substrate changes. The slope is greatest near zero [S]; the near-linear approximation requires [S] much smaller than Km",
+      "reason": "Kmnotlinearregion.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "inversely related to apparent enzyme-substrate affinity",
+      "new": "a kinetic parameter that approximates Kd only under the stated rapid-equilibrium condition",
+      "reason": "Consistentsummary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**Allosteric enzymes** show sigmoidal kinetics (Hill equation), not hyperbolic; characterized by cooperativity and sensitivity to regulatory molecules.",
+      "new": "**Allosteric regulation** can alter activity through communication between sites. Some systems show sigmoidal curves fit empirically by a Hill equation; others do not.",
+      "reason": "Consistentsummary.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "questions.76.explanation",
+      "old": "When [S] is much greater than Km, the enzyme is saturated and velocity approaches Vmax. At 20 mM ([S] = 10x Km), the enzyme is near saturation (~91% Vmax). At 0.2 mM ([S] = 0.1x Km), velocity is only about 9% of Vmax. Choice A is incorrect because the relationship between [S] and velocity is hyperbolic, not linear, so doubling [S] does not double velocity near saturation.",
+      "new": "C is correct. At 0.2 mM, v/Vmax = 0.2/(2 + 0.2) ≈ 0.091. At 20 mM, v/Vmax = 20/(2 + 20) ≈ 0.909. The second rate is therefore ten times the first, not twice; the substrate concentrations differ by a factor of 100.",
+      "reason": "Fix distractorexplanation doublingirrelevant.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.77.explanation",
+      "old": "At [S] = Km, velocity equals Vmax/2, so Enzyme X runs at 50 nmol/min. For Enzyme Y, [S] = 0.5 mM is only 1/10 of its Km, giving v = Vmax x 0.5/(5 + 0.5) approximately 9 nmol/min. Lower Km reflects tighter substrate binding and higher affinity, not faster turnover; kcat governs turnover. Choice C is wrong because Vmax is only reached at saturating [S], and the two enzymes are far from saturation to the same degree.",
+      "new": "B is correct: X runs at 100 × 0.5/(0.5 + 0.5) = 50 nmol/min; Y runs at 100 × 0.5/(5 + 0.5) ≈ 9.1 nmol/min. These rates follow from the stated kinetic parameters. The Km values alone do not establish equilibrium binding affinities or turnover numbers.",
+      "reason": "Removeaffinityinference andsame saturationcontradiction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.78.question_text",
+      "old": "A Lineweaver-Burk plot is constructed for an enzyme. The x-intercept is -2 mM^-1 and the y-intercept is 0.05 nmol/min^-1. What are the Km and Vmax of this enzyme?",
+      "new": "A Lineweaver–Burk plot has x-intercept −2 mM⁻¹ and y-intercept 0.05 min/nmol. What are Km and Vmax?",
+      "reason": "Correctreciprocalrateunits.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.78.explanation",
+      "old": "In a Lineweaver-Burk (double-reciprocal) plot, the x-intercept equals -1/Km and the y-intercept equals 1/Vmax. The x-intercept of -2 mM^-1 means -1/Km = -2, so Km = 0.5 mM. The y-intercept of 0.05 nmol/min^-1 means 1/Vmax = 0.05, so Vmax = 20 nmol/min. Choice D is a common error from confusing which intercept represents which parameter.",
+      "new": "A is correct. x-intercept = −1/Km, so Km = 0.5 mM. y-intercept = 1/Vmax = 0.05 min/nmol, so Vmax = 20 nmol/min. Use reciprocal units consistently.",
+      "reason": "Correctunits.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.79.question_text",
+      "old": "An enzyme preparation contains 0.5 nmol of enzyme and achieves a Vmax of 30 nmol of product per second. What is the kcat (turnover number) of this enzyme?",
+      "new": "An assay contains 0.5 nmol of catalytically active enzyme sites and has Vmax = 30 nmol product/s. Each catalytic turnover produces one product molecule. What is kcat?",
+      "reason": "Specifyactivesitesandstoichiometry.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.79.explanation",
+      "old": "kcat is defined as Vmax divided by the total enzyme concentration [E]t. kcat = 30 nmol/s divided by 0.5 nmol = 60 s^-1. This means each enzyme molecule converts 60 substrate molecules per second when fully saturated. Choice A results from incorrectly dividing by 2 instead of the enzyme amount, and Choice D forgets to account for the enzyme concentration entirely.",
+      "new": "B is correct: 30 nmol/s divided by 0.5 nmol active sites equals 60 s⁻¹. Amount rates can be divided by enzyme amount; concentration rates must be divided by enzyme concentration. Choice A results from multiplying the two numbers instead of dividing.",
+      "reason": "Dimensionalconsistency.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    }
+  ]
+}

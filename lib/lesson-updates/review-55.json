@@ -1,0 +1,161 @@
+{
+  "lessonId": 55,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "also called the **electrochemical potential**",
+      "new": "a difference in **electrochemical potential** between the two sides",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "content",
+      "old": "They are not merely channels; they undergo conformational changes that physically translocate ions across the membrane, using the energy released by breaking the terminal phosphate bond of ATP (ΔG ≈ −54 kJ/mol under cellular conditions).",
+      "new": "ATP-driven pumps couple conformational changes to ATP hydrolysis. Breaking a bond alone costs energy; the overall hydrolysis reaction is favorable because its products have lower free energy. Cellular ΔG depends on ATP, ADP, phosphate and conditions; −54 kJ/mol is an illustrative value, not a constant.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK9903/"
+    },
+    {
+      "field": "content",
+      "old": "It consists of a large catalytic α subunit and a regulatory β subunit.",
+      "new": "Its core includes a catalytic α subunit and a β subunit important for folding, trafficking and stability; FXYD proteins can provide additional regulation.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "content",
+      "old": "typically accounting for about −5 to −10 mV of the total resting potential.",
+      "new": "with a contribution that varies by cell type and activity; the resting potential also depends strongly on ion-selective permeability.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "content",
+      "old": "allowing troponin to rebind tropomyosin and block actin-myosin interaction.",
+      "new": "allowing Ca²⁺ to dissociate from troponin C in striated muscle so the troponin–tropomyosin complex again restricts actin–myosin interaction.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "content",
+      "old": "almost always Na⁺ in animal cells",
+      "new": "often Na⁺ in animal plasma membranes, although H⁺ and other gradients also power important transporters",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "content",
+      "old": "SGLT1 (intestine) and SGLT2 (kidney) co-transport 1–2 Na⁺ ions along with 1 glucose molecule into the cell.",
+      "new": "SGLT1 (intestine and late proximal tubule) couples 2 Na⁺ to 1 glucose, whereas SGLT2 (early proximal tubule) couples 1 Na⁺ to 1 glucose.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.niddk.nih.gov/news/archive/2016/story-discovery-sglt2-inhibitors-harnessing-kidneys-help-treat-diabetes"
+    },
+    {
+      "field": "content",
+      "old": "how the kidney reabsorbs ~90% of filtered glucose in the proximal tubule.",
+      "new": "how the kidney normally reabsorbs nearly all filtered glucose below its transport capacity. SGLT2 handles the majority, often approximated as 90%; downstream SGLT1 recovers the remainder.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.niddk.nih.gov/news/archive/2016/story-discovery-sglt2-inhibitors-harnessing-kidneys-help-treat-diabetes"
+    },
+    {
+      "field": "content",
+      "old": "**The Na⁺/Ca²⁺ exchanger (NCX)** uses the Na⁺ gradient to export Ca²⁺.",
+      "new": "**The Na⁺/Ca²⁺ exchanger (NCX)** commonly uses inward Na⁺ movement to export Ca²⁺, but its direction can reverse as voltage and ion gradients change.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "content",
+      "old": "This is electrically neutral (1:1 exchange of monovalent anions) and facilitates CO₂ transport:",
+      "new": "This is electrically neutral (1:1 exchange of monovalent anions); anion exchange is not intrinsically uphill in every condition. It facilitates CO₂ transport:",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "content",
+      "old": "Secondary transporters then fail, glucose and amino acid absorption stops, intracellular Ca²⁺ rises (as NCX reverses), and cells swell as osmotic balance is lost.",
+      "new": "Na⁺-dependent transport weakens or can reverse; Ca²⁺ regulation and volume control deteriorate. Passive GLUT-mediated glucose transport need not stop simply because the Na⁺ gradient falls. The course depends on cell type and available energy reserves.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "content",
+      "old": "**ATP synthase (Complex V)** is essentially a secondary active transporter running in reverse — it uses the proton gradient to synthesize ATP rather than consuming ATP to pump protons.",
+      "new": "**ATP synthase (Complex V)** is a rotary F-type enzyme. In its synthesis mode it couples downhill proton movement to ATP synthesis; in the reverse mode ATP hydrolysis can drive proton pumping. It is not a Na⁺-coupled secondary carrier.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "(~28 of the ~30–32 ATP per glucose in aerobic respiration)",
+      "new": "(commonly estimated as ~26–28 of ~30–32 ATP per glucose under standard textbook assumptions)",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "All are inhibited by vanadate (a phosphate analog that traps the phosphorylated intermediate).",
+      "new": "Vanadate inhibits many P-type ATPases by stabilizing a phosphate-transition-state-like complex; sensitivity varies with the enzyme and conditions.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "content",
+      "old": "They consist of F₁ (catalytic, cytoplasmic) and F₀ (proton channel, membrane) domains. The F₁ domain rotates as protons flow through F₀, driving conformational changes in the β subunits that synthesize ATP from ADP + Pi.",
+      "new": "They contain an F₁ catalytic head on the mitochondrial matrix side (cytoplasmic side in bacteria) and a membrane F₀ sector. Proton flow rotates the c-ring and central rotor shaft relative to the largely stationary α₃β₃ catalytic head; this changes β-subunit conformations during ATP synthesis.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9380678/"
+    },
+    {
+      "field": "content",
+      "old": "in all absorptive epithelia.",
+      "new": "in many absorptive epithelia, although transporter identities and directionality vary by tissue.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "content",
+      "old": "In the **distal tubule and collecting duct**, Na⁺ channels (ENaC)",
+      "new": "In the **late distal nephron, connecting tubule and collecting duct**, Na⁺ channels (ENaC)",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "questions.271.explanation",
+      "old": "Because 3 positive charges (Na⁺) exit while only 2 positive charges (K⁺) enter, there is a net export of one positive charge per cycle, making the cytoplasm more negative. This net charge movement defines an electrogenic pump. Choice D is tempting because it correctly describes the thermodynamic challenge of active transport, but it does not explain why the pump is electrogenic specifically; electrogenicity is about net charge transfer, not the direction of transport relative to gradients.",
+      "new": "Three Na⁺ leave and two K⁺ enter, so one net positive charge leaves per pump cycle. Electrogenicity means net charge transfer. It does not mean each transported ion must move uphill against both its concentration and electrical gradients separately.",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "questions.273.question_text",
+      "old": "A researcher discovers a novel membrane protein that moves Ca²⁺ out of the cell while moving Na⁺ into the cell, with no direct ATP hydrolysis. This protein is best classified as which type of transporter?",
+      "new": "A membrane protein couples downhill Na⁺ entry to uphill Ca²⁺ extrusion, with no direct ATP hydrolysis. What type of transport does this describe?",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "questions.274.explanation",
+      "old": "Na⁺ influx through voltage-gated channels is passive, driven by the pre-existing electrochemical gradient (low intracellular Na⁺ concentration and negative membrane potential). This gradient was built up by the Na⁺/K⁺-ATPase using ATP, but the ATP is not consumed at the moment of influx. Choice A is the most tempting distractor because the ATPase is central to Na⁺ homeostasis, but the pump is not active during the rapid Na⁺ influx phase; the stored gradient energy is what drives ion flow.",
+      "new": "The immediate driving force for Na⁺ flow through an open voltage-gated channel is its electrochemical gradient. The Na⁺/K⁺ pump maintains ion gradients over time and can continue working during a spike; it does not directly power each channel-mediated ion movement.",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "questions.275.question_text",
+      "old": "A cell is treated with a drug that makes the plasma membrane freely permeable to Na⁺ but does not inhibit the Na⁺/K⁺-ATPase. After prolonged treatment, which outcome is most likely?",
+      "new": "A drug creates a large Na⁺ leak that exceeds the intact Na⁺/K⁺ pump’s maximum capacity. Assume counterion movement permits net salt accumulation, water is permeable and volume regulation cannot compensate. What outcome is most likely after prolonged treatment?",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "questions.275.explanation",
+      "old": "Making the membrane freely permeable to Na⁺ creates a massive passive driving force for Na⁺ influx (chemical and electrical gradient both favor entry). The Na⁺/K⁺-ATPase has a finite maximum rate (Vmax) and cannot compensate for unregulated Na⁺ leak; intracellular Na⁺ accumulates, raising osmolarity and causing water to follow osmotically, swelling the cell. Choice A is tempting because the pump is still functional, but physiological pump rates are calibrated for normal leak rates, not unlimited permeability.",
+      "new": "The leak exceeds pump capacity, so Na⁺ accumulates. Under the stated conditions counterion movement permits net osmolyte accumulation and water follows, causing swelling. Increased permeability changes conductance, not the electrochemical driving force itself; gradients and voltage evolve as ions move.",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "lessonId": 32,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    156,
+    157,
+    158,
+    159,
+    160
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK544346/",
+      "title": "Gluconeogenesis substrates, enzymes and fasting"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3943549/",
+      "title": "Cytosolic and mitochondrial PEPCK and redox balance"
+    },
+    {
+      "url": "https://medlineplus.gov/genetics/gene/g6pc1/",
+      "title": "G6PC1 glucose release in liver, kidney and intestine"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+      "title": "Mitochondrial carbon and redox balance"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/",
+      "title": "Tissue-specific PFK2/FBPase2 regulation"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31891768/",
+      "title": "Direct glucagon effects in human adipocytes"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK550349/",
+      "title": "GeneReviews: FBP1 deficiency"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10839993/",
+      "title": "Experimental dose- and time-dependent metformin effects"
+    }
+  ],
+  "visual": {
+    "title": "Gluconeogenesis bypasses and redox direction",
+    "src": "/lesson-diagrams/gluconeogenesis.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "Pyruvate becomes OAA through pyruvate carboxylase using ATP and bicarbonate, then PEP through PEPCK using GTP. FBPase1 hydrolyzes F1,6BP to F6P and G6PC1 hydrolyzes G6P to glucose. Lactate oxidation generates NADH, not NAD. High F2,6BP stimulates PFK1 and inhibits FBPase1 in reciprocal control.",
+    "caption": "From two pyruvates: four ATP, two GTP and two NADH are required. Glycerol enters later and has different accounting."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "38e705cec7881e25548edcd6a73dfeee99e01c9cf72cbc363cf4c913f5cafa48"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "0071180ad2fb90b31766dce3c2798bda379645cf7b51494b89763035821fd210"
+    },
+    {
+      "field": "questions.156.question_text",
+      "sha256": "6def801733c16706cb4781e3a10c46dc71aa0ea0f46c50c66553be824e08142c"
+    },
+    {
+      "field": "questions.156.choice_a",
+      "sha256": "f954de8b62d73a6c091056df4feb57fcb15a5147b6ea4cc633c29568a4f56d44"
+    },
+    {
+      "field": "questions.156.choice_b",
+      "sha256": "32b6851dc2400b1cbc4856d94879438873cb3181044295f37ce8b6baffe13f62"
+    },
+    {
+      "field": "questions.156.choice_c",
+      "sha256": "6249572d66d6cf2e173c4b008c6b5a3bb28005dc1378c4e5bbcdc4a5726fb686"
+    },
+    {
+      "field": "questions.156.choice_d",
+      "sha256": "933bf6158505749355feb34fff0efd3038baa870ae98491ca39acc97c385b030"
+    },
+    {
+      "field": "questions.156.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.156.explanation",
+      "sha256": "20d17a5f70f5ddfd18bb169be65cc12ea256f5009927ef5679aa9fdd82be517b"
+    },
+    {
+      "field": "questions.157.question_text",
+      "sha256": "bf35a803aae491e4d27581ca5d4450db85a88bfc74cb98b81067be42b9752c5f"
+    },
+    {
+      "field": "questions.157.choice_a",
+      "sha256": "2f73390535ec89895c66cc76ad229a210cd0dedd26c2b2c3469e36c9c1165d3f"
+    },
+    {
+      "field": "questions.157.choice_b",
+      "sha256": "381af8fe0b9655a964e0b2efc682e86398f40a84a753bac01a5a80bf9fa93537"
+    },
+    {
+      "field": "questions.157.choice_c",
+      "sha256": "34ffbcfaa44641d06e5df2be5a6d03483d6b05c5f3924fa740859ade4e7d98a7"
+    },
+    {
+      "field": "questions.157.choice_d",
+      "sha256": "9d3e8a80842ff2dc1425d10af95a61f2538f292db56582c1955d8160b209bfbd"
+    },
+    {
+      "field": "questions.157.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.157.explanation",
+      "sha256": "ef9744dfea0c4a3c75d8f29b66d8efda3848b8972741a247fc7cb1f5ac29157a"
+    },
+    {
+      "field": "questions.158.question_text",
+      "sha256": "58d815d281e9b56f942e390a29065a94d908a5058be72ba9a6ab731360bcd87b"
+    },
+    {
+      "field": "questions.158.choice_a",
+      "sha256": "eb2838afef048599f4f9b5b82e05da396335be4df58f09e3d301ff2923202a25"
+    },
+    {
+      "field": "questions.158.choice_b",
+      "sha256": "771cc836b87d70e3928cf56376b64de0d068ff9ab0636b3b81098585c0654eb6"
+    },
+    {
+      "field": "questions.158.choice_c",
+      "sha256": "b3f3e4d7bbcf1b2e82b9cd5f951dbf500edf07856c81953b77e1cfb094870dcc"
+    },
+    {
+      "field": "questions.158.choice_d",
+      "sha256": "8ba7dc2bbbdc22e852efb174fc346d7fbbf2a6a4095187cbca3664d527d80d5b"
+    },
+    {
+      "field": "questions.158.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.158.explanation",
+      "sha256": "135eff05459fb6c237be70091a867f7bed54eda88fe6e699ad8da1024182dcad"
+    },
+    {
+      "field": "questions.159.question_text",
+      "sha256": "701133aa16747aa6b06bfd8d884b88932f6c6f38b152a235bcbe1e33ec79f1a3"
+    },
+    {
+      "field": "questions.159.choice_a",
+      "sha256": "c0f57d778fb741f0e527190a37e18ed52775bc97c594bf2dd2ee9ca6af741b45"
+    },
+    {
+      "field": "questions.159.choice_b",
+      "sha256": "929f362fb7719258f9ac2fd72a85bbac265be6ed8704df433f154d04d2b45844"
+    },
+    {
+      "field": "questions.159.choice_c",
+      "sha256": "f6e157da5eacad914f517604e6bb60e0817a13e7843a437ac172e0373ccfbb7e"
+    },
+    {
+      "field": "questions.159.choice_d",
+      "sha256": "77c96a936e67d8708d33e215a86d043851424837cb907ec413029eaa6e9038e5"
+    },
+    {
+      "field": "questions.159.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.159.explanation",
+      "sha256": "216dfde744e01b479c7a1190e569a14254b9a0b69138e8b91ef2ad546ef79b01"
+    },
+    {
+      "field": "questions.160.question_text",
+      "sha256": "a19dbb1bf457b2b3afcd6741de23291fd2338ea08d5b2e4518843c1c21ece2ab"
+    },
+    {
+      "field": "questions.160.choice_a",
+      "sha256": "2511bd9380906cd6cb9a535c81da6226dd85c3e4c859095788e5b876139df03d"
+    },
+    {
+      "field": "questions.160.choice_b",
+      "sha256": "b4ab9d364adc5197b810d60e1fdd6df5e25e0548a51c2b9736820fab356e593e"
+    },
+    {
+      "field": "questions.160.choice_c",
+      "sha256": "37824bbcd9fc9f40e77d83a558a61553c446ac68ef281be78aaf8ad7fa176b29"
+    },
+    {
+      "field": "questions.160.choice_d",
+      "sha256": "2f3becf971590097f98e08df23ab7fb1c03800b3ba00d8a2b563a751762e396a"
+    },
+    {
+      "field": "questions.160.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.160.explanation",
+      "sha256": "36948e2d0a9814674ae9c705760e0f799d72920f881e2cee9353c8276ca2038e"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "# Gluconeogenesis and Its Reciprocal Regulation with Glycolysis\n\n## Overview and Metabolic Context\n\nThe human body maintains blood glucose within a narrow range—roughly 70–100 mg/dL in the fasting state—despite periods of prolonged fasting, intense exercise, or low-carbohydrate intake. Glycolysis alone cannot accomplish this. When dietary glucose is unavailable, the liver (and to a lesser extent the kidneys and small intestine) synthesizes glucose *de novo* from non-carbohydrate precursors through a process called **gluconeogenesis**.\n\nGluconeogenesis is not simply glycolysis running in reverse. Seven of the ten glycolytic steps are thermodynamically reversible and are shared between the two pathways. However, three glycolytic reactions are so energetically favorable in the forward direction that they are essentially irreversible under physiological conditions. These are the reactions catalyzed by **hexokinase/glucokinase**, **phosphofructokinase-1 (PFK-1)**, and **pyruvate kinase**. Gluconeogenesis must circumvent these three steps using four unique enzymatic reactions that together consume considerable energy. Understanding these bypass reactions, their substrates, their regulation, and their reciprocal relationship with glycolysis is essential for the MCAT and for understanding whole-body glucose homeostasis.\n\n---\n\n## The Three Irreversible Steps of Glycolysis and Their Gluconeogenic Bypasses\n\n### Bypass 1: Pyruvate → Phosphoenolpyruvate (PEP)\n\nIn glycolysis, **pyruvate kinase** converts phosphoenolpyruvate to pyruvate, releasing enough free energy (ΔG°′ ≈ −31.4 kJ/mol) to drive ATP synthesis irreversibly. Gluconeogenesis cannot simply push this reaction backward. Instead, it uses a two-step detour.\n\n**Step 1 — Pyruvate carboxylase (PC):**\nPyruvate is first transported into the mitochondrial matrix (or is already there following transamination of alanine or deamination of glucogenic amino acids). Pyruvate carboxylase, a mitochondrial enzyme that requires **biotin** as a cofactor and **acetyl-CoA** as an allosteric activator, carboxylates pyruvate to produce **oxaloacetate (OAA)**:\n\nPyruvate + HCO₃⁻ + ATP → Oxaloacetate + ADP + Pᵢ (biochemical shorthand)\n\nThis reaction costs one ATP and can supply gluconeogenesis or replenish TCA intermediates; it does not commit all newly formed OAA to glucose—a logical checkpoint, because high acetyl-CoA signals that fat oxidation is active and that glucose synthesis may be needed.\n\n**Step 2 — Phosphoenolpyruvate carboxykinase (PEPCK):**\nOAA cannot cross the inner mitochondrial membrane directly. It is either reduced to malate (which can be transported out via the malate-aspartate shuttle) or transaminated to aspartate. For the cytosolic route, OAA is regenerated and acted on by **PEPCK-C**. **PEPCK-M** can instead form PEP in mitochondria for export. Route choice interacts with cytosolic NADH supply: lactate oxidation already generates NADH, while malate export can transfer reducing equivalents. The PEPCK reaction is:\n\nOxaloacetate + GTP → Phosphoenolpyruvate + CO₂ + GDP\n\nPEPCK uses **GTP** (not ATP) as the phosphate donor, in the human PEPCK isoenzymes; GTP use is not unique among metabolic enzymes. The net result of the two-step bypass is the consumption of one ATP and one GTP to produce one PEP from one pyruvate—a significant energy investment compared to the ATP generated when the reaction runs in the glycolytic direction.\n\n*MCAT note:* PEPCK is a major regulatory target. Its gene expression is induced by **glucagon** and **cortisol** and suppressed by **insulin**. This transcriptional control is slower than allosteric regulation but allows sustained changes in gluconeogenic capacity during prolonged fasting.\n\n### Bypass 2: Fructose-1,6-bisphosphate → Fructose-6-phosphate\n\nIn glycolysis, **PFK-1** phosphorylates fructose-6-phosphate (F6P) to fructose-1,6-bisphosphate (F1,6BP) using ATP. This is the primary committed step of glycolysis and is essentially irreversible (ΔG°′ ≈ −14.2 kJ/mol under standard conditions; even more negative physiologically).\n\nGluconeogenesis bypasses this step with **fructose-1,6-bisphosphatase (FBPase-1)**:\n\nFructose-1,6-bisphosphate + H₂O → Fructose-6-phosphate + Pᵢ\n\nFBPase-1 is a hydrolase—it simply removes the 1-phosphate group using water, releasing inorganic phosphate. No ATP is synthesized; a **phosphate ester**, not a phosphoanhydride, is hydrolyzed. The hydrolysis provides a distinct bypass reaction rather than reversing ATP-dependent PFK-1. The two routes are regulated to limit wasteful cycling.\n\n**Allosteric regulation of FBPase-1 and PFK-1** forms the crux of reciprocal regulation at this step (detailed below).\n\n### Bypass 3: Glucose-6-phosphate → Glucose\n\nIn glycolysis, **hexokinase** (or glucokinase in hepatocytes and pancreatic β-cells) phosphorylates glucose to glucose-6-phosphate (G6P), trapping glucose inside the cell. This reaction is highly exergonic (ΔG°′ ≈ −16.7 kJ/mol) and irreversible.\n\nGluconeogenesis uses **glucose-6-phosphatase (G6Pase)** to hydrolyze G6P:\n\nGlucose-6-phosphate + H₂O → Glucose + Pᵢ\n\nCritically, the glucose-producing G6PC1 system is located on the **ER membrane**, with its catalytic site facing the lumen and is expressed only in the liver, kidneys, and small intestinal epithelium—not in muscle or brain. This is why muscle cannot release free glucose into the bloodstream even though it can perform glycogenolysis; it lacks G6Pase and therefore retains glucose as G6P for its own use.\n\n---\n\n## Gluconeogenic Substrates\n\nGluconeogenesis requires carbon skeletons that can enter the pathway above pyruvate or at the level of intermediates. The major substrates are:\n\n### Lactate\n\nLactate is the most quantitatively important gluconeogenic substrate in well-fed humans and during exercise recovery. Red blood cells (which lack mitochondria) and actively contracting skeletal muscle produce lactate via anaerobic glycolysis. This lactate is exported into the blood, taken up by the liver, and converted back to pyruvate by **lactate dehydrogenase (LDH)**:\n\nLactate + NAD⁺ ⇌ Pyruvate + NADH + H⁺\n\nThis hepatic oxidation consumes NAD⁺ and produces NADH plus pyruvate for gluconeogenesis. The resulting glucose is released into the blood and can be taken up again by muscle. This cycle—glucose from liver to muscle, lactate from muscle to liver—is the **Cori cycle** (glucose-lactate cycle). The Cori cycle does not produce net ATP for the organism; it transfers the energetic burden of glucose regeneration from muscle (which needs to work) to the liver (which has ample mitochondrial capacity).\n\n### Alanine and the Glucose-Alanine Cycle\n\nDuring prolonged exercise or fasting, muscle catabolizes branched-chain amino acids and transaminate pyruvate to form **alanine** (via alanine aminotransferase, ALT):\n\nPyruvate + Glutamate ⇌ Alanine + α-Ketoglutarate\n\nAlanine travels to the liver, where ALT reverses the reaction, regenerating pyruvate and glutamate. The pyruvate enters gluconeogenesis, and the amino group is eventually excreted as urea. This **glucose-alanine cycle** is analogous to the Cori cycle but additionally transfers nitrogen from muscle to liver for disposal.\n\n### Glycerol\n\nTriglyceride hydrolysis in adipose tissue releases **glycerol** and free fatty acids. Glycerol is phosphorylated by glycerol kinase in the liver to **glycerol-3-phosphate**, which is then oxidized by glycerol-3-phosphate dehydrogenase to **dihydroxyacetone phosphate (DHAP)**—a direct gluconeogenic intermediate. Even-chain fatty-acid acetyl units do not give a net gain of OAA through the conventional TCA cycle: two carbons enter and two leave per turn. The newly entering acetyl carbons are retained in the first turn, however. Odd-chain propionyl-CoA can contribute glucose carbon. This is a critical MCAT distinction.\n\n### Glucogenic Amino Acids\n\nAll amino acids except **leucine** and **lysine** are at least partially glucogenic. They are catabolized to pyruvate, OAA, α-ketoglutarate, succinyl-CoA, or fumarate—all of which can feed into gluconeogenesis. During prolonged fasting (beyond 24–48 hours), muscle protein becomes a significant gluconeogenic source. Cortisol plays a key role here by stimulating muscle protein catabolism and hepatic gluconeogenesis simultaneously.\n\n### Propionate\n\nIn ruminants, propionate from fermentation is a major gluconeogenic substrate. In humans, propionate arises from the β-oxidation of odd-chain fatty acids and from certain amino acids. It is converted to **succinyl-CoA** (via propionyl-CoA carboxylase and methylmalonyl-CoA mutase, the latter requiring vitamin B₁₂), which enters the TCA cycle and can contribute to OAA for gluconeogenesis.\n\n---\n\n## Energetics of Gluconeogenesis\n\nSynthesizing one molecule of glucose from two pyruvates requires:\n\n- 4 ATP (2 for pyruvate carboxylase, 2 for phosphoglycerate kinase running in reverse)\n- 2 GTP (for PEPCK)\n- 2 NADH (for glyceraldehyde-3-phosphate dehydrogenase running in reverse)\n\nTotal: **6 high-energy phosphate equivalents** per glucose synthesized from pyruvate, compared to the net yield of 2 ATP from glycolysis. This energy investment is supplied primarily by mitochondrial oxidative phosphorylation driven by fat oxidation—which is why gluconeogenesis is active when fatty acid oxidation is high.\n\n---\n\n## Reciprocal Regulation: Allosteric Mechanisms\n\nThe most elegant feature of gluconeogenesis is that it is regulated *reciprocally* with glycolysis. When glycolysis is activated, gluconeogenesis is inhibited, and vice versa. This prevents a futile cycle (simultaneous glucose synthesis and breakdown) that would waste ATP. The key allosteric effectors operate at the two most important regulatory steps: PFK-1/FBPase-1 and pyruvate kinase/pyruvate carboxylase.\n\n### Fructose-2,6-Bisphosphate: The Master Allosteric Switch\n\n**Fructose-2,6-bisphosphate (F2,6BP)** is a potent allosteric regulator that acts as the primary intracellular signal coordinating glycolysis and gluconeogenesis in the liver. It is synthesized and degraded by a bifunctional enzyme: **phosphofructokinase-2/fructose-2,6-bisphosphatase (PFK-2/FBPase-2)**. The two activities reside on one polypeptide. The following phosphorylation response describes the **liver isoform**; heart and other isoforms differ.\n\n- **When insulin is high (fed state):** A phosphatase dephosphorylates PFK-2/FBPase-2, activating the *kinase* domain. F2,6BP levels rise.\n  - F2,6BP **activates PFK-1** (glycolysis ↑) and **inhibits FBPase-1** (gluconeogenesis ↓).\n- **When glucagon is high (fasting state):** cAMP-dependent protein kinase A (PKA) phosphorylates PFK-2/FBPase-2, activating the *phosphatase* domain. F2,6BP levels fall.\n  - PFK-1 is less active (glycolysis ↓) and FBPase-1 is disinhibited (gluconeogenesis ↑).\n\nThis single molecule, F2,6BP, coordinates the reciprocal regulation of glycolysis and gluconeogenesis in response to hormonal signals. Its concentration in hepatocytes can change within minutes of a hormonal shift.\n\n### AMP, ATP, and Citrate\n\nAt the level of PFK-1 and FBPase-1, several additional allosteric effectors reinforce the F2,6BP signal:\n\n- **AMP:** Activates PFK-1 and inhibits FBPase-1. High AMP signals low cellular energy, promoting glycolysis and suppressing gluconeogenesis.\n- **ATP and citrate:** Inhibit PFK-1. High ATP and citrate signal energy abundance and biosynthetic precursor availability, reducing the need for further glycolysis.\n- **Citrate:** Also allosterically activates FBPase-1, further promoting gluconeogenesis when TCA cycle intermediates are plentiful.\n\n### Pyruvate Kinase vs. Pyruvate Carboxylase\n\nAt the pyruvate node, reciprocal regulation is achieved through:\n\n- **Acetyl-CoA:** Allosterically activates pyruvate carboxylase (gluconeogenesis ↑) and inhibits pyruvate dehydrogenase (reducing pyruvate conversion to acetyl-CoA). When fat oxidation is high, acetyl-CoA accumulates and directs pyruvate toward gluconeogenesis.\n- **Alanine:** Allosterically inhibits pyruvate kinase in the liver. When amino acids are being catabolized for gluconeogenesis (a fasting signal), alanine accumulates and prevents the newly formed PEP from being converted back to pyruvate—ensuring net flux toward glucose.\n- **Fructose-1,6-bisphosphate:** Allosterically activates pyruvate kinase (feed-forward activation during glycolysis). When F1,6BP is high, glycolysis is running fast, and pyruvate kinase is stimulated to keep pace.\n\n---\n\n## Hormonal Regulation\n\nWhile allosteric regulation provides rapid, minute-to-minute control, hormones provide both rapid (covalent modification) and long-term (transcriptional) control of gluconeogenesis.\n\n### Glucagon\n\nReleased by pancreatic α-cells in response to low blood glucose, glucagon binds its Gs-coupled receptor on hepatocytes, activating adenylyl cyclase and raising cAMP. PKA is activated and:\n\n1. Phosphorylates PFK-2/FBPase-2 → lowers F2,6BP → inhibits PFK-1, activates FBPase-1.\n2. Phosphorylates and inactivates **liver pyruvate kinase** (L-PK), preventing PEP from cycling back to pyruvate.\n3. Induces transcription of **PEPCK**, **G6Pase**, and **FBPase-1** over hours.\n4. Coordinates hepatic fuel use during fasting. Human adipose lipolysis is strongly influenced by reduced insulin and catecholamines; a major direct physiological glucagon→adipocyte HSL effect should not be assumed. Released fatty acids can support hepatic ATP production and acetyl-CoA supply.\n\n### Insulin\n\nReleased by pancreatic β-cells in response to elevated blood glucose, insulin generally opposes hepatic glucose production through several mechanisms:\n\n1. Activates phosphodiesterase, lowering cAMP.\n2. Favors dephosphorylation of the liver PFK-2/FBPase-2 isoform → raises F2,6BP → activates PFK-1, inhibits FBPase-1.\n3. Activates Akt (protein kinase B), which phosphorylates and inactivates **FOXO1**, a transcription factor that drives PEPCK and G6Pase gene expression. With FOXO1 excluded from the nucleus, gluconeogenic gene transcription falls.\n4. Activates pyruvate kinase by dephosphorylation.\n\n### Cortisol\n\nCortisol, a glucocorticoid released during stress and prolonged fasting, acts over hours to days. It:\n\n1. Stimulates transcription of PEPCK and G6Pase in the liver.\n2. Promotes muscle protein catabolism, increasing the supply of glucogenic amino acids.\n3. Stimulates gluconeogenesis in the kidneys (important during prolonged acidosis, where renal gluconeogenesis also helps excrete ammonium ions).\n\n### Epinephrine\n\nEpinephrine acts similarly to glucagon in the liver (via β-adrenergic receptors and cAMP) but also stimulates glycogenolysis in muscle. Its net hepatic effect is to promote gluconeogenesis and glycogenolysis, rapidly raising blood glucose during the fight-or-flight response.\n\n---\n\n## Tissue-Specific Aspects\n\n### Liver\n\nThe liver is a major glucose-producing organ. Its fraction of endogenous glucose production changes with fasting duration and with renal contribution; total glucose production includes glycogenolysis as well as gluconeogenesis. It expresses all four unique gluconeogenic enzymes (pyruvate carboxylase, PEPCK, FBPase-1, G6Pase) and receives substrates from both portal and systemic circulations.\n\n### Kidneys\n\nThe renal contribution rises during prolonged fasting and can approach about 40% of gluconeogenesis in studied settings; it is not fixed at 10–20%. Renal gluconeogenesis is particularly important during metabolic acidosis: the kidney uses glutamine as a substrate, generating α-ketoglutarate for gluconeogenesis while releasing NH₄⁺ to buffer urinary acid. Cortisol and acidosis itself induce renal PEPCK.\n\n### Why Not Muscle or Brain?\n\nMuscle lacks G6Pase and therefore cannot release free glucose. Skeletal muscle glycogen is a local fuel reserve only. The brain lacks significant gluconeogenic capacity and is almost entirely dependent on blood glucose (or, during prolonged starvation, ketone bodies). These tissue-specific limitations make hepatic and renal gluconeogenesis essential for survival during fasting.\n\n---\n\n## Integration with Other Metabolic Pathways\n\n### Gluconeogenesis and the TCA Cycle\n\nGluconeogenesis draws OAA from the TCA cycle, potentially depleting intermediates. To maintain TCA function, **anaplerotic reactions** replenish OAA and other intermediates. Pyruvate carboxylase itself is anaplerotic. The catabolism of glucogenic amino acids to TCA intermediates (e.g., glutamate → α-ketoglutarate, aspartate → OAA) also serves this function. During active gluconeogenesis, TCA intermediate flux is carefully balanced between energy production and biosynthetic output.\n\n### Gluconeogenesis and Fat Oxidation\n\nβ-oxidation of fatty acids in the liver produces:\n- Acetyl-CoA → activates pyruvate carboxylase, inhibits pyruvate dehydrogenase\n- NADH and FADH₂ → drive ATP synthesis to power gluconeogenesis\n- Propionyl-CoA (from odd-chain fatty acids) → succinyl-CoA → gluconeogenic\n\nThis tight coupling explains why gluconeogenesis accelerates during fasting as lipolysis increases. Fatty acids provide both the energy and the allosteric signals needed to sustain glucose synthesis.\n\n### Gluconeogenesis and Ketogenesis\n\nDuring prolonged fasting, as gluconeogenesis continues, acetyl-CoA from β-oxidation exceeds the capacity of the TCA cycle (because OAA is being diverted to gluconeogenesis). Excess acetyl-CoA is channeled into **ketogenesis** (production of acetoacetate and β-hydroxybutyrate). Ketone bodies serve as an alternative fuel for the brain, reducing the brain's glucose requirement and thereby reducing the need for muscle protein catabolism to supply gluconeogenic amino acids. This metabolic shift is a critical survival adaptation.\n\n---\n\n## Common MCAT Scenarios and High-Yield Points\n\n### Identifying Gluconeogenic Substrates\n\nA classic MCAT question asks which molecules can serve as net gluconeogenic precursors. The key rule: **acetyl-CoA cannot provide net carbons for gluconeogenesis** in mammals. Therefore:\n- Fatty acids with even numbers of carbons → acetyl-CoA only → **not gluconeogenic**\n- Odd-chain fatty acids → propionyl-CoA → succinyl-CoA → **gluconeogenic** (partially)\n- Glycerol → DHAP → **gluconeogenic**\n- Lactate, alanine, and most amino acids → **gluconeogenic**\n- Leucine and lysine → ketogenic products (acetyl-CoA/acetoacetate-related routes) → **purely ketogenic, not gluconeogenic**\n\n### The Cori Cycle vs. the Glucose-Alanine Cycle\n\nBoth cycles transfer carbon from peripheral tissues to the liver for gluconeogenesis, but:\n- The **Cori cycle** transfers carbon as lactate, with no net nitrogen transfer.\n- The **glucose-alanine cycle** transfers carbon as alanine, simultaneously moving amino groups to the liver for urea synthesis.\n\n### Enzyme Deficiencies\n\n- **G6Pase deficiency (Von Gierke disease, GSD type Ia):** Inability to release free glucose from G6P. Severe fasting hypoglycemia, hepatomegaly (glycogen and fat accumulation), lactic acidosis (because G6P backs up and is shunted to glycolysis), hyperuricemia, and hyperlipidemia.\n- **Fructose-1,6-bisphosphatase deficiency:** Impaired gluconeogenesis, fasting hypoglycemia, lactic acidosis (lactate cannot be converted to glucose), and fasting intolerance. Glucagon cannot bypass the missing gluconeogenic reaction; clinical responses also depend on glycogen stores and other conditions.\n- **Pyruvate carboxylase deficiency:** Lactic acidosis (pyruvate accumulates), hypoglycemia, and neurological deficits (OAA deficiency impairs TCA function and neurotransmitter synthesis).\n\n### Metformin and Gluconeogenesis\n\nMetformin lowers glucose in part by suppressing hepatic glucose production. Experiments implicate respiratory, redox and signaling changes, with effects dependent on exposure and tissue. It is not accurate to present Complex I→AMPK→CRTC2 as the sole established mechanism, to call CRTC2 a TORC2 complex, or to infer reduced F2,6BP as a universal explanation of suppressed gluconeogenesis.\n\n---\n\n## Summary of Key Regulatory Points\n\n| Step | Glycolysis Enzyme | Gluconeogenesis Enzyme | Key Activators of GNG | Key Inhibitors of GNG |\n|---|---|---|---|---|\n| Pyruvate → PEP | Pyruvate kinase | Pyruvate carboxylase + PEPCK | Acetyl-CoA (PC), glucagon, cortisol | Insulin, ADP |\n| F1,6BP → F6P | PFK-1 | FBPase-1 | Citrate, AMP↓, F2,6BP↓ | AMP, F2,6BP |\n| G6P → Glucose | Hexokinase/Glucokinase | Glucose-6-phosphatase | Glucagon, cortisol | Insulin |\n\n---\n\n## Conclusion\n\nGluconeogenesis is a carefully orchestrated process that sustains blood glucose during fasting, exercise, and stress. Its four unique enzymatic steps—pyruvate carboxylase, PEPCK, FBPase-1, and G6Pase—circumvent the irreversible reactions of glycolysis at significant energetic cost, powered primarily by fat oxidation. The reciprocal regulation of gluconeogenesis and glycolysis is achieved through a multilayered system: allosteric effectors such as F2,6BP, AMP, ATP, acetyl-CoA, and alanine provide rapid responses to cellular energy status, while hormones—glucagon, insulin, cortisol, and epinephrine—coordinate metabolic priorities across the whole organism. Mastery of these regulatory mechanisms, the identity of gluconeogenic substrates, and the tissue-specific expression of key enzymes will serve you well on the MCAT and in clinical medicine, where disorders of gluconeogenesis underlie diseases ranging from type 2 diabetes to rare glycogen storage disorders."
+    },
+    {
+      "field": "questions.156.choice_a",
+      "value": "It hydrolyzes F1,6BP to F6P in a gluconeogenic bypass; glycolysis instead uses ATP-dependent PFK-1 to make F1,6BP."
+    },
+    {
+      "field": "questions.156.explanation",
+      "value": "A is correct: the hydrolytic FBPase-1 reaction bypasses PFK-1 without synthesizing ATP. It is not the exact reverse of PFK-1. Glycolysis does not require FBPase-1 directly. Pyruvate-to-PEP conversion requires both pyruvate carboxylase and PEPCK, and AMP inhibits FBPase-1."
+    },
+    {
+      "field": "questions.157.explanation",
+      "value": "A correctly traces lactate→pyruvate→OAA→PEP. Glycerol enters at DHAP and bypasses this sequence; alanine supplies pyruvate rather than glucose directly. Even-chain acetyl units do not supply net glucose carbon, but odd-chain propionyl-CoA can. Cytosolic and mitochondrial PEPCK routes both exist."
+    },
+    {
+      "field": "questions.158.choice_b",
+      "value": "A hepatocyte experiencing rapid ATP use with increased AMP, all else equal."
+    },
+    {
+      "field": "questions.158.explanation",
+      "value": "B provides the stated low-energy signal. Adenylate kinase catalyzes 2 ADP ⇌ ATP + AMP; it does not simply hydrolyze ADP to AMP. AMP favors glycolytic PFK-1 activity and inhibits hepatic FBPase-1. AMP is distinct from the second messenger cAMP."
+    },
+    {
+      "field": "questions.159.choice_c",
+      "value": "Lower F2,6BP directly activates FBPase-1 while simultaneously activating PFK-1."
+    },
+    {
+      "field": "questions.159.explanation",
+      "value": "B is correct: reducing glucagon-dependent PKA signaling opposes the liver-isoform phosphorylation state that lowers F2,6BP, and can oppose gluconeogenic gene expression over longer times. Increased F2,6BP inhibits FBPase-1 and activates PFK-1. Acute enzyme regulation and slower transcriptional responses should not be conflated."
+    },
+    {
+      "field": "questions.159.question_text",
+      "value": "Glucagon-stimulated hepatocytes are treated with a glucagon receptor antagonist, with other hormonal inputs held constant. Which mechanism most directly favors reduced gluconeogenic flux?"
+    },
+    {
+      "field": "questions.160.choice_b",
+      "value": "One three-carbon half of glucose is labeled: carbons 1–3 or 4–6, depending on which triose role the labeled unit takes."
+    },
+    {
+      "field": "questions.160.explanation",
+      "value": "B is correct under the stated assumptions: one uniformly labeled OAA loses one carbon and supplies a labeled three-carbon unit. Aldolase joins two trioses without completely scrambling their carbon skeletons; triose-phosphate isomerization affects which half receives the labeled unit. Real tracer experiments require specifying labeled positions and accounting for exchanges."
+    },
+    {
+      "field": "questions.160.question_text",
+      "value": "In a simplified tracer experiment, one uniformly carbon-labeled OAA molecule forms one PEP, losing one labeled CO₂. That three-carbon unit and one entirely unlabeled three-carbon unit form a glucose molecule. Ignore exchange with other pathways. Which labeling pattern is expected?"
+    }
+  ]
+}

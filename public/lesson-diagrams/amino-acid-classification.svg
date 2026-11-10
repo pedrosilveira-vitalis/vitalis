@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="740" viewBox="0 0 800 740" role="img" aria-labelledby="title desc">
+<title id="title">Predicting protein behavior from side chains</title><desc id="desc">Soluble globular proteins often bury nonpolar residues and expose polar or charged residues to water. Histidine is mostly neutral at pH7.4. N-linked glycosylation commonly uses Asn-X-Ser/Thr with X not Pro. Tryptophan and tyrosine dominate A280.</desc>
+<rect width="800" height="740" rx="20" fill="#fffaf3"/>
+<style>text{font-family:Arial,sans-serif;fill:#19374a}.heading{font-size:23px;font-weight:700}.body{font-size:19px}.small{font-size:16px}.code{font-size:25px;font-weight:700}</style>
+<text x="28" y="38" class="heading">1 / Where does the side chain fit?</text>
+<rect x="24" y="54" width="752" height="218" rx="16" fill="#eaf0f2"/>
+<ellipse cx="180" cy="162" rx="126" ry="72" fill="#cadfe7" stroke="#19374a" stroke-width="3"/>
+<ellipse cx="180" cy="164" rx="76" ry="45" fill="#edbfaa"/>
+<text x="149" y="155" class="body">Leu</text><text x="127" y="184" class="body">Val   Phe</text>
+<text x="90" y="112" class="body">Asp</text><text x="218" y="117" class="body">Lys</text><text x="85" y="219" class="body">Ser</text><text x="232" y="217" class="body">Gln</text>
+<text x="347" y="103" class="body">Soluble globular protein</text>
+<path d="M264 162 H326" stroke="#245574" stroke-width="2"/>
+<text x="347" y="161" class="body">Nonpolar core: away from water</text>
+<text x="347" y="202" class="body">Polar / charged surface: faces water</text>
+<text x="46" y="253" class="small">Tendencies, not rules: active sites and membrane proteins need extra context.</text>
+<text x="28" y="312" class="heading">2 / Read the pH before assigning a charge</text>
+<rect x="24" y="330" width="752" height="139" rx="16" fill="#f6e5de"/>
+<text x="46" y="364" class="body">Side chains at pH 7.4 (usual solution pKa values):</text>
+<text x="46" y="407" class="code">Asp, Glu: −</text><text x="292" y="407" class="code">Lys, Arg: +</text><text x="533" y="407" class="code">His: mostly 0</text>
+<text x="46" y="445" class="small">Histidine is basic and aromatic, but with pKa 6.0 only ≈ 4% is protonated.</text>
+<text x="28" y="510" class="heading">3 / Two useful patterns to recognize</text>
+<rect x="24" y="528" width="364" height="188" rx="16" fill="#eaf0f2"/>
+<rect x="408" y="528" width="368" height="188" rx="16" fill="#eaf0f2"/>
+<text x="46" y="563" class="body">Potential N-glycosylation site</text>
+<text x="46" y="606" class="code">Asn — X — Ser/Thr</text>
+<text x="46" y="642" class="body">X must not be Pro.</text>
+<text x="46" y="675" class="small">The sequence alone does not</text><text x="46" y="698" class="small">guarantee glycosylation.</text>
+<text x="430" y="563" class="body">Protein absorbance at 280 nm</text>
+<text x="430" y="606" class="code">Trp + Tyr → main signal</text>
+<text x="430" y="642" class="body">Phe contributes very little.</text>
+<text x="430" y="675" class="small">Disulfides also contribute;</text><text x="430" y="698" class="small">amounts depend on composition.</text>
+</svg>

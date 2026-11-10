@@ -1,0 +1,222 @@
+{
+  "lessonId": 50,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    246,
+    247,
+    248,
+    249,
+    250
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21114/",
+      "title": "NCBI Genomes: Mutation, repair and recombination"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9520609/",
+      "title": "Bacterial DNA excision repair pathways"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1397/",
+      "title": "GeneReviews: Xeroderma pigmentosum"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1211/",
+      "title": "GeneReviews: Lynch syndrome"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
+      "title": "NCI: BRCA gene changes and cancer risk"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/gene/5429/",
+      "title": "NCBI Gene: POLH"
+    }
+  ],
+  "visual": {
+    "title": "Match the repair action to the lesion",
+    "src": "/lesson-diagrams/repair-pathway-choice.svg",
+    "width": 960,
+    "height": 820,
+    "alt": "Four DNA schematics distinguish a damaged single base removed by BER, a bulky two-base photoproduct excised by NER, a mismatch corrected in the new strand by MMR, and a double-strand break repaired by copying a sister chromatid or joining ends.",
+    "caption": "BER, NER and MMR remove different targets. Double-strand break repair can use a homologous template or join ends; end joining is not necessarily inaccurate.",
+    "beforeHeading": "Base Excision Repair (BER)"
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "1eefbebac591bb5ca52207c7ab08357a422f67371a1da1691824438e63f8c82d"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "55541321c86b5d599998c3efcf51904ad155c1e009da29374f6c122b11969aed"
+    },
+    {
+      "field": "questions.246.question_text",
+      "sha256": "b4fbd7c3c8291542474ecf0c6e34e9418e9826b0e0f7127285a732e649e91732"
+    },
+    {
+      "field": "questions.246.choice_a",
+      "sha256": "d8b1146d85adb162a3a9841de378aac4b814e8877d9376f61861888b5b4940c4"
+    },
+    {
+      "field": "questions.246.choice_b",
+      "sha256": "de9e7f453625323f7f98f0e94b46a3756a035f3f56ee1de8801a7e79080f3323"
+    },
+    {
+      "field": "questions.246.choice_c",
+      "sha256": "67e4476b311ccd133fda94d77fd7aa8ec41366f196acf6fa2afeebd81827cfdc"
+    },
+    {
+      "field": "questions.246.choice_d",
+      "sha256": "fcc2557ab280e22b5d124092160f59fc663256792447a8a4f922869891dd11a4"
+    },
+    {
+      "field": "questions.246.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.246.explanation",
+      "sha256": "908af8a9f34d087d73f13c896dd29b959537cbacd2a2cd74f48a86145b188c2e"
+    },
+    {
+      "field": "questions.247.question_text",
+      "sha256": "6c1da35b46662eeccab7fcb57ff6b28bf0fc96f73d89a432a02cc03b15899e68"
+    },
+    {
+      "field": "questions.247.choice_a",
+      "sha256": "0f12edfab0b2ea3cbb379f9498c5cfde7be8ca7a499ba178ea7eecb1ccb5d697"
+    },
+    {
+      "field": "questions.247.choice_b",
+      "sha256": "4ff075c8ee4b7fa2c577c39c471c01dc4aa87bfd3c6a178977325bc1a629878a"
+    },
+    {
+      "field": "questions.247.choice_c",
+      "sha256": "3262791a05caf3ed73b6b142ed5733a536c44af71319a3ee90ef4003272f9853"
+    },
+    {
+      "field": "questions.247.choice_d",
+      "sha256": "6b03967b9d34ee9101520e43702c898ee4cef91f6530bc15b27e9650977c2554"
+    },
+    {
+      "field": "questions.247.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.247.explanation",
+      "sha256": "fa46fe4e2cbc0bc5e96cf9285bdd4dcf79f9d28e8e7ece4e29c53ce586a6a486"
+    },
+    {
+      "field": "questions.248.question_text",
+      "sha256": "e7d73a807ab2396c929d6bc4ccc530a17450f8bcd656aa7323ccd3f02952fdd3"
+    },
+    {
+      "field": "questions.248.choice_a",
+      "sha256": "a0985887c5d4f68c13893ef492438b58ecc6022691db36e6d5366cf6f34ea080"
+    },
+    {
+      "field": "questions.248.choice_b",
+      "sha256": "5047cf5c72c8c771e845c6f590bbecd6ee5ce5c4d99f013347363b0e1689d04c"
+    },
+    {
+      "field": "questions.248.choice_c",
+      "sha256": "1399ad82ece5ed3d2a2b8e55b3fe4c35599873d5b39b4e022196691001561668"
+    },
+    {
+      "field": "questions.248.choice_d",
+      "sha256": "62013218d44e4ef4bf63e942518f20264aaf1adc65b6a09a2478f4c0880cd3c3"
+    },
+    {
+      "field": "questions.248.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.248.explanation",
+      "sha256": "e4e72ba0deccab8cee0c4e63f47c3f2380284825c96ed0911541ba90a6544f79"
+    },
+    {
+      "field": "questions.249.question_text",
+      "sha256": "ab7d00943fa34b560a9ae746266f38b67dd0e6b3ae3f3bab84897cbd69e2f677"
+    },
+    {
+      "field": "questions.249.choice_a",
+      "sha256": "26d5b26b93948276d5182cdc857484521075fe40607dcb53276ec9b131d20249"
+    },
+    {
+      "field": "questions.249.choice_b",
+      "sha256": "d97d6874bdba0170c2a61a0a432b60473140cff88838fa87375fc05deef82a06"
+    },
+    {
+      "field": "questions.249.choice_c",
+      "sha256": "cfce2d5981cae23a9f5d78785baaefe1665e74e2a7ccd9ebe76cc2b8c6d5cae0"
+    },
+    {
+      "field": "questions.249.choice_d",
+      "sha256": "ad57cfd760b5008e325466240acb35aee459304979b151e5151d527d9f74d6a6"
+    },
+    {
+      "field": "questions.249.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.249.explanation",
+      "sha256": "6abffa8f41ffe7c86f88fd81ca8f194128b132387d3cf9fd18badf44d3a86408"
+    },
+    {
+      "field": "questions.250.question_text",
+      "sha256": "22be86a50e48d5b260eb660f87ed0ed4cd5ae8276b51eb030ec24bcffc4f1a0c"
+    },
+    {
+      "field": "questions.250.choice_a",
+      "sha256": "5a787f9cd6eb88feedf0c4f821dd8a54e89d28188321536770a63c7b030bf025"
+    },
+    {
+      "field": "questions.250.choice_b",
+      "sha256": "41f4638854d915af5a4f42dec86d9e42d6390b784422bccc3713195edc135d2b"
+    },
+    {
+      "field": "questions.250.choice_c",
+      "sha256": "45da3347afc603473d7a08ceabd6feab70f186134a6f8385a901acbf099420f6"
+    },
+    {
+      "field": "questions.250.choice_d",
+      "sha256": "67ea47734841b541df2da70c1f65bb4e4e6155cd20fb349ed9f5cebb42fb3913"
+    },
+    {
+      "field": "questions.250.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.250.explanation",
+      "sha256": "3a848cf0bf019d8f8ae74c716b0434e55a2ab0d79053d81779483dce5bcbab7b"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## DNA Repair Mechanisms and Mutagenesis\n\nThe integrity of genetic information is not guaranteed by chemistry alone. DNA is a remarkably stable molecule relative to most biological polymers, but it is not inert. DNA-containing human cells can sustain many DNA lesions each day from endogenous sources — spontaneous hydrolysis, reactive oxygen species generated by normal metabolism, and errors introduced during replication — plus exogenous insults from ultraviolet radiation, ionizing radiation, and chemical mutagens. Without dedicated surveillance and repair systems, these lesions would rapidly accumulate into mutations, driving genomic instability, heritable disease, and cancer. The MCAT tests your understanding of the major repair pathways, the types of damage each pathway corrects, and the clinical consequences of repair failure. This lesson provides that foundation.\n\n---\n\n## Sources of DNA Damage\n\nBefore examining repair, you must understand what is being repaired. DNA damage falls into two broad categories: *endogenous* damage arising from normal cellular chemistry and *exogenous* damage from environmental agents.\n\n### Endogenous Sources\n\n- **Spontaneous hydrolysis** is the most common source of endogenous damage. Hydrolysis of the N-glycosidic bond releases a base from the deoxyribose backbone, creating an **apurinic/apyrimidinic (AP) site**, also called an abasic site. Approximately 10,000 AP sites arise per human cell per day. Cytosine is particularly vulnerable to spontaneous **deamination**, converting it to uracil. If unrepaired, uracil pairs with adenine rather than guanine, causing a C→T transition mutation after replication.\n- **Reactive oxygen species (ROS)** — superoxide, hydrogen peroxide, and hydroxyl radicals — are byproducts of oxidative phosphorylation. The hydroxyl radical is especially damaging, producing **8-oxoguanine (8-oxoG)**, one of the most common oxidative lesions. 8-oxoG mispairs with adenine instead of cytosine, generating G→T transversion mutations.\n- **Replication errors** introduce mismatched bases at a rate of roughly 1 in 10^5 nucleotides by DNA polymerase III alone. The 3'→5' proofreading exonuclease activity of replicative polymerases reduces this to about 1 in 10^7, and mismatch repair reduces it further to approximately 1 in 10^9–10^10.\n\n### Exogenous Sources\n\n- **Ultraviolet (UV) radiation** (primarily UV-B, 280–315 nm) causes **cyclobutane pyrimidine dimers (CPDs)** and **6-4 photoproducts** by covalently linking adjacent pyrimidines on the same strand. These bulky lesions distort the double helix and block replication and transcription.\n- **Ionizing radiation** (X-rays, gamma rays) causes **single-strand breaks (SSBs)** and **double-strand breaks (DSBs)**, the latter being among the most cytotoxic lesions because both template strands are severed.\n- **Alkylating agents** (e.g., nitrogen mustards, temozolomide, nitrosamines in tobacco smoke) add alkyl groups to bases. An important mutagenic product is **O^6-methylguanine**; adduct proportions depend on the agent, and N7-guanine methylation is often more abundant, which mispairs with thymine rather than cytosine, producing G→A transitions.\n- **Intercalating agents** (e.g., ethidium bromide, acridine dyes) insert between base pairs and cause frameshift mutations during replication by inducing insertions or deletions.\n\n---\n\n## Overview of Repair Pathways\n\nThe major DNA repair pathways are matched to specific types of damage. Knowing which pathway handles which lesion is essential for the MCAT.\n\n| Pathway | Primary Lesion Repaired | Key Enzymes |\n|---|---|---|\n| Base Excision Repair (BER) | Small base modifications, AP sites | DNA glycosylase, AP endonuclease, Pol β, Ligase |\n| Nucleotide Excision Repair (NER) | Bulky helix-distorting lesions | XPC, TFIIH, XPA, XPG, XPF-ERCC1, Pol δ/ε |\n| Mismatch Repair (MMR) | Replication mismatches, small indels | MutS, MutL, MutH (E. coli model); MSH, MLH (humans) |\n| Homologous Recombination (HR) | Double-strand breaks (S/G2 phase) | RAD51, BRCA1, BRCA2, RPA |\n| Non-Homologous End Joining (NHEJ) | Double-strand breaks (all phases) | Ku70/80, DNA-PKcs, Artemis, Ligase IV |\n| Direct Repair | O^6-methylguanine, CPDs (some) | MGMT, photolyase |\n\n---\n\n## Base Excision Repair (BER)\n\n**Base excision repair** is the workhorse pathway for correcting small, non-helix-distorting base modifications. It handles the most common forms of spontaneous damage: deaminated bases (uracil from cytosine, hypoxanthine from adenine), oxidized bases (8-oxoG), and AP sites.\n\n### Mechanism\n\nBER proceeds through five sequential steps:\n\n1. **Recognition and base removal.** A **DNA glycosylase** recognizes the damaged base and cleaves the N-glycosidic bond, releasing the base and leaving an AP site. Different glycosylases handle different substrates — for example, **uracil-DNA glycosylase (UNG)** removes uracil, and **OGG1** removes 8-oxoguanine. Some glycosylases are *monofunctional* (only cleave the glycosidic bond); others are *bifunctional* (also have AP lyase activity and nick the backbone 3' to the AP site).\n\n2. **AP site incision.** **AP endonuclease 1 (APE1)** cleaves the phosphodiester backbone 5' to the AP site, generating a 3'-OH and a 5'-deoxyribose phosphate (5'-dRP) terminus.\n\n3. **End processing.** The 5'-dRP group is removed by the **dRP lyase** activity of **DNA polymerase β (Pol β)**, leaving a clean gap.\n\n4. **Gap filling.** Pol β inserts the correct nucleotide into the single-nucleotide gap (short-patch BER). In long-patch BER, Pol δ or Pol ε synthesizes a 2–10 nucleotide patch, displacing a flap that is removed by **FEN1 (flap endonuclease 1)**.\n\n5. **Ligation.** **DNA ligase III** (in complex with XRCC1) seals the nick in short-patch BER; **DNA ligase I** seals the nick in long-patch BER.\n\n### Clinical Relevance\n\nDefects in BER components are associated with increased cancer risk. Mutations in **MYH (MUTYH)** glycosylase, which removes adenine misincorporated opposite 8-oxoG, cause **MUTYH-associated polyposis (MAP)**, an autosomal recessive colorectal cancer syndrome. Pol β mutations have been found in a significant fraction of colorectal and other cancers.\n\n---\n\n## Nucleotide Excision Repair (NER)\n\n**Nucleotide excision repair** is a more versatile pathway that removes bulky, helix-distorting lesions — most importantly, UV-induced pyrimidine dimers, as well as large chemical adducts from benzo[a]pyrene (a carcinogen in tobacco smoke) and platinum-based chemotherapy agents like cisplatin.\n\nUnlike BER, which removes a single damaged base, NER excises an oligonucleotide patch of approximately **25–30 nucleotides** surrounding the lesion.\n\n### Two Sub-pathways\n\n- **Global genome NER (GG-NER)** surveys the entire genome for helix distortions. The initial damage sensor is the **XPC-RAD23B** complex.\n- **Transcription-coupled NER (TC-NER)** is triggered when RNA polymerase II stalls at a lesion during transcription. The stalled polymerase recruits **CSA** and **CSB** proteins to initiate repair. TC-NER preferentially repairs the transcribed strand of active genes, explaining why the transcribed strand is repaired faster than the non-transcribed strand.\n\n### Mechanism of GG-NER\n\n1. **Damage recognition.** XPC-RAD23B detects helix distortion and binds the undamaged strand opposite the lesion.\n2. **Verification and unwinding.** The general transcription factor **TFIIH** (a multiprotein complex including the helicases XPB and XPD) unwinds ~30 bp around the lesion. **XPA** and **RPA** verify the damage and stabilize the open complex.\n3. **Dual incision.** **XPG** makes an incision 2–8 nucleotides 3' to the lesion; the **XPF-ERCC1** complex makes an incision 15–24 nucleotides 5' to the lesion. This dual incision releases a 25–30 nucleotide oligonucleotide containing the lesion.\n4. **Gap filling.** DNA polymerases δ or ε, with PCNA and RPA, fill in the gap using the intact complementary strand as template.\n5. **Ligation.** DNA ligase I (or ligase III with XRCC1) seals the nick.\n\n### Xeroderma Pigmentosum\n\nMost **xeroderma pigmentosum (XP)** complementation groups involve NER defects. XP-V instead involves biallelic POLH variants affecting translesion synthesis; XPA–XPG are historical complementation-group names, not a complete list of current gene symbols. Patients have extreme UV sensitivity, freckling, and a >1000-fold increased risk of skin cancers (basal cell carcinoma, squamous cell carcinoma, melanoma). The inability to remove pyrimidine dimers allows UV-induced mutations to accumulate in skin cells. Patients must rigorously avoid sunlight.\n\n**Cockayne syndrome** results from mutations in CSA or CSB (TC-NER proteins). Patients show photosensitivity but not the skin cancer predisposition of XP, because GG-NER is intact — the critical defect is the failure to resume transcription after UV damage, leading to neurodegeneration and premature aging.\n\nPhotosensitive trichothiodystrophy can involve TFIIH subunits such as ERCC2/XPD, ERCC3/XPB or GTF2H5/TTDA. Other genetic forms are not photosensitive; TTD should not be described as exclusively a TFIIH disorder.\n\n---\n\n## Mismatch Repair (MMR)\n\n**Mismatch repair** corrects errors that escape the proofreading activity of DNA polymerase: mismatched base pairs and small insertion-deletion loops (IDLs) that arise when the polymerase slips on repetitive sequences (**microsatellites**).\n\n### Methyl-directed MMR in E. coli (Model System)\n\nE. coli provides a useful model, but most bacteria lack the MutH/Dam methyl-directed mechanism described below.\n\n1. **Mismatch recognition.** The **MutS** homodimer recognizes mismatched bases and IDLs and binds the DNA.\n2. **Strand discrimination.** **MutL** joins MutS and activates **MutH**, an endonuclease that cleaves the *unmethylated* strand at hemimethylated GATC sequences. In E. coli, newly synthesized DNA is initially unmethylated and is subsequently methylated by **Dam methylase**, allowing MutH to identify the new (error-containing) strand. MutH can act at GATC sites up to ~1 kb from the mismatch.\n3. **Excision.** Helicases unwind the DNA, and exonucleases degrade the newly synthesized strand from the MutH cleavage site to a point past the mismatch.\n4. **Resynthesis and ligation.** DNA polymerase III fills the gap; DNA ligase seals the nick.\n\n### Eukaryotic MMR\n\nHuman MMR does not use E. coli-style Dam methylation/MutH strand discrimination. Instead, strand discrimination relies on the **replication fork** itself — nicks in the newly synthesized strand (Okazaki fragment ends, primer removal sites) direct the repair machinery to the correct strand.\n\n- **MutS homologs:** **MSH2-MSH6 (MutSα)** recognizes single base mismatches and small IDLs; **MSH2-MSH3 (MutSβ)** recognizes larger IDLs.\n- **MutL homologs:** **MLH1-PMS2 (MutLα)** is the primary MutL complex; it has latent endonuclease activity activated by MutSα and PCNA.\n- **Excision:** Exonuclease 1 (EXO1) degrades the mismatch-containing strand.\n- **Resynthesis:** Pol δ fills the gap; DNA ligase I seals it.\n\n### Microsatellite Instability and Lynch Syndrome\n\nMicrosatellites are short tandem repeat sequences (e.g., (CA)n) scattered throughout the genome. Because they are repetitive, polymerase slippage is common, and MMR normally corrects the resulting IDLs. When MMR is defective, microsatellites change length unpredictably — a hallmark called **microsatellite instability (MSI)**.\n\n**Lynch syndrome** involves inherited pathogenic variants in MLH1, MSH2, MSH6 or PMS2, or certain EPCAM deletions that silence MSH2. Cancer risks vary substantially by gene, sex, age and family history; a single 70–80% colorectal-risk figure is not valid for every carrier. Deficient-MMR/MSI-high status can guide checkpoint-inhibitor treatment in appropriate clinical settings, but does not guarantee a response.\n\nSporadic MSI-H colorectal cancers (not Lynch syndrome) most often result from **epigenetic silencing** of MLH1 by promoter hypermethylation, not germline mutation.\n\n---\n\n## Double-Strand Break Repair\n\nDouble-strand breaks are the most dangerous form of DNA damage because both strands are severed, eliminating the intact template needed by BER, NER, and MMR. Two major pathways repair DSBs, and their relative use is regulated by the cell cycle.\n\n### Homologous Recombination (HR)\n\n**Homologous recombination** uses the sister chromatid (or homologous chromosome) as a template for high-fidelity repair. Because a sister chromatid is available only after DNA replication, HR operates primarily in **S and G2 phases**.\n\n**Key steps:**\n1. **End resection.** The MRN complex (MRE11-RAD50-NBS1), CtIP and long-range resection machinery (including EXO1 or DNA2 with the BLM helicase) resect the 5' ends at the break, generating 3' single-stranded overhangs.\n2. **RPA coating.** **RPA** (replication protein A) coats the single-stranded DNA to prevent secondary structure formation.\n3. **RAD51 loading.** **BRCA2** displaces RPA and loads **RAD51** onto the ssDNA, forming a nucleoprotein filament. **BRCA1** promotes end resection and HR pathway choice.\n4. **Strand invasion.** The RAD51 filament invades the sister chromatid, searching for homology. A displacement loop (D-loop) forms.\n5. **DNA synthesis and resolution.** The 3' end is extended using the sister chromatid as template. The structure is resolved to produce two intact, non-crossover duplexes (primarily) or crossover products.\n\nPathogenic BRCA1/BRCA2 variants increase susceptibility to several cancers; not every variant is harmful. Predisposition is inherited dominantly, while loss of remaining gene function commonly occurs in tumors. Risk estimates depend on gene and population. Some HR-deficient tumors are sensitive to PARP inhibitors through synthetic lethality involving disrupted repair, PARP trapping and replication-associated damage; resistance can emerge.\n\n### Non-Homologous End Joining (NHEJ)\n\n**Non-homologous end joining** directly ligates the broken ends without a homologous template. It is the predominant DSB repair pathway in **G1 phase** and operates throughout the cell cycle. NHEJ can accurately rejoin compatible ends. Processing damaged or incompatible ends can introduce insertions or deletions; accuracy depends on the substrate.\n\n**Key steps:**\n1. **End recognition.** The **Ku70/Ku80** heterodimer binds the broken DNA ends with high affinity, forming a ring around the DNA.\n2. **Recruitment of DNA-PKcs.** Ku recruits **DNA-dependent protein kinase catalytic subunit (DNA-PKcs)**, forming the DNA-PK holoenzyme. DNA-PKcs autophosphorylates and phosphorylates downstream factors.\n3. **End processing.** **Artemis** (a nuclease activated by DNA-PKcs) trims incompatible ends. Polymerases μ and λ may fill gaps.\n4. **Ligation.** The **XRCC4-DNA Ligase IV** complex, stabilized by **XLF (Cernunnos)**, ligates the ends.\n\nAfter a CRISPR-Cas9 break, end joining can produce indels that disrupt a gene, but repair may also be precise or in-frame. Cutting alone does not guarantee a knockout; the resulting genotype and function must be checked.\n\n---\n\n## Direct Repair\n\nSome lesions are reversed without excision of any nucleotide.\n\n- **O^6-methylguanine-DNA methyltransferase (MGMT)** directly transfers the methyl group from O^6-methylguanine to an active-site cysteine residue, restoring guanine. The enzyme is *irreversibly inactivated* in the process — it is a **suicide enzyme**. MGMT expression is frequently silenced by promoter methylation in glioblastoma, which paradoxically makes those tumors more sensitive to alkylating chemotherapy (e.g., temozolomide). Conversely, tumors with high MGMT expression are resistant to alkylating agents.\n- **Photolyase** uses energy from near-UV/blue light (approximately 300–500 nm) to directly reverse cyclobutane pyrimidine dimers via a photoreactivation mechanism. Photolyase is present in bacteria, yeast, and many eukaryotes, but *not in placental mammals* — humans use NER to excise pyrimidine photoproducts; other UV-associated lesions, such as oxidized bases, can involve other repair pathways. This distinction is frequently tested.\n\n---\n\n## Translesion Synthesis: Tolerating Unrepaired Damage\n\nWhen a replication fork encounters an unrepaired lesion, normal high-fidelity polymerases stall because they cannot accommodate distorted templates. **Translesion synthesis (TLS)** is a damage tolerance mechanism, not a repair mechanism. Specialized TLS polymerases (members of the Y-family: Pol η, Pol ι, Pol κ, Rev1) have spacious active sites that can accommodate damaged templates and insert nucleotides opposite lesions.\n\n- **Pol η** (encoded by *POLH*, historically called *XPV*) can accurately insert two adenines opposite a thymine-thymine cyclobutane dimer, preventing UV-induced mutations. Patients with biallelic pathogenic variants in *POLH* have **xeroderma pigmentosum variant (XP-V)**, which also predisposes to UV-associated skin cancers despite having intact NER — because without Pol η, other error-prone TLS polymerases substitute and introduce mutations.\n- TLS polymerases are inherently error-prone on undamaged templates (error rates ~10^-1 to 10^-3), so their access to DNA is tightly regulated by **monoubiquitination of PCNA** at Lys164, which serves as a molecular switch recruiting TLS polymerases.\n\n---\n\n## Mutagenesis: From Damage to Mutation\n\nA **mutation** is a heritable change in DNA sequence. Not all damage becomes a mutation — repair prevents most lesions from being fixed. Mutations arise when:\n\n1. Damage escapes repair and is replicated (e.g., 8-oxoG → G:C to T:A transversion).\n2. TLS polymerases insert incorrect nucleotides opposite a lesion.\n3. Repair itself is error-prone (NHEJ introducing indels at DSBs).\n\n### Types of Mutations\n\n- **Transitions:** Purine→purine or pyrimidine→pyrimidine substitutions (e.g., C→T from cytosine deamination, G→A from O^6-methylguanine).\n- **Transversions:** Purine→pyrimidine or vice versa (e.g., G→T from 8-oxoguanine).\n- **Insertions/deletions (indels):** Changes arising from slippage, mutagens or repair; coding-region indels shift the reading frame only when their length is not divisible by three.\n- **Chromosomal rearrangements:** Translocations, inversions, and amplifications from DSB mis-repair.\n\n### Mutagen Classification\n\n- **Physical mutagens:** UV radiation (pyrimidine dimers → transitions if unrepaired), ionizing radiation (DSBs, base damage).\n- **Chemical mutagens:**\n  - *Base analogs* (e.g., 5-bromouracil): Incorporated into DNA and mispair during replication.\n  - *Alkylating agents* (e.g., EMS, nitrogen mustards): Add alkyl groups causing mispairing or crosslinks.\n  - *Intercalating agents* (e.g., ethidium bromide): Cause frameshift mutations.\n  - *Deaminating agents* (e.g., nitrous acid): Converts C→U, A→hypoxanthine directly.\n- **Biological mutagens:** Transposons, viral integration disrupting genes.\n\n### The Ames Test\n\nThe **Ames test** is a bacterial assay used to assess the mutagenic potential of chemicals. *Salmonella typhimurium* strains auxotrophic for histidine (his⁻) are exposed to a test compound. If the compound is mutagenic, it reverts some bacteria to his⁺, allowing growth on histidine-free media. Because many chemical carcinogens require metabolic activation by liver enzymes, rat liver extract (S9 fraction) is added to the assay. The Ames test is a rapid, inexpensive screen, though not all mutagens are carcinogens and vice versa.\n\n---\n\n## Integration: Repair Failure and Cancer\n\nThe connection between DNA repair deficiency and cancer is a central theme in molecular oncology and a high-yield MCAT topic.\n\nThe two-hit model is important for many tumor-suppressor and repair genes: inherited or acquired loss of one allele can be followed by loss of the other through mutation, deletion or silencing. It is not universal, and loss of a gene does not abolish all DNA repair pathways. Dominant-negative effects, haploinsufficiency and pathway redundancy complicate this model.\n\nKey clinical syndromes to know:\n\n- **Xeroderma pigmentosum (XP):** NER deficiency → UV-induced skin cancers. Autosomal recessive.\n- **Lynch syndrome (HNPCC):** MMR deficiency (MLH1, MSH2, MSH6, PMS2) → colorectal, endometrial cancers. Autosomal dominant.\n- **MUTYH-associated polyposis (MAP):** BER deficiency → colorectal polyposis and cancer. Autosomal recessive.\n- **Hereditary breast and ovarian cancer (HBOC):** HR deficiency (BRCA1/2) → breast, ovarian, pancreatic cancers. Autosomal dominant.\n- **Fanconi anemia:** Deficiency in the Fanconi anemia pathway (which coordinates HR for interstrand crosslink repair) → aplastic anemia, developmental abnormalities, leukemia, squamous cell carcinomas. Autosomal recessive (most subtypes).\n- **Ataxia-telangiectasia (AT):** Mutation in *ATM* (a kinase that senses DSBs and activates HR) → cerebellar ataxia, telangiectasias, immunodeficiency, lymphomas. Autosomal recessive.\n\n---\n\n## MCAT High-Yield Summary\n\n- **BER:** Removes single damaged/modified bases (deamination, oxidation, AP sites). DNA glycosylase is the recognition enzyme. Pol β fills the gap.\n- **NER:** Removes bulky helix-distorting lesions (UV dimers, large adducts). Dual incision releases a ~25–30 nt fragment. XPC initiates GG-NER; stalled RNA Pol II initiates TC-NER. Most XP groups involve NER; XP-V involves POLH-mediated bypass.\n- **MMR:** Corrects replication mismatches and IDLs at microsatellites. MutSα (MSH2-MSH6) recognizes mismatches; MutLα (MLH1-PMS2) coordinates excision. Deficiency → MSI → Lynch syndrome.\n- **HR:** High-fidelity DSB repair in S/G2 using sister chromatid as template. Requires BRCA1, BRCA2, RAD51. Deficiency → hereditary breast/ovarian cancer; synthetic lethality with PARP inhibitors.\n- **NHEJ:** Template-independent DSB repair that can be accurate or introduce indels, dominant in G1. Ku70/80 → DNA-PKcs → Artemis → Ligase IV/XRCC4. Used by CRISPR for gene disruption.\n- **Direct repair:** MGMT reverses O^6-methylguanine (suicide enzyme). Photolyase reverses CPDs (not present in placental mammals).\n- **TLS:** Damage tolerance by Y-family polymerases; Pol η can bypass thymine-thymine CPDs relatively accurately; XP-V = Pol η deficiency.\n- **Ames test:** Bacterial reversion assay for mutagenicity, uses rat liver S9 fraction for metabolic activation.\n- Deamination of cytosine → uracil → C:G to T:A transition if unrepaired. 8-oxoguanine → G:C to T:A transversion.\n\nUnderstanding DNA repair is not merely memorizing pathway names — it is grasping the logic of genome surveillance: each pathway is exquisitely matched to a lesion type, uses the complementary strand as a template whenever possible, and its failure produces a predictable pattern of mutations and disease. That mechanistic logic is what the MCAT rewards."
+    },
+    {
+      "field": "questions.246.question_text",
+      "value": "A loss-of-function variant eliminates the activity of a DNA glycosylase. Which repair pathway is most directly affected?"
+    },
+    {
+      "field": "questions.247.explanation",
+      "value": "The observed failure to excise pyrimidine photoproducts points to nucleotide excision repair. Most XP groups involve this pathway. XP-V is a separate POLH-mediated lesion-bypass defect and can occur with intact NER, so the measured excision defect is important."
+    },
+    {
+      "field": "questions.247.question_text",
+      "value": "In a patient with classical XP, cultured cells show deficient excision of UV-induced pyrimidine dimers. Which defect best explains this result?"
+    },
+    {
+      "field": "questions.248.explanation",
+      "value": "Replication slippage at repeated sequences creates insertion-deletion loops. MutS complexes containing MSH2 recognize these abnormalities, while MutL complexes containing MLH1 coordinate downstream repair. Deficiency lets repeat-length changes accumulate. MLH1 itself is not the primary mismatch-recognition protein."
+    },
+    {
+      "field": "questions.250.explanation",
+      "value": "HR impairment increases genome instability by preventing faithful repair of some double-strand breaks and replication-associated lesions. Breaks may persist or be processed by alternative pathways, producing rearrangements. NHEJ is not inevitably inaccurate; the outcome depends on end structure and processing. These changes can contribute to malignant transformation."
+    }
+  ]
+}

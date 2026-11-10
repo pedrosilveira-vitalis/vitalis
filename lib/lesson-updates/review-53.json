@@ -1,0 +1,210 @@
+{
+  "lessonId": 53,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "The plasma membrane is among the most consequential structures in biology. Every signal a cell receives, every ion it imports or exports, every interaction it has with its neighbors—all of these events are mediated by a thin, dynamic sheet roughly 7–10 nanometers thick. Understanding membrane structure at a mechanistic level is not optional for MCAT success; it is foundational. Transport, receptor signaling, enzyme localization, and cell identity all depend on the principles covered in this lesson.",
+      "new": "The plasma membrane is a dynamic lipid–protein boundary, typically several nanometers thick. It controls exchange with the surroundings and provides sites for signaling and adhesion. Signals can also originate inside cells; membrane receptors are not required for every cellular signal.",
+      "reason": "Correct scope or mechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9928/"
+    },
+    {
+      "field": "content",
+      "old": "Each phospholipid consists of three regions:",
+      "new": "A typical diacyl glycerophospholipid consists of three regions (sphingomyelin and ether-linked lipids have different backbones or linkages):",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9928/"
+    },
+    {
+      "field": "content",
+      "old": "the most abundant phospholipid in the outer leaflet of animal cell membranes",
+      "new": "commonly abundant in the outer leaflet of mammalian plasma membranes",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9928/"
+    },
+    {
+      "field": "content",
+      "old": "—an entropy-driven process in which ordered water molecules around nonpolar surfaces are released into bulk solution, increasing overall entropy.",
+      "new": "—in which burying nonpolar surfaces changes their interactions with water and can increase solvent entropy. Both enthalpy and entropy contribute to the total free-energy change.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26871/"
+    },
+    {
+      "field": "content",
+      "old": "(very fast—a lipid can traverse a typical cell in seconds)",
+      "new": "(a diffusion coefficient, not a fixed travel speed; displacement depends on time, distance and membrane organization)",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26871/"
+    },
+    {
+      "field": "content",
+      "old": "**Cholesterol** is a critical modulator of membrane fluidity in eukaryotic cells.",
+      "new": "**Cholesterol** is a major sterol in animal membranes; fungi and plants predominantly use other sterols.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26871/"
+    },
+    {
+      "field": "content",
+      "old": "**Integral membrane proteins** are permanently embedded",
+      "new": "**Integral membrane proteins** are stably embedded",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9928/"
+    },
+    {
+      "field": "content",
+      "old": "- **Scramblases**: Bidirectional enzymes activated by elevated cytoplasmic Ca²⁺ that randomize lipid distribution (important in apoptosis and platelet activation)",
+      "new": "- **Scramblases**: Proteins that permit bidirectional lipid translocation without directly consuming ATP. TMEM16F is Ca²⁺-activated, whereas apoptotic XKR8 activation involves caspase cleavage; these are distinct regulatory routes.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.nature.com/articles/s41467-024-51939-w"
+    },
+    {
+      "field": "content",
+      "old": "and activates platelets during clot formation.",
+      "new": "and provides a procoagulant surface on activated platelets. PS exposure alone is not a specific diagnostic of apoptosis.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.nature.com/articles/s41467-024-51939-w"
+    },
+    {
+      "field": "content",
+      "old": "- Glycosylation (addition of carbohydrate chains) occurs exclusively on the *luminal* side of the ER and Golgi, which corresponds to the *extracellular* face of the plasma membrane after vesicular trafficking",
+      "new": "- Many secretory-pathway glycans are added on the luminal side of the ER or Golgi. These luminal domains face the extracellular space after exocytosis. Cytosolic and nuclear glycosylation, such as O-GlcNAc, is a separate process.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK453052/"
+    },
+    {
+      "field": "content",
+      "old": "This means that **all glycoproteins and glycolipids present carbohydrate chains on the extracellular face** of the plasma membrane—a rule with no exceptions in normal physiology.",
+      "new": "The glycocalyx-facing carbohydrate chains of secretory-pathway membrane glycoproteins and glycolipids are extracellular. A transmembrane glycoprotein itself can span both faces; this topology does not mean all glycosylation in the cell is extracellular.",
+      "reason": "Correct scope or mechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK453052/"
+    },
+    {
+      "field": "content",
+      "old": "Glycolipids are found exclusively in the outer leaflet",
+      "new": "Cell-surface glycosphingolipids are predominantly in the outer leaflet",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK453052/"
+    },
+    {
+      "field": "content",
+      "old": "ABO blood group antigens are glycolipid-based carbohydrate structures on red blood cells",
+      "new": "ABO blood group antigens are carbohydrate structures carried on both glycolipids and glycoproteins",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK2267/"
+    },
+    {
+      "field": "content",
+      "old": "**Small, nonpolar molecules** (O₂, CO₂, N₂, steroid hormones, ethanol): cross freely by simple diffusion—no protein required",
+      "new": "**Small nonpolar gases** (O₂, CO₂, N₂) and many lipid-soluble molecules, including steroid hormones, cross by simple diffusion. Ethanol is small and uncharged but polar; its permeability does not make it nonpolar.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "content",
+      "old": "Increased membrane fluidity (from unsaturated fatty acids or higher temperature) generally *increases* permeability to small molecules and ions. This is clinically relevant: anesthetics are thought to act partly by dissolving in and fluidizing neuronal membranes, altering ion channel function.",
+      "new": "Lipid composition and temperature can alter membrane permeability, but increased fluidity does not remove the large barrier to ion passage. Anesthetic effects should not be reduced to nonspecific membrane fluidization: modulation of particular ion channels is central to many agents.",
+      "reason": "Correct scope or mechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "content",
+      "old": "**Lipid rafts**: Proteins partitioned into cholesterol-rich microdomains diffuse more slowly",
+      "new": "**Lipid domains**: Partitioning and interactions can change mobility; there is no universal diffusion rate for all raft-associated proteins.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26871/"
+    },
+    {
+      "field": "content",
+      "old": "**Lysosomes**: Membrane enriched in bis(monoacylglycero)phosphate (BMP), a lipid that facilitates the action of lysosomal lipases",
+      "new": "**Late endosomes/lysosomes**: Bis(monoacylglycero)phosphate (BMP) is especially associated with intraluminal membranes and supports lipid degradation; distinguish these from the organelle’s limiting membrane.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/41925724/"
+    },
+    {
+      "field": "content",
+      "old": "Bilayer formation is driven by the **hydrophobic effect**, which is *entropic* in origin—not enthalpic. The release of ordered water molecules from hydrophobic surfaces increases the entropy of the system. This is a classic example of a thermodynamically spontaneous process (ΔG < 0) driven by a positive ΔS rather than a negative ΔH.",
+      "new": "Bilayer assembly is favorable when the combined free-energy change is negative. The hydrophobic effect includes solvent reorganization, but it is incorrect to insist that assembly is purely entropic or that enthalpy never contributes.",
+      "reason": "Correct scope or mechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26871/"
+    },
+    {
+      "field": "content",
+      "old": "Cholesterol is the target of **statins** (HMG-CoA reductase inhibitors), which reduce cholesterol synthesis and alter membrane composition",
+      "new": "**Statins** target HMG-CoA reductase, an enzyme in cholesterol synthesis; they do not bind cholesterol as their molecular target.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK430940/"
+    },
+    {
+      "field": "content",
+      "old": "- **Malaria**: *Plasmodium falciparum* exploits PS asymmetry and membrane proteins (e.g., Band 3) during red blood cell invasion",
+      "new": "- **Interpretation**: Membrane composition and receptor availability affect pathogen–cell interactions, but PS exposure is not a universal mechanism of invasion.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.nature.com/articles/s41467-024-51939-w"
+    },
+    {
+      "field": "content",
+      "old": "it is essential in eukaryotic membranes",
+      "new": "its role depends on membrane composition, and other eukaryotes use other sterols",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26871/"
+    },
+    {
+      "field": "content",
+      "old": "carbohydrate chains are *always* on the extracellular side",
+      "new": "their glycocalyx carbohydrate chains face outward; this is not a rule excluding intracellular glycosylation",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK453052/"
+    },
+    {
+      "field": "questions.261.question_text",
+      "old": "A researcher treats a cell membrane with a reagent that cross-links all integral membrane proteins, preventing their lateral movement. Which of the following membrane properties would be MOST directly disrupted by this treatment?",
+      "new": "A researcher immobilizes integral membrane proteins without changing their abundance, ligand affinity or bilayer integrity. Which property would be MOST directly impaired?",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9928/"
+    },
+    {
+      "field": "questions.261.explanation",
+      "old": "A key feature of the fluid mosaic model is the lateral mobility of membrane proteins, which allows them to diffuse and cluster in response to signals. Cross-linking proteins would prevent this clustering, directly disrupting signal transduction and receptor capping. Choice A is incorrect because protein immobility does not alter the intrinsic permeability properties of the lipid bilayer itself. Choices C and D describe processes governed primarily by lipid properties, not protein mobility.",
+      "new": "Lateral redistribution enables many receptors to form clusters after stimulation. Immobilization directly limits that redistribution under the stated conditions. It does not by itself imply increased ion permeability, faster lipid flip-flop or expulsion of cholesterol.",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9928/"
+    },
+    {
+      "field": "questions.262.question_text",
+      "old": "At low temperatures, a membrane bilayer composed entirely of saturated fatty acid phospholipids would be expected to do which of the following compared to a membrane with unsaturated fatty acids?",
+      "new": "At the same low temperature, compare two bilayers with identical head groups and chain lengths. One has saturated tails; the other has cis-unsaturated tails. Which outcome is expected?",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26871/"
+    },
+    {
+      "field": "questions.263.question_text",
+      "old": "Glycolipids and glycoproteins are found exclusively on the extracellular leaflet of the plasma membrane. Which of the following best explains the functional significance of this asymmetric distribution?",
+      "new": "The carbohydrate chains forming the glycocalyx project from the extracellular face of a mammalian plasma membrane. What is the functional significance of this orientation?",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK453052/"
+    },
+    {
+      "field": "questions.263.explanation",
+      "old": "The carbohydrate moieties of glycolipids and glycoproteins face the extracellular environment, forming the glycocalyx, which plays critical roles in cell-cell recognition, immune responses, and receptor-ligand interactions. This asymmetry is established in the Golgi and maintained throughout the membrane lifetime. Choice A describes a secondary consequence at best and is not the primary functional reason. Choice C is incorrect because the two leaflets differ in lipid composition, contributing to different fluidity properties. Choice D is incorrect as the hydrophobic barrier is a function of the lipid tails, not the carbohydrate chains.",
+      "new": "Extracellular glycans participate in recognition, adhesion and signaling. Secretory-pathway glycosylation occurs on luminal domains of the ER/Golgi; membrane trafficking preserves their outward-facing topology. This does not mean a transmembrane glycoprotein is confined to one leaflet, nor does it exclude cytoplasmic glycosylation.",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK453052/"
+    },
+    {
+      "field": "questions.264.question_text",
+      "old": "Cholesterol is described as a membrane fluidity buffer. At physiological temperature, which of the following best describes how cholesterol achieves this function?",
+      "new": "In a simplified phospholipid-bilayer model, how can cholesterol buffer the transition between a fluid state and a tightly packed gel state as temperature changes?",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26871/"
+    },
+    {
+      "field": "questions.265.question_text",
+      "old": "A peripheral membrane protein associated with the cytoplasmic face of the plasma membrane is experimentally released by adding a high-salt solution, while an integral membrane protein remains anchored. Which of the following best explains this difference?",
+      "new": "High salt releases a peripheral protein attached mainly by ionic interactions, while a transmembrane protein remains embedded. Which explanation best accounts for this result?",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9928/"
+    }
+  ]
+}

@@ -24,7 +24,7 @@ const SECTIONS: Record<string, SectionInfo> = {
     percentage: "25% of MCAT",
     description: "Tests how living systems work at the molecular, cellular, and organ-system level. Heavy on biochemistry, cellular biology, physiology, and integration across systems.",
     testStyle: "Most questions are passage-based, often around a research study. You'll need to interpret data, apply concepts, and connect biology to biochemistry.",
-    accent: "#a8324a",
+    accent: "#245574",
     topics: [
       { name: "Biochemistry foundations", subtopics: ["Amino acids & protein structure", "Enzyme kinetics (Km, Vmax)", "Enzyme inhibition", "Protein folding & denaturation"] },
       { name: "Cellular metabolism", subtopics: ["Glycolysis & gluconeogenesis", "Krebs cycle & ETC", "ATP yield calculations", "Fatty acid metabolism"] },
@@ -43,7 +43,7 @@ const SECTIONS: Record<string, SectionInfo> = {
     percentage: "25% of MCAT",
     description: "Tests general and organic chemistry, physics, and biochemistry — all applied to biological systems. Quantitative reasoning heavy.",
     testStyle: "Expect dimensional analysis, equation manipulation, and applying physics/chemistry to physiology. Memorizing formulas isn't enough — you need to apply them.",
-    accent: "#2e4a6b",
+    accent: "#245574",
     topics: [
       { name: "Acid-base chemistry", subtopics: ["pH, pKa, & buffers", "Henderson-Hasselbalch", "Titration curves", "Strong vs weak acids/bases"] },
       { name: "Thermodynamics", subtopics: ["Gibbs free energy", "Entropy & enthalpy", "Coupled reactions", "Equilibrium"] },
@@ -63,7 +63,7 @@ const SECTIONS: Record<string, SectionInfo> = {
     percentage: "25% of MCAT",
     description: "Tests psychology, sociology, and biological bases of behavior. Heavy on research methodology, theories of behavior, and statistical reasoning.",
     testStyle: "Many questions describe a research study and ask you to interpret results, identify variables, or apply theories. Memorizing definitions is the foundation but isn't enough.",
-    accent: "#8a6b2e",
+    accent: "#245574",
     topics: [
       { name: "Learning & cognition", subtopics: ["Classical & operant conditioning", "Memory (encoding, storage, retrieval)", "Cognitive development (Piaget, Vygotsky)", "Problem solving & heuristics"] },
       { name: "Sensation & perception", subtopics: ["Signal detection theory", "Vision & hearing pathways", "Attention", "Gestalt principles"] },
@@ -83,7 +83,7 @@ const SECTIONS: Record<string, SectionInfo> = {
     percentage: "25% of MCAT",
     description: "Tests reading comprehension and reasoning with dense humanities and social science passages. No outside knowledge required — only the passage matters.",
     testStyle: "Each passage is 500-600 words and argument-driven. Questions test main idea, author's purpose, inference, and application. Practice and reading speed matter most.",
-    accent: "#4a3b6b",
+    accent: "#245574",
     topics: [
       { name: "Question types", subtopics: ["Foundations of comprehension", "Reasoning within the text", "Reasoning beyond the text"] },
       { name: "Passage genres", subtopics: ["Philosophy & ethics", "Literary criticism", "History & cultural studies", "Sociology & political theory"] },
@@ -104,10 +104,10 @@ export default function SectionPage() {
     return (
       <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e] flex items-center justify-center p-10">
         <div className="text-center max-w-md">
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-50 mb-4">404 · Section not found</div>
-          <h1 className="font-serif text-3xl font-medium mb-4">No such section.</h1>
+          <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-50 mb-4">404 · Section not found</div>
+          <h1 className="font-sans text-3xl font-medium mb-4">No such section.</h1>
           <p className="text-[14px] opacity-65 mb-6">Try one of the four MCAT sections.</p>
-          <Link href="/" className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]">
+          <Link href="/" className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]">
             ← Home
           </Link>
         </div>
@@ -128,14 +128,14 @@ export default function SectionPage() {
         <MainNav active="home" badge={section.shortName} />
 
         <section className="px-10 pt-14 pb-10 border-b border-[#0c1a2e15]">
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
+          <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
             <span className="w-10 h-px opacity-40" style={{ backgroundColor: section.accent }} />
             Section · {section.percentage}
           </div>
-          <h1 className="font-serif font-normal leading-[0.95] tracking-[-0.03em] text-[clamp(40px,5vw,80px)] max-w-4xl mb-4">
+          <h1 className="font-sans font-normal leading-[0.95] tracking-[-0.03em] text-[clamp(40px,5vw,80px)] max-w-4xl mb-4">
             <span style={{ color: section.accent }}>{section.shortName}</span>
           </h1>
-          <p className="font-mono text-[12px] tracking-[0.1em] uppercase opacity-60 mb-6">{section.fullName}</p>
+          <p className="font-sans text-[12px] tracking-[0.1em] uppercase opacity-60 mb-6">{section.fullName}</p>
           <p className="text-[16px] opacity-75 leading-relaxed max-w-3xl mb-4">{section.description}</p>
           <p className="text-[14px] opacity-65 leading-relaxed max-w-3xl italic">{section.testStyle}</p>
         </section>
@@ -145,10 +145,10 @@ export default function SectionPage() {
             href={`/practice/${section.id}?format=passage`}
             className="p-8 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group"
           >
-            <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-50">Action 01</div>
-            <div className="font-serif text-[28px] font-medium tracking-tight leading-tight">Practice questions</div>
+            <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-50">Action 01</div>
+            <div className="font-sans text-[28px] font-medium tracking-tight leading-tight">Practice questions</div>
             <div className="text-[13px] opacity-65 leading-relaxed">AAMC-style questions for {section.shortName}. Get them wrong? Vitalis explains.</div>
-            <div className="mt-2 font-mono text-[11px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
+            <div className="mt-2 font-sans text-[11px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
               Start practicing →
             </div>
           </Link>
@@ -156,10 +156,10 @@ export default function SectionPage() {
             href="/tutor"
             className="p-8 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group"
           >
-            <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-50">Action 02</div>
-            <div className="font-serif text-[28px] font-medium tracking-tight leading-tight">Ask the tutor</div>
+            <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-50">Action 02</div>
+            <div className="font-sans text-[28px] font-medium tracking-tight leading-tight">Ask the tutor</div>
             <div className="text-[13px] opacity-65 leading-relaxed">Conversational explanations for any {section.shortName} concept.</div>
-            <div className="mt-2 font-mono text-[11px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
+            <div className="mt-2 font-sans text-[11px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
               Open tutor →
             </div>
           </Link>
@@ -168,10 +168,10 @@ export default function SectionPage() {
               href="/voice-cases"
               className="p-8 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group"
             >
-              <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-50">Action 03</div>
-              <div className="font-serif text-[28px] font-medium tracking-tight leading-tight">Voice cases</div>
+              <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-50">Action 03</div>
+              <div className="font-sans text-[28px] font-medium tracking-tight leading-tight">Voice cases</div>
               <div className="text-[13px] opacity-65 leading-relaxed">Talk through clinical scenarios that test {section.shortName} concepts.</div>
-              <div className="mt-2 font-mono text-[11px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
+              <div className="mt-2 font-sans text-[11px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
                 Start a case →
               </div>
             </Link>
@@ -180,10 +180,10 @@ export default function SectionPage() {
               href="/section/cars/strategy"
               className="p-8 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group"
             >
-              <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-50">Action 03</div>
-              <div className="font-serif text-[28px] font-medium tracking-tight leading-tight">CARS strategy</div>
+              <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-50">Action 03</div>
+              <div className="font-sans text-[28px] font-medium tracking-tight leading-tight">CARS strategy</div>
               <div className="text-[13px] opacity-65 leading-relaxed">Reading technique, question types, trap patterns, pacing — the complete CARS guide.</div>
-              <div className="mt-2 font-mono text-[11px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
+              <div className="mt-2 font-sans text-[11px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
                 Open guide →
               </div>
             </Link>
@@ -203,10 +203,10 @@ export default function SectionPage() {
               </svg>
             </div>
             <div className="flex-1">
-              <div className="font-serif text-xl font-medium">Flashcards</div>
+              <div className="font-sans text-xl font-medium">Flashcards</div>
               <div className="text-[13px] opacity-65">High-yield {section.shortName} flashcards. AI-generated decks.</div>
             </div>
-            <div className="font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
+            <div className="font-sans text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
               Start →
             </div>
           </Link>
@@ -221,25 +221,25 @@ export default function SectionPage() {
               </svg>
             </div>
             <div className="flex-1">
-              <div className="font-serif text-xl font-medium">Study guides</div>
+              <div className="font-sans text-xl font-medium">Study guides</div>
               <div className="text-[13px] opacity-65">College-level lessons for every {section.shortName} topic. Highlight & take notes.</div>
             </div>
-            <div className="font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
+            <div className="font-sans text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100">
               Read →
             </div>
           </Link>
         </section>
 
         <section className="px-10 py-14">
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-6 flex items-center gap-3">
+          <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-60 mb-6 flex items-center gap-3">
             <span className="w-10 h-px bg-[#0c1a2e] opacity-40" />
             Topics covered
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl">
             {section.topics.map((topic, i) => (
               <div key={i} className="border border-[#0c1a2e15] rounded-2xl p-6 bg-[#0c1a2e0a]">
-                <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-50 mb-2">{String(i + 1).padStart(2, "0")}</div>
-                <h3 className="font-serif text-xl font-medium mb-3 tracking-tight">{topic.name}</h3>
+                <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-50 mb-2">{String(i + 1).padStart(2, "0")}</div>
+                <h3 className="font-sans text-xl font-medium mb-3 tracking-tight">{topic.name}</h3>
                 <ul className="space-y-1.5">
                   {topic.subtopics.map((st, j) => (
                     <li key={j} className="text-[13px] opacity-70 leading-relaxed flex gap-2">
@@ -255,8 +255,8 @@ export default function SectionPage() {
 
         <section className="px-10 py-12 border-t border-[#0c1a2e15] bg-[#0c1a2e0a]">
           <div className="max-w-2xl mx-auto text-center">
-            <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-3">Quick start</div>
-            <h2 className="font-serif text-3xl font-medium tracking-tight mb-4">Ask Vitalis about {section.shortName}</h2>
+            <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-60 mb-3">Quick start</div>
+            <h2 className="font-sans text-3xl font-medium tracking-tight mb-4">Ask Vitalis about {section.shortName}</h2>
             <div className="flex gap-2">
               <input
                 value={tutorQuestion}
@@ -271,7 +271,7 @@ export default function SectionPage() {
               />
               <Link
                 href="/tutor"
-                className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-xl hover:bg-[#1a2c4a] flex items-center"
+                className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-xl hover:bg-[#1a2c4a] flex items-center"
               >
                 Open tutor →
               </Link>
@@ -279,7 +279,7 @@ export default function SectionPage() {
           </div>
         </section>
 
-        <footer className="px-10 py-10 border-t border-[#0c1a2e15] flex justify-between items-center font-mono text-[11px] tracking-[0.1em] uppercase opacity-60">
+        <footer className="px-10 py-10 border-t border-[#0c1a2e15] flex justify-between items-center font-sans text-[11px] tracking-[0.1em] uppercase opacity-60">
           <div>© 2026 Vitalis · Built for future physicians</div>
           <div>
             <Link href="/" className="hover:opacity-100 opacity-70">← Back home</Link>

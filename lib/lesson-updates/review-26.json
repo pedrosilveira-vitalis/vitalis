@@ -1,0 +1,196 @@
+{
+  "lessonId": 26,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Every major fuel molecule in the body, whether carbohydrate, fat, or amino acid, is ultimately oxidized through this pathway.",
+      "new": "Carbohydrates, fats and amino acids can supply this pathway, but not every fuel molecule is fully oxidized in every cell; mature erythrocytes, for example, lack mitochondria.",
+      "reason": "No universalallfuelsallcells.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The cycle operates in the **mitochondrial matrix** of eukaryotic cells.",
+      "new": "In mitochondria-containing human cells, most cycle enzymes are in the **matrix**; succinate dehydrogenase is embedded in the inner membrane.",
+      "reason": "Exceptionconsistent.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Over eight steps, the two carbons donated by acetyl-CoA are fully oxidized to CO₂, and the original OAA is regenerated",
+      "new": "Over eight steps, two carbons are released as CO₂ in the net balance and an OAA molecule is regenerated. The newly entering acetyl carbons are retained during the first turn",
+      "reason": "Originalcontradictsowncarbonsection.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "fatty acids (which are degraded to acetyl-CoA) cannot be converted into glucose",
+      "new": "even-chain fatty-acid acetyl units provide no net glucose by these pathways, while odd-chain propionyl-CoA and triacylglycerol glycerol can be glucogenic",
+      "reason": "Fattyacidexceptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "**Product**: Citrate (6C) + CoA",
+      "new": "**Product**: Citrate (6C) + CoA (water is consumed in the coupled thioester hydrolysis)",
+      "reason": "Watercofactorbalance.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The release of CoA drives the reaction strongly forward",
+      "new": "Coupling C–C bond formation to thioester hydrolysis favors the overall reaction",
+      "reason": "NotCoAreleasemagicaldriver.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "It is activated by **ADP** and **oxaloacetate**.",
+      "new": "Oxaloacetate is a substrate; it should not be conflated with an allosteric activator. Nucleotide effects vary by enzyme source and assay.",
+      "reason": "Substratevsallostery.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1172380/"
+    },
+    {
+      "field": "content",
+      "old": "This is the mechanism by which certain rodenticides and chemical warfare agents kill.",
+      "new": "The inhibitory fluorocitrate stereoisomer is converted to a tightly bound inhibitory product at aconitase.",
+      "reason": "Removebroadtoxicitysinglemechanism.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC19395/"
+    },
+    {
+      "field": "content",
+      "old": "**Enzyme**: **Isocitrate dehydrogenase (IDH)**",
+      "new": "**Enzyme**: **Mitochondrial NAD-dependent isocitrate dehydrogenase (IDH3)**",
+      "reason": "DistinguishIDH1/2NADP.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/2818760/"
+    },
+    {
+      "field": "content",
+      "old": "**Activated by**: ADP, Ca²⁺, NAD⁺",
+      "new": "**Activated by**: ADP and Ca²⁺; NAD⁺ supplies the oxidizing cosubstrate",
+      "reason": "Cosubstratenotactivator.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**MCAT note**: IDH mutations are clinically significant. *IDH1* and *IDH2* mutations are found in gliomas and acute myeloid leukemia (AML). Mutant IDH produces **2-hydroxyglutarate** (an oncometabolite) instead of α-ketoglutarate, which inhibits histone demethylases and TET enzymes, causing epigenetic dysregulation.",
+      "new": "**Clinical distinction:** Cancer-associated mutations generally involve NADP-dependent **IDH1 or IDH2**, not the NAD-dependent IDH3 reaction tallied here. Mutant enzymes can reduce **α-ketoglutarate to D-2-hydroxyglutarate using NADPH**. Accumulated D-2-HG affects α-ketoglutarate-dependent enzymes and can alter epigenetic regulation.",
+      "reason": "Wrongsubstrateandisoformconfusion.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/2818760/"
+    },
+    {
+      "field": "content",
+      "old": "the two carbons originally contributed by acetyl-CoA have theoretically been accounted for (though as noted above, due to the symmetry issue with aconitase, the actual carbons lost here came from OAA)",
+      "new": "two carbons have left in the net stoichiometric balance; they are derived from the OAA portion in the first turn, not from the entering acetyl group",
+      "reason": "No theoreticalcarbonidentity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Succinyl-CoA, NADH, ATP (product inhibition)",
+      "new": "Succinyl-CoA and NADH (products); energy status also regulates flux, but ATP is not a product of this reaction",
+      "reason": "ATPnotreactionproduct.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "making it another committed step in the cycle",
+      "new": "making it an important regulatory step",
+      "reason": "Notmultiplesamepathwaycommittedstep.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**GTP** (in most tissues) or ADP to ATP (in the heart and skeletal muscle, where the enzyme uses ADP preferentially)",
+      "new": "**GTP** or ADP to ATP, depending on the expressed succinyl-CoA synthetase isoenzyme; tissues can express both forms",
+      "reason": "Avoidabsolutetissueexclusive.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "directly passes electrons to ubiquinone (coenzyme Q) within the membrane",
+      "new": "passes electrons through the enzyme’s iron–sulfur centers to ubiquinone (coenzyme Q)",
+      "reason": "NotdirectFADQ.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Fumarase mutations have also been identified as tumor suppressors in certain cancers, including renal cell carcinoma.",
+      "new": "The **FH gene** can act as a tumor suppressor; pathogenic loss-of-function variants can predispose to tumors, including particular renal cancers. Mutations themselves are not tumor suppressors.",
+      "reason": "Genevsmutation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**MCAT note**: The malate-aspartate shuttle uses cytoplasmic MDH to regenerate OAA from malate in the cytoplasm, allowing indirect transfer of cytoplasmic NADH electrons into the mitochondria. This is the more efficient of the two NADH shuttles and operates in the heart, liver, and kidneys.",
+      "new": "**Shuttle direction:** For cytosolic NADH oxidation, cytosolic MDH reduces OAA to malate, regenerating NAD⁺. After malate enters mitochondria, mitochondrial MDH oxidizes malate to OAA and produces matrix NADH. Aminotransferases and carriers complete the shuttle; NADH itself does not cross the inner membrane.",
+      "reason": "OriginalcytosolicMDHdirectionreversed.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/medgen/273544"
+    },
+    {
+      "field": "content",
+      "old": "This is an example of **feed-forward activation**.",
+      "new": "This is substrate supply/anaplerosis, not by itself proof of allosteric feedforward activation.",
+      "reason": "Substrateeffectnotallostery.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Each FADH₂ delivers electrons to **Complex II** (succinate dehydrogenase itself) and then to ubiquinone",
+      "new": "At **Complex II**, bound FAD accepts succinate-derived electrons and relays them through iron–sulfur centers to ubiquinone",
+      "reason": "FADalreadyboundnotmobileinput.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "OAA, a TCA cycle intermediate, is the starting point for gluconeogenesis.",
+      "new": "OAA is a gluconeogenic intermediate for substrates entering through pyruvate or the TCA cycle; glycerol enters elsewhere.",
+      "reason": "GlycerolnotallstartOAA.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "Fatty acids (degraded to acetyl-CoA) cannot contribute to net gluconeogenesis because acetyl-CoA cannot be converted back to pyruvate, and the two carbons entering the cycle as acetyl-CoA are lost as CO₂ before OAA is regenerated—there is no net gain of OAA per turn.",
+      "new": "Even-chain fatty-acid acetyl units do not produce a net gain of OAA through the conventional mammalian TCA cycle: two carbons enter and two leave each turn. That balance does not mean the newly entering acetyl carbons leave in the first turn. Odd-chain propionyl-CoA and triacylglycerol glycerol can contribute glucose carbon.",
+      "reason": "Balanceversusisotopicfateandexceptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "The cycle runs whenever acetyl-CoA is available, regardless of source.",
+      "new": "The cycle can use acetyl-CoA from several sources, but also requires adequate intermediate pools, cofactors and reoxidation of reducing equivalents. Acetyl-CoA availability alone is insufficient.",
+      "reason": "Notsolecondition.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.126.question_text",
+      "old": "A researcher treats isolated mitochondria with fluorocitrate, a competitive inhibitor of aconitase. Which immediate consequence would be expected in the citric acid cycle?",
+      "new": "A researcher substantially inhibits aconitase in isolated mitochondria while citrate production initially continues. Which change immediately across that reaction is most likely?",
+      "reason": "Fluorocitrateisnotasimplecompetitiveinhibitor.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC19395/"
+    },
+    {
+      "field": "questions.126.explanation",
+      "old": "Aconitase catalyzes the conversion of citrate to isocitrate via the intermediate cis-aconitate. Inhibiting aconitase blocks this step, so citrate accumulates while isocitrate cannot be formed. Choice A reverses the substrate-product relationship. Choices C and D describe consequences of inhibiting later enzymes, not aconitase.",
+      "new": "B is most likely: reduced citrate-to-isocitrate conversion favors citrate accumulation and reduced isocitrate supply. Downstream changes, including reduced OAA regeneration, can follow; they are not excluded simply because the directly inhibited enzyme is aconitase. Fluorocitrate acts through a tightly bound mechanism-based inhibitory product.",
+      "reason": "Dcouldbedownstreamtruebutnotdirect;mechanism.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC19395/"
+    },
+    {
+      "field": "questions.127.question_text",
+      "old": "For each acetyl-CoA that enters the citric acid cycle, what is the correct tally of high-energy electron carriers and direct energy currency produced per turn?",
+      "new": "Using the conventional GTP-producing succinyl-CoA synthetase model, what is the yield per complete TCA-cycle turn for one acetyl-CoA?",
+      "reason": "SpecifyGTPisoform.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.130.explanation",
+      "old": "Succinate dehydrogenase is unique because it is embedded in the inner mitochondrial membrane and is identical to Complex II of the electron transport chain. It passes electrons from FADH2 directly to ubiquinone (coenzyme Q). Therefore, a deficiency impairs both the citric acid cycle and Complex II of the ETC simultaneously. Beta-oxidation, the urea cycle, and gluconeogenesis are separate pathways not directly involving this enzyme.",
+      "new": "C is correct: succinate dehydrogenase is respiratory Complex II. Electrons pass from succinate to bound FAD, through iron–sulfur centers, and to ubiquinone. Loss of this enzyme therefore directly disrupts both the TCA reaction and Complex II electron entry. Complex II does not pump protons.",
+      "reason": "Electronrelayaccurate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    }
+  ]
+}

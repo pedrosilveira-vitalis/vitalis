@@ -1,0 +1,212 @@
+{
+  "lessonId": 6,
+  "reviewedAt": "2026-11-08",
+  "sources": [
+    {
+      "title": "OpenStax: Amino Acids and the Henderson–Hasselbalch Equation",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "sha256": "e0db749441c96b518f59b9c25844371258371ec3a7fbe9356d290ae746fd71bc",
+      "value": "## Acid-Base Chemistry of Amino Acids: pKa, pI, and Titration\n\nUnderstanding the acid-base behavior of amino acids is one of the highest-yield topics in MCAT biochemistry. Nearly every question about protein structure, enzyme active sites, gel electrophoresis, or amino acid separation ultimately traces back to knowing which functional groups are ionized at a given pH. This lesson builds that foundation systematically, from the basic ionization chemistry of individual groups to the interpretation of full titration curves for both simple and complex amino acids.\n\n---\n\n## Functional Groups and Their Ionization\n\nEvery amino acid contains at minimum two ionizable groups: an **α-amino group** and an **α-carboxyl group**. These are attached to the same central carbon, the **α-carbon**, along with a hydrogen atom and a variable **side chain (R group)**.\n\n### The α-Carboxyl Group\n\nThe α-carboxyl group (–COOH) is a weak acid. In its protonated form it is uncharged; when it donates its proton, it becomes negatively charged (–COO⁻). The pKa of the α-carboxyl group in free amino acids is approximately **2.0–2.4**. This is considerably more acidic than a typical carboxylic acid (~4.8 for acetic acid) because the adjacent positively charged ammonium group exerts an electron-withdrawing inductive effect that stabilizes the conjugate base.\n\nFor a free amino acid at physiological pH (7.4), the α-carboxyl group is almost entirely deprotonated (–COO⁻), because the pH is roughly 5 units above its pKa. Using the Henderson-Hasselbalch equation confirms this:\n\npH = pKa + log([A⁻]/[HA])\n\n7.4 = 2.2 + log([COO⁻]/[COOH])\nlog([COO⁻]/[COOH]) = 5.2\n[COO⁻]/[COOH] ≈ 158,000 : 1\n\nThe carboxyl group is essentially fully ionized under physiological conditions.\n\n### The α-Amino Group\n\nThe α-amino group behaves as a weak base, but it is more useful to treat it in its *conjugate acid* form, the **ammonium group** (–NH₃⁺), which has a pKa of approximately **9.0–9.8**. At low pH, the amino group is protonated and positively charged. As pH rises above its pKa, it loses a proton and becomes the neutral free amine (–NH₂).\n\nAt physiological pH 7.4, the α-amino group is predominantly protonated (–NH₃⁺), since pH is roughly 2 units below its pKa. Again applying Henderson-Hasselbalch:\n\n7.4 = 9.2 + log([NH₂]/[NH₃⁺])\nlog([NH₂]/[NH₃⁺]) = –1.8\n[NH₂]/[NH₃⁺] ≈ 0.016 : 1\n\nSo at physiological pH, the amino group is about 98% protonated.\n\n### The Zwitterion\n\nBecause the α-carboxyl group has a much lower pKa (~2.2) than the α-amino group (~9.2), there exists a broad pH range over which the carboxyl is deprotonated while the amino group remains protonated. This species—bearing both a positive and a negative charge simultaneously—is called a **zwitterion** (from German, meaning \"double ion\"). The zwitterion carries no net charge but is not electrically neutral in the sense of having no charges; it has equal and opposite charges.\n\nAmino acids commonly form zwitterionic crystals. In aqueous solution, the predominant charge state depends on pH and all ionizable groups; amino acids with neutral side chains are predominantly zwitterionic near neutral pH. This is why amino acids have unexpectedly high melting points and water solubility compared to analogous organic molecules: the internal salt-like structure creates strong intermolecular interactions.\n\n---\n\n## Ionization States as a Function of pH\n\nIt helps to think of an amino acid as existing in three distinct protonation states for a simple amino acid (one with no ionizable side chain):\n\n- **Fully protonated (cationic) form**: –COOH and –NH₃⁺. Net charge = +1. Exists at very low pH (well below pKa1).\n- **Zwitterionic form**: –COO⁻ and –NH₃⁺. Net charge = 0. Exists at intermediate pH.\n- **Fully deprotonated (anionic) form**: –COO⁻ and –NH₂. Net charge = –1. Exists at very high pH (well above pKa2).\n\nThe transitions between these states are governed by the two pKa values. Each pKa marks the midpoint of a buffering region, where equal concentrations of the protonated and deprotonated forms coexist.\n\n---\n\n## The Isoelectric Point (pI)\n\nThe **isoelectric point (pI)** is the pH at which an amino acid (or protein) carries zero net charge. At the pI, the molecule will not migrate in an electric field—it sits stationary during electrophoresis.\n\n### Calculating pI for Simple Amino Acids\n\nFor amino acids with no ionizable side chain (e.g., glycine, alanine), the pI is simply the average of the two pKa values:\n\n**pI = (pKa1 + pKa2) / 2**\n\nwhere pKa1 refers to the α-carboxyl group and pKa2 refers to the α-amino group.\n\n*Example with glycine*: pKa1 = 2.34, pKa2 = 9.60\npI = (2.34 + 9.60) / 2 = 5.97\n\nThis makes intuitive sense: the pI falls between the two pKa values at the pH where the zwitterion is maximally stable.\n\n### Why This Formula Works\n\nBelow pI, the population has a positive average net charge; above pI it has a negative average net charge. As pH increases from strongly acidic conditions:\n\n1. At pH << 2.34: both groups protonated, net charge = +1\n2. At pH = 2.34: equal mixture of +1 and 0 (zwitterion), average charge = +0.5\n3. At pH between 2.34 and 9.60: zwitterion predominates, net charge ≈ 0\n4. At pH = 9.60: equal mixture of 0 (zwitterion) and –1, average charge = –0.5\n5. At pH >> 9.60: both groups deprotonated, net charge = –1\n\nThe pI lies between the two buffering regions where the zwitterion dominates, which is exactly the arithmetic mean of the two flanking pKa values.\n\n### Calculating pI for Amino Acids with Ionizable Side Chains\n\nWhen a side chain has an ionizable group, you must identify which *two* pKa values flank the species with zero net charge.\n\n**General rule**: The pI is the average of the two pKa values that bracket the neutral (zero net charge) species.\n\nThe strategy:\n\n1. List all pKa values for the amino acid.\n2. Determine the charge of each ionization state at increasing pH.\n3. Identify the species with zero net charge.\n4. Average the pKa values on either side of that neutral species.\n\n#### Acidic Amino Acids (Asp, Glu)\n\nAspartic acid has three ionizable groups:\n- α-carboxyl: pKa1 ≈ 2.1\n- side chain carboxyl: pKa2 ≈ 3.9\n- α-amino: pKa3 ≈ 9.8\n\nStarting fully protonated (net charge = +1), losing protons in order of increasing pKa:\n\n- Lose first proton (pKa1 = 2.1): net charge → 0 (neutral species has –COO⁻ α, –COOH side chain, –NH₃⁺)\n- Lose second proton (pKa2 = 3.9): net charge → –1\n- Lose third proton (pKa3 = 9.8): net charge → –2\n\nThe neutral species exists between pKa1 and pKa2.\n\n**pI(Asp) = (2.1 + 3.9) / 2 = 3.0**\n\nThis is below 7, consistent with the fact that aspartic acid is an *acidic* amino acid—it carries a net negative charge at physiological pH.\n\n#### Basic Amino Acids (Lys, Arg, His)\n\nLysine has three ionizable groups:\n- α-carboxyl: pKa1 ≈ 2.2\n- α-amino: pKa2 ≈ 9.0\n- ε-amino (side chain): pKa3 ≈ 10.5\n\nStarting fully protonated (net charge = +2):\n- Lose first proton (pKa1 = 2.2): net charge → +1\n- Lose second proton (pKa2 = 9.0): net charge → 0 (neutral species)\n- Lose third proton (pKa3 = 10.5): net charge → –1\n\nThe neutral species exists between pKa2 and pKa3.\n\n**pI(Lys) = (9.0 + 10.5) / 2 = 9.75**\n\nThis is above 7, consistent with lysine being a *basic* amino acid—it carries a net positive charge at physiological pH.\n\n**Histidine** deserves special attention. Its imidazole side chain has a pKa of approximately **6.0**, supporting proton donation and acceptance in enzyme active sites. Its pI is found from the two pKa values that flank the neutral species.\n\nHistidine pKa values: α-carboxyl ≈ 1.8, imidazolium ≈ 6.0, α-amino ≈ 9.2.\n\nProtonation states:\n- Fully protonated (net +2): –COOH, –NH₃⁺, imidazolium (–ImH⁺)\n- Lose proton at pKa1 = 1.8: net +1 (–COO⁻, –NH₃⁺, –ImH⁺)\n- Lose proton at pKa2 = 6.0: net 0 (–COO⁻, –NH₃⁺, –Im)\n- Lose proton at pKa3 = 9.2: net –1 (–COO⁻, –NH₂, –Im)\n\nThe neutral species is bracketed by pKa2 and pKa3.\n\n**pI(His) ≈ (6.0 + 9.2) / 2 = 7.6**\n\nAt pH 7.4, free histidine has a small positive average net charge, and its predominant species is neutral.\n\n---\n\n## Titration Curves\n\nA **titration curve** plots pH (y-axis) against equivalents of base added (x-axis) as a strong base (typically NaOH) is added to a fully protonated amino acid. Reading these curves correctly is an essential MCAT skill.\n\n### Key Features of a Titration Curve\n\n- **Half-equivalence points**: For well-separated titration steps, pH ≈ pKa and the adjacent protonation states are present in approximately equal concentrations, giving strong buffering.\n- **Equivalence points**: These occur at integer equivalents of base added. Intermediate equivalence-point pH values can be approximated by averaging the flanking pKa values; the final equivalence-point pH depends on concentration and base hydrolysis.\n- **Plateaus (buffering regions)**: The relatively flat regions around each pKa represent effective buffering. A buffer works best within ±1 pH unit of its pKa.\n- **Steep regions**: Between buffering plateaus, the curve rises steeply, indicating poor buffering capacity.\n\n### Titration Curve for Glycine (Simple Amino Acid)\n\nGlycine (pKa1 = 2.34, pKa2 = 9.60) illustrates the two-step titration of a simple amino acid.\n\n**Starting point** (0 equivalents of base): Fully protonated form, –COOH and –NH₃⁺, net charge = +1. the starting pH depends on amino acid concentration and any added strong acid.\n\n**First buffering region** (0 to 1 equivalent): The α-carboxyl group is being titrated. At 0.5 equivalents added, pH = pKa1 = 2.34. The curve is relatively flat here.\n\n**First equivalence point** (1 equivalent): The α-carboxyl is fully deprotonated. The solution contains mostly the zwitterion (–COO⁻, –NH₃⁺). pH ≈ pI = (2.34 + 9.60) / 2 = 5.97. This lies in a steep region between the buffering plateaus. The zwitterion can donate or accept a proton, but near the pI there is little of either conjugate partner and buffering is weak.\n\n**Second buffering region** (1 to 2 equivalents): The α-amino group is being titrated. At 1.5 equivalents, pH = pKa2 = 9.60. Another flat buffering plateau.\n\n**Second equivalence point** (2 equivalents): Fully deprotonated form, –COO⁻ and –NH₂, net charge = –1. the final pH depends on concentration and base hydrolysis.\n\n### Titration Curve for Aspartic Acid (Acidic Amino Acid)\n\nAspartic acid (pKa1 = 2.1, pKa2 = 3.9, pKa3 = 9.8) has three ionizable groups and therefore a three-step titration curve with three buffering regions; nearby pKa values can make individual regions less distinct.\n\nThe curve shows:\n- First plateau centered at pH 2.1 (α-carboxyl titration)\n- Second plateau centered at pH 3.9 (side chain carboxyl titration)\n- pI = (2.1 + 3.9) / 2 = 3.0 (approximately at the first equivalence point)\n- Third plateau centered at pH 9.8 (α-amino titration)\n\nThe two carboxyl groups titrate in close proximity, so the first two plateaus may partially overlap on real curves. The pI is notably acidic (3.0), reflecting the extra negative charge contributed by the side chain.\n\n### Titration Curve for Lysine (Basic Amino Acid)\n\nLysine (pKa1 = 2.2, pKa2 = 9.0, pKa3 = 10.5) also has three ionizable groups.\n\n- First plateau at pH 2.2 (α-carboxyl)\n- pI = (9.0 + 10.5) / 2 = 9.75 (approximately at the second equivalence point)\n- Second plateau at pH 9.0 (α-amino)\n- Third plateau at pH 10.5 (ε-amino of side chain)\n\nThe pI is strongly basic, and the two amino group plateaus appear in the high-pH range of the curve.\n\n---\n\n## Side Chain pKa Values You Must Know\n\nThe MCAT expects you to know approximate pKa values for the ionizable side chains. Memorize these:\n\n- **Aspartic acid (Asp, D)**: side chain –COOH, pKa ≈ 3.9\n- **Glutamic acid (Glu, E)**: side chain –COOH, pKa ≈ 4.1\n- **Histidine (His, H)**: imidazole, pKa ≈ 6.0\n- **Cysteine (Cys, C)**: thiol –SH, pKa ≈ 8.3\n- **Tyrosine (Tyr, Y)**: phenol –OH, pKa ≈ 10.5\n- **Lysine (Lys, K)**: ε-amino –NH₃⁺, pKa ≈ 10.5\n- **Arginine (Arg, R)**: guanidinium, pKa ≈ 12.5\n\nNote that arginine's pKa of ~12.5 means it is predominantly positively charged under physiological conditions. Similarly, aspartate and glutamate are predominantly negatively charged at physiological pH. Histidine often participates in proton transfer near neutral pH; cysteine and other residues can also change ionization state, particularly when their pKa values shift in proteins.\n\n---\n\n## Charge at Physiological pH\n\nFor MCAT purposes, you need to quickly assess the charge of any amino acid at pH 7.4:\n\n- If pH > pKa of a group: the group is predominantly *deprotonated* (carboxylic acids become –COO⁻; amines become –NH₂)\n- If pH < pKa of a group: the group is predominantly *protonated* (carboxylic acids remain –COOH; amines remain –NH₃⁺)\n\n**Practical shortcuts at pH 7.4**:\n- Free α-carboxyl groups (pKa ~2): predominantly deprotonated, charge ≈ –1\n- Free α-amino groups (pKa ~9): predominantly protonated, charge ≈ +1\n- Asp/Glu side chains (pKa ~4): deprotonated, charge = –1\n- His side chain (pKa ~6): deprotonated (mostly), charge ≈ 0\n- Cys side chain (pKa ~8.3): mostly protonated, charge ≈ 0 (slightly negative)\n- Lys side chain (pKa ~10.5): protonated, charge = +1\n- Arg side chain (pKa ~12.5): protonated, charge = +1\n- Tyr side chain (pKa ~10.5): protonated, charge = 0\n\nThis means that at pH 7.4, a simple amino acid like alanine carries net charge of (+1) + (–1) = 0. An aspartate residue in a protein carries an additional –1 from its side chain. A lysine residue carries an additional +1.\n\n---\n\n## Henderson-Hasselbalch in Practice\n\nThe Henderson-Hasselbalch equation is your quantitative workhorse:\n\n**pH = pKa + log([A⁻]/[HA])**\n\nOn the MCAT, you will use this to:\n\n1. **Determine the ratio of protonated to deprotonated forms** at a given pH\n2. **Determine the pH** when you know the ratio\n3. **Identify buffering capacity**: maximum buffering at pH = pKa; effective buffering within pH = pKa ± 1\n\n*Example*: What fraction of histidine's imidazole side chain (pKa = 6.0) is protonated at pH 7.0?\n\n7.0 = 6.0 + log([Im]/[ImH⁺])\nlog([Im]/[ImH⁺]) = 1.0\n[Im]/[ImH⁺] = 10\n\nSo 10 parts deprotonated to 1 part protonated → fraction protonated = 1/11 ≈ 9%\n\nAt pH 7, about 91% of histidine's imidazole groups are neutral, with only 9% positively charged. This is why histidine can so readily accept or donate protons during enzyme catalysis at physiological pH—a small shift in local pH or electrostatic environment tips the balance.\n\n---\n\n## Electrophoresis and Separation\n\nThe pI concept directly explains amino acid and protein behavior in **gel electrophoresis** and **isoelectric focusing (IEF)**:\n\n- At pH < pI: the molecule is net positive → migrates toward the **cathode** (negative electrode)\n- At pH > pI: the molecule is net negative → migrates toward the **anode** (positive electrode)\n- At pH = pI: no net charge → **no migration**\n\nIn **isoelectric focusing**, a pH gradient is established across a gel. Proteins migrate until they reach the pH equal to their pI, at which point they stop and \"focus.\" This is an extremely high-resolution technique for separating proteins with different pI values.\n\n**SDS-PAGE** denatures proteins and coats them uniformly with negative charge, so separation is by size alone—pI becomes irrelevant. Knowing which technique uses pI and which uses molecular weight is a common MCAT distinction.\n\n---\n\n## Common Mistakes and MCAT Traps\n\n### Confusing pKa with pI\n\nThe pKa is a property of a specific ionizable *group*. The pI is a property of the *whole molecule*. A molecule has one pI but potentially multiple pKa values.\n\n### Forgetting the Direction of Charge Change\n\nStudents sometimes forget: *deprotonation of an acid produces negative charge; deprotonation of a protonated amine also produces less positive charge (neutral amine)*. Both processes result in a more negative net charge as pH rises. This is always true—increasing pH always drives deprotonation and shifts the molecule toward more negative charge.\n\n### The \"Halfway\" Rule\n\nAt exactly the pKa of any group, that group is exactly 50% protonated and 50% deprotonated. This is also the point of maximum buffering capacity. If the MCAT asks which pH gives maximum buffering for a specific amino acid group, the answer is the pKa of that group.\n\n### pI for Proteins\n\nProteins have many ionizable residues, and their pI is not simply calculated from pKa averages. Instead, pI is determined experimentally or by summing the contributions of all ionizable groups. The MCAT may ask you to predict whether a protein migrates toward the anode or cathode at a given pH, which requires knowing whether pH > pI (negative, moves to anode) or pH < pI (positive, moves to cathode).\n\n### Cysteine's Unusual Behavior\n\nCysteine's thiol group (pKa ~8.3) is partially deprotonated at physiological pH. The thiolate anion (–S⁻) is a far better nucleophile than the protonated thiol (–SH), which is why cysteine residues are often reactive in enzyme active sites. In reducing environments, cysteines exist as free thiols; in oxidizing environments, they form disulfide bonds (–S–S–). Neither form of the disulfide bond is ionizable.\n\n---\n\n## Integrating Concepts: A Sample Problem\n\n*A peptide contains the following residues: Ala, Lys, Asp, Gly. At pH 7.4, what is the approximate net charge?*\n\nIdentify all ionizable groups:\n- N-terminus (α-amino): pKa ~9, protonated at 7.4, charge = **+1**\n- C-terminus (α-carboxyl): pKa ~2, deprotonated at 7.4, charge = **–1**\n- Lys side chain (ε-amino): pKa ~10.5, protonated at 7.4, charge = **+1**\n- Asp side chain (β-carboxyl): pKa ~3.9, deprotonated at 7.4, charge = **–1**\n\nNet charge = (+1) + (–1) + (+1) + (–1) = **0**\n\nThe integer-charge approximation does not establish its pI or zero electrophoretic mobility. Using the stated pKa values, the neutral species is bracketed approximately by the Asp and N-terminal pKa values, giving pI ≈ (3.9 + 9.0)/2 = 6.45; at pH 7.4 the average charge is slightly negative.\n\n---\n\n## Summary of Key Values and Formulas\n\n- **α-Carboxyl pKa**: ~2.0–2.4 (predominantly deprotonated at pH 7.4)\n- **α-Amino pKa**: ~9.0–9.8 (predominantly protonated at pH 7.4)\n- **pI for simple amino acids**: (pKa1 + pKa2) / 2\n- **pI for acidic amino acids**: average of the two lowest pKa values\n- **pI for basic amino acids**: average of the two highest pKa values\n- **Henderson-Hasselbalch**: pH = pKa + log([A⁻]/[HA])\n- **At pH = pKa**: 50% protonated, 50% deprotonated, maximum buffering\n- **His side chain pKa ~6.0**: supports acid-base catalysis near neutral pH; local environments also shift other side-chain pKa values\n\nMastering these relationships—the logic of ionization states, the calculation of pI, and the interpretation of titration curves—provides the foundation for understanding protein structure, enzyme mechanism, and laboratory techniques that appear repeatedly across the MCAT. Every time you see a question about why histidine is in an active site, why acidic proteins migrate toward the anode, or how to separate amino acids by electrophoresis, you are drawing on exactly this framework."
+    },
+    {
+      "field": "questions.26.choice_a",
+      "sha256": "fc40ce185f7a94bd102f9701d97516d6810bc95195c47a3afee5d9b25e9505f1",
+      "value": "H2N-CH2-COOH (uncharged amino and carboxyl groups)"
+    },
+    {
+      "field": "questions.26.choice_d",
+      "sha256": "b5bfca444e34591c9975338918283c0a6dee602271ee717c78ef04d53771af6d",
+      "value": "H3N+-CH2-COOH (fully protonated)"
+    },
+    {
+      "field": "questions.29.choice_a",
+      "sha256": "96ed5f647d2eb2df2672e6e827fee55187c30b3ce58f59f6a097c0b68ad03e56",
+      "value": "Approximately 15%"
+    },
+    {
+      "field": "questions.29.explanation",
+      "sha256": "71d5ff3557845235a7cd7a8be45963a91079f51a6fba51d5b579dd4da687adb5",
+      "value": "Using Henderson–Hasselbalch, [deprotonated]/[protonated] = 10^(9.75 − 10.5) ≈ 0.178. The deprotonated fraction is 0.178/(1 + 0.178) ≈ 0.151, or 15%; about 85% remains protonated."
+    },
+    {
+      "field": "questions.30.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d",
+      "value": "B"
+    },
+    {
+      "field": "questions.30.explanation",
+      "sha256": "3c0950a48a49b9a733e92025bef77f00bfdd41a45f7cd1c18b51315ae6774fd2",
+      "value": "At pH below its pI, an amino acid has positive average charge and migrates toward the cathode (negative electrode). Above its pI it has negative average charge and migrates toward the anode (positive electrode). Thus at pH 6.0 the basic amino acid moves toward the cathode and the acidic amino acid toward the anode: choice B."
+    }
+  ],
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "373afcf7bf01b0d6c90c528fa5e848434823d1d465725126bfb6fe746be137f9"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "e0db749441c96b518f59b9c25844371258371ec3a7fbe9356d290ae746fd71bc"
+    },
+    {
+      "field": "questions.26.question_text",
+      "sha256": "f28330d79df3899bfbfbbbccde97b128a39c9f27c36cd9a9f5b1941bff94db96"
+    },
+    {
+      "field": "questions.26.choice_a",
+      "sha256": "fc40ce185f7a94bd102f9701d97516d6810bc95195c47a3afee5d9b25e9505f1"
+    },
+    {
+      "field": "questions.26.choice_b",
+      "sha256": "855b65637da956bc8e3648b6ffb1a3c3e9cb686508ef1ae9635a3b1a1ef592c5"
+    },
+    {
+      "field": "questions.26.choice_c",
+      "sha256": "1c63e8f65e46802c75b83b764fc33a3f3ba268ae2f4229be4f8f7022179e75f4"
+    },
+    {
+      "field": "questions.26.choice_d",
+      "sha256": "b5bfca444e34591c9975338918283c0a6dee602271ee717c78ef04d53771af6d"
+    },
+    {
+      "field": "questions.26.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.26.explanation",
+      "sha256": "7f159262d63bbb6b804eb4f67afa51a63f05e276a3b147c4b8e4d0039155772a"
+    },
+    {
+      "field": "questions.27.question_text",
+      "sha256": "788f13e8bb5da67bcbdc95fbdd0727742bdb260c25e4948c3798888dfd1b40f0"
+    },
+    {
+      "field": "questions.27.choice_a",
+      "sha256": "a416ea84421fa7e1351582da48235bac88380a337ec5cb5a9239dc7d57908b4b"
+    },
+    {
+      "field": "questions.27.choice_b",
+      "sha256": "b9030f2fe58d798d6badd75c8b7d95c40d068dd903897f6e291d322978911953"
+    },
+    {
+      "field": "questions.27.choice_c",
+      "sha256": "39fa830a337762002a3cb870f93e47a99c7ec7ac79c0c497aebbe7c741d227e2"
+    },
+    {
+      "field": "questions.27.choice_d",
+      "sha256": "57201cadc90961ff8a6f65638b3058813c3d658d035807720a137f4240325274"
+    },
+    {
+      "field": "questions.27.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.27.explanation",
+      "sha256": "586b4b20233ad6ebdd556f110057996025d5ab8eadcfc7d67779f171f4dcb0a1"
+    },
+    {
+      "field": "questions.28.question_text",
+      "sha256": "9e0d46edbc3635da6713d559ff467be038e74422f706f279fdcd0e83fd395783"
+    },
+    {
+      "field": "questions.28.choice_a",
+      "sha256": "5cd48eaecce7f451feda47ee86bda01f23e617db474d44d88d4f51449ed29726"
+    },
+    {
+      "field": "questions.28.choice_b",
+      "sha256": "f5f09d9262f6060a4c01acca9f68a891185d53dccb4af7922b915d0d698c5c22"
+    },
+    {
+      "field": "questions.28.choice_c",
+      "sha256": "5736b2294bc3d6b53c6298a1f742c168ee7d732ada273cfb736ab0949ed1c232"
+    },
+    {
+      "field": "questions.28.choice_d",
+      "sha256": "d39e6bd99d79abaf1962ee4c3bcd17e83007e07ea6f3e4fc0a99cf7b33be549a"
+    },
+    {
+      "field": "questions.28.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.28.explanation",
+      "sha256": "e68ff819c899f2a11d3169643f773ee1242f934f70fa47a251170cc145bdc5d8"
+    },
+    {
+      "field": "questions.29.question_text",
+      "sha256": "d117c0eabd2d23ed1c66a98f0fc8a9af23addc68981de4dbe84cb205ba117c59"
+    },
+    {
+      "field": "questions.29.choice_a",
+      "sha256": "96ed5f647d2eb2df2672e6e827fee55187c30b3ce58f59f6a097c0b68ad03e56"
+    },
+    {
+      "field": "questions.29.choice_b",
+      "sha256": "0e6ee9671cda5ca38e2c136831d6df03e0aa8ef8bf042113ee25502abaabc7cb"
+    },
+    {
+      "field": "questions.29.choice_c",
+      "sha256": "f96c0cd7fc34cd8ed970b360426cfaaf6a2c2e8dacf56e662db691c43dfb9602"
+    },
+    {
+      "field": "questions.29.choice_d",
+      "sha256": "5068f65732e02838b77bd0642569318294d7ce96425fe4db1cdac40b75450984"
+    },
+    {
+      "field": "questions.29.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.29.explanation",
+      "sha256": "71d5ff3557845235a7cd7a8be45963a91079f51a6fba51d5b579dd4da687adb5"
+    },
+    {
+      "field": "questions.30.question_text",
+      "sha256": "12bd5cfd5a59a3ad3e22432d361dae554477e447a98f3a335f51603d25dd34d2"
+    },
+    {
+      "field": "questions.30.choice_a",
+      "sha256": "d08cc2023ccbdf4d48ab053391edbf6a51afb55b417f47a20f6a48269b728241"
+    },
+    {
+      "field": "questions.30.choice_b",
+      "sha256": "c0880ce29382faa11e4b3c1ee37ab76f86bf441ebbb38ea42941952ec7910255"
+    },
+    {
+      "field": "questions.30.choice_c",
+      "sha256": "58f20257f44b3454978f83375bfaa1ef721ef5141c6e5b5fdde3c3a5a26678d5"
+    },
+    {
+      "field": "questions.30.choice_d",
+      "sha256": "f1ae40f200b5a726bdb6cdc349f7310cde7e961173a35a86c8fd942c3bb5a711"
+    },
+    {
+      "field": "questions.30.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.30.explanation",
+      "sha256": "3c0950a48a49b9a733e92025bef77f00bfdd41a45f7cd1c18b51315ae6774fd2"
+    }
+  ],
+  "questionIds": [
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "visual": {
+    "title": "See the chemistry",
+    "src": "/lesson-diagrams/amino-acid-charge.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "Glycine charge changes from +1 to 0 to −1 as pH rises. Histidine’s neutral species lies between pKa6.0 and9.2, giving pI7.6. Positive ions migrate toward the negative cathode and negative ions toward the positive anode.",
+    "caption": "Use the two pKa values on either side of the neutral species. These are predominant states; real solutions contain a mixture."
+  }
+}

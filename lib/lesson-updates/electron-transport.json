@@ -1,0 +1,249 @@
+{
+  "lessonId": 28,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    136,
+    137,
+    138,
+    139,
+    140
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+      "title": "Mitochondrial electron transport and ATP synthesis"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5164932/",
+      "title": "Atomic mammalian Complex I structure"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/",
+      "title": "Respiratory proton and charge stoichiometry"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6170408/",
+      "title": "Intact 14-subunit human Complex IV structure"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2773210/",
+      "title": "Reversible association of CO and cyanide with cytochrome oxidase"
+    },
+    {
+      "url": "https://www.mrc-mbu.cam.ac.uk/research-groups/walker-group/structure-and-function-atp-synthases",
+      "title": "MRC: ATP synthase structure, rotor and mechanism"
+    },
+    {
+      "url": "https://www.nature.com/articles/s42003-020-01221-8",
+      "title": "Structural nucleotide states of ATP synthase"
+    }
+  ],
+  "visual": {
+    "title": "Electron paths and proton counts: keep the units consistent",
+    "src": "/lesson-diagrams/electron-transport.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "NADH enters Complex I and succinate enters Complex II, both feeding Q. Q sends electrons through III, cytochrome c and IV to oxygen. For each electron pair, I translocates four proton equivalents, II zero, III four and IV two. ATP synthase allows proton return to the matrix; conventional totals are ten for NADH and six for succinate.",
+    "caption": "All displayed counts are per two electrons. Oxygen reduction also consumes matrix protons chemically; do not count those twice as pumped protons."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "2eb5e0365c1f21462ccd2d9a91e1780bc380c127185d06386275874cf8db2528"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "d7c88b570970a78958ce0c57548d17699a3a71c33f2a8f635f5e36f9adfe93af"
+    },
+    {
+      "field": "questions.136.question_text",
+      "sha256": "01e1edc76e8396910302d5b8498914a9dfad01ed23c5e60ce2df4130190b4126"
+    },
+    {
+      "field": "questions.136.choice_a",
+      "sha256": "d54079eec052c02b44d7f381dc8da4533e371500a569ce54300a182f32fad769"
+    },
+    {
+      "field": "questions.136.choice_b",
+      "sha256": "0e42b35f9156e717d603c26f8b5ee863d66f9e7cbea51997c6b87d8099ce5b54"
+    },
+    {
+      "field": "questions.136.choice_c",
+      "sha256": "66f48e25bc0d0ca4e2ba086bc0e091951e0cad7b28ff1404cbc384380289a128"
+    },
+    {
+      "field": "questions.136.choice_d",
+      "sha256": "98b8f81e00c979edb4d6aa3b6345a56f6088137fb46cd2cae935178d2b7b8d55"
+    },
+    {
+      "field": "questions.136.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.136.explanation",
+      "sha256": "7e79c780e1e2daf54581f5ff9d2667743d5c85dbf4888b1d40e253b80820cb8d"
+    },
+    {
+      "field": "questions.137.question_text",
+      "sha256": "790eb42d757d5c3f3e5338b00b457cc68e6360b08dfcdf7517ec2d0c268a9568"
+    },
+    {
+      "field": "questions.137.choice_a",
+      "sha256": "9da0b85ddf3434de1728627a40277be0e9f853e459f61b04754d02167509f559"
+    },
+    {
+      "field": "questions.137.choice_b",
+      "sha256": "98c3c7a400874c66faabd82d9d276f97c2237d57e377db94efcf1145aa7ae0a7"
+    },
+    {
+      "field": "questions.137.choice_c",
+      "sha256": "3fb7d540018dd8cee11cc86a2d58ef84e7567fe32be4e6e7971539ac6ad23fb4"
+    },
+    {
+      "field": "questions.137.choice_d",
+      "sha256": "ed359187026326969caca589dff56834a5604f141e3188eccd04ed45c11f575a"
+    },
+    {
+      "field": "questions.137.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.137.explanation",
+      "sha256": "ddcd35463a70fce1b792bd1bf45a34d12a9fdd04e76b23834db65d090958d7fb"
+    },
+    {
+      "field": "questions.138.question_text",
+      "sha256": "85fb22799b8979f7337136c0fbb7b5b7b4fc3b9196eb8d5e9637ffae0b85a636"
+    },
+    {
+      "field": "questions.138.choice_a",
+      "sha256": "ee25686e8abadabc8bac28673a5e80cf93d123420cf5af7c5baeef087e8225c7"
+    },
+    {
+      "field": "questions.138.choice_b",
+      "sha256": "0eedcfdfa13ce13d4716666bdd7f7d0563514fd01cf1eb91d94ac31324c79625"
+    },
+    {
+      "field": "questions.138.choice_c",
+      "sha256": "dbc8af1f1599d6e1b9330a9d604f4228abe0a57b9d7e6bc3e4f23344731e93ac"
+    },
+    {
+      "field": "questions.138.choice_d",
+      "sha256": "af42f0567b76102a6f163ac23a9d206241bffb16007357bc15bf69066343959f"
+    },
+    {
+      "field": "questions.138.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.138.explanation",
+      "sha256": "3fa03a21ddd9d598bb24b479a4b4bdc8acf8cc6ff24f6128870c778f75941a61"
+    },
+    {
+      "field": "questions.139.question_text",
+      "sha256": "610a20b70bc11bb89483185b233297dd04facacea6f0205f1e091e3ca7c82627"
+    },
+    {
+      "field": "questions.139.choice_a",
+      "sha256": "8c6501033215af58c386503a724ac316d1cc8a82555dd45e8f48468b0689b8f4"
+    },
+    {
+      "field": "questions.139.choice_b",
+      "sha256": "53b02ae020fbd10659a1a40abace4fdb6a6e318caed05c4f630da75b08aea94a"
+    },
+    {
+      "field": "questions.139.choice_c",
+      "sha256": "6ed8fa857e7231417b2c0e13de36dbeef427da50ded9811ee9f748e8f5f80e94"
+    },
+    {
+      "field": "questions.139.choice_d",
+      "sha256": "0b48d5b171c304689a2735440aea8f7f31aeeb12bf9e1fe0f4a244941cc97f15"
+    },
+    {
+      "field": "questions.139.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.139.explanation",
+      "sha256": "9789761a9c6a6cc11c9d3c8eb812b714956ce8345c03eb89eff682689e6235d0"
+    },
+    {
+      "field": "questions.140.question_text",
+      "sha256": "85b401c2db4df9326c163514a5d37a09ed678965b8c7e97ab91e8ce5dcad3af6"
+    },
+    {
+      "field": "questions.140.choice_a",
+      "sha256": "c31653d9418e910c9aae40326dbe5ec549f8c30604b77c3c5abff35dcf22cc73"
+    },
+    {
+      "field": "questions.140.choice_b",
+      "sha256": "0eb7b5dfe5f470fafd5fa59f560e14a9d8bed1e94c93364f8bcb8e72533e2a6f"
+    },
+    {
+      "field": "questions.140.choice_c",
+      "sha256": "c6c5411fd374f278e74516ec80f36ca1d5ba3dfa1f182398c6a1ca794b212ae1"
+    },
+    {
+      "field": "questions.140.choice_d",
+      "sha256": "b9acf5d78c52d5cb7830a46a80ed81eb0f3998d39db44e4ac83b0e37ff13431f"
+    },
+    {
+      "field": "questions.140.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.140.explanation",
+      "sha256": "2c7ef329539f402f25fedc2697fc9bb9dc65f2edc3d5c3e69f88eff34b98494e"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## The Electron Transport Chain: Complexes and Electron Flow\n\nCellular respiration culminates in the electron transport chain (ETC), the series of protein complexes embedded in the inner mitochondrial membrane that harvest the chemical energy stored in NADH and FADH₂ and convert it into a proton gradient. That gradient then drives ATP synthesis. Understanding the ETC at a mechanistic level—which complexes accept which electrons, where protons are pumped, how many, and why oxygen is indispensable—is essential for the MCAT. This lesson builds that mechanistic understanding from the ground up.\n\n---\n\n## Overview: Setting the Stage\n\nBy the time electrons reach the ETC, glycolysis and the citric acid cycle have already extracted hydrogen atoms from glucose and loaded them onto electron carriers. **NADH** carries two electrons and one proton (effectively a hydride ion, H⁻), while **FADH₂** carries two electrons and two protons. These carriers are sometimes called *reduced coenzymes* because they have been reduced by accepting electrons from metabolic intermediates.\n\nThe ETC's job is to strip those electrons from NADH and FADH₂ and pass them through a redox network with an overall increase in electron-accepting tendency until they reach the terminal electron acceptor, **molecular oxygen (O₂)**. Overall electron flow releases free energy; individual transfers need not all be downhill, and the ETC captures much of that energy by using it to pump protons (H⁺) from the mitochondrial matrix into the **intermembrane space (IMS)**. This creates an electrochemical gradient—the **proton-motive force (PMF)**—that ATP synthase then exploits.\n\nThe entire process occurs on the **inner mitochondrial membrane (IMM)**, which is highly folded into structures called **cristae**. These folds dramatically increase surface area, allowing more ETC complexes to be embedded and more ATP to be produced per mitochondrion. The IMM is otherwise essentially impermeable to ions and polar molecules, which is critical: it ensures that proton return is restricted; ATP synthase provides a productive route, while proton leak and uncoupling routes also exist.\n\n---\n\n## The Four Complexes: Structure and Function\n\n### Complex I: NADH Dehydrogenase (NADH-CoQ Oxidoreductase)\n\n**Complex I** is the largest of the four complexes, containing 45 subunit copies (44 distinct proteins) in structurally characterized mammalian complexes. It is the primary entry point for electrons derived from NADH.\n\n**Electron entry:** NADH donates its two electrons to **FMN (flavin mononucleotide)**, a prosthetic group at the matrix-facing arm of Complex I. FMN is reduced to FMNH₂. The electrons then pass through a series of **iron-sulfur (Fe-S) clusters**—small inorganic cofactors containing iron and sulfur atoms—arranged in a chain through the hydrophilic arm of the complex. Each Fe-S cluster undergoes one-electron reduction (Fe³⁺ → Fe²⁺) and then re-oxidation as it passes the electron to the next cluster.\n\n**Electron exit:** Electrons ultimately reduce **ubiquinone (Coenzyme Q, CoQ)** to **ubiquinol (CoQH₂)**. Ubiquinone is a small, lipid-soluble molecule that diffuses freely within the hydrophobic core of the inner membrane. Because it is not a fixed protein subunit, CoQ serves as a mobile electron carrier that ferries electrons between complexes.\n\n**Proton pumping:** For every NADH oxidized, Complex I pumps **4 H⁺** from the matrix into the IMS. The exact mechanism is not fully elucidated, but it involves conformational changes in the transmembrane arm of the complex coupled to the redox chemistry in the hydrophilic arm.\n\n**MCAT relevance:** Rotenone and amytal are classic inhibitors of Complex I that block electron transfer from Fe-S clusters to CoQ. Inhibition of Complex I blocks NADH-linked electron entry; succinate and other Q-linked donors can still support downstream electron flow and some ATP synthesis—a fact that appears in pharmacology and toxicology questions.\n\n---\n\n### Complex II: Succinate Dehydrogenase (Succinate-CoQ Oxidoreductase)\n\n**Complex II** is unique among the ETC complexes: it is also an enzyme of the citric acid cycle. It catalyzes the oxidation of **succinate to fumarate**, reducing **FAD to FADH₂** in the process. It is the enzyme shared by the TCA cycle and respiratory chain; NADH provides additional functional links.\n\n**Structure:** Complex II contains four subunits. The two hydrophilic subunits face the matrix and harbor the FAD cofactor and Fe-S clusters. The two hydrophobic subunits anchor the complex in the membrane and contain a **heme b** group and the binding site for ubiquinone.\n\n**Electron flow:** Succinate is oxidized → FAD is reduced to FADH₂ → electrons pass through Fe-S clusters → CoQ is reduced to CoQH₂.\n\n**Proton pumping:** Complex II does **not** pump protons. This is the critical distinction between FADH₂-derived electrons and NADH-derived electrons. Succinate-derived electrons enter through bound FAD at Complex II and bypass Complex I, giving less proton translocation per pair. FADH₂ is not a freely diffusing fuel delivered to Complex II, and other flavoproteins can supply Q through different routes.\n\n**Thermodynamic reasoning:** Succinate-to-Q electron transfer supports less energy conservation than NADH-to-Q transfer, and Complex II does not pump protons. Flavin midpoint potentials depend strongly on the bound protein and environment; a value for free FAD must not be applied universally to Complex II.\n\n**MCAT relevance:** Malonate is a competitive inhibitor of succinate dehydrogenase (it resembles succinate structurally). Knowing that Complex II does not pump protons explains why FADH₂ yields fewer ATP than NADH—a distinction that appears repeatedly in questions about ATP accounting.\n\n---\n\n### Ubiquinone (Coenzyme Q): The Mobile Carrier\n\nAlthough not a numbered complex, **ubiquinone (CoQ)** deserves explicit discussion because it is a critical junction point. CoQ collects electrons from both Complex I and Complex II (and from other sources, such as electron-transfer flavoprotein via ETF:ubiquinone oxidoreductase during fatty-acid oxidation). As **ubiquinol (CoQH₂)**, it diffuses laterally through the membrane to deliver electrons to Complex III.\n\nCoQ can exist in three oxidation states: fully oxidized (**ubiquinone**), partially reduced (**semiquinone, CoQ•⁻**), and fully reduced (**ubiquinol**). The semiquinone intermediate is relevant to the Q cycle at Complex III.\n\n---\n\n### Complex III: Cytochrome bc₁ Complex (CoQH₂-Cytochrome c Oxidoreductase)\n\n**Complex III** accepts electrons from CoQH₂ and transfers them to **cytochrome c**, another mobile electron carrier. The mechanism is more elaborate than the other complexes because it involves the **Q cycle**, which amplifies proton pumping.\n\n**Structure:** Complex III functions as a dimer. Each monomer contains three catalytically relevant subunits: **cytochrome b** (with two heme b groups, designated bL and bH), the **Rieske iron-sulfur protein** (an Fe-S cluster), and **cytochrome c₁** (with a heme c₁ group).\n\n**The Q cycle:** The Q cycle is a two-step mechanism that allows Complex III to pump **4 H⁺** into the IMS for every 2 electrons transferred to cytochrome c, even though each CoQH₂ carries only 2 electrons and 2 protons.\n\nHere is the logic in brief:\n\n- **Step 1:** One CoQH₂ binds at the **Qo site** (outer, near IMS). One electron goes via the Rieske Fe-S cluster to cytochrome c₁, then to cytochrome c. The second electron goes via cytochrome bL → bH to a CoQ at the **Qi site** (inner, near matrix), partially reducing it to semiquinone. Two H⁺ are released into the IMS.\n\n- **Step 2:** A second CoQH₂ binds at the Qo site and the same split occurs. The electron via the b cytochromes completes the reduction of the semiquinone at Qi to CoQH₂, picking up 2 H⁺ from the matrix.\n\n**Q-cycle accounting per two electrons delivered to cytochrome c:** Two QH₂ molecules are oxidized at Qo, releasing four protons to the IMS. One Q is reduced at Qi using two matrix protons and recycled as QH₂; net QH₂ consumption is therefore one molecule. Do not subtract matrix proton uptake from IMS proton release as though they occur in one compartment. In conventional chain accounting, Complex III contributes four translocated proton equivalents per electron pair.\n\n**Cytochrome c:** This small, water-soluble protein is loosely associated with the outer face of the IMM. It carries electrons one at a time (it contains a single heme group that cycles between Fe²⁺ and Fe³⁺) and ferries them from Complex III to Complex IV.\n\n**MCAT relevance:** Antimycin A inhibits Complex III by blocking the Qi site. Also, cytochrome c release from mitochondria into the cytoplasm is a key trigger of **apoptosis**—a connection the MCAT tests. Once in the cytoplasm, cytochrome c associates with Apaf-1 to form the apoptosome, activating caspases.\n\n---\n\n### Complex IV: Cytochrome c Oxidase\n\n**Complex IV** is the terminal enzyme of the ETC. It accepts electrons from reduced cytochrome c and transfers them to O₂, reducing it to water.\n\n**Structure:** Intact human Complex IV has been structurally resolved with 14 subunits, including NDUFA4; older descriptions often list 13. The catalytically essential subunits are encoded by mitochondrial DNA. Key cofactors include **copper centers (CuA and CuB)** and **heme a and heme a₃**. The binuclear center formed by **heme a₃ and CuB** is the site of O₂ reduction.\n\n**Electron flow:** Cytochrome c (Fe²⁺) → CuA → heme a → heme a₃/CuB center → O₂. Four electrons are required to fully reduce one O₂ molecule to two H₂O:\n\nO₂ + 4 H⁺ (matrix) + 4 e⁻ → 2 H₂O\n\nThe protons consumed in this reaction come from the matrix, which contributes to the proton gradient by depleting matrix H⁺.\n\n**Proton pumping:** Complex IV pumps **4 H⁺** into the IMS for every 4 electrons transferred (i.e., per O₂ reduced). Additionally, the 4 H⁺ consumed from the matrix to make water represent a *chemical* contribution to the gradient (sometimes called \"scalar protons\"). Together, these effects contribute significantly to the PMF.\n\n**MCAT relevance:** **Cyanide (CN⁻)**, **carbon monoxide (CO)**, and **azide (N₃⁻)** are potent inhibitors of Complex IV. They bind to the heme a₃/CuB center and prevent O₂ from binding. Strong inhibition blocks respiratory electron flow and oxidative ATP synthesis; substrate-level ATP formation is a different process. Clinical treatment of poisoning is an emergency matter and is not inferred solely from this pathway diagram.\n\n---\n\n## Summary of Proton Pumping\n\n| Complex | Reaction Catalyzed | H⁺ Pumped (per 2e⁻) |\n|---|---|---|\n| I | NADH → CoQ | 4 |\n| II | Succinate → CoQ | 0 |\n| III | CoQH₂ → Cyt c | 4 |\n| IV | Cyt c → O₂ | 2 |\n\nFor electrons entering at **Complex I** (from NADH): total H⁺ pumped = 4 + 4 + 2 = **10 H⁺** per NADH.\n\nFor electrons entering at **Complex II** (from FADH₂): total H⁺ pumped = 0 + 4 + 2 = **6 H⁺** per succinate-derived electron pair.\n\nThese numbers feed directly into ATP yield calculations (discussed below).\n\n---\n\n## The Proton-Motive Force\n\nThe pumping of protons from the matrix into the IMS creates two components of the **proton-motive force (PMF)**:\n\n1. **Chemical gradient (ΔpH):** The IMS becomes more acidic (higher [H⁺]) than the matrix. The size of this pH difference varies with conditions; values near one pH unit are illustrative, not fixed.\n\n2. **Electrical gradient (membrane potential, Δψ):** Because protons carry positive charge, the IMS becomes positively charged relative to the matrix. The IMM has a membrane potential of approximately **−180 mV** (matrix negative).\n\nThe PMF can be expressed quantitatively using the **Mitchell equation:**\n\nΔp = Δψ − (2.303 RT/F) × ΔpH, using Δψ = ψ(matrix) − ψ(IMS) and ΔpH = pH(matrix) − pH(IMS). This signed Δp is usually negative for proton entry; its magnitude expresses the inward driving force.\n\nAt 37°C, 2.303 RT/F is approximately **61.5 mV per pH unit** (59.2 mV at 25°C). For Δψ = −150 mV and ΔpH = 0.8, Δp ≈ −199 mV. Actual values depend on respiratory state.\n\nThis gradient represents stored free energy. For the illustrative −199 mV value, ΔG = FΔp ≈ **−19.2 kJ per mole of protons** moving into the matrix. ATP synthase harnesses this energy.\n\n**MCAT relevance:** The concept of PMF is tested in the context of uncouplers. **2,4-Dinitrophenol (DNP)** and other uncouplers are lipid-soluble weak acids that carry protons across the IMM, dissipating the gradient as heat without making ATP. Uncouplers can increase O₂ consumption when substrates, oxygen and respiratory capacity remain available, while reducing ATP produced per oxygen consumed. Brown adipose tissue uses a natural uncoupler called **thermogenin (UCP1)** to generate heat in newborns and hibernating animals.\n\n---\n\n## ATP Synthase: Harvesting the Gradient\n\n**ATP synthase (Complex V)** is not part of the electron transport chain per se, but it is the reason the proton gradient matters. It is a rotary molecular motor embedded in the IMM.\n\n**Structure:** ATP synthase has two main domains:\n- **F₀ subunit:** Embedded in the membrane; contains a ring of **c subunits** (eight in mammals; the number varies across other organisms) through which protons flow. Proton flow drives rotation of the c-ring.\n- **F₁ subunit:** Protrudes into the matrix; contains the **α₃β₃ hexamer** where ATP synthesis occurs. The rotating γ subunit causes conformational changes in the β subunits, cycling them through three states: loose (holding ADP + Pᵢ), tight (favoring bound ATP formation), and open (allowing ATP release). This is the **binding change mechanism** described by Paul Boyer.\n\n**H⁺/ATP ratio:** A mammalian c₈ rotor moves about 8 protons per full rotation and produces 3 ATP, or 8/3 ≈ 2.67 H⁺ per ATP through the assembled synthase. Isolated F₁ has no proton-translocating membrane rotor. Phosphate import, electrogenic ADP/ATP exchange, leak and coupling efficiency affect whole-mitochondrion ATP yield.\n\nFor conventional introductory accounting, an effective cost near **4 proton equivalents per exported ATP** gives **10/4 ≈ 2.5 ATP per NADH** and **6/4 ≈ 1.5 ATP per succinate-linked electron pair**. These are useful approximate yields, not exact universal constants derived solely from c-ring size.\n\nThese are common introductory accounting values; use values supplied by a question, replacing the older estimates of 3 ATP per NADH and 2 ATP per FADH₂.\n\n---\n\n## Overall ATP Yield from Glucose Oxidation\n\nConnecting ETC to whole-cell metabolism:\n\n**Per glucose molecule:**\n- Glycolysis: 2 NADH (cytoplasmic), 2 ATP (net), 2 pyruvate\n- Pyruvate dehydrogenase: 2 NADH (mitochondrial)\n- Citric acid cycle (×2): 6 NADH, 2 FADH₂, 2 GTP\n\n**Mitochondrial NADH:** 8 total (2 from pyruvate dehydrogenase + 6 from TCA) × 2.5 ATP = **20 ATP**\n\n**FADH₂:** 2 × 1.5 ATP = **3 ATP**\n\n**Cytoplasmic NADH:** 2 NADH from glycolysis. Their reducing equivalents must be transferred; NADH itself does not cross the inner membrane. The **malate-aspartate shuttle** preserves the full reducing power (yields mitochondrial NADH → 2.5 ATP each = **5 ATP** total). The **glycerol-3-phosphate shuttle** delivers electrons to FADH₂ equivalent → 1.5 ATP each = **3 ATP** total. Heart and liver primarily use the malate-aspartate shuttle; muscle can use either.\n\n**Substrate-level phosphorylation:** 2 ATP (glycolysis) + 2 GTP (TCA) = **4 ATP**\n\n**Total (with malate-aspartate shuttle):** 20 + 3 + 5 + 4 = **~32 ATP**\n\n**Total (with glycerol-3-phosphate shuttle):** 20 + 3 + 3 + 4 = **~30 ATP**\n\nThe old textbook value of 36–38 ATP assumed 3 ATP/NADH and 2 ATP/FADH₂ and did not account for the cost of transport. The modern estimate of **30–32 ATP** is a common approximate convention, with actual yields dependent on conditions.\n\n---\n\n## Reduction Potentials and Thermodynamics of Electron Flow\n\nOverall electron flow favors the acceptor with the more positive actual reduction potential. Standard transformed values describe reference conditions: **ΔG°′ = −nFΔE°′**. Actual ΔG and potentials also depend on concentrations.\n\nKey reduction potentials relevant to the ETC:\n\n| Half-reaction | E°' (V) |\n|---|---|\n| NAD⁺/NADH | −0.32 |\n| FAD/FADH₂ | Protein- and environment-dependent; no universal ETC value |\n| CoQ/CoQH₂ | +0.045 |\n| Cytochrome c (Fe³⁺/Fe²⁺) | +0.235 |\n| O₂/H₂O | +0.816 |\n\nElectrons move from NADH (−0.32 V) all the way to O₂ (+0.816 V). The total ΔE°' = 0.816 − (−0.32) = **1.136 V**.\n\nUsing ΔG°' = −nFΔE°' with n = 2 electrons and F = 96,485 C/mol:\n\nΔG°' = −2 × 96,485 × 1.136 ≈ **−219 kJ/mol**\n\nThis large negative free energy change is what drives the entire chain forward and provides the thermodynamic basis for proton pumping and ATP synthesis.\n\n---\n\n## Reactive Oxygen Species: A Consequence of Electron Leakage\n\nThe ETC is not perfectly efficient. At Complexes I and III, electrons occasionally leak directly to O₂ rather than proceeding through the normal pathway, generating **superoxide (O₂•⁻)**:\n\nO₂ + e⁻ → O₂•⁻\n\nSuperoxide is a **reactive oxygen species (ROS)** and can damage proteins, lipids, and DNA. The mitochondria have antioxidant defenses:\n\n- **Superoxide dismutase (SOD):** Converts O₂•⁻ to H₂O₂\n- **Glutathione peroxidases and peroxiredoxins:** Important mitochondrial H₂O₂ removal systems. Catalase also removes H₂O₂ but is chiefly peroxisomal in most mammalian cells.\n\nExcessive ROS production is implicated in aging, neurodegenerative diseases, and ischemia-reperfusion injury. Paradoxically, brief ischemia followed by reperfusion causes a burst of ROS as O₂ suddenly floods back into an electron-replete chain—a concept relevant to myocardial infarction and stroke pathophysiology.\n\n---\n\n## Inhibitors of the ETC: A Summary for MCAT\n\nKnowing specific inhibitors and their sites of action is high-yield:\n\n- **Rotenone, Amytal (amobarbital):** Block Complex I (NADH → CoQ transfer)\n- **Malonate:** Competitive inhibitor of Complex II (succinate dehydrogenase)\n- **Antimycin A:** Blocks Complex III at the Qi site\n- **Cyanide (CN⁻), Carbon monoxide (CO), Azide (N₃⁻):** Block Complex IV\n- **Oligomycin:** Blocks ATP synthase (F₀ subunit), not the ETC itself, but inhibition backs up the proton gradient, slowing the ETC\n- **2,4-Dinitrophenol (DNP), FCCP, thermogenin:** Uncouplers—dissipate the proton gradient without making ATP; ETC runs fast, O₂ consumption increases, ATP production falls\n\nA useful clinical note: **oligomycin** inhibits ATP synthase, so the proton gradient builds up (no protons flowing back in), which slows proton pumping by the ETC complexes (they are working against a larger gradient). This causes O₂ consumption to *decrease*. Contrast this with uncouplers, which dissipate the gradient and cause O₂ consumption to *increase*. This distinction is a classic MCAT question.\n\n---\n\n## Connecting ETC to Broader Physiology\n\n**Oxygen as the terminal electron acceptor** is why aerobic organisms require O₂. Without O₂, forward respiratory flow stalls and upstream carriers tend to become more reduced, NADH cannot be re-oxidized, oxidative cycle flux is strongly restricted as NAD⁺ regeneration falls, and cells must rely on fermentation to regenerate NAD⁺. This is why hypoxia is so rapidly damaging to high-energy tissues like the heart and brain.\n\n**Mitochondrial membrane integrity** is essential. The inner membrane must maintain sufficiently low uncontrolled proton permeability. Any disruption—by detergents, certain toxins, or pathological processes like mitochondrial permeability transition (MPT) pore opening during ischemia—collapses the gradient and halts ATP synthesis.\n\n**Regulation of the ETC** is primarily driven by the **ADP/ATP ratio** and **NADH availability**. When ATP is abundant and ADP is low, the gradient builds, proton flow slows, and the ETC decelerates. When ATP is consumed rapidly (e.g., during exercise), ADP rises, ATP synthase turns faster, the gradient is dissipated, and the ETC accelerates to restore it. This elegant feedback ensures that respiration is matched to cellular energy demand.\n\n---\n\n## Key Takeaways for the MCAT\n\n- The ETC consists of **Complexes I–IV** embedded in the inner mitochondrial membrane, plus the mobile carriers **CoQ** and **cytochrome c**.\n- Matrix **NADH** enters at Complex I; succinate electrons enter through **bound FAD at Complex II**. Other Q-linked entries also bypass Complex I.\n- Proton pumping totals: **10 H⁺ per NADH** (4 at CI + 4 at CIII + 2 at CIV) and **6 H⁺ per succinate electron pair** (0 + 4 + 2).\n- The proton gradient (PMF) has both a chemical (ΔpH) and electrical (Δψ) component.\n- **ATP synthase** uses the PMF to synthesize ATP via a rotary mechanism (~2.5 ATP per NADH, ~1.5 ATP per FADH₂).\n- Total ATP yield from complete glucose oxidation: approximately **30–32 ATP**.\n- Electrons flow from low to high reduction potential; the large ΔE°' between NADH and O₂ provides the thermodynamic driving force.\n- Know the inhibitors: cyanide/CO/azide block CIV; antimycin A blocks CIII; rotenone blocks CI; oligomycin blocks ATP synthase; DNP uncouples.\n- Cytochrome c release triggers apoptosis—a clinically important connection.\n\nMastering the ETC means understanding not just the sequence of complexes, but the *why* behind each step: why FADH₂ yields less ATP, why O₂ is essential, why uncouplers increase O₂ consumption, and why inhibitors at different points produce different physiological effects. These mechanistic connections are exactly what MCAT passages test."
+    },
+    {
+      "field": "questions.136.choice_b",
+      "value": "NADH-linked entry would be blocked, but succinate could still supply electrons through Complex II."
+    },
+    {
+      "field": "questions.136.explanation",
+      "value": "B is correct: Complex I inhibition blocks NADH-linked entry. If succinate and downstream machinery are available, Complex II can reduce Q and support continued electron flow through III and IV. Bound FAD participates within II; free FADH₂ is not delivered as a separate substrate."
+    },
+    {
+      "field": "questions.138.choice_b",
+      "value": "They enter through Complex II and bypass the proton-translocating Complex I."
+    },
+    {
+      "field": "questions.138.choice_c",
+      "value": "The higher reduction potential of a donor necessarily makes more energy available on transfer to oxygen."
+    },
+    {
+      "field": "questions.138.explanation",
+      "value": "B is correct: bypassing Complex I reduces conventional proton translocation from 10 to 6 per electron pair. Complex II does not pump protons. A higher donor reduction potential would decrease, not increase, the potential difference to a fixed acceptor such as oxygen. Flavin potentials depend on the protein environment."
+    },
+    {
+      "field": "questions.138.question_text",
+      "value": "Why do succinate-derived electrons generally support less ATP synthesis per electron pair than matrix NADH-derived electrons?"
+    },
+    {
+      "field": "questions.139.explanation",
+      "value": "A is correct: III-to-IV electron transfer requires cytochrome c in this system. Without replenishment, IV-linked oxygen consumption stops. The gradient may then decay through leak or ATP synthase; it need not collapse instantaneously. ATP hydrolysis can sometimes support a gradient, so absence of respiration and immediate total depolarization are not identical claims."
+    },
+    {
+      "field": "questions.139.question_text",
+      "value": "In an isolated respiratory system with no artificial electron donor to Complex IV, cytochrome c is removed. Which effect on respiratory oxygen consumption is expected after residual reduced intermediates are exhausted?"
+    },
+    {
+      "field": "questions.140.choice_a",
+      "value": "The gradient declines as forward respiratory proton pumping stalls and existing protons return through available pathways."
+    },
+    {
+      "field": "questions.140.explanation",
+      "value": "A is correct under the stated conditions. Oxygen is the terminal electron acceptor; IV transfers electrons to it. Blocking IV restricts upstream turnover, while proton-return pathways dissipate the existing gradient. CO binding is reversible, although poisoning can still cause severe injury. ATP hydrolysis could otherwise drive reverse ATP-synthase proton pumping."
+    },
+    {
+      "field": "questions.140.question_text",
+      "value": "CO strongly inhibits Complex IV in isolated mitochondria. Assume ATP-driven reverse proton pumping is prevented. What is expected as the system approaches a new steady state?"
+    }
+  ]
+}

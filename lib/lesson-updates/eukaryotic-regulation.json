@@ -1,0 +1,237 @@
+{
+  "lessonId": 43,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    211,
+    212,
+    213,
+    214,
+    215
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9904/",
+      "title": "Regulation of transcription in eukaryotes"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28751582/",
+      "title": "Primary ChromEMT study: chromatin organization in cells"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29946135/",
+      "title": "Eukaryotic core-promoter diversity"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26829/",
+      "title": "From RNA to protein: RNA processing and translation"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1352/",
+      "title": "GeneReviews: spinal muscular atrophy, SMN1 and SMN2"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5714244/",
+      "title": "Primary study: guide-dependent AGO3 slicer activity"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2990499/",
+      "title": "Primary study: mammalian microRNAs reduce target mRNA abundance"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4292926/",
+      "title": "Primary study: mRNA destabilization during microRNA repression"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK100914/figure/nfkb.F2/",
+      "title": "Assay Guidance Manual: canonical NF-kappaB activation"
+    }
+  ],
+  "visual": {
+    "src": "/lesson-diagrams/eukaryotic-regulation.svg",
+    "alt": "Three distinct regulatory layers: chromatin and promoter control affect transcription; RNA destabilization lowers mRNA and protein; translation inhibition can lower protein while measured mRNA stays stable.",
+    "caption": "Measure the regulated step. Chromatin-mark enrichment is an association; RNA and protein measurements help distinguish transcription, RNA decay and translation.",
+    "title": "Distinguishing levels of gene regulation",
+    "width": 800,
+    "height": 740
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "cdf1022ed0902ef8be7e484d959810284304fd9c28715f54136541385a29361f"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "d801d34a161df294ce6c6bfe1553055ec9ddfd9cd43d6a4e8e1fca26c5403e1c"
+    },
+    {
+      "field": "questions.211.question_text",
+      "sha256": "5b5e14ab589d8574bf7c4a206216b1190d27038fe21300ec6c1a109e2968e45b"
+    },
+    {
+      "field": "questions.211.choice_a",
+      "sha256": "bf2bee5f7912717876106ce8bd280c96df1c941fe979bb442d2a178cb19d8391"
+    },
+    {
+      "field": "questions.211.choice_b",
+      "sha256": "0bbb1c395749ff5e747e0bc2e4c33295ca12a2ed1a40d1469aa94a4c0d2e11f7"
+    },
+    {
+      "field": "questions.211.choice_c",
+      "sha256": "609dee06133f22b91183ee8ac8e5beb0ae5f1297161c2bd978ed43314fc35402"
+    },
+    {
+      "field": "questions.211.choice_d",
+      "sha256": "41affc7a5729862a999a4c943a0390701161ab611b20c27ffa14bc24c77fcd7d"
+    },
+    {
+      "field": "questions.211.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.211.explanation",
+      "sha256": "f088d1087f826a6003198be5ae3549af27be53eb393d117b3ef618c6e5a8a5d1"
+    },
+    {
+      "field": "questions.212.question_text",
+      "sha256": "58f6ba84fb703f06ebc4092b9df97c83f90bf5d7a992f93ffd2e86502423ad8c"
+    },
+    {
+      "field": "questions.212.choice_a",
+      "sha256": "6d5cc3f16d510a17943449510d4ed3063a15767065ee9b274e9a3c12c363c57a"
+    },
+    {
+      "field": "questions.212.choice_b",
+      "sha256": "d58f54f71241b3f1f1ecec9074a8ec50bd713acd524ec57d37e30062f6f57f51"
+    },
+    {
+      "field": "questions.212.choice_c",
+      "sha256": "ee21de15d156b6087c988d45619d3287542353c4aabfe0f22cd8990cd8df1430"
+    },
+    {
+      "field": "questions.212.choice_d",
+      "sha256": "92a36ea7c0e49716e7bcc56f5ebf828f7e0bfacf8703bbaec72e131c5791feb4"
+    },
+    {
+      "field": "questions.212.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.212.explanation",
+      "sha256": "e16d087b8d5d5e05bc7a84abb299881c256087469b69d0e03e02dbcaffb997f5"
+    },
+    {
+      "field": "questions.213.question_text",
+      "sha256": "3c85de88b5a6113634a429ba97f415076c5c45c2d3bca969ad396605c2fb6c1d"
+    },
+    {
+      "field": "questions.213.choice_a",
+      "sha256": "9eb58aaa74cc04bf6c7a62ae1618bcc3e40eef90e8d0f990ec7d02983b00573a"
+    },
+    {
+      "field": "questions.213.choice_b",
+      "sha256": "1b948e366a10401711f2b5974b4954261fdbe19c8f4e28f20fad12e19a819915"
+    },
+    {
+      "field": "questions.213.choice_c",
+      "sha256": "afc242504c1c9198fcc493ba487a77ba215dabc75ddf13a6a694658ca5c31293"
+    },
+    {
+      "field": "questions.213.choice_d",
+      "sha256": "78580da9c69619cfcfdc378ec129797e2af2646670df40c7b70f15f533d73f6b"
+    },
+    {
+      "field": "questions.213.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.213.explanation",
+      "sha256": "b4208a2b68f4fd818b8879ac5374d027f85f66f3d4682bec2d6012cf7c7a543f"
+    },
+    {
+      "field": "questions.214.question_text",
+      "sha256": "11a1255d65aebddad5cc6db2efa56f370728159a1f913f08465615c5bb13fb6e"
+    },
+    {
+      "field": "questions.214.choice_a",
+      "sha256": "777d9443526f997ce460815f83ded6a01a37096cf946e606ee5bb226a9be9422"
+    },
+    {
+      "field": "questions.214.choice_b",
+      "sha256": "c40da3e67ead97891a629d59e700cb906063f557f4fd3dbae4e3568369867fde"
+    },
+    {
+      "field": "questions.214.choice_c",
+      "sha256": "78b68f883589eb293bb9524d788e3b14d0d7d544da0cdd847b1b811df414d2c2"
+    },
+    {
+      "field": "questions.214.choice_d",
+      "sha256": "66ef2abff5a01dcb36d1f7e54aa67c86d14417b76372f8e4c7b68193cf0328dc"
+    },
+    {
+      "field": "questions.214.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.214.explanation",
+      "sha256": "a9f6bb375a0b6769c294d7ae5ed90e3ffa020bae643d733e39266426323cc839"
+    },
+    {
+      "field": "questions.215.question_text",
+      "sha256": "2fbc7045e27098790d7905bf295e72d56e05ce9e1c40ff872b19921623f0b419"
+    },
+    {
+      "field": "questions.215.choice_a",
+      "sha256": "db880ce42269fa5bf9151f03cafab9faee3780045bf221311de085d999b3def9"
+    },
+    {
+      "field": "questions.215.choice_b",
+      "sha256": "88792e77e31e1b4306919a32fdeccbf1f4ad3b5128bce81b51f030cbdc95e5fc"
+    },
+    {
+      "field": "questions.215.choice_c",
+      "sha256": "0243791270216f864f6c8f7de71df3ef10628e1f6d3da29f992773dd8c342ba3"
+    },
+    {
+      "field": "questions.215.choice_d",
+      "sha256": "a87a4e78851d3f31ee619ac2652108d4c400eeaadfb7d4bfb27561e954a03a13"
+    },
+    {
+      "field": "questions.215.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.215.explanation",
+      "sha256": "50f9b1509d4ed0372fc09ee4d36afbdc1cfea997707b61b5117ef4a6aa8abe5d"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Eukaryotic Gene Regulation: Chromatin Remodeling, Transcription Factors, and RNA-Level Control\n\nEukaryotic gene expression is regulated at multiple interacting levels: chromatin accessibility, transcription, RNA processing, RNA stability and translation. Bacteria also have complex regulatory networks; the useful contrast is in the machinery and cellular organization, not a universal numerical ranking of complexity. Experiments that measure DNA marks, RNA abundance and protein output probe different parts of this system.\n\nThis lesson builds a complete picture of eukaryotic gene regulation from the chromatin level through RNA processing and small RNA silencing.\n\n---\n\n## The Problem of Chromatin: DNA Accessibility\n\n### Nucleosome Structure and the Packaging Hierarchy\n\nA human haploid genome contains roughly 3 × 10⁹ base pairs; a diploid cell before DNA replication has approximately twice that amount. Nuclear dimensions vary by cell type. This is accomplished through hierarchical packaging. The fundamental unit is the **nucleosome core particle**, consisting of ~147 bp of DNA wrapped 1.65 times around an octamer of histone proteins: two copies each of H2A, H2B, H3, and H4. The linker histone **H1** seals the DNA where it exits the nucleosome and facilitates higher-order compaction.\n\nNucleosomes are connected by variable lengths of **linker DNA**. A regular 30-nm fiber can form under some experimental conditions, but it is not an obligatory intermediate of chromatin packaging in living cells. Imaging shows irregular nucleosome arrangements and local differences in packing density, rather than one universal hierarchy of successively thicker fibers.\n\nNucleosome occupancy and compaction can restrict access to regulatory DNA. This is not an absolute barrier: DNA can transiently unwrap, and pioneer factors can engage some nucleosomal sites. Accessibility is dynamic and depends on sequence, factor binding and remodeling.\n\n### Euchromatin vs. Heterochromatin\n\n**Euchromatin** is loosely packaged, transcriptionally permissive chromatin. It is enriched in actively transcribed genes and is found in regions of the nucleus away from the nuclear lamina. **Heterochromatin** is densely packed and largely transcriptionally silent. It exists in two forms:\n\n- **Constitutive heterochromatin**: usually persistently compacted regions with restricted transcription, typically at centromeres and telomeres, enriched in repetitive sequences and marked by trimethylation of histone H3 at lysine 9 (H3K9me3).\n- **Facultative heterochromatin**: regions that are silenced in a cell-type-specific manner but can be reactivated. The inactive X chromosome (Barr body) is the canonical example, associated with H3K27me3 deposited by PRC2, together with other mechanisms that establish and maintain silencing.\n\n---\n\n## Histone Modifications: The Histone Code\n\nHistone proteins contain unstructured N-terminal **tails** that protrude from the nucleosome core and are subject to a wide variety of covalent post-translational modifications. These modifications alter chromatin structure either directly (by changing electrostatic interactions) or by serving as docking sites for effector proteins that remodel chromatin or recruit additional regulatory factors.\n\n### Types of Histone Modifications\n\n**Acetylation** is the most extensively studied activating modification. Histone acetyltransferases (**HATs**) transfer acetyl groups from acetyl-CoA to lysines on histones, including H3 and H4. Acetylation neutralizes the positive charge on lysine, weakening the interaction between histones and the negatively charged DNA phosphate backbone. Acetylation can weaken chromatin interactions and recruit acetyl-lysine readers; it is commonly associated with transcriptional activity but is not sufficient by itself to activate every gene. Key activating marks include H3K9ac and H3K27ac. **Histone deacetylases (HDACs)** reverse this modification, restoring lysine charge and often supporting repression, with effects that depend on locus and protein context. HDAC inhibitors are an active area of cancer therapeutics because many tumors silence tumor-suppressor genes through aberrant deacetylation.\n\n**Methylation** has context-dependent effects depending on which residue is modified and the degree of methylation (mono-, di-, or trimethylation). Unlike acetylation, methylation does not alter the charge of lysine or arginine residues; instead, it creates binding sites for reader proteins.\n\n- H3K4me3: marks active promoters (associated with transcription initiation)\n- H3K36me3: marks actively transcribed gene bodies\n- H3K27me3: marks Polycomb-repressed genes (facultative heterochromatin)\n- H3K9me3: marks constitutive heterochromatin\n\n**Phosphorylation** of H3 serine 10 (H3S10ph) is associated with chromosome condensation during mitosis and with immediate-early gene activation in response to growth signals. **Ubiquitination** of H2A (H2AK119ub1, a repressive mark) and H2B (H2BK120ub1, associated with active transcription) adds large protein tags that alter nucleosome structure and signaling. **Sumoylation** is generally repressive.\n\n### The Histone Code Hypothesis\n\nThe **histone code hypothesis** proposes that combinations of histone modifications are read by specific effector proteins to produce defined transcriptional outcomes. For example, the combination of H3K4me3 at the promoter and H3K36me3 in the gene body is commonly associated with transcriptional activity, but marks alone do not establish the transcription rate or prove causation. Readers, writers, and erasers of these marks form regulatory complexes that interpret the code. The MCAT expects you to know that histone modifications are *reversible*, that acetylation generally activates and deacetylation represses, and that methylation effects are site-specific.\n\n---\n\n## DNA Methylation\n\n### CpG Methylation and Gene Silencing\n\nIn mammals, DNA methylation occurs predominantly at cytosine residues in **CpG dinucleotides**, where a methyl group is added to the 5-carbon of cytosine to produce 5-methylcytosine (5mC). This reaction is catalyzed by **DNA methyltransferases (DNMTs)**. DNMT3A and DNMT3B establish *de novo* methylation patterns during development. DNMT1 is the **maintenance methyltransferase** that copies methylation patterns to the newly synthesized strand after DNA replication, preserving epigenetic information through cell division.\n\n**CpG islands** are regions of ~1 kb with high CpG density found at the promoters of approximately 60–70% of human genes. In normal cells, CpG islands at active gene promoters are *unmethylated*. Methylation of promoter CpG islands silences gene expression through two mechanisms:\n\n1. 5-methylcytosine directly blocks binding of certain transcription factors that require unmethylated CpG for recognition.\n2. Methylated CpGs are bound by **methyl-CpG binding proteins (MBDs)** such as MeCP2, which recruit HDACs and chromatin-compacting complexes, establishing a repressive chromatin environment.\n\n### Imprinting and X-Inactivation\n\nDNA methylation is central to two developmentally critical processes tested on the MCAT:\n\n**Genomic imprinting** refers to the monoallelic expression of certain genes based on parental origin. Imprinted loci are differentially methylated in sperm versus egg—these **imprinting control regions (ICRs)** maintain parent-of-origin-specific gene expression throughout development. Imprinting disorders include Prader-Willi syndrome (loss of expression of paternally active genes in 15q11-q13) and Angelman syndrome (loss of maternal UBE3A function in neurons). Deletions, uniparental disomy, imprinting defects and, for Angelman syndrome, pathogenic UBE3A variants are distinct possible causes.\n\n**X-chromosome inactivation** in female mammals largely silences one X chromosome in typical XX somatic cells, while some genes escape inactivation, through a combination of DNA methylation, incorporation of the histone variant macroH2A, and coating by the long noncoding RNA **Xist**. The inactive X is a classical example of facultative heterochromatin.\n\n### Epigenetics and Cancer\n\nAberrant DNA methylation is a hallmark of cancer. Tumor cells typically show **global hypomethylation** (reactivating oncogenes and transposable elements) combined with **focal hypermethylation** at the promoters of tumor suppressor genes (such as BRCA1, MLH1, and p16/CDKN2A), silencing them without mutation. This makes DNA methylation patterns diagnostically and therapeutically relevant.\n\n---\n\n## Chromatin Remodeling Complexes\n\nAt many loci, changes in nucleosome occupancy or structure help factors access regulatory DNA. Histone marks and remodeling influence each other; neither imposes one obligatory sequence of events at every gene. This is accomplished by **ATP-dependent chromatin remodeling complexes**, which use the energy of ATP hydrolysis to slide, eject, or restructure nucleosomes.\n\nThe four major families are:\n\n- **SWI/SNF (BAF complex in mammals)**: slides and ejects nucleosomes; frequently mutated in cancer (~20% of human tumors)\n- **ISWI**: primarily spaces nucleosomes regularly; can either activate or repress\n- **CHD**: associated with transcription elongation and nucleosome assembly\n- **INO80**: involved in DNA repair and replication as well as transcription\n\nThese complexes are recruited to specific loci by transcription factors and histone modification readers. For the MCAT, the key concept is that chromatin remodeling *requires ATP* and physically changes nucleosome positioning to either expose or occlude regulatory sequences.\n\n---\n\n## Transcription Factors and Promoter Architecture\n\n### Core Promoter Elements\n\nEukaryotic RNA polymerase II cannot bind promoter DNA on its own. It requires assembly of the **preinitiation complex (PIC)** at the core promoter. One well-studied, but non-universal, core promoter element is the **TATA box**, located approximately 25–30 bp upstream of the transcription start site (TSS), with consensus sequence TATAAA. The TATA box is bound by **TBP (TATA-binding protein)**, a subunit of the general transcription factor **TFIID**. TBP binding sharply bends DNA and nucleates assembly of the remaining general transcription factors (TFIIA, TFIIB, TFIIE, TFIIF, TFIIH) and RNA Pol II.\n\nOther core promoter elements include the **Initiator (Inr)** element at the TSS, the **downstream promoter element (DPE)** used in TATA-less promoters, and **BRE** elements that bind TFIIB. Many human housekeeping promoters are TATA-less and CpG-rich, with dispersed initiation sites. TATA-less does not imply that a promoter must contain a DPE; promoter elements and their use vary across genes and organisms.\n\n### General vs. Specific Transcription Factors\n\n**General transcription factors (GTFs)** are required at essentially all Pol II promoters and constitute the basal transcription machinery. Sequence-specific regulators provide much of the tissue and signal specificity, but general factors, their paralogs and cofactor interactions can also contribute to regulated expression.\n\n**Specific (regulatory) transcription factors** bind to *cis*-regulatory sequences—**enhancers**, **silencers**, and **upstream activator sequences**—and modulate transcription above or below the basal level. Many sequence-specific regulators have separable DNA-binding and effector functions, although proteins can contain multiple domains and also act through partners:\n\n- A **DNA-binding domain** (examples: zinc finger, leucine zipper/bZIP, helix-loop-helix/HLH, homeodomain)\n- An **activation domain** or **repression domain** that contacts the Mediator complex or chromatin-modifying enzymes\n\n### Combinatorial Control\n\nA defining feature of eukaryotic transcription is **combinatorial control**: the transcriptional output of a gene is determined not by a single transcription factor but by the combination of factors bound to its regulatory regions. This allows a limited number of transcription factors (~2,000 in humans) to specify the gene expression patterns of >200 distinct cell types. A given factor may activate gene A in one cell type but repress it in another, depending on its binding partners. This principle is critical for interpreting MCAT passages about development, differentiation, and signal transduction.\n\n### Enhancers and Long-Range Regulation\n\n**Enhancers** are *cis*-regulatory elements that can activate transcription from distances of up to 1 Mb away from their target promoter, often tolerating inversion or repositioning in reporter assays. In their native genome, distance, promoter compatibility and local chromatin architecture constrain enhancer action. Enhancers are bound by clusters of specific transcription factors and coactivators, and often show H3K4me1; H3K27ac is associated with active enhancers. H3K27me3 occurs at some poised regulatory regions but is not a universal mark of all inactive enhancers.\n\nChromatin looping and spatial proximity can facilitate communication between an enhancer and its target promoter. Mediator, cohesin and other proteins contribute in context-dependent ways; no single permanent tether explains every enhancer. An enhancer-deletion result establishes a regulatory requirement but does not, by itself, prove the physical contact mechanism.\n\n**Super-enhancers** are clusters of enhancers spanning 10–50 kb that drive exceptionally high expression of cell-identity genes. They are enriched in binding sites for master transcription factors (e.g., OCT4, SOX2, NANOG in pluripotent stem cells) and are disproportionately disrupted in cancer.\n\n**Silencers** are analogous elements that recruit repressors and reduce transcription. **Insulators** (boundary elements) can constrain enhancer-promoter communication, depending on their position, orientation and chromatin context; the **CTCF** protein is the primary insulator-binding protein in mammals.\n\n---\n\n## Post-Transcriptional Control\n\nRegulation does not end when RNA polymerase terminates transcription. Multiple post-transcriptional mechanisms modulate the abundance, localization, and translation efficiency of mRNAs.\n\n### Pre-mRNA Processing\n\nMost mammalian Pol II pre-mRNAs use the following processing pathways, often beginning during transcription; intronless genes and non-polyadenylated transcripts are important exceptions:\n\n1. **5' capping**: addition of a 7-methylguanosine cap, which protects the RNA and supports cap-dependent translation; some RNAs use cap-independent initiation\n2. **3' polyadenylation**: cleavage ~10–30 nt downstream of the AAUAAA signal and addition of a poly-A tail of ~200 adenosines by poly-A polymerase\n3. **Splicing**: removal of introns and ligation of exons by the spliceosome\n\n**Alternative splicing** is a major source of proteomic diversity and regulatory flexibility. Approximately 95% of human multi-exon genes undergo alternative splicing, potentially producing different protein isoforms or changing untranslated regions, RNA stability or susceptibility to decay. Not every RNA isoform produces a stable distinct protein. The inclusion or exclusion of specific exons is controlled by **splicing regulatory proteins** (SR proteins and hnRNPs have position- and context-dependent effects) that bind **exonic splicing enhancers (ESEs)** and **silencers (ESSs)**. Splice-site and regulatory-sequence variants can cause disease. In spinal muscular atrophy, the primary defect is usually biallelic SMN1 loss or pathogenic variants. The related SMN2 gene predominantly skips exon 7 and only partly compensates; increasing SMN2 exon 7 inclusion is a therapeutic strategy. Other examples include splice-altering variants causing familial dysautonomia.\n\n### mRNA Stability and the 3' UTR\n\nOnce in the cytoplasm, mRNA stability is regulated primarily through sequences in the **3' untranslated region (3' UTR)**. **AU-rich elements (AREs)** in the 3' UTR of cytokine and proto-oncogene mRNAs (e.g., c-fos, TNF-α) recruit destabilizing proteins that promote deadenylation and degradation, ensuring that these potent signaling molecules are produced only transiently. Conversely, stabilizing proteins can bind 3' UTR elements to extend mRNA half-life.\n\n---\n\n## MicroRNAs and RNA Interference\n\n### MicroRNA Biogenesis\n\n**MicroRNAs (miRNAs)** are ~22-nucleotide single-stranded RNA molecules that post-transcriptionally silence gene expression. They are among the most important gene regulatory molecules discovered in the past three decades and are highly testable on the MCAT.\n\nThe canonical animal miRNA biogenesis pathway (some miRNAs use alternative routes):\n\n1. MiRNA genes are transcribed by RNA Pol II as long primary transcripts (**pri-miRNAs**) that fold into hairpin structures.\n2. The nuclear **Drosha/DGCR8 microprocessor complex** (Drosha is the RNase III enzyme; DGCR8 is its partner) cleaves the hairpin to produce a ~60–70 nt **pre-miRNA** with a characteristic 2-nt 3' overhang.\n3. The pre-miRNA is exported to the cytoplasm by **Exportin-5**.\n4. The cytoplasmic RNase III enzyme **Dicer** cleaves the pre-miRNA hairpin loop to produce a ~22 bp miRNA duplex.\n5. The duplex is loaded into the **Argonaute (AGO)** protein, the central guide-binding protein of the **RNA-induced silencing complex (RISC)**. One strand (the guide strand) is retained; the other (the passenger strand) is discarded.\n\n### Mechanism of miRNA-Mediated Silencing\n\nThe guide strand directs RISC to target mRNAs through **imperfect complementarity**, primarily via base pairing between the miRNA **seed sequence** (nucleotides 2–8 from the 5' end) and sites in the 3' UTR of target mRNAs. Because the complementarity is imperfect, a single miRNA can target hundreds of different mRNAs, and a single mRNA can be regulated by multiple miRNAs—creating a vast regulatory network.\n\nSilencing occurs by two mechanisms:\n\n- **Translational repression**: RISC-associated factors reduce translation, often by inhibiting initiation. The relative contribution and timing vary among targets and conditions.\n- **mRNA deadenylation and decay**: RISC recruits deadenylases and decapping enzymes, leading to mRNA degradation. Silenced RNAs and decay factors can accumulate in **P-bodies**, but a visible P-body is not a required site for every decay event.\n\nIn many mammalian experiments, reduced mRNA abundance accounts for most sustained repression once a substantial effect develops. Translational repression can contribute earlier or in particular settings; do not infer a universal balance from imperfect pairing alone. In plants, where miRNA-target complementarity is often perfect, endonucleolytic cleavage is more common.\n\n### RNA Interference (siRNA Pathway)\n\n**Small interfering RNAs (siRNAs)** are ~21–23 nt double-stranded RNAs with perfect or near-perfect complementarity to their targets. siRNAs can arise from long double-stranded RNA, including viral RNA, transposon-related transcripts, endogenous complementary transcripts or experimental material. Endogenous siRNAs can therefore also have genomic origins; origin alone is not an absolute miRNA/siRNA distinction. Dicer cleaves dsRNA into siRNA duplexes, which are loaded into RISC. Because siRNA-target complementarity is perfect, AGO2, the major human slicer, can cleave the target RNA at the bond opposite guide nucleotides 10 and 11. The guide itself is not cut at that position. AGO3 also has guide-dependent slicer activity in biochemical studies, so AGO2 is not absolutely the only catalytically capable human Argonaute.\n\n**RNAi (RNA interference)** exploits this pathway experimentally and therapeutically. Synthetic siRNAs are introduced into cells to knock down specific genes—a transformative research tool. The first siRNA drug, patisiran (targeting TTR mRNA in hereditary transthyretin amyloidosis), was FDA-approved in 2018, illustrating the clinical importance of this pathway.\n\n### miRNAs in Development and Disease\n\nMiRNAs regulate virtually every biological process. Key examples for the MCAT:\n\n- **let-7** family: tumor-suppressive miRNAs that target RAS and other oncogenes; frequently downregulated in cancer\n- **miR-21**: one of the most consistently upregulated miRNAs in cancer; silences tumor suppressors PTEN and PDCD4\n- **miR-122**: liver-specific; required for hepatitis C virus replication (anti-miR-122 is a therapeutic strategy)\n- **miR-34a**: a p53 target that promotes apoptosis; frequently lost in tumors\n\nDysregulation of miRNA expression is a consistent feature of cancer, where global miRNA downregulation (due to impaired Drosha/Dicer processing) tends to promote a dedifferentiated, proliferative phenotype.\n\n---\n\n## Integrating the Levels: A Regulatory Example\n\nConsider how a cell activates a stress-response gene in response to a signal:\n\n1. In the canonical **NF-κB pathway**, signals activate IKK, which phosphorylates IκB inhibitors. Their ubiquitination and proteasomal degradation release NF-κB, permitting nuclear accumulation.\n2. NF-κB binds **enhancer** sequences upstream of the target gene.\n3. NF-κB recruits **HATs** (e.g., p300/CBP) that acetylate H3K27 and H3K9 at the enhancer, marking it as active.\n4. **Chromatin remodeling complexes** (SWI/SNF) are recruited and reposition nucleosomes at the promoter, changing accessibility at the promoter and regulatory binding sites; not every target promoter has a TATA box.\n5. **Mediator** bridges the enhancer-bound NF-κB to the **PIC** assembled at the promoter.\n6. RNA Pol II initiates transcription; **TFIIH** phosphorylates the Pol II CTD to trigger promoter clearance and elongation.\n7. The pre-mRNA is processed (capped, spliced, polyadenylated) and exported.\n8. In the cytoplasm, **miRNAs** may dampen the response by targeting the mRNA's 3' UTR, providing a buffering mechanism that prevents overactivation.\n\nThis integrated cascade illustrates why the MCAT frequently presents regulatory scenarios as multi-step pathways rather than isolated facts.\n\n---\n\n## MCAT High-Yield Summary\n\n**Chromatin and Epigenetics:**\n- Histone acetylation commonly supports active chromatin; deacetylation often supports repression, with locus-dependent effects.\n- H3K4me3 = active promoter; H3K27me3 = Polycomb repression; H3K9me3 = constitutive heterochromatin\n- DNA methylation at CpG islands → gene silencing; maintained by DNMT1 after replication\n- Chromatin remodeling complexes require ATP; SWI/SNF is the paradigmatic example\n\n**Transcription Factor Logic:**\n- GTFs help assemble a Pol II PIC; TATA-containing and TATA-less promoters use different combinations of core elements.\n- Specific transcription factors bind enhancers/silencers; combinatorial control generates cell-type specificity\n- Enhancers act over long distances via DNA looping mediated by Mediator and cohesin\n- CTCF/insulators prevent inappropriate enhancer-promoter interactions\n\n**Post-Transcriptional Control:**\n- Alternative splicing: ~95% of human multi-exon genes; regulated by SR proteins and hnRNPs\n- 3' UTR sequences (AREs) control mRNA stability\n- miRNA biogenesis: pri-miRNA → Drosha → pre-miRNA → Exportin-5 → Dicer → RISC loading\n- miRNAs silence via translational repression and mRNA decay; imperfect complementarity; seed sequence (nt 2–8) critical\n- siRNAs: perfect complementarity → endonucleolytic cleavage by AGO2; basis of RNAi technology\n\n**Disease Connections:**\n- Cancer: HDAC overactivity silences tumor suppressors; CpG island hypermethylation silences BRCA1, p16; SWI/SNF mutations in ~20% of tumors; oncomiR upregulation (miR-21) vs. tumor-suppressive miRNA loss (let-7)\n- Imprinting disorders: Prader-Willi, Angelman syndromes\n- SMA: loss of SMN1 function; SMN2 exon 7 skipping limits compensation.\n- RNAi therapeutics: patisiran for transthyretin amyloidosis\n\nMastering eukaryotic gene regulation requires thinking vertically—from the nucleosome to the ribosome—and recognizing that each level provides both a regulatory opportunity and a potential disease mechanism. MCAT passages in this area will present novel experimental data (ChIP-seq results, miRNA overexpression phenotypes, HDAC inhibitor effects) and ask you to apply these principles to interpret findings. The conceptual framework built here gives you the tools to do exactly that."
+    },
+    {
+      "field": "questions.211.explanation",
+      "value": "B is consistent with the observation. PRC2 deposits H3K27me3, which can be recognized by canonical PRC1 complexes and contribute to a repressive chromatin state. Not all PRC1 recruitment depends on H3K27me3. The mark neither degrades promoter DNA nor directly sequesters factors in the cytoplasm. Additional perturbation experiments are needed to establish causation at this promoter."
+    },
+    {
+      "field": "questions.211.question_text",
+      "value": "A silenced promoter is enriched in H3K27me3. Which mechanism is consistent with this mark contributing to repression, although ChIP enrichment alone does not establish causation?"
+    },
+    {
+      "field": "questions.212.explanation",
+      "value": "B is correct. The combined 40-fold output indicates synergy under the stated conditions. If each factor adds one baseline unit, simple additive increments predict 1 + 1 + 1 + 1 = 4-fold; independent multiplication predicts 2 × 2 × 2 = 8-fold. Forty-fold exceeds both benchmarks. Cooperative recruitment or chromatin changes could explain it, but the result alone does not identify which molecular interaction occurs. Combinatorial control can also yield non-synergistic outcomes."
+    },
+    {
+      "field": "questions.213.explanation",
+      "value": "B is most consistent with lower protein output and unchanged measured mRNA abundance in this experiment. The data support translational repression but do not imply that all imperfectly paired miRNAs leave mRNA levels unchanged; miRNAs commonly promote deadenylation and decay too. Measurements of translation and protein turnover would further test the mechanism."
+    },
+    {
+      "field": "questions.214.explanation",
+      "value": "B is the supported model: chromatin looping can bring enhancer-bound regulators near promoter machinery. Cofactors including Mediator and architectural proteins can contribute, but enhancer function is context-dependent. Enhancer deletion alone would not prove looping, and enhancer RNAs can have diverse roles; the added contact evidence makes B the best answer here."
+    },
+    {
+      "field": "questions.214.question_text",
+      "value": "TF-X binds an enhancer 30 kb downstream of a gene. Deleting the enhancer lowers expression, and chromosome-contact experiments support proximity to the promoter during activation. Which model best explains these combined findings?"
+    }
+  ]
+}

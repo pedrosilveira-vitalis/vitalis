@@ -1,0 +1,294 @@
+{
+  "lessonId": 9,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Full text and five quiz questions read. Targeted scientific review; source-specific corrections and explanatory diagrams are not an exhaustive certification. Claims about exam frequency are not independently verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "The **hydrophobic effect** is the single most important driving force in protein folding. Nonpolar side chains—leucine, isoleucine, valine, phenylalanine, methionine, and others—are thermodynamically unstable when exposed to water because they force surrounding water molecules into ordered, low-entropy arrangements. When a protein folds, these residues are buried in the **hydrophobic core**, away from solvent. This burial releases the ordered water molecules, dramatically increasing solvent entropy (ΔS > 0) and making the overall process thermodynamically favorable.",
+      "new": "The **hydrophobic effect** is a major contribution to folding of many soluble globular proteins. Burying nonpolar surface changes its interactions with water and can favor compact structures. Solvent entropy, protein entropy and enthalpy all contribute; water is not a rigid cage around every nonpolar group.",
+      "reason": "Replace absolute force ranking and literal cage model.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "content",
+      "old": "Folding is *entropically* driven by the release of ordered water, even though the polypeptide chain itself loses conformational entropy upon folding",
+      "new": "Hydrophobic burial can increase solvent entropy, while the chain loses conformational entropy; the total folding free energy includes both entropy and enthalpy",
+      "reason": "Separate solvent from total entropy.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "content",
+      "old": "Denaturation by heat exploits the fact that the hydrophobic effect weakens at very high temperatures",
+      "new": "Heat denaturation reflects temperature-dependent folding free energy, including heat-capacity effects; it is not explained by one interaction simply switching off",
+      "reason": "Temperature-dependent thermodynamics.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3207669/"
+    },
+    {
+      "field": "content",
+      "old": "the native conformation represents a thermodynamic minimum achieved",
+      "new": "under suitable conditions, the native ensemble is thermodynamically favored through",
+      "reason": "Native proteins are ensembles.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3207669/"
+    },
+    {
+      "field": "content",
+      "old": "While individual hydrogen bonds contribute only about 4–20 kJ/mol each, their sheer number makes them collectively significant.",
+      "new": "Hydrogen bonds can stabilize particular geometries, but their net folding contribution depends on bonds lost to water and interactions formed in the folded state.",
+      "reason": "Bond energy is not a fixed folding contribution.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "content",
+      "old": "A salt bridge between, say, a lysine –NH₃⁺ and a glutamate –COO⁻ contributes roughly 4–20 kJ/mol of stabilization, depending on whether it is buried (stronger) or solvent-exposed (weaker, because water competes effectively). Salt bridges are particularly important in thermophilic proteins, which must remain folded at high temperatures.",
+      "new": "A salt bridge can help stabilize or specify a fold, but its net contribution depends on geometry, solvent screening and the energetic cost of desolvating the charges. A buried salt bridge is not automatically more stabilizing than an exposed one.",
+      "reason": "Correct context-dependent salt-bridge energetics.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8003958/"
+    },
+    {
+      "field": "content",
+      "old": "disulfide bonds are *covalent*, contributing roughly 125–167 kJ/mol of stabilization.",
+      "new": "disulfide bonds are *covalent*. Their contribution to folding stability is not their bond-dissociation energy; constraining the unfolded chain is one important effect.",
+      "reason": "Do not equate covalent bond energy with folding stabilization.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "A **protein domain** is an independently folding, structurally compact unit of a polypeptide chain, typically 50–350 amino acids in length.",
+      "new": "A **protein domain** is a recognizable structural or functional unit within a protein. Many are compact and can fold independently, but size and autonomy vary.",
+      "reason": "Independence and size are not universal.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "Each domain folds independently and often has its own function",
+      "new": "Many domains can fold independently and have their own function",
+      "reason": "Qualify all-domain independence.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "**Pleckstrin homology (PH) domain**: binds phosphoinositides; targets proteins to membranes",
+      "new": "**Pleckstrin homology (PH) domain**: some bind specific phosphoinositides and help target proteins to membranes; binding properties depend on the domain and full protein",
+      "reason": "Avoid universal PH function.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8282632/"
+    },
+    {
+      "field": "content",
+      "old": "the native structure of a protein is the conformation of lowest free energy under physiological conditions, and it is entirely encoded in the amino acid sequence.",
+      "new": "for a given sequence in a suitable environment, the native state can be thermodynamically favored. This does not mean every protein folds unaided or adopts one structure in every environment.",
+      "reason": "Scope Anfinsen inference.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "field": "content",
+      "old": "This principle has a critical implication: *no additional information beyond the primary sequence is needed to specify the three-dimensional fold*. The sequence is the instruction manual.",
+      "new": "The sequence strongly constrains folding, while solvent conditions, partners, modifications and cellular folding machinery influence the state actually reached.",
+      "reason": "Avoid sequence-only guarantee.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "field": "content",
+      "old": "Uses ATP hydrolysis to release the substrate, giving it another opportunity to fold",
+      "new": "ATP hydrolysis favors tight substrate binding; nucleotide exchange and ATP rebinding promote release, giving the substrate another opportunity to fold",
+      "reason": "Correct direction of Hsp70 cycle.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772632/"
+    },
+    {
+      "field": "content",
+      "old": "(**Hsp90, BiP/Grp78**)",
+      "new": "(**Grp94, the ER Hsp90 paralog, and BiP/Grp78**)",
+      "reason": "Name ER-specific paralog.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8812556/"
+    },
+    {
+      "field": "content",
+      "old": "(Hsp60/GroEL-GroES system in bacteria; TRiC/CCT in eukaryotes)",
+      "new": "(GroEL-GroES in bacteria; Hsp60-Hsp10 in mitochondria; TRiC/CCT in the eukaryotic cytosol)",
+      "reason": "Distinguish cellular systems.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9704529/"
+    },
+    {
+      "field": "content",
+      "old": "The substrate protein enters the central cavity, the lid (GroES) caps it, and ATP hydrolysis drives conformational changes that promote folding",
+      "new": "In GroEL-GroES, ATP and GroES binding encapsulate the client; ATP hydrolysis and inter-ring signaling regulate the cycle. TRiC/CCT uses built-in lids rather than GroES",
+      "reason": "Do not assign bacterial lid to CCT.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9704529/"
+    },
+    {
+      "field": "content",
+      "old": "After ~10 seconds, the chamber opens",
+      "new": "After a condition-dependent interval (often on the order of seconds in GroEL experiments), the chamber opens",
+      "reason": "Do not universalize cycle duration.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "two different subunits (e.g., heterodimeric G-proteins)",
+      "new": "two different subunits (e.g., α/β-tubulin)",
+      "reason": "G proteins classic example is heterotrimer.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26862/"
+    },
+    {
+      "field": "content",
+      "old": "Hemoglobin exists in two conformational states:",
+      "new": "A useful simplified model describes hemoglobin with two principal conformational states:",
+      "reason": "Two-state model is an approximation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "**T state (tense/deoxy)**",
+      "new": "**T state (tense; favored when deoxygenated)**",
+      "reason": "Ligand occupancy not identical to conformation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "**R state (relaxed/oxy)**",
+      "new": "**R state (relaxed; favored when oxygenated)**",
+      "reason": "Ligand occupancy not identical to conformation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "salt bridges broken, subunits rotate relative to one another",
+      "new": "some intersubunit contacts reorganize and subunits rotate relative to one another",
+      "reason": "Not all salt bridges break.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "Heat**: increases thermal motion, overwhelming stabilizing interactions; also weakens the hydrophobic effect at very high temperatures",
+      "new": "Heat**: changes folding free energy through temperature-dependent enthalpic and entropic contributions",
+      "reason": "Consistent temperature explanation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3207669/"
+    },
+    {
+      "field": "content",
+      "old": "The primary structure remains intact; secondary, tertiary, and quaternary structures are disrupted.",
+      "new": "The amino-acid sequence generally remains intact; some or much of the higher-order structure is lost. Harsh treatments can also cause separate chemical damage.",
+      "reason": "Denaturation can be partial.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "polyubiquitin chains target proteins for proteasomal degradation",
+      "new": "some polyubiquitin linkages target proteins for proteasomal degradation, while others regulate signaling or trafficking",
+      "reason": "Ubiquitin linkage context.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1276169/"
+    },
+    {
+      "field": "content",
+      "old": "Hydroxyproline contributes additional hydrogen bonding through its –OH group",
+      "new": "Hydroxyproline helps preorganize favorable backbone geometry through stereoelectronic effects; hydration and hydrogen bonding also influence stability",
+      "reason": "Avoid solely additional-Hbond model.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/19344236/"
+    },
+    {
+      "field": "content",
+      "old": "The following points represent the most frequently tested concepts in this area:",
+      "new": "Use these concepts as a review checklist; this is not a measured ranking of MCAT question frequency:",
+      "reason": "Remove unsupported frequency claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "The **hydrophobic effect** is the primary driving force for protein folding; it is *entropically* driven by release of ordered water",
+      "new": "The **hydrophobic effect** is an important solvent-mediated contribution; folding depends on total enthalpy and entropy",
+      "reason": "Consistent summary.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "content",
+      "old": "**Disulfide bonds** are the only covalent stabilizing interaction in tertiary structure (aside from peptide bonds); they form in oxidizing environments (ER lumen, extracellular)",
+      "new": "**Disulfide bonds** are common covalent cross-links in secreted proteins; other covalent modifications or cross-links can also occur",
+      "reason": "Remove only-covalent absolute.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/19344236/"
+    },
+    {
+      "field": "content",
+      "old": "**Anfinsen's experiment** established that primary sequence encodes tertiary structure",
+      "new": "**Anfinsen's experiment** supported sequence-dependent folding under suitable environmental conditions",
+      "reason": "Scope summary.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "field": "content",
+      "old": "**Protein domains** are independently folding units; multidomain proteins perform multiple functions",
+      "new": "**Protein domains** are modular units, often capable of independent folding; multidomain proteins may combine functions",
+      "reason": "Qualify summary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "**Denaturation** disrupts noncovalent interactions and disulfide bonds without breaking peptide bonds; primary structure is preserved",
+      "new": "**Denaturation** disrupts higher-order structure without necessarily cleaving peptide bonds. Disulfides are reduced only under suitable reducing conditions",
+      "reason": "Disulfide reduction not synonymous with denaturation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "questions.41.question_text",
+      "old": "A researcher mutates a buried hydrophobic leucine residue in the core of a globular protein to a charged lysine residue. Which of the following best predicts the consequence of this mutation?",
+      "new": "A buried leucine in a soluble globular protein is replaced by lysine. Assume lysine remains positively charged and no compensating interaction forms. Which effect is most likely?",
+      "reason": "Add assumptions for buried-charge prediction.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8003958/"
+    },
+    {
+      "field": "questions.41.choice_b",
+      "old": "The protein unfolds or misfolds because placing a charged residue in the hydrophobic core is energetically unfavorable.",
+      "new": "The native fold is destabilized because burying an uncompensated charge is energetically costly.",
+      "reason": "Destabilization does not guarantee unfolding.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8003958/"
+    },
+    {
+      "field": "questions.41.explanation",
+      "old": "The hydrophobic effect is the dominant driving force for tertiary structure; burying hydrophobic residues away from water lowers the free energy of the system. Introducing a charged lysine into the hydrophobic core forces the protein to expose a charged group to a nonpolar environment, which is highly unfavorable and typically leads to unfolding or misfolding. Choice A is tempting because lysine does hydrogen-bond with water, but that benefit is outweighed by the energetic cost of placing a charge in a nonpolar environment. Choices C and D misrepresent the importance of hydrophobic packing.",
+      "new": "B is best under the stated assumptions: desolvating an uncompensated charge is costly and can destabilize the native fold. The protein may rearrange, unfold or remain folded with reduced stability; the mutation alone does not prove complete unfolding. A ignores burial, C dismisses hydrophobic packing, and like-charge repulsion in D is not a stabilizing explanation.",
+      "reason": "Remove guaranteed unfolding and fixed ranking.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8003958/"
+    },
+    {
+      "field": "questions.43.choice_b",
+      "old": "The information necessary for folding is encoded within the local amino acid sequence of the domain itself.",
+      "new": "The isolated domain contains sufficient sequence information to adopt that fold under the experimental conditions.",
+      "reason": "Scope autonomous folding conclusion.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "field": "questions.43.explanation",
+      "old": "Anfinsen's thermodynamic hypothesis states that the native structure is determined by the amino acid sequence. A domain that folds independently demonstrates that its sequence alone encodes sufficient information for correct folding, without requiring the rest of the protein. Choice A is incorrect because the domain folds on its own, arguing against an obligatory chaperone requirement. Choice C is wrong because disulfide bonds are intramolecular in most globular proteins, and their presence would not explain autonomous domain folding in isolation. Choice D contradicts the observation described.",
+      "new": "B follows from folding without the rest of the chain under the stated conditions. The result does not establish whether cellular chaperones helped during expression, so an obligatory chaperone requirement cannot be inferred either way. C and D introduce dependencies unsupported by the observation.",
+      "reason": "Expression in isolation does not mean chaperone-free.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "field": "questions.44.question_text",
+      "old": "During protein folding, which of the following correctly describes the thermodynamic role of the hydrophobic effect?",
+      "new": "In a simplified solvent-entropy model of hydrophobic burial, which contribution can favor folding of a soluble globular protein?",
+      "reason": "Specify simplified entropy model.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "questions.44.explanation",
+      "old": "The hydrophobic effect is primarily entropic: nonpolar residues exposed to water force surrounding water molecules into ordered clathrate-like structures, decreasing water entropy. Burying these residues in the protein core releases those water molecules, greatly increasing solvent entropy and making folding thermodynamically favorable. Choice A is incorrect because hydrophobic residues do not form favorable interactions with water. Choice C confuses the hydrophobic effect with enthalpic bonding; the interactions between nonpolar residues are weak van der Waals contacts, not strong bonds. Choice D describes the situation before folding, which is precisely why folding is favored.",
+      "new": "B describes a favorable solvent-entropy contribution when nonpolar surface is buried. It is a simplified model: water is not a rigid clathrate shell, and nonpolar groups do have dispersion interactions with water. Total folding free energy also includes chain entropy, solvent reorganization and enthalpy. C incorrectly treats hydrophobic association as formation of strong bonds; D misses the favorable effect of burial.",
+      "reason": "Repair nonpolar-water interaction falsehood.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "questions.45.choice_b",
+      "old": "The cytoplasm is a reducing environment that keeps cysteine thiols in their reduced form, preventing disulfide bond formation.",
+      "new": "The reducing cytoplasmic environment generally favors reduced thiols over stable structural disulfides.",
+      "reason": "Cytoplasmic disulfides are possible.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15031298/"
+    },
+    {
+      "field": "questions.45.explanation",
+      "old": "Disulfide bond formation requires oxidation of two thiol groups. The cytoplasm is maintained in a reducing environment (high glutathione and thioredoxin concentrations), which keeps cysteine residues in the reduced -SH form. The lumen of the endoplasmic reticulum and the extracellular space are oxidizing environments that permit disulfide bond formation, which is why secreted and membrane proteins often rely on disulfide bonds for stability. Choice A is false; both compartments use the same ribosomes and amino acids. Choice C has no biochemical basis. Choice D misrepresents ER function, which facilitates folding rather than degrading cytoplasmic proteins.",
+      "new": "B is the best explanation. Glutathione and thioredoxin systems generally favor reduced cytoplasmic thiols, whereas the ER supports oxidative folding. Transient regulatory disulfides can still form in the cytoplasm. Cysteine incorporation is not absent from cytoplasmic translation, no 200-residue threshold exists, and ER quality control does not support D.",
+      "reason": "Avoid absolute prevention and misleading ER role.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15031298/"
+    }
+  ]
+}

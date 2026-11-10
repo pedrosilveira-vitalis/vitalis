@@ -1,0 +1,229 @@
+{
+  "lessonId": 24,
+  "reviewedAt": "2026-11-08",
+  "questionIds": [
+    116,
+    117,
+    118,
+    119,
+    120
+  ],
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/",
+      "title": "Monomeric glucokinase kinetic cooperativity"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK92001/",
+      "title": "Enzyme kinetics and inhibition models"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+      "title": "Mitochondria, glycolysis and ATP production"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15308499/",
+      "title": "Biochemistry of exercise-induced acidosis"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/",
+      "title": "Human PFK isoforms and effectors"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/",
+      "title": "PFK-2/FBPase-2 tissue-specific regulation"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687410/",
+      "title": "Human liver pyruvate kinase regulation"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4972613/",
+      "title": "Adenylate energy charge"
+    }
+  ],
+  "visual": {
+    "title": "Glycolytic control depends on tissue and isoform",
+    "src": "/lesson-diagrams/glycolysis-regulation.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "A liver glucagon cascade phosphorylates PFK2 FBPase2, lowers fructose 2,6-bisphosphate and reduces PFK1 activity. ATP has catalytic and inhibitory roles. Glucokinase responds over a higher glucose range than typical hexokinases.",
+    "caption": "Classic liver signaling model; heart and skeletal-muscle isoforms must not be assumed to respond identically."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "6bac91f1be14a34a03d8f328be26df6d88e8375789cd7eae0851dbb716271c18"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "09085a8e6362f6231cb1ae946849db2c5312ee324a81788bc760efdcb569685e"
+    },
+    {
+      "field": "questions.116.question_text",
+      "sha256": "0c87e4868483bc55630b6037ed35d5165f96f7ef71575b3103ef1ce488866b97"
+    },
+    {
+      "field": "questions.116.choice_a",
+      "sha256": "1dd00294c615ca7dc67a4f3e2589d3e396dfe81acd015358a89dcb62017793f3"
+    },
+    {
+      "field": "questions.116.choice_b",
+      "sha256": "67ce735c6c3efc8eb4de05405fa92abc8c38821a2b86405846a16e2606e25bf1"
+    },
+    {
+      "field": "questions.116.choice_c",
+      "sha256": "339527caa52488f58ef981ddc6b047606a895fe0ee85208cf6efd19eefed1caf"
+    },
+    {
+      "field": "questions.116.choice_d",
+      "sha256": "bb8b4125e076c68bc2e323946db9cc303719223d90c713a32dbf6e1f6106e60d"
+    },
+    {
+      "field": "questions.116.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.116.explanation",
+      "sha256": "358698e4e41cf527a05d5e57e8d8ea051bf39bfb965dde5f68d3b4df8a5da3ff"
+    },
+    {
+      "field": "questions.117.question_text",
+      "sha256": "f5e2c7fa80fdfed0f9f6fa59d5d7b2499a159b9f98c0ed62f5c2b7c1615a5aea"
+    },
+    {
+      "field": "questions.117.choice_a",
+      "sha256": "4b54682841fab18e841904aad8703dcb1fb6e29927051612652ea365a9306d2c"
+    },
+    {
+      "field": "questions.117.choice_b",
+      "sha256": "710f3812c9b079f68c981721080783960dbea5beb161095b52b30110966216df"
+    },
+    {
+      "field": "questions.117.choice_c",
+      "sha256": "4efb95d3082f7d96a50919e8a5b1b7b42ceee1f00b462131db86b89e3d0ab0e3"
+    },
+    {
+      "field": "questions.117.choice_d",
+      "sha256": "8d70f939228c2ea539ee3b3234b12cda4c5e5f8d649c7c0de40dab267bd158f8"
+    },
+    {
+      "field": "questions.117.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.117.explanation",
+      "sha256": "0464ffaac7fdb0e219624e5fbb20d29b8b05a0c89bdbb396cca5fb6fe68445de"
+    },
+    {
+      "field": "questions.118.question_text",
+      "sha256": "8dc3a20c90866049a81b0fd47a8691c89f957fdab0ec76eba7c925f6fe74dc88"
+    },
+    {
+      "field": "questions.118.choice_a",
+      "sha256": "c5d3db65c4877b53163339038f596b9305bb5bb13668ee3945b99ff573de6ddc"
+    },
+    {
+      "field": "questions.118.choice_b",
+      "sha256": "5e54f9ba30eae9ae52a69807581625995124e53dcfba3eb4b5cdeb44926ba0de"
+    },
+    {
+      "field": "questions.118.choice_c",
+      "sha256": "e727586ab911281022fcb6835bdd8fbb8973b2512983b388e7c842399ff24b17"
+    },
+    {
+      "field": "questions.118.choice_d",
+      "sha256": "3ed467b9ed4de657d7af84ad388216fa97ca893db3de1e64dbd009025d707626"
+    },
+    {
+      "field": "questions.118.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.118.explanation",
+      "sha256": "cd4df64216d2fb273c8340ef4e0a93ea33cfe9ee66cda9d9cc8ea47809ff4006"
+    },
+    {
+      "field": "questions.119.question_text",
+      "sha256": "1e9e5fe9578d38e05728b5a88b25db1386ecdc634739e5b30a710a3b83484682"
+    },
+    {
+      "field": "questions.119.choice_a",
+      "sha256": "eb05bc610c699fa5e9ba7d33d8f4c53d3f245a53ee7511744e9b5b6ad6e6912c"
+    },
+    {
+      "field": "questions.119.choice_b",
+      "sha256": "c10504aef93ea76a3e1f6e7ef61003ffe6c1f1fb0fe6a2e0fa04f6b49f0624c5"
+    },
+    {
+      "field": "questions.119.choice_c",
+      "sha256": "9b95f63250790185e381d28e368845aea4a8e99b6bf30039e0ff562e1e65138f"
+    },
+    {
+      "field": "questions.119.choice_d",
+      "sha256": "2148a8e47bca57a05da37a47a59477dc6a2dfc99291b31b9fc98d57067d71fee"
+    },
+    {
+      "field": "questions.119.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.119.explanation",
+      "sha256": "1b9b1ce547d0f9882441b7ab187222723db83a5627b326c949cea0b83f528eff"
+    },
+    {
+      "field": "questions.120.question_text",
+      "sha256": "25de84b369f95fa477090222b71e4b7a0749422b20483c9e9f74101f3698b4dc"
+    },
+    {
+      "field": "questions.120.choice_a",
+      "sha256": "578c057b830e0ef09e96f66637fecd3ca32368b04f9a53c67bb621f5922f3326"
+    },
+    {
+      "field": "questions.120.choice_b",
+      "sha256": "4aeb9e73d1b85967a44499be654b561d9197a933c485f2a5b06a4b0a4a550bca"
+    },
+    {
+      "field": "questions.120.choice_c",
+      "sha256": "7885d273040cbfd89fb3931cfd7cfea2297d7f3116a79a883f65cc0161d22500"
+    },
+    {
+      "field": "questions.120.choice_d",
+      "sha256": "92a6433787f734f632174e1a11f99e0a242f401b768a6b054cb76ab5eedf538a"
+    },
+    {
+      "field": "questions.120.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.120.explanation",
+      "sha256": "4ea9ea60c9b26fd2e61aaa8dd8d7e64b015f8ba56f0eb2dadbae566271b22e11"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Regulation of Glycolysis and Allosteric Control\n\nGlycolysis converts one molecule of glucose into two molecules of pyruvate, generating a net yield of 2 ATP and 2 NADH. On paper, this ten-step pathway looks straightforward. In practice, cells must constantly tune the rate of glycolysis to match energy demand, biosynthetic needs, and nutrient availability. Too much glycolytic flux wastes glucose; too little leaves cells starved for ATP. The solution is a sophisticated regulatory network built around three key enzymes—**hexokinase (HK)**, **phosphofructokinase-1 (PFK-1)**, and **pyruvate kinase (PK)**—each controlled by allosteric effectors, feedback inhibition, and hormonal signaling. Understanding how these regulatory mechanisms interlock is essential for the MCAT, where questions routinely ask you to predict how a change in metabolite concentration or hormonal state will alter glycolytic flux.\n\n---\n\n## Why Regulate Glycolysis? The Logic of Metabolic Control\n\nBefore diving into individual enzymes, it helps to understand *why* glycolysis is regulated the way it is. Cells regulate metabolic pathways at three types of steps:\n\n- **Irreversible reactions** — steps with large negative ΔG under physiological conditions that cannot simply run backward\n- **Committed steps** — the first reaction that dedicates a substrate to a specific pathway\n- **Branching points** — steps whose products can enter multiple downstream fates\n\nGlycolysis has three irreversible steps, and not coincidentally, these are precisely the three steps catalyzed by hexokinase, PFK-1, and pyruvate kinase. Each enzyme catalyzes a phosphorylation or substrate-level phosphorylation reaction that releases enough free energy to be thermodynamically irreversible under cellular conditions. Regulation at these points allows the cell to control flux without fighting thermodynamics.\n\nThe overarching principle is **energy charge**: when ATP is abundant and AMP/ADP are low, glycolysis slows. When ATP is depleted and AMP/ADP accumulate, glycolysis accelerates. This is not coincidental—it reflects millions of years of evolutionary pressure to match catabolism to demand.\n\n---\n\n## Allosteric Regulation: Core Concepts\n\n**Allosteric regulation** occurs when a molecule (the **allosteric effector**) binds to a site on an enzyme distinct from the active site, inducing a conformational change that alters catalytic activity. Effectors that increase activity are **allosteric activators**; those that decrease activity are **allosteric inhibitors**.\n\nMany textbook allosteric systems are oligomeric and show sigmoid rate curves, but neither feature defines allostery. Glucokinase is monomeric yet kinetically cooperative. Effectors may change S₀.₅, maximal rate or both; they do not all produce simple left/right shifts or binary switches.\n\n**Feedback inhibition** is pathway-level regulation, often allosteric, in which the end product of a pathway inhibits an upstream enzyme, preventing wasteful overproduction. You will see this theme repeatedly in glycolysis.\n\n---\n\n## Hexokinase: The Gateway Enzyme\n\n### Reaction and Function\n\nHexokinase catalyzes the first step, but not the committed step, of glycolysis:\n\nGlucose + ATP → Glucose-6-phosphate (G6P) + ADP\n\nThis phosphorylation traps glucose inside the cell (G6P cannot cross the plasma membrane via GLUT transporters) and commits it to either glycolysis, the pentose phosphate pathway, or glycogen synthesis. The reaction is irreversible under physiological conditions (ΔG ≈ −16.7 kJ/mol).\n\n### Isoforms and Tissue Distribution\n\nThe four classic mammalian hexokinase isoforms are HK I–IV, and the MCAT tests the distinction between **HK I–III** and **HK IV (glucokinase)** directly.\n\n**HK I–III** are found in most tissues (brain, red blood cells, muscle). Key features:\n\n- High affinity for glucose: Km ≈ 0.1 mM (well below fasting blood glucose of ~5 mM)\n- Low glucose Km allows high fractional activity at relatively low intracellular glucose; saturation still depends on substrate availability\n- Their catalytic properties differ from glucokinase; total tissue Vmax also depends on enzyme abundance\n- **Product inhibition by G6P**: when G6P accumulates, it allosterically inhibits HK I–III, slowing further glucose phosphorylation\n\nThis product inhibition is a classic **feedback loop**. If downstream enzymes (PFK-1, glycogen synthase) cannot consume G6P fast enough, G6P builds up and signals hexokinase to slow down. This prevents futile accumulation of phosphorylated intermediates and preserves glucose for tissues that need it most.\n\n**HK IV (Glucokinase)** is found primarily in hepatocytes and pancreatic β-cells. Its properties are dramatically different:\n\n- Higher glucose S₀.₅ (often about 7–10 mM); because kinetics are sigmoidal, a simple Michaelis constant is not the best descriptor\n- Supports glucose-responsive phosphorylation; cellular capacity depends on expression and regulation\n- Sigmoidal kinetics (cooperative behavior)\n- *Not* inhibited by G6P at physiological concentrations\n- Hepatic expression is promoted by insulin; pancreatic regulation differs\n\nGlucokinase acts as a hepatic glucose sensor. After a carbohydrate-rich meal, portal blood glucose rises, increasing glucokinase activity and glucose phosphorylation without necessarily saturating it. This ensures the liver buffers postprandial glucose spikes. In pancreatic β-cells, glucokinase activity is directly coupled to insulin secretion—as glucose rises, more G6P is produced, glycolysis accelerates, ATP/ADP ratio increases, ATP-sensitive K⁺ channels close, membrane depolarization triggers Ca²⁺ influx, and insulin is released. Glucokinase is therefore sometimes called the **\"glucose sensor of the body.\"**\n\n### MCAT Relevance\n\nExpect questions contrasting glucokinase and hexokinase in the context of diabetes, insulin signaling, or hepatic glucose metabolism. A common question type: *In a patient with type 2 diabetes, hepatic glucokinase expression is reduced. What effect does this have on postprandial blood glucose?* Answer: blood glucose remains elevated longer because the liver cannot rapidly phosphorylate and store excess glucose.\n\n---\n\n## Phosphofructokinase-1: The Master Regulator\n\n### Reaction and Function\n\nPFK-1 catalyzes the third step and the **rate-limiting, committed step** of glycolysis:\n\nFructose-6-phosphate (F6P) + ATP → Fructose-1,6-bisphosphate (F1,6BP) + ADP\n\nThis is the most important regulatory step in glycolysis. Once F6P is converted to F1,6BP, the reaction is conventionally a committed step, although later intermediates can enter biosynthesis and gluconeogenic bypasses can reverse net carbon flow. PFK-1 is a tetramer with both a substrate-binding active site and multiple allosteric sites.\n\n### Allosteric Inhibitors of PFK-1\n\n**ATP** — PFK-1 is inhibited by high concentrations of ATP. This seems counterintuitive since ATP is also a substrate, but the enzyme has two distinct ATP-binding sites: a low-affinity *allosteric* inhibitory site and a high-affinity *catalytic* site. When cellular [ATP] is high, ATP occupies the allosteric site and reduces PFK-1 activity, slowing glycolysis when energy is already plentiful. This is the primary mechanism by which energy charge regulates glycolytic flux.\n\n**Citrate** — Citrate is an early intermediate of the citric acid cycle. High citrate signals that the TCA cycle is running well and biosynthetic precursors are abundant. Citrate inhibits PFK-1, linking the TCA cycle status directly to glycolytic flux. If the TCA cycle is backed up (e.g., acetyl-CoA is plentiful), citrate spills into the cytoplasm and puts the brakes on glycolysis.\n\n**H⁺ (low pH)** can inhibit PFK-1, especially relevant in contracting muscle. Lactate accumulation can accompany acidosis, but the LDH reaction consumes H⁺; it is not correct to explain acidification simply as lactate production releasing protons. ATP turnover, ion handling and buffering contribute.\n\n### Allosteric Activators of PFK-1\n\n**AMP and ADP** — When ATP is consumed faster than it is produced, AMP and ADP accumulate. Both activate PFK-1, accelerating glycolysis to restore ATP levels. AMP is a particularly potent signal because of the **adenylate kinase reaction**: 2 ADP ⇌ ATP + AMP. A small drop in ATP produces a disproportionately large rise in AMP, amplifying the signal.\n\n**Fructose-2,6-bisphosphate (F2,6BP)** — This is the *most potent* allosteric activator of PFK-1 and one of the most important regulatory molecules in all of metabolism. F2,6BP is *not* a glycolytic intermediate—it is a regulatory molecule synthesized and degraded by a bifunctional enzyme called **PFK-2/FBPase-2** (phosphofructokinase-2/fructose-2,6-bisphosphatase).\n\n- When F2,6BP binds PFK-1, it dramatically increases the enzyme's affinity for F6P and relieves ATP inhibition, increasing activity under those conditions; other regulators and substrate supply still matter.\n- F2,6BP levels are controlled by the phosphorylation state of PFK-2/FBPase-2, which is in turn controlled by hormonal signals (see below).\n\n### The PFK-2/FBPase-2 Bifunctional Enzyme: Hormonal Control\n\nThe **PFK-2/FBPase-2** enzyme has two catalytic domains on the same polypeptide:\n\n- The **PFK-2 domain** synthesizes F2,6BP from F6P + ATP\n- The **FBPase-2 domain** degrades F2,6BP back to F6P + Pᵢ\n\nIn the classic liver isoform, phosphorylation changes the balance between the two activities. The following model is not universal: phosphorylation can activate kinase activity in heart isoforms.\n\n**Glucagon (fasting state):**\n- Glucagon binds its GPCR → adenylyl cyclase activated → cAMP rises → PKA activated → PKA phosphorylates PFK-2/FBPase-2 at the classic liver regulatory site (Ser32 in the rat liver numbering)\n- Phosphorylation *activates* the FBPase-2 domain and *inactivates* the PFK-2 domain\n- F2,6BP levels fall → PFK-1 loses its most potent activator → glycolysis slows\n- The liver shifts toward gluconeogenesis to raise blood glucose\n\n**Insulin (fed state):**\n- Insulin signaling activates protein phosphatase 2A (among other phosphatases) → dephosphorylates PFK-2/FBPase-2\n- Dephosphorylated enzyme has active PFK-2 domain → F2,6BP rises → PFK-1 strongly activated → glycolysis accelerates\n- Liver takes up and processes glucose\n\nThis hormonal switch is a paradigmatic example of how extracellular signals are transduced into changes in metabolic flux. On the MCAT, you must be able to trace the entire signaling cascade from glucagon or insulin to the final effect on PFK-1 activity.\n\n---\n\n## Pyruvate Kinase: The Final ATP-Producing Step\n\n### Reaction and Function\n\nPyruvate kinase catalyzes the final step of glycolysis:\n\nPhosphoenolpyruvate (PEP) + ADP → Pyruvate + ATP\n\nThis reaction is irreversible (ΔG ≈ −31.4 kJ/mol) and generates two ATP per glucose because two PEP molecules are processed. Regulation depends on the pyruvate-kinase isoform; the following hormonal example concerns liver L-PK.\n\n### Allosteric Regulation\n\n**Activators:**\n\n- **Fructose-1,6-bisphosphate (F1,6BP)** — This is **feedforward activation**, an upstream metabolite activating a downstream enzyme. F1,6BP is the product of PFK-1 and an intermediate several reactions upstream of PEP. When PFK-1 is active and F1,6BP accumulates, it allosterically activates pyruvate kinase, ensuring the downstream enzyme is ready to handle increased flux. This coordination prevents bottlenecks in the pathway.\n\n**Inhibitors:**\n\n- **ATP** — High ATP signals adequate energy; pyruvate kinase is inhibited to slow glycolysis.\n- **Scope:** ATP and alanine are established inhibitors in the classic human liver PK model. Do not assume every metabolite or pyruvate-kinase isoform has the same regulation.\n- **Alanine** — Alanine is in direct equilibrium with pyruvate via transamination (pyruvate + glutamate ⇌ alanine + α-ketoglutarate, catalyzed by alanine aminotransferase). High alanine signals abundant amino acid availability and adequate energy, inhibiting pyruvate kinase. This is another feedback loop: alanine is essentially a proxy for pyruvate, and its accumulation signals that further pyruvate production should slow.\n\n### Isoforms of Pyruvate Kinase\n\nThere are four mammalian pyruvate kinase isoforms: L (liver), R (red blood cells), M1 (muscle, brain), and M2 (most tissues during development, cancer cells).\n\n**PKM2** deserves special mention because of its relevance to cancer metabolism. In many cancer cells, PKM2 is expressed instead of PKM1. PKM2 can be inhibited by tyrosine-phosphorylated proteins (a consequence of oncogenic signaling), which reduces its activity. This counterintuitively *promotes* tumor growth by diverting glycolytic intermediates into biosynthetic pathways (nucleotide synthesis, amino acid synthesis) rather than ATP production—a phenomenon related to the **Warburg effect**.\n\n### Hormonal Regulation of Pyruvate Kinase\n\nHepatic L-pyruvate kinase is directly regulated by **PKA-dependent phosphorylation**. In the pathway above, PFK-1 is regulated indirectly through PFK-2/FBPase-2 and F2,6BP:\n\n- **Glucagon → PKA → phosphorylation of pyruvate kinase → inhibition**\n- Phosphorylated pyruvate kinase is less active, reducing glycolysis and supporting gluconeogenesis in the fasting state\n- **Insulin → dephosphorylation → activation** of pyruvate kinase in the fed state\n\nThis mirrors the regulation of PFK-2/FBPase-2, ensuring that glucagon consistently suppresses glycolysis at multiple points simultaneously.\n\n---\n\n## Integration: How the Three Enzymes Work Together\n\nIt is critical to see glycolytic regulation not as three isolated switches but as an integrated control system.\n\n### Fasting State (Low Blood Glucose, High Glucagon)\n\n1. Glucagon rises → cAMP → PKA activation\n2. PKA phosphorylates PFK-2/FBPase-2 → F2,6BP falls → PFK-1 loses its strongest activator\n3. PKA phosphorylates pyruvate kinase → pyruvate kinase inhibited\n4. Citrate may also accumulate if fatty acid oxidation is providing acetyl-CoA to the TCA cycle → further PFK-1 inhibition\n5. ATP/AMP ratio is relatively high in the liver during fatty acid oxidation → PFK-1 and pyruvate kinase further inhibited by ATP\n6. Net effect: glycolysis is strongly suppressed; the liver runs gluconeogenesis to export glucose\n\n### Fed State (High Blood Glucose, High Insulin)\n\n1. Insulin rises → phosphatase activation → dephosphorylation of PFK-2/FBPase-2 → F2,6BP rises → PFK-1 strongly activated\n2. Pyruvate kinase dephosphorylated → activated\n3. Greater F6P availability supplies substrate for PFK-2; substrate supply is distinct from allosteric feedforward activation\n4. As PFK-1 produces F1,6BP, pyruvate kinase is activated by feedforward stimulation\n5. AMP/ADP depend on the balance of ATP production and use; rapid glucose uptake alone does not require their concentrations to rise\n6. Net effect: hepatic glycolytic flux generally increases, but need not reach its maximum; liver converts glucose to pyruvate, acetyl-CoA, fatty acids, and glycogen\n\n### Exercise (Muscle Glycolysis)\n\nIn skeletal muscle during intense exercise:\n- ATP turnover increases; AMP/ADP can help stimulate PFK-1. Skeletal-muscle PK regulation differs from the liver model\n- AMP activates **AMP kinase (AMPK)**, which further promotes glycolytic flux and inhibits competing pathways\n- The net PFK-1 response depends on effectors, pH and isoform; F2,6BP need not surge in every skeletal-muscle exercise setting\n- Low intracellular pH can inhibit PFK-1. Lactate formation can occur with oxygen present and should not itself be equated with proton release\n\n---\n\n## Substrate Cycles and Fine-Tuning\n\nA subtle but MCAT-relevant concept is the **substrate cycle** (also called a futile cycle). Consider the PFK-1/FBPase-1 pair:\n\n- PFK-1 converts F6P → F1,6BP (consuming ATP)\n- Fructose-1,6-bisphosphatase (FBPase-1) converts F1,6BP → F6P (used in gluconeogenesis)\n\nIf both enzymes were simultaneously active at high rates, the net result would be ATP hydrolysis with no productive outcome. Cells limit wasteful cycling through reciprocal regulation, so that when PFK-1 is activated (high F2,6BP, high AMP), FBPase-1 is inhibited by the same signals. Conversely, when glucagon is high and glycolysis is suppressed, FBPase-1 is active for gluconeogenesis while PFK-1 is inhibited.\n\nThe existence of substrate cycles also allows for *rapid switching* between glycolysis and gluconeogenesis. Rather than waiting for enzyme synthesis and degradation (which takes hours), the cell can flip between pathways in seconds by changing allosteric effector concentrations.\n\n---\n\n## Phosphorylation vs. Allosteric Regulation: Speed and Reversibility\n\nIt is worth explicitly contrasting the two major regulatory mechanisms:\n\n| Feature | Allosteric Regulation | Covalent Modification (Phosphorylation) |\n|---|---|---|\n| Speed | Often rapid; system-dependent | Often rapid; system-dependent |\n| Reversibility | Depends on binding and conformational kinetics | Dephosphorylation usually requires phosphatase |\n| Signal source | Metabolites or other ligands | Hormonal or intracellular signals |\n| Example | AMP activating PFK-1 | Glucagon → PKA → PFK-2 phosphorylation |\n\nBoth mechanisms are used simultaneously. Allosteric regulation provides moment-to-moment fine-tuning based on the cell's immediate metabolic state, while hormonal phosphorylation coordinates metabolism across the whole organism in response to nutritional status.\n\n---\n\n## Common MCAT Question Patterns\n\n### Predict the Effect on Glycolytic Flux\n\nYou will often be given a scenario and asked whether glycolysis speeds up or slows down. Build a mental decision tree:\n\n1. Does the change affect ATP/AMP ratio? → can affect PFK-1; PK responses depend on isoform\n2. Does it affect F2,6BP? → trace through glucagon/insulin → PKA → PFK-2 phosphorylation state\n3. Does it affect citrate? → citrate inhibits PFK-1\n4. Does it affect G6P? → G6P inhibits hexokinase (HK I–III only, not glucokinase)\n\n### Enzyme Kinetics Questions\n\nKnow that PFK-1 shows sigmoidal kinetics. An allosteric activator like F2,6BP will shift the sigmoidal curve to the left (lower S₀.₅), while ATP at the allosteric site shifts it right. These curves appear in MCAT passages.\n\n### Hormonal Signaling Questions\n\nTrace glucagon's effects: glucagon → Gs → adenylyl cyclase → ↑cAMP → PKA → phosphorylates PFK-2/FBPase-2 (activates FBPase-2, inactivates PFK-2) → ↓F2,6BP → ↓PFK-1 activity → ↓glycolysis. Also phosphorylates pyruvate kinase → ↓pyruvate kinase activity.\n\nInsulin's effects are largely the opposite, mediated through phosphatases and transcriptional upregulation of glucokinase.\n\n### Glucokinase vs. Hexokinase\n\nMemorize the key differences: low glucose Km of typical HK I–III versus higher glucose S₀.₅ of glucokinase, inhibition by G6P (HK I–III yes, glucokinase no), tissue distribution, and physiological role. These distinctions appear in passages about diabetes, insulin secretion, and hepatic glucose metabolism.\n\n---\n\n## Summary of Key Regulatory Points\n\n**Hexokinase (HK I–III):**\n- Inhibited by G6P (product/feedback inhibition)\n- Low glucose Km; activity and total Vmax depend on substrate availability and enzyme abundance\n\n**Glucokinase (HK IV):**\n- Not inhibited by G6P\n- Higher glucose S₀.₅, kinetically cooperative glucose sensor\n- Hepatic expression promoted by insulin\n\n**PFK-1 (rate-limiting step):**\n- Inhibited by: ATP, citrate, H⁺\n- Activated by: AMP, ADP, F2,6BP (most potent)\n- F2,6BP controlled by PFK-2/FBPase-2 phosphorylation state (glucagon → phosphorylation → ↓F2,6BP; insulin → dephosphorylation → ↑F2,6BP)\n\n**Pyruvate Kinase:**\n- Classic liver example: inhibited by ATP and alanine; PKA phosphorylation reduces activity\n- Activated by: F1,6BP (feedforward); dephosphorylation (insulin)\n\nThe elegance of glycolytic regulation lies in its redundancy and coordination: multiple effectors converge on the same enzymes, allosteric and covalent mechanisms reinforce each other, and local metabolic signals are integrated with systemic hormonal signals to produce a coherent, graded response to the cell's energy needs. Mastering these mechanisms—not just memorizing them—will allow you to reason through novel MCAT scenarios with confidence."
+    },
+    {
+      "field": "questions.116.explanation",
+      "value": "B is correct: ATP can act both as a catalytic substrate and as an inhibitory allosteric effector. Under the stated controlled conditions, the observed decline is consistent with inhibitory binding at higher ATP. Remote-site regulation should not be used as a blanket rule to classify every kinetic inhibition pattern."
+    },
+    {
+      "field": "questions.116.question_text",
+      "value": "A purified mammalian PFK-1 preparation has sufficient ATP for its catalytic site. Increasing ATP further, while controlling free Mg²⁺ and F6P, decreases activity. Which mechanism best explains this observation?"
+    },
+    {
+      "field": "questions.117.choice_b",
+      "value": "Glycolysis is reduced because loss of the potent PFK-1 activator F2,6BP lowers PFK-1 activity."
+    },
+    {
+      "field": "questions.120.explanation",
+      "value": "C is the best prediction with other conditions held equal: removing ATP inhibition favors higher PFK-1 activity. Whole-cell flux still depends on substrates, other enzymes and regulators. The mutation alone neither proves a Warburg phenotype nor guarantees persistently maximal glycolysis."
+    },
+    {
+      "field": "questions.120.question_text",
+      "value": "A PFK-1 mutation eliminates ATP-mediated inhibition but preserves catalysis. With high ATP and other regulatory conditions held equal, what change in glycolysis would this tend to favor?"
+    }
+  ]
+}

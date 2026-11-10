@@ -1,0 +1,287 @@
+{
+  "lessonId": 29,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "accounts for roughly 90% of a cell's ATP output under aerobic conditions",
+      "new": "often supplies most ATP in mitochondria-containing cells, but its fraction varies with cell type and state; mature red blood cells have none",
+      "reason": "No universal ATP fraction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**Δp = Δψ − (2.303 RT/F) × ΔpH**",
+      "new": "**Δp = Δψ − (2.303 RT/F) × ΔpH**, with Δψ = ψ(matrix) − ψ(IMS) and ΔpH = pH(matrix) − pH(IMS). A negative value favors proton entry into the matrix.",
+      "reason": "Signed convention.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "The membrane contains no proton channels other than ATP synthase itself (and, in some tissues, **uncoupling proteins** such as thermogenin).",
+      "new": "ATP synthase is the productive proton-return route, but proton leak, uncoupling proteins and other transport processes also affect the gradient.",
+      "reason": "Absolute permeability claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "and plays no role in establishing the gradient",
+      "new": "and is not the principal barrier across which this proton-motive force is maintained",
+      "reason": "Outer membrane roles not none.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Accepts electrons from FADH₂ (produced when succinate is oxidized to fumarate in the citric acid cycle)",
+      "new": "Accepts succinate-derived electrons through its own bound FAD during succinate-to-fumarate conversion",
+      "reason": "Not soluble FADH2 input.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "For FADH₂ (which enters at Complex II, bypassing Complex I):",
+      "new": "For succinate-derived electrons entering through bound FAD at Complex II:",
+      "reason": "Scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "with nearly identical catalytic mechanisms across all domains of life",
+      "new": "with related rotary mechanisms; archaeal A-type systems and ion specificity differ from the mitochondrial F-type system described here",
+      "reason": "Domain and family distinctions.",
+      "sourceUrl": "https://www.mrc-mbu.cam.ac.uk/research-groups/walker-group/structure-and-function-atp-synthases"
+    },
+    {
+      "field": "content",
+      "old": "**F₀ (F-zero) subunit**",
+      "new": "**Fₒ (letter o, referring to oligomycin sensitivity) domain**",
+      "reason": "Letter not numeral and multidomain.",
+      "sourceUrl": "https://www.mrc-mbu.cam.ac.uk/research-groups/walker-group/structure-and-function-atp-synthases"
+    },
+    {
+      "field": "content",
+      "old": "**F₁ subunit**: projects",
+      "new": "**F₁ domain**: projects",
+      "reason": "Domain many subunits.",
+      "sourceUrl": "https://www.mrc-mbu.cam.ac.uk/research-groups/walker-group/structure-and-function-atp-synthases"
+    },
+    {
+      "field": "content",
+      "old": "Each c subunit contains a critical **aspartate residue** (Asp61 in E. coli)",
+      "new": "Each c subunit contains a critical **acidic residue** (Asp61 in E. coli; a glutamate in mammalian enzymes)",
+      "reason": "Not all Asp.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6377231/"
+    },
+    {
+      "field": "content",
+      "old": "2. **L (loose) conformation**: binds ADP and Pᵢ loosely; no catalysis occurs",
+      "new": "2. **L (loose) conformation**: holds ADP and Pᵢ in the simplified binding-change model",
+      "reason": "Model notabsolute chemistry.",
+      "sourceUrl": "https://www.mrc-mbu.cam.ac.uk/research-groups/walker-group/structure-and-function-atp-synthases"
+    },
+    {
+      "field": "content",
+      "old": "3. **T (tight) conformation**: binds substrates tightly; ATP is spontaneously synthesized from ADP + Pᵢ",
+      "new": "3. **T (tight) conformation**: favors formation of tightly bound ATP; sustained net ATP production and release still require coupling to the gradient",
+      "reason": "No freeATP withoutenergy.",
+      "sourceUrl": "https://www.mrc-mbu.cam.ac.uk/research-groups/walker-group/structure-and-function-atp-synthases"
+    },
+    {
+      "field": "content",
+      "old": "This number varies slightly across organisms depending on c-ring stoichiometry. In human mitochondria, the commonly used value for MCAT purposes is approximately **~2.7 H⁺ per ATP**, though many textbooks round to **3 H⁺ per ATP** for simplicity. Some sources use 4 H⁺ per ATP when accounting for the additional proton required to transport ATP out of the matrix via the **ATP/ADP translocase** and to import Pᵢ via the **phosphate carrier**.",
+      "new": "The c-ring size is organism-dependent. For a mammalian c₈ rotor, 8/3 ≈ 2.67 H⁺ pass through the assembled synthase per ATP. Exported-ATP accounting also includes phosphate import and electrogenic ADP/ATP exchange: ANT moves nucleotide charges, not a literal extra proton. Effective whole-mitochondrion yield also depends on leak and coupling.",
+      "reason": "Transport charge not proton andspeciessize.",
+      "sourceUrl": "https://www.mrc-mbu.cam.ac.uk/research-groups/walker-group/structure-and-function-atp-synthases"
+    },
+    {
+      "field": "content",
+      "old": "- Each ATP requires approximately 10/3 ≈ 3.33 H⁺ (using ~3 H⁺ per rotation/3 ATP, plus ~1 H⁺ for transport)",
+      "new": "- Use a stated effective cost for synthesis plus transport; do not divide ten pumped protons by three ATP to derive that cost",
+      "reason": "Circular invalid ratio.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "With 4 H⁺ per ATP (the commonly accepted experimental value)",
+      "new": "With an approximate effective cost of 4 proton equivalents per ATP",
+      "reason": "Approx notuniversalmeasuredconstant.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "The experimentally and biochemically accepted P/O ratio for mitochondrial NADH is **~2.5**.",
+      "new": "A conventional introductory value for mitochondrial NADH is **~2.5**, with actual ratios depending on conditions.",
+      "reason": "Qualify.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "content",
+      "old": "*The MCAT now uses 2.5 and 1.5* in its official materials, though you should be prepared to work with whichever values a passage provides.",
+      "new": "Use whichever values a passage provides; 2.5 and 1.5 are common introductory approximations.",
+      "reason": "Remove unverifiedexam assertion.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "These values (30 or 32) are the modern accepted figures.",
+      "new": "These values (30 or 32) are approximate bookkeeping totals, not a fixed yield for every cell.",
+      "reason": "Approx.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Using the glycerol-3-phosphate shuttle (muscle, brain):",
+      "new": "Using the glycerol-3-phosphate shuttle (tissue contributions vary):",
+      "reason": "Notexclusive.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "blocks electron transfer from cytochrome b to cytochrome c₁",
+      "new": "blocks the Qi site, preventing Q-cycle turnover",
+      "reason": "Wrongcytb-to-c1route.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "When ETC is blocked, the proton gradient cannot be maintained, and ATP synthesis stops. Importantly, NADH and FADH₂ accumulate because they cannot be reoxidized, which secondarily inhibits the citric acid cycle.",
+      "new": "Effects depend on the site blocked. Complex-I inhibition leaves other Q-linked entries available. Complete downstream blockade restricts oxidative ATP synthesis; substrate-level phosphorylation is separate. NADH and protein-bound redox centers tend to become more reduced. The gradient can decay, or in some conditions be supported temporarily by ATP-driven reverse pumping.",
+      "reason": "Not all inhibitorssame.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Ultimately, the ETC slows and stops.",
+      "new": "The ETC slows toward leak-supported respiration rather than necessarily stopping completely.",
+      "reason": "Residual leak.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**Uncouplers** (also called **protonophores**)",
+      "new": "**Uncouplers** (including chemical **protonophores** and protein-mediated leak mechanisms)",
+      "reason": "UCPnotprotonophorechemical.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "dangerous because it converts the PMF entirely to heat",
+      "new": "dangerous because excessive uncoupling can cause severe hyperthermia and ATP depletion",
+      "reason": "Notalwaysentirely.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "uncouplers *increase* oxygen consumption and *increase* heat production while *decreasing* ATP synthesis",
+      "new": "uncouplers can increase oxygen consumption and heat production while lowering ATP yield, provided oxygen, substrate and respiratory capacity remain available",
+      "reason": "Conditional.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "When the ETC is inhibited (by hypoxia, for example), NADH accumulates, the NAD⁺/NADH ratio falls, and the citric acid cycle and glycolysis slow.",
+      "new": "When respiration is restricted, mitochondrial NADH tends to accumulate and oxidative TCA flux slows. Cytosolic glycolysis can instead accelerate if LDH regenerates NAD⁺; the compartments and redox routes must be distinguished.",
+      "reason": "Glycolysis canincrease.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "both caused by mtDNA point mutations affecting Complex I.",
+      "new": "LHON commonly involves mtDNA variants in Complex-I genes. MELAS is genetically heterogeneous and is most often associated with an MT-TL1 mitochondrial tRNA variant, which affects mitochondrial translation rather than only a Complex-I structural gene.",
+      "reason": "MELASwronggeneticbasis.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1233/"
+    },
+    {
+      "field": "content",
+      "old": "The ETC is the primary source of **reactive oxygen species (ROS)** in the cell.",
+      "new": "The ETC is an important source of **reactive oxygen species (ROS)**; other sources, including NADPH oxidases, can dominate in particular cells or conditions.",
+      "reason": "Notalwaysprimary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "further to H₂O by catalase or glutathione peroxidase",
+      "new": "removed by antioxidant systems including mitochondrial glutathione peroxidases and peroxiredoxins; catalase is mainly peroxisomal in most mammalian cells",
+      "reason": "Compartment.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "all block ATP production",
+      "new": "can restrict oxidative ATP production",
+      "reason": "NotallATP.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.141.question_text",
+      "old": "A researcher treats isolated mitochondria with a chemical that makes the inner mitochondrial membrane freely permeable to protons. Which of the following would be the most likely result?",
+      "new": "A researcher selectively increases proton permeability of otherwise functional isolated mitochondria supplied with adequate respiratory substrate and oxygen. Which outcome is most likely if the gradient is fully dissipated?",
+      "reason": "Keepmachineryfunctional andsubstrates.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.142.question_text",
+      "old": "During the rotational mechanism of ATP synthase, the F0 subunit rotates in response to proton flow. Which of the following best describes the role of the F1 subunit in ATP synthesis?",
+      "new": "During ATP synthesis, the Fₒ c-ring rotates while its a-subunit remains part of the stator. What does the F₁ catalytic domain do?",
+      "reason": "WholeF0doesnotrotate.",
+      "sourceUrl": "https://www.mrc-mbu.cam.ac.uk/research-groups/walker-group/structure-and-function-atp-synthases"
+    },
+    {
+      "field": "questions.143.question_text",
+      "old": "Approximately 2.5 ATP are produced per NADH oxidized, while approximately 1.5 ATP are produced per FADH2 oxidized in the mitochondria. Which of the following best explains this difference?",
+      "new": "Using conventional estimates, matrix NADH supports about 2.5 ATP per electron pair and succinate about 1.5. What best explains the difference?",
+      "reason": "Specifydonors.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "questions.143.choice_b",
+      "old": "FADH2 donates electrons to Complex II, which does not pump protons, resulting in fewer protons translocated per electron pair.",
+      "new": "Succinate-derived electrons enter at Complex II and bypass the proton-translocating Complex I.",
+      "reason": "BoundFAD.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "questions.143.explanation",
+      "old": "FADH2 donates its electrons to Complex II (succinate dehydrogenase), which does not pump protons across the inner mitochondrial membrane. In contrast, NADH donates electrons to Complex I, which does pump protons. Because fewer protons are translocated per FADH2, a smaller PMF contribution is made, resulting in fewer ATP synthesized. Choice D is incorrect and backwards: NADH has a lower (more negative) reduction potential, meaning its electrons have more free energy to release, which is why more protons are pumped and more ATP produced.",
+      "new": "B is correct: NADH-linked entry supports about 10 proton equivalents per pair, while succinate-linked entry supports about 6 because Complex II does not pump protons. A and C misdescribe donor stoichiometry and location. D reverses the effect of raising donor reduction potential relative to a fixed acceptor.",
+      "reason": "Clear accounting.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/"
+    },
+    {
+      "field": "questions.144.question_text",
+      "old": "A cell is placed in a low-oxygen environment. Which of the following best predicts the effect on the proton-motive force and ATP synthesis via oxidative phosphorylation?",
+      "new": "Oxygen falls enough to limit mitochondrial respiratory flux. Which effect on ATP synthesis by oxidative phosphorylation is most directly expected?",
+      "reason": "Lowoxygenmaynotyetlimit;focusATPavoidpossibleD.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.144.choice_d",
+      "old": "The proton gradient is maintained by reverse operation of ATP synthase.",
+      "new": "Reverse ATP synthase operation produces ATP while pumping protons outward.",
+      "reason": "OriginalDcanbetrue;reverseconsumesATP.",
+      "sourceUrl": "https://www.mrc-mbu.cam.ac.uk/research-groups/walker-group/structure-and-function-atp-synthases"
+    },
+    {
+      "field": "questions.144.explanation",
+      "old": "Oxygen is the terminal electron acceptor in the electron transport chain. Without sufficient oxygen, electrons cannot be passed to Complex IV, causing a backup that halts the entire ETC. This stops proton pumping, collapses the PMF, and therefore stops ATP synthase-driven ATP production. Substrate-level phosphorylation in glycolysis and the TCA cycle can produce some ATP but cannot fully compensate for the large ATP yield of oxidative phosphorylation. Choice A is incorrect because without ETC activity, protons are not pumped and the gradient dissipates rather than builds.",
+      "new": "B is correct: sufficiently limited oxygen restricts electron transfer at IV and oxidative ATP synthesis. The gradient need not collapse immediately; reverse ATP synthase can consume ATP to support it temporarily. That reverse mode does not produce ATP. Substrate-level ATP production does not establish complete compensation.",
+      "reason": "Causality andreverse.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.145.choice_b",
+      "old": "Artificially creating a proton gradient across a membrane containing only ATP synthase results in ATP synthesis.",
+      "new": "An imposed proton-motive force across an intact membrane containing correctly oriented ATP synthase drives ATP production when ADP and Pᵢ are available.",
+      "reason": "Necessary experimental conditions.",
+      "sourceUrl": "https://www.mrc-mbu.cam.ac.uk/research-groups/walker-group/structure-and-function-atp-synthases"
+    },
+    {
+      "field": "questions.145.explanation",
+      "old": "Mitchell's chemiosmotic theory proposes that the proton gradient (PMF) across the inner mitochondrial membrane is the direct driving force for ATP synthesis, independent of any direct chemical coupling to the ETC. Demonstrating that an artificial proton gradient alone, without any redox reactions, can drive ATP synthase to produce ATP is the most direct evidence for this theory. Choice D is a tempting distractor but is actually backwards: the intermembrane space should be more acidic (lower pH) than the matrix, and it is the flow of protons from the IMS into the matrix that drives ATP synthesis.",
+      "new": "B demonstrates that a suitable proton-motive force can drive synthesis without a directly coupled redox enzyme. NADH alone cannot power isolated F₁. The chemical and electrical components must both be considered: matrix pH alone does not determine the total driving force.",
+      "reason": "Dchemicalcomponentnotabsolute.",
+      "sourceUrl": "https://www.mrc-mbu.cam.ac.uk/research-groups/walker-group/structure-and-function-atp-synthases"
+    }
+  ]
+}

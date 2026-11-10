@@ -41,20 +41,20 @@ const SECTION_DESCRIPTIONS: Record<string, string> = {
 };
 
 const SECTION_COLORS: Record<string, string> = {
-  "bio-biochem": "#a8324a",
-  "chem-phys": "#2e4a6b",
-  "psych-soc": "#8a6b2e",
-  "cars": "#4a3b6b",
+  "bio-biochem": "#245574",
+  "chem-phys": "#245574",
+  "psych-soc": "#245574",
+  "cars": "#245574",
 };
 
 function Logo() {
   return (
     <div className="flex items-center gap-2.5">
       <svg width="36" height="20" viewBox="0 0 60 28" fill="none" className="flex-shrink-0">
-        <path d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14" stroke="#a8324a" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-        <circle cx="50" cy="14" r="2.2" fill="#a8324a" />
+        <path d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14" stroke="#245574" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+        <circle cx="50" cy="14" r="2.2" fill="#245574" />
       </svg>
-      <span className="font-serif font-semibold text-[22px] tracking-tight text-[#0c1a2e]">Vitalis</span>
+      <span className="font-sans font-semibold text-[22px] tracking-tight text-[#0c1a2e]">Vitalis</span>
     </div>
   );
 }
@@ -97,22 +97,22 @@ export default function StudyLandingPage() {
 
       <div className="relative z-10">
         <MainNav active="study" badge="Study guides" />
-        {error && <div role="alert" className="m-6 p-6 rounded-xl border border-[#a8324a]">{error}<button className="ml-4 underline" onClick={() => setAttempt(attempt + 1)}>Try again</button></div>}
+        {error && <div role="alert" className="m-6 p-6 rounded-xl border border-[#245574]">{error}<button className="ml-4 underline" onClick={() => setAttempt(attempt + 1)}>Try again</button></div>}
 
         <section className="px-10 pt-14 pb-10 border-b border-[#0c1a2e15]">
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
+          <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
             <span className="w-10 h-px bg-[#0c1a2e] opacity-40" />
             Mode · Study guides
           </div>
-          <h1 className="font-serif font-normal leading-[0.95] tracking-[-0.03em] text-[clamp(48px,6vw,88px)] max-w-4xl">
-            Master the <span className="italic font-light text-[#a8324a]">material.</span>
+          <h1 className="font-sans font-normal leading-[0.95] tracking-[-0.03em] text-[clamp(48px,6vw,88px)] max-w-4xl">
+            Master the <span className="italic font-light text-[#245574]">material.</span>
           </h1>
           <p className="text-[15px] opacity-70 mt-4 max-w-2xl leading-relaxed">
             College-level study guides covering every MCAT topic. Read, highlight, take notes, and test yourself with end-of-lesson questions and unit tests. Built to be your primary study resource.
           </p>
           {data && !data.isAuthenticated && (
-            <div className="mt-6 p-3 bg-[#a8324a08] border border-[#a8324a25] rounded-lg text-[13px] opacity-80 max-w-2xl">
-              <Link href="/sign-in" className="text-[#a8324a] font-medium hover:underline">Sign in</Link> to save your highlights, notes, and progress across sessions.
+            <div className="mt-6 p-3 bg-[#24557408] border border-[#24557425] rounded-lg text-[13px] opacity-80 max-w-2xl">
+              <Link href="/sign-in" className="text-[#245574] font-medium hover:underline">Sign in</Link> to save your highlights, notes, and progress across sessions.
             </div>
           )}
         </section>
@@ -124,7 +124,7 @@ export default function StudyLandingPage() {
               <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
               <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
             </div>
-            <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Loading study guides...</div>
+            <div className="font-sans text-[11px] uppercase tracking-[0.12em] opacity-60">Loading study guides...</div>
           </div>
         ) : (
           <section className="grid grid-cols-1 md:grid-cols-2 gap-px bg-[#0c1a2e15]">
@@ -139,10 +139,10 @@ export default function StudyLandingPage() {
                   className="p-10 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-4 group min-h-[280px]"
                 >
                   <div className="flex items-center justify-between">
-                    <div className="font-mono text-[11px] tracking-[0.14em] uppercase opacity-55">25% of MCAT</div>
+                    <div className="font-sans text-[11px] tracking-[0.14em] uppercase opacity-55">25% of MCAT</div>
                     <div className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: accent }} />
                   </div>
-                  <h2 className="font-serif text-[36px] font-medium tracking-tight leading-none" style={{ color: accent }}>
+                  <h2 className="font-sans text-[36px] font-medium tracking-tight leading-none" style={{ color: accent }}>
                     {SECTION_NAMES[sectionKey]}
                   </h2>
                   <p className="text-[14px] opacity-75 leading-relaxed">
@@ -150,7 +150,7 @@ export default function StudyLandingPage() {
                   </p>
                   <div className="mt-auto">
                     <div className="flex items-center gap-3 mb-2">
-                      <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55">
+                      <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55">
                         {total > 0 ? `${units.length} unit${units.length !== 1 ? "s" : ""} · ${total} lesson${total !== 1 ? "s" : ""}` : "Coming soon"}
                       </div>
                     </div>
@@ -162,12 +162,12 @@ export default function StudyLandingPage() {
                             style={{ width: total > 0 ? `${(read / total) * 100}%` : "0%", backgroundColor: accent }}
                           />
                         </div>
-                        <div className="font-mono text-[10px] tracking-[0.1em] uppercase opacity-55 flex-shrink-0">
+                        <div className="font-sans text-[10px] tracking-[0.1em] uppercase opacity-55 flex-shrink-0">
                           {read} / {total}
                         </div>
                       </div>
                     )}
-                    <div className="mt-3 font-mono text-[11px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100 transition-opacity">
+                    <div className="mt-3 font-sans text-[11px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100 transition-opacity">
                       {total > 0 ? "Open section →" : "Content coming soon"}
                     </div>
                   </div>
@@ -177,7 +177,7 @@ export default function StudyLandingPage() {
           </section>
         )}
 
-        <div className="mx-10 my-7 p-3.5 px-5 border border-dashed border-[#0c1a2e25] rounded-lg font-mono text-[12px] leading-relaxed opacity-60">
+        <div className="mx-10 my-7 p-3.5 px-5 border border-dashed border-[#0c1a2e25] rounded-lg font-sans text-[12px] leading-relaxed opacity-60">
           Study guides are AI-generated and reviewed for accuracy. They cover MCAT-relevant content at college level. Always cross-reference with official AAMC materials.
         </div>
       </div>

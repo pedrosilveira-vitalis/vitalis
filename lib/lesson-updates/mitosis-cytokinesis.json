@@ -1,0 +1,210 @@
+{
+  "lessonId": 61,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    301,
+    302,
+    303,
+    304,
+    305
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9833/",
+      "title": "NCBI Bookshelf: Microtubule motors and movements"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8406421/",
+      "title": "Mitotic chromosomes: organization and condensin"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6496767/",
+      "title": "Monitoring chromosome segregation by the spindle checkpoint"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7705458/",
+      "title": "Steblyanko et al.: Microtubule poleward flux in human cells"
+    }
+  ],
+  "visual": {
+    "title": "Separate chromosomes, then divide the cell",
+    "src": "/lesson-diagrams/mitosis-cytokinesis.svg",
+    "width": 900,
+    "height": 760,
+    "alt": "A bioriented duplicated chromosome connects to opposite spindle poles; anaphase separates sisters; an actomyosin ring narrows the cell equator. An inset marks plus-end addition and minus-end loss during poleward flux.",
+    "caption": "Animal-cell schematic. Spindle microtubules segregate chromosomes; the actomyosin ring drives furrow constriction.",
+    "beforeHeading": "Plant Cell Cytokinesis: A Different Mechanism"
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "bbe6b9e88f0b23aa5095447d32a9d828b4cbd9543ce41050d042872b25db77a0"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "55aa42bb96b0373b980f5887a74223cf8a222d4d37ffde0b996167549ebb30a6"
+    },
+    {
+      "field": "questions.301.question_text",
+      "sha256": "61dcd665453c88f6a4a1a57fe5a5232f0700ea147cdeefdb7264f2e9429e2492"
+    },
+    {
+      "field": "questions.301.choice_a",
+      "sha256": "510af23f80293fce74428de1507fce67db43eafa6b24fb7fe0d115e65909ff75"
+    },
+    {
+      "field": "questions.301.choice_b",
+      "sha256": "86b78045923426246da6a3cf0db676ad19f3fd32592a8376b999b6ea5820db6d"
+    },
+    {
+      "field": "questions.301.choice_c",
+      "sha256": "d689aa38c0221592be143328ae827f0b0a77486c015e19500441cdf21f0b5ebd"
+    },
+    {
+      "field": "questions.301.choice_d",
+      "sha256": "30337a68df8a1b52f63bbb15f5512ae9bbce520df740804e904d39c03a0bdc9f"
+    },
+    {
+      "field": "questions.301.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.301.explanation",
+      "sha256": "6f856411f0c0304e64cb4da666501dfbe04b0aed19bd5b3caa4f5046b378a29b"
+    },
+    {
+      "field": "questions.302.question_text",
+      "sha256": "e327976d6d44eb7a0ea720a1f0d574d21b8d0f255f80a5313454a4b15eb1e4f1"
+    },
+    {
+      "field": "questions.302.choice_a",
+      "sha256": "81290b7b5db00b0e4953e3506928514db2dc15bc259c42b38931079bb3d41f1f"
+    },
+    {
+      "field": "questions.302.choice_b",
+      "sha256": "456378dacbf3e97654ee97c9b62f80a1e66b0ac3daaf1fcfc2f0c9221892fe98"
+    },
+    {
+      "field": "questions.302.choice_c",
+      "sha256": "d810183c0e11fea80efeb4c89cced2ba84d0cb58fd23ed701b525d4177f651b7"
+    },
+    {
+      "field": "questions.302.choice_d",
+      "sha256": "9b74a95fed5314aeb824d9b75038bb9124f8adaeff92db41446610f2f9aaf0e6"
+    },
+    {
+      "field": "questions.302.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.302.explanation",
+      "sha256": "bfe8563d8c026247b10e14a8e582dc1bf744ea9866b36ae725253483eed78ffa"
+    },
+    {
+      "field": "questions.303.question_text",
+      "sha256": "da09b46e525ad5852cd247247ca7fb6d1bba8b94a7a590c6a8df33596bab9e54"
+    },
+    {
+      "field": "questions.303.choice_a",
+      "sha256": "d35c988c2bf3d9c9638d7539b5e6ccb0607df8940781e6dd990aa9c8b012fa56"
+    },
+    {
+      "field": "questions.303.choice_b",
+      "sha256": "f54a43d14e27421a8df2119982defee109e59f2a8142e8719a8fb6e85b63c0b7"
+    },
+    {
+      "field": "questions.303.choice_c",
+      "sha256": "9a7eef96b9fa0e330d667c56e83a73e52c74da9581d4b0b09e4fbbaee290d7b8"
+    },
+    {
+      "field": "questions.303.choice_d",
+      "sha256": "e81a8a4be30085a43576b5a68bac050431a63a279c35f5ca663b43e69e7db296"
+    },
+    {
+      "field": "questions.303.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.303.explanation",
+      "sha256": "fe07833397dabd0f359fd26c6782e26359f467eceb907eeff254280020b93013"
+    },
+    {
+      "field": "questions.304.question_text",
+      "sha256": "32eb533191c222e5ddacff186ac1b48719639b57a2c40baf464114597a14b0f0"
+    },
+    {
+      "field": "questions.304.choice_a",
+      "sha256": "3588ffb4b4239797df2ccdac95335b633b73a5ee440a0261f958756f185e47a0"
+    },
+    {
+      "field": "questions.304.choice_b",
+      "sha256": "1ccf9ac2b514ba74a109e4dbfb0341a0c8346060a3f5d72d20c84b22ea313180"
+    },
+    {
+      "field": "questions.304.choice_c",
+      "sha256": "cb7e313ee4e9438f9a4e72da4825a0a93cab27dbe04babe8357b8140ba42914d"
+    },
+    {
+      "field": "questions.304.choice_d",
+      "sha256": "d05d262aaba580454b216fbf94a7e6161acc868f84dad135c5c5c6dd30c7a221"
+    },
+    {
+      "field": "questions.304.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.304.explanation",
+      "sha256": "6f6629d879b029e5eab1e80f0b2d135916030971278ccea0ff574031a370829f"
+    },
+    {
+      "field": "questions.305.question_text",
+      "sha256": "58490cfaaa0f73f61a97e71e53f0de3258d8f731615e3d1479a193d02fb193ca"
+    },
+    {
+      "field": "questions.305.choice_a",
+      "sha256": "7cef319458eb69c8e7834206b0db47af44c621fb428a9ab4b267934ed28ee4ce"
+    },
+    {
+      "field": "questions.305.choice_b",
+      "sha256": "d897964e42ec9be4cc12912701e40bbe1e93ae3a77d84c9a8df9907b5c4f747b"
+    },
+    {
+      "field": "questions.305.choice_c",
+      "sha256": "44c704864e708f3bc3b4cfe8fca66fcfcceca071ba79e7400a1f247d45a759ec"
+    },
+    {
+      "field": "questions.305.choice_d",
+      "sha256": "a6051b417f5d923aff2faca2c5a13697c414cc637de3a93e8dfc667a9344fd6d"
+    },
+    {
+      "field": "questions.305.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.305.explanation",
+      "sha256": "201a7fca134df3d546cee7fa1f205998e59ad39eece358491a5d892003361b0b"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Mitosis and Cytokinesis: Mechanisms of Cell Division\n\nCell division is the fundamental process by which organisms grow, repair damaged tissues, and reproduce asexually. In eukaryotes, the division of the nucleus—**mitosis**—is tightly coupled to the division of the cytoplasm—**cytokinesis**—normally to distribute equivalent replicated chromosome sets to two daughter cells; replication or segregation errors can produce differences. Understanding these processes at a mechanistic level is essential for the MCAT, where questions connect cell cycle regulation, cancer biology, pharmacology, and developmental biology to the underlying molecular machinery.\n\n---\n\n## The Cell Cycle: Context for Mitosis\n\nBefore examining mitosis itself, it is worth situating it within the broader **cell cycle**. The cell cycle consists of two major phases: **interphase** and the **mitotic (M) phase**.\n\nInterphase is subdivided into:\n- **G1 phase**: cell growth, organelle duplication, and synthesis of proteins required for DNA replication\n- **S phase**: DNA synthesis; each chromosome is replicated to produce two sister chromatids joined at the centromere\n- **G2 phase**: continued growth and preparation for mitosis, including centrosome maturation. In typical cycling animal cells, centriole duplication begins around the G1/S transition rather than being confined to G2\n\nBy the time a cell enters mitosis, it has already duplicated its DNA. Each chromosome now consists of two identical **sister chromatids** held together by a protein complex called **cohesin**. A typical animal somatic cell also contains two **centrosomes**, each composed of a pair of centrioles surrounded by **pericentriolar material (PCM)**. These centrosomes will nucleate the mitotic spindle.\n\nThe M phase itself encompasses both mitosis and cytokinesis, and mitosis is conventionally divided into five stages: **prophase**, **prometaphase**, **metaphase**, **anaphase**, and **telophase**.\n\n---\n\n## Prophase: Condensation and Spindle Assembly Begin\n\nProphase is the first stage of mitosis; relative stage durations vary with cell type and conditions. Several key events occur simultaneously:\n\n### Chromosome Condensation\n\nInterphase chromatin—which is loosely organized to permit transcription and replication—must be compacted into discrete, manageable chromosomes. This condensation is driven by **condensin** protein complexes, which use ATP-dependent DNA interactions and loop extrusion to organize and compact chromosomes; supercoiling alone is not a complete description. By late prophase, chromosomes are visible under a light microscope as distinct, X-shaped structures (the X shape reflecting two sister chromatids).\n\nThe degree of compaction is remarkable: a human chromosome's DNA, which may be several centimeters long when fully extended, is compacted to a structure only a few micrometers in length.\n\n### Centrosome Separation and Spindle Nucleation\n\nThe two centrosomes begin migrating toward opposite poles of the cell, driven by **kinesin-5** (also called Eg5), a plus-end-directed motor protein that crosslinks antiparallel microtubules emanating from each centrosome and pushes them apart. Simultaneously, the centrosomes begin nucleating **microtubules** from their PCM, which is rich in **γ-tubulin ring complexes (γ-TuRCs)** that template microtubule polymerization.\n\nThe resulting structure—the **mitotic spindle**—is a bipolar array of microtubules that will ultimately segregate chromosomes. The spindle contains three functionally distinct classes of microtubules:\n- **Astral microtubules**: radiate outward from each centrosome toward the cell cortex, helping position the spindle\n- **Interpolar (polar) microtubules**: extend from each pole toward the cell equator and overlap with microtubules from the opposite pole; they maintain spindle structure and generate pushing forces\n- **Kinetochore microtubules (k-fibers)**: attach to chromosomes at specialized protein structures called kinetochores\n\n### Nuclear Envelope Breakdown\n\nIn late prophase (sometimes called **prometaphase** onset), the **nuclear envelope** disassembles. This is triggered by **cyclin B–CDK1** (also known as **MPF**, maturation-promoting factor), which phosphorylates nuclear lamins, causing the nuclear lamina to depolymerize. Nuclear-envelope membrane proteins redistribute into the endoplasmic reticulum during open mitosis; universal fragmentation into separate vesicles is not required. This breakdown is essential because it allows spindle microtubules to access and attach to chromosomes.\n\n---\n\n## Prometaphase: Chromosome Capture and Attachment\n\nWith the nuclear envelope gone, spindle microtubules can now reach the chromosomes. Prometaphase is characterized by the dynamic search-and-capture process by which kinetochore microtubules attach to chromosomes.\n\n### Kinetochore Structure and Function\n\nEach sister chromatid possesses a **kinetochore**—a large, multilayered protein complex assembled at the **centromere**, a specialized chromatin region. In humans, centromere identity is largely epigenetically specified by CENP-A rather than by one universally sufficient DNA sequence. The centromere is characterized by the presence of **CENP-A**, a histone H3 variant that marks centromeric chromatin. On top of this chromatin foundation, the kinetochore is built in layers:\n\n- The **inner kinetochore** (CCAN: constitutive centromere-associated network) is a stable scaffold that remains associated with centromeric chromatin throughout the cell cycle\n- The **outer kinetochore** (KMN network: Knl1, Mis12 complex, Ndc80 complex) is assembled in mitosis and directly contacts microtubule plus ends\n\nThe **Ndc80 complex** is particularly important: it contains a calponin homology domain that grips microtubule protofilaments. Each kinetochore can bind 20–40 microtubules in human cells, forming a k-fiber.\n\n### Amphitelic Attachment\n\nMicrotubules dynamically polymerize and depolymerize (**dynamic instability**), probing the cell interior. When a microtubule plus end contacts a kinetochore, it is captured and stabilized. The correct attachment geometry is **amphitelic** (also called **bioriented** or **amphitelic**): one sister kinetochore attaches to microtubules from one pole, and the other sister kinetochore attaches to microtubules from the opposite pole. This arrangement creates **tension** across the centromere as the two poles pull in opposite directions.\n\nIncorrect attachments—**syntelic** (both kinetochores attached to the same pole) or **merotelic** (one kinetochore attached to both poles)—must be corrected. The **Aurora B kinase**, located at the inner centromere, plays a central role in error correction. When attachment geometry leaves susceptible substrates accessible to Aurora B, Aurora B phosphorylates Ndc80 and other outer kinetochore components, reducing their microtubule affinity and promoting detachment. Correct bioriented attachments generate tension that spatially separates kinetochore substrates from Aurora B, protecting them from phosphorylation and stabilizing the attachment.\n\n### The Spindle Assembly Checkpoint\n\nDuring prometaphase, the **spindle assembly checkpoint (SAC)** is active. This surveillance mechanism prevents premature entry into anaphase while kinetochores generate an attachment-dependent checkpoint signal. It is not a perfect test of geometry: merotelic attachments can evade the checkpoint. Unattached kinetochores generate a \"wait\" signal by catalytically producing the **mitotic checkpoint complex (MCC)**, which contains **Mad2**, **BubR1**, **Bub3**, and **Cdc20**. The MCC inhibits the **anaphase-promoting complex/cyclosome (APC/C)**, an E3 ubiquitin ligase that, when active, ubiquitinates and targets key proteins for proteasomal degradation.\n\nOnce attachment-dependent checkpoint signaling is silenced and existing MCC inhibition is relieved, APC/C–Cdc20 can drive anaphase. Alignment alone does not prove that every attachment is correct.\n\n---\n\n## Metaphase: Chromosome Alignment at the Metaphase Plate\n\nMetaphase is defined by the alignment of chromosomes at the **metaphase plate** (also called the equatorial plate), an imaginary plane equidistant between the two spindle poles.\n\n### Mechanism of Chromosome Congression\n\nChromosome movement to the metaphase plate involves a balance of forces:\n- **Polar ejection forces**: chromokinesins (plus-end-directed kinesins) on chromosome arms push chromosomes away from the poles toward the cell equator\n- **Kinetochore-generated pulling forces**: depolymerization of kinetochore microtubules at their plus ends (near the kinetochore) generates a pulling force via the **Pac-Man mechanism**\n- **Flux-based movement**: the microtubule lattice moves toward the spindle pole, generally coupled to tubulin addition at plus ends and loss at pole-proximal minus ends. The original opposite assignment of the ends is incorrect. Contributions to movement vary by cell type.\n\nThe interplay of these forces produces a stable equilibrium at the metaphase plate. Correct biorientation normally stabilizes attachments and permits SAC silencing, but merotelic errors can persist into anaphase despite checkpoint satisfaction.\n\n### Checkpoint Satisfaction and APC/C Activation\n\nWith the last kinetochore achieving bioriented attachment, MCC production stops. The existing MCC is disassembled by **p31comet** and other factors. APC/C, now free from inhibition, is activated by its co-activator **Cdc20**. The APC/C^Cdc20 complex then ubiquitinates two critical substrates:\n\n1. **Securin**: a protein that normally inhibits **separase**, the protease responsible for cleaving cohesin. Degradation of securin activates separase.\n2. **Cyclin B**: degradation of cyclin B inactivates CDK1, which is necessary for exit from mitosis.\n\n---\n\n## Anaphase: Chromosome Segregation\n\nAnaphase is the most visually dramatic stage of mitosis. Two overlapping processes are distinguished: **anaphase A** and **anaphase B**; they need not occur as strictly consecutive phases.\n\n### Cohesin Cleavage and Anaphase A Onset\n\nThe trigger for anaphase is the cleavage of **cohesin** by **separase**. Recall that cohesin holds sister chromatids together along their arms and at the centromere. During prophase and prometaphase, cohesin is removed from chromosome arms by a non-proteolytic pathway involving **Wapl** and **Pds5** proteins, but centromeric cohesin is protected by **Shugoshin (Sgo1)** and associated **PP2A phosphatase**, which dephosphorylate cohesin to prevent its removal.\n\nWhen separase is activated, it cleaves the **Rad21/Scc1 subunit** of centromeric cohesin, releasing sister chromatid cohesion simultaneously across all chromosomes. The sudden loss of cohesion, combined with the poleward pulling forces already established, causes sister chromatids to segregate to opposite poles.\n\n**Anaphase A** is characterized by:\n- Shortening of kinetochore microtubules (k-fibers) at both the kinetochore end (Pac-Man mechanism) and the pole end\n- Depolymerizing microtubule ends can couple to kinetochores and generate force. Kinesin-13 proteins regulate microtubule dynamics, but MCAK should not be treated as the universal motor responsible for anaphase chromosome movement\n- Chromosomes move toward the poles at approximately 1–2 μm/min\n\n### Anaphase B: Spindle Elongation\n\n**Anaphase B** involves elongation of the spindle itself, moving the poles further apart. Two mechanisms contribute:\n- **Sliding of antiparallel interpolar microtubules**: kinesin-5 motors crosslink overlapping antiparallel microtubules in the spindle midzone and slide them apart, pushing the poles outward\n- **Astral pulling**: cytoplasmic dynein anchored at the cell cortex pulls astral microtubules (and thus the poles) toward the cortex\n\nTogether, anaphase A and B ensure that the two sets of chromosomes are well separated before the cell divides.\n\n---\n\n## Telophase: Nuclear Envelope Reformation and Decondensation\n\nTelophase begins when chromosomes arrive at the poles and the cell prepares to reform two nuclei.\n\n### Nuclear Envelope Reassembly\n\nAs CDK1 activity falls (due to cyclin B degradation), the phosphorylation events that maintained nuclear envelope breakdown are reversed by phosphatases. Nuclear envelope reformation occurs in a stepwise manner:\n- ER tubules are recruited to the surface of decondensing chromosomes\n- **Importin-β** and **RanGTP** (concentrated around chromosomes due to the chromatin-associated **RCC1** guanine nucleotide exchange factor) help recruit nuclear envelope components\n- Nuclear pore complexes are inserted into the reforming envelope\n- **Lamins** reassemble to form the nuclear lamina\n\n### Chromosome Decondensation\n\nAs CDK1 is inactivated, condensin complexes are dephosphorylated and released from chromosomes, allowing chromatin to relax back into its interphase organization. Transcription gradually resumes.\n\n### The Spindle Midzone and Midbody\n\nWhile the nuclei reform at the poles, the region between the two separating chromosome masses—the **spindle midzone**—becomes an organized structure. Antiparallel microtubules in the midzone are bundled by **PRC1** (protein regulating cytokinesis 1) and **MKLP1** (a kinesin-6 motor). This midzone will develop into the **midbody**, a dense structure that marks the future cleavage site and coordinates cytokinesis.\n\n---\n\n## Cytokinesis: Division of the Cytoplasm\n\nWhile mitosis divides the nucleus, **cytokinesis** divides the cytoplasm, producing two separate daughter cells. In animal cells, cytokinesis occurs by **cleavage furrow ingression**, driven by a **contractile ring** of actin and myosin II.\n\n### Positioning the Cleavage Furrow\n\nThe cleavage furrow must form precisely at the cell equator, between the two sets of segregated chromosomes. Two models explain furrow positioning:\n\n**Astral stimulation model**: Astral microtubules from both poles deliver a positive signal to the equatorial cortex, stimulating contractile ring assembly.\n\n**Central spindle model**: The spindle midzone generates a positive signal that specifies the cleavage site. This model is now considered dominant. The **centralspindlin complex**—composed of **MKLP1** and **MgcRacGAP**—accumulates at the midzone and delivers the signal to the overlying cortex via its interaction with **Ect2**, a guanine nucleotide exchange factor (GEF) for **RhoA**.\n\n### RhoA: The Master Regulator of Cytokinesis\n\n**RhoA** is a small GTPase that is the central regulator of contractile ring assembly. The pathway is:\n\n1. Centralspindlin recruits **Ect2** to the equatorial cortex\n2. Ect2 activates RhoA by exchanging GDP for GTP\n3. Active RhoA (RhoA-GTP) activates two parallel effector pathways:\n   - **Formin (mDia)**: promotes actin filament nucleation and elongation, building the actin scaffold of the contractile ring\n   - **ROCK (Rho-associated kinase)**: phosphorylates **myosin light chain (MLC)**, activating myosin II ATPase activity and enabling myosin to exert contractile force on actin filaments\n\nThe contractile ring is a transient actomyosin structure beneath the equatorial plasma membrane; its dimensions and organization vary with cell type.\n\n### Contractile Ring Assembly and Ingression\n\nThe contractile ring contains:\n- **Actin filaments (F-actin)**, including linear filaments nucleated by formins\n- **Myosin II bipolar filaments**\n- **Anillin**: a scaffolding protein that crosslinks actin, myosin, and the membrane; binds both RhoA and septins\n- **Septins**: GTP-binding proteins that form filaments and rings, providing structural support and acting as a diffusion barrier at the cleavage furrow\n\nOnce assembled, myosin II uses ATP hydrolysis to slide actin filaments past one another, constricting the ring like a purse string. As the ring contracts, it pulls the overlying plasma membrane inward, forming the **cleavage furrow**. Ring constriction involves force generation and turnover of actin and myosin; thickness and remodeling behavior are not identical in every cell type.\n\nIngression proceeds until the two daughter cells are connected by a thin intercellular bridge containing the **midbody**.\n\n### Abscission: The Final Cut\n\nThe final step of cytokinesis is **abscission**—the physical severing of the intercellular bridge to produce two independent cells.\n\nAbscission is coordinated by the **ESCRT (Endosomal Sorting Complexes Required for Transport)** machinery, particularly **ESCRT-III**. ESCRT-III subunits (especially CHMP4B and CHMP2A) polymerize into helical filaments within the midbody arms and constrict the membrane tubule from the inside, ultimately severing it. The **Vps4 AAA-ATPase** uses ATP hydrolysis to disassemble ESCRT-III filaments, driving the constriction process.\n\nThe **abscission checkpoint** (also called the **NoCut checkpoint**) delays abscission if lagging chromosomes are detected in the intercellular bridge, preventing chromosome damage. **Aurora B** kinase is central to this checkpoint as well, phosphorylating CHMP4C (an ESCRT-III subunit) to inhibit abscission until chromosomes are fully cleared.\n\n---\n\n## Plant Cell Cytokinesis: A Different Mechanism\n\nIt is worth noting that plant cells, which have rigid cell walls, cannot divide by cleavage furrow ingression. Instead, plant cells build a new cell wall between daughter cells via the **cell plate** mechanism:\n\n- Golgi-derived vesicles carrying cell wall materials are transported to the cell equator along the **phragmoplast** (a plant-specific structure of antiparallel microtubules and actin)\n- Vesicles fuse to form a membrane-bound compartment—the **cell plate**—which grows centrifugally from the center outward\n- The cell plate eventually fuses with the parental plasma membrane, completing cell division\n\nThis is a fundamentally different mechanism from animal cytokinesis, though both ultimately achieve the same goal.\n\n---\n\n## Regulation and MCAT Relevance\n\n### CDK1–Cyclin B as the Master Mitotic Kinase\n\n**CDK1** (cyclin-dependent kinase 1) paired with **cyclin B** constitutes **MPF (maturation-promoting factor)**, the master regulator of mitotic entry. CDK1–cyclin B phosphorylates dozens of substrates to drive mitotic events:\n- Condensin activation → chromosome condensation\n- Lamins → nuclear envelope breakdown\n- Golgi fragmentation\n- Centrosome maturation\n\nCDK1 activity is maintained throughout mitosis and then rapidly extinguished at the metaphase-to-anaphase transition when APC/C^Cdc20 ubiquitinates cyclin B for proteasomal degradation.\n\n### Pharmacological Relevance\n\nSeveral clinically important drugs target mitosis:\n- **Taxanes** (paclitaxel, docetaxel): stabilize microtubules, preventing depolymerization; arrest cells in mitosis by preventing spindle dynamics necessary for chromosome segregation\n- **Vinca alkaloids** (vincristine, vinblastine): bind tubulin dimers and prevent polymerization; also arrest cells in mitosis\n- **Colchicine**: binds β-tubulin and prevents polymerization; used in gout treatment and also exploited in research\n\nThese drugs are clinically relevant because rapidly dividing cancer cells are disproportionately affected, though they also affect other proliferating tissues (explaining side effects like bone marrow suppression and GI toxicity).\n\n### Errors in Mitosis and Disease\n\n**Chromosomal instability (CIN)** is a hallmark of many cancers, often arising from defects in the spindle assembly checkpoint, kinetochore–microtubule attachment error correction, or centrosome duplication. Cells that bypass the SAC can undergo **aneuploidy**—incorrect chromosome number—which can lead to loss of tumor suppressors or amplification of oncogenes.\n\n**Multinucleation** can result from failed cytokinesis in some cells. Skeletal muscle fibers and osteoclasts, however, normally become multinucleated mainly through cell fusion; they are not examples of failed cytokinesis.\n\n---\n\n## Summary of Key Events by Stage\n\n- **Prophase**: chromosome condensation (condensin), centrosome separation (kinesin-5), spindle nucleation (γ-TuRC/γ-tubulin), nuclear envelope breakdown (CDK1 phosphorylates lamins)\n- **Prometaphase**: kinetochore–microtubule attachment (Ndc80 complex), error correction (Aurora B), SAC activation (MCC inhibits APC/C)\n- **Metaphase**: chromosome alignment at metaphase plate, SAC satisfaction, APC/C^Cdc20 activation\n- **Anaphase A**: cohesin cleavage by separase (securin degraded), chromosome-to-pole movement (k-fiber shortening)\n- **Anaphase B**: spindle elongation (kinesin-5 sliding, dynein pulling)\n- **Telophase**: nuclear envelope reassembly (lamin dephosphorylation), chromosome decondensation, midzone/midbody formation\n- **Cytokinesis**: RhoA activation by Ect2/centralspindlin, contractile ring assembly (formin, myosin II via ROCK), furrow ingression, abscission (ESCRT-III, Vps4)\n\n---\n\n## High-Yield Points for the MCAT\n\n- Sister chromatids are held together by **cohesin**; their separation at anaphase requires **separase**, which is activated by degradation of **securin** via **APC/C^Cdc20**\n- The **spindle assembly checkpoint** monitors kinetochore attachment; unattached kinetochores produce **MCC** (containing **Mad2**) to inhibit APC/C\n- **Aurora B** at the inner centromere corrects improper kinetochore–microtubule attachments by phosphorylating outer kinetochore components when tension is absent\n- **CDK1–cyclin B** drives mitotic entry; cyclin B degradation by APC/C drives mitotic exit\n- Cytokinesis in animal cells requires **RhoA**, **formin** (actin polymerization), and **ROCK–myosin II** (contraction); the cleavage site is specified by **centralspindlin** and **Ect2**\n- **Taxanes** stabilize microtubules; **vinca alkaloids** destabilize them; both arrest cells in mitosis\n- Plant cells use a **cell plate** mechanism rather than a contractile ring\n\nMastery of these mechanisms—particularly the molecular logic of checkpoint control, the forces driving chromosome movement, and the contractile ring pathway—will allow you to reason through novel experimental scenarios and clinically framed questions on the MCAT."
+    },
+    {
+      "field": "questions.301.explanation",
+      "value": "Preventing tubulin polymerization disrupts spindle formation, so condensed chromosomes cannot align normally. The actomyosin ring itself uses actin and myosin rather than tubulin, but microtubules also help position and regulate cytokinesis. Thus spindle failure can indirectly disrupt cytokinesis; failure of alignment is the most direct listed outcome."
+    },
+    {
+      "field": "questions.302.explanation",
+      "value": "The checkpoint restrains the metaphase-to-anaphase transition and is active during prometaphase as well. Unattached kinetochores catalyze MCC production, inhibiting APC/C–Cdc20. Proper attachments usually silence this signal, but some merotelic attachments escape detection. DNA-replication surveillance is a different checkpoint."
+    },
+    {
+      "field": "questions.303.question_text",
+      "value": "A human somatic cell (normal haploid number n = 23) undergoes normal mitosis. At anaphase, 46 chromosomes move toward each pole. What was its ploidy before S phase, and how many chromosomes will each daughter cell contain?"
+    },
+    {
+      "field": "questions.304.question_text",
+      "value": "In an animal-cell experiment, a selective myosin II inhibitor blocks furrow ingression while spindle function remains intact. Which explanation best accounts for this result?"
+    }
+  ]
+}

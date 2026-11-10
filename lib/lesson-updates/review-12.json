@@ -1,0 +1,196 @@
+{
+  "lessonId": 12,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Full text and five quiz questions read. Targeted scientific review; source-specific corrections and explanatory diagrams are not an exhaustive certification. Claims about exam frequency are not independently verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "The iron atom forms six coordination bonds.",
+      "new": "Heme iron has six potential coordination positions. In deoxy globins the sixth site is unoccupied; O₂ occupies it in oxy globins.",
+      "reason": "Five-coordinate deoxy heme.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "while simultaneously preventing the iron from being irreversibly oxidized to Fe³⁺ (the **methemoglobin** or met-form, which cannot carry oxygen).",
+      "new": "and helps limit autoxidation. Oxidation can still occur: ferric myoglobin is **metmyoglobin**, while ferric hemoglobin is **methemoglobin**. Ferric heme cannot reversibly carry O₂, and enzymatic reduction can restore Fe²⁺.",
+      "reason": "Correct preventionirreversibility andmyoglobinname.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK537317/"
+    },
+    {
+      "field": "content",
+      "old": "**Michaelis-Menten-like saturation kinetics**",
+      "new": "**one-site equilibrium binding**",
+      "reason": "Equilibrium not enzyme kinetics.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "Salt bridges are broken,",
+      "new": "Some salt bridges and other contacts reorganize,",
+      "reason": "Not all saltbridgesbreak.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "This is *physiologically ideal*. A hyperbolic protein with hemoglobin's P₅₀ would not load as efficiently at the lungs and would not unload as efficiently at the tissues. The sigmoidal curve is an evolutionary solution to the problem of efficient O₂ transport.",
+      "new": "Cooperativity makes the transition between low and high saturation steeper. With illustrative values P₅₀ = 26 mmHg and Hill n = 2.8, saturation falls from about 98% at 100 mmHg to 77% at 40 mmHg, a release of about 21 percentage points. A hyperbola with the same P₅₀ gives about 79% and 61%, respectively. At pressures below P₅₀, the cooperative curve falls more sharply. Compare saturation differences rather than claiming lower tissue saturation at every pressure.",
+      "reason": "SameP50hyperbola actuallylowerat40; correctcomparison.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "A theoretical maximum of n = 4 would indicate perfect cooperativity (all four sites bind simultaneously).",
+      "new": "For an equilibrium four-site system, n = 4 is a limiting slope associated with extreme cooperativity; it does not prove four simultaneous molecular collisions.",
+      "reason": "Hillcoefficientnotliteralbindingevent.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "pH drops (from ~7.4 in arterial blood to ~7.2 in venous blood of active tissue)",
+      "new": "Local pH can decrease during intense activity; normal resting mixed venous blood is only slightly more acidic than arterial blood",
+      "reason": "Do not imply7.2normalvenous.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "Approximately 10–15% of CO₂ transport occurs this way; the majority (~70%) is transported as bicarbonate (HCO₃⁻) in plasma, and about 5–10% is dissolved CO₂.",
+      "new": "CO₂ is transported mainly as bicarbonate, with smaller carbamino and dissolved fractions. Proportions vary with conditions and whether total content or arteriovenous transport is measured.",
+      "reason": "Avoid non-summingfixedfractions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "(five negative charges at physiological pH)",
+      "new": "(strongly negatively charged near physiological pH)",
+      "reason": "Microstatecharges vary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "Without 2,3-BPG, hemoglobin's P₅₀ would be approximately 1 mmHg—similar to myoglobin—and it would fail to release adequate O₂ at tissue pO₂ levels. Physiological 2,3-BPG raises P₅₀ to ~26 mmHg, making hemoglobin a functional oxygen *transporter* rather than just an oxygen *storage* protein.",
+      "new": "Removing 2,3-BPG increases hemoglobin’s oxygen affinity. The magnitude depends on pH, temperature and other ions; do not treat a P₅₀ of 1 mmHg as a universal value for BPG-free hemoglobin.",
+      "reason": "Other effectors determineP50.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "Conversely, **stored blood** (for transfusion) rapidly loses 2,3-BPG because red blood cells continue metabolizing it but cannot resynthesize it in storage conditions. Transfused blood initially has very high O₂ affinity and poor tissue delivery; 2,3-BPG levels normalize within 24–48 hours post-transfusion.",
+      "new": "During conventional refrigerated storage, red-cell 2,3-BPG commonly declines, increasing oxygen affinity. The size and recovery of the change depend on storage and transfusion conditions; it is not evidence that stored cells can never resynthesize BPG or that every transfusion provides poor tissue oxygenation.",
+      "reason": "Avoid absolutes andclinicaloutcomeinference.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4770563/"
+    },
+    {
+      "field": "content",
+      "old": "This single amino acid difference means HbF binds 2,3-BPG *less avidly* than HbA.",
+      "new": "This difference contributes to weaker 2,3-BPG interactions in HbF; γ- and β-globin differ at other positions too.",
+      "reason": "HbFnotonlyonedifference.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "at any given 2,3-BPG concentration",
+      "new": "under typical physiological conditions",
+      "reason": "Not universalforallBPG.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "**Carboxyhemoglobin (HbCO)** is cherry-red in color, which is why CO poisoning victims may appear flushed rather than cyanotic—a clinically important point.",
+      "new": "**Carboxyhemoglobin (HbCO)** has a red color, but cherry-red skin is uncommon in living patients and is not a reliable way to recognize CO poisoning.",
+      "reason": "Clinicalsignrare.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK557888/"
+    },
+    {
+      "field": "content",
+      "old": "Treatment with **100% O₂** (or hyperbaric O₂) works by mass action: flooding the system with O₂ to competitively displace CO.",
+      "new": "Clinicians use high-concentration oxygen to accelerate CO elimination and support oxygenation; hyperbaric oxygen is considered in selected cases rather than automatically for every exposure.",
+      "reason": "Scope treatment andHBOT.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK557888/"
+    },
+    {
+      "field": "content",
+      "old": "Acquired methemoglobinemia (from nitrates, dapsone, etc.) is treated with **methylene blue**, which provides reducing equivalents to regenerate Fe²⁺.",
+      "new": "For selected clinically significant acquired cases, clinicians may use **methylene blue**, which works through an NADPH-dependent reduction pathway. It is not appropriate for every case; G6PD deficiency and interacting medicines require particular consideration.",
+      "reason": "Methylene blue notuniversallyappropriate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK537317/"
+    },
+    {
+      "field": "content",
+      "old": "**Homotropic allostery:** The ligand itself (O₂) is both the substrate and the allosteric effector.",
+      "new": "**Homotropic allostery:** Binding of the same ligand (O₂) at one site influences its binding at other sites. Hemoglobin binds O₂ rather than catalytically consuming it as an enzyme substrate.",
+      "reason": "Oxygenisligandnotenzymesubstrate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "Other molecules (H⁺, CO₂, 2,3-BPG, CO) modulate O₂ affinity by binding at *different* sites.",
+      "new": "Other molecules such as H⁺, CO₂ and 2,3-BPG modulate O₂ affinity through sites distinct from the heme O₂-binding site. CO is a different ligand but competes at heme and influences remaining sites.",
+      "reason": "COsamehemebinding site.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "increased temperature, increased 2,3-BPG, CO binding to some subunits.",
+      "new": "increased temperature and increased 2,3-BPG. CO reduces available sites and shifts remaining O₂ binding left, not right.",
+      "reason": "Correctdirectlycontradictory COshift.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK557888/"
+    },
+    {
+      "field": "content",
+      "old": "If a curve is hyperbolic, the protein is not exhibiting cooperativity.",
+      "new": "A simple hyperbola is consistent with independent binding; curve shape alone does not establish every microscopic mechanism.",
+      "reason": "Avoid overclaim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "**Allosteric effectors do not bind at the active site** (in hemoglobin, the active site is the heme iron). They bind elsewhere and communicate through conformational changes.",
+      "new": "**Heterotropic regulators such as 2,3-BPG bind away from heme.** O₂ itself produces homotropic cooperativity by occupying heme sites, and CO also binds heme.",
+      "reason": "Allosterydoesnotexcludehomotropicligand.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "content",
+      "old": "**Quaternary structure is required for cooperativity.**",
+      "new": "**Hemoglobin’s equilibrium cooperativity depends on communication among its sites.** Cooperativity in general does not require separate polypeptide chains.",
+      "reason": "Monomericmultisitedomaincooperativitypossible.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "Fetal hemoglobin demonstrates how a single amino acid difference can have profound physiological consequences.",
+      "new": "Fetal hemoglobin demonstrates how differences in globin sequence and effector interactions change oxygen affinity.",
+      "reason": "Morethanonegamma difference.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "questions.56.explanation",
+      "old": "The sigmoidal curve of hemoglobin results from cooperative binding: binding of one oxygen molecule increases the affinity of the remaining subunits, a property enabled by its tetrameric quaternary structure and the T-to-R state transition. Myoglobin is monomeric and binds oxygen non-cooperatively, producing a hyperbolic curve. Choice A is partially true at low PO2 but does not explain the shape difference. Choice D describes a functional consequence but not the mechanistic explanation for curve shape.",
+      "new": "B links hemoglobin’s interacting heme sites to its cooperative curve; myoglobin has a single site and noncooperative binding. Affinity alone does not establish curve shape. D is incorrect because myoglobin generally holds oxygen more tightly, rather than releasing it more readily than hemoglobin at the same oxygen pressure.",
+      "reason": "Dwasmisleadinglycalledfunctionalconsequence.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "questions.57.question_text",
+      "old": "During intense exercise, actively respiring muscle cells produce CO2 and lactic acid, lowering local pH. How does this environment affect hemoglobin's oxygen-carrying function?",
+      "new": "During intense exercise, local CO₂ rises and pH decreases in active muscle. How does lower pH affect hemoglobin’s oxygen-binding function?",
+      "reason": "Avoidsimplelactatecausesallacidosisclaim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "questions.58.explanation",
+      "old": "this adaptation ensures adequate tissue oxygenation despite reduced oxygen loading.",
+      "new": "this change can favor unloading, but does not guarantee adequate oxygen delivery; lung loading, blood flow and hemoglobin concentration also matter.",
+      "reason": "No guaranteedaltitudeoxygenation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK54103/"
+    },
+    {
+      "field": "questions.60.question_text",
+      "old": "A patient is found to have a hemoglobin variant in which a valine residue in the hydrophobic core of the beta subunit is replaced by a glutamic acid. Which of the following outcomes is most likely?",
+      "new": "A buried valine in a hemoglobin β-subunit is replaced by glutamate. Assume the glutamate remains negatively charged and no compensating interaction forms. Which outcome is most likely?",
+      "reason": "Specifychargeassumptions.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8003958/"
+    }
+  ]
+}

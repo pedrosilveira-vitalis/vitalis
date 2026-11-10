@@ -1,0 +1,196 @@
+{
+  "lessonId": 54,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "ΔV is the electrical potential difference across the membrane",
+      "new": "ΔV = V₂ − V₁ is the destination-minus-source electrical potential difference across the membrane",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "content",
+      "old": "if a question tells you a molecule moves from low to high concentration, that is active transport. If it moves from high to low, it is passive—regardless of whether a protein is involved.",
+      "new": "classify ion movement using the combined electrochemical gradient, not concentration alone. An ion can move passively against its concentration gradient if a stronger electrical gradient favors that direction.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "content",
+      "old": "and lipid-soluble hormones (steroid hormones, thyroid hormones) diffuse freely.",
+      "new": "diffuse readily. Many steroid hormones can cross the bilayer; thyroid hormone uptake importantly uses transporters such as MCT8 and should not be classified simply as free lipid diffusion.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK285565/"
+    },
+    {
+      "field": "content",
+      "old": "J = −P × A × ΔC",
+      "new": "Rate₁→₂ = P × A × (C₁ − C₂)",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "content",
+      "old": "Where J is the flux (amount of substance crossing per unit time), P is the **permeability coefficient** of the membrane for that solute, A is the surface area, and ΔC is the concentration difference across the membrane.",
+      "new": "Here Rate is the net amount crossing per time, P is the permeability coefficient, and A is area. Flux density (amount per area per time) is Rate/A. This expression assumes a constant permeability and defines positive movement from compartment 1 to 2.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "content",
+      "old": "Flux increases linearly with concentration gradient indefinitely.",
+      "new": "The simple constant-permeability model is linear; extrapolating indefinitely ignores changes in activity, membrane properties and other physical limits.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "content",
+      "old": "Human plasma osmolarity is approximately **290–310 mOsm/L**",
+      "new": "Typical plasma osmolality is approximately **275–295 mOsm/kg**; osmolarity uses volume rather than solvent mass, so the units are not interchangeable",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK541095/"
+    },
+    {
+      "field": "content",
+      "old": "Normal saline (0.9% NaCl) and 5% dextrose in water are approximately isotonic to human red blood cells.",
+      "new": "Normal saline (0.9% NaCl) is approximately isotonic. Dextrose 5% in water is not a sustained isotonic solution in vivo: after glucose uptake/metabolism it supplies free water.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK500033/"
+    },
+    {
+      "field": "content",
+      "old": "A classic MCAT trap: urea is an *penetrating* solute for most cells. A solution of urea that is hyperosmolar relative to cells is actually *isotonic* in terms of tonicity, because urea equilibrates across the membrane and does not create a sustained osmotic gradient. This is why urea is not effective at drawing water out of cells the way NaCl or mannitol would be.",
+      "new": "A penetrating solute can contribute to osmolarity without maintaining tonicity. For example, a solution containing only urea can be hyperosmolar yet hypotonic to a cell that readily takes up urea, leading eventually to swelling. Urea added to otherwise isotonic saline does not make the same prediction: the nonpenetrating solutes still matter. Permeability, time and hydrostatic pressure must be specified.",
+      "reason": "Correct scope or mechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK541095/"
+    },
+    {
+      "field": "content",
+      "old": "which draws fluid back into the capillary.",
+      "new": "which opposes filtration. Sustained venous-end reabsorption is not universal; lymphatic return is important in steady-state fluid balance.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/sites/books/NBK500033/"
+    },
+    {
+      "field": "content",
+      "old": "Aquaporins allow water to move at rates orders of magnitude faster than simple diffusion, while excluding ions and other solutes (the channel is too narrow and has specific hydrogen-bonding requirements that prevent ion passage).",
+      "new": "Water-selective aquaporins greatly increase water permeability while excluding ions. Some family members are aquaglyceroporins and also conduct small neutral solutes such as glycerol; not every aquaporin is water-only.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/mesh/68051397"
+    },
+    {
+      "field": "content",
+      "old": "The key kinetic difference from simple diffusion is **saturability**. Because facilitated diffusion depends on a finite number of protein binding sites or channel openings, the transport rate does not increase indefinitely with concentration gradient. Instead, it follows **Michaelis-Menten kinetics** (analogous to enzyme kinetics):",
+      "new": "Carrier-mediated facilitated diffusion often shows a saturating transport curve because binding sites and turnover are finite. Under appropriate conditions a Michaelis–Menten-like model is useful. Ion-channel currents instead depend on conductance, gating and electrochemical driving force; they do not universally obey this carrier kinetic model.",
+      "reason": "Correct scope or mechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "content",
+      "old": "which reflects the affinity of the transporter for its substrate.",
+      "new": "which is an apparent kinetic parameter; it is not necessarily the substrate dissociation constant or a pure binding-affinity measurement.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "content",
+      "old": "**Leak channels (non-gated)**: always open;",
+      "new": "**Leak/background channels**: contribute conductance at rest; their open probability can still be regulated;",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "content",
+      "old": "A **uniporter** is a carrier that moves a single type of molecule in one direction, down its concentration gradient, with no coupling to other solutes or to energy.",
+      "new": "A **uniporter** carries one solute type without obligatorily coupling it to another. A passive uniporter can transport in either direction; the gradient determines net flux.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "content",
+      "old": "- **GLUT2**: low affinity (Km ~15–20 mM); high capacity; found in liver, pancreatic β-cells, kidney, and small intestine. In the pancreatic β-cell, GLUT2 acts as a glucose sensor—because its Km is high, glucose transport rate reflects blood glucose concentration over the physiological range, linking blood glucose to insulin secretion.",
+      "new": "- **GLUT2**: a relatively high-Km, high-capacity transporter in liver and basolateral intestinal/renal membranes. Rodent β-cells prominently express GLUT2, whereas human β-cells predominantly express GLUT1. Glucokinase-dependent metabolism is central to glucose sensing; GLUT2 alone is not the universal human β-cell sensor.",
+      "reason": "Correct scope or mechanism.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/38775784/"
+    },
+    {
+      "field": "content",
+      "old": "All GLUT transporters move glucose *down* its concentration gradient—from high to low concentration—without any energy input. In the intestinal lumen after a meal, luminal glucose is high and intracellular glucose is low, so GLUT2 (and GLUT5 for fructose) on the basolateral side of enterocytes moves glucose into the blood. Note that glucose *entry* into enterocytes from the lumen uses a different mechanism—the sodium-glucose cotransporter SGLT1—which is secondary active transport, not facilitated diffusion.",
+      "new": "The GLUT/SLC2 family has differing substrate preferences; GLUT5 primarily transports fructose. In the intestine, apical SGLT1 takes up glucose/galactose using the Na⁺ gradient, apical GLUT5 takes up fructose by facilitated diffusion, and basolateral GLUT2 permits sugar exit down the enterocyte-to-interstitial gradient. Luminal concentration alone does not determine flux across the basolateral membrane.",
+      "reason": "Correct scope or mechanism.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8112322/"
+    },
+    {
+      "field": "content",
+      "old": "Carriers—GLUT transporters, CFTR (which is actually an ion channel despite being in the ABC transporter family—a notable exception).",
+      "new": "Carriers—GLUT transporters. CFTR belongs with channels despite its ABC-family ancestry.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "content",
+      "old": "Benzodiazepines and barbiturates enhance Cl⁻ flux through GABA_A receptor channels (ligand-gated), hyperpolarizing neurons and producing sedation.",
+      "new": "Benzodiazepines and barbiturates enhance GABA_A receptor-mediated inhibition. Its voltage effect depends on the anion gradient; inhibition can involve shunting as well as hyperpolarization.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "content",
+      "old": "carrier proteins/uniporters (slower, conformational change, saturable); follows Michaelis-Menten kinetics;",
+      "new": "carrier proteins/uniporters (slower, conformational change, saturable); carrier kinetics may be Michaelis–Menten-like, but this is not a universal channel law;",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "content",
+      "old": "**Distinguishing features of facilitated diffusion**: saturability, substrate specificity, competitive inhibition by structural analogs, and sensitivity to protein-denaturing conditions—all features absent from simple diffusion.",
+      "new": "**Carrier evidence**: saturability, substrate specificity and inhibition by structural analogs support carrier-mediated transport. Channels need a different kinetic analysis, and protein involvement alone does not establish whether transport is passive or active.",
+      "reason": "Correct scope or mechanism; remove misleading absolute wording.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26896/"
+    },
+    {
+      "field": "questions.266.question_text",
+      "old": "A researcher places a red blood cell into a solution and observes that it lyses. Which of the following best explains the thermodynamic driving force for the water movement that caused lysis?",
+      "new": "An otherwise intact red blood cell is placed in a hypotonic solution of nonpenetrating solutes and swells until it lyses. What drives the initial water entry?",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "questions.266.choice_a",
+      "old": "Water moved down its concentration gradient from the hypotonic solution into the cell, increasing cell volume until the membrane ruptured.",
+      "new": "Water moves into the cell down its chemical-potential gradient because the external effective solute concentration is lower.",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "questions.266.explanation",
+      "old": "Lysis occurs when a cell is placed in a hypotonic solution, meaning the solute concentration outside is lower than inside the cell. Water moves by osmosis down its own concentration gradient from the region of higher water concentration (lower solute, outside) into the region of lower water concentration (higher solute, inside). This is a passive, thermodynamically favorable process driven by the free energy difference. Choice D is incorrect because if the external solution were hypertonic, water would leave the cell, causing crenation, not lysis.",
+      "new": "With no opposing hydrostatic-pressure difference, the hypotonic external solution favors net water entry. The membrane eventually ruptures if swelling exceeds its capacity. Tonicity depends on effectively nonpenetrating solutes, not simply all particles counted in osmolarity.",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "questions.267.explanation",
+      "old": "Simple diffusion through the lipid bilayer is governed by a molecule's ability to dissolve in the hydrophobic core. Small nonpolar gases like O2 or CO2 pass freely because they are lipid-soluble. Charged ions are hydrophilic and face a large energetic barrier crossing the hydrophobic interior, so they require protein channels or carriers for facilitated diffusion. Both processes are still passive and driven by the concentration gradient; no ATP is consumed. Choice A incorrectly assumes the thermodynamic driving force alone is sufficient to overcome the permeability barrier for ions.",
+      "new": "Small nonpolar gases can traverse the lipid core readily. Ions face a large energetic barrier and need an appropriate membrane protein for appreciable transport. Gas flux follows its chemical gradient; passive ion flux follows its combined electrical and chemical gradients. Higher external ion concentration alone does not establish the direction of net ion flow.",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "questions.269.question_text",
+      "old": "Two compartments are separated by a semipermeable membrane permeable only to water. Compartment A contains 0.1 M NaCl and Compartment B contains 0.1 M glucose. Assuming complete dissociation of NaCl, what will happen over time?",
+      "new": "Two initially equal-pressure compartments are separated by a membrane permeable only to water. A contains 0.1 M NaCl and B contains 0.1 M glucose. Assume ideal behavior and complete NaCl dissociation. What is the initial net water movement?",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    },
+    {
+      "field": "questions.270.question_text",
+      "old": "A researcher studies a mutant cell line in which aquaporin channels are nonfunctional. Compared to wild-type cells, how would these mutant cells respond when transferred from isotonic to hypotonic medium?",
+      "new": "Two otherwise identical intact cells differ only in aquaporin function. They enter a mildly hypotonic medium. Assume no lysis, solute transport or active volume regulation. How does aquaporin loss change their response?",
+      "reason": "Align quiz with the corrected mechanism and explicit assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+    }
+  ]
+}

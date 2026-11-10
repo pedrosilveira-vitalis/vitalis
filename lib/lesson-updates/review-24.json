@@ -1,0 +1,308 @@
+{
+  "lessonId": 24,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Most allosteric enzymes are **oligomeric** (composed of multiple subunits) and display **sigmoidal kinetics** rather than the hyperbolic curve of Michaelis-Menten enzymes. This sigmoidal behavior means the enzyme is exquisitely sensitive to small changes in substrate or effector concentration near its K₀.₅ (the concentration giving half-maximal velocity). Allosteric activators shift the curve leftward (increase apparent affinity), while inhibitors shift it rightward (decrease apparent affinity). This switch-like behavior is ideal for metabolic control because it allows near-binary on/off responses to physiological signals.",
+      "new": "Many textbook allosteric systems are oligomeric and show sigmoid rate curves, but neither feature defines allostery. Glucokinase is monomeric yet kinetically cooperative. Effectors may change S₀.₅, maximal rate or both; they do not all produce simple left/right shifts or binary switches.",
+      "reason": "Avoiduniversalcurveandsubunitclaims.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "**Feedback inhibition** is a specific form of allosteric regulation",
+      "new": "**Feedback inhibition** is pathway-level regulation, often allosteric,",
+      "reason": "Feedbacknotallosterysynonym.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Hexokinase catalyzes the first committed step of glycolysis:",
+      "new": "Hexokinase catalyzes the first step, but not the committed step, of glycolysis:",
+      "reason": "DirectcontradictionwithPFK1.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "There are four mammalian hexokinase isoforms (HK I–IV)",
+      "new": "The four classic mammalian hexokinase isoforms are HK I–IV",
+      "reason": "AvoidexhaustiveclaimwithHKDC1.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "Low Km means these isoforms are *always nearly saturated* at physiological glucose concentrations",
+      "new": "Low glucose Km allows high fractional activity at relatively low intracellular glucose; saturation still depends on substrate availability",
+      "reason": "Bloodglucose≠intracellalways.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "Low maximum velocity (Vmax); they phosphorylate glucose at a slow, steady rate",
+      "new": "Their catalytic properties differ from glucokinase; total tissue Vmax also depends on enzyme abundance",
+      "reason": "Vmaxnotintrinsicrateconstant.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Low affinity for glucose: Km ≈ 10 mM (near or above fasting blood glucose)",
+      "new": "Higher glucose S₀.₅ (often about 7–10 mM); because kinetics are sigmoidal, a simple Michaelis constant is not the best descriptor",
+      "reason": "GCKnonMM.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "High Vmax; operates as a **glucose sensor**",
+      "new": "Supports glucose-responsive phosphorylation; cellular capacity depends on expression and regulation",
+      "reason": "Vmaxcontext.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "Induced by insulin at the transcriptional level",
+      "new": "Hepatic expression is promoted by insulin; pancreatic regulation differs",
+      "reason": "Tissuespecific.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "rises well above 5 mM, saturating glucokinase and driving rapid glucose phosphorylation",
+      "new": "rises, increasing glucokinase activity and glucose phosphorylation without necessarily saturating it",
+      "reason": "PostprandialnotnecessarilyVmax.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "the molecule is irreversibly committed to glycolysis—it cannot be diverted to glycogen synthesis or the pentose phosphate pathway",
+      "new": "the reaction is conventionally a committed step, although later intermediates can enter biosynthesis and gluconeogenic bypasses can reverse net carbon flow",
+      "reason": "No literalonewayallfates.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**H⁺ (low pH)** — Lactic acidosis, which occurs during intense anaerobic exercise, lowers cytoplasmic pH and inhibits PFK-1. This is a protective mechanism: excessive lactate production would further acidify the cytoplasm, so PFK-1 inhibition by H⁺ provides a negative feedback loop.",
+      "new": "**H⁺ (low pH)** can inhibit PFK-1, especially relevant in contracting muscle. Lactate accumulation can accompany acidosis, but the LDH reaction consumes H⁺; it is not correct to explain acidification simply as lactate production releasing protons. ATP turnover, ion handling and buffering contribute.",
+      "reason": "Correctlactateacidificationmechanism.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15308499/"
+    },
+    {
+      "field": "content",
+      "old": "essentially turning PFK-1 fully \"on.\"",
+      "new": "increasing activity under those conditions; other regulators and substrate supply still matter.",
+      "reason": "Notbinaryfullon.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    },
+    {
+      "field": "content",
+      "old": "Which activity dominates depends on the phosphorylation state of a single serine residue:",
+      "new": "In the classic liver isoform, phosphorylation changes the balance between the two activities. The following model is not universal: phosphorylation can activate kinase activity in heart isoforms.",
+      "reason": "Liverheartopposite.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "content",
+      "old": "on Ser32",
+      "new": "at the classic liver regulatory site (Ser32 in the rat liver numbering)",
+      "reason": "Speciesnumbering.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "content",
+      "old": "## Pyruvate Kinase: The Final Committed Step",
+      "new": "## Pyruvate Kinase: The Final ATP-Producing Step",
+      "reason": "Committedtermreservedupstream.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "generates one of the two net ATP molecules per glucose in glycolysis",
+      "new": "generates two ATP per glucose because two PEP molecules are processed",
+      "reason": "Originalunder-count.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Like PFK-1, pyruvate kinase is allosterically regulated and subject to hormonal control.",
+      "new": "Regulation depends on the pyruvate-kinase isoform; the following hormonal example concerns liver L-PK.",
+      "reason": "Notallisoforms.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687410/"
+    },
+    {
+      "field": "content",
+      "old": "also called *substrate-level activation* or *precursor activation*",
+      "new": "an upstream metabolite activating a downstream enzyme",
+      "reason": "AvoidconfusingwithSLP.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687410/"
+    },
+    {
+      "field": "content",
+      "old": "the substrate two steps upstream of PEP",
+      "new": "an intermediate several reactions upstream of PEP",
+      "reason": "Incorrectdistance.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "- **Acetyl-CoA** — Signals that fatty acid oxidation is providing adequate substrate for the TCA cycle; no need to push more pyruvate through.",
+      "new": "- **Scope:** ATP and alanine are established inhibitors in the classic human liver PK model. Do not assume every metabolite or pyruvate-kinase isoform has the same regulation.",
+      "reason": "RemoveunsupporteduniversalacetylCoArole.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687410/"
+    },
+    {
+      "field": "content",
+      "old": "Like PFK-1, hepatic pyruvate kinase is regulated by **cAMP-dependent phosphorylation**:",
+      "new": "Hepatic L-pyruvate kinase is directly regulated by **PKA-dependent phosphorylation**. In the pathway above, PFK-1 is regulated indirectly through PFK-2/FBPase-2 and F2,6BP:",
+      "reason": "PFK1notdirectPKAtargethere.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "content",
+      "old": "3. Rising F6P activates PFK-2 further, creating a positive feedforward loop",
+      "new": "3. Greater F6P availability supplies substrate for PFK-2; substrate supply is distinct from allosteric feedforward activation",
+      "reason": "Substratevsregulator.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "content",
+      "old": "5. AMP/ADP rise if glucose uptake is rapid → further PFK-1 activation",
+      "new": "5. AMP/ADP depend on the balance of ATP production and use; rapid glucose uptake alone does not require their concentrations to rise",
+      "reason": "Unfoundedcausalchain.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/4972613/"
+    },
+    {
+      "field": "content",
+      "old": "glycolysis runs at maximal flux",
+      "new": "hepatic glycolytic flux generally increases, but need not reach its maximum",
+      "reason": "Notguaranteedmaximum.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    },
+    {
+      "field": "content",
+      "old": "ATP is rapidly consumed → ADP and AMP accumulate → PFK-1 and pyruvate kinase activated",
+      "new": "ATP turnover increases; AMP/ADP can help stimulate PFK-1. Skeletal-muscle PK regulation differs from the liver model",
+      "reason": "MuscleM1notliverallostery.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687410/"
+    },
+    {
+      "field": "content",
+      "old": "Citrate inhibition of PFK-1 is overridden by the surge in AMP and F2,6BP",
+      "new": "The net PFK-1 response depends on effectors, pH and isoform; F2,6BP need not surge in every skeletal-muscle exercise setting",
+      "reason": "Notuniversalexercisehormonepattern.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    },
+    {
+      "field": "content",
+      "old": "Accumulating lactate (from anaerobic conditions) lowers pH → eventually inhibits PFK-1, providing a ceiling on anaerobic glycolysis",
+      "new": "Low intracellular pH can inhibit PFK-1. Lactate formation can occur with oxygen present and should not itself be equated with proton release",
+      "reason": "Summarymechanisticconsistency.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15308499/"
+    },
+    {
+      "field": "content",
+      "old": "Cells prevent this by ensuring",
+      "new": "Cells limit wasteful cycling through reciprocal regulation, so",
+      "reason": "Notabsoluteprevention.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "content",
+      "old": "| Speed | Milliseconds | Seconds to minutes |",
+      "new": "| Speed | Often rapid; system-dependent | Often rapid; system-dependent |",
+      "reason": "No universal timescale.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "| Reversibility | Immediate (effector dissociates) | Requires phosphatase |",
+      "new": "| Reversibility | Depends on binding and conformational kinetics | Dephosphorylation usually requires phosphatase |",
+      "reason": "Noimmediateguarantee.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "| Signal source | Local metabolite concentrations | Hormonal/systemic signals |",
+      "new": "| Signal source | Metabolites or other ligands | Hormonal or intracellular signals |",
+      "reason": "Notexclusiveorigins.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "content",
+      "old": "affects PFK-1 and PK directly",
+      "new": "can affect PFK-1; PK responses depend on isoform",
+      "reason": "Decisiontreequalified.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687410/"
+    },
+    {
+      "field": "content",
+      "old": "Km values (~0.1 mM vs. ~10 mM)",
+      "new": "low glucose Km of typical HK I–III versus higher glucose S₀.₅ of glucokinase",
+      "reason": "Consistentkinetics.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "High affinity, low Vmax, always near saturation",
+      "new": "Low glucose Km; activity and total Vmax depend on substrate availability and enzyme abundance",
+      "reason": "Summaryavoidalways.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "Low affinity, high Vmax, glucose sensor",
+      "new": "Higher glucose S₀.₅, kinetically cooperative glucose sensor",
+      "reason": "Summary.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "Induced by insulin (transcriptional)",
+      "new": "Hepatic expression promoted by insulin",
+      "reason": "Liver.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "Inhibited by: ATP, acetyl-CoA, alanine; phosphorylation by PKA (glucagon)",
+      "new": "Classic liver example: inhibited by ATP and alanine; PKA phosphorylation reduces activity",
+      "reason": "Isoformscope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687410/"
+    },
+    {
+      "field": "questions.116.question_text",
+      "old": "A researcher adds a non-hydrolyzable analog of ATP to a cell-free glycolysis system, causing ATP concentrations to remain persistently high. Which of the following best predicts the effect on phosphofructokinase-1 (PFK-1) activity and the underlying mechanism?",
+      "new": "A purified mammalian PFK-1 preparation has sufficient ATP for its catalytic site. Increasing ATP further, while controlling free Mg²⁺ and F6P, decreases activity. Which mechanism best explains this observation?",
+      "reason": "NonhydrolyzableanalogdoesnotraiseATP;twoactionsambiguous.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    },
+    {
+      "field": "questions.116.explanation",
+      "old": "PFK-1 is the primary committed step of glycolysis and is allosterically inhibited by high ATP, which signals adequate cellular energy. ATP binds to an allosteric regulatory site (distinct from the substrate-binding active site), causing a conformational change that reduces enzyme activity. Choice A is tempting because ATP is indeed a substrate, but at high concentrations the allosteric inhibitory effect dominates over the substrate effect. Choice D is incorrect because the inhibition is allosteric, not competitive.",
+      "new": "B is correct: ATP can act both as a catalytic substrate and as an inhibitory allosteric effector. Under the stated controlled conditions, the observed decline is consistent with inhibitory binding at higher ATP. Remote-site regulation should not be used as a blanket rule to classify every kinetic inhibition pattern.",
+      "reason": "Removeallosterynotcompetitionfalsegeneralization.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    },
+    {
+      "field": "questions.117.choice_b",
+      "old": "Glycolysis is inhibited because fructose-2,6-bisphosphate is the most potent allosteric activator of PFK-1, and its removal reduces PFK-1 activity.",
+      "new": "Glycolysis is reduced because loss of the potent PFK-1 activator F2,6BP lowers PFK-1 activity.",
+      "reason": "Avoiduniversalsuperlative.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    },
+    {
+      "field": "questions.120.question_text",
+      "old": "A patient has a tumor with a mutation that renders PFK-1 insensitive to ATP inhibition but leaves its catalytic activity intact. Compared to normal cells, how would glycolytic flux in the tumor cells most likely change, and why?",
+      "new": "A PFK-1 mutation eliminates ATP-mediated inhibition but preserves catalysis. With high ATP and other regulatory conditions held equal, what change in glycolysis would this tend to favor?",
+      "reason": "Controlmissingassumptions.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    },
+    {
+      "field": "questions.120.explanation",
+      "old": "PFK-1 is the rate-limiting, committed step of glycolysis and is normally inhibited by high ATP to prevent wasteful glucose catabolism when energy is abundant. Removing this allosteric brake means PFK-1 remains active regardless of energy status, driving persistently elevated glycolytic flux. This is consistent with the Warburg effect observed in many cancers. Choice B is incorrect because while citrate does inhibit PFK-1, it cannot fully substitute for the loss of ATP inhibition, and tumor cells often have altered mitochondrial metabolism that reduces citrate-mediated feedback.",
+      "new": "C is the best prediction with other conditions held equal: removing ATP inhibition favors higher PFK-1 activity. Whole-cell flux still depends on substrates, other enzymes and regulators. The mutation alone neither proves a Warburg phenotype nor guarantees persistently maximal glycolysis.",
+      "reason": "Removeunjustifiedtumorinference.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    }
+  ]
+}

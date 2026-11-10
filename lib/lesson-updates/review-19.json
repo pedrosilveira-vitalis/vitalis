@@ -1,0 +1,119 @@
+{
+  "lessonId": 19,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "CO₂ + H₂O ⇌ H₂CO₃",
+      "new": "CO₂ + H₂O ⇌ HCO₃⁻ + H⁺",
+      "reason": "Net carbonicanhydrase reaction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "This recycling is the entire reason fermentation exists—to regenerate NAD⁺ under anaerobic conditions so glycolysis can continue.",
+      "new": "In lactate fermentation, reoxidizing NADH replenishes NAD⁺ for glycolysis. Fermentation can also occur when oxygen is present, and fermentation pathways have diverse ecological roles.",
+      "reason": "Notonlyanaerobicallfermentation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**Clinical correlation**: Thiamine deficiency causes **beriberi** and **Wernicke-Korsakoff syndrome**. In Wernicke's encephalopathy (classically seen in alcoholics), transketolase activity in the brain is severely compromised. Giving glucose to a thiamine-deficient patient without first supplementing thiamine can precipitate or worsen Wernicke's, because glucose metabolism demands TPP-dependent enzymes (PDH in particular) and depletes the already-limited thiamine supply. This is a high-yield clinical pearl for the MCAT.",
+      "new": "**Clinical correlation:** Thiamine deficiency can cause beriberi and Wernicke encephalopathy, including in people with malnutrition unrelated to alcohol. Several thiamine-dependent pathways are affected. Prompt thiamine treatment is important, but emergency glucose treatment for hypoglycemia must not be delayed while waiting for thiamine; clinicians can administer them concurrently.",
+      "reason": "Avoid teachingdangerous glucose-delayrule.",
+      "sourceUrl": "https://doi.org/10.1097/ADM.0000000000000668"
+    },
+    {
+      "field": "content",
+      "old": "FADH₂ feeds electrons directly into ubiquinone (CoQ) in the ETC",
+      "new": "Electrons pass from enzyme-bound FAD through iron–sulfur centers to ubiquinone (CoQ)",
+      "reason": "NotdirectFADH2toQ.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11551223/"
+    },
+    {
+      "field": "content",
+      "old": "**Why FAD rather than NAD⁺ in succinate dehydrogenase?** The oxidation of succinate to fumarate releases less free energy than the oxidation of malate to oxaloacetate (which uses NAD⁺). FAD, as a prosthetic group, is thermodynamically better suited to accept electrons from this lower-energy substrate. This illustrates how the choice of coenzyme is dictated by thermodynamics.",
+      "new": "**Why FAD rather than NAD⁺ in succinate dehydrogenase?** The redox potential of enzyme-bound FAD is tuned by the protein environment and permits succinate oxidation coupled to electron transfer onward to ubiquinone. NAD⁺ is not a favorable direct acceptor for this step under standard biochemical conditions. Do not rank the free-energy release of succinate and malate oxidation without specifying the electron acceptor and concentrations; malate oxidation by NAD⁺ is itself unfavorable under standard conditions and is pulled forward in the cycle.",
+      "reason": "Incorrectenergycomparison.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/11551223/"
+    },
+    {
+      "field": "content",
+      "old": "High-dose niacin is also used pharmacologically to raise HDL cholesterol and lower triglycerides.",
+      "new": "Pharmacologic nicotinic acid can alter lipid levels, but improving those numbers does not necessarily improve cardiovascular outcomes. High doses carry risks and are not a routine supplement strategy.",
+      "reason": "Avoid unqualifiedniacinrecommendation.",
+      "sourceUrl": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/"
+    },
+    {
+      "field": "content",
+      "old": "(~31 kJ/mol)",
+      "new": "(for acetyl-CoA, standard hydrolysis ΔG°′ is roughly −31 kJ/mol)",
+      "reason": "Signandexample notallthioesters.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9921/"
+    },
+    {
+      "field": "content",
+      "old": "Cooking denatures avidin, eliminating this risk.",
+      "new": "Cooking reduces avidin activity; the nutritional concern is sustained high raw-egg-white intake, not an inevitable deficiency after a single serving.",
+      "reason": "No absoluteelimination.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "which does not cause neurological symptoms",
+      "new": "which does not typically cause the characteristic B₁₂-deficiency myelopathy; other neurologic or psychiatric symptoms are not categorically excluded",
+      "reason": "Folate neurologicalabsolute.",
+      "sourceUrl": "https://ods.od.nih.gov/factsheets/Vitaminb12-HealthProfessional/"
+    },
+    {
+      "field": "content",
+      "old": "Treatment is intramuscular B₁₂ injection.",
+      "new": "Treatment replaces B₁₂, commonly by injection when absorption is impaired; high-dose oral therapy can be appropriate in selected circumstances under clinical supervision.",
+      "reason": "Injectionnotonlyroute.",
+      "sourceUrl": "https://ods.od.nih.gov/factsheets/Vitaminb12-HealthProfessional/"
+    },
+    {
+      "field": "content",
+      "old": "Strict vegans are at risk because B₁₂ is found almost exclusively in animal products.",
+      "new": "People eating vegan diets need reliable B₁₂ sources, such as fortified foods or supplements; unfortified plant foods are not dependable sources.",
+      "reason": "Include fortifiedfoods.",
+      "sourceUrl": "https://ods.od.nih.gov/factsheets/Vitaminb12-HealthProfessional/"
+    },
+    {
+      "field": "content",
+      "old": "The final products are acetyl-CoA and NADH.",
+      "new": "The overall products include acetyl-CoA, CO₂ and NADH (with H⁺ depending on reaction convention).",
+      "reason": "CO2omittedinprose.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "- Se: glutathione peroxidase",
+      "new": "- Selenium-containing selenocysteine: glutathione peroxidase (not a free metal-ion cofactor)",
+      "reason": "Seleniumnotmetalion.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.91.explanation",
+      "old": "Zinc is a metal ion and therefore classified as an inorganic cofactor, not a coenzyme (which is organic). Its tight but non-covalent association with the active site is necessary for catalytic geometry, as shown by reversible loss and restoration of activity. Choice D is tempting but incorrect because prosthetic groups are covalently attached and cannot be removed and re-added so easily; in carboxypeptidase A, zinc is tightly but non-covalently bound.",
+      "new": "B is correct: zinc is an inorganic cofactor at the active site. Removing and restoring it changes activity. D is wrong because it asserts permanent covalent attachment, not because every prosthetic group must be covalently bound. Prosthetic groups may be tightly bound through covalent or noncovalent interactions.",
+      "reason": "Originalcontradictsquiz95.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.92.question_text",
+      "old": "NAD+ is reduced to NADH during glycolysis and the citric acid cycle. Which of the following best explains why NAD+ is classified as a coenzyme rather than a substrate?",
+      "new": "NAD⁺ functions as an organic coenzyme and cosubstrate in metabolic redox reactions. Which statement best explains how the cellular NAD⁺/NADH pool supports repeated reaction cycles?",
+      "reason": "Coenzymeandsubstratenotmutuallyexclusive.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.92.explanation",
+      "old": "Coenzymes are distinguished from substrates by their ability to be regenerated and reused. NADH is reoxidized back to NAD+ during oxidative phosphorylation (or fermentation), allowing it to cycle repeatedly. Choice A is incorrect because NAD+ is not irreversibly consumed; it is recycled. Choice B is a common misconception: vitamin derivation alone does not determine the classification, and some substrates are also vitamin-derived.",
+      "new": "C is correct. NAD⁺ accepts reducing equivalents and becomes NADH; later oxidation regenerates NAD⁺. In an individual enzyme reaction, NAD⁺ can be a cosubstrate as well as a coenzyme. These terms are not mutually exclusive, and regeneration alone does not distinguish every coenzyme from every substrate.",
+      "reason": "Fix falseclassificationdichotomy.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    }
+  ]
+}

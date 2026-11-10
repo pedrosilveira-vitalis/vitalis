@@ -1,0 +1,223 @@
+{
+  "lessonId": 6,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Full lesson and five questions reviewed; targeted chemistry, numerical and answer-key corrections verified. No claim of exhaustive certification or verification of MCAT frequency claims.",
+  "sources": [
+    {
+      "title": "OpenStax: Amino Acids and the Henderson–Hasselbalch Equation",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    }
+  ],
+  "replacements": [
+    {
+      "field": "content",
+      "old": "At the pH of crystalline amino acids or neutral aqueous solution, the zwitterionic form predominates.",
+      "new": "Amino acids commonly form zwitterionic crystals. In aqueous solution, the predominant charge state depends on pH and all ionizable groups; amino acids with neutral side chains are predominantly zwitterionic near neutral pH.",
+      "reason": "Crystalline material has no aqueous pH; side chain caveat.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "Think about it logically. Below pI, the molecule has a net positive charge (the carboxyl is deprotonated but the amino group is still protonated—wait, let's be precise). As pH increases from 0:",
+      "new": "Below pI, the population has a positive average net charge; above pI it has a negative average net charge. As pH increases from strongly acidic conditions:",
+      "reason": "Remove contradictory charge explanation.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "The pI sits at the center of the plateau where the zwitterion dominates",
+      "new": "The pI lies between the two buffering regions where the zwitterion dominates",
+      "reason": "pI is not buffering plateau.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "**Histidine** deserves special attention. Its imidazole side chain has a pKa of approximately **6.0**, which is uniquely close to physiological pH. This means histidine can act as both a proton donor and acceptor near neutral pH, making it the most common residue in enzyme active sites. The pI of histidine is approximately (1.8 + 6.0) / 2 = 3.9... wait, let's recalculate properly.",
+      "new": "**Histidine** deserves special attention. Its imidazole side chain has a pKa of approximately **6.0**, supporting proton donation and acceptance in enzyme active sites. Its pI is found from the two pKa values that flank the neutral species.",
+      "reason": "Incorrect preliminary pI and unsupported universal superlative.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "Neutral species is bracketed by pKa1 and pKa2.\n\n**pI(His) = (1.8 + 6.0) / 2 = 3.9**\n\nAt pH 7.4, histidine carries a slight negative charge, though near-neutral behavior makes it biologically versatile.",
+      "new": "The neutral species is bracketed by pKa2 and pKa3.\n\n**pI(His) ≈ (6.0 + 9.2) / 2 = 7.6**\n\nAt pH 7.4, free histidine has a small positive average net charge, and its predominant species is neutral.",
+      "reason": "Correct pI and net charge.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "- **Inflection points**: These occur at the pKa values. At each inflection point, [HA] = [A⁻], pH = pKa, and the solution has maximum buffering capacity.\n- **Equivalence points**: These occur halfway between inflection points. At each equivalence point, one ionizable group has been completely titrated. The pH at the equivalence point is *not* the pKa—it is the average of the flanking pKa values.",
+      "new": "- **Half-equivalence points**: For well-separated titration steps, pH ≈ pKa and the adjacent protonation states are present in approximately equal concentrations, giving strong buffering.\n- **Equivalence points**: These occur at integer equivalents of base added. Intermediate equivalence-point pH values can be approximated by averaging the flanking pKa values; the final equivalence-point pH depends on concentration and base hydrolysis.",
+      "reason": "Distinguish buffer midpoint and equivalence point; final pH is not pKa average.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "This is the flattest part of the curve (the zwitterion is not a buffering species—it has no proton to donate or accept in this intermediate state).",
+      "new": "This lies in a steep region between the buffering plateaus. The zwitterion can donate or accept a proton, but near the pI there is little of either conjugate partner and buffering is weak.",
+      "reason": "Reverse slope and acid-base capacity errors.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "(between first and second equivalence points)",
+      "new": "(approximately at the first equivalence point)",
+      "reason": "Asp pI at1 equivalent.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "(between second and third equivalence points)",
+      "new": "(approximately at the second equivalence point)",
+      "reason": "Lys pI at2 equivalents.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "Histidine, with its pKa near 6, is the only standard amino acid whose side chain ionization state changes meaningfully near physiological pH.",
+      "new": "Histidine often participates in proton transfer near neutral pH; cysteine and other residues can also change ionization state, particularly when their pKa values shift in proteins.",
+      "reason": "Avoid false exclusivity.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "This peptide would not migrate in electrophoresis at pH 7.4 and would focus at approximately pH 7.4 in isoelectric focusing.",
+      "new": "The integer-charge approximation does not establish its pI or zero electrophoretic mobility. Using the stated pKa values, the neutral species is bracketed approximately by the Asp and N-terminal pKa values, giving pI ≈ (3.9 + 9.0)/2 = 6.45; at pH 7.4 the average charge is slightly negative.",
+      "reason": "Rounded charge cannot establish pI.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "**His side chain pKa ~6.0**: the only side chain that changes ionization state near physiological pH",
+      "new": "**His side chain pKa ~6.0**: supports acid-base catalysis near neutral pH; local environments also shift other side-chain pKa values",
+      "reason": "False exclusivity.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "questions.26.choice_a",
+      "old": "H2N-CH2-COOH (fully protonated)",
+      "new": "H2N-CH2-COOH (uncharged amino and carboxyl groups)",
+      "reason": "Wrong fully protonated label.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "questions.26.choice_d",
+      "old": "H3N+-CH2-COOH (protonated carboxyl only)",
+      "new": "H3N+-CH2-COOH (fully protonated)",
+      "reason": "Both groups are protonated.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "questions.29.choice_a",
+      "old": "Approximately 17%",
+      "new": "Approximately 15%",
+      "reason": "0.178/1.178=0.151.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "questions.29.explanation",
+      "old": "Using Henderson-Hasselbalch: pH = pKa + log([A-]/[HA]), so 9.75 = 10.5 + log([A-]/[HA]), giving log([A-]/[HA]) = -0.75, meaning [A-]/[HA] = 0.178. The fraction deprotonated = 0.178/(1+0.178) = approximately 15-17%. Choice C (83%) is the tempting wrong answer because students may subtract in the wrong direction, effectively calculating the fraction that remains protonated relative to the deprotonated form.",
+      "new": "Using Henderson–Hasselbalch, [deprotonated]/[protonated] = 10^(9.75 − 10.5) ≈ 0.178. The deprotonated fraction is 0.178/(1 + 0.178) ≈ 0.151, or 15%; about 85% remains protonated.",
+      "reason": "Numerical correction.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "questions.30.correct_answer",
+      "old": "C",
+      "new": "B",
+      "reason": "Original key C contradicts correct electrode directions.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "questions.30.explanation",
+      "old": "At pH 6.0, a molecule carries a net positive charge when pH is below its pI and net negative charge when pH is above its pI. The basic amino acid (pI 9.7) has pH 6.0 below its pI, so it carries a net positive charge and migrates toward the negative electrode (anode). The acidic amino acid (pI 3.2) has pH 6.0 above its pI, so it carries a net negative charge and migrates toward the positive electrode (anode). Wait, correction: positively charged species migrate toward the cathode (negative electrode) and negatively charged species migrate toward the anode (positive electrode). The basic amino acid (net positive) migrates toward the cathode, and the acidic amino acid (net negative) migrates toward the anode, making choice B correct.",
+      "new": "At pH below its pI, an amino acid has positive average charge and migrates toward the cathode (negative electrode). Above its pI it has negative average charge and migrates toward the anode (positive electrode). Thus at pH 6.0 the basic amino acid moves toward the cathode and the acidic amino acid toward the anode: choice B.",
+      "reason": "Remove contradictory explanation and correct key.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "a three-step titration curve with three inflection points and three buffering regions.",
+      "new": "a three-step titration curve with three buffering regions; nearby pKa values can make individual regions less distinct.",
+      "reason": "Avoid implying every step is well resolved.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "At physiological pH (7.4), the α-carboxyl group",
+      "new": "For a free amino acid at physiological pH (7.4), the α-carboxyl group",
+      "reason": "Distinguish free groups from peptide-bound backbone.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "pH is very low (~1).",
+      "new": "the starting pH depends on amino acid concentration and any added strong acid.",
+      "reason": "Starting pH is concentration-dependent.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "pH is very high (~11–12).",
+      "new": "the final pH depends on concentration and base hydrolysis.",
+      "reason": "Final pH is concentration-dependent.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "All α-carboxyl groups (pKa ~2): deprotonated, charge = –1",
+      "new": "Free α-carboxyl groups (pKa ~2): predominantly deprotonated, charge ≈ –1",
+      "reason": "Free versus peptide-bound groups.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "All α-amino groups (pKa ~9): protonated, charge = +1",
+      "new": "Free α-amino groups (pKa ~9): predominantly protonated, charge ≈ +1",
+      "reason": "Free versus peptide-bound groups.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "always deprotonated at pH 7.4",
+      "new": "predominantly deprotonated at pH 7.4",
+      "reason": "Equilibrium is not all-or-none.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "always protonated at pH 7.4",
+      "new": "predominantly protonated at pH 7.4",
+      "reason": "Equilibrium is not all-or-none.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "*always* positively charged under physiological conditions",
+      "new": "predominantly positively charged under physiological conditions",
+      "reason": "Equilibrium qualification.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "*always* negatively charged at physiological pH",
+      "new": "predominantly negatively charged at physiological pH",
+      "reason": "Equilibrium qualification.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "If pH > pKa of a group: the group is *deprotonated*",
+      "new": "If pH > pKa of a group: the group is predominantly *deprotonated*",
+      "reason": "Dominant state versus absolute state.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    },
+    {
+      "field": "content",
+      "old": "If pH < pKa of a group: the group is *protonated*",
+      "new": "If pH < pKa of a group: the group is predominantly *protonated*",
+      "reason": "Dominant state versus absolute state.",
+      "sourceUrl": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+    }
+  ]
+}

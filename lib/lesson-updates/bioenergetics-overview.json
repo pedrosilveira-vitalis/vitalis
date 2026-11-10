@@ -1,0 +1,241 @@
+{
+  "lessonId": 22,
+  "reviewedAt": "2026-11-08",
+  "questionIds": [
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+      "title": "The mitochondrion: energy coupling and respiration"
+    },
+    {
+      "url": "https://goldbook.iupac.org/terms/view/S05927",
+      "title": "IUPAC: standard thermodynamic quantities"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9923/",
+      "title": "Regulation of protein function"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11551223/",
+      "title": "Protein environment tunes FAD redox energetics"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28270511/",
+      "title": "Quantifying glycolytic and oxidative ATP production"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4972613/",
+      "title": "Atkinson: adenylate energy charge"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31891768/",
+      "title": "Glucagon and human adipocyte metabolism"
+    },
+    {
+      "url": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/",
+      "title": "NIH ODS: thiamin"
+    }
+  ],
+  "visual": {
+    "title": "Follow energy, electrons and ATP accounting",
+    "src": "/lesson-diagrams/bioenergetics-overview.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "A reaction-energy calculation distinguishes standard and actual free energy. A mitochondrial electron-flow diagram marks I, III and IV as proton pumps and II as a bypass. ATP accounting adds direct ATP and shuttle-dependent electron yields to 30 or 32.",
+    "caption": "Conventional approximate ATP yields for complete glucose oxidation. Actual yields depend on coupling, transport and cellular conditions."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "0bad1327cd508f806344c32cfc38149075632d5da7164e03b5bee7c67d59fc09"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "b8f123399f2fb1aad464213c2f49e20251eace0ed1145923273fceb65c4c8941"
+    },
+    {
+      "field": "questions.106.question_text",
+      "sha256": "7a78b66b181928f02bc2350c1e551f523897fca8c819d433d9b6d5d088859dcf"
+    },
+    {
+      "field": "questions.106.choice_a",
+      "sha256": "b8b553a934a58881ffc1f0a10c94faa63ef4a5336abf9c692cf1b688aae149dc"
+    },
+    {
+      "field": "questions.106.choice_b",
+      "sha256": "9bc9f6f7dbfa150353096966c2e9bd89e5f7a123ce6864e80309dcc08d12edd7"
+    },
+    {
+      "field": "questions.106.choice_c",
+      "sha256": "602fa12eb47d5ef8d295097b543003071a202db28bf1328a728015fd424e8519"
+    },
+    {
+      "field": "questions.106.choice_d",
+      "sha256": "984bae894bd64910d632a6de8b09dc66dd968f015deed66e8903542d06cd0b44"
+    },
+    {
+      "field": "questions.106.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.106.explanation",
+      "sha256": "9bd72348ed59774c53b57fc94d001df7f97e644a48a3de3e172fe1e48dcf0eab"
+    },
+    {
+      "field": "questions.107.question_text",
+      "sha256": "14dec374358160fd9018413c3c91a35a22abed567109c04078b252482554e4e4"
+    },
+    {
+      "field": "questions.107.choice_a",
+      "sha256": "fe87f8225a579c616df1bed0438849178434593e2329d5b0e52a39c293ab82c4"
+    },
+    {
+      "field": "questions.107.choice_b",
+      "sha256": "9c85ffdba40af68eb722b624d9c834edfdaeea7913aa4c716924674f884a387a"
+    },
+    {
+      "field": "questions.107.choice_c",
+      "sha256": "ee98f8cee8a5e5f478063faf7eb80b77d61338324f9e9440f4716700d1214b20"
+    },
+    {
+      "field": "questions.107.choice_d",
+      "sha256": "f6fcc3363f3568692ce72d1d92fcad90a10739231aa31f8b89270bcac5292d9a"
+    },
+    {
+      "field": "questions.107.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.107.explanation",
+      "sha256": "e22474fd741a49e920170e42cfc1b68d1f758a77c9d10aa8df4951cd141439c0"
+    },
+    {
+      "field": "questions.108.question_text",
+      "sha256": "e1046ddbc28923ebf4a187e559891e57786eeff7b54bc9beda37cccc8d1fd7ae"
+    },
+    {
+      "field": "questions.108.choice_a",
+      "sha256": "5c65600b717852c0430d8d136737f0857cd48cbe1f069b14526cafd8607a09a1"
+    },
+    {
+      "field": "questions.108.choice_b",
+      "sha256": "4795dd28376cdc65e382b84264ed1a3fc296df9b03a595f5cdb4f93065542722"
+    },
+    {
+      "field": "questions.108.choice_c",
+      "sha256": "aca7347d78f75b36d302dff75d27d5db7c1cad310ae15cac2f985ccdb5e37cfc"
+    },
+    {
+      "field": "questions.108.choice_d",
+      "sha256": "18abe88eded8543c51b621e193d611f7b41da10980088ba72138e31b1a502597"
+    },
+    {
+      "field": "questions.108.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.108.explanation",
+      "sha256": "634ae431768cb723a3972218371c62f6b5b43c9c6f6d5b545ea19db4998ff6cc"
+    },
+    {
+      "field": "questions.109.question_text",
+      "sha256": "e2c8761164ab2b596b1d42a992f5371e754685733b5062004b301d98732bd25c"
+    },
+    {
+      "field": "questions.109.choice_a",
+      "sha256": "a31b2cbf12f90c1e4340561f8abcfc2228bf46dd426e4a0271aa46cea7dfbbfb"
+    },
+    {
+      "field": "questions.109.choice_b",
+      "sha256": "52dc8545b0bf1410ad240009b4b4bca786894b7ff920d5ad2f52eb1b56f65018"
+    },
+    {
+      "field": "questions.109.choice_c",
+      "sha256": "c1edf5b19e13028ba494afb7fead6ec88d994b0f94868cf3d861c7df10f82039"
+    },
+    {
+      "field": "questions.109.choice_d",
+      "sha256": "26d24c69aef83c4d4fc143a3fa0001ef705d80dd663fcc31780ba6972217e709"
+    },
+    {
+      "field": "questions.109.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.109.explanation",
+      "sha256": "66eb9319e71535cccc3e2f051225c83a7a6f39f47f152b3081ea78abcede4a9c"
+    },
+    {
+      "field": "questions.110.question_text",
+      "sha256": "2c3c15cac8e2419e4f77b5f4370fb27bfe0da0233f6dc4a5677ee597ff85d839"
+    },
+    {
+      "field": "questions.110.choice_a",
+      "sha256": "51de4692dc1f38f7088c98283e0a61c14f541c96f116090ec8327f0a8f135c93"
+    },
+    {
+      "field": "questions.110.choice_b",
+      "sha256": "db1fa08488e2bd088fea4bc54b2c9e2b364491a515823e5abf6a77feb11d1f52"
+    },
+    {
+      "field": "questions.110.choice_c",
+      "sha256": "b25a38b7fef225cdc61ae69b1493d5863986e1a088e87fb06f497a2f03a17797"
+    },
+    {
+      "field": "questions.110.choice_d",
+      "sha256": "f4e6a45c706be2ba720e1b872f13bd228c6bc193eab846ae5e8491f6d4182414"
+    },
+    {
+      "field": "questions.110.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.110.explanation",
+      "sha256": "951a93a41904d6e897435ed769bf876670712a394dd3116b50f4b17f7b586b29"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Overview of Cellular Metabolism and Bioenergetics\n\nCellular metabolism encompasses every chemical reaction occurring within a living cell. These reactions are not random — they are organized, regulated, and thermodynamically constrained. For the MCAT, you need more than a surface familiarity with these concepts. You need to understand *why* cells invest energy, *how* they extract it from nutrients, and *what* thermodynamic principles govern every metabolic decision a cell makes. This lesson builds that foundation.\n\n---\n\n## What Is Metabolism?\n\n**Metabolism** refers to the totality of chemical reactions in a cell, organized into two broad categories:\n\n- **Catabolism**: reactions that break down complex molecules into simpler ones, releasing free energy in the process. Examples include glycolysis, the citric acid cycle, and beta-oxidation of fatty acids.\n- **Anabolism**: reactions that build complex molecules from simpler precursors, consuming free energy. Examples include protein synthesis, gluconeogenesis, and fatty acid synthesis.\n\nThese two categories are not isolated. They are coupled — the energy released by catabolic reactions drives anabolic reactions. **ATP** is a major coupling molecule; reduced cofactors and ion gradients also connect energy-releasing and energy-requiring processes.\n\nA key conceptual point: metabolism is not just about energy. It also involves the interconversion of carbon skeletons, the generation of reducing equivalents, and the maintenance of cellular homeostasis. However, bioenergetics — the study of energy flow — is the central theme the MCAT tests most heavily.\n\n---\n\n## Thermodynamic Foundations\n\n### Free Energy and Spontaneity\n\nEvery metabolic reaction obeys the laws of thermodynamics. The relevant measure for biochemical reactions is **Gibbs free energy (G)**. At constant temperature and pressure, the reaction Gibbs energy indicates the thermodynamically favored direction under the stated conditions. It does not specify reaction speed:\n\n- **ΔG < 0**: exergonic reaction, spontaneous, releases free energy\n- **ΔG > 0**: endergonic reaction, non-spontaneous, requires free energy input\n- **ΔG = 0**: system is at equilibrium; no net reaction occurs\n\nThe Gibbs free energy equation is:\n\nΔG = ΔH − TΔS\n\nWhere ΔH is the change in enthalpy (heat content), T is absolute temperature in Kelvin, and ΔS is the change in entropy. For most MCAT purposes, you do not need to calculate ΔG from this equation directly, but you must understand what each term means and how they interact.\n\n### Standard Free Energy Change\n\nThe **standard reaction Gibbs energy (ΔG°)** uses defined reference activities and a specified temperature. Standard pressure is 1 bar; 25°C is a common reporting temperature, not part of the definition of a standard state. For dilute solutions, unit activity is often approximated by a 1 M reference concentration. Biochemical transformed quantities (ΔG°′) hold pH fixed, commonly at 7; temperature, ionic strength and magnesium conditions may also need specification.\n\nThe relationship between ΔG°' and the actual ΔG under cellular conditions is:\n\nΔG = ΔG°' + RT ln Q\n\nWhere R is the gas constant (8.314 J/mol·K), T is temperature in Kelvin, and Q is the dimensionless reaction quotient, built from activities raised to their stoichiometric powers; dilute-solution concentration ratios are an approximation. In the biochemical convention, pH is held fixed consistently.\n\nThis distinction matters enormously. A reaction with a positive ΔG°' can still proceed spontaneously in a cell if the actual concentrations of reactants and products make Q sufficiently small. Cells exploit this constantly — by maintaining very low concentrations of certain products, they drive reactions forward that would appear thermodynamically unfavorable under standard conditions.\n\n### Coupling Reactions\n\nCells routinely couple exergonic reactions to endergonic ones. The hydrolysis of ATP is the paradigmatic example. ATP hydrolysis has a ΔG°' of approximately **−30.5 kJ/mol** (some sources cite −7.3 kcal/mol). Under actual cellular conditions, where ATP, ADP, and inorganic phosphate concentrations are far from the standard 1 M, the actual ΔG of ATP hydrolysis is closer to **−50 to −60 kJ/mol** — making it an even more powerful energy currency in vivo.\n\nWhen reactions are physically coupled through a mechanism, their free-energy changes add. Simply mixing ATP with an unrelated reaction does not establish coupling. If an anabolic reaction requires +20 kJ/mol, coupling it to ATP hydrolysis (−50 kJ/mol under cellular conditions) yields a net ΔG of −30 kJ/mol, making the combined process spontaneous.\n\n---\n\n## ATP: The Universal Energy Currency\n\n### Structure of ATP\n\n**Adenosine triphosphate (ATP)** consists of:\n\n- Adenine (a purine nitrogenous base)\n- Ribose (a five-carbon sugar)\n- Three phosphate groups linked by two **phosphoanhydride bonds**\n\nATP has phosphoanhydride links between α–β and β–γ phosphates. ATP-to-ADP hydrolysis cleaves the terminal linkage; the overall hydrolysis reaction is exergonic, although breaking a bond by itself requires energy. This exergonicity arises from several factors:\n\n- **Electrostatic repulsion**: the negatively charged phosphate groups repel each other; hydrolysis relieves this repulsion\n- **Resonance stabilization**: the products (ADP and inorganic phosphate, Pi) are more resonance-stabilized than ATP itself\n- **Hydration**: the products are more effectively solvated by water\n\n### ATP Hydrolysis Reactions\n\nTwo primary hydrolysis reactions are relevant:\n\n1. **ATP + H₂O → ADP + Pi** (releases ~30.5 kJ/mol under standard conditions)\n2. **ATP + H₂O → AMP + PPi** (pyrophosphate); the subsequent hydrolysis of pyrophosphate (PPi + H₂O → 2 Pi) by **pyrophosphatase** releases additional energy, effectively making this reaction even more thermodynamically favorable and essentially irreversible\n\nFatty acid activation uses ATP to form an acyl-adenylate and release PPi; subsequent chemistry yields acyl-CoA and AMP. During nucleic-acid synthesis, a nucleotide triphosphate is incorporated as a nucleotide-monophosphate residue in the polymer, releasing PPi—not simply free AMP. PPi hydrolysis helps pull these linked processes forward. The hydrolysis of pyrophosphate acts as a thermodynamic \"pull\" that ensures the reaction goes forward.\n\n### ATP as a Phosphate Group Donor\n\nATP does not just release energy through hydrolysis — it *transfers* phosphate groups to substrates, a process called **phosphorylation**. Phosphoryl transfer can couple reactions or change molecular properties; it does not universally activate a protein or make every phosphorylated product more reactive. This is how kinases work: they catalyze the transfer of the gamma-phosphate of ATP to a hydroxyl group on a target molecule (serine, threonine, tyrosine in proteins; glucose in glycolysis).\n\n### The ATP/ADP Cycle\n\nATP is continuously recycled. Daily turnover is commonly estimated in tens of kilograms for an adult, depending on energy expenditure; this is repeated use of a relatively small ATP pool, not a body mass of ATP stored at once.\n\nThe primary mechanism for ATP synthesis is **oxidative phosphorylation**, which occurs in the mitochondria. Additional ATP is generated by **substrate-level phosphorylation** in glycolysis and the citric acid cycle, where phosphate groups are transferred directly from high-energy intermediates to ADP.\n\n---\n\n## Oxidation-Reduction Reactions\n\n### Definitions and Concepts\n\n**Oxidation-reduction (redox) reactions** are the chemical backbone of cellular metabolism. Many energy-yielding catabolic pathways oxidize fuels and reduce electron carriers; individual catabolic processes such as hydrolytic digestion need not be redox reactions.\n\n- **Oxidation**: loss of electrons (or loss of hydrogen, or gain of oxygen)\n- **Reduction**: gain of electrons (or gain of hydrogen, or loss of oxygen)\n\nThe mnemonic **OIL RIG** (Oxidation Is Loss, Reduction Is Gain) or **LEO the lion says GER** (Loss of Electrons is Oxidation; Gain of Electrons is Reduction) can help you keep these straight.\n\nIn biochemistry, oxidation reactions often involve the removal of hydrogen atoms (a proton plus an electron) from organic molecules. The electrons are transferred to **electron carriers** — molecules that accept and donate electrons as part of metabolic pathways.\n\n### Reduction Potential\n\nThe tendency of a molecule to accept electrons is measured by its **standard reduction potential (E°')**, expressed in volts. A molecule with a *higher* (more positive) reduction potential has a greater tendency to accept electrons.\n\n- **NAD⁺/NADH**: E°' = −0.32 V (NAD⁺ is a weak oxidizing agent; NADH is a strong reducing agent)\n- **FAD/FADH₂**: reduction potential depends strongly on its protein environment; a single tabulated value cannot represent all flavoproteins\n- **O₂/H₂O**: E°' = +0.82 V (oxygen is a powerful oxidizing agent)\n\nFor the corresponding redox couples under the specified conditions, favorable net transfer is from the reduced donor with a lower reduction potential to the oxidized acceptor with a higher one. Standard potentials alone do not capture every concentration effect in a cell. This is why electrons ultimately flow from NADH to oxygen through the electron transport chain — the difference in reduction potential (ΔE°' = +1.14 V for the NAD⁺/O₂ couple) corresponds to a large negative ΔG°', driving ATP synthesis.\n\nThe relationship between reduction potential and free energy is:\n\nΔG°' = −nFΔE°'\n\nWhere n is the number of electrons transferred and F is the Faraday constant (96,485 C/mol). For the transfer of 2 electrons from NADH to O₂, ΔG°' ≈ −220 kJ/mol — enough to drive the synthesis of multiple ATP molecules.\n\n### Key Electron Carriers\n\n**NAD⁺ (nicotinamide adenine dinucleotide)** is the primary electron carrier in catabolic pathways. It accepts two electrons and one proton to become **NADH**. NAD⁺ is derived from niacin (vitamin B3). Its oxidized form (NAD⁺) acts as an oxidizing agent — it oxidizes substrates while being reduced itself.\n\n**FAD (flavin adenine dinucleotide)** accepts two electrons and two protons to become **FADH₂**. FAD is derived from riboflavin (vitamin B2). In succinate dehydrogenase, enzyme-bound FAD transfers reducing equivalents to ubiquinone through iron–sulfur centers. This entry bypasses proton-pumping Complex I, explaining the lower conventional ATP yield; it is not a universal energy label for every FADH₂ molecule.\n\n**NADP⁺/NADPH** is structurally similar to NAD⁺/NADH but carries an additional phosphate group. NADPH donates reducing equivalents in biosynthesis and antioxidant defense. The oxidative pentose phosphate pathway is a major source of NADPH, not an example of NADPH consumption in an anabolic reaction.\n\n**Coenzyme Q (ubiquinone)** and **cytochrome c** are additional electron carriers within the electron transport chain itself, shuttling electrons between protein complexes.\n\n### Why Redox Reactions Matter for the MCAT\n\nThe MCAT will test your ability to identify which molecules are being oxidized and which are being reduced in metabolic reactions. It will also test the *consequences* of redox reactions — specifically, how the generation of NADH and FADH₂ connects to ATP production. Understanding that NADH yields approximately **2.5 ATP** and FADH₂ yields approximately **1.5 ATP** (using current P/O ratio estimates) through oxidative phosphorylation is essential for calculating total ATP yield from glucose oxidation.\n\n---\n\n## Overview of Catabolic Pathways\n\n### The Central Logic of Catabolism\n\nCatabolism follows a hierarchical logic. Complex macromolecules are first broken down into their monomeric units (polysaccharides → monosaccharides; proteins → amino acids; triglycerides → fatty acids and glycerol). Many fuels converge on **acetyl-CoA**, while others enter as pyruvate or TCA-cycle intermediates; not every carbon skeleton passes through acetyl-CoA first. Acetyl-CoA is then oxidized in the citric acid cycle, generating NADH and FADH₂, which are oxidized by the electron transport chain to produce ATP.\n\n### Glycolysis\n\n**Glycolysis** occurs in the cytoplasm and converts one molecule of glucose (6 carbons) into two molecules of **pyruvate** (3 carbons each). The net yield is:\n\n- **2 ATP** (net; 4 produced, 2 consumed)\n- **2 NADH**\n- 2 pyruvate\n\nGlycolysis does not require oxygen. In human cells without adequate oxygen, glycolytic substrate-level phosphorylation becomes the main sustained ATP source. Other organisms can use additional fermentation pathways or anaerobic respiration; phosphocreatine can buffer ATP briefly in muscle.\n\nIn mitochondria-containing cells, pyruvate can enter the mitochondria and is converted to acetyl-CoA by the **pyruvate dehydrogenase complex**, yielding 1 NADH and 1 CO₂ per pyruvate (2 NADH and 2 CO₂ per glucose).\n\n### The Citric Acid Cycle\n\nThe **citric acid cycle** (also called the Krebs cycle or TCA cycle) occurs mainly in the mitochondrial matrix; succinate dehydrogenase is embedded in the inner membrane. Per turn of the cycle (processing one acetyl-CoA, which represents 2 carbons from glucose):\n\n- **3 NADH**\n- **1 FADH₂**\n- **1 GTP** (equivalent to 1 ATP via substrate-level phosphorylation)\n- **2 CO₂** (net two-carbon oxidation; the newly entering acetyl carbons are not the CO₂ released in their first turn)\n\nSince glucose produces 2 acetyl-CoA, the cycle turns twice per glucose, doubling these values.\n\n### Electron Transport Chain and Oxidative Phosphorylation\n\nThe **electron transport chain (ETC)** is located in the inner mitochondrial membrane. NADH-derived electrons enter at Complex I; succinate-derived electrons enter through Complex II and its bound FAD. Complexes **I, III and IV** pump protons; **Complex II does not**. The proton-motive force includes both a membrane voltage and a pH difference.\n\n**ATP synthase (Complex V)** harnesses this proton gradient. As protons flow back into the matrix through ATP synthase, the enzyme catalyzes the phosphorylation of ADP to ATP. This process is called **chemiosmosis**, a concept developed by Peter Mitchell (Nobel Prize, 1978).\n\nThe total ATP yield from complete aerobic oxidation of one glucose molecule is approximately **30-32 ATP** using modern P/O ratio estimates (previously cited as 36-38 ATP using older, less accurate assumptions). The breakdown:\n\n- Glycolysis: 2 ATP directly, plus ~3 or ~5 ATP from its two cytosolic NADH equivalents, depending on the shuttle\n- Pyruvate dehydrogenase: 2 NADH → ~5 ATP\n- Citric acid cycle: 2 GTP + 6 NADH + 2 FADH₂ → 2 + 15 + 3 = 20 ATP\n- Total: approximately 30-32 ATP\n\n### Fatty Acid Oxidation\n\n**Beta-oxidation** occurs in mitochondria and peroxisomes; the following ATP accounting describes mitochondrial oxidation of a typical even-chain saturated fatty acid. For a typical saturated even-chain fatty acyl-CoA, each cycle shortens the chain by two carbons and produces the following; the final four-carbon cycle yields **two** acetyl-CoA:\n\n- 1 NADH\n- 1 FADH₂\n- 1 acetyl-CoA\n\nFatty acids yield far more ATP per molecule than glucose because they are more reduced (higher ratio of hydrogen to oxygen). For example, complete oxidation of palmitate (16-carbon saturated fatty acid) yields approximately **106 ATP** — compared to ~30-32 ATP from glucose.\n\n### Amino Acid Catabolism\n\nAmino acids can also be used as fuel. The amino group is removed (through transamination or oxidative deamination) and the carbon skeleton is converted to intermediates that enter the citric acid cycle or glycolysis. Amino nitrogen is transferred and collected for disposal; much is converted to urea in the liver, with additional nitrogen excretion routes such as renal ammonium.\n\n---\n\n## Regulation of Metabolic Pathways\n\n### Allosteric Regulation\n\nMetabolic pathways are tightly regulated to match energy supply with demand. **Allosteric regulation** is a primary mechanism: key enzymes in metabolic pathways have regulatory sites (distinct from the active site) where small molecules bind and either activate or inhibit enzyme activity.\n\nThe **adenylate energy charge** is ([ATP] + ½[ADP])/([ATP] + [ADP] + [AMP]), between 0 and 1. ATP/ADP and ATP/AMP ratios are related signals, but are not this same defined quantity:\n\n- **High ATP**: signals energy abundance; inhibits catabolic enzymes (e.g., phosphofructokinase-1 in glycolysis, isocitrate dehydrogenase in the citric acid cycle)\n- **High AMP/ADP**: signals energy deficit; activates catabolic enzymes\n\nThis feedback logic ensures that cells do not wastefully oxidize fuel when ATP is abundant, and ramp up catabolism when energy is needed.\n\n### Hormonal Regulation\n\nAt the organismal level, hormones coordinate metabolic activity across tissues:\n\n- **Insulin**: released in response to high blood glucose; promotes glucose uptake, glycolysis, glycogen synthesis, and fatty acid synthesis; inhibits gluconeogenesis and fat breakdown\n- **Glucagon**: released during fasting; promotes hepatic glycogenolysis and gluconeogenesis; direct stimulation of human adipocyte lipolysis is not a universal established effect\n- **Epinephrine**: activates glycogenolysis and fatty acid mobilization in response to stress\n\nGlucagon and β-adrenergic signaling can act through cAMP/PKA. Insulin instead signals through a receptor tyrosine kinase and downstream pathways such as PI3K–Akt; hormones do not all use the same cAMP cascade.\n\n---\n\n## Compartmentalization of Metabolism\n\nThe **eukaryotic cell** organizes metabolic pathways into specific compartments, which allows for simultaneous operation of opposing pathways and precise regulation:\n\n- **Cytoplasm**: glycolysis, fatty acid synthesis, pentose phosphate pathway, glycogen synthesis/breakdown\n- **Mitochondrial matrix**: citric acid cycle, beta-oxidation, pyruvate dehydrogenase complex\n- **Inner mitochondrial membrane**: electron transport chain, ATP synthase\n- **Endoplasmic reticulum**: lipid synthesis, drug metabolism (cytochrome P450 enzymes)\n\nCompartmentalization helps coordinate pathways, but does not by itself prohibit simultaneous opposing fluxes. Cytosolic fatty acid synthesis uses ACP and NADPH; mitochondrial oxidation uses CoA-linked intermediates and oxidized redox cofactors. Malonyl-CoA inhibits **CPT1**, restricting entry of long-chain fatty acyl groups into mitochondria. Chain length, organelle and tissue matter; not every fatty acid uses this transport step.\n\n---\n\n## Vitamins as Metabolic Cofactors\n\nSeveral B vitamins are essential for metabolic reactions because they serve as precursors to coenzymes:\n\n- **Niacin (B3)**: precursor to NAD⁺ and NADP⁺\n- **Riboflavin (B2)**: precursor to FAD and FMN\n- **Thiamine (B1)**: precursor to thiamine pyrophosphate (TPP), required by pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase\n- **Pantothenic acid (B5)**: precursor to Coenzyme A (CoA)\n- **Biotin (B7)**: cofactor for carboxylase enzymes (e.g., pyruvate carboxylase, acetyl-CoA carboxylase)\n- **Pyridoxine (B6)**: precursor to PLP (pyridoxal phosphate), required for transamination reactions\n\nDeficiencies in these vitamins impair specific metabolic reactions, leading to characteristic clinical presentations. Thiamine deficiency impairs several thiamine-dependent enzymes and can cause Wernicke encephalopathy or beriberi; these disorders are not explained solely by pyruvate accumulation — high-yield MCAT content.\n\n---\n\n## Connecting Bioenergetics to MCAT Strategy\n\n### What the MCAT Actually Tests\n\nThe MCAT does not ask you to memorize every enzyme in every pathway. Instead, it tests your ability to:\n\n1. **Apply thermodynamic reasoning**: given ΔG values, determine spontaneity; understand how coupling reactions drive unfavorable processes\n2. **Trace electron flow**: identify what gets oxidized and reduced; predict where electrons end up\n3. **Calculate or estimate ATP yields**: know the approximate ATP contributions from glycolysis, the citric acid cycle, and oxidative phosphorylation\n4. **Interpret regulation**: understand how energy charge, hormones, and allosteric effectors control pathway activity\n5. **Reason about clinical scenarios**: connect metabolic defects (enzyme deficiencies, vitamin deficiencies, metabolic diseases) to their biochemical consequences\n\n### High-Yield Numbers to Know\n\n- ΔG°' of ATP hydrolysis: **−30.5 kJ/mol** (standard); ~−50 to −60 kJ/mol (cellular)\n- NADH → ~**2.5 ATP**; FADH₂ → ~**1.5 ATP**\n- Net ATP from glycolysis: **2 ATP**\n- Total ATP from glucose (aerobic): **~30–32 ATP**\n- Reduction potential of O₂/H₂O: **+0.82 V**; NAD⁺/NADH: **−0.32 V**\n- pKa of phosphoric acid groups: ~1, ~6.8, ~12 (relevant to understanding why phosphate groups are charged at physiological pH)\n\n### Common Misconceptions\n\n- **\"ATP is energy\"**: ATP is not energy itself — it is a *carrier* of free energy. The energy is released when the phosphoanhydride bond is hydrolyzed and the products are stabilized.\n- **\"High-energy bonds store energy\"**: This phrasing is misleading. The energy comes from the *products* being more stable than the *reactants*, not from energy stored within the bond itself.\n- **\"Anaerobic means no ATP\"**: Anaerobic metabolism still produces ATP — just far less than aerobic metabolism. Glycolysis alone yields 2 net ATP per glucose.\n- **\"NADH always yields 3 ATP\"**: The older textbook value of 3 ATP per NADH is outdated. Modern biochemistry uses ~2.5 ATP per NADH based on more accurate measurements of the P/O ratio.\n\n---\n\n## Summary\n\nCellular metabolism is the organized system by which cells transform energy from nutrients into forms useful for biological work. The thermodynamic framework — Gibbs free energy, standard reduction potentials, and the coupling of exergonic to endergonic reactions — governs every metabolic decision. ATP serves as the universal energy currency, coupling reactions through favorable overall chemical transformations. Oxidation-reduction reactions are the chemical mechanism by which fuel molecules are oxidized and electron carriers (NAD⁺, FAD) are reduced, ultimately driving ATP synthesis through the electron transport chain and chemiosmosis.\n\nCatabolic pathways — glycolysis, the citric acid cycle, beta-oxidation — converge on common intermediates and electron carriers, channeling energy from diverse fuel sources into the unified currency of ATP. These pathways are regulated at multiple levels: allosteric control by energy charge, covalent modification by kinases and phosphatases, and hormonal signaling at the organismal level. Compartmentalization within the eukaryotic cell enables simultaneous operation of opposing pathways and precise metabolic control.\n\nMastery of these foundational concepts is not merely preparation for specific MCAT questions — it is the conceptual infrastructure that makes every subsequent lesson in cellular metabolism comprehensible. The specific details of glycolysis, the citric acid cycle, and oxidative phosphorylation will build directly on the thermodynamic and biochemical principles introduced here."
+    },
+    {
+      "field": "questions.106.choice_b",
+      "value": "Respiratory proton pumping cannot sustain the proton-motive force, so ATP synthesis by ATP synthase falls."
+    },
+    {
+      "field": "questions.106.explanation",
+      "value": "B is correct. Blocking respiratory electron flow prevents it from sustaining proton pumping; the existing electrochemical gradient dissipates over time. ATP synthase may even hydrolyze ATP in reverse under some conditions. This is not direct inhibition of glycolysis, which is absent from an isolated-mitochondrial preparation."
+    },
+    {
+      "field": "questions.106.question_text",
+      "value": "A researcher blocks electron transfer to oxygen in isolated mammalian mitochondria. Which effect on oxidative ATP synthesis is expected as the existing proton-motive force dissipates?"
+    },
+    {
+      "field": "questions.107.explanation",
+      "value": "B is correct: lactate dehydrogenase reoxidizes cytosolic NADH to NAD⁺, sustaining the glyceraldehyde-3-phosphate dehydrogenase step of glycolysis. Lactate production can occur with oxygen present when glycolytic flux is high. It does not produce ATP directly; lactate can later be oxidized after conversion to pyruvate."
+    },
+    {
+      "field": "questions.108.explanation",
+      "value": "B is correct: mechanistically coupling one ATP hydrolysis to the biosynthetic step gives ΔG°′ = −7.3 + 5.0 = −2.3 kcal/mol. Actual cellular ΔG also depends on activities. An enzyme lowers the activation barrier, not the reaction Gibbs energy; merely adding ATP without a coupling mechanism is insufficient."
+    },
+    {
+      "field": "questions.108.question_text",
+      "value": "Under the same biochemical standard conditions, ATP hydrolysis has ΔG°′ ≈ −7.3 kcal/mol and a biosynthetic reaction has ΔG°′ = +5.0 kcal/mol. Which strategy gives a favorable combined standard reaction?"
+    },
+    {
+      "field": "questions.110.explanation",
+      "value": "C is correct under the stated assumptions: energy-requiring biosynthesis slows and cannot be sustained once ATP and needed reducing equivalents are depleted. NADPH production has several sources, including the oxidative pentose phosphate pathway; it should not be confused with the NADH generated by the TCA cycle."
+    },
+    {
+      "field": "questions.110.question_text",
+      "value": "A nonphotosynthetic cell has no alternative energy input. A hypothetical treatment blocks all fuel-degrading pathways that replenish ATP and reducing equivalents. After existing stores are depleted, what happens to ATP-dependent biosynthesis?"
+    }
+  ]
+}

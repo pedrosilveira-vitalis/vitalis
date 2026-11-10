@@ -1,14 +1,15 @@
 "use client";
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import Nori from './Nori';
 import UserNav from './UserNav';
 import StudyIcon from './StudyIcon';
 const groups = [
- { title: 'Your workspace', links: [{href:'/',label:'Home',icon:'home'},{href:'/study-plan',label:'Study planner',icon:'calendar'},{href:'/tutor',label:'AI tutor',icon:'tutor'}]},
+ { title: 'Your workspace', links: [{href:'/',label:'Home',icon:'home'},{href:'/study-plan',label:'Study planner',icon:'calendar'},{href:'/tutor',label:'Ask Nori',icon:'tutor'},{href:'/calls',label:'Your calls',icon:'calendar'}]},
  { title: 'Learn & practice', links: [{href:'/study',label:'Study guides',icon:'book'},{href:'/practice',label:'Practice questions',icon:'practice'},{href:'/flagged',label:'Flagged questions',icon:'book'},{href:'/flashcards',label:'Flashcards',icon:'cards'}]},
  { title: 'Explore', links: [{href:'/resume',label:'Résumé builder',icon:'book'},{href:'/medical-news',label:'Medical news',icon:'book'},{href:'/voice-cases',label:'Voice cases',icon:'voice'},{href:'/score-calculator',label:'Score calculator',icon:'score'}]},
 ];
-function Logo() { return <Link href="/" className="vitalis-brand" aria-label="Vitalis home"><svg width="34" height="30" viewBox="0 0 50 30" fill="none" aria-hidden="true"><path d="M1 15h10l5-9 7 19 7-23 7 18 4-5h8" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"/></svg><span>Vitalis<span className="brand-dot">.</span></span></Link>; }
+function Logo() { return <Link href="/" className="vitalis-brand" aria-label="Vitalis home"><Nori className="brand-nori"/><span>Vitalis<span className="brand-dot">.</span></span></Link>; }
 export default function MainNav({badge,rightSlot,contentId}: {contentId?:string;active?:string;badge?:string;rightSlot?:React.ReactNode;compact?:boolean}) {
  const pathname=usePathname();
  const selected=(href:string)=>href==='/'?pathname==='/':pathname===href||pathname.startsWith(href+'/');

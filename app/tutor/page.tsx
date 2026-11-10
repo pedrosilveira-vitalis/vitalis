@@ -4,6 +4,7 @@ import { useState, useRef, useEffect, useCallback, Suspense } from "react";
 import Link from "next/link";
 import Script from "next/script";
 import { useSearchParams, useRouter } from "next/navigation";
+import Nori from "@/components/Nori";
 import MainNav from "@/components/MainNav";
 
 type ImagePart = {
@@ -111,7 +112,7 @@ function TutorPageContent() {
         const raw = decodeURIComponent(canvas.getAttribute("data-chart") || "");
         const spec = JSON.parse(raw);
         canvas.setAttribute("data-rendered", "1");
-        const colors = ["#a8324a", "#0c1a2e", "#8a6b2e", "#4a3b6b"];
+        const colors = ["#245574", "#0c1a2e", "#245574", "#245574"];
         const datasets = (spec.datasets || []).map((ds: { label?: string; data: { x: number; y: number }[] }, i: number) => ({
           label: ds.label || "",
           data: ds.data || [],
@@ -150,7 +151,7 @@ function TutorPageContent() {
               const py = chart.scales.y.getPixelForValue(a.y);
               ctx.beginPath();
               ctx.arc(px, py, 5, 0, Math.PI * 2);
-              ctx.fillStyle = "#a8324a";
+              ctx.fillStyle = "#245574";
               ctx.fill();
               ctx.lineWidth = 2;
               ctx.strokeStyle = "#f5f1ea";
@@ -395,28 +396,28 @@ function TutorPageContent() {
         <MainNav active="tutor" badge="MCAT Tutor · Beta" compact rightSlot={
           isAuthenticated ? (
             <div className="flex items-center gap-3">
-              <Link href="/tutor/conversations" className="font-mono text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 px-3 py-1.5 border border-[#0c1a2e25] rounded-full">
+              <Link href="/tutor/conversations" className="font-sans text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 px-3 py-1.5 border border-[#0c1a2e25] rounded-full">
                 Past chats
               </Link>
-              <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">MCAT Tutor · Beta</div>
+              <div className="font-sans text-[11px] tracking-[0.12em] uppercase opacity-50">MCAT Tutor · Beta</div>
             </div>
           ) : (
-            <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">MCAT Tutor · Beta</div>
+            <div className="font-sans text-[11px] tracking-[0.12em] uppercase opacity-50">MCAT Tutor · Beta</div>
           )
         } />
         <div className="flex-1 flex flex-col bg-[#ebe5d6] overflow-hidden">
           <div className="px-8 py-3 border-b border-[#0c1a2e15] flex items-center justify-between">
-            <div className="flex items-center gap-2.5 font-serif text-base font-medium">
-              <span className="w-2 h-2 rounded-full bg-[#a8324a] animate-pulse" />
+            <div className="flex items-center gap-2.5 font-sans text-base font-medium">
+              <span className="w-2 h-2 rounded-full bg-[#245574] animate-pulse" />
               {conversationId ? "Continuing conversation" : "New tutor session"}
             </div>
             <div className="flex items-center gap-3">
               {messages.length > 0 && (
-                <button onClick={startFresh} className="font-mono text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 px-2 py-1 border border-[#0c1a2e25] rounded">
+                <button onClick={startFresh} className="font-sans text-[10px] uppercase tracking-[0.1em] opacity-60 hover:opacity-100 px-2 py-1 border border-[#0c1a2e25] rounded">
                   + New chat
                 </button>
               )}
-              <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">{messages.length} messages</div>
+              <div className="font-sans text-[11px] tracking-[0.12em] uppercase opacity-50">{messages.length} messages</div>
             </div>
           </div>
           <div ref={streamRef} className="flex-1 overflow-y-auto px-8 py-7 flex flex-col gap-5">
@@ -427,32 +428,32 @@ function TutorPageContent() {
                   <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
                   <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
                 </div>
-                <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Loading conversation...</div>
+                <div className="font-sans text-[11px] uppercase tracking-[0.12em] opacity-60">Loading conversation...</div>
               </div>
             ) : messages.length === 0 ? (
               <div className="m-auto max-w-xl text-center px-5 py-10">
-                <h2 className="font-serif text-3xl font-medium tracking-tight mb-3 leading-tight">Built to bring out the physician in you.</h2>
+                <div className="tutor-nori"><Nori/></div><h2 className="font-sans text-3xl font-medium tracking-tight mb-3 leading-tight">Hi, I’m Nori. Let’s make it click.</h2>
                 <p className="text-sm opacity-65 leading-relaxed mb-6">Ask anything about the MCAT. Upload a photo of your homework or a textbook diagram, and I&apos;ll walk you through it.</p>
                 {isAuthenticated === false && (
-                  <div className="mb-6 p-3 bg-[#a8324a08] border border-[#a8324a25] rounded-lg text-[12px] opacity-75">
-                    <Link href="/sign-in" className="text-[#a8324a] font-medium hover:underline">Sign in</Link> to save your conversations and pick up where you left off.
+                  <div className="mb-6 p-3 bg-[#24557408] border border-[#24557425] rounded-lg text-[12px] opacity-75">
+                    <Link href="/sign-in" className="text-[#245574] font-medium hover:underline">Sign in</Link> to save your conversations and pick up where you left off.
                   </div>
                 )}
                 <div className="grid sm:grid-cols-2 gap-2.5 text-left">
                   <button onClick={() => askExample("Draw a titration curve for a weak acid and walk me through what each region means.")} className="p-4 bg-[#0c1a2e0a] border border-[#0c1a2e15] rounded-xl text-[13px] leading-snug hover:bg-[#0c1a2e1a] transition-all hover:-translate-y-0.5">
-                    <span className="block font-mono text-[9px] tracking-[0.12em] opacity-55 uppercase mb-1">Biochem · diagram</span>
+                    <span className="block font-sans text-[9px] tracking-[0.12em] opacity-55 uppercase mb-1">Biochem · diagram</span>
                     Draw a titration curve and explain each region.
                   </button>
                   <button onClick={() => askExample("Show me a free body diagram for a block sliding down a frictionless incline.")} className="p-4 bg-[#0c1a2e0a] border border-[#0c1a2e15] rounded-xl text-[13px] leading-snug hover:bg-[#0c1a2e1a] transition-all hover:-translate-y-0.5">
-                    <span className="block font-mono text-[9px] tracking-[0.12em] opacity-55 uppercase mb-1">Physics · diagram</span>
+                    <span className="block font-sans text-[9px] tracking-[0.12em] opacity-55 uppercase mb-1">Physics · diagram</span>
                     Show me a free body diagram for a block on an incline.
                   </button>
                   <button onClick={() => askExample("Explain competitive vs non-competitive inhibition with a Michaelis-Menten diagram.")} className="p-4 bg-[#0c1a2e0a] border border-[#0c1a2e15] rounded-xl text-[13px] leading-snug hover:bg-[#0c1a2e1a] transition-all hover:-translate-y-0.5">
-                    <span className="block font-mono text-[9px] tracking-[0.12em] opacity-55 uppercase mb-1">Biochem</span>
+                    <span className="block font-sans text-[9px] tracking-[0.12em] opacity-55 uppercase mb-1">Biochem</span>
                     Competitive vs non-competitive inhibition, with a chart.
                   </button>
                   <button onClick={() => askExample("I have 3 months until my MCAT. How should I structure my studying?")} className="p-4 bg-[#0c1a2e0a] border border-[#0c1a2e15] rounded-xl text-[13px] leading-snug hover:bg-[#0c1a2e1a] transition-all hover:-translate-y-0.5">
-                    <span className="block font-mono text-[9px] tracking-[0.12em] opacity-55 uppercase mb-1">Strategy</span>
+                    <span className="block font-sans text-[9px] tracking-[0.12em] opacity-55 uppercase mb-1">Strategy</span>
                     How should I structure 3 months of MCAT prep?
                   </button>
                 </div>
@@ -475,8 +476,8 @@ function TutorPageContent() {
                   </div>
                 ) : (
                   <div key={i} className="self-start max-w-[85%] tutor-msg">
-                    <div className="flex items-center gap-2 mb-2 font-mono text-[10px] tracking-[0.14em] uppercase opacity-55">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#a8324a]" />
+                    <div className="flex items-center gap-2 mb-2 font-sans text-[10px] tracking-[0.14em] uppercase opacity-55">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#245574]" />
                       Vitalis
                     </div>
                     <div className="text-[15px] leading-relaxed" dangerouslySetInnerHTML={{ __html: formatBody(msg.text) }} />
@@ -486,8 +487,8 @@ function TutorPageContent() {
             )}
             {loading && (
               <div className="self-start">
-                <div className="flex items-center gap-2 mb-2 font-mono text-[10px] tracking-[0.14em] uppercase opacity-55">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#a8324a]" />
+                <div className="flex items-center gap-2 mb-2 font-sans text-[10px] tracking-[0.14em] uppercase opacity-55">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#245574]" />
                   Vitalis
                 </div>
                 <div className="flex items-center gap-1.5 opacity-60">
@@ -505,7 +506,7 @@ function TutorPageContent() {
                 <div key={i} className="relative">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src={img.dataUrl} alt="Pending" className="w-16 h-16 rounded-lg object-cover border border-[#0c1a2e25]" />
-                  <button onClick={() => removePendingImage(i)} className="absolute -top-2 -right-2 w-5 h-5 bg-[#0c1a2e] text-[#f5f1ea] rounded-full flex items-center justify-center text-[10px] hover:bg-[#a8324a]">×</button>
+                  <button onClick={() => removePendingImage(i)} className="absolute -top-2 -right-2 w-5 h-5 bg-[#0c1a2e] text-[#f5f1ea] rounded-full flex items-center justify-center text-[10px] hover:bg-[#245574]">×</button>
                 </div>
               ))}
             </div>
@@ -526,7 +527,7 @@ function TutorPageContent() {
               </svg>
             </button>
           </div>
-          <div className="px-8 py-2.5 font-mono text-[10px] tracking-[0.08em] opacity-40 text-center border-t border-[#0c1a2e15]">
+          <div className="px-8 py-2.5 font-sans text-[10px] tracking-[0.08em] opacity-40 text-center border-t border-[#0c1a2e15]">
             Vitalis is a study aid. Verify critical content with official AAMC materials. {isAuthenticated && conversationId ? "Your conversation is being saved." : ""}
           </div>
         </div>
@@ -539,7 +540,7 @@ function TutorPageContent() {
         .tutor-msg ul, .tutor-msg ol { margin: 10px 0; padding-left: 22px; }
         .tutor-msg li { margin-bottom: 5px; }
         .tutor-msg code { background: #0c1a2e14; padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 13px; }
-        .tutor-msg h3 { font-family: 'Fraunces', serif; font-size: 18px; font-weight: 600; margin: 14px 0 8px; }
+        .tutor-msg h3 { font-family: var(--font-geist-sans), Arial, sans-serif; font-size: 18px; font-weight: 600; margin: 14px 0 8px; }
         .tutor-msg .diagram { margin: 14px 0; padding: 14px; background: #0c1a2e08; border: 1px solid #0c1a2e15; border-radius: 10px; display: flex; justify-content: center; }
         .tutor-msg .diagram svg { max-width: 100%; height: auto; }
         .tutor-msg .chart-wrap { margin: 14px 0; padding: 18px; background: #0c1a2e08; border: 1px solid #0c1a2e15; border-radius: 10px; height: 300px; position: relative; }

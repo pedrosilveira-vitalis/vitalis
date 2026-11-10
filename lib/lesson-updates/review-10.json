@@ -1,0 +1,203 @@
+{
+  "lessonId": 10,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Full text and five quiz questions read. Targeted scientific review; source-specific corrections and explanatory diagrams are not an exhaustive certification. Claims about exam frequency are not independently verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "typically only 20–40 kJ/mol under physiological conditions",
+      "new": "often only tens of kJ/mol for experimentally studied small globular proteins, with substantial variation",
+      "reason": "Do not universalize narrow range.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3207669/"
+    },
+    {
+      "field": "content",
+      "old": "For a stable, folded protein, ΔG_fold must be negative.",
+      "new": "For a simple two-state system, the folded state is favored when the standard folding free-energy difference G_N − G_U is negative. At equilibrium the actual reaction Gibbs energy is zero; populations reflect the standard state difference.",
+      "reason": "Distinguish state stability from actual reaction delta G.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3207669/"
+    },
+    {
+      "field": "content",
+      "old": "The enthalpy of folding (ΔH_fold) is generally *negative* (favorable), driven by:",
+      "new": "The enthalpy of folding (ΔH_fold) varies with protein and temperature. Contributions include:",
+      "reason": "Signs are not universal.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3207669/"
+    },
+    {
+      "field": "content",
+      "old": "Each H-bond contributes roughly −2 to −8 kJ/mol, but many of these bonds also exist between the unfolded protein and water, so the net enthalpic gain from H-bonding in folding is modest.",
+      "new": "The net effect depends on protein–water interactions lost and new interactions formed; there is no universal energy per hydrogen bond to add up.",
+      "reason": "Avoid universal Hbond energy.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "content",
+      "old": "These contribute −12 to −40 kJ/mol per interaction in the protein interior, though they are partially offset by the desolvation cost of burying charges.",
+      "new": "Their net stability effect depends on geometry, dielectric environment and desolvation; burial is not automatically favorable.",
+      "reason": "Correct unsupported fixed saltbridge contribution.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/8003958/"
+    },
+    {
+      "field": "content",
+      "old": "- **The hydrophobic effect**: This is the dominant stabilizing force in most globular proteins. Nonpolar side chains are sequestered in the protein interior away from water. When hydrophobic groups are exposed to water, water molecules must form ordered cage-like (clathrate) structures around them, decreasing the entropy of water. Burying hydrophobic residues upon folding *releases* these ordered water molecules, producing a large *favorable* increase in solvent entropy (ΔS_solvent > 0). The hydrophobic effect is therefore primarily entropic in origin at physiological temperatures.",
+      "new": "- **The hydrophobic effect**: Burial of nonpolar surface can favor folding of soluble globular proteins through changes in solvent interactions. A solvent-entropy model is useful, but water does not form rigid cages around every hydrophobic group, and the enthalpy/entropy balance varies with temperature and surface size.",
+      "reason": "Replace literal clathrates and universal dominance.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5346440/"
+    },
+    {
+      "field": "content",
+      "old": "- **Net entropy**: The favorable gain in solvent entropy from the hydrophobic effect typically outweighs the unfavorable loss of chain conformational entropy, making the overall ΔS_fold positive (favorable for folding).",
+      "new": "- **Net entropy**: Combine solvent and chain contributions. The total ΔS_fold can be negative or positive; it must not be inferred from solvent entropy alone.",
+      "reason": "Fix total entropy sign.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3207669/"
+    },
+    {
+      "field": "content",
+      "old": "Because ΔH_fold is negative (favorable) and ΔS_fold is positive (favorable), you might expect proteins to be extraordinarily stable. They are not, because the magnitudes of ΔH and TΔS are both large and nearly cancel each other. The net ΔG_fold of −20 to −40 kJ/mol is the small difference between two large numbers. This marginal stability is *functionally important*: it allows proteins to undergo conformational changes necessary for catalysis, allosteric regulation, and ligand binding. A protein that was too stable would be too rigid to function.",
+      "new": "Many proteins have modest net stability because favorable and unfavorable contributions nearly balance. In ΔG_fold = ΔH_fold − TΔS_fold, negative ΔH and positive ΔS would both favor folding, so they cannot cancel each other. The signs and magnitudes depend on temperature and protein. Stability and functional flexibility are related but distinct: a highly stable protein need not be rigid or inactive.",
+      "reason": "Fix algebraic contradiction and stability-versus-flexibility claim.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3207669/"
+    },
+    {
+      "field": "content",
+      "old": "Disulfide bonds are found almost exclusively in:",
+      "new": "Stable structural disulfides are especially common in:",
+      "reason": "Cytoplasmic exceptions exist.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15031298/"
+    },
+    {
+      "field": "content",
+      "old": "Disulfide bonds constrain the unfolded state, reducing the conformational entropy gain upon unfolding and thereby increasing thermodynamic stability.",
+      "new": "Disulfides can stabilize proteins partly by constraining the unfolded state; their net effect depends on the particular bond and protein.",
+      "reason": "Not every engineered disulfide stabilizes.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "- At higher temperatures, the TΔS term in the Gibbs equation grows. Since the entropic cost of maintaining ordered solvent around hydrophobic groups becomes less dominant at very high temperatures, the hydrophobic effect actually *weakens* at high temperatures.",
+      "new": "- Heat unfolding must be analyzed using temperature-dependent ΔH, ΔS and heat capacity. Above a reversible two-state melting transition, the unfolded population is favored; one cannot hold ΔH and ΔS fixed across the entire temperature range.",
+      "reason": "Correct heat thermodynamics.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3207669/"
+    },
+    {
+      "field": "content",
+      "old": "the temperature at which 50% of molecules are unfolded.",
+      "new": "the midpoint of a thermal transition; it corresponds to 50% unfolded only for a reversible two-state process.",
+      "reason": "Tm conditional.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3207669/"
+    },
+    {
+      "field": "content",
+      "old": "Protonation of Asp (pKa ~3.9), Glu (pKa ~4.1), and His (pKa ~6.0) neutralizes negative charges and disrupts salt bridges; excess positive charge causes electrostatic repulsion.",
+      "new": "Protonating Asp/Glu can remove negative charge; protonating His adds positive charge. Both can change salt bridges and repulsion. Free side-chain pKa values are approximate and can shift in proteins.",
+      "reason": "Histidine is not initially negative.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "Deprotonation of Lys (pKa ~10.5), Arg (pKa ~12.5), and Tyr (pKa ~10.1) removes positive charges and similarly disrupts electrostatic interactions.",
+      "new": "Deprotonating Lys/Arg can remove positive charge, whereas deprotonating Tyr creates negative charge. These changes can disrupt the native charge pattern.",
+      "reason": "Tyrosine deprotonation not positive-to-neutral.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "This is the molecular basis of heavy metal toxicity.",
+      "new": "Disruption of protein structure is one contributor to heavy-metal toxicity; effects depend on the metal and exposure.",
+      "reason": "Avoid single-mechanism toxicology claim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "an eight-subunit hetero-oligomeric chaperonin",
+      "new": "a double-ring chaperonin with eight different subunits in each ring (16 subunits total)",
+      "reason": "Correct whole-complex count.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21701561/"
+    },
+    {
+      "field": "content",
+      "old": "**Chaperones require ATP** (with the exception of sHsps).",
+      "new": "**Some chaperones use ATP**, including Hsp70, Hsp90 and chaperonins. Others, including small heat-shock proteins and the lectin chaperones calnexin/calreticulin, do not require their own ATP hydrolysis.",
+      "reason": "More ATP-independent classes than small Hsps.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "This proved that the amino acid sequence alone determines the three-dimensional structure.",
+      "new": "This supported sequence-dependent folding in suitable environmental conditions, not a universal guarantee of unaided folding.",
+      "reason": "Scope Anfinsen.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "field": "content",
+      "old": "Remember: all levels above primary are disrupted by denaturation.",
+      "new": "Denaturation can be partial or extensive; identify which structural features the stated treatment affects.",
+      "reason": "Not all denaturation erases all secondary structure.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "molecular chaperones (Hsp70, Hsp90, chaperonins, sHsps) use ATP hydrolysis to bind unfolded intermediates, prevent aggregation, and facilitate productive folding.",
+      "new": "molecular chaperones bind folding intermediates, prevent aggregation and facilitate productive folding. Hsp70, Hsp90 and chaperonins use ATP, whereas small heat-shock proteins act as ATP-independent holdases.",
+      "reason": "Fix contradiction with own smallHsp section.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "content",
+      "old": "The net stabilization free energy is small—20 to 40 kJ/mol—making proteins sensitive to perturbation.",
+      "new": "Net stability is often modest and varies by protein and conditions, making many proteins sensitive to perturbation.",
+      "reason": "Scope range.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3207669/"
+    },
+    {
+      "field": "questions.46.question_text",
+      "old": "A researcher measures the free energy of folding for a small globular protein and finds that the folded state is only marginally stable (delta G approximately -5 to -10 kcal/mol) relative to the unfolded state. Which of the following best explains why proteins have evolved to be only marginally stable rather than maximally stable?",
+      "new": "A protein’s ligand binding requires reversible conformational changes. Which property is most directly compatible with that function?",
+      "reason": "Original asks universal evolutionary reason not established.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "questions.46.choice_b",
+      "old": "Marginal stability allows proteins to undergo conformational flexibility necessary for function, ligand binding, and allosteric regulation.",
+      "new": "Access to multiple native conformations while retaining sufficient structural stability.",
+      "reason": "Avoid conflating unfolding stability with flexibility.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "questions.46.explanation",
+      "old": "Proteins that are too rigidly stable would be unable to undergo the conformational changes required for catalysis, ligand binding, and allosteric signaling. Marginal stability represents an evolutionary compromise between stability and the flexibility needed for function. Choice C is incorrect because chaperones assist with initial folding and stress-induced refolding, not routine post-catalytic refolding cycles. Choice D is a misapplication of aggregation concepts, which are not the primary reason for marginal stability.",
+      "new": "B describes functional conformational flexibility. It does not require unfolding after every catalytic cycle, nor does it imply that a highly stable protein must be inactive. The folding free-energy gap alone cannot determine the range of motions within the native ensemble.",
+      "reason": "Remove unsupported universal adaptation story.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3207669/"
+    },
+    {
+      "field": "questions.47.choice_b",
+      "old": "The information required for correct three-dimensional folding is encoded entirely within the protein's amino acid sequence.",
+      "new": "This protein can recover its native fold from its sequence in the buffer conditions used.",
+      "reason": "Environment-scoped conclusion.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "field": "questions.47.explanation",
+      "old": "This describes Anfinsen's classic ribonuclease experiment, which demonstrated that the primary sequence alone contains sufficient information to direct spontaneous folding to the native state. The thermodynamic hypothesis states that the native conformation represents the global free-energy minimum for that sequence. Choice C is incorrect because the experiment was performed in vitro without added chaperones, and choice D is incorrect because urea disrupts, rather than stabilizes, secondary structure by interfering with hydrogen bonds.",
+      "new": "B is supported by the observed recovery. This is consistent with Anfinsen’s principle under appropriate environmental conditions; it is not the complete historical experiment, which also used disulfide reduction and reoxidation. The observation provides no evidence for chaperones in the buffer and does not imply that all proteins refold under these conditions.",
+      "reason": "Do not equate urea-only experiment with historical fullprocedure.",
+      "sourceUrl": "https://www.nobelprize.org/uploads/2018/06/anfinsen-lecture.pdf"
+    },
+    {
+      "field": "questions.48.explanation",
+      "old": "choice D describes proteasomal degradation, not chaperone function.",
+      "new": "choice D incorrectly combines degradation with reassembly: ribosomes synthesize new chains from aminoacyl-tRNAs, not by joining arbitrary degradation fragments.",
+      "reason": "Distractor is not valid description of proteasomal recycling.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "field": "questions.50.explanation",
+      "old": "Prions demonstrate that a protein can act as an infectious agent purely through conformational templating. PrP-Sc, which is enriched in beta-sheet structure compared to the alpha-helix-rich PrP-C, binds to normal PrP-C and induces it to adopt the PrP-Sc conformation, propagating misfolding in a chain reaction. The resulting aggregates form amyloid fibrils that are neurotoxic. Choice A is incorrect because prion diseases are not caused by mutations in the primary sequence; both isoforms are encoded by the same gene. Choice C is a plausible distractor but is not the established mechanism of prion propagation.",
+      "new": "B identifies conformational templating: an abnormal PrP conformation promotes conversion of compatible normal PrP and aggregation. No new sequence mutation is needed in each conversion event. However, some prion diseases are inherited and involve pathogenic PRNP variants; others are sporadic or acquired. The matched sequences in this question do not justify claiming that all prion diseases lack genetic causes. Neither chaperone inhibition nor acquired protease activity explains the templating mechanism.",
+      "reason": "Correct false exclusion of inherited prion disease.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1229/"
+    }
+  ]
+}

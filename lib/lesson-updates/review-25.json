@@ -1,0 +1,301 @@
+{
+  "lessonId": 25,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "But pyruvate itself is not the cell's preferred currency for energy extraction — that role belongs to acetyl-CoA, the two-carbon unit that feeds the citric acid cycle.",
+      "new": "Pyruvate has several metabolic fates. Its conversion to acetyl-CoA links glycolysis to oxidative metabolism and biosynthesis.",
+      "reason": "No preferredenergycurrencyforcarbonintermediates.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "determines whether the carbon skeleton of glucose will be completely oxidized for maximum ATP yield or shunted elsewhere",
+      "new": "helps control pyruvate entry into acetyl-CoA metabolism; acetyl-CoA may support oxidation, lipid synthesis or other pathways",
+      "reason": "PDCnotcommitmentcompleteoxidation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "This explains why fatty acids (which are degraded to acetyl-CoA) cannot be used for net glucose synthesis in animals",
+      "new": "This explains why even-chain fatty-acid acetyl units do not provide net glucose through the conventional human TCA/gluconeogenic pathways. Odd-chain fatty acids supply glucogenic propionyl-CoA, and the glycerol portion of stored triacylglycerol can also supply glucose",
+      "reason": "Fatversusfattyacidexceptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "**E1 — Pyruvate Dehydrogenase (pyruvate decarboxylase)**",
+      "new": "**E1 — Pyruvate Dehydrogenase component** (distinct from the standalone pyruvate decarboxylase of alcoholic fermentation)",
+      "reason": "AvoidE1fermentationenzymeconfusion.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7275779/"
+    },
+    {
+      "field": "content",
+      "old": "This is the rate-limiting step and the primary site of allosteric and covalent regulation",
+      "new": "E1 is the target of inhibitory phosphorylation; overall flux also depends on other components, products and substrates",
+      "reason": "Notsoleallostericsite/alwaysrate-limiting.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3486978/"
+    },
+    {
+      "field": "content",
+      "old": "between E1 and E3 active sites",
+      "new": "among E1, E2 and E3 active sites",
+      "reason": "Includeacetyltransferaseactivecenter.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7275779/"
+    },
+    {
+      "field": "content",
+      "old": "all occurring while the substrate is passed from one enzyme active site to another via the lipoamide swinging arm",
+      "new": "with the lipoyl arm coordinating acetyl-group transfer and redox regeneration; not every substrate is carried on that arm",
+      "reason": "NADCoAarenotarm-boundsubstrates.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7275779/"
+    },
+    {
+      "field": "content",
+      "old": "FAD oxidizes the dihydrolipoamide back to its disulfide form (restoring the swinging arm for another cycle), and FAD itself is reduced to **FADH₂**.",
+      "new": "Electrons pass from dihydrolipoamide through E3’s catalytic disulfide to FAD. This restores oxidized lipoamide and reduces the enzyme-bound flavin; FADH₂ is not released as a separate product.",
+      "reason": "IncludeE3disulfideintermediate.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7275779/"
+    },
+    {
+      "field": "content",
+      "old": "The PDC reaction is **thermodynamically irreversible** under physiological conditions. The large negative ΔG°' (−33.4 kJ/mol) is driven by:\n- The release of CO₂ (entropic favorability)\n- Formation of the high-energy thioester bond in acetyl-CoA\n- Reduction of NAD⁺ to NADH",
+      "new": "The PDC reaction strongly favors acetyl-CoA formation under usual cellular conditions. Its overall oxidation/decarboxylation is energetically favorable while some energy is conserved in NADH and the acetyl-CoA thioester. Formation of a high-transfer-potential thioester is not itself an energy-releasing explanation. Actual ΔG depends on concentrations as well as the standard value.",
+      "reason": "Correctthermodynamicdrivers.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "1. **Fatty acid oxidation cannot fuel gluconeogenesis in animals.** Fatty acids are broken down to acetyl-CoA, but without a mechanism to reverse the PDC reaction, acetyl-CoA cannot be converted to pyruvate or oxaloacetate (net). The carbons enter the citric acid cycle but are released as CO₂.",
+      "new": "1. **Even-chain fatty acids do not supply net glucose carbon through these pathways**, but their oxidation supplies ATP and reducing power that can fuel gluconeogenesis. Odd-chain propionyl-CoA and triacylglycerol glycerol are glucogenic. Net carbon contribution and energetic support are different questions.",
+      "reason": "Originalcannotfuelisoppositeofphysiology.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "### Allosteric Regulation\n\nThe PDC is allosterically inhibited by its own products and by indicators of high cellular energy charge.\n\n**Inhibitors (product inhibition and energy surplus):**\n- **Acetyl-CoA** — product inhibition; signals that the citric acid cycle substrate is already abundant\n- **NADH** — product inhibition; signals that electron carriers are saturated\n- **ATP** — signals high energy charge; cell does not need more oxidative phosphorylation\n\n**Activators (energy deficit):**\n- **CoA** — substrate availability signals need for more acetyl-CoA production\n- **NAD⁺** — signals depleted electron carriers; more NADH needed\n- **AMP/ADP** — signals low energy charge; more ATP production needed\n- **Pyruvate** — at high concentrations, activates by inhibiting PDC kinase (see below)\n- **Ca²⁺** — particularly important in muscle; activates PDC phosphatase\n\nThe logic is consistent: when the cell is energy-replete (high ATP, high NADH, high acetyl-CoA), PDC is inhibited. When the cell needs energy (high AMP, high NAD⁺, high CoA), PDC is activated.\n\n",
+      "new": "### Products, substrates and regulatory enzymes\n\nAcetyl-CoA and NADH inhibit PDC through product effects and can favor PDK activity via the state of lipoyl groups. CoA and NAD⁺ are substrates, not simply allosteric activators. Pyruvate and ADP can inhibit PDK; high ATP/ADP and reduced/acetylated lipoyl states tend to favor phosphorylation and reduced PDC flux. These responses differ among PDK isoforms. Calcium can stimulate calcium-sensitive PDP1, especially important in muscle; this is distinct from binding directly to the E1 catalytic site.\n\n",
+      "reason": "Separatedirectproducteffectsfromkinasephosphataseandcosubstrates.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3486978/"
+    },
+    {
+      "field": "content",
+      "old": "Activated by: acetyl-CoA, NADH, ATP (same signals that allosterically inhibit PDC)",
+      "new": "Favored by high ATP/ADP and reduced/acetylated lipoyl states associated with high NADH and acetyl-CoA",
+      "reason": "Notallareidenticaldirectallostery.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3486978/"
+    },
+    {
+      "field": "content",
+      "old": "Inhibited by: pyruvate, ADP, CoA, NAD⁺, Ca²⁺",
+      "new": "Pyruvate and ADP can inhibit PDK; product/substrate ratios and isoform affect the response",
+      "reason": "Avoiduniversalcalciumkinasetarget.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3486978/"
+    },
+    {
+      "field": "content",
+      "old": "- Activated by: Ca²⁺, insulin\n- Inhibited by: NADH, acetyl-CoA",
+      "new": "- PDP1 is calcium-sensitive; PDP2 has different calcium regulation.\n- Insulin can favor PDC activation in particular tissues; do not infer universal direct inhibition of PDP by NADH or acetyl-CoA.",
+      "reason": "Tableovergeneralization.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9651365/"
+    },
+    {
+      "field": "content",
+      "old": "insulin activates PDC phosphatase, promoting PDC activity.",
+      "new": "insulin can promote PDC activity in a tissue-dependent manner, including effects on dephosphorylation and PDK expression.",
+      "reason": "Context.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3486978/"
+    },
+    {
+      "field": "content",
+      "old": "| High NADH | Activates PDK | Inhibits PDP | Inhibits PDC |",
+      "new": "| High NADH/NAD⁺ | Can favor PDK via reduced lipoyl groups | Not a universal direct effect | Favors lower flux |",
+      "reason": "Do not inventuniversalPDPinhibition.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3486978/"
+    },
+    {
+      "field": "content",
+      "old": "| High acetyl-CoA | Activates PDK | Inhibits PDP | Inhibits PDC |",
+      "new": "| High acetyl-CoA/CoA | Can favor PDK via acetylated lipoyl groups | Not a universal direct effect | Favors lower flux |",
+      "reason": "Same.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3486978/"
+    },
+    {
+      "field": "content",
+      "old": "| Ca²⁺ | Inhibits PDK | Activates PDP | Activates PDC |",
+      "new": "| Ca²⁺ | Do not assume a universal direct response | Activates calcium-sensitive PDP1 | Can activate PDC |",
+      "reason": "Isoforms.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9651365/"
+    },
+    {
+      "field": "content",
+      "old": "| Insulin | — | Activates PDP | Activates PDC |",
+      "new": "| Insulin | Can reduce PDK expression | Activation is tissue-dependent | Often promotes pyruvate oxidation |",
+      "reason": "Tissues.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3486978/"
+    },
+    {
+      "field": "content",
+      "old": "The five cofactors of the PDC each have clinically relevant deficiency states.",
+      "new": "Vitamin availability and defects in cofactor synthesis can affect PDC, but the five cofactors do not correspond to five equivalent dietary-deficiency syndromes.",
+      "reason": "Lipoatesynthesisnotdietaryvitamin.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK571223/"
+    },
+    {
+      "field": "content",
+      "old": "Pyruvate accumulates in the blood (**lactic acidosis**)",
+      "new": "Pyruvate may accumulate and be reduced to lactate, contributing to **lactic acidosis**",
+      "reason": "Pyruvate≠lactate.",
+      "sourceUrl": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+    },
+    {
+      "field": "content",
+      "old": "seen in alcoholics;",
+      "new": "associated with severe thiamine deficiency from several causes, including alcohol use disorder;",
+      "reason": "Notexclusiveandrespectful.",
+      "sourceUrl": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+    },
+    {
+      "field": "content",
+      "old": "neurons rely almost exclusively on glucose as a fuel",
+      "new": "brain energy metabolism normally relies strongly on glucose but can also use ketones and other substrates",
+      "reason": "Alternatebrainfuels.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK571223/"
+    },
+    {
+      "field": "content",
+      "old": "Treatment strategies include a **ketogenic diet**, which provides ketone bodies (derived from fatty acid oxidation in the liver) as an alternative fuel for the brain that bypasses the need for PDC.",
+      "new": "Specialist-managed treatment can include a **ketogenic diet** to supply ketone-derived acetyl-CoA without PDC. Management depends on the genetic defect; thiamine helps some variants, and DLD deficiency requires distinct consideration. This is not a general diet recommendation.",
+      "reason": "Geneticmanagementnotuniversal.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK571223/"
+    },
+    {
+      "field": "content",
+      "old": "The two-carbon acetyl group will ultimately be oxidized to two CO₂ molecules over the course of the cycle.",
+      "new": "The cycle releases two CO₂ per turn in net balance, but newly entering acetyl carbons are not the CO₂ released in that first turn.",
+      "reason": "Carbontracking.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The remaining 4 carbons (as 2 acetyl groups) enter the cycle and are released as 4 more CO₂ molecules.",
+      "new": "The remaining four carbons enter as two acetyl groups and are ultimately oxidized over subsequent turns; the first-turn CO₂ comes from the pre-existing oxaloacetate skeleton.",
+      "reason": "Same.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "activated by CoA, NAD⁺, AMP, Ca²⁺, insulin",
+      "new": "regulated by substrate supply, PDK/PDP and tissue-specific calcium/hormonal signals",
+      "reason": "Summarydistinguishsubstrates.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3486978/"
+    },
+    {
+      "field": "content",
+      "old": "animals cannot perform net gluconeogenesis from fat",
+      "new": "odd-chain propionyl-CoA and triacylglycerol glycerol are important exceptions to a blanket “fat cannot make glucose” statement",
+      "reason": "Summaryexceptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544346/"
+    },
+    {
+      "field": "content",
+      "old": "the point at which carbon commitment to complete oxidation is made",
+      "new": "a branch point supplying acetyl-CoA for oxidation and biosynthesis",
+      "reason": "Summarynotoxidationcommitment.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.121.choice_a",
+      "old": "Accumulation of pyruvate and inability to regenerate NAD+ within the PDC, halting the overall reaction",
+      "new": "Failure to regenerate oxidized lipoamide, stalling repeated PDC turnover and favoring pyruvate accumulation.",
+      "reason": "OriginalAwrongNADregenerationdirection.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7275779/"
+    },
+    {
+      "field": "questions.122.choice_b",
+      "old": "The loss of CO2 via oxidative decarboxylation, which drives the reaction strongly forward",
+      "new": "The complete oxidative decarboxylation has a strongly negative reaction ΔG under usual cellular conditions.",
+      "reason": "CO2lossnotbyitselfirreversible.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.122.explanation",
+      "old": "The release of CO2 as a gas makes the reaction thermodynamically irreversible because the carbon cannot be recaptured under normal physiological conditions; this large negative delta-G drives the reaction forward. Choice A is partially relevant but the thioester bond energy is released later in the TCA cycle, not as the primary driver of irreversibility here. Choice C is incorrect because the cofactors (TPP, lipoamide, CoA, FAD, NAD+) are regenerated catalytically, not consumed stoichiometrically. Choice D describes a regulatory step in anaplerosis, not the mechanism of irreversibility of pyruvate oxidation itself.",
+      "new": "B is correct: overall reaction thermodynamics favor forward flux. CO₂ can be fixed in other reactions, so “carbon cannot be recaptured” is not the reason. PDC forms rather than hydrolyzes the acetyl-CoA thioester. TPP, lipoamide and FAD are regenerated internally; CoA and NAD⁺ are stoichiometric cosubstrates converted to acetyl-CoA and NADH. Acetyl-CoA activates, rather than inhibits, pyruvate carboxylase.",
+      "reason": "Originalexplanationmultipleerrors.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.123.question_text",
+      "old": "A patient presents with elevated blood lactate and pyruvate levels, peripheral neuropathy, and episodes of lactic acidosis. Genetic testing reveals a loss-of-function mutation in the gene encoding the E1 subunit of the pyruvate dehydrogenase complex. Which cofactor required by E1 is most directly rendered non-functional by this mutation?",
+      "new": "An E1 loss-of-function variant impairs pyruvate oxidation. Which cofactor normally participates directly in E1 catalysis?",
+      "reason": "Mutationdoesnotrenderfreecofactorchemicallynonfunctional.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK571223/"
+    },
+    {
+      "field": "questions.123.explanation",
+      "old": "E1 is pyruvate decarboxylase, which requires thiamine pyrophosphate (TPP) as its tightly bound cofactor to catalyze the decarboxylation of pyruvate and transfer the resulting hydroxyethyl group to lipoamide. A loss-of-function mutation in E1 directly impairs TPP-dependent catalysis. CoA is used by E2 (acetyltransferase) and FAD is used by E3 (dihydrolipoamide dehydrogenase), so they are not directly affected by an E1 mutation. The clinical picture of lactic acidosis is consistent with pyruvate accumulation that is shunted to lactate.",
+      "new": "C is correct: E1 uses TPP to support pyruvate decarboxylation and transfer to the lipoyl group. The variant impairs enzyme function; it need not damage TPP itself. CoA is used at E2 and FAD/NAD⁺ at E3. E1 is not the standalone pyruvate decarboxylase used in alcoholic fermentation.",
+      "reason": "Correctenzyme/cofactorrelation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7275779/"
+    },
+    {
+      "field": "questions.124.choice_a",
+      "old": "PDC is activated by pyruvate dehydrogenase kinase (PDK), which phosphorylates and inactivates the E1 subunit",
+      "new": "PDC is inhibited when PDK phosphorylates and inactivates E1.",
+      "reason": "Correctanswerwasinternallyopposite.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3486978/"
+    },
+    {
+      "field": "questions.124.explanation",
+      "old": "High ATP, NADH, and acetyl-CoA levels signal energy abundance, activating PDK, which phosphorylates the E1 alpha subunit of PDC and inactivates it, preventing further acetyl-CoA production when it is not needed. Choice B describes the opposite scenario: PDP is active when energy is low (e.g., high Ca2+ during muscle activity) and reactivates PDC. Choice C is incorrect because AMP signals low energy and would promote, not inhibit, PDC activity. Choice D confuses the regulatory logic; high acetyl-CoA inhibits PDC, but not through CoA competition.",
+      "new": "A is correct. High energy/product signals can favor PDK-dependent E1 phosphorylation, reducing PDC activity. PDP removes those phosphates. Exact responses depend on kinase/phosphatase isoforms, metabolites and tissue; low-energy signals should not be treated as universal direct E2 activators.",
+      "reason": "Repairkeyexplanation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3486978/"
+    },
+    {
+      "field": "questions.125.question_text",
+      "old": "During aerobic respiration, one molecule of glucose ultimately yields two molecules of acetyl-CoA via pyruvate oxidation. Compared to the two pyruvate molecules entering the reaction, the two acetyl-CoA molecules delivered to the citric acid cycle have which of the following characteristics?",
+      "new": "Two pyruvate molecules undergo the PDC reaction. Considering only their six pyruvate-derived carbons, which product accounting is correct?",
+      "reason": "WholeacetylCoAhasmanycarbonsspeciesoxidationcomparisonambiguous.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.125.choice_a",
+      "old": "The same number of carbon atoms and the same oxidation state",
+      "new": "All six carbons remain in the two acetyl groups; no CO₂ is released.",
+      "reason": "Clearcarbonbalance.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.125.choice_b",
+      "old": "Fewer carbon atoms and a higher oxidation state than the original pyruvate molecules",
+      "new": "Four carbons remain in two acetyl groups; two leave as CO₂, and two NAD⁺ are reduced to NADH.",
+      "reason": "UnambiguousB.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.125.choice_c",
+      "old": "Fewer carbon atoms and a higher degree of reduction than the original pyruvate molecules",
+      "new": "Two carbons remain in the acetyl groups; four leave as CO₂, with no NADH formed.",
+      "reason": "Parallelcarbonbalance.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.125.choice_d",
+      "old": "The same number of carbon atoms but a higher oxidation state",
+      "new": "All six carbons leave as CO₂ and no acetyl-CoA forms.",
+      "reason": "Parallel.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "questions.125.explanation",
+      "old": "Each pyruvate (3 carbons) loses one carbon as CO2 during oxidative decarboxylation, yielding a 2-carbon acetyl group attached to CoA. Simultaneously, NAD+ is reduced to NADH, meaning the remaining carbons are oxidized (lose electrons), so acetyl-CoA carbons are at a higher oxidation state than the corresponding carbons in pyruvate. Choice C is wrong because the carbons are oxidized, not reduced. Choice A is wrong because both carbon number and oxidation state change. Choice D would be correct only if no oxidation occurred, which contradicts the NADH production.",
+      "new": "B is correct: each three-carbon pyruvate supplies a two-carbon acetyl group and one CO₂ while NAD⁺ is reduced. Count the pyruvate-derived acetyl carbons separately from the many carbons already present in CoA. Comparing average carbon oxidation states of whole pyruvate and acetyl-CoA would not answer this carbon-balance question.",
+      "reason": "Removefalseaverageoxidationclaim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    }
+  ]
+}

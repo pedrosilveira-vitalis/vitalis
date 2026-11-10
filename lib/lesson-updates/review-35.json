@@ -1,0 +1,315 @@
+{
+  "lessonId": 35,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "the error rate of DNA polymerase after proofreading is approximately 1 mistake per 10⁹ to 10¹⁰ base pairs copied",
+      "new": "a commonly taught final error rate after nucleotide selection, proofreading **and mismatch repair** is approximately 1 per 10⁹–10¹⁰ nucleotides copied, with rates varying by system",
+      "reason": "Proofreading alone does not reach final rate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "This means every new DNA strand must begin with a short **RNA primer** synthesized by the enzyme **primase**.",
+      "new": "In standard chromosomal replication, primase supplies an RNA primer (extended with DNA by eukaryotic Pol α). The general polymerase requirement is a suitable primer 3′-OH, which can also be supplied by a DNA primer in repair or laboratory synthesis; specialized replication systems have further exceptions.",
+      "reason": "RNA primer universal overclaim.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "It initiates at specific sequences called **origins of replication**.",
+      "new": "It initiates at **origins of replication**. Some organisms have well-defined origin sequences, while metazoan origin choice also depends strongly on chromatin and cellular context.",
+      "reason": "All euk origins not consensus sequences.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "which require less energy to denature because they form only two hydrogen bonds (versus three for GC pairs)",
+      "new": "which often favor local opening; stacking and sequence context also determine duplex stability, not hydrogen-bond count alone",
+      "reason": "Stability accounting.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "thousands per chromosome in humans",
+      "new": "many thousands across the human genome, with numbers varying among chromosomes and cell types",
+      "reason": "Per genome not uniform per chromosome.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "Licensing is tightly regulated to ensure each origin fires only once per cell cycle",
+      "new": "Licensing and activation are regulated to ensure each origin fires **at most once** per cell cycle; many licensed origins are not used",
+      "reason": "Dormant origins.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "unwinding the double helix by breaking the hydrogen bonds between base pairs",
+      "new": "separating DNA strands by disrupting noncovalent pairing and stacking interactions; it does not cut the phosphodiester backbone",
+      "reason": "Not solely hydrogen bonds.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/3007474/"
+    },
+    {
+      "field": "content",
+      "old": "3′→5′ on the lagging-strand template in *E. coli*",
+      "new": "**5′→3′** on the lagging-strand template in *E. coli*",
+      "reason": "Wrong DnaB polarity.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/3007474/"
+    },
+    {
+      "field": "content",
+      "old": "In eukaryotes, the **MCM2-7 complex** (also a hexameric ring) serves as the core replicative helicase.",
+      "new": "In eukaryotes, MCM2–7 is the motor core of active **CMG** (Cdc45–MCM2–7–GINS), which translocates **3′→5′ along the leading-strand template**.",
+      "reason": "Active CMG and opposite polarity.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21925316/"
+    },
+    {
+      "field": "content",
+      "old": "- **Topoisomerase I** cuts one strand of DNA, allows rotation to relieve tension, and religates the strand. It requires no ATP.",
+      "new": "- **Type I topoisomerases** transiently cleave one strand. Type IB uses controlled rotation; type IA uses strand passage. Typical relaxation reactions are ATP-independent, but reverse gyrase is an ATP-dependent type IA-containing exception.",
+      "reason": "Mechanism and exceptions.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15800630/"
+    },
+    {
+      "field": "content",
+      "old": "**DNA Polymerase I (Pol I)** performs two critical functions in prokaryotes:",
+      "new": "**E. coli DNA Polymerase I (Pol I)** has the following activities:",
+      "reason": "Three activities listed and species scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "Associated with primase; initiates replication by synthesizing the RNA primer followed by a short DNA extension.",
+      "new": "Its associated primase synthesizes RNA; the Pol α catalytic subunit adds a short DNA extension.",
+      "reason": "Pol alpha itself not RNA synthesis.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "Only a single RNA primer is needed at the origin to initiate leading-strand synthesis.",
+      "new": "In the simplified uninterrupted-fork model, one initial primer starts each leading strand. Repriming can occur when replication encounters obstacles.",
+      "reason": "Leading interruptions possible.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "- **RNase H** degrades most of the RNA primer (endonuclease activity on RNA in an RNA:DNA hybrid).\n- **FEN1 (Flap Endonuclease 1)** removes the last ribonucleotide at the 5′ end of the downstream Okazaki fragment by cleaving the 5′ flap structure generated when Pol δ displaces the primer.\n- **Pol δ** fills the resulting gap.",
+      "new": "- **Pol δ** extends upstream DNA and can displace downstream RNA–DNA primer material into a 5′ flap.\n- **FEN1** cleaves short flaps, permitting maturation to a ligatable nick; its role is not limited to clipping exactly one ribonucleotide.\n- **RNase H enzymes** can assist RNA removal; longer-flap routes can involve DNA2. Their contributions depend on the system, so this is not one obligatory three-step sequence.",
+      "reason": "Multiple maturation pathways and FEN1 substrate.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/36379932/"
+    },
+    {
+      "field": "content",
+      "old": "using **NAD⁺** as a cofactor in prokaryotes and **ATP** in eukaryotes and bacteriophages",
+      "new": "using an adenylate donor: **E. coli LigA uses NAD⁺**, whereas eukaryotic ligases and many phage ligases use **ATP**. Other bacterial and archaeal ligases prevent a universal prokaryote-versus-eukaryote rule",
+      "reason": "Ligase family not kingdom universal.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16420348/"
+    },
+    {
+      "field": "content",
+      "old": "*MCAT note*: The distinction between NAD⁺ (prokaryotic ligase) and ATP (eukaryotic ligase) cofactors is a frequently tested detail.",
+      "new": "Identify the ligase being discussed: E. coli LigA is NAD⁺-dependent, while the familiar eukaryotic DNA ligases are ATP-dependent. These donors are consumed during activation rather than acting as an unchanging structural cofactor.",
+      "reason": "Scope and unverified exam frequency.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16420348/"
+    },
+    {
+      "field": "content",
+      "old": "This extended 3′ overhang then serves as a template for primase and Pol δ to synthesize the complementary strand, partially compensating for the lost sequence.",
+      "new": "The extended G-rich strand provides a template for **CST-associated Pol α–primase** to fill in the complementary C-rich strand. A regulated 3′ overhang remains; telomere-end processing also contributes to the end-maintenance problem.",
+      "reason": "Polalpha CST not simple Poldelta.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35830881/"
+    },
+    {
+      "field": "content",
+      "old": "Telomerase is highly active in **germ cells** and **stem cells**.",
+      "new": "Telomerase activity varies, with expression in germline cells and subsets of stem/progenitor cells. It is not uniformly high in every stem cell.",
+      "reason": "Overgeneralized expression.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35830881/"
+    },
+    {
+      "field": "content",
+      "old": "allowing cancer cells to replicate indefinitely",
+      "new": "supporting telomere maintenance and proliferative potential; other cancers use alternative lengthening mechanisms",
+      "reason": "Not sufficient immortality itself.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35830881/"
+    },
+    {
+      "field": "content",
+      "old": "The **MutS/MutL/MutH** system in prokaryotes",
+      "new": "The **MutS/MutL/MutH** system in *E. coli*",
+      "reason": "MutH not all prokaryotes.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "Defects in mismatch repair genes (e.g., MLH1, MSH2) cause **Lynch syndrome (hereditary nonpolyposis colorectal cancer, HNPCC)**, characterized by microsatellite instability and high cancer risk.",
+      "new": "Germline pathogenic variants affecting MLH1, MSH2, MSH6 or PMS2 (or certain EPCAM deletions that silence MSH2) can cause **Lynch syndrome**, a hereditary cancer predisposition. Tumor MMR deficiency can also be acquired without Lynch syndrome; MSI alone does not establish an inherited syndrome.",
+      "reason": "Germline versus sporadic.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1211/"
+    },
+    {
+      "field": "content",
+      "old": "### Antiviral and Anticancer Nucleoside Analogues",
+      "new": "### Antivirals and Anticancer Inhibitors of DNA Synthesis",
+      "reason": "Hydroxyurea not nucleoside.",
+      "sourceUrl": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/hydroxyurea"
+    },
+    {
+      "field": "content",
+      "old": "These drugs are incorporated into DNA in place of normal dNTPs and then block further synthesis:",
+      "new": "Some drugs act as nucleotide analogues after intracellular phosphorylation; others reduce nucleotide supply without incorporation:",
+      "reason": "Mechanism distinction.",
+      "sourceUrl": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/hydroxyurea"
+    },
+    {
+      "field": "content",
+      "old": "Activated by viral thymidine kinase, then incorporated by viral DNA polymerase.",
+      "new": "Initially phosphorylated by viral thymidine kinase and further phosphorylated by cellular enzymes; its triphosphate is a viral DNA polymerase substrate/inhibitor.",
+      "reason": "Missing further phosphorylation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "Incorporated by HIV reverse transcriptase, causing chain termination (no 3′-OH).",
+      "new": "Its intracellular triphosphate form is incorporated by HIV reverse transcriptase and terminates extension because the sugar lacks a 3′-OH.",
+      "reason": "Active metabolite.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "Used in leukemia treatment; inhibits DNA polymerase and causes chain termination.",
+      "new": "Its active ara-CTP competes with dCTP, inhibits polymerase activity and impairs elongation after incorporation. Cytarabine retains a 3′-OH; do not explain it as the same missing-3′-OH mechanism as AZT.",
+      "reason": "Cytarabine chemical distinction.",
+      "sourceUrl": "https://www.cancercareontario.ca/en/drugformulary/drugs/monograph/43901"
+    },
+    {
+      "field": "content",
+      "old": "| Replicative helicase | DnaB | MCM2-7 |",
+      "new": "| Replicative helicase | DnaB (5′→3′ on lagging template) | CMG, with MCM2–7 motor (3′→5′ on leading template) |",
+      "reason": "Table polarity.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/21925316/"
+    },
+    {
+      "field": "content",
+      "old": "| Primer removal | Pol I (5′→3′ exonuclease) | RNase H + FEN1 |",
+      "new": "| Primer maturation | Pol I, with additional RNase contributions | Pol δ displacement + FEN1; RNase H/DNA2 can contribute |",
+      "reason": "Maturation not fixedsequence.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/36379932/"
+    },
+    {
+      "field": "content",
+      "old": "Every new strand (including each Okazaki fragment) requires an RNA primer. Primers are made by primase, not DNA polymerase.",
+      "new": "Standard chromosomal initiation and each Okazaki fragment use primase-generated RNA. Polymerase extension requires a suitable 3′-OH, not an RNA-only primer in every setting.",
+      "reason": "Repeated primer universal.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "Proofreading is a 3′→5′ exonuclease activity intrinsic to the polymerase, occurring during synthesis. Mismatch repair occurs after synthesis is complete.",
+      "new": "Proofreading is associated 3′→5′ exonuclease activity during synthesis; in E. coli Pol III it resides in the ε subunit. Mismatch repair acts on recently synthesized DNA and need not wait for the entire chromosome to finish.",
+      "reason": "Separate subunit and timing.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "Ligase uses NAD⁺ (prokaryotes) or ATP (eukaryotes). Topoisomerase II and helicase use ATP. Topoisomerase I does not.",
+      "new": "E. coli LigA uses NAD⁺; eukaryotic ligases use ATP. Replicative helicases and type II topoisomerases use ATP. Typical type I relaxation does not, with reverse gyrase an exception.",
+      "reason": "Repeated generalization.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16420348/"
+    },
+    {
+      "field": "content",
+      "old": "aided by intrinsic 3′→5′ proofreading exonuclease activity",
+      "new": "aided by associated proofreading activity in the major elongating replicases; Pol α lacks its own proofreading",
+      "reason": "Not all DNApol.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.171.question_text",
+      "old": "During DNA replication, a researcher treats a bacterial culture with a drug that specifically inhibits the removal of RNA primers. Which of the following would be the most likely consequence of this treatment?",
+      "new": "In an E. coli culture, a treatment blocks RNA-primer removal without blocking primer synthesis or initial polymerase elongation. Which process is most directly impaired?",
+      "reason": "Specify organism and isolated activity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.171.choice_b",
+      "old": "Okazaki fragments on the lagging strand would remain unjoined, resulting in a discontinuous lagging strand.",
+      "new": "Maturation of lagging-strand Okazaki fragments into a continuous all-DNA daughter strand.",
+      "reason": "RNAretention not invariably immediate unligatablegaps.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/36379932/"
+    },
+    {
+      "field": "questions.171.explanation",
+      "old": "RNA primers are removed by DNA polymerase I (in prokaryotes) and replaced with DNA; the resulting nicks are then sealed by DNA ligase. If primers cannot be removed, the gaps between Okazaki fragments cannot be filled and ligated, leaving a discontinuous lagging strand. Choice A is incorrect because the leading strand requires only one primer at the origin and elongates continuously; the drug would not prevent initial primer placement, only removal. Choices C and D incorrectly link helicase and topoisomerase function to primer removal.",
+      "new": "B follows directly: RNA primer segments must be processed and replaced for a continuous all-DNA lagging strand to mature. The treatment does not itself prevent primase from making initial primers or helicase/topoisomerase from acting. Primer-removal defects can ultimately disrupt fork progression, but that is distinct from directly inhibiting those enzymes.",
+      "reason": "Avoid RNA automatically gap.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/36379932/"
+    },
+    {
+      "field": "questions.172.question_text",
+      "old": "In eukaryotic DNA replication, DNA polymerase delta is stalled at a region of damaged template DNA. Which feature of DNA polymerases best explains why this polymerase cannot simply skip the lesion and continue synthesis downstream?",
+      "new": "Purified DNA polymerase δ stalls at a blocking lesion. No primase, downstream primer or specialized bypass polymerase is present. Why can it not simply restart synthesis farther downstream on the bare template?",
+      "reason": "Original key rejected true A and false D.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.172.correct_answer",
+      "old": "D",
+      "new": "A",
+      "reason": "Primer requirement correct answer.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.172.choice_a",
+      "old": "DNA polymerases require a free 3-OH group on a paired strand and cannot initiate synthesis de novo on a single-stranded template.",
+      "new": "It needs a suitable primer 3′-OH and cannot start a new DNA chain de novo on the downstream template.",
+      "reason": "Precise scenario.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.172.choice_d",
+      "old": "DNA polymerases can only extend a primer that is base-paired to an undamaged template strand.",
+      "new": "Every DNA polymerase is incapable of extending across any damaged nucleotide.",
+      "reason": "TLS exception renders distractor false.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.172.explanation",
+      "old": "DNA polymerases require proper Watson-Crick base pairing at the 3-OH end of the primer and on the template strand to add nucleotides; a lesion that distorts or blocks base pairing prevents extension. Choice A describes a true property but explains why polymerases need primers, not why they stall at lesions. Choice B is factually wrong; DNA polymerases synthesize 5 to 3. Choice C is a distractor; PCNA enhances processivity but its absence does not specifically explain stalling at a lesion.",
+      "new": "A is correct for the stated assay: Pol δ cannot initiate a fresh chain on an unprimed downstream template. In cells, repriming or specialized translesion polymerases can help bypass obstacles. It is false that every polymerase requires an entirely undamaged template. Synthesis remains 5′→3′, and damage does not automatically remove PCNA.",
+      "reason": "Correct key and removefalse universal.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.173.question_text",
+      "old": "A mutation eliminates the 3 to 5 exonuclease activity of DNA polymerase III in E. coli. Which of the following consequences would be expected?",
+      "new": "A mutation abolishes proofreading by the ε subunit of E. coli DNA polymerase III while preserving its polymerization activity. What outcome is expected?",
+      "reason": "Separate subunit and preserved polymerization.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.174.choice_b",
+      "old": "Primase; a single-stranded DNA template",
+      "new": "Primase; a single-stranded DNA template and ribonucleoside triphosphates (NTPs).",
+      "reason": "Actual chemical substrates missing.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.175.choice_b",
+      "old": "Eukaryotic genomes are much larger and linear, and replication from a single origin would be too slow to complete within the cell cycle.",
+      "new": "Multiple origins allow many forks to copy a large genome in parallel within the available S phase.",
+      "reason": "Size not linearity necessity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.175.explanation",
+      "old": "Eukaryotic genomes can be thousands of times larger than prokaryotic genomes and are organized on linear chromosomes. A single origin would require an impractically long time to replicate the entire genome within the S phase of the cell cycle. Multiple origins fire simultaneously or in a coordinated sequence, dramatically reducing total replication time. Choice A is incorrect; eukaryotic polymerases are not less faithful, and fidelity is unrelated to origin number. Choice C is wrong because eukaryotes do possess topoisomerases. Choice D overstates the role of histones; while chromatin structure influences replication timing, histones are displaced and reassembled rather than permanently blocking forks.",
+      "new": "B explains the time benefit of parallel replication. At a given fork speed, multiple origins reduce the distance each fork must copy. Linear shape alone does not require multiple origins, and the E. coli comparison is not a universal description of all prokaryotes; some archaeal chromosomes use multiple origins. Histones influence replication but do not require an origin at every nucleosome.",
+      "reason": "Bacterial/archaeal and linearity scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    }
+  ]
+}

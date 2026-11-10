@@ -1,0 +1,245 @@
+{
+  "lessonId": 8,
+  "reviewedAt": "2026-11-08",
+  "questionIds": [
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "sources": [
+    {
+      "title": "NCBI: Shape and structure of proteins",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26830/"
+    },
+    {
+      "title": "",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7387221/"
+    },
+    {
+      "title": "OpenStax: Protein structure",
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-9-protein-structure"
+    },
+    {
+      "title": "Shapovalov et al.: Beta-turn classification",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6424458/"
+    },
+    {
+      "title": "Protein folding thermodynamics",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804899/"
+    },
+    {
+      "title": "NCBI: Membrane proteins",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26878/"
+    },
+    {
+      "title": "Solid-state NMR of silk fibroin",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40994083/"
+    }
+  ],
+  "visual": {
+    "title": "Recognize the backbone patterns",
+    "src": "/lesson-diagrams/protein-secondary.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "Alpha-helical hydrogen bonds pair carbonyl oxygen at i with N–H at i+4; oxygen accepts and N–H donates. Parallel beta strands run the same way, antiparallel strands opposite ways. Type II turns often have glycine at i+2. Porins expose hydrophobic groups to lipid and polar groups to the pore.",
+    "caption": "Schematic patterns, not to scale. Real structures vary; the hydrogen-bond and side-chain labels show the key relationships."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "5276cb63a390c3e02678bddfa7b44f880a6c6339df3fd67352187a786a78a3e0"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "0bf84efb78f5fa96a31e040afa19f990bd04b6d98f6ec59c1fb0532dbbbdfc2a"
+    },
+    {
+      "field": "questions.36.question_text",
+      "sha256": "611aea5c947132b74619bf056d43270092235cb351330c7564e5581064d61972"
+    },
+    {
+      "field": "questions.36.choice_a",
+      "sha256": "c238a580d10e1f7c959e32b6ad474309c9e4b38555aed41a49fa3db00b52f33b"
+    },
+    {
+      "field": "questions.36.choice_b",
+      "sha256": "8185667dffdae3f67b5e60010061a498d6e3b9ef714179df471d7c39182bb146"
+    },
+    {
+      "field": "questions.36.choice_c",
+      "sha256": "abd026c7f47855e22b6a5e17d009d8eb7b8634594688b51a1ecec3ad6ccec0dc"
+    },
+    {
+      "field": "questions.36.choice_d",
+      "sha256": "17b184df572fe06e4ed30e6843767de8d2943a2dbbeaa52ef3dbab922e947beb"
+    },
+    {
+      "field": "questions.36.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.36.explanation",
+      "sha256": "c28a2c99c4dfd571a9ec7a069bee9a3ecda86eedc054281e60369324db8a14fb"
+    },
+    {
+      "field": "questions.37.question_text",
+      "sha256": "cb9f2ebf2dcec4963fc8f5298e9e3b18088f874bf0c3efc6196393006d4ae5d5"
+    },
+    {
+      "field": "questions.37.choice_a",
+      "sha256": "55cd99f9e94603f914693fda29eb5940613249f6b386521ff59ca0ff14b03ef6"
+    },
+    {
+      "field": "questions.37.choice_b",
+      "sha256": "a589f6084438b005d75f45f0baa625483e91e880258f2580f1119501dce19368"
+    },
+    {
+      "field": "questions.37.choice_c",
+      "sha256": "48884a10101f1065a0abd9ac22a51f6741b659e962afc0e38046e9bcbd954cdf"
+    },
+    {
+      "field": "questions.37.choice_d",
+      "sha256": "75d62a01c4ccd7886548965a66d3a591165296b72ef29dbda4bfbdbd7a632d37"
+    },
+    {
+      "field": "questions.37.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.37.explanation",
+      "sha256": "e3a487e80c8afc93e42e6542f73e3380d58999baa94ad2989cf03bcb9d37ffbc"
+    },
+    {
+      "field": "questions.38.question_text",
+      "sha256": "3157b8ba179e3e0667931e8ab8a816761d869508d2d699bbd8dc24aa64612f04"
+    },
+    {
+      "field": "questions.38.choice_a",
+      "sha256": "7596a06241b574ec66011c31a70f711de8dc5b7eb7ad732682f007fda56139f0"
+    },
+    {
+      "field": "questions.38.choice_b",
+      "sha256": "f5fbde89a359941b02f6d0dc52e9ef7fcb407c047fdedb2225a67505cc85b62f"
+    },
+    {
+      "field": "questions.38.choice_c",
+      "sha256": "52a653a5ec0566e765c9d96c9bb7f6719baa2489258bde8aad6fc240443a0960"
+    },
+    {
+      "field": "questions.38.choice_d",
+      "sha256": "ea8fdf3d3ef75b43a66266125046aa9747b890d18b8ae4cb48f09bf86c880eb7"
+    },
+    {
+      "field": "questions.38.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.38.explanation",
+      "sha256": "6c06f25b729c95da56751b82e91db9c61a643338c8c5e4f99eb7e1928280b10d"
+    },
+    {
+      "field": "questions.39.question_text",
+      "sha256": "ee9bdcf28d2012ccf62f6f0577490b37775bb564ae7629c4545739b70b882fb7"
+    },
+    {
+      "field": "questions.39.choice_a",
+      "sha256": "ca4dd2866af197296ffeb6e8b02c43ed39c4be0a0874846c6f5115d72440510b"
+    },
+    {
+      "field": "questions.39.choice_b",
+      "sha256": "2e303f96216eab44c0536d2aa0224abcccd13aa4cce83c99cc78e31fd8ea3c85"
+    },
+    {
+      "field": "questions.39.choice_c",
+      "sha256": "43e9aba305bd4820bbe67a7bb0db2dc9374b786f4c69014273300a47ffbcee24"
+    },
+    {
+      "field": "questions.39.choice_d",
+      "sha256": "af2fa2800b56d960b9ff745b431d97e4d7989841b7574993f986a8e96f6459f8"
+    },
+    {
+      "field": "questions.39.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.39.explanation",
+      "sha256": "980eb8e5caeb8e88c49563f15390993a5f857690e8cb672f50c72ea0131485cd"
+    },
+    {
+      "field": "questions.40.question_text",
+      "sha256": "0a760237d4f013ed9ad94d76fa12f530afd35cd6b497cb707a5eeb7ac8cc7fbd"
+    },
+    {
+      "field": "questions.40.choice_a",
+      "sha256": "379bf66227149b5aedeaf12651098150b0d0e7e43290ae7872f70eb59cd328a8"
+    },
+    {
+      "field": "questions.40.choice_b",
+      "sha256": "7968dbfc8c0a97ab1de2f3ccedbed4d51a6b0c7120385faf586e1b71474a2ceb"
+    },
+    {
+      "field": "questions.40.choice_c",
+      "sha256": "3d24bdecd17177636ab26bd2332024d2e2e5f78f68d70393227fdc18666d25f7"
+    },
+    {
+      "field": "questions.40.choice_d",
+      "sha256": "f3e2b7c84d70a6e0d563f46372a0a5712e323c7737624a44a3ae62f7d9ca1f52"
+    },
+    {
+      "field": "questions.40.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.40.explanation",
+      "sha256": "013ad679d1a224801a2efe20b97e86a1d17f1bdb4c3ae11b0a8aa873d76f9484"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Protein Secondary Structure: Alpha Helices and Beta Sheets\n\nProtein function depends on three-dimensional shape, and that shape emerges from a hierarchy of structural levels. Secondary structure sits at the second rung of that hierarchy, describing the local, repeating folding patterns that arise from hydrogen bonds between backbone atoms. Before a polypeptide chain can fold into a functional enzyme, receptor, or structural fiber, many stretches adopt characteristic local conformations; other regions remain irregular or intrinsically disordered. The most important of these are the **alpha helix**, the **beta sheet**, and the **beta turn**. Understanding these motifs at a mechanistic level—not just recognizing their names—is essential for MCAT success, because questions about protein structure routinely test your ability to predict how changes in amino acid sequence affect folding, stability, and function.\n\n---\n\n## The Peptide Bond and Backbone Geometry: The Foundation of Everything\n\nBefore discussing specific secondary structures, you must understand the constraints imposed by the peptide bond itself.\n\n### Planarity of the Peptide Bond\n\nWhen two amino acids are joined by a peptide bond, the carbonyl carbon (C=O) and the amide nitrogen (N-H) share partial double-bond character due to resonance delocalization of the nitrogen's lone pair into the carbonyl system. This resonance restricts rotation around the C–N bond, making the peptide bond approximately **planar**. The six atoms involved—the alpha carbon of residue *i*, the carbonyl carbon, the oxygen, the nitrogen, the hydrogen, and the alpha carbon of residue *i+1*—all lie in the same plane.\n\nThis planarity is not a minor detail. It eliminates one degree of freedom per residue and forces the backbone into a rigid unit between successive alpha carbons. The geometry is almost always in the *trans* configuration (omega angle ≈ 180°), because the *cis* configuration places bulky side chains in steric conflict. The only common exception is **proline**, whose cyclic side chain makes *cis* peptide bonds more accessible (though still rare, ~10% for X-Pro bonds).\n\n### Phi and Psi Angles: The Ramachandran Plot\n\nRotation *is* permitted around two bonds per residue: the bond between the nitrogen and the alpha carbon (**phi, φ**) and the bond between the alpha carbon and the carbonyl carbon (**psi, ψ**). The combination of phi and psi angles defines the local backbone conformation.\n\nThe **Ramachandran plot** maps allowed phi-psi combinations. Most combinations are forbidden because they produce steric clashes between backbone atoms. Allowed regions cluster into distinct zones:\n\n- The **alpha-helical region**: φ ≈ −57°, ψ ≈ −47°\n- The **beta-sheet region**: broadly negative φ and positive ψ; representative values are about (−119°, +113°) for parallel and (−139°, +135°) for antiparallel sheets\n- The **left-handed helix region**: a smaller allowed zone rarely populated by standard amino acids\n- **Glycine** expands the allowed region dramatically because its R group is hydrogen, making it conformationally flexible\n- **Proline** restricts the allowed region because its cyclic structure restricts φ near −60°\n\nOn the MCAT, the key takeaway is that secondary structure is geometrically constrained. Not every amino acid sequence can form every secondary structure, and certain residues are incompatible with specific conformations.\n\n---\n\n## The Alpha Helix\n\n### Basic Geometry\n\nThe **alpha helix** is the most common secondary structure in globular proteins. It forms when a stretch of the polypeptide backbone coils into a right-handed spiral, with backbone hydrogen bonds running parallel to the helical axis.\n\nThe defining geometric parameters are:\n\n- **3.6 residues per turn** of the helix\n- A **rise of 1.5 Å per residue** (translation along the helical axis)\n- A **pitch of 5.4 Å per turn** (rise × residues per turn = 1.5 × 3.6)\n- The **backbone is narrower than the full helix envelope**; side chains project outward and make the overall diameter sequence dependent\n\nThese numbers are testable. Know them.\n\n### Hydrogen Bonding Pattern\n\nThe stabilizing force in the alpha helix is a repeating network of **backbone hydrogen bonds**. The carbonyl oxygen of residue *i* **accepts** a hydrogen bond from the amide N–H of residue *i+4*, which is the **donor**. This **i to i+4 pattern** is the signature of the alpha helix.\n\nBecause 3.6 residues complete one turn, the i to i+4 relationship means each hydrogen bond spans slightly more than one full turn. The result is a tightly wound, internally hydrogen-bonded structure in which the ideal repeating backbone groups participate in hydrogen bonding—except for the residues at the very ends of the helix (the first four N-terminal amides and the last four C-terminal carbonyls lack partners).\n\nThis internal saturation of hydrogen-bonding capacity is energetically favorable and contributes significantly to helix stability.\n\n### Orientation of Side Chains and the Helical Dipole\n\nAll side chains project **outward and slightly downward** from the helical axis. Side-chain packing, salt bridges and side-chain–backbone hydrogen bonds also influence helix stability. Bulky side chains can interfere with helix formation; charged side chains can interact with each other or with the solvent.\n\nBecause each peptide bond has a small dipole moment (δ+ on N-H, δ− on C=O), and because all peptide bonds are aligned roughly parallel to the helical axis, their dipole moments add up to create a **macrodipole** across the entire helix. The N-terminus of the helix carries a net partial positive charge; the C-terminus carries a net partial negative charge. This helical dipole has functional consequences: negatively charged ligands (phosphates, for example) often bind near the positive N-terminal end of helices in enzyme active sites.\n\n### Amino Acids That Favor or Disrupt Alpha Helices\n\nNot all amino acids are equally compatible with alpha-helical geometry:\n\n**Helix-favoring residues:**\n- Alanine: small, non-bulky side chain; high intrinsic helix propensity\n- Leucine, methionine, glutamate, lysine: moderate to high helix propensity\n- Charged residues (Glu, Lys, Arg) are compatible at moderate spacing but can destabilize if clustered on the same face\n\n**Helix-breaking residues:**\n- **Proline**: when internal to a peptide, its ring restricts φ and its backbone nitrogen has no hydrogen, eliminating one hydrogen bond and introducing a kink. Proline is the classic helix breaker.\n- **Glycine**: too conformationally flexible; the lack of a side chain allows the backbone to adopt phi-psi angles outside the helical region, destabilizing the regular structure\n- Residues with large, branched beta-carbon side chains (isoleucine, valine, threonine) have moderate helix-breaking tendency due to steric clash\n\n### Amphipathic Helices\n\nA particularly important class of alpha helices are **amphipathic helices**, in which hydrophobic and hydrophilic residues alternate in a pattern that places them on opposite faces of the helix. Because there are 3.6 residues per turn, a sequence with hydrophobic residues at positions 1, 5, 8, 12 (roughly every 3–4 residues) will cluster hydrophobic side chains on one face and polar/charged residues on the other.\n\nAmphipathic helices are critical in:\n- **Membrane-associated proteins**: the hydrophobic face inserts into the lipid bilayer\n- **Lipid-binding proteins**: apolipoproteins use amphipathic helices to interface with lipid surfaces\n- **Coiled coils**: two or more helices wind around each other, burying hydrophobic faces (as in keratin and tropomyosin)\n\n---\n\n## The Beta Sheet\n\n### Basic Architecture\n\nThe **beta sheet** forms when two or more extended polypeptide strands align side by side and form hydrogen bonds between them. Unlike the alpha helix, where hydrogen bonds are *intrastrand* (within one continuous stretch of sequence), beta sheet hydrogen bonds are *interstrand* (between separate segments of the chain).\n\nIn the beta sheet conformation, the backbone is nearly fully extended:\n- φ ≈ −120°, ψ ≈ +115° (these values place the backbone in the extended region of the Ramachandran plot)\n- The **rise per residue is approximately 3.5 Å**, much greater than in the helix\n- Side chains alternate above and below the plane of the sheet\n\nThe result is a pleated, corrugated surface—hence the alternative name **beta-pleated sheet**. The pleating arises because the tetrahedral geometry of alpha carbons forces alternating up-and-down positioning of side chains.\n\n### Parallel vs. Antiparallel Beta Sheets\n\nBeta sheets come in two varieties, defined by the relative orientation of adjacent strands:\n\n**Antiparallel beta sheet:**\n- Adjacent strands run in opposite N→C directions\n- Hydrogen bonds are relatively straight and approximately transverse to the strand direction\n- The geometry is slightly more favorable (straighter H-bonds) than parallel\n- Can form from a single polypeptide chain via **beta hairpins** (short loops connecting strands running in opposite directions)\n- Often has more favorable individual hydrogen-bond geometry; overall stability depends on the full structure\n\n**Parallel beta sheet:**\n- Adjacent strands run in the same N→C direction\n- Hydrogen bonds are **tilted** relative to the strand axis\n- Requires longer connecting loops because the chain must double back over a greater distance\n- Generally found in the interior of proteins, often forming the **beta barrel** or **TIM barrel** motifs\n- Hydrogen bonds are more oblique; this alone does not determine overall sheet stability\n\nIn both types, hydrogen bonds form between the carbonyl oxygen of one strand and the amide hydrogen of the adjacent strand. In an ideal sheet, most internal backbone donors and acceptors form interstrand hydrogen bonds; edge strands have unsatisfied hydrogen-bonding capacity, which is one reason beta sheets tend to associate with other structural elements.\n\n### Twist and Curvature\n\nReal beta sheets are not flat. They have an inherent **right-handed twist** when viewed along the strand axis. This twist arises from the preferred phi-psi angles of L-amino acids and is a common tendency rather than an invariant rule. The twist is important for understanding beta barrel formation and for predicting how sheets pack against helices in tertiary structure.\n\n### Amino Acids That Favor Beta Sheets\n\n- **Valine, isoleucine, threonine**: branched beta-carbon residues are well-accommodated in the extended beta conformation and are common in beta strands\n- **Phenylalanine, tyrosine, tryptophan**: aromatic residues frequently found in beta sheets, often stacking across strands\n- **Glycine**: can appear in beta sheets but is less common because its flexibility allows it to adopt many conformations\n\nAlanine and charged residues are less common in beta sheets compared to helices.\n\n---\n\n## Beta Turns\n\n### Definition and Function\n\nA **beta turn** (also called a reverse turn or hairpin turn) is a short, four-residue motif that allows the polypeptide chain to reverse direction by approximately 180°. Beta turns are essential for connecting adjacent antiparallel beta strands and for allowing globular proteins to adopt compact shapes.\n\nMany beta turns have a **carbonyl O(i)···H–N(i+3) hydrogen bond**, but the usual geometric definition does not require this bond in every turn.\n\n### Types of Beta Turns\n\nSeveral types exist (Type I, Type II, Type I', Type II', etc.), classified by the phi-psi angles of the middle two residues (*i+1* and *i+2*). The distinctions matter because:\n\n- **Type I turns**: the most common; residue preferences at *i+2* depend on local geometry and sequence\n- **Type II turns**: residue *i+2* is frequently **glycine**, because the required phi-psi angles for that position fall outside the allowed region for most amino acids (glycine's small hydrogen R group permits these unusual angles)\n- **Type I' and II' turns**: mirror images (left-handed); glycine also frequently appears at *i+1* in Type II' turns\n\nThe MCAT relevance of beta turns is primarily:\n1. They connect beta strands in antiparallel sheets\n2. They are often found on the protein surface (exposed to solvent), making them common sites for **antibody recognition** and **post-translational modifications**\n3. **Proline** frequently appears at the *i+1* position of Type I and Type II turns because its restricted phi angle is compatible with turn geometry, and its cyclic structure introduces the bend needed to reverse chain direction\n\n---\n\n## Stabilizing Forces in Secondary Structure\n\n### Hydrogen Bonds: The Primary Stabilizer\n\nThe dominant stabilizing force in both alpha helices and beta sheets is the **backbone hydrogen bond**. These bonds form between the electronegative carbonyl oxygen (hydrogen bond acceptor) and the amide nitrogen hydrogen (hydrogen bond donor). Their net contribution depends on geometry, solvent competition and conformational entropy; a single universal bond energy in water is not appropriate.\n\nCritically, the competing interaction is hydrogen bonding with water. In aqueous solution, backbone amides and carbonyls can form hydrogen bonds with solvent. Formation is favorable when the **total free-energy change** is negative, including protein interactions, solvent reorganization and loss of chain conformational entropy. Comparing individual hydrogen bonds with water is not sufficient.\n\n### The Hydrophobic Effect\n\nWhile hydrogen bonds define the geometry of secondary structure, the **hydrophobic effect** is often the dominant thermodynamic driving force for protein folding overall. Hydrophobic side chains are energetically penalized when exposed to water (due to the entropic cost of ordering water molecules around nonpolar surfaces). Burial of hydrophobic residues in the protein interior drives secondary structural elements to pack together into tertiary structure.\n\nIn the context of secondary structure specifically:\n- Amphipathic helices are stabilized by burying their hydrophobic face\n- Beta sheets are stabilized when hydrophobic residues on alternating positions face the protein interior\n- The formation of secondary structure reduces the solvent-accessible surface area of the backbone\n\n### Van der Waals Interactions and Steric Packing\n\nWithin the tightly packed alpha helix, adjacent turns of the helix are stabilized by **van der Waals interactions** between backbone and side chain atoms. The 3.6 residues/turn geometry results in optimal packing of atoms along the helical axis. Similarly, in beta sheets, side chains on adjacent strands can interact via van der Waals forces, particularly when aromatic residues stack across strands.\n\n### Electrostatic Interactions\n\nCharged residues can stabilize or destabilize secondary structures:\n- **Helix capping**: charged residues at the N-terminus of a helix can interact with the partial positive charge of the helical dipole (negatively charged residues stabilize the N-cap) and vice versa at the C-terminus\n- **Salt bridges**: oppositely charged residues spaced appropriately along a helix (e.g., *i* and *i+4*) can form stabilizing salt bridges on the helix surface\n- **Destabilization**: multiple like-charged residues on the same face of a helix repel each other\n\n---\n\n## Special Cases and MCAT-Relevant Examples\n\n### Collagen: A Unique Helical Structure\n\n**Collagen** does not form a standard alpha helix. Instead, it forms a **left-handed polyproline II helix** (each individual chain), and three such chains wind together into a **right-handed triple helix**. This structure is possible because collagen has an unusual amino acid composition: approximately every third residue is **glycine** (required because only glycine's hydrogen fits in the interior of the triple helix), and the sequence is rich in **proline** and **hydroxyproline** (which stabilize the helix through steric effects and hydrogen bonding with water).\n\nThe MCAT frequently tests:\n- Why glycine is essential in collagen (steric constraint at the center of the triple helix)\n- Why vitamin C deficiency causes scurvy (ascorbate is required for prolyl hydroxylase, the enzyme that hydroxylates proline; without hydroxyproline, the triple helix is unstable)\n- The relationship between collagen structure and its mechanical properties (tensile strength of tendons, bone matrix)\n\n### Keratin and Coiled Coils\n\n**Alpha-keratin** (found in hair, nails, wool) consists of alpha helices wound around each other in **coiled coils**. Two alpha helices with a **heptad repeat** (a-b-c-d-e-f-g, where positions *a* and *d* are hydrophobic) interdigitate their hydrophobic residues at the interface, forming a stable left-handed supercoil. The coiled coil is a classic example of how amphipathic helices drive higher-order structure through the hydrophobic effect.\n\n### Beta Barrel Proteins\n\nMany outer membrane proteins and some intracellular proteins form **beta barrels**, in which a series of antiparallel beta strands curve around to form a closed cylindrical structure. In membrane-spanning porins, the lipid-facing exterior is hydrophobic and the aqueous pore is lined by polar groups. **Porin** channels in gram-negative bacterial outer membranes are classic examples. The barrel geometry satisfies the hydrogen-bonding requirements of edge strands by connecting them to each other.\n\n### Silk Fibroin: Antiparallel Beta Sheets\n\n**Silk fibroin** (from *Bombyx mori*) contains beta-sheet-rich crystalline regions interspersed with less ordered regions. Common repeats include **GAGAGS** and **GAGAGA**. Glycine and alanine are small, allowing the sheets to pack closely together (glycine faces alternate inward toward other glycine residues; alanine faces alternate outward). This packing produces the characteristic combination of flexibility and tensile strength in silk.\n\n---\n\n## Disruption of Secondary Structure\n\nUnderstanding what stabilizes secondary structure implies understanding what disrupts it:\n\n- **Heat (denaturation)**: increased thermal energy disrupts hydrogen bonds and hydrophobic interactions, unfolding secondary and tertiary structure\n- **Extremes of pH**: alter ionization states of charged residues, disrupting electrostatic interactions and potentially protonating/deprotonating hydrogen bond donors/acceptors\n- **Urea and guanidinium chloride**: chaotropic agents that compete for hydrogen bonds with water and disrupt the hydrophobic effect\n- **Organic solvents**: disrupt the hydrophobic effect by reducing the energetic penalty for exposing nonpolar surfaces to solvent\n- **Proline substitution**: internal proline can kink or interrupt a helix; removing proline from a turn may destabilize the turn\n- **Mutations**: changing a helix-favoring residue to glycine or proline can abolish helix formation and disrupt protein function (relevant to understanding disease-causing mutations)\n\n---\n\n## Connecting Secondary to Tertiary Structure\n\nSecondary structural elements do not exist in isolation. They pack together through specific motifs to form **supersecondary structures** or **structural motifs**; a fold describes the broader arrangement of a protein or domain:\n\n- **Helix-turn-helix**: two helices connected by a short turn; common in DNA-binding proteins\n- **Beta-alpha-beta**: a beta strand connected to an alpha helix connected to another beta strand; the basic unit of TIM barrels\n- **Greek key**: a specific arrangement of four antiparallel beta strands\n- **Beta hairpin**: two antiparallel strands connected by a beta turn\n\nThese supersecondary structures then assemble into **domains**, and domains assemble into complete **tertiary structure**. The alpha helix and beta sheet are thus not endpoints—they are the alphabet from which all protein architecture is written.\n\n---\n\n## Summary: Key Numbers and Concepts for the MCAT\n\n**Alpha helix:**\n- 3.6 residues per turn\n- 1.5 Å rise per residue; 5.4 Å pitch\n- i to i+4 hydrogen bonding\n- Right-handed\n- Internal Pro and Gly often reduce helix propensity; context matters\n- Helical dipole: N-terminus is δ+, C-terminus is δ−\n\n**Beta sheet:**\n- Extended conformation: ~3.5 Å rise per residue\n- Interstrand hydrogen bonds\n- Antiparallel: opposing strand directions, relatively straight H-bonds; can form hairpins\n- Parallel: tilted H-bonds, requires longer connecting loops\n- Usually right-handed twist\n\n**Beta turn:**\n- Four residues, often an i to i+3 hydrogen bond\n- Reverses chain direction\n- Glycine and proline frequently found in turns\n- Often surface-exposed; some form antibody-recognition sites\n\n**Contributions to stability (relative importance depends on context):**\n1. Backbone hydrogen bonds (define geometry)\n2. Hydrophobic effect (drives burial and packing)\n3. Van der Waals interactions (optimize packing)\n4. Electrostatic interactions (fine-tune stability)\n\n**Residues to know:**\n- Proline: often interrupts helices and occurs in turns (internal peptide Pro lacks N–H; φ is restricted)\n- Glycine: conformationally flexible (expands Ramachandran plot), found in turns and collagen\n- Alanine: highest intrinsic helix propensity among standard amino acids\n- Val, Ile, Thr: beta-sheet favoring due to branched beta-carbon\n\nMastery of secondary structure is not merely about memorizing these facts. It is about understanding the physical chemistry that underlies them: why planarity constrains conformation, why hydrogen bonds are directional, why the hydrophobic effect is entropic, and why specific amino acids disrupt specific structures. MCAT passages regularly present novel proteins or mutations and ask you to reason from first principles about structural consequences. The student who understands *why* the alpha helix has 3.6 residues per turn—not just *that* it does—will navigate those questions with confidence."
+    },
+    {
+      "field": "questions.36.choice_a",
+      "value": "The carbonyl oxygen of residue n and the amide N–H of residue n+4"
+    },
+    {
+      "field": "questions.36.explanation",
+      "value": "In an alpha helix, the carbonyl oxygen (C=O) of residue n hydrogen bonds with the amide NH of residue n+4, creating a repeating pattern that stabilizes the helical structure. This gives approximately 3.6 residues per turn. Choice B reverses the sequence order of the pairing, not donor/acceptor chemistry: N–H is the donor and carbonyl oxygen the acceptor."
+    },
+    {
+      "field": "questions.37.explanation",
+      "value": "Backbone hydrogen bonds and side-chain packing both contribute to structure. Under the stated assumptions, burying an uncompensated charge is unfavorable. Replacing a hydrophobic leucine with a charged lysine in the buried core introduces an energetically unfavorable charged group away from solvent, destabilizing the structure. Choice C is tempting but incorrect because side-chain interactions, especially hydrophobic ones, do contribute to secondary structure stability."
+    },
+    {
+      "field": "questions.37.question_text",
+      "value": "A researcher replaces a buried leucine on a helix in a soluble protein with lysine. Assume lysine stays positively charged and no compensating interaction forms. What is the likely effect?"
+    },
+    {
+      "field": "questions.38.explanation",
+      "value": "Proline is a cyclic amino acid whose nitrogen is incorporated into a pyrrolidine ring, leaving its internal peptide nitrogen without an N–H donor for the helix hydrogen-bond pattern. At the N-terminus of a helix, the first few residues do not have upstream carbonyl partners to hydrogen bond with anyway, so the absence of an NH donor is not disruptive there. Choice D is tempting because proline does have restricted phi angles, but the primary reason for helix incompatibility is the missing hydrogen bond donor, not the cis/trans issue."
+    },
+    {
+      "field": "questions.39.choice_a",
+      "value": "Antiparallel strands run in opposite directions and usually have straighter hydrogen bonds than parallel strands"
+    },
+    {
+      "field": "questions.39.explanation",
+      "value": "Antiparallel strands have opposite N-to-C directions and relatively straight interstrand hydrogen bonds. Parallel strands run in the same direction and have more oblique hydrogen bonds. Neither geometry alone establishes whole-protein stability. Antiparallel strands need not be joined by a short beta turn; they may be connected by longer loops or belong to different chains."
+    },
+    {
+      "field": "questions.40.choice_b",
+      "value": "Glycine, because its hydrogen R group permits positive phi angles with fewer steric constraints"
+    },
+    {
+      "field": "questions.40.explanation",
+      "value": "Glycine has a hydrogen R group, so positive phi angles are less sterically restricted than for most other residues. This flexibility makes glycine especially common at position 3 of Type II beta turns, where the required backbone angles would place a side chain in an unfavorable steric clash. Proline is also commonly found in beta turns, making leucine, glutamate, and tryptophan less likely choices."
+    },
+    {
+      "field": "questions.40.question_text",
+      "value": "Which residue is especially common at position 3 (i+2) of a conventional Type II beta turn because it readily accommodates the required positive phi angle?"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "lessonId": 23,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Every organism on Earth—from anaerobic bacteria to human neurons—uses some version of this ten-step sequence to extract energy from glucose.",
+      "new": "Glycolytic pathways are widespread. This lesson describes the classical ten-step Embden–Meyerhof pathway; not every organism uses this exact sequence.",
+      "reason": "Universal ten-step claim false.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The 2 NADH generated in the cytosol carry electrons to the electron transport chain, but their ultimate ATP yield depends on which shuttle system transfers them into the mitochondria.",
+      "new": "The reducing equivalents of cytosolic NADH can reach the respiratory chain through shuttles; the NADH molecule itself does not cross the inner mitochondrial membrane. In lactate-producing cells, cytosolic NADH can instead be reoxidized by lactate dehydrogenase.",
+      "reason": "Electrons not NADH imported; alternative fate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "because charged phosphorylated molecules cannot cross the plasma membrane",
+      "new": "because G6P does not pass through glucose transporters and crosses the lipid bilayer poorly",
+      "reason": "Transport-specific rather than allchargedmoleculesban.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "and it destabilizes the molecule to prime it for subsequent reactions",
+      "new": "and it couples glucose phosphorylation to ATP use, providing a branch-point metabolite",
+      "reason": "Vague destabilization.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "has a high Km (~10 mM)",
+      "new": "has a glucose S₀.₅ in the millimolar range (often approximately 7–10 mM)",
+      "reason": "Sigmoid GCK notsimpleKm.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "only becoming active when blood glucose is elevated",
+      "new": "increasing its rate as glucose rises, rather than switching on only above a strict threshold",
+      "reason": "No binary threshold.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "Once F1,6BP is formed, the cell is committed to completing the pathway.",
+      "new": "This is conventionally called a committed step, but intermediates can still enter biosynthesis and net flux is regulated throughout the pathway.",
+      "reason": "Notguaranteedcompletion.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    },
+    {
+      "field": "content",
+      "old": "produced by PFK-2 in response to insulin signaling",
+      "new": "produced by PFK-2; hormonal control depends on the isoform and tissue",
+      "reason": "Tissuespecific.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "content",
+      "old": "F2,6BP links glycolysis to hormonal control—insulin",
+      "new": "In the classic liver model, F2,6BP links glycolysis to hormonal control—insulin",
+      "reason": "Liver modelnotuniversal.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "content",
+      "old": "limited only by how fast substrate diffuses to the active site",
+      "new": "close to the diffusional encounter limit for catalytic efficiency under suitable assay conditions; this does not imply every cellular turnover is limited only by diffusion",
+      "reason": "Catalytic efficiencyvsactualflux.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "either the electron transport chain (aerobic conditions) or fermentation (anaerobic conditions)",
+      "new": "respiratory shuttles or fermentation; lactate fermentation can occur even when oxygen is available",
+      "reason": "Aerobicfermentation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5130031/"
+    },
+    {
+      "field": "content",
+      "old": "The reaction is reversible and requires 2,3-bisphosphoglycerate (2,3-BPG) as a cofactor.",
+      "new": "The mammalian cofactor-dependent phosphoglycerate mutase uses 2,3-BPG to prime its catalytic phosphohistidine. Cofactor-independent mutases occur in other organisms.",
+      "reason": "NotuniversalallPGM.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The dehydration reaction creates a highly strained enol phosphate, concentrating energy in the phosphate bond.",
+      "new": "PEP is an enol phosphate with high phosphoryl-transfer potential. Favorable tautomerization of enolpyruvate to keto pyruvate helps drive the subsequent reaction; breaking a phosphate bond alone does not release energy.",
+      "reason": "Incorrect strain andbondenergy.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "it prevents glycolysis from consuming glucose in the sample after collection.",
+      "new": "fluoride inhibits enolase, but fluoride alone does not stop post-collection glycolysis immediately. Sample handling and rapidly effective inhibitors are important for accurate laboratory glucose measurements.",
+      "reason": "Delayedfluoride clinicallyrelevant.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4352852/"
+    },
+    {
+      "field": "content",
+      "old": "PEP → pyruvate is highly exergonic (ΔG°' ≈ −31.4 kJ/mol)",
+      "new": "The coupled PEP + ADP → pyruvate + ATP reaction has ΔG°′ roughly −31 kJ/mol; PEP hydrolysis alone is more exergonic",
+      "reason": "Specifycoupledreaction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**Pyruvate kinase regulation:**",
+      "new": "**Pyruvate kinase regulation (classic liver example):**",
+      "reason": "Isoformscope.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687410/"
+    },
+    {
+      "field": "content",
+      "old": "to keep the pathway flowing), AMP",
+      "new": "to help coordinate pathway flux)",
+      "reason": "RemoveunsupportedAMP universalactivator.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687410/"
+    },
+    {
+      "field": "content",
+      "old": "ATP, alanine (signals adequate amino acid/energy status), acetyl-CoA",
+      "new": "ATP and alanine, with effects dependent on conditions",
+      "reason": "UseestablishedhumanliverPKeffectors.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687410/"
+    },
+    {
+      "field": "content",
+      "old": "Glucagon promotes phosphorylation of pyruvate kinase",
+      "new": "In liver, glucagon promotes phosphorylation of L-type pyruvate kinase",
+      "reason": "LiverPKnotmuscle.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687410/"
+    },
+    {
+      "field": "content",
+      "old": "Both carbons enter payoff phase",
+      "new": "Both three-carbon products enter payoff phase",
+      "reason": "Sixcarbons nottwo.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "The **energy charge** of a cell reflects the ratio of ATP to ADP and AMP.",
+      "new": "The **adenylate energy charge** is ([ATP] + ½[ADP])/([ATP] + [ADP] + [AMP]); ATP/ADP and ATP/AMP are related but different ratios.",
+      "reason": "Correctformula.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/4972613/"
+    },
+    {
+      "field": "content",
+      "old": "### Hormonal Control",
+      "new": "### Hormonal Control: Liver Isoforms",
+      "reason": "Scopeentiresection.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "content",
+      "old": "PKA phosphorylates PFK-2, converting it to its phosphatase form, decreasing F2,6BP",
+      "new": "PKA phosphorylates the liver PFK-2/FBPase-2 protein, favoring its phosphatase activity over its kinase activity and decreasing F2,6BP; it already contains both domains",
+      "reason": "Notproteinconvertedintodifferentenzyme.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1133864/"
+    },
+    {
+      "field": "content",
+      "old": "Cells expressing GLUT transporters (particularly GLUT4 in muscle and adipose tissue) increase glucose uptake in response to insulin",
+      "new": "Insulin increases surface GLUT4 in skeletal muscle and adipose tissue; not all GLUT isoforms are regulated this way",
+      "reason": "GLUT1/2notGLUT4.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "**Anaerobic conditions (animals):**",
+      "new": "**Lactate production (with or without oxygen):**",
+      "reason": "Notexclusivelyanaerobic.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5130031/"
+    },
+    {
+      "field": "content",
+      "old": "cancer cells preferentially use aerobic glycolysis",
+      "new": "many cancer cells show increased aerobic glycolysis",
+      "reason": "Heterogeneouscancer.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5130031/"
+    },
+    {
+      "field": "content",
+      "old": "rather than fully oxidizing glucose through oxidative phosphorylation.",
+      "new": "while often retaining substantial mitochondrial oxidative metabolism.",
+      "reason": "NotreplacementofOXPHOS.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5130031/"
+    },
+    {
+      "field": "content",
+      "old": "Tumors with high glycolytic rates accumulate this glucose analog and appear as bright spots on imaging.",
+      "new": "FDG uptake reflects transport and phosphorylation, not a direct measurement of complete glycolytic flux. Many tumors show increased uptake, but normal tissues and inflammation can also be FDG-avid.",
+      "reason": "FDGnotcancerspecific.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "with three bypass reactions replacing the three irreversible glycolytic steps",
+      "new": "with bypass pathways replacing the three irreversible glycolytic steps; the pyruvate-to-PEP bypass uses two enzymes",
+      "reason": "Threebypassesfourenzymes.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    },
+    {
+      "field": "content",
+      "old": "Liver uses glucokinase (high Km, not inhibited by G6P).",
+      "new": "Liver expresses glucokinase (high glucose S₀.₅, not inhibited by G6P).",
+      "reason": "Terminologyconsistency.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "Cancer cells exhibit the Warburg effect.",
+      "new": "Many cancers exhibit increased aerobic glycolysis, with variable oxidative metabolism.",
+      "reason": "Notall.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5130031/"
+    },
+    {
+      "field": "content",
+      "old": "isolated hepatocytes with a compound that specifically inhibits phosphoglucose isomerase",
+      "new": "cells that predominantly express G6P-inhibited hexokinase, with a compound that specifically inhibits phosphoglucose isomerase",
+      "reason": "Originalquestionhepatocytecontradictsanswer.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "*Answer: B.* If PGI is inhibited, G6P cannot be converted to F6P, so G6P accumulates. Elevated G6P inhibits hexokinase (product inhibition), slowing the entry of glucose into the pathway. Glycolysis slows overall. Note that in hepatocytes, glucokinase would not be inhibited (it is not subject to G6P inhibition), but hexokinase in other tissues would be. This question tests understanding of both enzyme function and product inhibition—a common MCAT reasoning pattern.",
+      "new": "*Answer: B.* With continued glucose entry and limited alternative G6P disposal, PGI inhibition favors upstream G6P accumulation and reduced downstream glycolysis. In these cells, accumulated G6P also inhibits hexokinase. This additional product-inhibition mechanism would not apply to glucokinase in hepatocytes.",
+      "reason": "Correctinlinequizphysiology.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "Pyruvate's fate depends on oxygen availability: it enters the citric acid cycle aerobically, or is reduced to lactate (or ethanol in yeast) anaerobically to regenerate NAD⁺.",
+      "new": "Pyruvate fate depends on oxygen, tissue and metabolic demand. It can supply acetyl-CoA for the TCA cycle, form lactate to regenerate NAD⁺ even with oxygen present, or enter biosynthetic pathways.",
+      "reason": "Summaryconsistent.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5130031/"
+    },
+    {
+      "field": "questions.111.question_text",
+      "old": "A researcher adds a competitive inhibitor of phosphofructokinase-1 (PFK-1) to a cell culture. Which of the following best predicts the immediate metabolic consequence?",
+      "new": "A PFK-1 inhibitor substantially lowers its activity while glucose entry initially continues. Before major compensatory changes, which pattern of intermediates is most likely?",
+      "reason": "Competitive labeldoesnotguaranteesizeofinhibition.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.111.explanation",
+      "old": "PFK-1 catalyzes the conversion of fructose-6-phosphate to fructose-1,6-bisphosphate, a key committed step of glycolysis. Inhibiting PFK-1 causes upstream intermediates, fructose-6-phosphate and glucose-6-phosphate, to accumulate. Choice D is tempting because glucose-6-phosphate does inhibit hexokinase, but the question asks for the immediate consequence, which is upstream accumulation before any feedback on hexokinase becomes significant. Pyruvate production would decrease, not increase, because flux through glycolysis is reduced.",
+      "new": "A is most likely: substrate supply continues while PFK-1 throughput falls, favoring F6P and G6P accumulation. Feedback and alternative pathways can subsequently change the concentrations. This prediction does not require feedback to wait until some arbitrary threshold time.",
+      "reason": "No unsupportedtimeseparation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.115.explanation",
+      "old": "Enolase converts 2-phosphoglycerate to phosphoenolpyruvate (PEP) in step 9. Without enolase activity, 2-phosphoglycerate would accumulate and PEP could not be formed, preventing pyruvate kinase (step 10) from generating pyruvate and ATP. Choice B is incorrect because PEP cannot be produced without enolase, so it would not accumulate; instead its precursor would. Choice C incorrectly identifies the accumulating intermediate and incorrectly states NADH production is abolished, since NADH is produced at step 6, well before enolase acts.",
+      "new": "A is the immediate pathway consequence: blocking enolase prevents new PEP production from 2-phosphoglycerate, which tends to accumulate. Existing PEP may be consumed briefly. NADH is formed upstream at GAPDH, but sustained upstream flux may later fall as intermediates build up; it is not guaranteed to continue indefinitely.",
+      "reason": "Distinguishdirectvssteadystate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26894/"
+    }
+  ]
+}

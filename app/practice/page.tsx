@@ -20,7 +20,7 @@ const SECTIONS: Section[] = [
     name: "Bio / Biochem",
     fullName: "Biological and Biochemical Foundations of Living Systems",
     description: "Cells, organs, biochemistry, genetics, physiology. The largest content section.",
-    color: "#a8324a",
+    color: "#245574",
     topics: ["Biochemistry", "Cell biology", "Genetics", "Physiology", "Molecular biology"],
   },
   {
@@ -28,7 +28,7 @@ const SECTIONS: Section[] = [
     name: "Chem / Phys",
     fullName: "Chemical and Physical Foundations of Biological Systems",
     description: "General chemistry, organic, physics. Quantitative reasoning heavy.",
-    color: "#2e4a6b",
+    color: "#245574",
     topics: ["General chem", "Organic chem", "Physics", "Biochemistry"],
   },
   {
@@ -36,7 +36,7 @@ const SECTIONS: Section[] = [
     name: "Psych / Soc",
     fullName: "Psychological, Social, and Biological Foundations of Behavior",
     description: "Behavior, cognition, sociology, research methods, statistics.",
-    color: "#8a6b2e",
+    color: "#245574",
     topics: ["Psychology", "Sociology", "Research methods", "Statistics"],
   },
   {
@@ -44,7 +44,7 @@ const SECTIONS: Section[] = [
     name: "CARS",
     fullName: "Critical Analysis and Reasoning Skills",
     description: "Critical analysis and reading. Less about content, more about strategy.",
-    color: "#4a3b6b",
+    color: "#245574",
     topics: ["Humanities passages", "Social science passages", "Reasoning skills"],
   },
   {
@@ -64,16 +64,16 @@ function SectionCard({ section, onClick }: { section: Section; onClick: () => vo
       className="text-left p-7 bg-[#f5f1ea] hover:bg-[#0c1a2e08] transition-colors flex flex-col gap-3 group min-h-[240px]"
     >
       <div className="flex items-center justify-between">
-        <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55">
+        <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55">
           {section.id === "mixed" ? "Mixed mode" : "MCAT Section"}
         </div>
         <div className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: section.color }} />
       </div>
-      <div className="font-serif text-[26px] font-medium tracking-tight leading-tight" style={{ color: section.color }}>
+      <div className="font-sans text-[26px] font-medium tracking-tight leading-tight" style={{ color: section.color }}>
         {section.name}
       </div>
       <div className="text-[13px] opacity-70 leading-relaxed">{section.description}</div>
-      <div className="mt-auto pt-2 font-mono text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100 transition-opacity">
+      <div className="mt-auto pt-2 font-sans text-[10px] tracking-[0.1em] uppercase opacity-50 group-hover:opacity-100 transition-opacity">
         Start practicing →
       </div>
     </button>
@@ -103,19 +103,19 @@ export default function PracticeLanding() {
   return (
     <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e] font-sans relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-0 right-0 w-[1000px] h-[500px] bg-[#a8324a] opacity-[0.05] blur-[120px] rounded-full -translate-y-1/3 translate-x-1/4" />
+        <div className="absolute top-0 right-0 w-[1000px] h-[500px] bg-[#245574] opacity-[0.05] blur-[120px] rounded-full -translate-y-1/3 translate-x-1/4" />
       </div>
 
       <div className="relative z-10">
         <MainNav active="practice" badge="Practice Sets" />
 
         <section className="px-10 pt-14 pb-10 border-b border-[#0c1a2e15]">
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
+          <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
             <span className="w-10 h-px bg-[#0c1a2e] opacity-40" />
             Mode · Practice questions
           </div>
-          <h1 className="font-serif font-normal leading-[0.95] tracking-[-0.03em] text-[clamp(48px,6vw,88px)] max-w-4xl">
-            Build the <span className="italic font-light text-[#a8324a]">instincts.</span>
+          <h1 className="font-sans font-normal leading-[0.95] tracking-[-0.03em] text-[clamp(48px,6vw,88px)] max-w-4xl">
+            Build the <span className="italic font-light text-[#245574]">instincts.</span>
           </h1>
           <p className="text-[15px] opacity-70 mt-4 max-w-2xl leading-relaxed">
             Practice by section, read the explanation, and flag questions for another day.
@@ -130,13 +130,13 @@ export default function PracticeLanding() {
           ))}
         </section>
 
-        <div className="mx-10 my-7 p-3.5 px-5 border border-dashed border-[#0c1a2e25] rounded-lg font-mono text-[12px] leading-relaxed opacity-60">
+        <div className="mx-10 my-7 p-3.5 px-5 border border-dashed border-[#0c1a2e25] rounded-lg font-sans text-[12px] leading-relaxed opacity-60">
           Choose Calculation drills to revisit a problem type with different measurements. Your browser remembers assigned questions. For another pass, choose review when the matching questions run out.
         </div>
 
         <div className="px-10 py-6 flex justify-between items-center text-[12px] opacity-60">
           <div>5 sections · Mixed-mode included</div>
-          <Link href="/tutor" className="hover:opacity-100 underline decoration-[#a8324a] decoration-2 underline-offset-4">
+          <Link href="/tutor" className="hover:opacity-100 underline decoration-[#245574] decoration-2 underline-offset-4">
             Or ask the tutor →
           </Link>
         </div>
@@ -146,15 +146,15 @@ export default function PracticeLanding() {
       {activeSection && (
         <div className="fixed inset-0 bg-[#0c1a2e66] z-50 flex items-center justify-center p-6" onClick={() => setActiveSection(null)}>
           <div className="bg-[#f5f1ea] rounded-2xl max-w-lg w-full p-8 shadow-2xl" onClick={(e) => e.stopPropagation()}>
-            <div className="font-mono text-[10px] tracking-[0.14em] uppercase opacity-55 mb-3">Configure your session</div>
-            <h2 className="font-serif text-[32px] font-medium tracking-tight mb-2" style={{ color: activeSection.color }}>
+            <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55 mb-3">Configure your session</div>
+            <h2 className="font-sans text-[32px] font-medium tracking-tight mb-2" style={{ color: activeSection.color }}>
               {activeSection.name}
             </h2>
             <p className="text-[13px] opacity-65 mb-6">{activeSection.fullName}{inventory && <> · {inventory.counts[activeSection.id] ?? inventory.total} in bank across all formats</>}</p>
 
             <div className="mb-6"><label htmlFor="question-format" className="block text-sm mb-2">Question format</label><select id="question-format" value={format} onChange={e => setFormat(e.target.value)} className="w-full border border-[#0c1a2e30] rounded-lg p-3">{activeSection.id!=="cars" && <option value="standalone">Standalone questions</option>}<option value="passage">Passage-based questions</option><option value="guide">Study guide &amp; unit review</option>{activeSection.id!=="cars" && <option value="drills">Calculation drills (includes numerical variants)</option>}</select><p className="text-xs mt-2 opacity-70">Guide review uses the existing lesson and unit quizzes at their original difficulty. CARS passage practice uses original reading passages.</p></div>
               <div className="mb-5">
-              <label className="block font-mono text-[10px] tracking-[0.14em] uppercase opacity-60 mb-2">
+              <label className="block font-sans text-[10px] tracking-[0.14em] uppercase opacity-60 mb-2">
                 Number of questions
               </label>
               <div className="flex gap-2">
@@ -175,7 +175,7 @@ export default function PracticeLanding() {
             </div>
 
             <div className="mb-7">
-              <label className="block font-mono text-[10px] tracking-[0.14em] uppercase opacity-60 mb-2">
+              <label className="block font-sans text-[10px] tracking-[0.14em] uppercase opacity-60 mb-2">
                 Difficulty
               </label>
               <div className="grid grid-cols-2 gap-2">
@@ -198,13 +198,13 @@ export default function PracticeLanding() {
             <div className="flex gap-3 justify-end">
               <button
                 onClick={() => setActiveSection(null)}
-                className="font-mono text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full hover:bg-[#0c1a2e0a]"
+                className="font-sans text-xs uppercase tracking-[0.08em] border border-[#0c1a2e25] px-5 py-3 rounded-full hover:bg-[#0c1a2e0a]"
               >
                 Cancel
               </button>
               <button
                 onClick={startSession}
-                className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
+                className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
               >
                 Start session →
               </button>

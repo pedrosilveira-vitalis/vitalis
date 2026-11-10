@@ -1,0 +1,322 @@
+{
+  "lessonId": 34,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "The sugar is a five-carbon ring.",
+      "new": "The sugar has five carbon atoms, but its furanose ring contains **four carbons and one oxygen**; the 5′ carbon lies outside the ring.",
+      "reason": "Pentose not five-carbon ring.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "the hydrolysis of the two terminal phosphate groups during polymerization provides the energy that drives DNA synthesis",
+      "new": "polymerase releases the β and γ phosphates together as pyrophosphate (PPi); subsequent PPi hydrolysis helps favor net polymerization",
+      "reason": "PPi release distinct from hydrolysis.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "it is an RNA nucleotide analog used as an energy currency, not a DNA building block",
+      "new": "it is a ribonucleoside triphosphate used both as an energy carrier and as an actual RNA polymerization substrate; DNA polymerization instead uses dATP",
+      "reason": "ATP is actual RNA substrate not analog.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "The backbone therefore runs from the 5' phosphate of one nucleotide to the 3' hydroxyl of the next.",
+      "new": "Each bridging phosphate links the **3′ oxygen of one sugar to the 5′ oxygen of the following sugar** along the strand.",
+      "reason": "Direction precise.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "The **5' end** has a free phosphate group.",
+      "new": "The **5′ end** may have a phosphate or a hydroxyl, depending on synthesis and processing.",
+      "reason": "5prime OH possible.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "These rules hold for any double-stranded DNA regardless of species.",
+      "new": "These equalities hold for the combined bases of a fully complementary, canonical double-stranded DNA molecule. They need not hold for an individual strand or a single-stranded viral genome.",
+      "reason": "Canonical complementary scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "The difference in hydrogen bond number has measurable consequences. DNA sequences rich in G–C content require *more energy* to denature (separate the two strands) than A–T rich sequences. The **melting temperature (Tm)** of a DNA duplex is higher when G–C content is higher. A rough approximation used in practice: Tm ≈ 4°C × (G + C) + 2°C × (A + T) for short oligonucleotides. On the MCAT, you need to know the conceptual relationship: higher G–C content → higher Tm.",
+      "new": "For comparable duplexes under matched conditions, increased G–C content generally raises melting temperature. However, duplex stability depends on **neighboring-base stacking, sequence, length, ionic conditions and strand concentration**, not just counting hydrogen bonds. The rough short-oligonucleotide rule Tm ≈ 4°C × (G + C) + 2°C × (A + T) uses base counts for one strand and has limited applicability; nearest-neighbor models are more informative.",
+      "reason": "Do not infer exact thermodynamics from bond count.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9465037/"
+    },
+    {
+      "field": "content",
+      "old": "The A–T and G–C pairings are the only combinations that:",
+      "new": "Canonical Watson–Crick A–T and G–C pairings efficiently satisfy these requirements; mismatches and alternative pairing geometries can also occur. For the canonical pairs:",
+      "reason": "Other geometries possible.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "**base stacking interactions**—hydrophobic interactions between the flat aromatic rings of adjacent base pairs—",
+      "new": "**base stacking interactions**—including dispersion, electrostatic and solvent-dependent effects between adjacent aromatic bases—",
+      "reason": "Not only hydrophobic.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9465037/"
+    },
+    {
+      "field": "content",
+      "old": "The interior of the helix is hydrophobic, and excluding water from between the stacked bases is thermodynamically favorable.",
+      "new": "Solvent reorganization contributes, but base edges remain accessible to water and proteins through the grooves; the duplex is not a completely dry hydrophobic interior.",
+      "reason": "Hydration scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "approximately **10 base pairs per turn**",
+      "new": "approximately **10–10.5 base pairs per turn**, depending on conditions",
+      "reason": "Flexible Bform.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "approximately **3.4 nm** (34 Å)",
+      "new": "approximately **3.4–3.6 nm** (34–36 Å)",
+      "reason": "Pitch consistent 10–10.5.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "the geometry is exquisitely regular, which is essential for the fidelity of replication and transcription machinery",
+      "new": "these are approximate structural averages; DNA bends and twists in sequence- and protein-dependent ways",
+      "reason": "Not rigid exact geometry.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "wider (~22 Å), deeper groove",
+      "new": "wider groove in B-DNA",
+      "reason": "Groove dimensions depend measure/form.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "narrower (~12 Å), shallower",
+      "new": "narrower groove in B-DNA",
+      "reason": "Bform minor groove not universal shallower.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "proteins can \"read\" the genetic code",
+      "new": "proteins can recognize DNA sequence",
+      "reason": "Genetic code codon mapping distinct.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "This confirmed DNA as the genetic material.",
+      "new": "This supported DNA as the genetic material of T2 phage; it was not a claim that all viruses use DNA.",
+      "reason": "Experiment scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "while proteins contain sulfur (in cysteine and methionine) but essentially no phosphorus",
+      "new": "while the phage protein-labeling strategy tracks sulfur in cysteine and methionine. Proteins can contain phosphorus through modifications such as phosphorylation, so this is not a universal elemental rule for all proteins",
+      "reason": "Protein phosphorylation exception.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "**Chemical stability**: The absence of the 2'-OH group in deoxyribose makes DNA far more resistant to hydrolysis than RNA. At physiological pH, the half-life of a phosphodiester bond in DNA is on the order of millions of years in the absence of enzymatic activity. This stability is essential for a molecule that must preserve information across generations.",
+      "new": "**Chemical stability**: DNA lacks the RNA 2′-OH that can promote backbone cleavage. Model-compound studies estimate extremely slow uncatalyzed phosphodiester hydrolysis at 25°C (on the order of tens of millions of years). That estimate describes one reaction, not the survival time of an entire DNA molecule: depurination, deamination, oxidation and environmental damage still occur and require repair.",
+      "reason": "Whole DNA lifetime versus model bond hydrolysis.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/16537483/"
+    },
+    {
+      "field": "content",
+      "old": "20,000–25,000 protein-coding genes",
+      "new": "about 20,000 protein-coding genes",
+      "reason": "Updated gene count.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/basics/gene/"
+    },
+    {
+      "field": "content",
+      "old": "A single-stranded molecule like RNA has no such backup.",
+      "new": "A single strand lacks a paired full-length complementary template within the same molecule; some viruses have double-stranded RNA genomes.",
+      "reason": "RNA not inherently all single strand.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "a compaction ratio of roughly 10,000-fold",
+      "new": "a contour-length-to-nuclear-diameter ratio of roughly 200,000–330,000; this is not itself a linear chromatin-fiber packing ratio",
+      "reason": "Arithmetic 2m/6–10um.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/28751582/"
+    },
+    {
+      "field": "content",
+      "old": "- **Histone H1** (the linker histone), which binds the linker DNA between nucleosomes and helps compact the structure further",
+      "new": "- **Histone H1** can associate with linker and entry/exit DNA, but is **not part of the core histone octamer**",
+      "reason": "Core versus chromatosome.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "Beyond the nucleosome, DNA is organized into progressively higher-order structures:\n\n- **10 nm fiber** (\"beads on a string\"): nucleosomes connected by linker DNA; ~7-fold compaction\n- **30 nm fiber**: nucleosomes folded into a compact solenoid or zigzag arrangement; ~40-fold compaction; stabilized by histone H1\n- **Loops and domains**: the 30 nm fiber is organized into loop domains anchored to a protein scaffold; ~1,000-fold compaction\n- **Metaphase chromosome**: maximally compacted during cell division; ~10,000-fold compaction overall\n\n",
+      "new": "Chromatin is a dynamic nucleosome polymer with loops, domains and variable packing density. The familiar 10 nm → 30 nm → loop → chromosome hierarchy is a **historical model**, not a universal sequence of structures in living cells. Ordered 30 nm fibers can form under particular conditions, but cellular imaging also shows irregular, variably packed nucleosome chains. Mitotic chromosomes involve extensive organization and compaction without requiring a uniform 30 nm intermediate.\n\n",
+      "reason": "Modern cellular evidence versus universal textbook hierarchy.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/28751582/"
+    },
+    {
+      "field": "content",
+      "old": "less condensed, transcriptionally active regions",
+      "new": "generally less condensed and more transcriptionally permissive regions",
+      "reason": "Not all euchromatin transcribed.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/28751582/"
+    },
+    {
+      "field": "content",
+      "old": "highly condensed, transcriptionally silent; includes **constitutive heterochromatin** (permanently silenced, e.g., centromeres and telomeres)",
+      "new": "generally more compact and transcriptionally restricted; includes **constitutive heterochromatin** (persistent domains, often around centromeres and at telomeres, which can still produce some transcripts)",
+      "reason": "Not absolute silence.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/28751582/"
+    },
+    {
+      "field": "content",
+      "old": "e.g., the inactive X chromosome in female mammals—the Barr body",
+      "new": "e.g., the largely inactive X chromosome in many XX mammalian cells—the Barr body; some genes escape inactivation",
+      "reason": "Escape and biological scope.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "Telomeres shorten with each round of replication",
+      "new": "Telomeres tend to shorten over divisions in cells without sufficient maintenance",
+      "reason": "Not all cells every cycle.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "Centromeric DNA is characterized by specific repetitive sequences (e.g., alpha satellite DNA in humans) and is packaged into constitutive heterochromatin.",
+      "new": "Human centromeres commonly contain alpha-satellite repeats, but their functional identity depends strongly on CENP-A-containing chromatin. The centromeric core is distinct from flanking pericentromeric heterochromatin; repetitive sequence alone does not define every functional centromere.",
+      "reason": "Centromere core not generic heterochromatin.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "- **Topoisomerase I**: cuts one strand, allows rotation to relieve tension, rejoins the strand. Changes the linking number by ±1 per reaction. Requires no ATP.",
+      "new": "- **Type I topoisomerases** transiently cleave one strand. Type IA changes linking number in steps of one by strand passage; type IB uses controlled rotation and may relax several turns before resealing. Most familiar type I relaxation reactions do not require ATP, but reverse gyrase is an ATP-dependent type IA-containing exception.",
+      "reason": "IA versus IB rotation/step and ATP exception.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/15800630/"
+    },
+    {
+      "field": "content",
+      "old": "recognizes any uracil in DNA as a deamination product",
+      "new": "recognizes uracil as inappropriate in canonical cellular DNA; it may arise from cytosine deamination or dUMP misincorporation",
+      "reason": "Uracil not only deamination.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "DNA polymerase has 3'→5' exonuclease activity",
+      "new": "many replicative DNA polymerases have associated 3′→5′ exonuclease activity; not every DNA polymerase does",
+      "reason": "Not all polymerases proofread.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "content",
+      "old": "in any double-stranded DNA.",
+      "new": "for fully complementary canonical double-stranded DNA, considering both strands.",
+      "reason": "Chargaff scope repeated.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "B-DNA: right-handed, 10 bp/turn, 3.4 nm pitch",
+      "new": "B-DNA: right-handed, about 10–10.5 bp/turn, about 3.4–3.6 nm pitch",
+      "reason": "Dimensions repeated.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "content",
+      "old": "to prove DNA is the genetic material",
+      "new": "to support DNA as the genetic material of T2 phage",
+      "reason": "Experiment specificity repeated.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "questions.166.explanation",
+      "old": "Complementary base pairing via hydrogen bonds (A-T with 2 H-bonds, G-C with 3 H-bonds) provides the specificity that allows each strand to selectively recognize and re-anneal with its complement during slow cooling. The bonds are non-covalent, ruling out choice C. While antiparallel orientation is a structural feature, it does not by itself drive selective re-association, making D incorrect. The phosphate backbone charge (A) is non-specific and does not direct complementary pairing.",
+      "new": "B gives the sequence-recognition principle: complementary donor/acceptor geometry helps select paired bases, while stacking and solution conditions also contribute to duplex stability. Ordinary annealing forms noncovalent interactions, not new covalent links between the strands. Antiparallel orientation does not prohibit self-complementary hairpins, and backbone charge alone does not select a sequence.",
+      "reason": "Separate specificity and stability.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9465037/"
+    },
+    {
+      "field": "questions.168.explanation",
+      "old": "High-fidelity replication depends on each parental strand acting as a template, with incoming nucleotides selected by strict A-T and G-C base-pairing rules, ensuring the daughter strand is a precise complement. Antiparallel orientation (B) affects the direction of synthesis but is not the primary basis of fidelity. Major and minor grooves (A) are important for regulatory protein binding, not replication accuracy per se. The helical twist (D) contributes to stability but does not dictate nucleotide selection.",
+      "new": "C explains template-directed copying: base complementarity supplies sequence information for a new strand. Actual fidelity also relies on polymerase selectivity, proofreading where available, and repair. Grooves and DNA geometry can contribute to protein recognition, so they are not irrelevant; they do not replace the information supplied by the template.",
+      "reason": "Fidelity not solely strict pairing.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+    },
+    {
+      "field": "questions.169.question_text",
+      "old": "A mutation changes a G-C base pair to an A-T base pair at a specific position in a DNA molecule. How does this change most directly affect the local stability of the double helix at that position?",
+      "new": "A canonical Watson–Crick G–C pair is replaced by an A–T pair. Which statement correctly distinguishes the immediate hydrogen-bond count from the stability of the entire duplex?",
+      "reason": "Old question incorrectly makes bond count sufficient.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9465037/"
+    },
+    {
+      "field": "questions.169.choice_a",
+      "old": "Stability increases because A-T pairs are larger than G-C pairs",
+      "new": "The count rises from two to three, guaranteeing a higher melting temperature.",
+      "reason": "One true answer.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9465037/"
+    },
+    {
+      "field": "questions.169.choice_b",
+      "old": "Stability decreases because one hydrogen bond is lost at that base pair",
+      "new": "The count falls from three to two; duplex melting behavior also depends on neighboring sequence and solution conditions.",
+      "reason": "Exact count versus thermodynamics.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9465037/"
+    },
+    {
+      "field": "questions.169.choice_c",
+      "old": "Stability is unchanged because both pairs involve purine-pyrimidine interactions",
+      "new": "The count is unchanged because both are purine–pyrimidine pairs.",
+      "reason": "One true answer.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9465037/"
+    },
+    {
+      "field": "questions.169.choice_d",
+      "old": "Stability increases because A-T pairs have stronger stacking interactions",
+      "new": "The phosphodiester backbone is broken by changing the base pair.",
+      "reason": "One true answer.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9465037/"
+    },
+    {
+      "field": "questions.169.explanation",
+      "old": "G-C base pairs are held together by three hydrogen bonds, while A-T base pairs have only two. Replacing G-C with A-T therefore reduces the number of hydrogen bonds at that position, locally decreasing stability and lowering the melting temperature of that region. Size (A) is not the determinant of hydrogen bond number. While both pairs are purine-pyrimidine (C), the number of H-bonds differs. Base stacking (D) involves interactions between adjacent bases, not the pair itself, and A-T pairs do not have stronger stacking than G-C.",
+      "new": "B is correct: canonical G–C has three interbase hydrogen bonds and A–T has two. However, a duplex is stabilized by a sequence-dependent network of stacking, pairing and solvent interactions. One cannot calculate the full melting change solely by subtracting one hydrogen bond. The base substitution does not inherently break the backbone.",
+      "reason": "Nearest-neighbor caveat.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/9465037/"
+    },
+    {
+      "field": "questions.170.choice_c",
+      "old": "The virtually unlimited variation in the linear sequence of the four nucleotide bases along the strand",
+      "new": "The many possible linear sequences of four bases: 4ⁿ possibilities for a specified strand of n positions.",
+      "reason": "Finite not unlimited.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    },
+    {
+      "field": "questions.170.explanation",
+      "old": "Genetic information is encoded in the specific linear sequence of the four bases (A, T, G, C) along the DNA strand. Because any of the four bases can occupy each position, the number of possible sequences is 4^n for n base pairs, providing essentially unlimited informational capacity. Uniform diameter (A) is a structural feature that does not encode information. Histone interaction (B) relates to packaging, not information content. Antiparallel orientation (D) facilitates replication mechanics but does not itself store information.",
+      "new": "C is correct. A specified n-position strand has 4ⁿ possible canonical base sequences before biological constraints; the complementary strand is then determined. This is enormous but finite capacity. Backbone charge and helix diameter support physical structure without specifying sequence, and antiparallel geometry alone does not determine how many replication forks operate.",
+      "reason": "Finite capacity and bidirectional conflation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK26821/"
+    }
+  ]
+}

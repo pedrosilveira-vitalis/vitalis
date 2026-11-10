@@ -1,0 +1,237 @@
+{
+  "lessonId": 29,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    141,
+    142,
+    143,
+    144,
+    145
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+      "title": "Mitochondrial energy conversion"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3311377/",
+      "title": "Respiratory proton stoichiometry"
+    },
+    {
+      "url": "https://www.mrc-mbu.cam.ac.uk/research-groups/walker-group/structure-and-function-atp-synthases",
+      "title": "MRC: ATP synthase structure and function"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6377231/",
+      "title": "Acidic proton-binding residues in ATP synthase"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1233/",
+      "title": "GeneReviews: MELAS molecular genetics"
+    }
+  ],
+  "visual": {
+    "title": "ATP synthase: motion, chemistry and transport are distinct",
+    "src": "/lesson-diagrams/atp-synthase.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "A proton gradient drives the F-o c-ring and central shaft while the catalytic head is held still. In the simplified model a beta site cycles loose with ADP and phosphate, tight with bound ATP, and open for ATP release. Eight protons per mammalian rotor turn produce three ATP; transport and leak change the final yield.",
+    "caption": "Fₒ is the membrane motor; F₁ contains the catalytic sites. Reverse operation consumes ATP to pump protons."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "aa10c415169833cef60b003d3b4ab063ee92658f676bf4f34ebad360700f381e"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "86983b5cce4d6a9ee67c496f0099f733816aeaefce6a75110bc0a10ec477fae1"
+    },
+    {
+      "field": "questions.141.question_text",
+      "sha256": "71cd77ea1b711c31c0a9c968c5cc4882d52c535aa72e3c0e757e3f85877448df"
+    },
+    {
+      "field": "questions.141.choice_a",
+      "sha256": "d5497a51cdce3da96de967e2ddf0feec08d671b63957b3c93f1c8988326aa522"
+    },
+    {
+      "field": "questions.141.choice_b",
+      "sha256": "7fff4ead9260df0139bc8c173fed10f01f350c14cf781a1d8f39bc359e6dbdce"
+    },
+    {
+      "field": "questions.141.choice_c",
+      "sha256": "3db38d5ed339a9c3a774221f6a32bad9a74c2d28541ed3ef9b77c960c2d96818"
+    },
+    {
+      "field": "questions.141.choice_d",
+      "sha256": "da9ab4d47a3d2585023d7875d86e2f54caa77220a3df5bc9af960bd303f4a66b"
+    },
+    {
+      "field": "questions.141.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.141.explanation",
+      "sha256": "61e88192e98a1de55deb46d8b0ab880f5a8e2caf6daf4442d882e550c8f1a9e0"
+    },
+    {
+      "field": "questions.142.question_text",
+      "sha256": "c7ec7c7965b6d9882086e6c2a277135828e1d0456d23f8a5bcfe44f576e797c0"
+    },
+    {
+      "field": "questions.142.choice_a",
+      "sha256": "c3bbf4e32862b9ac5bd0260d2f40f24da2e6e139a4324ba3346cdaa0dccabd73"
+    },
+    {
+      "field": "questions.142.choice_b",
+      "sha256": "fb1d475a511a1760c5eed0808cc116f8297869fb7c2ce2986b195687df6d4694"
+    },
+    {
+      "field": "questions.142.choice_c",
+      "sha256": "33442da45c7032e45f7de61b0d9fc14fb78c224efbed71060a3ba1d0d4a414fd"
+    },
+    {
+      "field": "questions.142.choice_d",
+      "sha256": "54b60c4cea59438c68584fb2d8bb26a758d2e61cbe7de1b1418ed44c59f95e68"
+    },
+    {
+      "field": "questions.142.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.142.explanation",
+      "sha256": "48ee0c017a6ab4182b30220d817f881b313ee44f0b6882f136aea49b9a00170c"
+    },
+    {
+      "field": "questions.143.question_text",
+      "sha256": "5a5d9fb9394a604be74d6756539f91ff6cb6a6fbef904374f8a22f46fc12602f"
+    },
+    {
+      "field": "questions.143.choice_a",
+      "sha256": "d4f332aab3b02fc708d8727d76d3554d5abfeda905b5a8ad05639cf1b6ac843d"
+    },
+    {
+      "field": "questions.143.choice_b",
+      "sha256": "eae3db84e066970f4b94f15ce0e7ac6e0588c16244f063f016aa8e084ea0980f"
+    },
+    {
+      "field": "questions.143.choice_c",
+      "sha256": "3f8515714ed58b03630176368cb84de32db0602152e526b5c15cbdadc15847bc"
+    },
+    {
+      "field": "questions.143.choice_d",
+      "sha256": "eec1c550b8e03018a89ddb2a732e7e41d813dacfd60615eaa152fd48f95efa12"
+    },
+    {
+      "field": "questions.143.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.143.explanation",
+      "sha256": "c75b56f12818b0cb5fe461227f825d4424f45834ed500a1aa36605412c2f6a71"
+    },
+    {
+      "field": "questions.144.question_text",
+      "sha256": "0a610651908cb011c562af0b603fdf9a47fc62bc6e45155ba21370de9f9fd079"
+    },
+    {
+      "field": "questions.144.choice_a",
+      "sha256": "133da702eabf3a792a9152cdc0f6117728298892d6a2199c9506c438f6a31798"
+    },
+    {
+      "field": "questions.144.choice_b",
+      "sha256": "b0b20cc6d2982669c31e53f6e1d7d512cd0ff0cb878cb5b4c952263c2111b15f"
+    },
+    {
+      "field": "questions.144.choice_c",
+      "sha256": "ef8bef5c73d8eeb8d35531828adc88190843ea35c469877caa45400e7574db27"
+    },
+    {
+      "field": "questions.144.choice_d",
+      "sha256": "2e26e44e88ae17f3a0fd1f1ea2665280f8705cdc381f1389f56e58dfc492af53"
+    },
+    {
+      "field": "questions.144.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.144.explanation",
+      "sha256": "a2dc4bd7715991ad63dd2caca090c023126efa1b5b9e0dedc9edf6b0eb8ecb53"
+    },
+    {
+      "field": "questions.145.question_text",
+      "sha256": "b0ef9ddfc1c8170ecf5be9c734454296c35c393908f0a7a71ba47f40f01268a1"
+    },
+    {
+      "field": "questions.145.choice_a",
+      "sha256": "6a4b77134255937fbe9a2bc6f7a5aff9af68567c613021166bd9e9b27c40772c"
+    },
+    {
+      "field": "questions.145.choice_b",
+      "sha256": "e9e58638436190494bf4ed582fb8bb4217e44bd57412cb1b23135fff3bece4cd"
+    },
+    {
+      "field": "questions.145.choice_c",
+      "sha256": "1bc0861b23180b00be011baf7f6d9beaa61670a9eeb87829eac58956f29f16b4"
+    },
+    {
+      "field": "questions.145.choice_d",
+      "sha256": "a9fc25f1a66c85c777a5bd029224d656d629d106967e20425aa7e3129eeedc33"
+    },
+    {
+      "field": "questions.145.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.145.explanation",
+      "sha256": "ac68798d60f4f9bf4134fa91a6fd1372e0547d7a26b11b55ec56993d9a310ca3"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## ATP Synthase and Oxidative Phosphorylation\n\nOxidative phosphorylation is the metabolic process responsible for generating the vast majority of ATP in aerobic organisms. While glycolysis and the citric acid cycle produce modest amounts of ATP through substrate-level phosphorylation, it is oxidative phosphorylation—driven by the electron transport chain and ATP synthase—that often supplies most ATP in mitochondria-containing cells, but its fraction varies with cell type and state; mature red blood cells have none. Understanding this process at a mechanistic level is essential for the MCAT, where questions frequently test your ability to connect the proton gradient to ATP synthesis, predict consequences of inhibitors, and calculate ATP yields from different electron carriers.\n\n---\n\n## The Chemiosmotic Theory\n\n### Historical Context and Core Principle\n\nThe **chemiosmotic theory**, proposed by Peter Mitchell in 1961 and awarded the Nobel Prize in Chemistry in 1978, fundamentally changed how biochemists understood energy coupling in cells. Before Mitchell, scientists assumed that ATP synthesis was driven by a high-energy chemical intermediate, similar to substrate-level phosphorylation. Mitchell proposed something entirely different: that the free energy stored in an **electrochemical proton gradient** across the inner mitochondrial membrane drives ATP synthesis.\n\nThe core principle is straightforward. The electron transport chain (ETC) uses the energy released from oxidation-reduction reactions to pump protons (H⁺) from the **mitochondrial matrix** into the **intermembrane space (IMS)**. This creates two simultaneous gradients across the inner mitochondrial membrane:\n\n- A **concentration gradient** (ΔpH): the IMS becomes more acidic (higher [H⁺]) than the matrix\n- An **electrical gradient** (Δψ): the IMS becomes positively charged relative to the matrix\n\nTogether, these two components constitute the **proton-motive force (PMF)**, also called Δp. The equation relating these components is:\n\n**Δp = Δψ − (2.303 RT/F) × ΔpH**, with Δψ = ψ(matrix) − ψ(IMS) and ΔpH = pH(matrix) − pH(IMS). A negative value favors proton entry into the matrix.\n\nAt physiological temperature (37°C), this simplifies approximately to:\n\n**Δp (in mV) ≈ Δψ − 61.5 × ΔpH**\n\nIn a typical actively respiring mitochondrion, Δψ contributes roughly −150 to −180 mV (negative inside) and ΔpH contributes an additional −30 to −50 mV equivalent. The total PMF across the inner mitochondrial membrane is approximately −200 mV, representing a substantial free energy reservoir.\n\n### Why the Inner Mitochondrial Membrane Matters\n\nThe inner mitochondrial membrane is *highly impermeable* to ions and most polar molecules, including protons. This impermeability is essential—without it, the proton gradient would dissipate immediately and no useful work could be extracted. ATP synthase is the productive proton-return route, but proton leak, uncoupling proteins and other transport processes also affect the gradient. The outer mitochondrial membrane, by contrast, is permeable due to **porins** and is not the principal barrier across which this proton-motive force is maintained.\n\nThe **cristae**—the infoldings of the inner mitochondrial membrane—dramatically increase the surface area available for the ETC complexes and ATP synthase, maximizing the capacity for oxidative phosphorylation.\n\n---\n\n## The Electron Transport Chain: Generating the Proton Gradient\n\n### Overview of the Four Complexes\n\nThe ETC consists of four large protein complexes (I through IV) embedded in the inner mitochondrial membrane, plus two mobile electron carriers: **ubiquinone (coenzyme Q)** and **cytochrome c**.\n\n**Complex I (NADH dehydrogenase)**\n- Accepts electrons from NADH (oxidizing NADH to NAD⁺)\n- Transfers electrons to ubiquinone (Q), reducing it to ubiquinol (QH₂)\n- Pumps **4 H⁺** from matrix to IMS per pair of electrons\n- Contains FMN as a prosthetic group and multiple iron-sulfur clusters\n\n**Complex II (Succinate dehydrogenase)**\n- Accepts succinate-derived electrons through its own bound FAD during succinate-to-fumarate conversion\n- Transfers electrons to ubiquinone\n- *Does not pump protons*—this is the mechanistic reason FADH₂ yields less ATP than NADH\n- Contains FAD as a covalently bound prosthetic group\n\n**Complex III (Cytochrome bc₁ complex)**\n- Accepts electrons from ubiquinol (QH₂)\n- Transfers electrons to cytochrome c via the **Q cycle**\n- Pumps **4 H⁺** from matrix to IMS per pair of electrons (net result of the Q cycle)\n- Contains cytochrome b, cytochrome c₁, and the Rieske iron-sulfur protein\n\n**Complex IV (Cytochrome c oxidase)**\n- Accepts electrons from reduced cytochrome c\n- Transfers electrons to O₂, the final electron acceptor, reducing it to H₂O\n- Pumps **2 H⁺** from matrix to IMS per pair of electrons\n- Requires copper centers (Cu_A and Cu_B) and heme groups (cytochrome a and a₃)\n\n### Proton Pumping Summary\n\nThe total number of protons pumped per pair of electrons originating from NADH:\n- Complex I: 4 H⁺\n- Complex III: 4 H⁺\n- Complex IV: 2 H⁺\n- **Total: 10 H⁺ per NADH**\n\nFor succinate-derived electrons entering through bound FAD at Complex II:\n- Complex II: 0 H⁺\n- Complex III: 4 H⁺\n- Complex IV: 2 H⁺\n- **Total: 6 H⁺ per FADH₂**\n\nThis difference in proton pumping—10 versus 6—directly explains the difference in ATP yield between NADH and FADH₂.\n\n---\n\n## ATP Synthase: Structure and Rotational Mechanism\n\n### Overview of Complex V\n\n**ATP synthase** (also called **Complex V** or **F₀F₁-ATPase**) is the molecular machine that harnesses the proton-motive force to synthesize ATP from ADP and inorganic phosphate (Pᵢ). It is one of the most conserved proteins in biology, found in mitochondria, chloroplasts, and bacteria, with related rotary mechanisms; archaeal A-type systems and ion specificity differ from the mitochondrial F-type system described here.\n\nATP synthase consists of two major structural domains:\n\n- **Fₒ (letter o, referring to oligomycin sensitivity) domain**: embedded in the inner mitochondrial membrane; conducts protons through the membrane\n- **F₁ domain**: projects into the mitochondrial matrix; catalyzes ATP synthesis\n\n### F₀ Domain: The Proton Channel\n\nThe F₀ domain contains three main components:\n\n- **a subunit (subunit a)**: a single transmembrane protein containing two proton half-channels. Protons enter from the IMS through one half-channel, interact with the c-ring, and exit into the matrix through the other half-channel.\n- **c-ring**: a ring of 8–15 c subunits (the exact number varies by organism; in humans, the c-ring contains approximately 8 subunits). Each c subunit contains a critical **acidic residue** (Asp61 in E. coli; a glutamate in mammalian enzymes) that transiently accepts and releases protons during rotation.\n- **b subunit**: connects F₀ to the peripheral stalk, preventing the α₃β₃ hexamer from rotating with the central stalk.\n\n### F₁ Domain: The Catalytic Head\n\nThe F₁ domain consists of five subunit types: α₃β₃γδε.\n\n- **α₃β₃ hexamer**: three α and three β subunits arranged alternately, forming a barrel-like structure. The *catalytic sites* for ATP synthesis are located primarily on the β subunits at the interface with α subunits.\n- **γ subunit**: the central shaft that rotates within the α₃β₃ barrel; its asymmetric structure means it imposes different conformations on each of the three β subunits simultaneously.\n- **δ and ε subunits**: connect the γ subunit to the c-ring, forming the central rotor.\n\n### The Binding Change Mechanism\n\nThe **binding change mechanism**, developed by Paul Boyer (Nobel Prize, 1997), describes how rotation of the γ subunit drives ATP synthesis. The three β subunits cycle through three distinct conformational states:\n\n1. **O (open) conformation**: low affinity for nucleotides; releases newly synthesized ATP\n2. **L (loose) conformation**: holds ADP and Pᵢ in the simplified binding-change model\n3. **T (tight) conformation**: favors formation of tightly bound ATP; sustained net ATP production and release still require coupling to the gradient\n\nAs the γ subunit rotates 120° (driven by proton flow through F₀), each β subunit shifts to the next conformation in sequence: O → L → T → O. Because all three β subunits are in different conformations simultaneously, one ATP is synthesized, one ADP+Pᵢ is bound, and one ATP is released with *every 120° rotation step*.\n\nA complete 360° rotation of the γ subunit therefore produces **3 ATP molecules**.\n\n### Coupling Rotation to Proton Flow\n\nThe rotation of the c-ring is directly powered by proton translocation. Each c subunit carries one proton as it rotates past the a subunit. A single complete rotation of the c-ring requires one proton per c subunit. For a c-ring with 8 c subunits:\n\n- 8 protons must flow through F₀ to complete one full 360° rotation\n- One full rotation produces 3 ATP\n- Therefore, approximately **8/3 ≈ 2.67 protons are required per ATP synthesized**\n\nThe c-ring size is organism-dependent. For a mammalian c₈ rotor, 8/3 ≈ 2.67 H⁺ pass through the assembled synthase per ATP. Exported-ATP accounting also includes phosphate import and electrogenic ADP/ATP exchange: ANT moves nucleotide charges, not a literal extra proton. Effective whole-mitochondrion yield also depends on leak and coupling.\n\n---\n\n## P/O Ratios and ATP Yield\n\n### Defining the P/O Ratio\n\nThe **P/O ratio** (phosphorylation-to-oxygen ratio) expresses the number of ATP molecules synthesized per atom of oxygen consumed (per two electrons transferred to O₂). It is the standard metric for quantifying the efficiency of oxidative phosphorylation.\n\n### P/O Ratio for NADH\n\nUsing the values above:\n- NADH drives the pumping of 10 H⁺\n- Use a stated effective cost for synthesis plus transport; do not divide ten pumped protons by three ATP to derive that cost\n- With an approximate effective cost of 4 proton equivalents per ATP: 10/4 = **2.5 ATP per NADH**\n\nA conventional introductory value for mitochondrial NADH is **~2.5**, with actual ratios depending on conditions.\n\n### P/O Ratio for FADH₂\n\n- FADH₂ drives pumping of 6 H⁺\n- 6/4 = **1.5 ATP per FADH₂**\n\nThe P/O ratio for FADH₂ is **~1.5**.\n\n### Historical vs. Modern Values\n\nFor many years, MCAT preparation materials used the older values of **3 ATP per NADH** and **2 ATP per FADH₂**, derived from less precise measurements. Modern biochemistry has revised these to 2.5 and 1.5, respectively. Use whichever values a passage provides; 2.5 and 1.5 are common introductory approximations. When a question gives you specific P/O ratios, use those; when it does not, use 2.5 and 1.5.\n\n### Total ATP Yield from Complete Glucose Oxidation\n\nStarting from one glucose molecule:\n\n**Substrate-level phosphorylation:**\n- Glycolysis: 2 ATP (net)\n- Citric acid cycle: 2 GTP (equivalent to 2 ATP)\n- Subtotal: 4 ATP\n\n**Oxidative phosphorylation:**\n- Glycolysis produces 2 NADH (cytoplasmic)\n- Pyruvate decarboxylation produces 2 NADH (mitochondrial)\n- Citric acid cycle produces 6 NADH (mitochondrial) and 2 FADH₂\n\nCytoplasmic NADH must transfer its electrons into the mitochondria. Depending on the shuttle used:\n- **Malate-aspartate shuttle**: electrons enter as NADH → 2.5 ATP each → 2 × 2.5 = 5 ATP\n- **Glycerol-3-phosphate shuttle**: electrons enter as FADH₂ equivalent → 1.5 ATP each → 2 × 1.5 = 3 ATP\n\nUsing the malate-aspartate shuttle (liver, heart):\n- 2 cytoplasmic NADH: 2 × 2.5 = 5 ATP\n- 2 mitochondrial NADH (pyruvate decarboxylation): 2 × 2.5 = 5 ATP\n- 6 mitochondrial NADH (TCA): 6 × 2.5 = 15 ATP\n- 2 FADH₂ (TCA): 2 × 1.5 = 3 ATP\n- **Oxidative phosphorylation subtotal: 28 ATP**\n\n**Grand total: 4 + 28 = 32 ATP per glucose** (using malate-aspartate shuttle)\n\nUsing the glycerol-3-phosphate shuttle (tissue contributions vary):\n- 2 cytoplasmic NADH → 2 × 1.5 = 3 ATP\n- Oxidative phosphorylation subtotal: 26 ATP\n- **Grand total: 30 ATP per glucose**\n\nThese values (30 or 32) are approximate bookkeeping totals, not a fixed yield for every cell. Older textbooks cited 36–38 ATP; that discrepancy reflects the outdated P/O ratios of 3 and 2.\n\n---\n\n## Inhibitors and Uncouplers: MCAT Favorites\n\n### ETC Inhibitors\n\nThese compounds block electron flow at specific complexes, halting the proton pumping that drives ATP synthesis.\n\n- **Rotenone** (Complex I inhibitor): blocks NADH oxidation; used as a pesticide and fish poison; associated with Parkinson's-like neurodegeneration\n- **Amobarbital (amytal)**: also inhibits Complex I\n- **Antimycin A** (Complex III inhibitor): blocks the Qi site, preventing Q-cycle turnover\n- **Carbon monoxide (CO)** and **cyanide (CN⁻)** (Complex IV inhibitors): bind to the heme iron in cytochrome a₃, preventing O₂ reduction; cause histotoxic hypoxia\n- **Hydrogen sulfide (H₂S)**: also inhibits Complex IV\n\nEffects depend on the site blocked. Complex-I inhibition leaves other Q-linked entries available. Complete downstream blockade restricts oxidative ATP synthesis; substrate-level phosphorylation is separate. NADH and protein-bound redox centers tend to become more reduced. The gradient can decay, or in some conditions be supported temporarily by ATP-driven reverse pumping.\n\n### ATP Synthase Inhibitors\n\n- **Oligomycin**: binds the c subunit of F₀, blocking proton flow through ATP synthase. This causes the proton gradient to *increase* (become hyperpolarized) because protons can no longer flow back through F₀, yet the ETC continues to pump protons until the back-pressure becomes too great. The ETC slows toward leak-supported respiration rather than necessarily stopping completely.\n\n### Uncouplers\n\n**Uncouplers** (including chemical **protonophores** and protein-mediated leak mechanisms) dissipate the proton gradient without allowing ATP synthesis. They carry protons across the inner mitochondrial membrane outside of ATP synthase, short-circuiting the chemiosmotic circuit.\n\n- **2,4-Dinitrophenol (DNP)**: a lipid-soluble weak acid; picks up H⁺ in the IMS, diffuses across the membrane, releases H⁺ in the matrix. Once used as a weight-loss drug; dangerous because excessive uncoupling can cause severe hyperthermia and ATP depletion.\n- **FCCP (carbonyl cyanide p-trifluoromethoxyphenylhydrazone)**: a potent laboratory uncoupler\n- **Thermogenin (UCP-1, uncoupling protein 1)**: a *physiological* uncoupler found in brown adipose tissue. Allows controlled proton leak, generating heat for thermogenesis in newborns and hibernating animals.\n\nThe key distinction for the MCAT: uncouplers can increase oxygen consumption and heat production while lowering ATP yield, provided oxygen, substrate and respiratory capacity remain available. The ETC runs faster (to try to maintain the gradient) but the energy is wasted as heat rather than captured in ATP.\n\n### Atractyloside and Bongkrekic Acid\n\nThese compounds inhibit the **adenine nucleotide translocase (ANT)**, also called the ATP/ADP translocase, which exchanges ATP produced in the matrix for ADP from the cytoplasm. Blocking this transporter prevents newly synthesized ATP from reaching the cytoplasm and stops ADP from entering the matrix, effectively halting oxidative phosphorylation.\n\n---\n\n## Regulation of Oxidative Phosphorylation\n\n### Respiratory Control\n\nThe rate of the ETC is tightly regulated by the availability of its substrates: **NADH**, **O₂**, **ADP**, and **Pᵢ**. The most important regulatory principle is **respiratory control**: the rate of electron transport is coupled to the rate of ATP synthesis, which in turn depends on ADP availability.\n\nWhen cellular ATP demand is high:\n- ADP and Pᵢ concentrations rise\n- ADP enters the matrix via ANT\n- ATP synthase runs faster\n- The proton gradient is consumed more rapidly\n- The ETC accelerates to replenish the gradient\n- NADH is oxidized faster, stimulating the citric acid cycle and glycolysis\n\nWhen cellular ATP demand is low:\n- ADP is scarce (ATP/ADP ratio is high)\n- ATP synthase slows\n- The proton gradient builds up (membrane becomes hyperpolarized)\n- Back-pressure slows proton pumping\n- The ETC slows\n- NADH accumulates, inhibiting the citric acid cycle\n\nThis elegant feedback ensures that fuel oxidation is tightly matched to energy demand.\n\n### The Role of the Mitochondrial Membrane Potential\n\nThe **mitochondrial membrane potential (Δψ)** is a real-time indicator of the cell's energetic state. Fluorescent dyes that accumulate in proportion to Δψ (such as JC-1 or TMRM) are used experimentally to assess mitochondrial health. A collapsed Δψ signals mitochondrial dysfunction and can trigger apoptosis via cytochrome c release.\n\n---\n\n## Connecting Oxidative Phosphorylation to Broader Metabolism\n\n### Integration with the Citric acid Cycle and Glycolysis\n\nOxidative phosphorylation does not operate in isolation. The citric acid cycle and glycolysis feed it continuously by regenerating NADH and FADH₂. When respiration is restricted, mitochondrial NADH tends to accumulate and oxidative TCA flux slows. Cytosolic glycolysis can instead accelerate if LDH regenerates NAD⁺; the compartments and redox routes must be distinguished. Cells compensate by shifting to anaerobic glycolysis (lactate fermentation in animals), which regenerates NAD⁺ without requiring oxygen.\n\n### Mitochondrial Diseases\n\nMutations in mitochondrial DNA (mtDNA) or nuclear genes encoding ETC subunits cause a spectrum of diseases. Because mtDNA is maternally inherited and mitochondria are present in nearly every cell, these diseases often affect high-energy-demand tissues: brain, muscle, and heart. Examples include **MELAS** (mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes) and **Leber's hereditary optic neuropathy (LHON)**, LHON commonly involves mtDNA variants in Complex-I genes. MELAS is genetically heterogeneous and is most often associated with an MT-TL1 mitochondrial tRNA variant, which affects mitochondrial translation rather than only a Complex-I structural gene.\n\n### Reactive Oxygen Species (ROS)\n\nThe ETC is an important source of **reactive oxygen species (ROS)**; other sources, including NADPH oxidases, can dominate in particular cells or conditions. When electrons leak from Complex I or Complex III and react directly with O₂, they produce **superoxide (O₂•⁻)**, which is converted to H₂O₂ by superoxide dismutase (SOD) and removed by antioxidant systems including mitochondrial glutathione peroxidases and peroxiredoxins; catalase is mainly peroxisomal in most mammalian cells. Excessive ROS production—occurring when the proton gradient is very high (as with oligomycin treatment) or when the ETC is partially inhibited—can damage proteins, lipids, and DNA. This is one rationale for why uncoupling (mild proton leak) may be protective against ROS-mediated damage.\n\n---\n\n## Key Numbers to Memorize for the MCAT\n\n- **Protons pumped per NADH**: 10 (4 by CI, 4 by CIII, 2 by CIV)\n- **Protons pumped per FADH₂**: 6 (0 by CII, 4 by CIII, 2 by CIV)\n- **H⁺ per ATP (synthesis + transport)**: ~4\n- **P/O ratio for NADH**: 2.5\n- **P/O ratio for FADH₂**: 1.5\n- **ATP per glucose (modern)**: 30–32\n- **Complexes that pump protons**: I, III, IV (not II)\n- **Final electron acceptor**: O₂ (reduced to H₂O at Complex IV)\n- **Mobile carriers**: Coenzyme Q (between CI/CII and CIII), Cytochrome c (between CIII and CIV)\n\n---\n\n## Summary\n\nOxidative phosphorylation is the culmination of aerobic metabolism. The electron transport chain uses the energy released from NADH and FADH₂ oxidation to pump protons across the inner mitochondrial membrane, establishing the proton-motive force—a combination of a chemical gradient (ΔpH) and an electrical gradient (Δψ). ATP synthase (Complex V) harnesses this PMF through a remarkable rotary mechanism: proton flow through the F₀ subunit rotates the c-ring and γ subunit, driving conformational changes in the F₁ β subunits that cycle through open, loose, and tight states, synthesizing ATP via the binding change mechanism. The P/O ratios of 2.5 for NADH and 1.5 for FADH₂ reflect the different numbers of protons pumped by each carrier, yielding a total of approximately 30–32 ATP per glucose molecule oxidized completely to CO₂ and H₂O. Inhibitors of the ETC, ATP synthase, or the adenine nucleotide translocase can restrict oxidative ATP production, while uncouplers dissipate the proton gradient as heat without producing ATP—a distinction that appears repeatedly on the MCAT. Mastery of these mechanisms, numbers, and regulatory principles provides the foundation for answering virtually any MCAT question on cellular energy metabolism."
+    },
+    {
+      "field": "questions.141.question_text",
+      "value": "A researcher selectively increases proton permeability of otherwise functional isolated mitochondria supplied with adequate respiratory substrate and oxygen. Which outcome is most likely if the gradient is fully dissipated?"
+    },
+    {
+      "field": "questions.142.question_text",
+      "value": "During ATP synthesis, the Fₒ c-ring rotates while its a-subunit remains part of the stator. What does the F₁ catalytic domain do?"
+    },
+    {
+      "field": "questions.143.choice_b",
+      "value": "Succinate-derived electrons enter at Complex II and bypass the proton-translocating Complex I."
+    },
+    {
+      "field": "questions.143.explanation",
+      "value": "B is correct: NADH-linked entry supports about 10 proton equivalents per pair, while succinate-linked entry supports about 6 because Complex II does not pump protons. A and C misdescribe donor stoichiometry and location. D reverses the effect of raising donor reduction potential relative to a fixed acceptor."
+    },
+    {
+      "field": "questions.143.question_text",
+      "value": "Using conventional estimates, matrix NADH supports about 2.5 ATP per electron pair and succinate about 1.5. What best explains the difference?"
+    },
+    {
+      "field": "questions.144.choice_d",
+      "value": "Reverse ATP synthase operation produces ATP while pumping protons outward."
+    },
+    {
+      "field": "questions.144.explanation",
+      "value": "B is correct: sufficiently limited oxygen restricts electron transfer at IV and oxidative ATP synthesis. The gradient need not collapse immediately; reverse ATP synthase can consume ATP to support it temporarily. That reverse mode does not produce ATP. Substrate-level ATP production does not establish complete compensation."
+    },
+    {
+      "field": "questions.144.question_text",
+      "value": "Oxygen falls enough to limit mitochondrial respiratory flux. Which effect on ATP synthesis by oxidative phosphorylation is most directly expected?"
+    },
+    {
+      "field": "questions.145.choice_b",
+      "value": "An imposed proton-motive force across an intact membrane containing correctly oriented ATP synthase drives ATP production when ADP and Pᵢ are available."
+    },
+    {
+      "field": "questions.145.explanation",
+      "value": "B demonstrates that a suitable proton-motive force can drive synthesis without a directly coupled redox enzyme. NADH alone cannot power isolated F₁. The chemical and electrical components must both be considered: matrix pH alone does not determine the total driving force."
+    }
+  ]
+}

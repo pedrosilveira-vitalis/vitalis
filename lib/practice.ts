@@ -1,7 +1,7 @@
 export const sections = ['bio-biochem', 'chem-phys', 'psych-soc', 'cars'] as const;
 export type Section = typeof sections[number];
 export type Question = {
-  id: string; question_text: string; choice_a: string; choice_b: string;
+  activityToken?: string; id: string; question_text: string; choice_a: string; choice_b: string;
   choice_c: string; choice_d: string; correct_answer: string; explanation: string;
   topic: string; section: string; difficulty: string;
   passage?: { title: string; content: string };

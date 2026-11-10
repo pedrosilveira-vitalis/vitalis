@@ -1,0 +1,350 @@
+{
+  "lessonId": 21,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Allosteric and covalent modifications act within seconds; changes in gene expression take hours.",
+      "new": "Allosteric responses and phosphorylation can be rapid; changing protein abundance usually takes longer. Exact timescales depend on the system.",
+      "reason": "Avoid rigid universal timing.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "is a form of allosteric regulation in which",
+      "new": "is regulation, often allosteric, in which",
+      "reason": "Feedback describes pathway logic, not one kinetic mechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "the point of no return after which intermediates are dedicated to one biosynthetic outcome",
+      "new": "a useful pathway-specific branch point, rather than a literal guarantee that every subsequent intermediate has only one possible fate",
+      "reason": "Committed does not mean all subsequent chemistry irreversible.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "The inhibiting product binds to an **allosteric site** (also called a regulatory site) on the enzyme, which is distinct from the **active site** where the substrate binds. This binding induces a conformational change that reduces catalytic activity. Because the allosteric site is physically separate from the active site, inhibition is not competitive in the classical sense—it is not overcome simply by adding more substrate.",
+      "new": "In many feedback systems, the product binds a regulatory site and changes enzyme activity. Binding at a remote site does not by itself determine competitive, mixed, noncompetitive or uncompetitive kinetics, nor whether substrate can overcome an observed effect. These are experimentally determined kinetic properties.",
+      "reason": "Remote binding cannot assign kinetic class.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**aspartate transcarbamoylase (ATCase)**, which catalyzes",
+      "new": "**E. coli aspartate transcarbamoylase (ATCase)**, which catalyzes",
+      "reason": "Bacterial example must not be projected to humans.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3276696/"
+    },
+    {
+      "field": "content",
+      "old": "In mammals, a more complex arrangement called **concerted feedback inhibition** or **cumulative feedback inhibition** exists in branched pathways. In the pathway leading to aromatic amino acids (phenylalanine, tyrosine, tryptophan), multiple end products each partially inhibit the first committed enzyme. This prevents the depletion of one amino acid from driving the entire pathway at full speed when the other products are already adequate.",
+      "new": "Branched microbial pathways may coordinate several end products using different regulatory architectures. Cumulative inhibition describes additive effects; concerted inhibition requires products acting together, so the terms are not interchangeable. The shikimate route to aromatic amino acids occurs in plants and microorganisms, not mammals. Humans require dietary phenylalanine and tryptophan and can make tyrosine from phenylalanine.",
+      "reason": "Mammalian aromatic biosynthesis claim false; distinguish architectures.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11043010/"
+    },
+    {
+      "field": "content",
+      "old": "**Isocitrate dehydrogenase** in the TCA cycle",
+      "new": "**Mitochondrial NAD-dependent isocitrate dehydrogenase** in the TCA cycle",
+      "reason": "Distinguish isoforms.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1172380/"
+    },
+    {
+      "field": "content",
+      "old": "and activated by **ADP** and **NAD⁺**.",
+      "new": "and activated by **ADP**; NAD⁺ is its oxidizing cosubstrate.",
+      "reason": "Cosubstrate is not synonymous with allosteric activator.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1172380/"
+    },
+    {
+      "field": "content",
+      "old": "On the MCAT, feedback inhibition questions often require you to predict what happens to pathway flux when a product accumulates or is depleted. Remember: feedback inhibition acts on the *committed step*, not necessarily the first step of the pathway. Also remember that allosteric inhibition produces a **sigmoidal** (cooperative) kinetics curve rather than the hyperbolic curve of Michaelis-Menten kinetics, and it is characterized by changes in the **K₀.₅** (apparent Km) or the **Vmax**, depending on the type of allosteric effect.",
+      "new": "For pathway reasoning, identify which step is actually regulated. Feedback often targets an early committed step, but this is not an absolute rule. Allostery need not produce a sigmoid curve; for a sigmoidal rate response, S₀.₅ (or K₀.₅) denotes the substrate concentration at half-maximal rate and is not necessarily a Michaelis constant.",
+      "reason": "Correct multiple blanket claims.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "This creates a binary switch:",
+      "new": "For a single site, this can resemble a switch; multisite phosphorylation produces more complex control:",
+      "reason": "Multisite is not binary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "**Phosphorylase b** (dephosphorylated): relatively inactive (low-activity form)",
+      "new": "**Phosphorylase b** (dephosphorylated): often less active, but muscle phosphorylase b can be activated by AMP",
+      "reason": "Align body with quiz102.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/1874749/"
+    },
+    {
+      "field": "content",
+      "old": "**Phosphorylase a** (phosphorylated at Ser14): highly active",
+      "new": "**Phosphorylase a** (phosphorylated at Ser14): generally more active; allosteric regulation still applies",
+      "reason": "Avoid all-or-none forms.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/1874749/"
+    },
+    {
+      "field": "content",
+      "old": "**Phosphorylated form**: inactive",
+      "new": "**Phosphorylated form**: generally less active; response also depends on allosteric effectors such as glucose-6-phosphate",
+      "reason": "Synthase not absolutely inactive.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "ensures that glycogen synthesis and breakdown cannot occur simultaneously at full activity",
+      "new": "biases flux toward synthesis or breakdown and reduces wasteful substrate cycling",
+      "reason": "Not absolute prohibition.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "**epinephrine** (in liver and muscle) binds a G-protein-coupled receptor (GPCR).",
+      "new": "**epinephrine** through β-adrenergic receptors binds a G-protein-coupled receptor (GPCR). Hepatic α₁-adrenergic receptors can also signal through calcium.",
+      "reason": "Specify Gs branch.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "The net result: glycogen is broken down and not synthesized.",
+      "new": "The net effect favors glycogen breakdown over synthesis.",
+      "reason": "Flux rather than absolute state.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "**protein phosphatase 1 (PP1)** is activated, reversing all these phosphorylations and restoring the fed state.",
+      "new": "signaling favors PP1-mediated dephosphorylation of glycogen-metabolism enzymes and promotes glycogen storage; other insulin-signaling targets contribute.",
+      "reason": "Avoid claiming every phosphorylation simply reversed.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "**Hormone-sensitive lipase (HSL)** in adipose tissue is phosphorylated and activated by PKA in response to epinephrine or glucagon, triggering lipolysis. **Acetyl-CoA carboxylase (ACC)**, the rate-limiting enzyme of fatty acid synthesis, is inactivated by phosphorylation via **AMP-activated protein kinase (AMPK)** when the cell's energy charge is low. This prevents futile cycling—the cell does not synthesize fatty acids when it is simultaneously breaking them down for energy.",
+      "new": "**Hormone-sensitive lipase (HSL)** in adipose tissue is activated through catecholamine/cAMP/PKA signaling, alongside regulation of lipid-droplet proteins and other lipases. Do not present direct glucagon stimulation of human adipocyte lipolysis as an established equivalent mechanism; effects depend on species and experimental conditions. **Acetyl-CoA carboxylase (ACC)** is inhibited by AMPK-dependent phosphorylation, helping reduce fatty acid synthesis during energy stress.",
+      "reason": "Human glucagon adipocyte overstatement.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/31891768/"
+    },
+    {
+      "field": "content",
+      "old": "Histone acetylation by histone acetyltransferases (HATs) activates transcription; deacetylation by HDACs represses it.",
+      "new": "Histone acetylation often accompanies accessible chromatin and transcription, while deacetylation often accompanies repression; effects depend on the genomic and protein context.",
+      "reason": "Not universal transcription switch.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "Targets proteins for proteasomal degradation—a form of irreversible inactivation.",
+      "new": "Can target proteins for proteasomal degradation, but also regulates trafficking and signaling. Ubiquitin attachment itself can be reversed by deubiquitinases.",
+      "reason": "Ubiquitination not synonymous with degradation.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1276169/"
+    },
+    {
+      "field": "content",
+      "old": "is an inactive enzyme precursor that requires proteolytic cleavage to become active.",
+      "new": "is an inactive or weakly active enzyme precursor. Many are activated by proteolysis, although some—such as initiator procaspases—rely critically on assembly into activating complexes.",
+      "reason": "Distinguish broad proenzyme concept.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5123071/"
+    },
+    {
+      "field": "content",
+      "old": "zymogen activation is **irreversible**—once the peptide bond is cleaved",
+      "new": "proteolytic maturation is **irreversible**—once the peptide bond is cleaved",
+      "reason": "Not every activation step proteolytic.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5123071/"
+    },
+    {
+      "field": "content",
+      "old": "| Pepsinogen | Pepsin | Low pH (autocatalytic) |",
+      "new": "| Pepsinogen (stomach, not pancreas) | Pepsin | Acid-assisted autocatalytic processing |",
+      "reason": "Do not imply pancreatic origin.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "Trypsin then activates all the other zymogens—including more trypsinogen",
+      "new": "Trypsin then activates several pancreatic zymogens—including more trypsinogen",
+      "reason": "All includes unrelated gastric and other zymogens.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "but only in the intestinal lumen where digestion should occur",
+      "new": "normally in the intestinal lumen, aided by additional protective mechanisms in the pancreas",
+      "reason": "Physiological location not impossibility of ectopic activation.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "a single 245-amino acid polypeptide with no activity",
+      "new": "a single 245-amino acid polypeptide in the classic bovine example, with very low activity",
+      "reason": "Specify species and residual activity.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6889508/"
+    },
+    {
+      "field": "content",
+      "old": "Two additional autolytic cleavages",
+      "new": "Further autolytic processing removes two dipeptides to",
+      "reason": "Two cleavages alone cannot release two dipeptides.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6889508/"
+    },
+    {
+      "field": "content",
+      "old": "The key structural change upon activation is the formation of the **oxyanion hole** and the correct positioning of the **catalytic triad** (Ser195, His57, Asp102). In chymotrypsinogen, the N-terminus of the new Ile16 chain forms a salt bridge with Asp194, which stabilizes the active site geometry. This salt bridge cannot form in the zymogen, explaining why the active site is disordered and inactive.",
+      "new": "Activation organizes the substrate-binding region and oxyanion hole. Cleavage exposes a new Ile16 amino terminus, which forms an ionic interaction with Asp194 in the active enzyme—not in intact chymotrypsinogen. This helps stabilize a productive active-site geometry; the catalytic-triad residues already exist in the precursor.",
+      "reason": "Original sentence placed new terminus in uncleaved zymogen.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6889508/"
+    },
+    {
+      "field": "content",
+      "old": "Like the clotting cascade, this is an irreversible commitment—once executioner caspases are active, cell death proceeds.",
+      "new": "Initiator caspases are activated on signaling platforms, with dimerization and conformational organization important; executioner caspases are typically activated by cleavage. Strong executioner activity normally drives apoptosis, but cleavage alone is not a universal guarantee that every cell must die.",
+      "reason": "Do not equate initiator activation with cleavage.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5123071/"
+    },
+    {
+      "field": "content",
+      "old": "1. **Glucagon** is released → cAMP rises → PKA activated.",
+      "new": "1. In the **liver**, glucagon can raise cAMP and activate PKA.",
+      "reason": "Tissue specificity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "glycogen synthesis stops.",
+      "new": "glycogen synthesis is suppressed.",
+      "reason": "Not absolute.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "5. Falling ATP and rising AMP activate **AMPK**, which phosphorylates ACC (inactivating it): fatty acid synthesis stops.",
+      "new": "5. If cellular energy stress raises AMP, **AMPK** can inhibit ACC. Fasting alone does not imply ATP is falling in every tissue: hepatic fatty acid oxidation can supply energy for gluconeogenesis.",
+      "reason": "Fasting versus cellular energy depletion.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/31891768/"
+    },
+    {
+      "field": "content",
+      "old": "6. Rising citrate (from increased fatty acid oxidation) inhibits **PFK-1**: glycolysis is further suppressed.",
+      "new": "6. Hepatic PFK-1 regulation also involves reduced fructose-2,6-bisphosphate during glucagon signaling; citrate can inhibit PFK-1, but its level is not guaranteed to rise in every fasting state.",
+      "reason": "No universal fasting citrate chain.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    },
+    {
+      "field": "content",
+      "old": "Pancreatic zymogens are activated only in the intestinal lumen.",
+      "new": "Pancreatic digestive zymogens are normally activated in the intestinal lumen; inappropriate activation can occur elsewhere.",
+      "reason": "Remove contradiction with pancreatitis paragraph.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "**Acute pancreatitis** occurs when pancreatic zymogens are prematurely activated within the pancreatic parenchyma—trypsinogen is activated inside acinar cells, triggering autodigestion. This is a direct clinical consequence of the failure of zymogen spatial control.",
+      "new": "**Acute pancreatitis** involves pancreatic injury and inflammation. Premature intracellular trypsinogen activation can contribute to injury, but inflammatory signaling and other cellular disturbances also contribute; the disease is not fully explained by autodigestion alone.",
+      "reason": "Clinical over-reduction.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29425920/"
+    },
+    {
+      "field": "content",
+      "old": "**Feedback inhibition** targets the committed step of a pathway; the inhibitor is structurally unrelated to the substrate and binds an allosteric site.",
+      "new": "**Feedback inhibition** acts on an earlier pathway step, often a committed step; structure and binding mechanism must be established for the particular regulator.",
+      "reason": "Remove absolute target and structure.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**ATCase** is the canonical example:",
+      "new": "**E. coli ATCase** is the canonical example:",
+      "reason": "Species consistency.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3276696/"
+    },
+    {
+      "field": "content",
+      "old": "which activates all other pancreatic zymogens.",
+      "new": "which activates multiple pancreatic digestive zymogens.",
+      "reason": "Not all.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "**Caspases** follow the same zymogen principle in apoptosis: procaspases → active caspases via proteolytic cleavage.",
+      "new": "**Caspases** illustrate different activation mechanisms: initiator recruitment/assembly and executioner proteolytic processing.",
+      "reason": "Summary consistency.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5123071/"
+    },
+    {
+      "field": "content",
+      "old": "**Acute pancreatitis** = premature intracellular zymogen activation; a clinical manifestation of failed spatial regulation.",
+      "new": "**Acute pancreatitis** can involve premature zymogen activation together with inflammatory and other injury mechanisms.",
+      "reason": "Summary consistency.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29425920/"
+    },
+    {
+      "field": "content",
+      "old": "Protein digestion is severely impaired across the board—not just trypsin-dependent digestion.",
+      "new": "Pancreatic proteolysis is severely impaired, but gastric pepsin and some intestinal peptidases remain; not all protein digestion is abolished.",
+      "reason": "Enteropeptidase not required for all proteolysis.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "content",
+      "old": "citrate is a signal that the TCA cycle is saturated with acetyl-CoA",
+      "new": "citrate can signal abundant carbon/energy availability, rather than proving the cycle is literally saturated",
+      "reason": "Metabolite is not a direct saturation assay.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7702303/"
+    },
+    {
+      "field": "questions.101.choice_a",
+      "old": "It allows the cell to conserve energy by shutting down the pathway before the final product accumulates to toxic levels.",
+      "new": "It guarantees that the final product can never reach a toxic concentration, regardless of other pathways.",
+      "reason": "Original A was a plausible competing advantage.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.101.explanation",
+      "old": "Having an intermediate also inhibit the first committed enzyme creates a secondary regulatory checkpoint that responds to buildup of that intermediate regardless of final product levels. This allows the cell to modulate pathway activity based on flux at multiple points, not just end-product accumulation. Choice A is tempting because preventing toxic accumulation is a real concern, but the key advantage described is the independence of regulation from final product concentration, which gives finer metabolic control.",
+      "new": "C is best: an intermediate can report a downstream bottleneck even while final-product concentration is low. This adds a checkpoint. It does not guarantee absence of toxicity or establish that every downstream enzyme is saturated.",
+      "reason": "Match revised unique answer.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.103.explanation",
+      "old": "Zymogens are stored in inactive form precisely to prevent premature proteolytic activity in the secreting tissue. Premature activation of trypsinogen inside pancreatic cells would produce active trypsin that degrades the cellular proteins of the pancreas itself, leading to autodigestion, which is the pathophysiology of acute pancreatitis. Choice A is incorrect because intracellular activation would not increase luminal activity and would instead destroy the secretory cells. Choice D is partially plausible but misses the primary and more severe consequence of self-digestion.",
+      "new": "B is the most direct consequence: inappropriate protease activity can damage pancreatic cells. This is one contributor to pancreatitis, alongside inflammatory and other injury pathways; it is not a complete account of every case.",
+      "reason": "Clinical scope.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/29425920/"
+    },
+    {
+      "field": "questions.104.question_text",
+      "old": "A cell signaling study shows that insulin stimulates a phosphatase that removes phosphate groups from glycogen synthase, while glucagon stimulates a kinase that phosphorylates the same enzyme. Glycogen synthase is active in its dephosphorylated form. Which of the following best describes this regulatory strategy?",
+      "new": "In a liver-cell signaling experiment, insulin favors dephosphorylation of glycogen synthase while glucagon favors its phosphorylation. Dephosphorylation generally increases synthase activity. Which regulatory strategy is illustrated?",
+      "reason": "Specify glucagon-responsive tissue and relative activity.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9923/"
+    },
+    {
+      "field": "questions.105.question_text",
+      "old": "ATCase (aspartate transcarbamoylase) catalyzes the first committed step in pyrimidine biosynthesis and is inhibited by CTP (the end product) and activated by ATP. In a rapidly dividing cancer cell with high ATP and low CTP, which of the following best predicts the regulatory state of ATCase and its metabolic significance?",
+      "new": "E. coli ATCase is inhibited by CTP and activated by ATP. In an experiment with adequate substrates, ATP is high and CTP is low. Which prediction best fits this bacterial regulatory system?",
+      "reason": "Original incorrectly placed bacterial mechanism in human cancer cell.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3276696/"
+    },
+    {
+      "field": "questions.105.choice_b",
+      "old": "ATCase is activated because high ATP signals energy availability, promoting pyrimidine synthesis needed for nucleic acid production during cell division.",
+      "new": "ATCase is favored toward greater activity, helping replenish pyrimidines when purine abundance is relatively high.",
+      "reason": "Cross-pathway pool balance.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3276696/"
+    },
+    {
+      "field": "questions.105.explanation",
+      "old": "ATCase is a classic example of feedback inhibition coordinated with cross-pathway signaling: CTP (pyrimidine end product) inhibits ATCase, while ATP (purine) activates it. High ATP with low CTP signals that purines are abundant and pyrimidines are needed, so ATCase is strongly activated to drive pyrimidine synthesis for DNA and RNA replication. This is especially relevant in cancer cells with high biosynthetic demands. Choice C is tempting but incorrect because the two conditions (high ATP, low CTP) act synergistically to activate the enzyme, not cancel each other. Choice A incorrectly characterizes ATP as a competitive inhibitor; it is an allosteric activator.",
+      "new": "B fits the stated E. coli system: more ATP activation and less CTP inhibition favor activity. Human de novo pyrimidine synthesis is organized in CAD; its CPSII regulatory domain responds to UTP and PRPP. Do not transfer the bacterial CTP/ATP ATCase mechanism directly to a human cancer cell.",
+      "reason": "Explicit important species distinction.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10064490/"
+    }
+  ]
+}

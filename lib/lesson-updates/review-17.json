@@ -1,0 +1,175 @@
+{
+  "lessonId": 17,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "making it far easier to determine kinetic parameters with precision",
+      "new": "making intercept relationships easier to inspect visually, but not improving statistical precision over appropriate nonlinear fitting",
+      "reason": "Reciprocaltransformamplifieserror.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "The **Km** is a critical parameter. It reflects the affinity of an enzyme for its substrate: a *low* Km means the enzyme achieves half-maximal velocity at low substrate concentrations, indicating *high* affinity. A *high* Km means the enzyme requires more substrate to reach half-maximal velocity, indicating *lower* affinity. Km values for most enzymes fall between 10⁻¹ to 10⁻⁷ M, though this varies widely.",
+      "new": "**Km** is [S] at half Vmax in this model. It combines binding and catalytic rate constants and is not generally equal to the equilibrium dissociation constant Kd. A lower Km means half Vmax is reached at a lower [S]; an affinity conclusion needs additional assumptions.",
+      "reason": "Repeated KmKdconfusion.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Since velocity is always positive",
+      "new": "For the forward initial-rate measurements considered here, velocity is positive",
+      "reason": "Reversevelocitiespossible.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "This eliminates complications from product inhibition and substrate depletion.",
+      "new": "A suitable early linear interval minimizes product accumulation and substrate depletion; it must follow the initial transient and be checked experimentally.",
+      "reason": "Initialmeasurementnotguarantee.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "can bind whether or not substrate is already bound.",
+      "new": "can bind free E and ES with equal equilibrium affinity in the pure noncompetitive model.",
+      "reason": "Equal affinityessential.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "For MCAT purposes, you should focus primarily on competitive, noncompetitive, and uncompetitive inhibition patterns. Mixed inhibition appears less frequently.",
+      "new": "Understand the assumptions for each model and use the passage data; mixed inhibition is the unequal-affinity case.",
+      "reason": "Remove unverifiedfrequencypriority.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "At [S] = 10.0 mM, v = 48 μmol/min",
+      "new": "At [S] = 10.0 mM, v = 50 μmol/min",
+      "reason": "Make numericalexampleconsistentwithKm2 Vmax60.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "1/v = 0.021 min/μmol",
+      "new": "1/v = 0.020 min/μmol",
+      "reason": "Reciprocal50.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**y-intercept ≈ 0.017 min/μmol**, so Vmax = 1/0.017 ≈ **59 μmol/min**",
+      "new": "**y-intercept = 1/60 ≈ 0.01667 min/μmol**, so Vmax = **60 μmol/min**",
+      "reason": "Exacttheoreticaldataset.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**Slope ≈ (0.050 − 0.017)/(1.0 − 0) = 0.033 min·mM/μmol**, which should equal Km/Vmax = 2.0/59 ≈ 0.034 (close enough given rounding)",
+      "new": "**Slope = Km/Vmax = 2/60 ≈ 0.03333 min·mM/μmol**, consistent with all four points",
+      "reason": "Remove roundingconflict.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Low Km = high affinity. High Km = low affinity. This is counterintuitive to some students because \"high\" usually sounds better. Think of it this way: if Km is low, the enzyme achieves half-maximal velocity at a *low* substrate concentration—it doesn't need much substrate to work efficiently. That means it has *high* affinity for its substrate.",
+      "new": "Low Km means half Vmax at lower substrate concentration. For E + S ⇌ ES → E + P, Km = (k₋₁ + kcat)/k₁ whereas Kd = k₋₁/k₁. Only when kcat ≪ k₋₁ does Km approximate equilibrium affinity.",
+      "reason": "Correctpitfallitself.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Changing enzyme concentration does *not* change Km. It changes Vmax proportionally (more enzyme molecules → higher maximum rate). On a Lineweaver-Burk plot, doubling enzyme concentration would shift the y-intercept downward (1/Vmax decreases because Vmax increases) and shift the x-intercept farther from the origin (same Km), while changing the slope. The line would be parallel to the original if… actually no—because both y-intercept and x-intercept change while Km stays constant, the lines are not parallel. They intersect on the x-axis, which is the same pattern as noncompetitive inhibition (but with the opposite directional shifts). Don't confuse these scenarios—context matters.",
+      "new": "For the same enzyme and conditions, doubling active enzyme concentration doubles Vmax and leaves Km unchanged. The reciprocal-plot y-intercept and slope are halved, while the x-intercept stays at −1/Km. The lines intersect on the x-axis; they are not parallel. This resembles the reverse of a pure noncompetitive pattern, so experimental context matters.",
+      "reason": "Remove contradictoryxinterceptanddraftselfcorrection.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**Allosteric enzymes** do not follow Michaelis-Menten kinetics. They display sigmoidal velocity curves rather than hyperbolic ones, and their behavior cannot be linearized with a simple Lineweaver-Burk plot. Allosteric enzymes include hemoglobin (technically not an enzyme, but the analogy is useful), ATCase, and phosphofructokinase-1. When a passage describes sigmoidal kinetics, Michaelis-Menten and Lineweaver-Burk analysis do not apply.",
+      "new": "Some allosteric enzymes show nonhyperbolic substrate responses; others can remain approximately Michaelis–Menten under specified conditions. A sigmoidal rate curve is not appropriately fit by the simple Michaelis–Menten equation. Hemoglobin is an equilibrium-binding example, not an enzyme-rate example.",
+      "reason": "Allostericnotalwayssigmoid.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3525530/"
+    },
+    {
+      "field": "content",
+      "old": "**Enzyme cofactors and coenzymes** affect the maximum catalytic rate. If a coenzyme is absent or depleted, Vmax decreases. Km for the substrate itself typically remains unchanged.",
+      "new": "**Cofactors and coenzymes** can affect both apparent Km and Vmax. A limiting cosubstrate, an incompletely loaded prosthetic group, and loss of active enzyme are different situations; do not assume a universal unchanged Km.",
+      "reason": "CofactorlossnotuniversalVmaxonly.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "What does the change in Km mean for substrate affinity?",
+      "new": "What does the change in apparent Km mean for substrate dependence of rate?",
+      "reason": "Do notinferKd.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "this five-step approach",
+      "new": "this six-step approach",
+      "reason": "Sixnumberedsteps.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "This linearization allows precise graphical determination of kinetic parameters",
+      "new": "This linearization makes intercept relationships visible, while nonlinear fitting of raw rates is generally preferred for parameter estimation",
+      "reason": "Consistentstats.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "a steeper y-intercept",
+      "new": "a higher y-intercept",
+      "reason": "Interceptnotsteep.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "what Km tells you about affinity",
+      "new": "what Km tells you about substrate dependence of rate",
+      "reason": "Consistentsummary.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.83.question_text",
+      "old": "A student collects enzyme velocity data at six substrate concentrations and constructs a Lineweaver-Burk plot. Why is this linearization approach advantageous over directly fitting a hyperbolic Michaelis-Menten curve to the raw data?",
+      "new": "What is the main graphical advantage of the Lineweaver–Burk transformation for interpreting an enzyme-kinetics plot by hand?",
+      "reason": "Originalclaimsadvantageovernonlinearfitting.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.83.explanation",
+      "old": "The primary advantage of the Lineweaver-Burk transformation is converting the hyperbolic Michaelis-Menten equation into the linear form y = mx + b, allowing Km and Vmax to be read directly from the slope, y-intercept, and x-intercept. Choice D is actually a limitation rather than an advantage, since double-reciprocal plots disproportionately weight low-[S] data points where experimental error is greatest. The linearization does not change the number of measurements needed or allow study beyond Vmax.",
+      "new": "C is correct: the transformation exposes slope and intercept relationships in a straight line. It does not improve experimental precision or eliminate measurements. Reciprocal transformation amplifies errors at low rates, so nonlinear regression of raw initial rates is generally preferred for estimation. Choice A also compares unlike units: substrate concentration and Vmax are different quantities.",
+      "reason": "FixmisreadDanddimensionaldistractor.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.84.explanation",
+      "old": "The y-intercept of a Lineweaver-Burk plot equals 1/Vmax, so identical y-intercepts mean identical Vmax values. The slope of the line equals Km/Vmax; since Vmax is the same for both enzymes, a steeper slope for Enzyme A indicates a higher Km. A higher Km means lower substrate affinity. Choice A is incorrect because a higher Km alone does not change Vmax, which is fixed by the y-intercept in this scenario.",
+      "new": "B is correct. Equal y-intercepts imply equal Vmax. Since slope = Km/Vmax, the steeper line has larger Km. That establishes a difference in the substrate concentration needed for half Vmax, not necessarily a difference in equilibrium Kd.",
+      "reason": "Removeunsupportedbindinginference.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.85.question_text",
+      "old": "A noncompetitive inhibitor is added to an enzyme reaction. Which of the following best describes the effect on the Lineweaver-Burk plot?",
+      "new": "A pure noncompetitive inhibitor is added under the standard reversible single-substrate model. What change is expected in the Lineweaver–Burk plot?",
+      "reason": "Clarify pureassumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.85.explanation",
+      "old": "Choice C incorrectly describes competitive inhibition.",
+      "new": "Choice C is also incorrect: for competitive inhibition the x-intercept moves toward zero, not farther left.",
+      "reason": "DistractorCnotcorrectcompetitive.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    }
+  ]
+}

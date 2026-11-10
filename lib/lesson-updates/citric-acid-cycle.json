@@ -1,0 +1,217 @@
+{
+  "lessonId": 26,
+  "reviewedAt": "2026-11-08",
+  "questionIds": [
+    126,
+    127,
+    128,
+    129,
+    130
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+      "title": "The mitochondrion: central metabolic pathways"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK544346/",
+      "title": "Gluconeogenesis substrates and odd-chain fatty acids"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1172380/",
+      "title": "Species-dependent citrate synthase inhibition"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC19395/",
+      "title": "Fluorocitrate mechanism-based aconitase inhibition"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/2818760/",
+      "title": "Mutant IDH1 reduces alpha-ketoglutarate to 2-hydroxyglutarate"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/medgen/273544",
+      "title": "Malate-aspartate shuttle reaction directions"
+    }
+  ],
+  "visual": {
+    "title": "The TCA cycle: track carbon count and electron yield",
+    "src": "/lesson-diagrams/citric-acid-cycle.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "Eight intermediates form a cycle: citrate, isocitrate, alpha-ketoglutarate, succinyl-CoA, succinate, fumarate, malate and oxaloacetate. NADH is produced at three steps, CO2 at two, GTP or ATP at one, and succinate electrons enter Complex II. Newly entering acetyl carbons survive the first turn.",
+    "caption": "Net carbon balance is different from the identity of individual carbon atoms. ATP yields require subsequent oxidative phosphorylation."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "b4faca12a5a647875c6134596b7e983d9f8c9f6c550a5a9f56419505e1323687"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "1895cb747a119c027725b08821a6c45d77edbfb28d3445a2501af3b648233f75"
+    },
+    {
+      "field": "questions.126.question_text",
+      "sha256": "1a9b915274a17b81eb4d2511fe60b9ade8c2c117bb0d08eecdd8352b6c8100da"
+    },
+    {
+      "field": "questions.126.choice_a",
+      "sha256": "7726fead6abbda28e74f69d5adb00698be3f3bba22a5d9518fc609c8f2cf027c"
+    },
+    {
+      "field": "questions.126.choice_b",
+      "sha256": "139a4fb33dafa84708d29c973fd5452ad6cd5269054634d4f5db77724c90d147"
+    },
+    {
+      "field": "questions.126.choice_c",
+      "sha256": "a619448ba2e6591b0b8631f92fc2fd2f25ad138074df7ab42a5f3926cbccb24f"
+    },
+    {
+      "field": "questions.126.choice_d",
+      "sha256": "ecdea5ff79a9d335d6c8e659132053a3f75bbb8aa790e201bd4f79ff4e392577"
+    },
+    {
+      "field": "questions.126.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.126.explanation",
+      "sha256": "f424302e6ad514ef310335e4db19ccdcef7e19bc4103a2bddfb6a47067e1ea82"
+    },
+    {
+      "field": "questions.127.question_text",
+      "sha256": "4155dc23832515c9748799f8b0673af896905ada516520dca05b826c454e2055"
+    },
+    {
+      "field": "questions.127.choice_a",
+      "sha256": "86d9202635a60a8147cac19f4e8dcc1987b6f5ab086127f1133284ac1c27d0e9"
+    },
+    {
+      "field": "questions.127.choice_b",
+      "sha256": "777bdf6a7fcd83b9ddd83c81418bdc71606e2f2c8971e3165492749c6caf4505"
+    },
+    {
+      "field": "questions.127.choice_c",
+      "sha256": "2aa993c0d809cc09e372db9ce601064c8c74d442895bcb6564f1a08d3bbc68e3"
+    },
+    {
+      "field": "questions.127.choice_d",
+      "sha256": "c86c7ebefe8f8effbaba90f634c8f49036d395fc5a4c7f657afbc62036b7f348"
+    },
+    {
+      "field": "questions.127.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.127.explanation",
+      "sha256": "f835c36b458b5f8af3867a10efbb41e5e4a43c52726640c8722270f95e25a118"
+    },
+    {
+      "field": "questions.128.question_text",
+      "sha256": "0e8f83192332c0c583d5d2912a6768caded4a85f779d80e95bb257cd36c7edc3"
+    },
+    {
+      "field": "questions.128.choice_a",
+      "sha256": "8749d4536acca51dcf14f252376f09106753d861e151df4c6e777cfb52b65fdd"
+    },
+    {
+      "field": "questions.128.choice_b",
+      "sha256": "9a1f3720a5bd3f7995d1740f9f141f58ee6f9236dc8de4e5b119a6fc319401ab"
+    },
+    {
+      "field": "questions.128.choice_c",
+      "sha256": "33341cee86aa78dbde6490c0bd651f200b81ceaf87f72028f093257c80e780b6"
+    },
+    {
+      "field": "questions.128.choice_d",
+      "sha256": "bdce90846a93f3681a722d895358c4bc66b5da53c64f35030a02e21a2e07683e"
+    },
+    {
+      "field": "questions.128.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.128.explanation",
+      "sha256": "87392202820264c36eab9f6e69b545f588ba66e48d175ffa068e236d8de8ac8f"
+    },
+    {
+      "field": "questions.129.question_text",
+      "sha256": "0745774358b56d890520fd2cba6cc61c2b3757f8b34848d3716fdc1d7dafdf71"
+    },
+    {
+      "field": "questions.129.choice_a",
+      "sha256": "33a45ebf20efbfe582448548069b8093270784de17058b8c0c2a909e0b13730c"
+    },
+    {
+      "field": "questions.129.choice_b",
+      "sha256": "2a0a77492297ec544b58d94590d83484fe9ceab605a3df074c3852f1f9c82c67"
+    },
+    {
+      "field": "questions.129.choice_c",
+      "sha256": "dd75dfdef5cff8698d7303eaaef863045ae4ef401f3ab751d08d79f7fbaa1027"
+    },
+    {
+      "field": "questions.129.choice_d",
+      "sha256": "cae657d5d2e2dc07f9424501d95024d5518ed92a1ac2699b5d21ea5c3e04e498"
+    },
+    {
+      "field": "questions.129.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.129.explanation",
+      "sha256": "150b39d37ca4d71883c30422995d312a689cc52e2ab8f96ef399524225cce0e7"
+    },
+    {
+      "field": "questions.130.question_text",
+      "sha256": "341c6762c71d7d2960b12171f1934c7c7686f3feb8e18ddff78ace7ff78114ef"
+    },
+    {
+      "field": "questions.130.choice_a",
+      "sha256": "1bf31bc3dd6aca92dbb318dc8d12a9f94830e3f1c93bb571e9efcfc219234b0f"
+    },
+    {
+      "field": "questions.130.choice_b",
+      "sha256": "2d612e39ea4a9e069db75ea198567ac0ea108cdaa34dcc0458410e8041975dee"
+    },
+    {
+      "field": "questions.130.choice_c",
+      "sha256": "fb9eaee2d574dae21b20fe8294d76a361bad3b55fecfb507df69fe9bd7ddaa55"
+    },
+    {
+      "field": "questions.130.choice_d",
+      "sha256": "3509ba713055ce9dd0b7b1de186c7b00a7a9d8dec8444d3998e42f8a055c18e4"
+    },
+    {
+      "field": "questions.130.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.130.explanation",
+      "sha256": "5eb35540816d6d7a7c0beebb0b34fc3156b9391418d0293c95bfd7fafa2da5bd"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "# The Citric Acid Cycle: Reactions and Enzymes\n\n## Overview and Metabolic Context\n\nThe citric acid cycle—also called the **Krebs cycle** or the **tricarboxylic acid (TCA) cycle**—is the central hub of aerobic metabolism. Carbohydrates, fats and amino acids can supply this pathway, but not every fuel molecule is fully oxidized in every cell; mature erythrocytes, for example, lack mitochondria. Understanding its eight enzymatic steps, the substrates consumed, and the products generated is not optional for the MCAT; it is foundational.\n\nBefore diving into individual reactions, orient yourself to the big picture. In mitochondria-containing human cells, most cycle enzymes are in the **matrix**; succinate dehydrogenase is embedded in the inner membrane. Its primary function is not to produce ATP directly—it generates very little—but to strip electrons from carbon-containing intermediates and load them onto the electron carriers **NADH** and **FADH₂**. These carriers then deliver electrons to the electron transport chain, where the bulk of ATP is synthesized via oxidative phosphorylation.\n\nThe cycle begins when **acetyl-CoA** (a two-carbon acetyl group attached to coenzyme A) condenses with **oxaloacetate (OAA)**, a four-carbon molecule, to form the six-carbon compound **citrate**. Over eight steps, two carbons are released as CO₂ in the net balance and an OAA molecule is regenerated. The newly entering acetyl carbons are retained during the first turn, ready to accept another acetyl group. This regeneration is what makes it a *cycle* rather than a linear pathway.\n\n### Net Yield Per Acetyl-CoA\n\nMemorize this before anything else:\n\n- **3 NADH**\n- **1 FADH₂**\n- **1 GTP** (equivalent to 1 ATP)\n- **2 CO₂**\n- **1 CoA** (released, regenerated)\n\nBecause one glucose molecule yields two pyruvate molecules, and each pyruvate is converted to one acetyl-CoA by pyruvate dehydrogenase, the TCA cycle turns *twice* per glucose. The total per-glucose yield from the TCA cycle alone is therefore 6 NADH, 2 FADH₂, 2 GTP, and 4 CO₂.\n\n---\n\n## Preparatory Step: Pyruvate Dehydrogenase Complex\n\nStrictly speaking, this step precedes the cycle, but it is inseparable from it on the MCAT. **Pyruvate**, the three-carbon product of glycolysis, is transported into the mitochondrial matrix and converted to acetyl-CoA by the **pyruvate dehydrogenase complex (PDC)**.\n\nThe reaction:\n\nPyruvate + CoA + NAD⁺ → Acetyl-CoA + CO₂ + NADH\n\nThe PDC is a massive multi-enzyme complex requiring five cofactors: **thiamine pyrophosphate (TPP)**, **lipoic acid**, **CoA**, **FAD**, and **NAD⁺**. Thiamine (vitamin B₁) deficiency impairs this complex and is clinically relevant—it underlies Wernicke's encephalopathy and beriberi. The reaction is **irreversible**, meaning the cell cannot convert acetyl-CoA back into pyruvate and therefore cannot perform net gluconeogenesis from acetyl-CoA. This is a critical MCAT concept: even-chain fatty-acid acetyl units provide no net glucose by these pathways, while odd-chain propionyl-CoA and triacylglycerol glycerol can be glucogenic.\n\nPDC is regulated by:\n- **Inhibition**: ATP, NADH, acetyl-CoA (products signal energy sufficiency)\n- **Activation**: ADP, NAD⁺, CoA, pyruvate (substrates signal energy need)\n- **Covalent regulation**: Phosphorylation by PDC kinase *inactivates* the complex; dephosphorylation by PDC phosphatase *activates* it. Insulin activates the phosphatase, promoting glucose oxidation.\n\n---\n\n## The Eight Steps of the Citric Acid Cycle\n\n### Step 1: Citrate Synthase\n\n**Substrate**: Oxaloacetate (4C) + Acetyl-CoA (2C)\n**Product**: Citrate (6C) + CoA (water is consumed in the coupled thioester hydrolysis)\n**Enzyme**: **Citrate synthase**\n**Cofactors/Coenzymes**: None required beyond the substrates themselves\n**Reaction type**: Condensation (C–C bond formation)\n\nCitrate synthase catalyzes the aldol-like condensation of the methyl group of acetyl-CoA with the carbonyl carbon of oxaloacetate, followed by hydrolysis of the thioester bond. Coupling C–C bond formation to thioester hydrolysis favors the overall reaction (ΔG° ≈ −32 kJ/mol), making this an essentially *irreversible* step under cellular conditions.\n\n**Regulation**: Citrate synthase is inhibited by its product **citrate**, as well as by **ATP**, **NADH**, and **succinyl-CoA**. When the cell has abundant energy, these elevated products and cofactors slow the cycle. Oxaloacetate is a substrate; it should not be conflated with an allosteric activator. Nucleotide effects vary by enzyme source and assay.\n\n**MCAT note**: The availability of oxaloacetate is a critical control point. OAA concentration is often the rate-limiting factor for citrate synthase activity. This is why gluconeogenic precursors that replenish OAA (anaplerotic reactions) are metabolically important.\n\n---\n\n### Step 2: Aconitase\n\n**Substrate**: Citrate (6C)\n**Product**: Isocitrate (6C)\n**Enzyme**: **Aconitase**\n**Reaction type**: Isomerization (dehydration followed by rehydration)\n\nCitrate is a symmetric molecule, but the enzyme aconitase handles it asymmetrically, converting it to **isocitrate** by first removing water to form the intermediate **cis-aconitate** and then re-adding water in a different orientation.\n\nThis stereochemical specificity is important: even though citrate appears symmetric, aconitase distinguishes the two \"arms\" of the molecule, and the two carbons ultimately lost as CO₂ in steps 3 and 4 are derived from the *original oxaloacetate*, not from the incoming acetyl-CoA. This means the carbons donated by acetyl-CoA are not actually lost as CO₂ in the *first* turn of the cycle—they are incorporated into succinate, fumarate, malate, and oxaloacetate. Full oxidation of those carbons requires subsequent turns.\n\n**Clinical note**: Aconitase contains an iron-sulfur cluster. **Fluorocitrate** (a metabolite of the poison fluoroacetate) inhibits aconitase, blocking the cycle and causing cellular energy failure. The inhibitory fluorocitrate stereoisomer is converted to a tightly bound inhibitory product at aconitase.\n\n---\n\n### Step 3: Isocitrate Dehydrogenase\n\n**Substrate**: Isocitrate (6C) + NAD⁺\n**Product**: α-Ketoglutarate (5C) + CO₂ + NADH + H⁺\n**Enzyme**: **Mitochondrial NAD-dependent isocitrate dehydrogenase (IDH3)**\n**Reaction type**: Oxidative decarboxylation\n\nThis is the **first oxidation** in the cycle and the **first CO₂** release. The hydroxyl group of isocitrate is oxidized to a carbonyl (reducing NAD⁺ to NADH), and the resulting unstable β-keto acid spontaneously decarboxylates to yield α-ketoglutarate (also called 2-oxoglutarate).\n\n**Regulation**: IDH is a major regulatory enzyme of the TCA cycle.\n- **Activated by**: ADP and Ca²⁺; NAD⁺ supplies the oxidizing cosubstrate\n- **Inhibited by**: ATP, NADH\n\nCalcium activation is physiologically important in muscle and other tissues where increased cytoplasmic Ca²⁺ signals increased energy demand, thereby ramping up the cycle.\n\n**Clinical distinction:** Cancer-associated mutations generally involve NADP-dependent **IDH1 or IDH2**, not the NAD-dependent IDH3 reaction tallied here. Mutant enzymes can reduce **α-ketoglutarate to D-2-hydroxyglutarate using NADPH**. Accumulated D-2-HG affects α-ketoglutarate-dependent enzymes and can alter epigenetic regulation.\n\n---\n\n### Step 4: α-Ketoglutarate Dehydrogenase Complex\n\n**Substrate**: α-Ketoglutarate (5C) + CoA + NAD⁺\n**Product**: Succinyl-CoA (4C) + CO₂ + NADH + H⁺\n**Enzyme**: **α-Ketoglutarate dehydrogenase complex (α-KGDH)**\n**Reaction type**: Oxidative decarboxylation\n\nThis is the **second oxidation** and **second CO₂** release. After this step, two carbons have left in the net stoichiometric balance; they are derived from the OAA portion in the first turn, not from the entering acetyl group.\n\nThe α-KGDH complex is structurally and mechanistically analogous to the pyruvate dehydrogenase complex. It requires the same five cofactors: **TPP, lipoic acid, CoA, FAD, and NAD⁺**. This structural homology is frequently tested—the MCAT expects you to recognize that thiamine deficiency impairs *both* PDC and α-KGDH.\n\n**Regulation**:\n- **Inhibited by**: Succinyl-CoA and NADH (products); energy status also regulates flux, but ATP is not a product of this reaction\n- **Activated by**: Ca²⁺, ADP\n\nThis step is essentially irreversible under cellular conditions, making it an important regulatory step.\n\n---\n\n### Step 5: Succinyl-CoA Synthetase (Succinate Thiokinase)\n\n**Substrate**: Succinyl-CoA (4C) + GDP (or ADP) + Pᵢ\n**Product**: Succinate (4C) + GTP (or ATP) + CoA\n**Enzyme**: **Succinyl-CoA synthetase** (also called succinate thiokinase)\n**Reaction type**: Substrate-level phosphorylation\n\nThis is the **only step** in the TCA cycle that directly produces a high-energy phosphate bond. The hydrolysis of the thioester bond in succinyl-CoA releases sufficient energy to drive the phosphorylation of GDP to **GTP** or ADP to ATP, depending on the expressed succinyl-CoA synthetase isoenzyme; tissues can express both forms. GTP is functionally equivalent to ATP and can be interconverted by **nucleoside diphosphate kinase**.\n\nThe reaction is reversible, and in some metabolic contexts (e.g., heme synthesis), the reverse reaction is used to activate succinate back to succinyl-CoA.\n\n**MCAT note**: Succinyl-CoA is also a key intermediate in **heme synthesis** (the first committed step, catalyzed by ALA synthase, uses succinyl-CoA + glycine) and in the metabolism of **odd-chain fatty acids** and certain **amino acids** (methionine, threonine, isoleucine, valine). These anaplerotic inputs feed directly into the cycle at succinyl-CoA.\n\n---\n\n### Step 6: Succinate Dehydrogenase\n\n**Substrate**: Succinate (4C) + FAD\n**Product**: Fumarate (4C) + FADH₂\n**Enzyme**: **Succinate dehydrogenase (SDH)**\n**Reaction type**: Oxidation (trans-dehydrogenation)\n\nThis step is unique in several ways. First, it is the only TCA cycle enzyme that is **embedded in the inner mitochondrial membrane** rather than free in the matrix. Succinate dehydrogenase is identical to **Complex II** of the electron transport chain. Because of this, the FADH₂ generated here does not diffuse freely but passes electrons through the enzyme’s iron–sulfur centers to ubiquinone (coenzyme Q).\n\nSecond, the oxidation of succinate produces **fumarate**, specifically the *trans* isomer. The enzyme is stereospecific—it will not oxidize malonate (a structural analog of succinate), and in fact malonate is a classic **competitive inhibitor** of succinate dehydrogenase. This inhibitor is frequently used in biochemistry experiments and appears on the MCAT as an example of competitive inhibition.\n\nThird, FAD rather than NAD⁺ is used here because the oxidation of a C–C single bond to a double bond (the succinate → fumarate conversion) does not release enough energy to reduce NAD⁺ (which has a more negative reduction potential). FAD, with its less negative reduction potential, is thermodynamically appropriate.\n\n**Regulation**: SDH is regulated by the availability of its substrates and the ratio of succinate to fumarate. It is not subject to the same allosteric regulation as the other key enzymes.\n\n**Clinical/MCAT note**: Mutations in SDH subunits (SDHA, SDHB, SDHC, SDHD) are associated with **paragangliomas**, **pheochromocytomas**, and **gastrointestinal stromal tumors (GISTs)**. SDH loss causes succinate accumulation, which inhibits prolyl hydroxylases and HIF-α degradation, leading to a pseudohypoxic state and tumor growth.\n\n---\n\n### Step 7: Fumarase (Fumarate Hydratase)\n\n**Substrate**: Fumarate (4C) + H₂O\n**Product**: L-Malate (4C)\n**Enzyme**: **Fumarase** (fumarate hydratase)\n**Reaction type**: Hydration\n\nFumarase adds water across the double bond of fumarate to produce **L-malate**. The reaction is stereospecific—only the *trans* (fumarate) isomer is a substrate, and only the *L*-malate isomer is produced. Maleate (the *cis* isomer of fumarate) is not a substrate.\n\nThis reaction is near equilibrium and is not a major regulatory point. Its significance lies in regenerating a hydroxyl group that will be oxidized in the next step.\n\n**Clinical note**: Fumarase deficiency is a rare autosomal recessive disorder causing severe neurological impairment and fumaric aciduria. The **FH gene** can act as a tumor suppressor; pathogenic loss-of-function variants can predispose to tumors, including particular renal cancers. Mutations themselves are not tumor suppressors.\n\n---\n\n### Step 8: Malate Dehydrogenase\n\n**Substrate**: L-Malate (4C) + NAD⁺\n**Product**: Oxaloacetate (4C) + NADH + H⁺\n**Enzyme**: **Malate dehydrogenase (MDH)**\n**Reaction type**: Oxidation\n\nThe final step regenerates **oxaloacetate**, completing the cycle and setting up the next condensation with acetyl-CoA. The hydroxyl group of malate is oxidized to a carbonyl, reducing NAD⁺ to NADH.\n\nThermodynamically, this reaction is *unfavorable* under standard conditions (ΔG°' ≈ +29 kJ/mol). The equilibrium strongly favors malate over OAA. However, under cellular conditions, the reaction proceeds forward because OAA is continuously consumed by citrate synthase (which pulls the reaction forward) and because the NADH/NAD⁺ ratio is kept low by the electron transport chain.\n\n**Shuttle direction:** For cytosolic NADH oxidation, cytosolic MDH reduces OAA to malate, regenerating NAD⁺. After malate enters mitochondria, mitochondrial MDH oxidizes malate to OAA and produces matrix NADH. Aminotransferases and carriers complete the shuttle; NADH itself does not cross the inner membrane.\n\n---\n\n## Summary Table of All Eight Steps\n\nFor rapid review, here is a condensed summary:\n\n- **Step 1** — Citrate synthase: OAA + Acetyl-CoA → Citrate; no redox cofactor\n- **Step 2** — Aconitase: Citrate → Isocitrate; isomerization, no redox\n- **Step 3** — Isocitrate dehydrogenase: Isocitrate → α-Ketoglutarate + CO₂; yields **NADH**\n- **Step 4** — α-Ketoglutarate dehydrogenase: α-KG → Succinyl-CoA + CO₂; yields **NADH**\n- **Step 5** — Succinyl-CoA synthetase: Succinyl-CoA → Succinate; yields **GTP**\n- **Step 6** — Succinate dehydrogenase: Succinate → Fumarate; yields **FADH₂**\n- **Step 7** — Fumarase: Fumarate → Malate; hydration, no redox\n- **Step 8** — Malate dehydrogenase: Malate → OAA; yields **NADH**\n\n---\n\n## Regulation of the Citric Acid Cycle\n\nThe TCA cycle is regulated primarily at three enzymatic steps: **citrate synthase**, **isocitrate dehydrogenase**, and **α-ketoglutarate dehydrogenase**. All three are sensitive to the energy status of the cell.\n\n### General Principles\n\nThe cycle is *accelerated* when:\n- **ADP** and **NAD⁺** are elevated (low energy state)\n- **Ca²⁺** is elevated (signals muscle contraction and increased energy demand)\n\nThe cycle is *inhibited* when:\n- **ATP**, **NADH**, and **NADH/NAD⁺ ratio** are elevated (high energy state)\n- **Succinyl-CoA** and **citrate** are elevated (product inhibition)\n\n### Substrate Availability as Regulation\n\nThe availability of **oxaloacetate** is perhaps the most important regulatory factor for the overall rate of the cycle. OAA concentration in the mitochondrial matrix is normally very low. When gluconeogenic precursors like pyruvate (via pyruvate carboxylase) or amino acids feed into the cycle and increase OAA levels, the rate of citrate synthesis increases dramatically. This is substrate supply/anaplerosis, not by itself proof of allosteric feedforward activation.\n\n### Anaplerosis and Cataplerosis\n\n**Anaplerosis** refers to reactions that *replenish* TCA cycle intermediates. Key anaplerotic reactions include:\n\n- **Pyruvate carboxylase**: Pyruvate + CO₂ + ATP → OAA (important in gluconeogenesis and when acetyl-CoA is abundant; acetyl-CoA activates pyruvate carboxylase)\n- **Transamination of aspartate**: Aspartate → OAA\n- **Glutamate dehydrogenase**: Glutamate → α-Ketoglutarate\n- **Propionyl-CoA pathway**: Odd-chain fatty acids and certain amino acids → Succinyl-CoA\n\n**Cataplerosis** refers to the removal of intermediates for biosynthetic purposes—for example, citrate exiting the mitochondria to provide acetyl-CoA for fatty acid synthesis in the cytoplasm, or α-ketoglutarate being used for glutamate synthesis.\n\n---\n\n## Amphibolic Nature of the TCA Cycle\n\nThe TCA cycle is described as **amphibolic** because it serves *both* catabolic and anabolic functions.\n\n**Catabolic roles**:\n- Complete oxidation of acetyl-CoA to CO₂\n- Generation of NADH and FADH₂ for the electron transport chain\n\n**Anabolic roles**:\n- **α-Ketoglutarate** → glutamate → other amino acids (transamination)\n- **Succinyl-CoA** → heme synthesis (porphyrin ring)\n- **Oxaloacetate** → aspartate → purine and pyrimidine synthesis; also → PEP for gluconeogenesis\n- **Citrate** → exported to cytoplasm → cleaved by ATP-citrate lyase to yield acetyl-CoA for fatty acid and cholesterol synthesis\n\nThis dual nature explains why the cycle must be tightly regulated and why anaplerotic reactions are essential—if intermediates are constantly being withdrawn for biosynthesis, they must be replaced.\n\n---\n\n## MCAT High-Yield Connections\n\n### Connecting TCA to the Electron Transport Chain\n\nEach NADH generated in the TCA cycle (and by pyruvate dehydrogenase) delivers electrons to **Complex I** of the ETC, ultimately yielding approximately **2.5 ATP** per NADH via the chemiosmotic gradient. At **Complex II**, bound FAD accepts succinate-derived electrons and relays them through iron–sulfur centers to ubiquinone, bypassing Complex I and yielding approximately **1.5 ATP** per FADH₂.\n\nTherefore, the ATP yield from one acetyl-CoA through the TCA cycle (not counting oxidative phosphorylation of pyruvate dehydrogenase NADH) is approximately:\n- 3 NADH × 2.5 = 7.5 ATP\n- 1 FADH₂ × 1.5 = 1.5 ATP\n- 1 GTP = 1 ATP\n- **Total ≈ 10 ATP per acetyl-CoA**\n\n### Thiamine Deficiency and the TCA Cycle\n\nThiamine (vitamin B₁) is required as a cofactor (as TPP) for both **pyruvate dehydrogenase** and **α-ketoglutarate dehydrogenase**. Deficiency impairs both reactions, reducing acetyl-CoA production and TCA cycle flux. This is why thiamine deficiency is particularly devastating to tissues with high glucose dependence, especially the **nervous system** and **heart**.\n\nClinically: **Wernicke's encephalopathy** (confusion, ataxia, ophthalmoplegia) and **Wernicke-Korsakoff syndrome** are caused by thiamine deficiency, commonly in alcoholics. **Beriberi** (wet: cardiovascular; dry: neurological) is the classic presentation of thiamine deficiency in malnourished populations.\n\n### Inhibitors as Experimental Tools\n\nSeveral TCA cycle inhibitors are classically tested:\n- **Malonate**: Competitive inhibitor of succinate dehydrogenase (structural analog of succinate)\n- **Arsenite**: Inhibits lipoic acid-dependent enzymes (PDC and α-KGDH) by reacting with the dithiol form of lipoic acid\n- **Fluoroacetate**: Converted to fluorocitrate, which inhibits aconitase\n\n### Gluconeogenesis and the TCA Cycle\n\nOAA is a gluconeogenic intermediate for substrates entering through pyruvate or the TCA cycle; glycerol enters elsewhere. The enzyme **PEPCK** (phosphoenolpyruvate carboxykinase) converts OAA to PEP, bypassing the irreversible pyruvate kinase step of glycolysis. This connection explains why gluconeogenesis requires mitochondrial function and why amino acids that feed into OAA or other TCA intermediates are **glucogenic**.\n\nEven-chain fatty-acid acetyl units do not produce a net gain of OAA through the conventional mammalian TCA cycle: two carbons enter and two leave each turn. That balance does not mean the newly entering acetyl carbons leave in the first turn. Odd-chain propionyl-CoA and triacylglycerol glycerol can contribute glucose carbon.\n\n---\n\n## Common MCAT Traps and Misconceptions\n\n- **\"The TCA cycle produces a lot of ATP directly.\"** It does not. It produces 1 GTP per turn. The bulk of ATP comes from oxidative phosphorylation driven by NADH and FADH₂.\n\n- **\"All carbons from acetyl-CoA are lost as CO₂ in the first turn.\"** False. Due to the symmetry of citrate and the mechanism of aconitase, the carbons lost in the first turn as CO₂ (steps 3 and 4) come from the *oxaloacetate* portion of citrate, not from acetyl-CoA. The acetyl-CoA carbons are incorporated into succinate and subsequently into OAA, and are only lost as CO₂ in *later* turns.\n\n- **\"Succinate dehydrogenase is only a TCA enzyme.\"** It is also **Complex II** of the electron transport chain. This dual identity is important for understanding why FADH₂ from this step does not need to diffuse to the ETC—it is already there.\n\n- **\"The TCA cycle runs only when glucose is available.\"** The cycle can use acetyl-CoA from several sources, but also requires adequate intermediate pools, cofactors and reoxidation of reducing equivalents. Acetyl-CoA availability alone is insufficient. During fasting, acetyl-CoA from fatty acid β-oxidation drives the cycle. During high-protein catabolism, amino acid carbon skeletons enter as various intermediates.\n\n- **\"Pyruvate dehydrogenase is part of the TCA cycle.\"** It is a *preparatory* step, not one of the eight cycle steps. However, it is always discussed in this context and its regulation and cofactor requirements are tested alongside TCA cycle content.\n\n---\n\n## Conclusion\n\nThe citric acid cycle is more than a memorization exercise—it is the metabolic crossroads of the cell. Mastery requires knowing not just the eight steps and their enzymes, but the *logic* of why each reaction occurs: why FAD rather than NAD⁺ is used at step 6, why the cycle must be replenished by anaplerotic reactions, and why the irreversibility of certain steps has profound consequences for gluconeogenesis and fatty acid metabolism.\n\nFor the MCAT, prioritize the three regulated enzymes (citrate synthase, isocitrate dehydrogenase, α-ketoglutarate dehydrogenase), the unique features of succinate dehydrogenase, the per-acetyl-CoA yield (3 NADH, 1 FADH₂, 1 GTP, 2 CO₂), and the clinical correlates involving thiamine deficiency and oncometabolites. These are the concepts that appear repeatedly in passage-based questions and require genuine mechanistic understanding, not just rote recall."
+    },
+    {
+      "field": "questions.126.explanation",
+      "value": "B is most likely: reduced citrate-to-isocitrate conversion favors citrate accumulation and reduced isocitrate supply. Downstream changes, including reduced OAA regeneration, can follow; they are not excluded simply because the directly inhibited enzyme is aconitase. Fluorocitrate acts through a tightly bound mechanism-based inhibitory product."
+    },
+    {
+      "field": "questions.126.question_text",
+      "value": "A researcher substantially inhibits aconitase in isolated mitochondria while citrate production initially continues. Which change immediately across that reaction is most likely?"
+    },
+    {
+      "field": "questions.127.question_text",
+      "value": "Using the conventional GTP-producing succinyl-CoA synthetase model, what is the yield per complete TCA-cycle turn for one acetyl-CoA?"
+    },
+    {
+      "field": "questions.130.explanation",
+      "value": "C is correct: succinate dehydrogenase is respiratory Complex II. Electrons pass from succinate to bound FAD, through iron–sulfur centers, and to ubiquinone. Loss of this enzyme therefore directly disrupts both the TCA reaction and Complex II electron entry. Complex II does not pump protons."
+    }
+  ]
+}

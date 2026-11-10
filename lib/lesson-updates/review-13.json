@@ -1,0 +1,224 @@
+{
+  "lessonId": 13,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Full lesson and all five quiz questions read. Targeted corrections, not an exhaustive certification; exam-frequency claims are not independently verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "approximately 20,000–25,000 protein-coding genes, yet the human proteome contains an estimated one million or more functionally distinct protein species",
+      "new": "roughly 20,000 protein-coding genes, while splicing and chemical processing generate many more protein forms (proteoforms)",
+      "reason": "Avoid presenting speculative proteoform count as measured function.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "after the ribosome has finished synthesizing the polypeptide chain",
+      "new": "during protein maturation or after synthesis; some modifications commonly discussed in this category begin co-translationally",
+      "reason": "Opening conflicts with later co-translational examples.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "Gene expression is relatively slow—transcription and translation require minutes to hours. PTMs, by contrast, can be applied or reversed in milliseconds to seconds.",
+      "new": "Changing gene expression often takes longer than modifying an existing protein. Rates vary widely: some regulatory modifications respond rapidly, while others are slow or stable.",
+      "reason": "Avoid unsupported universal timing.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "so at pH 7.4 both protons are dissociated",
+      "new": "so the dianionic state predominates at pH 7.4; local environment can shift ionization",
+      "reason": "Protonation is an equilibrium, not absolute.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "Ligand binding causes receptor dimerization and *trans-autophosphorylation*",
+      "new": "For many RTKs, ligand binding promotes dimerization and *trans-autophosphorylation*; preassembled receptors can instead rearrange",
+      "reason": "Insulin receptor is preformed dimer.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5940312/"
+    },
+    {
+      "field": "content",
+      "old": "Each tier of the cascade multiplies the signal",
+      "new": "Catalytic tiers can amplify the signal, although feedback and phosphatases shape the response",
+      "reason": "Amplification not automatic at every tier.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "from a lipid carrier (dolichol phosphate)",
+      "new": "from a dolichol-pyrophosphate-linked donor",
+      "reason": "Mature oligosaccharide donor has pyrophosphate.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK579964/"
+    },
+    {
+      "field": "content",
+      "old": "**O-linked glycosylation** occurs predominantly in the Golgi.",
+      "new": "**Mucin-type O-GalNAc glycosylation** begins mainly in the Golgi. O-GlcNAc cycling on nuclear and cytoplasmic proteins occurs in those compartments, not in the Golgi.",
+      "reason": "Separate secretory glycosylation from nuclear/cytoplasmic OGlcNAc.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK453052/"
+    },
+    {
+      "field": "content",
+      "old": "Only properly folded proteins are released for transport.",
+      "new": "This quality-control system favors export of correctly folded proteins, but it is not infallible.",
+      "reason": "Avoid absolute qualitycontrol.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "(chains of four or more ubiquitins) are the canonical signal",
+      "new": "are a canonical signal",
+      "reason": "Four not universal minimum.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769291/"
+    },
+    {
+      "field": "content",
+      "old": "short peptides (approximately 8–10 amino acids)",
+      "new": "peptides of varying lengths",
+      "reason": "Not uniformly 8to10.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769291/"
+    },
+    {
+      "field": "content",
+      "old": "cancer (loss of tumor suppressor degradation)",
+      "new": "cancer (for example, excessive degradation of tumor suppressors or impaired degradation of oncoproteins)",
+      "reason": "Original reverses typical tumor-suppressor mechanism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "A peptide bond, once hydrolyzed, cannot be reformed without new synthesis.",
+      "new": "Ordinary regulatory proteolysis is not reversed by a phosphatase-like enzyme; restoring the original protein generally requires synthesis. Specialized peptide-ligation reactions exist.",
+      "reason": "Chemical impossibility claim too strong.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "The removed propeptide contains basic residues that, at low pH, can no longer neutralize the active site, allowing the conformational change needed for activity.",
+      "new": "Low pH changes protonation and disrupts interactions that keep the propeptide inhibitory, enabling cleavage and active-site access.",
+      "reason": "Basic residues remain protonated at low pH.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "Each clotting factor is a zymogen that, once activated by proteolytic cleavage, cleaves and activates the next factor.",
+      "new": "Several clotting factors are protease zymogens activated by cleavage. Other components act as cofactors (V and VIII), substrates (fibrinogen), or enzymes of another class (factor XIII is a transglutaminase).",
+      "reason": "Not all factors serine protease zymogens.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "factors are activated only at the site of vascular injury",
+      "new": "localized surfaces, inhibitors, and blood flow normally restrict activation",
+      "reason": "Not absolute; pathological systemicactivationexists.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "depends entirely on which residue is methylated and the degree of methylation",
+      "new": "depends on the residue, degree of methylation, reader proteins and chromatin context",
+      "reason": "Avoid histonecode determinism.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "Several lipid modifications anchor proteins to the cytoplasmic face of the plasma membrane or to membrane rafts:",
+      "new": "Lipid modifications promote membrane association. The side of the membrane depends on the modification:",
+      "reason": "GPI extracellular notcytosolic.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "Hydroxyproline stabilizes the collagen triple helix through water-mediated hydrogen bonds.",
+      "new": "Hydroxyproline favors collagen triple-helix stability through stereoelectronic and conformational effects; hydration also contributes.",
+      "reason": "Not waterbridgesalone.",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/19344236/"
+    },
+    {
+      "field": "content",
+      "old": "creating a direct competitive relationship that links nutrient sensing to signal transduction",
+      "new": "sometimes competing at the same site and sometimes influencing nearby sites or enzymes; the relationship is context-dependent",
+      "reason": "Not all reciprocalsites.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK453052/"
+    },
+    {
+      "field": "content",
+      "old": "SUMOylation often antagonizes ubiquitination, protecting proteins from degradation or altering their interactions.",
+      "new": "SUMOylation may compete with ubiquitination, alter interactions, or recruit SUMO-targeted ubiquitin ligases that promote degradation.",
+      "reason": "SUMO not universally protective.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5724187/"
+    },
+    {
+      "field": "content",
+      "old": "Each modification state represents a functionally distinct protein species",
+      "new": "Each modification state is a chemically distinct proteoform; not every difference has a demonstrated functional consequence",
+      "reason": "Chemical distinction not alwaysfunction.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "The combination of alternative splicing and PTMs is why one million functional protein species from 25,000 genes is a conservative estimate.",
+      "new": "Alternative splicing and protein modifications expand diversity far beyond gene number; the total depends on how proteoforms are defined and measured.",
+      "reason": "Remove unsupported preciseconservativecount.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK9843/"
+    },
+    {
+      "field": "content",
+      "old": "added in ER/Golgi by oligosaccharyltransferase; protein folding, trafficking, cell recognition; reversible via glycosidases",
+      "new": "initial transfer by oligosaccharyltransferase in ER, followed by ER/Golgi processing; folding and trafficking; not a simple reversible on/off switch",
+      "reason": "Transfer vs laterprocessing andirreversibility.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK579964/"
+    },
+    {
+      "field": "content",
+      "old": "added in Golgi; mucin formation, cell recognition, O-GlcNAc signaling; reversible",
+      "new": "mucin-type glycans added mainly in Golgi; nuclear/cytoplasmic O-GlcNAc added by OGT and removed by OGA; reversibility depends on type",
+      "reason": "Fix summarycompartments.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK453052/"
+    },
+    {
+      "field": "content",
+      "old": "requires an E1-E2-E3 cascade, ATP, and K48-linked polyubiquitin chains",
+      "new": "commonly uses an E1-E2-E3 cascade and ATP; K48 chains are a classic targeting signal, but not the only degradation signal",
+      "reason": "Avoid K48necessity.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769291/"
+    },
+    {
+      "field": "questions.61.question_text",
+      "old": "A researcher discovers that a signaling protein is constitutively active in cancer cells because a specific serine residue cannot be modified. Which post-translational modification is most likely absent, and what is the most probable functional consequence of its loss?",
+      "new": "A signaling protein normally loses activity after a kinase transfers phosphate from ATP to a specific serine. A Ser→Ala mutant remains active despite normal protein abundance. Which modification is missing, and what is the most likely consequence?",
+      "reason": "Residue alone cannot distinguish phosphorylation fromotherPTMs.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769291/"
+    },
+    {
+      "field": "questions.61.explanation",
+      "old": "Phosphorylation of serine, threonine, or tyrosine residues is a major regulatory switch that can activate or inactivate proteins. If a serine cannot be phosphorylated and the protein is constitutively active, phosphorylation normally induces a conformational change that turns the protein off. Choice C is tempting because ubiquitination also regulates protein activity by targeting proteins for degradation, but ubiquitination acts on lysine residues, not serine, making it inconsistent with the scenario described.",
+      "new": "B is supported by the kinase reaction and the phenotype: inhibitory phosphorylation is lost. Serine can undergo other modifications, including O-glycosylation and some noncanonical ubiquitination, so its identity alone would not prove the mechanism. Unchanged abundance helps distinguish activity regulation from altered degradation.",
+      "reason": "Avoid false assertion ubiquitin neverSer.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769291/"
+    },
+    {
+      "field": "questions.62.choice_b",
+      "old": "Cleavage removes the signal peptide and C-peptide, allowing the A and B chains to adopt the correct disulfide-bonded conformation.",
+      "new": "Processing removes the signal peptide and then C-peptide, yielding mature insulin whose A and B chains retain disulfide bonds formed in proinsulin.",
+      "reason": "Correct orderofdisulfidefolding.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2740536/"
+    },
+    {
+      "field": "questions.62.explanation",
+      "old": "Preproinsulin is processed first by removal of the signal peptide to yield proinsulin, then by cleavage of the C-peptide, leaving the disulfide-bonded A and B chains that constitute active insulin. This proteolytic cleavage is necessary to achieve the proper three-dimensional structure required for receptor binding. Choice A is tempting because phosphorylation is a common activating modification, but it is not involved in insulin maturation and insulin itself is not activated by phosphorylation in this manner.",
+      "new": "B is correct. Signal-peptide removal and folding produce proinsulin in the ER, including its disulfide bonds. Later cleavage at the C-peptide junctions and trimming produce mature insulin. C-peptide removal does not create the disulfide bonds for the first time; insulin maturation is not glycosylation, phosphorylation, or secretion through a proteasome.",
+      "reason": "Fix foldingsequence.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2740536/"
+    },
+    {
+      "field": "questions.64.explanation",
+      "old": "The fact that K48 and K63 polyubiquitin chains have entirely different cellular fates demonstrates that the specific nature of a post-translational modification, not just its presence, determines its functional outcome. This is a key principle of how PTMs expand proteome diversity and regulatory complexity. Choice B is a common misconception; ubiquitination is not synonymous with degradation, as K63 chains illustrate a non-degradative signaling role.",
+      "new": "A is correct: linkage architecture helps determine ubiquitin-dependent recognition. K48 chains commonly promote proteasomal degradation, while K63 chains have important signaling roles. These are characteristic associations rather than absolute, mutually exclusive fates for every substrate.",
+      "reason": "Avoid entirelydifferentabsolute.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769291/"
+    }
+  ]
+}

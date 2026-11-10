@@ -1,0 +1,266 @@
+{
+  "lessonId": 18,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Nearly every clinically relevant drug works by inhibiting an enzyme",
+      "new": "Many drugs inhibit enzymes; others act through receptors, channels, transporters, or other targets",
+      "reason": "Notnearlyalldrugs.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "inhibitors are defined entirely by how they perturb these parameters",
+      "new": "the standard kinetic patterns are described by how they change these parameters; mechanism also requires binding and time-dependence evidence",
+      "reason": "Notentirelytwoparameters.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "*Vmax changes only when the effective amount of catalytically competent enzyme changes.*",
+      "new": "Vmax can change through active enzyme amount, kcat, or both.",
+      "reason": "Vmaxalsokcat.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**Km** (the Michaelis constant) is the substrate concentration at which reaction velocity equals ½ Vmax. It reflects the affinity between enzyme and substrate: a *low* Km means high affinity (enzyme reaches half-saturation at low [S]), while a *high* Km means low affinity. Importantly, Km is an apparent constant—anything that makes it harder to saturate the enzyme with substrate will raise the apparent Km.",
+      "new": "**Km** is [S] at half Vmax for Michaelis–Menten behavior. It is a kinetic parameter rather than a universal binding-affinity constant. Apparent Km describes the measured response under inhibitor and assay conditions.",
+      "reason": "Avoid halfsaturationallenzymesandaffinityuniversal.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "A **competitive inhibitor** is a molecule that binds reversibly to the enzyme's *active site*—the same site where substrate normally binds.",
+      "new": "In the standard reversible model, a **competitive inhibitor** and substrate bind mutually exclusively. Occupation of the same active site is a common mechanism, but kinetic competition alone does not prove identical physical binding sites.",
+      "reason": "Kineticpatternnotphysicalsiteproof.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "α > 1 always",
+      "new": "α > 1 when free [I] > 0 (α = 1 when no inhibitor is present)",
+      "reason": "ZeroIexception.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "permanently tied up in the inactive ESI complex",
+      "new": "reversibly distributed into inactive inhibitor-bound complexes",
+      "reason": "Noncompetitiveisreversible.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**Vmax decreases** (α > 1 affects Vmax)",
+      "new": "**Vmax decreases** (Vmax,app = Vmax/α′, with α′ = 1 + [I]/Ki′ for ES binding)",
+      "reason": "Correctalphafactor.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "*in the second quadrant* (to the left of the y-axis, above or below the x-axis)",
+      "new": "to the left of the y-axis, above or below the x-axis (quadrant II or III)",
+      "reason": "Belowxisnotsecondquadrant.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Cyanide (CN⁻) is a classic noncompetitive inhibitor of **cytochrome c oxidase** (Complex IV of the electron transport chain). Cyanide binds to the iron center of cytochrome c oxidase at a site that is not the substrate (cytochrome c) binding site. It binds regardless of whether cytochrome c is present, and it completely inactivates the enzyme. This halts oxidative phosphorylation, causing rapid cellular asphyxiation even in the presence of oxygen—a lethal consequence of noncompetitive inhibition.",
+      "new": "Cyanide inhibits **cytochrome c oxidase (Complex IV)** by binding in its catalytic metal-center region and impairing oxygen reduction. This can compromise cellular oxygen use and ATP production. Its kinetics depend on enzyme redox state and the substrate varied; use the specified experiment rather than inferring a universal single-substrate mechanism from toxicity. Cyanide binding is not the same as permanent covalent destruction of the enzyme.",
+      "reason": "Avoid oversimplifiedtoxickineticsandirreversibility.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2773210/"
+    },
+    {
+      "field": "content",
+      "old": "Why does Km decrease? When the inhibitor sequesters ES into the inactive ESI complex, it effectively removes ES from the equilibrium. By Le Chatelier's principle, the enzyme-substrate equilibrium shifts to the right to replenish ES—meaning the enzyme binds substrate *more readily* than it would without inhibitor. The apparent Km falls.",
+      "new": "Why does apparent Km decrease? In the standard uncompetitive model, inhibitor binds ES but not free E. The resulting rate equation reduces both apparent Km and Vmax by α′, so half of the new, lower maximum is reached at lower [S]. This does not mean that the microscopic substrate Kd of free E changed.",
+      "reason": "Do notexplainsteadystateonlyequilibrium.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Why does Vmax decrease? Despite the increased substrate affinity, the ESI complex is catalytically dead. A fraction of enzyme is permanently locked in ESI, reducing the effective enzyme concentration available for catalysis. No amount of additional substrate can rescue this—adding more substrate actually drives more ESI formation.",
+      "new": "Why does Vmax decrease? Reversible occupation of ESI removes enzyme from productive turnover while inhibitor is bound. Increasing substrate does not restore the uninhibited Vmax, though absolute reaction rate can still rise toward the lower plateau. The enzyme is not permanently locked.",
+      "reason": "Notpermanent;ratecanrise.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**x-intercept shifts right** (−1/Km becomes less negative because Km decreases)",
+      "new": "**x-intercept shifts left** (−1/Km becomes more negative because apparent Km decreases)",
+      "reason": "Correctarithmeticdirection.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "No other inhibition type produces parallel lines.",
+      "new": "Among these idealized reversible models, this is the uncompetitive pattern; real data require model and assay checks.",
+      "reason": "Notuniversaldiagnosis.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Uncompetitive inhibition is less common in single-substrate reactions but appears frequently in multi-substrate enzyme systems. **Lithium**, used to treat bipolar disorder, acts as an uncompetitive inhibitor of **inositol monophosphatase**, an enzyme involved in the phosphatidylinositol signaling pathway. By selectively inhibiting the enzyme only when it is substrate-bound, lithium's effect is greatest in neurons that are most active (highest substrate turnover)—a pharmacologically elegant consequence of uncompetitive inhibition.",
+      "new": "**Lithium** can inhibit inositol monophosphatase uncompetitively with respect to its substrate. This is a biochemical example, not proof that lithium selectively affects only the most active neurons or that one enzyme fully explains its clinical effects in bipolar disorder.",
+      "reason": "Remove unsupportedneuronselectivityandclinicalcertainty.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2884641/"
+    },
+    {
+      "field": "content",
+      "old": "An **irreversible inhibitor** forms a covalent bond with the enzyme, permanently inactivating it. The enzyme cannot be reactivated; recovery of enzyme activity requires synthesis of new enzyme protein.",
+      "new": "An **irreversible inhibitor** causes activity loss that does not reverse on the assay timescale after inhibitor removal. Many form covalent adducts, but covalent bonding and irreversibility are not synonymous. New enzyme synthesis may be needed; some adducts can be reactivated under specific conditions, such as certain organophosphate–acetylcholinesterase complexes before aging.",
+      "reason": "Notallcovalentunreactivatable.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK217774/"
+    },
+    {
+      "field": "content",
+      "old": "not on substrate concentration",
+      "new": "and can also depend on substrate concentration if substrate protects against inhibitor binding or reaction",
+      "reason": "Substratecanprotectduringexposure.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "- Binds: Active site (covalent bond)",
+      "new": "- Often forms a covalent adduct; location and reversibility must be established",
+      "reason": "Irreversiblenotalwaysactivesite.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "- x-intercept shifted right (less negative) → apparent Km decreased → *uncompetitive*",
+      "new": "- x-intercept shifted right (less negative) → apparent Km increased; consider competitive or mixed patterns",
+      "reason": "Reversewrongdirection.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "- x-intercept shifted left (more negative) → apparent Km increased → *competitive*",
+      "new": "- x-intercept shifted left (more negative) → apparent Km decreased; consider uncompetitive or mixed patterns",
+      "reason": "Reversewrongdirection.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "This four-step approach handles every Lineweaver-Burk question the MCAT can generate.",
+      "new": "These steps describe the standard models; also inspect the experimental conditions, reversibility and quality of fit.",
+      "reason": "Removeexamguarantee.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Allosteric regulation is a *physiological* control mechanism using endogenous molecules (metabolites, second messengers).",
+      "new": "Allosteric regulation is communication between binding sites and function; endogenous molecules and drugs can both act allosterically.",
+      "reason": "Allosterynotendogenousonly.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Inhibition (as discussed here) typically refers to exogenous molecules (drugs, toxins) or feedback inhibitors acting on non-allosteric enzymes.",
+      "new": "Inhibition means reduced activity and can involve endogenous or exogenous molecules and allosteric or other mechanisms.",
+      "reason": "Separateconceptsnotexclusive.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**Feedback inhibition** is a specific form of allosteric inhibition",
+      "new": "**Feedback inhibition** is pathway-end-product regulation of an earlier step, often mediated allosterically",
+      "reason": "Often notuniversal.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "A Ki of 2.5 μM means the inhibitor has high affinity for the enzyme—this is typical of clinically useful competitive inhibitors.",
+      "new": "Here Ki = 2.5 μM characterizes binding under the stated model. Clinical usefulness also depends on selectivity, exposure, safety and other properties; Ki alone does not establish it.",
+      "reason": "No efficacyfromKi.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**Competitive inhibition** of a pathway enzyme can be overcome by substrate accumulation upstream—the pathway slows but doesn't stop.",
+      "new": "**Competitive inhibition** may be reduced by higher substrate, but real pathways have constraints on attainable concentrations and flux.",
+      "reason": "No guaranteedrescue.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**Noncompetitive or irreversible inhibition** cannot be overcome; the pathway is blocked regardless of substrate levels.",
+      "new": "**Pure noncompetitive inhibition or loss of active enzyme** lowers capacity; this need not mean complete blockade, and pathway flux depends on the whole system.",
+      "reason": "Partialinhibitionnotblocked.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "some toxins (cyanide, carbon monoxide) are noncompetitive/irreversible inhibitors of critical enzymes, making them lethal even when substrates are abundant.",
+      "new": "toxicity cannot be classified reliably by a single inhibition label. CO and cyanide interactions with Complex IV depend on ligand and enzyme state; CO also impairs hemoglobin-mediated oxygen transport.",
+      "reason": "CO notgenericirreversible.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2773210/"
+    },
+    {
+      "field": "content",
+      "old": "Parallel lines on Lineweaver-Burk = *always* uncompetitive",
+      "new": "Parallel lines = uncompetitive pattern under the standard model",
+      "reason": "Scopepattern.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Lines crossing on y-axis = *always* competitive",
+      "new": "Lines crossing on y-axis = competitive pattern under the standard model",
+      "reason": "Scopepattern.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "Lines crossing on x-axis = *always* pure noncompetitive",
+      "new": "Lines crossing on x-axis = pure noncompetitive pattern; changing active enzyme amount can produce similar lines",
+      "reason": "Canalsoactiveenzymeamount.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "more substrate actually worsens inhibition",
+      "new": "increasing substrate does not restore the uninhibited maximum",
+      "reason": "Absolutevsrelativeinhibition.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.86.explanation",
+      "old": "(reflecting reduced substrate affinity)",
+      "new": "(a shift in the substrate dependence of the initial rate)",
+      "reason": "KmnotKd.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "questions.88.explanation",
+      "old": "Uncompetitive inhibitors bind exclusively to the ES complex, stabilizing it and preventing product formation. This lowers Vmax because fewer productive complexes form. Paradoxically, Km also decreases because binding of the inhibitor to ES effectively pulls the equilibrium toward ES formation, making the enzyme appear to have higher affinity for substrate. This proportional decrease in both Km and Vmax is the defining feature of uncompetitive inhibition. Competitive inhibition raises Km without changing Vmax, making choice C a common distractor.",
+      "new": "B is correct for the standard uncompetitive model: apparent Vmax and Km both decrease by α′ = 1 + [I]/Ki′. Inhibitor occupies ES reversibly, removing it from productive turnover. The lower apparent Km is a kinetic effect and does not require a change in the microscopic substrate-binding constant of free E.",
+      "reason": "Correctbindinginference.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "**Irreversible**: Vmax ↓, Km unchanged; permanent; requires new enzyme synthesis",
+      "new": "**Irreversible activity loss**: often lowers apparent Vmax by reducing active enzyme; Km need not change in the simplest model. Recovery may require enzyme replacement, though some adducts can be reactivated under specific conditions.",
+      "reason": "Summary must match qualified body; not universal kinetic signature.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "This is typically noncompetitive or mixed inhibition kinetically.",
+      "new": "Determine the kinetic pattern for the particular enzyme and assay; feedback logic alone does not establish the inhibition class.",
+      "reason": "Feedback logic not kinetic model.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92001/"
+    },
+    {
+      "field": "content",
+      "old": "- **Aspirin** irreversibly acetylates a serine residue in the active site of **cyclooxygenase (COX-1 and COX-2)**, permanently inhibiting prostaglandin and thromboxane synthesis. Platelets, lacking nuclei, cannot synthesize new COX—so a single aspirin dose inhibits platelet COX for the platelet's entire 7–10 day lifespan.\n- **Organophosphates** (nerve agents, some pesticides) irreversibly phosphorylate the serine in the active site of **acetylcholinesterase**, preventing breakdown of acetylcholine at synapses. This causes continuous nerve stimulation—a lethal consequence.\n- **Penicillin** irreversibly inhibits **transpeptidase** (penicillin-binding proteins) by forming a covalent acyl-enzyme intermediate, blocking bacterial cell wall synthesis.",
+      "new": "- **Aspirin** covalently acetylates cyclooxygenases. In platelets, COX-1 inhibition suppresses thromboxane production for much of the affected platelet’s lifespan, while newly produced platelets restore activity over time. Acetylated COX-2 can retain altered oxygenase activity, so it is inaccurate to describe all products of both isoforms as permanently abolished.",
+      "reason": "COX2 changes products rather than complete catalytic abolition.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6355089/"
+    }
+  ]
+}

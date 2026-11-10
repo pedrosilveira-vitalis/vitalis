@@ -1,0 +1,103 @@
+/* Shared blue enamel finish: use on primary actions, never on answer states. */
+:is(.button-primary, .vitalis-gloss, .nori-panel-form button, .nori-chat-label,
+button[class~="bg-[#0c1a2e]"], a[class~="bg-[#0c1a2e]"],
+button[class~="bg-[#245574]"], a[class~="bg-[#245574]"]) {
+  position: relative;
+  color: #fff;
+  background-color: #245574;
+  background-image: linear-gradient(110deg, transparent 20%, #ffffff16 40%, transparent 60%),
+    linear-gradient(180deg, #436d87 0%, #386781 46%, #245574 49%, #183f5b 100%);
+  background-size: 240% 100%, 100% 100%;
+  background-position: 100% 0, 0 0;
+  border: 1px solid #183f5b;
+  border-top-color: #b0cbdc;
+  border-radius: 12px;
+  box-shadow: inset 0 2px 0 #ffffff75, inset 0 -2px 0 #102e4360,
+    0 5px 0 #102e43, 0 9px 18px #17324730;
+  text-shadow: 0 1px 1px #102e4370;
+  font-weight: 600;
+  transition: transform .16s ease, box-shadow .16s ease, background-position .45s ease;
+  isolation: isolate;
+}
+@media (hover: hover) {
+ :is(.button-primary,.vitalis-gloss,.nori-panel-form button,.nori-chat-label,
+ button[class~="bg-[#0c1a2e]"],a[class~="bg-[#0c1a2e]"],
+ button[class~="bg-[#245574]"],a[class~="bg-[#245574]"]):not(:disabled):hover {
+  background-image: linear-gradient(110deg, transparent 20%, #ffffff16 40%, transparent 60%),
+    linear-gradient(180deg,#436d87 0%,#386781 46%,#245574 49%,#183f5b 100%);
+  background-position: 0 0, 0 0;
+  transform: translateY(-2px);
+  box-shadow: inset 0 2px 0 #ffffff85, inset 0 -2px 0 #102e4360,
+    0 7px 0 #102e43, 0 14px 24px #17324735;
+  filter: none;
+ }
+}
+:is(.button-primary,.vitalis-gloss,.nori-panel-form button,
+button[class~="bg-[#0c1a2e]"],a[class~="bg-[#0c1a2e]"],
+button[class~="bg-[#245574]"],a[class~="bg-[#245574]"]):not(:disabled):active {
+  transform: translateY(4px);
+  box-shadow: inset 0 2px 3px #102e4330, 0 1px 0 #102e43, 0 3px 8px #17324720;
+}
+:is(.button-primary,.vitalis-gloss,.nori-panel-form button,
+button[class~="bg-[#0c1a2e]"],button[class~="bg-[#245574]"]):disabled {
+  opacity: .5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: inset 0 1px 0 #ffffff55, 0 2px 0 #17324755;
+}
+:is(.button-primary,.vitalis-gloss,.nori-panel-form button,a,button):focus-visible {
+ outline: 3px solid #245574;
+ outline-offset: 6px;
+}
+.button-outline {
+ background: linear-gradient(180deg,#fff 0%,#fbfcfd 48%,#e9eff3 50%,#e4ecf1 100%);
+ border: 1px solid #b8cad5;
+ box-shadow: inset 0 2px 0 #fff, 0 4px 0 #c1d0da, 0 8px 15px #17324712;
+ transition: transform .16s ease, box-shadow .16s ease;
+}
+.button-outline:active { transform: translateY(3px); box-shadow: inset 0 1px 0 #fff,0 1px 0 #c1d0da; }
+.dashboard-feature {
+ background: radial-gradient(ellipse at 94% 10%,#d2e8f4,transparent 58%),linear-gradient(145deg,#fffcf7,#eaf1f5);
+ border-color: #bfd2de;
+ box-shadow: inset 0 2px 0 #fff,0 5px 0 #d4e0e7,0 14px 28px #1732470d;
+}
+.streak-card { box-shadow: inset 0 2px 0 #fff,0 5px 0 #d4e0e7,0 12px 24px #1732470c; }
+.streak-complete { border-color: #789eb5; }
+.streak-complete .streak-badge {
+ color: #fff;
+ background: linear-gradient(#436d87,#245574);
+ box-shadow: inset 0 1px 0 #ffffff80,0 2px 0 #183f5b;
+}
+.streak-card progress { height: 17px; }
+.streak-card progress::-webkit-progress-value { background: linear-gradient(#739cb4 0%,#527b94 45%,#245574 49%,#183f5b); }
+.streak-card progress::-moz-progress-bar { background: linear-gradient(#739cb4,#245574); }
+.practice-progress { height: 11px; overflow: hidden; background: #dce6ed; border-radius: 20px; box-shadow: inset 0 2px 3px #17324717; }
+.practice-progress>div { border-radius: inherit; background-image: linear-gradient(#ffffff65,transparent 50%); box-shadow: inset 0 1px 0 #ffffff90; transition: width .4s ease; }
+.answer-feedback { animation: feedback-arrive .24s ease-out both; }
+.session-achievement { position: relative; width: 140px; margin: 0 auto 26px; animation: feedback-arrive .35s ease-out both; }
+.session-achievement>span { position: absolute; top: 10px; right: -6px; color: #245574; font-size: 32px; }
+.study-reward-region { position: fixed; bottom: 28px; left: 50%; transform: translateX(-50%); z-index: 70; width: min(460px,calc(100vw - 32px)); pointer-events: none; }
+.study-reward { position: relative; display: flex; align-items: center; gap: 15px; padding: 18px 44px 18px 18px; border: 1px solid #89aabd; border-radius: 20px; background: linear-gradient(145deg,#fffefb,#e5f0f7); box-shadow: inset 0 2px 0 #fff,0 4px 0 #c7dce8,0 15px 45px #17324725; color: #173247; animation: reward-arrive .4s ease-out both; }
+.study-reward strong { font-size: 16px; line-height: 1.4; }
+.study-reward p { font-size: 12px; line-height: 1.6; margin-top: 5px; }
+.study-reward-nori { position: relative; width: 66px; flex-shrink: 0; }
+.study-reward-nori>span { position: absolute; top: 0; right: -6px; color: #245574; animation: reward-star .65s ease-out 1; }
+.study-reward button { pointer-events: auto; position: absolute; right: 5px; top: 5px; width: 36px; height: 36px; font-size: 24px; border-radius: 50%; }
+.study-reward button:hover { background: #24557412; }
+@keyframes feedback-arrive { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes reward-arrive { from { opacity: 0; transform: translateY(18px) scale(.97); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes reward-star { 0% { transform: scale(.5) rotate(-15deg); } 60% { transform: scale(1.3) rotate(10deg); } 100% { transform: scale(1) rotate(0); } }
+@media(min-width:1024px) { .study-reward-region { left: calc(50% + 116px); } }
+@media(max-width:580px) { .study-reward-region { bottom: max(115px,env(safe-area-inset-bottom)); } }
+@media(prefers-reduced-motion:reduce) {
+ .study-reward,.study-reward-nori>span,.answer-feedback,.session-achievement { animation: none; }
+ .button-primary,.vitalis-gloss,.button-outline,.nori-panel-form button,.nori-chat-label,
+ button[class~="bg-[#0c1a2e]"],a[class~="bg-[#0c1a2e]"],
+ button[class~="bg-[#245574]"],a[class~="bg-[#245574]"],.practice-progress>div { transition: none; }
+ :is(.button-primary,.vitalis-gloss,.button-outline,.nori-panel-form button,
+ button[class~="bg-[#0c1a2e]"],a[class~="bg-[#0c1a2e]"],
+ button[class~="bg-[#245574]"],a[class~="bg-[#245574]"]):hover,
+ :is(.button-primary,.vitalis-gloss,.button-outline,.nori-panel-form button,
+ button[class~="bg-[#0c1a2e]"],a[class~="bg-[#0c1a2e]"],
+ button[class~="bg-[#245574]"],a[class~="bg-[#245574]"]):active { transform: none; }
+}

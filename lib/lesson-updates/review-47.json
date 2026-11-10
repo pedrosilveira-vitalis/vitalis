@@ -1,0 +1,336 @@
+{
+  "lessonId": 47,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "Sex-linked inheritance represents one of the most heavily tested areas in MCAT genetics. Questions appear in both discrete and passage-based formats and require you to recognize inheritance patterns in pedigrees, predict offspring ratios, and understand the molecular mechanisms behind dosage compensation. This lesson covers the full scope of the topic: how sex is determined in humans and other organisms, how genes on sex chromosomes behave differently from autosomal genes, and how the cell compensates for gene dosage differences between males and females.",
+      "new": "This lesson relates sex-chromosome transmission to gene expression and development. Use a stated genetic model when solving crosses, and distinguish allele inheritance from the probability or severity of symptoms.",
+      "reason": "Remove unsupported frequency/completeness claims.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "In humans, sex is determined chromosomally. Females carry two X chromosomes (46,XX), while males carry one X and one Y chromosome (46,XY). Because females produce eggs containing only X chromosomes, and males produce sperm containing either an X or a Y, the *father determines the sex of offspring*. This is a critical MCAT point: mothers contribute X chromosomes exclusively.",
+      "new": "Typical human karyotypes are 46,XX and 46,XY. In the usual XX × XY cross, an egg contributes X and sperm contributes X or Y. This predicts chromosomal complement, not every aspect of sex development: genes, hormone synthesis and hormone response can produce differences of sex development.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK279001/"
+    },
+    {
+      "field": "content",
+      "old": "In the absence of SRY, the default developmental pathway produces ovaries.",
+      "new": "Ovarian development is an active program involving factors such as WNT4, RSPO1 and FOXL2. Loss of functional SRY in an XY embryo can cause dysgenetic gonads rather than functional ovaries.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK279001/"
+    },
+    {
+      "field": "content",
+      "old": "A nonfunctional SRY mutation results in an individual with XY chromosomes but female phenotype.",
+      "new": "An SRY loss-of-function variant is one possible cause of 46,XY complete gonadal dysgenesis; many affected individuals have other genetic causes.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/sry/"
+    },
+    {
+      "field": "content",
+      "old": "An XX individual inheriting this X-bearing SRY will develop as male.",
+      "new": "Functional SRY expressed in the appropriate developmental context can initiate testis development in an XX individual.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/sry/"
+    },
+    {
+      "field": "content",
+      "old": "- **Fragile X syndrome** — technically X-linked but with a more complex trinucleotide repeat mechanism",
+      "new": "- **Fragile X syndrome** is X-linked with repeat-expansion and penetrance complexities; it should not be treated as a simple X-linked recessive example",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "Carrier females are phenotypically normal but pass the allele to sons (50% of sons affected) and daughters (50% of daughters carriers)",
+      "new": "A heterozygous mother transmits the allele to half her children on average; with an unaffected noncarrier father, the simple model predicts half of sons affected and half of daughters heterozygous. Heterozygous females can have symptoms",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "*all daughters* of an affected father will be obligate carriers",
+      "new": "*all daughters* inherit his X-linked allele; the maternal allele and X-inactivation determine whether they are unaffected heterozygotes or symptomatic",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "No male-to-male transmission — this is the single most important diagnostic feature distinguishing X-linked from autosomal inheritance",
+      "new": "No direct father-to-son transmission of non-PAR X-linked alleles; observing no affected sons in a small family is not proof of X-linkage",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "**Rett syndrome** (mutations in MECP2; lethal in males, expressed in females)",
+      "new": "**MECP2-related disorders**, including Rett syndrome: affected males can survive and show a range of severe phenotypes",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK1497/"
+    },
+    {
+      "field": "content",
+      "old": "**Incontinentia pigmenti** (lethal in males, expressed in females)",
+      "new": "**Incontinentia pigmenti**: often male-lethal, but surviving males occur, including mosaic or 47,XXY individuals",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "Affected mothers pass the trait to 50% of sons and 50% of daughters",
+      "new": "Heterozygous mothers have a 50% transmission probability for each child; homozygous mothers and incomplete penetrance require different predictions",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "you see a 2:1 female-to-male ratio among affected individuals and fewer males overall in the pedigree",
+      "new": "a heterozygous mother and unaffected father have an expected 2:1 female-to-male ratio among surviving offspring under a fully male-lethal model—not among affected individuals",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "Transmission is strictly from father to *all* sons — no daughters are ever affected or carry the gene.",
+      "new": "In the usual XY system, a father transmits his non-PAR Y loci to all sons and no daughters. Whether an inherited variant causes symptoms depends on its effects and penetrance.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "This dosage imbalance would be physiologically catastrophic for the majority of X-linked genes. Two solutions have evolved across different organisms:",
+      "new": "Dosage compensation helps balance expression, although dosage sensitivity varies among genes. Different organisms use different strategies:",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK585705/"
+    },
+    {
+      "field": "content",
+      "old": "**Mammals:** X-inactivation — one entire X chromosome is transcriptionally silenced in each somatic cell",
+      "new": "**Placental mammals:** X-inactivation silences much of one X in typical XX somatic cells; some genes escape, and developmental context matters",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK585705/"
+    },
+    {
+      "field": "content",
+      "old": "(approximately days 16–18 in humans)",
+      "new": "(with species-specific timing and regulation)",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK585705/"
+    },
+    {
+      "field": "content",
+      "old": "**Early:** Occurs in the inner cell mass of the blastocyst around the time of implantation",
+      "new": "**Early:** Established during early development; human timing and the relationship between XIST expression and silencing differ from mouse models",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK585705/"
+    },
+    {
+      "field": "content",
+      "old": "**Permanent and clonal:** Once a particular X is inactivated in a cell, all mitotic descendants of that cell maintain the same inactive X.",
+      "new": "**Usually mitotically stable and clonal:** Descendants generally maintain the same inactive X. Reactivation occurs in some developmental or experimental contexts.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK585705/"
+    },
+    {
+      "field": "content",
+      "old": "Approximately 15–25% of X-linked genes escape inactivation",
+      "new": "A substantial minority of human X-linked genes escape inactivation, with estimates varying by tissue, individual and assay",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK585705/"
+    },
+    {
+      "field": "content",
+      "old": "XIST is expressed only from the inactive X chromosome.",
+      "new": "In established somatic X-inactivation, XIST is typically expressed from the inactive X. XIST expression and silencing are not equivalent in every developmental context.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK585705/"
+    },
+    {
+      "field": "content",
+      "old": "The active X expresses **TSIX** (antisense to XIST), which represses XIST on the chromosome destined to remain active.",
+      "new": "In mice, antisense Tsix helps regulate Xist. Human TSIX differs and should not be assumed to implement the same mechanism; the earlier steps summarize a general framework with species-specific details.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK585705/"
+    },
+    {
+      "field": "content",
+      "old": "The number of Barr bodies in a cell equals the total number of X chromosomes minus one (n − 1). This rule applies to any sex chromosome aneuploidy:",
+      "new": "For a typical interphase somatic cell with at least one X, the expected number of inactive X chromosomes is n(X) − 1. Visible Barr-body counts depend on cell type and preparation, and mosaic individuals can have different cell lines:",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK585705/"
+    },
+    {
+      "field": "content",
+      "old": "Because males are hemizygous, they are either entirely orange or entirely black (rare XXY males can be calico).",
+      "new": "Typical XY cats carry one allele at this locus; rare XXY, mosaic or chimeric males can show patchwork coloration. White spotting involves another mechanism.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK585705/"
+    },
+    {
+      "field": "content",
+      "old": "If two unaffected parents have an affected child → recessive",
+      "new": "Two unaffected parents with an affected child suggest recessive inheritance, but de novo variants and incomplete penetrance can also explain this",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "If an affected child has two unaffected parents → recessive",
+      "new": "Use age of onset and molecular information before excluding a dominant model",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "If yes → autosomal (sons get Y from fathers, not X)",
+      "new": "If direct allele transmission is established, exclude non-PAR X-linkage; autosomal, Y-linked and pseudoautosomal loci remain possibilities",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "If the trait were autosomal recessive, you would expect both sexes to be equally affected and affected individuals to appear in every branch of the family when consanguinity is present.",
+      "new": "Autosomal recessive inheritance can produce this same pattern in a small pedigree. Consanguinity raises the chance of shared recessive alleles but does not require disease in every family branch.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "**Mechanism:** Usually results from nondisjunction in paternal meiosis (the Y or X fails to segregate); ~75% of cases are missing the paternal sex chromosome",
+      "new": "**Mechanism:** Loss of a sex chromosome can occur during gamete formation or early embryonic divisions; mosaic and structural-X forms also occur",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "Turner is the *only* viable monosomy in humans. Autosomal monosomies are always lethal.",
+      "new": "45,X is the only complete nonmosaic monosomy commonly compatible with live birth. Partial autosomal monosomies and some mosaic states can be viable.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "**Mechanism:** Nondisjunction during meiosis I or II in either parent",
+      "new": "**Mechanism:** Maternal meiosis I or II, paternal meiosis I, or a postzygotic segregation error can produce XXY; paternal meiosis II alone produces XX or YY sperm, not XY sperm",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "Results from nondisjunction in paternal meiosis II",
+      "new": "Can result from paternal meiosis II nondisjunction or a postzygotic error",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "content",
+      "old": "As mentioned, genes in **pseudoautosomal regions (PAR1 and PAR2)** are present on both X and Y chromosomes and behave like autosomal genes — they are not subject to X-inactivation and are present in two copies in both males and females. Genes that escape X-inactivation but are not in PARs are also expressed from both X chromosomes in females, contributing to the phenotypic differences seen in sex chromosome aneuploidies.",
+      "new": "PAR1 and PAR2 contain homologous sequences on X and Y. PAR1 generally escapes X-inactivation and recombines in male meiosis; PAR2 differs in both recombination and gene regulation. Do not assume every PAR gene escapes silencing or every PAR interval recombines in every meiosis.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9233459/"
+    },
+    {
+      "field": "content",
+      "old": "The allele for baldness is dominant in males but recessive in females, due to the influence of androgens.",
+      "new": "Androgenetic alopecia is complex and influenced by multiple genetic and hormonal factors; a single autosomal allele with sex-dependent dominance is an oversimplified teaching model, not its established inheritance pattern.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/androgenetic-alopecia/"
+    },
+    {
+      "field": "content",
+      "old": "These are autosomal traits whose expression is modified by sex:",
+      "new": "These terms describe sex-dependent expression, not necessarily a particular chromosome location:",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/androgenetic-alopecia/"
+    },
+    {
+      "field": "content",
+      "old": "The genes are autosomal but require sex-specific hormones for expression.",
+      "new": "Expression depends on developmental and hormonal context; contributing genes need not all be autosomal.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/androgenetic-alopecia/"
+    },
+    {
+      "field": "content",
+      "old": "These are *not* examples of sex-linked inheritance — the genes are on autosomes.",
+      "new": "Sex-linked describes chromosomal location; sex-influenced and sex-limited describe expression. These are distinct classifications.",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/androgenetic-alopecia/"
+    },
+    {
+      "field": "content",
+      "old": "Father determines sex; SRY on Y initiates male development; default pathway is female",
+      "new": "Sperm ordinarily determines XX versus XY complement; SRY/SOX9 can initiate testis development, while ovarian development uses an active gene network",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK279001/"
+    },
+    {
+      "field": "content",
+      "old": "Random, early, permanent, clonal; XIST lncRNA coats inactive X; Barr bodies = n(X) − 1; ~15–25% of genes escape inactivation",
+      "new": "Usually random, early and mitotically stable in human somatic tissues; XIST helps silence much of one X; expected inactive-X count = n(X) − 1; escape varies by gene and tissue",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK585705/"
+    },
+    {
+      "field": "content",
+      "old": "Male-pattern baldness is autosomal",
+      "new": "Androgenetic alopecia is complex; sex-influenced expression does not establish chromosomal location",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/condition/androgenetic-alopecia/"
+    },
+    {
+      "field": "questions.231.question_text",
+      "old": "A woman who is a carrier for hemophilia A (X-linked recessive) has children with an unaffected man. Which of the following correctly describes the expected offspring?",
+      "new": "Using the simple fully penetrant X-linked recessive model, a woman heterozygous for a hemophilia A allele has children with an unaffected man. Which prediction is correct?",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "questions.231.explanation",
+      "old": "The carrier mother has genotype X^H X^h and the unaffected father has genotype X^H Y. Sons receive their X chromosome only from the mother, so 50% of sons will inherit X^h and be affected. Daughters receive X^H from the father, so 50% will be carriers (X^H X^h) and 50% will be unaffected non-carriers. Choice A is incorrect because daughters cannot be affected in this cross since the father contributes a normal X, and sons cannot be carriers because they are hemizygous.",
+      "new": "Each son receives his X from the mother and has a 50% chance of the variant. Each daughter receives the paternal unaffected allele and has a 50% chance of being heterozygous. These are model probabilities; some heterozygous females have symptoms in real families because of X-inactivation and other factors.",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "questions.233.choice_b",
+      "old": "Cells with the maternal X inactivated had a selective growth advantage and clonally expanded",
+      "new": "Cells with one particular X inactivated had a selective advantage and clonally expanded",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK585705/"
+    },
+    {
+      "field": "questions.233.explanation",
+      "old": "Although X-inactivation is normally random, the resulting pattern is fixed in each cell and passed to its descendants through clonal expansion. If cells with one particular X inactivated have a selective growth or survival advantage, that population can become predominant in a tissue, leading to skewed X-inactivation. Choice A is incorrect because X-inactivation is random in most mammals, not directed to the paternal X. Choice C is incorrect because X-inactivation occurs early in development and is mitotically stable, not a late event.",
+      "new": "A possible mechanism is selection after initially random X-inactivation: cells with a particular active-X genotype expand more than others. The stem does not identify whether this X was maternal or paternal. Skewing can also arise by chance or other mechanisms; the listed selection explanation is plausible, not uniquely proved.",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK585705/"
+    },
+    {
+      "field": "questions.234.explanation",
+      "old": "X-linked recessive inheritance explains all observations: affected males (X^a Y) pass their X^a to all daughters, making them obligate carriers, but pass their Y to sons, so no son of an affected father is affected. Carrier daughters then have a 50% chance of having affected sons. Y-linked inheritance is eliminated because the trait would pass from father to all sons. Autosomal recessive would show affected females and father-to-son transmission. X-linked dominant would cause affected daughters of affected fathers to show the phenotype.",
+      "new": "The stated transmission pattern is most consistent with X-linked recessive inheritance under the usual model. A father gives his X-linked allele to daughters and his Y to sons. An affected father can nevertheless have an affected son if the son inherits an allele from his mother; this is not direct father-to-son X transmission. Small autosomal pedigrees may mimic the pattern, so molecular information can matter.",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+    },
+    {
+      "field": "questions.235.explanation",
+      "old": "The SRY gene is the primary switch for male sex determination; its presence triggers testicular development regardless of the number of X chromosomes. A 46, XX individual with SRY will develop testes and a male phenotype (XX male syndrome). However, these individuals lack other Y-linked genes required for spermatogenesis and also have two X chromosomes, making them infertile. Choice A is incorrect because SRY drives male development. Choice C is tempting but incorrect because SRY expression produces a male, not female, phenotype.",
+      "new": "Functional SRY can initiate testis development in a 46,XX individual. In the typical SRY-positive 46,XX testicular condition, missing Y regions needed for spermatogenesis cause azoospermia and infertility. Merely having two X chromosomes is not the explanation for infertility; developmental outcomes depend on the functional gene network.",
+      "reason": "Align question and explanation with explicit inheritance assumptions.",
+      "sourceUrl": "https://medlineplus.gov/genetics/gene/sry/"
+    },
+    {
+      "field": "content",
+      "old": "only viable monosomy",
+      "new": "the only whole-chromosome monosomy regularly compatible with live birth",
+      "reason": "Correct mechanism, scope or assumptions.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK279001/"
+    }
+  ]
+}

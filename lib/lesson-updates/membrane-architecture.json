@@ -1,0 +1,238 @@
+{
+  "lessonId": 53,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    261,
+    262,
+    263,
+    264,
+    265
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9928/",
+      "title": "The Cell: Cell membranes"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26871/",
+      "title": "Molecular Biology of the Cell: The lipid bilayer"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-024-51939-w",
+      "title": "Phospholipid scrambling induced by an ion channel/metabolite transporter complex"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK453052/",
+      "title": "Essentials of Glycobiology: Cellular organization of glycosylation"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK2267/",
+      "title": "NCBI: The ABO blood group"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26815/",
+      "title": "Molecular Biology of the Cell: Principles of membrane transport"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41925724/",
+      "title": "Extracellular vesicle-mediated release of BMP is regulated by LRRK2 and glucocerebrosidase"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430940/",
+      "title": "Statin medications"
+    }
+  ],
+  "visual": {
+    "beforeHeading": "Glycolipids and the Glycocalyx",
+    "title": "A membrane has two different faces",
+    "src": "/lesson-diagrams/membrane-architecture.svg",
+    "width": 900,
+    "height": 760,
+    "alt": "Cross-sectional lipid bilayer with polar head groups facing water, hydrocarbon tails inside, a spanning protein with outward glycans, and a cytosolic peripheral protein. A lower panel distinguishes ATP-driven flippase from bidirectional scrambling.",
+    "caption": "Schematic, not to scale. Secretory-pathway glycans face the extracellular space; cytosolic glycosylation also exists."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "84720d329d46c285e4a2b2c69081edf54ae1ca4e6fafb5c2975990fdcbf39d94"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "6dc21d9edf2284f1b20945af7d81cb0da62d9d46353e818457d8a2c892509aa4"
+    },
+    {
+      "field": "questions.261.question_text",
+      "sha256": "74aa5fc92d85e70d846c81c70ad8fb0d35e24bff0b6722abef809befa415bca9"
+    },
+    {
+      "field": "questions.261.choice_a",
+      "sha256": "55b1d065a3c0ae26dbc56d146a097a17808bf4d5af5480c3ce016157c8b8cfd1"
+    },
+    {
+      "field": "questions.261.choice_b",
+      "sha256": "0c48d6627d9ad1b001edebfa56dab671b92b6031226a58b9c1552fe41920055d"
+    },
+    {
+      "field": "questions.261.choice_c",
+      "sha256": "51603eb56f4a2c20590a2c47976d800d00047b9aa9535fe4ff9a12d88db38ce2"
+    },
+    {
+      "field": "questions.261.choice_d",
+      "sha256": "52d3f29ed0e907e14482b8566485a0c182a0c2acd32ab6066fecd42bd9dc623d"
+    },
+    {
+      "field": "questions.261.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.261.explanation",
+      "sha256": "21986e2c9321adc5197cac1a83fa37a2b4cf3fbb3e44f0b39f2ec52224fb3c99"
+    },
+    {
+      "field": "questions.262.question_text",
+      "sha256": "81a78ce68944c61c682f2765405f4248a53796d63607958c12c0504e78311f12"
+    },
+    {
+      "field": "questions.262.choice_a",
+      "sha256": "c289d80b1434f212de3074243fba2e373980cdb2d4ae6b7fb028a7a9d9a7d0f5"
+    },
+    {
+      "field": "questions.262.choice_b",
+      "sha256": "bea723bf8dc730a55b62da8e6c1cfe0a35899f184c1f2141c8c3a8550ff8084a"
+    },
+    {
+      "field": "questions.262.choice_c",
+      "sha256": "06b2a381850e8cf038a229247bca07fb1f704d0e4fc50fd93fdd4a45747aa4ce"
+    },
+    {
+      "field": "questions.262.choice_d",
+      "sha256": "931071ff3602a6296faa34bd2ebace85ed3d028ca9d879a6aede728ae62ec6b8"
+    },
+    {
+      "field": "questions.262.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.262.explanation",
+      "sha256": "29cfb48c2b6dfe1d874aafd04bf2a9afcc73d19c57ed15e4e3c99d5dfb905499"
+    },
+    {
+      "field": "questions.263.question_text",
+      "sha256": "b7326548cfb98af6f86e134f4c8059f9cf861f502791837942dd538a6a2b4f82"
+    },
+    {
+      "field": "questions.263.choice_a",
+      "sha256": "caed7d8e48b7937dd69f355774dca9d9ba8967b609e17d5e91df4c58bf971ed8"
+    },
+    {
+      "field": "questions.263.choice_b",
+      "sha256": "691f1bd37b431c4bd4fd3fe8a647860e850aede504163f55dd9c9cc23fefb435"
+    },
+    {
+      "field": "questions.263.choice_c",
+      "sha256": "ea6e6bec83eec41cb141bde0005cc487d91c14dc84b72d53e9af69b71ead5251"
+    },
+    {
+      "field": "questions.263.choice_d",
+      "sha256": "6bc5a7082997ca2ac50ae0c5e3a81ca75dd4dacf0865f12181973f7953650c6f"
+    },
+    {
+      "field": "questions.263.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.263.explanation",
+      "sha256": "ff23456893514b374a74e102a92a6c1836d3268625e1452ffb49bfa5acc59153"
+    },
+    {
+      "field": "questions.264.question_text",
+      "sha256": "7a72bd3dcfad696ad0d8b34d2298d3794c576b9653ae1b0dc7ea84f69b07c8f3"
+    },
+    {
+      "field": "questions.264.choice_a",
+      "sha256": "75a833ef8a54a6589ee9fc1a4961bd4c9662b8de76481d041d01ea8e7fc61036"
+    },
+    {
+      "field": "questions.264.choice_b",
+      "sha256": "59fb6400f7313eba56f8c0bf81df915bdd46ffa9ac7fb3095efb94e5c1ca5bc2"
+    },
+    {
+      "field": "questions.264.choice_c",
+      "sha256": "1cd92d0f1a9d9d1a3badf2cc660a7f933f363ee04ea6404bdfddc9517b296bab"
+    },
+    {
+      "field": "questions.264.choice_d",
+      "sha256": "59052f355eb6d019ccb3603f7440f45c390eabc3094784ae037d1ece60cf1706"
+    },
+    {
+      "field": "questions.264.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.264.explanation",
+      "sha256": "8b4b5d4f2b6d9ce2efbd41e413b9586911ef28538913a82ef4cdf93c307caf4c"
+    },
+    {
+      "field": "questions.265.question_text",
+      "sha256": "9f3b09596b2a4a51fc49fd3007bc389bc3b6eb4451f91732971a124e75b92401"
+    },
+    {
+      "field": "questions.265.choice_a",
+      "sha256": "15c0b66f811af80c082c665a011a4fbfa03201fdb62090508bc5c8b65f35fcc0"
+    },
+    {
+      "field": "questions.265.choice_b",
+      "sha256": "3d6ca96abf22f8c527fd62f641bbc71f348633b88f4a277528052fc47fb5b738"
+    },
+    {
+      "field": "questions.265.choice_c",
+      "sha256": "76af79bc77454c25cb0c27cc99587d72e4774c6596319f207e8404307dcaa8e6"
+    },
+    {
+      "field": "questions.265.choice_d",
+      "sha256": "eb00d556c6c2df4e7836750dcccf4f8c5c1abd49596bb7b8237907974c97380b"
+    },
+    {
+      "field": "questions.265.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.265.explanation",
+      "sha256": "dd99d10880399b377cabdf92278a074276e889bd13346fac8147144e03929cd8"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Membrane Structure and the Fluid Mosaic Model\n\nThe plasma membrane is a dynamic lipid–protein boundary, typically several nanometers thick. It controls exchange with the surroundings and provides sites for signaling and adhesion. Signals can also originate inside cells; membrane receptors are not required for every cellular signal.\n\n---\n\n## The Phospholipid Bilayer: Core Architecture\n\n### Phospholipid Structure\n\nThe fundamental building block of biological membranes is the **phospholipid**. A typical diacyl glycerophospholipid consists of three regions (sphingomyelin and ether-linked lipids have different backbones or linkages):\n\n- A **glycerol backbone** connecting the fatty acid tails to the phosphate head\n- Two **fatty acid tails** (typically 14–24 carbons long) attached via ester bonds at the sn-1 and sn-2 positions of glycerol\n- A **phosphate group** at the sn-3 position, often esterified to a small polar molecule called the **head group**\n\nThe head group identity defines the phospholipid class. Common examples include:\n\n- **Phosphatidylcholine (PC)** — zwitterionic, commonly abundant in the outer leaflet of mammalian plasma membranes\n- **Phosphatidylethanolamine (PE)** — zwitterionic, enriched in the inner leaflet; important for membrane curvature and fusion\n- **Phosphatidylserine (PS)** — negatively charged at physiological pH; predominantly in the inner leaflet; its exposure on the outer leaflet is a signal for apoptosis and platelet activation\n- **Phosphatidylinositol (PI)** — negatively charged; can be phosphorylated at the inositol ring to generate **phosphoinositides** (e.g., PIP₂, PIP₃) that serve as critical signaling molecules\n- **Sphingomyelin** — technically a sphingolipid rather than a glycerophospholipid, but contains a phosphocholine head group; enriched in the outer leaflet and in lipid rafts\n\nThe fatty acid tails are the **hydrophobic** portion of the molecule. They may be:\n\n- **Saturated** — no double bonds; straight chains that pack tightly together, increasing membrane rigidity\n- **Unsaturated** — one or more *cis* double bonds that introduce kinks, preventing tight packing and increasing membrane fluidity\n\nThe distinction between saturated and unsaturated fatty acids is mechanistically important and will appear throughout your MCAT preparation.\n\n### Amphipathic Nature and Bilayer Formation\n\nPhospholipids are **amphipathic**: they possess both a hydrophilic (polar head) and a hydrophobic (nonpolar tail) region. When placed in an aqueous environment, they spontaneously self-assemble into structures that minimize the energetically unfavorable exposure of hydrophobic tails to water. This is driven by the **hydrophobic effect**—in which burying nonpolar surfaces changes their interactions with water and can increase solvent entropy. Both enthalpy and entropy contribute to the total free-energy change.\n\nThe most biologically relevant self-assembly product is the **lipid bilayer**: two leaflets of phospholipids arranged tail-to-tail, with hydrophilic heads facing the aqueous environments on either side and hydrophobic tails sequestered in the interior. This arrangement is thermodynamically stable and forms spontaneously—no energy input is required for the initial self-assembly.\n\nThe bilayer is *not* a static structure. Individual lipid molecules can:\n\n- **Diffuse laterally** within their leaflet at rates of approximately 1–2 μm²/s (a diffusion coefficient, not a fixed travel speed; displacement depends on time, distance and membrane organization)\n- **Rotate** about their long axis (fast)\n- **Flex** their fatty acid tails (fast)\n- **Flip-flop (transverse diffusion)** from one leaflet to the other (extremely slow without enzymatic assistance; half-life of hours to days)\n\nThe rarity of spontaneous flip-flop is critical because it allows the two leaflets to maintain distinct lipid compositions—a phenomenon called **membrane asymmetry**.\n\n---\n\n## Membrane Fluidity: Determinants and Physiological Relevance\n\n### What Is Membrane Fluidity?\n\n**Membrane fluidity** refers to the viscosity of the lipid bilayer—specifically, how easily lipid molecules move laterally within the plane of the membrane. Fluidity is not a luxury; it is required for membrane protein function, vesicle budding, cell division, and signal transduction. Too rigid, and these processes stall. Too fluid, and the membrane loses its barrier integrity.\n\n### Factors That Increase Fluidity\n\n- **Unsaturated fatty acids**: *Cis* double bonds create kinks that prevent tight packing. Membranes rich in polyunsaturated fatty acids (e.g., arachidonic acid, 20:4) are highly fluid.\n- **Shorter fatty acid chains**: Fewer van der Waals interactions between tails means less cohesion and greater fluidity.\n- **Higher temperature**: Thermal energy disrupts van der Waals interactions, increasing molecular motion.\n\n### Factors That Decrease Fluidity\n\n- **Saturated fatty acids**: No kinks; tails pack tightly via van der Waals forces, producing a more ordered, gel-like phase.\n- **Longer fatty acid chains**: More surface area for van der Waals interactions.\n- **Lower temperature**: Reduces thermal motion, promoting tighter packing.\n\n### The Role of Cholesterol\n\n**Cholesterol** is a major sterol in animal membranes; fungi and plants predominantly use other sterols. It is a sterol lipid composed of a rigid, planar tetracyclic ring system with a hydroxyl group at carbon-3 and a flexible hydrocarbon tail. Cholesterol constitutes roughly 30–40% of the lipid molecules in mammalian plasma membranes.\n\nCholesterol's effects are *bidirectional* and temperature-dependent:\n\n- **At high temperatures**: Cholesterol *decreases* fluidity. The rigid sterol ring intercalates between fatty acid tails and restricts their lateral movement, preventing the membrane from becoming excessively fluid.\n- **At low temperatures**: Cholesterol *increases* fluidity. By inserting between phospholipid tails, cholesterol disrupts the tight packing that would otherwise produce a gel phase, preventing the membrane from becoming too rigid.\n\nThis dual role makes cholesterol a **fluidity buffer**—it maintains membrane properties within a functional range across physiological temperature fluctuations. This is why prokaryotes that lack cholesterol use other mechanisms (e.g., altering fatty acid saturation) to adapt to temperature changes, a concept called **homeoviscous adaptation**.\n\nCholesterol also contributes to the formation of **lipid rafts**—small, dynamic, cholesterol- and sphingomyelin-enriched microdomains that are more ordered than the surrounding membrane. Lipid rafts are thought to concentrate specific proteins (especially GPI-anchored proteins and certain signaling receptors) and serve as platforms for signal transduction and membrane trafficking.\n\n---\n\n## The Fluid Mosaic Model\n\nThe **Fluid Mosaic Model**, proposed by S.J. Singer and G.L. Nicolson in 1972, remains the foundational framework for understanding membrane organization. The model describes the membrane as a *fluid lipid bilayer in which proteins are embedded or associated*, free to move laterally (like a mosaic of tiles floating in a viscous sea).\n\nKey tenets of the model:\n\n- The lipid bilayer is the structural matrix—a two-dimensional fluid\n- Membrane proteins are distributed heterogeneously throughout the bilayer\n- Both lipids and proteins can diffuse laterally within the plane of the membrane\n- The two leaflets are compositionally asymmetric\n- The membrane is not a passive barrier but a dynamic, functional structure\n\nModern refinements acknowledge that the membrane is *more complex* than the original model suggested. Protein-protein interactions, cytoskeletal attachments, lipid rafts, and membrane curvature create regions of restricted mobility. Nevertheless, the Fluid Mosaic Model provides the conceptual vocabulary you need for the MCAT.\n\n---\n\n## Membrane Proteins: Types and Functions\n\nProteins constitute roughly 50% of membrane mass (by weight) and are responsible for most of the membrane's functional properties. They are classified based on how they associate with the bilayer.\n\n### Integral (Intrinsic) Membrane Proteins\n\n**Integral membrane proteins** are stably embedded in the lipid bilayer and cannot be removed without disrupting the membrane (e.g., using detergents). They interact directly with the hydrophobic core.\n\n- **Transmembrane proteins** span the entire bilayer. The membrane-spanning segments are typically **α-helices** of approximately 20–25 hydrophobic amino acids, although **β-barrel** structures are found in the outer membranes of gram-negative bacteria and mitochondria/chloroplasts.\n- Many transmembrane proteins span the bilayer multiple times (polytopic proteins). For example, G protein-coupled receptors (GPCRs) have **seven transmembrane α-helices**.\n- **Lipid-anchored proteins** are covalently attached to lipid molecules that insert into one leaflet. Examples include:\n  - **GPI-anchored proteins**: attached via glycosylphosphatidylinositol to the outer leaflet; examples include CD59 and alkaline phosphatase\n  - **Palmitoylated or myristoylated proteins**: attached via fatty acid chains to the inner leaflet; examples include Src kinases\n\n### Peripheral (Extrinsic) Membrane Proteins\n\n**Peripheral membrane proteins** associate with the membrane surface through noncovalent interactions with lipid head groups or with integral proteins. They can be removed by relatively gentle treatments (high salt, changes in pH). They do not penetrate the hydrophobic core.\n\nExamples include spectrin and ankyrin (which link the plasma membrane to the actin cytoskeleton in red blood cells) and many signaling proteins recruited transiently to the membrane surface.\n\n### Functional Categories of Membrane Proteins\n\nMembrane proteins serve diverse functions that are heavily tested on the MCAT:\n\n- **Transport**: Channels (e.g., aquaporins, ion channels) and carriers (e.g., glucose transporters, Na⁺/K⁺-ATPase) regulate the passage of molecules across the bilayer\n- **Enzymatic activity**: Many enzymes are membrane-bound (e.g., adenylyl cyclase, receptor tyrosine kinases)\n- **Signal transduction**: Receptors receive extracellular signals and transmit them intracellularly (e.g., GPCRs, receptor tyrosine kinases)\n- **Cell adhesion**: Integrins, cadherins, and selectins mediate cell-cell and cell-matrix interactions\n- **Cell identity**: Surface proteins and carbohydrates serve as molecular identification markers (e.g., MHC molecules, blood group antigens)\n- **Structural support**: Proteins linking the membrane to the cytoskeleton maintain cell shape\n\n---\n\n## Membrane Asymmetry\n\nThe two leaflets of the plasma membrane are *not* mirror images of each other. This **membrane asymmetry** is established and maintained by specific mechanisms and has profound functional consequences.\n\n### Lipid Asymmetry\n\nIn the plasma membrane of mammalian cells:\n\n- **Outer leaflet (extracellular face)**: enriched in phosphatidylcholine (PC), sphingomyelin, and glycolipids\n- **Inner leaflet (cytoplasmic face)**: enriched in phosphatidylethanolamine (PE), phosphatidylserine (PS), and phosphoinositides (PI, PIP₂)\n\nThis asymmetry is maintained by:\n\n- **Flippases (P4-ATPases)**: ATP-dependent enzymes that actively transport PS and PE from the outer to the inner leaflet\n- **Floppases (ABCA1, ABCB1)**: ATP-dependent enzymes that transport lipids from the inner to the outer leaflet\n- **Scramblases**: Proteins that permit bidirectional lipid translocation without directly consuming ATP. TMEM16F is Ca²⁺-activated, whereas apoptotic XKR8 activation involves caspase cleavage; these are distinct regulatory routes.\n\nThe exposure of PS on the outer leaflet—normally restricted to the inner leaflet—is a critical signal. It marks apoptotic cells for phagocytosis by macrophages and provides a procoagulant surface on activated platelets. PS exposure alone is not a specific diagnostic of apoptosis.\n\n### Protein Asymmetry\n\nMembrane proteins are also asymmetrically oriented:\n\n- The orientation of a transmembrane protein is established during its insertion into the ER membrane during synthesis and is maintained throughout its lifetime\n- Many secretory-pathway glycans are added on the luminal side of the ER or Golgi. These luminal domains face the extracellular space after exocytosis. Cytosolic and nuclear glycosylation, such as O-GlcNAc, is a separate process.\n\nThe glycocalyx-facing carbohydrate chains of secretory-pathway membrane glycoproteins and glycolipids are extracellular. A transmembrane glycoprotein itself can span both faces; this topology does not mean all glycosylation in the cell is extracellular.\n\n---\n\n## Glycolipids and the Glycocalyx\n\n### Glycolipids\n\n**Glycolipids** are lipids with covalently attached carbohydrate groups. In animal cells, the most important glycolipids are **glycosphingolipids**, derived from ceramide (a sphingosine backbone with a fatty acid attached via an amide bond).\n\n- **Cerebrosides**: one sugar residue (glucose or galactose) attached to ceramide; abundant in myelin sheaths\n- **Gangliosides**: ceramide with an oligosaccharide chain containing one or more **sialic acid (N-acetylneuraminic acid)** residues; negatively charged at physiological pH; abundant in neuronal membranes. Ganglioside GM1 is the receptor for cholera toxin—a classic MCAT connection.\n\nCell-surface glycosphingolipids are predominantly in the outer leaflet and contribute to cell recognition, signal transduction, and membrane stability.\n\n### The Glycocalyx\n\nThe **glycocalyx** is the carbohydrate-rich layer on the extracellular surface of cells, formed by the oligosaccharide chains of glycoproteins and glycolipids. Functions include:\n\n- **Cell recognition and adhesion**: ABO blood group antigens are carbohydrate structures carried on both glycolipids and glycoproteins\n- **Protection**: The glycocalyx shields the cell surface from mechanical damage and pathogen binding\n- **Lubrication**: Especially important in epithelial cells lining the gut and respiratory tract\n- **Signaling**: Carbohydrate structures serve as ligands for lectins and selectins in immune responses\n\n---\n\n## Membrane Permeability and the Selective Barrier\n\nThe lipid bilayer functions as a **selectively permeable barrier**. The permeability of a molecule depends on its size, charge, and polarity.\n\n### Permeability Rules\n\n- **Small nonpolar gases** (O₂, CO₂, N₂) and many lipid-soluble molecules, including steroid hormones, cross by simple diffusion. Ethanol is small and uncharged but polar; its permeability does not make it nonpolar.\n- **Small, uncharged polar molecules** (water, urea, glycerol): cross slowly by simple diffusion; water crosses faster through **aquaporins**\n- **Large uncharged polar molecules** (glucose, sucrose): essentially impermeable without transport proteins\n- **Ions** (Na⁺, K⁺, Cl⁻, Ca²⁺): essentially impermeable without ion channels or pumps, despite their small size, because of the large energetic cost of stripping their hydration shells\n\nThe impermeability of the bilayer to ions is the basis for membrane potential—a concept central to neuroscience, cardiac physiology, and cellular energetics on the MCAT.\n\n### Membrane Fluidity and Permeability\n\nLipid composition and temperature can alter membrane permeability, but increased fluidity does not remove the large barrier to ion passage. Anesthetic effects should not be reduced to nonspecific membrane fluidization: modulation of particular ion channels is central to many agents.\n\n---\n\n## Membrane Dynamics: Beyond Simple Fluidity\n\n### Lateral Diffusion and Confinement\n\nWhile the Fluid Mosaic Model emphasizes lateral diffusion, proteins are not always free to roam. Several mechanisms restrict protein mobility:\n\n- **Cytoskeletal fences**: The membrane-associated cytoskeleton (actin network) creates corrals that confine transmembrane proteins\n- **Protein-protein interactions**: Oligomerization and complex formation restrict diffusion\n- **Lipid domains**: Partitioning and interactions can change mobility; there is no universal diffusion rate for all raft-associated proteins.\n\n### Membrane Curvature\n\nMembranes are not flat sheets in vivo. Curvature is essential for vesicle budding, tubule formation, and organelle shaping. Factors that generate or sense curvature include:\n\n- **Asymmetric lipid composition** between leaflets (PE's cone shape promotes negative curvature)\n- **Curvature-sensing proteins** with BAR domains\n- **Coat proteins** (clathrin, COPI, COPII) that mechanically deform the membrane during vesicle formation\n\n### Membrane Fusion\n\nMembrane fusion—the merging of two bilayers—is essential for vesicular trafficking, exocytosis, endocytosis, and viral entry. It requires overcoming the energy barrier of bringing two hydrophilic surfaces close enough to merge their hydrophobic cores. **SNARE proteins** are the primary machinery driving intracellular membrane fusion.\n\n---\n\n## Organelle Membranes: Variations on the Theme\n\nDifferent organelles have distinct membrane compositions reflecting their specialized functions.\n\n- **Mitochondria**: Two membranes. The *outer* membrane is permeable (contains porins/VDAC). The *inner* membrane is highly impermeable and rich in **cardiolipin** (a unique phospholipid with four fatty acid tails), which is essential for the function of the electron transport chain complexes. The inner membrane's impermeability is what makes the proton gradient generated by the ETC productive for ATP synthesis.\n- **Endoplasmic reticulum**: Rich in phosphatidylcholine; site of lipid synthesis and membrane protein insertion\n- **Golgi apparatus**: Progressively enriched in sphingomyelin and cholesterol from cis to trans face, reflecting the maturation of membrane composition during the secretory pathway\n- **Late endosomes/lysosomes**: Bis(monoacylglycero)phosphate (BMP) is especially associated with intraluminal membranes and supports lipid degradation; distinguish these from the organelle’s limiting membrane.\n\n---\n\n## MCAT High-Yield Connections\n\n### Thermodynamics of Membrane Assembly\n\nBilayer assembly is favorable when the combined free-energy change is negative. The hydrophobic effect includes solvent reorganization, but it is incorrect to insist that assembly is purely entropic or that enthalpy never contributes.\n\n### Membrane Proteins and Disease\n\nSeveral clinically important diseases involve membrane protein dysfunction:\n\n- **Cystic fibrosis**: Loss-of-function mutations in CFTR, a chloride channel (integral membrane protein); the ΔF508 mutation causes misfolding and degradation\n- **Familial hypercholesterolemia**: Mutations in the LDL receptor (integral membrane protein) prevent LDL uptake\n- **Hereditary spherocytosis**: Mutations in spectrin or ankyrin (peripheral membrane proteins) disrupt the cytoskeletal network, causing red blood cell fragility\n\n### Lipid Composition and Drug Targets\n\n- **Statins** target HMG-CoA reductase, an enzyme in cholesterol synthesis; they do not bind cholesterol as their molecular target.\n- **Amphotericin B** (antifungal) works by binding ergosterol (the fungal equivalent of cholesterol) and forming pores in fungal membranes\n- **Phospholipase A₂** cleaves the sn-2 fatty acid from phospholipids, releasing arachidonic acid—the precursor for prostaglandins and leukotrienes (NSAIDs and corticosteroids inhibit this pathway)\n\n### Membrane Asymmetry and Clinical Significance\n\n- **Apoptosis detection**: Annexin V binds PS exposed on the outer leaflet of apoptotic cells—used clinically and experimentally to detect programmed cell death\n- **Platelet activation**: PS exposure on activated platelets provides a surface for the assembly of coagulation factor complexes (tenase and prothrombinase complexes)\n- **Interpretation**: Membrane composition and receptor availability affect pathogen–cell interactions, but PS exposure is not a universal mechanism of invasion.\n\n---\n\n## Summary of Key Concepts\n\n- The plasma membrane is a **phospholipid bilayer** with amphipathic lipids arranged so that hydrophobic tails face inward and hydrophilic heads face the aqueous environment\n- **Cholesterol** is a fluidity buffer: it decreases fluidity at high temperatures and increases it at low temperatures; its role depends on membrane composition, and other eukaryotes use other sterols\n- The **Fluid Mosaic Model** describes the membrane as a dynamic, two-dimensional fluid in which proteins are embedded or associated\n- **Integral membrane proteins** (including transmembrane proteins and lipid-anchored proteins) cannot be removed without disrupting the bilayer; **peripheral membrane proteins** associate noncovalently with the membrane surface\n- Membrane proteins serve as transporters, enzymes, receptors, adhesion molecules, and structural components\n- **Membrane asymmetry**: the outer leaflet is enriched in PC, sphingomyelin, and glycolipids; the inner leaflet is enriched in PE, PS, and phosphoinositides. PS exposure on the outer leaflet signals apoptosis and platelet activation\n- **Glycolipids** and **glycoproteins** form the glycocalyx on the extracellular face; their glycocalyx carbohydrate chains face outward; this is not a rule excluding intracellular glycosylation\n- Membrane permeability: small nonpolar molecules cross freely; ions and large polar molecules require protein transporters\n- Membrane fluidity is increased by unsaturated fatty acids, shorter chains, and higher temperature; decreased by saturated fatty acids, longer chains, and lower temperature\n\nMastery of these principles provides the mechanistic foundation for understanding transport physiology, signal transduction cascades, vesicular trafficking, and the pharmacology of membrane-targeting drugs—all of which appear with high frequency on the MCAT."
+    },
+    {
+      "field": "questions.261.explanation",
+      "value": "Lateral redistribution enables many receptors to form clusters after stimulation. Immobilization directly limits that redistribution under the stated conditions. It does not by itself imply increased ion permeability, faster lipid flip-flop or expulsion of cholesterol."
+    },
+    {
+      "field": "questions.261.question_text",
+      "value": "A researcher immobilizes integral membrane proteins without changing their abundance, ligand affinity or bilayer integrity. Which property would be MOST directly impaired?"
+    },
+    {
+      "field": "questions.262.question_text",
+      "value": "At the same low temperature, compare two bilayers with identical head groups and chain lengths. One has saturated tails; the other has cis-unsaturated tails. Which outcome is expected?"
+    },
+    {
+      "field": "questions.263.explanation",
+      "value": "Extracellular glycans participate in recognition, adhesion and signaling. Secretory-pathway glycosylation occurs on luminal domains of the ER/Golgi; membrane trafficking preserves their outward-facing topology. This does not mean a transmembrane glycoprotein is confined to one leaflet, nor does it exclude cytoplasmic glycosylation."
+    },
+    {
+      "field": "questions.263.question_text",
+      "value": "The carbohydrate chains forming the glycocalyx project from the extracellular face of a mammalian plasma membrane. What is the functional significance of this orientation?"
+    },
+    {
+      "field": "questions.264.question_text",
+      "value": "In a simplified phospholipid-bilayer model, how can cholesterol buffer the transition between a fluid state and a tightly packed gel state as temperature changes?"
+    },
+    {
+      "field": "questions.265.question_text",
+      "value": "High salt releases a peripheral protein attached mainly by ionic interactions, while a transmembrane protein remains embedded. Which explanation best accounts for this result?"
+    }
+  ]
+}

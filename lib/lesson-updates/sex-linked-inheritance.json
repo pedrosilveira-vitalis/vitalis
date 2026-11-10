@@ -1,0 +1,230 @@
+{
+  "lessonId": 47,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    231,
+    232,
+    233,
+    234,
+    235
+  ],
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/",
+      "title": "MedlinePlus Genetics: Inheritance patterns"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK279001/",
+      "title": "Endotext: Sexual differentiation"
+    },
+    {
+      "url": "https://medlineplus.gov/genetics/gene/sry/",
+      "title": "MedlinePlus Genetics: SRY"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1497/",
+      "title": "GeneReviews: MECP2 disorders"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK585705/",
+      "title": "NCBI: Dosage compensation systems"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9233459/",
+      "title": "Satellite DNAs and human sex chromosome variation"
+    },
+    {
+      "url": "https://medlineplus.gov/genetics/condition/androgenetic-alopecia/",
+      "title": "MedlinePlus Genetics: Androgenetic alopecia"
+    }
+  ],
+  "visual": {
+    "title": "Inheritance and X-inactivation are different",
+    "src": "/lesson-diagrams/sex-linked-inheritance.svg",
+    "width": 900,
+    "height": 800,
+    "alt": "A carrier mother and unaffected father produce four equally likely X-linked combinations. A separate group of cells illustrates two active-X clones after random X-inactivation, with inactive X chromosomes marked.",
+    "caption": "The cross uses the simple fully penetrant X-linked recessive model. X-inactivation creates cellular mosaics and can make heterozygous females symptomatic.",
+    "beforeHeading": "Sex-Linked Pedigree Analysis"
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "40f3bc8655f29b8a957d8a7b3e07d0aa1837d37daba78616143f6012df8e77d8"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "6cf3a3e99c82d5f32fef7e77b291a3eece3799e0e01fb965707b6257666eb8f2"
+    },
+    {
+      "field": "questions.231.question_text",
+      "sha256": "e6d2d097a855a9092a49defb67ad93ff1ac111fe7e2f3b403e4de4b3ea5cecf6"
+    },
+    {
+      "field": "questions.231.choice_a",
+      "sha256": "550fc8a3d9ac62e66a2ed0ecb3ddb061dbb5e40833bd96e27bfb42969dfe4412"
+    },
+    {
+      "field": "questions.231.choice_b",
+      "sha256": "571c514dd6b0054be172ed881fa46c4ea7c1bf3eb78cd50c47d3165916941513"
+    },
+    {
+      "field": "questions.231.choice_c",
+      "sha256": "83d24ab0c7b6a68870a966769daf8d8fc5b1c1e91b68e661b3f637717da18cfa"
+    },
+    {
+      "field": "questions.231.choice_d",
+      "sha256": "0b5996016b679edf23b7ed75aa4796f6292d8070ebdf832387b52e6bcac5228a"
+    },
+    {
+      "field": "questions.231.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.231.explanation",
+      "sha256": "e98e9975e8762ad7ea872f4a355becd2954fab32ef147e83c53401ca4d7cad55"
+    },
+    {
+      "field": "questions.232.question_text",
+      "sha256": "2723547e59203860c96ade492c31582b08a69875aa8e90c4dff97987bfcaaa58"
+    },
+    {
+      "field": "questions.232.choice_a",
+      "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+    },
+    {
+      "field": "questions.232.choice_b",
+      "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+    },
+    {
+      "field": "questions.232.choice_c",
+      "sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+    },
+    {
+      "field": "questions.232.choice_d",
+      "sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+    },
+    {
+      "field": "questions.232.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.232.explanation",
+      "sha256": "5a8cbfeb1540e8fac6fcf1328e3cd77b5c38ab164c8d4a190c150fc86bcd0e2d"
+    },
+    {
+      "field": "questions.233.question_text",
+      "sha256": "ca484a5f6a289cab65b41af9245bf917f30df5c6cdbfd764fb498b26154b0b84"
+    },
+    {
+      "field": "questions.233.choice_a",
+      "sha256": "f07583abfe02ffe25bc0fcb1e099055a950b2f91ed6f142f9b6fa4907a9ec694"
+    },
+    {
+      "field": "questions.233.choice_b",
+      "sha256": "49882289e3a7870002f8e4e84ce8913fceab5c9e224ce1bbc4a714012633e3f0"
+    },
+    {
+      "field": "questions.233.choice_c",
+      "sha256": "a1d2e6053dfeb5301ef37b74ff4c5374f25cea83355a3746f5d275074d942151"
+    },
+    {
+      "field": "questions.233.choice_d",
+      "sha256": "1843efad887b3fc4dd4ca8f36a9a4048d62344625fc58df3029f1f7e994a57ff"
+    },
+    {
+      "field": "questions.233.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.233.explanation",
+      "sha256": "809e7f78c294519aea15928867aeb1ce6ba315608998fe224683301196657f18"
+    },
+    {
+      "field": "questions.234.question_text",
+      "sha256": "6af30fbaff84f2ee0aec09886b804ec2d218595ed00f0da635b6ef18937a81ef"
+    },
+    {
+      "field": "questions.234.choice_a",
+      "sha256": "e5bb5bbbaa9f616cb02d86849c7c3532658186037359fa0aa7ef7b78da5c4460"
+    },
+    {
+      "field": "questions.234.choice_b",
+      "sha256": "7f5d604c2a91f88331f824b313647a15c5cdd3601f387cb648924ed0f297bce5"
+    },
+    {
+      "field": "questions.234.choice_c",
+      "sha256": "66415b736a6413abac7e6d4ab37f823d468283b6216846fb48ea81fa30c7c492"
+    },
+    {
+      "field": "questions.234.choice_d",
+      "sha256": "8d2b636885ce91e7970e7b5c4070c48eab4e7d1d4f89a5f9375f7ffa7695f6d2"
+    },
+    {
+      "field": "questions.234.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.234.explanation",
+      "sha256": "70efe654d1bef0be4f36c46cd917e2017538955a00b97445ffe14860cb5fab00"
+    },
+    {
+      "field": "questions.235.question_text",
+      "sha256": "ed163738ec4772d4e19b384b434478f974ef036a7aace106003ff477d33c9bb2"
+    },
+    {
+      "field": "questions.235.choice_a",
+      "sha256": "4673b183a2321b90530abee905e8af25193e7da9deeab92c8bcf74c15516ef27"
+    },
+    {
+      "field": "questions.235.choice_b",
+      "sha256": "3d6960175c179375698bfd6d673704d41054c6b183d9344ceb9e9d4896346f97"
+    },
+    {
+      "field": "questions.235.choice_c",
+      "sha256": "1414482d2c5bb9eccccfecdb5bc8d4777ac1590f56a3765af924d0e9fd1be621"
+    },
+    {
+      "field": "questions.235.choice_d",
+      "sha256": "5dbd0deaa692bcf9030f21084742769a6bbb89c22f10475a3226abcf9a6430b1"
+    },
+    {
+      "field": "questions.235.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.235.explanation",
+      "sha256": "71cc7491552d462e8018f5e84ac59b53a87cea7f92db26dc7cc7164b69b38f46"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Sex-Linked Inheritance and Sex Determination\n\n### Overview and MCAT Relevance\n\nThis lesson relates sex-chromosome transmission to gene expression and development. Use a stated genetic model when solving crosses, and distinguish allele inheritance from the probability or severity of symptoms.\n\n---\n\n## Sex Determination Mechanisms\n\n### The Human Sex Chromosome System\n\nTypical human karyotypes are 46,XX and 46,XY. In the usual XX × XY cross, an egg contributes X and sperm contributes X or Y. This predicts chromosomal complement, not every aspect of sex development: genes, hormone synthesis and hormone response can produce differences of sex development.\n\nThe sex chromosomes are not entirely homologous. The X chromosome is substantially larger, containing approximately 800–900 protein-coding genes. The Y chromosome is much smaller and contains roughly 70–200 functional genes, many of which are involved in male fertility and sex determination. The regions of the X and Y that do share homology are called **pseudoautosomal regions (PARs)**, located at the tips of both sex chromosomes. Genes in PARs behave like autosomal genes because they can recombine between X and Y during meiosis.\n\n### The SRY Gene and Testis Determination\n\nThe primary switch for male sex determination in mammals is the **SRY gene** (Sex-determining Region of the Y chromosome), located on the short arm of the Y chromosome. SRY encodes a transcription factor that initiates a cascade leading to testis development from the bipotential gonad. Ovarian development is an active program involving factors such as WNT4, RSPO1 and FOXL2. Loss of functional SRY in an XY embryo can cause dysgenetic gonads rather than functional ovaries.\n\nKey clinical correlates you should know for the MCAT:\n\n- **46,XY females (Swyer syndrome):** An SRY loss-of-function variant is one possible cause of 46,XY complete gonadal dysgenesis; many affected individuals have other genetic causes. The gonads fail to develop properly (streak gonads), and without testicular hormone production, female external genitalia develop by default.\n- **46,XX males:** Occasionally, SRY translocates to an X chromosome during paternal meiosis. Functional SRY expressed in the appropriate developmental context can initiate testis development in an XX individual.\n\n### Other Sex Determination Systems\n\nThe MCAT occasionally tests non-human sex determination systems. You should be familiar with these:\n\n- **ZW system (birds, some reptiles, fish):** Females are the heterogametic sex (ZW), males are homogametic (ZZ). This is the opposite of the human XY system.\n- **XO system (grasshoppers):** Males have only one sex chromosome (XO), females have two (XX). There is no Y chromosome.\n- **Haplodiploidy (Hymenoptera — bees, wasps, ants):** Females develop from fertilized (diploid) eggs; males develop from unfertilized (haploid) eggs.\n- **Environmental sex determination:** In some reptiles (e.g., alligators, many turtles), sex is determined by incubation temperature rather than chromosomes.\n\n---\n\n## X-Linked Inheritance\n\n### Characteristics of X-Linked Genes\n\nGenes located on the X chromosome but not on the Y are called **X-linked genes**. Because males have only one X chromosome, they are described as **hemizygous** for X-linked loci — they have only a single copy of each X-linked gene, so recessive alleles are expressed without a second allele to mask them. Females, with two X chromosomes, can be homozygous dominant, heterozygous (carrier), or homozygous recessive.\n\n### X-Linked Recessive Inheritance\n\nThis is the most commonly tested pattern on the MCAT. Classic examples include:\n\n- **Hemophilia A** (factor VIII deficiency) and **Hemophilia B** (factor IX deficiency)\n- **Duchenne muscular dystrophy (DMD)** — caused by mutations in the dystrophin gene, the largest known human gene\n- **Red-green color blindness** — caused by mutations in opsin genes on the X chromosome\n- **Glucose-6-phosphate dehydrogenase (G6PD) deficiency**\n- **Fragile X syndrome** is X-linked with repeat-expansion and penetrance complexities; it should not be treated as a simple X-linked recessive example\n\n**Hallmarks of X-linked recessive inheritance in pedigrees:**\n\n- Affects males far more frequently than females\n- A heterozygous mother transmits the allele to half her children on average; with an unaffected noncarrier father, the simple model predicts half of sons affected and half of daughters heterozygous. Heterozygous females can have symptoms\n- Affected fathers cannot pass the trait to sons (fathers give Y to sons), but *all daughters* inherit his X-linked allele; the maternal allele and X-inactivation determine whether they are unaffected heterozygotes or symptomatic\n- The trait appears to skip generations (grandfather → carrier daughter → affected grandson)\n- No direct father-to-son transmission of non-PAR X-linked alleles; observing no affected sons in a small family is not proof of X-linkage\n\n**Solving X-linked recessive problems:**\n\nUse the notation X^A for the dominant (normal) allele and X^a for the recessive (disease) allele. A carrier female is X^A X^a. An affected male is X^a Y.\n\nCross: Carrier female × Normal male\nX^A X^a × X^A Y\n\nOffspring:\n- X^A X^A — normal female (25%)\n- X^A X^a — carrier female (25%)\n- X^A Y — normal male (25%)\n- X^a Y — affected male (25%)\n\nResult: 1/2 of sons affected, 1/2 of daughters carriers, no affected daughters.\n\n### X-Linked Dominant Inheritance\n\nX-linked dominant traits are expressed in both males and females when even one copy of the dominant allele is present. However, because males are hemizygous, they typically show more severe disease than heterozygous females.\n\nClassic examples:\n\n- **Hypophosphatemia (X-linked vitamin D-resistant rickets)**\n- **MECP2-related disorders**, including Rett syndrome: affected males can survive and show a range of severe phenotypes\n- **Incontinentia pigmenti**: often male-lethal, but surviving males occur, including mosaic or 47,XXY individuals\n\n**Hallmarks of X-linked dominant inheritance:**\n\n- Both males and females affected\n- Affected fathers pass the trait to *all daughters* but *no sons* (sons receive Y from father)\n- Heterozygous mothers have a 50% transmission probability for each child; homozygous mothers and incomplete penetrance require different predictions\n- If the trait is lethal in hemizygous males, a heterozygous mother and unaffected father have an expected 2:1 female-to-male ratio among surviving offspring under a fully male-lethal model—not among affected individuals\n\n### Y-Linked (Holandric) Inheritance\n\nGenes located exclusively on the non-pseudoautosomal region of the Y chromosome are **Y-linked** or **holandric**. In the usual XY system, a father transmits his non-PAR Y loci to all sons and no daughters. Whether an inherited variant causes symptoms depends on its effects and penetrance.\n\nTrue Y-linked traits are rare. The most relevant examples include:\n\n- Genes controlling spermatogenesis (AZF regions of Y chromosome)\n- The SRY gene itself\n- Historically, hairy ear pinnae was proposed as Y-linked, though this remains debated\n\n**Pedigree hallmark:** Every son of an affected father is affected; no daughters are ever affected. This creates a perfectly vertical, male-only pedigree pattern.\n\n---\n\n## Dosage Compensation and X-Inactivation\n\n### The Problem of Gene Dosage\n\nFemales have two copies of every X-linked gene, while males have one. Without a compensatory mechanism, female cells would produce twice as much protein product from X-linked genes as male cells. Dosage compensation helps balance expression, although dosage sensitivity varies among genes. Different organisms use different strategies:\n\n- **Drosophila:** Hypertranscription — males double the transcription rate of their single X chromosome\n- **C. elegans:** Halved transcription — both X chromosomes in XX hermaphrodites are transcribed at half the normal rate\n- **Placental mammals:** X-inactivation silences much of one X in typical XX somatic cells; some genes escape, and developmental context matters\n\n### Lyon Hypothesis and X-Inactivation\n\n**Mary Lyon** proposed in 1961 that in female mammals, one X chromosome per somatic cell is randomly inactivated early in embryonic development (with species-specific timing and regulation). This process is called **lyonization** or **X-inactivation**, and the inactivated chromosome becomes a **Barr body** — a dense, heterochromatic structure visible at the nuclear periphery.\n\nKey features of X-inactivation:\n\n- **Random:** In each cell, either the maternal or paternal X can be inactivated with roughly equal probability (barring skewed inactivation)\n- **Early:** Established during early development; human timing and the relationship between XIST expression and silencing differ from mouse models\n- **Usually mitotically stable and clonal:** Descendants generally maintain the same inactive X. Reactivation occurs in some developmental or experimental contexts. This creates a mosaic organism.\n- **Incomplete:** Not all genes on the inactive X are silenced. A substantial minority of human X-linked genes escape inactivation, with estimates varying by tissue, individual and assay, including many genes in the pseudoautosomal regions and scattered genes across the X. This is why 45,X (Turner syndrome) individuals have abnormal phenotypes even though they have one X — they lack expression of these escape genes from the second sex chromosome.\n\n### The XIST Gene and Molecular Mechanism\n\nThe molecular machinery of X-inactivation centers on the **X-inactivation center (XIC)**, a region on the X chromosome containing the **XIST gene** (X-Inactive Specific Transcript).\n\nMechanism:\n\n1. In established somatic X-inactivation, XIST is typically expressed from the inactive X. XIST expression and silencing are not equivalent in every developmental context.\n2. XIST encodes a long non-coding RNA (lncRNA) that coats the inactive X chromosome in *cis*.\n3. The XIST RNA recruits chromatin-modifying complexes (including Polycomb repressive complexes) that deposit repressive histone modifications, particularly **H3K27me3** (trimethylation of histone H3 at lysine 27).\n4. CpG islands on the inactive X become **hypermethylated**, further silencing gene expression.\n5. The inactive X is also enriched for the histone variant macroH2A and depleted of active histone marks like H3K4me3 and H3 acetylation.\n6. In mice, antisense Tsix helps regulate Xist. Human TSIX differs and should not be assumed to implement the same mechanism; the earlier steps summarize a general framework with species-specific details.\n\nThe result is a stable, heritable epigenetic state maintained through DNA replication and cell division.\n\n### Number of Barr Bodies\n\nFor a typical interphase somatic cell with at least one X, the expected number of inactive X chromosomes is n(X) − 1. Visible Barr-body counts depend on cell type and preparation, and mosaic individuals can have different cell lines:\n\n- 46,XX (normal female): 1 Barr body\n- 46,XY (normal male): 0 Barr bodies\n- 47,XXX (Triple X): 2 Barr bodies\n- 47,XXY (Klinefelter syndrome): 1 Barr body\n- 45,X (Turner syndrome): 0 Barr bodies\n- 48,XXXX: 3 Barr bodies\n\nThis is a straightforward calculation the MCAT loves to test.\n\n### Clinical Consequences of X-Inactivation\n\n**Mosaicism in carrier females:** Because X-inactivation is random, carrier females for X-linked recessive conditions are mosaic — some cells express the normal allele and some express the mutant allele. Usually, enough normal cells are present that carrier females are phenotypically unaffected. However, if inactivation is skewed such that the X bearing the normal allele is preferentially inactivated, a carrier female can manifest symptoms. This explains **manifesting carriers** seen in conditions like Duchenne muscular dystrophy or hemophilia.\n\n**Calico cats:** A classic example of X-inactivation mosaicism. The gene for orange vs. black coat color is X-linked in cats. Heterozygous females have patches of orange fur (cells where the orange-allele X is active) and patches of black fur (cells where the black-allele X is active), creating the calico pattern. Typical XY cats carry one allele at this locus; rare XXY, mosaic or chimeric males can show patchwork coloration. White spotting involves another mechanism.\n\n**Turner syndrome (45,X):** These individuals have only one X chromosome. Despite having the same number of active X chromosomes as normal females (one), they exhibit short stature, gonadal dysgenesis, webbed neck, and cardiovascular anomalies. The phenotype arises because genes that normally escape X-inactivation and are expressed from both X chromosomes are now hemizygous — they lack the second dose of escape genes.\n\n**Klinefelter syndrome (47,XXY):** Males with an extra X chromosome. Despite having one X inactivated (forming a Barr body), these individuals exhibit tall stature, small testes, infertility, and sometimes mild cognitive differences. Again, escape genes contribute to the phenotype.\n\n---\n\n## Sex-Linked Pedigree Analysis\n\n### Step-by-Step Approach\n\nWhen encountering a pedigree on the MCAT, apply this systematic approach:\n\n**Step 1: Determine if the trait is dominant or recessive.**\n- Two unaffected parents with an affected child suggest recessive inheritance, but de novo variants and incomplete penetrance can also explain this\n- Use age of onset and molecular information before excluding a dominant model\n- If the trait appears in every generation → likely dominant\n- If affected individuals have at least one affected parent → consistent with dominant\n\n**Step 2: Determine if the trait is autosomal or X-linked.**\n- Is there male-to-male transmission? If direct allele transmission is established, exclude non-PAR X-linkage; autosomal, Y-linked and pseudoautosomal loci remain possibilities\n- Are males affected much more frequently than females? → suggests X-linked recessive\n- Are all daughters of affected fathers also affected? → suggests X-linked dominant\n- Are only males affected across multiple generations? → could be X-linked recessive or Y-linked\n- If Y-linked: every son of every affected male is affected, no daughters ever\n\n**Step 3: Assign genotypes and calculate probabilities.**\n\n### Practice Pedigree Scenarios\n\n**Scenario 1: Classic X-linked recessive**\n\nA woman whose father had hemophilia and whose mother was unaffected (not a carrier) marries an unaffected man. What is the probability their first son has hemophilia?\n\n- Father had hemophilia: X^h Y\n- Her mother was not a carrier: X^H X^H\n- The woman received X^h from father, X^H from mother → she is X^H X^h (carrier)\n- Her husband: X^H Y\n- Cross: X^H X^h × X^H Y\n- Sons: X^H Y (normal) or X^h Y (affected) — equal probability\n- Probability first son has hemophilia = **1/2**\n\n**Scenario 2: X-linked dominant**\n\nA man with hypophosphatemia (X-linked dominant) marries an unaffected woman. What proportion of their children will be affected?\n\n- Affected father: X^D Y (hemizygous, expresses the dominant allele)\n- Unaffected mother: X^d X^d\n- Cross: X^D Y × X^d X^d\n- Daughters: X^D X^d — all affected (100% of daughters)\n- Sons: X^d Y — all unaffected (0% of sons)\n- Overall: 1/2 of all children affected (all daughters, no sons)\n\n**Scenario 3: Distinguishing X-linked recessive from autosomal recessive**\n\nIn a pedigree, an affected grandfather (maternal side) has an unaffected daughter who has an affected son. There is no male-to-male transmission visible. This pattern — affected grandfather, carrier daughter, affected grandson — is the classic **\"knight's move\"** pattern of X-linked recessive inheritance. Autosomal recessive inheritance can produce this same pattern in a small pedigree. Consanguinity raises the chance of shared recessive alleles but does not require disease in every family branch.\n\n---\n\n## Sex Chromosome Aneuploidies\n\nUnderstanding sex chromosome aneuploidies consolidates your knowledge of sex determination and dosage compensation.\n\n### Turner Syndrome (45,X or 45,X0)\n\n- **Genotype:** 45,X (monosomy X); ~50% of cases; others are mosaic or have structural X abnormalities\n- **Phenotype:** Female; short stature; webbed neck (pterygium colli); low posterior hairline; shield chest; primary amenorrhea; streak gonads; infertility; coarctation of the aorta; normal intelligence (though specific visuospatial deficits noted)\n- **Barr bodies:** 0\n- **Mechanism:** Loss of a sex chromosome can occur during gamete formation or early embryonic divisions; mosaic and structural-X forms also occur\n- **Key MCAT point:** 45,X is the only complete nonmosaic monosomy commonly compatible with live birth. Partial autosomal monosomies and some mosaic states can be viable.\n\n### Klinefelter Syndrome (47,XXY)\n\n- **Genotype:** 47,XXY; most common sex chromosome aneuploidy in males (~1 in 500–1000 males)\n- **Phenotype:** Male; tall stature; small testes (hypogonadism); infertility (azoospermia); gynecomastia; reduced facial/body hair; often mild learning differences; elevated FSH and LH; low testosterone\n- **Barr bodies:** 1\n- **Mechanism:** Maternal meiosis I or II, paternal meiosis I, or a postzygotic segregation error can produce XXY; paternal meiosis II alone produces XX or YY sperm, not XY sperm\n- **Treatment:** Testosterone replacement therapy\n\n### Triple X Syndrome (47,XXX)\n\n- **Genotype:** 47,XXX\n- **Phenotype:** Female; usually phenotypically normal; may have mild learning difficulties; tall stature; fertile in most cases\n- **Barr bodies:** 2\n- Often identified incidentally\n\n### 47,XYY Syndrome\n\n- **Genotype:** 47,XYY\n- **Phenotype:** Male; tall stature; usually fertile; normal intelligence; historically (incorrectly) associated with aggressive behavior\n- **Barr bodies:** 0 (the extra chromosome is Y, not X)\n- Can result from paternal meiosis II nondisjunction or a postzygotic error\n\n---\n\n## Additional Concepts\n\n### Pseudoautosomal Regions and Escape from X-Inactivation\n\nPAR1 and PAR2 contain homologous sequences on X and Y. PAR1 generally escapes X-inactivation and recombines in male meiosis; PAR2 differs in both recombination and gene regulation. Do not assume every PAR gene escapes silencing or every PAR interval recombines in every meiosis.\n\n### Genomic Imprinting vs. X-Inactivation\n\nThese are both epigenetic mechanisms but are fundamentally different:\n\n- **X-inactivation:** Affects an entire chromosome; is random with respect to parental origin (in most cells); affects only the X chromosome\n- **Genomic imprinting:** Affects specific genes or chromosomal regions; is *non-random* — expression depends on which parent contributed the allele (either the maternal or paternal copy is always silenced for a given imprinted gene); affects autosomes as well as sex chromosomes\n\nDo not confuse these mechanisms on the MCAT.\n\n### Sex-Influenced and Sex-Limited Traits\n\nThese terms describe sex-dependent expression, not necessarily a particular chromosome location:\n\n- **Sex-influenced traits:** The *same* genotype produces different phenotypes in males vs. females. Example: male-pattern baldness. Androgenetic alopecia is complex and influenced by multiple genetic and hormonal factors; a single autosomal allele with sex-dependent dominance is an oversimplified teaching model, not its established inheritance pattern.\n- **Sex-limited traits:** The trait is expressed in only one sex, even though both sexes carry the gene. Example: milk production in mammals, beard growth. Expression depends on developmental and hormonal context; contributing genes need not all be autosomal.\n\nSex-linked describes chromosomal location; sex-influenced and sex-limited describe expression. These are distinct classifications.\n\n---\n\n## High-Yield Summary for the MCAT\n\n- **Sex determination in humans:** Sperm ordinarily determines XX versus XY complement; SRY/SOX9 can initiate testis development, while ovarian development uses an active gene network\n- **X-linked recessive:** Males affected >> females; no male-to-male transmission; carrier females; classic knight's move pedigree pattern\n- **X-linked dominant:** All daughters of affected fathers are affected; no sons of affected fathers are affected; both sexes can show trait\n- **Y-linked:** All sons of affected fathers affected; no daughters ever affected\n- **X-inactivation:** Usually random, early and mitotically stable in human somatic tissues; XIST helps silence much of one X; expected inactive-X count = n(X) − 1; escape varies by gene and tissue\n- **Carrier females can manifest:** Due to skewed X-inactivation\n- **Turner (45,X):** Female phenotype, 0 Barr bodies, streak gonads, coarctation of aorta; the only whole-chromosome monosomy regularly compatible with live birth\n- **Klinefelter (47,XXY):** Male phenotype, 1 Barr body, infertility, gynecomastia\n- **Calico cats:** Visual proof of X-inactivation mosaicism\n- **Sex-influenced ≠ sex-linked:** Androgenetic alopecia is complex; sex-influenced expression does not establish chromosomal location\n\nMastery of these patterns — combined with systematic pedigree analysis — will allow you to correctly answer virtually any MCAT question on sex-linked inheritance, whether it appears as a straightforward genetics calculation or embedded within a molecular biology passage about epigenetic regulation."
+    },
+    {
+      "field": "questions.231.explanation",
+      "value": "Each son receives his X from the mother and has a 50% chance of the variant. Each daughter receives the paternal unaffected allele and has a 50% chance of being heterozygous. These are model probabilities; some heterozygous females have symptoms in real families because of X-inactivation and other factors."
+    },
+    {
+      "field": "questions.231.question_text",
+      "value": "Using the simple fully penetrant X-linked recessive model, a woman heterozygous for a hemophilia A allele has children with an unaffected man. Which prediction is correct?"
+    },
+    {
+      "field": "questions.233.choice_b",
+      "value": "Cells with one particular X inactivated had a selective advantage and clonally expanded"
+    },
+    {
+      "field": "questions.233.explanation",
+      "value": "A possible mechanism is selection after initially random X-inactivation: cells with a particular active-X genotype expand more than others. The stem does not identify whether this X was maternal or paternal. Skewing can also arise by chance or other mechanisms; the listed selection explanation is plausible, not uniquely proved."
+    },
+    {
+      "field": "questions.234.explanation",
+      "value": "The stated transmission pattern is most consistent with X-linked recessive inheritance under the usual model. A father gives his X-linked allele to daughters and his Y to sons. An affected father can nevertheless have an affected son if the son inherits an allele from his mother; this is not direct father-to-son X transmission. Small autosomal pedigrees may mimic the pattern, so molecular information can matter."
+    },
+    {
+      "field": "questions.235.explanation",
+      "value": "Functional SRY can initiate testis development in a 46,XX individual. In the typical SRY-positive 46,XX testicular condition, missing Y regions needed for spermatogenesis cause azoospermia and infertility. Merely having two X chromosomes is not the explanation for infertility; developmental outcomes depend on the functional gene network."
+    }
+  ]
+}

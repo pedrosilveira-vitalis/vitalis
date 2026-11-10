@@ -1,0 +1,237 @@
+{
+  "lessonId": 41,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    201,
+    202,
+    203,
+    204,
+    205
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26829/",
+      "title": "From RNA to Protein: folding, modification and quality control"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK579964/",
+      "title": "Essentials of Glycobiology: N-Glycans"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK579906/",
+      "title": "Essentials of Glycobiology: other eukaryotic glycan classes"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK453052/",
+      "title": "Cellular organization of glycosylation: nucleocytoplasmic O-GlcNAc"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4987802/",
+      "title": "Monoubiquitination in proteasomal degradation"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26841/",
+      "title": "The Endoplasmic Reticulum: protein translocation and processing"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26828/",
+      "title": "Transport of proteins into mitochondria and chloroplasts"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26932/",
+      "title": "Transport of molecules between nucleus and cytosol"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12173945/",
+      "title": "Import mechanism of peroxisomal proteins with an N-terminal signal"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4525312/",
+      "title": "EGFR C-terminal-tail phosphorylation and regulation"
+    }
+  ],
+  "visual": {
+    "src": "/lesson-diagrams/protein-targeting.svg",
+    "alt": "A compartment map distinguishes ER and Golgi glycosylation from nuclear and cytosolic O-GlcNAc, with separate mitochondrial, nuclear and peroxisomal targeting routes.",
+    "caption": "A modification’s location and a protein’s destination depend on the pathway. These are representative routes, not universal requirements for every protein.",
+    "title": "Protein destinations and modification compartments",
+    "width": 800,
+    "height": 740
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "1895fc1c49daf11abeb6d6c59614e3598d1abbf3fafd0254c6253c55ee610313"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "0b7e27a66e31c4e4cfdb0f82f796a008c7fc4f63d03ec403e9191d3bdab3e27a"
+    },
+    {
+      "field": "questions.201.question_text",
+      "sha256": "377fd1ec09cab51d46c3507f08de1e02442e8726b8b87b14036d8d82d576d9a8"
+    },
+    {
+      "field": "questions.201.choice_a",
+      "sha256": "72364b49c55bd6f7bf289e0b792e18e20f5aef6bc88a7676e00754078f3f3d34"
+    },
+    {
+      "field": "questions.201.choice_b",
+      "sha256": "4fa759a86a3a3c5d9625c7600477ef34d2fd05abddab1c4f3b1fa33f6d25672c"
+    },
+    {
+      "field": "questions.201.choice_c",
+      "sha256": "c9f17410fa5728b64a7970780939aa9d272dfcc0ad4bd3c21d008e8157844a44"
+    },
+    {
+      "field": "questions.201.choice_d",
+      "sha256": "ca9d55262eb2cb1c6455b489207b9797cbaf7420d7a75b544ada706a9a6aa922"
+    },
+    {
+      "field": "questions.201.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.201.explanation",
+      "sha256": "239b988848c1d536eca7b9668083e85b21dd144374912d46b96d951299b6ff1c"
+    },
+    {
+      "field": "questions.202.question_text",
+      "sha256": "630876952f8ed18a98d2290cd0f0e458fbebe75a2e317d56f821b867bcebaf36"
+    },
+    {
+      "field": "questions.202.choice_a",
+      "sha256": "40e7aa681627c04b8f9ea046d9981d5b61547b4e2dbf221af4cb98da6c64bf34"
+    },
+    {
+      "field": "questions.202.choice_b",
+      "sha256": "6556956c01ff8170067da097203791cdce589b118f8e6a71f49dc90e203c422d"
+    },
+    {
+      "field": "questions.202.choice_c",
+      "sha256": "9171a88c98e89a576d61d085336e77df0115acf67d737ee6e4fedb8170f8637f"
+    },
+    {
+      "field": "questions.202.choice_d",
+      "sha256": "31db69e17f92cd09f402ccd8f4b57861187148bcaf021c0c10fd0def14157c52"
+    },
+    {
+      "field": "questions.202.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.202.explanation",
+      "sha256": "f0f7c12fd85a6696817a2586beeeced4938e7483839504c8b8b9dccf4106d9bd"
+    },
+    {
+      "field": "questions.203.question_text",
+      "sha256": "b956528a0f8c7fcd5171da440f996cc1c8c481eef02d7150acf286ddadfb0e7a"
+    },
+    {
+      "field": "questions.203.choice_a",
+      "sha256": "2e86cf9e2e13414e4b70feda7b33e831358d1efecb205299f537b1a34ad32640"
+    },
+    {
+      "field": "questions.203.choice_b",
+      "sha256": "52421c616a20f2eaf94bdfb7094e5537a024d0b7a394a508b976c3bf17317451"
+    },
+    {
+      "field": "questions.203.choice_c",
+      "sha256": "00af69aa3e91bd0891cf412bfb6d4e403ff64cb52dd05cf7a305a288da7a851b"
+    },
+    {
+      "field": "questions.203.choice_d",
+      "sha256": "d119e0ef2f48f0a32df539cded9e790b7864459476a3358adb9899feb05cbc82"
+    },
+    {
+      "field": "questions.203.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.203.explanation",
+      "sha256": "bc759ab6908dbd24dc82927d291c2f429f0ce8c04a5722b3c4a8423a02317ff2"
+    },
+    {
+      "field": "questions.204.question_text",
+      "sha256": "6f4663aa5c3b58f548060632d7f9a835e389707664e177416f4babf499b4677b"
+    },
+    {
+      "field": "questions.204.choice_a",
+      "sha256": "7749b5936b88f9736d3ad8fcc850d99c8eb8061624dd5883a3c7cb0bf8bf512d"
+    },
+    {
+      "field": "questions.204.choice_b",
+      "sha256": "8fd76b38710182c258428ea132369928cfbeae16ed555acc7d9aa66bd013afa2"
+    },
+    {
+      "field": "questions.204.choice_c",
+      "sha256": "69bf1eab100b6789ff44efbe4967de4358d8b9d55925aa8fad8cfda1fa98fa97"
+    },
+    {
+      "field": "questions.204.choice_d",
+      "sha256": "6a0565e5e6320780d08c0dbc66bc1b317b66713651ecae60c3b9632be6dfb98d"
+    },
+    {
+      "field": "questions.204.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.204.explanation",
+      "sha256": "e1097fad781aaacc999e9e5a63f7b912e3784decacb5f9c5b0b0efaeb5b28b9b"
+    },
+    {
+      "field": "questions.205.question_text",
+      "sha256": "1e90cf14559e1f4d68e86d0f21dedcde61e3966f7c6362ab61a5a2437f8ebfe2"
+    },
+    {
+      "field": "questions.205.choice_a",
+      "sha256": "50f05b698304df2ab78805967afb5347e2c4f197c1fc7b5dab5b34ac2b1c7ca8"
+    },
+    {
+      "field": "questions.205.choice_b",
+      "sha256": "dce686afa5dcb6e14b63fef65e00b32e441a71d66b15f5a420e316fd9dee9e13"
+    },
+    {
+      "field": "questions.205.choice_c",
+      "sha256": "7da835a2b65231221762de04504e70a536a4de7adab1d79f9519a1d1888abc72"
+    },
+    {
+      "field": "questions.205.choice_d",
+      "sha256": "33c359648e5ca5e9227852b43b5b313c9d536c10600a20ddc9749bbac89d5fea"
+    },
+    {
+      "field": "questions.205.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.205.explanation",
+      "sha256": "b2b9a3e5504c9d4dfdd2d74b417f428581070b2bf47764d909b62fd6c0e3a420"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Post-Translational Modification, Protein Folding, and Targeting\n\nProtein folding, modification and targeting often begin while translation is still in progress and can continue afterward. Some proteins need extensive maturation; others function without a fixed folded structure or elaborate modification. These processes regulate activity, interactions and location, and failures can contribute to disease.\n\n---\n\n## Protein Folding: From Primary Sequence to Functional Structure\n\n### Thermodynamics of Folding\n\nProtein folding is driven by the tendency of the system to minimize free energy. The **hydrophobic effect** is the dominant force: nonpolar side chains are buried in the protein's interior, away from the aqueous environment, while polar and charged residues are exposed on the surface. This arrangement minimizes the unfavorable entropy cost of ordering water molecules around hydrophobic groups.\n\nAdditional stabilizing forces include:\n\n- **Hydrogen bonds** — between backbone amide and carbonyl groups (defining secondary structure) and between polar side chains\n- **Ionic interactions (salt bridges)** — between oppositely charged residues such as Asp/Glu (negative) and Lys/Arg (positive)\n- **Van der Waals forces** — weak but numerous, contributing significantly to overall stability\n- **Disulfide bonds** — covalent bonds between cysteine residues; formed in the oxidizing environment of the endoplasmic reticulum lumen and extracellular space, typically uncommon as stable structural bonds in the reducing cytosol, although regulatory oxidation and exceptions occur\n\nFor many small proteins under suitable conditions, the native state is thermodynamically favored. **Anfinsen’s ribonuclease A experiment** showed that sequence can specify a functional fold under suitable renaturation conditions; it does not mean every cellular protein spontaneously reaches one universal global minimum without partners, cofactors or assistance. When the enzyme was denatured with urea and β-mercaptoethanol and then allowed to renature, it regained full activity, demonstrating recovery of sequence-dependent structure and activity under the experiment’s conditions.\n\n### Molecular Chaperones\n\nDespite Anfinsen's principle, many proteins do not fold correctly on their own inside cells. The crowded cytoplasm creates opportunities for **aggregation**—incorrect intermolecular interactions between hydrophobic regions of different polypeptides. **Molecular chaperones** prevent aggregation and assist folding without being part of the final structure.\n\nKey chaperone families include:\n\n- **Hsp70 (heat shock protein 70)** — Binds extended hydrophobic segments of nascent or partially folded polypeptides as they emerge from the ribosome. Uses ATP hydrolysis to cycle between high-affinity (ADP-bound) and low-affinity (ATP-bound) states, releasing the substrate to allow folding attempts.\n- **Hsp90** — Works downstream of Hsp70; particularly important for steroid hormone receptors and kinases. Maintains client proteins in a near-native, activation-competent state.\n- **Chaperonins** — Bacterial GroEL/GroES and mitochondrial Hsp60/Hsp10 are group I systems with separate lids. Eukaryotic cytosolic TRiC/CCT is a distinct group II chaperonin with a built-in lid. ATP-dependent cycles provide protected environments for appropriate substrates.\n\nWhen chaperones fail and proteins misfold, the result can be **protein aggregation** and the formation of **amyloid fibrils**—insoluble, β-sheet-rich aggregates associated with Alzheimer's disease (amyloid-β and tau), Parkinson's disease (α-synuclein), and type 2 diabetes (islet amyloid polypeptide).\n\n---\n\n## Major Post-Translational Modifications\n\nPost-translational modifications expand the functional repertoire of proteins far beyond what the 20 standard amino acids alone could provide. The MCAT expects you to know the major types, the residues they target, and their functional consequences.\n\n### Proteolytic Cleavage\n\nMany proteins are synthesized as inactive precursors that require cleavage to become active. This is a one-way, irreversible modification.\n\n- **Signal peptides** are cleaved from secretory and membrane proteins as they enter the ER lumen (discussed in detail under protein targeting).\n- **Zymogens (proenzymes)** are inactive enzyme precursors activated by cleavage. Classic examples include pepsinogen → pepsin (in the stomach), trypsinogen → trypsin (in the small intestine, activated by enteropeptidase), and the coagulation cascade factors. The inactive form protects the synthesizing cell from self-digestion.\n- **Prohormones** are cleaved to yield active hormones. Proinsulin is cleaved to remove the C-peptide, yielding mature insulin consisting of the A and B chains linked by disulfide bonds. Measuring C-peptide in serum is a clinical tool for assessing endogenous insulin production.\n- **Viral polyproteins** — HIV produces Gag and Gag–Pol polyprotein precursors that are processed by viral protease during maturation. HIV also makes other proteins, so it does not encode all products as one single polyprotein. Protease inhibitors interfere with this maturation.\n\n### Phosphorylation\n\n**Phosphorylation** is a widespread reversible regulatory modification in eukaryotes. It involves the transfer of a phosphate group from ATP to the hydroxyl group of **serine** (most common), **threonine**, or **tyrosine** residues, catalyzed by **protein kinases**. Removal is catalyzed by **protein phosphatases**.\n\nSer/Thr/Tyr phosphorylation usually adds roughly two negative charges near physiological pH, although local environment shifts phosphate pKa and fractional protonation, which can:\n\n- Induce conformational changes that activate or inhibit enzyme activity\n- Create docking sites for other proteins containing phospho-recognition domains (SH2 domains recognize phosphotyrosine; 14-3-3 proteins recognize phosphoserine/phosphothreonine)\n- Regulate protein-protein interactions, subcellular localization, and degradation\n\nThe **MCAT** frequently tests phosphorylation in the context of signal transduction cascades (e.g., receptor tyrosine kinases, MAP kinase pathway, cAMP/PKA pathway) and cell cycle regulation (cyclin-dependent kinases phosphorylate Rb to release E2F transcription factor).\n\n### Glycosylation\n\n**Glycosylation** is the addition of carbohydrate (sugar) chains to proteins. Many secretory-pathway glycosylation reactions occur in the ER and Golgi, while nucleocytoplasmic glycosylation also occurs. These diverse pathways contribute to folding, stability, signaling and cell recognition.\n\nTwo major types:\n\n- **N-linked glycosylation** — Carbohydrate is attached to the amide nitrogen of **asparagine (Asn)** within the consensus sequence Asn-X-Ser/Thr (where X is any amino acid except proline). A preassembled 14-sugar oligosaccharide (Glc₃Man₉GlcNAc₂) is transferred en bloc from a dolichol-pyrophosphate-linked carrier in the ER membrane to the nascent protein. This initial glycan is then trimmed and modified as the protein travels through the Golgi.\n- **O-linked glycosylation** — Mucin-type O-GalNAc on Ser/Thr usually begins in the Golgi. Nucleocytoplasmic O-GlcNAc is instead added and removed by enzymes in the cytosol and nucleus. Collagen O-glycans are attached to hydroxylysine and initiated in the ER. “O-linked” describes the linkage, not a single location or pathway.\n\nGlycosylation serves multiple functions: it assists protein folding (the **calnexin/calreticulin** quality control cycle in the ER monitors glycan trimming), protects proteins from proteolysis, mediates cell-cell adhesion (selectins recognize sialylated carbohydrate ligands on leukocytes during inflammation), and constitutes the ABO blood group antigens on red blood cell surfaces.\n\n### Ubiquitination\n\n**Ubiquitin** is a highly conserved 76-amino-acid protein that is covalently attached to target proteins as a signal for degradation or altered function. A common ubiquitin linkage is an isopeptide bond between ubiquitin’s C-terminal glycine and a substrate lysine ε-amino group. Alternative attachment sites also exist.\n\nThe ubiquitination cascade involves three enzymes:\n\n1. **E1 (ubiquitin-activating enzyme)** — Activates ubiquitin in an ATP-dependent reaction, forming a high-energy thioester bond.\n2. **E2 (ubiquitin-conjugating enzyme)** — Transfers ubiquitin from E1 to itself.\n3. **E3 (ubiquitin ligase)** — Recognizes the specific substrate protein and catalyzes transfer of ubiquitin from E2 to the target. E3 ligases provide specificity; there are hundreds of distinct E3 ligases in humans.\n\nLys48-linked polyubiquitin is a canonical signal for proteasomal degradation, but four ubiquitins is not a universal minimum and other linkage patterns or multiple single ubiquitins can also support degradation. Productive recognition depends on the substrate and an accessible region for unfolding. The 26S proteasome uses ATP-dependent machinery to unfold substrates, cleaves them into peptides, and recycles ubiquitin.\n\nUbiquitination is central to:\n\n- **Cell cycle regulation** — Cyclin B is ubiquitinated and degraded to allow exit from mitosis.\n- **Tumor suppression** — The E3 ligase MDM2 ubiquitinates p53, targeting it for degradation; DNA damage inhibits MDM2, allowing p53 to accumulate and trigger apoptosis.\n- **NF-κB signaling** — Lys63-linked chains commonly provide signaling scaffolds in NF-κB pathways; linkage identity does not specify one exclusive fate in every context.\n- **Endocytosis** — Monoubiquitination signals membrane protein internalization.\n\n### Other Notable Modifications\n\n- **Acetylation** — Addition of an acetyl group to the ε-amino group of lysine (by histone acetyltransferases, HATs) or to the α-amino group of the N-terminus. Histone acetylation neutralizes the positive charge on lysine, loosening chromatin and generally activating transcription.\n- **Methylation** — Addition of methyl groups to lysine or arginine residues (on histones) or to the N-terminus. Unlike acetylation, methylation does not change charge; its effects depend on the specific site and degree of methylation.\n- **Hydroxylation** — Proline and lysine residues in collagen are hydroxylated by prolyl and lysyl hydroxylases, which require vitamin C (ascorbate) as a cofactor. Hydroxylation is required for the formation of stable collagen triple helices and cross-links; vitamin C deficiency causes scurvy due to defective collagen.\n- **Lipid modifications** — Proteins can be anchored to membranes through covalent lipid attachments: **myristoylation** (N-terminal glycine, 14-carbon saturated fatty acid), **palmitoylation** (cysteine, 16-carbon), and **GPI anchors** (glycosylphosphatidylinositol, attached to the C-terminus). Ras proteins commonly use prenylation plus additional targeting features for membrane association. Some isoforms can undergo alternative geranylgeranylation when farnesylation is inhibited, so farnesylation is not an exceptionless requirement.\n\n---\n\n## Protein Quality Control and the Unfolded Protein Response\n\nThe ER folds many proteins entering the conventional secretory pathway. Mitochondrial, peroxisomal and other membrane proteins can use different pathways. If misfolded proteins accumulate in the ER lumen, the cell activates the **Unfolded Protein Response (UPR)**, mediated by sensors including IRE1, PERK, and ATF6. The UPR:\n\n- Upregulates chaperone expression (BiP/Grp78)\n- Attenuates global translation (via eIF2α phosphorylation by PERK)\n- Increases ER-associated degradation (**ERAD**) — misfolded proteins are retrotranslocated back into the cytosol and degraded by the ubiquitin-proteasome system\n\nIf ER stress is unresolvable, the UPR triggers **apoptosis**. Chronic ER stress is implicated in type 2 diabetes (β-cell failure), neurodegenerative diseases, and cancer.\n\n---\n\n## Protein Targeting and Sorting\n\nOnce synthesized, proteins must reach their correct destinations. The cell uses **signal sequences**—short stretches of amino acids within the protein itself—to direct proteins to specific compartments. The default destination for a cytosolic ribosome is the cytosol; many other destinations require targeting information, which can be a sequence, folded surface or association with another protein. Small proteins can also passively enter the nucleus.\n\n### Co-translational Targeting to the ER\n\nMany conventional secretory-pathway proteins enter the ER during translation; post-translational routes also exist. The following describes a common SRP-dependent route. The key signal is the **signal peptide** (also called signal sequence):\n\n- Typically located at the N-terminus\n- 15–30 amino acids long\n- Contains a core of hydrophobic residues flanked by a positively charged N-terminal region and a polar C-terminal cleavage site\n\nThe sequence of events:\n\n1. The ribosome begins translating the mRNA in the cytosol.\n2. As the signal peptide emerges from the ribosome, it is recognized by the **Signal Recognition Particle (SRP)**, a ribonucleoprotein complex.\n3. SRP binding pauses translation and escorts the ribosome-mRNA-nascent chain complex to the ER membrane.\n4. SRP binds the **SRP receptor** on the ER membrane, and the ribosome docks on the **translocon** (Sec61 complex), a protein-conducting channel.\n5. Translation resumes, and the polypeptide is threaded directly into the ER lumen (for soluble proteins) or integrated into the ER membrane (for transmembrane proteins). GTP hydrolysis by SRP and the SRP receptor drives the cycle.\n6. A cleavable signal peptide is removed by signal peptidase on the luminal side. Internal signal-anchor sequences can instead remain as membrane-spanning segments.\n\nProteins with suitable accessible sequons can undergo N-linked glycosylation in the ER lumen and folding assisted by ER-resident chaperones (BiP, calnexin, calreticulin, protein disulfide isomerase). ER quality control preferentially permits suitable cargo to enter **COPII vesicles** for anterograde transport to the Golgi.\n\n### The Secretory Pathway: ER → Golgi → Destination\n\nThe **Golgi apparatus** is the major sorting station of the cell, consisting of cis, medial, and trans cisternae.\n\n- **COPII vesicles** carry cargo from ER to cis-Golgi (anterograde).\n- **COPI vesicles** carry cargo in retrograde direction (trans to cis, and Golgi to ER), retrieving escaped soluble ER proteins through KDEL receptors that recognize their C-terminal **KDEL retrieval signal**. ER membrane proteins can use different retrieval motifs.\n- Proteins are further glycosylated and modified as they move through the Golgi.\n- At the **trans-Golgi network (TGN)**, proteins are sorted into different vesicle types for delivery to lysosomes, the plasma membrane, or secretory vesicles.\n\n**Lysosomal targeting** is the best-understood sorting decision from the TGN. Lysosomal hydrolases receive a **mannose-6-phosphate (M6P)** tag added in the cis-Golgi. M6P receptors in the TGN recognize this tag and package the hydrolases into clathrin-coated vesicles destined for late endosomes/lysosomes. Failure of this system causes **I-cell disease (mucolipidosis II)**, in which lysosomal enzymes are secreted into the bloodstream instead of being delivered to lysosomes, causing lysosomal storage.\n\n### Post-Translational Targeting to Mitochondria and Chloroplasts\n\nMost mitochondrial and chloroplast proteins are nuclear-encoded, synthesized on cytosolic ribosomes and imported, often after translation. Both organelles also encode and synthesize a subset locally. The following describes major import routes, not every organellar protein.\n\n**Mitochondrial targeting:**\n\n- Many proteins using the mitochondrial matrix presequence pathway contain an N-terminal **mitochondrial targeting sequence (MTS)**, also called a presequence: typically 15–40 amino acids, rich in positively charged (Arg) and hydrophobic residues, forming an amphipathic α-helix.\n- Import requires the **TOM complex** (Translocase of the Outer Membrane) and **TIM23 complex** (Translocase of the Inner Membrane).\n- Import is driven by the **membrane potential (ΔΨ)** across the inner mitochondrial membrane (negative inside) and by ATP hydrolysis by the Hsp70 homolog in the matrix (mtHsp70).\n- A cleavable matrix presequence is usually removed by MPP; some proteins retain targeting information.\n- Alternative routes include TOM/SAM for outer-membrane β-barrels, MIA for some intermembrane-space proteins, and TIM22 for many inner-membrane carriers. TIM23 and OXA pathways also contribute to inner-membrane protein insertion.\n\n**Chloroplast targeting** uses analogous transit peptides and TOC/TIC translocon complexes.\n\n### Nuclear Import and Export\n\nThe nucleus is surrounded by the nuclear envelope with **nuclear pore complexes (NPCs)**. Passive passage through NPCs becomes slower as molecular size increases and depends on shape and interactions; 40 kDa is a rough teaching guideline, not an absolute free-diffusion cutoff. Many larger cargos use transport receptors.\n\n- Classical **nuclear localization signals (NLS)** are sequences rich in basic residues (Lys, Arg), such as the classical monopartite NLS (PKKKRKV from SV40 T antigen). NLS sequences are not cleaved after import.\n- In the classical pathway, importin α recognizes the NLS and importin β mediates transport; other import receptors bind cargo directly. These receptors mediate docking at the NPC. **RanGTP** (high in the nucleus) drives release of cargo in the nucleus and recycling of importins back to the cytoplasm.\n- **Nuclear export signals (NES)** are leucine-rich sequences recognized by **exportins** (e.g., CRM1/exportin-1). RanGTP in the nucleus promotes export complex assembly; Ran hydrolyzes GTP in the cytoplasm with stimulation by RanGAP, promoting complex disassembly.\n\nThe Ran GTPase gradient (GTP in nucleus, GDP in cytoplasm) is the fundamental driving force for directional nuclear transport.\n\n### Peroxisomal Targeting\n\nMany peroxisomal matrix proteins carry a C-terminal **PTS1**, often SKL or a related motif, recognized by PEX5. A smaller group uses an N-terminal **PTS2** recognized by PEX7 with coreceptors. Peroxisomes can import folded cargo. Defects in peroxisome biogenesis or import can cause Zellweger-spectrum disorders; membrane-protein targeting uses additional machinery.\n\n---\n\n## Integration: How PTMs and Targeting Work Together\n\nThese processes do not operate in isolation. Consider a newly synthesized lysosomal enzyme:\n\n1. The signal peptide is recognized by SRP → co-translational insertion into the ER lumen.\n2. Signal peptide is cleaved; N-linked glycosylation occurs; protein folds with assistance from calnexin/calreticulin.\n3. Properly folded protein moves to Golgi via COPII vesicles.\n4. In cis-Golgi, mannose-6-phosphate is added to N-linked glycans.\n5. M6P receptor in TGN packages the enzyme into clathrin-coated vesicles.\n6. Vesicle fuses with late endosome; acidic pH causes M6P receptor to release the enzyme.\n7. Enzyme arrives in lysosome and is proteolytically activated.\n\nOr consider a signaling protein like the epidermal growth factor receptor (EGFR):\n\n1. Signal peptide directs co-translational insertion into ER membrane.\n2. Transmembrane domain halts translocation, anchoring EGFR in the lipid bilayer.\n3. N-linked glycosylation of the extracellular domain occurs in ER and Golgi.\n4. EGFR travels to the plasma membrane.\n5. Upon ligand binding, EGFR forms an active kinase arrangement and transphosphorylates sites chiefly in its cytoplasmic C-terminal tail, creating docking sites.\n6. Phosphotyrosines recruit SH2 domain-containing signaling proteins.\n7. Activated EGFR is ubiquitinated by Cbl E3 ligase → endocytosis → lysosomal degradation (signal termination).\n\n---\n\n## MCAT High-Yield Summary\n\nThe MCAT will test your ability to integrate these concepts across passages and discrete questions. Key points to internalize:\n\n**Protein folding:**\n- Anfinsen's experiment: RNase A can regain its native structure under suitable conditions; this does not mean every protein folds unaided in every environment.\n- Hydrophobic interactions help stabilize many globular proteins. Stable structural disulfides are favored in oxidizing compartments such as ER lumen; the cytosol is generally reducing.\n- Chaperones (Hsp70, Hsp90, chaperonins) prevent aggregation and use ATP.\n- Misfolding → amyloid diseases (Alzheimer's, Parkinson's).\n\n**PTMs and their residues:**\n- Phosphorylation: Ser, Thr, Tyr — kinases add, phosphatases remove; reversible.\n- Glycosylation: N-linked Asn glycans begin in ER; mucin-type O-glycans usually begin in Golgi, while O-GlcNAc is nucleocytoplasmic and collagen uses hydroxylysine glycans.\n- Ubiquitination: Lys residues; Lys48-linked polyubiquitin → proteasomal degradation.\n- Proteolytic cleavage: zymogens, prohormones, signal peptides — irreversible.\n- Hydroxylation of Pro/Lys in collagen requires vitamin C.\n\n**Protein targeting signals:**\n- ER: cleavable signal peptides or retained signal-anchors support targeting/insertion; SRP is one major pathway.\n- Mitochondrial matrix proteins commonly use a cleavable presequence and TOM/TIM23; other destinations use other targeting signals and pathways.\n- Nucleus: NLS (basic residues) → importins; not cleaved. NES (Leu-rich) → exportins.\n- Lysosomes: mannose-6-phosphate tag on glycoproteins in Golgi.\n- Peroxisomes: PTS1 → PEX5; PTS2 → PEX7 with coreceptors.\n- ER retention: KDEL sequence → COPI retrieval.\n\n**Disease connections:**\n- I-cell disease: defective M6P tagging → lysosomal enzymes secreted extracellularly.\n- Zellweger syndrome: defective peroxisomal import.\n- Scurvy: vitamin C deficiency → defective prolyl hydroxylase → weak collagen.\n- Cystic fibrosis: some variants, notably F508del, impair CFTR folding/trafficking; others affect gating, conductance, splicing or production.\n- Cancer: MDM2 overexpression → p53 ubiquitination and degradation → loss of tumor suppression.\n\nUnderstanding how a protein is made, modified, folded, and delivered is understanding how the cell maintains order. Each step is a potential regulatory point, a potential drug target, and a potential disease mechanism—exactly the kind of multi-layered reasoning the MCAT rewards."
+    },
+    {
+      "field": "questions.201.explanation",
+      "value": "Without any usable ER-targeting route under the stated conditions, the protein is synthesized on cytosolic ribosomes and initially remains in the cytosol (B). It may later be degraded. Alternative targeting routes exist in biology, but the question explicitly excludes them; normal Golgi processing requires access to the secretory pathway."
+    },
+    {
+      "field": "questions.201.question_text",
+      "value": "A soluble protein normally enters the conventional ER secretory pathway through its only N-terminal signal peptide. That signal is removed; no internal targeting signal, partner-mediated import or alternative pathway is available. Where is the newly made mutant most likely to remain initially?"
+    },
+    {
+      "field": "questions.203.explanation",
+      "value": "The specified degradation signal promotes recognition, unfolding and peptide cleavage by the 26S proteasome (B). Ubiquitin is recycled; other peptidases can further break peptides into amino acids. Ubiquitination has many other signaling and trafficking roles, so an unspecified ubiquitin chain alone would not establish this fate."
+    },
+    {
+      "field": "questions.203.question_text",
+      "value": "A soluble cytosolic protein gains a proteasome-targeting Lys48-linked ubiquitin chain and has an accessible region for unfolding. Which fate is most directly promoted?"
+    },
+    {
+      "field": "questions.204.explanation",
+      "value": "Hsp70 shields exposed hydrophobic segments and uses nucleotide-dependent binding cycles to reduce aggregation (B). It does not specify folding by phosphorylation or glycosylation. ER protein-disulfide isomerases can rearrange disulfides and may also have chaperone activity, but disulfide cleavage is not the defining Hsp70 mechanism asked here."
+    }
+  ]
+}

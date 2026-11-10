@@ -1,0 +1,265 @@
+{
+  "lessonId": 35,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    171,
+    172,
+    173,
+    174,
+    175
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26850/",
+      "title": "DNA replication mechanisms and error correction"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3007474/",
+      "title": "DnaB helicase translocates 5′ to 3′"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21925316/",
+      "title": "CMG leading-template 3′ to 5′ translocation"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15800630/",
+      "title": "Type IB controlled rotation"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36379932/",
+      "title": "Human Okazaki-fragment maturation pathways"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16420348/",
+      "title": "ATP and NAD-dependent ligases in archaea"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35830881/",
+      "title": "CST–Polα–primase telomere fill-in"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1211/",
+      "title": "GeneReviews: Lynch syndrome"
+    },
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/hydroxyurea",
+      "title": "NCI: hydroxyurea mechanism"
+    },
+    {
+      "url": "https://www.cancercareontario.ca/en/drugformulary/drugs/monograph/43901",
+      "title": "Cytarabine active triphosphate and polymerase inhibition"
+    }
+  ],
+  "visual": {
+    "title": "Replication polarity and primer maturation",
+    "src": "/lesson-diagrams/dna-replication.svg",
+    "width": 800,
+    "height": 740,
+    "alt": "Both daughter DNA strands grow 5′ to 3′. DnaB travels 5′ to 3′ along the bacterial lagging template; eukaryotic CMG travels 3′ to 5′ on the leading template. Primase supplies RNA, polymerase extends DNA, primer processing makes a ligatable nick, and ligase seals it. Telomerase extends the G strand and CST–Pol alpha primase fills in the C strand.",
+    "caption": "Template polarity, polymerase synthesis direction and helicase translocation are three different labels. Do not interchange them."
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "93abe13ab2e9e2314d99fc8ff96e7388b9f628798fbbc98bc25a844b93b496b3"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "f0dd95e733652412a8a6b3deed85c96653af9033b3991269e21450e8fd03ac14"
+    },
+    {
+      "field": "questions.171.question_text",
+      "sha256": "b9ad73387a014ae1b1368d117e5a40fb61ed0f8ee6769bd5ca1130a07854b622"
+    },
+    {
+      "field": "questions.171.choice_a",
+      "sha256": "2f841c7f245599fe0c1d969b2de2d81d8661a96abc086aebce27ce616dd556b4"
+    },
+    {
+      "field": "questions.171.choice_b",
+      "sha256": "b0f17126e2097134798a05cfc270213473f7e8a4df9e59ce023e8251e64d3f0c"
+    },
+    {
+      "field": "questions.171.choice_c",
+      "sha256": "3e224343cbd41c62911be2c93d5de84c76dfdd4827d0c1ebc3d87e23b0ae73a4"
+    },
+    {
+      "field": "questions.171.choice_d",
+      "sha256": "ed19731d9ad84d0da86cdfec196dfd84fbf7389572b0f9459490018ddbee249c"
+    },
+    {
+      "field": "questions.171.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.171.explanation",
+      "sha256": "34ab80a2e47ddc5ada9708d9e6d2376a591d15869ec2af1dcb05bb93ffddb7d6"
+    },
+    {
+      "field": "questions.172.question_text",
+      "sha256": "81dcbf4799505d063294bb165cb21802b47ac7b23f6f672ed87e4ac94ad1dd1e"
+    },
+    {
+      "field": "questions.172.choice_a",
+      "sha256": "1aad6572a384b8c92e535742fd13a04b54eda7c6995e06238a42505fd1b24cff"
+    },
+    {
+      "field": "questions.172.choice_b",
+      "sha256": "823b50732ab75ed10b8c140ee6af6aba8c8f0200acb400f74e6fd3f197bf3a5a"
+    },
+    {
+      "field": "questions.172.choice_c",
+      "sha256": "f646dbb300e2412e2747e454f9d89555354c35a609c1fee0f89f3f673a298f8b"
+    },
+    {
+      "field": "questions.172.choice_d",
+      "sha256": "17976779f5df08a8da28215dea28fcbc77e890661247b16fe3b1fe3473d83002"
+    },
+    {
+      "field": "questions.172.correct_answer",
+      "sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    },
+    {
+      "field": "questions.172.explanation",
+      "sha256": "d14f35061457bcadcfb74d1ba84860e31ff84674908faaea78a0045a04618642"
+    },
+    {
+      "field": "questions.173.question_text",
+      "sha256": "2d4365b0934e4c806b8d860b9deb46067f4eb79b4dc688fbeff8178bee6dc1a0"
+    },
+    {
+      "field": "questions.173.choice_a",
+      "sha256": "bef3578363323fc711423b578d493b333abbff33c0ff4f19481fd73f903d2356"
+    },
+    {
+      "field": "questions.173.choice_b",
+      "sha256": "e8375020b38334bfefd9bcfa2a542131cd5148c06ed482d4feccc757be8af0b5"
+    },
+    {
+      "field": "questions.173.choice_c",
+      "sha256": "d6a82dfad2e4467fe03eea2cf4e481fb6da0493be3b6d1b3739a952a2b543f2b"
+    },
+    {
+      "field": "questions.173.choice_d",
+      "sha256": "a8d25dfc126038347ff381a24f7110114ad3864863d0d6e989504572b19a17de"
+    },
+    {
+      "field": "questions.173.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.173.explanation",
+      "sha256": "8cdeda2601198f472e8809e76959a80b6576a7f8ca63dfd83341c9396e40acde"
+    },
+    {
+      "field": "questions.174.question_text",
+      "sha256": "ab06462d72c78ba2caeb337d80a78ae5995513800252bbc2884beafc9a79aa79"
+    },
+    {
+      "field": "questions.174.choice_a",
+      "sha256": "4313397fdb81389ba3f2f1d5cafb710bbbf3f88f5e4326d6f038170ccea9e6d3"
+    },
+    {
+      "field": "questions.174.choice_b",
+      "sha256": "ef459ef439aba4f51fc328c72a44461dc2ce3c5ef8f679a0769d55af3ac63dfb"
+    },
+    {
+      "field": "questions.174.choice_c",
+      "sha256": "f6a14841e07f4f9ca5054fb28d13e061f095c7b0cd7295cc938db14fecf71a2d"
+    },
+    {
+      "field": "questions.174.choice_d",
+      "sha256": "b687ff239b9096aa0c45b946ec01f03d957716cb6af1a310c80156f9eed48334"
+    },
+    {
+      "field": "questions.174.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.174.explanation",
+      "sha256": "51e69ff4aa23ec5a497573b685fe77b09de9a6744a0d5338f922913daca3a507"
+    },
+    {
+      "field": "questions.175.question_text",
+      "sha256": "d03a4f34de9a4d70e5040c0c70fb14745b65cbd9165cbb3fb48edd53a8b21f36"
+    },
+    {
+      "field": "questions.175.choice_a",
+      "sha256": "7f842483b6712a2bb04556551a49dc3f721c9eeb5858349322b55783c948bb4c"
+    },
+    {
+      "field": "questions.175.choice_b",
+      "sha256": "fb864b6dcfbb46730a355b2afe9e742a5f3510f26415c6529bd27c46823c6faa"
+    },
+    {
+      "field": "questions.175.choice_c",
+      "sha256": "a432ba42606b266728ab815c0e31e88db60374227e9ab4d5d625d5ef5e5b7b24"
+    },
+    {
+      "field": "questions.175.choice_d",
+      "sha256": "2eb630f2fa43fd3ca270586a4629d1ac171d7c4711f671503db5ae2af93ce9ca"
+    },
+    {
+      "field": "questions.175.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.175.explanation",
+      "sha256": "c75fd33cf829e4c39cc551f6f4ec507b56576eac8ad026562298023f6ecf7484"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## DNA Replication: Mechanism and Machinery\n\nDNA replication is one of the most fundamental processes in all of biology. Every time a cell divides, it must faithfully duplicate its entire genome so that each daughter cell receives a complete copy of the genetic information. The molecular machinery responsible for this task is extraordinarily precise—a commonly taught final error rate after nucleotide selection, proofreading **and mismatch repair** is approximately 1 per 10⁹–10¹⁰ nucleotides copied, with rates varying by system. Understanding the enzymes, protein complexes, and coordinated steps involved in DNA replication is essential for the MCAT, appearing in questions that range from straightforward enzyme identification to complex experimental reasoning about replication fidelity, inhibitors, and disease states.\n\n---\n\n## Core Principles of DNA Replication\n\nBefore examining the machinery in detail, three foundational principles must be firmly established.\n\n### Semiconservative Replication\n\nDNA replication is **semiconservative**, meaning each newly synthesized double helix consists of one original (parental) strand and one newly synthesized strand. This was definitively demonstrated by the **Meselson-Stahl experiment** (1958), in which bacteria were grown in heavy nitrogen (¹⁵N) medium and then switched to light nitrogen (¹⁴N). After one generation, all DNA had an intermediate density, consistent with one heavy and one light strand per molecule. After two generations, two density classes appeared—one intermediate and one fully light—ruling out conservative and dispersive models.\n\n### Antiparallel Synthesis\n\nThe two strands of a DNA double helix run antiparallel: one strand runs 5′→3′ while the complementary strand runs 3′→5′. DNA polymerases can only synthesize new DNA in the **5′→3′ direction**, adding nucleotides to the 3′-OH end of a growing strand. This constraint creates an asymmetry in how the two new strands are synthesized—one is made continuously, the other in fragments.\n\n### Requirement for a Primer\n\nUnlike RNA polymerases, DNA polymerases cannot initiate a new strand de novo. They can only *extend* an existing strand with a free 3′-OH group. In standard chromosomal replication, primase supplies an RNA primer (extended with DNA by eukaryotic Pol α). The general polymerase requirement is a suitable primer 3′-OH, which can also be supplied by a DNA primer in repair or laboratory synthesis; specialized replication systems have further exceptions. These primers are later removed and replaced with DNA.\n\n---\n\n## Origins of Replication\n\nReplication does not begin randomly along the chromosome. It initiates at **origins of replication**. Some organisms have well-defined origin sequences, while metazoan origin choice also depends strongly on chromatin and cellular context.\n\n### Prokaryotic Origins\n\nIn prokaryotes such as *Escherichia coli*, there is a single circular chromosome with one origin of replication called **oriC**. This sequence is approximately 245 base pairs long and is rich in AT base pairs, which often favor local opening; stacking and sequence context also determine duplex stability, not hydrogen-bond count alone. Replication proceeds **bidirectionally** from oriC, with two replication forks moving in opposite directions around the circular chromosome until they meet at a terminus region.\n\n### Eukaryotic Origins\n\nEukaryotic chromosomes are linear and vastly larger than prokaryotic chromosomes. To complete replication in a reasonable time, eukaryotes use **multiple origins of replication**—many thousands across the human genome, with numbers varying among chromosomes and cell types. These origins fire at different times during S phase, and replication bubbles from adjacent origins eventually merge. Each origin is licensed by the assembly of a **pre-replication complex (pre-RC)**, which includes the **Origin Recognition Complex (ORC)**, **Cdc6**, **Cdt1**, and the **MCM helicase complex**. Licensing and activation are regulated to ensure each origin fires **at most once** per cell cycle; many licensed origins are not used, preventing re-replication.\n\n---\n\n## The Replication Fork: Key Players\n\nThe **replication fork** is the Y-shaped region where the double helix is being unwound and new strands are being synthesized. A coordinated assembly of proteins—sometimes called the **replisome**—works at each fork.\n\n### Helicase\n\n**Helicase** is the enzyme responsible for separating DNA strands by disrupting noncovalent pairing and stacking interactions; it does not cut the phosphodiester backbone. It moves along one strand in a specific direction (**5′→3′** on the lagging-strand template in *E. coli*, using the energy of ATP hydrolysis). In *E. coli*, the primary replicative helicase is **DnaB**, a hexameric ring that encircles the lagging-strand template and translocates along it. In eukaryotes, MCM2–7 is the motor core of active **CMG** (Cdc45–MCM2–7–GINS), which translocates **3′→5′ along the leading-strand template**.\n\nHelicase activity generates positive supercoiling ahead of the replication fork as the helix is unwound. If this tension is not relieved, replication would stall.\n\n### Topoisomerases\n\n**Topoisomerases** relieve the torsional strain generated ahead of the replication fork.\n\n- **Type I topoisomerases** transiently cleave one strand. Type IB uses controlled rotation; type IA uses strand passage. Typical relaxation reactions are ATP-independent, but reverse gyrase is an ATP-dependent type IA-containing exception.\n- **Topoisomerase II** (including **gyrase** in prokaryotes) cuts both strands, passes another segment of DNA through the break, and religates. It requires ATP. Gyrase specifically introduces negative supercoils ahead of the replication fork, counteracting the positive supercoiling generated by helicase.\n\n*MCAT relevance*: Several antibiotics (e.g., fluoroquinolones like ciprofloxacin) target bacterial gyrase, and many chemotherapy agents (e.g., etoposide) target eukaryotic topoisomerase II. Understanding the mechanism explains the therapeutic and toxic effects.\n\n### Single-Strand Binding Proteins (SSBPs)\n\nAfter helicase unwinds the double helix, the separated strands have a tendency to re-anneal or form secondary structures. **Single-strand binding proteins (SSBPs)**—called **SSB** in prokaryotes and **RPA (Replication Protein A)** in eukaryotes—coat the single-stranded regions, stabilizing them and keeping them available as templates. SSBPs bind cooperatively and do not hydrolyze ATP; they are displaced as the polymerase advances.\n\n### Primase\n\n**Primase** is an RNA polymerase that synthesizes short RNA primers (approximately 5–15 nucleotides in prokaryotes; 8–12 nucleotides in eukaryotes) complementary to the DNA template. Unlike DNA polymerases, primase can initiate synthesis de novo without a pre-existing 3′-OH. In *E. coli*, primase is the **DnaG** protein. In eukaryotes, primase is physically associated with **DNA polymerase α** (Pol α) in a complex called **Pol α-primase**, which synthesizes the RNA primer and then extends it with a short stretch of DNA before handing off to the more processive polymerases.\n\n---\n\n## DNA Polymerases\n\nDNA polymerases are the central enzymes of replication. They catalyze the addition of deoxyribonucleoside triphosphates (dNTPs) to the 3′-OH of a growing strand, releasing pyrophosphate (PPi). The subsequent hydrolysis of PPi by pyrophosphatase makes the reaction thermodynamically favorable and essentially irreversible.\n\n### Prokaryotic DNA Polymerases\n\n*E. coli* has five DNA polymerases (Pol I–V), but three are most important for the MCAT.\n\n**DNA Polymerase III (Pol III)** is the primary replicative polymerase. It is a large, multisubunit holoenzyme with several key properties:\n\n- *Processivity*: Pol III can synthesize thousands of base pairs without dissociating from the template, largely due to its **β-clamp** (also called the sliding clamp), a ring-shaped protein that encircles the DNA and tethers Pol III to it.\n- *5′→3′ polymerase activity*: adds nucleotides to the growing chain.\n- *3′→5′ exonuclease activity*: proofreads by removing incorrectly incorporated nucleotides immediately after insertion. This activity reduces the error rate from approximately 1 in 10⁵ to 1 in 10⁷.\n- The **clamp loader** (γ complex) loads the β-clamp onto DNA in an ATP-dependent manner.\n\n**E. coli DNA Polymerase I (Pol I)** has the following activities:\n\n- *5′→3′ exonuclease activity*: removes RNA primers ahead of the polymerase as it fills in the gap with DNA. This is sometimes called **nick translation**.\n- *5′→3′ polymerase activity*: fills in the gap left after primer removal.\n- *3′→5′ exonuclease activity*: proofreading.\n\n**DNA Polymerase II** is involved primarily in DNA repair, not routine replication.\n\n### Eukaryotic DNA Polymerases\n\nEukaryotes have many more DNA polymerases, but five are most relevant:\n\n- **DNA Polymerase α (Pol α)**: Its associated primase synthesizes RNA; the Pol α catalytic subunit adds a short DNA extension. Has no proofreading exonuclease. Low processivity.\n- **DNA Polymerase δ (Pol δ)**: The primary lagging-strand polymerase and possibly involved in leading-strand synthesis as well. Has 3′→5′ proofreading exonuclease. Works with the **PCNA** sliding clamp (the eukaryotic equivalent of the β-clamp).\n- **DNA Polymerase ε (Pol ε)**: Currently thought to be the primary leading-strand polymerase. Has 3′→5′ proofreading exonuclease. High processivity with PCNA.\n- **DNA Polymerase β (Pol β)**: Involved in base excision repair, not replication.\n- **DNA Polymerase γ (Pol γ)**: Replicates mitochondrial DNA.\n\n**PCNA (Proliferating Cell Nuclear Antigen)** is the eukaryotic sliding clamp—a homotrimeric ring that dramatically increases polymerase processivity. PCNA is loaded by **RFC (Replication Factor C)**, the eukaryotic clamp loader.\n\n---\n\n## Leading- and Lagging-Strand Synthesis\n\nThe antiparallel nature of DNA and the unidirectional synthesis of DNA polymerase create a fundamental asymmetry at the replication fork.\n\n### Leading-Strand Synthesis\n\nThe **leading strand** is synthesized continuously in the same direction as fork movement. Because the template for the leading strand runs 3′→5′ in the direction of fork movement, the polymerase can simply follow the helicase and add nucleotides without interruption. In the simplified uninterrupted-fork model, one initial primer starts each leading strand. Repriming can occur when replication encounters obstacles.\n\n### Lagging-Strand Synthesis\n\nThe **lagging strand** is synthesized discontinuously in the direction *opposite* to fork movement. Because the lagging-strand template runs 5′→3′ in the direction of fork movement, the polymerase must work \"backward\" relative to fork progression. This is accomplished by synthesizing a series of short fragments called **Okazaki fragments**.\n\nEach Okazaki fragment requires:\n1. A new RNA primer synthesized by primase.\n2. Extension of that primer by DNA polymerase (Pol III in prokaryotes, Pol δ in eukaryotes).\n3. Removal of the RNA primer by Pol I (prokaryotes) or **RNase H** and **FEN1** (eukaryotes).\n4. Gap filling by DNA polymerase.\n5. Sealing of the nick by **DNA ligase**.\n\nIn *E. coli*, Okazaki fragments are 1,000–2,000 nucleotides long. In eukaryotes, they are shorter—typically 100–200 nucleotides—reflecting the more compact nucleosomal organization of chromatin.\n\n### Coordination at the Fork\n\nA key conceptual point is that both the leading- and lagging-strand polymerases operate simultaneously and in a coordinated fashion within the replisome. In the **trombone model** of replication, the lagging-strand template loops back on itself so that both polymerases can move in the same overall direction. When a lagging-strand polymerase completes an Okazaki fragment, it releases the template, the loop collapses, and a new loop forms as primase synthesizes the next primer.\n\n---\n\n## Primer Removal and Okazaki Fragment Maturation\n\nThe RNA primers must be completely removed and replaced with DNA for the genome to be faithfully replicated. In prokaryotes, **Pol I** uses its 5′→3′ exonuclease activity to degrade the RNA primer while simultaneously filling the gap with DNA (nick translation). In eukaryotes, the process is more complex:\n\n- **Pol δ** extends upstream DNA and can displace downstream RNA–DNA primer material into a 5′ flap.\n- **FEN1** cleaves short flaps, permitting maturation to a ligatable nick; its role is not limited to clipping exactly one ribonucleotide.\n- **RNase H enzymes** can assist RNA removal; longer-flap routes can involve DNA2. Their contributions depend on the system, so this is not one obligatory three-step sequence.\n\nAfter gap filling, a **nick** remains—a break in the phosphodiester backbone between the 3′-OH of the newly synthesized DNA and the 5′-phosphate of the adjacent fragment. **DNA ligase** seals this nick by forming a phosphodiester bond, using an adenylate donor: **E. coli LigA uses NAD⁺**, whereas eukaryotic ligases and many phage ligases use **ATP**. Other bacterial and archaeal ligases prevent a universal prokaryote-versus-eukaryote rule.\n\n---\n\n## DNA Ligase\n\n**DNA ligase** is essential for joining Okazaki fragments and for sealing nicks in DNA repair. The reaction mechanism involves:\n\n1. Ligase is adenylylated (AMP is transferred to the enzyme from NAD⁺ or ATP, releasing NMN or PPi).\n2. The AMP is transferred to the 5′-phosphate at the nick, activating it.\n3. The 3′-OH attacks the activated 5′-phosphate, forming the phosphodiester bond and releasing AMP.\n\nIdentify the ligase being discussed: E. coli LigA is NAD⁺-dependent, while the familiar eukaryotic DNA ligases are ATP-dependent. These donors are consumed during activation rather than acting as an unchanging structural cofactor.\n\n---\n\n## Termination of Replication\n\n### Prokaryotic Termination\n\nIn *E. coli*, replication terminates when the two replication forks meet at a **terminus region** (Ter sequences) on the opposite side of the circular chromosome from oriC. **Tus proteins** bind Ter sequences and act as replication fork traps, allowing forks to enter but not exit. When the two forks meet, the remaining gap is filled and ligated. The two daughter chromosomes are initially **catenated** (interlinked), and **topoisomerase IV** (a type II topoisomerase) decatenates them so they can segregate to daughter cells.\n\n### Eukaryotic Termination and the End-Replication Problem\n\nWhen two adjacent replication bubbles meet, the intervening DNA is replicated and ligated. However, at the ends of linear chromosomes, there is a fundamental problem: the **end-replication problem**. When the RNA primer at the very 5′ end of the lagging strand is removed, there is no upstream 3′-OH to prime synthesis of the complementary DNA. This means the chromosome would shorten with each round of replication.\n\nThe solution is **telomeres**—repetitive sequences (TTAGGG in humans, repeated thousands of times) at chromosome ends—and the enzyme **telomerase**.\n\n**Telomerase** is a specialized reverse transcriptase that contains its own RNA template (TERC, telomerase RNA component) complementary to the telomere repeat sequence. Telomerase extends the 3′ end of the parental strand by using its internal RNA as a template, then translocates and repeats the process. The extended G-rich strand provides a template for **CST-associated Pol α–primase** to fill in the complementary C-rich strand. A regulated 3′ overhang remains; telomere-end processing also contributes to the end-maintenance problem.\n\n- Telomerase activity varies, with expression in germline cells and subsets of stem/progenitor cells. It is not uniformly high in every stem cell.\n- Telomerase is largely inactive in most **somatic cells**, leading to progressive telomere shortening with each cell division—a proposed mechanism of cellular aging.\n- Telomerase is **reactivated in ~85–90% of cancers**, supporting telomere maintenance and proliferative potential; other cancers use alternative lengthening mechanisms. This makes telomerase an attractive cancer therapy target.\n\n---\n\n## Fidelity of DNA Replication\n\nThe overall fidelity of DNA replication is achieved through multiple layers of error correction:\n\n1. **Base selection**: DNA polymerase selects the correct dNTP through geometric complementarity and hydrogen bonding. Error rate at this step: ~1 in 10⁵.\n2. **Proofreading**: The 3′→5′ exonuclease activity of DNA polymerase removes mismatched 3′ nucleotides immediately after misincorporation. This reduces the error rate to ~1 in 10⁷.\n3. **Mismatch repair (MMR)**: Post-replication repair system that recognizes and corrects mismatches that escaped proofreading. The **MutS/MutL/MutH** system in *E. coli* (and **MSH/MLH** proteins in eukaryotes) scans newly replicated DNA, identifies mismatches, and excises and resynthesizes the incorrect strand. This brings the final error rate to ~1 in 10⁹–10¹⁰.\n\n*MCAT relevance*: Germline pathogenic variants affecting MLH1, MSH2, MSH6 or PMS2 (or certain EPCAM deletions that silence MSH2) can cause **Lynch syndrome**, a hereditary cancer predisposition. Tumor MMR deficiency can also be acquired without Lynch syndrome; MSI alone does not establish an inherited syndrome.\n\n---\n\n## Inhibitors of DNA Replication: Clinical Connections\n\nUnderstanding the machinery of replication helps explain how many clinically important drugs work.\n\n### Antibiotics Targeting Prokaryotic Replication\n\n- **Fluoroquinolones** (ciprofloxacin, levofloxacin): Inhibit bacterial **DNA gyrase** (topoisomerase II) and **topoisomerase IV**, preventing relaxation of supercoils and decatenation of daughter chromosomes. Selective for bacterial enzymes over eukaryotic topoisomerases.\n- **Aminoglycosides**: Primarily target the ribosome, but some affect replication indirectly.\n\n### Antivirals and Anticancer Inhibitors of DNA Synthesis\n\nSome drugs act as nucleotide analogues after intracellular phosphorylation; others reduce nucleotide supply without incorporation:\n\n- **Acyclovir**: A guanosine analogue used against herpes viruses. Initially phosphorylated by viral thymidine kinase and further phosphorylated by cellular enzymes; its triphosphate is a viral DNA polymerase substrate/inhibitor. Lacks a 3′-OH, causing **chain termination**.\n- **AZT (zidovudine)**: A thymidine analogue used in HIV treatment. Its intracellular triphosphate form is incorporated by HIV reverse transcriptase and terminates extension because the sugar lacks a 3′-OH.\n- **Cytarabine (Ara-C)**: Its active ara-CTP competes with dCTP, inhibits polymerase activity and impairs elongation after incorporation. Cytarabine retains a 3′-OH; do not explain it as the same missing-3′-OH mechanism as AZT.\n- **Hydroxyurea**: Inhibits **ribonucleotide reductase**, the enzyme that converts ribonucleoside diphosphates to deoxyribonucleoside diphosphates, depleting the dNTP pool.\n\n### Topoisomerase Inhibitors in Cancer\n\n- **Camptothecin and derivatives** (irinotecan, topotecan): Inhibit **topoisomerase I** by stabilizing the cleavage complex.\n- **Etoposide, doxorubicin**: Inhibit **topoisomerase II** by stabilizing the cleavage complex, causing double-strand breaks.\n\n---\n\n## Comparing Prokaryotic and Eukaryotic Replication\n\nA concise comparison is essential for MCAT success.\n\n| Feature | Prokaryotes (*E. coli*) | Eukaryotes |\n|---|---|---|\n| Origins | Single (oriC) | Multiple (thousands) |\n| Chromosome | Circular | Linear |\n| Replicative helicase | DnaB (5′→3′ on lagging template) | CMG, with MCM2–7 motor (3′→5′ on leading template) |\n| Primase | DnaG (free enzyme) | Pol α-primase complex |\n| Main replicative Pol | Pol III | Pol ε (leading), Pol δ (lagging) |\n| Sliding clamp | β-clamp (homodimer) | PCNA (homotrimer) |\n| Clamp loader | γ complex | RFC |\n| Primer maturation | Pol I, with additional RNase contributions | Pol δ displacement + FEN1; RNase H/DNA2 can contribute |\n| Okazaki fragment size | 1,000–2,000 nt | 100–200 nt |\n| Ligase cofactor | NAD⁺ | ATP |\n| End-replication solution | Circular chromosome | Telomerase |\n\n---\n\n## MCAT Strategy: High-Yield Points\n\nThe MCAT tests conceptual understanding and the ability to apply mechanistic knowledge to novel experimental scenarios. Key points to internalize:\n\n- **Directionality**: DNA polymerase synthesizes 5′→3′. The leading strand is synthesized continuously; the lagging strand is synthesized as Okazaki fragments. Know which template strand runs which direction.\n- **Primers**: Standard chromosomal initiation and each Okazaki fragment use primase-generated RNA. Polymerase extension requires a suitable 3′-OH, not an RNA-only primer in every setting.\n- **Proofreading vs. repair**: Proofreading is associated 3′→5′ exonuclease activity during synthesis; in E. coli Pol III it resides in the ε subunit. Mismatch repair acts on recently synthesized DNA and need not wait for the entire chromosome to finish.\n- **Telomerase**: It is a reverse transcriptase (RNA-dependent DNA polymerase). It extends the 3′ overhang of the template strand, not the lagging strand directly.\n- **Energy**: dNTP hydrolysis (releasing PPi) drives polymerization. E. coli LigA uses NAD⁺; eukaryotic ligases use ATP. Replicative helicases and type II topoisomerases use ATP. Typical type I relaxation does not, with reverse gyrase an exception.\n- **PCNA and β-clamp**: These sliding clamps dramatically increase processivity. Questions about processivity often relate to these proteins.\n- **Experimental reasoning**: In a Meselson-Stahl-style question, be able to predict the density of DNA bands after n generations with any replication model. After one generation of semiconservative replication, 100% of DNA is hybrid density. After two generations, 50% hybrid and 50% light.\n\n---\n\n## Summary\n\nDNA replication is a tightly orchestrated process requiring the coordinated action of dozens of proteins. At each replication fork, **helicase** unwinds the double helix, **SSBPs** stabilize the single-stranded template, and **topoisomerases** relieve torsional stress. **Primase** synthesizes RNA primers, and **DNA polymerase** extends them in the 5′→3′ direction with high fidelity, aided by associated proofreading activity in the major elongating replicases; Pol α lacks its own proofreading and a sliding clamp that confers processivity. The leading strand is synthesized continuously, while the lagging strand is made as Okazaki fragments that are subsequently matured by primer removal, gap filling, and **ligase**-mediated nick sealing. Eukaryotes solve the end-replication problem with **telomerase**, a reverse transcriptase that maintains telomere length in dividing cells. Differences between prokaryotic and eukaryotic replication machinery are clinically exploited by antibiotics, antivirals, and chemotherapeutics. Mastery of these mechanisms—including the specific enzymes, their activities, and the logic of leading- versus lagging-strand synthesis—provides a strong foundation for tackling even the most challenging MCAT questions in molecular biology."
+    },
+    {
+      "field": "questions.171.choice_b",
+      "value": "Maturation of lagging-strand Okazaki fragments into a continuous all-DNA daughter strand."
+    },
+    {
+      "field": "questions.171.explanation",
+      "value": "B follows directly: RNA primer segments must be processed and replaced for a continuous all-DNA lagging strand to mature. The treatment does not itself prevent primase from making initial primers or helicase/topoisomerase from acting. Primer-removal defects can ultimately disrupt fork progression, but that is distinct from directly inhibiting those enzymes."
+    },
+    {
+      "field": "questions.171.question_text",
+      "value": "In an E. coli culture, a treatment blocks RNA-primer removal without blocking primer synthesis or initial polymerase elongation. Which process is most directly impaired?"
+    },
+    {
+      "field": "questions.172.choice_a",
+      "value": "It needs a suitable primer 3′-OH and cannot start a new DNA chain de novo on the downstream template."
+    },
+    {
+      "field": "questions.172.choice_d",
+      "value": "Every DNA polymerase is incapable of extending across any damaged nucleotide."
+    },
+    {
+      "field": "questions.172.correct_answer",
+      "value": "A"
+    },
+    {
+      "field": "questions.172.explanation",
+      "value": "A is correct for the stated assay: Pol δ cannot initiate a fresh chain on an unprimed downstream template. In cells, repriming or specialized translesion polymerases can help bypass obstacles. It is false that every polymerase requires an entirely undamaged template. Synthesis remains 5′→3′, and damage does not automatically remove PCNA."
+    },
+    {
+      "field": "questions.172.question_text",
+      "value": "Purified DNA polymerase δ stalls at a blocking lesion. No primase, downstream primer or specialized bypass polymerase is present. Why can it not simply restart synthesis farther downstream on the bare template?"
+    },
+    {
+      "field": "questions.173.question_text",
+      "value": "A mutation abolishes proofreading by the ε subunit of E. coli DNA polymerase III while preserving its polymerization activity. What outcome is expected?"
+    },
+    {
+      "field": "questions.174.choice_b",
+      "value": "Primase; a single-stranded DNA template and ribonucleoside triphosphates (NTPs)."
+    },
+    {
+      "field": "questions.175.choice_b",
+      "value": "Multiple origins allow many forks to copy a large genome in parallel within the available S phase."
+    },
+    {
+      "field": "questions.175.explanation",
+      "value": "B explains the time benefit of parallel replication. At a given fork speed, multiple origins reduce the distance each fork must copy. Linear shape alone does not require multiple origins, and the E. coli comparison is not a universal description of all prokaryotes; some archaeal chromosomes use multiple origins. Histones influence replication but do not require an origin at every nucleosome."
+    }
+  ]
+}

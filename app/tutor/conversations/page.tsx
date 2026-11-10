@@ -16,10 +16,10 @@ function Logo() {
   return (
     <div className="flex items-center gap-2.5">
       <svg width="36" height="20" viewBox="0 0 60 28" fill="none" className="flex-shrink-0">
-        <path d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14" stroke="#a8324a" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-        <circle cx="50" cy="14" r="2.2" fill="#a8324a" />
+        <path d="M2 14 L12 14 L16 6 L22 22 L28 4 L34 18 L38 14 L48 14" stroke="#245574" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+        <circle cx="50" cy="14" r="2.2" fill="#245574" />
       </svg>
-      <span className="font-serif font-semibold text-[22px] tracking-tight text-[#0c1a2e]">Vitalis</span>
+      <span className="font-sans font-semibold text-[22px] tracking-tight text-[#0c1a2e]">Vitalis</span>
     </div>
   );
 }
@@ -87,24 +87,24 @@ export default function ConversationsPage() {
         <Logo />
         <div className="hidden md:flex gap-6 text-sm font-medium">
           <Link href="/" className="opacity-60 hover:opacity-100">Home</Link>
-          <Link href="/tutor" className="opacity-100 border-b border-[#a8324a] pb-0.5">Tutor</Link>
+          <Link href="/tutor" className="opacity-100 border-b border-[#245574] pb-0.5">Tutor</Link>
           <Link href="/practice" className="opacity-60 hover:opacity-100">Practice</Link>
           <Link href="/flashcards" className="opacity-60 hover:opacity-100">Flashcards</Link>
           <Link href="/voice-cases" className="opacity-60 hover:opacity-100">Voice Cases</Link>
           <Link href="/score-calculator" className="opacity-60 hover:opacity-100">Score Calc</Link>
         </div>
-        <div className="font-mono text-[11px] tracking-[0.12em] uppercase opacity-50">Past Chats</div>
+        <div className="font-sans text-[11px] tracking-[0.12em] uppercase opacity-50">Past Chats</div>
       </header>
 
       <section className="px-10 pt-10 pb-6 border-b border-[#0c1a2e15]">
-        <div className="font-mono text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
+        <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
           <span className="w-10 h-px bg-[#0c1a2e] opacity-40" />
           Tutor history
         </div>
         <div className="flex items-end justify-between gap-6 flex-wrap">
           <div>
-            <h1 className="font-serif font-normal leading-[0.95] tracking-[-0.03em] text-[clamp(40px,5vw,72px)]">
-              Past <span className="italic font-light text-[#a8324a]">conversations.</span>
+            <h1 className="font-sans font-normal leading-[0.95] tracking-[-0.03em] text-[clamp(40px,5vw,72px)]">
+              Past <span className="italic font-light text-[#245574]">conversations.</span>
             </h1>
             <p className="text-[14px] opacity-70 mt-3 max-w-xl">
               Pick up where you left off. Conversations save automatically when you&apos;re signed in.
@@ -112,7 +112,7 @@ export default function ConversationsPage() {
           </div>
           <Link
             href="/tutor"
-            className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
+            className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a]"
           >
             + New chat
           </Link>
@@ -127,16 +127,16 @@ export default function ConversationsPage() {
               <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.15s" }} />
               <span className="w-2 h-2 rounded-full bg-[#0c1a2e] animate-bounce" style={{ animationDelay: "0.3s" }} />
             </div>
-            <div className="font-mono text-[11px] uppercase tracking-[0.12em] opacity-60">Loading...</div>
+            <div className="font-sans text-[11px] uppercase tracking-[0.12em] opacity-60">Loading...</div>
           </div>
         )}
 
         {!loading && error && (
           <div className="text-center py-12 max-w-md mx-auto">
-            <div className="text-[#a8324a] text-sm mb-4">{error}</div>
+            <div className="text-[#245574] text-sm mb-4">{error}</div>
             <Link
               href="/sign-in"
-              className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a] inline-block"
+              className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a] inline-block"
             >
               Sign in →
             </Link>
@@ -145,13 +145,13 @@ export default function ConversationsPage() {
 
         {!loading && !error && conversations.length === 0 && (
           <div className="text-center py-16 max-w-md mx-auto">
-            <h2 className="font-serif text-2xl font-medium mb-3">No past conversations yet.</h2>
+            <h2 className="font-sans text-2xl font-medium mb-3">No past conversations yet.</h2>
             <p className="text-[14px] opacity-65 mb-6">
               Start chatting with the tutor and your conversations will appear here.
             </p>
             <Link
               href="/tutor"
-              className="font-mono text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a] inline-block"
+              className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-5 py-3 rounded-full hover:bg-[#1a2c4a] inline-block"
             >
               Start a chat →
             </Link>
@@ -169,7 +169,7 @@ export default function ConversationsPage() {
                   href={`/tutor?c=${conv.id}`}
                   className="flex-1 min-w-0"
                 >
-                  <div className="font-serif text-[17px] font-medium mb-1.5 leading-snug truncate">
+                  <div className="font-sans text-[17px] font-medium mb-1.5 leading-snug truncate">
                     {conv.title}
                   </div>
                   {conv.first_message && (
@@ -177,7 +177,7 @@ export default function ConversationsPage() {
                       {conv.first_message}
                     </div>
                   )}
-                  <div className="flex items-center gap-3 font-mono text-[10px] tracking-[0.1em] uppercase opacity-50">
+                  <div className="flex items-center gap-3 font-sans text-[10px] tracking-[0.1em] uppercase opacity-50">
                     <span>{formatRelativeDate(conv.updated_at)}</span>
                     <span>·</span>
                     <span>{conv.message_count} messages</span>
@@ -185,7 +185,7 @@ export default function ConversationsPage() {
                 </Link>
                 <button
                   onClick={() => handleDelete(conv.id, conv.title)}
-                  className="font-mono text-[10px] tracking-[0.1em] uppercase opacity-30 hover:opacity-100 hover:text-[#a8324a] transition-opacity flex-shrink-0"
+                  className="font-sans text-[10px] tracking-[0.1em] uppercase opacity-30 hover:opacity-100 hover:text-[#245574] transition-opacity flex-shrink-0"
                 >
                   Delete
                 </button>

@@ -1,0 +1,258 @@
+{
+  "lessonId": 49,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    241,
+    242,
+    243,
+    244,
+    245
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21114/",
+      "title": "NCBI Genomes: Mutation, repair and recombination"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1352/",
+      "title": "GeneReviews: Spinal muscular atrophy"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41431-020-0643-7",
+      "title": "EMQN guidelines: Genetic testing in dystrophinopathies"
+    },
+    {
+      "url": "https://www.nichd.nih.gov/health/topics/down/conditioninfo/causes",
+      "title": "NICHD: Causes of Down syndrome"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics",
+      "title": "NCI: Genetics of cancer"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1397/",
+      "title": "GeneReviews: Xeroderma pigmentosum"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15590329/",
+      "title": "Primary study: DNA polymerase eta and UV mutation spectra"
+    }
+  ],
+  "visual": {
+    "title": "Read the sequence before predicting the effect",
+    "src": "/lesson-diagrams/mutation-consequences.svg",
+    "width": 960,
+    "height": 820,
+    "alt": "Aligned mRNA codons show a synonymous change, a missense change, a premature stop and a one-base deletion shifting downstream codons.",
+    "caption": "Sequences are read 5′ to 3′ within one coding frame. Consequences depend on context; a sequence change does not guarantee loss of function.",
+    "beforeHeading": "Causes of Mutations"
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "47c2ce71d8cc22b00264c1522639749161d26efe504fe83c2cd9d546b238f631"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "8ddc7789166b7261d51dc3dae194ba0620cf7e3b655b56ed91dbf0a31ca8c63d"
+    },
+    {
+      "field": "questions.241.question_text",
+      "sha256": "93a2d849f567eaf7e7903e83eb36f8ed221ca1cb3addb83fa42cbd2699aaa2fe"
+    },
+    {
+      "field": "questions.241.choice_a",
+      "sha256": "1784aa0f8739552496d610213bfbf6aa158b653cb1a85e7a842abd1c4fa33db9"
+    },
+    {
+      "field": "questions.241.choice_b",
+      "sha256": "01d9e2462e718fe5d66f37cc2ecdeaca93f5075a60f18ed1913e11de3e199fb2"
+    },
+    {
+      "field": "questions.241.choice_c",
+      "sha256": "e5a47603c3fc49a87357e101698355bca12a3c38d0d83fce475b7c4472f81830"
+    },
+    {
+      "field": "questions.241.choice_d",
+      "sha256": "8cb2f814e6d5706be2cbddd4c21421fa3caac0a1145268ba5b7aae84f7549f3f"
+    },
+    {
+      "field": "questions.241.correct_answer",
+      "sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    },
+    {
+      "field": "questions.241.explanation",
+      "sha256": "ec8f046ad137d015909e4c5cbc4287a86daf5df15465e585e9b031e7a4733615"
+    },
+    {
+      "field": "questions.242.question_text",
+      "sha256": "7b2e8ae931285f0ebd1be38e11ffa41b8de2beaf8496af3f25bf4bfe014c270a"
+    },
+    {
+      "field": "questions.242.choice_a",
+      "sha256": "85fb1bca1bd86ca89bafa6d1f961166212211c47d0066f8ffc715347edd494ae"
+    },
+    {
+      "field": "questions.242.choice_b",
+      "sha256": "8389ada7f3716b2cf3b14280594a045f75fbcacd3d27c3c5c499b86f85e00200"
+    },
+    {
+      "field": "questions.242.choice_c",
+      "sha256": "67af40e776a7b57e5e80f7feaac5243d319eb03819ee20a6e1a62953e57789ca"
+    },
+    {
+      "field": "questions.242.choice_d",
+      "sha256": "51d26bad2952f2b05173bf3147520cada96b5893d93c991c90a5bbc9ba2bc92e"
+    },
+    {
+      "field": "questions.242.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.242.explanation",
+      "sha256": "6b0c6ceb91a412b1df7d37c0d2767c2b1f0f46c50bc3949e1ccfbfa64039f2be"
+    },
+    {
+      "field": "questions.243.question_text",
+      "sha256": "e7b8ec525ef11b74c1efe91bb98095c767fe97048e907b0bf4613e4b6c30bf59"
+    },
+    {
+      "field": "questions.243.choice_a",
+      "sha256": "74d8ee0ee24acd261be98ac80bd5b026ff1d2eb025a72d79bcf745f8c9704007"
+    },
+    {
+      "field": "questions.243.choice_b",
+      "sha256": "522a81ee71912d3a246ac55c262146b3bccd9c113610243dead9f31c64a2cb6a"
+    },
+    {
+      "field": "questions.243.choice_c",
+      "sha256": "61a7911977a4e5a6893c14b976b4fc2698b6974dfe68b296f31272fd3ef8fdf8"
+    },
+    {
+      "field": "questions.243.choice_d",
+      "sha256": "d6a1856780c59a142faa3142344f79b1682ed4b06e1a272a2a5249e8ecfe705d"
+    },
+    {
+      "field": "questions.243.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.243.explanation",
+      "sha256": "a5607ba87d6d5e1c473ee4f38e75acaacb15558da9e0ebe0b945d9935f978967"
+    },
+    {
+      "field": "questions.244.question_text",
+      "sha256": "0f5f528a9f8f6388bba798dab274f08323194dc0623a0b09b38523b8fff37780"
+    },
+    {
+      "field": "questions.244.choice_a",
+      "sha256": "d6bcbd1b97359d8561103c49ceb71264ade47c22c404df6ff8e6b0cf6e17bf3c"
+    },
+    {
+      "field": "questions.244.choice_b",
+      "sha256": "b77907e478c1d8b52eff3704df86a827231263185aefd931a04e54ba0cc5075e"
+    },
+    {
+      "field": "questions.244.choice_c",
+      "sha256": "795649f4d3c4b3808c04ea5672618101ad7433b3ab1ccae3a095cb9891eda22c"
+    },
+    {
+      "field": "questions.244.choice_d",
+      "sha256": "e7ab22ec416b845ef4764786a43bd772b24c564df8d5b5488e37ee9143e393a3"
+    },
+    {
+      "field": "questions.244.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.244.explanation",
+      "sha256": "8b7e73a9d7a45327bf740a02bce681acd77315c266d556ffb11449f8716463bf"
+    },
+    {
+      "field": "questions.245.question_text",
+      "sha256": "c940fc8568d69d4eec1607b1a1f1eacf43d67e244a11b818b7972516b672a14c"
+    },
+    {
+      "field": "questions.245.choice_a",
+      "sha256": "3f497c7cd1c727d8771ece0aee1f239e01aade56dbdb5edad704906d70cfc5f6"
+    },
+    {
+      "field": "questions.245.choice_b",
+      "sha256": "4fe647806eb4f93e4015639c33eaf2ab743260f45d309e158e12716d757d1336"
+    },
+    {
+      "field": "questions.245.choice_c",
+      "sha256": "c58a1be129f876212c663bc3cf4f77e312145613a52780036a5337105e2caab5"
+    },
+    {
+      "field": "questions.245.choice_d",
+      "sha256": "8773127ee37f22432aa6b724ad7811c8e4c7f83c4073a7a8d68863b673ad63d3"
+    },
+    {
+      "field": "questions.245.correct_answer",
+      "sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+    },
+    {
+      "field": "questions.245.explanation",
+      "sha256": "4b9a2d986a072535019e364230603d80b59a4d101a5a4a0cb9ff4b93895ba070"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "# Mutations: Types, Causes, and Molecular Consequences\n\n## Introduction and MCAT Relevance\n\nA mutation is a change in DNA sequence. It may be passed to daughter cells; transmission to offspring requires involvement of the reproductive lineage. They are the raw material of evolution, the molecular basis of genetic disease, and a central concept tested throughout the MCAT. Questions on mutations appear in every context: biochemistry passages about enzyme dysfunction, genetics problems involving inheritance patterns, and experimental passages asking you to predict how a single base change will alter protein structure or function.\n\nUnderstanding mutations requires you to think at multiple levels simultaneously — the DNA sequence, the mRNA codon, the amino acid sequence, and ultimately the protein's three-dimensional structure and physiological function. The MCAT rewards students who can move fluidly between these levels, predicting consequences from first principles rather than memorizing isolated facts.\n\nThis lesson covers the major categories of mutations (point mutations, frameshift mutations, and chromosomal mutations), their molecular causes, and their downstream consequences on gene expression and protein function.\n\n---\n\n## The Genetic Code: Essential Background\n\nBefore cataloguing mutations, you must be fluent with the genetic code. The code is:\n\n- **Triplet**: each codon consists of three nucleotides\n- **Non-overlapping**: codons are read sequentially without sharing nucleotides\n- **Degenerate (redundant)**: most amino acids are encoded by more than one codon\n- **Nearly universal**: the standard code is widely shared, with alternative codes in some organelles and organisms\n\nThe degeneracy of the genetic code is critical for understanding mutation consequences. Because there are 64 possible codons but only 20 standard amino acids plus three stop codons, many synonymous codons exist. For example, leucine is encoded by six codons (UUA, UUG, CUU, CUC, CUA, CUG), while methionine and tryptophan each have only one codon (AUG and UGG, respectively). This redundancy means that not all nucleotide changes alter the amino acid sequence — a fact that underlies the concept of silent mutations.\n\n---\n\n## Point Mutations\n\nA **point mutation** is a change in a single nucleotide base pair. Here, point substitution means replacement of one base pair; insertion/deletion variants are considered separately. They are subdivided by the type of nucleotide change and by their functional consequence.\n\n### Substitution Types: Transitions and Transversions\n\n**Transitions** are substitutions between chemically similar bases:\n- Purine to purine: A ↔ G\n- Pyrimidine to pyrimidine: C ↔ T (or C ↔ U in RNA)\n\n**Transversions** are substitutions between chemically dissimilar bases:\n- Purine to pyrimidine: A ↔ C, A ↔ T, G ↔ C, G ↔ T\n\nAlthough there are twice as many possible transversions as transitions, transitions are often more frequent, with the bias depending on sequence context, damage processes and repair; methylated-cytosine deamination is one important contributor. This is a nuance occasionally tested in MCAT experimental passages.\n\n### Functional Consequences of Point Mutations\n\nThe impact depends on its location and molecular effect; noncoding substitutions can change regulation or splicing without changing a codon. There are four major categories:\n\n#### Silent (Synonymous) Mutations\n\nA **silent mutation** changes a nucleotide in a codon but does not change the amino acid that is incorporated into the protein. For example, if the codon UCU (serine) mutates to UCC, the amino acid serine is still inserted because UCC also codes for serine.\n\nSilent mutations are possible because of the degeneracy of the genetic code. The third position of a codon is especially tolerant of changes — a pattern related to code degeneracy; **wobble** specifically describes flexible pairing at the third codon/first anticodon position — because many synonymous codons differ only at the third base. However, \"silent\" is not synonymous with \"harmless.\" Silent mutations can:\n\n- Alter mRNA secondary structure, affecting translation efficiency\n- Change splice-site recognition sequences (discussed below)\n- Alter codon usage, affecting the rate of translation in organisms with codon bias\n\nFor MCAT purposes, the key point is that silent mutations do not change the amino acid sequence and typically do not alter protein function.\n\n#### Missense Mutations\n\nA **missense mutation** changes a codon so that a *different* amino acid is incorporated into the protein. The consequences range from negligible to catastrophic, depending on where the substitution occurs and how chemically different the new amino acid is from the original.\n\nThe classic MCAT example is **sickle cell disease**, caused by a single missense mutation in the β-globin gene. On the coding DNA strand, GAG becomes GTG; the corresponding mRNA change is GAG to GUG. This replaces glutamate with valine at residue 6 of mature β-globin (residue 7 when counting the initiator methionine). This single substitution replaces a charged, hydrophilic amino acid with a nonpolar, hydrophobic one. The result: HbS molecules polymerize under low-oxygen conditions, distorting red blood cells into a sickle shape. This one nucleotide change produces a disease affecting millions of people worldwide.\n\nMissense mutations are categorized by their chemical impact:\n\n- **Conservative missense mutations**: The new amino acid is chemically similar to the original (e.g., isoleucine replacing valine — both nonpolar aliphatic). These often have minimal or no functional effect.\n- **Non-conservative missense mutations**: The new amino acid is chemically dissimilar (e.g., glycine replacing arginine — neutral nonpolar replacing positively charged). These can disrupt protein function; the effect depends on the residue’s position, structural role and the function being measured.\n\nWhen evaluating a missense mutation on the MCAT, ask: Is the substitution in the active site? In a region critical for folding? Does it change the charge or polarity of the local environment? A missense mutation in a surface loop far from the active site may be tolerated; the same type of substitution at a catalytic residue may completely abolish enzymatic activity.\n\n#### Nonsense Mutations\n\nA **nonsense mutation** converts an amino acid codon into one of the three stop codons: UAA, UAG, or UGA. If the transcript is translated, this creates **premature termination**; surveillance may instead reduce the transcript before much truncated protein accumulates.\n\nTruncation can impair function for several reasons:\n- They lack C-terminal domains essential for function\n- They are often misfolded and rapidly degraded by the proteasome\n- They may act as dominant negatives, interfering with normal protein function\n\nThe severity of a nonsense mutation depends on its position. A nonsense mutation near the 3' end of the coding sequence may produce a nearly full-length protein that retains partial function. A nonsense mutation near the 5' end produces a very short, almost certainly nonfunctional peptide.\n\nMany, but not all, transcripts with premature termination codons are subject to **nonsense-mediated mRNA decay (NMD)**, a cellular surveillance mechanism that degrades mRNAs containing premature stop codons. NMD prevents the accumulation of potentially toxic truncated proteins but also means that the overall amount of protein produced is reduced.\n\n#### Splice-Site Mutations\n\n**Splice-site variants**, which may be substitutions or larger changes, deserve special attention because their mechanism and consequences are distinct. Pre-mRNA splicing requires precise recognition of consensus sequences at the 5' splice site (donor site) and 3' splice site (acceptor site) of each intron. The canonical 5' splice site begins with GU and the 3' splice site ends with AG — the **GU-AG rule**.\n\nA point mutation at or near these consensus sequences can:\n- Cause **exon skipping**: the spliceosome fails to recognize the mutated splice site and skips the adjacent exon\n- Cause **intron retention**: the intron is not removed; the RNA may be retained, degraded, or translated if exported and otherwise competent\n- Activate **cryptic splice sites**: nearby sequences that resemble splice sites are used instead, producing aberrant mRNAs\n\nSplicing changes can alter reading frame, add or remove residues, or change RNA stability. In 5q spinal muscular atrophy, the primary defect is biallelic loss of SMN1 function, commonly deletion/conversion involving exon 7. SMN2 differs in splicing regulation and often skips exon 7; its copy number and full-length output modify severity. SMA is not simply a generic SMN1 splice-site mutation disorder.\n\n---\n\n## Frameshift Mutations\n\n**Frameshift mutations** result from insertions or deletions within a translated coding region whose lengths are *not* multiples of three. Because the ribosome reads mRNA in sequential, non-overlapping triplets, adding or removing one or two nucleotides shifts the reading frame for all codons downstream of the mutation.\n\nThe consequences are typically severe:\n- Downstream codon boundaries change; many residues differ, although individual amino acids can coincide by chance\n- A new stop codon is often encountered prematurely in the shifted frame, producing a truncated protein\n- The downstream sequence usually changes substantially; a second compensating indel can restore the original frame later\n\n### Insertions vs. Deletions\n\nBoth insertions and deletions cause frameshifts when the number of nucleotides involved is not divisible by three:\n\n- **+1 or +2 insertion**: shifts the reading frame\n- **+3 insertion**: adds one amino acid without shifting the frame (in-frame insertion)\n- **-1 or -2 deletion**: shifts the reading frame\n- **-3 deletion**: removes one amino acid without shifting the frame (in-frame deletion)\n\nIn-frame insertions and deletions preserve the downstream reading frame but can still be severely disruptive. They add or remove one or more amino acids but preserve the reading frame for the rest of the protein. The functional consequence depends on whether the added/removed amino acid is in a critical region.\n\n### Duchenne vs. Becker Muscular Dystrophy: A Perfect MCAT Example\n\nThe distinction between frameshift and in-frame mutations beautifully explains the difference between two X-linked muscular dystrophies:\n\n- **Duchenne muscular dystrophy (DMD)**: often results from variants that disrupt the reading frame or introduce premature stops, leaving little or no functional dystrophin. Other variant classes also cause DMD.\n- **Becker muscular dystrophy (BMD)**: often involves in-frame variants allowing partially functional dystrophin. The reading-frame rule is useful but has documented exceptions.\n\nReading frame is an important predictor, not a complete diagnosis. Affected domains, RNA splicing and residual protein expression also matter.\n\n---\n\n## Causes of Mutations\n\nMutations arise from two broad sources: errors during normal cellular processes (endogenous causes) and damage from external agents (exogenous causes).\n\n### Endogenous Causes\n\n**Replication errors** are the most common source of spontaneous mutations. DNA polymerase has an intrinsic error rate of approximately 1 in 10^5 nucleotides, but proofreading activity (3'→5' exonuclease) reduces this to about 1 in 10^7. Mismatch repair further reduces the final error rate to approximately 1 in 10^9–10^10. When any of these systems fail, mutation rates increase dramatically — a hallmark of many cancers.\n\n**Spontaneous chemical changes** include:\n\n- **Depurination**: hydrolysis of the glycosidic bond between a purine base (A or G) and the deoxyribose sugar, creating an abasic (AP) site. If not repaired, the AP site can cause insertion of an incorrect nucleotide during replication.\n- **Deamination**: removal of an amino group from a base. The most consequential example is deamination of cytosine to uracil. If uracil is not removed by uracil-DNA glycosylase before replication, it pairs with adenine, converting a C:G base pair to a T:A pair — a transition mutation. Deamination of 5-methylcytosine produces thymine (not uracil), which creates a T:G mismatch that can be repaired by enzymes such as TDG and MBD4; less efficient recognition of a normal DNA base contributes to CpG **mutational hotspots**.\n- **Tautomeric shifts**: transient changes in base structure that alter hydrogen bonding properties, causing mispairing during replication.\n\n**Reactive oxygen species (ROS)**, generated as byproducts of oxidative phosphorylation, can oxidize guanine to **8-oxoguanine**, which mispairs with adenine instead of cytosine, causing G:C → T:A transversions.\n\n### Exogenous Causes (Mutagens)\n\n**Physical mutagens:**\n\n- **UV radiation** causes the formation of **pyrimidine dimers** (primarily thymine dimers), where adjacent thymine bases on the same strand form covalent bonds. These distort the DNA helix and block replication. Nucleotide excision repair (NER) removes these lesions; defects in NER cause **xeroderma pigmentosum**, characterized by extreme UV sensitivity and a dramatically elevated risk of skin cancer.\n- **Ionizing radiation** (X-rays, gamma rays) causes double-strand breaks and base oxidation. Double-strand breaks are repaired by homologous recombination or non-homologous end joining (NHEJ); NHEJ can join compatible ends accurately; processing damaged or incompatible ends can introduce indels.\n\n**Chemical mutagens:**\n\n- **Base analogs**: chemicals that structurally resemble normal bases and are incorporated into DNA. 5-bromouracil resembles thymine but can mispair with guanine, causing A:T → G:C transitions.\n- **Alkylating agents**: add alkyl groups to bases, altering their pairing properties. O^6-methylguanine mispairs with thymine instead of cytosine, causing G:C → A:T transitions. Alkylating agents include nitrogen mustards (chemotherapy) and environmental compounds like nitrosamines.\n- **Intercalating agents**: planar molecules (ethidium bromide, acridine dyes) that insert between base pairs, causing the polymerase to slip and insert or delete nucleotides — producing frameshift mutations.\n- **Deaminating agents**: nitrous acid converts cytosine to uracil and adenine to hypoxanthine, causing transitions.\n\n---\n\n## Chromosomal Mutations\n\nWhile point mutations and frameshift mutations affect individual nucleotides or short sequences, **chromosomal mutations** involve large-scale rearrangements of chromosomal material. Large changes can be detected by karyotyping, whereas smaller copy-number changes require higher-resolution methods.\n\n### Types of Chromosomal Mutations\n\n**Deletions** involve loss of a chromosomal segment. The severity depends on the size and gene content of the deleted region. Examples:\n- **Cri du chat syndrome**: deletion of the short arm of chromosome 5 (5p deletion), causing intellectual disability and a characteristic cat-like cry in infancy.\n- **DiGeorge syndrome**: deletion of chromosome 22q11.2, causing cardiac defects, immune deficiency, and hypocalcemia.\n\n**Duplications** involve repetition of a chromosomal segment. Duplications provide extra copies of genes, which can be tolerated or even beneficial over evolutionary time (gene duplication is a source of new gene functions). However, duplications can also cause disease by increasing gene dosage.\n\n**Inversions** occur when a chromosomal segment is excised and reinserted in the reverse orientation. If the inversion includes the centromere, it is **pericentric**; if it does not, it is **paracentric**. Inversions often do not cause disease in carriers (because all genetic material is present) but can cause problems during meiosis when the inverted chromosome attempts to pair with its normal homolog, potentially producing unbalanced gametes.\n\n**Translocations** involve movement of a chromosomal segment to a different chromosome. There are two types:\n- **Reciprocal translocation**: exchange of segments between two non-homologous chromosomes. Carriers are often phenotypically normal but produce unbalanced gametes, leading to recurrent miscarriages or offspring with chromosomal abnormalities.\n- **Robertsonian translocation**: a rearrangement joining the long arms of two acrocentric chromosomes. A balanced carrier often has 45 chromosomes. When chromosome 21 is involved, recurrence risk depends on the exact rearrangement and which parent carries it; there is no universal 1-in-3 risk.\n\n**Aneuploidy** results from nondisjunction — failure of homologous chromosomes or sister chromatids to separate properly during meiosis I or meiosis II. Common aneuploidies:\n- **Trisomy 21** (Down syndrome): three copies of chromosome 21; associated with intellectual disability, characteristic facial features, congenital heart defects, and increased risk of Alzheimer disease and leukemia.\n- **Trisomy 18** (Edwards syndrome): severe, usually fatal in infancy.\n- **Trisomy 13** (Patau syndrome): severe, usually fatal in infancy.\n- **45,X** (Turner syndrome): monosomy X in females; associated with short stature, gonadal dysgenesis, and cardiovascular defects. X-inactivation limits some dosage imbalance, but genes escaping inactivation contribute to Turner features; most 45,X conceptions do not survive to birth.\n- **47,XXY** (Klinefelter syndrome): males with an extra X chromosome; associated with hypogonadism, infertility, and tall stature.\n\n---\n\n## DNA Repair Mechanisms and Their Relationship to Mutations\n\nThe MCAT expects you to understand not just how mutations occur but how cells attempt to prevent them. Repair pathway failure is directly connected to mutation accumulation and cancer.\n\n- **Base excision repair (BER)**: removes and replaces a single damaged base. Key enzyme: DNA glycosylase (recognizes and removes the damaged base), followed by AP endonuclease, DNA polymerase β, and DNA ligase. Repairs oxidized bases, deaminated bases, and alkylated bases.\n- **Nucleotide excision repair (NER)**: removes a short oligonucleotide (~25–30 nt) containing the damaged site. Handles bulky lesions like thymine dimers. Defects cause xeroderma pigmentosum (XP).\n- **Mismatch repair (MMR)**: corrects mispaired bases introduced during replication. Requires recognition of the mismatch, strand discrimination (identifying the newly synthesized strand), excision, and resynthesis. Defects in MMR genes (MLH1, MSH2, MSH6, PMS2) cause **Lynch syndrome** (hereditary nonpolyposis colorectal cancer, HNPCC), characterized by microsatellite instability — expansion or contraction of short tandem repeat sequences due to replication slippage that goes uncorrected.\n- **Homologous recombination (HR)**: high-fidelity repair of double-strand breaks using the sister chromatid as a template. Active in S and G2 phases. BRCA1 and BRCA2 are essential HR proteins; mutations in these genes dramatically increase the risk of breast and ovarian cancer.\n- **Non-homologous end joining (NHEJ)**: rejoins double-strand break ends without a template. Can be accurate for compatible ends; end processing may produce indels. Active throughout the cell cycle.\n\n---\n\n## Molecular Consequences: Connecting Mutation to Phenotype\n\nUnderstanding mutation types is only the beginning. The MCAT requires you to predict phenotypic consequences from molecular changes. Here is a framework:\n\n### Loss-of-Function vs. Gain-of-Function\n\n**Loss-of-function (LOF) mutations** reduce or eliminate protein activity. They are typically recessive because one functional copy of the gene is usually sufficient for normal phenotype. Exceptions include **haploinsufficiency**, where one functional copy cannot produce enough protein (the effect is gene- and variant-dependent; inherited cancer predisposition is not synonymous with cellular haploinsufficiency).\n\n**Gain-of-function (GOF) mutations** produce a protein with a new or enhanced activity. They are typically dominant because the mutant protein exerts its effect even in the presence of the normal protein. Examples:\n- Constitutively active receptor tyrosine kinases (e.g., EGFR mutations in lung cancer)\n- RAS mutations that lock the protein in the GTP-bound active state\n- Huntington disease: CAG repeat expansion produces a polyglutamine tract that causes the huntingtin protein to misfold and aggregate\n\n### Dominant Negative Mutations\n\nA **dominant negative mutation** produces a protein that not only lacks function but actively interferes with the function of the normal protein produced by the wild-type allele. This is particularly common for proteins that function as multimers. If one subunit is defective, it can poison the entire complex.\n\nExample: **osteogenesis imperfecta** (brittle bone disease) caused by dominant negative mutations in collagen genes. Type I collagen is a heterotrimer. A single defective α chain can disrupt the assembly of the entire triple helix, even though functional chains are also present.\n\n### Position Effects\n\nWhere in the protein a mutation occurs matters enormously:\n\n- **Active site mutations**: even conservative substitutions at catalytic residues can abolish enzymatic activity\n- **Substrate-binding site mutations**: may alter Km and/or Vmax; Km is not generally identical to a binding dissociation constant\n- **Allosteric site mutations**: can lock an enzyme in an active or inactive conformation\n- **Structural mutations**: disrupting disulfide bonds, hydrophobic cores, or salt bridges can cause global misfolding\n- **Signal sequence mutations**: can prevent proper targeting of the protein to its correct cellular compartment\n\n---\n\n## MCAT Strategy and High-Yield Summary\n\nWhen you encounter a mutation question on the MCAT, work through these steps systematically:\n\n1. **Identify the mutation type**: Is it a substitution, insertion, or deletion? How many nucleotides are involved?\n2. **Determine the reading frame effect**: Does it shift the reading frame? Is it in-frame?\n3. **Translate the consequence**: Silent? Missense? Nonsense? Frameshift?\n4. **Assess the amino acid change**: Conservative or non-conservative? Where in the protein?\n5. **Predict the functional outcome**: LOF? GOF? Dominant negative? No effect?\n\n**High-yield facts to memorize:**\n\n- Silent mutations: same amino acid, usually no effect on protein function\n- Missense mutations: different amino acid; effect depends on conservation and location\n- Nonsense mutations: premature stop codon; truncated, usually nonfunctional protein; subject to NMD\n- Frameshift mutations: insertion/deletion not divisible by 3; shifts reading frame for all downstream codons; typically severe\n- In-frame mutations: insertion/deletion divisible by 3; adds/removes amino acids without shifting frame; variable severity\n- Splice-site mutations: disrupt intron removal; can cause exon skipping, intron retention, or cryptic splice site activation\n- Transitions: purine ↔ purine or pyrimidine ↔ pyrimidine; more common\n- Transversions: purine ↔ pyrimidine; less common but possible\n- UV light → pyrimidine photoproducts → NER; most XP groups impair NER, while XP-V impairs POLH-mediated bypass\n- Deamination of cytosine → uracil (repaired by BER); deamination of 5-methylcytosine → thymine, forming a potentially repairable T:G mismatch\n- CpG sites are hotspots for mutation due to 5-methylcytosine deamination\n- Alkylating agents → base modification → transitions\n- Intercalating agents → frameshift mutations\n- MMR defects → Lynch syndrome, microsatellite instability\n- HR defects (BRCA1/2) → increased cancer risk\n- Robertsonian translocation of chromosome 21 → familial Down syndrome\n- Trisomy 21 = Down syndrome; 45,X = Turner; 47,XXY = Klinefelter\n\nThe genetics of mutation is not a topic to approach passively. Practice translating DNA sequences to mRNA to protein, predicting the effect of specific nucleotide changes, and reasoning about why some mutations are tolerated while others are catastrophic. The MCAT will present these problems in experimental contexts — a passage describing a novel disease, a table of mutant enzyme kinetics, or a pedigree with an unusual inheritance pattern. Your ability to reason from molecular mechanism to clinical consequence is what separates a high scorer from the rest."
+    },
+    {
+      "field": "questions.241.choice_d",
+      "value": "The substitution changes glutamate to lysine, but the tested activity tolerates this nonconservative change."
+    },
+    {
+      "field": "questions.241.explanation",
+      "value": "GAG encodes glutamate and AAG lysine. This is a nonconservative missense change, yet the measured enzyme activity is retained. Activity alone does not establish that the residue lies outside the active site or that every other protein function is unaffected."
+    },
+    {
+      "field": "questions.243.explanation",
+      "value": "The sequencing result demonstrates intron retention. Splice-donor variants can also cause exon skipping or cryptic splice-site use, so the position of the DNA variant alone does not uniquely predict the RNA product. Translation and decay depend on the resulting transcript."
+    },
+    {
+      "field": "questions.243.question_text",
+      "value": "A 5′ splice-donor variant is followed by RNA sequencing showing that the entire neighboring intron remains between two exons. Which outcome is demonstrated?"
+    },
+    {
+      "field": "questions.244.choice_a",
+      "value": "A→G substitutions occurring only at isolated purines"
+    },
+    {
+      "field": "questions.244.choice_b",
+      "value": "C→T substitutions and tandem CC→TT substitutions"
+    },
+    {
+      "field": "questions.244.choice_c",
+      "value": "Only G→C transversions, with no sequence-context preference"
+    },
+    {
+      "field": "questions.244.choice_d",
+      "value": "Only insertions of exactly three nucleotides"
+    },
+    {
+      "field": "questions.244.correct_answer",
+      "value": "B"
+    },
+    {
+      "field": "questions.244.explanation",
+      "value": "C→T and CC→TT changes at dipyrimidine sites are characteristic UV signatures. Cytosine-containing photoproducts and subsequent processing/bypass contribute to them. A thymine-thymine dimer can be bypassed relatively accurately by polymerase eta; inserting adenine opposite thymine is not itself a mismatch. UV damage does not imply one obligatory mutation in every lesion."
+    },
+    {
+      "field": "questions.244.question_text",
+      "value": "Which substitution pattern is a characteristic UV mutational signature at dipyrimidine sites in DNA?"
+    },
+    {
+      "field": "questions.245.explanation",
+      "value": "Proline restricts backbone φ rotation and lacks a backbone N–H donor in a peptide, so insertion into this required α-helix can disrupt its geometry and hydrogen-bonding pattern. Proline does not invariably abolish every protein’s function; the location specified in the question matters."
+    },
+    {
+      "field": "questions.245.question_text",
+      "value": "A missense mutation replaces arginine with proline in the middle of an α-helix required for protein function. The protein loses activity. Which is the most plausible structural explanation?"
+    }
+  ]
+}

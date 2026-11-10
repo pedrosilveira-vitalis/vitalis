@@ -1,0 +1,140 @@
+{
+  "lessonId": 63,
+  "status": "integrated-targeted-review",
+  "reviewNotes": "Complete lesson and five quiz questions read. Targeted corrections; not an exhaustive certification. Exam-frequency predictions not verified.",
+  "replacements": [
+    {
+      "field": "content",
+      "old": "The heart is simultaneously a structural marvel and a precisely timed pressure pump. On the MCAT, cardiac physiology appears in both the Biological and Biochemical Foundations section and in CARS passages that describe clinical scenarios. You are expected to understand how the anatomy of the heart dictates the direction of blood flow, how pressure gradients govern valve behavior, and how the mechanical events of systole and diastole translate into the cardiac output that sustains every organ system. Questions frequently ask you to predict what happens when a valve fails, when preload or afterload changes, or when a specific phase of the cardiac cycle is disrupted. Mastery of this topic therefore requires integrating structural anatomy, fluid mechanics, and cellular physiology into a single coherent picture.",
+      "new": "The heart uses pressure differences and timed muscle contraction to move blood through two connected circuits. This lesson links anatomy, valve behavior, ventricular pressure–volume changes and cardiac output. These are science topics; CARS assesses passage reasoning in humanities and social science disciplines rather than requiring memorized cardiac physiology.",
+      "reason": "Remove misleading CARS claim.",
+      "sourceUrl": "https://store.aamc.org/aamc-cars-question-bank-online-1-year-subscription.html"
+    },
+    {
+      "field": "content",
+      "old": "Its wall is therefore relatively thin, averaging 3–5 mm.",
+      "new": "Its wall is relatively thin; representative adult values are around 3–5 mm and depend on measurement method.",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10813445/"
+    },
+    {
+      "field": "content",
+      "old": "the only normal conduction pathway is through the AV node and bundle of His",
+      "new": "the normal atrioventricular conduction axis passes through the AV node and penetrating His bundle",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10813445/"
+    },
+    {
+      "field": "content",
+      "old": "filling during diastole when the valve is closed",
+      "new": "supplying coronary blood flow throughout the cycle, with left ventricular perfusion predominantly during diastole",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10813445/"
+    },
+    {
+      "field": "content",
+      "old": "### Phase 1: Ventricular Filling (Late Diastole)",
+      "new": "### Phase 1: Ventricular Filling (Early Through Late Diastole)",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10813445/"
+    },
+    {
+      "field": "content",
+      "old": "The **atrial kick** (atrial systole) occurs at the very end of diastole, contributing the remaining 25–30% of ventricular filling. This is why patients with atrial fibrillation—who lack coordinated atrial contraction—can tolerate the arrhythmia at rest but may decompensate during exercise when the atrial contribution to filling becomes more important.",
+      "new": "Atrial systole contributes the final portion of filling. Its fraction varies with age, heart rate and ventricular compliance, so 25–30% is illustrative rather than fixed. Loss of coordinated atrial contraction can impair filling, especially with a stiff ventricle; tolerance of atrial fibrillation cannot be predicted from resting versus exercise status alone.",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10813445/"
+    },
+    {
+      "field": "content",
+      "old": "This is **isovolumetric contraction**—the most metabolically expensive phase per unit time because the muscle is doing pressure work with no external shortening (no stroke volume is being ejected yet).",
+      "new": "This is **isovolumetric contraction**: tension and pressure rise without ejection. It consumes metabolic energy, but external pressure–volume work during an ideal constant-volume segment is zero because dV = 0. No universal ranking of instantaneous metabolic cost follows from this fact.",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10813445/"
+    },
+    {
+      "field": "content",
+      "old": "This peak is recorded as **systolic blood pressure** in clinical measurements.",
+      "new": "Systemic systolic blood pressure is an arterial measurement. Left ventricular and aortic systolic pressures are similar with an unobstructed aortic valve, but they can differ substantially with aortic stenosis.",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10813445/"
+    },
+    {
+      "field": "content",
+      "old": "An EF below 40% indicates systolic heart failure and is a high-yield clinical marker on the MCAT.",
+      "new": "An EF of 40% or less defines the reduced-EF category in patients with heart failure. EF alone is not a complete diagnosis, and heart failure can occur with preserved EF.",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2022/03/29/19/53/2022-AHA-ACC-HFSA-Heart-Failure-Guideline-gl-hf"
+    },
+    {
+      "field": "content",
+      "old": "**Afterload** is the resistance the ventricle must overcome to eject blood, approximated by aortic pressure or systemic vascular resistance. Increasing afterload (e.g., hypertension, aortic stenosis) forces the ventricle to generate higher pressure before the aortic valve opens, shifts the loop upward and to the left, and *reduces* stroke volume if contractility is unchanged. The loop narrows.",
+      "new": "**Afterload** is the load opposing ejection, related to ventricular wall stress and arterial load rather than resistance alone. With an acute afterload increase at fixed EDV and contractility, end-systolic pressure and ESV rise: the end-systolic point moves upward and rightward, and the loop narrows. It does not shift left as previously stated.",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10813445/"
+    },
+    {
+      "field": "content",
+      "old": "the force of ventricular contraction is proportional to the initial length of the cardiac muscle fibers (preload). As EDV increases, sarcomere length increases toward its optimal overlap between actin and myosin filaments, and the force of contraction increases.",
+      "new": "within a physiological range, increased filling lengthens cardiac sarcomeres and increases developed force. Length-dependent activation involves increased myofilament calcium sensitivity and other structural effects; it is not an unlimited linear relationship or simply a change in filament overlap.",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10813445/"
+    },
+    {
+      "field": "content",
+      "old": "where left-to-right shunting equalizes the filling of both ventricles regardless of respiratory phase",
+      "new": "where right ventricular volume loading and respiratory variation in shunt flow help maintain a relatively fixed split; this does not mean the two ventricles have equal filling pressures",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK541010/"
+    },
+    {
+      "field": "content",
+      "old": "in older patients it indicates ventricular volume overload or systolic heart failure (dilated, poorly contractile ventricle)",
+      "new": "in older patients it can suggest abnormal filling or volume overload and requires clinical interpretation; it does not uniquely establish systolic heart failure",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK541010/"
+    },
+    {
+      "field": "content",
+      "old": "wall stress = pressure × radius / 2 × wall thickness",
+      "new": "wall stress ≈ (pressure × radius) / (2 × wall thickness), using an idealized thin-walled spherical approximation",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10813445/"
+    },
+    {
+      "field": "content",
+      "old": "Stroke volume decreases because afterload is high and the stiff ventricle cannot fill adequately → reduced cardiac output.",
+      "new": "Stroke volume may fall as obstruction, impaired filling or ventricular dysfunction progresses; compensation can maintain output in some stages.",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10813445/"
+    },
+    {
+      "field": "content",
+      "old": "Heart sounds mark the closure of valves, not their opening, and their timing identifies which valves are malfunctioning.",
+      "new": "S1 and S2 are associated with valve closure; other sounds, including opening snaps, have different mechanisms. Timing supports interpretation but does not by itself identify every lesion.",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK541010/"
+    },
+    {
+      "field": "content",
+      "old": "will allow you to answer virtually any cardiac physiology question the MCAT presents.",
+      "new": "supports reasoning through pressure, volume and flow problems; it is not a guarantee of answering every examination question.",
+      "reason": "Clarify hemodynamic mechanism and limits.",
+      "sourceUrl": "https://store.aamc.org/aamc-cars-question-bank-online-1-year-subscription.html"
+    },
+    {
+      "field": "questions.313.explanation",
+      "old": "Oxygenated blood travels from the lungs through the pulmonary veins into the left atrium, making the pulmonary veins the only veins in the body that carry oxygenated blood. From the left atrium it crosses the mitral valve into the left ventricle before being pumped into the aorta. Choice C is a common error because students associate veins with deoxygenated blood and the right side of the heart, but the pulmonary circuit reverses this convention.",
+      "new": "Pulmonary veins return oxygenated blood from the lungs to the left atrium. Blood then crosses the mitral valve to the left ventricle. Vessels are named by direction relative to the heart, not oxygen content. The fetal umbilical vein is another vein carrying relatively oxygen-rich blood, so pulmonary veins are not universally the only example.",
+      "reason": "Correct false only-oxygenated-vein claim.",
+      "sourceUrl": "https://obgyn.onlinelibrary.wiley.com/doi/10.1111/aogs.12919"
+    },
+    {
+      "field": "questions.315.explanation",
+      "old": "S2 is produced by the closure of the semilunar valves (aortic and pulmonic) at the end of ventricular systole when ventricular pressure drops below arterial pressure. This marks the beginning of diastole. S1, not S2, is produced by closure of the atrioventricular valves (mitral and tricuspid) at the onset of systole, making choice A the description of S1. Choice D describes conditions that can produce S3, an abnormal heart sound.",
+      "new": "S2 is associated with aortic and pulmonary valve closure near the end of ventricular systole. S1 is associated with AV valve closure. Rapid early filling can produce S3, which may be physiological in children and young adults; S3 is not invariably abnormal.",
+      "reason": "Correct categorical S3 error.",
+      "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK541010/"
+    }
+  ]
+}

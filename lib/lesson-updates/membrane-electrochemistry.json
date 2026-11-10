@@ -1,0 +1,214 @@
+{
+  "lessonId": 57,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    281,
+    282,
+    283,
+    284,
+    285
+  ],
+  "sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK11102/",
+      "title": "Purves et al.: The forces that create membrane potentials"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK10931/",
+      "title": "Purves et al.: Ionic basis of the resting membrane potential"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10076030/",
+      "title": "Kaestner et al.: Voltage-activated cation channel in human red cells"
+    },
+    {
+      "url": "https://med.uth.edu/nba/nso/s1_cellular-molecular/ch-1-resting-potentials-and-action-potentials/",
+      "title": "UTHealth Neuroscience Online: Resting and action potentials"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3115691/",
+      "title": "Perry et al.: Mitochondrial membrane potential and proton gradients"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/20847295/",
+      "title": "Watt et al.: Bioenergetic cost of ATP in animal mitochondria"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6892421/",
+      "title": "Palmer and Clegg: Hyperkalemia pathophysiology and consequences"
+    }
+  ],
+  "visual": {
+    "title": "Voltage and concentration act together",
+    "src": "/lesson-diagrams/membrane-electrochemistry.svg",
+    "width": 900,
+    "height": 820,
+    "alt": "A membrane divides outside and cytosol. Sodium chemical and electrical forces both point inward at minus 70 mV; potassium chemical force points outward and electrical force inward, with a smaller net outward force. A mitochondrial inset shows both components favoring proton entry.",
+    "caption": "Use V_m = inside minus outside. The mitochondrial example uses the same transfer direction and shows the correct additive proton driving force.",
+    "beforeHeading": "Factors That Alter Resting Membrane Potential"
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "edba26808b7458867d3e70221574c0fbf70f3fcce8bb60be86ee62304f36da09"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "105c488c7c5dbcbf01207303a6c093bf9dd0339f36116adf9fb098cee6b5b8b3"
+    },
+    {
+      "field": "questions.281.question_text",
+      "sha256": "7c8cea9b32c58482dbb466e02f832c9c1d63bb36d68435b036242674bd1adbb2"
+    },
+    {
+      "field": "questions.281.choice_a",
+      "sha256": "c6735f70886b4a5facef0ffdd741592bc0e92e7fc6e0fdba7208c2c18f0f4a72"
+    },
+    {
+      "field": "questions.281.choice_b",
+      "sha256": "fb8201b82eda2d7fa7248a8f2f4bec23be61c2510db9e3bd3d86ecc989c04f40"
+    },
+    {
+      "field": "questions.281.choice_c",
+      "sha256": "d73e06d494404548f0c5a08e2baf9672bd7a4f799fef7a63fa0a57d6f0f67d73"
+    },
+    {
+      "field": "questions.281.choice_d",
+      "sha256": "cdd60e06308e750d6dc63d1349383f8e4b189878f506afe0e094c38f4eb8d082"
+    },
+    {
+      "field": "questions.281.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.281.explanation",
+      "sha256": "d0f8018ed26e00162e73d81bc08ffa9fe553021841ab5ef3d7b071ba408e6971"
+    },
+    {
+      "field": "questions.282.question_text",
+      "sha256": "6705f0ad9c869ab3db39c4504653c05a34e81ee9c7ca0459d5c9e28aa0f156c7"
+    },
+    {
+      "field": "questions.282.choice_a",
+      "sha256": "2a256a69c82eeab8147b5031647dcebf056286b9f5f51dec2bb5199328000f50"
+    },
+    {
+      "field": "questions.282.choice_b",
+      "sha256": "a0377b5b2b54ae7a4d9a737307d5d1ebfba52dc6172aa319f109b03cb819e1eb"
+    },
+    {
+      "field": "questions.282.choice_c",
+      "sha256": "930cea3b33f2bd1ccff5658509c3bfcdd9e8fd02b51bf1889d93991a82af4db3"
+    },
+    {
+      "field": "questions.282.choice_d",
+      "sha256": "c627eb3db2db09db0d278fb5210f9810cc7aca810ec0bc008cd43a47a1d1dfe2"
+    },
+    {
+      "field": "questions.282.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.282.explanation",
+      "sha256": "5e1990647cd185b1c2b3048c9a86f2f69a93038d4008c872686ecfe099a819b3"
+    },
+    {
+      "field": "questions.283.question_text",
+      "sha256": "48e8488e02e473743185c71551e527aa12ebf131c2ad3f19c5873ac0553418f1"
+    },
+    {
+      "field": "questions.283.choice_a",
+      "sha256": "bff4b4d11716093a515cf8a3cbfad979f3f6293700cb100118de48b834e11497"
+    },
+    {
+      "field": "questions.283.choice_b",
+      "sha256": "a191738a8ad315096c0a00ad7f9f4a33567f1fdf9aeb47f51b49bad760173a9a"
+    },
+    {
+      "field": "questions.283.choice_c",
+      "sha256": "f8cf7b2ee4626b0cf9709e72b1028538300eae2dc0c47571d0554efbb3684772"
+    },
+    {
+      "field": "questions.283.choice_d",
+      "sha256": "a8d6b04c63db957b82847ca99ef45a6f5940b6214405562018f1cdcd06186afc"
+    },
+    {
+      "field": "questions.283.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.283.explanation",
+      "sha256": "91d7cdcfc1643d2439790532390c42ed6e92e10435fe39f75e2e50679484dea1"
+    },
+    {
+      "field": "questions.284.question_text",
+      "sha256": "d73f3390d0e2aa7efdcea852c60d0a2ad55c4a3d299dafd73bb5d651642052d5"
+    },
+    {
+      "field": "questions.284.choice_a",
+      "sha256": "c81d561337a27d2faa9bf29b2b31b0f426eadc79b673f21ebd5adcc0b4c41564"
+    },
+    {
+      "field": "questions.284.choice_b",
+      "sha256": "9cc177e44d5163912ad5f76f9453d2af2f256a41ea126da256487f13ec4a6fcb"
+    },
+    {
+      "field": "questions.284.choice_c",
+      "sha256": "cdd5b50ce0ce668538f72fd71c0e891b0a0788e646a5b3efc2f975feb8b85b39"
+    },
+    {
+      "field": "questions.284.choice_d",
+      "sha256": "f385101619014d16a66e47c2f60fe4c49cf90ea05f3abd9ea0a26d1538bc427c"
+    },
+    {
+      "field": "questions.284.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.284.explanation",
+      "sha256": "b20c707d98d5b33ac3703b6453aac3d8154a01e2e0f1920701cb6b3083040a2d"
+    },
+    {
+      "field": "questions.285.question_text",
+      "sha256": "4b9e8c754d72d6d52248a01b1a055374442e3175a791132239503545733a7802"
+    },
+    {
+      "field": "questions.285.choice_a",
+      "sha256": "0e11ca85d217c3be0330a5da86c549a421a90b804eed16f50a2577a707ad23bb"
+    },
+    {
+      "field": "questions.285.choice_b",
+      "sha256": "74a3f3570c6813ba5c5a1dd80ad5521efefa73c91614df3a99cc8244a47653a8"
+    },
+    {
+      "field": "questions.285.choice_c",
+      "sha256": "1516a34a2b8b7d036bbc776748ca10fd7c985736ec0d7c3cfcb56fe0c21a5283"
+    },
+    {
+      "field": "questions.285.choice_d",
+      "sha256": "749c23cde68de6928c05dca75f8bb267a59470d26ae1637ea6bd532b04091a72"
+    },
+    {
+      "field": "questions.285.correct_answer",
+      "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+    },
+    {
+      "field": "questions.285.explanation",
+      "sha256": "55f7703f9e17b40c2f16bc389038499adc69426fee321dc94b63ed46fe9d9467"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "## Membrane Potential and Electrochemical Gradients\n\n### Overview and MCAT Relevance\n\nMost living cells maintain an electrical potential difference across their plasma membrane; its magnitude depends on cell type and physiological state. This voltage, called the **membrane potential**, arises from the unequal distribution of ions between the intracellular and extracellular compartments combined with the selective permeability of the membrane to those ions. Understanding membrane potential is not merely relevant to neuroscience — it underpins ATP synthesis in mitochondria, muscle contraction, epithelial transport, and virtually every signal transduction pathway the MCAT tests.\n\nThe MCAT expects you to reason quantitatively and conceptually about membrane potential. You need to understand what drives ions across membranes, how the Nernst equation predicts equilibrium potentials for individual ions, how the Goldman equation accounts for multiple ions simultaneously, and what determines the resting membrane potential of a cell. This lesson covers all of these topics with the depth and precision required for a top score.\n\n---\n\n## The Electrochemical Gradient: Two Forces in One\n\nWhen an ion moves across a membrane, it responds to two distinct driving forces that together constitute the **electrochemical gradient**.\n\n### The Chemical (Concentration) Gradient\n\nThe first component is the ordinary chemical gradient — ions diffuse from regions of high concentration to regions of low concentration. This is simple thermodynamics: systems minimize free energy by moving toward equilibrium. The free energy available from a concentration gradient for an ion is given by:\n\nΔG_chemical(out → in) = RT ln([ion]_in / [ion]_out)\n\nwhere R is the gas constant (8.314 J/mol·K) and T is absolute temperature.\n\n### The Electrical Gradient\n\nThe second component is the electrical gradient. Ions are charged particles, and a voltage difference across a membrane exerts a force on them. Positive ions are attracted toward negative regions; negative ions are attracted toward positive regions. The electrical contribution to free energy is:\n\nΔG = zFV\n\nHere the transfer direction is outside → inside. z is valence, F is Faraday’s constant, and V = ψ_inside − ψ_outside. Concentrations approximate activities in these introductory calculations.\n\n### The Electrochemical Potential\n\nThe total **electrochemical potential** combines both contributions:\n\nΔG_total = RT ln([ion]_in / [ion]_out) + zFV\n\nAn ion is at electrochemical equilibrium when ΔG_total = 0 — that is, when the tendency to move down its concentration gradient is exactly balanced by the tendency to move against the electrical gradient (or vice versa). The membrane potential at which this equilibrium occurs for a specific ion is called the **equilibrium potential** or **Nernst potential** for that ion.\n\n---\n\n## Ion Distribution Across the Plasma Membrane\n\nThese are illustrative mammalian-cell values, not universal constants. Use the concentrations and temperature supplied in a problem; intracellular chloride in particular varies substantially between cell types and developmental stages.\n\n**Typical intracellular vs. extracellular concentrations:**\n\n- **K⁺**: ~140 mM intracellular, ~5 mM extracellular (high inside)\n- **Na⁺**: ~12 mM intracellular, ~145 mM extracellular (high outside)\n- **Ca²⁺**: ~0.0001 mM (100 nM) intracellular, ~1.2 mM extracellular (dramatically high outside)\n- **Cl⁻**: ~4 mM intracellular, ~120 mM extracellular (high outside)\n- **HCO₃⁻**: ~12 mM intracellular, ~25 mM extracellular\n\nThese gradients are not accidental — they are actively maintained by membrane transport proteins, most critically the **Na⁺/K⁺-ATPase** (sodium-potassium pump).\n\n### The Na⁺/K⁺-ATPase\n\nThe Na⁺/K⁺-ATPase hydrolyzes one ATP to pump **3 Na⁺ out** and **2 K⁺ in** per cycle. This pump is electrogenic — it moves a net positive charge outward (3+ out vs. 2+ in), directly contributing a small hyperpolarizing effect to the membrane potential. More importantly, it maintains the steep Na⁺ and K⁺ gradients that everything else depends on.\n\nThe pump runs continuously. Inhibiting it with ouabain (a cardiac glycoside that blocks the extracellular K⁺-binding site) eventually collapses the Na⁺ and K⁺ gradients, depolarizing the cell. This is clinically relevant: digitalis compounds used in heart failure work through partial Na⁺/K⁺-ATPase inhibition.\n\n---\n\n## The Nernst Equation\n\nThe **Nernst equation** calculates the equilibrium potential for a single ion species. At equilibrium, the net driving force on that ion is zero.\n\n### Derivation Logic\n\nSetting ΔG_total = 0:\n\nRT ln([ion]_in / [ion]_out) + zFV = 0\n\nSolving for V (the equilibrium potential, E_ion):\n\nE_ion = −(RT/zF) ln([ion]_in / [ion]_out)\n\nEquivalently, flipping the log:\n\nE_ion = (RT/zF) ln([ion]_out / [ion]_in)\n\n### The Practical Form\n\nAt body temperature (37°C, or 310 K), RT/F ≈ 26.7 mV. Converting natural log to log base 10 (multiply by 2.303):\n\n**E_ion = (61.5 mV / z) × log([ion]_out / [ion]_in)**\n\nAt 25°C, RT/F ≈ 25.7 mV and 2.303RT/F ≈ 59.2 mV. A rounded calculation may use:\n\n**E_ion ≈ (60 mV / z) × log([ion]_out / [ion]_in)**\n\nUse 59.2 mV at 25°C or 61.5 mV at 37°C for log₁₀; use RT/F for the natural logarithm. The worked examples below consistently use a rounded 60 mV coefficient.\n\n### Calculating Equilibrium Potentials\n\n**Potassium (K⁺), z = +1:**\n\nE_K = (60 mV / 1) × log(5 / 140)\nE_K = 60 × log(0.0357)\nE_K = 60 × (−1.447)\nE_K ≈ −87 mV\n\nThis means that if the membrane were permeable only to K⁺, the membrane potential would settle at −87 mV. At this voltage, the electrical pull on K⁺ (inward, because inside is negative) exactly balances the chemical push outward (K⁺ is high inside).\n\n**Sodium (Na⁺), z = +1:**\n\nE_Na = (60 mV / 1) × log(145 / 12)\nE_Na = 60 × log(12.08)\nE_Na = 60 × 1.082\nE_Na ≈ +65 mV\n\nBoth the chemical gradient (Na⁺ high outside) and the electrical gradient (inside is negative) drive Na⁺ inward. At E_Na ≈ +65 mV, the outward electrical force balances the inward chemical force; the chemical gradient has not changed.\n\n**Calcium (Ca²⁺), z = +2:**\n\nE_Ca = (60 mV / 2) × log(1.2 / 0.0001)\nE_Ca = 30 × log(12,000)\nE_Ca = 30 × 4.08\nE_Ca ≈ +122 mV\n\nThe enormous Ca²⁺ gradient produces a strongly positive equilibrium potential.\n\n**Chloride (Cl⁻), z = −1:**\n\nE_Cl = (60 mV / −1) × log(120 / 4)\nE_Cl = −60 × log(30)\nE_Cl = −60 × 1.477\nE_Cl ≈ −89 mV\n\n---\n\n## Interpreting the Nernst Equation on the MCAT\n\nThe Nernst equation tells you the direction an ion will move if the membrane becomes permeable to it.\n\n- If the actual membrane potential is *more positive* than E_ion for a cation, the cation will flow *out* (the electrical force pushing it out exceeds the chemical force pushing it in).\n- If the actual membrane potential is *more negative* than E_ion for a cation, the cation will flow *in*.\n- For anions, the logic reverses because z is negative.\n\n**Driving force** = V_membrane − E_ion\n\nA positive driving force drives cations outward; a negative driving force drives cations inward.\n\n*Example:* At a resting potential of −70 mV, the driving force on Na⁺ is:\n−70 mV − (+65 mV) = −135 mV\n\nThis large negative driving force means Na⁺ is powerfully driven inward whenever Na⁺ channels open. This is why Na⁺ influx causes depolarization.\n\nFor K⁺ at −70 mV:\n−70 mV − (−87 mV) = +17 mV\n\nA small positive driving force drives K⁺ slightly outward at rest. This is why resting K⁺ leak keeps the cell polarized.\n\n---\n\n## The Goldman-Hodgkin-Katz Equation\n\nReal cells are permeable to multiple ions simultaneously. The **Goldman-Hodgkin-Katz (GHK) equation** (also called the Goldman equation) extends Nernst logic to account for multiple ions, weighted by their relative permeabilities.\n\nFor the three ions most relevant to resting potential (K⁺, Na⁺, Cl⁻):\n\nV_m = (RT/F) × ln[ (P_K[K⁺]_out + P_Na[Na⁺]_out + P_Cl[Cl⁻]_in) / (P_K[K⁺]_in + P_Na[Na⁺]_in + P_Cl[Cl⁻]_out) ]\n\nwhere P_K, P_Na, and P_Cl are the permeabilities of the membrane to each ion.\n\n### Key Insight from the Goldman Equation\n\nGHK takes the logarithm of permeability-weighted concentration sums; it is not an arithmetic permeability-weighted average of Nernst potentials. A conductance-weighted voltage average belongs to a different, approximately ohmic current-balance model.\n\n- At rest, **P_K >> P_Na** (with the ratio depending on the neuron and its state), so the resting potential is pulled strongly toward E_K (−87 mV) but not quite there because of the small Na⁺ permeability.\n- When Na⁺ channels open during an action potential, P_Na suddenly exceeds P_K, and the membrane potential is pulled toward E_Na (+65 mV) — this is depolarization.\n- When K⁺ channels open for repolarization, P_K dominates again, pulling V_m back toward E_K.\n\nThe Goldman equation explains why the resting membrane potential of a typical neuron (approximately −70 mV) is between E_K (−87 mV) and E_Na (+65 mV), but much closer to E_K.\n\n---\n\n## The Resting Membrane Potential\n\n### What Is the Resting Membrane Potential?\n\nThe **resting membrane potential (RMP)** is the steady-state voltage across the plasma membrane of a cell that is not actively generating a signal. For neurons, the RMP is approximately −70 mV. For skeletal muscle cells, it is approximately −90 mV. For cardiac ventricular cells, it is approximately −90 mV. Non-excitable cells vary widely: many epithelia are tens of millivolts negative, whereas erythrocytes are often near −10 mV.\n\nBy convention, membrane potential is always expressed as *inside relative to outside*. A value of −70 mV means the cytoplasm is 70 mV more negative than the extracellular fluid.\n\n### How the Resting Potential Is Established\n\nThree factors work together:\n\n**1. Selective permeability to K⁺ at rest**\n\nThe resting plasma membrane has a high permeability to K⁺, primarily through **inwardly rectifying K⁺ channels** and **leak K⁺ channels** (also called K₂P channels). These channels are open at rest. Because K⁺ is concentrated inside, K⁺ diffuses outward down its concentration gradient. As positive charge leaves, the inside becomes more negative, building up an electrical force that opposes further K⁺ efflux. The membrane potential settles near (but not exactly at) E_K.\n\n**2. Low resting Na⁺ permeability**\n\nThe resting membrane has a small but non-zero permeability to Na⁺ through **leak Na⁺ channels**. Na⁺ continuously trickles inward (driven by both concentration gradient and electrical gradient), which slightly depolarizes the membrane away from E_K toward a less negative value.\n\n**3. The Na⁺/K⁺-ATPase restores gradients**\n\nThe inward Na⁺ leak and outward K⁺ leak would eventually dissipate the gradients if not corrected. The Na⁺/K⁺-ATPase continuously pumps 3 Na⁺ out and 2 K⁺ in, maintaining the gradients. Its electrogenic activity (net 1+ charge moved outward per cycle) also contributes directly to the negative resting potential, though the size of this direct contribution is cell- and condition-dependent.\n\n### The Role of Impermeant Anions\n\nAn often-underemphasized contributor to the resting potential is the presence of large, negatively charged molecules inside the cell that cannot cross the membrane. These include proteins with acidic residues (pKa of aspartate ~3.7, glutamate ~4.1 — both predominantly deprotonated at physiological pH), nucleic acids, and phosphorylated metabolites. Impermeant ions influence ion and osmotic distributions (Donnan effects), but living cells with active pumps are not generally at passive Donnan equilibrium. Bulk solutions are nearly electroneutral; only a tiny charge separation at membrane surfaces is needed for voltage.\n\n---\n\n## Membrane Permeability and Ion Channels\n\n### Channel Types Relevant to Resting Potential\n\n**Leak/background channels** contribute current at rest. Their open probability can still be regulated by voltage, pH, lipids or other signals. The relative contributions of K₂P, Kir and other channels depend on the cell.\n\n**Inwardly rectifying K⁺ channels (Kir)**: These channels pass K⁺ more easily inward than outward at voltages more negative than E_K. At the resting potential, they contribute to K⁺ permeability.\n\n**Voltage-gated channels** change their opening probability with voltage. Some have resting or subthreshold activity; not all open with depolarization. Their contribution depends on their activation range and cell type.\n\n**Ligand-gated channels** can produce phasic synaptic currents or tonic conductances when ambient ligand is present.\n\n### Permeability vs. Conductance\n\n**Permeability** is a transport parameter, whereas **conductance** is electrical current per voltage difference (or the local slope of an I–V curve). They are related through an ion-current model and depend on channel state and ionic conditions. The expression g = P × zF × [ion] is not a general conductance formula. For an approximately ohmic ion channel, I_ion = g_ion(V_m − E_ion).\n\n---\n\n## Membrane Potential in Non-Excitable Cells\n\nNeurons and muscle cells get most of the attention, but the MCAT also tests membrane potential in non-excitable cells, particularly in the context of epithelial transport and mitochondrial function.\n\n### Epithelial Cells\n\nEpithelial cells lining the gut and kidney tubules use membrane potential to drive secondary active transport. For example, the **Na⁺/glucose cotransporter (SGLT1)** in intestinal epithelial cells exploits the inward electrochemical gradient for Na⁺ to import glucose against its concentration gradient. The negative interior and low intracellular Na⁺ (maintained by the basolateral Na⁺/K⁺-ATPase) provide the driving force.\n\nThe membrane potential of epithelial cells is typically around −40 to −70 mV, maintained primarily by basolateral K⁺ channels (which allow K⁺ recycling to keep the pump running) and the Na⁺/K⁺-ATPase.\n\n### Red Blood Cells\n\nRed blood cells (erythrocytes) have a resting membrane potential of approximately −10 to −12 mV — much less negative than neurons. They do not generate neuronal-style action potentials; voltage-dependent cation currents have nevertheless been measured in human erythrocytes. Their modest potential arises from K⁺ and Cl⁻ permeabilities and the Donnan effect from intracellular hemoglobin (which carries multiple negative charges at physiological pH).\n\n### Mitochondria: The Proton Motive Force\n\nIn mitochondria, the **inner mitochondrial membrane** maintains an electrochemical gradient for protons (H⁺). The electron transport chain pumps protons from the matrix into the intermembrane space, generating:\n\n- A **chemical gradient**: pH ~7.4 in matrix vs. ~7.0 in intermembrane space (ΔpH ≈ 0.4–1.0 units, depending on conditions)\n- An **electrical gradient**: the matrix is approximately −180 mV relative to the intermembrane space\n\nTogether, these constitute the **proton motive force (pmf)**:\n\npmf = ΔΨ − (2.303 RT/F) × ΔpH\n\nAt 37°C:\nDefine ΔΨ = ψ_matrix − ψ_intermembrane and ΔpH = pH_matrix − pH_intermembrane. Then ΔG for H⁺ entry divided by F is ΔΨ − 61.5 mV × ΔpH.\n\nFor ΔΨ = −180 mV and ΔpH = +1: ΔG/F = −180 − 61.5 = −241.5 mV. Both the negative matrix and its lower H⁺ concentration favor proton entry. The driving-force magnitude is 241.5 mV for these illustrative values; other measured conditions give different values.\n\nATP synthase (Complex V) harnesses the pmf as protons flow back into the matrix. For the mammalian eight-subunit c-ring, one full rotation transports 8 H⁺ and produces 3 ATP (8/3 H⁺ per ATP through the enzyme). Supplying phosphate and exchanging ATP/ADP add energetic costs. The available proton-motive force must be compared with the actual phosphorylation free energy.\n\nThis is a direct application of electrochemical gradient logic to bioenergetics — the MCAT connects these topics.\n\n---\n\n## Factors That Alter Resting Membrane Potential\n\n### Changes in Extracellular K⁺\n\nBecause the resting potential is so close to E_K, changes in extracellular K⁺ concentration dramatically affect resting potential.\n\n- **Hyperkalemia** (elevated extracellular K⁺): E_K becomes less negative (e.g., if [K⁺]_out rises from 5 mM to 10 mM, E_K shifts from about −87 mV to −69 mV using the same 60 mV coefficient). Depolarization can initially increase excitability, but sustained depolarization can inactivate Na⁺ channels and reduce excitability and conduction. The cardiac effect depends on severity and other conditions.\n- **Hypokalemia** (low extracellular K⁺): E_K becomes more negative. The resting potential hyperpolarizes, making it harder to reach threshold and causing muscle weakness.\n\nSevere potassium disturbances can be life-threatening; the significance of a measured change depends on its magnitude and clinical context.\n\n### Changes in Extracellular Na⁺\n\nBecause Na⁺ permeability at rest is low, changes in extracellular Na⁺ have smaller effects on resting potential than K⁺ changes. However, Na⁺ concentration critically affects the driving force for Na⁺ influx and thus the amplitude of action potentials and secondary active transport.\n\n### Temperature\n\nTemperature affects the RT/F term in the Nernst equation. Higher temperature increases the magnitude of equilibrium potentials slightly. More practically, temperature affects the kinetics of ion channels (opening/closing rates) and the Na⁺/K⁺-ATPase activity, which can alter resting potential indirectly.\n\n### pH\n\nProtons compete with Ca²⁺ for binding sites on channel proteins and can alter channel gating. Acidosis can partially block voltage-gated Na⁺ channels. Additionally, changes in pH alter the charge state of impermeant intracellular anions (proteins), affecting the Donnan contribution to resting potential.\n\n---\n\n## Quantitative Reasoning Practice\n\nThe MCAT does not require you to solve complex equations from scratch, but you must be able to apply the Nernst equation with the numbers given in a passage. Here is the systematic approach:\n\n**Step 1**: Identify the ion, its valence (z), and the concentrations inside and outside.\n\n**Step 2**: Write E_ion = (60 mV / z) × log([ion]_out / [ion]_in).\n\n**Step 3**: Calculate the log ratio. Remember: log(10) = 1, log(100) = 2, log(1000) = 3, log(0.1) = −1.\n\n**Step 4**: Multiply by (60/z). Pay attention to the sign of z for anions.\n\n**Step 5**: Interpret the result — compare E_ion to the actual membrane potential to determine the direction of net ion flow.\n\n*Worked example:* A cell has [K⁺]_in = 100 mM, [K⁺]_out = 10 mM. What is E_K?\n\nE_K = (60/1) × log(10/100) = 60 × log(0.1) = 60 × (−1) = −60 mV\n\nIf the actual membrane potential is −80 mV (more negative than −60 mV), the driving force on K⁺ is:\n−80 − (−60) = −20 mV → negative driving force for a cation → K⁺ flows inward.\n\n---\n\n## Summary: Key Concepts and Numbers to Memorize\n\n- **Resting membrane potential of neurons**: approximately −70 mV (inside negative)\n- **E_K**: approximately −87 mV (resting potential pulled toward this)\n- **E_Na**: approximately +65 mV (depolarization target)\n- **E_Ca**: approximately +120 mV (large inward driving force at rest)\n- **E_Cl**: approximately −89 mV for the stated concentrations and 60 mV coefficient; it is not necessarily equal to V_m\n- **Nernst equation at 25°C**: E_ion = (60 mV / z) × log([ion]_out / [ion]_in)\n- **Na⁺/K⁺-ATPase**: pumps 3 Na⁺ out, 2 K⁺ in, uses 1 ATP, electrogenic\n- **At rest**: P_K >> P_Na; resting potential is between E_K and E_Na, much closer to E_K\n- **Extracellular K⁺ changes** shift E_K; excitability also depends on channel gating, conductance and pump activity\n- **Mitochondrial inner membrane potential**: approximately −180 mV (matrix negative); drives ATP synthesis via proton motive force\n\nThe electrochemical gradient is one of the most unifying concepts in cell biology. Whether you are analyzing a neuron firing, a kidney tubule reabsorbing glucose, or a mitochondrion synthesizing ATP, the same quantitative framework applies: ions move in response to the combined chemical and electrical gradients, and cells invest energy (ATP) to maintain those gradients against the inevitable leak. Master this framework, and a large fraction of MCAT physiology and biochemistry becomes logically coherent rather than a list of facts to memorize."
+    },
+    {
+      "field": "questions.285.explanation",
+      "value": "For equal permeabilities, GHK gives V_m = 61.5 log₁₀[(145 + 5)/(12 + 140)] mV at 37°C, approximately −0.35 mV. This is less negative than the K⁺-only potential of about −89 mV, so C is correct. It is not the arithmetic average of E_Na and E_K. Equal permeabilities give exactly zero only when the two concentration sums are equal in this model."
+    },
+    {
+      "field": "questions.285.question_text",
+      "value": "A model membrane is permeable only to Na⁺ and K⁺. Concentrations are Na⁺: 145 mM outside, 12 mM inside; K⁺: 5 mM outside, 140 mM inside. Increasing Na⁺ permeability from zero to equal K⁺ permeability shifts the GHK voltage in which direction?"
+    }
+  ]
+}

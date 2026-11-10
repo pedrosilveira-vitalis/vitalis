@@ -1,0 +1,238 @@
+{
+  "lessonId": 46,
+  "reviewedAt": "2026-11-09",
+  "questionIds": [
+    226,
+    227,
+    228,
+    229,
+    230
+  ],
+  "sources": [
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/13-1-chromosomal-theory-and-genetic-linkage",
+      "title": "OpenStax Biology 2e: Genetic linkage"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK21116/",
+      "title": "NCBI: Mapping genomes"
+    },
+    {
+      "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/",
+      "title": "MedlinePlus Genetics: Inheritance patterns"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK279001/",
+      "title": "Endotext: Sexual differentiation"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9233459/",
+      "title": "Satellite DNAs and human sex chromosome variation"
+    }
+  ],
+  "visual": {
+    "title": "Follow linked alleles through a cross",
+    "src": "/lesson-diagrams/chromosomal-linkage.svg",
+    "width": 900,
+    "height": 800,
+    "alt": "Two homologs carry AB and ab in cis. A recombination fraction of 20 percent gives AB and ab gametes at 40 percent each and Ab and aB at 10 percent each. A three-marker map shows 4.5 and 19.5 centimorgan intervals.",
+    "caption": "Gamete probabilities use r = 0.20 and equal reciprocal classes. Map lengths and observed two-marker recombination fractions are distinct.",
+    "beforeHeading": "Constructing Linkage Maps"
+  },
+  "guards": [
+    {
+      "field": "lesson.title",
+      "sha256": "fe268e55afde88aab13dfc8e1e2dde6c6b86a108829678cea3f93275d77a37de"
+    },
+    {
+      "field": "lesson.content",
+      "sha256": "797efad8d24055e6c2b187451da457278fd6670870a17e4b322c4b37a23ca9ac"
+    },
+    {
+      "field": "questions.226.question_text",
+      "sha256": "1fae5c0f9f419fa6bd4129721fc24c2acc3761fddaf1bdaa63972ce04eff39df"
+    },
+    {
+      "field": "questions.226.choice_a",
+      "sha256": "4314e232ef2bd109a6ca9cc1d25d992501798c6e2912def749df3507f89258f4"
+    },
+    {
+      "field": "questions.226.choice_b",
+      "sha256": "e38f24011809f6b9f271650a72e1b7f77ab76fe933cc508f011344f49f78944e"
+    },
+    {
+      "field": "questions.226.choice_c",
+      "sha256": "1fe6d6f7d306899369077f55e900253c45bd3904ccd0c3ab8fcac39b12f39bd8"
+    },
+    {
+      "field": "questions.226.choice_d",
+      "sha256": "36c7c0782c0372794d2fced6d95fbb777e07ac8c19b120d3cdc7bc710efc4e61"
+    },
+    {
+      "field": "questions.226.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.226.explanation",
+      "sha256": "3d7e62f2699178a3e71b2a94b4bf0a47952ed75fba4e5ea178559d88573f16b8"
+    },
+    {
+      "field": "questions.227.question_text",
+      "sha256": "a877c0b6e523517cba7845c2d2111fbf8ed498b1239fe8b47202f945c6ca2be1"
+    },
+    {
+      "field": "questions.227.choice_a",
+      "sha256": "9f0fd4339069ed2d0b6482dd383e34802912a9c12f633f824a91ef0c7a31bd87"
+    },
+    {
+      "field": "questions.227.choice_b",
+      "sha256": "77e28c0cc1854522ff512804742912efb8b09beb582a40ff82240afe7cd188b6"
+    },
+    {
+      "field": "questions.227.choice_c",
+      "sha256": "e98cbbe7ea93bcc1cd4c241f415add328ba08172cfad7895843c266667e8512c"
+    },
+    {
+      "field": "questions.227.choice_d",
+      "sha256": "8dd07d42ba0311baec213d28cf131e6246589e9216a3ceeb13663eee32c35204"
+    },
+    {
+      "field": "questions.227.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.227.explanation",
+      "sha256": "f51e7540dd7e7de14d77e6005fbbf331224195bf50567d9caf17a4eb6219eef1"
+    },
+    {
+      "field": "questions.228.question_text",
+      "sha256": "8b1673be9fb32dd0b28ef94677351167e6e089cb27fda010ef790a346d0879cd"
+    },
+    {
+      "field": "questions.228.choice_a",
+      "sha256": "16357b68da39d4af7bae2497325b5e046975eb173b515e54225cc7cb0ad14b57"
+    },
+    {
+      "field": "questions.228.choice_b",
+      "sha256": "1249990e589208cded7fbcfdca8197e5d49a058051c2ee14caad0e5e0127e67f"
+    },
+    {
+      "field": "questions.228.choice_c",
+      "sha256": "310b0fcefa3e079a3e26f2827afc4ee601104a6479cadfe8ae66dd51961d6cdf"
+    },
+    {
+      "field": "questions.228.choice_d",
+      "sha256": "8ffc15a6bd27aca5bd8470a79f1c105885f50498cb5c52682f813572be397516"
+    },
+    {
+      "field": "questions.228.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.228.explanation",
+      "sha256": "2e126206622a4a85b441211f502b7b078deb630b73d8602687a263f1eb8773e3"
+    },
+    {
+      "field": "questions.229.question_text",
+      "sha256": "88dcd7efc629877321e0695a9d1da690dec9b0fc8e4ea2426bb41bd510774462"
+    },
+    {
+      "field": "questions.229.choice_a",
+      "sha256": "0e438ac79b4c4832456ec4202cef345138cd7716a827299f33184ab46ce312df"
+    },
+    {
+      "field": "questions.229.choice_b",
+      "sha256": "ba148bea8d1ffaf4a1ab29dfe867fc926ddaca26798e8b20b83d5e50b53ecfd4"
+    },
+    {
+      "field": "questions.229.choice_c",
+      "sha256": "a27979017bf5a0438841b49f9d5c106f8eab84b2915c49df07ce0d3e1be1863f"
+    },
+    {
+      "field": "questions.229.choice_d",
+      "sha256": "dfbbc6fb9fd7211a21625e6c533d71c8568b616e362a30a6e826f2174e047202"
+    },
+    {
+      "field": "questions.229.correct_answer",
+      "sha256": "df7e70e5021544f4834bbee64a9e3789febc4be81470df629cad6ddb03320a5c"
+    },
+    {
+      "field": "questions.229.explanation",
+      "sha256": "9e28f564eb7a0e9efb2445da89342c9b9012fd8e260a906421b9376bdafa5c48"
+    },
+    {
+      "field": "questions.230.question_text",
+      "sha256": "91c581bcefedf136eb7544f4e40a671905294308423de98519ca37fce9705f4f"
+    },
+    {
+      "field": "questions.230.choice_a",
+      "sha256": "c2aec5a791686b1694501b5445849e11619e799b7d60b7cae6dadb708cbf43e5"
+    },
+    {
+      "field": "questions.230.choice_b",
+      "sha256": "04df53df772ce22343937e983dd298b320296b3d23d212a320d16c308cef461c"
+    },
+    {
+      "field": "questions.230.choice_c",
+      "sha256": "e0b31d4ba1204b2ce6aabfd5166d2b41fbdefec3a43a78c1e3a5ea03ba14c33b"
+    },
+    {
+      "field": "questions.230.choice_d",
+      "sha256": "de7ff5beb0dfa79206d36aaca314bc22437755da087e246fe5881a56aeab7bd5"
+    },
+    {
+      "field": "questions.230.correct_answer",
+      "sha256": "3f39d5c348e5b79d06e842c114e6cc571583bbf44e4b0ebfda1a01ec05745d43"
+    },
+    {
+      "field": "questions.230.explanation",
+      "sha256": "c3a13a6d6636ba99adb0571fb0a5bb96469a28abe9d0588db8f214c129b4dada"
+    }
+  ],
+  "updates": [
+    {
+      "field": "content",
+      "value": "# Chromosomal Basis of Inheritance and Linkage\n\n## Introduction: Why Chromosomes Matter for Inheritance\n\nWhen Mendel formulated his laws of segregation and independent assortment in the 1860s, he had no idea what physical structures carried hereditary information. He simply observed ratios. By the early twentieth century, cytologists had described chromosomes in remarkable detail, and geneticists began to notice something critical: the behavior of chromosomes during meiosis perfectly mirrors the behavior of Mendel's hereditary factors. This parallel was not coincidental. Chromosomes *are* the physical basis of inheritance.\n\nThe **chromosomal theory of inheritance**, formalized by Walter Sutton and Theodor Boveri around 1902–1904, states that genes are carried on chromosomes and that the behavior of chromosomes during meiosis accounts for the patterns of hereditary transmission. This theory has profound implications. If genes are on chromosomes, and humans have only 46 chromosomes (23 pairs), then thousands of genes must be physically located on the same chromosome. Genes on the same chromosome do not always assort independently—they are **linked**—and understanding linkage is essential for interpreting inheritance patterns, mapping genomes, and answering MCAT questions about genetics.\n\n---\n\n## The Physical Organization of Genes on Chromosomes\n\n### Chromosomes as Gene-Bearing Structures\n\nBefore replication, a typical nuclear chromosome contains one long double-stranded DNA molecule with associated proteins. After replication it has two sister chromatids, each with a DNA molecule. The human haploid genome contains approximately 3.2 billion base pairs distributed across 23 chromosomes. The largest chromosome, chromosome 1, carries roughly 2,000–2,500 protein-coding genes. Because genes are physically embedded within chromosomal DNA, they are subject to all the same physical constraints as the chromosomes themselves.\n\n**Loci** (singular: *locus*) are specific positions on a chromosome where a particular gene resides. Alleles—alternative versions of a gene—occupy the same locus on homologous chromosomes. The key insight is that two genes on the same chromosome occupy the same physical molecule of DNA. They travel together during mitosis and, unless a crossover event separates them, they travel together during meiosis as well.\n\n### Autosomes and Sex Chromosomes\n\nTypical nucleated diploid human cells contain 46 chromosomes: 44 **autosomes** (22 homologous pairs) and 2 **sex chromosomes** (XX in females, XY in males). Genes on autosomes follow autosomal inheritance patterns. Genes on sex chromosomes show **sex-linked inheritance**, which the MCAT tests extensively.\n\nThe X chromosome is large (~155 Mb) and carries approximately 800–900 genes. The Y chromosome is small (~57 Mb) and carries far fewer genes, mostly involved in male sex determination and spermatogenesis. Because males have only one X chromosome, they are **hemizygous** for X-linked genes—they express whatever allele is present on their single X, regardless of whether it is dominant or recessive. This is why X-linked recessive conditions like hemophilia A, Duchenne muscular dystrophy, and red-green color blindness affect males far more frequently than females.\n\n---\n\n## Mendel's Laws Revisited Through the Chromosomal Lens\n\n### Law of Segregation\n\nDuring meiosis I, homologous chromosomes separate. Because alleles of a gene reside on homologous chromosomes, they segregate into different cells. This is the physical mechanism underlying Mendel's first law. Each gamete receives one allele of each gene—not two—because it receives only one chromosome from each homologous pair.\n\n### Law of Independent Assortment\n\nMendel's second law states that alleles of different genes assort independently during gamete formation. This holds *only* when the genes in question are on different chromosomes (or are very far apart on the same chromosome). During meiosis I, the orientation of one pair of homologous chromosomes at the metaphase plate is random with respect to all other pairs. A cell with 23 chromosome pairs can theoretically produce 2²³ (over 8 million) different combinations of chromosomes in gametes through independent assortment alone—before even considering crossing over.\n\nThe critical limitation: **nearby loci on one chromosome tend to show linkage; distant loci can behave as though unlinked**. This is the phenomenon of genetic linkage, and it is one of the most important departures from Mendelian ratios you will encounter on the MCAT.\n\n---\n\n## Genetic Linkage\n\n### What Is Linkage?\n\n**Genetic linkage** refers to the tendency of genes located on the same chromosome to be inherited together. Two genes are said to be linked if they are on the same chromosome. The degree to which they are inherited together depends on how close they are to each other physically.\n\nConsider two genes, A and B, located on the same chromosome. If an organism is heterozygous at both loci (AaBb), and A and B are on the same chromosome, then the two alleles on one chromosome tend to travel together into the same gamete. If the dominant alleles A and B were inherited together from one parent, they are said to be in **coupling** (or *cis* configuration): AB / ab. If A was inherited with b and a was inherited with B, the alleles are in **repulsion** (or *trans* configuration): Ab / aB.\n\n### Detecting Linkage: The Testcross\n\nThe classic method for detecting linkage is the **testcross**: crossing a doubly heterozygous individual (AaBb) with a doubly homozygous recessive individual (aabb). If the genes assort independently, the testcross should produce four phenotypic classes in equal proportions: 1 AB : 1 Ab : 1 aB : 1 ab (each 25%).\n\nWhen genes are linked, the proportions deviate from this 1:1:1:1 ratio. The **parental classes**—offspring that have the same allele combinations as the original parents—appear more frequently than expected. The **recombinant classes**—offspring with new allele combinations—appear less frequently than expected. Under independent assortment, each class is expected at 25%, but the two recombinant classes together total 50%. Linkage is assessed using the combined recombinant fraction and the sampling uncertainty.\n\n---\n\n## Recombination and Crossing Over\n\n### The Molecular Basis of Recombination\n\nDuring prophase I of meiosis, homologous chromosomes pair up in a process called **synapsis**, forming a structure called the **bivalent** or **tetrad** (because it consists of four chromatids). The protein complex that holds homologs together is the **synaptonemal complex**.\n\nWithin the tetrad, non-sister chromatids from homologous chromosomes can exchange segments through **crossing over** (also called recombination). The physical sites where crossing over occurs are called **chiasmata** (singular: *chiasma*). Each crossover event involves a precise breaking and rejoining of DNA strands, catalyzed by a set of enzymes. The result is that alleles that were on one chromosome end up on the other, creating new combinations.\n\nThe farther apart two genes are on a chromosome, the more likely a crossover will occur between them. If two genes are very close together, crossovers between them are rare, and they are almost always inherited together. If two genes are far enough apart on the same chromosome, crossovers between them occur so frequently that they appear to assort independently—just as if they were on separate chromosomes.\n\n### Recombination Frequency\n\n**Recombination frequency** (RF), also called the **recombination fraction**, is defined as:\n\nRF = (number of recombinant offspring) / (total number of offspring) × 100%\n\nRecombinant offspring are those that carry new combinations of alleles not found in the parental generation. For a typical linked-marker testcross with comparable offspring viability and accurate scoring, the two recombinant classes are less frequent than the parental classes. Parentage or phase information should be used when available.\n\nIn the standard linkage model, the recombination fraction has an upper limit of **50%**. A finite observed sample can depart from its underlying probability. When RF = 50%, genes behave as if they are unlinked (independently assorting), either because they are on different chromosomes or because repeated crossovers between distant loci randomize their association.\n\nWhen RF < 50%, genes are linked. Lower RF means tighter genetic linkage. It is not a uniform ruler of physical base-pair distance because recombination rates vary across regions and sexes.\n\nFor a short interval, 1% recombinant gametes is approximately 1 centimorgan (cM). Genetic map distance measures recombination, not base pairs; over longer intervals, multiple crossovers make the observed two-marker fraction underestimate map length.\n\nUse RF ≈ cM only as a short-interval approximation. Genetic distances can exceed 50 cM, whereas a two-locus recombination fraction approaches 50%.\n\n---\n\n## Constructing Linkage Maps\n\n### The Logic of Mapping\n\nA **linkage map** (also called a **genetic map** or **chromosome map**) is a diagram showing the relative positions of genes on a chromosome, with distances measured in centimorgans. To construct a linkage map, you need recombination frequency data from crosses involving the genes of interest.\n\n### Two-Point Crosses\n\nA **two-point cross** measures the recombination frequency between two genes at a time. From a testcross, you count parental and recombinant offspring, calculate RF, and assign a map distance. If gene A and gene B show 15% recombination, a simple approximation places them 15 cM apart. If gene B and gene C show 8% recombination, you know B and C are 8 cM apart. But you do not yet know whether C is between A and B, or whether the order is A–B–C or C–A–B.\n\n### Three-Point Crosses\n\nA **three-point cross** (or three-factor cross) allows you to determine the order of three genes simultaneously and to calculate map distances between them. This is more efficient and more accurate than combining multiple two-point crosses, because it allows you to detect **double crossovers**—events where two crossovers occur between the outer markers.\n\nIn a three-point testcross, cross a triply heterozygous individual (ABC/abc) with a triply homozygous recessive (abc/abc). The offspring fall into eight phenotypic classes. In the usual short-interval model, the most frequent classes are parental and the least frequent classes are double recombinants. This ranking assumes no strong viability or scoring distortions; additional crossovers can be invisible to the markers. The four intermediate-frequency classes are **single crossover classes** (one crossover in either of the two intervals).\n\n**Steps to construct a three-point map:**\n\n1. Identify the parental classes (most frequent).\n2. Identify the double crossover classes (least frequent).\n3. Determine gene order: compare the double crossover class to the parental class. The gene that has switched its association relative to the other two is the *middle gene*.\n4. Calculate the distance between the left and middle genes: RF₁ = (single crossovers in interval 1 + double crossovers) / total × 100%.\n5. Calculate the distance between the middle and right genes: RF₂ = (single crossovers in interval 2 + double crossovers) / total × 100%.\n6. The total map distance is RF₁ + RF₂.\n\nWhen double recombinants are present, the sum RF₁ + RF₂ will be greater than the directly measured RF between the outer markers, because double crossovers are \"invisible\" in a two-point cross (they restore the parental combination).\n\n### Worked Example\n\nSuppose a three-point testcross between ABC/abc × abc/abc yields the following offspring:\n\n- ABC / abc: 390 (parental)\n- abc / abc: 380 (parental)\n- ABc / abc: 95 (single crossover, interval 2)\n- abC / abc: 90 (single crossover, interval 2)\n- Abc / abc: 18 (single crossover, interval 1)\n- aBC / abc: 17 (single crossover, interval 1)\n- AbC / abc: 5 (double crossover)\n- aBc / abc: 5 (double crossover)\n\nTotal = 1000 offspring.\n\n*Step 1*: Parental classes are ABC and abc (most frequent, 390 + 380 = 770).\n\n*Step 2*: Double crossover classes are AbC and aBc (least frequent, 5 + 5 = 10).\n\n*Step 3*: Determine gene order. In the parental class, B is associated with A and C. In the double crossover class, B is separated from A and C. The middle gene is B. Gene order: A–B–C.\n\n*Step 4*: Distance A–B = (single crossovers in interval A–B + double crossovers) / total × 100%\n= (18 + 17 + 5 + 5) / 1000 × 100% = 45/1000 × 100% = 4.5 cM\n\n*Step 5*: Distance B–C = (single crossovers in interval B–C + double crossovers) / total × 100%\n= (95 + 90 + 5 + 5) / 1000 × 100% = 195/1000 × 100% = 19.5 cM\n\n*Total map distance*: A to C = 4.5 + 19.5 = 24 cM\n\nDirect two-point measurement of A to C would give: (45 + 195 - 2×10) / 1000 × 100% = 22%, underestimating the true distance because double crossovers restore parental combinations.\n\n---\n\n## Sex-Linked Inheritance and Linkage to Sex Chromosomes\n\n### X-Linked Traits\n\nBecause males are hemizygous for X-linked genes, X-linked traits show a distinctive inheritance pattern. An **X-linked recessive** trait:\n- Affects males more often than females (males need only one copy of the recessive allele)\n- Is never passed from father to son (fathers pass Y to sons)\n- Is passed from carrier mothers to sons with 50% probability\n- Shows a \"criss-cross\" inheritance pattern: affected grandfather → carrier daughter → affected grandson\n\nAn **X-linked dominant** trait:\n- Can affect both sexes; prevalence and severity depend on penetrance, allele frequency and viability\n- Affected fathers pass the trait to *all* daughters but *no* sons\n- Examples include hypophosphatemia (X-linked hypophosphatemic rickets)\n\n### Y-Linked Traits\n\nGenes on the Y chromosome (excluding the pseudoautosomal regions) are passed exclusively from father to all sons. This is called **holandric inheritance**. Y-linked loci include SRY, involved in testis determination, and AZF regions important for spermatogenesis. SRY should not be described as a spermatogenesis gene.\n\n### Pseudoautosomal Regions\n\nThe tips of the X and Y chromosomes share homologous sequences called **pseudoautosomal regions** (PAR1 and PAR2). PAR1 normally has an obligatory crossover during male meiosis; PAR2 recombination is not obligatory. Pseudoautosomal genes can be transmitted father to son and do not follow the usual non-PAR X-linked rules.\n\n---\n\n## Chromosomal Abnormalities Related to Linkage and Recombination\n\n### Nondisjunction\n\n**Nondisjunction** occurs when homologous chromosomes (meiosis I) or sister chromatids (meiosis II) fail to separate properly. The result is gametes with an abnormal chromosome number (**aneuploidy**). Fertilization of an aneuploid gamete produces offspring with conditions such as:\n- **Trisomy 21** (Down syndrome): three copies of chromosome 21\n- **Trisomy 18** (Edwards syndrome): three copies of chromosome 18\n- **Trisomy 13** (Patau syndrome): three copies of chromosome 13\n- **Monosomy X** (Turner syndrome, 45,X): one X chromosome in a female\n- **Klinefelter syndrome** (47,XXY): two X chromosomes and one Y\n\nNondisjunction is more common in meiosis I than meiosis II, and maternal age is a significant risk factor, likely due to the prolonged arrest of oocytes in prophase I (sometimes for decades).\n\n### Chromosomal Rearrangements\n\nErrors in recombination can produce chromosomal rearrangements that affect gene linkage and expression:\n- **Deletions**: loss of a chromosomal segment (e.g., cri-du-chat syndrome, deletion of 5p)\n- **Duplications**: extra copies of a chromosomal segment\n- **Inversions**: a segment is reversed in orientation; **paracentric inversions** do not include the centromere, **pericentric inversions** do\n- **Translocations**: segments move between non-homologous chromosomes; the **Philadelphia chromosome** (t(9;22)) in chronic myelogenous leukemia creates the *BCR-ABL* fusion oncogene\n\nThese rearrangements can suppress recombination in heterozygotes (particularly inversions), alter gene expression by changing regulatory environments, and produce offspring with unbalanced chromosome complements.\n\n---\n\n## Incomplete Linkage and the Role of Interference\n\n### Coefficient of Coincidence and Interference\n\nPositive crossover interference makes nearby double crossovers less frequent than an independence model predicts; interference is not universal and depends on the organism and region. This is because one crossover inhibits the formation of another nearby crossover—a phenomenon called **crossover interference** (or simply **interference**).\n\nThe **coefficient of coincidence** (CoC) measures the actual frequency of double crossovers relative to the expected frequency:\n\nCoC = (observed double crossover frequency) / (expected double crossover frequency)\n\nExpected double crossover frequency = RF₁ × RF₂\n\n**Interference** (I) = 1 − CoC\n\nWhen I = 0, crossovers occur independently (no interference). When I = 1, crossovers in one interval completely prevent crossovers in the adjacent interval (complete interference). Most organisms show positive interference (I between 0 and 1), meaning double crossovers are less common than expected.\n\nTwo-point maps underestimate distance because some multiple crossovers restore parental marker associations. Positive interference reduces nearby double crossovers; it is not itself the reason that double recombinants are missed.\n\n---\n\n## MCAT-Specific Applications and High-Yield Points\n\n### Recognizing Linked Genes from Cross Data\n\nOn the MCAT, you may be given testcross data and asked to determine whether genes are linked. The key is to compare observed ratios to the expected 1:1:1:1 ratio for independent assortment.\n\n- Roughly equal proportions of all four classes are consistent with independent assortment; distant loci on one chromosome can give the same result\n- If two classes (parental types) are more frequent and two classes (recombinants) are less frequent → genes are linked\n- Calculate RF = (recombinants / total) × 100%; interpret map distance with the short-interval approximation or an appropriate mapping model\n\n### Chi-Square Analysis\n\nThe MCAT may ask you to apply **chi-square (χ²) analysis** to determine whether deviations from expected ratios are statistically significant. The formula is:\n\nχ² = Σ [(observed − expected)² / expected]\n\nA large χ² value (relative to the critical value at the appropriate degrees of freedom) indicates that the observed data are unlikely to result from chance alone, suggesting that the genes are linked rather than independently assorting.\n\n### Pedigree Analysis with Linkage\n\nWhen analyzing pedigrees for X-linked traits, remember:\n- Affected males with carrier mothers: X-linked recessive\n- No male-to-male transmission: X-linked (fathers cannot pass X to sons)\n- All daughters inherit the paternal X allele; the maternal allele, penetrance and X-inactivation influence phenotype\n- Skipping generations suggests recessive inheritance but can also reflect reduced penetrance or age-dependent onset\n\n### Mitotic Recombination\n\nRecombination is not limited to meiosis. **Mitotic recombination** can occur during DNA repair in somatic cells. If a crossover occurs between two heterozygous loci during mitosis, daughter cells can become homozygous for alleles that were heterozygous in the parent cell. This is one mechanism by which tumor suppressor genes can be inactivated (**loss of heterozygosity**, or LOH), contributing to cancer development.\n\n### Genomic Imprinting\n\n**Genomic imprinting** is an epigenetic phenomenon in which the expression of a gene depends on which parent it was inherited from. Imprinted genes are marked with epigenetic tags (DNA methylation, histone modification) during gametogenesis. The physical linkage of imprinted genes on chromosomes means that deletions of chromosomal regions can have different effects depending on whether the deletion is on the maternally or paternally inherited chromosome.\n\n- **Prader-Willi syndrome**: deletion of paternal chromosome 15q11-q13 (or maternal uniparental disomy of chromosome 15)\n- **Angelman syndrome**: deletion of maternal chromosome 15q11-q13 (or paternal uniparental disomy of chromosome 15)\n\nThese syndromes arise from the same chromosomal region but produce completely different phenotypes depending on the parent of origin—a striking demonstration of how chromosomal location and epigenetic marking interact.\n\n---\n\n## Summary of Key Concepts\n\n- Genes are physically located on chromosomes; the behavior of chromosomes during meiosis explains Mendelian inheritance patterns.\n- **Linked genes** are on the same chromosome and tend to be inherited together.\n- **Recombination frequency** measures how often two linked genes are separated by crossing over; RF < 50% indicates linkage.\n- **For short intervals, 1 cM corresponds approximately to 1% recombinant gametes**.\n- Three-point crosses reveal gene order and allow detection of double crossovers, giving more accurate map distances than two-point crosses.\n- X-linked traits show characteristic inheritance patterns: hemizygosity in males, criss-cross inheritance, no father-to-son transmission.\n- Nondisjunction produces aneuploid gametes; chromosomal rearrangements can disrupt normal recombination and gene expression.\n- Interference suppresses double crossovers; CoC = observed/expected double crossover frequency; I = 1 − CoC.\n- Genomic imprinting and mitotic recombination (loss of heterozygosity) are clinically relevant extensions of chromosomal inheritance concepts.\n\nUnderstanding the chromosomal basis of inheritance gives you the framework to interpret any genetics problem on the MCAT—from simple Mendelian ratios to complex pedigrees to the molecular mechanisms of cancer. Master the relationship between physical chromosome structure and genetic transmission, and you will be equipped to handle the full range of genetics questions the exam can throw at you."
+    },
+    {
+      "field": "questions.226.choice_b",
+      "value": "16%; the genes are linked, with an approximate map distance of 16 cM"
+    },
+    {
+      "field": "questions.226.explanation",
+      "value": "The two recombinant classes total 8% + 8% = 16%. The abundant Ab and aB classes indicate repulsion phase. The simple RF-to-map-distance estimate is about 16 cM; multiple crossovers can make the true map length larger."
+    },
+    {
+      "field": "questions.227.explanation",
+      "value": "B lies between A and C because 12 cM + 7 cM = 19 cM. A–B–C and its reverse C–B–A describe the same order. Map distances are additive along a chromosome; raw two-marker recombination fractions need not be additive because they can miss multiple crossovers."
+    },
+    {
+      "field": "questions.227.question_text",
+      "value": "Three genes have estimated genetic map distances A–B = 12 cM, B–C = 7 cM and A–C = 19 cM. Which order fits this linear map?"
+    },
+    {
+      "field": "questions.228.choice_b",
+      "value": "The genes are linked in coupling (cis), with an approximate map distance of 18 cM"
+    },
+    {
+      "field": "questions.228.explanation",
+      "value": "The abundant gray-long and black-vestigial classes match GL/gl parental phase, so linkage is in cis. Recombinants total 9% + 9% = 18%. The short-interval mapping approximation gives about 18 cM; the percentage of parental offspring is not the map distance."
+    },
+    {
+      "field": "questions.230.choice_b",
+      "value": "47.5%, because one of the two parental classes carries both disease alleles"
+    },
+    {
+      "field": "questions.230.correct_answer",
+      "value": "B"
+    },
+    {
+      "field": "questions.230.explanation",
+      "value": "The parental gametes together account for 95%, split equally: 47.5% carry both disease alleles and 47.5% carry neither. Recombinants each carry just one allele at 2.5%. Since the question conditions on the child being a son, do not multiply by the probability of a male birth."
+    },
+    {
+      "field": "questions.230.question_text",
+      "value": "For a simplified cross, assume two X-linked recessive loci have a recombination fraction of 5%. A mother carries both disease alleles together on one X and neither on the other (coupling phase). The father carries neither. Given that a child is a son, what is his probability of inheriting both disease alleles?"
+    }
+  ]
+}
