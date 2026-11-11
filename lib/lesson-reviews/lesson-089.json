@@ -1,0 +1,57 @@
+{
+ "lessonId": 89,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  441,
+  442,
+  443,
+  444,
+  445
+ ],
+ "fingerprint": "bf0552d5c2febca153b1f89c22a1c00cc077046b349fc6c2629a752c150953e0",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "The CARS section gives you approximately 8-9 minutes per passage.",
+   "new": "The CARS section is 53 questions across 9 passage sets in 90 minutes — about 10 minutes per passage, reading and questions together.",
+   "reason": "AAMC lists 53 questions and 9 passage sets in 90 minutes, which is ~10 minutes per passage, not 8–9."
+  },
+  {
+   "field": "lesson.content",
+   "old": "A useful benchmark: most students should spend approximately 3-4 minutes reading a passage and 5-6 minutes on the questions.",
+   "new": "A useful benchmark within those 10 minutes: roughly 4 minutes reading the passage and 6 minutes on its 5–7 questions.",
+   "reason": "Makes the split add up to the real ~10-minute budget."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- *What domain is this passage from?* Humanities, social science, natural science?",
+   "new": "- *What domain is this passage from?* CARS passages come from the humanities and social sciences — which one is this?",
+   "reason": "AAMC draws CARS passages from the humanities and social sciences only; natural science passages belong to the science sections."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Authors of CARS passages—drawn from humanities, social sciences, and natural sciences written for general audiences—make arguments",
+   "new": "Authors of CARS passages—drawn from the humanities and social sciences, written for general audiences—make arguments",
+   "reason": "Same correction: CARS passage content is humanities and social sciences."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AAMC: What's on the MCAT Exam? (section lengths and question counts)",
+   "url": "https://students-residents.aamc.org/whats-mcat-exam/publication-chapters/whats-mcat-exam"
+  },
+  {
+   "title": "AAMC: Critical Analysis and Reasoning Skills Section Overview",
+   "url": "https://students-residents.aamc.org/whats-mcat-exam/critical-analysis-and-reasoning-skills-section-overview"
+  }
+ ],
+ "visual": {
+  "title": "Ten minutes per passage",
+  "src": "/lesson-diagrams/cars-passage-workflow.svg",
+  "width": 1000,
+  "height": 620,
+  "alt": "A bar splits ten minutes into about four minutes of reading and six of questions. Six steps: a 15-second preview of the title and first and last sentences; read the first paragraph carefully to find and mark the thesis; read body paragraphs with a three-to-five-word note on what each does; read counterarguments critically, asking whether the author agrees; read the final paragraph for the refined thesis; and take a 15-second review to state the argument in one sentence. Two columns list what to annotate (thesis, paragraph function, tone words, transitions, a question mark where you lost the thread) and what not to (names, dates, statistics, examples, full sentences). A closing strip maps these habits to main idea, tone, function, inference and strengthen/weaken questions.",
+  "caption": "Timings are a guide, not a rule — the point is that reading work saves question time.",
+  "beforeHeading": "Practical Application: Walking Through the Active Reading Process"
+ }
+}
