@@ -1,0 +1,71 @@
+{
+ "lessonId": 81,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  401,
+  402,
+  403,
+  404,
+  405
+ ],
+ "fingerprint": "31812c01970b7370806e3e3d1e5d1d650c9d07f429b22e469fb718d1c9d4eb52",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "yet the genome contains only ~25,000 genes.",
+   "new": "yet the genome contains only ~20,000 protein-coding genes.",
+   "reason": "Current NHGRI estimate is about 20,000 protein-coding genes."
+  },
+  {
+   "field": "lesson.content",
+   "old": "1. **Combinatorial V(D)J joining**: 40 V × 25 D × 6 J = ~6,000 possible heavy chain combinations; ~200 possible light chain combinations. Together: ~1.2 × 10⁶ combinations from gene segment choice alone.",
+   "new": "1. **Combinatorial V(D)J joining**: 40 V × 25 D × 6 J = ~6,000 possible heavy chain combinations; ~200 κ (40 V × 5 J) plus ~120 λ (30 V × 4 J) light chain combinations, or ~320 in all.",
+   "reason": "The light-chain count left out λ, and the heavy × light product was double-counted here and again under pairing (point 3)."
+  },
+  {
+   "field": "lesson.content",
+   "old": "With ~6,000 heavy chain and ~200 light chain possibilities, this gives ~1.2 × 10⁶ combinations",
+   "new": "With ~6,000 heavy chain and ~320 light chain possibilities, this gives ~2 × 10⁶ combinations",
+   "reason": "Recomputed with κ + λ (6,000 × 320 ≈ 1.9 × 10⁶)."
+  },
+  {
+   "field": "lesson.content",
+   "old": "  - **IL-4**: promotes switching to IgG1 and IgE",
+   "new": "  - **IL-4** (with IL-13): promotes switching to IgE, and to IgG1 in mice (IgG4 in humans)",
+   "reason": "IL-4 drives IgE plus IgG1 in mice but IgE plus IgG4 in humans."
+  },
+  {
+   "field": "lesson.content",
+   "old": "IgM is particularly efficient because its pentameric structure can engage C1q (the first complement component) with both arms of C1q simultaneously.",
+   "new": "IgM is particularly efficient because a single antigen-bound pentamer can engage several of C1q's six globular heads at once, whereas IgG needs several molecules bound close together.",
+   "reason": "C1q has six globular heads, not two arms; activation needs multiple heads bound."
+  }
+ ],
+ "sources": [
+  {
+   "title": "NHGRI Genetics Glossary: Gene (≈20,000 protein-coding genes)",
+   "url": "https://www.genome.gov/genetics-glossary/Gene"
+  },
+  {
+   "title": "Gascan et al., J Exp Med (1991): IL-4 switches human B cells to IgE and IgG4",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2118815"
+  },
+  {
+   "title": "IL-4 induces IgE, murine IgG1 and human IgG4 (Springer review)",
+   "url": "https://link.springer.com/doi/10.1007/BF00225324"
+  },
+  {
+   "title": "Frontiers in Immunology (2014): IL-4 and class switching in mice vs humans",
+   "url": "https://www.frontiersin.org/articles/10.3389/fimmu.2014.00628/pdf"
+  }
+ ],
+ "visual": {
+  "title": "V(D)J recombination",
+  "src": "/lesson-diagrams/vdj-recombination.svg",
+  "width": 1000,
+  "height": 640,
+  "alt": "Four rows of DNA. Germline: about 40 functional V, about 25 D and 6 J segments followed by constant genes. RAG1/RAG2 first join one D to one J, deleting the DNA between them, then join one V to the DJ; TdT adds N-nucleotides at the junctions, which form the highly variable CDR3. The VDJ exon is transcribed with C-mu (and C-delta by alternative splicing) to make IgM and IgD. A side box counts diversity: about 6,000 heavy-chain combinations, about 200 kappa and 120 lambda light-chain combinations, about 2 million pairings, with junctional diversity and somatic hypermutation adding much more. A footer contrasts RAG (V(D)J joining before antigen; loss causes SCID) with AID (class switching and hypermutation after antigen).",
+  "caption": "Segment counts are approximate; constant genes are shown in simplified order.",
+  "beforeHeading": "Generating Antibody Diversity: V(D)J Recombination"
+ }
+}

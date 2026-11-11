@@ -1,0 +1,95 @@
+{
+ "lessonId": 79,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  391,
+  392,
+  393,
+  394,
+  395
+ ],
+ "fingerprint": "15063215efc73d3e1fbfb9315e789e39c9d5b603577c7fef602fb246a8645494",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **Sebaceous glands** secrete sebum containing fatty acids and lactic acid that contribute to this acidic environment",
+   "new": "- **Sebaceous glands** secrete sebum whose free fatty acids, together with lactic acid from sweat, contribute to this acidic environment (the \"acid mantle\")",
+   "reason": "Lactic acid on the skin comes mainly from eccrine sweat, not sebum; sebum supplies free fatty acids."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Peptidoglycan and lipoteichoic acid** — gram-positive bacterial cell wall components; detected by **TLR2**",
+   "new": "- **Lipoteichoic acid and bacterial lipoproteins** — cell-wall/envelope components (lipoteichoic acid is gram-positive); detected by **TLR2** (paired with TLR1 or TLR6). Peptidoglycan fragments are sensed mainly inside the cell by **NOD1/NOD2**",
+   "reason": "Purified peptidoglycan is sensed intracellularly by NOD1/NOD2; TLR2 activity of peptidoglycan preparations comes largely from contaminating LTA/lipoproteins."
+  },
+  {
+   "field": "lesson.content",
+   "old": "1. **Phagocytosis and killing** — similar mechanisms to neutrophils, but macrophages are more efficient and longer-lived",
+   "new": "1. **Phagocytosis and killing** — similar mechanisms to neutrophils; macrophages arrive later and have a weaker oxidative burst, but they are long-lived and can keep engulfing and killing for weeks to months",
+   "reason": "Conflicted with question 395, which correctly says neutrophils have the more potent oxidative burst."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Osteoclasts** — bone (bone resorption)\n- **Mesangial cells** — kidney glomeruli",
+   "new": "- **Osteoclasts** — bone (bone resorption; formed by fusion of monocyte/macrophage-lineage cells)\n- **Splenic and lymph node macrophages** — filter blood and lymph\n\n(Glomerular **mesangial cells** can phagocytose, but they are smooth-muscle-like pericytes, not monocyte-derived macrophages.)",
+   "reason": "Mesangial cells are pericyte/smooth-muscle-like stromal cells, not tissue macrophages."
+  },
+  {
+   "field": "lesson.content",
+   "old": "the central region may undergo **caseous necrosis** (cheese-like appearance due to lipid-rich TB organisms)",
+   "new": "the central region may undergo **caseous necrosis** (dead cells are incompletely digested and clump into a soft, white, cheese-like mass)",
+   "reason": "The cheese-like appearance comes from incompletely digested necrotic cell debris, not from the organisms themselves."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Lipoxins, resolvins, and protectins** — lipid mediators derived from arachidonic acid and omega-3 fatty acids that actively suppress inflammation and promote resolution",
+   "new": "- **Lipoxins** (from arachidonic acid) and **resolvins and protectins** (from the omega-3 fatty acids EPA and DHA) — lipid mediators that actively suppress inflammation and promote resolution",
+   "reason": "Makes the precursor of each family explicit: lipoxins come from arachidonic acid, resolvins and protectins from omega-3s."
+  },
+  {
+   "field": "questions.393.explanation",
+   "old": "as well as lysosomal enzymes like myeloperoxidase.",
+   "new": "as well as granule enzymes; myeloperoxidase (from azurophilic granules) converts H₂O₂ to hypochlorous acid.",
+   "reason": "Myeloperoxidase is an azurophilic-granule enzyme that makes HOCl; clarified its role."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Frontiers in Medicine (2021): mesangial cells as microvascular pericytes with smooth-muscle features",
+   "url": "https://www.frontiersin.org/articles/10.3389/fmed.2021.740527"
+  },
+  {
+   "title": "Travassos et al., EMBO Reports (2004): Peptidoglycan is not sensed through TLR2",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/15359270"
+  },
+  {
+   "title": "Basil & Levy, Nature Reviews Immunology (2016): Specialized pro-resolving mediators",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/mid/NIHMS841025"
+  },
+  {
+   "title": "Wikipedia: Caseous necrosis (citing Robbins & Cotran)",
+   "url": "https://en.wikipedia.org/wiki/Caseous_necrosis"
+  },
+  {
+   "title": "StatPearls: Granuloma",
+   "url": "https://www.statpearls.com/point-of-care/81554"
+  },
+  {
+   "title": "Wikipedia: Acid mantle",
+   "url": "https://en.wikipedia.org/wiki/Acid_mantle"
+  },
+  {
+   "title": "Leukocyte extravasation and LAD-I (PMC review)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3628536"
+  }
+ ],
+ "visual": {
+  "title": "The leukocyte adhesion cascade",
+  "src": "/lesson-diagrams/leukocyte-extravasation.svg",
+  "width": 1000,
+  "height": 640,
+  "alt": "A venule with blood flowing left to right over an endothelial lining. Neutrophils move through six steps: margination toward the wall; rolling as E- and P-selectins bind sialyl-Lewis X; activation as IL-8 on the endothelium signals through G-protein-coupled receptors to switch on integrins; firm adhesion of LFA-1 and Mac-1 (CD18) to ICAM-1; diapedesis between or through endothelial cells and across the basement membrane; and chemotaxis toward microbes along IL-8, C5a and fMLP gradients. A box notes that in leukocyte adhesion deficiency type 1, missing CD18 blocks firm adhesion, giving high blood neutrophil counts, no pus and recurrent infections.",
+  "caption": "Selectins slow the cell, chemokines switch on integrins, and integrins stop it so it can cross.",
+  "beforeHeading": "Phagocytosis at the Infection Site"
+ }
+}

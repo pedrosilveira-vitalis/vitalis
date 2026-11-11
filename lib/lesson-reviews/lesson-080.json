@@ -1,0 +1,77 @@
+{
+ "lessonId": 80,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  396,
+  397,
+  398,
+  399,
+  400
+ ],
+ "fingerprint": "4268f37fc5cd3dcc850043a00cc936e4ff098e368594b8c93849b74f343fbeb3",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Macrophages and neutrophils express **FcγRIII (CD16)** and other Fc receptors that recognize the Fc region of IgG bound to antigen.",
+   "new": "Macrophages and neutrophils express Fcγ receptors such as **FcγRI (CD64)**, **FcγRIIA (CD32A)** and **FcγRIII (CD16)** that recognize the Fc region of IgG bound to antigen.",
+   "reason": "The main phagocytic IgG receptors on macrophages are CD64 and CD32A; CD16 alone is incomplete."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Does not cross the placenta** (too large)",
+   "new": "- **Does not cross the placenta** (placental transfer requires binding to FcRn, which carries only IgG)",
+   "reason": "Placental transfer is receptor-mediated (FcRn binds IgG); size is not the operative reason."
+  },
+  {
+   "field": "lesson.content",
+   "old": "**Half-life:** ~3 days (shortest of the five classes)",
+   "new": "**Half-life:** ~3 days (second shortest; free serum IgE is ~2 days)",
+   "reason": "Contradicted the lesson's own summary: free IgE (~2 days) has the shortest serum half-life."
+  },
+  {
+   "field": "lesson.content",
+   "old": "IgE-coated helminths recruit eosinophils via FcεRII and trigger ADCC-like killing.",
+   "new": "IgE-coated helminths are attacked by eosinophils and mast cells, which release toxic granule contents onto the worm (an ADCC-like mechanism).",
+   "reason": "Which IgE receptor eosinophils use is unsettled; removed the specific FcεRII claim."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **IFN-γ** → IgG2a/IgG3 (promotes opsonization and complement)",
+   "new": "- **IFN-γ** → IgG2a/IgG3 in mice (opsonizing, complement-fixing subclasses)",
+   "reason": "IgG2a is a mouse subclass; labelled the species like the IL-4 line."
+  },
+  {
+   "field": "questions.396.explanation",
+   "old": "form the antigen-binding site (Fab region)",
+   "new": "form the antigen-binding site (the Fv portion at the tip of each Fab arm)",
+   "reason": "VH + VL alone form the Fv, not the whole Fab (which also includes CL and CH1)."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Frontiers in Immunology (2014): human FcγR expression by cell type",
+   "url": "https://frontiersin.org/articles/10.3389/fimmu.2014.00254/pdf"
+  },
+  {
+   "title": "Frontiers in Immunology (2019): Fcγ receptors on leukocytes",
+   "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2019.00223/full"
+  },
+  {
+   "title": "Leinco: immunoglobulin classes, sizes and half-lives",
+   "url": "https://www.leinco.com/?p=70941"
+  },
+  {
+   "title": "Immunoglobulin metabolism (half-lives and synthetic rates)",
+   "url": "https://www.brainkart.com/article/Immunoglobulin-Metabolism_21571/"
+  }
+ ],
+ "visual": {
+  "title": "Antibody structure and the five classes",
+  "src": "/lesson-diagrams/antibody-structure-classes.svg",
+  "width": 1000,
+  "height": 640,
+  "alt": "An IgG monomer drawn as a Y: two heavy chains form the stem and inner arms, two light chains form the outer arms, and CDR loops at each arm tip form the antigen-binding sites. The arms are labelled Fab and the stem Fc, the effector end that binds Fc receptors, C1q and FcRn. Papain cuts above the hinge disulfides and pepsin below them. A table summarizes the classes: IgG is a monomer, about 75 percent of serum Ig, half-life about 21 days, crosses the placenta via FcRn, best opsonin. IgA is a dimer with J chain and secretory component in secretions and breast milk. IgM is a pentamer with J chain, made first, the best complement activator and agglutinator. IgD sits with IgM on naive B cells. IgE binds FcεRI on mast cells and basophils, mediating allergy and anti-helminth defense.",
+  "caption": "Fab binds antigen; Fc decides what happens next.",
+  "beforeHeading": "Functional Regions: Fab and Fc"
+ }
+}

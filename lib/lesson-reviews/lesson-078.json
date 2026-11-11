@@ -1,0 +1,45 @@
+{
+ "lessonId": 78,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  386,
+  387,
+  388,
+  389,
+  390
+ ],
+ "fingerprint": "fdf1b7835ef77e3cd76da94394d03c5d5ca7334773eea71232ecb4ce116518fb",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **Th2**: Driven by IL-4. Promotes B cell class switching to IgE and IgG1, eosinophil activation.",
+   "new": "- **Th2**: Driven by IL-4. Promotes B cell class switching to IgE (and to IgG4 in humans; the IgG1 association comes from mouse studies), eosinophil activation.",
+   "reason": "IL-4 drives switching to IgE and IgG4 in humans; IgG1 is the mouse counterpart."
+  },
+  {
+   "field": "lesson.content",
+   "old": "→ susceptibility to catalase-positive bacteria (Staphylococcus, Aspergillus).",
+   "new": "→ susceptibility to catalase-positive organisms (e.g., the bacteria *Staphylococcus aureus*, *Burkholderia*, *Serratia* and *Nocardia*, and the fungus *Aspergillus*).",
+   "reason": "Aspergillus is a fungus, not a bacterium; adds the classic organisms."
+  }
+ ],
+ "sources": [
+  {
+   "title": "StatPearls: Chronic Granulomatous Disease",
+   "url": "https://www.statpearls.com/point-of-care/19527"
+  },
+  {
+   "title": "IL-4 and IgE/IgG4 (human) vs IgE/IgG1 (mouse) switching review (Springer)",
+   "url": "https://link.springer.com/doi/10.1007/BF00225324"
+  }
+ ],
+ "visual": {
+  "title": "Two arms of immunity, one coordinated response",
+  "src": "/lesson-diagrams/innate-vs-adaptive.svg",
+  "width": 1000,
+  "height": 620,
+  "alt": "A schematic graph of response size over days: the innate response rises within hours, the primary adaptive response peaks after one to two weeks with IgM first, and a secondary response after re-exposure is faster, larger and mostly IgG. Boxes list innate players (barriers, neutrophils, macrophages, NK cells, complement, dendritic cells with germline pattern-recognition receptors) and adaptive players (B and T cells with V(D)J-generated receptors and memory), linked by dendritic cells that provide peptide-MHC and co-stimulation in lymph nodes.",
+  "caption": "Curve shapes are schematic and only compare timing.",
+  "beforeHeading": "Adaptive Immunity"
+ }
+}
