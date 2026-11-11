@@ -1,0 +1,35 @@
+{
+ "lessonId": 98,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  486,
+  487,
+  488,
+  489,
+  490
+ ],
+ "fingerprint": "9b5187aa0630bd24c88ea28236a20ab5c4ecb16655e82dd7fa73824b3cd317df",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "These questions make up roughly 40% of the CARS section—approximately 18 of the 53 questions you will encounter.",
+   "new": "These questions make up roughly 40% of the CARS section—about 21 of the 53 questions you will encounter.",
+   "reason": "40% of 53 is about 21; 18 would be roughly 34%."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AAMC: CARS section outline (Reasoning Beyond the Text, 40% of 53 questions)",
+   "url": "https://students-residents.aamc.org/media/9266/download"
+  }
+ ],
+ "visual": {
+  "title": "The three Reasoning Beyond tasks",
+  "src": "/lesson-diagrams/cars-rbt-three-jobs.svg",
+  "width": 1000,
+  "height": 620,
+  "alt": "Three columns. Apply: stems ask which scenario the author would consider an example of a passage concept; the move is to abstract the principle into one general sentence and then match structure; traps are a superficial match sharing vocabulary but not logic, the opposite case, and a principle the passage never endorsed. Strengthen or weaken: stems ask which finding, if true, would most affect the argument; the move is to name the central assumption first and ask whether the choice validates or attacks it; traps are irrelevant information, the wrong direction, proving too much, and a scope mismatch. Extend: stems ask what the author would most likely agree with; the move is to ask what else must be true if the argument is sound, requiring entailment rather than consistency; traps are the too-extreme extension, the merely consistent answer, and guessing from the author's personality. A footer advises predicting before reading the choices, matching on logical structure rather than topic, and remembering that a strengthener need only make the conclusion likelier.",
+  "caption": "Track the author's logic — not whether the author is right.",
+  "beforeHeading": "The Three Subtypes of Reasoning Beyond the Text"
+ }
+}
