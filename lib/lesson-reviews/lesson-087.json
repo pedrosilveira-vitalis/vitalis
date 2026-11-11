@@ -1,0 +1,71 @@
+{
+ "lessonId": 87,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  431,
+  432,
+  433,
+  434,
+  435
+ ],
+ "fingerprint": "5665ce14b85bc22444dac4e6d02d4e249cd3f786086f74246f047165d315c989",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "*Aspergillus* produces chains of conidia called **conidiophores**. *Penicillium* produces conidia on brush-like structures called **phialides**.",
+   "new": "Conidia form on specialized hyphae called **conidiophores**. In *Aspergillus*, the conidiophore ends in a swollen **vesicle** covered with flask-shaped **phialides** that bud off chains of conidia; in *Penicillium*, branched conidiophores form a brush-like **penicillus** whose phialides produce the conidial chains.",
+   "reason": "A conidiophore is the stalk that bears conidia, not a chain of conidia; phialides are the conidium-producing cells, and the brush is the penicillus."
+  },
+  {
+   "field": "lesson.content",
+   "old": "When ingested by a mosquito, gametocytes fuse in the mosquito gut, undergo meiosis, and produce sporozoites that migrate to the salivary glands.",
+   "new": "When ingested by a mosquito, gametocytes mature into gametes that fuse in the mosquito gut to form a diploid zygote; it undergoes meiosis and develops into an oocyst that releases sporozoites, which migrate to the salivary glands.",
+   "reason": "Gametocytes first become gametes; the zygote then develops into an oocyst that produces sporozoites."
+  },
+  {
+   "field": "lesson.content",
+   "old": "**Schistosoma** species cause **schistosomiasis**, the second most prevalent parasitic disease after malaria.",
+   "new": "**Schistosoma** species cause **schistosomiasis**, which ranks second only to malaria among human parasitic diseases in public-health and socioeconomic importance.",
+   "reason": "The WHO ranking is about public-health impact, not prevalence (soil-transmitted helminths infect more people)."
+  },
+  {
+   "field": "lesson.content",
+   "old": "**Neurocysticercosis** is the most common cause of acquired epilepsy worldwide.",
+   "new": "**Neurocysticercosis** is the most frequent preventable cause of epilepsy worldwide, estimated to cause about 30% of epilepsy cases where the parasite is endemic.",
+   "reason": "Matches WHO wording; 'most common cause of acquired epilepsy' overstates it."
+  },
+  {
+   "field": "questions.431.question_text",
+   "old": "this organism's cell wall lacks ergosterol",
+   "new": "this organism's cell membrane lacks ergosterol",
+   "reason": "Ergosterol is a plasma-membrane sterol, not a cell-wall component."
+  }
+ ],
+ "sources": [
+  {
+   "title": "WHO fact sheet: Taeniasis/cysticercosis",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/taeniasis-cysticercosis"
+  },
+  {
+   "title": "GPnotebook: Intestinal schistosomiasis epidemiology (citing WHO)",
+   "url": "https://gpnotebook.com/en-GB/pages/infectious-disease/intestinal-schistosomiasis/epidemiology"
+  },
+  {
+   "title": "University of Adelaide Mycology: Glossary of mycological terms",
+   "url": "https://mycology.adelaide.edu.au/glossary"
+  },
+  {
+   "title": "21st Century Guidebook to Fungi: Aspergillus conidiophores",
+   "url": "https://davidmoore.org.uk/21st_century_guidebook_to_fungi_platinum/Ch09_04.htm"
+  }
+ ],
+ "visual": {
+  "title": "Plasmodium life cycle",
+  "src": "/lesson-diagrams/plasmodium-life-cycle.svg",
+  "width": 1000,
+  "height": 640,
+  "alt": "A mosquito panel and a human panel. A mosquito bite injects sporozoites, which infect liver cells and multiply asexually into merozoites; P. vivax and P. ovale can leave dormant hypnozoites that cause relapses. Merozoites invade red blood cells and cycle through ring, trophozoite and schizont stages, with synchronous rupture causing cyclic fevers; P. falciparum-infected cells stick to capillary walls. Some parasites become gametocytes, which a feeding mosquito takes up; gametes fuse in its gut to form the diploid zygote, which becomes an oocyst releasing sporozoites that gather in the salivary glands. A footer notes that sickle trait and G6PD deficiency give partial protection.",
+  "caption": "Humans host the asexual stages; the mosquito hosts sexual reproduction.",
+  "beforeHeading": "Trypanosoma"
+ }
+}
