@@ -1,0 +1,45 @@
+{
+ "lessonId": 92,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  456,
+  457,
+  458,
+  459,
+  460
+ ],
+ "fingerprint": "e6cb85fb2012ebcd571f09c5971e7e1e865709847017d8dc1744ed3249c61633",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "You don't need to draw literal diagrams on your scratch paper (though some students find this helpful).",
+   "new": "You don't need to draw literal diagrams on the noteboard booklet the test center gives you (though some students find this helpful).",
+   "reason": "The MCAT supplies a laminated noteboard booklet and fine-point marker; personal scratch paper is not allowed."
+  },
+  {
+   "field": "lesson.content",
+   "old": "If a paragraph seems off-topic, look harder—authors in CARS passages rarely include material that doesn't serve the argument in some way.",
+   "new": "If a paragraph seems off-topic, look harder—authors in CARS passages rarely include material that serves no purpose. Note, though, that \"serving a purpose\" is broader than \"supporting the thesis\": a paragraph may supply background that motivates the inquiry or sets the stakes without acting as a premise in the argument.",
+   "reason": "As written this conflicted with question 460, whose correct answer is a background paragraph that provides no direct logical support."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AAMC: Check-In Rules and Procedures (noteboard booklet, no personal scratch paper)",
+   "url": "https://students-residents.aamc.org/book/export/html/16956"
+  },
+  {
+   "title": "AAMC: Critical Analysis and Reasoning Skills Section Overview",
+   "url": "https://students-residents.aamc.org/whats-mcat-exam/critical-analysis-and-reasoning-skills-section-overview"
+  }
+ ],
+ "visual": {
+  "title": "Claims, evidence, reasoning — and four passage shapes",
+  "src": "/lesson-diagrams/cars-argument-parts.svg",
+  "width": 1000,
+  "height": 640,
+  "alt": "On the left, three stacked parts of an argument: a claim, the contestable assertion the author wants accepted; evidence, such as data, examples, expert testimony or analogy; and reasoning, the unstated bridge explaining why that evidence supports that claim, with a note that assumption, strengthen and weaken questions all target this implicit layer. On the right, four recurring passage shapes: thesis plus support, problem to solution with its pivot, dialectical moving from position A through a critique to the author's position B, and concession followed by rebuttal. A closing box warns that the author's position sits in the refutation rather than the concession, and that explaining a view at length is not endorsing it.",
+  "caption": "Find the claim, then ask what must be true for the evidence to reach it.",
+  "beforeHeading": "Recognizing Argument Structures"
+ }
+}
