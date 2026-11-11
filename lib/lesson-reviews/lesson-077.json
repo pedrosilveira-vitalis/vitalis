@@ -1,0 +1,85 @@
+{
+ "lessonId": 77,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  381,
+  382,
+  383,
+  384,
+  385
+ ],
+ "fingerprint": "114a9370ad369be0bf45c31b7b19e833cb4724be170862eeb35fbbd4b9a983a3",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- Rising arterial CO₂ (PaCO₂) and falling pH stimulate central and peripheral chemoreceptors",
+   "new": "- Arterial CO₂ (PaCO₂) and pH stay close to resting values during moderate exercise, so chemoreceptor \"error signals\" are not the main driver at these intensities; above the threshold, falling pH from lactic acid stimulates the peripheral chemoreceptors",
+   "reason": "In healthy people, PaCO2 is held nearly constant during moderate exercise; it does not rise."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Increased CO₂, decreased pH, elevated temperature, and increased 2,3-bisphosphoglycerate (2,3-BPG) in exercising muscle all shift the **oxyhemoglobin dissociation curve rightward** (the **Bohr effect**),",
+   "new": "Increased CO₂, decreased pH and elevated temperature in exercising muscle all shift the **oxyhemoglobin dissociation curve rightward** (the CO₂/H⁺ part of this is the **Bohr effect**; red-cell 2,3-BPG also right-shifts the curve but changes over hours to days, not within a bout of exercise),",
+   "reason": "The Bohr effect refers specifically to CO2/H+; 2,3-BPG is a red-cell metabolite, not something that rises acutely in muscle."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The **narrowed pulse pressure** in hemorrhage (both systolic and diastolic rise due to vasoconstriction, but CO is reduced, so systolic rises less than diastolic) is diagnostically important",
+   "new": "The **narrowed pulse pressure** in hemorrhage (falling stroke volume lowers systolic pressure, while vasoconstriction keeps diastolic pressure relatively maintained) is diagnostically important",
+   "reason": "Pressures do not both rise in hemorrhage; the narrowing comes from reduced stroke volume with maintained diastolic pressure."
+  },
+  {
+   "field": "lesson.content",
+   "old": "This autotransfusion can restore 0.5–1.0 L of fluid within 30–60 minutes, partially compensating for blood loss.",
+   "new": "This autotransfusion can return roughly 0.5–1 L of interstitial fluid to the circulation over the following hours, partially compensating for blood loss.",
+   "reason": "The 0.5–1 L figure is supported; the 30–60 minute timing is not."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- ADH → increased water reabsorption, producing concentrated urine with high osmolality (>800 mOsm/kg) and low urine Na⁺ (< 20 mEq/L)",
+   "new": "- ADH → increased water reabsorption, producing concentrated urine (typically >500 mOsm/kg in prerenal states) with low urine Na⁺ (< 20 mEq/L)",
+   "reason": "Standard prerenal criterion is urine osmolality >500 mOsm/kg."
+  },
+  {
+   "field": "questions.382.explanation",
+   "old": "Simultaneously, reduced atrial stretch and increased plasma osmolality stimulate ADH release, promoting water reabsorption in the collecting duct.",
+   "new": "Simultaneously, reduced atrial and arterial stretch (and angiotensin II) stimulate ADH release, promoting water reabsorption in the collecting duct. Plasma osmolality changes little, because blood loss is isotonic.",
+   "reason": "Hemorrhage removes isotonic fluid; the ADH stimulus is volume/pressure, not osmolality."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Short-term modulation and exercise hyperpnea: arterial isocapnia in moderate exercise (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3022007"
+  },
+  {
+   "title": "Poon & Tin, Mechanism of exercise hyperpnea and PaCO2 regulation (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3889173"
+  },
+  {
+   "title": "StatPearls: Azotemia (prerenal urine indices)",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK538145/"
+  },
+  {
+   "title": "Miller et al. 1978, Urinary diagnostic indices in acute renal failure (Ann Intern Med)",
+   "url": "https://jci.org/references/scholar/23644/B7"
+  },
+  {
+   "title": "Model of transient venous reabsorption and refill after hemorrhage (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2234146"
+  },
+  {
+   "title": "StatPearls: Physiology, Oxygen Transport",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK538336/"
+  }
+ ],
+ "visual": {
+  "title": "Exercise and hemorrhage side by side",
+  "src": "/lesson-diagrams/exercise-vs-hemorrhage.svg",
+  "width": 1000,
+  "height": 680,
+  "alt": "A comparison table. Both exercise and hemorrhage raise sympathetic activity and heart rate. Exercise raises preload, cardiac output four- to fivefold, systolic pressure and skin blood flow, widens pulse pressure and lowers peripheral resistance; RAAS and ADH rise only mildly and arterial PCO2 stays about constant in moderate exercise. Hemorrhage lowers preload, cardiac output, systolic pressure and skin blood flow, narrows pulse pressure and raises peripheral resistance; RAAS and ADH rise strongly and PCO2 falls as breathing compensates for lactic acidosis.",
+  "caption": "Directions of change only; magnitudes depend on intensity and on the size of the bleed.",
+  "beforeHeading": "Acid-Base Considerations"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "lessonId": 75,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  371,
+  372,
+  373,
+  374,
+  375
+ ],
+ "fingerprint": "b23acb27c91964dce1e0af513e86c0bcec5fdaa7f1ad011131297da43cef0031",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- Raises blood glucose (gluconeogenesis, glycogenolysis, inhibits peripheral glucose uptake)",
+   "new": "- Raises blood glucose, mainly by stimulating gluconeogenesis and reducing peripheral glucose uptake; it is also *permissive* for glucagon- and epinephrine-driven glycogenolysis (in the liver itself, glucocorticoids tend to increase glycogen stores)",
+   "reason": "Cortisol's direct hepatic effect is gluconeogenesis and glycogen storage; its glycogenolytic role is permissive."
+  },
+  {
+   "field": "lesson.content",
+   "old": "It requires sustained high estrogen levels (>200 pg/mL for ~36 hours)",
+   "new": "It requires sustained high estrogen levels (roughly >200 pg/mL for about 50 hours)",
+   "reason": "The classic threshold is ~200 pg/mL sustained for ~50 hours."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Act on **cell-surface receptors** (GPCRs or receptor tyrosine kinases)\n- Most hypothalamic and pituitary hormones use **Gs-coupled receptors** → adenylyl cyclase → ↑cAMP → PKA activation",
+   "new": "- Act on **cell-surface receptors**: GPCRs, receptor tyrosine kinases, or (for GH and prolactin) **class I cytokine receptors** that signal through **JAK2–STAT**\n- Many hypothalamic and pituitary hormones use **Gs-coupled receptors** → adenylyl cyclase → ↑cAMP → PKA activation",
+   "reason": "GH and prolactin receptors are cytokine receptors using JAK2, neither GPCRs nor RTKs."
+  },
+  {
+   "field": "questions.375.explanation",
+   "old": "ADH and oxytocin are synthesized in the supraoptic and paraventricular nuclei of the hypothalamus, respectively,",
+   "new": "ADH and oxytocin are synthesized mainly in the supraoptic and paraventricular nuclei of the hypothalamus, respectively (each nucleus makes some of both),",
+   "reason": "Both nuclei produce both hormones; 'respectively' describes the predominant source."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Glucocorticoids and glucose homeostasis review (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6185996"
+  },
+  {
+   "title": "StatPearls: Physiology, Cortisol",
+   "url": "https://www.statpearls.com/ArticleLibrary/viewarticle/20047"
+  },
+  {
+   "title": "Positive estradiol feedback study citing ~200 pg/mL for 50 h (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6344980"
+  },
+  {
+   "title": "GLOWM: Documentation of Ovulation",
+   "url": "https://www.glowm.com/section-view/heading/Documentation-of-Ovulation/item/324"
+  },
+  {
+   "title": "Dehkhoda et al. 2018, The growth hormone receptor (Front Endocrinol, PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5816795/"
+  },
+  {
+   "title": "StatPearls: Physiology, Vasopressin",
+   "url": "https://www.statpearls.com/point-of-care/31037"
+  }
+ ],
+ "visual": {
+  "title": "Cascade and feedback in the three axes",
+  "src": "/lesson-diagrams/hypothalamic-pituitary-axes.svg",
+  "width": 1000,
+  "height": 680,
+  "alt": "HPA: CRH to ACTH to cortisol, with cortisol feeding back on pituitary and hypothalamus. HPT: TRH to TSH to T4 and T3, with feedback mainly on the pituitary. HPG: pulsatile GnRH to LH and FSH to sex steroids, with negative feedback, inhibin suppressing FSH, and sustained high estradiol switching to positive feedback for the LH surge. Bottom rule: primary gland failure gives low end hormone and high tropic hormone; pituitary failure gives both low.",
+  "caption": "Use the tropic hormone to locate the lesion: high in primary failure, low in secondary failure.",
+  "beforeHeading": "Additional Anterior Pituitary Hormones"
+ }
+}

@@ -9,5 +9,8 @@ import r6 from "./lesson-071.json";
 import r7 from "./lesson-072.json";
 import r8 from "./lesson-073.json";
 import r9 from "./lesson-074.json";
+import r10 from "./lesson-075.json";
+import r11 from "./lesson-076.json";
+import r12 from "./lesson-077.json";
 
-export const patchReviews: PatchReview[] = [r0, r1, r2, r3, r4, r5, r6, r7, r8, r9];
+export const patchReviews: PatchReview[] = [r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12];
