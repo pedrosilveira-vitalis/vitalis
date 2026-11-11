@@ -1,0 +1,95 @@
+{
+ "lessonId": 108,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  536,
+  537,
+  538,
+  539,
+  540
+ ],
+ "fingerprint": "2f2f6e4361092b5530187624b4ebe5c869ff742c91b3c25cf765ada71bcb9ae0",
+ "patches": [
+  {
+   "target": "lesson.content",
+   "old": "### Natural Science and Technology Passages\n\nThough the CARS section does not test scientific knowledge, it does include passages about science — the history of scientific ideas, the philosophy of science, science policy, or the cultural significance of technology. These passages are *not* asking you to apply biology or chemistry. They are asking you to reason about ideas *concerning* science.",
+   "new": "### Writing About Science and Technology\n\nThis is not a fifth kind of source — it is a subject that can show up inside either of the first two. CARS draws its passages only from the humanities and the social sciences, so a passage that touches on science is the history of scientific ideas, the philosophy of science, science policy, or the cultural significance of technology: humanities or social science writing with science as its subject. It is worth treating separately only because it triggers a specific failure in pre-med readers. These passages are *not* asking you to apply biology or chemistry. They are asking you to reason about ideas *concerning* science.",
+   "reason": "Listing \"Natural Science and Technology\" alongside humanities and social science as a core CARS genre implies the section contains natural-science passages. It does not: the AAMC specifies that CARS passage content comes from the humanities and the social sciences only, roughly half from each. The useful advice in this section is kept — the failure mode it addresses is real — but it is reframed as a subject that appears inside the two genuine genres rather than as a genre of its own."
+  },
+  {
+   "target": "lesson.content",
+   "old": "CARS passages fall into four broad genre categories, each with recognizable structural and rhetorical signatures.",
+   "new": "CARS passages are drawn from the humanities and the social sciences — nothing else — but within those two sources they fall into four recognisable kinds, each with its own structural and rhetorical signature.",
+   "reason": "Sets the taxonomy inside the real boundaries of the section, so that the four reading postures below are not read as a claim about where CARS passages come from."
+  },
+  {
+   "target": "lesson.content",
+   "old": "Under CARS time pressure — roughly 8 to 9 minutes per passage — you cannot afford to read two full paragraphs before orienting yourself.",
+   "new": "Under CARS time pressure — 90 minutes for 9 passage sets, so about 10 minutes each, and worth practising nearer 9 to bank a buffer — you cannot afford to read two full paragraphs before orienting yourself.",
+   "reason": "\"Roughly 8 to 9 minutes\" was given as the section's budget rather than as a practice target; the actual allowance is 90 minutes for 9 passage sets. Stated so the real figure and the tighter practice figure are both clear, matching the pacing taught elsewhere in this course."
+  },
+  {
+   "target": "question.536.question_text",
+   "old": "A student begins reading an MCAT passage and notices the opening paragraph introduces a researcher's hypothesis about enzyme kinetics, followed by experimental data tables and a discussion of results. Which reading strategy should the student prioritize for this passage?",
+   "new": "A student begins a CARS passage whose opening paragraph recounts how an early twentieth-century theory of disease transmission was proposed, resisted by the medical establishment, and eventually accepted. Which reading strategy should the student prioritize?",
+   "reason": "The original was not a CARS question. It described a passage with a researcher's hypothesis about enzyme kinetics and experimental data tables — content that belongs to the science sections. CARS passages come only from the humanities and social sciences, contain no data tables, and require no science knowledge. Rewritten as a passage about the history of a scientific idea, which is the kind of science-adjacent passage CARS does contain and which this lesson's own section is about."
+  },
+  {
+   "target": "question.536.choice_a",
+   "old": "Focus on memorizing all numerical data in the tables before reading the text",
+   "new": "Work out whether the theory was in fact correct, and judge the establishment's resistance against what is now known",
+   "reason": "Rewritten to fit the corrected stem; this is the outside-knowledge trap the lesson warns about for this subject matter."
+  },
+  {
+   "target": "question.536.choice_b",
+   "old": "Identify the hypothesis, track how each paragraph supports or challenges it, and note the experimental design and conclusions",
+   "new": "Identify what the author is arguing about this episode — what the resistance shows, or what the eventual acceptance is being used to illustrate — and track how each paragraph serves that claim",
+   "reason": "Rewritten to fit the corrected stem. B remains the keyed answer."
+  },
+  {
+   "target": "question.536.choice_c",
+   "old": "Skim the passage entirely and rely on background knowledge of enzyme kinetics to answer questions",
+   "new": "Skim the passage and rely on what they already know about the history of medicine to answer the questions",
+   "reason": "Rewritten to fit the corrected stem."
+  },
+  {
+   "target": "question.536.explanation",
+   "old": "Scientific research passages follow a hypothesis-evidence-conclusion structure, so the most effective strategy is to identify the central hypothesis and track how data and discussion relate to it. This allows the student to answer questions about experimental design, interpretation, and conclusions efficiently. Memorizing all numerical data (A) wastes time since data can be referenced. Skimming and relying on background knowledge (C) is risky because MCAT passages often present novel findings that contradict common assumptions. Reading only first and last sentences (D) risks missing critical experimental details.",
+   "new": "A passage about the history of a scientific idea is still a humanities passage, and the questions will ask about the author's argument, not about the science. The productive move is therefore to find what the episode is being used to show — that institutions resist evidence that threatens their standing, say, or that acceptance owes as much to generational change as to proof — and then read each paragraph for how it serves that claim. Choice A is the characteristic pre-med failure on this subject matter: whether the theory was correct is not what is being asked, and judging the episode against present-day knowledge imports a standard the author may be arguing against. Choice C is risky for the same reason, and because the author may be challenging the familiar version of the story. Choice D saves time at the cost of the qualifications and turns that carry the author's position, which in this kind of passage often sit mid-paragraph.",
+   "reason": "Rewritten to fit the corrected stem, and to stop teaching a science-section reading protocol (hypothesis, experimental design, results) as though it applied to CARS."
+  },
+  {
+   "target": "question.538.choice_a",
+   "old": "Natural sciences passage; anticipate graphs of chemical data and experimental controls",
+   "new": "Natural sciences passage; anticipate graphs of chemical data and experimental controls — a kind of passage CARS does not contain",
+   "reason": "Keeps the distractor while making explicit that it describes something CARS never presents, so a student does not come away expecting such passages."
+  },
+  {
+   "target": "question.538.explanation",
+   "old": "Natural sciences passages (A) involve empirical experiments rather than socioeconomic analysis.",
+   "new": "Choice A describes a kind of passage that does not appear in this section at all: CARS content is drawn from the humanities and the social sciences, and no CARS passage asks you to read experimental data.",
+   "reason": "The original explanation eliminated choice A by contrasting subject matter, which leaves the impression that CARS contains natural-science passages that simply did not fit this stem. The stronger and more accurate reason is that the section contains none."
+  }
+ ],
+ "sources": [
+  {
+   "label": "AAMC — What's on the MCAT Exam? Critical Analysis and Reasoning Skills",
+   "url": "https://students-residents.aamc.org/media/9266/download",
+   "note": "CARS passage content is drawn from the humanities and the social sciences, roughly half from each; the section requires no specific subject-matter knowledge and contains no natural-science passages."
+  },
+  {
+   "label": "AAMC — What's on the MCAT Exam? Section structure",
+   "url": "https://students-residents.aamc.org/mcat-exam/whats-mcat-exam",
+   "note": "CARS: 53 passage-based questions in 90 minutes across 9 passage sets — about 10 minutes per set."
+  }
+ ],
+ "visual": {
+  "title": "Four genres, four postures — decided in the first thirty seconds",
+  "src": "/lesson-diagrams/cars-genre-postures.svg",
+  "width": 1120,
+  "height": 776,
+  "alt": "Four columns — humanities, social science, writing about science, and narrative or personal essay. Each gives the fields it covers, the tell that identifies it within thirty seconds, the reading posture it calls for, what its questions typically ask, and the trap it sets. A footer sets out the four-phase loop: orient for about thirty seconds, read for four to five minutes with that lens, consolidate for thirty seconds, and answer for three to four minutes.",
+  "caption": "Naming the genre is worth nothing on its own. It is worth a great deal because it tells you which posture to take — and which trap is waiting in the answer choices.",
+  "beforeHeading": "## The Genre Identification Protocol: First 30 Seconds"
+ }
+}
