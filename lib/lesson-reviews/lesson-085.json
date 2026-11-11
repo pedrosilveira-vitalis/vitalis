@@ -1,0 +1,115 @@
+{
+ "lessonId": 85,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  421,
+  422,
+  423,
+  424,
+  425
+ ],
+ "fingerprint": "8b0b141df901b17a3266e65f2262db578069c2878a62f773d0e8b7bb085fb306",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "driven in part by the **MreB protein** (a bacterial actin homolog) and the **ParABS system**.",
+   "new": "driven in part by partitioning systems such as **ParABS** (the bacterial actin homolog **MreB** mainly directs cell-wall growth and rod shape).",
+   "reason": "MreB's main established role is in cell shape; chromosome segregation is attributed chiefly to ParABS and related systems."
+  },
+  {
+   "field": "lesson.content",
+   "old": "it expresses specific surface proteins (called **competence factors** or **competins**) that bind and transport extracellular DNA across the cell membrane.",
+   "new": "it expresses a dedicated set of **competence proteins** that bind extracellular DNA and transport it across the cell membrane.",
+   "reason": "'Competins' is not a recognized term."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- The frequency is low (roughly 1 in 10⁷ to 10⁸ phage particles), but because bacterial populations are enormous, it is evolutionarily significant.",
+   "new": "- Transfer of any particular gene is rare, but because bacterial and phage populations are enormous, it is evolutionarily significant.",
+   "reason": "Removed an unsupported numeric frequency."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Autotrophs (lithoautotrophs)**: use CO₂ as their carbon source; fix carbon\n- **Heterotrophs (organotrophs)**: use organic compounds as their carbon source",
+   "new": "- **Autotrophs**: use CO₂ as their carbon source; fix carbon\n- **Heterotrophs**: use organic compounds as their carbon source\n\n(The prefixes *litho-* and *organo-* describe a third axis—whether the electron donor is inorganic or organic—so they are not synonyms for auto- and heterotroph.)",
+   "reason": "Lithotroph/organotroph refer to the electron source, not the carbon source."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The theoretical maximum ATP yield is approximately 30–32 ATP per glucose in bacteria, comparable to eukaryotes. The electron transport chain components (NADH dehydrogenase, cytochrome bc₁ complex, cytochrome oxidase) are embedded in the plasma membrane",
+   "new": "ATP yield per glucose varies with the respiratory enzymes a species uses and is often lower than the ~30–32 ATP of mitochondria (in *E. coli*, H⁺/e⁻ ratios range from 0 to 4 depending on which enzymes are active). The electron transport chain components (dehydrogenases, quinones, and terminal oxidases; some bacteria such as *Paracoccus* also have a cytochrome bc₁ complex, but *E. coli* does not) are embedded in the plasma membrane",
+   "reason": "E. coli has no bc1 complex (quinol oxidases bo3/bd), and bacterial yields are variable rather than equal to mitochondria."
+  },
+  {
+   "field": "lesson.content",
+   "old": "*Nitrosomonas* oxidizes NH₃ → NO₂⁻ (nitritation); *Nitrobacter* oxidizes NO₂⁻ → NO₃⁻ (nitration).",
+   "new": "*Nitrosomonas* oxidizes NH₃ → NO₂⁻ (nitritation); *Nitrobacter* oxidizes NO₂⁻ → NO₃⁻ (nitratation).",
+   "reason": "The second step is 'nitratation'; 'nitration' is a different (organic chemistry) reaction."
+  },
+  {
+   "field": "lesson.content",
+   "old": "*Hydrogenobaculum* and *Knallgas bacteria* oxidize H₂ → H₂O",
+   "new": "*Hydrogenobaculum*, *Cupriavidus necator* and other \"Knallgas\" bacteria oxidize H₂ → H₂O",
+   "reason": "'Knallgas bacteria' is a descriptive group name, not a genus."
+  },
+  {
+   "field": "lesson.content",
+   "old": "They produce elemental sulfur rather than O₂ and use only a single photosystem (analogous to Photosystem I).",
+   "new": "They produce elemental sulfur rather than O₂ and use only a single photosystem: a quinone-type (type II) reaction center analogous to **Photosystem II**.",
+   "reason": "Purple bacteria have a type II (PSII-like) reaction center; the PSI-like type I center belongs to green sulfur bacteria."
+  },
+  {
+   "field": "lesson.content",
+   "old": "photoheterotrophs that use organic compounds as electron donors under anaerobic conditions but can switch to aerobic heterotrophy in the light.",
+   "new": "photoheterotrophs that use light and organic compounds under anaerobic conditions but can switch to aerobic respiration (chemoheterotrophy) in the dark when O₂ is available.",
+   "reason": "They switch to aerobic heterotrophy in the dark, not in the light."
+  },
+  {
+   "field": "lesson.content",
+   "old": "strictly anaerobic anoxygenic phototrophs using H₂S; extremely efficient light harvesters.",
+   "new": "strictly anaerobic anoxygenic phototrophs using H₂S, with an iron–sulfur (type I) reaction center analogous to **Photosystem I**; extremely efficient light harvesters.",
+   "reason": "Adds the correct reaction-center type for contrast with purple bacteria."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Fluoroquinolones** target **DNA gyrase** (bacterial topoisomerase II),",
+   "new": "- **Fluoroquinolones** target **DNA gyrase** (bacterial topoisomerase II) and **topoisomerase IV**,",
+   "reason": "Fluoroquinolones inhibit both bacterial type II topoisomerases."
+  },
+  {
+   "field": "questions.421.explanation",
+   "old": "A common error is miscounting generations by dividing 180 minutes by 30 to get 6, then forgetting to multiply by the starting population rather than just computing 2^6 alone.",
+   "new": "A common error is computing 2^6 = 64 and forgetting to multiply by the starting population of 100.",
+   "reason": "The original sentence called the correct step (180/30 = 6) an error."
+  },
+  {
+   "field": "questions.424.explanation",
+   "old": "This is a classic MCAT example of chemolithotrophy.",
+   "new": "This is a classic MCAT example of chemolithotrophy. (The organism is now named *Acidithiobacillus ferrooxidans*.)",
+   "reason": "Notes the current name, which the lesson text uses."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Unden & Bongaerts, Biochim Biophys Acta (1997): E. coli respiratory chains (no bc1 complex; H+/e- 0–4)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/9230919/"
+  },
+  {
+   "title": "Wikipedia: Photosynthetic reaction centre (type I vs type II)",
+   "url": "https://en.wikipedia.org/wiki/Photosynthetic_reaction_centre"
+  },
+  {
+   "title": "Golbeck, PNAS (1993): shared elements in photochemical reaction centers",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC45935"
+  }
+ ],
+ "visual": {
+  "title": "Horizontal gene transfer",
+  "src": "/lesson-diagrams/horizontal-gene-transfer.svg",
+  "width": 1000,
+  "height": 640,
+  "alt": "Three panels. Transformation: a lysed donor releases naked DNA that a competent recipient takes up and recombines; no contact or virus needed, and DNase blocks it. Transduction: a phage infecting a donor packages donor DNA by mistake and injects it into a recipient; generalized transduction can move any gene, specialized only genes beside the prophage site. Conjugation: an F-plus donor connects to an F-minus recipient by a pilus and passes one strand of the F plasmid from oriT so both become F-plus; in Hfr strains chromosomal genes transfer in order and the recipient usually stays F-minus. A bottom box gives the test: a filter between cells stops only conjugation, DNase stops only transformation, and a phage requirement means transduction.",
+  "caption": "Contact → conjugation; phage → transduction; naked DNA → transformation.",
+  "beforeHeading": "Transformation"
+ }
+}

@@ -16,5 +16,9 @@ import r13 from "./lesson-078.json";
 import r14 from "./lesson-079.json";
 import r15 from "./lesson-080.json";
 import r16 from "./lesson-081.json";
+import r17 from "./lesson-082.json";
+import r18 from "./lesson-083.json";
+import r19 from "./lesson-084.json";
+import r20 from "./lesson-085.json";
 
-export const patchReviews: PatchReview[] = [r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15, r16];
+export const patchReviews: PatchReview[] = [r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15, r16, r17, r18, r19, r20];

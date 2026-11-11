@@ -1,0 +1,39 @@
+{
+ "lessonId": 82,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  406,
+  407,
+  408,
+  409,
+  410
+ ],
+ "fingerprint": "69e93f832fe158ee30e847ca4281f883b8eb238838ecf5e98aaef7da9af2f049",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Alternatively, note that CD8 has one digit less than CD4, and MHC class I has one chain less (functionally) than class II.",
+   "new": "Alternatively, use the **rule of 8**: CD8 × MHC class I = 8, and CD4 × MHC class II = 8.",
+   "reason": "The original mnemonic was incorrect (CD4 and CD8 are both one digit; class I has an α chain plus β2-microglobulin). Replaced with the standard rule of 8."
+  }
+ ],
+ "sources": [
+  {
+   "title": "British Society for Immunology: Antigen processing and presentation",
+   "url": "https://www.immunology.org/sites/default/files/2022-08/Antigen%20processing%20and%20presentation.pdf"
+  },
+  {
+   "title": "Roche & Furuta, Nature Reviews Immunology (2015): MHC class II antigen processing",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6314495"
+  }
+ ],
+ "visual": {
+  "title": "MHC class I vs class II presentation",
+  "src": "/lesson-diagrams/mhc-presentation-pathways.svg",
+  "width": 1000,
+  "height": 640,
+  "alt": "Two columns of steps. MHC class I: proteins made inside the cell are cut by the proteasome, TAP pumps peptides into the ER, where they are trimmed to 8 to 10 amino acids and load onto MHC class I (alpha chain plus beta-2 microglobulin), and the complex reaches the surface of any nucleated cell, where CD8 cytotoxic T cells recognize it and kill the cell. MHC class II: an antigen-presenting cell takes up outside material, endolysosomal proteases cut it, MHC class II leaves the ER carrying the invariant chain, which is cut to CLIP and exchanged by HLA-DM for a 13 to 25 amino acid peptide, and the complex reaches the surface of dendritic cells, macrophages and B cells for CD4 helper T cells. A footer gives the rule of 8 and notes that dendritic cells can cross-present exogenous antigen on MHC class I.",
+  "caption": "What a cell makes goes on class I; what an APC eats goes on class II.",
+  "beforeHeading": "The Critical Rule for MCAT"
+ }
+}

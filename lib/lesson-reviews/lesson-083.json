@@ -1,0 +1,71 @@
+{
+ "lessonId": 83,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  411,
+  412,
+  413,
+  414,
+  415
+ ],
+ "fingerprint": "b7a363661d1221aa5320c8906f6a8b5c2eebc5fd0dea5da861926b51d3fa1264",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Despite central tolerance, some self-reactive lymphocytes escape into the periphery—estimates suggest roughly 20–30% of mature naïve T cells carry receptors with some self-reactivity.",
+   "new": "Despite central tolerance, some self-reactive lymphocytes inevitably escape into the periphery.",
+   "reason": "The specific 20–30% figure is not an established value; removed it."
+  },
+  {
+   "field": "lesson.content",
+   "old": "**Late-phase response (4–8 hours)**:\n- Synthesis and release of **leukotrienes** (LTC4, LTD4—potent bronchoconstrictors, ~1000× more potent than histamine) and **prostaglandins** (PGD2)\n- Cytokine production (IL-4, IL-5, TNF-α) that recruits and activates eosinophils, causing tissue inflammation",
+   "new": "- Within minutes, activated mast cells also synthesize lipid mediators from arachidonic acid: **leukotrienes** (LTC4, LTD4—potent, sustained bronchoconstrictors, far more potent than histamine) and **prostaglandin D2**\n\n**Late-phase response (hours later, typically ~4–12 hours)**:\n- Cytokines and chemokines released by mast cells (e.g., IL-4, IL-5, TNF-α) recruit eosinophils, neutrophils, basophils and Th2 cells, causing renewed swelling, airway narrowing and tissue inflammation",
+   "reason": "Leukotrienes and PGD2 are newly synthesized within minutes as part of the early reaction; the late phase is driven by recruited leukocytes."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Epinephrine is the only appropriate treatment for anaphylaxis.",
+   "new": "Intramuscular epinephrine is the first-line, essential treatment for anaphylaxis; antihistamines and corticosteroids are only adjuncts.",
+   "reason": "Epinephrine is first-line, but other supportive treatments (fluids, oxygen, adjunct drugs) are also used."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Immune complexes form when antigen and antibody are present in roughly equivalent concentrations.",
+   "new": "The pathogenic complexes are small, soluble ones that form in slight antigen excess; large complexes formed near equivalence are cleared efficiently by phagocytes, whereas small ones escape clearance and deposit in tissues.",
+   "reason": "Tissue-depositing immune complexes form in antigen excess, not at equivalence."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Induration (not just redness) of ≥10 mm at 48–72 hours indicates prior sensitization (past infection or BCG vaccination).",
+   "new": "Induration (not just redness) is read at 48–72 hours; it is called positive at ≥5, ≥10 or ≥15 mm depending on the person's risk group, and indicates prior sensitization (past infection, or cross-reactivity from BCG vaccination or nontuberculous mycobacteria).",
+   "reason": "CDC uses three risk-based cutoffs, not a single 10 mm threshold."
+  }
+ ],
+ "sources": [
+  {
+   "title": "CDC: Mantoux Tuberculin Skin Test (administration, reading, interpretation)",
+   "url": "https://stacks.cdc.gov/view/cdc/22018/cdc_22018_DS1.pdf"
+  },
+  {
+   "title": "StatPearls: Type III Hypersensitivity Reaction",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK559122/"
+  },
+  {
+   "title": "OpenStax Microbiology 19.1: Hypersensitivities",
+   "url": "https://openstax.org/books/microbiology/pages/19-1-hypersensitivities"
+  },
+  {
+   "title": "Janeway's Immunobiology (NCBI Bookshelf): effector mechanisms in allergic reactions",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK27112/"
+  }
+ ],
+ "visual": {
+  "title": "The four hypersensitivity types",
+  "src": "/lesson-diagrams/hypersensitivity-types.svg",
+  "width": 1000,
+  "height": 640,
+  "alt": "Four columns. Type I (immediate, IgE): allergen cross-links IgE on mast cells; histamine, leukotrienes and PGD2 within minutes; a late phase hours later with eosinophils and Th2 cells; examples anaphylaxis, hay fever, allergic asthma; clue raised IgE and eosinophils. Type II (antibody against cell or matrix antigens): IgG or IgM causes complement lysis, phagocytosis, ADCC, or blocks or stimulates a receptor; examples transfusion reaction, hemolytic disease of the newborn, Goodpasture, myasthenia gravis, Graves; clue positive Coombs test. Type III (immune complexes): small complexes formed in slight antigen excess deposit in vessels, glomeruli and joints, activating complement and neutrophils; examples serum sickness, Arthus, SLE, post-streptococcal glomerulonephritis; clue low C3 and C4. Type IV (delayed, T cells): Th1 cells activate macrophages via IFN-gamma or CD8 T cells kill, peaking at 48 to 72 hours with no antibody; examples PPD test, contact dermatitis, granulomas.",
+  "caption": "Ask two questions: is antibody involved, and is the antigen on a cell, in a soluble complex, or seen by T cells?",
+  "beforeHeading": "Type I Hypersensitivity: Immediate (IgE-Mediated)"
+ }
+}

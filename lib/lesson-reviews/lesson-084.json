@@ -1,0 +1,89 @@
+{
+ "lessonId": 84,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  416,
+  417,
+  418,
+  419,
+  420
+ ],
+ "fingerprint": "e64faa31077a35ea967b2f4c5f71a3f2a25898781fcc522fe75790dec603ed45",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "**Aminoglycosides** and **tetracyclines** target the 30S subunit, inhibiting translation initiation or causing misreading of mRNA.",
+   "new": "**Aminoglycosides** and **tetracyclines** target the 30S subunit: aminoglycosides cause misreading of mRNA (and disrupt initiation), while tetracyclines block aminoacyl-tRNA from binding the A site.",
+   "reason": "Assigns each mechanism to the right drug class."
+  },
+  {
+   "field": "lesson.content",
+   "old": "These glycan strands are cross-linked by short **tetrapeptide side chains** attached to NAM residues.",
+   "new": "These glycan strands are cross-linked through short **peptide side chains** attached to NAM residues (each is made as a pentapeptide ending in D-Ala–D-Ala; the terminal D-Ala is removed when the cross-link forms, leaving a tetrapeptide).",
+   "reason": "Needed for consistency with the vancomycin line: the precursor stem is a D-Ala–D-Ala pentapeptide."
+  },
+  {
+   "field": "lesson.content",
+   "old": "*Clostridium difficile* (pseudomembranous colitis)",
+   "new": "*Clostridioides difficile* (formerly *Clostridium difficile*; pseudomembranous colitis)",
+   "reason": "The species was moved to the genus Clostridioides in 2016."
+  },
+  {
+   "field": "lesson.content",
+   "old": "  - *Spirilla*: Rigid spirals (*Campylobacter*)",
+   "new": "  - *Spirilla*: Rigid spirals (e.g., *Spirillum*; *Campylobacter* and *Helicobacter* are curved or spiral rods)",
+   "reason": "Campylobacter is a curved/spiral rod, not a true spirillum."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Mycoplasma**: The only bacteria that **completely lack a cell wall**.",
+   "new": "- **Mycoplasma**: The best-known bacteria that **completely lack a cell wall** (as does the related genus *Ureaplasma*).",
+   "reason": "Mycoplasma is not the only wall-less genus; Ureaplasma (same family) also lacks a wall."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Chlamydia**: Obligate intracellular parasites that cannot synthesize their own ATP (energy parasites).",
+   "new": "- **Chlamydia**: Obligate intracellular parasites that rely heavily on host ATP, which they import with ATP/ADP translocases (once called \"energy parasites,\" although genome studies show they can make some ATP of their own).",
+   "reason": "Chlamydia encode glycolysis and other energy pathways; the strict 'cannot make ATP' claim is outdated."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Gram-positive cell wall components like **lipoteichoic acid** and **peptidoglycan fragments** activate TLR2.",
+   "new": "Gram-positive cell wall components are sensed too: **lipoteichoic acid** (and bacterial lipoproteins) by TLR2, and **peptidoglycan fragments** mainly by the intracellular sensors NOD1 and NOD2.",
+   "reason": "Purified peptidoglycan is sensed by NOD1/NOD2, not TLR2 (consistent with the innate immunity lesson)."
+  },
+  {
+   "field": "lesson.content",
+   "old": "(e.g., Hib, PCV13, MenACWY)",
+   "new": "(e.g., Hib, pneumococcal conjugate vaccines, MenACWY)",
+   "reason": "PCV13 has been largely replaced by higher-valency conjugate vaccines; named the class instead."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Life: The Science of Biology, 11e: Chlamydias (energy-parasite idea revised)",
+   "url": "https://digfir-published.macmillanusa.com/life11e/life11e_ch25_15.html"
+  },
+  {
+   "title": "Iliffe-Lee & McClarty, Mol Microbiol (1999): the 'energy parasite' hypothesis revisited",
+   "url": "https://scilit.com/publications/90f298923a71b3a31bbbedd488b095d7"
+  },
+  {
+   "title": "LabCE: Clostridium difficile reclassified as Clostridioides difficile (2016)",
+   "url": "https://labce.com/spg1142296_clostridium_difficile.aspx"
+  },
+  {
+   "title": "Travassos et al., EMBO Reports (2004): peptidoglycan is sensed by NOD1/NOD2, not TLR2",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/15359270"
+  }
+ ],
+ "visual": {
+  "title": "Gram-positive vs. gram-negative envelopes",
+  "src": "/lesson-diagrams/gram-envelopes.svg",
+  "width": 1000,
+  "height": 640,
+  "alt": "Two cross-sections with the outside at the top. Gram-positive: a thick, many-layered peptidoglycan wall threaded by teichoic acids, sitting directly on the plasma membrane, with no outer membrane; it traps crystal violet and stains purple. Gram-negative: an outer membrane with lipopolysaccharide on its outer leaflet and porin channels, tethered by Braun's lipoprotein to a thin peptidoglycan layer in the periplasm above the inner plasma membrane; alcohol disrupts the outer membrane, the dye washes out and safranin stains it pink.",
+  "caption": "Wall thickness and the outer membrane decide the Gram result.",
+  "beforeHeading": "Gram-Positive vs. Gram-Negative: Structural Comparison"
+ }
+}
