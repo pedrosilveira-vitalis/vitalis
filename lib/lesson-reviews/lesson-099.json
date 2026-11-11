@@ -1,0 +1,51 @@
+{
+ "lessonId": 99,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  491,
+  492,
+  493,
+  494,
+  495
+ ],
+ "fingerprint": "713dd49cfd3bdeaede97fa4f09956862803e0eaf692cf9b246c9a25b10dd475d",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "This is the most common question type in CARS, and it is where the most points are won and lost.",
+   "new": "Inference questions are among the most frequently encountered in CARS, and they are where many points are won and lost.",
+   "reason": "The AAMC publishes percentages only for its three skill categories, not for individual question types, so 'the most common question type' is not a supportable claim."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Speed matters because on test day you have approximately 90 seconds per question total, and spending 15 seconds figuring out what a question is asking is a significant tax.",
+   "new": "Speed matters because on test day the section averages about 100 seconds per question (90 minutes across 53 questions), and much of that goes to reading the passage — so spending 15 seconds working out what a question is asking is a significant tax.",
+   "reason": "90 minutes over 53 questions is about 1 minute 42 seconds, not 90 seconds."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Avoiding these three errors alone can recover four to six points on a CARS section.",
+   "new": "Avoiding these three errors removes a whole class of avoidable misses — ones where the reading was fine and only the task was misread.",
+   "reason": "The four-to-six point figure is not supported by any published data; on the 118–132 CARS scale it would be an implausibly large effect."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AAMC: CARS section outline (53 questions, 90 minutes; skill percentages)",
+   "url": "https://students-residents.aamc.org/media/9266/download"
+  },
+  {
+   "title": "AAMC: What's on the MCAT Exam? (section timing)",
+   "url": "https://students-residents.aamc.org/whats-mcat-exam/publication-chapters/whats-mcat-exam"
+  }
+ ],
+ "visual": {
+  "title": "Stem language by question type",
+  "src": "/lesson-diagrams/cars-question-spotting.svg",
+  "width": 1000,
+  "height": 770,
+  "alt": "A table of seven question types, each with its giveaway stem phrases, the real task, and the classic wrong answer. Main idea: primary purpose, mainly concerned with, best title; characterize the whole passage; wrong answers are too specific, too broad, or the wrong tone. Detail or retrieval: according to, the author states, indicates; locate what is explicitly written; wrong answers are true in the world but never stated. Inference: it can be inferred, implies, suggests, would agree; extend the logic exactly one step; wrong answers are too extreme or speculative. Function: primarily in order to, serves to, the function of; name the rhetorical move; the wrong answer summarizes content instead of function. Strengthen or weaken: if true, would support, would undermine; judge new information against a specific claim; wrong answers run the opposite direction or are merely on-topic. Application: most analogous, suppose, how would the author respond; match the principle, not the surface; the wrong answer shares surface features with different logic. Vocabulary in context: as used in, in the context of, most nearly means; find the contextual meaning; the trap is the common dictionary definition. A footer names three costly category errors.",
+  "caption": "The first few words of the stem usually settle the question type.",
+  "beforeHeading": "The Rapid Classification Protocol"
+ }
+}
