@@ -1,0 +1,39 @@
+{
+ "lessonId": 93,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  461,
+  462,
+  463,
+  464,
+  465
+ ],
+ "fingerprint": "011f3753cdbc37334375dc2881efb463e4a13f51539f534645cd83912677b171",
+ "patches": [
+  {
+   "field": "questions.462.question_text",
+   "old": "Which perspective does the italicized portion represent?",
+   "new": "Which perspective do the two quoted sentences represent?",
+   "reason": "The question referred to an italicized portion, but no text in the question is italicized."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Simmel, \"The Metropolis and Mental Life\" (1903): the blasé attitude as a defense against overstimulation",
+   "url": "https://bigthink.com/the-present/metropolis-mental-life-georg-simmel-cities/"
+  },
+  {
+   "title": "Text of Simmel on the blasé attitude and nervous stimulation",
+   "url": "https://kieranhealy.org/blog/archives/2009/01/10/the-metropolis-and-mental-life/"
+  }
+ ],
+ "visual": {
+  "title": "Four voices and their markers",
+  "src": "/lesson-diagrams/cars-four-voices.svg",
+  "width": 1000,
+  "height": 680,
+  "alt": "Four cards naming the voices and the phrases that reveal them. A, the author: evaluative words with no source attached, verdict language, explicit disagreement, summary signals. S, a cited source: according to X, X argues, in X's view, quotation marks, a proper name with a past-tense verb. O, an opposing view: critics argue, opponents claim, the conventional wisdom holds, one might object that, although, admittedly. H, a hypothetical: suppose, imagine, consider, assume for the sake of argument, had X occurred, in a world where. Below, a worked excerpt tagged line by line, moving from an opposing view, to Simmel as a cited source, to the author acknowledging its influence, to the author's pivot, to supporting research, to the author's thesis. A footer warns that the view explained at greatest length is often the one being refuted, that one however can reverse everything before it, and that nested attribution tells you nothing about the author's own view.",
+  "caption": "Ask at every transition: whose voice is this?",
+  "beforeHeading": "Linguistic Markers: The Signals That Tell You Whose Voice You're Hearing"
+ }
+}
