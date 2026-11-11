@@ -1,0 +1,79 @@
+{
+ "lessonId": 68,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  336,
+  337,
+  338,
+  339,
+  340
+ ],
+ "fingerprint": "891151002d603232dde2204538edccd815b0321eab752ffd3d68761ea621eeb9",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **Fenestrated capillaries**: Contain pores (fenestrae) 60–80 nm in diameter, covered by a thin diaphragm. Found in the kidney glomerulus, intestinal villi, and endocrine glands",
+   "new": "- **Fenestrated capillaries**: Contain pores (fenestrae) 60–80 nm in diameter, usually spanned by a thin diaphragm (adult glomerular fenestrae are an exception and lack diaphragms). Found in the kidney glomerulus, intestinal villi, and endocrine glands",
+   "reason": "Adult glomerular fenestrae generally lack diaphragms."
+  },
+  {
+   "field": "lesson.content",
+   "old": "In most tissues, Pi is slightly negative (approximately −3 mmHg), meaning the interstitium is slightly \"sucked\" toward the capillary.",
+   "new": "In most tissues, Pi is slightly negative (approximately −3 mmHg), meaning the interstitium exerts a slight suction that pulls fluid *out of* the capillary.",
+   "reason": "A negative interstitial pressure draws fluid out of the capillary, not the interstitium toward it."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Malnutrition/kwashiorkor**: Protein deficiency impairs albumin synthesis. The characteristic \"potbelly\" of kwashiorkor is largely ascites from hypoalbuminemia.",
+   "new": "- **Malnutrition/kwashiorkor**: Severe malnutrition lowers albumin. The distended abdomen of kwashiorkor reflects both ascites and an enlarged fatty liver; hypoalbuminemia contributes to the edema, though researchers still debate whether it is the whole explanation.",
+   "reason": "The swollen abdomen also reflects fatty hepatomegaly, and the role of albumin in kwashiorkor edema is debated."
+  },
+  {
+   "field": "lesson.content",
+   "old": "via the **thoracic duct** (which drains everything below the diaphragm and the left upper body) emptying into the **left subclavian vein**, and the **right lymphatic duct** emptying into the **right subclavian vein**.",
+   "new": "via the **thoracic duct** (which drains everything below the diaphragm and the left upper body), usually emptying at the junction of the **left subclavian and left internal jugular veins**, and the **right lymphatic duct**, which empties at the corresponding junction on the right.",
+   "reason": "Both ducts typically drain at the venous angle (subclavian–internal jugular junction)."
+  },
+  {
+   "field": "questions.337.explanation",
+   "old": "Choice C is tempting but incorrectly adds rather than subtracts the interstitial oncotic pressure, which actually favors filtration and must be accounted for properly within the equation.",
+   "new": "Choice C (11 mmHg) results from ignoring the interstitial hydrostatic pressure (35 − 24 = 11); every one of the four forces must be included.",
+   "reason": "The original explanation did not match how 11 mmHg arises."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Satchell & Braet 2009, Glomerular endothelial cell fenestrations (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2681366/"
+  },
+  {
+   "title": "Levick 2004, Revision of the Starling principle (J Physiol, PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1665155"
+  },
+  {
+   "title": "StatPearls: Kwashiorkor",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK507876/"
+  },
+  {
+   "title": "Coulthard 2015, Oedema in kwashiorkor is caused by hypoalbuminaemia (PMC)",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462841/"
+  },
+  {
+   "title": "Albumin-dependent and independent mechanisms of oedema in severe malnutrition (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9014367"
+  },
+  {
+   "title": "StatPearls: Anatomy, Lymphatic System (PubMed record)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/30020619/"
+  }
+ ],
+ "visual": {
+  "title": "Why fluid leaves capillaries and how it gets back",
+  "src": "/lesson-diagrams/starling-lymph-edema.svg",
+  "width": 1000,
+  "height": 680,
+  "alt": "A capillary from arteriole to venule inside the interstitium. Capillary hydrostatic pressure pushes fluid out (35 mmHg at the arteriolar end, 15 at the venular end) while plasma oncotic pressure of about 25 mmHg pulls fluid in along the whole length. Net filtration is largest at the arteriolar end and near zero at the venular end. A lymphatic capillary returns excess fluid and protein, about 2 to 4 litres per day. Four boxes list causes of edema: raised capillary pressure, low plasma oncotic pressure, increased permeability, and lymphatic obstruction.",
+  "caption": "Schematic, using this lesson's representative values. Transudates follow pressure changes; exudates follow increased permeability.",
+  "beforeHeading": "Edema: Pathophysiology Through Starling Forces"
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "lessonId": 70,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  346,
+  347,
+  348,
+  349,
+  350
+ ],
+ "fingerprint": "151df1e17e7ba8403b0dec7e68f44f74b2a94739c48f4da66e5206a91bf8e142",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "The ideal **V/Q ratio** is approximately 0.8 (ventilation slightly less than perfusion in a given region).",
+   "new": "For the whole lung, the average **V/Q ratio** is approximately 0.8 (alveolar ventilation of ~4 L/min versus pulmonary blood flow of ~5 L/min); individual regions vary around this value.",
+   "reason": "0.8 is the whole-lung average, not an ideal value for each region."
+  },
+  {
+   "field": "lesson.content",
+   "old": "5. Alkalosis left-shifts the O₂-Hb curve (initially worsening O₂ delivery)\n6. Within hours, kidneys excrete HCO₃⁻ to compensate, normalizing pH\n7. Within 24–48 hours, 2,3-BPG synthesis increases, right-shifting the curve and improving O₂ unloading\n8. Over days to weeks, erythropoietin (EPO) production increases, stimulating red cell production and increasing hemoglobin concentration",
+   "new": "5. Alkalosis left-shifts the O₂-Hb curve, which helps hemoglobin load O₂ at the low alveolar PO₂ but makes unloading in tissues somewhat harder\n6. Over roughly 1–3 days, the kidneys excrete more HCO₃⁻, bringing pH back toward normal\n7. Over hours to days, 2,3-BPG synthesis increases, right-shifting the curve and improving O₂ unloading\n8. Erythropoietin (EPO) secretion rises within hours, but the resulting increase in red cell mass and hemoglobin concentration takes weeks",
+   "reason": "Renal compensation takes about a day or more, not hours; EPO rises quickly but red-cell mass rises over weeks; the left shift has a loading benefit as well as an unloading cost."
+  },
+  {
+   "field": "lesson.content",
+   "old": "This sequence illustrates how acute and chronic adaptations interact—and why the initial response to altitude (alkalosis-induced left shift) is actually counterproductive before the 2,3-BPG and erythropoietic responses kick in.",
+   "new": "This sequence illustrates how acute and chronic adaptations interact, and the trade-off involved: the early alkalosis-induced left shift aids O₂ loading in the lungs, while the later rise in 2,3-BPG aids O₂ unloading in tissues.",
+   "reason": "Consistent with question 348, which correctly treats the left shift as helping loading."
+  },
+  {
+   "field": "questions.346.explanation",
+   "old": "Increasing surface area (e.g., via bronchodilation or recruiting more alveoli) would increase the diffusion rate.",
+   "new": "Increasing surface area (e.g., recruiting previously closed alveoli and capillaries) would increase the diffusion rate. (Bronchodilation widens airways but does not add exchange surface.)",
+   "reason": "Bronchodilation does not increase alveolar surface area."
+  },
+  {
+   "field": "questions.347.question_text",
+   "old": "At rest, venous blood returning from exercising muscle has a PO2 of 20 mmHg rather than the normal 40 mmHg. Based on the oxygen-hemoglobin dissociation curve, what is the most likely physiological explanation for this finding?",
+   "new": "Venous blood returning from a vigorously exercising muscle has a PO2 of 20 mmHg rather than the resting value of about 40 mmHg. Based on the oxygen-hemoglobin dissociation curve, what is the most likely physiological explanation for this finding?",
+   "reason": "The original stem said both 'at rest' and 'exercising'."
+  },
+  {
+   "field": "questions.348.explanation",
+   "old": "Decreased 2,3-BPG also causes a leftward shift.",
+   "new": "Decreased 2,3-BPG also causes a leftward shift. (In reality, 2,3-BPG rises over hours to days at altitude, which favors tissue unloading; the question asks only which combination would favor loading.)",
+   "reason": "Avoids implying that 2,3-BPG falls at altitude."
+  }
+ ],
+ "sources": [
+  {
+   "title": "StatPearls: Physiology, Oxygen Transport",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK538336/"
+  },
+  {
+   "title": "Acute Care Testing: What is p50 (normal p50 26.7 mmHg)",
+   "url": "https://acutecaretesting.org/en/articles/what-is-p50"
+  },
+  {
+   "title": "OpenAnesthesia: P50 of hemoglobin and curve shifts",
+   "url": "https://www.openanesthesia.org/p/"
+  },
+  {
+   "title": "Bird et al. 2021, Ventilatory and renal acid-base acclimatization at 3,800 m (J Appl Physiol, PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11025293"
+  },
+  {
+   "title": "StatPearls: Physiology, Lung",
+   "url": "https://www.statpearls.com/kb/viewarticle/24508/"
+  }
+ ],
+ "visual": {
+  "title": "Reading the dissociation curve",
+  "src": "/lesson-diagrams/oxyhemoglobin-curve-shifts.svg",
+  "width": 1000,
+  "height": 640,
+  "alt": "Saturation against PO2. Myoglobin has a hyperbolic curve with P50 near 2.8 mmHg. Normal adult hemoglobin is sigmoid with P50 near 26.7 mmHg, about 75 percent saturated at 40 mmHg and 98 percent at 100 mmHg. A right-shifted curve with P50 near 36 shows increased CO2, acid, 2,3-BPG and temperature and favors unloading; a left-shifted curve with P50 near 17 shows alkalosis, low CO2, low 2,3-BPG, cold, fetal hemoglobin or carbon monoxide and favors loading.",
+  "caption": "Curves drawn with the Hill equation for teaching; real curves deviate slightly at the extremes. Carbon monoxide also lowers the curve's maximum by occupying heme sites.",
+  "beforeHeading": "The Bohr Effect in Detail"
+ }
+}

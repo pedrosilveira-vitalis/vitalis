@@ -1,0 +1,117 @@
+{
+ "lessonId": 69,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  341,
+  342,
+  343,
+  344,
+  345
+ ],
+ "fingerprint": "4b86912eefc1e8f15622f831d26f0114cd28eaaf050719e2f63faec2ce95fba7",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- Intrapleural pressure drops further, from roughly −5 mmHg to approximately −8 mmHg during quiet inspiration.",
+   "new": "- Intrapleural pressure drops further, from roughly −5 cmH₂O to about −8 cmH₂O (about −4 to −6 mmHg) during quiet inspiration.",
+   "reason": "These standard values are in cmH₂O, not mmHg (1 mmHg ≈ 1.36 cmH₂O)."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Expanding lung volume decreases intrapulmonary pressure to roughly −1 to −2 mmHg below atmospheric (about 758–759 mmHg absolute).",
+   "new": "- Expanding lung volume decreases intrapulmonary (alveolar) pressure to roughly −1 cmH₂O (just under 1 mmHg) below atmospheric during quiet breathing.",
+   "reason": "Quiet-breathing alveolar pressure swings are about 1 cmH₂O."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Thoracic volume decreases, raising intrapulmonary pressure to approximately +1 to +2 mmHg above atmospheric.",
+   "new": "- Thoracic volume decreases, raising alveolar pressure to approximately +1 cmH₂O above atmospheric during quiet breathing.",
+   "reason": "Same unit correction for expiration."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Normal lung compliance is approximately **0.2 L/mmHg** or **200 mL/cmH₂O**.",
+   "new": "Normal lung compliance is approximately **0.2 L/cmH₂O** (**200 mL/cmH₂O**).",
+   "reason": "0.2 L/mmHg and 200 mL/cmH₂O are not equal; the standard value is 0.2 L/cmH₂O."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- The **upper airway and large bronchi** contribute the *majority* of total airway resistance, even though they have large radii, because they are the primary site of turbulent flow.",
+   "new": "- Within the bronchial tree, the **medium-sized bronchi** are the main site of airway resistance: each is narrower than the trachea, but there are not yet enough of them in parallel to keep their combined resistance low. Turbulent flow in these larger airways adds to their resistance. (The nose and upper airway also add substantial resistance, especially during nasal breathing.)",
+   "reason": "Standard physiology places peak resistance in the medium-sized bronchi."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Normal value: approximately **3,000 mL** (3 L). This is the volume recruited by accessory inspiratory muscles.",
+   "new": "Normal value: approximately **3,100 mL** (about 3 L; chosen here so the volumes add up to a 6,000 mL TLC). This is the volume recruited by accessory inspiratory muscles.",
+   "reason": "With TV 500, ERV 1,200 and RV 1,200, IRV must be 3,100 mL for TLC to equal 6,000 mL and VC 4,800 mL."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Normal value: approximately **3,500 mL** (3.5 L).\nIC is the maximum volume",
+   "new": "Normal value: approximately **3,600 mL** (3.6 L).\nIC is the maximum volume",
+   "reason": "IC = TV + IRV = 500 + 3,100."
+  },
+  {
+   "field": "lesson.content",
+   "old": "A useful mnemonic: **\"TIRE\"** for the four volumes in order from top to bottom on a spirogram: **T**idal, **I**RV, **R**V... actually, the standard order on a spirogram from highest to lowest is IRV, TV, ERV, RV.",
+   "new": "On a spirogram, the four volumes stack from top to bottom as **IRV, TV, ERV, RV**.",
+   "reason": "Removes a broken mnemonic."
+  },
+  {
+   "field": "lesson.content",
+   "old": "and the loop is shifted to the right (increased TLC and RV).",
+   "new": "and the loop is shifted toward higher lung volumes (increased TLC and RV).",
+   "reason": "Left/right depends on how the volume axis is drawn; stating the volume change is unambiguous."
+  },
+  {
+   "field": "lesson.content",
+   "old": "| Inspiratory Reserve Volume (IRV) | ~3,000 mL |",
+   "new": "| Inspiratory Reserve Volume (IRV) | ~3,100 mL |",
+   "reason": "Table consistency."
+  },
+  {
+   "field": "lesson.content",
+   "old": "| Inspiratory Capacity (IC) | ~3,500 mL |",
+   "new": "| Inspiratory Capacity (IC) | ~3,600 mL |",
+   "reason": "Table consistency."
+  },
+  {
+   "field": "questions.344.explanation",
+   "old": "Choice A uses incorrect component combinations. Choice D gets TLC wrong by omitting the tidal volume from the sum, and choice C incorrectly calculates FRC by adding TV to ERV.",
+   "new": "Choice A uses TV + ERV for FRC (500 + 1,100 = 1,600) and omits TV from TLC. Choice C uses TV + RV for FRC (500 + 1,200 = 1,700). Choice D has the right FRC but omits TV from TLC (5,300).",
+   "reason": "The original explanation of choice C did not match its number."
+  }
+ ],
+ "sources": [
+  {
+   "title": "StatPearls: Physiology, Residual Volume (pleural pressure −5 to −8 cmH₂O)",
+   "url": "https://www.statpearls.com/point-of-care/28405"
+  },
+  {
+   "title": "StatPearls: Physiology, Lung Capacity",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK541029/"
+  },
+  {
+   "title": "StatPearls: Physiology, Functional Residual Capacity",
+   "url": "https://www.statpearls.com/articlelibrary/viewarticle/21997/"
+  },
+  {
+   "title": "StatPearls: Physiology, Airway Resistance",
+   "url": "https://www.statpearls.com/point-of-care/17311"
+  },
+  {
+   "title": "StatPearls: Physiology, Lung",
+   "url": "https://www.statpearls.com/kb/viewarticle/24508/"
+  }
+ ],
+ "visual": {
+  "title": "Volumes stack; capacities combine them",
+  "src": "/lesson-diagrams/lung-volumes-spirogram.svg",
+  "width": 1100,
+  "height": 660,
+  "alt": "Spirogram with quiet tidal breaths around 2,400 to 2,900 mL, one maximal inspiration to 6,000 mL and one maximal expiration to 1,200 mL. Brackets label IRV about 3,100, TV 500, ERV 1,200 and RV 1,200 mL, and the capacities TLC 6,000, FRC 2,400, VC 4,800 and IC 3,600 mL.",
+  "caption": "Representative values only. RV, and therefore FRC and TLC, cannot be measured by spirometry alone.",
+  "beforeHeading": "Spirometry and Flow-Volume Loops"
+ }
+}
