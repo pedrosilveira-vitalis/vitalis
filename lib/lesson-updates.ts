@@ -19,6 +19,7 @@ import lesson62 from "./lesson-updates/apoptosis-pathways.json";
 import lesson63 from "./lesson-updates/cardiac-cycle.json";
 import lesson64 from "./lesson-updates/cardiac-electrical.json";
 import { createHash } from "node:crypto";
+import { applyPatchReview, findPatchReview } from "./lesson-patches";
 import acidBase from "./lesson-updates/amino-acid-acid-base.json";
 import structure from "./lesson-updates/amino-acid-structure.json";
 import classification from "./lesson-updates/amino-acid-classification.json";
@@ -89,7 +90,10 @@ type Row = { id: number; [key: string]: unknown };
 const reviews = [structure, classification, acidBase, peptide, secondary, assembly, stability, binding, hemoglobin, processing, catalysis, models, kinetics, reciprocal, inhibition, cofactors, allostery, regulation, energy, glycolysis, glycolyticControl, pdh, tca, amphibolic, etc, atp, fermentation, fuel, gng, homeostasis, dna, replication, repair, transcription, rnaProcessing, geneticCode, translation, proteinTargeting, operons, eukRegulation, mendelian, lesson45, lesson46, lesson47, lesson48, lesson49, lesson50, lesson51, lesson52, lesson53, lesson54, lesson55, lesson56, lesson57, lesson58, lesson59, lesson60, lesson61, lesson62, lesson63, lesson64];
 export function applyLessonUpdates<L extends Row, Q extends Row>(lesson: L, questions: Q[]) {
   const reviewed = reviews.find(entry => entry.lessonId === lesson.id);
-  if (!reviewed) return { lesson, questions, review: null };
+  if (!reviewed) {
+    const patchReview = findPatchReview(lesson.id);
+    return patchReview ? applyPatchReview(patchReview, lesson, questions) : { lesson, questions, review: null };
+  }
   // Reject additions, removals and duplicate question IDs as well as changed fields.
   const ids = new Set(questions.map(q => q.id));
   if (questions.length !== reviewed.questionIds.length || ids.size !== questions.length ||

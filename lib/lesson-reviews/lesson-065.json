@@ -1,0 +1,109 @@
+{
+ "lessonId": 65,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  321,
+  322,
+  323,
+  324,
+  325
+ ],
+ "fingerprint": "02ea8a802f4a669f2be4f9770d00a65e045416bbebe66e03cb6b0fd9564c9e1e",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "The SA node has an intrinsic depolarization rate of approximately 60–100 bpm, but this rate is continuously modulated by the autonomic nervous system.",
+   "new": "The SA node's intrinsic rate (measured with autonomic input blocked) is roughly 100–110 bpm in young adults, but this rate is continuously modulated by the autonomic nervous system; resting heart rate is normally 60–100 bpm.",
+   "reason": "Intrinsic SA-node rate is ~100–110 bpm; 60–100 bpm is the normal resting rate after vagal tone."
+  },
+  {
+   "field": "lesson.content",
+   "old": "This produces a **negative chronotropic effect** by increasing potassium conductance (IKACh), hyperpolarizing the cell and slowing phase 4 depolarization.",
+   "new": "This produces a **negative chronotropic effect** by increasing potassium conductance (IK,ACh), which hyperpolarizes the cell, and by decreasing the funny current (If) and L-type calcium current, which together slow phase 4 depolarization.",
+   "reason": "ACh also reduces If and ICa; completes the mechanism."
+  },
+  {
+   "field": "lesson.content",
+   "old": "increasing parasympathetic tone and decreasing HR (the **Bezold-Jarisch** and **baroreflex** responses)",
+   "new": "increasing parasympathetic tone and decreasing HR (the **baroreceptor reflex**). The Bezold-Jarisch reflex is a different reflex, triggered by cardiac (mainly ventricular) receptors, that causes bradycardia and hypotension",
+   "reason": "Bezold-Jarisch is a cardiopulmonary chemoreceptor reflex, not the arterial baroreflex."
+  },
+  {
+   "field": "lesson.content",
+   "old": "the \"atrial kick\" contributes ~20–30% of ventricular filling, which is lost in atrial fibrillation",
+   "new": "the \"atrial kick\" adds the final portion of ventricular filling—commonly taught as ~20–30%, though estimates run from ~10% at rest to much more at high heart rates—and it is lost in atrial fibrillation",
+   "reason": "Sources differ (OpenStax 20–30%; Klabunde ~10% at rest, up to 40% at high rates); present the range honestly."
+  },
+  {
+   "field": "lesson.content",
+   "old": "intracellular Na⁺ rises → Na⁺/Ca²⁺ exchanger (NCX) runs in reverse → intracellular Ca²⁺ rises → increased contractility",
+   "new": "intracellular Na⁺ rises → the smaller Na⁺ gradient slows Ca²⁺ removal by the Na⁺/Ca²⁺ exchanger (NCX) → intracellular and SR Ca²⁺ rise → increased contractility",
+   "reason": "The accepted mechanism is reduced forward-mode Ca²⁺ efflux, not wholesale reversal of NCX."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Digoxin** increases contractility by inhibiting Na⁺/K⁺-ATPase → elevated intracellular Na⁺ → reverse NCX → elevated intracellular Ca²⁺",
+   "new": "- **Digoxin** increases contractility by inhibiting Na⁺/K⁺-ATPase → elevated intracellular Na⁺ → less Ca²⁺ extruded by NCX → elevated intracellular Ca²⁺",
+   "reason": "Same NCX correction in the summary."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Parasympathetic stimulation** decreases HR (no significant direct effect on contractility)",
+   "new": "- **Parasympathetic stimulation** decreases HR and slows AV conduction (little direct effect on ventricular contractility, because vagal fibers mainly supply the atria and nodes)",
+   "reason": "Clarifies that vagal effects on contractility are minor for the ventricles specifically."
+  },
+  {
+   "field": "lesson.content",
+   "old": "increased contractility steepens ESPVR and narrows loop leftward",
+   "new": "increased contractility steepens ESPVR, lowers ESV, and widens the loop (larger SV)",
+   "reason": "Increased inotropy decreases ESV and increases SV, so the loop gets wider, not narrower."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Klabunde, CV Physiology: Autonomic control of the SA node (intrinsic rate 100–110/min)",
+   "url": "https://cvphysiology.com/arrhythmias/a005"
+  },
+  {
+   "title": "Peters et al. 2020, Intrinsic heart rate and SA-node pacemaking (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7063856"
+  },
+  {
+   "title": "Klabunde, CV Pharmacology: Digitalis mechanism",
+   "url": "https://cvpharmacology.com/cardiostimulatory/digitalis"
+  },
+  {
+   "title": "Klabunde, CV Physiology: Cardiac inotropy and pressure-volume loops",
+   "url": "https://www.cvphysiology.com/cardiac-function/cf010"
+  },
+  {
+   "title": "Klabunde, CV Physiology: Preload, afterload and inotropy effects on PV loops",
+   "url": "https://cvphysiology.com/cardiac-function/cf025"
+  },
+  {
+   "title": "StatPearls: Bainbridge reflex (contrasts baroreflex and Bezold-Jarisch reflex)",
+   "url": "https://www.statpearls.com/point-of-care/18113"
+  },
+  {
+   "title": "StatPearls: Physiology, Afterload Reduction (PubMed record)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/29630226/"
+  },
+  {
+   "title": "OpenStax Anatomy & Physiology 2e (LibreTexts), 19.5 Cardiac Physiology",
+   "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Anatomy_and_Physiology_2e_(OpenStax)/04%3A_Fluids_and_Transport/19%3A_The_Cardiovascular_System_-_The_Heart/19.05%3A_Cardiac_Physiology"
+  },
+  {
+   "title": "Klabunde, CV Physiology: Cardiac cycle, atrial contraction (phase 1)",
+   "url": "https://cvphysiology.com/heart-disease/hd002a"
+  }
+ ],
+ "visual": {
+  "title": "How preload and contractility change stroke volume",
+  "src": "/lesson-diagrams/cardiac-output-determinants.svg",
+  "width": 1000,
+  "height": 640,
+  "alt": "Left: Frank-Starling curves of stroke volume against end-diastolic volume; increased contractility gives a higher curve and heart failure a lower curve, while a preload change moves along one curve. Right: pressure-volume loops; increased contractility steepens the end-systolic pressure-volume line, lowers end-systolic volume and widens the loop.",
+  "caption": "Schematic, not patient data. Stroke volume is the loop's width (EDV − ESV). Raising afterload would instead raise the loop and increase ESV, narrowing it.",
+  "beforeHeading": "Integrated Regulation: The Response to Exercise"
+ }
+}
