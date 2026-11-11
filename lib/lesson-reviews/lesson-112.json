@@ -1,0 +1,81 @@
+{
+ "lessonId": 112,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  556,
+  557,
+  558,
+  559,
+  560
+ ],
+ "fingerprint": "e711927c83cbb515104152f42ddd60a65b5ec4e75427b3112538b684c5783e02",
+ "patches": [
+  {
+   "target": "lesson.content",
+   "old": "Using Ka1 alone for 0.10 M H₃PO₄:\n\nKa1 = x²/(0.10 - x) ≈ x²/0.10 = 7.1 × 10⁻³\n\nx² = 7.1 × 10⁻⁴\n\nx = [H⁺] ≈ 0.027 M\n\npH ≈ -log(0.027) ≈ 1.57\n\nIf we accounted for the second dissociation, [H⁺] would increase by approximately Ka2 = 6.3 × 10⁻⁸ M—completely insignificant compared to 0.027 M.",
+   "new": "Using Ka1 alone for 0.10 M H₃PO₄:\n\nKa1 = x²/(0.10 − x) = 7.1 × 10⁻³\n\nHere is where the first dissociation of phosphoric acid catches people out. Dropping the x and writing x²/0.10 gives x ≈ 0.027 M and pH 1.57 — but that is 27% dissociation, far past the 5% threshold, so the shortcut is not available. Phosphoric acid is a fairly strong weak acid, and this is exactly the case the 5% rule exists to catch.\n\nSolving the quadratic x² + (7.1 × 10⁻³)x − 7.1 × 10⁻⁴ = 0:\n\nx = [H⁺] ≈ 0.023 M\n\npH ≈ −log(0.023) ≈ 1.63\n\nWhat *is* safe to ignore here is the second dissociation. It would add roughly Ka2 = 6.3 × 10⁻⁸ M to [H⁺] — completely insignificant compared to 0.023 M.",
+   "reason": "The worked example dropped x from (0.10 − x) in a case where x is 27% of the initial concentration, which is more than five times the threshold the course teaches two lessons earlier. The quadratic gives [H⁺] = 0.0233 M and pH 1.63, not 0.027 M and pH 1.57. Corrected, and the failure is made the teaching point, since phosphoric acid's first dissociation is the standard example of a polyprotic acid that breaks the approximation."
+  },
+  {
+   "target": "lesson.content",
+   "old": "This means [PO₄³⁻] in a solution of phosphoric acid is approximately Ka3 = 4.5 × 10⁻¹³ M—essentially zero, which explains why fully deprotonated phosphate is not a physiologically significant species.",
+   "new": "Note carefully what this result does and does not say. For a *diprotic* acid, the species it gives is the fully deprotonated one. For a triprotic acid the same argument gives the *middle* dianion: in a solution of H₃PO₄, [HPO₄²⁻] ≈ Ka2 = 6.3 × 10⁻⁸ M. The fully deprotonated form is one step further down and far scarcer:\n\n[PO₄³⁻] = Ka3 × [HPO₄²⁻] / [H⁺] ≈ Ka2 × Ka3 / [H⁺]\n\nIn 0.10 M H₃PO₄, with [H⁺] ≈ 0.023 M, that is (6.3 × 10⁻⁸)(4.5 × 10⁻¹³)/0.023 ≈ 1 × 10⁻¹⁸ M — about five orders of magnitude *below* Ka3, and a vivid illustration of why fully deprotonated phosphate is not a physiologically significant species.",
+   "reason": "The shortcut [A²⁻] ≈ Ka2 applies to a diprotic acid, where A²⁻ is the fully deprotonated species. Extending it to a triprotic acid as \"[PO₄³⁻] ≈ Ka3\" is wrong by roughly five orders of magnitude: carrying the same derivation one step further gives [PO₄³⁻] ≈ Ka2·Ka3/[H⁺] ≈ 10⁻¹⁸ M in 0.10 M H₃PO₄. The qualitative conclusion the sentence draws is right, but the number it rests on is not."
+  },
+  {
+   "target": "lesson.content",
+   "old": "6. **Concentration of fully deprotonated species:** Approximately equal to Ka2 (for diprotic) or Ka3 (for triprotic) in a solution where Ka1 >> Ka2.",
+   "new": "6. **Concentration of the dianion:** In a solution of the acid alone, [A²⁻] ≈ Ka2 — for a diprotic acid that is the fully deprotonated form; for a triprotic acid it is the middle species (so [HPO₄²⁻] ≈ Ka2). The fully deprotonated form of a triprotic acid is one step further down: [A³⁻] ≈ Ka2·Ka3/[H⁺], which is many orders of magnitude smaller than Ka3.",
+   "reason": "Same correction as above, applied to the shortcut list so the two statements agree."
+  },
+  {
+   "target": "lesson.content",
+   "old": "The carboxyl proton is more acidic (lower pKa) because it is stabilized by resonance with the adjacent carbonyl after donation.",
+   "new": "Two things make the carboxyl proton the more acidic of the two. Its conjugate base, the carboxylate, carries the charge across two equivalent oxygens by resonance, whereas deprotonating the ammonium group simply gives a neutral amine with a localized lone pair. And the α-ammonium group, sitting one bond away and bearing a full positive charge, pulls electron density from the carboxyl inductively — which is why glycine's carboxyl pKa is about 2.3 rather than the ~4.8 of an ordinary carboxylic acid.",
+   "reason": "\"Stabilized by resonance with the adjacent carbonyl\" does not describe anything in the molecule: the resonance that stabilises a carboxylate is between its own two oxygens, and there is no separate adjacent carbonyl in an amino acid. The sentence also left out the inductive effect of the neighbouring ammonium, which is the reason an α-amino acid's carboxyl pKa sits more than two units below that of a comparable carboxylic acid — a difference the lesson's own numbers display."
+  },
+  {
+   "target": "lesson.content",
+   "old": "Normal blood values: [HCO₃⁻] ≈ 24 mEq/L, [CO₂] ≈ 1.2 mEq/L",
+   "new": "Normal blood values: [HCO₃⁻] ≈ 24 mmol/L, dissolved [CO₂] ≈ 1.2 mmol/L (= 0.03 × pCO₂, with pCO₂ = 40 mmHg)",
+   "reason": "Dissolved CO₂ is an uncharged species, so it has no equivalents and cannot be expressed in mEq/L. Giving it as mmol/L, with the standard 0.03 × pCO₂ relation shown, also lets students reproduce the figure from a blood gas rather than memorise it."
+  },
+  {
+   "target": "lesson.content",
+   "old": "**Step 1:** H₂CO₃ ⇌ H⁺ + HCO₃⁻           pKa1 = 6.35 (Ka1 ≈ 4.5 × 10⁻⁷)",
+   "new": "**Step 1:** CO₂(aq) + H₂O ⇌ H⁺ + HCO₃⁻     apparent pKa1′ = 6.35 at 25 °C (Ka1′ ≈ 4.5 × 10⁻⁷); 6.1 at 37 °C and blood ionic strength",
+   "reason": "This constant is written over total dissolved CO₂ rather than over H₂CO₃ itself, only a small fraction of dissolved CO₂ being hydrated; the true pKa1 of carbonic acid is near 3.6. Labelling it accurately here also explains why the lesson quotes 6.35 in this list and 6.1 three paragraphs later, and matches the correction made in the preceding lessons."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Harris, Quantitative Chemical Analysis — polyprotic acid systems and the intermediate-form approximation",
+   "url": "https://www.macmillanlearning.com/college/us/product/Quantitative-Chemical-Analysis/p/1319324509",
+   "note": "For a solution of a diprotic acid, [A²⁻] ≈ Ka2; the pH of a solution of the amphiprotic intermediate is approximately ½(pKa1 + pKa2). For a triprotic acid the same argument gives the middle dianion, and the fully deprotonated form follows as Ka2·Ka3/[H⁺]."
+  },
+  {
+   "label": "CRC Handbook of Chemistry and Physics — dissociation constants of inorganic acids",
+   "url": "https://hbcp.chemnetbase.com/",
+   "note": "H₃PO₄: pKa 2.15, 7.20, 12.35. The first dissociation constant of 7.1 × 10⁻³ is large enough that a 0.10 M solution is about 23% dissociated, so the small-x approximation fails."
+  },
+  {
+   "label": "Henderson–Hasselbalch for the bicarbonate buffer (clinical form)",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK482248/",
+   "note": "pH = 6.1 + log([HCO₃⁻]/(0.03 × pCO₂)); normal values [HCO₃⁻] ≈ 24 mmol/L and dissolved CO₂ ≈ 1.2 mmol/L at pCO₂ 40 mmHg. The apparent pK′ is defined over total dissolved CO₂."
+  },
+  {
+   "label": "Nelson & Cox, Lehninger Principles of Biochemistry — amino acid pKa values and pI",
+   "url": "https://www.macmillanlearning.com/college/us/product/Lehninger-Principles-of-Biochemistry/p/131932213X",
+   "note": "Glycine pKa 2.34 and 9.60, pI 5.97; histidine 1.82, 6.00, 9.17, pI 7.59; aspartate 1.88, 3.65, 9.60, pI 2.77. The α-carboxyl pKa is depressed relative to an ordinary carboxylic acid by the inductive effect of the α-ammonium group."
+  }
+ ],
+ "visual": {
+  "title": "Phosphoric acid, species by species",
+  "src": "/lesson-diagrams/phosphate-speciation.svg",
+  "width": 1180,
+  "height": 700,
+  "alt": "A speciation plot showing the fraction of total phosphate present as H₃PO₄, H₂PO₄⁻, HPO₄²⁻ and PO₄³⁻ across pH 0 to 14, with dashed lines at the three pKa values where neighbouring curves cross at a fraction of one half, and a solid line at physiological pH 7.4 just right of pKa2. Three side panels give the rules for the dominant species, the pH of a solution of the intermediate alone, and the isoelectric point. A footer gives two cautions about the 5% rule and about the concentration of the fully deprotonated species.",
+  "caption": "Every pKa is a crossover: at that pH the two neighbouring species are present in equal amounts, which is precisely the centre of a buffering region. Physiological pH sits just past pKa2 — which is why H₂PO₄⁻/HPO₄²⁻ is the intracellular buffer.",
+  "beforeHeading": "## Dominant Species and the Ladder Approach"
+ }
+}
