@@ -1,0 +1,55 @@
+{
+ "lessonId": 90,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  446,
+  447,
+  448,
+  449,
+  450
+ ],
+ "fingerprint": "52b0d53cb062b9cacd0022621527f438a40b49e0a8157ad606c424527b916e79",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Your tag should be written on your scratch paper (or the digital notepad on the MCAT). Keep it short.",
+   "new": "Write your tag on the materials the test center provides: the MCAT gives you a laminated **noteboard booklet** (a cover page plus nine graph-lined wet-erase pages) and a fine-point marker. You cannot bring your own paper, and there is no on-screen notepad — the only built-in tools are highlighting and strikethrough. Keep the tag short.",
+   "reason": "The MCAT provides a wet-erase noteboard booklet and marker; personal scratch paper and a digital notepad are not available."
+  },
+  {
+   "field": "lesson.content",
+   "old": "**Week 3-4:** Introduce timing. Aim to complete your map within the first four to five minutes of your ten-minute window. Practice writing tags in two to three words maximum.",
+   "new": "**Week 3-4:** Introduce timing. Aim to finish reading *and* mapping within the first four minutes or so of your ten-minute window — the writing itself should take well under a minute in total, spread across the paragraphs. Practice writing tags in two to three words maximum.",
+   "reason": "Resolves a contradiction with question 448, which treats four minutes spent on the map itself as too long."
+  },
+  {
+   "field": "questions.448.explanation",
+   "old": "Passage mapping is meant to be a concise, time-efficient tool, typically taking 1-2 minutes, that supports rather than replaces engagement with questions.",
+   "new": "Passage mapping is meant to be a concise, time-efficient tool that supports rather than replaces engagement with the questions: the tags themselves should take well under a minute of writing spread through the reading, so that reading plus mapping fits in roughly four minutes.",
+   "reason": "Aligns the explanation with the lesson's own timing guidance and worked example."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AAMC: MCAT Test Day Noteboard Booklet",
+   "url": "https://students-residents.aamc.org/taking-mcat-exam/mcat-test-day"
+  },
+  {
+   "title": "AAMC: Check-In Rules and Procedures (items provided; noteboard booklet)",
+   "url": "https://students-residents.aamc.org/book/export/html/16956"
+  },
+  {
+   "title": "AAMC: MCAT Test Day Noteboard handout (cover page plus nine graph-lined pages)",
+   "url": "https://students-residents.aamc.org/media/11416/download"
+  }
+ ],
+ "visual": {
+  "title": "The three layers of a passage map",
+  "src": "/lesson-diagrams/cars-passage-map.svg",
+  "width": 1000,
+  "height": 660,
+  "alt": "A worked example of a passage map in three layers. Layer one, paragraph tags of two to five words: P1 introduces the topic, intuitions widely trusted; P2 is the thesis, intuitions are unreliable and biased; P3 and P4 give evidence from moral dumbfounding and cultural variation; P5 concedes that intuitions are developmentally necessary; P6 concludes they are heuristics, not standards. Layer two, link words between the tags: BUT, AND, HOWEVER, SO. Layer three, a one-sentence main idea with the author's stance plus a tone note. A side panel matches question types to layers: paragraph function to layer one, contrast and why-is-this-here to layer two, main idea, tone and inference to layer three, and detail questions to the tag that tells you which paragraph to open.",
+  "caption": "The map is a navigation tool: it stores structure, not details.",
+  "beforeHeading": "The Mapping Process: Step-by-Step"
+ }
+}
