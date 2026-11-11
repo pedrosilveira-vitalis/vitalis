@@ -1,0 +1,103 @@
+{
+ "lessonId": 66,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  326,
+  327,
+  328,
+  329,
+  330
+ ],
+ "fingerprint": "279f1d6ad2d770723006a97373f644a8d7aa22974304cbe257f773b830344041",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **Fenestrated capillaries**: endothelial cells contain pores (fenestrae) covered by a thin diaphragm; found in kidney glomerulus, intestinal villi, and endocrine glands.",
+   "new": "- **Fenestrated capillaries**: endothelial cells contain pores (fenestrae), usually spanned by a thin diaphragm (adult glomerular fenestrae are a notable exception and lack diaphragms); found in kidney glomerulus and peritubular capillaries, intestinal villi, and endocrine glands.",
+   "reason": "Adult glomerular endothelial fenestrae generally lack diaphragms."
+  },
+  {
+   "field": "lesson.content",
+   "old": "At the arterial end, net outward pressure (~10 mmHg) drives filtration. At the venous end, net inward pressure (~9 mmHg) drives reabsorption. Approximately 90% of filtered fluid is reabsorbed; the remaining 10% (~2–4 L/day) is returned to circulation via the **lymphatic system**.",
+   "new": "In the classic model, net outward pressure (~10 mmHg) drives filtration at the arterial end and net inward pressure (~9 mmHg) drives reabsorption at the venous end, with ~90% of filtered fluid reabsorbed and the rest (~2–4 L/day) returned by the **lymphatic system**. This classic model is what MCAT questions use. Note that modern measurements (the \"revised Starling principle,\" which places the oncotic barrier at the endothelial glycocalyx) show that sustained venous-end reabsorption is limited in most tissues, so lymphatic return is even more important than the classic numbers suggest.",
+   "reason": "Labels the classic model and adds the revised Starling principle supported by Levick & Michel."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Sympathetic fibers release **norepinephrine**, which acts on:\n- **α₁ receptors** on vascular smooth muscle → vasoconstriction (increases TPR)\n- **β₁ receptors** on the heart → increased heart rate (positive chronotropy) and contractility (positive inotropy)\n- **β₂ receptors** on skeletal muscle and bronchial smooth muscle → vasodilation (this is the basis for β₂ agonist bronchodilators)",
+   "new": "Sympathetic fibers release **norepinephrine**, which acts on:\n- **α₁ receptors** on vascular smooth muscle → vasoconstriction (increases TPR)\n- **β₁ receptors** on the heart → increased heart rate (positive chronotropy) and contractility (positive inotropy)\n\n**β₂ receptors** (e.g., on arterioles in skeletal muscle and on bronchial smooth muscle) cause relaxation, but they bind norepinephrine weakly; they respond mainly to **circulating epinephrine** from the adrenal medulla (and to β₂-agonist drugs such as bronchodilators).",
+   "reason": "Norepinephrine has low affinity for β2; vascular β2 effects come mainly from circulating epinephrine."
+  },
+  {
+   "field": "lesson.content",
+   "old": "It resets over days to weeks at a new set point in chronic hypertension, which is why chronically hypertensive patients do not feel their elevated pressure as abnormal.",
+   "new": "It resets over days to weeks to a new set point in chronic hypertension, which is why the baroreflex defends the elevated pressure rather than correcting it long-term.",
+   "reason": "Baroreflex resetting explains why it does not correct chronic hypertension; it is unrelated to whether patients 'feel' their pressure."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- CO₂ (hypercapnia → vasodilation, except in pulmonary circulation where hypoxia causes vasoconstriction)",
+   "new": "- CO₂ (hypercapnia → vasodilation in systemic beds; note that in the pulmonary circulation, *hypoxia* causes vasoconstriction, the opposite of most systemic beds)",
+   "reason": "Clarifies the exception refers to the oxygen response in the pulmonary bed, not to CO₂."
+  },
+  {
+   "field": "questions.327.explanation",
+   "old": "Choice C (8-fold) is a common distractor reflecting a cube relationship, which applies to flow velocity but not resistance.",
+   "new": "Choice C (8-fold) would come from wrongly using a cube relationship; no Poiseuille quantity scales with r³ (at constant pressure, flow scales with r⁴ and mean velocity with r²).",
+   "reason": "Mean velocity scales with r², not r³."
+  },
+  {
+   "field": "questions.328.question_text",
+   "old": "A researcher measures blood pressure at the aorta, a large artery, a small arteriole, and a capillary bed. Which vessel segment accounts for the greatest drop in mean arterial pressure along this path?",
+   "new": "A researcher measures mean blood pressure along the systemic circulation. Across which segment does the largest drop in mean pressure occur?",
+   "reason": "Original endpoints made choices B and C overlap (both included arteriolar tissue)."
+  },
+  {
+   "field": "questions.328.choice_b",
+   "old": "Large artery to small arteriole",
+   "new": "Large arteries to the entrance of the arterioles",
+   "reason": "Makes choices non-overlapping."
+  },
+  {
+   "field": "questions.328.choice_c",
+   "old": "Small arteriole to capillary",
+   "new": "Across the arterioles, from their entrance to the capillaries",
+   "reason": "Makes the correct answer unambiguous."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Satchell & Braet 2009, Glomerular endothelial cell fenestrations (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2681366/"
+  },
+  {
+   "title": "Levick 2004, Revision of the Starling principle (J Physiol, PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1665155"
+  },
+  {
+   "title": "Levick & Michel 2010, Microvascular fluid exchange and the revised Starling principle (Cardiovasc Res)",
+   "url": "https://doi.org/10.1093/cvr/cvq062"
+  },
+  {
+   "title": "Klabunde, CV Physiology: Circulating catecholamines",
+   "url": "https://cvphysiology.com/blood-pressure/bp018"
+  },
+  {
+   "title": "Klabunde, CV Pharmacology: Beta-adrenoceptor agonists",
+   "url": "https://cvpharmacology.com/cardiostimulatory/beta-agonist"
+  },
+  {
+   "title": "StatPearls: Physiology, Cardiovascular (MAP = CO × TPR)",
+   "url": "https://statpearls.com/kb/viewarticle/18942"
+  }
+ ],
+ "visual": {
+  "title": "Where blood pressure is lost",
+  "src": "/lesson-diagrams/vascular-pressure-profile.svg",
+  "width": 1000,
+  "height": 600,
+  "alt": "Line chart of mean pressure along the systemic circulation: about 100 mmHg in the aorta, gradually falling through large and small arteries to 85, dropping steeply across the arterioles to about 35, then 15 at the venules and near 5 in the vena cava. Side boxes: MAP approximately equals CO times TPR, and resistance is proportional to one over radius to the fourth.",
+  "caption": "Teaching values from this lesson. The steep arteriolar drop is why arteriolar tone dominates total peripheral resistance.",
+  "beforeHeading": "Capillary Exchange: Starling Forces"
+ }
+}

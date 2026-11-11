@@ -1,0 +1,107 @@
+{
+ "lessonId": 67,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  331,
+  332,
+  333,
+  334,
+  335
+ ],
+ "fingerprint": "c48caf6fcd3ab3cd85d465f6b590c5869084a940d973d2d5fd4b658eb3b63ce2",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Their primary role is respiratory regulation, but in extreme situations (e.g., severe ischemia of the medulla, the **Cushing reflex**), they drive a dramatic sympathetic surge causing hypertension and bradycardia—a sign of impending brainstem herniation.",
+   "new": "Their primary role is respiratory regulation. A separate emergency response, the **Cushing reflex**, occurs when raised intracranial pressure makes the brainstem ischemic: the medullary vasomotor center drives a dramatic sympathetic surge that raises arterial pressure, and bradycardia follows (attributed to the baroreflex and/or vagal compression). The Cushing triad (hypertension, bradycardia, irregular respiration) is a late sign of impending brainstem herniation.",
+   "reason": "The Cushing reflex is a CNS ischemic response to raised ICP, not a central-chemoreceptor response."
+  },
+  {
+   "field": "lesson.content",
+   "old": "2. **Decreased NaCl delivery to the macula densa** — the macula densa cells of the distal tubule sense low luminal [Cl⁻]",
+   "new": "2. **Decreased NaCl delivery to the macula densa** — the macula densa cells, at the end of the thick ascending limb just before the distal convoluted tubule, sense low luminal [Cl⁻]",
+   "reason": "The macula densa lies at the distal end of the thick ascending limb."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Values >100 pg/mL suggest heart failure; values >400 pg/mL indicate severe disease.",
+   "new": "In a patient with acute shortness of breath, BNP <100 pg/mL makes heart failure unlikely and >400 pg/mL makes it likely (values in between are a gray zone; age, kidney function and obesity shift the levels).",
+   "reason": "The 100/400 pg/mL thresholds are diagnostic rule-out/rule-in cutoffs, not severity grades."
+  },
+  {
+   "field": "lesson.content",
+   "old": "6. Thirst stimulated by Ang II and hypothalamic osmoreceptors",
+   "new": "6. Thirst stimulated by Ang II and by the fall in blood volume (osmolarity changes little, because blood loss is isotonic)",
+   "reason": "Hemorrhage removes isotonic fluid, so osmoreceptors are not the main thirst signal."
+  },
+  {
+   "field": "lesson.content",
+   "old": "This creates a **positive feedback loop** that sustains hypertension.",
+   "new": "Because the normal negative feedback (higher pressure → less renin) cannot reach the stenotic kidney, renin release stays high and sustains the hypertension.",
+   "reason": "Sustained renin secretion here reflects failed negative feedback, not a true positive feedback loop."
+  },
+  {
+   "field": "questions.333.question_text",
+   "old": "During intense exercise, arterial PCO2 rises and PO2 falls. How do peripheral chemoreceptors contribute to cardiovascular regulation in this context?",
+   "new": "During an episode of hypoventilation, a patient's arterial PO2 falls and PCO2 rises. How do the peripheral chemoreceptors contribute to cardiovascular regulation in this setting?",
+   "reason": "In healthy people, arterial PO2 and PCO2 stay near normal (PCO2 may even fall) during intense exercise, so the original premise was inaccurate."
+  },
+  {
+   "field": "questions.333.choice_a",
+   "old": "Peripheral chemoreceptors detect the changes and directly decrease heart rate to conserve oxygen",
+   "new": "Their firing decreases, withdrawing sympathetic tone and causing widespread vasodilation",
+   "reason": "The primary chemoreflex does slow the heart, so the original choice A was partly true; replaced with a clearly wrong distractor."
+  },
+  {
+   "field": "questions.333.choice_b",
+   "old": "Peripheral chemoreceptors detect elevated PCO2 and reduced PO2, increasing sympathetic outflow to raise cardiac output and blood pressure",
+   "new": "Their firing increases, raising sympathetic vasoconstrictor outflow and supporting arterial blood pressure",
+   "reason": "States the well-supported response (sympathetic vasoconstriction) without overstating cardiac effects."
+  },
+  {
+   "field": "questions.333.explanation",
+   "old": "Peripheral chemoreceptors, located in the carotid and aortic bodies, respond to decreased PO2, increased PCO2, and decreased pH. During exercise, these stimuli increase chemoreceptor firing, which augments sympathetic cardiovascular drive, raising heart rate, contractility, and vascular tone to increase cardiac output and maintain perfusion pressure. This complements the direct sympathetic activation from exercise. Choice C is incorrect because peripheral chemoreceptors respond to both PCO2 and PO2, and they do have significant cardiovascular effects.",
+   "new": "The carotid and aortic bodies increase their firing when PO2 falls, PCO2 rises, or pH falls. Besides driving ventilation, this raises sympathetic vasoconstrictor outflow, increasing vascular resistance and supporting blood pressure. Their direct effect on the heart is slowing, but the accompanying increase in breathing usually turns this into a net tachycardia. Choice A reverses the direction of the response. Choice C is wrong because these receptors respond to PCO2 and pH as well as PO2 and do affect the circulation. Choice D is wrong because chemoreceptors do not directly trigger aldosterone release.",
+   "reason": "Matches the corrected stem and choices."
+  }
+ ],
+ "sources": [
+  {
+   "title": "StatPearls: Cushing Reflex",
+   "url": "https://www.statpearls.com/point-of-care/20176"
+  },
+  {
+   "title": "Bell, Peti-Peterdi et al.: Macula densa cell signaling (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3554872"
+  },
+  {
+   "title": "Klabunde, CV Physiology: Chemoreceptors",
+   "url": "https://www.cvphysiology.com/blood-pressure/bp014"
+  },
+  {
+   "title": "Marshall 1998, Chemoreceptors and cardiovascular control in hypoxia (Braz J Med Biol Res)",
+   "url": "https://scielo.br/j/bjmbr/a/35BfkrWnHvVYXTFGrWdjrXb/?lang=en"
+  },
+  {
+   "title": "Higgins: Natriuretic peptide measurement in heart failure (BNP cutoffs)",
+   "url": "https://acutecaretesting.org/en/articles/natriuretic-peptide-measurement-in-heart-failure"
+  },
+  {
+   "title": "College of American Pathologists: BNP and NT-proBNP module",
+   "url": "https://documents.cap.org/documents/BNPFullModule.2.pdf"
+  },
+  {
+   "title": "StatPearls: Physiology, Cardiovascular",
+   "url": "https://statpearls.com/kb/viewarticle/18942"
+  }
+ ],
+ "visual": {
+  "title": "Fast reflexes and slow hormones",
+  "src": "/lesson-diagrams/bp-control-timescales.svg",
+  "width": 1000,
+  "height": 700,
+  "alt": "Timeline of blood pressure control: baroreceptor reflex in seconds, catecholamines and ADH over minutes to hours, RAAS and aldosterone over hours to days, pressure natriuresis over days to weeks. Below, the RAAS cascade: low renal perfusion, low NaCl at the macula densa or sympathetic beta-1 input triggers renin from juxtaglomerular cells; renin converts angiotensinogen to angiotensin I; ACE, mostly in lung endothelium, forms angiotensin II, which causes vasoconstriction, aldosterone release, ADH release and thirst.",
+  "caption": "Onset times are approximate. Angiotensin II also constricts the efferent arteriole to help preserve GFR.",
+  "beforeHeading": "Atrial Natriuretic Peptide: A Counter-Regulatory Hormone"
+ }
+}
