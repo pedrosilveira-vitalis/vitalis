@@ -1,0 +1,64 @@
+{
+ "lessonId": 109,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  541,
+  542,
+  543,
+  544,
+  545
+ ],
+ "fingerprint": "5d4f4b5741983f6bb6cea2f832f0493592e6ff728baf31feca7fa34c94fd6fbc",
+ "patches": [
+  {
+   "target": "lesson.content",
+   "old": "Here, the \"acid\" on the left is water (pKa ≈ 15.7) and the \"acid\" on the right is acetic acid (pKa = 4.74).\n\nK = 10^(4.74 − 15.7) = 10^(−10.96) ≈ 1.1 × 10⁻¹¹\n\nThis tiny K confirms that acetate barely hydrolyzes water — it is a weak base, consistent with acetic acid being a weak acid.",
+   "new": "Here, the \"acid\" on the left is water and the \"acid\" on the right is acetic acid (pKa = 4.74). Water is the solvent here, so its relevant pKa is 14 — the value implied by Kw, with water's activity taken as 1:\n\nK = 10^(4.74 − 14) = 10^(−9.26) ≈ 5.6 × 10⁻¹⁰\n\nThis is exactly the Kb of acetate calculated earlier from Kb = Kw / Ka, as it must be: this reaction *is* the hydrolysis that Kb describes. The tiny K confirms that acetate barely deprotonates water — it is a weak base, consistent with acetic acid being a weak acid.\n\n**A warning about the two pKa values for water.** You will also see water's pKa given as 15.7. That figure comes from a different convention, one that treats water as an ordinary solute present at 55.5 M; organic chemistry tables use it so that water can sit on the same ladder as alcohols and amines. For an aqueous equilibrium in which water is the solvent — any hydrolysis, any Ka/Kb pair — use 14, which is what Kb = Kw / Ka assumes. The two conventions differ by a factor of about 55, which is enough to turn a correct answer into an incorrect one.",
+   "reason": "The worked calculation contradicted the lesson's own earlier result. Two sections above, the Kb of acetate is correctly computed as Kw/Ka = 5.6 × 10⁻¹⁰; here the identical reaction is assigned K ≈ 1.1 × 10⁻¹¹, a factor of ~55 smaller, because water's pKa was taken as 15.7. That value belongs to the convention in which water is treated as a 55.5 M solute, not to aqueous equilibria in which water is the solvent and its activity is 1. Corrected, with the discrepancy explained rather than hidden, since choosing the wrong convention here is a genuine and recurring error."
+  },
+  {
+   "target": "lesson.content",
+   "old": "The primary buffer system in blood involves the conjugate pair H₂CO₃ / HCO₃⁻, with an effective pKa of ~6.1 (though the physiological pKa accounting for dissolved CO₂ is often cited as 6.1). At blood pH 7.4, the Henderson-Hasselbalch equation predicts:\n\npH = pKa + log([HCO₃⁻] / [H₂CO₃])\n\n7.4 = 6.1 + log([HCO₃⁻] / [H₂CO₃])\n\nlog([HCO₃⁻] / [H₂CO₃]) = 1.3\n\n[HCO₃⁻] / [H₂CO₃] ≈ 20:1",
+   "new": "The primary buffer system in blood is the CO₂ / HCO₃⁻ pair. Two pKa values circulate here and they are not interchangeable. The true first pKa of carbonic acid — the equilibrium H₂CO₃ ⇌ H⁺ + HCO₃⁻ — is about 3.6. The value physiologists use, pKa′ ≈ 6.1, is an *apparent* constant for dissolved CO₂ rather than for H₂CO₃, because only about 1 molecule in 400 of dissolved CO₂ is hydrated to H₂CO₃ at any moment. Lumping the unhydrated CO₂ into the denominator shifts the apparent pKa upward by roughly that factor.\n\nSo the physiologically useful form of the equation has dissolved CO₂, not H₂CO₃, beneath the line:\n\npH = 6.1 + log([HCO₃⁻] / (0.03 × pCO₂))\n\nAt blood pH 7.4 with a pCO₂ of 40 mmHg, dissolved CO₂ is 0.03 × 40 = 1.2 mM:\n\n7.4 = 6.1 + log([HCO₃⁻] / 1.2)\n\nlog([HCO₃⁻] / 1.2) = 1.3, so [HCO₃⁻] ≈ 24 mM — the familiar normal value, and a ratio of about 20:1.",
+   "reason": "Two problems. First, the parenthetical was circular: it gave the effective pKa as ~6.1 and then said that the physiological pKa \"is often cited as 6.1\", so it drew a distinction and then erased it. The real distinction is that 6.1 is an apparent constant defined over total dissolved CO₂, whereas the true pKa1 of H₂CO₃ is about 3.6; only around 1 in 400 dissolved CO₂ molecules is hydrated. Second, pairing pKa 6.1 with [H₂CO₃] in the denominator is the error that distinction exists to prevent — 6.1 goes with dissolved CO₂ (0.03 × pCO₂). Rewritten so the equation is the one clinicians actually use, and so the numbers reproduce the standard 24 mM bicarbonate at a pCO₂ of 40 mmHg."
+  },
+  {
+   "target": "lesson.content",
+   "old": "Aspartate stabilizes the positively charged histidine (acting as a Lewis base).",
+   "new": "Aspartate stabilizes the positively charged histidine electrostatically and through a hydrogen bond; it does not transfer a proton or donate a lone pair into a new bond, so it is not acting as an acid or a base in this step.",
+   "reason": "Calling aspartate a Lewis base here misdescribes what it does. A Lewis base donates an electron pair to form a covalent bond; the aspartate carboxylate in the catalytic triad accepts a hydrogen bond from the protonated histidine and stabilises its positive charge electrostatically. The distinction matters because this lesson is teaching students to apply the Lewis definition precisely, and because orienting the histidine is the function that is actually being described."
+  },
+  {
+   "target": "lesson.content",
+   "old": "Every Brønsted-Lowry acid is also a Lewis acid (H⁺ itself is the ultimate electron-pair acceptor), but the Lewis model captures reactions that involve no proton transfer at all.",
+   "new": "Every Brønsted-Lowry base is also a Lewis base outright: accepting a proton just *is* donating a lone pair to it. The relationship on the acid side is looser — a Brønsted-Lowry acid acts as a Lewis acid through the proton it hands over, since H⁺ is the electron-pair acceptor rather than the molecule that released it. Either way, the Lewis model captures reactions that involve no proton transfer at all.",
+   "reason": "\"Every Brønsted-Lowry acid is also a Lewis acid\" is the loose form of the statement and obscures the asymmetry students are tested on: the base-side containment is exact, while on the acid side it is the proton, not the donor molecule, that accepts the electron pair. Stated precisely, since the lesson's own later pitfall section asks students not to force one model's language onto the other."
+  }
+ ],
+ "sources": [
+  {
+   "label": "IUPAC Gold Book — Lewis acid, Lewis base, Brønsted acid, Brønsted base",
+   "url": "https://goldbook.iupac.org/terms/view/L03508",
+   "note": "A Lewis base donates an electron pair to form a covalent bond with a Lewis acid, which accepts it. Accepting a proton is itself electron-pair donation, so every Brønsted base is a Lewis base; the acid-side correspondence runs through the proton."
+  },
+  {
+   "label": "Berg, Tymoczko & Stryer, Biochemistry — the chymotrypsin catalytic triad",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK22589/",
+   "note": "In the Ser–His–Asp triad, histidine acts as a general base abstracting the serine proton; the aspartate carboxylate orients the histidine and stabilises its positive charge by hydrogen bonding and electrostatic interaction, rather than by transferring a proton or forming a new bond."
+  },
+  {
+   "label": "Henderson–Hasselbalch for the bicarbonate buffer (clinical form)",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK482248/",
+   "note": "pH = 6.1 + log([HCO₃⁻] / (0.03 × pCO₂)). The apparent pKa′ of 6.1 is defined over total dissolved CO₂, of which only a small fraction (on the order of 1 in 400) exists as H₂CO₃; the true pKa1 of carbonic acid is about 3.6. At pH 7.4 and pCO₂ 40 mmHg this gives [HCO₃⁻] ≈ 24 mM and a ratio near 20:1."
+  }
+ ],
+ "visual": {
+  "title": "Three definitions, one ladder",
+  "src": "/lesson-diagrams/acid-base-models-pka-ladder.svg",
+  "width": 1200,
+  "height": 792,
+  "alt": "On the left, three stacked boxes — Arrhenius, Brønsted–Lowry and Lewis — with arrows showing each model contained in the one above, plus panels on the asymmetry of that containment and on predicting the direction of proton transfer from pKa values. On the right, a pKa ladder from HCl at about −7 down to ethanol at 16, each rung pairing an acid with its conjugate base, with stronger acid and weaker base at the top. A footer distinguishes the two conventions for the acidity of water, pKa 14 for water as solvent and 15.7 for water treated as a 55.5 M solute.",
+  "caption": "Read the ladder downwards for acid strength and upwards for base strength. A proton moves from a higher rung to the conjugate base of a lower one, and the gap in pKa units is the power of ten by which products are favoured.",
+  "beforeHeading": "## The Brønsted-Lowry Model"
+ }
+}
