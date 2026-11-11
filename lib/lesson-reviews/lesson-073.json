@@ -1,0 +1,57 @@
+{
+ "lessonId": 73,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  361,
+  362,
+  363,
+  364,
+  365
+ ],
+ "fingerprint": "524f9868b697680baa3537c933f0e7436d510983e575d1bddc2290702e8fbbb4",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "This creates a local osmotic difference of roughly 200 mOsm/kg between the tubular lumen and the interstitium at each horizontal level.",
+   "new": "This creates a local osmotic difference between the tubular lumen and the interstitium at each horizontal level (classically quoted as up to ~200 mOsm/kg; modeling studies suggest the actual \"single effect\" at any level may be much smaller, with the large overall gradient produced by multiplication along the loop).",
+   "reason": "The 200 mOsm/kg figure is a textbook maximum; quantitative reviews describe a smaller single effect multiplied along the loop."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The **osmotic threshold** for ADH secretion is approximately 280–285 mOsm/kg.",
+   "new": "The **osmotic threshold** for ADH secretion is approximately 280–295 mOsm/kg (published estimates vary).",
+   "reason": "Some reviews place the threshold near 290–295 mOsm/kg."
+  }
+ ],
+ "sources": [
+  {
+   "title": "StatPearls: Physiology, Vasopressin",
+   "url": "https://www.statpearls.com/point-of-care/31037"
+  },
+  {
+   "title": "Feraille et al. 2022, Renal water transport and AVP (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9338902"
+  },
+  {
+   "title": "Review: the urine-concentrating mechanism and countercurrent multiplication (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2709207"
+  },
+  {
+   "title": "OpenStax Anatomy & Physiology 2e (Oregon State): countercurrent multiplier",
+   "url": "https://open.oregonstate.education/anatomy2e/?p=1200"
+  },
+  {
+   "title": "StatPearls: Physiology, Renal",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK554411/"
+  }
+ ],
+ "visual": {
+  "title": "How the kidney concentrates urine",
+  "src": "/lesson-diagrams/countercurrent-medullary-gradient.svg",
+  "width": 1000,
+  "height": 700,
+  "alt": "A long loop of Henle runs from cortex to papilla through an interstitium that rises from 300 to about 1200 mOsm/kg. The descending limb loses water, so its fluid rises from 300 to 1200 at the bend; the thick ascending limb pumps out NaCl without water, so fluid leaves the loop at about 100. The collecting duct loses water to the interstitium when ADH inserts AQP2, giving urine up to about 1200; without ADH urine can be about 50. Vasa recta preserve the gradient by passive countercurrent exchange.",
+  "caption": "Classic textbook osmolalities for a long-looped nephron. Deep in the inner medulla roughly half the osmolality is urea.",
+  "beforeHeading": "The Countercurrent Exchanger (Vasa Recta)"
+ }
+}

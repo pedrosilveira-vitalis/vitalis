@@ -1,0 +1,85 @@
+{
+ "lessonId": 74,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  366,
+  367,
+  368,
+  369,
+  370
+ ],
+ "fingerprint": "13ac8341fb16004c0865b54a2264ad135c35391c0c75149ad6bd73b7bd1b245f",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **Alpha (α) cells** (~20% of islet cells): secrete **glucagon**\n- **Beta (β) cells** (~70% of islet cells): secrete **insulin** and **amylin**",
+   "new": "- **Alpha (α) cells** (roughly 20–40% of islet cells; a larger share in human than in rodent islets): secrete **glucagon**\n- **Beta (β) cells** (roughly 50–70% of islet cells; a smaller share in humans): secrete **insulin** and **amylin**",
+   "reason": "Human islets contain proportionally fewer β cells and more α cells than rodent islets."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The spatial organization matters: β cells occupy the core of the islet, surrounded by α and δ cells at the periphery. Blood flows from the β-cell core outward, so insulin bathing the α cells is one mechanism by which high glucose *suppresses* glucagon release",
+   "new": "The spatial organization matters: in rodent islets, β cells form the core and α and δ cells form an outer mantle, with blood thought to flow from the core outward. Human islets are more intermingled, with many direct α–β cell contacts. In both, insulin and other β-cell products act locally on α cells (paracrine signaling), which is one mechanism by which high glucose *suppresses* glucagon release",
+   "reason": "The classic core–mantle picture describes rodent islets; human islet architecture is more mixed."
+  },
+  {
+   "field": "lesson.content",
+   "old": "PKA phosphorylates and activates **hormone-sensitive lipase (HSL)** and **perilipin**, releasing fatty acids and glycerol from triglycerides.",
+   "new": "In the standard model, PKA phosphorylates and activates **hormone-sensitive lipase (HSL)** and **perilipin**, releasing fatty acids and glycerol from triglycerides. (In humans, adipocytes express few glucagon receptors and physiological glucagon levels have little direct lipolytic effect; fasting lipolysis is driven mainly by falling insulin and by catecholamines acting through the same cAMP–PKA–HSL pathway.)",
+   "reason": "Evidence that glucagon has minor direct effects on human adipocytes at physiological levels."
+  },
+  {
+   "field": "lesson.content",
+   "old": "| GLUT1 | RBCs, brain, placenta, most cells | Constitutive, high affinity (Km ~1 mM) |",
+   "new": "| GLUT1 | RBCs, brain, placenta, most cells | Constitutive, high affinity (Km ~1–3 mM) |",
+   "reason": "Reported GLUT1 Km values range about 1–3 mM (some sources higher)."
+  },
+  {
+   "field": "lesson.content",
+   "old": "| GLUT3 | Neurons | Very high affinity (Km ~0.1 mM); ensures brain glucose uptake |",
+   "new": "| GLUT3 | Neurons | Highest affinity of the main isoforms (Km ~1.4 mM); ensures neuronal glucose uptake |",
+   "reason": "GLUT3's Km is about 1.4 mM, not 0.1 mM."
+  },
+  {
+   "field": "questions.370.explanation",
+   "old": "Choice A reverses the roles of insulin and glucagon, which is the most common error students make when confusing the direction of each hormone's effect.",
+   "new": "Choice A reverses the roles of insulin and glucagon, which is the most common error students make when confusing the direction of each hormone's effect. (This is the standard textbook contrast; in humans, glucagon's direct effect on fat cells is small, and catecholamines plus low insulin drive most fasting lipolysis.)",
+   "reason": "Keeps the expected answer while noting the human-physiology caveat."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Bosco et al. 2010, Unique arrangement of α- and β-cells in human islets (Diabetes, PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2857900"
+  },
+  {
+   "title": "Review: differences between rodent and primate islet structure and function (Diabetologia 2015)",
+   "url": "https://link.springer.com/doi/10.1007/s00125-015-3699-0"
+  },
+  {
+   "title": "Review: properties of the facilitative glucose transporter and SGLT families (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2435356/"
+  },
+  {
+   "title": "The facilitative glucose transporter GLUT3: 20 years of distinction (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2519757"
+  },
+  {
+   "title": "Mini-review: glucagon and lipid metabolism, rodents vs humans (Front Physiol 2019)",
+   "url": "https://www.frontiersin.org/article/10.3389/fphys.2019.00413/full"
+  },
+  {
+   "title": "Pereira et al. 2020, Direct effects of glucagon on glucose uptake and lipolysis in human adipocytes (Mol Cell Endocrinol)",
+   "url": "https://doi.org/10.1016/j.mce.2019.110696"
+  }
+ ],
+ "visual": {
+  "title": "Glucose sensing and the fed–fasted switch",
+  "src": "/lesson-diagrams/insulin-secretion-fed-fasted.svg",
+  "width": 1000,
+  "height": 520,
+  "alt": "Six steps of glucose-stimulated insulin secretion: glucose enters via GLUT2, glucokinase phosphorylates it, ATP/ADP rises, K-ATP channels close and the cell depolarizes, voltage-gated calcium channels open, and insulin with C-peptide is exocytosed. Sulfonylureas close K-ATP channels; diazoxide opens them. Below, insulin acts via a receptor tyrosine kinase, PI3K and Akt to promote storage, while glucagon acts via a Gs-coupled receptor, cAMP and PKA mainly in liver to mobilize glucose and fat.",
+  "caption": "The insulin-to-glucagon ratio, not either hormone alone, sets whether the liver stores or releases fuel.",
+  "beforeHeading": "Insulin Receptor Signaling"
+ }
+}
