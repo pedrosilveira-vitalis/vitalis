@@ -1,0 +1,63 @@
+{
+ "lessonId": 95,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  471,
+  472,
+  473,
+  474,
+  475
+ ],
+ "fingerprint": "45c53e76dfbc6a0fdd0c64bb435aa458349f1aa826213a70651e03c29f783be1",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "The AAMC identifies two main subtypes within this category:",
+   "new": "The AAMC defines this category through two sets of skills: **understanding the basic components of the text** and **inferring meaning or intent from immediate sentence context**. In practice, questions testing them take two familiar shapes:",
+   "reason": "Gives AAMC's actual sub-skill wording rather than attributing prep-industry labels to the AAMC."
+  },
+  {
+   "field": "lesson.content",
+   "old": "### Subtypes Within Reasoning Within the Text\n\nThe AAMC identifies two main subtypes:",
+   "new": "### Subtypes Within Reasoning Within the Text\n\nThe AAMC's two skills here are **integrating distant components of the text to infer an author's message, intent, purpose, belief, position, bias, assumptions** and **recognizing and evaluating arguments and their structural elements (claims, evidence, support, relations)**. These show up as two question shapes:",
+   "reason": "Replaces an unsourced subtype attribution with AAMC's published wording."
+  },
+  {
+   "field": "lesson.content",
+   "old": "### Subtypes Within Reasoning Beyond the Text\n\nThe AAMC identifies two main subtypes:",
+   "new": "### Subtypes Within Reasoning Beyond the Text\n\nThe AAMC's two skills here are **applying or extrapolating ideas from the passage to new contexts** and **assessing the impact of incorporating new factors, information, or conditions on ideas from the passage**. These correspond to two question shapes:",
+   "reason": "Replaces an unsourced subtype attribution with AAMC's published wording."
+  },
+  {
+   "field": "questions.475.question_text",
+   "old": "According to the AAMC CARS framework, which of the following correctly ranks the three question types from least to most complex cognitive demand?",
+   "new": "The three CARS skills are commonly described as nested, each building on the one before it. On that reading, which of the following ranks them from least to most complex cognitive demand?",
+   "reason": "The AAMC publishes the three skills and their percentages but does not publish an explicit complexity ranking; the hierarchy is the standard interpretation of the nested structure."
+  },
+  {
+   "field": "questions.475.explanation",
+   "old": "The AAMC framework is hierarchical:",
+   "new": "The three skills are nested, which is why they are usually presented as a hierarchy:",
+   "reason": "Keeps the explanation consistent with the corrected attribution in the stem."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AAMC: Critical Analysis and Reasoning Skills section outline (skill percentages and sub-skills)",
+   "url": "https://students-residents.aamc.org/media/9266/download"
+  },
+  {
+   "title": "AAMC: Critical Analysis and Reasoning Skills Section Overview",
+   "url": "https://students-residents.aamc.org/whats-mcat-exam/critical-analysis-and-reasoning-skills-section-overview"
+  }
+ ],
+ "visual": {
+  "title": "The three CARS skills",
+  "src": "/lesson-diagrams/cars-question-taxonomy.svg",
+  "width": 1000,
+  "height": 752,
+  "alt": "Three bands, one per AAMC skill. Skill 1, Foundations of Comprehension, 30 percent: AAMC's sub-skills are understanding the basic components of the text and inferring meaning or intent from immediate sentence context; signal stems include the central thesis is, according to the passage, and as used in paragraph 3 X most nearly means; the move is to go back to the text. Skill 2, Reasoning Within the Text, 30 percent: integrating distant components of the text to infer an author's message, intent, purpose, belief, position, bias or assumptions, and recognizing and evaluating arguments and their structural elements; stems include it can be inferred, the author implies, and X is mentioned primarily in order to; the move is to analyse how the argument is built. Skill 3, Reasoning Beyond the Text, 40 percent: applying or extrapolating ideas to new contexts, and assessing the impact of new factors or information on passage ideas; stems include the author would most likely respond, most analogous to, and if true would most strengthen or weaken; the move is to use the passage as a lens on new information. A footer notes that errors cascade upward and that the passage, not prior knowledge, decides the answer.",
+  "caption": "Sub-skill wording is quoted from the AAMC section outline.",
+  "beforeHeading": "Category One: Foundations of Comprehension"
+ }
+}
