@@ -39,5 +39,6 @@ import r36 from "./lesson-102.json";
 import r37 from "./lesson-103.json";
 import r38 from "./lesson-104.json";
 import r39 from "./lesson-105.json";
+import r40 from "./lesson-106.json";
 
-export const patchReviews: PatchReview[] = [r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15, r16, r17, r18, r19, r20, r21, r22, r23, r24, r25, r26, r27, r28, r29, r30, r31, r32, r33, r34, r35, r36, r37, r38, r39];
+export const patchReviews: PatchReview[] = [r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15, r16, r17, r18, r19, r20, r21, r22, r23, r24, r25, r26, r27, r28, r29, r30, r31, r32, r33, r34, r35, r36, r37, r38, r39, r40];

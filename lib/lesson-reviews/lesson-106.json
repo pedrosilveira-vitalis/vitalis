@@ -1,0 +1,76 @@
+{
+ "lessonId": 106,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  526,
+  527,
+  528,
+  529,
+  530
+ ],
+ "fingerprint": "be1bf0c952f94ac23248623b3b0375d478dda624cad9a4b3cfa342b111c71985",
+ "patches": [
+  {
+   "target": "lesson.content",
+   "old": "Unlike science passages, which ask you to evaluate evidence for empirical claims, historical passages ask you to evaluate *arguments about the past*",
+   "new": "Unlike the science passages in the other three sections of the exam, which ask you to evaluate evidence for empirical claims, historical passages ask you to evaluate *arguments about the past*",
+   "reason": "As written this implies CARS also contains science passages. It does not: CARS passages are drawn only from the humanities and the social sciences. Clarified so the contrast is with the other sections, which is what makes the point the sentence is making."
+  },
+  {
+   "target": "lesson.content",
+   "old": "This is one of the most important things to recognize in a MCAT history passage",
+   "new": "This is one of the most important things to recognize in an MCAT history passage",
+   "reason": "Article agreement: MCAT is read as an initialism beginning with a vowel sound."
+  },
+  {
+   "target": "lesson.content",
+   "old": "- **Causal type**: The author argues the plague was not a *necessary* cause; the route shifts were *sufficient* to explain the decline.",
+   "new": "- **Causal type**: The author argues the plague was not a *necessary* cause, since the decline was already under way before it arrived; the route shifts are offered as the *primary* cause, with the plague at most *contributory* — deepening a decline that had other origins. Note what the evidence does and does not show: ledgers and one comparative case can establish that the decline preceded the plague, but they cannot establish that the route shifts would have been *sufficient* on their own.",
+   "reason": "The model analysis claimed the route shifts were a sufficient cause, which contradicts this lesson's own statement a few sections earlier that historians rarely argue a single factor is sufficient because historical causation is almost always multi-factorial. The evidence described (merchant ledgers and one comparative case) establishes priority in time, not sufficiency. Rewritten to use the taxonomy the lesson teaches and to make the evidential limit explicit, since the lesson's next paragraph asks students to judge what would weaken the argument."
+  },
+  {
+   "target": "question.527.question_text",
+   "old": "A passage describes how historians have interpreted the causes of World War I differently across decades. Early 20th-century historians blamed German aggression, while mid-century revisionists emphasized systemic factors like alliance structures and mobilization timetables. What does this pattern of shifting interpretations most directly illustrate?",
+   "new": "A passage traces how historians have explained the origins of the First World War. Accounts written just after the war largely followed the Treaty of Versailles in assigning responsibility to Germany; a revisionist wave through the 1920s and 1930s argued instead for shared responsibility and systemic factors such as alliance structures and mobilization timetables; then in 1961 Fritz Fischer, the first historian with access to the full German archives, swung the debate back toward deliberate German war aims. What does this pattern of shifting interpretations most directly illustrate?",
+   "reason": "The chronology was backwards. The revisionist move toward systemic, shared-responsibility explanations belongs to the 1920s and 1930s (Fay, Barnes, Beard), written in part to discredit the war-guilt clause of the Treaty of Versailles; the mid-century turn ran the other way, when Fritz Fischer's Griff nach der Weltmacht (1961) reopened the case for German responsibility on the strength of archives no previous historian had seen. Corrected so the example is historically accurate. The keyed answer is unchanged, and the question still requires no outside knowledge."
+  },
+  {
+   "target": "question.527.explanation",
+   "old": "The shift from blame-centered to systemic interpretations reflects changes in historiographical context, including post-WWII disillusionment with nationalist narratives and new theoretical frameworks. This illustrates that historians are embedded in their own historical moments, which influences how they frame questions and interpret evidence. Choice A is too dismissive and ignores the methodological and contextual reasons for revision. Choice C goes too far in the direction of relativism, as historians do evaluate evidence rigorously even when interpretations differ.",
+   "new": "Each turn in this debate tracks something outside the evidence as well as something in it. The first accounts took their shape from the Versailles settlement and the reparations attached to its war-guilt clause; the revisionists of the 1920s and 1930s wrote partly in order to undermine that settlement; and Fischer's intervention arrived with archives no one had previously read. Historians are embedded in their own moments, and that shapes which questions they ask and how they read what they find. Choice A is too dismissive, and in this case simply wrong: the later swing came with *more* archival access, not less. Choice C goes too far toward relativism — the debate moved partly because the evidence base genuinely changed, and historians evaluate that evidence rigorously even when their conclusions differ. Choice D mistakes a sequence for a hierarchy; the revisionists of the 1920s were themselves revised.",
+   "reason": "The original explanation rested on the reversed chronology corrected above, attributing the move away from German responsibility to post-war disillusionment when that move predated the Second World War and the mid-century turn ran the other way. Rewritten to match the corrected sequence and to give a reason for eliminating choice D, which the original left unaddressed."
+  },
+  {
+   "target": "question.530.question_text",
+   "old": "Historian B argues that Federal Reserve monetary policy contractually tightened credit and precipitated the collapse.",
+   "new": "Historian B argues that contractionary Federal Reserve monetary policy tightened credit and precipitated the collapse.",
+   "reason": "\"Contractually tightened credit\" is not what was meant; the claim concerns contractionary monetary policy. As printed the sentence does not describe any recognisable position in the debate it refers to."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Historiography of the causes of World War I",
+   "url": "https://en.wikipedia.org/wiki/Historiography_of_the_causes_of_World_War_I",
+   "note": "Sequence of the debate: the war-guilt clause of the Treaty of Versailles; American revisionists of the early 1920s and 1930s (Sidney Bradshaw Fay, Harry Elmer Barnes, Charles Beard) arguing against German responsibility; an interwar settling toward shared responsibility; and Fritz Fischer's Griff nach der Weltmacht (1961), written with the first full access to the surviving German archives, reopening the case for deliberate German war aims."
+  },
+  {
+   "label": "Annika Mombauer, The Origins of the First World War: Controversies and Consensus",
+   "url": "https://www.routledge.com/The-Origins-of-the-First-World-War-Controversies-and-Consensus/Mombauer/p/book/9780582418721",
+   "note": "Standard scholarly survey of the historiography, used here to confirm the ordering of the revisionist and Fischer phases."
+  },
+  {
+   "label": "AAMC — What's on the MCAT Exam? Critical Analysis and Reasoning Skills",
+   "url": "https://students-residents.aamc.org/media/9266/download",
+   "note": "CARS passages come from the humanities and the social sciences only; the science passages the lesson contrasts with belong to the other three sections of the exam."
+  }
+ ],
+ "visual": {
+  "title": "Where the thesis hides, and what kind of cause is being claimed",
+  "src": "/lesson-diagrams/cars-historical-causation.svg",
+  "width": 1040,
+  "height": 688,
+  "alt": "On the left, the five-step template of a historiographical passage — the prevailing view, the problem with it, the revisionary claim (marked as the thesis), the evidence, and the limitations — with a panel warning that mistaking step one for the author's own view is the error the template exists to prevent. On the right, five kinds of cause (proximate, distal, necessary, sufficient, contributory) each worked on the same case: a medieval trade network that began declining a decade before the Black Death arrived.",
+  "caption": "Two things decide most questions on a history passage: where the author's own voice starts, and which of the five kinds of cause is actually being claimed.",
+  "beforeHeading": "## The Structure of Causal Arguments in History"
+ }
+}
