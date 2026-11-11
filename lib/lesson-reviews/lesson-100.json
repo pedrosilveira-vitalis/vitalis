@@ -1,0 +1,125 @@
+{
+ "lessonId": 100,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  496,
+  497,
+  498,
+  499,
+  500
+ ],
+ "fingerprint": "0fcca53bb9ec217a3f8c8802d121a8308eda0d3d78cafccdf7afaa8e8a880f78",
+ "patches": [
+  {
+   "target": "lesson.content",
+   "old": "- \"Which of the following, if true, would most weaken the author's argument?\"",
+   "new": "- \"The author's argument in paragraph 3 rests on which of the following claims made earlier in the passage?\"",
+   "reason": "The stem \"Which of the following, if true, would most weaken...\" was listed as a Reasoning Within the Text signal, but \"if true\" introduces information from outside the passage. The AAMC places that work under Reasoning Beyond the Text (\"Assessing the impact of incorporating new factors, information, or conditions on ideas from the passage\"), and this course's own lesson 99 teaches that \"if true\" is essentially diagnostic for RBT. Replaced with a stem that is genuinely RWT: it asks how one part of the passage supports another."
+  },
+  {
+   "target": "lesson.content",
+   "old": "- **For strengthen/weaken questions**: Eliminate choices that are *irrelevant* to the specific claim being evaluated. An answer that affects a different part of the argument than the one targeted is wrong. Also eliminate choices that go in the wrong direction (strengthen vs. weaken).",
+   "new": "- **For questions about how well the passage's own evidence supports a claim**: Eliminate choices that are *irrelevant* to the specific claim being evaluated. An answer that bears on a different part of the argument than the one targeted is wrong. Also eliminate choices that go in the wrong direction. (Strengthen and weaken questions that open with \"if true\" are a different animal: \"if true\" supplies information from outside the passage, which makes them Reasoning Beyond the Text — see Attack Plan Three.)",
+   "reason": "Same correction as above, applied to the elimination step so the lesson does not file \"if true\" strengthen/weaken questions under RWT in two places. The genuine RWT version of this work — judging how well evidence already in the passage supports a claim — is preserved."
+  },
+  {
+   "target": "lesson.content",
+   "old": "- **FoC questions**: 1–2 minutes. You are retrieving and verifying. If you have a good passage map, these should be relatively efficient.\n- **RWT questions**: 2–3 minutes. Analyzing argumentative structure takes more time, especially for strengthen/weaken and assumption questions.\n- **RBT questions**: 2–3 minutes. Applying the passage framework to new material requires careful reading of the question stem and thoughtful elimination.",
+   "new": "- **FoC questions**: roughly 45–60 seconds. You are retrieving and verifying. If you have a good passage map, these should be relatively efficient.\n- **RWT questions**: roughly 60–90 seconds. Analyzing argumentative structure takes longer, especially for assumption questions.\n- **RBT questions**: roughly 60–90 seconds. Applying the passage framework to new material requires careful reading of the question stem and thoughtful elimination.\n\nThese numbers have to fit the real budget. CARS gives you 90 minutes for 9 passage sets, about 10 minutes per set. Spend roughly 4 of those minutes reading, and about 6 minutes remain for 5–7 questions — an average near 60 seconds each. Any per-question target longer than about 90 seconds cannot survive a full section.",
+   "reason": "The stated 1–2 and 2–3 minute targets are arithmetically impossible. CARS allots 90 minutes for 9 passage sets of 5–7 questions (53 questions total), about 10 minutes per set; after reading, roughly 6 minutes remain for 5–7 questions, i.e. about 60 seconds each. At 2–3 minutes per question a single set would need 10–21 minutes for the questions alone. Revised to targets that fit the section and match the pacing taught in lessons 89 and 94."
+  },
+  {
+   "target": "lesson.content",
+   "old": "If you find yourself spending more than 3 minutes on any single question, apply the **triage rule**",
+   "new": "If you find yourself spending more than about 90 seconds on any single question, apply the **triage rule**",
+   "reason": "A 3-minute trigger is far past the point of no return in a 90-minute, 53-question section, and it contradicts the triage threshold taught earlier in this course. Aligned to the ~90-second rule."
+  },
+  {
+   "target": "question.496.question_text",
+   "old": "A student is working through a Discrete (standalone) question on the MCAT that asks about the mechanism of competitive inhibition. According to a strategic attack plan tailored to question type, which approach is MOST appropriate?",
+   "new": "A student has drilled strategies for discrete (standalone) questions, which come with no passage and are answered from content knowledge. How do those strategies apply in the CARS section?",
+   "reason": "The original question was not a CARS question at all: it asked about competitive inhibition, a biochemistry topic, and assumed CARS contains discrete questions. The AAMC specifies that all 53 CARS questions are passage-based, and CARS passages are drawn only from the humanities and social sciences. Rewritten so the question tests a true and useful fact about the section while keeping the original theme of matching strategy to question type."
+  },
+  {
+   "target": "question.496.choice_a",
+   "old": "Skim the surrounding passage context before answering to ensure no hidden details are missed.",
+   "new": "They apply to the roughly fifteen CARS questions that stand alone rather than belonging to a passage set.",
+   "reason": "Rewritten to fit the corrected stem."
+  },
+  {
+   "target": "question.496.choice_b",
+   "old": "Rely primarily on content knowledge and eliminate answers that contradict established biochemistry principles without referencing a passage.",
+   "new": "They do not apply: every CARS question belongs to a passage set, so the answer has to be grounded in that passage rather than in outside knowledge.",
+   "reason": "Rewritten to fit the corrected stem. B remains the keyed answer."
+  },
+  {
+   "target": "question.496.choice_c",
+   "old": "Identify the author's argument in the passage and use it to anchor the correct answer.",
+   "new": "They apply whenever a CARS passage happens to cover a subject the student has already studied formally.",
+   "reason": "Rewritten to fit the corrected stem."
+  },
+  {
+   "target": "question.496.choice_d",
+   "old": "Use the process of elimination based solely on answer length and specificity.",
+   "new": "They apply to vocabulary-in-context questions, which test the student's general vocabulary rather than the passage.",
+   "reason": "Rewritten to fit the corrected stem."
+  },
+  {
+   "target": "question.496.explanation",
+   "old": "Discrete questions have no associated passage, so the correct strategy is to draw on content knowledge and apply elimination logic based on scientific accuracy. There is no passage to reference, making choices A and C inapplicable. Choice D is a poor test-taking heuristic that does not reflect AAMC strategy. The key distinction is recognizing that discrete questions demand pure content recall and application, not passage engagement.",
+   "new": "The three science sections mix discrete questions in among their passage sets, but CARS does not: the AAMC specifies that all 53 CARS questions are passage-based. There is never a CARS question to answer from content knowledge, so the discrete-question habit of reasoning from what you already know has no place here. Choice A invents a block of standalone CARS questions that does not exist. Choice C is tempting, because familiarity with a topic genuinely does make a passage easier to read — but it never licenses answering from prior knowledge. The passage remains the only authority, and students who know the field often lose points by importing claims the author never made. Choice D misdescribes vocabulary-in-context questions, which ask what a word means as this author uses it in this sentence, not what it means in general.",
+   "reason": "Rewritten to fit the corrected stem and to state the section fact accurately."
+  },
+  {
+   "target": "question.497.question_text",
+   "old": "When attacking a Reasoning Within the Text question, a student must determine what the passage explicitly states or implies. Which verification method BEST aligns with the strategic approach for this question type?",
+   "new": "When attacking a Reasoning Within the Text question — one asking how a part of the passage functions within the author's argument — which verification method BEST aligns with the strategic approach for this question type?",
+   "reason": "Determining what a passage explicitly states or implies is the AAMC's description of Foundations of Comprehension, not Reasoning Within the Text. RWT covers integrating distant parts of the text and evaluating arguments and their structural elements. The original stem therefore contradicted this lesson's own description of Attack Plan Two."
+  },
+  {
+   "target": "question.497.choice_c",
+   "old": "Return to the specific passage location referenced by the question and confirm the answer is directly supported by the text.",
+   "new": "Return to the passage location the question references and confirm that the answer describes the role that element plays in the argument, not merely what it says.",
+   "reason": "The original keyed answer described the Foundations of Comprehension verification step. Corrected so the keyed answer matches the question type it is supposed to be testing."
+  },
+  {
+   "target": "question.497.explanation",
+   "old": "Reasoning Within the Text questions require evidence anchored in the passage itself. The verification step involves returning to the relevant passage section to confirm textual support for the chosen answer. Choice A is incorrect because outside knowledge should not override passage content for this question type. Choice D describes a strategy better suited to main idea questions, not targeted reasoning questions. Grounding the answer in specific passage evidence is the defining feature of this attack strategy.",
+   "new": "Reasoning Within the Text questions are about architecture: what a sentence, example, or paragraph *does* for the author's case. The verification step is therefore to go back to the referenced material and check that the chosen answer names its function correctly — illustrating a claim, conceding a point, raising an objection the author then answers. Confirming only that the passage *says* the thing is the verification step for a Foundations of Comprehension question, and it will pass an answer that reports the content accurately while assigning it the wrong role. Choice A is incorrect because outside knowledge never overrides the passage. Choice B rewards sophistication over support. Choice D describes a strategy suited to main idea questions, not to questions about how one part of a passage relates to another.",
+   "reason": "Rewritten to match the corrected stem and keyed answer, and to stop describing Foundations of Comprehension work as the defining feature of Reasoning Within the Text."
+  },
+  {
+   "target": "question.500.choice_c",
+   "old": "Reasoning Within the Text demands precise location of specific textual evidence, while Reasoning Beyond the Text demands understanding of the passage's underlying principles to apply them outward.",
+   "new": "Reasoning Within the Text demands tracing how specific parts of the passage relate to one another, while Reasoning Beyond the Text demands understanding the passage's underlying principles well enough to apply them outward.",
+   "reason": "Same conflation as in question 497: locating specific textual evidence is Foundations of Comprehension. Reasoning Within the Text is about integrating parts of the text and evaluating the argument's structure. Corrected so the keyed answer does not teach the wrong definition."
+  },
+  {
+   "target": "question.500.explanation",
+   "old": "The cognitive tasks differ fundamentally: Reasoning Within the Text requires pinpointing specific textual support, so engagement is precise and localized. Reasoning Beyond the Text requires grasping the conceptual framework of the passage to extend it to a new context, so engagement is more principle-focused. Choice A mischaracterizes the task as memorization. Choice B incorrectly treats all question types as identical. Choice D is wrong because the passage principles remain essential for Reasoning Beyond the Text questions.",
+   "new": "The cognitive tasks differ fundamentally: Reasoning Within the Text requires working out how the passage's parts fit together — which claim an example supports, how one paragraph answers another — so engagement is precise and localized. Reasoning Beyond the Text requires grasping the conceptual framework of the passage to extend it to a new context, so engagement is more principle-focused. Choice A mischaracterizes the task as memorization. Choice B incorrectly treats the two types as calling for identical engagement; it is true that every CARS question is passage-based, but that does not make the engagement identical. Choice D is wrong because the passage's principles remain essential for Reasoning Beyond the Text questions.",
+   "reason": "Rewritten to match the corrected choice C, and to clean up the justification for choice B, which had been resting on the claim that all MCAT questions are passage-based — true of CARS, but not of the three science sections."
+  }
+ ],
+ "sources": [
+  {
+   "label": "AAMC — What's on the MCAT Exam? Critical Analysis and Reasoning Skills",
+   "url": "https://students-residents.aamc.org/media/9266/download",
+   "note": "Official sub-skill definitions. Foundations of Comprehension: understanding the basic components of the text; inferring meaning or intent from immediate sentence context. Reasoning Within the Text: integrating distant components of the text to infer the author's message, intent, purpose, belief, position, bias or assumptions; recognising and evaluating arguments and their structural elements. Reasoning Beyond the Text: applying or extrapolating ideas from the passage to new contexts; assessing the impact of incorporating new factors, information or conditions on ideas from the passage."
+  },
+  {
+   "label": "AAMC — MCAT exam section structure and timing",
+   "url": "https://students-residents.aamc.org/mcat-exam/whats-mcat-exam",
+   "note": "CARS: 53 questions in 90 minutes, 9 passage sets of 5–7 questions, all questions passage-based; passage content drawn from the humanities and social sciences only. The three science sections, by contrast, include discrete (standalone) questions."
+  }
+ ],
+ "visual": {
+  "title": "Three attack plans, one per question type",
+  "src": "/lesson-diagrams/cars-attack-plans.svg",
+  "width": 1000,
+  "height": 680,
+  "alt": "Three columns comparing the attack plans for Foundations of Comprehension, Reasoning Within the Text and Reasoning Beyond the Text. Each column states where the answer comes from, lists five steps from classifying the stem through to verification, and gives a one-line verification question. A footer gives the timing that fits a real section.",
+  "caption": "The five moves are the same every time; what changes is where the answer is allowed to come from — and that is what the verification question checks.",
+  "beforeHeading": "## Attack Plan One: Foundations of Comprehension"
+ }
+}
