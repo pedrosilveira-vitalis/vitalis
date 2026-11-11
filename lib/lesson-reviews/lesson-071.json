@@ -1,0 +1,71 @@
+{
+ "lessonId": 71,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  351,
+  352,
+  353,
+  354,
+  355
+ ],
+ "fingerprint": "dd41b439dbe25f4736273bb86b9dbfe7e0a5e63c43a26aa74e0ec0015476ead7",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "### Clinical Relevance: The Hypoxic Drive\n\nIn patients with chronic respiratory acidosis (e.g., COPD with chronic CO2 retention), the central chemoreceptors become desensitized to chronically elevated PCO2. These patients rely on the **hypoxic drive** — the peripheral chemoreceptor response to low PO2 — as their primary ventilatory stimulus. Administering high-flow oxygen to such patients can eliminate this hypoxic drive and cause dangerous hypoventilation. This is a classic MCAT clinical reasoning scenario.",
+   "new": "### Clinical Relevance: Oxygen-Induced Hypercapnia\n\nIn patients with chronic CO2 retention (e.g., severe COPD), the central chemoreceptor response to CO2 is blunted, partly because renal bicarbonate retention buffers CSF pH. Giving these patients high-flow oxygen can raise PaCO2. The classic explanation is loss of the \"**hypoxic drive**\" (the peripheral chemoreceptor response to low PO2), but studies show that reduced ventilation explains only a small part of the rise. Most of it comes from **worsened V/Q matching** (oxygen releases hypoxic pulmonary vasoconstriction, increasing dead space) and the **Haldane effect** (oxygenated hemoglobin holds less CO2). The practical lesson is to titrate oxygen to a target saturation (often 88–92%) rather than to withhold it.",
+   "reason": "Research cited by Abdo & Heunks shows the 'hypoxic drive' mechanism is a minor contributor; V/Q mismatch and the Haldane effect dominate."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- COPD patients may rely on hypoxic drive; supplemental O2 can suppress ventilation in these patients",
+   "new": "- In CO2-retaining COPD patients, uncontrolled O2 can raise PaCO2, mainly through worsened V/Q matching and the Haldane effect (loss of \"hypoxic drive\" plays a smaller role); titrate O2 to target saturation",
+   "reason": "Summary consistent with the corrected section."
+  },
+  {
+   "field": "questions.354.question_text",
+   "old": "Arterial blood gases show pH 7.22, PaCO2 72 mmHg, HCO3- 23 mEq/L.",
+   "new": "Arterial blood gases show pH 7.26, PaCO2 60 mmHg, HCO3- 26 mEq/L.",
+   "reason": "The original values were internally inconsistent: by Henderson-Hasselbalch, PaCO2 72 and HCO3- 23 give pH ≈ 7.13, not 7.22. The new values fit an uncomplicated acute respiratory acidosis."
+  },
+  {
+   "field": "questions.354.explanation",
+   "old": "In the acute phase, bicarbonate is near normal because the kidneys have not yet had time to retain additional HCO3-.",
+   "new": "In the acute phase, bicarbonate is near normal because the kidneys have not yet had time to retain additional HCO3-; the small acute rise (about 1 mEq/L per 10 mmHg of PaCO2, here 24 → 26) comes from buffering by hemoglobin and other cell proteins.",
+   "reason": "Explains the small acute bicarbonate rise with the new values."
+  },
+  {
+   "field": "questions.355.explanation",
+   "old": "The body compensates through respiratory alkalosis: peripheral chemoreceptors (carotid and aortic bodies) detect the low pH and signal the respiratory center to increase the rate and depth of breathing.",
+   "new": "The body compensates by hyperventilating: peripheral chemoreceptors (carotid and aortic bodies) detect the low pH and signal the respiratory center to increase the rate and depth of breathing. Winter's formula predicts PaCO2 = 1.5 × 8 + 8 = 20 ± 2 mmHg, so the measured 22 mmHg is appropriate compensation.",
+   "reason": "Compensatory hyperventilation in an acidemic patient is not 'respiratory alkalosis' (pH is still low); adds the Winter's check."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Abdo & Heunks 2012, Oxygen-induced hypercapnia in COPD: myths and facts (Crit Care, PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3682248/"
+  },
+  {
+   "title": "Sarkar et al. 2023, Oxygen-induced hypercapnia: physiological mechanisms (Monaldi Arch Chest Dis)",
+   "url": "https://www.monaldi-archives.org/macd/article/view/2399"
+  },
+  {
+   "title": "StatPearls: Physiology, Oxygen Transport",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK538336/"
+  },
+  {
+   "title": "Bird et al. 2021, Ventilatory and renal acid-base acclimatization (J Appl Physiol, PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11025293"
+  }
+ ],
+ "visual": {
+  "title": "CO₂ carriage and acid–base patterns",
+  "src": "/lesson-diagrams/co2-transport-acid-base.svg",
+  "width": 1000,
+  "height": 650,
+  "alt": "CO2 from tissue enters a red blood cell; carbonic anhydrase forms carbonic acid, which splits into H+ and bicarbonate. Bicarbonate exits through band 3 in exchange for chloride, carrying about 70 percent of CO2; H+ is buffered by deoxyhemoglobin; carbaminohemoglobin carries about 20 to 23 percent and dissolved CO2 about 7 to 10 percent. A table lists the four primary acid-base disorders with their primary change and compensation.",
+  "caption": "At the lungs every arrow reverses. Compensation moves PCO₂ and HCO₃⁻ in the same direction as the primary change.",
+  "beforeHeading": "The Bicarbonate Buffer System"
+ }
+}
