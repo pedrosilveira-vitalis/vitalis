@@ -1,0 +1,51 @@
+{
+ "lessonId": 97,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  481,
+  482,
+  483,
+  484,
+  485
+ ],
+ "fingerprint": "f783fcb2daaccea5153e8727405080d8b9e24cd99683ad59433a37dfa2a888f0",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Reasoning Within the Text questions account for roughly 30-35% of CARS questions on the MCAT.",
+   "new": "Reasoning Within the Text questions account for 30% of CARS questions — about 16 of the 53.",
+   "reason": "AAMC specifies 30%; the 35% upper bound is not supported."
+  },
+  {
+   "field": "lesson.content",
+   "old": "As you read each CARS passage, mentally (or on your scratch paper) track:",
+   "new": "As you read each CARS passage, track (mentally, or on the noteboard booklet the test center provides):",
+   "reason": "The MCAT supplies a wet-erase noteboard booklet; personal scratch paper is not permitted."
+  },
+  {
+   "field": "questions.482.question_text",
+   "old": "'Cities that have invested heavily in public transit have seen reductions in traffic congestion. Therefore, expanding public transit is the most effective strategy for reducing congestion.'",
+   "new": "'Cities that have invested heavily in public transit have seen reductions in traffic congestion. Therefore, expanding public transit reduces congestion.'",
+   "reason": "The original conclusion claimed transit was the MOST effective strategy, a comparative leap the answer key did not cover — and one this lesson's own \"Too Strong\" section flags. Narrowing the conclusion makes the correlation-causation flaw the clear answer."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AAMC: CARS section outline (Reasoning Within the Text, 30%)",
+   "url": "https://students-residents.aamc.org/media/9266/download"
+  },
+  {
+   "title": "AAMC: Check-In Rules and Procedures (noteboard booklet)",
+   "url": "https://students-residents.aamc.org/book/export/html/16956"
+  }
+ ],
+ "visual": {
+  "title": "Assumptions and functions",
+  "src": "/lesson-diagrams/cars-rwt-assumptions-functions.svg",
+  "width": 1000,
+  "height": 700,
+  "alt": "Left, five kinds of unstated assumption: causal, assuming A causes B when the evidence only shows co-occurrence; representativeness, one case standing for the whole; definitional, a contested term treated as settled; continuity, assuming what held before keeps holding; and value, one priority assumed to outweigh another. Below, the negation test: negate the candidate assumption, and if the argument collapses it is a real assumption. Right, the function taxonomy for why an element appears: support or illustration, concession or counterargument, qualification, contrast, analogy, transition, and establishing stakes. Below that, four traps: too strong, stated rather than assumed, out of scope, and distortion. A footer notes Reasoning Within the Text is about 30 percent of CARS and that function answers must name the element's role, not its subject.",
+  "caption": "An assumption is what the argument needs but never says.",
+  "beforeHeading": "Implicit Assumptions: How to Find Them"
+ }
+}
