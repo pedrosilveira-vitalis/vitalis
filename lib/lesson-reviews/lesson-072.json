@@ -1,0 +1,65 @@
+{
+ "lessonId": 72,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  356,
+  357,
+  358,
+  359,
+  360
+ ],
+ "fingerprint": "b7b6da61c55c8a96041cf01aa2aaa8eb2f6b47a794f83e6a7ea275d801a90440",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "As solutes are reabsorbed, the luminal fluid becomes hypoosmotic, and water follows through **aquaporin-1 (AQP1)** channels on both apical and basolateral membranes.",
+   "new": "As solutes are reabsorbed, a very small osmotic gradient develops and water follows through **aquaporin-1 (AQP1)** channels on both apical and basolateral membranes, so the tubular fluid stays essentially isosmotic with plasma (~300 mOsm/kg) along the whole PCT.",
+   "reason": "Proximal reabsorption is isosmotic; luminal fluid does not become meaningfully hypoosmotic."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Renal compensation for respiratory disorders takes 2–5 days to reach maximum effect, in contrast to the near-instantaneous respiratory compensation for metabolic disorders.",
+   "new": "Renal compensation for respiratory disorders takes about 2–5 days to reach maximum effect. Respiratory compensation for metabolic disorders is much faster: it begins within minutes, though it can take 12–24 hours to become maximal.",
+   "reason": "Respiratory compensation is fast but not instantaneous; maximal compensation takes 12–24 hours."
+  },
+  {
+   "field": "questions.357.question_text",
+   "old": "A patient with uncontrolled diabetes mellitus presents with glucosuria despite normal blood glucose levels being only mildly elevated. Which mechanism best explains why glucose appears in the urine?",
+   "new": "A patient with uncontrolled diabetes mellitus has a plasma glucose of 300 mg/dL and glucose in the urine. Which mechanism best explains why glucose appears in the urine?",
+   "reason": "The original stem was self-contradictory ('normal' and 'mildly elevated')."
+  },
+  {
+   "field": "questions.360.explanation",
+   "old": "Choice A is tempting if students incorrectly divide by the urine concentration rather than the plasma concentration. Choice C would result if students used only the urine concentration without the flow rate and plasma concentration ratio. Clearance calculations require all three variables.",
+   "new": "Choice C (150) comes from multiplying U by V but forgetting to divide by P. Choice D (300) comes from multiplying by P instead of dividing. Choice A does not follow from the clearance formula. Clearance calculations require all three variables.",
+   "reason": "The original explanations of the wrong choices did not match their numbers."
+  }
+ ],
+ "sources": [
+  {
+   "title": "StatPearls: Physiology, Renal (proximal tubule reabsorption is isotonic)",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK554411/"
+  },
+  {
+   "title": "Brandis, Acid-base Physiology (LibreTexts): Compensation for metabolic acidosis",
+   "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Book%3A_Acid-base_Physiology_(Brandis)/05%3A_Metabolic_Acidosis/5.05%3A_Compensation"
+  },
+  {
+   "title": "Larsen & Sørensen 2020, Isosmotic transport in the proximal tubule (Function, PMC)",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8788719/"
+  },
+  {
+   "title": "Britannica: Human renal system, tubule function",
+   "url": "https://www.britannica.com/science/human-renal-system/Tubule-function"
+  }
+ ],
+ "visual": {
+  "title": "The nephron, segment by segment",
+  "src": "/lesson-diagrams/nephron-segment-functions.svg",
+  "width": 1100,
+  "height": 640,
+  "alt": "Five panels in sequence. Proximal tubule: about 65 percent of sodium and water, NHE3 and SGLT2, always water permeable, targeted by acetazolamide and SGLT2 inhibitors. Thin descending limb: water only via AQP1. Thick ascending limb: about 25 percent of sodium via NKCC2, never water permeable, targeted by loop diuretics. Distal tubule: about 5 percent via NCC with PTH-regulated calcium reabsorption, water impermeable, targeted by thiazides. Collecting duct: 2 to 5 percent via ENaC under aldosterone, water only with ADH via AQP2, targeted by spironolactone and amiloride. A note traces tubular fluid osmolality.",
+  "caption": "Typical textbook shares; they shift with volume status and hormones.",
+  "beforeHeading": "Tubular Secretion"
+ }
+}
