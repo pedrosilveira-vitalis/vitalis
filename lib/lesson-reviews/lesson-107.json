@@ -1,0 +1,70 @@
+{
+ "lessonId": 107,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  531,
+  532,
+  533,
+  534,
+  535
+ ],
+ "fingerprint": "843a91d81bfc2e764e56d0c3f55a26fbbab436c3717892855b19553db557c279",
+ "patches": [
+  {
+   "target": "lesson.content",
+   "old": "A behavioral economics passage might argue that this prediction fails because workers are not purely rational actors and because labor markets are not perfectly competitive.",
+   "new": "A behavioral economics passage might argue that this prediction fails because workers and employers are not the purely rational actors the model assumes. A different critique, from mainstream labor economics rather than behavioral economics, argues that the prediction fails because labor markets are often not competitive: where a few employers dominate local hiring, wages already sit below the competitive level, and a floor can raise pay without cutting jobs.",
+   "reason": "Imperfect competition in labor markets — the monopsony argument — is not a behavioral economics claim. It belongs to standard labor economics and assumes fully rational agents; it is the market structure, not the psychology, that is doing the work. Attributing it to behavioral economics would mislead a student asked to identify which framework an author is reasoning inside, which is exactly the skill this section teaches. The two critiques are now named separately."
+  },
+  {
+   "target": "lesson.content",
+   "old": "A strong answer would be: \"In countries where income inequality decreased while average income rose, well-being increased proportionally.\" This would weaken the relative income hypothesis by showing that when people *do* rise relative to others (or at least maintain their relative position), income growth *does* predict well-being.",
+   "new": "A strong answer would be: \"In countries where average income rose with no change at all in its distribution — so that no one's position relative to anyone else shifted — average well-being nevertheless rose in step.\" That is the case the relative income hypothesis says cannot happen: if well-being tracks relative standing, a rise that leaves every relative position untouched should produce no gain at all. Note why a near-miss answer fails. \"Inequality fell while average income rose, and well-being increased\" would *support* the hypothesis rather than weaken it, since falling inequality means people at the bottom did improve their relative position — exactly the condition under which the hypothesis predicts well-being should rise.",
+   "reason": "The weakener offered did not weaken the argument; it supported it. If inequality decreases while average income rises, those lower down have gained in relative standing, which is precisely what the relative income hypothesis says should raise well-being. The accompanying gloss made the error explicit by adding \"or at least maintain their relative position\" — on this hypothesis, maintaining relative position should produce no gain. Replaced with a case that genuinely contradicts the hypothesis, and the original answer is kept as a worked example of the near-miss, since mistaking a strengthener for a weakener is a common and costly error."
+  },
+  {
+   "target": "question.531.explanation",
+   "old": "Choice B is tempting but confounds variables are not introduced to strengthen evidence; they complicate it.",
+   "new": "Choice B is tempting, but confounding variables are not introduced in order to strengthen evidence; they complicate it.",
+   "reason": "\"Confounds variables\" is not a phrase; the term is confounding variables."
+  },
+  {
+   "target": "question.533.question_text",
+   "old": "A psychology passage describes attachment theory, then presents longitudinal data showing that securely attached infants had better adult relationship outcomes. An anthropology passage in the same set describes cultures where communal child-rearing produces adults with strong social bonds despite low rates of exclusive caregiver attachment. What is the most accurate characterization of how these two passages relate?",
+   "new": "A passage describes attachment theory and presents longitudinal data showing that securely attached infants had better adult relationship outcomes. It then turns to ethnographic work on cultures where communal child-rearing produces adults with strong social bonds despite low rates of exclusive caregiver attachment. What is the most accurate characterization of how these two bodies of evidence relate?",
+   "reason": "The question asked about an anthropology passage \"in the same set\" as a psychology passage, but each CARS passage set contains exactly one passage; no CARS question asks a student to relate two passages to each other. Rewritten as a single passage that draws on both bodies of evidence, which is a real and common structure (and one this lesson describes in its section on interdisciplinary passages). The skill tested and the keyed answer are unchanged."
+  },
+  {
+   "target": "question.533.explanation",
+   "old": "Different disciplinary perspectives often illuminate the same phenomenon from different angles, sometimes producing complementary insights and sometimes creating tension between explanations. The anthropological data complicates but does not necessarily invalidate attachment theory, as it may suggest cultural variation in how attachment functions. Choice A is too extreme; cross-cultural data often refines rather than destroys psychological theories. Choice D is incorrect because both passages contain theoretical and empirical elements.",
+   "new": "Different disciplinary perspectives often illuminate the same phenomenon from different angles, sometimes producing complementary insights and sometimes creating tension between explanations. The ethnographic evidence complicates but does not necessarily invalidate attachment theory, since it may indicate cultural variation in how attachment is organised rather than the absence of attachment. Choice A is too extreme; cross-cultural evidence usually refines a psychological theory rather than destroying it. Choice D is incorrect because both bodies of evidence are presented with theoretical framing.",
+   "reason": "Aligned with the corrected stem, which no longer refers to two separate passages."
+  }
+ ],
+ "sources": [
+  {
+   "label": "AAMC — What's on the MCAT Exam? Critical Analysis and Reasoning Skills",
+   "url": "https://students-residents.aamc.org/media/9266/download",
+   "note": "CARS consists of nine passage sets, each built around a single passage with five to seven questions; no question asks students to compare two passages, which is why the cross-passage framing in question 533 could not occur."
+  },
+  {
+   "label": "Card, D. and Krueger, A. B., \"Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania\", American Economic Review 84(4), 1994",
+   "url": "https://www.jstor.org/stable/2118030",
+   "note": "The imperfect-competition (monopsony) critique of the simple competitive prediction about minimum wages is a mainstream labor-economics argument about market structure, not a behavioral claim about departures from rationality."
+  },
+  {
+   "label": "Easterlin, R. A., \"Does Economic Growth Improve the Human Lot?\", 1974, and subsequent debate",
+   "url": "https://www.sciencedirect.com/science/article/pii/B9780122050503500087",
+   "note": "The relative income hypothesis holds that well-being tracks standing relative to others. A rise in average income that leaves every relative position unchanged should therefore produce no gain in average well-being — which is why the corrected weakener, and not the original, is the case the hypothesis rules out."
+  }
+ ],
+ "visual": {
+  "title": "The warrant is the soft spot",
+  "src": "/lesson-diagrams/cars-claim-evidence-warrant.svg",
+  "width": 1040,
+  "height": 730,
+  "alt": "On the left, a three-part stack: the evidence at the bottom (lower-income children score lower on standardised tests), the warrant in the middle (that the tests measure familiarity with dominant-class norms rather than innate ability), labelled as unstated and as where weaken questions aim, and the claim at the top (cultural capital shapes educational outcomes). A panel explains how to supply the warrant yourself. On the right, four discipline cards — sociology, economics, psychology, anthropology — each giving its level of analysis, its usual evidence and its characteristic move, with a footer on scope.",
+  "caption": "The claim and the evidence are both printed. The assumption joining them usually is not — so say it out loud yourself, because that sentence is what the answer choices are built to attack.",
+  "beforeHeading": "## How Authors Move Between Theory and Evidence"
+ }
+}
