@@ -1,0 +1,35 @@
+{
+ "lessonId": 91,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  451,
+  452,
+  453,
+  454,
+  455
+ ],
+ "fingerprint": "f420a7ccedb123f6c55ff0f29795449be47728b08d474c48dd10298c40ce9ded",
+ "patches": [
+  {
+   "field": "questions.453.explanation",
+   "old": "establishes a deliberately cautious epistemic tone that cannot logically support calls for immediate policy action.",
+   "new": "establishes a deliberately cautious epistemic tone that does not by itself support calls for immediate policy action.",
+   "reason": "Preliminary evidence can sometimes justify precautionary action; the point here is the mismatch in this passage, not a universal rule."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AAMC: Critical Analysis and Reasoning Skills Section Overview (skills tested)",
+   "url": "https://students-residents.aamc.org/whats-mcat-exam/critical-analysis-and-reasoning-skills-section-overview"
+  }
+ ],
+ "visual": {
+  "title": "Three signals of author voice",
+  "src": "/lesson-diagrams/cars-author-voice.svg",
+  "width": 1000,
+  "height": 660,
+  "alt": "Three panels. First, pairs of words with the same factual content but different judgment: implemented versus imposed, argue versus complain, change versus disrupt, sought versus demanded, careful versus timid. Second, a ladder of claim strength from weakest at the bottom to strongest at the top: attribution phrases, epistemic adverbs, modal verbs, limiting phrases, and a flat unhedged assertion, with a warning that wrong answers move the author one rung up or down. Third, how to tell the author's own voice (evaluative words with no source attached, the thesis and conclusion, the framing of a concession, any first person) from a reported voice (according to X, X argues that, proponents claim, critics contend), with a reminder that describing an opposing view generously is not endorsing it.",
+  "caption": "Tone lives in word choice; certainty lives in hedging; attribution tells you whose view it is.",
+  "beforeHeading": "Hedging Language and What It Reveals"
+ }
+}
