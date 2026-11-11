@@ -1,0 +1,47 @@
+{
+ "lessonId": 105,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  521,
+  522,
+  523,
+  524,
+  525
+ ],
+ "fingerprint": "0b0b9c2bdf1256e0cbb710bd88ff3854268a14c45ea90cbbaaab98d4ed7f07b3",
+ "patches": [
+  {
+   "target": "lesson.content",
+   "old": "If a critic argues that a novelist's use of free indirect discourse creates an ironic distance between narrator and character, then a passage where the narrator's voice is clearly distinct from the character's perspective would *support* that claim.",
+   "new": "If a critic argues that a novelist's use of free indirect discourse creates an ironic distance between narrator and character, then a passage in which the narration takes on the character's own idiom and self-justifications while the surrounding text quietly exposes their error would *support* that claim. A passage in which the narrator's voice stays plainly separate from the character's would not support it — that is not free indirect discourse at all, and the irony would have to come from somewhere else.",
+   "reason": "The example contradicted this lesson's own definition of free indirect discourse, given a few paragraphs later as a technique in which the narrator's voice *blends* with the character's thoughts without explicit attribution. Ironic distance in free indirect discourse arises precisely because the two voices are fused yet subtly at odds; a narration plainly separate from the character's perspective is not free indirect discourse, so it could not evidence a claim about it. Replaced with an example that fits the definition."
+  },
+  {
+   "target": "question.523.explanation",
+   "old": "Choice B is tempting because it sounds empirical, but evidence in literary criticism requires interpretive framing to yield meaning.",
+   "new": "Choice B is tempting because it sounds empirical, but evidence in literary criticism requires interpretive framing to yield meaning. Note what choice C does not say: that every reading is as good as every other. Critics judge interpretations by how much of the text they account for, how consistent they are, and how well the close reading holds up — so two readings can both be legitimate while one is still better supported than the other.",
+   "reason": "Without this, the keyed answer invites the conclusion that interpretation is unconstrained, which is the misreading this lesson warns against in its section on aesthetic pluralism (\"this does not mean that all interpretations are equally valid\"). The added sentences keep the question's point while closing that gap."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Oxford Research Encyclopedia of Literature — Free Indirect Discourse",
+   "url": "https://oxfordre.com/literature/display/10.1093/acrefore/9780190201098.001.0001/acrefore-9780190201098-e-1037",
+   "note": "Free indirect discourse is defined by the merging of narratorial and figural voice: the narration adopts the character's idiom, deixis and evaluative stance without quotation or attribution. The ironic effect studied in Austen, Flaubert and others depends on that fusion, not on separation of the two voices."
+  },
+  {
+   "label": "AAMC — What's on the MCAT Exam? Critical Analysis and Reasoning Skills",
+   "url": "https://students-residents.aamc.org/media/9266/download",
+   "note": "CARS passages are drawn from the humanities and the social sciences and require no outside subject knowledge, which is why the lesson's framing — read the critic's argument rather than the literary work — is the right one."
+  }
+ ],
+ "visual": {
+  "title": "Literary criticism is an argument about an argument",
+  "src": "/lesson-diagrams/cars-literary-criticism-layers.svg",
+  "width": 1020,
+  "height": 614,
+  "alt": "On the left, three stacked layers: the text at the bottom, which you only ever see in quotation; the critic's interpretation above it, which is the thesis; and your job at the top, which is to judge whether the argument works on its own terms rather than whether the reading is right. On the right, the three-step chain strong criticism uses — identify a textual feature, describe what it does, argue that this produces the claimed meaning — with a worked example, and a panel noting that weak arguments skip the middle step.",
+  "caption": "Students who struggle with these passages are usually reading the novel. The passage is not about the novel; it is about what one critic claims the novel does.",
+  "beforeHeading": "## How Critics Use Evidence"
+ }
+}
