@@ -1,0 +1,87 @@
+{
+ "lessonId": 96,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  476,
+  477,
+  478,
+  479,
+  480
+ ],
+ "fingerprint": "20c8015a23e5751082d9b68bfa05a84f709583583b7804c3f3622c59084ddffa",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "That translates to approximately 16–18 questions per section.",
+   "new": "That translates to roughly 16 of the section's 53 questions.",
+   "reason": "30% of 53 is about 16; the 18 upper bound would be about 34%."
+  },
+  {
+   "field": "lesson.content",
+   "old": "For each paragraph, note mentally (or briefly on scratch paper):",
+   "new": "For each paragraph, note mentally (or briefly on the noteboard booklet the test center provides):",
+   "reason": "The MCAT supplies a wet-erase noteboard booklet; personal scratch paper is not permitted."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Students with strong science backgrounds are particularly vulnerable here. A biology passage might describe enzyme kinetics in a way that implies something about substrate concentration, and a student might select an answer that is biochemically accurate but goes beyond what the passage actually supports. The passage is the only valid source.",
+   "new": "Students are particularly vulnerable when a passage touches a subject they already know. A passage on economic history might describe a government's response to a recession, and a student who has studied that period might select an answer that is historically accurate but goes beyond what the passage actually supports. (Note that CARS passages themselves are drawn only from the humanities and social sciences — 50% each — never from the natural sciences.) The passage is the only valid source.",
+   "reason": "CARS contains no natural-science passages, so an enzyme-kinetics example misrepresents the section."
+  },
+  {
+   "field": "questions.477.question_text",
+   "old": "A passage states: 'The enzyme functions optimally at a pH of 7.4, though it retains partial activity between pH 6.8 and pH 8.0.' A Foundations of Comprehension question asks: 'According to the passage, under which condition does the enzyme retain some activity?' Which answer choice is best supported?",
+   "new": "A passage states: 'The council's charter fixed the quorum at nine members, though it permitted provisional sessions to proceed with as few as six.' A Foundations of Comprehension question asks: 'According to the passage, under which condition may a provisional session proceed?' Which answer choice is best supported?",
+   "reason": "Replaces a natural-science passage with a humanities/social-science one, matching real CARS content, while keeping the question's logic identical."
+  },
+  {
+   "field": "questions.477.choice_a",
+   "old": "Only at exactly pH 7.4",
+   "new": "Only when exactly nine members are present",
+   "reason": "Updated to match the revised passage; still the tempting distractor drawn from the prominent stated figure."
+  },
+  {
+   "field": "questions.477.choice_b",
+   "old": "At any pH above 6.0",
+   "new": "With any number of members above four",
+   "reason": "Updated to match the revised passage; introduces a threshold the passage never gives."
+  },
+  {
+   "field": "questions.477.choice_c",
+   "old": "Between pH 6.8 and pH 8.0",
+   "new": "With as few as six members",
+   "reason": "Updated to match the revised passage; remains the directly stated answer."
+  },
+  {
+   "field": "questions.477.choice_d",
+   "old": "Only in the absence of competing substrates",
+   "new": "Only when no member files an objection",
+   "reason": "Updated to match the revised passage; remains out of scope."
+  },
+  {
+   "field": "questions.477.explanation",
+   "old": "The passage explicitly states the enzyme retains partial activity between pH 6.8 and pH 8.0, making Choice C a direct retrieval of stated information. Choice A is the most tempting distractor because pH 7.4 is mentioned prominently as optimal, but the question asks about retained activity, not optimal activity. Choices B and D introduce information not present in the passage.",
+   "new": "The passage explicitly states that provisional sessions may proceed with as few as six members, making Choice C a direct retrieval of stated information. Choice A is the most tempting distractor because nine is mentioned prominently as the quorum, but the question asks about provisional sessions, not the standing quorum. Choices B and D introduce information not present in the passage.",
+   "reason": "Updated to match the revised passage and choices."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AAMC: CARS section outline (skill percentages; passage content 50% humanities, 50% social sciences)",
+   "url": "https://students-residents.aamc.org/media/9266/download"
+  },
+  {
+   "title": "AAMC: Check-In Rules and Procedures (noteboard booklet)",
+   "url": "https://students-residents.aamc.org/book/export/html/16956"
+  }
+ ],
+ "visual": {
+  "title": "Five wrong-answer patterns",
+  "src": "/lesson-diagrams/cars-wrong-answer-patterns.svg",
+  "width": 1000,
+  "height": 660,
+  "alt": "Five rows, each pairing what the passage said with what the wrong answer says, plus a defence. Distortion: reversed within two years becomes reversed after two years; compare the choice against the sentence word by word. Half-right: cut costs in rural districts becomes cut costs and raised attendance; check the whole choice. Extreme claim: often effective in cities becomes the most effective method available; match answer strength to claim strength. Plausible extension: critics called it idealised becomes critics proved it factually false; a near-surface inference is one step from the text. Out of scope: a passage about urban housing paired with a true claim about rural housing; the passage is the only valid source. A footer gives the process — classify, locate, predict, test each choice — and notes Foundations is about 30 percent of the section, roughly 16 of 53 questions.",
+  "caption": "Every one of these contains real passage content, which is exactly why they attract.",
+  "beforeHeading": "Common Wrong Answer Patterns"
+ }
+}
