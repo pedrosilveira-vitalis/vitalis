@@ -106,3 +106,11 @@ Draft lesson IDs: 4, 5, 6, 7, 8, 44, 45, 46, 47, 48, 89, 90, 91, 92, 109, 110, 1
 - 67 tests passed, including all review guards/quiz uniqueness and corrected-key regressions; production build and TypeScript check passed.
 - Browser QA blocked: managed preview supplies unsupported --host/--strictPort arguments to next dev. No working-app code was changed to bypass that limitation. Full authenticated browser/production verification remains a Preview acceptance task.
 - Original database content is not overwritten; reviews skip atomically if stored content or quiz items have changed. Dependency audit warnings from the previous install have not been remediated in this feature update.
+
+## Batch 14 — patch-based reviews, cardiovascular and respiratory (2026-11-11)
+- New mechanism: `lib/lesson-patches.ts` applies exact old→new text patches from `lib/lesson-reviews/lesson-NNN.json` (index rebuilt by `scripts/build-review-index.mjs`). All-or-nothing: one SHA-256 fingerprint covers title, content and every quiz field; any patch text that is missing or appears more than once skips the whole review.
+- Integrated IDs 65–71 (cardiac output, vascular physiology, BP control, capillary exchange, breathing mechanics, O2 transport, CO2/acid-base). Each patch records its reason; each lesson lists the sources consulted and has a new SVG diagram (rendered and inspected).
+- Patch texts and fingerprints were checked against the live lesson API before saving.
+- ID 72 (renal filtration): corrections drafted and diagram drawn; not yet verified against live text or integrated.
+- Cumulative: **68/250 lessons** reviewed. 182 remain (IDs 72–253).
+- Not yet run: `npm test` / `npm run build` (no package installs in this workspace). Push blocked until the Claude GitHub App is installed on the repo.
