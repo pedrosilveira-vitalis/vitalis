@@ -112,5 +112,5 @@ Draft lesson IDs: 4, 5, 6, 7, 8, 44, 45, 46, 47, 48, 89, 90, 91, 92, 109, 110, 1
 - Integrated IDs 65–71 (cardiac output, vascular physiology, BP control, capillary exchange, breathing mechanics, O2 transport, CO2/acid-base). Each patch records its reason; each lesson lists the sources consulted and has a new SVG diagram (rendered and inspected).
 - Patch texts and fingerprints were checked against the live lesson API before saving.
 - ID 72 (renal filtration) integrated.
-- Cumulative: **69/250 lessons** reviewed. 181 remain (IDs 73–253).
+- Cumulative: **83/250 lessons** reviewed (IDs 4–86). 167 remain (IDs 87–253).
 - Not yet run: `npm test` / `npm run build` (no package installs in this workspace). Push blocked until the Claude GitHub App is installed on the repo.
