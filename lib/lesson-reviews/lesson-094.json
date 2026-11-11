@@ -1,0 +1,95 @@
+{
+ "lessonId": 94,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  466,
+  467,
+  468,
+  469,
+  470
+ ],
+ "fingerprint": "6f732d04f8d9e50aa8416c8429d8d9a2476ffbbccf6c7da66b9a6fa1585b2498",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "When you open CARS, spend the first 30–45 seconds of each new passage doing a rapid triage assessment before committing to a full read.",
+   "new": "When you open CARS, spend about 20 seconds per passage — roughly 3 minutes across all nine — doing a rapid triage assessment before committing to a full read of any of them.",
+   "reason": "At 30–45 seconds each, previewing nine passages would take 4.5–7 minutes, contradicting the lesson's own 2–3 minute triage sprint."
+  },
+  {
+   "field": "lesson.content",
+   "old": "After 30 seconds, you should be able to place the passage in one of your three categories.",
+   "new": "After about 20 seconds, you should be able to place the passage in one of your three categories.",
+   "reason": "Keeps the protocol consistent with the 2–3 minute triage sprint."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Spend the first 2–3 minutes of the section previewing all 9 passages and marking them mentally (or using the flagging/scratch paper system) as green, yellow, or red.",
+   "new": "- Spend the first 2–3 minutes of the section previewing all 9 passages and marking them green, yellow, or red — mentally, with the exam's flag tool (Alt+F), or on the noteboard booklet the test center provides.",
+   "reason": "The MCAT supplies a noteboard booklet, not scratch paper; names the actual flag shortcut."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Rapidly preview all 9 passages using the 30-second triage protocol\n- Mentally (or on scratch paper) label each passage green, yellow, or red",
+   "new": "- Rapidly preview all 9 passages using the ~20-second triage protocol\n- Label each passage green, yellow, or red (mentally or on the noteboard booklet)",
+   "reason": "Consistency with the corrected triage timing, and the MCAT provides a noteboard booklet rather than scratch paper."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The MCAT interface allows you to navigate freely between passages, which means you are not required to work sequentially from passage 1 to passage 9.",
+   "new": "The MCAT interface lets you move freely within a section — Alt+N and Alt+P step between questions, Alt+V opens a Navigator listing every question, and Alt+F flags one for review — so you are not required to work sequentially from passage 1 to passage 9.",
+   "reason": "Names the actual navigation tools so the strategy is executable on the real interface."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The AAMC has consistently reported that CARS scores are among the strongest predictors of performance in medical school, particularly in clinical reasoning and communication.",
+   "new": "The AAMC's validity research reports that MCAT **total** scores correlate with preclerkship performance, clerkship performance, and USMLE Step 1 and Step 2 CK scores. (Those published findings are about total scores; claims singling out CARS as the best predictor of clinical reasoning or communication go beyond what the AAMC data show.)",
+   "reason": "AAMC validity findings are reported for total scores; the specific CARS claim is not supported, and MCAT scores correlate only weakly with direct-observation measures such as interpersonal skills."
+  },
+  {
+   "field": "questions.470.question_text",
+   "old": "What is the primary risk of this time distribution?",
+   "new": "She therefore has 78 minutes left for the remaining 8 passages. What is the primary risk of this time distribution?",
+   "reason": "Supplies the arithmetic the stem needs; the figures given did not add up."
+  },
+  {
+   "field": "questions.470.question_text",
+   "old": "finishing with 48 minutes for the remaining 7 passages.",
+   "new": "finishing that passage with 8 of the 9 passages still to go.",
+   "reason": "12 minutes used leaves 78 minutes and 8 passages, not 48 minutes and 7 passages."
+  },
+  {
+   "field": "questions.470.explanation",
+   "old": "Each CARS passage averages roughly 8-9 minutes in an optimal pacing plan.",
+   "new": "Each CARS passage averages roughly 10 minutes (90 minutes across 9 passage sets).",
+   "reason": "90 minutes over 9 passages is about 10 minutes each, matching the lesson's own opening figure."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AAMC: What's on the MCAT Exam? (53 CARS questions, 9 passage sets, 90 minutes)",
+   "url": "https://students-residents.aamc.org/whats-mcat-exam/publication-chapters/whats-mcat-exam"
+  },
+  {
+   "title": "MCAT keyboard shortcuts: Navigator, flag, previous/next, review screen",
+   "url": "https://gradschool.uworld.com/blog/mcat-exam/keyboard-shortcuts/"
+  },
+  {
+   "title": "AAMC MCAT Validity Research Summary (correlations for total scores)",
+   "url": "https://www.aamc.org/media/47641/download"
+  },
+  {
+   "title": "AAMC: Check-In Rules and Procedures (noteboard booklet)",
+   "url": "https://students-residents.aamc.org/book/export/html/16956"
+  }
+ ],
+ "visual": {
+  "title": "A 90-minute plan",
+  "src": "/lesson-diagrams/cars-pacing-triage.svg",
+  "width": 1000,
+  "height": 640,
+  "alt": "A 90-minute bar split into a 0 to 3 minute triage sprint, minutes 3 to 60 for green then yellow passages, minutes 60 to 85 for red passages, and minutes 85 to 90 to fill blanks, with checkpoints at 30 minutes (about 3 passages, 17 to 20 questions) and 60 minutes (about 6 passages, 35 to 38 questions). Three triage buckets: green, immediately accessible, done first while you are sharpest; yellow, manageable but denser, done second; red, your personal nightmare, done last so any shortfall falls where you would score least anyway. Four elimination filters for a stuck question: unsupported by the text, too extreme, out of scope, true but irrelevant. A box says that past 90 seconds on one question you should eliminate, guess, flag and move on, and a footer notes that triage is personal, a 7-question set is worth more than a 5-question set, and no answer should be left blank.",
+  "caption": "Timings are targets to practice against, not rules to obey on the day.",
+  "beforeHeading": "Passage Triage: Choosing Your Order"
+ }
+}
