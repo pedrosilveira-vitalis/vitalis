@@ -1,0 +1,60 @@
+{
+ "lessonId": 103,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  511,
+  512,
+  513,
+  514,
+  515
+ ],
+ "fingerprint": "53e4febab8e3b34258cf69c5df17a135077f8f93dcc4f360e668db5f37a93dd0",
+ "patches": [
+  {
+   "target": "lesson.content",
+   "old": "the placement of key claims (what the author says in the final paragraph, which is almost always the author's own position)",
+   "new": "the placement of key claims (what the author says in the final paragraph, which is usually — though not always — the author's own position)",
+   "reason": "\"Almost always\" overstates a useful heuristic, and it works against this lesson's own warnings. A dialectical passage can close on a synthesis that endorses neither side, and a sympathetic critique can end by qualifying rather than asserting, so a student who treats the last paragraph as a rule rather than a tendency will misread exactly the passages this lesson flags as hardest."
+  },
+  {
+   "target": "lesson.content",
+   "old": "Understanding rhetorical purpose is essential for answering primary purpose questions, which appear in virtually every CARS passage set.",
+   "new": "Understanding rhetorical purpose is essential for answering primary purpose questions, which are common across CARS passage sets.",
+   "reason": "The AAMC does not publish how often any question type appears, and no reliable source supports \"virtually every passage set\". The claim is replaced with one that is true and makes the same point about why the skill matters."
+  },
+  {
+   "target": "lesson.content",
+   "old": "The concession is almost always followed by a \"but\" or \"however\" that reasserts the author's position.",
+   "new": "The concession is usually followed by a \"but\" or \"however\" that reasserts the author's position — though an author can also concede a point and leave it standing, which is itself a signal about how qualified their claim really is.",
+   "reason": "Stated as near-universal, this would mislead a student on precisely the nuanced passages the lesson elsewhere teaches them to expect. A concession that is never countered tells you something important about the scope of the author's claim, so it is worth naming rather than defining away."
+  },
+  {
+   "target": "question.512.explanation",
+   "old": "Choice A misreads hedging language as genuine uncertainty rather than as a setup for rebuttal.",
+   "new": "Choice A misreads these phrases as hedging. They are not: hedging language (\"suggests\", \"may indicate\", \"arguably\", \"tends to\") qualifies the strength of the author's *own* claim, whereas \"one might argue\" and \"it is tempting to conclude\" introduce *someone else's* position so that it can be countered. Mistaking the second kind for the first is how a confident author gets read as an uncertain one.",
+   "reason": "The explanation called \"one might argue\" and \"it is tempting to conclude\" hedging language, but this lesson's own taxonomy lists them under concession signals and defines hedging separately as qualification of the author's own assertions. Corrected so the explanation matches the distinction the lesson teaches, and so it makes the distinction explicit rather than glossing over it."
+  },
+  {
+   "target": "question.514.explanation",
+   "old": "The word 'However' is a contrast signal, and the phrase 'overlooked flaw' indicates the author is now pushing back against a previously introduced view, making this a classic pivot or complication paragraph. Choice A is wrong because a thesis is typically introduced earlier, not signaled by a contrastive opener. Choice B is incorrect because background context would not begin with an adversative transition like 'However.'",
+   "new": "\"However\" is a contrast signal, and \"overlooks a critical flaw\" says the paragraph is about a deficiency in a view already on the table, which makes its structural role complication. Choice A is wrong not because a thesis can never follow a contrast signal — in fact a contrast signal very often precedes the author's own view, and in problem-solution passages the author's position typically arrives after exactly this kind of turn — but because the sentence names a problem with someone else's optimism rather than asserting a positive claim of the author's own. What the sentence does is challenge; that is what the question asks about. Choice B is incorrect because background context sets up what follows rather than pushing back against what came before, which is what an adversative transition announces.",
+   "reason": "The original eliminated choice A with a rule that contradicts the lesson: the lesson states that a contrast signal often precedes the author's own view, and that in problem-solution passages the author's position arrives after the pivot. Rewritten so choice A is eliminated by what the sentence actually does, and so the elimination does not teach a false rule. The explanation also misquoted the stem as \"overlooked flaw\"."
+  }
+ ],
+ "sources": [
+  {
+   "label": "AAMC — What's on the MCAT Exam? Critical Analysis and Reasoning Skills",
+   "url": "https://students-residents.aamc.org/media/9266/download",
+   "note": "The AAMC describes the three CARS skills and the kinds of reasoning tested, but publishes no breakdown of how often any individual question type appears in a passage set, which is why the \"virtually every passage set\" claim could not be supported."
+  }
+ ],
+ "visual": {
+  "title": "Four architectures — and where the author's own voice actually sits",
+  "src": "/lesson-diagrams/cars-four-architectures.svg",
+  "width": 1060,
+  "height": 634,
+  "alt": "Four columns, one per passage architecture: thesis-first, problem-solution, dialectical, and narrative-to-argument. Each is drawn as a stack of four paragraph blocks, with the blocks in which the author speaks in their own voice shaded and the rest left pale. In thesis-first the author's voice is in the first and last blocks; in problem-solution it begins at the pivot; in dialectical only the final synthesis is the author; in narrative-to-argument it begins at the second block. A footer gives the question to ask at every paragraph break and distinguishes contrast words from concession words.",
+  "caption": "The shaded blocks are the author speaking for themselves. Notice how late they can start: in a dialectical passage, three paragraphs can pass before you hear the author's own position at all.",
+  "beforeHeading": "## Passage Structure: How Arguments Are Built"
+ }
+}
