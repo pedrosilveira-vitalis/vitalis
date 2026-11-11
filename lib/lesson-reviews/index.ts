@@ -20,5 +20,6 @@ import r17 from "./lesson-082.json";
 import r18 from "./lesson-083.json";
 import r19 from "./lesson-084.json";
 import r20 from "./lesson-085.json";
+import r21 from "./lesson-086.json";
 
-export const patchReviews: PatchReview[] = [r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15, r16, r17, r18, r19, r20];
+export const patchReviews: PatchReview[] = [r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15, r16, r17, r18, r19, r20, r21];

@@ -1,0 +1,41 @@
+{
+ "lessonId": 86,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  426,
+  427,
+  428,
+  429,
+  430
+ ],
+ "fingerprint": "f99e2d00af175314bcd0bfc958e482ab3b00e55979bacbddcb7b32a11bc1e955",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **Membrane fusion**: After receptor binding, fusion proteins mediate merging of viral and host membranes (e.g., influenza neuraminidase cleaves sialic acid to allow release; HIV's gp41 mediates fusion)",
+   "new": "- **Membrane fusion**: After receptor binding, fusion proteins mediate merging of viral and host membranes (e.g., influenza hemagglutinin in the acidic endosome; HIV's gp41)\n- **Release**: Some glycoproteins free new virions from the cell (e.g., influenza neuraminidase cleaves sialic acid so progeny do not stick to the cell surface)",
+   "reason": "Neuraminidase mediates release, not fusion; hemagglutinin is influenza's fusion protein."
+  },
+  {
+   "field": "questions.426.explanation",
+   "old": "The lytic cycle always precedes integration is a common misconception;",
+   "new": "A common misconception is that the lytic cycle must precede integration;",
+   "reason": "Fixed an ungrammatical sentence."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax Microbiology 6.2: The Viral Life Cycle",
+   "url": "https://openstax.org/books/microbiology/pages/6-2-the-viral-life-cycle"
+  }
+ ],
+ "visual": {
+  "title": "Lytic and lysogenic cycles",
+  "src": "/lesson-diagrams/phage-lytic-lysogenic.svg",
+  "width": 1000,
+  "height": 640,
+  "alt": "After attachment and injection of phage DNA, two branches. Lytic: early genes take over the host and copy phage DNA, late genes make capsid parts and lysis proteins, virions assemble, and the cell lyses releasing about 100 to 200 phage. Lysogenic: integrase inserts the DNA at the att site as a prophage, the CI repressor silences lytic genes, the prophage is copied as the lysogen divides, and prophage genes can change the host's traits (lysogenic conversion). An induction arrow leads from the lysogenic to the lytic branch when DNA damage activates the SOS response.",
+  "caption": "A temperate phage can stay quiet as a prophage or switch to lytic growth when the host is damaged.",
+  "beforeHeading": "The Lytic Cycle"
+ }
+}
