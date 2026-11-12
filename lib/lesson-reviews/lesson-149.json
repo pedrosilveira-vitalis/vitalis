@@ -1,0 +1,47 @@
+{
+ "lessonId": 149,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  741,
+  742,
+  743,
+  744,
+  745
+ ],
+ "fingerprint": "d3c87089daa23dd0ab7514ae02d489d028e83b42b518c3d055600c4b40609688",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "### Pitfall 4: Forgetting to Multiply E° When Multiplying Half-Reactions",
+   "new": "### Pitfall 4: Scaling a Half-Reaction Does Not Scale E°",
+   "reason": "The heading told students the mistake is forgetting to multiply E°, while the paragraph underneath correctly says E° must *not* be multiplied. A student skimming headings would take away the opposite of the rule."
+  },
+  {
+   "field": "lesson.content",
+   "old": "This is the Daniel cell reaction",
+   "new": "This is the Daniell cell reaction",
+   "reason": "Named after John Frederic Daniell; the cell is spelled with two l's."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- O₂ + 4H⁺ + 4e⁻ → 2H₂O: E° = +1.23 V\n- Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O: E° = +1.33 V",
+   "new": "- Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O: E° = +1.33 V\n- O₂ + 4H⁺ + 4e⁻ → 2H₂O: E° = +1.23 V",
+   "reason": "The list runs in descending order of potential everywhere else, and that ordering is the point of the table — a couple higher in the list oxidises anything lower. Dichromate at +1.33 V was printed below oxygen at +1.23 V, which inverts the one relationship a student is meant to read off it."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Standard Reduction Potentials — Chemistry LibreTexts reference table",
+   "url": "https://chem.libretexts.org/Ancillary_Materials/Reference/Reference_Tables/Electrochemistry_Tables/P1%3A_Standard_Reduction_Potentials_by_Value"
+  }
+ ],
+ "visual": {
+  "title": "The reduction-potential ladder: electrons fall, never climb",
+  "src": "/lesson-diagrams/reduction-potential-ladder.svg",
+  "width": 900,
+  "height": 660,
+  "alt": "An ordered ladder of standard reduction potentials running from fluorine at plus 2.87 volts at the top down to lithium at minus 3.04 volts at the bottom, taking in permanganate at plus 1.51, dichromate at plus 1.33, oxygen at plus 1.23, ferric to ferrous iron at plus 0.77, copper at plus 0.34, the hydrogen reference at zero, NAD plus to NADH at minus 0.32, iron at minus 0.44 and zinc at minus 0.76, each with a short note on where it is met. An arrow up the side marks that electrons flow spontaneously from a lower couple to a higher one. A panel gives E cell equals cathode minus anode, delta G equals minus nFE, the sign relationships to K, and the reminder that potential is intensive.",
+  "caption": "Everything on this page follows from the ordering: pair any two couples, let the electrons fall from the lower to the higher, and E°cell is the gap between them.",
+  "beforeHeading": "## Connecting Redox to Thermodynamics"
+ }
+}
