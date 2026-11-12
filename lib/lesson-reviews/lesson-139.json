@@ -1,0 +1,63 @@
+{
+ "lessonId": 139,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  691,
+  692,
+  693,
+  694,
+  695
+ ],
+ "fingerprint": "11dd02889935146baa29f9d326155a9be783cfc97d00d3e642518cd0ff0afd0b",
+ "patches": [
+  {
+   "field": "questions.693.question_text",
+   "old": "A researcher observes that the rate of a substitution reaction doubles when the concentration of the nucleophile is doubled, but the rate is unaffected by changes in substrate concentration. Which conclusion is best supported by this data?",
+   "new": "A researcher observes that the rate of a substitution reaction doubles when the concentration of the alkyl halide is doubled, but is unaffected by changes in the concentration of the nucleophile. Which conclusion is best supported by this data?",
+   "reason": "The old stem described kinetics that correspond to no nucleophilic substitution mechanism — first order in nucleophile and zero order in substrate — so the item had no defensible answer, as its own explanation admitted. The intended observation (rate set by the substrate alone) is the standard SN1 signature and is what the stem now describes."
+  },
+  {
+   "field": "questions.693.choice_d",
+   "old": "The reaction proceeds by an SN2 mechanism because substrate concentration does not affect the rate",
+   "new": "The reaction proceeds by an SN2 mechanism because the nucleophile concentration does not affect the rate",
+   "reason": "Under the corrected stem the substrate concentration does affect the rate, so the old distractor contradicted the data outright rather than testing anything."
+  },
+  {
+   "field": "questions.693.correct_answer",
+   "old": "C",
+   "new": "A",
+   "reason": "Choice A, SN1 with a rate-limiting ionization step, is the mechanism consistent with rate = k[substrate]. The old key, C, asserted that in SN1 the nucleophile is involved in the slow step, which is the opposite of the defining feature of SN1."
+  },
+  {
+   "field": "questions.693.explanation",
+   "old": "This question requires careful reading: the rate doubles with nucleophile concentration but is unaffected by substrate concentration. This is unusual and actually describes neither classic SN1 nor SN2 cleanly, but among the choices, the data shows first-order dependence on nucleophile and zero-order dependence on substrate. Wait - SN1 is first order in substrate only (rate = k[substrate]), while SN2 is first order in both. The described kinetics (rate depends on nucleophile, not substrate) best fits a scenario where nucleophile is in the slow step but substrate is not, which is closest to SN1 where the slow step is ionization independent of nucleophile. However, choice C is the best available answer because it correctly identifies SN1 and notes nucleophile involvement, though the classic SN1 rate law is rate = k[substrate]. The most tempting wrong answer is B, but SN2 would show rate dependence on both nucleophile and substrate.",
+   "new": "The observations give rate = k[alkyl halide]: first order in the substrate and zero order in the nucleophile. That is the kinetic signature of SN1. The rate-determining step is ionization of the C–LG bond to a carbocation, which involves the substrate alone, and the nucleophile enters only in the fast second step, so its concentration cannot appear in the rate law. Choices B and D both name SN2, which is bimolecular and first order in each reactant, so doubling the nucleophile would double the rate. Choice C names the right mechanism for the wrong reason: in SN1 the nucleophile is specifically absent from the slow step, and that absence is what the data show.",
+   "reason": "Rewritten for the corrected stem and key. The old explanation argued with itself in the published text, including the word 'Wait', and conceded that the keyed answer contradicted the SN1 rate law."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The sulfur of SAM becomes the leaving group (homocysteine is produced).",
+   "new": "The sulfonium sulfur leaves as a neutral thioether, so the immediate product is S-adenosylhomocysteine (SAH); SAH is then hydrolysed by SAH hydrolase to homocysteine and adenosine.",
+   "reason": "A SAM-dependent methyl transfer releases S-adenosylhomocysteine, not homocysteine. Homocysteine appears only after SAH hydrolase cleaves SAH into homocysteine and adenosine, and SAH itself is the product inhibitor of the methyltransferases — a step the MCAT tests directly in the one-carbon/methionine cycle."
+  }
+ ],
+ "sources": [
+  {
+   "title": "S-adenosylhomocysteine hydrolase and the methylation cycle — PMC3787734",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3787734"
+  },
+  {
+   "title": "Functional and Pathological Roles of AHCY — Front. Cell Dev. Biol. 2021",
+   "url": "https://frontiersin.org/articles/10.3389/fcell.2021.654344/full"
+  }
+ ],
+ "visual": {
+  "title": "Substrate class × reagent decides the mechanism",
+  "src": "/lesson-diagrams/sn1-sn2-e1-e2-grid.svg",
+  "width": 900,
+  "height": 644,
+  "alt": "A four-by-four grid. Rows are methyl, primary, secondary and tertiary substrates; columns are a weak nucleophile that is also a weak base, a strong nucleophile that is a weak base, a small strong base, and a bulky strong base. Cells run from no reaction for methyl and primary substrates with a weak nucleophile, through SN2 for unhindered substrates with strong nucleophiles, to SN1/E1 for tertiary substrates with weak bases and E2 wherever a strong base meets a hindered substrate. A panel notes that heat pushes every cell toward elimination and that polar protic solvent pushes toward SN1/E1 while polar aprotic pushes toward SN2.",
+  "caption": "Substrate down the side, reagent across the top. Substitution and elimination compete in every cell; heat and solvent shift the balance.",
+  "beforeHeading": "## Putting It All Together: Predicting SN1 vs. SN2"
+ }
+}
