@@ -1,0 +1,81 @@
+{
+ "lessonId": 146,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  726,
+  727,
+  728,
+  729,
+  730
+ ],
+ "fingerprint": "56206c6701a569c1745caf3f80a461149d0d29eafac3bb73f6964300e8927955",
+ "patches": [
+  {
+   "field": "questions.730.question_text",
+   "old": "A researcher wants to synthesize N-methylbenzamide from benzamide. Which reagent and conditions would most directly accomplish this transformation while minimizing over-alkylation?",
+   "new": "A researcher wants to synthesize N-methylbenzylamine (PhCH₂NHCH₃) from benzylamine (PhCH₂NH₂). Which reagent and conditions would most directly accomplish this transformation while minimizing over-alkylation?",
+   "reason": "Benzamide is an amide, not an amine. Its nitrogen lone pair is delocalised into the carbonyl, so it is neither basic nor nucleophilic — this lesson says so explicitly — and it does not undergo reductive amination with formaldehyde at all. The keyed answer was therefore chemically impossible. Benzylamine is a genuine primary amine, which makes reductive amination the correct answer and keeps every distractor meaningful."
+  },
+  {
+   "field": "questions.730.explanation",
+   "old": "Reductive amination of benzamide with formaldehyde and a mild reducing agent like NaBH3CN selectively reduces the iminium ion intermediate to give N-methylbenzamide, with minimal over-alkylation because the reaction proceeds through a controlled imine/iminium intermediate rather than direct alkylation. Direct alkylation with CH3I (choice A) tends to produce mixtures of mono-, di-, and tri-alkylated products because each successive alkylation increases nucleophilicity and the product can react further. Choice C would add an acetyl group rather than a methyl group. Reductive amination is the preferred method when mono-N-alkylation is desired.",
+   "new": "Benzylamine condenses with formaldehyde to give an iminium ion, and NaBH3CN reduces that iminium selectively at mildly acidic pH to give N-methylbenzylamine. Because the methyl group arrives on an intermediate that can only be formed once per nitrogen, the reaction stops cleanly at mono-alkylation. Direct alkylation with CH3I (choice A) gives mixtures of secondary, tertiary and quaternary products: the secondary amine produced in the first step is at least as nucleophilic as the starting primary amine, so it competes for the remaining methyl iodide. Choice C acylates the nitrogen and then reduces the amide, which installs an ethyl group rather than a methyl. Choice D would quaternise the nitrogen and then eliminate, destroying the amine rather than methylating it.",
+   "reason": "Rewritten for the corrected substrate, and to fix the stated reason for over-alkylation — it is not that alkylation 'increases nucleophilicity' but that the mono-alkylated product remains a good nucleophile and competes for the electrophile. Choice C's outcome was also misdescribed: acylation followed by reduction leaves an ethyl group, not an acetyl group."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Pyrrole (nitrogen in aromatic ring): conjugate acid pKa ≈ 0.4 (extremely weak base)",
+   "new": "- Pyrrole (nitrogen in aromatic ring): conjugate acid pKa ≈ −3.8, and the proton actually goes onto C2 rather than nitrogen (extremely weak base)",
+   "reason": "The accepted value for the pyrrolium ion is pKa ≈ −3.8, not 0.4; 0.4 comes from an outdated figure that Wikipedia's own article text contradicts. The correction matters for the lesson's point, since −3.8 places pyrrole far below an amide rather than beside it."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Pyrrole's conjugate acid pKa is approximately 0.4, making it barely basic at all.",
+   "new": "Pyrrole's conjugate acid pKa is approximately −3.8, making it barely basic at all — and the most stable protonated form is not even the N-protonated one; the proton ends up on C2.",
+   "reason": "Same correction in the body text, with the protonation site added because it is the direct consequence of the lone pair being unavailable."
+  },
+  {
+   "field": "lesson.content",
+   "old": "| Pyrrole | ~0.4 | Extremely weak |",
+   "new": "| Pyrrole | ~−3.8 | Extremely weak |",
+   "reason": "Same correction in the summary table, which otherwise left pyrrole looking more basic than an amide."
+  },
+  {
+   "field": "lesson.content",
+   "old": "roughly 10,000 times less basic than cyclohexylamine (pKa ≈ 10.6)",
+   "new": "roughly a million times less basic than cyclohexylamine (pKa ≈ 10.6)",
+   "reason": "Six pKa units is a factor of 10⁶, not 10⁴. The arithmetic is exactly the kind the MCAT asks students to do with pKa differences."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Tertiary amines cannot be acylated (no N–H to lose after the initial attack would create a quaternary nitrogen with no leaving group pathway—actually, tertiary amines can attack but the tetrahedral intermediate cannot collapse properly without loss of a proton from N, so no stable amide forms).",
+   "new": "Tertiary amines do not give stable amides. The nitrogen can attack the carbonyl, but the resulting acylammonium ion has no N–H to lose, so there is no way to arrive at a neutral amide; the acyl group is simply transferred on to any better nucleophile present. This is why tertiary amines such as pyridine and triethylamine are used as acyl-transfer catalysts rather than as acylation substrates.",
+   "reason": "The original sentence argued with itself mid-parenthesis ('—actually, …') and left the student with two incompatible explanations. Rewritten to one, and extended to the fact that makes it useful: a tertiary amine's inability to end at an amide is exactly what makes it a catalyst."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The pyridoxal phosphate (PLP, vitamin B6) mechanism in amino acid transamination is essentially enzymatic reductive amination. PLP forms a Schiff base with an amino acid, the imine is reduced/transferred, and a new amino acid is formed.",
+   "new": "The clearest biological reductive amination is glutamate dehydrogenase, which condenses ammonia with α-ketoglutarate and reduces the resulting imine with NADPH to give glutamate. PLP-dependent transamination uses the same Schiff-base chemistry but is not a reduction: the aldimine tautomerises to a ketimine and is then hydrolysed, so an amino group is transferred rather than added, and the oxidation states cancel out.",
+   "reason": "Transamination involves no net reduction — the aldimine-to-ketimine tautomerisation and hydrolysis transfer the amino group without changing oxidation state, so calling it 'essentially enzymatic reductive amination' misdescribes it. Glutamate dehydrogenase is the genuine biological example, and keeping both lets the student see the difference."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Pyrrole — Wikipedia (conjugate acid pKa −3.8; most stable pyrrolium forms by protonation at C2)",
+   "url": "https://Www.wikipedia.org/wiki/Pyrrol"
+  },
+  {
+   "title": "Properties of Heteroaromatic Compounds (pyrrole conjugate acid pKa −3.8 versus pyridine 5.2)",
+   "url": "https://chem-is-you.blogspot.com/2015/01/heterocyclic-chemistry-properties-of_28.html"
+  }
+ ],
+ "visual": {
+  "title": "Amine basicity is one question: how available is the lone pair?",
+  "src": "/lesson-diagrams/amine-basicity-scale.svg",
+  "width": 900,
+  "height": 600,
+  "alt": "A horizontal scale of conjugate-acid pKa values running from minus 5 to 12. Pyrrole sits at minus 3.8 and an amide nitrogen near zero, both because the lone pair is tied up in a pi system; aniline at 4.6 and pyridine at 5.2 in the middle; ammonia at 9.25, a tertiary amine at 9.8 and primary and secondary amines near 10.7 at the basic end. Each point carries a one-line reason. A lower band lists the three factors that move a nitrogen along the scale: resonance delocalisation, hybridisation, and induction together with solvation.",
+  "caption": "Every entry on the scale is the same question answered differently: is the nitrogen's lone pair free, held tightly by an s-rich orbital, or shared with a π system?",
+  "beforeHeading": "### MCAT Basicity Summary Table"
+ }
+}
