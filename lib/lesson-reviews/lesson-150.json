@@ -1,0 +1,35 @@
+{
+ "lessonId": 150,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  746,
+  747,
+  748,
+  749,
+  750
+ ],
+ "fingerprint": "d177791dfef285ff8bb5d5deae72525a8c79705271b09df4ce88f51f637dc1ef",
+ "patches": [
+  {
+   "field": "questions.748.explanation",
+   "old": "students may incorrectly add the absolute values without accounting for the sign of the anode, arriving at 2.03 V by subtracting magnitudes instead of applying the correct formula",
+   "new": "students may subtract the magnitudes, 2.37 − 0.34, instead of subtracting the signed anode potential from the signed cathode potential",
+   "reason": "The sentence described the error as adding the absolute values and then, in the same breath, as subtracting magnitudes — two different mistakes, and only the second one produces the 2.03 V distractor it is explaining. Adding the absolute values would give the correct 2.71 V."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Standard Reduction Potentials and Cell Potential — Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Voltaic_Cells/Electrochemical_Cell_Conventions"
+  }
+ ],
+ "visual": {
+  "title": "The galvanic cell, and which way everything moves",
+  "src": "/lesson-diagrams/galvanic-cell-anatomy.svg",
+  "width": 900,
+  "height": 640,
+  "alt": "A zinc-copper galvanic cell. On the left a zinc electrode stands in zinc ion solution, labelled anode, negative, oxidation, losing mass, with the half-reaction Zn to Zn2+ plus two electrons. On the right a copper electrode stands in copper ion solution, labelled cathode, positive, reduction, gaining mass, with Cu2+ plus two electrons to Cu. A wire across the top carries electrons from left to right through a voltmeter reading 1.10 volts. A salt bridge of potassium nitrate joins the two beakers, with nitrate migrating left into the anode compartment and potassium right into the cathode compartment. A panel below gives the cell notation and the formula E cell equals cathode minus anode worked out as 0.34 minus minus 0.76 equals plus 1.10 volts.",
+  "caption": "Two circuits, not one: electrons through the wire from anode to cathode, ions through the salt bridge in the opposite sense to keep each beaker neutral.",
+  "beforeHeading": "## Cell Notation (Line Notation)"
+ }
+}
