@@ -1,0 +1,63 @@
+{
+ "lessonId": 138,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  686,
+  687,
+  688,
+  689,
+  690
+ ],
+ "fingerprint": "31cee17974d4fa31174b529c160aee0f65f46009d17f767401ef69ec8c12745e",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- *Trans*-1,2: substituents are on opposite faces of the ring. In the chair, this means one is axial and one is equatorial (diaxial is not possible for trans-1,2). Both chair conformations place one group axial and one equatorial—they are equivalent in energy if the substituents are identical.\n- *Cis*-1,2: substituents are on the same face. In one chair, both are axial (diaxial); in the other chair, both are equatorial (diequatorial). The diequatorial form is strongly preferred.\n\n**1,3-disubstituted cyclohexane:**\n\n- *Cis*-1,3: one substituent axial, one equatorial in one chair; same arrangement in the other chair (they swap). If substituents are identical, both chairs are equivalent.\n- *Trans*-1,3: both axial in one chair, both equatorial in the other. The diequatorial form is strongly preferred.",
+   "new": "- *Trans*-1,2: substituents are on opposite faces of the ring. One chair places both equatorial (diequatorial) and the ring-flipped chair places both axial (diaxial). The diequatorial form is strongly preferred.\n- *Cis*-1,2: substituents are on the same face. Every chair places one group axial and one equatorial, and ring flipping just exchanges which is which—so with identical substituents the two chairs are equal in energy.\n\n**1,3-disubstituted cyclohexane:**\n\n- *Cis*-1,3: both equatorial in one chair, both axial in the other. The diequatorial form is strongly preferred. (Note that the diaxial chair here suffers a direct 1,3-diaxial clash between the two substituents themselves, so the preference is even stronger than the A-values alone suggest.)\n- *Trans*-1,3: one substituent axial and one equatorial in either chair; ring flipping swaps them, so with identical substituents the two chairs are equivalent.",
+   "reason": "Both the 1,2 and the 1,3 entries had cis and trans exchanged. For an even relationship (1,2 and 1,4) the trans isomer is the one that can reach the diequatorial chair; for the odd 1,3 relationship it is the cis isomer. As written the lesson taught the opposite for four of its six cases, while the 1,4 entries immediately below were correct, so it also contradicted itself."
+  },
+  {
+   "field": "lesson.content",
+   "old": "*Trans*-diequatorial is always the most stable arrangement when achievable.",
+   "new": "The diequatorial chair is always the most stable arrangement when it is achievable — which is the *trans* isomer for 1,2 and 1,4 (even relationships) and the *cis* isomer for 1,3 (odd relationship).",
+   "reason": "The general rule as stated hard-wired 'trans' into the diequatorial case, which is exactly backwards for 1,3-disubstituted rings."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The boat is a *transition state* between two chair conformations, not a stable conformational isomer in the strict sense",
+   "new": "The boat is a *transition state* linking the two twist-boat forms, not a stable conformational isomer in the strict sense",
+   "reason": "The boat is the maximum between two twist-boats; the chair-to-twist-boat transition state is the half-chair, as the lesson's own energy landscape (chair → half-chair → twist-boat → boat → twist-boat → half-chair → chair) states two paragraphs later."
+  },
+  {
+   "field": "lesson.content",
+   "old": "(~40 kcal/mol if fully planar)",
+   "new": "(about 40 kJ/mol, roughly 10 kcal/mol, if fully planar — ten eclipsing H···H interactions at about 4 kJ/mol each)",
+   "reason": "Unit error. Planar cyclopentane carries roughly 40 kJ/mol of torsional strain, about 10 kcal/mol; 40 kcal/mol would be larger than the total strain of cyclopropane, which the same lesson gives as 27.5 kcal/mol."
+  },
+  {
+   "field": "questions.687.explanation",
+   "old": "its A-value (steric cost of axial placement) is about 5.5 kcal/mol",
+   "new": "its A-value (steric cost of axial placement) is about 4.7 kcal/mol",
+   "reason": "Brought into line with the A-value table in the lesson body, which gives ~4.7 kcal/mol for tert-butyl; the two numbers contradicted each other."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Conformations of Cycloalkanes — Organic Chemistry (OpenStax) 4.4, Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_(OpenStax)/04%3A_Organic_Compounds_-_Cycloalkanes_and_their_Stereochemistry/4.04%3A_Conformations_of_Cycloalkanes"
+  },
+  {
+   "title": "Conformations of Cycloalkanes: Planar and Non-Planar Structures — JoVE Core Organic Chemistry 3.9",
+   "url": "https://www.jove.com/science-education/11711/conformations-of-cycloalkanes-planar-and-non-planar-structures"
+  }
+ ],
+ "visual": {
+  "title": "Which disubstituted cyclohexane reaches the diequatorial chair?",
+  "src": "/lesson-diagrams/cyclohexane-cis-trans-grid.svg",
+  "width": 900,
+  "height": 620,
+  "alt": "A grid of the three disubstituted cyclohexane patterns, 1,2 and 1,3 and 1,4, against cis and trans. For 1,2 and 1,4 the trans isomer interconverts between diequatorial and diaxial while the cis isomer is axial-equatorial in both chairs; for 1,3 these are swapped, with cis reaching diequatorial. A panel states the rule: even relationships favour trans, the odd 1,3 relationship favours cis.",
+  "caption": "Even gap (1,2 and 1,4) → trans reaches diequatorial. Odd gap (1,3) → cis does. The other isomer stays axial–equatorial whichever way the ring flips.",
+  "beforeHeading": "## Disubstituted Cyclohexanes"
+ }
+}
