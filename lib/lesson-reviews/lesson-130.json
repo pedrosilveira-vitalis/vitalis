@@ -1,0 +1,58 @@
+{
+ "lessonId": 130,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  646,
+  647,
+  648,
+  649,
+  650
+ ],
+ "fingerprint": "39be001f1fe10ac93e3d0f251440a8757e23ed6edea1bb74b6337180b4651b64",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "If CO₂ is exhaled rapidly (as in hyperventilation), the partial pressure of CO₂ in blood drops, making Q < Keq for the carbonic acid equilibrium:",
+   "new": "If CO₂ is exhaled rapidly (as in hyperventilation), the partial pressure of CO₂ in blood drops. CO₂ is a *reactant* here, so removing it shrinks the denominator and Q **rises** above Keq:",
+   "reason": "The inequality is the wrong way round, and it contradicts the rule stated three paragraphs above it in the same lesson: Q < Keq means the reaction runs forward. CO₂ sits in the denominator, so removing it raises Q, giving Q > Keq and a leftward shift — which is the direction the passage then correctly describes. As printed, a student who trusts the inequality predicts the opposite shift and the opposite pH change."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Because Δn is negative, Kp < Kc for this reaction. Physically, this makes sense: at equilibrium, fewer moles of gas are present on the product side, so partial pressures favor products less than concentrations do.",
+   "new": "Because Δn is negative, Kp < Kc for this reaction. That difference is a change of *units*, not of chemistry: Kp and Kc describe the same equilibrium mixture, and (RT)^Δn is only the factor that converts between molarity and atmospheres. At 773 K, RT ≈ 63.5 L·atm/mol, so dividing by it twice is what makes Kp four thousand times smaller — nothing about the position of the equilibrium has moved.",
+   "reason": "\"Partial pressures favor products less than concentrations do\" says the equilibrium position depends on which constant you use, which is false — the same mixture gives both numbers. The gap between Kp and Kc is entirely the (RT)^Δn unit conversion, and saying so is what stops a student concluding that switching to pressures changes what the reaction does."
+  },
+  {
+   "field": "questions.648.choice_c",
+   "old": "Kp = 0.040 × (0.0821 × 500)^(-2)",
+   "new": "Kp = 0.040, because the moles of gas are unchanged",
+   "reason": "Choice C was algebraically identical to the keyed choice B — dividing by (RT)² and raising (RT) to the −2 power are the same operation — so the question had two correct answers, and its explanation conceded as much before settling on B as \"the clearest standard form\", which is not a basis for an answer. Replaced with the genuine error of taking Δn = 0 (4 moles of gas in, 2 out, read as balanced), which produces a distinct wrong number and tests whether the student actually counted."
+  },
+  {
+   "field": "questions.648.explanation",
+   "old": "Choices A and C both reflect the correct exponent sign in different forms, but only B correctly shows division, which is equivalent to raising to the -2 power; note that C is actually equivalent to B and both are correct representations, making B the clearest standard form.",
+   "new": "Choice A has the right magnitude but the wrong sign on delta n, multiplying by (RT)^2 where it should divide. Choice C is the error of treating delta n as zero: there are 4 moles of gas on the left and 2 on the right, so the moles are not balanced and Kp cannot equal Kc here. Choice D squares the exponent as well as the terms.",
+   "reason": "Rewritten to match the replaced choice C, and to give each distractor the specific slip that produces it rather than ranking two equivalent expressions by style."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Chemistry 2e — Fundamental Equilibrium Concepts (chapter 13 summary)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/13-summary",
+   "note": "A reversible reaction is at equilibrium when the forward and reverse processes occur at equal rates; the composition of a mixture is given by the reaction quotient Q, which equals K at equilibrium. Adding a reactant or removing a product lowers Q below K and shifts the system right; removing a reactant or adding a product raises Q above K and shifts it left."
+  },
+  {
+   "title": "Chemistry LibreTexts (OpenStax Chemistry 2e) — 13.2 Equilibrium Constants",
+   "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/13%3A_Fundamental_Equilibrium_Concepts/13.02%3A_Equilibrium_Constants",
+   "note": "Worked examples comparing Qc with Kc to predict the direction of shift, and the convention that pure solids and liquids are omitted from both expressions."
+  }
+ ],
+ "visual": {
+  "title": "What moves, and what does not",
+  "src": "/lesson-diagrams/equilibrium-what-moves.svg",
+  "width": 1180,
+  "height": 916,
+  "alt": "A number line places the reaction quotient against the equilibrium constant: below K there is too little product and the reaction runs forward, at K the system is at equilibrium, above K there is too much product and it runs in reverse. A worked clinical panel follows hyperventilation: carbon dioxide is a reactant in the carbonic acid equilibrium, so blowing it off shrinks the denominator, Q rises above K, the reaction runs left, hydrogen ion is consumed and pH rises — respiratory alkalosis. A table of stresses gives, for each, the direction of shift and whether K itself changes: adding a reactant or removing a product shifts right with K unchanged; compressing the gas shifts toward fewer moles of gas with K unchanged; adding an inert gas at constant volume does nothing; a catalyst does nothing to the position and only shortens the time taken; and raising the temperature is the only stress that changes K, lowering it for an exothermic reaction and raising it for an endothermic one. A panel gives the algebra — reversing inverts K, multiplying coefficients by n raises K to the nth power, adding reactions multiplies their constants — worked on a chain where A to B is 4.0 and B to C is 0.50, giving 2.0 for A to C and 0.0625 for 2B to 2A. A final panel gives Kp equals Kc times RT raised to the change in gaseous moles, worked for changes of minus two, minus one and zero, with the warning that solids and liquids are not counted and that the difference between Kp and Kc is a change of units, not of which side is favoured.",
+  "caption": "Concentration, pressure, volume and catalysts move the mixture along a fixed K. Only temperature moves K itself."
+ }
+}
