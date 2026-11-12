@@ -1,0 +1,61 @@
+{
+ "lessonId": 135,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  671,
+  672,
+  673,
+  674,
+  675
+ ],
+ "fingerprint": "c2666e184c798527510dcbff5fe564a56eb3cab7437102fdcddef177459a5eed",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "*Carboxylic acids > alcohols > amines (1°/2°) > amides > aldehydes/ketones > ethers ≈ alkanes*",
+   "new": "*Amides > carboxylic acids > alcohols > aldehydes/ketones ≈ amines (1°/2°) > esters > ethers ≈ alkanes*",
+   "reason": "Amides were placed below amines, contradicting the lesson's own data a few paragraphs earlier (formamide boils at 210 °C against acetic acid's 118 °C and ethanol's 78 °C). At matched molecular weight amides have the highest boiling points of the common functional groups: acetamide (MW 59) boils at 221 °C. Amines were also ranked above aldehydes and ketones, which the data do not support at matched weight (propylamine 48 °C, propanal 48 °C, acetone 56 °C), so those are now shown as comparable."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Short-chain alcohols (C1–C4) are *miscible with water* due to hydrogen bonding; solubility decreases as the nonpolar alkyl chain lengthens",
+   "new": "Methanol, ethanol and the propanols are *miscible with water* in all proportions due to hydrogen bonding, and so is *tert*-butanol; 1-butanol is already only partly soluble, roughly 9 g per 100 mL, and solubility keeps falling as the nonpolar alkyl chain lengthens",
+   "reason": "Miscibility stops at three carbons for straight-chain alcohols. 1-Butanol dissolves to about 9.1 mL per 100 mL of water at 25 °C, so calling C1-C4 miscible is wrong and conflicts with the solubility figures used elsewhere in the course."
+  },
+  {
+   "field": "lesson.content",
+   "old": "each molecule donates and accepts two hydrogen bonds simultaneously",
+   "new": "the pair is held together by two hydrogen bonds, with each molecule donating one and accepting one",
+   "reason": "A cyclic carboxylic acid dimer contains two hydrogen bonds in total, not two per molecule; each molecule supplies one O-H donor and one carbonyl acceptor."
+  },
+  {
+   "field": "lesson.content",
+   "old": "reaction with NaHCO₃ (pKₐ ~6.4) is diagnostic",
+   "new": "reaction with NaHCO₃ is diagnostic, since the acid that would have to form is H₂CO₃ (pKₐ ~6.4)",
+   "reason": "The pKa quoted belongs to carbonic acid, the conjugate acid of bicarbonate, not to NaHCO₃ itself (bicarbonate acting as an acid has pKa ~10.3). As written a student could carry the wrong number into a phenol-versus-carboxylic-acid comparison, where phenol's pKa is also ~10."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Physical Properties of Carboxylic Acid Derivatives — Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Supplemental_Modules_(Organic_Chemistry)/Amides/Properties_of_Amides/Physical_Properties_of_Carboxylic_Acid_Derivatives"
+  },
+  {
+   "title": "Boiling Points of Functional Groups — BYJU'S",
+   "url": "https://byjus.com/chemistry/boiling-points-of-functional-groups/"
+  },
+  {
+   "title": "Butanol — ChemEurope encyclopedia (solubility and miscibility data)",
+   "url": "https://www.chemeurope.com/en/encyclopedia/Butanol.html"
+  }
+ ],
+ "visual": {
+  "title": "Boiling point at matched molecular weight",
+  "src": "/lesson-diagrams/boiling-point-ladder.svg",
+  "width": 900,
+  "height": 720,
+  "alt": "A horizontal bar chart of normal boiling points for nine compounds of molecular weight 58 to 60: acetamide 221 degrees Celsius, acetic acid 118, 1-propanol 97, acetone 56, propanal 48, propylamine 48, methyl formate 32, methoxyethane 7.4, and butane minus 0.5. Bars are coloured by whether the molecule both donates and accepts hydrogen bonds, only accepts them, or neither, and a right-hand column states that capability for each compound.",
+  "caption": "Hold molecular weight fixed and the ordering falls out of hydrogen bonding: amides top the list, and the two N–H donors plus a strongly polarised C=O put them above the carboxylic acid dimer.",
+  "beforeHeading": "## Comparing Functional Groups: Boiling Points and Acidity"
+ }
+}
