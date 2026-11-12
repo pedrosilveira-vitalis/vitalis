@@ -1,0 +1,57 @@
+{
+ "lessonId": 143,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  711,
+  712,
+  713,
+  714,
+  715
+ ],
+ "fingerprint": "6ac9f31a546673524652b8ebbc88a866e37c8f4a4e3aa6cfa583e9ceaafb6fa6",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "The enzyme **aldolase** uses a lysine residue to form an imine with dihydroxyacetone phosphate, activating the substrate for carbon-carbon bond cleavage.",
+   "new": "Class I **aldolase** uses an active-site lysine to form a Schiff base with a ketose carbonyl. In the glycolytic direction the lysine attacks the C2 carbonyl of fructose 1,6-bisphosphate, and the protonated Schiff base acts as the electron sink that lets the C3–C4 bond break, releasing glyceraldehyde 3-phosphate and leaving a DHAP-enamine on the enzyme. Run in reverse, for gluconeogenesis, the Schiff base forms with DHAP first and its enamine attacks the aldehyde of G3P.",
+   "reason": "The sentence paired the DHAP Schiff base with carbon–carbon bond cleavage, but DHAP is a three-carbon product with no C–C bond to break at that step. In the cleavage direction the lysine attacks the C2 carbonyl of fructose 1,6-bisphosphate; the DHAP Schiff base is the species that opens the condensation direction. Both directions are now named."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The enzyme **glycosidase** hydrolyzes these bonds under acidic conditions (in the stomach and intestine), regenerating the free sugars.",
+   "new": "In the body these bonds are cut enzymatically rather than by stomach acid: glycosidases such as sucrase, lactase and maltase hydrolyse them at the small-intestinal brush border, regenerating the free sugars.",
+   "reason": "Glycosidases hydrolyse glycosidic bonds catalytically at near-neutral pH; crediting the hydrolysis to acidic conditions conflates enzymatic with acid-catalysed hydrolysis. Disaccharide digestion also happens at the small-intestinal brush border, not in the stomach — gastric acid inactivates salivary amylase rather than carrying out the digestion."
+  },
+  {
+   "field": "lesson.content",
+   "old": "to −1 (primary or secondary alcohol)",
+   "new": "to −1 in a primary alcohol or 0 in a secondary alcohol",
+   "reason": "Counting bonds for a secondary alcohol carbon gives +1 for the oxygen, −1 for the hydrogen and 0 for each of the two carbons, so the oxidation state is 0, not −1. Only the primary-alcohol carbon is −1."
+  },
+  {
+   "field": "lesson.content",
+   "old": "and is catalyzed by CN⁻ (base catalysis)",
+   "new": "and uses CN⁻ as the nucleophile, generated from HCN under mildly basic conditions",
+   "reason": "Cyanide is consumed as the nucleophile and ends up in the product, so it is not a catalyst. Base is what generates CN⁻ from HCN (pKa ≈ 9.2), which the lesson states correctly in the mechanism section."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Fructose-bisphosphate aldolase (Class I) — M-CSA entry 222 (Lys229 attacks the C2 carbonyl of FBP)",
+   "url": "https://www.ebi.ac.uk/thornton-srv/m-csa/entry/222"
+  },
+  {
+   "title": "Some Biological Carbonyl Condensation Reactions — Chemistry LibreTexts (DHAP Schiff base in the condensation direction)",
+   "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_(Morsch_et_al.)/23%3A_Carbonyl_Condensation_Reactions/23.13%3A_Some_Biological_Carbonyl_Condensation_Reactions"
+  }
+ ],
+ "visual": {
+  "title": "One attack, then a fork: keep the oxygen or lose it as water",
+  "src": "/lesson-diagrams/carbonyl-addition-fork.svg",
+  "width": 900,
+  "height": 668,
+  "alt": "A flow diagram. A nucleophile attacks the sp2 carbonyl carbon, which rehybridises to sp3 and gives a tetrahedral alkoxide intermediate. The intermediate then forks. On the left branch the oxygen is simply protonated and the reaction stops: water gives a hydrate, one alcohol gives a hemiacetal, cyanide gives a cyanohydrin and hydride gives an alcohol. On the right branch the oxygen is protonated and leaves as water: a second alcohol gives an acetal or ketal, a primary amine gives an imine and a secondary amine gives an enamine. A panel notes that the right branch needs acid but that too much protonates the amine, so imine and enamine formation peak near pH 4 to 5, and that the Wittig is the outlier because its oxygen leaves with phosphorus.",
+  "caption": "Every nucleophile does the same first thing. What sorts the products is whether the tetrahedral intermediate simply gets protonated or goes on to lose water.",
+  "beforeHeading": "## Comparing Nucleophilic Addition Reactions: A Summary"
+ }
+}
