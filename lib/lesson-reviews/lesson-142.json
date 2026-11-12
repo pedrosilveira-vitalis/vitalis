@@ -1,0 +1,51 @@
+{
+ "lessonId": 142,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  706,
+  707,
+  708,
+  709,
+  710
+ ],
+ "fingerprint": "3be0ba9b0c24ccd1bc64da1eda7bf313577a8a85cf0221876438982b1eaf9496",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "because C–F is the strongest bond and its electron-withdrawing inductive effect best stabilizes the anionic intermediate",
+   "new": "because the C–X bond is not broken in the rate-determining step — addition of the nucleophile is — so bond strength barely matters, while fluorine's strong inductive withdrawal makes that addition step fastest and best stabilizes the anionic intermediate",
+   "reason": "A strong C–F bond is a reason fluoride should be a *poor* leaving group, not a good one; stated as the cause it teaches the opposite of the mechanism. The actual explanation is that in SNAr the C–X bond breaks after the rate-determining addition, so leaving-group ability hardly affects the rate, and fluorine's electronegativity speeds the addition step (relative rate ~3300 vs iodide, with Cl, Br and I within a factor of about five of each other)."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Know the two-step mechanism cold: (1) electrophile generation, (2) rate-determining attack forming the arenium ion, (3) deprotonation restoring aromaticity.",
+   "new": "Know the sequence cold: (1) electrophile generation, then the two steps on the ring — (2) rate-determining attack forming the arenium ion and (3) deprotonation restoring aromaticity.",
+   "reason": "The sentence announced a two-step mechanism and then listed three steps. Only the attack and the deprotonation happen on the ring; electrophile generation precedes them."
+  },
+  {
+   "field": "lesson.content",
+   "old": "**Nonaromatic** compounds fail one or more criteria but are not cyclic, planar, and conjugated with 4n electrons.",
+   "new": "**Nonaromatic** compounds fail at least one of the four criteria and are not antiaromatic either — that is, they are not simultaneously cyclic, planar, fully conjugated and carrying 4n π electrons.",
+   "reason": "As written the sentence could be read as saying nonaromatic compounds are not cyclic, not planar and not conjugated, which is false — a nonaromatic ring may satisfy three of the four criteria. The distinction between nonaromatic and antiaromatic is directly tested."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Nucleophilic Aromatic Substitution — Master Organic Chemistry (C–F cleavage is not the rate-limiting step)",
+   "url": "https://masterorganicchemistry.com/2018/08/20/nucleophilic-aromatic-substitution/"
+  },
+  {
+   "title": "Nucleophilic aromatic substitution — Wikipedia (leaving-group order F > Cl ≈ Br > I)",
+   "url": "https://en.wikipedia.org/wiki/Nucleophilic_aromatic_substitution"
+  }
+ ],
+ "visual": {
+  "title": "Why a substituent directs: where the arenium ion puts its charge",
+  "src": "/lesson-diagrams/eas-directing-arenium.svg",
+  "width": 900,
+  "height": 640,
+  "alt": "Three benzene rings show electrophilic attack at the ortho, meta and para positions relative to a substituent G. In each ring the three carbons that carry positive charge in the arenium ion are marked. For ortho and para attack the carbon bearing G is one of them; for meta attack it is not. Two panels below give the consequence: a lone-pair donor stabilises that contributor and so directs ortho and para, while a resonance withdrawer destabilises it, suppressing ortho and para and leaving meta.",
+  "caption": "The three charged carbons sit ortho and para to the carbon the electrophile hit. Whether the substituent's own carbon is one of them is the whole of the directing rule.",
+  "beforeHeading": "### The Mechanistic Rationale"
+ }
+}
