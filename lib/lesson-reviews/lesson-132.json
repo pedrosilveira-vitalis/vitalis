@@ -1,0 +1,58 @@
+{
+ "lessonId": 132,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  656,
+  657,
+  658,
+  659,
+  660
+ ],
+ "fingerprint": "71d1edc8388771673273ee74f6dd5b92ba9bfa9f852a9ed7c8fdb34d6945ebbf",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "The reaction shifts *in reverse* (again toward the side with more moles of gas).",
+   "new": "The reaction shifts *in reverse* — toward the side with more moles of gas, which is the opposite of what compression does.",
+   "reason": "\"Again\" points back to the compression case, which went toward *fewer* moles of gas, so the sentence tells a student the two opposite stresses have the same outcome. The rest of the paragraph and the summary table both have it right; this is the one line that would mis-set the memory."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The Bohr effect illustrates Le Chatelier's Principle beautifully. Increased CO₂ and H⁺ in metabolically active tissues (which lower pH) shift the hemoglobin-oxygen equilibrium *left*, promoting oxygen unloading exactly where it is needed.",
+   "new": "The Bohr effect illustrates Le Chatelier's Principle beautifully. Increased CO₂ and H⁺ in metabolically active tissues (which lower pH) shift the hemoglobin-oxygen *binding equilibrium* Hb + O₂ ⇌ HbO₂ to the **left**, promoting oxygen unloading exactly where it is needed. Note that this is the same physical event the physiology sections call a **right shift of the dissociation curve** (higher P₅₀, lower affinity) — left for the binding equilibrium, right for the curve. The two descriptions are opposite words for one thing, and questions exploit that.",
+   "reason": "The course teaches the Bohr effect twice in opposite vocabularies: here as a leftward shift of the binding equilibrium, and in the respiratory lessons as a rightward shift of the oxyhaemoglobin dissociation curve with P₅₀ rising. Both are correct in their own frame, but a student meeting the two without the bridge concludes one of them is wrong. One sentence reconciles them."
+  },
+  {
+   "field": "questions.659.choice_c",
+   "old": "Equilibrium position and Kc are both unchanged",
+   "new": "Equilibrium shifts toward products, but Kc is unchanged",
+   "reason": "Choice C was a true statement — the position and Kc are indeed both unchanged — so it competed with the keyed choice D, which says the same thing and adds the rate effect. A question cannot be decided by which of two correct answers is fuller. Replaced with the actual misconception the question is built to catch: that a catalyst helps the forward reaction along and so produces more product."
+  },
+  {
+   "field": "questions.659.explanation",
+   "old": "This is a classic misconception tested on the MCAT: catalysts affect kinetics, not thermodynamics.",
+   "new": "This is a classic misconception tested on the MCAT: catalysts affect kinetics, not thermodynamics. Choice C is that misconception in its commonest form — a catalyst is imagined to assist the forward reaction specifically. It lowers the barrier in both directions by exactly the same amount, so the forward and reverse rates rise by the same factor and the position does not move at all.",
+   "reason": "The explanation needs to account for the replaced choice C, and the reason it is wrong — equal lowering in both directions — is the mechanism the question is really testing."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Chemguide — The Haber Process",
+   "url": "https://chemguide.co.uk/physical/equilibria/haber.html",
+   "note": "Ammonia synthesis is exothermic, so a low temperature gives the higher equilibrium proportion but the reaction becomes far too slow; 400–450 °C is a compromise producing only about 15% ammonia but in a very short time. 200 atm is a compromise pressure chosen on economic grounds. The catalyst has no effect whatsoever on the position of the equilibrium — its only function is to speed up the reaction."
+  },
+  {
+   "title": "AUS-e-TUTE — Uses and production of ammonia by the Haber process",
+   "url": "https://www.ausetute.com.au/haberpro.html",
+   "note": "Kc for ammonia synthesis falls as temperature rises (6.4 × 10² at 25 °C, 4.3 × 10⁻³ at 300 °C, 1.6 × 10⁻⁴ at 400 °C), confirming the exothermic direction of the temperature effect. At roughly 200 atm and about 500 °C the equilibrium yield is 10–20%."
+  }
+ ],
+ "visual": {
+  "title": "Le Chatelier, and the price of using it",
+  "src": "/lesson-diagrams/le-chatelier-haber.svg",
+  "width": 1180,
+  "height": 920,
+  "alt": "A plot of the equilibrium percentage of ammonia against temperature at three pressures, from published Haber-process data: at 100 atmospheres the yield falls from about 82% at 200 degrees to 53, 25 and 11 per cent at 300, 400 and 500; at 200 atmospheres from 89 to 67, 39 and 18; at 400 atmospheres from 95 to 80, 55 and 32. Every curve falls with temperature, because the reaction is exothermic, and rises with pressure, because four moles of gas become two. The industrial window at 400 to 450 degrees and about 200 atmospheres is shaded, with the note that it yields only about 15 to 20 per cent and that the 67 per cent available at 300 degrees is refused because it arrives far too slowly. A panel sets out the inert-gas trap: argon at constant volume raises the total pressure but no partial pressure, so nothing shifts, while argon at constant total pressure forces the volume to expand, lowering every partial pressure and shifting the system toward the side with more moles of gas. A panel gives three biological cases: the carbonic acid system, where exercise raises carbon dioxide and lowers pH while faster breathing does the reverse; the Bohr effect, where acid, carbon dioxide and heat push the binding equilibrium left to release oxygen, which is the same event as a right shift of the dissociation curve; and the common ion effect, where added chloride precipitates silver chloride while ammonia dissolves it by binding silver. Footers explain why heating an exothermic reaction lowers K, through the dependence of the standard free energy change on temperature, and state the two limits of the principle: direction only and never magnitude, and that a catalyst is not a stress at all.",
+  "caption": "Low temperature gives the better yield; high temperature gives it sooner. The plant runs at 450 °C and takes 15% quickly over 67% eventually."
+ }
+}
