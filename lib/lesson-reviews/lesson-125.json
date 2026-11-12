@@ -1,0 +1,75 @@
+{
+ "lessonId": 125,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  621,
+  622,
+  623,
+  624,
+  625
+ ],
+ "fingerprint": "61ced88ee2881f10df67bbca0db2cc382e399dd167a67c08b0f3a56a019081c1",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "At higher temperatures (40°C), the 1,4-addition product (the thermodynamic product) predominates because it is more stable (the more substituted, conjugated product).",
+   "new": "At higher temperatures (40 °C), the 1,4-addition product (the thermodynamic product) predominates because it is more stable: its double bond is internal and disubstituted, where the 1,2-product's is terminal and monosubstituted, and alkene stability rises with substitution. Neither product is conjugated — the conjugation belongs to the butadiene starting material and to the allylic cation, and both are gone once bromide adds.",
+   "reason": "The stated reason was wrong. The 1,2-adduct is 3-bromo-1-butene and the 1,4-adduct is 1-bromo-2-butene; neither contains a conjugated system. The 1,4-adduct is more stable because its alkene is internal and disubstituted rather than terminal and monosubstituted, which is the Zaitsev-style reasoning the MCAT actually asks for. A student told the answer is conjugation will mis-rank any other kinetic/thermodynamic pair."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Values range from less than 1 s⁻¹ for slow enzymes to 10^7 s⁻¹ for carbonic anhydrase.",
+   "new": "Values range from less than 1 s⁻¹ for slow enzymes to about 10⁶ s⁻¹ for carbonic anhydrase, whose isoforms span roughly 10⁴–10⁶ s⁻¹. The record belongs to catalase, with reported turnover numbers up to about 4 × 10⁷ s⁻¹.",
+   "reason": "Carbonic anhydrase's k_cat is about an order of magnitude lower than stated — the catalytic constants of its isoforms run from 10⁴ to 10⁶ s⁻¹ — and the ~10⁷ figure belongs to catalase, which is the fastest enzyme known. Both numbers are the kind that appear in passage data, so the attribution matters."
+  },
+  {
+   "field": "lesson.content",
+   "old": "**Allosteric enzymes** have multiple subunits with multiple active sites, and binding of substrate (or regulator) at one site influences binding at other sites.",
+   "new": "**Allosteric enzymes** are regulated by binding at a site other than the one doing the catalysis. Most are multi-subunit, so that substrate binding at one active site changes the affinity of the others — but subunits are not required: human glucokinase is a single polypeptide and still gives a sigmoidal curve, through a slow conformational change rather than site-to-site communication.",
+   "reason": "Stated as a requirement, this contradicts the allostery lesson in this course, which makes the monomeric-glucokinase point explicitly and warns that a sigmoidal curve does not by itself identify a multi-subunit mechanism. Narrowed to what is actually definitional, with the counterexample named."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Both V_max and K_M are affected, and the lines on a Lineweaver-Burk plot intersect in the second quadrant (not on either axis).",
+   "new": "Both V_max and K_M are affected, and the lines on a Lineweaver-Burk plot intersect off both axes. Which side depends on where the inhibitor binds more tightly: bind free enzyme harder and apparent K_M rises, putting the crossing point above the x-axis; bind ES harder and apparent K_M falls, putting it below.",
+   "reason": "Mixed inhibition does not always cross in the second quadrant. When the inhibitor prefers the ES complex, apparent K_M falls and the lines cross below the x-axis; the inhibition lesson in this course already states that mixed inhibition can raise or lower apparent K_M. The distinguishing feature against competitive, pure noncompetitive and uncompetitive is that the crossing lies on neither axis, which is what the sentence should be teaching."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Consider the synthesis of cholesterol from squalene epoxide: the reaction could in principle produce numerous ring-closure products, but the enzyme oxidosqualene cyclase guides the substrate through a specific transition state to produce exclusively the correct stereochemistry at multiple chiral centers.",
+   "new": "Consider the cyclisation of squalene epoxide on the route to cholesterol: the reaction could in principle produce numerous ring-closure products, but the enzyme oxidosqualene cyclase guides the substrate through a specific transition state to produce a single product — lanosterol, with the correct stereochemistry set at several chiral centres in one step. Cholesterol itself is still many enzymatic steps away.",
+   "reason": "Oxidosqualene cyclase makes lanosterol, not cholesterol; roughly nineteen further enzymatic steps separate the two. The point being illustrated — one enzyme fixing several stereocentres by transition-state selection — survives intact and is actually sharper when the real product is named."
+  },
+  {
+   "field": "questions.623.explanation",
+   "old": "Choice A is tempting because it correctly identifies a change in the x-intercept but incorrectly states the y-intercept changes, which is characteristic of noncompetitive inhibition.",
+   "new": "Choice A is tempting because it gets the x-intercept right, but it also moves the y-intercept, which competitive inhibition does not. That combination — a higher y-intercept together with an x-intercept nearer the origin — is the signature of mixed inhibition, not of noncompetitive inhibition, which leaves the x-intercept exactly where it was.",
+   "reason": "The explanation named the wrong inhibition type. Pure noncompetitive inhibition raises the y-intercept while leaving the x-intercept unchanged, so choice A does not describe it; raising the y-intercept and moving the x-intercept toward the origin is mixed inhibition. Since identifying these patterns from a double-reciprocal plot is the skill being tested, the label has to be right."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Chemistry LibreTexts — Kinetic vs. thermodynamic control of reactions",
+   "url": "https://chem.libretexts.org/Courses/University_of_Alberta_Augustana_Campus/AUCHE_252_-_Organic_Chemistry_II/07%3A_Conjugated_Pi_Systems/7.03%3A_Kinetic_vs._Thermodynamic_Control_of_Reactions",
+   "note": "The 1,4 addition product is more stable because it has an internal, disubstituted double bond, against the terminal, monosubstituted alkene of the 1,2 product; alkene stability rises with substitution. At 0 °C or below the 1,2 product dominates, at 40 °C the 1,4 product does."
+  },
+  {
+   "title": "OpenStax, Organic Chemistry — 14.3 Kinetic versus thermodynamic control",
+   "url": "https://openstax.org/books/organic-chemistry/pages/14-3-kinetic-versus-thermodynamic-control-of-reactions",
+   "note": "At 0 °C HBr adds to 1,3-butadiene under kinetic control to give a 71:29 mixture favouring the faster-formed 1,2 adduct; at 40 °C the mixture becomes 15:85 in favour of the more stable 1,4 adduct, the products interconverting by dissociation back to the common allylic cation."
+  },
+  {
+   "title": "Lindskog, \"Structure and mechanism of carbonic anhydrase\", Pharmacology & Therapeutics 74:1–20 (1997)",
+   "url": "https://doi.org/10.1016/s0163-7258(96)00198-2",
+   "note": "Catalytic constants for the different forms of carbonic anhydrase range between about 10⁴ and 10⁶ s⁻¹; the enzyme's rate is typically limited by substrate diffusion. Catalase, not carbonic anhydrase, holds the record turnover number at up to ~4 × 10⁷ s⁻¹."
+  }
+ ],
+ "visual": {
+  "title": "Fastest is not the same as most stable",
+  "src": "/lesson-diagrams/kinetic-vs-thermodynamic-control.svg",
+  "width": 1180,
+  "height": 850,
+  "alt": "A free-energy against reaction-coordinate plot in which one set of reactants branches into two routes: a lower barrier leading to a shallower product, the kinetic product that forms faster, and a higher barrier leading to a deeper product, the thermodynamic product that is more stable. Two panels set the conditions against the outcome. Kinetic control — low temperature, short time, irreversible — means the products cannot interconvert and the system is trapped where it first landed, so the product over the lower barrier wins. Thermodynamic control — higher temperature, long time, reversible — means the products interconvert back through the reactant and the system equilibrates, so the more stable product wins. The deciding question is whether the system can climb back out of the kinetic well in the time and at the temperature of the experiment. A worked case covers HBr added to 1,3-butadiene: at minus 80 degrees the 1,2 adduct dominates as the kinetic product, at 40 degrees the 1,4 adduct dominates as the thermodynamic product because its double bond is internal and more substituted, and neither product is conjugated. A footer notes that a catalyst lowers both barriers and so changes neither which product is more stable nor where the equilibrium lies, while an enzyme works the other way, using transition-state selectivity to hold a reaction under kinetic control.",
+  "caption": "The conditions, not the reaction, decide which product you isolate — and the question that settles it is whether the system can climb back out of the first well it falls into."
+ }
+}
