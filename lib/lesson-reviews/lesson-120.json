@@ -1,0 +1,47 @@
+{
+ "lessonId": 120,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  596,
+  597,
+  598,
+  599,
+  600
+ ],
+ "fingerprint": "4b5b4805fddd1127efaad4cda7851ebb19b4f92aea8b31e41403345ed7d8ad3f",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Folding releases enthalpy (favorable hydrophobic interactions, hydrogen bonds) but decreases entropy (the polypeptide loses conformational freedom).",
+   "new": "Folding releases enthalpy (hydrogen bonds and tight van der Waals packing in the core) but decreases the protein's own entropy (the chain loses conformational freedom). Keep the hydrophobic effect out of the enthalpy column — it is entropic, and the entropy it releases belongs to the water, not the protein.",
+   "reason": "The parenthetical listed hydrophobic interactions as a source of favourable enthalpy. The hydrophobic effect is entropic, and the entropy gained is the solvent's — exactly the point this course makes in the entropy and Gibbs lessons, so the lesson contradicted itself. This is tested directly: the MCAT asks what drives folding, and \"hydrophobic = entropy of water\" is the keyed reasoning."
+  },
+  {
+   "field": "lesson.content",
+   "old": "More importantly, biological systems exploit temperature sensitivity: fever (elevated body temperature) alters equilibrium constants of enzymatic reactions and can disrupt pathogen metabolism more than host metabolism, partly because pathogen enzymes may have different thermal sensitivities.",
+   "new": "Note the limit of this reasoning, though: a few degrees of fever shifts equilibrium constants only slightly, and the benefits of fever are mainly immunological. Temperature changes reaction *rates* far more steeply than it changes equilibrium positions.",
+   "reason": "The claim that fever works by shifting the equilibrium constants of pathogen enzymes is not supported — over a few degrees K barely moves, and the documented benefits of fever are immunological. Replaced with the kinetics-versus-thermodynamics contrast, which is the MCAT-relevant takeaway."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Dill, K. A., \"Dominant forces in protein folding\", Biochemistry 29, 7133 (1990)",
+   "url": "https://pubs.acs.org/doi/10.1021/bi00483a001",
+   "note": "The hydrophobic effect is predominantly entropic, arising from release of ordered solvent; hydrogen bonding and van der Waals packing supply the favourable enthalpy of folding."
+  },
+  {
+   "title": "Evans, Repasky & Fisher, \"Fever and the thermal regulation of immunity\", Nat Rev Immunol 15, 335 (2015)",
+   "url": "https://www.nature.com/articles/nri3843",
+   "note": "Fever acts through enhanced leukocyte trafficking and lymphocyte function, heat-shock responses and reduced iron availability — not through thermodynamic shifts in pathogen enzyme equilibria."
+  }
+ ],
+ "visual": {
+  "title": "ΔG°, K and E° are one number in three costumes",
+  "src": "/lesson-diagrams/gibbs-k-e-triangle.svg",
+  "width": 1180,
+  "height": 836,
+  "alt": "A triangle linking standard free energy change, the equilibrium constant and standard cell potential, with the conversion on each edge and a sign rule inside. Beside it, a ruler plotting standard free energy against the equilibrium constant on a logarithmic scale from +17.1 to −30.5 kJ/mol, marking ATP hydrolysis, and showing that every 5.7 kJ/mol is one factor of ten. Panels below distinguish the chemical and biochemical standard states and work the hexokinase coupling arithmetic, and two footers separate ΔG° from ΔG and thermodynamics from kinetics.",
+  "caption": "The ruler is the piece worth memorising: 5.7 kJ/mol per factor of ten in K, at 298 K. It turns a free energy into an equilibrium position in your head, which is most of what these questions ask for.",
+  "beforeHeading": "## Deriving ΔG° = −RT ln K"
+ }
+}

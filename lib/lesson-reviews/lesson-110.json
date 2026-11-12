@@ -1,105 +1,105 @@
 {
-  "lessonId": 110,
-  "reviewedAt": "2026-11-11",
-  "questionIds": [
-    546,
-    547,
-    548,
-    549,
-    550
-  ],
-  "fingerprint": "42d644731eeb20c33c3a4a4defb6b1173ab2e9e389c7f6c4cca5bd9743099bfc",
-  "patches": [
-    {
-      "field": "lesson.content",
-      "old": "HI (pKa ≈ −10) >> HCl (pKa ≈ −7) >> HBr (pKa ≈ −9) in terms of acid strength",
-      "new": "HI (pKa ≈ −10) > HBr (pKa ≈ −9) > HCl (pKa ≈ −7) in terms of acid strength",
-      "reason": "The ordering as printed put HCl ahead of HBr while giving HCl the higher (weaker) pKa, so it contradicted both its own numbers and the rule it was illustrating — that acid strength increases down the group. Reordered to match."
-    },
-    {
-      "field": "lesson.content",
-      "old": "Solving exactly using the quadratic formula yields x = 1.34 × 10⁻³ M, so [H₃O⁺] = 1.34 × 10⁻³ M and pH = −log(1.34 × 10⁻³) ≈ 2.87.",
-      "new": "Solving exactly using the quadratic formula yields x = 1.33 × 10⁻³ M, so [H₃O⁺] = 1.33 × 10⁻³ M and pH = −log(1.33 × 10⁻³) ≈ 2.88.",
-      "reason": "The quadratic x² + (1.8 × 10⁻⁵)x − 1.8 × 10⁻⁶ = 0 gives x = (−1.8 × 10⁻⁵ + √(7.200 × 10⁻⁶))/2 = 1.333 × 10⁻³, not 1.34 × 10⁻³. The figure quoted was in fact the approximate answer, so the exact and approximate results had been made identical by arithmetic error."
-    },
-    {
-      "field": "lesson.content",
-      "old": "This matches the exact answer to three significant figures because the approximation is valid here.",
-      "new": "That is within about 1% of the exact value (1.33 × 10⁻³ M), and the two give the same pH to two decimal places — the approximation is valid here.",
-      "reason": "The approximate value 1.342 × 10⁻³ and the exact value 1.333 × 10⁻³ differ in the third significant figure, so the original claim was not true. Restated in terms of the agreement that actually holds."
-    },
-    {
-      "field": "lesson.content",
-      "old": "Acetic acid has pKa = 4.74; carbonic acid's first dissociation has pKa = 6.1; ammonium ion (NH₄⁺) has pKa = 9.25.",
-      "new": "Acetic acid has pKa = 4.74; the first dissociation of the blood CO₂/bicarbonate system has an apparent pKa of 6.1 at body temperature (see the polyprotic section below for what that number really measures); ammonium ion (NH₄⁺) has pKa = 9.25.",
-      "reason": "This gave carbonic acid pKa1 = 6.1 while the polyprotic section later in the same lesson gives 6.35, and neither figure is the true pKa1 of H₂CO₃. Flagged here and explained where the two values are introduced, so the lesson no longer states two different numbers for the same quantity."
-    },
-    {
-      "field": "lesson.content",
-      "old": "H₂CO₃ ⇌ H⁺ + HCO₃⁻, Ka1 = 4.3 × 10⁻⁷ (pKa1 = 6.35)",
-      "new": "CO₂(aq) + H₂O ⇌ H⁺ + HCO₃⁻, Ka1′ = 4.3 × 10⁻⁷ (pKa1′ = 6.35 at 25 °C; 6.1 at 37 °C and blood ionic strength)\n\nThis is an *apparent* constant, and the distinction is worth holding onto. It is written over total dissolved CO₂, not over H₂CO₃, because only about 1 molecule in 400 of dissolved CO₂ is hydrated to carbonic acid at any moment. The true first dissociation constant of H₂CO₃ itself corresponds to a pKa near 3.6 — carbonic acid is a far stronger acid than the familiar 6.1 suggests; there is just very little of it. General chemistry tables and physiology both use the apparent constant, which is why you will see 6.35 in one place and 6.1 in another: same quantity, different temperature and ionic strength.",
-      "reason": "Writing Ka1 = 4.3 × 10⁻⁷ against the equation H₂CO₃ ⇌ H⁺ + HCO₃⁻ mislabels an apparent constant as a true one, and left the lesson quoting pKa1 as 6.1 in two places and 6.35 in another with no explanation. The true pKa1 of H₂CO₃ is about 3.6; 6.35 and 6.1 are the same apparent constant for dissolved CO₂ at 25 °C and at body temperature respectively."
-    },
-    {
-      "field": "lesson.content",
-      "old": "- Carbonic acid: pKa1 = 6.1 (physiological approximation), pKa2 = 10.3",
-      "new": "- Dissolved CO₂ / bicarbonate: apparent pKa1′ = 6.1 at body temperature (6.35 at 25 °C); bicarbonate pKa2 = 10.3",
-      "reason": "Aligned with the correction above, so the memorisation list names the quantity the number actually belongs to."
-    },
-    {
-      "field": "lesson.content",
-      "old": "√(1.8 × 10⁻⁶) = √(18 × 10⁻⁷) ≈ 4.2 × 10⁻³·⁵\n\nOr more directly: √(1.8) ≈ 1.34, √(10⁻⁶) = 10⁻³, so x ≈ 1.34 × 10⁻³.",
-      "new": "The trick is to make the exponent even before you split the square root, because √(10⁻⁶) = 10⁻³ but √(10⁻⁷) is not a round number. Here the exponent is already even: √(1.8) ≈ 1.34 and √(10⁻⁶) = 10⁻³, so x ≈ 1.34 × 10⁻³.\n\nWhen the exponent is odd, shift one power of ten into the coefficient first. For √(2.0 × 10⁻⁷), rewrite as √(20 × 10⁻⁸) = √20 × 10⁻⁴ ≈ 4.5 × 10⁻⁴.",
-      "reason": "\"√(18 × 10⁻⁷) ≈ 4.2 × 10⁻³·⁵\" is not a usable result — a fractional power of ten cannot be read off or converted to a pH — and the manipulation shown goes in the wrong direction, turning an even exponent into an odd one. Replaced with the technique that actually makes the estimate work, together with a worked case of an odd exponent."
-    },
-    {
-      "field": "lesson.content",
-      "old": "Weak acids are better absorbed in the acidic stomach; weak bases are better absorbed in the more basic small intestine.",
-      "new": "A weak acid is largely un-ionized in the acidic stomach and a weak base largely un-ionized in the more alkaline small intestine, and the un-ionized form is the one that crosses membranes. Note what this does and does not say: it describes the *fraction available* to cross at a given pH, not where most of a dose is absorbed. In practice the small intestine absorbs most of both, because its surface area exceeds the stomach's by orders of magnitude.",
-      "reason": "The sentence as written states the pH-partition hypothesis as a conclusion about absorption, which is the form in which it is routinely wrong: the small intestine's vastly greater absorptive surface means most of an orally administered weak acid is absorbed there too, despite being more ionized. Kept the principle, which is testable, and separated it from the claim about site of absorption, which is not accurate."
-    },
-    {
-      "field": "questions.546.explanation",
-      "old": "Choice C is tempting if students forget to square [H+] in the numerator.",
-      "new": "Choice B is what you get by computing [H⁺][A⁻] = (1.0 × 10⁻³)² and forgetting to divide by [HA]; choice D is [H⁺] itself, reported as though it were the constant.",
-      "reason": "The stated route to choice C does not produce choice C: forgetting to square gives (1.0 × 10⁻³)/0.10 = 1.0 × 10⁻², which is not among the options. Replaced with the errors that do produce the distractors on the page."
-    },
-    {
-      "field": "questions.549.explanation",
-      "old": "For HX, [H+] = sqrt(1.0 x 10^-3 x 0.10) = 0.010 M, giving pH 2.",
-      "new": "For HX, the square-root estimate gives [H⁺] = √(1.0 × 10⁻³ × 0.10) = 0.010 M and pH 2. Note that this is 10% dissociation, so the 5% rule has been broken and the estimate is only approximate; the quadratic gives [H⁺] = 9.5 × 10⁻³ M and pH 2.02. The comparison is unaffected.",
-      "reason": "The explanation applied the square-root approximation to a case with about 10% dissociation without comment, in a lesson whose central procedural point is that this check is not optional. The exact values are given so the worked numbers are right and the rule the lesson teaches is not quietly contradicted."
-    }
-  ],
-  "sources": [
-    {
-      "title": "Carbonic acid — true versus apparent first dissociation constant",
-      "url": "https://pubs.acs.org/doi/10.1021/ja00171a021",
-      "note": "Only a small fraction (on the order of 1 in 400) of dissolved CO₂ exists as H₂CO₃, so the familiar Ka1 of 4.3 × 10⁻⁷ (pKa 6.35) is an apparent constant written over total dissolved CO₂. The true pKa1 of H₂CO₃ itself is close to 3.6."
-    },
-    {
-      "title": "Henderson–Hasselbalch for the bicarbonate buffer (clinical form)",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482248/",
-      "note": "pK′ = 6.1 is the apparent constant at 37 °C and physiological ionic strength; 6.35 is the same constant at 25 °C."
-    },
-    {
-      "title": "pH-partition hypothesis and the site of oral drug absorption",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557405/",
-      "note": "Ionization state governs the fraction of drug able to cross a membrane, but the small intestine's far greater surface area means it is the principal site of absorption for weak acids as well as weak bases."
-    },
-    {
-      "title": "CRC Handbook of Chemistry and Physics — aqueous pKa values of the hydrogen halides",
-      "url": "https://hbcp.chemnetbase.com/",
-      "note": "Acid strength increases down the halogen group: HF (3.17) < HCl (≈ −7) < HBr (≈ −9) < HI (≈ −10)."
-    }
-  ],
-  "visual": {
-    "title": "One procedure, one check, one counterintuitive fact",
-    "src": "/lesson-diagrams/weak-acid-ice-and-dilution.svg",
-    "width": 1120,
-    "height": 780,
-    "alt": "On the left, a six-step flow: identify which species reacts with water, get the right constant (converting with Ka × Kb = Kw if needed), build the ICE table, try the square-root approximation, check the 5% rule, and convert to pH or pOH; with a panel giving the shortcut pH ≈ ½(pKa − log C₀). On the right, a plot of percent dissociation of acetic acid against log concentration, computed exactly, rising steeply as the solution is diluted and crossing the dashed 5% line at about 7 mM, with a panel explaining why dilution raises the dissociated fraction.",
-    "caption": "Step 5 is the whole game: the curve on the right shows how fast acetic acid crosses the 5% line as it is diluted — below about 7 mM the square-root shortcut stops being safe and the quadratic is required.",
-    "beforeHeading": "## The ICE Table Methodology"
+ "lessonId": 110,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  546,
+  547,
+  548,
+  549,
+  550
+ ],
+ "fingerprint": "42d644731eeb20c33c3a4a4defb6b1173ab2e9e389c7f6c4cca5bd9743099bfc",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "HI (pKa ≈ −10) >> HCl (pKa ≈ −7) >> HBr (pKa ≈ −9) in terms of acid strength",
+   "new": "HI (pKa ≈ −10) > HBr (pKa ≈ −9) > HCl (pKa ≈ −7) in terms of acid strength",
+   "reason": "The ordering as printed put HCl ahead of HBr while giving HCl the higher (weaker) pKa, so it contradicted both its own numbers and the rule it was illustrating — that acid strength increases down the group. Reordered to match."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Solving exactly using the quadratic formula yields x = 1.34 × 10⁻³ M, so [H₃O⁺] = 1.34 × 10⁻³ M and pH = −log(1.34 × 10⁻³) ≈ 2.87.",
+   "new": "Solving exactly using the quadratic formula yields x = 1.33 × 10⁻³ M, so [H₃O⁺] = 1.33 × 10⁻³ M and pH = −log(1.33 × 10⁻³) ≈ 2.88.",
+   "reason": "The quadratic x² + (1.8 × 10⁻⁵)x − 1.8 × 10⁻⁶ = 0 gives x = (−1.8 × 10⁻⁵ + √(7.200 × 10⁻⁶))/2 = 1.333 × 10⁻³, not 1.34 × 10⁻³. The figure quoted was in fact the approximate answer, so the exact and approximate results had been made identical by arithmetic error."
+  },
+  {
+   "field": "lesson.content",
+   "old": "This matches the exact answer to three significant figures because the approximation is valid here.",
+   "new": "That is within about 1% of the exact value (1.33 × 10⁻³ M), and the two give the same pH to two decimal places — the approximation is valid here.",
+   "reason": "The approximate value 1.342 × 10⁻³ and the exact value 1.333 × 10⁻³ differ in the third significant figure, so the original claim was not true. Restated in terms of the agreement that actually holds."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Acetic acid has pKa = 4.74; carbonic acid's first dissociation has pKa = 6.1; ammonium ion (NH₄⁺) has pKa = 9.25.",
+   "new": "Acetic acid has pKa = 4.74; the first dissociation of the blood CO₂/bicarbonate system has an apparent pKa of 6.1 at body temperature (see the polyprotic section below for what that number really measures); ammonium ion (NH₄⁺) has pKa = 9.25.",
+   "reason": "This gave carbonic acid pKa1 = 6.1 while the polyprotic section later in the same lesson gives 6.35, and neither figure is the true pKa1 of H₂CO₃. Flagged here and explained where the two values are introduced, so the lesson no longer states two different numbers for the same quantity."
+  },
+  {
+   "field": "lesson.content",
+   "old": "H₂CO₃ ⇌ H⁺ + HCO₃⁻, Ka1 = 4.3 × 10⁻⁷ (pKa1 = 6.35)",
+   "new": "CO₂(aq) + H₂O ⇌ H⁺ + HCO₃⁻, Ka1 = 4.3 × 10⁻⁷ (pKa1 = 6.35 at 25 °C; 6.1 at body temperature)\n\nNote the species on the left: this constant is written over *dissolved CO₂*, not over H₂CO₃. That is why the blood buffer equation uses 0.03 × pCO₂ underneath the line.",
+   "reason": "Writing Ka1 = 4.3 × 10⁻⁷ against the equation H₂CO₃ ⇌ H⁺ + HCO₃⁻ mislabels an apparent constant as a true one, and left the lesson quoting pKa1 as 6.1 in two places and 6.35 in another with no explanation. The true pKa1 of H₂CO₃ is about 3.6; 6.35 and 6.1 are the same apparent constant for dissolved CO₂ at 25 °C and at body temperature respectively."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Carbonic acid: pKa1 = 6.1 (physiological approximation), pKa2 = 10.3",
+   "new": "- Dissolved CO₂ / bicarbonate: apparent pKa1′ = 6.1 at body temperature (6.35 at 25 °C); bicarbonate pKa2 = 10.3",
+   "reason": "Aligned with the correction above, so the memorisation list names the quantity the number actually belongs to."
+  },
+  {
+   "field": "lesson.content",
+   "old": "√(1.8 × 10⁻⁶) = √(18 × 10⁻⁷) ≈ 4.2 × 10⁻³·⁵\n\nOr more directly: √(1.8) ≈ 1.34, √(10⁻⁶) = 10⁻³, so x ≈ 1.34 × 10⁻³.",
+   "new": "The trick is to make the exponent even before you split the square root, because √(10⁻⁶) = 10⁻³ but √(10⁻⁷) is not a round number. Here the exponent is already even: √(1.8) ≈ 1.34 and √(10⁻⁶) = 10⁻³, so x ≈ 1.34 × 10⁻³.\n\nWhen the exponent is odd, shift one power of ten into the coefficient first. For √(2.0 × 10⁻⁷), rewrite as √(20 × 10⁻⁸) = √20 × 10⁻⁴ ≈ 4.5 × 10⁻⁴.",
+   "reason": "\"√(18 × 10⁻⁷) ≈ 4.2 × 10⁻³·⁵\" is not a usable result — a fractional power of ten cannot be read off or converted to a pH — and the manipulation shown goes in the wrong direction, turning an even exponent into an odd one. Replaced with the technique that actually makes the estimate work, together with a worked case of an odd exponent."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Weak acids are better absorbed in the acidic stomach; weak bases are better absorbed in the more basic small intestine.",
+   "new": "A weak acid is largely un-ionized in the acidic stomach and a weak base largely un-ionized in the more alkaline small intestine, and the un-ionized form is the one that crosses membranes. Note what this does and does not say: it describes the *fraction available* to cross at a given pH, not where most of a dose is absorbed. In practice the small intestine absorbs most of both, because its surface area exceeds the stomach's by orders of magnitude.",
+   "reason": "The sentence as written states the pH-partition hypothesis as a conclusion about absorption, which is the form in which it is routinely wrong: the small intestine's vastly greater absorptive surface means most of an orally administered weak acid is absorbed there too, despite being more ionized. Kept the principle, which is testable, and separated it from the claim about site of absorption, which is not accurate."
+  },
+  {
+   "field": "questions.546.explanation",
+   "old": "Choice C is tempting if students forget to square [H+] in the numerator.",
+   "new": "Choice B is what you get by computing [H⁺][A⁻] = (1.0 × 10⁻³)² and forgetting to divide by [HA]; choice D is [H⁺] itself, reported as though it were the constant.",
+   "reason": "The stated route to choice C does not produce choice C: forgetting to square gives (1.0 × 10⁻³)/0.10 = 1.0 × 10⁻², which is not among the options. Replaced with the errors that do produce the distractors on the page."
+  },
+  {
+   "field": "questions.549.explanation",
+   "old": "For HX, [H+] = sqrt(1.0 x 10^-3 x 0.10) = 0.010 M, giving pH 2.",
+   "new": "For HX, the square-root estimate gives [H⁺] = √(1.0 × 10⁻³ × 0.10) = 0.010 M and pH 2. Note that this is 10% dissociation, so the 5% rule has been broken and the estimate is only approximate; the quadratic gives [H⁺] = 9.5 × 10⁻³ M and pH 2.02. The comparison is unaffected.",
+   "reason": "The explanation applied the square-root approximation to a case with about 10% dissociation without comment, in a lesson whose central procedural point is that this check is not optional. The exact values are given so the worked numbers are right and the rule the lesson teaches is not quietly contradicted."
   }
+ ],
+ "sources": [
+  {
+   "title": "Carbonic acid — true versus apparent first dissociation constant",
+   "url": "https://pubs.acs.org/doi/10.1021/ja00171a021",
+   "note": "Only a small fraction (on the order of 1 in 400) of dissolved CO₂ exists as H₂CO₃, so the familiar Ka1 of 4.3 × 10⁻⁷ (pKa 6.35) is an apparent constant written over total dissolved CO₂. The true pKa1 of H₂CO₃ itself is close to 3.6."
+  },
+  {
+   "title": "Henderson–Hasselbalch for the bicarbonate buffer (clinical form)",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK482248/",
+   "note": "pK′ = 6.1 is the apparent constant at 37 °C and physiological ionic strength; 6.35 is the same constant at 25 °C."
+  },
+  {
+   "title": "pH-partition hypothesis and the site of oral drug absorption",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK557405/",
+   "note": "Ionization state governs the fraction of drug able to cross a membrane, but the small intestine's far greater surface area means it is the principal site of absorption for weak acids as well as weak bases."
+  },
+  {
+   "title": "CRC Handbook of Chemistry and Physics — aqueous pKa values of the hydrogen halides",
+   "url": "https://hbcp.chemnetbase.com/",
+   "note": "Acid strength increases down the halogen group: HF (3.17) < HCl (≈ −7) < HBr (≈ −9) < HI (≈ −10)."
+  }
+ ],
+ "visual": {
+  "title": "One procedure, one check, one counterintuitive fact",
+  "src": "/lesson-diagrams/weak-acid-ice-and-dilution.svg",
+  "width": 1120,
+  "height": 780,
+  "alt": "On the left, a six-step flow: identify which species reacts with water, get the right constant (converting with Ka × Kb = Kw if needed), build the ICE table, try the square-root approximation, check the 5% rule, and convert to pH or pOH; with a panel giving the shortcut pH ≈ ½(pKa − log C₀). On the right, a plot of percent dissociation of acetic acid against log concentration, computed exactly, rising steeply as the solution is diluted and crossing the dashed 5% line at about 7 mM, with a panel explaining why dilution raises the dissociated fraction.",
+  "caption": "Step 5 is the whole game: the curve on the right shows how fast acetic acid crosses the 5% line as it is diluted — below about 7 mM the square-root shortcut stops being safe and the quadratic is required.",
+  "beforeHeading": "## The ICE Table Methodology"
+ }
 }

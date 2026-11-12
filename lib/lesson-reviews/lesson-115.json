@@ -1,99 +1,99 @@
 {
-  "lessonId": 115,
-  "reviewedAt": "2026-11-11",
-  "questionIds": [
-    571,
-    572,
-    573,
-    574,
-    575
-  ],
-  "fingerprint": "5b9ac778c1519c9a2b21ed5b4a8a2216ff23ea148070e023fbbef91e68d12a2b",
-  "patches": [
-    {
-      "field": "lesson.content",
-      "old": "**Lysozyme**: pH optimum ~5.0. Functions in lysosomes (pH ~4.5–5.0), which are maintained at low pH by V-type H⁺-ATPases. Lysosomal enzymes (cathepsins, lipases, nucleases) universally have acidic pH optima—they are inactive at cytoplasmic pH (~7.2), providing a safety mechanism against autolysis if lysosomes rupture.",
-      "new": "**Lysosomal hydrolases** (cathepsins, acid phosphatase, lipases, nucleases): pH optima around 4.5–5.5, matching the lysosomal interior (pH ~4.5–5.0), which V-type H⁺-ATPases keep acidic by pumping protons in. They are close to inactive at cytoplasmic pH (~7.2), which is a safety mechanism: a ruptured lysosome does far less damage than its enzyme content would suggest.\n\n*Do not confuse lysozyme with lysosomes* — the similar names mislead a lot of students. **Lysozyme** is a secreted antibacterial enzyme that cleaves peptidoglycan; it is found in tears, saliva, mucus and egg white, and in the granules of neutrophils and macrophages. It is not a lysosomal hydrolase, and its pH optimum is around 5–6 depending on substrate and ionic strength.",
-      "reason": "Lysozyme is not a lysosomal enzyme. It is a secreted glycoside hydrolase that cleaves bacterial peptidoglycan, abundant in tears, saliva, mucus and egg white and in phagocyte granules; the resemblance between the two words is the source of a common confusion. Replaced with genuine lysosomal hydrolases as the example of acidic pH optima, and the confusion is named explicitly so a student is inoculated against it."
-    },
-    {
-      "field": "lesson.content",
-      "old": "H₂PO₄⁻ ⇌ H⁺ + HPO₄²⁻     pKa = 6.8\n\nWith a pKa of 6.8, this system is well-positioned to buffer intracellular pH (~7.0–7.2).",
-      "new": "H₂PO₄⁻ ⇌ H⁺ + HPO₄²⁻     pKa ≈ 6.8 in body fluids (7.2 under standard conditions)\n\nBoth numbers are correct and you will meet both. The thermodynamic value measured in dilute solution at 25 °C is 7.20, which is what general chemistry tables give. In body fluids — at 37 °C and an ionic strength near 0.15 M — the apparent value falls to about 6.8, and that is the figure physiology texts use. Either way the system sits close to intracellular pH (~7.0–7.2), which is what makes it a good buffer there.",
-      "reason": "This lesson gives the phosphate pKa as 6.8 while other lessons in the course give 7.2, with no explanation, leaving students with two unreconciled numbers for the same equilibrium. Both are right in their own context: 7.20 is the standard-state value, 6.8 the apparent value at body temperature and physiological ionic strength. Stated so the discrepancy is explained rather than encountered as a contradiction."
-    },
-    {
-      "field": "lesson.content",
-      "old": "- pKa of phosphate buffer: **6.8** (intracellular and urinary buffering)",
-      "new": "- pKa of phosphate buffer: **6.8** in body fluids (**7.2** under standard conditions) — intracellular and urinary buffering",
-      "reason": "Same reconciliation, applied to the summary list."
-    },
-    {
-      "field": "lesson.content",
-      "old": "These strong organic acids dissociate completely at physiological pH, releasing H⁺ that consumes HCO₃⁻, causing high anion gap metabolic acidosis.",
-      "new": "Both are weak acids by the chemical definition, but with pKa values that far below 7.4 they are essentially fully dissociated in blood, releasing H⁺ that consumes HCO₃⁻ and causing a high anion gap metabolic acidosis.",
-      "reason": "Acetoacetate (pKa 3.6) and β-hydroxybutyrate (pKa ≈ 4.7) are weak acids; calling them strong acids contradicts the definition established earlier in this course, where strong acids are those that dissociate completely in water regardless of pH. What is true is that at pH 7.4, more than three pH units above their pKa values, they are effectively fully ionized — which is the physiologically relevant point and is now what the sentence says."
-    },
-    {
-      "field": "lesson.content",
-      "old": "The pKa of carbonic acid (H₂CO₃) is **6.1**.",
-      "new": "The apparent pKa of this system is **6.1**. Note what that constant is written over: total dissolved CO₂, not H₂CO₃ itself. Only a small fraction of dissolved CO₂ is ever hydrated to carbonic acid, whose own pKa₁ is near 3.6, and lumping the unhydrated CO₂ into the denominator is what raises the apparent value to 6.1.",
-      "reason": "6.1 is not the pKa of carbonic acid. It is an apparent constant defined over total dissolved CO₂, which is why the lesson's own next section has to say that [H₂CO₃] is \"expressed as the concentration of dissolved CO₂\". Naming it correctly here removes the inconsistency and matches the correction applied across the surrounding lessons."
-    },
-    {
-      "field": "lesson.content",
-      "old": "- pKa of carbonic acid: **6.1**; normal HCO₃⁻/H₂CO₃ ratio: **20:1**",
-      "new": "- Apparent pKa of the CO₂/bicarbonate system: **6.1** (defined over dissolved CO₂, not H₂CO₃); normal HCO₃⁻/dissolved-CO₂ ratio: **20:1**",
-      "reason": "Same correction in the summary list, so the ratio is attached to the denominator it actually describes."
-    },
-    {
-      "field": "questions.573.explanation",
-      "old": "which is a better proton acceptor due to the higher pKa of its histidine residues (the Bohr effect)",
-      "new": "which is a better proton acceptor because the pKa of its histidine residues is higher (this is the Haldane effect — the Bohr effect is the same linkage read the other way, with H⁺ and CO₂ lowering oxygen affinity)",
-      "reason": "Deoxygenation making haemoglobin a better acceptor of H⁺ and CO₂ is the Haldane effect; the Bohr effect is the reciprocal statement, that H⁺ and CO₂ lower oxygen affinity. The lesson body distinguishes them correctly, so the explanation contradicted it. Both names are kept with the relationship between them stated, since the MCAT tests the distinction."
-    },
-    {
-      "field": "questions.575.choice_c",
-      "old": "Increased renal H+ reabsorption to lower urine pH and raise blood pH",
-      "new": "Increased renal H+ secretion and bicarbonate regeneration, lowering urine pH and raising blood pH",
-      "reason": "The kidney secretes protons into the tubular lumen; it does not reabsorb them. As written the choice was internally incoherent — reabsorbing H⁺ would raise urine pH, not lower it. Restated as the real renal mechanism, which keeps it a genuine distractor: correct physiology, but far too slow to be the acute response the question asks about."
-    },
-    {
-      "field": "questions.575.explanation",
-      "old": "Choice C is partially correct in direction but describes a slower renal mechanism and is not the primary acute compensatory response described here.",
-      "new": "Choice C describes real and correct renal compensation — the kidney does secrete H⁺ and regenerate bicarbonate in acidosis — but it takes hours to days, so it cannot be the response to an acidosis that developed over the last mile of a race. Respiratory compensation acts within minutes.",
-      "reason": "Aligned with the corrected choice, and the reason for eliminating it is now the timescale, which is the distinction the question actually turns on."
-    }
-  ],
-  "sources": [
-    {
-      "title": "Lysozyme",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK526067/",
-      "note": "Lysozyme is a secreted antimicrobial glycoside hydrolase that cleaves the β-1,4 linkage of peptidoglycan; it is abundant in tears, saliva, mucus and egg white and in neutrophil and macrophage granules. It is not a lysosomal hydrolase."
-    },
-    {
-      "title": "Lysosomal hydrolases and the acidic lumen",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9953/",
-      "note": "The lysosome is maintained at pH 4.5–5.0 by a V-type H⁺-ATPase, and its hydrolases (cathepsins, acid phosphatase, lipases, nucleases) have acidic pH optima, so they are largely inactive at cytosolic pH."
-    },
-    {
-      "title": "Phosphate buffer: standard versus apparent pKa",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482248/",
-      "note": "The second dissociation of phosphoric acid has pKa 7.20 at 25 °C in dilute solution; at 37 °C and physiological ionic strength the apparent value is about 6.8, which is the figure used in physiology."
-    },
-    {
-      "title": "Bohr and Haldane effects",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK526028/",
-      "note": "The Bohr effect is the reduction of haemoglobin's oxygen affinity by H⁺ and CO₂; the Haldane effect is the reciprocal increase in haemoglobin's capacity to carry H⁺ and CO₂ on deoxygenation, which follows from the rise in the pKa of its histidine residues."
-    }
-  ],
-  "visual": {
-    "title": "Reading a blood gas in four steps",
-    "src": "/lesson-diagrams/acid-base-disorders.svg",
-    "width": 1200,
-    "height": 824,
-    "alt": "A four-step decision flow for interpreting arterial blood gases, followed by a two-by-two grid of the four primary acid-base disorders giving the primary change, the direction of pH, the compensation and its timescale, and typical causes for each. A panel gives the expected-compensation formulas including Winter's formula, and a worked diabetic ketoacidosis case runs through the four steps with real numbers.",
-    "caption": "Compensation always moves the second variable the same way as the first, and never quite finishes the job — which is why a fully normal pH with two abnormal variables means a mixed disorder, not a compensated one.",
-    "beforeHeading": "## Respiratory Acidosis and Alkalosis"
+ "lessonId": 115,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  571,
+  572,
+  573,
+  574,
+  575
+ ],
+ "fingerprint": "5b9ac778c1519c9a2b21ed5b4a8a2216ff23ea148070e023fbbef91e68d12a2b",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "**Lysozyme**: pH optimum ~5.0. Functions in lysosomes (pH ~4.5–5.0), which are maintained at low pH by V-type H⁺-ATPases. Lysosomal enzymes (cathepsins, lipases, nucleases) universally have acidic pH optima—they are inactive at cytoplasmic pH (~7.2), providing a safety mechanism against autolysis if lysosomes rupture.",
+   "new": "**Lysosomal hydrolases** (cathepsins, acid phosphatase, lipases, nucleases): pH optima around 4.5–5.5, matching the lysosomal interior (pH ~4.5–5.0), which V-type H⁺-ATPases keep acidic. They are close to inactive at cytoplasmic pH (~7.2) — a safety mechanism, since a ruptured lysosome does far less damage than its contents suggest.\n\n*Do not confuse lysozyme with lysosomes.* **Lysozyme** is a secreted antibacterial enzyme that cleaves bacterial peptidoglycan — found in tears, saliva, mucus and phagocyte granules. It is not a lysosomal enzyme.",
+   "reason": "Lysozyme is not a lysosomal enzyme. It is a secreted glycoside hydrolase that cleaves bacterial peptidoglycan, abundant in tears, saliva, mucus and egg white and in phagocyte granules; the resemblance between the two words is the source of a common confusion. Replaced with genuine lysosomal hydrolases as the example of acidic pH optima, and the confusion is named explicitly so a student is inoculated against it."
+  },
+  {
+   "field": "lesson.content",
+   "old": "H₂PO₄⁻ ⇌ H⁺ + HPO₄²⁻     pKa = 6.8\n\nWith a pKa of 6.8, this system is well-positioned to buffer intracellular pH (~7.0–7.2).",
+   "new": "H₂PO₄⁻ ⇌ H⁺ + HPO₄²⁻     pKa = 7.2 (you will also see 6.8, the value measured at body temperature and physiological ionic strength)\n\nEither way the system sits close to intracellular pH (~7.0–7.2), which is what makes it a good buffer there.",
+   "reason": "This lesson gives the phosphate pKa as 6.8 while other lessons in the course give 7.2, with no explanation, leaving students with two unreconciled numbers for the same equilibrium. Both are right in their own context: 7.20 is the standard-state value, 6.8 the apparent value at body temperature and physiological ionic strength. Stated so the discrepancy is explained rather than encountered as a contradiction."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- pKa of phosphate buffer: **6.8** (intracellular and urinary buffering)",
+   "new": "- pKa of phosphate buffer: **6.8** in body fluids (**7.2** under standard conditions) — intracellular and urinary buffering",
+   "reason": "Same reconciliation, applied to the summary list."
+  },
+  {
+   "field": "lesson.content",
+   "old": "These strong organic acids dissociate completely at physiological pH, releasing H⁺ that consumes HCO₃⁻, causing high anion gap metabolic acidosis.",
+   "new": "Both are weak acids by the chemical definition, but with pKa values that far below 7.4 they are essentially fully dissociated in blood, releasing H⁺ that consumes HCO₃⁻ and causing a high anion gap metabolic acidosis.",
+   "reason": "Acetoacetate (pKa 3.6) and β-hydroxybutyrate (pKa ≈ 4.7) are weak acids; calling them strong acids contradicts the definition established earlier in this course, where strong acids are those that dissociate completely in water regardless of pH. What is true is that at pH 7.4, more than three pH units above their pKa values, they are effectively fully ionized — which is the physiologically relevant point and is now what the sentence says."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The pKa of carbonic acid (H₂CO₃) is **6.1**.",
+   "new": "The pKa of this system is **6.1**, and note what it is written over: *dissolved CO₂*, not H₂CO₃. Pair it with [H₂CO₃] and the arithmetic comes out wrong by a large factor.",
+   "reason": "6.1 is not the pKa of carbonic acid. It is an apparent constant defined over total dissolved CO₂, which is why the lesson's own next section has to say that [H₂CO₃] is \"expressed as the concentration of dissolved CO₂\". Naming it correctly here removes the inconsistency and matches the correction applied across the surrounding lessons."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- pKa of carbonic acid: **6.1**; normal HCO₃⁻/H₂CO₃ ratio: **20:1**",
+   "new": "- Apparent pKa of the CO₂/bicarbonate system: **6.1** (defined over dissolved CO₂, not H₂CO₃); normal HCO₃⁻/dissolved-CO₂ ratio: **20:1**",
+   "reason": "Same correction in the summary list, so the ratio is attached to the denominator it actually describes."
+  },
+  {
+   "field": "questions.573.explanation",
+   "old": "which is a better proton acceptor due to the higher pKa of its histidine residues (the Bohr effect)",
+   "new": "which is a better proton acceptor because the pKa of its histidine residues is higher (this is the Haldane effect — the Bohr effect is the same linkage read the other way, with H⁺ and CO₂ lowering oxygen affinity)",
+   "reason": "Deoxygenation making haemoglobin a better acceptor of H⁺ and CO₂ is the Haldane effect; the Bohr effect is the reciprocal statement, that H⁺ and CO₂ lower oxygen affinity. The lesson body distinguishes them correctly, so the explanation contradicted it. Both names are kept with the relationship between them stated, since the MCAT tests the distinction."
+  },
+  {
+   "field": "questions.575.choice_c",
+   "old": "Increased renal H+ reabsorption to lower urine pH and raise blood pH",
+   "new": "Increased renal H+ secretion and bicarbonate regeneration, lowering urine pH and raising blood pH",
+   "reason": "The kidney secretes protons into the tubular lumen; it does not reabsorb them. As written the choice was internally incoherent — reabsorbing H⁺ would raise urine pH, not lower it. Restated as the real renal mechanism, which keeps it a genuine distractor: correct physiology, but far too slow to be the acute response the question asks about."
+  },
+  {
+   "field": "questions.575.explanation",
+   "old": "Choice C is partially correct in direction but describes a slower renal mechanism and is not the primary acute compensatory response described here.",
+   "new": "Choice C describes real and correct renal compensation — the kidney does secrete H⁺ and regenerate bicarbonate in acidosis — but it takes hours to days, so it cannot be the response to an acidosis that developed over the last mile of a race. Respiratory compensation acts within minutes.",
+   "reason": "Aligned with the corrected choice, and the reason for eliminating it is now the timescale, which is the distinction the question actually turns on."
   }
+ ],
+ "sources": [
+  {
+   "title": "Lysozyme",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK526067/",
+   "note": "Lysozyme is a secreted antimicrobial glycoside hydrolase that cleaves the β-1,4 linkage of peptidoglycan; it is abundant in tears, saliva, mucus and egg white and in neutrophil and macrophage granules. It is not a lysosomal hydrolase."
+  },
+  {
+   "title": "Lysosomal hydrolases and the acidic lumen",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK9953/",
+   "note": "The lysosome is maintained at pH 4.5–5.0 by a V-type H⁺-ATPase, and its hydrolases (cathepsins, acid phosphatase, lipases, nucleases) have acidic pH optima, so they are largely inactive at cytosolic pH."
+  },
+  {
+   "title": "Phosphate buffer: standard versus apparent pKa",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK482248/",
+   "note": "The second dissociation of phosphoric acid has pKa 7.20 at 25 °C in dilute solution; at 37 °C and physiological ionic strength the apparent value is about 6.8, which is the figure used in physiology."
+  },
+  {
+   "title": "Bohr and Haldane effects",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK526028/",
+   "note": "The Bohr effect is the reduction of haemoglobin's oxygen affinity by H⁺ and CO₂; the Haldane effect is the reciprocal increase in haemoglobin's capacity to carry H⁺ and CO₂ on deoxygenation, which follows from the rise in the pKa of its histidine residues."
+  }
+ ],
+ "visual": {
+  "title": "Reading a blood gas in four steps",
+  "src": "/lesson-diagrams/acid-base-disorders.svg",
+  "width": 1200,
+  "height": 824,
+  "alt": "A four-step decision flow for interpreting arterial blood gases, followed by a two-by-two grid of the four primary acid-base disorders giving the primary change, the direction of pH, the compensation and its timescale, and typical causes for each. A panel gives the expected-compensation formulas including Winter's formula, and a worked diabetic ketoacidosis case runs through the four steps with real numbers.",
+  "caption": "Compensation always moves the second variable the same way as the first, and never quite finishes the job — which is why a fully normal pH with two abnormal variables means a mixed disorder, not a compensated one.",
+  "beforeHeading": "## Respiratory Acidosis and Alkalosis"
+ }
 }

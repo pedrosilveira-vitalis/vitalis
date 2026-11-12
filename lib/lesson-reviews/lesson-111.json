@@ -1,100 +1,100 @@
 {
-  "lessonId": 111,
-  "reviewedAt": "2026-11-11",
-  "questionIds": [
-    551,
-    552,
-    553,
-    554,
-    555
-  ],
-  "fingerprint": "ebea797fa3d504fe193611673e743409ea1b34f40f94a6147e82e8d594a603a4",
-  "patches": [
-    {
-      "field": "lesson.content",
-      "old": "*MCAT application:* Alcohols (O–H, pKa ~16) are more acidic than amines (N–H, pKa ~38) because oxygen is more electronegative than nitrogen. This is why alkoxide bases are stronger than amide bases—wait, the logic inverts: a stronger acid has a weaker conjugate base. Hydroxide (conjugate base of water, pKa 15.7) is a weaker base than amide (NH₂⁻, conjugate base of NH₃, pKa 38).",
-      "new": "*MCAT application:* Alcohols (O–H, pKa ~16) are more acidic than amines (N–H, pKa ~38) because oxygen is more electronegative than nitrogen. Now follow that through to the bases, which is where students routinely slip: because the conjugate relationship inverts, the *weaker* acid has the *stronger* conjugate base. Ammonia is the weaker acid, so amide (NH₂⁻) is the stronger base — stronger than alkoxide or hydroxide, not weaker.",
-      "reason": "The sentence began by asserting the opposite of the truth (\"alkoxide bases are stronger than amide bases\"), then interrupted itself mid-clause with \"wait, the logic inverts\" — an unedited drafting artefact that leaves a false statement on the page before correcting it. Rewritten so the correct relationship is stated once, with the inversion flagged as the thing to watch rather than performed as a visible mistake."
-    },
-    {
-      "field": "lesson.content",
-      "old": "More importantly, the conjugate base (C⁴⁻, N³⁻, O²⁻... or more accurately carbanion, amide, hydroxide, fluoride) becomes more stable as the negative charge resides on a more electronegative atom.",
-      "new": "More importantly, the conjugate base — CH₃⁻, NH₂⁻, OH⁻, F⁻ — becomes more stable as the negative charge resides on a more electronegative atom.",
-      "reason": "C⁴⁻, N³⁻ and O²⁻ are not the conjugate bases of methane, ammonia and water; removing one proton from each gives CH₃⁻, NH₂⁻ and OH⁻. The original noticed this and appended a vague correction rather than fixing the formulas, leaving wrong species on the page."
-    },
-    {
-      "field": "lesson.content",
-      "old": "Example: Can hydroxide (conjugate acid = water, pKa = 15.7) deprotonate ethanol (pKa = 16)?\n\nΔpKa = 16 − 15.7 = +0.3\n\nBarely favorable. In practice, the reaction is nearly thermoneutral and the equilibrium lies only slightly to the right.\n\nExample: Can hydroxide deprotonate acetylene (pKa = 25)?\n\nΔpKa = 25 − 15.7 = +9.3\n\nUnfavorable.",
-      "new": "Example: Can hydroxide (conjugate acid = water, pKa = 15.7) deprotonate ethanol (pKa = 16)?\n\nThe acid consumed is ethanol (16); the acid produced is water (15.7).\n\nΔpKa = 15.7 − 16 = −0.3,  so K = 10⁻⁰·³ ≈ 0.5\n\nVery slightly unfavorable — in practice near enough to thermoneutral that both species are present in comparable amounts. Hydroxide and ethoxide are bases of almost the same strength.\n\nExample: Can hydroxide deprotonate acetylene (pKa = 25)?\n\nThe acid consumed is acetylene (25); the acid produced is water (15.7).\n\nΔpKa = 15.7 − 25 = −9.3,  so K ≈ 10⁻⁹\n\nHopelessly unfavorable.",
-      "reason": "Both worked examples computed ΔpKa with the terms reversed, and the second then contradicted the rule stated three lines above it: ΔpKa was reported as +9.3 and the reaction called unfavorable, when the lesson's own definition says positive means favorable. Deprotonating acetylene with hydroxide gives water (pKa 15.7) from acetylene (pKa 25), so ΔpKa = 15.7 − 25 = −9.3. The ethanol case is likewise −0.3, slightly unfavorable rather than \"barely favorable\". Corrected, with the reactant and product acids named explicitly and K given, since the sign convention is the whole point of this section."
-    },
-    {
-      "field": "lesson.content",
-      "old": "- HOI (pKa ≈ 10.6) < HOBr (pKa ≈ 8.7) < HOCl (pKa ≈ 7.5) < HOF (pKa ≈ 3)",
-      "new": "- HOI (pKa ≈ 10.6) < HOBr (pKa ≈ 8.7) < HOCl (pKa ≈ 7.5)",
-      "reason": "Hypofluorous acid does not belong in this series. It decomposes rapidly in water, so no reliable aqueous pKa of about 3 is established for it, and its bonding is anomalous — fluorine is the −1 centre and oxygen is at oxidation state 0 — so it does not illustrate the trend the series is drawn to show. The three halogen oxyacids that do behave comparably make the point on their own."
-    },
-    {
-      "field": "lesson.content",
-      "old": "Chloroacetic acid (pKa = 2.86) is more acidic than 3-chlorobutanoic acid (pKa ≈ 4.5) because the chlorine is closer to the acidic site.",
-      "new": "Chloroacetic acid (ClCH₂COOH, pKa = 2.86) is far more acidic than 3-chloropropanoic acid (ClCH₂CH₂COOH, pKa ≈ 4.0), in which the chlorine sits one carbon further from the carboxyl group. Propanoic acid itself is 4.87, so moving the chlorine out by a single bond costs most of the effect.",
-      "reason": "The comparison as written pitted an α-substituted acid against a β-substituted one but named 3-chlorobutanoic acid and gave it a pKa of about 4.5, which is closer to the reported value for 4-chlorobutanoic acid; 3-chlorobutanoic acid is nearer 4.05. Replaced with 3-chloropropanoic acid, whose value (≈ 4.0) is well established and which is the standard one-carbon-further comparison, with the unsubstituted parent added so the size of the distance effect is visible."
-    },
-    {
-      "field": "lesson.content",
-      "old": "- Carbonic acid (H₂CO₃): pKa₁ = 6.1, pKa₂ = 10.3",
-      "new": "- CO₂(aq) / bicarbonate: apparent pKa₁′ = 6.1 at body temperature (6.35 at 25 °C); bicarbonate pKa₂ = 10.3",
-      "reason": "6.1 is an apparent constant written over total dissolved CO₂, not the true first dissociation constant of H₂CO₃, which corresponds to a pKa near 3.6. Named accurately here and below, matching the correction made in the preceding lesson so the course does not give two unexplained values for the same quantity."
-    },
-    {
-      "field": "lesson.content",
-      "old": "**Carbonic acid** (H₂CO₃, pKa₁ = 6.1) is more acidic than a simple alcohol because the bicarbonate ion formed has some resonance character.",
-      "new": "The **CO₂ / bicarbonate** system (apparent pKa₁′ = 6.1) is more acidic than a simple alcohol because the bicarbonate ion formed is resonance-stabilised across three oxygens. Carbonic acid itself is stronger still — its true pKa₁ is near 3.6 — but so little dissolved CO₂ is hydrated to H₂CO₃ that the apparent constant is what you measure and what physiology uses.",
-      "reason": "Same correction as above, applied where the number is used in the resonance discussion."
-    },
-    {
-      "field": "lesson.content",
-      "old": "- H₂CO₃: pKa₁ = 6.1, pKa₂ = 10.3",
-      "new": "- CO₂(aq)/HCO₃⁻: apparent pKa₁′ = 6.1 (37 °C); HCO₃⁻: pKa₂ = 10.3",
-      "reason": "Same correction, applied to the polyprotic list."
-    },
-    {
-      "field": "lesson.content",
-      "old": "- Trichloroacetic acid (pKa ≈ 0.52): same carboxylate resonance *plus* strong inductive withdrawal from three Cl atoms",
-      "new": "- Trichloroacetic acid (pKa ≈ 0.66): same carboxylate resonance *plus* strong inductive withdrawal from three Cl atoms",
-      "reason": "0.52 is the pKa of trifluoroacetic acid, quoted correctly a few paragraphs earlier in the inductive-effects series; trichloroacetic acid is 0.66. The two had been conflated here, giving the same number to two different compounds in one lesson."
-    },
-    {
-      "field": "questions.555.question_text",
-      "old": "Trichloroacetic acid (Cl3CCOOH, pKa = 0.7) is a stronger acid than acetic acid (CH3COOH, pKa = 4.75).",
-      "new": "Trichloroacetic acid (Cl3CCOOH, pKa = 0.66) is a stronger acid than acetic acid (CH3COOH, pKa = 4.76).",
-      "reason": "Brought into line with the values used elsewhere in this course for the same two compounds (0.66 and 4.76), so students are not given three different numbers for trichloroacetic acid across consecutive lessons."
-    }
-  ],
-  "sources": [
-    {
-      "title": "CRC Handbook of Chemistry and Physics — Dissociation constants of organic acids and bases",
-      "url": "https://hbcp.chemnetbase.com/",
-      "note": "Acetic acid 4.76; chloroacetic 2.86; 3-chloropropanoic ≈ 4.0; propanoic 4.87; fluoroacetic 2.66; difluoroacetic 1.24; trifluoroacetic 0.52; trichloroacetic 0.66."
-    },
-    {
-      "title": "Hypofluorous acid",
-      "url": "https://en.wikipedia.org/wiki/Hypofluorous_acid",
-      "note": "HOF decomposes rapidly in water and is anomalous among the hypohalous acids — oxygen carries oxidation state 0 and fluorine −1 — so no reliable aqueous pKa is established for it and it does not illustrate the central-atom electronegativity trend."
-    },
-    {
-      "title": "Carbonic acid — true versus apparent first dissociation constant",
-      "url": "https://pubs.acs.org/doi/10.1021/ja00171a021",
-      "note": "The familiar pKa₁ of 6.35 (6.1 at 37 °C) is an apparent constant defined over total dissolved CO₂; the true pKa₁ of H₂CO₃ is near 3.6, because only a small fraction of dissolved CO₂ is hydrated."
-    }
-  ],
-  "visual": {
-    "title": "Five ways to stabilise a conjugate base",
-    "src": "/lesson-diagrams/pka-five-structural-factors.svg",
-    "width": 1140,
-    "height": 804,
-    "alt": "A banner stating that acidity is set by how comfortably the conjugate base carries the charge, followed by five cards: electronegativity across a period (CH₄ 50, NH₃ 38, H₂O 15.7, HF 3.2); size and bond strength down a group (HF 3.2 versus HI about −10); resonance (ethanol 16, phenol 10, acetic acid 4.76); induction (acetic 4.76 down to trifluoroacetic 0.52, with the distance effect); and hybridisation (sp³ 50, sp² 44, sp 25). A footer gives the reaction test with its sign convention and two worked cases.",
-    "caption": "Every row is the same question asked a different way: how easily can the anion left behind carry the charge? The footer is where sign errors happen — ΔpKa is product acid minus reactant acid, and it must be positive to be favourable.",
-    "beforeHeading": "## Structural Determinants of Acid Strength"
+ "lessonId": 111,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  551,
+  552,
+  553,
+  554,
+  555
+ ],
+ "fingerprint": "ebea797fa3d504fe193611673e743409ea1b34f40f94a6147e82e8d594a603a4",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "*MCAT application:* Alcohols (O–H, pKa ~16) are more acidic than amines (N–H, pKa ~38) because oxygen is more electronegative than nitrogen. This is why alkoxide bases are stronger than amide bases—wait, the logic inverts: a stronger acid has a weaker conjugate base. Hydroxide (conjugate base of water, pKa 15.7) is a weaker base than amide (NH₂⁻, conjugate base of NH₃, pKa 38).",
+   "new": "*MCAT application:* Alcohols (O–H, pKa ~16) are more acidic than amines (N–H, pKa ~38) because oxygen is more electronegative than nitrogen. Now follow that through to the bases, which is where students routinely slip: because the conjugate relationship inverts, the *weaker* acid has the *stronger* conjugate base. Ammonia is the weaker acid, so amide (NH₂⁻) is the stronger base — stronger than alkoxide or hydroxide, not weaker.",
+   "reason": "The sentence began by asserting the opposite of the truth (\"alkoxide bases are stronger than amide bases\"), then interrupted itself mid-clause with \"wait, the logic inverts\" — an unedited drafting artefact that leaves a false statement on the page before correcting it. Rewritten so the correct relationship is stated once, with the inversion flagged as the thing to watch rather than performed as a visible mistake."
+  },
+  {
+   "field": "lesson.content",
+   "old": "More importantly, the conjugate base (C⁴⁻, N³⁻, O²⁻... or more accurately carbanion, amide, hydroxide, fluoride) becomes more stable as the negative charge resides on a more electronegative atom.",
+   "new": "More importantly, the conjugate base — CH₃⁻, NH₂⁻, OH⁻, F⁻ — becomes more stable as the negative charge resides on a more electronegative atom.",
+   "reason": "C⁴⁻, N³⁻ and O²⁻ are not the conjugate bases of methane, ammonia and water; removing one proton from each gives CH₃⁻, NH₂⁻ and OH⁻. The original noticed this and appended a vague correction rather than fixing the formulas, leaving wrong species on the page."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Example: Can hydroxide (conjugate acid = water, pKa = 15.7) deprotonate ethanol (pKa = 16)?\n\nΔpKa = 16 − 15.7 = +0.3\n\nBarely favorable. In practice, the reaction is nearly thermoneutral and the equilibrium lies only slightly to the right.\n\nExample: Can hydroxide deprotonate acetylene (pKa = 25)?\n\nΔpKa = 25 − 15.7 = +9.3\n\nUnfavorable.",
+   "new": "Example: Can hydroxide (conjugate acid = water, pKa = 15.7) deprotonate ethanol (pKa = 16)?\n\nThe acid consumed is ethanol (16); the acid produced is water (15.7).\n\nΔpKa = 15.7 − 16 = −0.3,  so K = 10⁻⁰·³ ≈ 0.5\n\nVery slightly unfavorable — in practice near enough to thermoneutral that both species are present in comparable amounts. Hydroxide and ethoxide are bases of almost the same strength.\n\nExample: Can hydroxide deprotonate acetylene (pKa = 25)?\n\nThe acid consumed is acetylene (25); the acid produced is water (15.7).\n\nΔpKa = 15.7 − 25 = −9.3,  so K ≈ 10⁻⁹\n\nHopelessly unfavorable.",
+   "reason": "Both worked examples computed ΔpKa with the terms reversed, and the second then contradicted the rule stated three lines above it: ΔpKa was reported as +9.3 and the reaction called unfavorable, when the lesson's own definition says positive means favorable. Deprotonating acetylene with hydroxide gives water (pKa 15.7) from acetylene (pKa 25), so ΔpKa = 15.7 − 25 = −9.3. The ethanol case is likewise −0.3, slightly unfavorable rather than \"barely favorable\". Corrected, with the reactant and product acids named explicitly and K given, since the sign convention is the whole point of this section."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- HOI (pKa ≈ 10.6) < HOBr (pKa ≈ 8.7) < HOCl (pKa ≈ 7.5) < HOF (pKa ≈ 3)",
+   "new": "- HOI (pKa ≈ 10.6) < HOBr (pKa ≈ 8.7) < HOCl (pKa ≈ 7.5)",
+   "reason": "Hypofluorous acid does not belong in this series. It decomposes rapidly in water, so no reliable aqueous pKa of about 3 is established for it, and its bonding is anomalous — fluorine is the −1 centre and oxygen is at oxidation state 0 — so it does not illustrate the trend the series is drawn to show. The three halogen oxyacids that do behave comparably make the point on their own."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Chloroacetic acid (pKa = 2.86) is more acidic than 3-chlorobutanoic acid (pKa ≈ 4.5) because the chlorine is closer to the acidic site.",
+   "new": "Chloroacetic acid (ClCH₂COOH, pKa = 2.86) is far more acidic than 3-chloropropanoic acid (ClCH₂CH₂COOH, pKa ≈ 4.0), in which the chlorine sits one carbon further from the carboxyl group. Propanoic acid itself is 4.87, so moving the chlorine out by a single bond costs most of the effect.",
+   "reason": "The comparison as written pitted an α-substituted acid against a β-substituted one but named 3-chlorobutanoic acid and gave it a pKa of about 4.5, which is closer to the reported value for 4-chlorobutanoic acid; 3-chlorobutanoic acid is nearer 4.05. Replaced with 3-chloropropanoic acid, whose value (≈ 4.0) is well established and which is the standard one-carbon-further comparison, with the unsubstituted parent added so the size of the distance effect is visible."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Carbonic acid (H₂CO₃): pKa₁ = 6.1, pKa₂ = 10.3",
+   "new": "- CO₂(aq) / bicarbonate: apparent pKa₁′ = 6.1 at body temperature (6.35 at 25 °C); bicarbonate pKa₂ = 10.3",
+   "reason": "6.1 is an apparent constant written over total dissolved CO₂, not the true first dissociation constant of H₂CO₃, which corresponds to a pKa near 3.6. Named accurately here and below, matching the correction made in the preceding lesson so the course does not give two unexplained values for the same quantity."
+  },
+  {
+   "field": "lesson.content",
+   "old": "**Carbonic acid** (H₂CO₃, pKa₁ = 6.1) is more acidic than a simple alcohol because the bicarbonate ion formed has some resonance character.",
+   "new": "The **CO₂ / bicarbonate** system (pKa₁ = 6.1 at body temperature) is more acidic than a simple alcohol because the bicarbonate ion formed is resonance-stabilised across three oxygens.",
+   "reason": "Same correction as above, applied where the number is used in the resonance discussion."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- H₂CO₃: pKa₁ = 6.1, pKa₂ = 10.3",
+   "new": "- CO₂(aq)/HCO₃⁻: apparent pKa₁′ = 6.1 (37 °C); HCO₃⁻: pKa₂ = 10.3",
+   "reason": "Same correction, applied to the polyprotic list."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Trichloroacetic acid (pKa ≈ 0.52): same carboxylate resonance *plus* strong inductive withdrawal from three Cl atoms",
+   "new": "- Trichloroacetic acid (pKa ≈ 0.66): same carboxylate resonance *plus* strong inductive withdrawal from three Cl atoms",
+   "reason": "0.52 is the pKa of trifluoroacetic acid, quoted correctly a few paragraphs earlier in the inductive-effects series; trichloroacetic acid is 0.66. The two had been conflated here, giving the same number to two different compounds in one lesson."
+  },
+  {
+   "field": "questions.555.question_text",
+   "old": "Trichloroacetic acid (Cl3CCOOH, pKa = 0.7) is a stronger acid than acetic acid (CH3COOH, pKa = 4.75).",
+   "new": "Trichloroacetic acid (Cl3CCOOH, pKa = 0.66) is a stronger acid than acetic acid (CH3COOH, pKa = 4.76).",
+   "reason": "Brought into line with the values used elsewhere in this course for the same two compounds (0.66 and 4.76), so students are not given three different numbers for trichloroacetic acid across consecutive lessons."
   }
+ ],
+ "sources": [
+  {
+   "title": "CRC Handbook of Chemistry and Physics — Dissociation constants of organic acids and bases",
+   "url": "https://hbcp.chemnetbase.com/",
+   "note": "Acetic acid 4.76; chloroacetic 2.86; 3-chloropropanoic ≈ 4.0; propanoic 4.87; fluoroacetic 2.66; difluoroacetic 1.24; trifluoroacetic 0.52; trichloroacetic 0.66."
+  },
+  {
+   "title": "Hypofluorous acid",
+   "url": "https://en.wikipedia.org/wiki/Hypofluorous_acid",
+   "note": "HOF decomposes rapidly in water and is anomalous among the hypohalous acids — oxygen carries oxidation state 0 and fluorine −1 — so no reliable aqueous pKa is established for it and it does not illustrate the central-atom electronegativity trend."
+  },
+  {
+   "title": "Carbonic acid — true versus apparent first dissociation constant",
+   "url": "https://pubs.acs.org/doi/10.1021/ja00171a021",
+   "note": "The familiar pKa₁ of 6.35 (6.1 at 37 °C) is an apparent constant defined over total dissolved CO₂; the true pKa₁ of H₂CO₃ is near 3.6, because only a small fraction of dissolved CO₂ is hydrated."
+  }
+ ],
+ "visual": {
+  "title": "Five ways to stabilise a conjugate base",
+  "src": "/lesson-diagrams/pka-five-structural-factors.svg",
+  "width": 1140,
+  "height": 804,
+  "alt": "A banner stating that acidity is set by how comfortably the conjugate base carries the charge, followed by five cards: electronegativity across a period (CH₄ 50, NH₃ 38, H₂O 15.7, HF 3.2); size and bond strength down a group (HF 3.2 versus HI about −10); resonance (ethanol 16, phenol 10, acetic acid 4.76); induction (acetic 4.76 down to trifluoroacetic 0.52, with the distance effect); and hybridisation (sp³ 50, sp² 44, sp 25). A footer gives the reaction test with its sign convention and two worked cases.",
+  "caption": "Every row is the same question asked a different way: how easily can the anion left behind carry the charge? The footer is where sign errors happen — ΔpKa is product acid minus reactant acid, and it must be positive to be favourable.",
+  "beforeHeading": "## Structural Determinants of Acid Strength"
+ }
 }

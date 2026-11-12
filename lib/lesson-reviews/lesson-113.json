@@ -1,94 +1,94 @@
 {
-  "lessonId": 113,
-  "reviewedAt": "2026-11-11",
-  "questionIds": [
-    561,
-    562,
-    563,
-    564,
-    565
-  ],
-  "fingerprint": "aad9073fc762ff740d4bb9eb6b9a1f25de36dc8401c1564e26f54dcc4ca7b0a6",
-  "patches": [
-    {
-      "field": "lesson.content",
-      "old": "- Carbonic acid / bicarbonate (H₂CO₃ / HCO₃⁻), pKa ≈ 6.1",
-      "new": "- Dissolved CO₂ / bicarbonate (CO₂(aq) / HCO₃⁻), apparent pKa ≈ 6.1 — note that the acid component here is dissolved CO₂, not H₂CO₃; see below",
-      "reason": "6.1 is an apparent constant written over total dissolved CO₂, not over carbonic acid. Only a small fraction of dissolved CO₂ is hydrated to H₂CO₃, whose own pKa₁ is near 3.6, so pairing 6.1 with H₂CO₃ misidentifies the acid component of the buffer — the error that leads students to compute an [HCO₃⁻]/[H₂CO₃] ratio of 20:1 when the true ratio for H₂CO₃ itself is several thousand to one."
-    },
-    {
-      "field": "lesson.content",
-      "old": "At physiological conditions, the normal concentrations are approximately [HCO₃⁻] = 24 mEq/L and [CO₂] = 1.2 mEq/L (corresponding to a partial pressure of CO₂ of about 40 mmHg).",
-      "new": "At physiological conditions, the normal values are approximately [HCO₃⁻] = 24 mmol/L and dissolved [CO₂] = 1.2 mmol/L, the latter being 0.03 × pCO₂ with pCO₂ about 40 mmHg.",
-      "reason": "Dissolved CO₂ is uncharged, so it has no equivalents and cannot be expressed in mEq/L. Giving both in mmol/L, with the 0.03 × pCO₂ relation, also lets a student reproduce the figure from a blood gas rather than memorise it."
-    },
-    {
-      "field": "lesson.content",
-      "old": "Though not always the focus of MCAT buffer questions, **proteins** — especially hemoglobin and plasma albumin — are quantitatively the most important intracellular and intravascular buffers.",
-      "new": "Though not always the focus of MCAT buffer questions, **proteins** — especially hemoglobin and plasma albumin — carry an enormous share of the body's total buffering. Inside cells, proteins together with phosphate are the dominant buffer pool, and in whole blood, haemoglobin is by far the largest *non-bicarbonate* buffer. In plasma itself, bicarbonate remains the principal buffer, for the open-system reason given above.",
-      "reason": "As written this contradicted the lesson's own statement three sections earlier that the bicarbonate system is the primary extracellular buffer in blood plasma. Proteins are the largest intracellular buffer pool and haemoglobin the main non-bicarbonate buffer of whole blood, but bicarbonate is the principal plasma buffer. Restated so the two claims agree and the distinction between whole blood and plasma is explicit."
-    },
-    {
-      "field": "lesson.content",
-      "old": "- **Carbonic acid pKa₁**: 6.35 (first dissociation); effective pKa in blood ≈ 6.1",
-      "new": "- **CO₂ / bicarbonate**: apparent pKa′ = 6.35 at 25 °C, 6.1 at 37 °C and blood ionic strength. (The true pKa₁ of H₂CO₃ itself is near 3.6; the apparent value is higher because it is written over all dissolved CO₂, most of which is never hydrated.)",
-      "reason": "Same correction as above, applied to the memorisation list, so the course gives one consistent account of what the 6.1 and 6.35 figures measure."
-    },
-    {
-      "field": "questions.561.choice_d",
-      "old": "Carbonic acid / bicarbonate (pKa = 6.10)",
-      "new": "Dissolved CO₂ / bicarbonate (apparent pKa = 6.10)",
-      "reason": "Names the acid component of this buffer correctly; 6.10 belongs to dissolved CO₂, not to H₂CO₃."
-    },
-    {
-      "field": "questions.561.explanation",
-      "old": "Acetic acid (pKa 4.76) and carbonic acid (pKa 6.10) are too far below the target",
-      "new": "Acetate (pKa 4.76) and the CO₂/bicarbonate pair (apparent pKa 6.10) are too far below the target",
-      "reason": "Aligned with the corrected choice."
-    },
-    {
-      "field": "questions.562.question_text",
-      "old": "what is the ratio of bicarbonate (HCO3-) to carbonic acid (H2CO3) in blood plasma at physiological pH of 7.40, given that the pKa of carbonic acid is 6.10?",
-      "new": "what is the ratio of bicarbonate (HCO3-) to dissolved carbon dioxide in blood plasma at physiological pH of 7.40, given that the apparent pKa of the CO2/bicarbonate pair is 6.10?",
-      "reason": "As written the question could not be answered correctly: the apparent pKa of 6.10 is defined over dissolved CO₂, so it yields the [HCO₃⁻]/[CO₂] ratio of 20:1. The ratio of bicarbonate to H₂CO₃ itself is on the order of several thousand to one, because only about one dissolved CO₂ molecule in 400 is hydrated. Naming the correct denominator makes the keyed answer right."
-    },
-    {
-      "field": "questions.562.explanation",
-      "old": "Applying the Henderson-Hasselbalch equation: pH = pKa + log([A-]/[HA]), so 7.40 = 6.10 + log([HCO3-]/[H2CO3]), which gives log([HCO3-]/[H2CO3]) = 1.30. Antilogging yields a ratio of approximately 20:1 (bicarbonate to carbonic acid).",
-      "new": "Applying the Henderson-Hasselbalch equation: pH = pKa + log([A-]/[HA]), so 7.40 = 6.10 + log([HCO3-]/[CO2]), which gives log([HCO3-]/[CO2]) = 1.30. Antilogging yields a ratio of approximately 20:1, bicarbonate to dissolved CO2. Note the denominator: pairing 6.10 with H2CO3 instead of dissolved CO2 is a frequent and costly slip, since the two differ by a factor of several hundred.",
-      "reason": "Aligned with the corrected stem, and the common error named explicitly."
-    },
-    {
-      "field": "questions.564.explanation",
-      "old": "raising [HCO3-] and restoring the 20:1 HCO3-/H2CO3 ratio toward normal",
-      "new": "raising [HCO3-] and restoring the 20:1 HCO3-/dissolved-CO2 ratio toward normal",
-      "reason": "Same correction: the 20:1 ratio is bicarbonate to dissolved CO₂."
-    }
-  ],
-  "sources": [
-    {
-      "title": "Henderson–Hasselbalch for the bicarbonate buffer (clinical form)",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482248/",
-      "note": "pH = 6.1 + log([HCO₃⁻]/(0.03 × pCO₂)). The apparent pK′ of 6.1 is defined over total dissolved CO₂; normal values are [HCO₃⁻] ≈ 24 mmol/L and dissolved CO₂ ≈ 1.2 mmol/L at pCO₂ 40 mmHg, giving the 20:1 ratio."
-    },
-    {
-      "title": "Carbonic acid — true versus apparent first dissociation constant",
-      "url": "https://pubs.acs.org/doi/10.1021/ja00171a021",
-      "note": "Only a small fraction of dissolved CO₂ (on the order of 1 in 400) exists as H₂CO₃, so the true pKa₁ of carbonic acid is near 3.6 while the apparent constant over total dissolved CO₂ is 6.35 at 25 °C."
-    },
-    {
-      "title": "Hall & Hall, Guyton and Hall Textbook of Medical Physiology — acid-base buffer systems",
-      "url": "https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8",
-      "note": "Bicarbonate is the principal buffer of extracellular fluid, its effectiveness arising from respiratory and renal regulation of its two components rather than from a favourable pK. Proteins constitute the largest buffer pool of the body overall, concentrated intracellularly, and haemoglobin is the chief non-bicarbonate buffer of whole blood."
-    }
-  ],
-  "visual": {
-    "title": "The flat part is the buffer",
-    "src": "/lesson-diagrams/buffer-titration-curve.svg",
-    "width": 1160,
-    "height": 740,
-    "alt": "A titration curve of 50 mL of 0.10 M acetic acid with 0.10 M NaOH, pH against volume added. The buffering region between pKa − 1 and pKa + 1 is shaded, the half-equivalence point at 25 mL is marked where pH equals the pKa of 4.76, and the equivalence point at 50 mL is marked at pH 8.7. Three panels cover buffer capacity, choosing a buffer by matching pKa to target pH, and why the blood bicarbonate system works at a 20:1 ratio because the lungs and kidneys keep both components topped up.",
-    "caption": "The buffer is the flat stretch, and its midpoint is the half-equivalence point, where half the acid has been converted and pH equals pKa exactly. Note the equivalence point lands above pH 7 — everything there is acetate, which is itself a weak base.",
-    "beforeHeading": "## Buffer Capacity"
+ "lessonId": 113,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  561,
+  562,
+  563,
+  564,
+  565
+ ],
+ "fingerprint": "aad9073fc762ff740d4bb9eb6b9a1f25de36dc8401c1564e26f54dcc4ca7b0a6",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- Carbonic acid / bicarbonate (H₂CO₃ / HCO₃⁻), pKa ≈ 6.1",
+   "new": "- Dissolved CO₂ / bicarbonate (CO₂(aq) / HCO₃⁻), apparent pKa ≈ 6.1 — note that the acid component here is dissolved CO₂, not H₂CO₃; see below",
+   "reason": "6.1 is an apparent constant written over total dissolved CO₂, not over carbonic acid. Only a small fraction of dissolved CO₂ is hydrated to H₂CO₃, whose own pKa₁ is near 3.6, so pairing 6.1 with H₂CO₃ misidentifies the acid component of the buffer — the error that leads students to compute an [HCO₃⁻]/[H₂CO₃] ratio of 20:1 when the true ratio for H₂CO₃ itself is several thousand to one."
+  },
+  {
+   "field": "lesson.content",
+   "old": "At physiological conditions, the normal concentrations are approximately [HCO₃⁻] = 24 mEq/L and [CO₂] = 1.2 mEq/L (corresponding to a partial pressure of CO₂ of about 40 mmHg).",
+   "new": "At physiological conditions, the normal values are approximately [HCO₃⁻] = 24 mmol/L and dissolved [CO₂] = 1.2 mmol/L, the latter being 0.03 × pCO₂ with pCO₂ about 40 mmHg.",
+   "reason": "Dissolved CO₂ is uncharged, so it has no equivalents and cannot be expressed in mEq/L. Giving both in mmol/L, with the 0.03 × pCO₂ relation, also lets a student reproduce the figure from a blood gas rather than memorise it."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Though not always the focus of MCAT buffer questions, **proteins** — especially hemoglobin and plasma albumin — are quantitatively the most important intracellular and intravascular buffers.",
+   "new": "Though not always the focus of MCAT buffer questions, **proteins** — especially hemoglobin and plasma albumin — carry an enormous share of the body's total buffering. Inside cells, proteins together with phosphate are the dominant buffer pool, and in whole blood, haemoglobin is by far the largest *non-bicarbonate* buffer. In plasma itself, bicarbonate remains the principal buffer, for the open-system reason given above.",
+   "reason": "As written this contradicted the lesson's own statement three sections earlier that the bicarbonate system is the primary extracellular buffer in blood plasma. Proteins are the largest intracellular buffer pool and haemoglobin the main non-bicarbonate buffer of whole blood, but bicarbonate is the principal plasma buffer. Restated so the two claims agree and the distinction between whole blood and plasma is explicit."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Carbonic acid pKa₁**: 6.35 (first dissociation); effective pKa in blood ≈ 6.1",
+   "new": "- **CO₂ / bicarbonate**: pKa = 6.1 at body temperature (6.35 at 25 °C). The acid component is dissolved CO₂, so the denominator is 0.03 × pCO₂ — not [H₂CO₃].",
+   "reason": "Same correction as above, applied to the memorisation list, so the course gives one consistent account of what the 6.1 and 6.35 figures measure."
+  },
+  {
+   "field": "questions.561.choice_d",
+   "old": "Carbonic acid / bicarbonate (pKa = 6.10)",
+   "new": "Dissolved CO₂ / bicarbonate (apparent pKa = 6.10)",
+   "reason": "Names the acid component of this buffer correctly; 6.10 belongs to dissolved CO₂, not to H₂CO₃."
+  },
+  {
+   "field": "questions.561.explanation",
+   "old": "Acetic acid (pKa 4.76) and carbonic acid (pKa 6.10) are too far below the target",
+   "new": "Acetate (pKa 4.76) and the CO₂/bicarbonate pair (apparent pKa 6.10) are too far below the target",
+   "reason": "Aligned with the corrected choice."
+  },
+  {
+   "field": "questions.562.question_text",
+   "old": "what is the ratio of bicarbonate (HCO3-) to carbonic acid (H2CO3) in blood plasma at physiological pH of 7.40, given that the pKa of carbonic acid is 6.10?",
+   "new": "what is the ratio of bicarbonate (HCO3-) to dissolved carbon dioxide in blood plasma at physiological pH of 7.40, given that the apparent pKa of the CO2/bicarbonate pair is 6.10?",
+   "reason": "As written the question could not be answered correctly: the apparent pKa of 6.10 is defined over dissolved CO₂, so it yields the [HCO₃⁻]/[CO₂] ratio of 20:1. The ratio of bicarbonate to H₂CO₃ itself is on the order of several thousand to one, because only about one dissolved CO₂ molecule in 400 is hydrated. Naming the correct denominator makes the keyed answer right."
+  },
+  {
+   "field": "questions.562.explanation",
+   "old": "Applying the Henderson-Hasselbalch equation: pH = pKa + log([A-]/[HA]), so 7.40 = 6.10 + log([HCO3-]/[H2CO3]), which gives log([HCO3-]/[H2CO3]) = 1.30. Antilogging yields a ratio of approximately 20:1 (bicarbonate to carbonic acid).",
+   "new": "Applying the Henderson-Hasselbalch equation: pH = pKa + log([A-]/[HA]), so 7.40 = 6.10 + log([HCO3-]/[CO2]), which gives log([HCO3-]/[CO2]) = 1.30. Antilogging yields a ratio of approximately 20:1, bicarbonate to dissolved CO2. Note the denominator: pairing 6.10 with H2CO3 instead of dissolved CO2 is a frequent and costly slip, since the two differ by a factor of several hundred.",
+   "reason": "Aligned with the corrected stem, and the common error named explicitly."
+  },
+  {
+   "field": "questions.564.explanation",
+   "old": "raising [HCO3-] and restoring the 20:1 HCO3-/H2CO3 ratio toward normal",
+   "new": "raising [HCO3-] and restoring the 20:1 HCO3-/dissolved-CO2 ratio toward normal",
+   "reason": "Same correction: the 20:1 ratio is bicarbonate to dissolved CO₂."
   }
+ ],
+ "sources": [
+  {
+   "title": "Henderson–Hasselbalch for the bicarbonate buffer (clinical form)",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK482248/",
+   "note": "pH = 6.1 + log([HCO₃⁻]/(0.03 × pCO₂)). The apparent pK′ of 6.1 is defined over total dissolved CO₂; normal values are [HCO₃⁻] ≈ 24 mmol/L and dissolved CO₂ ≈ 1.2 mmol/L at pCO₂ 40 mmHg, giving the 20:1 ratio."
+  },
+  {
+   "title": "Carbonic acid — true versus apparent first dissociation constant",
+   "url": "https://pubs.acs.org/doi/10.1021/ja00171a021",
+   "note": "Only a small fraction of dissolved CO₂ (on the order of 1 in 400) exists as H₂CO₃, so the true pKa₁ of carbonic acid is near 3.6 while the apparent constant over total dissolved CO₂ is 6.35 at 25 °C."
+  },
+  {
+   "title": "Hall & Hall, Guyton and Hall Textbook of Medical Physiology — acid-base buffer systems",
+   "url": "https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8",
+   "note": "Bicarbonate is the principal buffer of extracellular fluid, its effectiveness arising from respiratory and renal regulation of its two components rather than from a favourable pK. Proteins constitute the largest buffer pool of the body overall, concentrated intracellularly, and haemoglobin is the chief non-bicarbonate buffer of whole blood."
+  }
+ ],
+ "visual": {
+  "title": "The flat part is the buffer",
+  "src": "/lesson-diagrams/buffer-titration-curve.svg",
+  "width": 1160,
+  "height": 740,
+  "alt": "A titration curve of 50 mL of 0.10 M acetic acid with 0.10 M NaOH, pH against volume added. The buffering region between pKa − 1 and pKa + 1 is shaded, the half-equivalence point at 25 mL is marked where pH equals the pKa of 4.76, and the equivalence point at 50 mL is marked at pH 8.7. Three panels cover buffer capacity, choosing a buffer by matching pKa to target pH, and why the blood bicarbonate system works at a 20:1 ratio because the lungs and kidneys keep both components topped up.",
+  "caption": "The buffer is the flat stretch, and its midpoint is the half-equivalence point, where half the acid has been converted and pH equals pKa exactly. Note the equivalence point lands above pH 7 — everything there is acetate, which is itself a weak base.",
+  "beforeHeading": "## Buffer Capacity"
+ }
 }
