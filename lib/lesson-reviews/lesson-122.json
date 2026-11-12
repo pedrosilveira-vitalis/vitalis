@@ -1,0 +1,40 @@
+{
+ "lessonId": 122,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  606,
+  607,
+  608,
+  609,
+  610
+ ],
+ "fingerprint": "51d7f54661d5b10251c0456cf715950d9107fbbccb976002151a87b333e47553",
+ "patches": [
+  {
+   "field": "questions.608.explanation",
+   "old": "Choice B is a common error if students mistakenly add only the exponents they observe without correctly identifying the order with respect to B.",
+   "new": "Choice B is the common error: students read 27 = 3³ correctly, conclude third order in B, and then report that number as the overall order — forgetting to add the first-order dependence on A. The overall order is always the sum of the individual orders.",
+   "reason": "The stated route to choice B does not produce choice B. \"Adding only the exponents they observe\" is the correct procedure (1 + 3 = 4), so as written the distractor rationale describes the right method and attributes the wrong answer to it. The actual route to 3 is identifying the order in B correctly and then failing to add the order in A, which is the error worth naming."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Chemistry 2e — Kinetics (chapter 12 summary)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/12-summary",
+   "note": "Rate laws are determined experimentally and cannot be predicted from reaction stoichiometry; the overall order of a reaction is the sum of the orders with respect to each reactant. Unimolecular elementary steps are first order, bimolecular elementary steps second order."
+  },
+  {
+   "title": "Chemistry LibreTexts (OpenStax Chemistry 2e) — 12.4 Integrated Rate Laws",
+   "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/12%3A_Kinetics/12.04%3A_Integrated_Rate_Laws",
+   "note": "Integrated forms and linear diagnostic plots: [A] vs t for zero order (slope −k), ln[A] vs t for first order (slope −k), 1/[A] vs t for second order (slope +k); half-lives [A]0/2k, 0.693/k and 1/(k[A]0) respectively."
+  }
+ ],
+ "visual": {
+  "title": "Three orders, three signatures",
+  "src": "/lesson-diagrams/reaction-orders.svg",
+  "width": 1160,
+  "height": 800,
+  "alt": "A concentration-against-time plot showing zero-, first- and second-order decay from the same starting concentration: the zero-order line is straight and reaches zero at a definite time, the first-order curve is exponential and halves in equal steps, and the second-order curve falls steeply then develops a long tail. Below, one panel per order gives the rate law, the integrated form, the plot that comes out straight, the half-life and whether it shortens, stays constant or lengthens, the units of k, and a worked example of where that order shows up. Two footers cover how to read a rate law from a table or a mechanism, and what changes k — temperature and activation energy through the Arrhenius equation, and a catalyst, which lowers the barrier in both directions and so changes neither the free energy change nor the equilibrium constant.",
+  "caption": "Identify the order first: the integrated form, the straight-line plot, the half-life behaviour and the units of k all follow from it."
+ }
+}
