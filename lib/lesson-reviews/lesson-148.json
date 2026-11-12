@@ -1,0 +1,63 @@
+{
+ "lessonId": 148,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  736,
+  737,
+  738,
+  739,
+  740
+ ],
+ "fingerprint": "e34501c9a95f1f558d50adc6f5ccb29434a1842a87baae8dd5ba632ae193cd31",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Example: the two protons on C-2 of (S)-2-bromobutane are diastereotopic and appear as separate signals.",
+   "new": "Example: in (S)-2-bromobutane the stereocentre is C-2, and it is the two protons of the C-3 methylene — adjacent to that stereocentre — that are diastereotopic and appear as separate signals.",
+   "reason": "C-2 of 2-bromobutane is the stereocentre itself and carries only one hydrogen, so it has no pair of protons to be diastereotopic. The diastereotopic pair is the CH₂ at C-3, which is exactly the situation the sentence describes in the clause before it: a methylene adjacent to a stereocentre."
+  },
+  {
+   "field": "lesson.content",
+   "old": "**Geminal coupling (²J, H–C–H):** varies widely; often near 0 in sp³ systems but can be large in constrained systems",
+   "new": "**Geminal coupling (²J, H–C–H):** large in sp³ systems, typically −10 to −15 Hz, but it goes unobserved whenever the two protons are chemically equivalent, which in a freely rotating chain is most of the time",
+   "reason": "Geminal coupling in an sp³ CH₂ is not small — it is about −12 Hz. What makes it invisible in ordinary spectra is that equivalent protons do not split each other, which is a different statement and one the lesson makes correctly elsewhere. As written it would mislead a student reading a diastereotopic CH₂, which is precisely where that large ²J becomes visible."
+  },
+  {
+   "field": "questions.737.explanation",
+   "old": "choice B would give a triplet of triplets",
+   "new": "choice B would give a triplet of quartets",
+   "reason": "Choice B describes neighbours bearing two and three protons, which gives a triplet from the CH₂ and a quartet from the CH₃ — a triplet of quartets, not a triplet of triplets."
+  },
+  {
+   "field": "questions.739.explanation",
+   "old": "C6H12 with only 3 carbon peaks means the 6 carbons fall into 3 pairs of equivalent environments, consistent with a highly symmetric structure such as cyclohexane (which actually gives 1 peak) or a branched alkene.",
+   "new": "C6H12 with only 3 carbon peaks means the six carbons fall into just three distinct environments. 3-Hexene is the clean example: the two terminal methyls are equivalent to each other, as are C2 and C5, and as are the two alkene carbons C3 and C4 — three signals for six carbons. Cyclohexane is even more symmetric and gives a single peak, which is why it does not fit a three-peak spectrum either.",
+   "reason": "The explanation offered cyclohexane as the example and then conceded in the same breath that cyclohexane gives one peak, leaving the student with no structure that actually fits. It also asserted three equivalent pairs, which is one way to reach three environments but not the only one. 3-Hexene is named instead, and cyclohexane is kept as the contrast it should have been."
+  },
+  {
+   "field": "questions.740.question_text",
+   "old": "The proton on C2 in the (2R,3R) enantiomer appears as a doublet of doublets.",
+   "new": "The proton on C2 in the (2R,3R) enantiomer is coupled to the C1 methyl protons and to the proton on C3, appearing as a doublet of quartets.",
+   "reason": "C2 of 2-bromo-3-chlorobutane has two coupling partners: the three equivalent methyl protons on C1 and the single proton on C3. That gives a doublet of quartets, not a doublet of doublets. The error does not change the answer but it contradicts the n + 1 rule the previous question tests."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Spin-Spin Splitting and geminal coupling constants — Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_(Morsch_et_al.)/13%3A_Structure_Determination_-_Nuclear_Magnetic_Resonance_Spectroscopy/13.08%3A_Spin-Spin_Splitting_in_1H_NMR_Spectra"
+  },
+  {
+   "title": "Diastereotopic protons — Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Supplemental_Modules_(Organic_Chemistry)/Spectroscopy/Magnetic_Resonance_Spectroscopies/Nuclear_Magnetic_Resonance/NMR%3A_Experimental/Diastereotopic_protons"
+  }
+ ],
+ "visual": {
+  "title": "The ¹H scale, and the three patterns worth recognising on sight",
+  "src": "/lesson-diagrams/nmr-shift-and-splitting.svg",
+  "width": 900,
+  "height": 650,
+  "alt": "A proton chemical-shift scale running from 12 down to 0 ppm with the zones marked: carboxylic acid at 10 to 12, aldehyde at 9 to 10, aromatic at 6.5 to 8.5, vinyl at 4.5 to 6.5, carbon bonded to oxygen or halogen at 3 to 4, benzylic and alpha-to-carbonyl at 2 to 3, and plain alkyl from 0.5 to 2, with TMS at zero and a note that exchangeable OH and NH2 wander between 1 and 5 ppm and vanish on a D2O shake. Below, one panel gives the n plus one rule with Pascal intensities from singlet through quintet and notes that two different neighbours with different coupling constants give a doublet of doublets rather than a triplet. A second panel lists the signature patterns: ethyl as a quartet plus triplet, isopropyl as a septet plus doublet, tert-butyl as a nine-proton singlet, and methoxy as a singlet near 3.3.",
+  "caption": "Shift places the proton, integration counts how many there are, splitting counts the neighbours. Most MCAT spectra are solved from those three readings alone.",
+  "beforeHeading": "### ¹H Chemical Shift Ranges"
+ }
+}
