@@ -1,0 +1,79 @@
+{
+ "lessonId": 141,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  701,
+  702,
+  703,
+  704,
+  705
+ ],
+ "fingerprint": "16db089427fb66f68bee76ed470f64fd538ef55abc51e13c310c1539e928ed49",
+ "patches": [
+  {
+   "field": "questions.703.correct_answer",
+   "old": "D",
+   "new": "B",
+   "reason": "Hydroboration–oxidation of 1-methylcyclohexene gives trans-2-methylcyclohexan-1-ol (>99% by Brown's own data, and the standard textbook result). Syn addition puts H and OH on the same face, and the H lands on C1, which forces the methyl on C1 to the opposite face from the OH on C2. The keyed cis answer inverted this."
+  },
+  {
+   "field": "questions.703.choice_b",
+   "old": "2-methylcyclohexan-1-ol (trans isomer) via anti addition of the hydroxyl group",
+   "new": "trans-2-methylcyclohexan-1-ol: H and OH add syn, which leaves the OH trans to the methyl group",
+   "reason": "The product was right but the reasoning attached to it was not — the addition is syn, and the trans relationship is between the OH and the methyl, not between the two added groups. Rewritten so the correct answer states the correct mechanism."
+  },
+  {
+   "field": "questions.703.choice_d",
+   "old": "2-methylcyclohexan-1-ol (cis isomer) via syn addition of the hydroxyl group",
+   "new": "cis-2-methylcyclohexan-1-ol, on the reasoning that syn addition must leave the OH on the same face as the methyl group",
+   "reason": "Recast as the trap it should be: students who remember 'syn addition' but forget that the hydrogen, not the methyl, is the group added to C1."
+  },
+  {
+   "field": "questions.703.explanation",
+   "old": "Hydroboration-oxidation follows anti-Markovnikov regioselectivity, so the boron (and ultimately the OH) attaches to the less substituted carbon, giving a 2-methyl substituted alcohol rather than the tertiary 1-methyl alcohol. The boron and hydrogen add in a concerted syn fashion across the double bond, and oxidation with H2O2/NaOH retains stereochemistry, yielding the cis product. Choice C is wrong because it places the OH on the more substituted carbon (Markovnikov position). Choice B correctly identifies the carbon but assigns anti stereochemistry, which is characteristic of halogenation, not hydroboration.",
+   "new": "Hydroboration-oxidation is anti-Markovnikov, so boron (and after oxidation the OH) goes to the less substituted carbon, C2, not to the methyl-bearing C1. Boron and hydrogen add syn, and oxidation with H2O2/NaOH replaces boron with OH with retention, so the OH on C2 and the hydrogen on C1 end up on the same face. The methyl group on C1 therefore sits on the opposite face from the OH, and the product is trans-2-methylcyclohexan-1-ol, obtained as a racemate since either face of the alkene can be attacked. Choice D is the standard trap: syn addition refers to the H and the OH, not to the OH and the methyl group that was already there. Choices A and C both put the OH on the more substituted carbon, which is the Markovnikov position that hydroboration does not give.",
+   "reason": "Rewritten for the corrected key, and to name explicitly the step students skip — that the group added to C1 is a hydrogen, so the pre-existing methyl is pushed to the far face."
+  },
+  {
+   "field": "lesson.content",
+   "old": "because the empty orbital is an sp² orbital rather than a pure p orbital, and it cannot be stabilized effectively by resonance.",
+   "new": "because the cationic carbon is sp hybridized and linear: its high s character makes it a poor host for positive charge, and the adjacent pi cloud lies perpendicular to the empty p orbital, so it cannot deliver resonance stabilization.",
+   "reason": "The empty orbital of a carbocation is always a p orbital, not a hybrid; in a vinyl cation the charged carbon is sp hybridized with a linear geometry. The instability comes from the s character of that carbon and from the pi system being perpendicular to the empty p orbital, which is why conjugation cannot help."
+  },
+  {
+   "field": "lesson.content",
+   "old": "(Add 1 for each nitrogen, subtract 1 for each halogen, ignore oxygen and sulfur.)",
+   "new": "(Nitrogens and halogens go inside the formula, not outside it: IHD = (2n + 2 + N − m − X) / 2, where N is the number of nitrogens and X the number of halogens. Oxygen and sulfur are ignored.)",
+   "reason": "Each nitrogen contributes half a degree, not a whole one, and each halogen subtracts half. Applying the old rule to CH₃NH₂ gives +0.5 and to CH₃Cl gives −0.5, when both are 0; the corrected formula gives 0 for each."
+  },
+  {
+   "field": "lesson.content",
+   "old": "(or aldehyde for terminal alkynes with special catalysis)",
+   "new": "(an aldehyde comes from a terminal alkyne only by the anti-Markovnikov route, hydroboration–oxidation, never under acid catalysis)",
+   "reason": "Acid-catalysed hydration of a terminal alkyne gives the methyl ketone under all ordinary conditions; the aldehyde requires a different reagent set, not a special catalyst, and the lesson says so correctly in its hydroboration section."
+  }
+ ],
+ "sources": [
+  {
+   "title": "9.4 Preparation of Alcohols — NC State CH 220 (1-methylcyclohexene gives trans-2-methylcyclohexanol)",
+   "url": "https://ncstate.pressbooks.pub/ch220/chapter/preparation-of-alcohols-a-review/"
+  },
+  {
+   "title": "Vinyl cation — the cationic carbon is sp hybridized and the pi cloud is perpendicular to the empty p orbital",
+   "url": "https://www.wikipedia.org/wiki/Vinyl_cation"
+  },
+  {
+   "title": "Addition by Electrophilic Reagents (alkynes) — Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Supplemental_Modules_(Organic_Chemistry)/Alkynes/Reactivity_of_Alkynes/Addition_by_Electrophilic_Reagents"
+  }
+ ],
+ "visual": {
+  "title": "Every alkene addition is one regiochemistry plus one stereochemistry",
+  "src": "/lesson-diagrams/alkene-addition-map.svg",
+  "width": 900,
+  "height": 600,
+  "alt": "A three by three grid placing the common alkene additions on two axes. Columns are Markovnikov, anti-Markovnikov, and no regiochemistry; rows are syn addition, anti addition, and no stereochemical control. Hydroboration-oxidation is the only anti-Markovnikov entry and is syn; halohydrin formation is Markovnikov and anti; halogenation with X2 is anti and catalytic hydrogenation is syn, both without regiochemistry; HX addition, acid-catalysed hydration and oxymercuration are Markovnikov with no stereochemical control.",
+  "caption": "One question settles most of it: does a free carbocation form? If yes the product is Markovnikov and racemic and can rearrange; if no, read the bridged or concerted geometry.",
+  "beforeHeading": "## Putting It All Together: Reaction Summary"
+ }
+}
