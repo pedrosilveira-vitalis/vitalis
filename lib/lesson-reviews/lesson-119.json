@@ -1,59 +1,59 @@
 {
- "lessonId": 119,
- "reviewedAt": "2026-11-11",
- "questionIds": [
-  591,
-  592,
-  593,
-  594,
-  595
- ],
- "fingerprint": "7dadb2a724c35004f016f37924174cf80153fdb238f22bc7594bb33ccad87dfd",
- "patches": [
-  {
-   "target": "lesson.content",
-   "old": "*Example*: The combustion of glucose: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O. This reaction releases heat and increases the number of gaseous molecules, raising entropy. It is spontaneous at all physiological temperatures.",
-   "new": "*Example*: The combustion of glucose: C₆H₁₂O₆(s) + 6O₂(g) → 6CO₂(g) + 6H₂O(l). ΔS° is about +259 J/(mol·K) — but notice *why*, because the usual shortcut fails here. The moles of gas do not change at all: six in, six out. The entropy rises because a crystalline solid is destroyed and seven reactant particles become twelve product particles. ΔH° is about −2803 kJ/mol, so both terms favour the reaction and it is spontaneous at every temperature.",
-   "reason": "The stated reason is wrong: this reaction consumes six moles of gas and produces six, so the number of gaseous molecules is unchanged. The conclusion survives — ΔS° really is about +259 J/(mol·K) — but it comes from the destruction of the glucose lattice and the increase in particle count, not from gas moles. Left uncorrected, the example would teach the Δn_gas heuristic and then illustrate it with a case where Δn_gas is zero."
-  },
-  {
-   "target": "lesson.content",
-   "old": "*Example*: Forming a highly ordered crystal from a gas while absorbing heat. Such processes simply do not occur spontaneously.",
-   "new": "*Example*: The formation of ozone from oxygen, 3O₂(g) → 2O₃(g). It is endothermic (ΔH° ≈ +285 kJ/mol) and three moles of gas become two (ΔS° ≈ −138 J/(mol·K)), so both terms oppose it and no temperature will make it spontaneous. Ozone is made in the stratosphere only because ultraviolet photons supply the energy directly — which is work done on the system, not a thermal effect, and therefore outside what ΔG = ΔH − TΔS describes.",
-   "reason": "The original example described something that does not exist: forming a crystal from a gas is deposition, which is exothermic, so it cannot illustrate ΔH > 0 with ΔS < 0. Replaced with a real reaction in that quadrant, with the photochemical caveat added because ozone's actual existence would otherwise look like a counterexample to the rule just stated."
-  },
-  {
-   "target": "lesson.content",
-   "old": "- **A solid dissolves** into solution (ions or molecules gain translational freedom)",
-   "new": "- **A solid dissolves** into solution (ions or molecules gain translational freedom) — usually, but not always: small, highly charged ions such as Mg²⁺ and Al³⁺ order the water around them enough to make ΔS negative",
-   "reason": "Stated without qualification this contradicts the treatment in the neighbouring entropy lesson, where the hydration exception is taught explicitly. The caveat is added so the two agree, and because the exception is the version the exam tends to test."
-  },
-  {
-   "target": "question.591.explanation",
-   "old": "Note that ΔS must be converted to J to match ΔH units, a common error that would yield the incorrect answer of 0.25 K or 2500 K depending on the direction of the unit mistake.",
-   "new": "Note that the two quantities must be put in the same units before dividing — ΔH in J/mol with ΔS in J/(mol·K), or both in kJ. Choices A and C sit a factor of ten either side of the answer, which is the signature of a decimal slip in that conversion; leaving ΔH in kJ while ΔS stays in J gives 0.25 K, which is not offered at all.",
-   "reason": "The explanation named 0.25 K as an incorrect answer a student might choose, but 0.25 K is not among the four options, and the two distractors that are offered (25 K and 2500 K) went unexplained. Rewritten so the stated errors correspond to the choices actually on the page."
+  "lessonId": 119,
+  "reviewedAt": "2026-11-11",
+  "questionIds": [
+    591,
+    592,
+    593,
+    594,
+    595
+  ],
+  "fingerprint": "7dadb2a724c35004f016f37924174cf80153fdb238f22bc7594bb33ccad87dfd",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "*Example*: The combustion of glucose: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O. This reaction releases heat and increases the number of gaseous molecules, raising entropy. It is spontaneous at all physiological temperatures.",
+      "new": "*Example*: The combustion of glucose: C₆H₁₂O₆(s) + 6O₂(g) → 6CO₂(g) + 6H₂O(l). ΔS° is about +259 J/(mol·K) — but notice *why*, because the usual shortcut fails here. The moles of gas do not change at all: six in, six out. The entropy rises because a crystalline solid is destroyed and seven reactant particles become twelve product particles. ΔH° is about −2803 kJ/mol, so both terms favour the reaction and it is spontaneous at every temperature.",
+      "reason": "The stated reason is wrong: this reaction consumes six moles of gas and produces six, so the number of gaseous molecules is unchanged. The conclusion survives — ΔS° really is about +259 J/(mol·K) — but it comes from the destruction of the glucose lattice and the increase in particle count, not from gas moles. Left uncorrected, the example would teach the Δn_gas heuristic and then illustrate it with a case where Δn_gas is zero."
+    },
+    {
+      "field": "lesson.content",
+      "old": "*Example*: Forming a highly ordered crystal from a gas while absorbing heat. Such processes simply do not occur spontaneously.",
+      "new": "*Example*: The formation of ozone from oxygen, 3O₂(g) → 2O₃(g). It is endothermic (ΔH° ≈ +285 kJ/mol) and three moles of gas become two (ΔS° ≈ −138 J/(mol·K)), so both terms oppose it and no temperature will make it spontaneous. Ozone is made in the stratosphere only because ultraviolet photons supply the energy directly — which is work done on the system, not a thermal effect, and therefore outside what ΔG = ΔH − TΔS describes.",
+      "reason": "The original example described something that does not exist: forming a crystal from a gas is deposition, which is exothermic, so it cannot illustrate ΔH > 0 with ΔS < 0. Replaced with a real reaction in that quadrant, with the photochemical caveat added because ozone's actual existence would otherwise look like a counterexample to the rule just stated."
+    },
+    {
+      "field": "lesson.content",
+      "old": "- **A solid dissolves** into solution (ions or molecules gain translational freedom)",
+      "new": "- **A solid dissolves** into solution (ions or molecules gain translational freedom) — usually, but not always: small, highly charged ions such as Mg²⁺ and Al³⁺ order the water around them enough to make ΔS negative",
+      "reason": "Stated without qualification this contradicts the treatment in the neighbouring entropy lesson, where the hydration exception is taught explicitly. The caveat is added so the two agree, and because the exception is the version the exam tends to test."
+    },
+    {
+      "field": "questions.591.explanation",
+      "old": "Note that ΔS must be converted to J to match ΔH units, a common error that would yield the incorrect answer of 0.25 K or 2500 K depending on the direction of the unit mistake.",
+      "new": "Note that the two quantities must be put in the same units before dividing — ΔH in J/mol with ΔS in J/(mol·K), or both in kJ. Choices A and C sit a factor of ten either side of the answer, which is the signature of a decimal slip in that conversion; leaving ΔH in kJ while ΔS stays in J gives 0.25 K, which is not offered at all.",
+      "reason": "The explanation named 0.25 K as an incorrect answer a student might choose, but 0.25 K is not among the four options, and the two distractors that are offered (25 K and 2500 K) went unexplained. Rewritten so the stated errors correspond to the choices actually on the page."
+    }
+  ],
+  "sources": [
+    {
+      "title": "CRC Handbook of Chemistry and Physics — standard thermodynamic properties",
+      "url": "https://hbcp.chemnetbase.com/",
+      "note": "S° at 298 K, J/(mol·K): glucose(s) 212.1, O₂(g) 205.2, CO₂(g) 213.8, H₂O(l) 69.9, giving ΔS° ≈ +259 J/(mol·K) for glucose combustion with no change in moles of gas. For ozone: ΔH°f(O₃) = +142.7 kJ/mol and S°(O₃) = 238.9, giving ΔH° ≈ +285 kJ/mol and ΔS° ≈ −138 J/(mol·K) for 3O₂ → 2O₃."
+    },
+    {
+      "title": "Chapman cycle — stratospheric ozone formation",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK234111/",
+      "note": "Ozone forms in the stratosphere through photodissociation of O₂ by ultraviolet radiation below 242 nm, followed by O + O₂ + M → O₃ + M. The energy comes from photons, not from a thermal driving force, which is why the thermodynamically forbidden overall reaction nonetheless occurs."
+    }
+  ],
+  "visual": {
+    "title": "ΔG, ΔG°, and K — three questions people confuse",
+    "src": "/lesson-diagrams/gibbs-free-energy.svg",
+    "width": 1180,
+    "height": 806,
+    "alt": "A free energy versus extent-of-reaction curve with pure reactants on the left, pure products on the right, and the equilibrium minimum in between. The slope of the curve at any point is the actual delta G, which is zero only at the minimum; the difference in height between the two ends is the standard delta G, which is generally not zero. Panels distinguish delta G from delta G standard, give the relations delta G equals delta G standard plus RT ln Q and delta G standard equals minus RT ln K and minus nFE, and set out the four sign combinations with their temperature behaviour and the crossover temperature.",
+    "caption": "The commonest confusion on this topic in one picture: ΔG is the slope of the curve where you are standing now, and it reaches zero at equilibrium. ΔG° is the height difference between the two ends, and it is zero only in the special case K = 1.",
+    "beforeHeading": "## The Four Thermodynamic Cases"
   }
- ],
- "sources": [
-  {
-   "label": "CRC Handbook of Chemistry and Physics — standard thermodynamic properties",
-   "url": "https://hbcp.chemnetbase.com/",
-   "note": "S° at 298 K, J/(mol·K): glucose(s) 212.1, O₂(g) 205.2, CO₂(g) 213.8, H₂O(l) 69.9, giving ΔS° ≈ +259 J/(mol·K) for glucose combustion with no change in moles of gas. For ozone: ΔH°f(O₃) = +142.7 kJ/mol and S°(O₃) = 238.9, giving ΔH° ≈ +285 kJ/mol and ΔS° ≈ −138 J/(mol·K) for 3O₂ → 2O₃."
-  },
-  {
-   "label": "Chapman cycle — stratospheric ozone formation",
-   "url": "https://www.ncbi.nlm.nih.gov/books/NBK234111/",
-   "note": "Ozone forms in the stratosphere through photodissociation of O₂ by ultraviolet radiation below 242 nm, followed by O + O₂ + M → O₃ + M. The energy comes from photons, not from a thermal driving force, which is why the thermodynamically forbidden overall reaction nonetheless occurs."
-  }
- ],
- "visual": {
-  "title": "ΔG, ΔG°, and K — three questions people confuse",
-  "src": "/lesson-diagrams/gibbs-free-energy.svg",
-  "width": 1180,
-  "height": 806,
-  "alt": "A free energy versus extent-of-reaction curve with pure reactants on the left, pure products on the right, and the equilibrium minimum in between. The slope of the curve at any point is the actual delta G, which is zero only at the minimum; the difference in height between the two ends is the standard delta G, which is generally not zero. Panels distinguish delta G from delta G standard, give the relations delta G equals delta G standard plus RT ln Q and delta G standard equals minus RT ln K and minus nFE, and set out the four sign combinations with their temperature behaviour and the crossover temperature.",
-  "caption": "The commonest confusion on this topic in one picture: ΔG is the slope of the curve where you are standing now, and it reaches zero at equilibrium. ΔG° is the height difference between the two ends, and it is zero only in the special case K = 1.",
-  "beforeHeading": "## The Four Thermodynamic Cases"
- }
 }

@@ -1,70 +1,70 @@
 {
- "lessonId": 114,
- "reviewedAt": "2026-11-11",
- "questionIds": [
-  566,
-  567,
-  568,
-  569,
-  570
- ],
- "fingerprint": "b59628acbf756b380588a06ccb10c869bb007e116bfe2349dd4fcf00b93629c1",
- "patches": [
-  {
-   "target": "lesson.content",
-   "old": "- pH rises slowly at the beginning (the solution is strongly acidic and has high buffering capacity against small additions of base)",
-   "new": "- pH rises slowly at the beginning — but *not* because of buffering. There is no conjugate pair in the flask at all. The rise is gentle only because pH is logarithmic: neutralising a small fraction of a large [H⁺] barely shifts the logarithm",
-   "reason": "This attributed buffering capacity to a strong acid solution, contradicting the statement two paragraphs earlier that no buffer region forms in a strong acid–strong base titration. A strong acid has no conjugate base to absorb added hydroxide; the shallow early slope is a property of the logarithmic pH scale. Getting this wrong undermines the whole point of the weak-acid buffer region taught later in the lesson."
-  },
-  {
-   "target": "lesson.content",
-   "old": "- Strong acid: no buffer region; the curve drops steeply from the start\n- Weak acid: a broad, flat S-shaped buffer region exists throughout most of the pre-equivalence zone",
-   "new": "- Strong acid: no buffer region. The curve *rises* — slowly at first, then almost vertically at the equivalence point — but it is never flat in the way a buffer region is\n- Weak acid: a broad, genuinely flat buffer region across most of the pre-equivalence zone",
-   "reason": "Two errors in one line. Titrating an acid with a base makes the pH rise, not drop, so \"the curve drops\" is backwards. And it does not move steeply from the start — the steep part is at the equivalence point, as the lesson states elsewhere. \"S-shaped buffer region\" was also wrong: the whole curve is sigmoidal, while the buffer region is specifically the flat stretch."
-  },
-  {
-   "target": "lesson.content",
-   "old": "A simple amino acid like glycine has three ionizable groups:\n- Carboxyl group: pKa ≈ 2.3\n- Amino group: pKa ≈ 9.6",
-   "new": "A simple amino acid like glycine has two ionizable groups:\n- Carboxyl group: pKa ≈ 2.34\n- Amino group: pKa ≈ 9.60\n\nAmino acids with an ionizable side chain have three, which is why their pI is calculated differently.",
-   "reason": "The sentence announced three ionizable groups and then listed two. Glycine has two: the α-carboxyl and the α-amino group. The third group only exists in amino acids with an ionizable side chain, which the next paragraph goes on to discuss."
-  },
-  {
-   "target": "lesson.content",
-   "old": "pI = (pKa1 + pKa2) / 2 = (2.3 + 9.6) / 2 ≈ 5.97",
-   "new": "pI = (pKa1 + pKa2) / 2 = (2.34 + 9.60) / 2 ≈ 5.97",
-   "reason": "(2.3 + 9.6)/2 is 5.95, not 5.97. The quoted answer comes from the unrounded values 2.34 and 9.60, which are now used so the arithmetic matches the result and the figures agree with those given elsewhere in this course."
-  },
-  {
-   "target": "lesson.content",
-   "old": "H₂CO₃ has pKa1 ≈ 6.1 and pKa2 ≈ 10.3.",
-   "new": "The CO₂/bicarbonate system has an apparent pKa1′ ≈ 6.1 and bicarbonate has pKa2 ≈ 10.3. (The 6.1 figure is written over total dissolved CO₂ rather than H₂CO₃ itself, whose own pKa₁ is near 3.6; in a real titration CO₂ also escapes, so this system is a cleaner illustration on paper than in a beaker.)",
-   "reason": "6.1 is an apparent constant defined over total dissolved CO₂, not the true first dissociation constant of carbonic acid, and attaching it to H₂CO₃ is the error corrected elsewhere in this course. Flagging that CO₂ escapes also prevents a student from expecting this textbook curve in the laboratory."
+  "lessonId": 114,
+  "reviewedAt": "2026-11-11",
+  "questionIds": [
+    566,
+    567,
+    568,
+    569,
+    570
+  ],
+  "fingerprint": "b59628acbf756b380588a06ccb10c869bb007e116bfe2349dd4fcf00b93629c1",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "- pH rises slowly at the beginning (the solution is strongly acidic and has high buffering capacity against small additions of base)",
+      "new": "- pH rises slowly at the beginning — but *not* because of buffering. There is no conjugate pair in the flask at all. The rise is gentle only because pH is logarithmic: neutralising a small fraction of a large [H⁺] barely shifts the logarithm",
+      "reason": "This attributed buffering capacity to a strong acid solution, contradicting the statement two paragraphs earlier that no buffer region forms in a strong acid–strong base titration. A strong acid has no conjugate base to absorb added hydroxide; the shallow early slope is a property of the logarithmic pH scale. Getting this wrong undermines the whole point of the weak-acid buffer region taught later in the lesson."
+    },
+    {
+      "field": "lesson.content",
+      "old": "- Strong acid: no buffer region; the curve drops steeply from the start\n- Weak acid: a broad, flat S-shaped buffer region exists throughout most of the pre-equivalence zone",
+      "new": "- Strong acid: no buffer region. The curve *rises* — slowly at first, then almost vertically at the equivalence point — but it is never flat in the way a buffer region is\n- Weak acid: a broad, genuinely flat buffer region across most of the pre-equivalence zone",
+      "reason": "Two errors in one line. Titrating an acid with a base makes the pH rise, not drop, so \"the curve drops\" is backwards. And it does not move steeply from the start — the steep part is at the equivalence point, as the lesson states elsewhere. \"S-shaped buffer region\" was also wrong: the whole curve is sigmoidal, while the buffer region is specifically the flat stretch."
+    },
+    {
+      "field": "lesson.content",
+      "old": "A simple amino acid like glycine has three ionizable groups:\n- Carboxyl group: pKa ≈ 2.3\n- Amino group: pKa ≈ 9.6",
+      "new": "A simple amino acid like glycine has two ionizable groups:\n- Carboxyl group: pKa ≈ 2.34\n- Amino group: pKa ≈ 9.60\n\nAmino acids with an ionizable side chain have three, which is why their pI is calculated differently.",
+      "reason": "The sentence announced three ionizable groups and then listed two. Glycine has two: the α-carboxyl and the α-amino group. The third group only exists in amino acids with an ionizable side chain, which the next paragraph goes on to discuss."
+    },
+    {
+      "field": "lesson.content",
+      "old": "pI = (pKa1 + pKa2) / 2 = (2.3 + 9.6) / 2 ≈ 5.97",
+      "new": "pI = (pKa1 + pKa2) / 2 = (2.34 + 9.60) / 2 ≈ 5.97",
+      "reason": "(2.3 + 9.6)/2 is 5.95, not 5.97. The quoted answer comes from the unrounded values 2.34 and 9.60, which are now used so the arithmetic matches the result and the figures agree with those given elsewhere in this course."
+    },
+    {
+      "field": "lesson.content",
+      "old": "H₂CO₃ has pKa1 ≈ 6.1 and pKa2 ≈ 10.3.",
+      "new": "The CO₂/bicarbonate system has an apparent pKa1′ ≈ 6.1 and bicarbonate has pKa2 ≈ 10.3. (The 6.1 figure is written over total dissolved CO₂ rather than H₂CO₃ itself, whose own pKa₁ is near 3.6; in a real titration CO₂ also escapes, so this system is a cleaner illustration on paper than in a beaker.)",
+      "reason": "6.1 is an apparent constant defined over total dissolved CO₂, not the true first dissociation constant of carbonic acid, and attaching it to H₂CO₃ is the error corrected elsewhere in this course. Flagging that CO₂ escapes also prevents a student from expecting this textbook curve in the laboratory."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Harris, Quantitative Chemical Analysis — acid-base titration curves",
+      "url": "https://www.macmillanlearning.com/college/us/product/Quantitative-Chemical-Analysis/p/1319324509",
+      "note": "In a strong acid–strong base titration no conjugate pair exists and there is no buffer region; the shallow initial slope reflects the logarithmic pH scale. The half-equivalence point of a weak acid titration is where pH = pKa and buffer capacity is greatest."
+    },
+    {
+      "title": "Nelson & Cox, Lehninger Principles of Biochemistry — amino acid titration",
+      "url": "https://www.macmillanlearning.com/college/us/product/Lehninger-Principles-of-Biochemistry/p/131932213X",
+      "note": "Glycine has two ionizable groups, α-carboxyl (pKa 2.34) and α-amino (pKa 9.60), giving pI 5.97. A third pKa appears only in amino acids with an ionizable side chain."
+    },
+    {
+      "title": "Carbonic acid — true versus apparent first dissociation constant",
+      "url": "https://pubs.acs.org/doi/10.1021/ja00171a021",
+      "note": "The apparent pKa of 6.1–6.35 is written over total dissolved CO₂; the true pKa₁ of H₂CO₃ is near 3.6."
+    }
+  ],
+  "visual": {
+    "title": "Three curves, three equivalence points",
+    "src": "/lesson-diagrams/titration-curve-comparison.svg",
+    "width": 1180,
+    "height": 740,
+    "alt": "Three titration curves on one set of axes, all from 50 mL of 0.10 M analyte with 0.10 M titrant so that every equivalence point falls at 50 mL. HCl with NaOH rises from pH 1 with no flat region to an equivalence point at exactly pH 7. Acetic acid with NaOH starts near pH 2.9, flattens through a buffer region whose midpoint at 25 mL is pH 4.76 (the pKa), and reaches equivalence near pH 8.7. Ammonia with HCl descends from about pH 11, flattens with its midpoint at pH 9.25, and reaches equivalence near pH 5.3. Three panels cover what the shape reveals, why the equivalence pH is not 7 by default, and how to read volumes; a footer explains that the slow start of the strong-acid curve is not buffering.",
+    "caption": "All three reach equivalence at the same 50 mL, because moles — not strengths — fix that volume. What differs is the pH there, and that is set entirely by what is left in the flask: NaCl, acetate, or ammonium.",
+    "beforeHeading": "## Comparing Strong Acid and Weak Acid Titration Curves"
   }
- ],
- "sources": [
-  {
-   "label": "Harris, Quantitative Chemical Analysis — acid-base titration curves",
-   "url": "https://www.macmillanlearning.com/college/us/product/Quantitative-Chemical-Analysis/p/1319324509",
-   "note": "In a strong acid–strong base titration no conjugate pair exists and there is no buffer region; the shallow initial slope reflects the logarithmic pH scale. The half-equivalence point of a weak acid titration is where pH = pKa and buffer capacity is greatest."
-  },
-  {
-   "label": "Nelson & Cox, Lehninger Principles of Biochemistry — amino acid titration",
-   "url": "https://www.macmillanlearning.com/college/us/product/Lehninger-Principles-of-Biochemistry/p/131932213X",
-   "note": "Glycine has two ionizable groups, α-carboxyl (pKa 2.34) and α-amino (pKa 9.60), giving pI 5.97. A third pKa appears only in amino acids with an ionizable side chain."
-  },
-  {
-   "label": "Carbonic acid — true versus apparent first dissociation constant",
-   "url": "https://pubs.acs.org/doi/10.1021/ja00171a021",
-   "note": "The apparent pKa of 6.1–6.35 is written over total dissolved CO₂; the true pKa₁ of H₂CO₃ is near 3.6."
-  }
- ],
- "visual": {
-  "title": "Three curves, three equivalence points",
-  "src": "/lesson-diagrams/titration-curve-comparison.svg",
-  "width": 1180,
-  "height": 740,
-  "alt": "Three titration curves on one set of axes, all from 50 mL of 0.10 M analyte with 0.10 M titrant so that every equivalence point falls at 50 mL. HCl with NaOH rises from pH 1 with no flat region to an equivalence point at exactly pH 7. Acetic acid with NaOH starts near pH 2.9, flattens through a buffer region whose midpoint at 25 mL is pH 4.76 (the pKa), and reaches equivalence near pH 8.7. Ammonia with HCl descends from about pH 11, flattens with its midpoint at pH 9.25, and reaches equivalence near pH 5.3. Three panels cover what the shape reveals, why the equivalence pH is not 7 by default, and how to read volumes; a footer explains that the slow start of the strong-acid curve is not buffering.",
-  "caption": "All three reach equivalence at the same 50 mL, because moles — not strengths — fix that volume. What differs is the pH there, and that is set entirely by what is left in the flask: NaCl, acetate, or ammonium.",
-  "beforeHeading": "## Comparing Strong Acid and Weak Acid Titration Curves"
- }
 }

@@ -1,106 +1,106 @@
 {
- "lessonId": 117,
- "reviewedAt": "2026-11-11",
- "questionIds": [
-  581,
-  582,
-  583,
-  584,
-  585
- ],
- "fingerprint": "f63fd4539b78d10f89ca64e30a1599bdbd378d8220643ecc99fdc2c2367500a7",
- "patches": [
-  {
-   "target": "lesson.content",
-   "old": "Acetylene has a positive ΔH°_f, consistent with its highly strained triple bond and tendency to detonate.",
-   "new": "Acetylene has a positive ΔH°_f — it is less stable than the graphite and hydrogen it is made from, which is why it decomposes so violently. The reason is not strain: acetylene is linear, with no ring or angle strain at all. It is that a C≡C triple bond, strong as it is, does not pay for itself. Two moles of graphite hold their carbons in an extended, very stable network, and tying up four of a carbon's bonding capacity in one short C≡C plus only two C–H bonds leaves the molecule higher in enthalpy than the elements it came from.",
-   "reason": "Acetylene's triple bond is not strained. The molecule is linear, with 180° bond angles and no ring; strain is what cyclopropane and epoxides have. The positive formation enthalpy arises from the stability of graphite as a reference state and from the low hydrogen content per carbon, not from a strained bond. The explanation as written would also mislead a student into expecting all triple bonds to be strained."
-  },
-  {
-   "target": "lesson.content",
-   "old": "The large negative value reflects the substantial energy released when C–H and C–C bonds are replaced by the stronger bonds in CO₂ and H₂O.",
-   "new": "The large negative value reflects the substantial energy released when the four C–H bonds of methane and the O=O bonds of oxygen are replaced by the stronger C=O bonds of CO₂ and O–H bonds of water.",
-   "reason": "Methane is CH₄ — it contains no C–C bonds at all. The reaction breaks C–H and O=O bonds and makes C=O and O–H bonds, which is what the comparison of bond strengths should be between."
-  },
-  {
-   "target": "lesson.content",
-   "old": "For the exam, you should also know that the specific heat of most metals is much lower (~0.4–0.9 J/g·°C), which is why metals heat and cool rapidly.",
-   "new": "For the exam, you should also know that the specific heat of a metal is far lower — roughly 0.13–0.9 J/g·°C (Al 0.90, Fe 0.45, Cu 0.39, Ag 0.24, Pb 0.13) — which is why metals heat and cool rapidly. Notice the trend: heavier atoms mean fewer moles per gram, so the heat capacity *per gram* falls as you go down the list.",
-   "reason": "The range given excluded the heavier metals a student is most likely to meet in a calorimetry problem: silver is 0.24 and lead 0.13 J/g·°C, both well below 0.4. The corrected range covers them, and naming the reason (molar mass, via the Dulong–Petit regularity that molar heat capacities are similar) makes the number predictable rather than something to memorise."
-  },
-  {
-   "target": "lesson.content",
-   "old": "the **Born-Haber cycle** applies Hess's Law to calculate **lattice enthalpy**—the energy released when gaseous ions combine to form a crystal lattice.",
-   "new": "the **Born-Haber cycle** applies Hess's Law to calculate the **lattice enthalpy**. Fix the convention before you start, because both are in use: here, lattice enthalpy means the enthalpy change for *separating* the crystal into gaseous ions, which is endothermic and positive; the reverse process, gaseous ions coming together to form the lattice, is exothermic and equal in magnitude but opposite in sign. Whichever convention a passage uses, the magnitude is what matters and the sign follows from the direction written.",
-   "reason": "The lesson used both conventions without saying so: here lattice enthalpy was \"the energy released when gaseous ions combine\" and described as large and negative, while the enthalpy-of-solution section two subsections later defines it as \"energy required to separate ions, endothermic\". Both definitions are current in the literature, but a lesson cannot use both silently — a student comparing the two passages would conclude one of them is wrong. One convention is now stated, with the other acknowledged."
-  },
-  {
-   "target": "lesson.content",
-   "old": "Lattice enthalpies are large and negative for compounds with small, highly charged ions (e.g., MgO has a much larger lattice enthalpy than NaCl).",
-   "new": "Lattice enthalpies are large for compounds with small, highly charged ions: MgO is about 3795 kJ/mol against roughly 787 for NaCl, since Mg²⁺ and O²⁻ each carry twice the charge of Na⁺ and Cl⁻ and are smaller besides. Coulomb's law explains the whole trend — the energy scales with the product of the charges and inversely with the distance between ion centres.",
-   "reason": "\"Large and negative\" contradicts the separation convention now adopted above, and the comparison was left unquantified. Giving both magnitudes makes the size of the effect concrete and ties it to Coulomb's law, which is the reasoning the exam actually tests."
-  },
-  {
-   "target": "question.581.question_text",
-   "old": "The temperature rises by 3.76°C. If the calorimeter itself has a heat capacity of 1.23 kJ/°C and water's specific heat is 4.18 J/g°C, what is the approximate molar enthalpy of combustion of glucose?",
-   "new": "The temperature rises by 9.38°C. If the calorimeter itself has a heat capacity of 1.23 kJ/°C and water's specific heat is 4.18 J/g°C, what is the approximate molar enthalpy of combustion of glucose?",
-   "reason": "The question was unanswerable as written. With a 3.76 °C rise the data give −1,123 kJ/mol, which was not among the four choices, and the explanation conceded this outright, justifying the keyed answer by supposing the question had meant to say 1000 g of water. A temperature rise of 9.38 °C makes the stated data yield −2,803 kJ/mol, the true molar enthalpy of combustion of glucose, so the arithmetic now produces the keyed answer from the numbers given."
-  },
-  {
-   "target": "question.581.choice_a",
-   "old": "-1,280 kJ/mol",
-   "new": "-1,760 kJ/mol",
-   "reason": "Rewritten as a distractor with a real derivation: the value obtained by counting only the water and forgetting the calorimeter's own heat capacity."
-  },
-  {
-   "target": "question.581.choice_b",
-   "old": "-2,570 kJ/mol",
-   "new": "-1,040 kJ/mol",
-   "reason": "Rewritten as the value obtained by counting only the calorimeter and forgetting the water."
-  },
-  {
-   "target": "question.581.choice_c",
-   "old": "-2,810 kJ/mol",
-   "new": "-2,800 kJ/mol",
-   "reason": "The keyed answer, now actually obtainable from the data in the stem."
-  },
-  {
-   "target": "question.581.choice_d",
-   "old": "-5,140 kJ/mol",
-   "new": "-31.1 kJ/mol",
-   "reason": "Rewritten as the total heat released in kJ reported as though it were a molar quantity — the error of forgetting to divide by moles."
-  },
-  {
-   "target": "question.581.explanation",
-   "old": "Heat absorbed: q_water = (500 g)(4.18 J/g°C)(3.76°C) = 7,858 J = 7.86 kJ; q_cal = (1.23 kJ/°C)(3.76°C) = 4.62 kJ; total q = 12.48 kJ. Moles of glucose = 2.00/180 = 0.01111 mol. Molar enthalpy = -12.48 kJ / 0.01111 mol = -1,123 kJ/mol. Since none of the answers match exactly, choice C at -2,810 kJ/mol corresponds to using 1000 g water instead of 500 g, a common setup variation. The most tempting distractor is B, from omitting the calorimeter heat capacity term.",
-   "new": "The heat released by the reaction is absorbed by two things, and both must be counted. Water: q = (500 g)(4.18 J/g°C)(9.38°C) = 19,604 J = 19.60 kJ. Calorimeter hardware: q = (1.23 kJ/°C)(9.38°C) = 11.54 kJ. Total = 31.14 kJ absorbed, so q_rxn = -31.14 kJ. Moles of glucose = 2.00 g / 180 g/mol = 0.01111 mol. Molar enthalpy of combustion = -31.14 kJ / 0.01111 mol = -2,803 kJ/mol, approximately -2,800 kJ/mol. Choice A is what you get by counting only the water and forgetting that the steel bomb and its fittings also warmed up; choice B counts only the calorimeter; choice D is the total heat released, not the molar value, and is the error of skipping the final division by moles. Note also that a bomb calorimeter is a constant-volume device, so strictly it measures ΔU; for this combustion Δn_gas = 0, so ΔH and ΔU are equal here anyway.",
-   "reason": "Rewritten so the arithmetic follows from the corrected stem and reaches the keyed answer, and so each distractor is explained by an error a student actually makes. The closing note on ΔU versus ΔH is added because the lesson stresses that a bomb calorimeter measures internal energy, and this reaction is a clean case where the two coincide."
+  "lessonId": 117,
+  "reviewedAt": "2026-11-11",
+  "questionIds": [
+    581,
+    582,
+    583,
+    584,
+    585
+  ],
+  "fingerprint": "f63fd4539b78d10f89ca64e30a1599bdbd378d8220643ecc99fdc2c2367500a7",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "Acetylene has a positive ΔH°_f, consistent with its highly strained triple bond and tendency to detonate.",
+      "new": "Acetylene has a positive ΔH°_f — it is less stable than the graphite and hydrogen it is made from, which is why it decomposes so violently. The reason is not strain: acetylene is linear, with no ring or angle strain at all. It is that a C≡C triple bond, strong as it is, does not pay for itself. Two moles of graphite hold their carbons in an extended, very stable network, and tying up four of a carbon's bonding capacity in one short C≡C plus only two C–H bonds leaves the molecule higher in enthalpy than the elements it came from.",
+      "reason": "Acetylene's triple bond is not strained. The molecule is linear, with 180° bond angles and no ring; strain is what cyclopropane and epoxides have. The positive formation enthalpy arises from the stability of graphite as a reference state and from the low hydrogen content per carbon, not from a strained bond. The explanation as written would also mislead a student into expecting all triple bonds to be strained."
+    },
+    {
+      "field": "lesson.content",
+      "old": "The large negative value reflects the substantial energy released when C–H and C–C bonds are replaced by the stronger bonds in CO₂ and H₂O.",
+      "new": "The large negative value reflects the substantial energy released when the four C–H bonds of methane and the O=O bonds of oxygen are replaced by the stronger C=O bonds of CO₂ and O–H bonds of water.",
+      "reason": "Methane is CH₄ — it contains no C–C bonds at all. The reaction breaks C–H and O=O bonds and makes C=O and O–H bonds, which is what the comparison of bond strengths should be between."
+    },
+    {
+      "field": "lesson.content",
+      "old": "For the exam, you should also know that the specific heat of most metals is much lower (~0.4–0.9 J/g·°C), which is why metals heat and cool rapidly.",
+      "new": "For the exam, you should also know that the specific heat of a metal is far lower — roughly 0.13–0.9 J/g·°C (Al 0.90, Fe 0.45, Cu 0.39, Ag 0.24, Pb 0.13) — which is why metals heat and cool rapidly. Notice the trend: heavier atoms mean fewer moles per gram, so the heat capacity *per gram* falls as you go down the list.",
+      "reason": "The range given excluded the heavier metals a student is most likely to meet in a calorimetry problem: silver is 0.24 and lead 0.13 J/g·°C, both well below 0.4. The corrected range covers them, and naming the reason (molar mass, via the Dulong–Petit regularity that molar heat capacities are similar) makes the number predictable rather than something to memorise."
+    },
+    {
+      "field": "lesson.content",
+      "old": "the **Born-Haber cycle** applies Hess's Law to calculate **lattice enthalpy**—the energy released when gaseous ions combine to form a crystal lattice.",
+      "new": "the **Born-Haber cycle** applies Hess's Law to calculate the **lattice enthalpy**. Fix the convention before you start, because both are in use: here, lattice enthalpy means the enthalpy change for *separating* the crystal into gaseous ions, which is endothermic and positive; the reverse process, gaseous ions coming together to form the lattice, is exothermic and equal in magnitude but opposite in sign. Whichever convention a passage uses, the magnitude is what matters and the sign follows from the direction written.",
+      "reason": "The lesson used both conventions without saying so: here lattice enthalpy was \"the energy released when gaseous ions combine\" and described as large and negative, while the enthalpy-of-solution section two subsections later defines it as \"energy required to separate ions, endothermic\". Both definitions are current in the literature, but a lesson cannot use both silently — a student comparing the two passages would conclude one of them is wrong. One convention is now stated, with the other acknowledged."
+    },
+    {
+      "field": "lesson.content",
+      "old": "Lattice enthalpies are large and negative for compounds with small, highly charged ions (e.g., MgO has a much larger lattice enthalpy than NaCl).",
+      "new": "Lattice enthalpies are large for compounds with small, highly charged ions: MgO is about 3795 kJ/mol against roughly 787 for NaCl, since Mg²⁺ and O²⁻ each carry twice the charge of Na⁺ and Cl⁻ and are smaller besides. Coulomb's law explains the whole trend — the energy scales with the product of the charges and inversely with the distance between ion centres.",
+      "reason": "\"Large and negative\" contradicts the separation convention now adopted above, and the comparison was left unquantified. Giving both magnitudes makes the size of the effect concrete and ties it to Coulomb's law, which is the reasoning the exam actually tests."
+    },
+    {
+      "field": "questions.581.question_text",
+      "old": "The temperature rises by 3.76°C. If the calorimeter itself has a heat capacity of 1.23 kJ/°C and water's specific heat is 4.18 J/g°C, what is the approximate molar enthalpy of combustion of glucose?",
+      "new": "The temperature rises by 9.38°C. If the calorimeter itself has a heat capacity of 1.23 kJ/°C and water's specific heat is 4.18 J/g°C, what is the approximate molar enthalpy of combustion of glucose?",
+      "reason": "The question was unanswerable as written. With a 3.76 °C rise the data give −1,123 kJ/mol, which was not among the four choices, and the explanation conceded this outright, justifying the keyed answer by supposing the question had meant to say 1000 g of water. A temperature rise of 9.38 °C makes the stated data yield −2,803 kJ/mol, the true molar enthalpy of combustion of glucose, so the arithmetic now produces the keyed answer from the numbers given."
+    },
+    {
+      "field": "questions.581.choice_a",
+      "old": "-1,280 kJ/mol",
+      "new": "-1,760 kJ/mol",
+      "reason": "Rewritten as a distractor with a real derivation: the value obtained by counting only the water and forgetting the calorimeter's own heat capacity."
+    },
+    {
+      "field": "questions.581.choice_b",
+      "old": "-2,570 kJ/mol",
+      "new": "-1,040 kJ/mol",
+      "reason": "Rewritten as the value obtained by counting only the calorimeter and forgetting the water."
+    },
+    {
+      "field": "questions.581.choice_c",
+      "old": "-2,810 kJ/mol",
+      "new": "-2,800 kJ/mol",
+      "reason": "The keyed answer, now actually obtainable from the data in the stem."
+    },
+    {
+      "field": "questions.581.choice_d",
+      "old": "-5,140 kJ/mol",
+      "new": "-31.1 kJ/mol",
+      "reason": "Rewritten as the total heat released in kJ reported as though it were a molar quantity — the error of forgetting to divide by moles."
+    },
+    {
+      "field": "questions.581.explanation",
+      "old": "Heat absorbed: q_water = (500 g)(4.18 J/g°C)(3.76°C) = 7,858 J = 7.86 kJ; q_cal = (1.23 kJ/°C)(3.76°C) = 4.62 kJ; total q = 12.48 kJ. Moles of glucose = 2.00/180 = 0.01111 mol. Molar enthalpy = -12.48 kJ / 0.01111 mol = -1,123 kJ/mol. Since none of the answers match exactly, choice C at -2,810 kJ/mol corresponds to using 1000 g water instead of 500 g, a common setup variation. The most tempting distractor is B, from omitting the calorimeter heat capacity term.",
+      "new": "The heat released by the reaction is absorbed by two things, and both must be counted. Water: q = (500 g)(4.18 J/g°C)(9.38°C) = 19,604 J = 19.60 kJ. Calorimeter hardware: q = (1.23 kJ/°C)(9.38°C) = 11.54 kJ. Total = 31.14 kJ absorbed, so q_rxn = -31.14 kJ. Moles of glucose = 2.00 g / 180 g/mol = 0.01111 mol. Molar enthalpy of combustion = -31.14 kJ / 0.01111 mol = -2,803 kJ/mol, approximately -2,800 kJ/mol. Choice A is what you get by counting only the water and forgetting that the steel bomb and its fittings also warmed up; choice B counts only the calorimeter; choice D is the total heat released, not the molar value, and is the error of skipping the final division by moles. Note also that a bomb calorimeter is a constant-volume device, so strictly it measures ΔU; for this combustion Δn_gas = 0, so ΔH and ΔU are equal here anyway.",
+      "reason": "Rewritten so the arithmetic follows from the corrected stem and reaches the keyed answer, and so each distractor is explained by an error a student actually makes. The closing note on ΔU versus ΔH is added because the lesson stresses that a bomb calorimeter measures internal energy, and this reaction is a clean case where the two coincide."
+    }
+  ],
+  "sources": [
+    {
+      "title": "CRC Handbook of Chemistry and Physics — specific heat capacities and standard enthalpies",
+      "url": "https://hbcp.chemnetbase.com/",
+      "note": "Specific heat capacities at 298 K, J/(g·K): Al 0.897, Fe 0.449, Cu 0.385, Ag 0.235, Pb 0.129. ΔH°f of acetylene +227 kJ/mol; ΔH°comb of glucose −2803 kJ/mol."
+    },
+    {
+      "title": "Lattice energies and the Born–Haber cycle",
+      "url": "https://pubs.acs.org/doi/10.1021/ed084p1552",
+      "note": "Lattice enthalpy is defined in the literature both as the endothermic separation of a crystal into gaseous ions and as the exothermic reverse; magnitudes are equal. Representative values: NaCl ≈ 787 kJ/mol, MgO ≈ 3795 kJ/mol, the difference following Coulomb's law through ion charge and separation."
+    },
+    {
+      "title": "IUPAC Gold Book — strain energy",
+      "url": "https://goldbook.iupac.org/terms/view/S06003",
+      "note": "Strain arises from deviation of bond angles, bond lengths or torsions from their unstrained values, as in small rings. Acetylene is linear and unstrained; its positive formation enthalpy reflects the stability of the elemental reference states, not strain."
+    }
+  ],
+  "visual": {
+    "title": "Three routes to the same ΔH",
+    "src": "/lesson-diagrams/enthalpy-routes.svg",
+    "width": 1160,
+    "height": 772,
+    "alt": "A central enthalpy diagram showing reactants and products joined by a direct arrow labelled with the reaction enthalpy, and by an indirect path through the constituent elements, illustrating why the formation-enthalpy formula works. Around it, three method panels — tabulated formation enthalpies, algebraic combination of known reactions by Hess's Law, and average bond enthalpies — each with when to use it, the formula, and its accuracy. A footer panel covers calorimetry: the coffee-cup device at constant pressure measuring ΔH, the bomb at constant volume measuring ΔU, and the conversion between them.",
+    "caption": "All three methods work because enthalpy is a state function: the route is irrelevant, only the endpoints count. Bond enthalpies are the approximate one — they are averages across many molecules, so expect to be out by 10–20 kJ/mol.",
+    "beforeHeading": "## Hess's Law"
   }
- ],
- "sources": [
-  {
-   "label": "CRC Handbook of Chemistry and Physics — specific heat capacities and standard enthalpies",
-   "url": "https://hbcp.chemnetbase.com/",
-   "note": "Specific heat capacities at 298 K, J/(g·K): Al 0.897, Fe 0.449, Cu 0.385, Ag 0.235, Pb 0.129. ΔH°f of acetylene +227 kJ/mol; ΔH°comb of glucose −2803 kJ/mol."
-  },
-  {
-   "label": "Lattice energies and the Born–Haber cycle",
-   "url": "https://pubs.acs.org/doi/10.1021/ed084p1552",
-   "note": "Lattice enthalpy is defined in the literature both as the endothermic separation of a crystal into gaseous ions and as the exothermic reverse; magnitudes are equal. Representative values: NaCl ≈ 787 kJ/mol, MgO ≈ 3795 kJ/mol, the difference following Coulomb's law through ion charge and separation."
-  },
-  {
-   "label": "IUPAC Gold Book — strain energy",
-   "url": "https://goldbook.iupac.org/terms/view/S06003",
-   "note": "Strain arises from deviation of bond angles, bond lengths or torsions from their unstrained values, as in small rings. Acetylene is linear and unstrained; its positive formation enthalpy reflects the stability of the elemental reference states, not strain."
-  }
- ],
- "visual": {
-  "title": "Three routes to the same ΔH",
-  "src": "/lesson-diagrams/enthalpy-routes.svg",
-  "width": 1160,
-  "height": 772,
-  "alt": "A central enthalpy diagram showing reactants and products joined by a direct arrow labelled with the reaction enthalpy, and by an indirect path through the constituent elements, illustrating why the formation-enthalpy formula works. Around it, three method panels — tabulated formation enthalpies, algebraic combination of known reactions by Hess's Law, and average bond enthalpies — each with when to use it, the formula, and its accuracy. A footer panel covers calorimetry: the coffee-cup device at constant pressure measuring ΔH, the bomb at constant volume measuring ΔU, and the conversion between them.",
-  "caption": "All three methods work because enthalpy is a state function: the route is irrelevant, only the endpoints count. Bond enthalpies are the approximate one — they are averages across many molecules, so expect to be out by 10–20 kJ/mol.",
-  "beforeHeading": "## Hess's Law"
- }
 }

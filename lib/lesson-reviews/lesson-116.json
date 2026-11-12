@@ -1,47 +1,47 @@
 {
- "lessonId": 116,
- "reviewedAt": "2026-11-11",
- "questionIds": [
-  576,
-  577,
-  578,
-  579,
-  580
- ],
- "fingerprint": "0d56fc51a4edae488d1c2407333e97d8b616f9ddfbb8b2db9f4fa11bfd727f20",
- "patches": [
-  {
-   "target": "lesson.content",
-   "old": "- Simple monatomic gases (He, Ne): ~126 J/(mol·K)\n- Diatomic gases (H₂, N₂, O₂): ~130–205 J/(mol·K)\n- Complex gases (CO₂): ~214 J/(mol·K)\n- Liquids (H₂O): ~70 J/(mol·K)\n- Simple solids (NaCl, metals): ~28–51 J/(mol·K)",
-   "new": "- Monatomic gases: He 126, Ne 146, Ar 155 J/(mol·K)\n- Diatomic gases: H₂ 131, N₂ 192, O₂ 205 J/(mol·K)\n- Polyatomic gases: CO₂ 214 J/(mol·K)\n- Liquids: H₂O 70 J/(mol·K)\n- Metals: Fe 27, Al 28, Cu 33 J/(mol·K)\n- Ionic solids: NaCl 72 J/(mol·K) — higher than a metal, because a formula unit contributes two ions' worth of vibrational modes",
-   "reason": "NaCl was listed under \"simple solids ~28–51 J/(mol·K)\", but its standard molar entropy is 72.1 J/(mol·K) — well outside that range and more than double that of iron. Lumping it with the metals also obscures the reason: a two-ion formula unit has more vibrational modes than a monatomic metal lattice. The monatomic gas line was also misleading, since neon is 146 rather than ~126. Values given individually so each is right."
-  },
-  {
-   "target": "lesson.content",
-   "old": "The Second Law says: *the total entropy of the universe always increases.*",
-   "new": "The Second Law says: *the total entropy of the universe never decreases* — it increases for every real (irreversible) process, and holds constant only in the reversible limit.",
-   "reason": "\"Always increases\" contradicts the inequality the lesson itself states twice (ΔS_universe ≥ 0, with equality for a reversible process) and the section on reversible processes, which says ΔS_universe = 0 for them. Restated so the summary matches the law as given."
+  "lessonId": 116,
+  "reviewedAt": "2026-11-11",
+  "questionIds": [
+    576,
+    577,
+    578,
+    579,
+    580
+  ],
+  "fingerprint": "0d56fc51a4edae488d1c2407333e97d8b616f9ddfbb8b2db9f4fa11bfd727f20",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "- Simple monatomic gases (He, Ne): ~126 J/(mol·K)\n- Diatomic gases (H₂, N₂, O₂): ~130–205 J/(mol·K)\n- Complex gases (CO₂): ~214 J/(mol·K)\n- Liquids (H₂O): ~70 J/(mol·K)\n- Simple solids (NaCl, metals): ~28–51 J/(mol·K)",
+      "new": "- Monatomic gases: He 126, Ne 146, Ar 155 J/(mol·K)\n- Diatomic gases: H₂ 131, N₂ 192, O₂ 205 J/(mol·K)\n- Polyatomic gases: CO₂ 214 J/(mol·K)\n- Liquids: H₂O 70 J/(mol·K)\n- Metals: Fe 27, Al 28, Cu 33 J/(mol·K)\n- Ionic solids: NaCl 72 J/(mol·K) — higher than a metal, because a formula unit contributes two ions' worth of vibrational modes",
+      "reason": "NaCl was listed under \"simple solids ~28–51 J/(mol·K)\", but its standard molar entropy is 72.1 J/(mol·K) — well outside that range and more than double that of iron. Lumping it with the metals also obscures the reason: a two-ion formula unit has more vibrational modes than a monatomic metal lattice. The monatomic gas line was also misleading, since neon is 146 rather than ~126. Values given individually so each is right."
+    },
+    {
+      "field": "lesson.content",
+      "old": "The Second Law says: *the total entropy of the universe always increases.*",
+      "new": "The Second Law says: *the total entropy of the universe never decreases* — it increases for every real (irreversible) process, and holds constant only in the reversible limit.",
+      "reason": "\"Always increases\" contradicts the inequality the lesson itself states twice (ΔS_universe ≥ 0, with equality for a reversible process) and the section on reversible processes, which says ΔS_universe = 0 for them. Restated so the summary matches the law as given."
+    }
+  ],
+  "sources": [
+    {
+      "title": "CRC Handbook of Chemistry and Physics — standard molar entropies",
+      "url": "https://hbcp.chemnetbase.com/",
+      "note": "S° at 298 K, J/(mol·K): He 126.2, Ne 146.3, Ar 154.8; H₂ 130.7, N₂ 191.6, O₂ 205.2; CO₂ 213.8; H₂O(l) 69.9; Fe 27.3, Al 28.3, Cu 33.2; NaCl(s) 72.1."
+    },
+    {
+      "title": "Atkins, Physical Chemistry — the Second Law and the Clausius inequality",
+      "url": "https://global.oup.com/academic/product/atkins-physical-chemistry-9780198847816",
+      "note": "The entropy of an isolated system never decreases: ΔS ≥ 0, with equality only for a reversible change. Real processes are irreversible and generate entropy."
+    }
+  ],
+  "visual": {
+    "title": "Two laws, two different questions",
+    "src": "/lesson-diagrams/first-second-laws.svg",
+    "width": 1180,
+    "height": 786,
+    "alt": "On the left, a system drawn inside its surroundings with the chemistry sign conventions marked: heat in positive, heat out negative, work done on the system positive, work done by it negative, summarised as delta U = q + w, with a panel warning that physics texts often use delta U = q minus w. On the right, the First Law and the Second Law side by side, each with its equations, what it tells you, and what it cannot. Two footer strips give heuristics for predicting the sign of an entropy change and the distinction between state functions and path functions.",
+    "caption": "The First Law balances the books; it has nothing to say about direction. That is the Second Law's job — and the reason a system's entropy is allowed to fall, so long as the surroundings more than make up for it.",
+    "beforeHeading": "## The First Law of Thermodynamics"
   }
- ],
- "sources": [
-  {
-   "label": "CRC Handbook of Chemistry and Physics — standard molar entropies",
-   "url": "https://hbcp.chemnetbase.com/",
-   "note": "S° at 298 K, J/(mol·K): He 126.2, Ne 146.3, Ar 154.8; H₂ 130.7, N₂ 191.6, O₂ 205.2; CO₂ 213.8; H₂O(l) 69.9; Fe 27.3, Al 28.3, Cu 33.2; NaCl(s) 72.1."
-  },
-  {
-   "label": "Atkins, Physical Chemistry — the Second Law and the Clausius inequality",
-   "url": "https://global.oup.com/academic/product/atkins-physical-chemistry-9780198847816",
-   "note": "The entropy of an isolated system never decreases: ΔS ≥ 0, with equality only for a reversible change. Real processes are irreversible and generate entropy."
-  }
- ],
- "visual": {
-  "title": "Two laws, two different questions",
-  "src": "/lesson-diagrams/first-second-laws.svg",
-  "width": 1180,
-  "height": 786,
-  "alt": "On the left, a system drawn inside its surroundings with the chemistry sign conventions marked: heat in positive, heat out negative, work done on the system positive, work done by it negative, summarised as delta U = q + w, with a panel warning that physics texts often use delta U = q minus w. On the right, the First Law and the Second Law side by side, each with its equations, what it tells you, and what it cannot. Two footer strips give heuristics for predicting the sign of an entropy change and the distinction between state functions and path functions.",
-  "caption": "The First Law balances the books; it has nothing to say about direction. That is the Second Law's job — and the reason a system's entropy is allowed to fall, so long as the surroundings more than make up for it.",
-  "beforeHeading": "## The First Law of Thermodynamics"
- }
 }

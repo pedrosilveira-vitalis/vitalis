@@ -1,203 +1,203 @@
 {
- "lessonId": 102,
- "reviewedAt": "2026-11-11",
- "questionIds": [
-  506,
-  507,
-  508,
-  509,
-  510
- ],
- "fingerprint": "073a2fd1632663ef6731014722f7bcd52313b4fd5bed817311ace92476d70312",
- "patches": [
-  {
-   "target": "lesson.content",
-   "old": "- Which passage types (humanities, social sciences, natural sciences in a humanistic context) were most difficult",
-   "new": "- Which passage types (humanities or social sciences — CARS draws on nothing else) were most difficult",
-   "reason": "CARS passages are drawn only from the humanities and the social sciences, split roughly evenly between the two. The AAMC states that the section requires no natural-science content knowledge and does not use natural-science passages, so inviting students to log a third passage category that does not exist would have them preparing for material the section never contains."
-  },
-  {
-   "target": "lesson.content",
-   "old": "- **Foundations of Comprehension (FoC):** Questions about what the passage directly says or what words and phrases mean in context. These include main idea, author's purpose, detail retrieval, and vocabulary-in-context questions.",
-   "new": "- **Foundations of Comprehension (FoC):** Questions about what the passage directly says or what words and phrases mean in context. These include main idea, detail retrieval, and vocabulary-in-context questions. (Questions about the author's *purpose, intent, position or bias* belong to RWT, below: the AAMC classifies those under integrating distant components of the text. The reading habit is the same for both — build a thesis and track the author's stance — but the classification matters when you choose a strategy.)",
-   "reason": "The AAMC's Reasoning Within the Text sub-skill is explicitly \"integrating distant components of the text to infer an author's message, intent, purpose, belief, position, bias, assumptions\", so author's-purpose questions are RWT, not FoC. The lesson also contradicted itself: its own RWT section covers function questions, which ask why the author included something — author's purpose at the paragraph level. Corrected, with a note that the practical reading habit does not change."
-  },
-  {
-   "target": "lesson.content",
-   "old": "**Main Idea and Author's Purpose**\n\nBefore you read the first question,",
-   "new": "**Main Idea** (and, though it is formally an RWT task, the closely related question of the author's purpose)\n\nBefore you read the first question,",
-   "reason": "Aligned with the corrected classification above, while keeping the two together because the preparation for them is identical."
-  },
-  {
-   "target": "lesson.content",
-   "old": "Track whether you are completing each passage in approximately 10 minutes. Some passages will take 8 minutes; some will take 12. The goal is to finish the section with 2–3 minutes to return to flagged questions.",
-   "new": "Nine passages in 90 minutes is exactly 10 minutes each, which leaves nothing over, so aim at roughly 9½ and let the spare minutes accumulate. Some passages will take 8 minutes; some will take 11. The goal is to reach the last passage with a few minutes banked for flagged questions.",
-   "reason": "The original was arithmetically inconsistent with itself: at approximately 10 minutes per passage across 9 passages you consume the full 90 minutes and cannot finish with 2–3 minutes spare. Rewritten so the target produces the buffer the paragraph asks for, and so it matches the 9-minute practice target this lesson sets in Phase 1."
-  },
-  {
-   "target": "question.506.question_text",
-   "old": "A student is reviewing a practice set and notices she consistently misses questions that ask 'which of the following BEST explains' followed by a physiological phenomenon. She gets the facts right but picks the most detailed answer rather than the most causally complete one. Which error analysis strategy would MOST directly address this pattern?",
-   "new": "A student reviewing a CARS practice set notices she keeps missing questions whose stems begin \"Which of the following, if true, would most weaken...\". She reads the author's argument correctly, then hunts through the passage for the information in the stem. Which error analysis strategy would MOST directly address this pattern?",
-   "reason": "The original question was not a CARS question. It turned on a physiological phenomenon and on judging causal completeness, neither of which CARS tests; CARS requires no science content and contains no science passages. Rewritten to test the classification error this lesson names as the most frequent one — treating an \"if true\" stem as though the information were in the passage."
-  },
-  {
-   "target": "question.506.choice_a",
-   "old": "Reviewing content outlines to fill gaps in factual knowledge about the topic",
-   "new": "Rereading each passage more slowly, so that she can locate the relevant evidence faster when the question comes",
-   "reason": "Rewritten to fit the corrected stem."
-  },
-  {
-   "target": "question.506.choice_b",
-   "old": "Identifying that these are reasoning questions requiring causal sufficiency, not detail density, and practicing selecting answers that fully explain the mechanism",
-   "new": "Recognising that \"if true\" marks a Reasoning Beyond the Text question, in which the stem supplies information the passage does not contain, and drilling the classification step until it runs automatically",
-   "reason": "Rewritten to fit the corrected stem. B remains the keyed answer."
-  },
-  {
-   "target": "question.506.choice_c",
-   "old": "Timing herself more strictly so she spends less time on each question",
-   "new": "Timing herself more strictly, so that she spends less time searching the passage on these questions",
-   "reason": "Rewritten to fit the corrected stem."
-  },
-  {
-   "target": "question.506.choice_d",
-   "old": "Switching to memorizing more answer patterns from prior tests",
-   "new": "Memorising the wording of the weaken stems she has already seen on practice sets",
-   "reason": "Rewritten to fit the corrected stem."
-  },
-  {
-   "target": "question.506.explanation",
-   "old": "The student's error is strategic, not factual: she is applying a 'most detailed answer wins' heuristic to questions that require causal completeness. Recognizing the question type as a reasoning or explanation question and practicing the correct selection criterion directly addresses the root cause. Choice A is tempting because content review feels productive, but the student already knows the facts; the problem is her decision rule when choosing among answers.",
-   "new": "This is a Type 1 misclassification error: she is running a Foundations of Comprehension strategy — go back and find it in the passage — on a Reasoning Beyond the Text question. The phrase \"if true\" supplies information that is deliberately not in the passage, so the search is guaranteed to fail, and every second of it is taken from the rest of the set. The fix is the classification step itself: three seconds on the stem before a single answer choice is read. Choice A makes the problem worse, since more time in the passage is exactly the wrong move here. Choice C is the most tempting wrong answer, because treating a strategy error as a timing error is the most common misdiagnosis students make in review; speed will not help someone who is looking in the wrong place. Choice D memorises surface wording rather than the decision rule the wording signals, so it will fail on the next stem phrased slightly differently.",
-   "reason": "Rewritten to fit the corrected stem and to tie the answer back to the error taxonomy this lesson teaches."
-  },
-  {
-   "target": "question.507.question_text",
-   "old": "On a mixed question set, a student encounters: 'A researcher finds that inhibiting enzyme X in the citric acid cycle reduces ATP yield by 67%. Which intermediate would MOST likely accumulate?' To classify this question correctly before answering, the student should recognize it primarily requires:",
-   "new": "On a mixed CARS set, a student encounters this stem: \"The author's discussion of the 1851 census in paragraph 3 serves primarily to...\". Classifying the question before answering, the student should recognise that it primarily requires:",
-   "reason": "The original was a biochemistry question about the citric acid cycle, which CARS does not test and whose passages never cover. Rewritten as a genuine CARS classification exercise using a function stem, which the lesson treats at length."
-  },
-  {
-   "target": "question.507.choice_a",
-   "old": "Pure recall of the citric acid cycle steps in order",
-   "new": "Retrieval of what paragraph 3 states about the 1851 census",
-   "reason": "Rewritten to fit the corrected stem. This is the Foundations of Comprehension move, and the most tempting wrong answer."
-  },
-  {
-   "target": "question.507.choice_b",
-   "old": "Data interpretation of the 67% figure to calculate a new ATP value",
-   "new": "Judgement of whether the census figures the author cites are reliable",
-   "reason": "Rewritten to fit the corrected stem. This choice is wrong because it calls for outside knowledge, which never grounds a CARS answer."
-  },
-  {
-   "target": "question.507.choice_c",
-   "old": "Application of mechanistic pathway knowledge to predict upstream accumulation from a block",
-   "new": "Identification of the role paragraph 3 plays in the argument — what the argument would lack if that paragraph were removed",
-   "reason": "Rewritten to fit the corrected stem. C remains the keyed answer."
-  },
-  {
-   "target": "question.507.choice_d",
-   "old": "Evaluation of experimental design flaws in the researcher's methodology",
-   "new": "Application of the author's framework to a historical case the passage does not discuss",
-   "reason": "Rewritten to fit the corrected stem. This describes Reasoning Beyond the Text, which the stem does not call for."
-  },
-  {
-   "target": "question.507.explanation",
-   "old": "The question asks what accumulates when an enzyme is inhibited, which requires applying knowledge of sequential pathway logic: substrates build up before a block. This is an application question, not pure recall (no list to recite), not data math (the 67% contextualizes severity but is not the analytical target), and not experimental critique. Choice A is tempting because students assume citric acid cycle questions are always recall, but the predictive 'would accumulate' framing demands applied reasoning.",
-   "new": "\"Serves primarily to\" marks a function question, and function questions are Reasoning Within the Text: they ask what a passage element *does* for the argument, not what it *says*. The test this lesson gives is to ask what would be missing from the argument if that section were deleted; the absence names the function. Choice A is the Foundations of Comprehension move and the most tempting wrong answer, because a student can report the content of paragraph 3 perfectly accurately and still name its role wrongly. Choice B asks for a judgement about whether the evidence is good in the real world, which is outside knowledge and never the basis for a CARS answer; the author's use of the census is what is at issue, not its accuracy. Choice D describes Reasoning Beyond the Text, but nothing new has been introduced for the author's framework to be applied to.",
-   "reason": "Rewritten to fit the corrected stem and choices."
-  },
-  {
-   "target": "question.509.question_text",
-   "old": "A mixed question set contains the following stem: 'A novel drug blocks voltage-gated sodium channels in cardiac myocytes. A patient taking this drug would MOST likely exhibit which ECG change?' The MOST efficient attack strategy for this question is to:",
-   "new": "A CARS question asks which situation is most analogous to the relationship between patron and artist that the passage describes in the Renaissance workshop. The MOST efficient attack strategy for this question is to:",
-   "reason": "The original was a pharmacology question about sodium-channel blockade and ECG changes. CARS contains no natural-science content and no discrete science questions, so the item could not appear in this section. Rewritten as an analogy question, which this lesson covers under Reasoning Beyond the Text."
-  },
-  {
-   "target": "question.509.choice_a",
-   "old": "Eliminate answers that mention potassium since the drug targets sodium channels",
-   "new": "Scan the choices for the one that also concerns art or artists, since that keeps the comparison close to the passage",
-   "reason": "Rewritten to fit the corrected stem. This is the surface-match trap the lesson warns about."
-  },
-  {
-   "target": "question.509.choice_b",
-   "old": "Trace the mechanistic consequence of blocked sodium influx on action potential depolarization, then map that to the corresponding ECG waveform",
-   "new": "Strip the passage relationship down to its abstract structure — who depends on whom, for what, and under what constraint — then find the choice whose structure matches, whatever its subject matter",
-   "reason": "Rewritten to fit the corrected stem. B remains the keyed answer and now states the protocol the lesson teaches for analogy questions."
-  },
-  {
-   "target": "question.509.choice_c",
-   "old": "Recall a memorized list of drug-ECG pairings from pharmacology notes",
-   "new": "Choose the option set in the period closest to the Renaissance, since historical proximity makes the analogy tighter",
-   "reason": "Rewritten to fit the corrected stem. Another surface-feature trap."
-  },
-  {
-   "target": "question.509.choice_d",
-   "old": "Focus on the word 'novel' to infer the answer must describe an unusual or paradoxical effect",
-   "new": "Eliminate any option whose wording does not appear in the passage",
-   "reason": "Rewritten to fit the corrected stem. This inverts a real principle, since correct CARS answers are usually paraphrases."
-  },
-  {
-   "target": "question.509.explanation",
-   "old": "The efficient strategy for mechanism-to-consequence questions is to chain the mechanism forward: blocked Na+ channels slow or prevent phase 0 depolarization, which widens the QRS complex on ECG. This reasoning-first approach works even for novel drugs because it relies on first principles. Choice A is tempting but is a content-based shortcut that could eliminate correct answers (e.g., secondary potassium effects on repolarization). Choice C fails for novel drugs by definition since no memorized pairing exists.",
-   "new": "Analogy questions test structure, not subject. Extract the abstract pattern first — here, something like: one party funds and constrains the work of another, who supplies a skill the first party lacks — and then match on that pattern. The lesson's warning is that trap answers in analogy questions share surface features with the passage example and differ in logical structure, which is exactly what choices A and C select for: a choice about art, or a choice set in the sixteenth century, is the easiest trap to write and the easiest to fall for. The correct answer in these questions often looks superficially unrelated and replicates the structure exactly. Choice D inverts a real principle — wrong answers frequently borrow the passage's own vocabulary, while correct answers are usually paraphrases.",
-   "reason": "Rewritten to fit the corrected stem and choices."
-  },
-  {
-   "target": "question.510.question_text",
-   "old": "After completing a timed mixed question set, a student categorizes her errors and finds: 4 errors on discrete questions, 6 errors on passage-based questions, and within those, 5 of the 6 passage errors occurred on questions that required integrating two separate paragraphs of data. Which conclusion and action plan is MOST justified by this error analysis?",
-   "new": "After a timed set of four CARS passages, a student categorises her errors. Of 10 missed questions, 7 asked her to connect a claim made in one paragraph with evidence given several paragraphs later. Which conclusion and action plan is MOST justified by this error analysis?",
-   "reason": "The original counted \"4 errors on discrete questions\", but CARS contains no discrete questions: all 53 are attached to passages. Rewritten with numbers that can actually occur in a CARS set, while keeping the same point about reading an error log for a concentrated pattern."
-  },
-  {
-   "target": "question.510.choice_a",
-   "old": "She should increase overall content review since most errors occurred on passage questions",
-   "new": "She should read more widely in the humanities, since most of her errors fell on passages about unfamiliar subjects",
-   "reason": "Rewritten to fit the corrected stem; it is the same default error (treating a process problem as a knowledge gap) in a form that can occur in CARS."
-  },
-  {
-   "target": "question.510.choice_b",
-   "old": "She has a specific process weakness in synthesizing distributed passage information and should practice multi-source integration drills on passages",
-   "new": "She has a specific weakness in integrating distant parts of a passage — the core of Reasoning Within the Text — and should practise mapping each paragraph's function and the links between them as she reads",
-   "reason": "Rewritten to fit the corrected stem and to name the AAMC skill involved. B remains the keyed answer."
-  },
-  {
-   "target": "question.510.choice_c",
-   "old": "She should work on timing since passage questions take longer and fatigue caused her errors",
-   "new": "She should work on timing, since questions spanning several paragraphs take longer and fatigue caused the errors",
-   "reason": "Rewritten to fit the corrected stem."
-  },
-  {
-   "target": "question.510.choice_d",
-   "old": "The pattern is too small a sample to act on and she should simply do more practice tests",
-   "new": "Ten missed questions is too small a sample to act on, so she should simply complete more practice tests before drawing any conclusion",
-   "reason": "Rewritten to fit the corrected stem."
-  },
-  {
-   "target": "question.510.explanation",
-   "old": "The error analysis reveals a specific, actionable pattern: not passage questions in general, but specifically those requiring integration of information across multiple passage sections. This points to a process skill deficit in synthesizing distributed data, not a content gap or timing issue. Targeted practice on multi-source integration directly addresses the identified weakness. Choice A is tempting because content review is a default response to errors, but the pattern does not suggest missing content knowledge as the root cause.",
-   "new": "The pattern is specific and actionable: not CARS questions in general, but those requiring her to integrate components of the text that sit far apart — which is how the AAMC defines Reasoning Within the Text. That identifies a process skill, so the intervention is a process drill: build the paragraph-function map while reading, so the links are already in place when a question asks for one. Choice A is the default move of treating every error as a knowledge gap, and in CARS it is almost always wrong, because no subject knowledge is required or rewarded. Choice C converts a strategy error into a timing error, the most common misdiagnosis in review. Choice D is the counsel of doing more rather than reviewing better; 7 of 10 errors falling on one skill is precisely the concentration an error log exists to surface.",
-   "reason": "Rewritten to fit the corrected stem and choices."
+  "lessonId": 102,
+  "reviewedAt": "2026-11-11",
+  "questionIds": [
+    506,
+    507,
+    508,
+    509,
+    510
+  ],
+  "fingerprint": "073a2fd1632663ef6731014722f7bcd52313b4fd5bed817311ace92476d70312",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "- Which passage types (humanities, social sciences, natural sciences in a humanistic context) were most difficult",
+      "new": "- Which passage types (humanities or social sciences — CARS draws on nothing else) were most difficult",
+      "reason": "CARS passages are drawn only from the humanities and the social sciences, split roughly evenly between the two. The AAMC states that the section requires no natural-science content knowledge and does not use natural-science passages, so inviting students to log a third passage category that does not exist would have them preparing for material the section never contains."
+    },
+    {
+      "field": "lesson.content",
+      "old": "- **Foundations of Comprehension (FoC):** Questions about what the passage directly says or what words and phrases mean in context. These include main idea, author's purpose, detail retrieval, and vocabulary-in-context questions.",
+      "new": "- **Foundations of Comprehension (FoC):** Questions about what the passage directly says or what words and phrases mean in context. These include main idea, detail retrieval, and vocabulary-in-context questions. (Questions about the author's *purpose, intent, position or bias* belong to RWT, below: the AAMC classifies those under integrating distant components of the text. The reading habit is the same for both — build a thesis and track the author's stance — but the classification matters when you choose a strategy.)",
+      "reason": "The AAMC's Reasoning Within the Text sub-skill is explicitly \"integrating distant components of the text to infer an author's message, intent, purpose, belief, position, bias, assumptions\", so author's-purpose questions are RWT, not FoC. The lesson also contradicted itself: its own RWT section covers function questions, which ask why the author included something — author's purpose at the paragraph level. Corrected, with a note that the practical reading habit does not change."
+    },
+    {
+      "field": "lesson.content",
+      "old": "**Main Idea and Author's Purpose**\n\nBefore you read the first question,",
+      "new": "**Main Idea** (and, though it is formally an RWT task, the closely related question of the author's purpose)\n\nBefore you read the first question,",
+      "reason": "Aligned with the corrected classification above, while keeping the two together because the preparation for them is identical."
+    },
+    {
+      "field": "lesson.content",
+      "old": "Track whether you are completing each passage in approximately 10 minutes. Some passages will take 8 minutes; some will take 12. The goal is to finish the section with 2–3 minutes to return to flagged questions.",
+      "new": "Nine passages in 90 minutes is exactly 10 minutes each, which leaves nothing over, so aim at roughly 9½ and let the spare minutes accumulate. Some passages will take 8 minutes; some will take 11. The goal is to reach the last passage with a few minutes banked for flagged questions.",
+      "reason": "The original was arithmetically inconsistent with itself: at approximately 10 minutes per passage across 9 passages you consume the full 90 minutes and cannot finish with 2–3 minutes spare. Rewritten so the target produces the buffer the paragraph asks for, and so it matches the 9-minute practice target this lesson sets in Phase 1."
+    },
+    {
+      "field": "questions.506.question_text",
+      "old": "A student is reviewing a practice set and notices she consistently misses questions that ask 'which of the following BEST explains' followed by a physiological phenomenon. She gets the facts right but picks the most detailed answer rather than the most causally complete one. Which error analysis strategy would MOST directly address this pattern?",
+      "new": "A student reviewing a CARS practice set notices she keeps missing questions whose stems begin \"Which of the following, if true, would most weaken...\". She reads the author's argument correctly, then hunts through the passage for the information in the stem. Which error analysis strategy would MOST directly address this pattern?",
+      "reason": "The original question was not a CARS question. It turned on a physiological phenomenon and on judging causal completeness, neither of which CARS tests; CARS requires no science content and contains no science passages. Rewritten to test the classification error this lesson names as the most frequent one — treating an \"if true\" stem as though the information were in the passage."
+    },
+    {
+      "field": "questions.506.choice_a",
+      "old": "Reviewing content outlines to fill gaps in factual knowledge about the topic",
+      "new": "Rereading each passage more slowly, so that she can locate the relevant evidence faster when the question comes",
+      "reason": "Rewritten to fit the corrected stem."
+    },
+    {
+      "field": "questions.506.choice_b",
+      "old": "Identifying that these are reasoning questions requiring causal sufficiency, not detail density, and practicing selecting answers that fully explain the mechanism",
+      "new": "Recognising that \"if true\" marks a Reasoning Beyond the Text question, in which the stem supplies information the passage does not contain, and drilling the classification step until it runs automatically",
+      "reason": "Rewritten to fit the corrected stem. B remains the keyed answer."
+    },
+    {
+      "field": "questions.506.choice_c",
+      "old": "Timing herself more strictly so she spends less time on each question",
+      "new": "Timing herself more strictly, so that she spends less time searching the passage on these questions",
+      "reason": "Rewritten to fit the corrected stem."
+    },
+    {
+      "field": "questions.506.choice_d",
+      "old": "Switching to memorizing more answer patterns from prior tests",
+      "new": "Memorising the wording of the weaken stems she has already seen on practice sets",
+      "reason": "Rewritten to fit the corrected stem."
+    },
+    {
+      "field": "questions.506.explanation",
+      "old": "The student's error is strategic, not factual: she is applying a 'most detailed answer wins' heuristic to questions that require causal completeness. Recognizing the question type as a reasoning or explanation question and practicing the correct selection criterion directly addresses the root cause. Choice A is tempting because content review feels productive, but the student already knows the facts; the problem is her decision rule when choosing among answers.",
+      "new": "This is a Type 1 misclassification error: she is running a Foundations of Comprehension strategy — go back and find it in the passage — on a Reasoning Beyond the Text question. The phrase \"if true\" supplies information that is deliberately not in the passage, so the search is guaranteed to fail, and every second of it is taken from the rest of the set. The fix is the classification step itself: three seconds on the stem before a single answer choice is read. Choice A makes the problem worse, since more time in the passage is exactly the wrong move here. Choice C is the most tempting wrong answer, because treating a strategy error as a timing error is the most common misdiagnosis students make in review; speed will not help someone who is looking in the wrong place. Choice D memorises surface wording rather than the decision rule the wording signals, so it will fail on the next stem phrased slightly differently.",
+      "reason": "Rewritten to fit the corrected stem and to tie the answer back to the error taxonomy this lesson teaches."
+    },
+    {
+      "field": "questions.507.question_text",
+      "old": "On a mixed question set, a student encounters: 'A researcher finds that inhibiting enzyme X in the citric acid cycle reduces ATP yield by 67%. Which intermediate would MOST likely accumulate?' To classify this question correctly before answering, the student should recognize it primarily requires:",
+      "new": "On a mixed CARS set, a student encounters this stem: \"The author's discussion of the 1851 census in paragraph 3 serves primarily to...\". Classifying the question before answering, the student should recognise that it primarily requires:",
+      "reason": "The original was a biochemistry question about the citric acid cycle, which CARS does not test and whose passages never cover. Rewritten as a genuine CARS classification exercise using a function stem, which the lesson treats at length."
+    },
+    {
+      "field": "questions.507.choice_a",
+      "old": "Pure recall of the citric acid cycle steps in order",
+      "new": "Retrieval of what paragraph 3 states about the 1851 census",
+      "reason": "Rewritten to fit the corrected stem. This is the Foundations of Comprehension move, and the most tempting wrong answer."
+    },
+    {
+      "field": "questions.507.choice_b",
+      "old": "Data interpretation of the 67% figure to calculate a new ATP value",
+      "new": "Judgement of whether the census figures the author cites are reliable",
+      "reason": "Rewritten to fit the corrected stem. This choice is wrong because it calls for outside knowledge, which never grounds a CARS answer."
+    },
+    {
+      "field": "questions.507.choice_c",
+      "old": "Application of mechanistic pathway knowledge to predict upstream accumulation from a block",
+      "new": "Identification of the role paragraph 3 plays in the argument — what the argument would lack if that paragraph were removed",
+      "reason": "Rewritten to fit the corrected stem. C remains the keyed answer."
+    },
+    {
+      "field": "questions.507.choice_d",
+      "old": "Evaluation of experimental design flaws in the researcher's methodology",
+      "new": "Application of the author's framework to a historical case the passage does not discuss",
+      "reason": "Rewritten to fit the corrected stem. This describes Reasoning Beyond the Text, which the stem does not call for."
+    },
+    {
+      "field": "questions.507.explanation",
+      "old": "The question asks what accumulates when an enzyme is inhibited, which requires applying knowledge of sequential pathway logic: substrates build up before a block. This is an application question, not pure recall (no list to recite), not data math (the 67% contextualizes severity but is not the analytical target), and not experimental critique. Choice A is tempting because students assume citric acid cycle questions are always recall, but the predictive 'would accumulate' framing demands applied reasoning.",
+      "new": "\"Serves primarily to\" marks a function question, and function questions are Reasoning Within the Text: they ask what a passage element *does* for the argument, not what it *says*. The test this lesson gives is to ask what would be missing from the argument if that section were deleted; the absence names the function. Choice A is the Foundations of Comprehension move and the most tempting wrong answer, because a student can report the content of paragraph 3 perfectly accurately and still name its role wrongly. Choice B asks for a judgement about whether the evidence is good in the real world, which is outside knowledge and never the basis for a CARS answer; the author's use of the census is what is at issue, not its accuracy. Choice D describes Reasoning Beyond the Text, but nothing new has been introduced for the author's framework to be applied to.",
+      "reason": "Rewritten to fit the corrected stem and choices."
+    },
+    {
+      "field": "questions.509.question_text",
+      "old": "A mixed question set contains the following stem: 'A novel drug blocks voltage-gated sodium channels in cardiac myocytes. A patient taking this drug would MOST likely exhibit which ECG change?' The MOST efficient attack strategy for this question is to:",
+      "new": "A CARS question asks which situation is most analogous to the relationship between patron and artist that the passage describes in the Renaissance workshop. The MOST efficient attack strategy for this question is to:",
+      "reason": "The original was a pharmacology question about sodium-channel blockade and ECG changes. CARS contains no natural-science content and no discrete science questions, so the item could not appear in this section. Rewritten as an analogy question, which this lesson covers under Reasoning Beyond the Text."
+    },
+    {
+      "field": "questions.509.choice_a",
+      "old": "Eliminate answers that mention potassium since the drug targets sodium channels",
+      "new": "Scan the choices for the one that also concerns art or artists, since that keeps the comparison close to the passage",
+      "reason": "Rewritten to fit the corrected stem. This is the surface-match trap the lesson warns about."
+    },
+    {
+      "field": "questions.509.choice_b",
+      "old": "Trace the mechanistic consequence of blocked sodium influx on action potential depolarization, then map that to the corresponding ECG waveform",
+      "new": "Strip the passage relationship down to its abstract structure — who depends on whom, for what, and under what constraint — then find the choice whose structure matches, whatever its subject matter",
+      "reason": "Rewritten to fit the corrected stem. B remains the keyed answer and now states the protocol the lesson teaches for analogy questions."
+    },
+    {
+      "field": "questions.509.choice_c",
+      "old": "Recall a memorized list of drug-ECG pairings from pharmacology notes",
+      "new": "Choose the option set in the period closest to the Renaissance, since historical proximity makes the analogy tighter",
+      "reason": "Rewritten to fit the corrected stem. Another surface-feature trap."
+    },
+    {
+      "field": "questions.509.choice_d",
+      "old": "Focus on the word 'novel' to infer the answer must describe an unusual or paradoxical effect",
+      "new": "Eliminate any option whose wording does not appear in the passage",
+      "reason": "Rewritten to fit the corrected stem. This inverts a real principle, since correct CARS answers are usually paraphrases."
+    },
+    {
+      "field": "questions.509.explanation",
+      "old": "The efficient strategy for mechanism-to-consequence questions is to chain the mechanism forward: blocked Na+ channels slow or prevent phase 0 depolarization, which widens the QRS complex on ECG. This reasoning-first approach works even for novel drugs because it relies on first principles. Choice A is tempting but is a content-based shortcut that could eliminate correct answers (e.g., secondary potassium effects on repolarization). Choice C fails for novel drugs by definition since no memorized pairing exists.",
+      "new": "Analogy questions test structure, not subject. Extract the abstract pattern first — here, something like: one party funds and constrains the work of another, who supplies a skill the first party lacks — and then match on that pattern. The lesson's warning is that trap answers in analogy questions share surface features with the passage example and differ in logical structure, which is exactly what choices A and C select for: a choice about art, or a choice set in the sixteenth century, is the easiest trap to write and the easiest to fall for. The correct answer in these questions often looks superficially unrelated and replicates the structure exactly. Choice D inverts a real principle — wrong answers frequently borrow the passage's own vocabulary, while correct answers are usually paraphrases.",
+      "reason": "Rewritten to fit the corrected stem and choices."
+    },
+    {
+      "field": "questions.510.question_text",
+      "old": "After completing a timed mixed question set, a student categorizes her errors and finds: 4 errors on discrete questions, 6 errors on passage-based questions, and within those, 5 of the 6 passage errors occurred on questions that required integrating two separate paragraphs of data. Which conclusion and action plan is MOST justified by this error analysis?",
+      "new": "After a timed set of four CARS passages, a student categorises her errors. Of 10 missed questions, 7 asked her to connect a claim made in one paragraph with evidence given several paragraphs later. Which conclusion and action plan is MOST justified by this error analysis?",
+      "reason": "The original counted \"4 errors on discrete questions\", but CARS contains no discrete questions: all 53 are attached to passages. Rewritten with numbers that can actually occur in a CARS set, while keeping the same point about reading an error log for a concentrated pattern."
+    },
+    {
+      "field": "questions.510.choice_a",
+      "old": "She should increase overall content review since most errors occurred on passage questions",
+      "new": "She should read more widely in the humanities, since most of her errors fell on passages about unfamiliar subjects",
+      "reason": "Rewritten to fit the corrected stem; it is the same default error (treating a process problem as a knowledge gap) in a form that can occur in CARS."
+    },
+    {
+      "field": "questions.510.choice_b",
+      "old": "She has a specific process weakness in synthesizing distributed passage information and should practice multi-source integration drills on passages",
+      "new": "She has a specific weakness in integrating distant parts of a passage — the core of Reasoning Within the Text — and should practise mapping each paragraph's function and the links between them as she reads",
+      "reason": "Rewritten to fit the corrected stem and to name the AAMC skill involved. B remains the keyed answer."
+    },
+    {
+      "field": "questions.510.choice_c",
+      "old": "She should work on timing since passage questions take longer and fatigue caused her errors",
+      "new": "She should work on timing, since questions spanning several paragraphs take longer and fatigue caused the errors",
+      "reason": "Rewritten to fit the corrected stem."
+    },
+    {
+      "field": "questions.510.choice_d",
+      "old": "The pattern is too small a sample to act on and she should simply do more practice tests",
+      "new": "Ten missed questions is too small a sample to act on, so she should simply complete more practice tests before drawing any conclusion",
+      "reason": "Rewritten to fit the corrected stem."
+    },
+    {
+      "field": "questions.510.explanation",
+      "old": "The error analysis reveals a specific, actionable pattern: not passage questions in general, but specifically those requiring integration of information across multiple passage sections. This points to a process skill deficit in synthesizing distributed data, not a content gap or timing issue. Targeted practice on multi-source integration directly addresses the identified weakness. Choice A is tempting because content review is a default response to errors, but the pattern does not suggest missing content knowledge as the root cause.",
+      "new": "The pattern is specific and actionable: not CARS questions in general, but those requiring her to integrate components of the text that sit far apart — which is how the AAMC defines Reasoning Within the Text. That identifies a process skill, so the intervention is a process drill: build the paragraph-function map while reading, so the links are already in place when a question asks for one. Choice A is the default move of treating every error as a knowledge gap, and in CARS it is almost always wrong, because no subject knowledge is required or rewarded. Choice C converts a strategy error into a timing error, the most common misdiagnosis in review. Choice D is the counsel of doing more rather than reviewing better; 7 of 10 errors falling on one skill is precisely the concentration an error log exists to surface.",
+      "reason": "Rewritten to fit the corrected stem and choices."
+    }
+  ],
+  "sources": [
+    {
+      "title": "AAMC — What's on the MCAT Exam? Critical Analysis and Reasoning Skills",
+      "url": "https://students-residents.aamc.org/media/9266/download",
+      "note": "CARS passage content comes from the humanities and the social sciences only, roughly half from each, and the section requires no specific subject-matter knowledge. Reasoning Within the Text is defined as integrating distant components of the text to infer the author's message, intent, purpose, belief, position, bias or assumptions, and as recognising and evaluating arguments and their structural elements."
+    },
+    {
+      "title": "AAMC — What's on the MCAT Exam? Section structure",
+      "url": "https://students-residents.aamc.org/mcat-exam/whats-mcat-exam",
+      "note": "CARS: 53 questions in 90 minutes, 9 passage sets of 5–7 questions each, all questions passage-based. Discrete (standalone) questions appear only in the three science sections."
+    }
+  ],
+  "visual": {
+    "title": "The practice loop, and the four ways a question goes wrong",
+    "src": "/lesson-diagrams/cars-practice-loop.svg",
+    "width": 1020,
+    "height": 700,
+    "alt": "Four phases across the top — timed passage completion, untimed review, error categorisation, and pattern tracking across sessions — with an arrow from error categorisation down to four cards: Type 1 misclassification, Type 2 strategy execution, Type 3 passage comprehension, and Type 4 careless or timing. Each card states what the error is and how to fix it. A footer warns that Type 2 errors are habitually misfiled as Type 4.",
+    "caption": "Doing passages is not practice; the loop is. Phase 3 is where the score actually moves — and the hardest discipline in it is refusing to call a strategy error a careless one.",
+    "beforeHeading": "## Structured Mixed Practice: A Four-Passage Protocol"
   }
- ],
- "sources": [
-  {
-   "label": "AAMC — What's on the MCAT Exam? Critical Analysis and Reasoning Skills",
-   "url": "https://students-residents.aamc.org/media/9266/download",
-   "note": "CARS passage content comes from the humanities and the social sciences only, roughly half from each, and the section requires no specific subject-matter knowledge. Reasoning Within the Text is defined as integrating distant components of the text to infer the author's message, intent, purpose, belief, position, bias or assumptions, and as recognising and evaluating arguments and their structural elements."
-  },
-  {
-   "label": "AAMC — What's on the MCAT Exam? Section structure",
-   "url": "https://students-residents.aamc.org/mcat-exam/whats-mcat-exam",
-   "note": "CARS: 53 questions in 90 minutes, 9 passage sets of 5–7 questions each, all questions passage-based. Discrete (standalone) questions appear only in the three science sections."
-  }
- ],
- "visual": {
-  "title": "The practice loop, and the four ways a question goes wrong",
-  "src": "/lesson-diagrams/cars-practice-loop.svg",
-  "width": 1020,
-  "height": 700,
-  "alt": "Four phases across the top — timed passage completion, untimed review, error categorisation, and pattern tracking across sessions — with an arrow from error categorisation down to four cards: Type 1 misclassification, Type 2 strategy execution, Type 3 passage comprehension, and Type 4 careless or timing. Each card states what the error is and how to fix it. A footer warns that Type 2 errors are habitually misfiled as Type 4.",
-  "caption": "Doing passages is not practice; the loop is. Phase 3 is where the score actually moves — and the hardest discipline in it is refusing to call a strategy error a careless one.",
-  "beforeHeading": "## Structured Mixed Practice: A Four-Passage Protocol"
- }
 }

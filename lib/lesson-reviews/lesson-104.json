@@ -1,82 +1,82 @@
 {
- "lessonId": 104,
- "reviewedAt": "2026-11-11",
- "questionIds": [
-  516,
-  517,
-  518,
-  519,
-  520
- ],
- "fingerprint": "a0b40492d6cb96d232fd33ecdfba73002e0b34f01aafc7dc1f4d391285d2eb1d",
- "patches": [
-  {
-   "target": "lesson.content",
-   "old": "Unlike passages drawn from the natural sciences or social sciences, philosophical texts rarely present a clear empirical claim that can be verified or falsified.",
-   "new": "Unlike the history, sociology or economics passages you will also meet in CARS, philosophical texts rarely present a clear empirical claim that can be verified or falsified.",
-   "reason": "CARS passages are drawn only from the humanities and the social sciences; the section contains no natural-science passages, so contrasting philosophy with natural-science passages describes a comparison a student will never encounter. Replaced with the kinds of passage that actually appear alongside philosophy in this section."
-  },
-  {
-   "target": "lesson.content",
-   "old": "Main claim: Consciousness not being causally inert doesn't mean it lacks explanatory relevance.",
-   "new": "Main claim: Consciousness *being* causally inert doesn't mean it lacks explanatory relevance.",
-   "reason": "The paraphrase reversed the sentence it was unpacking. The original sentence concedes that phenomenal character *may be* causally inert and then denies that this establishes a lack of explanatory relevance. As printed, the paraphrase had the author conceding the opposite of what the \"although\" clause concedes — an error that matters especially in a section teaching students to parse exactly this kind of sentence."
-  },
-  {
-   "target": "lesson.content",
-   "old": "The author then presents a thought experiment (a \"Frankfurt case\") in which someone is manipulated to act in a certain way, but would have acted the same way even without the manipulation. The author uses this to argue that moral responsibility does *not* require the ability to do otherwise, because the manipulated person seems responsible even though they could not have done otherwise.",
-   "new": "The author then presents a thought experiment (a \"Frankfurt case\"): an agent decides and acts entirely on their own, but unknown to them a device was standing by that would have forced that very action had they begun to choose otherwise. Because the device never has to act, the agent does what they do under their own steam — and yet no alternative was genuinely open to them. The author uses this to argue that moral responsibility does *not* require the ability to do otherwise, because the agent plainly seems responsible even though they could not have done otherwise.",
-   "reason": "This misdescribed the thought experiment it names. In a Frankfurt case the counterfactual intervener never intervenes: the agent acts on their own, and the standby mechanism only removes the alternative possibility. The lesson instead had the agent actually manipulated into acting, which is a case almost everyone judges to be one of *diminished* responsibility — so as written the example supported the opposite of the conclusion drawn from it. Corrected to the standard structure of the case."
-  },
-  {
-   "target": "lesson.content",
-   "old": "3. **Find the central distinction**: The distinction between *actually* being able to do otherwise and *counterfactually* being able to do otherwise may be key.",
-   "new": "3. **Find the central distinction**: The key distinction is between what actually brought the action about — the agent's own deliberation — and what merely *would* have happened had the agent started to waver. The standby device changes the second without touching the first.",
-   "reason": "The original phrasing was not a real distinction (\"actually\" versus \"counterfactually\" being able to do otherwise), and it did not describe what the Frankfurt case turns on. Replaced with the distinction the case is actually built around."
-  },
-  {
-   "target": "lesson.content",
-   "old": "4. **Paraphrase the thought experiment**: \"Even if someone couldn't have done otherwise because of external manipulation, they can still be responsible if they would have done the same thing freely.\"",
-   "new": "4. **Paraphrase the thought experiment**: \"Someone can be responsible for an action they arrived at on their own, even though a standby mechanism meant no other outcome was ever open to them — so having alternatives is not what responsibility requires.\"",
-   "reason": "The paraphrase repeated the mischaracterisation corrected above, describing the agent as manipulated. Rewritten to match the case as it is actually constructed."
-  },
-  {
-   "target": "lesson.content",
-   "old": "Apply logical rigor: an inference must be *necessarily* implied by the passage, not merely consistent with it.",
-   "new": "Apply logical rigor: an inference must be *supported* by the passage, not merely consistent with it — and in a philosophy passage, where the argument is deductive in aspiration, that bar is often strict entailment.",
-   "reason": "CARS inference questions ask for the choice best supported by the passage, not only for what is strictly entailed by it; a student applying an entailment test everywhere would eliminate correct answers. The useful point — that \"consistent with\" is not enough — is kept, and the stricter standard is scoped to the deductive arguments this lesson is about."
-  },
-  {
-   "target": "question.518.question_text",
-   "old": "A student reading this passage for the MCAT Cars section should prioritize which of the following strategies?",
-   "new": "A student reading this passage for the MCAT CARS section should prioritize which of the following strategies?",
-   "reason": "The section's name is an acronym and is written CARS throughout the rest of the course."
+  "lessonId": 104,
+  "reviewedAt": "2026-11-11",
+  "questionIds": [
+    516,
+    517,
+    518,
+    519,
+    520
+  ],
+  "fingerprint": "a0b40492d6cb96d232fd33ecdfba73002e0b34f01aafc7dc1f4d391285d2eb1d",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "Unlike passages drawn from the natural sciences or social sciences, philosophical texts rarely present a clear empirical claim that can be verified or falsified.",
+      "new": "Unlike the history, sociology or economics passages you will also meet in CARS, philosophical texts rarely present a clear empirical claim that can be verified or falsified.",
+      "reason": "CARS passages are drawn only from the humanities and the social sciences; the section contains no natural-science passages, so contrasting philosophy with natural-science passages describes a comparison a student will never encounter. Replaced with the kinds of passage that actually appear alongside philosophy in this section."
+    },
+    {
+      "field": "lesson.content",
+      "old": "Main claim: Consciousness not being causally inert doesn't mean it lacks explanatory relevance.",
+      "new": "Main claim: Consciousness *being* causally inert doesn't mean it lacks explanatory relevance.",
+      "reason": "The paraphrase reversed the sentence it was unpacking. The original sentence concedes that phenomenal character *may be* causally inert and then denies that this establishes a lack of explanatory relevance. As printed, the paraphrase had the author conceding the opposite of what the \"although\" clause concedes — an error that matters especially in a section teaching students to parse exactly this kind of sentence."
+    },
+    {
+      "field": "lesson.content",
+      "old": "The author then presents a thought experiment (a \"Frankfurt case\") in which someone is manipulated to act in a certain way, but would have acted the same way even without the manipulation. The author uses this to argue that moral responsibility does *not* require the ability to do otherwise, because the manipulated person seems responsible even though they could not have done otherwise.",
+      "new": "The author then presents a thought experiment (a \"Frankfurt case\"): an agent decides and acts entirely on their own, but unknown to them a device was standing by that would have forced that very action had they begun to choose otherwise. Because the device never has to act, the agent does what they do under their own steam — and yet no alternative was genuinely open to them. The author uses this to argue that moral responsibility does *not* require the ability to do otherwise, because the agent plainly seems responsible even though they could not have done otherwise.",
+      "reason": "This misdescribed the thought experiment it names. In a Frankfurt case the counterfactual intervener never intervenes: the agent acts on their own, and the standby mechanism only removes the alternative possibility. The lesson instead had the agent actually manipulated into acting, which is a case almost everyone judges to be one of *diminished* responsibility — so as written the example supported the opposite of the conclusion drawn from it. Corrected to the standard structure of the case."
+    },
+    {
+      "field": "lesson.content",
+      "old": "3. **Find the central distinction**: The distinction between *actually* being able to do otherwise and *counterfactually* being able to do otherwise may be key.",
+      "new": "3. **Find the central distinction**: The key distinction is between what actually brought the action about — the agent's own deliberation — and what merely *would* have happened had the agent started to waver. The standby device changes the second without touching the first.",
+      "reason": "The original phrasing was not a real distinction (\"actually\" versus \"counterfactually\" being able to do otherwise), and it did not describe what the Frankfurt case turns on. Replaced with the distinction the case is actually built around."
+    },
+    {
+      "field": "lesson.content",
+      "old": "4. **Paraphrase the thought experiment**: \"Even if someone couldn't have done otherwise because of external manipulation, they can still be responsible if they would have done the same thing freely.\"",
+      "new": "4. **Paraphrase the thought experiment**: \"Someone can be responsible for an action they arrived at on their own, even though a standby mechanism meant no other outcome was ever open to them — so having alternatives is not what responsibility requires.\"",
+      "reason": "The paraphrase repeated the mischaracterisation corrected above, describing the agent as manipulated. Rewritten to match the case as it is actually constructed."
+    },
+    {
+      "field": "lesson.content",
+      "old": "Apply logical rigor: an inference must be *necessarily* implied by the passage, not merely consistent with it.",
+      "new": "Apply logical rigor: an inference must be *supported* by the passage, not merely consistent with it — and in a philosophy passage, where the argument is deductive in aspiration, that bar is often strict entailment.",
+      "reason": "CARS inference questions ask for the choice best supported by the passage, not only for what is strictly entailed by it; a student applying an entailment test everywhere would eliminate correct answers. The useful point — that \"consistent with\" is not enough — is kept, and the stricter standard is scoped to the deductive arguments this lesson is about."
+    },
+    {
+      "field": "questions.518.question_text",
+      "old": "A student reading this passage for the MCAT Cars section should prioritize which of the following strategies?",
+      "new": "A student reading this passage for the MCAT CARS section should prioritize which of the following strategies?",
+      "reason": "The section's name is an acronym and is written CARS throughout the rest of the course."
+    }
+  ],
+  "sources": [
+    {
+      "title": "AAMC — What's on the MCAT Exam? Critical Analysis and Reasoning Skills",
+      "url": "https://students-residents.aamc.org/media/9266/download",
+      "note": "CARS passages come from the humanities and the social sciences only, in roughly equal proportion; the section contains no natural-science passages and requires no subject-matter knowledge."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy — Arguments for Incompatibilism (§ on Frankfurt-style cases)",
+      "url": "https://plato.stanford.edu/entries/incompatibilism-arguments/",
+      "note": "In a Frankfurt-style case the counterfactual intervener does not in fact intervene: the agent deliberates and acts on their own, while the standby mechanism would have ensured the same action had the agent been about to choose otherwise. The absence of actual intervention is what makes the case an argument against the Principle of Alternative Possibilities."
+    },
+    {
+      "title": "Stanford Encyclopedia of Philosophy — Moral Responsibility",
+      "url": "https://plato.stanford.edu/entries/moral-responsibility/",
+      "note": "Confirms the structure and purpose of Frankfurt cases, and the contrast with manipulation cases, which are standardly treated as arguments that the agent is *not* responsible."
+    }
+  ],
+  "visual": {
+    "title": "Four moral frameworks, and the objection each one attracts",
+    "src": "/lesson-diagrams/cars-moral-frameworks.svg",
+    "width": 1080,
+    "height": 790,
+    "alt": "Four columns comparing consequentialism, deontology, virtue ethics and contract theories. Each gives the thinkers associated with it, what makes an act right on that view, its signature move, and the standard objection it attracts. Two footer panels define necessary versus sufficient conditions and valid versus sound arguments.",
+    "caption": "You will never be asked which framework is correct — only which one an author is reasoning inside, and what follows if they are. The objection row is where most strengthen and weaken questions live.",
+    "beforeHeading": "## Major Ethical Frameworks"
   }
- ],
- "sources": [
-  {
-   "label": "AAMC — What's on the MCAT Exam? Critical Analysis and Reasoning Skills",
-   "url": "https://students-residents.aamc.org/media/9266/download",
-   "note": "CARS passages come from the humanities and the social sciences only, in roughly equal proportion; the section contains no natural-science passages and requires no subject-matter knowledge."
-  },
-  {
-   "label": "Stanford Encyclopedia of Philosophy — Arguments for Incompatibilism (§ on Frankfurt-style cases)",
-   "url": "https://plato.stanford.edu/entries/incompatibilism-arguments/",
-   "note": "In a Frankfurt-style case the counterfactual intervener does not in fact intervene: the agent deliberates and acts on their own, while the standby mechanism would have ensured the same action had the agent been about to choose otherwise. The absence of actual intervention is what makes the case an argument against the Principle of Alternative Possibilities."
-  },
-  {
-   "label": "Stanford Encyclopedia of Philosophy — Moral Responsibility",
-   "url": "https://plato.stanford.edu/entries/moral-responsibility/",
-   "note": "Confirms the structure and purpose of Frankfurt cases, and the contrast with manipulation cases, which are standardly treated as arguments that the agent is *not* responsible."
-  }
- ],
- "visual": {
-  "title": "Four moral frameworks, and the objection each one attracts",
-  "src": "/lesson-diagrams/cars-moral-frameworks.svg",
-  "width": 1080,
-  "height": 790,
-  "alt": "Four columns comparing consequentialism, deontology, virtue ethics and contract theories. Each gives the thinkers associated with it, what makes an act right on that view, its signature move, and the standard objection it attracts. Two footer panels define necessary versus sufficient conditions and valid versus sound arguments.",
-  "caption": "You will never be asked which framework is correct — only which one an author is reasoning inside, and what follows if they are. The objection row is where most strengthen and weaken questions live.",
-  "beforeHeading": "## Major Ethical Frameworks"
- }
 }

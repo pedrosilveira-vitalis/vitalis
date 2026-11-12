@@ -1,149 +1,149 @@
 {
- "lessonId": 101,
- "reviewedAt": "2026-11-11",
- "questionIds": [
-  501,
-  502,
-  503,
-  504,
-  505
- ],
- "fingerprint": "e6e86d982a79b2204c4387ea2b71524ddd613d795d94825e4456b86e5e7d4367",
- "patches": [
-  {
-   "target": "lesson.content",
-   "old": "Additionally, be aware of **attractive distractor clustering**: the MCAT frequently places the most seductive wrong answer adjacent to the correct answer in the answer choice list. If you find yourself torn between two answers, the one that feels more intellectually exciting—more specific, more surprising, more sophisticated—is often the trap.",
-   "new": "Additionally, be aware of the **last two standing** problem. Elimination usually leaves you torn between two choices rather than certain of one, and at that moment the choice that feels more intellectually exciting—more specific, more surprising, more sophisticated—is the one to distrust. Nothing about where a choice sits in the list carries information; A, B, C and D are not ranked, and no position is more or less likely to be correct. The pull you feel comes from the content of the answer, not from its place on the screen.",
-   "reason": "The claim that the MCAT \"frequently places the most seductive wrong answer adjacent to the correct answer in the answer choice list\" is not something the AAMC states or that any published evidence supports; it is test-prep folklore presented as a fact about how the exam is built, and acting on it would encourage students to use answer position as evidence. The genuinely useful observation underneath it — that the more exciting of your final two is usually the trap — is kept, and the false positional claim is replaced with an explicit warning not to read anything into position."
-  },
-  {
-   "target": "lesson.content",
-   "old": "**Foundations of Comprehension (FC)** questions ask you to retrieve or paraphrase information",
-   "new": "**Foundations of Comprehension (FC, written FoC elsewhere in this course)** questions ask you to retrieve or paraphrase information",
-   "reason": "This lesson abbreviates the first skill as FC while the rest of the course uses FoC. Noting both at the point of definition prevents students from thinking two different categories are being described."
-  },
-  {
-   "target": "question.501.question_text",
-   "old": "A student is answering a Retrieve question about a passage describing a study showing that meditation reduced cortisol levels in college students under exam stress.",
-   "new": "A student is answering a Foundations of Comprehension question about a passage describing a study showing that meditation reduced cortisol levels in college students under exam stress.",
-   "reason": "The quiz used a Retrieve / Infer / Apply taxonomy that appears nowhere in this lesson, in the AAMC's skill definitions, or anywhere else in this course. Renamed to the three skills the lesson actually teaches. Retrieving what the passage states is Foundations of Comprehension."
-  },
-  {
-   "target": "question.502.question_text",
-   "old": "On an Infer question, a passage argues",
-   "new": "On a Reasoning Within the Text question, a passage argues",
-   "reason": "Same taxonomy correction. Judging what a correlation reported in the passage can and cannot support is argument evaluation, which the AAMC places under Reasoning Within the Text."
-  },
-  {
-   "target": "question.502.explanation",
-   "old": "On Infer questions, out-of-scope traps are especially dangerous because they feel like reasonable logical extensions but actually go beyond what the passage licenses.",
-   "new": "On Reasoning Within the Text questions, out-of-scope traps are especially dangerous because they feel like reasonable logical extensions but actually go beyond what the passage licenses.",
-   "reason": "Same taxonomy correction, applied to the explanation."
-  },
-  {
-   "target": "question.503.question_text",
-   "old": "A test-taker encounters an Apply question asking how a sociologist described in the passage would respond to a new policy banning single-use plastics. The sociologist's view is that individual behavior change is ineffective without systemic reform. The student selects: 'The sociologist would oppose the ban because it places responsibility on individuals rather than institutions.' What is the most likely trap embedded in a plausible wrong answer for this question type?",
-   "new": "A Reasoning Beyond the Text question asks how a sociologist described in the passage would respond to a new policy banning single-use plastics. The sociologist's view is that individual behavior change is ineffective without systemic reform. Which of the following answer choices is the opposite trap?",
-   "reason": "The original question was unanswerable as written. It quoted a student's selection that is in fact a defensible reading of the sociologist's position, then asked a different and vaguer question about which trap is \"most likely\" for the question type — a judgement the lesson never supports, and one on which the keyed answer B and the distractor C are equally arguable. The explanation justified B only by asserting that opposite traps are classic in this question type. Rewritten so the question asks students to identify a specific pathology in a specific choice, which is the skill the lesson teaches, with exactly one correct answer."
-  },
-  {
-   "target": "question.503.choice_a",
-   "old": "Too extreme trap: claiming the sociologist would 'strongly endorse' the ban without qualification",
-   "new": "The sociologist would strongly endorse the ban as a complete solution to plastic pollution.",
-   "reason": "Rewritten as an actual answer choice to be diagnosed, matching the corrected stem. This one is the too-extreme trap."
-  },
-  {
-   "target": "question.503.choice_b",
-   "old": "Opposite trap: claiming the sociologist would support individual-level solutions as the primary fix",
-   "new": "The sociologist would welcome the ban because consumer-level choices are the most effective lever for change.",
-   "reason": "Rewritten as an actual answer choice, matching the corrected stem. B remains the keyed answer and is now unambiguously the opposite trap."
-  },
-  {
-   "target": "question.503.choice_c",
-   "old": "Half-right trap: correctly identifying the sociologist's skepticism of individual action but misattributing the reason for opposing the ban",
-   "new": "The sociologist would observe that the ban targets individual consumption and would doubt it achieves much without regulation of producers.",
-   "reason": "Rewritten as an actual answer choice. This one is not a trap at all — it is what the sociologist's stated view implies — which is what makes it a useful distractor for a question about identifying traps."
-  },
-  {
-   "target": "question.503.choice_d",
-   "old": "Out-of-scope trap: introducing the sociologist's views on climate change not mentioned in the passage",
-   "new": "The sociologist would reject the ban because of its effects on marine ecosystems, a subject the passage never raises.",
-   "reason": "Rewritten as an actual answer choice. This one is the out-of-scope trap."
-  },
-  {
-   "target": "question.503.explanation",
-   "old": "On Apply questions, the opposite trap is particularly dangerous because it requires the student to accurately represent an author's or character's viewpoint and apply it to a new scenario; reversing the viewpoint produces an answer that is completely wrong yet superficially plausible. The sociologist explicitly values systemic reform over individual action, so an answer suggesting support for individual-level solutions directly contradicts the passage. Choice C describes a half-right trap that could also appear, but the question asks about the most likely trap for this question type, and opposite traps are classic pitfalls in Apply questions where a viewpoint must be extended. Recognizing the author's core thesis before applying it is the best defense.",
-   "new": "Choice B hands the sociologist the reverse of the position the passage gives them. The passage's sociologist holds that individual behavior change accomplishes little without systemic reform; B makes consumer-level choice the most effective lever. The reversal is dressed in the passage's own vocabulary, which is exactly what makes the opposite trap dangerous on Reasoning Beyond the Text questions: you have to carry a position into unfamiliar territory, and its direction is easy to lose along the way. Choice A is the too-extreme trap — it converts measured skepticism into strong endorsement of a complete solution. Choice D is out of scope: marine ecosystems never appear in the passage. Choice C is not a trap at all; it is what the sociologist's stated view actually implies, and it is there to remind you that a choice sounding cautious and unexciting is often the correct one.",
-   "reason": "Rewritten to match the corrected stem and choices, and to replace the circular justification (B is right because opposite traps are classic here) with reasoning a student can follow from the passage's stated position."
-  },
-  {
-   "target": "question.504.question_text",
-   "old": "Which of the following best describes how the half-right trap differs in its construction across Retrieve versus Infer question types?",
-   "new": "Which of the following best describes how the half-right trap differs in its construction across Foundations of Comprehension versus Reasoning Within the Text questions?",
-   "reason": "Same taxonomy correction as above."
-  },
-  {
-   "target": "question.504.choice_a",
-   "old": "In Retrieve questions, the half-right trap combines a true passage detail with a false one; in Infer questions, it combines a valid inference with an unsupported extension",
-   "new": "In Foundations of Comprehension questions, the half-right trap combines a true passage detail with a false one; in Reasoning Within the Text questions, it combines a valid reading of the argument with an unsupported extension",
-   "reason": "Same taxonomy correction. A remains the keyed answer."
-  },
-  {
-   "target": "question.504.choice_b",
-   "old": "In Retrieve questions, the half-right trap introduces out-of-scope information; in Infer questions, it reverses the passage's logic",
-   "new": "In Foundations of Comprehension questions, the half-right trap introduces out-of-scope information; in Reasoning Within the Text questions, it reverses the passage's logic",
-   "reason": "Same taxonomy correction."
-  },
-  {
-   "target": "question.504.choice_c",
-   "old": "Half-right traps only appear in Retrieve questions because Infer questions require full reasoning to be correct",
-   "new": "Half-right traps only appear in Foundations of Comprehension questions, because Reasoning Within the Text questions require the whole answer to be reasoned correctly",
-   "reason": "Same taxonomy correction."
-  },
-  {
-   "target": "question.504.explanation",
-   "old": "The half-right trap is adaptive: in Retrieve questions it typically pairs an accurate passage detail with an inaccurate one, exploiting the tendency to stop reading once something sounds familiar. In Infer questions, the first part of the answer may represent a valid inference, but the second part extends it beyond what the passage can support, making the whole answer wrong. Choice B mischaracterizes both trap types. Choice C is incorrect because half-right traps appear across all question types and are especially effective in Infer questions where students are already reasoning beyond the text.",
-   "new": "The half-right trap is adaptive: in Foundations of Comprehension questions it typically pairs an accurate passage detail with an inaccurate one, exploiting the tendency to stop reading once something sounds familiar. In Reasoning Within the Text questions, the first part of the answer may describe the argument accurately, but the second part extends it beyond what the passage can support, making the whole answer wrong. Choice B mischaracterizes both trap types. Choice C is incorrect because half-right traps appear across all three question types, and they are especially effective wherever students are already reasoning rather than merely retrieving.",
-   "reason": "Same taxonomy correction, applied to the explanation."
-  },
-  {
-   "target": "question.505.question_text",
-   "old": "A passage describes a philosopher who argues that moral obligations exist only between individuals with pre-existing relationships. An Apply question asks how this philosopher would evaluate a stranger donating to an anonymous charity.",
-   "new": "A passage describes a philosopher who argues that an act has moral worth only when it discharges an obligation arising from a pre-existing relationship. A Reasoning Beyond the Text question asks how this philosopher would evaluate a stranger donating to an anonymous charity.",
-   "reason": "Two fixes. First, the taxonomy correction. Second, the keyed answer did not follow from the philosopher's stated view: holding that no obligation exists toward a stranger does not commit you to denying that helping the stranger is praiseworthy — that gap between obligation and praiseworthiness is precisely the distinction philosophers draw when they discuss supererogatory acts, so the original keyed answer rested on a non sequitur. The philosopher's position is restated in terms of moral worth, which is what the answer choices evaluate, so the reversal in choice B is now genuinely a reversal."
-  },
-  {
-   "target": "question.505.explanation",
-   "old": "The philosopher's core claim is that moral obligations require pre-existing relationships; donating to an anonymous stranger would fall outside the scope of moral obligation under this framework, making 'morally praiseworthy' a direct contradiction of the philosopher's position.",
-   "new": "The philosopher's core claim is that an act carries moral worth only when it discharges an obligation arising from a pre-existing relationship; a donation to an anonymous stranger discharges no such obligation, so under this framework it cannot be morally praiseworthy, and calling it praiseworthy reverses the philosopher's position.",
-   "reason": "Rewritten so the explanation follows from the corrected stem rather than sliding from \"no obligation\" to \"not praiseworthy\"."
-  },
-  {
-   "target": "question.505.choice_b",
-   "old": "Opposite, because the philosopher's framework would likely classify the donation as lacking moral obligation, not as praiseworthy",
-   "new": "Opposite, because the philosopher's framework would classify the donation as lacking moral worth, not as praiseworthy",
-   "reason": "Aligned with the corrected stem so the choice evaluates moral worth, the thing the philosopher's criterion actually governs."
+  "lessonId": 101,
+  "reviewedAt": "2026-11-11",
+  "questionIds": [
+    501,
+    502,
+    503,
+    504,
+    505
+  ],
+  "fingerprint": "e6e86d982a79b2204c4387ea2b71524ddd613d795d94825e4456b86e5e7d4367",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "Additionally, be aware of **attractive distractor clustering**: the MCAT frequently places the most seductive wrong answer adjacent to the correct answer in the answer choice list. If you find yourself torn between two answers, the one that feels more intellectually exciting—more specific, more surprising, more sophisticated—is often the trap.",
+      "new": "Additionally, be aware of the **last two standing** problem. Elimination usually leaves you torn between two choices rather than certain of one, and at that moment the choice that feels more intellectually exciting—more specific, more surprising, more sophisticated—is the one to distrust. Nothing about where a choice sits in the list carries information; A, B, C and D are not ranked, and no position is more or less likely to be correct. The pull you feel comes from the content of the answer, not from its place on the screen.",
+      "reason": "The claim that the MCAT \"frequently places the most seductive wrong answer adjacent to the correct answer in the answer choice list\" is not something the AAMC states or that any published evidence supports; it is test-prep folklore presented as a fact about how the exam is built, and acting on it would encourage students to use answer position as evidence. The genuinely useful observation underneath it — that the more exciting of your final two is usually the trap — is kept, and the false positional claim is replaced with an explicit warning not to read anything into position."
+    },
+    {
+      "field": "lesson.content",
+      "old": "**Foundations of Comprehension (FC)** questions ask you to retrieve or paraphrase information",
+      "new": "**Foundations of Comprehension (FC, written FoC elsewhere in this course)** questions ask you to retrieve or paraphrase information",
+      "reason": "This lesson abbreviates the first skill as FC while the rest of the course uses FoC. Noting both at the point of definition prevents students from thinking two different categories are being described."
+    },
+    {
+      "field": "questions.501.question_text",
+      "old": "A student is answering a Retrieve question about a passage describing a study showing that meditation reduced cortisol levels in college students under exam stress.",
+      "new": "A student is answering a Foundations of Comprehension question about a passage describing a study showing that meditation reduced cortisol levels in college students under exam stress.",
+      "reason": "The quiz used a Retrieve / Infer / Apply taxonomy that appears nowhere in this lesson, in the AAMC's skill definitions, or anywhere else in this course. Renamed to the three skills the lesson actually teaches. Retrieving what the passage states is Foundations of Comprehension."
+    },
+    {
+      "field": "questions.502.question_text",
+      "old": "On an Infer question, a passage argues",
+      "new": "On a Reasoning Within the Text question, a passage argues",
+      "reason": "Same taxonomy correction. Judging what a correlation reported in the passage can and cannot support is argument evaluation, which the AAMC places under Reasoning Within the Text."
+    },
+    {
+      "field": "questions.502.explanation",
+      "old": "On Infer questions, out-of-scope traps are especially dangerous because they feel like reasonable logical extensions but actually go beyond what the passage licenses.",
+      "new": "On Reasoning Within the Text questions, out-of-scope traps are especially dangerous because they feel like reasonable logical extensions but actually go beyond what the passage licenses.",
+      "reason": "Same taxonomy correction, applied to the explanation."
+    },
+    {
+      "field": "questions.503.question_text",
+      "old": "A test-taker encounters an Apply question asking how a sociologist described in the passage would respond to a new policy banning single-use plastics. The sociologist's view is that individual behavior change is ineffective without systemic reform. The student selects: 'The sociologist would oppose the ban because it places responsibility on individuals rather than institutions.' What is the most likely trap embedded in a plausible wrong answer for this question type?",
+      "new": "A Reasoning Beyond the Text question asks how a sociologist described in the passage would respond to a new policy banning single-use plastics. The sociologist's view is that individual behavior change is ineffective without systemic reform. Which of the following answer choices is the opposite trap?",
+      "reason": "The original question was unanswerable as written. It quoted a student's selection that is in fact a defensible reading of the sociologist's position, then asked a different and vaguer question about which trap is \"most likely\" for the question type — a judgement the lesson never supports, and one on which the keyed answer B and the distractor C are equally arguable. The explanation justified B only by asserting that opposite traps are classic in this question type. Rewritten so the question asks students to identify a specific pathology in a specific choice, which is the skill the lesson teaches, with exactly one correct answer."
+    },
+    {
+      "field": "questions.503.choice_a",
+      "old": "Too extreme trap: claiming the sociologist would 'strongly endorse' the ban without qualification",
+      "new": "The sociologist would strongly endorse the ban as a complete solution to plastic pollution.",
+      "reason": "Rewritten as an actual answer choice to be diagnosed, matching the corrected stem. This one is the too-extreme trap."
+    },
+    {
+      "field": "questions.503.choice_b",
+      "old": "Opposite trap: claiming the sociologist would support individual-level solutions as the primary fix",
+      "new": "The sociologist would welcome the ban because consumer-level choices are the most effective lever for change.",
+      "reason": "Rewritten as an actual answer choice, matching the corrected stem. B remains the keyed answer and is now unambiguously the opposite trap."
+    },
+    {
+      "field": "questions.503.choice_c",
+      "old": "Half-right trap: correctly identifying the sociologist's skepticism of individual action but misattributing the reason for opposing the ban",
+      "new": "The sociologist would observe that the ban targets individual consumption and would doubt it achieves much without regulation of producers.",
+      "reason": "Rewritten as an actual answer choice. This one is not a trap at all — it is what the sociologist's stated view implies — which is what makes it a useful distractor for a question about identifying traps."
+    },
+    {
+      "field": "questions.503.choice_d",
+      "old": "Out-of-scope trap: introducing the sociologist's views on climate change not mentioned in the passage",
+      "new": "The sociologist would reject the ban because of its effects on marine ecosystems, a subject the passage never raises.",
+      "reason": "Rewritten as an actual answer choice. This one is the out-of-scope trap."
+    },
+    {
+      "field": "questions.503.explanation",
+      "old": "On Apply questions, the opposite trap is particularly dangerous because it requires the student to accurately represent an author's or character's viewpoint and apply it to a new scenario; reversing the viewpoint produces an answer that is completely wrong yet superficially plausible. The sociologist explicitly values systemic reform over individual action, so an answer suggesting support for individual-level solutions directly contradicts the passage. Choice C describes a half-right trap that could also appear, but the question asks about the most likely trap for this question type, and opposite traps are classic pitfalls in Apply questions where a viewpoint must be extended. Recognizing the author's core thesis before applying it is the best defense.",
+      "new": "Choice B hands the sociologist the reverse of the position the passage gives them. The passage's sociologist holds that individual behavior change accomplishes little without systemic reform; B makes consumer-level choice the most effective lever. The reversal is dressed in the passage's own vocabulary, which is exactly what makes the opposite trap dangerous on Reasoning Beyond the Text questions: you have to carry a position into unfamiliar territory, and its direction is easy to lose along the way. Choice A is the too-extreme trap — it converts measured skepticism into strong endorsement of a complete solution. Choice D is out of scope: marine ecosystems never appear in the passage. Choice C is not a trap at all; it is what the sociologist's stated view actually implies, and it is there to remind you that a choice sounding cautious and unexciting is often the correct one.",
+      "reason": "Rewritten to match the corrected stem and choices, and to replace the circular justification (B is right because opposite traps are classic here) with reasoning a student can follow from the passage's stated position."
+    },
+    {
+      "field": "questions.504.question_text",
+      "old": "Which of the following best describes how the half-right trap differs in its construction across Retrieve versus Infer question types?",
+      "new": "Which of the following best describes how the half-right trap differs in its construction across Foundations of Comprehension versus Reasoning Within the Text questions?",
+      "reason": "Same taxonomy correction as above."
+    },
+    {
+      "field": "questions.504.choice_a",
+      "old": "In Retrieve questions, the half-right trap combines a true passage detail with a false one; in Infer questions, it combines a valid inference with an unsupported extension",
+      "new": "In Foundations of Comprehension questions, the half-right trap combines a true passage detail with a false one; in Reasoning Within the Text questions, it combines a valid reading of the argument with an unsupported extension",
+      "reason": "Same taxonomy correction. A remains the keyed answer."
+    },
+    {
+      "field": "questions.504.choice_b",
+      "old": "In Retrieve questions, the half-right trap introduces out-of-scope information; in Infer questions, it reverses the passage's logic",
+      "new": "In Foundations of Comprehension questions, the half-right trap introduces out-of-scope information; in Reasoning Within the Text questions, it reverses the passage's logic",
+      "reason": "Same taxonomy correction."
+    },
+    {
+      "field": "questions.504.choice_c",
+      "old": "Half-right traps only appear in Retrieve questions because Infer questions require full reasoning to be correct",
+      "new": "Half-right traps only appear in Foundations of Comprehension questions, because Reasoning Within the Text questions require the whole answer to be reasoned correctly",
+      "reason": "Same taxonomy correction."
+    },
+    {
+      "field": "questions.504.explanation",
+      "old": "The half-right trap is adaptive: in Retrieve questions it typically pairs an accurate passage detail with an inaccurate one, exploiting the tendency to stop reading once something sounds familiar. In Infer questions, the first part of the answer may represent a valid inference, but the second part extends it beyond what the passage can support, making the whole answer wrong. Choice B mischaracterizes both trap types. Choice C is incorrect because half-right traps appear across all question types and are especially effective in Infer questions where students are already reasoning beyond the text.",
+      "new": "The half-right trap is adaptive: in Foundations of Comprehension questions it typically pairs an accurate passage detail with an inaccurate one, exploiting the tendency to stop reading once something sounds familiar. In Reasoning Within the Text questions, the first part of the answer may describe the argument accurately, but the second part extends it beyond what the passage can support, making the whole answer wrong. Choice B mischaracterizes both trap types. Choice C is incorrect because half-right traps appear across all three question types, and they are especially effective wherever students are already reasoning rather than merely retrieving.",
+      "reason": "Same taxonomy correction, applied to the explanation."
+    },
+    {
+      "field": "questions.505.question_text",
+      "old": "A passage describes a philosopher who argues that moral obligations exist only between individuals with pre-existing relationships. An Apply question asks how this philosopher would evaluate a stranger donating to an anonymous charity.",
+      "new": "A passage describes a philosopher who argues that an act has moral worth only when it discharges an obligation arising from a pre-existing relationship. A Reasoning Beyond the Text question asks how this philosopher would evaluate a stranger donating to an anonymous charity.",
+      "reason": "Two fixes. First, the taxonomy correction. Second, the keyed answer did not follow from the philosopher's stated view: holding that no obligation exists toward a stranger does not commit you to denying that helping the stranger is praiseworthy — that gap between obligation and praiseworthiness is precisely the distinction philosophers draw when they discuss supererogatory acts, so the original keyed answer rested on a non sequitur. The philosopher's position is restated in terms of moral worth, which is what the answer choices evaluate, so the reversal in choice B is now genuinely a reversal."
+    },
+    {
+      "field": "questions.505.explanation",
+      "old": "The philosopher's core claim is that moral obligations require pre-existing relationships; donating to an anonymous stranger would fall outside the scope of moral obligation under this framework, making 'morally praiseworthy' a direct contradiction of the philosopher's position.",
+      "new": "The philosopher's core claim is that an act carries moral worth only when it discharges an obligation arising from a pre-existing relationship; a donation to an anonymous stranger discharges no such obligation, so under this framework it cannot be morally praiseworthy, and calling it praiseworthy reverses the philosopher's position.",
+      "reason": "Rewritten so the explanation follows from the corrected stem rather than sliding from \"no obligation\" to \"not praiseworthy\"."
+    },
+    {
+      "field": "questions.505.choice_b",
+      "old": "Opposite, because the philosopher's framework would likely classify the donation as lacking moral obligation, not as praiseworthy",
+      "new": "Opposite, because the philosopher's framework would classify the donation as lacking moral worth, not as praiseworthy",
+      "reason": "Aligned with the corrected stem so the choice evaluates moral worth, the thing the philosopher's criterion actually governs."
+    }
+  ],
+  "sources": [
+    {
+      "title": "AAMC — What's on the MCAT Exam? Critical Analysis and Reasoning Skills",
+      "url": "https://students-residents.aamc.org/media/9266/download",
+      "note": "The three CARS skills and their sub-skills: Foundations of Comprehension (understanding the basic components of the text; inferring meaning or intent from immediate sentence context), Reasoning Within the Text (integrating distant components of the text to infer the author's message, intent, purpose, belief, position, bias or assumptions; recognising and evaluating arguments and their structural elements), Reasoning Beyond the Text (applying or extrapolating ideas from the passage to new contexts; assessing the impact of incorporating new factors, information or conditions on ideas from the passage). No Retrieve / Infer / Apply taxonomy appears in the AAMC's framework."
+    },
+    {
+      "title": "AAMC — How the MCAT exam is scored",
+      "url": "https://students-residents.aamc.org/mcat-exam/how-mcat-exam-scored",
+      "note": "Each of the four sections is scored 118–132, confirming that the score ranges this lesson cites are within the real scale."
+    }
+  ],
+  "visual": {
+    "title": "The same four traps, wearing three different costumes",
+    "src": "/lesson-diagrams/cars-trap-matrix.svg",
+    "width": 1060,
+    "height": 716,
+    "alt": "A four-by-three matrix. The rows are the wrong-answer categories out of scope, too extreme, opposite and half-right. The columns are Foundations of Comprehension, Reasoning Within the Text and Reasoning Beyond the Text. Each cell describes how that trap category appears in that kind of question. A footer summarises the elimination protocol: classify the question before reading any choice, predict directionally, name the pathology as you cut, then confirm the survivor is positively supported.",
+    "caption": "A trap category is not a fixed sentence you can memorise. Read across a row to see how one pathology changes shape with the job the question asks of you.",
+    "beforeHeading": "## The Major Wrong Answer Categories"
   }
- ],
- "sources": [
-  {
-   "label": "AAMC — What's on the MCAT Exam? Critical Analysis and Reasoning Skills",
-   "url": "https://students-residents.aamc.org/media/9266/download",
-   "note": "The three CARS skills and their sub-skills: Foundations of Comprehension (understanding the basic components of the text; inferring meaning or intent from immediate sentence context), Reasoning Within the Text (integrating distant components of the text to infer the author's message, intent, purpose, belief, position, bias or assumptions; recognising and evaluating arguments and their structural elements), Reasoning Beyond the Text (applying or extrapolating ideas from the passage to new contexts; assessing the impact of incorporating new factors, information or conditions on ideas from the passage). No Retrieve / Infer / Apply taxonomy appears in the AAMC's framework."
-  },
-  {
-   "label": "AAMC — How the MCAT exam is scored",
-   "url": "https://students-residents.aamc.org/mcat-exam/how-mcat-exam-scored",
-   "note": "Each of the four sections is scored 118–132, confirming that the score ranges this lesson cites are within the real scale."
-  }
- ],
- "visual": {
-  "title": "The same four traps, wearing three different costumes",
-  "src": "/lesson-diagrams/cars-trap-matrix.svg",
-  "width": 1060,
-  "height": 716,
-  "alt": "A four-by-three matrix. The rows are the wrong-answer categories out of scope, too extreme, opposite and half-right. The columns are Foundations of Comprehension, Reasoning Within the Text and Reasoning Beyond the Text. Each cell describes how that trap category appears in that kind of question. A footer summarises the elimination protocol: classify the question before reading any choice, predict directionally, name the pathology as you cut, then confirm the survivor is positively supported.",
-  "caption": "A trap category is not a fixed sentence you can memorise. Read across a row to see how one pathology changes shape with the job the question asks of you.",
-  "beforeHeading": "## The Major Wrong Answer Categories"
- }
 }
