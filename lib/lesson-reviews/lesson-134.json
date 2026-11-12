@@ -1,0 +1,55 @@
+{
+ "lessonId": 134,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  666,
+  667,
+  668,
+  669,
+  670
+ ],
+ "fingerprint": "51087e9ccbf41ca82771fadab98df360be225edde299f3ad7121c19375a68640",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "it has two lone pairs (one in an sp² orbital, one in the unhybridized p orbital participating in the pi bond)",
+   "new": "it has two lone pairs, and both of them occupy sp² orbitals in the molecular plane (the unhybridized p orbital is already committed to the pi bond, so it cannot also hold a lone pair)",
+   "reason": "Orbital-counting error. In an sp² oxygen the unhybridized p orbital contributes its single electron to the pi bond; both non-bonding pairs sit in sp² hybrid orbitals. Chemguide/LibreTexts: two of the sp² hybrid orbitals contain the lone pairs. Lone-pair location on carbonyl oxygen is directly testable (nucleophilicity, protonation site, n to pi* transitions)."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Carbonyl oxygen: **sp²** (one lone pair in sp² orbital, one in p orbital)",
+   "new": "Carbonyl oxygen: **sp²** (both lone pairs in sp² orbitals; the p orbital is used for the pi bond)",
+   "reason": "Same error repeated in the functional-group quick reference; corrected to match the body text."
+  },
+  {
+   "field": "lesson.content",
+   "old": "(sp character pulls electrons toward carbon, partially shielding the proton)",
+   "new": "(the electronegative sp carbon deshields, but the cylindrical pi electron cloud of the triple bond shields the proton more strongly, so the net shift is upfield of vinyl protons)",
+   "reason": "The stated mechanism is backwards: pulling electron density toward carbon deshields the proton and would predict a downfield shift. The observed upfield position comes from diamagnetic anisotropy, the induced field of the cylindrical pi cloud opposing the applied field along the triple-bond axis, which outweighs the sp-carbon deshielding (JoVE Core Analytical Chemistry 8.5)."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Bonding in Carbonyl Compounds — Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Supplemental_Modules_(Organic_Chemistry)/Fundamentals/Bonding_in_Organic_Compounds/Bonding_in_Carbonyl_Compounds"
+  },
+  {
+   "title": "Bonding in carbonyl compounds — Chemguide",
+   "url": "https://chemguide.co.uk/basicorg/bonding/carbonyl.html"
+  },
+  {
+   "title": "π Electron Effects on Chemical Shift — JoVE Core Analytical Chemistry 8.5",
+   "url": "https://www.jove.com/science-education/12996/-electron-effects-on-chemical-shift-overview"
+  }
+ ],
+ "visual": {
+  "title": "Counting sigma bonds and lone pairs gives the hybridization",
+  "src": "/lesson-diagrams/hybridization-counting.svg",
+  "width": 900,
+  "height": 740,
+  "alt": "Three columns compare sp3, sp2 and sp centers: the count of sigma bonds plus lone pairs, the resulting geometry, bond angle, percent s character, and an example. A band notes how many unhybridized p orbitals are left over in each case. A lower panel works through a carbonyl oxygen, where one sigma bond plus two lone pairs gives sp2 and both lone pairs occupy sp2 orbitals because the unhybridized p orbital is already used by the pi bond.",
+  "caption": "Count sigma bonds plus lone pairs on the atom and ignore pi bonds: the sum is the number of hybrid orbitals. Leftover p orbitals make the pi bonds.",
+  "beforeHeading": "## Sigma and Pi Bonds: A Systematic Comparison"
+ }
+}
