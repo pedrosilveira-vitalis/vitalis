@@ -1,0 +1,69 @@
+{
+ "lessonId": 124,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  616,
+  617,
+  618,
+  619,
+  620
+ ],
+ "fingerprint": "7cfe10db739e7c59fa4ffbfba53b3a31e6444b00cacb488d86a1127d0fae6980",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "For example, acid-catalyzed hydration of an alkene:\n- Step 1 (fast): H⁺ + alkene → carbocation intermediate\n- Step 2 (slow, RDS): H₂O attacks carbocation\n- Step 3 (fast): deprotonation to give alcohol product\n\nRate = k[carbocation][H₂O]\n\nUsing the fast equilibrium for Step 1: [carbocation] = K_eq[H⁺][alkene]\n\nTherefore: **Rate = k_obs[H⁺][alkene]**",
+   "new": "For example, acid-catalyzed hydration of an alkene:\n- Step 1 (slow, RDS): H₃O⁺ + alkene → carbocation + H₂O\n- Step 2 (fast): H₂O attacks the carbocation\n- Step 3 (fast): deprotonation gives the alcohol and returns H₃O⁺\n\n**Rate = k[H⁺][alkene]**\n\nThe rate law comes straight off the slow step — nothing to substitute, because the carbocation is formed *in* the RDS rather than before it. That ordering is not arbitrary: a carbocation is a high-energy intermediate, so building one is the expensive step, and water captures it almost as fast as it appears. It is also what explains two things the MCAT does ask about — more substituted alkenes react faster (they give more stable carbocations, so the slow step is cheaper), and Markovnikov's rule (the protonation that leads to the more stable carbocation is the one that happens).\n\nProtonation *is* a fast pre-equilibrium in other acid-catalyzed reactions — acid-catalyzed ester hydrolysis is the standard case, where the slow step is water attacking the protonated carbonyl. Check which step is slow before reaching for the substitution.",
+   "reason": "The two steps were the wrong way round. In acid-catalyzed hydration the protonation of the alkene is the rate-determining step and capture of the carbocation by water is fast; the lesson had protonation as a fast pre-equilibrium and the water attack as the RDS. The version printed is also chemically implausible — it asks the reader to treat a carbocation as a species sitting at equilibrium while being slowly attacked. Correcting the order also recovers the two consequences the MCAT tests, alkene reactivity order and Markovnikov's rule, both of which follow from the protonation being rate-determining. The pre-equilibrium technique is kept by pointing to ester hydrolysis, where it genuinely applies."
+  },
+  {
+   "field": "lesson.content",
+   "old": "More precisely, the RDS is the step with the highest energy barrier *relative to the preceding intermediate or starting material* along the reaction coordinate.",
+   "new": "More precisely, the RDS is the step with the largest climb: from the *lowest* point reached before it — the reactants, or an earlier intermediate, whichever is lower — up to its transition state.",
+   "reason": "Measuring each step's barrier from the intermediate immediately before it gives the wrong answer whenever an earlier point on the diagram sits lower, which is exactly the case the lesson's own Potential Energy Diagrams section warns about two screens later (\"the step from the lowest preceding point to the highest subsequent peak\"). The two statements now agree, and agree with the energy-diagram lesson that precedes this one."
+  },
+  {
+   "field": "lesson.content",
+   "old": "where K_M = (k₋₁ + k₂)/k₁ is the **Michaelis constant**—a measure of enzyme-substrate affinity. A lower K_M indicates higher affinity (the substrate doesn't need to be as concentrated to half-saturate the enzyme).",
+   "new": "where K_M = (k₋₁ + k₂)/k₁ is the **Michaelis constant**: the substrate concentration that half-saturates the enzyme, so a lower K_M means less substrate is needed to reach half of V_max. Treat it as affinity only with the caveat this course makes elsewhere — K_M equals the true dissociation constant k₋₁/k₁ only when k₂ ≪ k₋₁, because the catalytic step drains ES as well.",
+   "reason": "K_M is defined here by a formula containing k₂ and then described as a measure of affinity, which is the conflation the enzyme-kinetics lesson explicitly warns against (\"Km is a kinetic parameter, not generally the same as Kd\"). Stated as what it actually is, with the condition under which the affinity reading is legitimate."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Zero order in a reactant**: that reactant is not involved in or before the RDS. Common when a catalyst is saturated (e.g., enzyme at V_max is zero order in substrate).",
+   "new": "- **Zero order in a reactant**: changing its concentration does not change the rate. Usually that reactant enters only *after* the RDS. The other route is saturation — at V_max an enzyme is zero order in substrate even though substrate binding comes before the catalytic step, because every active site is already occupied.",
+   "reason": "The rule and its own example disagreed: substrate is involved before the catalytic step, so an enzyme at V_max is a counterexample to \"not involved in or before the RDS\" rather than an illustration of it. Both routes to zero order are now named separately, which is what the question actually requires students to distinguish."
+  },
+  {
+   "field": "questions.617.explanation",
+   "old": "Choice C is partially correct in noting B does not appear, but the core issue is the mechanistic mismatch for A, making B the best complete answer.",
+   "new": "Choice C is wrong, not merely incomplete: B is a reactant — it appears in the balanced equation A + B → C — it is simply zero order, which means its concentration does not affect the rate. Zero order is not the same as absent.",
+   "reason": "The explanation called a choice containing a false statement \"partially correct\". Choice C asserts that B is not a reactant, which the question's own equation contradicts; teaching students to rank such a choice as partly right works directly against the elimination habit the lesson is trying to build. The distinction it should be drawing — zero order versus not present — is the one the question is testing."
+  }
+ ],
+ "sources": [
+  {
+   "title": "JoVE Core Organic Chemistry — Regioselectivity and stereochemistry of acid-catalyzed hydration",
+   "url": "https://www.jove.com/science-education/11777/regioselectivity-and-stereochemistry-of-acid-catalyzed-hydration",
+   "note": "Protonation of the alkene by hydronium to form the carbocation is the rate-determining step; the relative rates of ethene, propene and 2-methylpropene follow carbocation stability, and the nucleophilic addition of water and the subsequent deprotonation are fast."
+  },
+  {
+   "title": "Chemistry LibreTexts — Acid-catalyzed hydration of alkenes",
+   "url": "https://chem.libretexts.org/Courses/can/CHEM_231%3A_Organic_Chemistry_I_Textbook/08%3A_Alkenes-_Reactions_and_Synthesis/8.04%3A_Hydration_of_Alkenes-_Acid-Catalyzed_Hydration",
+   "note": "Protonation of the alkene double bond yields a carbocation intermediate, which reacts with water to give a protonated alcohol; loss of H⁺ gives the neutral alcohol and regenerates the acid catalyst."
+  },
+  {
+   "title": "OpenStax, Chemistry 2e — Kinetics (chapter 12 summary)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/12-summary",
+   "note": "Rate laws are determined experimentally and cannot be predicted from reaction stoichiometry; the overall rate is determined by the slowest step, the rate-determining step. Unimolecular elementary reactions have first-order rate laws and bimolecular elementary reactions second-order rate laws, so a mechanism's predicted rate law can be compared with the measured one to rule it out or call it plausible."
+  }
+ ],
+ "visual": {
+  "title": "From a mechanism to a rate law",
+  "src": "/lesson-diagrams/mechanism-to-rate-law.svg",
+  "width": 1180,
+  "height": 880,
+  "alt": "A procedure chart in three columns, under the rule that exponents come from the stoichiometry of an elementary step and never from an overall balanced equation. Column one, the slow step is first: read the rate law straight off it, worked on the ionisation of tert-butyl bromide, giving rate equals k times substrate with no nucleophile term, the signature of SN1. Column two, the slow step comes later behind a fast equilibrium: write the rate law for the slow step, then substitute the intermediate out, worked on two nitric oxide molecules in equilibrium with the dimer followed by slow reaction with oxygen, giving rate equals the observed constant times nitric oxide squared times oxygen. Column three, no equilibrium to use: set the rate of change of the intermediate to zero, worked on enzyme plus substrate going to the enzyme substrate complex and then to product, giving the Michaelis Menten equation with the Michaelis constant equal to the sum of the reverse and catalytic constants over the forward constant. Footers give the three tests a mechanism must pass, how to read an energy diagram, with n steps giving n transition states and n minus one intermediates and the rate-determining step being the largest climb from the lowest point before it to the highest peak after it, and a warning that passing the tests shows only consistency, never correctness.",
+  "caption": "Three situations, three procedures. Which one you are in depends on a single question: is the slow step the first step, and if not, is the intermediate before it at equilibrium?"
+ }
+}
