@@ -1,0 +1,47 @@
+{
+ "lessonId": 129,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  641,
+  642,
+  643,
+  644,
+  645
+ ],
+ "fingerprint": "dba5da07a4a873cab760e9d7cb621ef7fce8379be2a6fc91d18c3681d2b86674",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Salts of strong acids (like AgCl, BaSO₄) are *not* affected by pH because their anions (Cl⁻, SO₄²⁻) are conjugate bases of strong acids and do not get protonated at physiologically relevant pH values.",
+   "new": "Salts whose anion is a very weak base (AgCl, BaSO₄) are *not* appreciably affected by pH over the physiological range. Chloride qualifies outright — it is the conjugate base of HCl, a strong acid, and is never protonated in water. Sulfate is the subtler case: it is the conjugate base of HSO₄⁻, whose Ka is 1.2 × 10⁻² (pKa ≈ 1.9), so sulfate is weakly basic and BaSO₄ does become slightly more soluble in strongly acidic solution. At pH 7 the protonated fraction is about one in a hundred thousand, which is why BaSO₄ is treated as pH-independent in the body — the conclusion holds, but it rests on the pKa being far below physiological pH, not on sulfuric acid being strong in both steps.",
+   "reason": "Only the first ionisation of sulfuric acid is strong; the second has Ka = 1.2 × 10⁻², so sulfate is the conjugate base of a weak acid, not a strong one. This course's own pKa ladder lists HSO₄⁻ at pKa 2, so the sentence as written contradicts an earlier lesson. The practical conclusion is unchanged and the reason it is true is now stated, which is what lets a student handle the version of this question set at pH 1 rather than pH 7."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Suppose a solution contains both Ag⁺ and Pb²⁺. Adding Cl⁻ gradually:",
+   "new": "Suppose a solution contains both Ag⁺ and Pb²⁺, each at 0.10 M. Adding Cl⁻ gradually:",
+   "reason": "The worked numbers that follow both divide by 0.10 M, but that concentration is never stated, so the calculation cannot be reproduced or checked. Stating the basis makes the example self-contained — and makes clear that the threshold [Cl⁻] depends on how much of each cation is present, not on Ksp alone."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- CaCO₃: Ksp = 3.3 × 10⁻⁹ (sparingly soluble; relevant to kidney stones and coral reefs)",
+   "new": "- CaCO₃: Ksp = 3.3 × 10⁻⁹ (sparingly soluble; limestone, coral and shell, and the active ingredient in calcium-carbonate antacids)",
+   "reason": "Carbonate stones are rare, and this lesson states correctly two sections later that the common kidney stones are calcium oxalate and calcium phosphate. Replaced with the uses this lesson actually goes on to discuss — limestone weathering by acid rain, and antacid tablets dissolving in stomach acid — so the two passages agree."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Chemistry LibreTexts (OpenStax Chemistry 2e) — 14.5 Polyprotic Acids",
+   "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/14%3A_Acid-Base_Equilibria/14.05%3A_Polyprotic_Acids",
+   "note": "Sulfuric acid's first ionisation is complete (Ka1 > 10²) but its second, HSO₄⁻ + H₂O ⇌ H₃O⁺ + SO₄²⁻, has Ka2 = 1.2 × 10⁻². Sulfate is therefore the conjugate base of a weak acid, and the first ionisation of a polyprotic acid always exceeds the second."
+  }
+ ],
+ "visual": {
+  "title": "Ksp is not solubility",
+  "src": "/lesson-diagrams/ksp-to-solubility.svg",
+  "width": 1180,
+  "height": 900,
+  "alt": "A table converting the solubility product to molar solubility for four formula types. For a one-to-one salt such as silver chloride, Ksp equals s squared and s is its square root: 1.8 times ten to the minus ten gives 1.3 times ten to the minus five molar. For a one-to-two salt such as calcium fluoride and equally for a two-to-one salt such as silver chromate, Ksp equals four s cubed and s is the cube root of Ksp over four: calcium fluoride gives 2.1 times ten to the minus four and silver chromate 6.5 times ten to the minus five. For a three-to-two salt such as calcium phosphate, Ksp equals 108 s to the fifth, giving about 1.1 times ten to the minus seven. A note points out that the one-to-two and two-to-one cases share a formula, because what matters is the number of ions rather than which one is doubled. A panel compares silver chloride and silver chromate as bars: silver chromate has a Ksp about 160 times smaller and yet dissolves about five times more. A second panel plots selective precipitation on a logarithmic chloride axis, starting from 0.10 molar silver and lead: silver chloride begins to precipitate at 1.8 times ten to the minus nine molar chloride and lead chloride not until about 0.013 molar, leaving roughly seven orders of magnitude in which silver is removed and lead is untouched. A strip gives the ion-product test — below Ksp unsaturated and more dissolves, equal saturated, above supersaturated and precipitating until they match — and a footer warns that mixing two solutions dilutes both, which for an MX₂ salt drops Q eightfold, and that only ions appearing in the Ksp expression exert a common ion effect.",
+  "caption": "Two salts can rank one way by Ksp and the opposite way by how much dissolves. Convert to molar solubility first; the exponent pattern is what changes."
+ }
+}
