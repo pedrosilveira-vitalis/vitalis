@@ -1,0 +1,94 @@
+{
+ "lessonId": 123,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  611,
+  612,
+  613,
+  614,
+  615
+ ],
+ "fingerprint": "cc4e5c12dc32586cc4e25bbe5b2266a0bd0c1c53a30aab31e36a889e1aba7c1f",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- Eₐ is **not** related to ΔG, ΔH, or ΔS of the overall reaction in any direct way. A highly exothermic reaction can have a very large Eₐ.",
+   "new": "- Eₐ(forward) is **not** fixed by ΔG, ΔH or ΔS of the overall reaction — a highly exothermic reaction can still have a very large Eₐ. The one relation that does hold is between the *two* barriers: ΔH = Eₐ(forward) − Eₐ(reverse). That pins neither barrier on its own.",
+   "reason": "The lesson states here that Eₐ is not related to ΔH \"in any direct way\", then two paragraphs later derives ΔH = Eₐ(forward) − Eₐ(reverse) and calls it critical for MCAT problems. A student who believes the first statement will not use the second. The point being made is that ΔH does not determine either barrier individually, which is now what it says."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Eₐ(reverse) = Eₐ(forward) − ΔH (for an exothermic reaction where ΔH is negative)",
+   "new": "Eₐ(reverse) = Eₐ(forward) − ΔH — and this holds whatever the sign of ΔH, exothermic or endothermic; the arithmetic takes care of itself. Exothermic (ΔH < 0): subtracting a negative makes Eₐ(reverse) the larger of the two, which is what the downhill diagram shows. Endothermic (ΔH > 0): Eₐ(reverse) is the smaller.",
+   "reason": "The parenthetical restricted a general relation to exothermic reactions. ΔH = Eₐ(forward) − Eₐ(reverse) is a statement about three points on one energy diagram and holds in both directions; a student told otherwise will not know what to do with an endothermic profile, which the MCAT asks about just as often."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Enzymes can reduce Eₐ by as much as 10–20 kJ/mol or more, translating to rate accelerations of many orders of magnitude (10⁶ to 10¹⁷ fold in extreme cases).",
+   "new": "Enzymes typically lower the barrier by 30–100 kJ/mol, which is what accelerations of 10⁶ to 10¹⁷ fold actually cost. At body temperature every factor of ten in rate buys you about 5.9 kJ/mol (RT·ln10), so 10⁶ requires roughly 35 kJ/mol and 10¹⁷ roughly 100 kJ/mol. The record holder, orotidine 5′-monophosphate decarboxylase, sits at the top of that range.",
+   "reason": "The figures were inconsistent by about a factor of five in the exponent. At 310 K, RT·ln10 = 5.9 kJ/mol, so a 10–20 kJ/mol reduction gives only 10^1.7 to 10^3.4 — nowhere near 10⁶, let alone 10¹⁷. The lesson contradicts itself twice over: its own benchmark list gives enzymatic Eₐ of 25–65 kJ/mol reduced from 80–150 (a drop of 55–85 kJ/mol), and Q615 keys 10⁶-fold to ~35 kJ/mol. Corrected to the range that reproduces both."
+  },
+  {
+   "field": "lesson.content",
+   "old": "So a 10 K increase roughly triples the rate constant for this activation energy—consistent with Q₁₀ ≈ 2–3.",
+   "new": "So a 10 K increase multiplies the rate constant by about 2.6 for this activation energy — consistent with Q₁₀ ≈ 2–3, and a reminder that Q₁₀ climbs with Eₐ: around 50–60 kJ/mol gives Q₁₀ ≈ 2, while 75 kJ/mol gives ≈ 2.6.",
+   "reason": "The worked answer is 2.64, which the sentence then describes as \"roughly triples\". A student who carries 3× forward will pick the wrong option on a Q₁₀ estimate; the relationship between Eₐ and Q₁₀ is the point worth keeping."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The ratio: 2.0 × 10⁻⁹ / 1.1 × 10⁻¹⁴ ≈ 1.8 × 10⁵\n\nThe catalyzed reaction is roughly 180,000 times faster—from a 30 kJ/mol reduction in Eₐ alone.",
+   "new": "The ratio comes straight from the *difference* in Eₐ: e^(30,000/(8.314 × 300)) = e^12.03 ≈ 1.7 × 10⁵\n\nThe catalyzed reaction is roughly 170,000 times faster — from a 30 kJ/mol reduction in Eₐ alone. (Dividing the two rounded factors above instead gives 1.8 × 10⁵; working from ΔEₐ directly avoids that rounding error, and is faster.)",
+   "reason": "Dividing the two already-rounded exponentials (2.0/1.1) gave 1.8 × 10⁵ where the correct value is 1.67 × 10⁵. The method shown is also the slow one: the ratio depends only on ΔEₐ, so the two exponentials never need evaluating."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Forgetting that Eₐ is always positive**: If you calculate a negative Eₐ, you have made an error (likely a sign error in the slope calculation).",
+   "new": "- **Sign errors on the Arrhenius slope**: the slope of ln k against 1/T is −Eₐ/R, so Eₐ = −slope × R. For an elementary step Eₐ is positive, so a negative answer means a dropped minus sign. (The genuinely negative *apparent* Eₐ described earlier belongs to multistep mechanisms with a pre-equilibrium — it is not what a slope question is testing.)",
+   "reason": "The lesson devotes a section to reactions with negative apparent activation energy and then lists \"Eₐ is always positive\" as a rule in its own Common Mistakes. Narrowed to what is actually always true — a positive Eₐ for an elementary step — and cross-referenced to the exception the lesson itself raises, so the two sections no longer contradict."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Conversely, some thermodynamically unfavorable reactions (ΔG > 0) can occur at measurable rates if Eₐ is low and the reaction is driven by coupling to favorable processes.",
+   "new": "The converse is subtler: a reaction with ΔG > 0 is not forbidden, it simply settles at an equilibrium lying toward reactants — and if Eₐ is low it gets there quickly. Cells push such steps forward by coupling them to a favorable reaction or by consuming the product downstream, which changes the thermodynamics, not the barrier.",
+   "reason": "As written the sentence attributes the forward progress of a ΔG > 0 reaction partly to a low Eₐ, which collapses the very kinetics/thermodynamics distinction the section exists to draw: a low barrier changes how fast equilibrium is reached, never where it lies. The two mechanisms a cell actually uses are now named separately."
+  },
+  {
+   "field": "questions.613.choice_b",
+   "old": "9,600 R J/mol",
+   "new": "−79,800 J/mol",
+   "reason": "Choice B was a second correct answer: 9,600 × R evaluates to 79,814 J/mol, which is choice C. A student who recognises that Eₐ = slope × R can defend B as readily as C. Replaced with the sign error the lesson's own Common Mistakes section warns about — taking Eₐ = slope × R instead of −slope × R — which is unambiguously wrong because an elementary-step Eₐ cannot be negative."
+  },
+  {
+   "field": "questions.613.explanation",
+   "old": "Choice A incorrectly equates the slope directly to Ea without multiplying by R, which is the most common error on this type of question.",
+   "new": "Choice A incorrectly equates the slope directly to Ea without multiplying by R, which is the most common error on this type of question. Choice B is the same calculation with the minus sign dropped: the slope is -Ea/R, so Ea = -slope x R, and an activation energy for an elementary step can never come out negative. Choice D divides by R instead of multiplying (9,600 / 8.314 = 1,155).",
+   "reason": "The explanation accounted for only one of the three distractors, and the rewritten choice B needs its own rationale. Each distractor now names the specific slip that produces it."
+  },
+  {
+   "field": "questions.615.explanation",
+   "old": "choice C would require a rate enhancement closer to 10^13",
+   "new": "choice C would require a rate enhancement closer to 10^12",
+   "reason": "At 310 K, 69,000 J/mol divided by RT·ln10 (5,934 J/mol) is 11.6, so choice C corresponds to about 10^11.6, not 10^13. The same constant the question is built on gives the figure."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Chemistry 2e — Kinetics (chapter 12 summary)",
+   "url": "https://openstax.org/books/chemistry-2e/pages/12-summary",
+   "note": "Arrhenius equation k = Ae^(−Ea/RT) and its linearized form ln k = ln A − (Ea/R)(1/T), so a plot of ln k against 1/T has slope −Ea/R. A catalyst increases rate by providing an alternative pathway of lower activation energy."
+  },
+  {
+   "title": "Radzicka & Wolfenden, \"A proficient enzyme\", Science 267:90–93 (1995)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/7809611/",
+   "note": "Orotidine 5′-phosphate decarboxylase enhances its reaction rate by a factor of 10^17, the largest rate enhancement measured for a protein catalyst, and is estimated to bind the transition state with a dissociation constant below 5 × 10^-24 M. Used to anchor the upper end of the barrier-reduction range: 10^17 at 310 K requires ΔEa ≈ 100 kJ/mol."
+  }
+ ],
+ "visual": {
+  "title": "The barrier, and what changes it",
+  "src": "/lesson-diagrams/activation-energy-barrier.svg",
+  "width": 1180,
+  "height": 900,
+  "alt": "A two-step reaction coordinate diagram: reactants at 40, a first transition state at 100, an intermediate at 66, a second transition state at 86, and products at 20, so the forward activation energy is 60, the reverse is 80, and the difference is the enthalpy change of minus 20. A dashed red catalysed route runs over the same endpoints with both peaks lowered, speeding the forward and reverse directions alike and so leaving the enthalpy change and the equilibrium constant untouched. Panels give the transition-state versus intermediate distinction (energy maximum, not isolable, about ten to the minus thirteen seconds, against a local minimum that is a real species) and the single relation linking the barriers to the enthalpy change, which holds for exothermic and endothermic reactions alike. Below, an Arrhenius plot of ln k against one over T is a straight line of slope minus activation energy over the gas constant, worked through for a slope of minus nine thousand six hundred kelvin giving 79.8 kilojoules per mole; and a ladder converting a drop in barrier height into a rate factor at body temperature, where every factor of ten costs 5.9 kilojoules per mole, so ten to the sixth needs about 35 and ten to the seventeenth about 100.",
+  "caption": "Forward barrier, reverse barrier and ΔH are three readings of one diagram. A catalyst moves the first two together, which is exactly why it cannot move the third."
+ }
+}
