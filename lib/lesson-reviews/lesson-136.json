@@ -1,0 +1,67 @@
+{
+ "lessonId": 136,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  676,
+  677,
+  678,
+  679,
+  680
+ ],
+ "fingerprint": "2c028ba9c7eb237ca80c3dba66a399eab8eb9487ad15ffc781dc621aef48da68",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "methyl (2R)-2-amino-3-hydroxypropanoate",
+   "new": "methyl (2S)-2-amino-3-hydroxypropanoate",
+   "reason": "The intro pairs the (2R) descriptor with L-serine, but L-serine is (S) at the alpha carbon (N > COOH > CH2OH > H), and esterifying the acid does not change that assignment. The lesson's own stereochemistry section later gives (2R)-2-amino-3-hydroxypropanoic acid correctly as D-serine, so the intro contradicted it."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Use E/Z whenever there are four different substituents on the double bond carbons.",
+   "new": "Use E/Z whenever each double-bond carbon carries two different groups. Cis/trans is only unambiguous when the two carbons share a common substituent (usually H), and tri- or tetrasubstituted alkenes can be named only with E/Z.",
+   "reason": "Four different substituents is not the criterion. But-2-ene has only methyl and hydrogen on the two carbons, yet E/Z applies to it; conversely cis/trans fails as soon as one carbon carries two different non-hydrogen groups. The rule as written would have students reach for cis/trans on alkenes where it is undefined."
+  },
+  {
+   "field": "questions.680.question_text",
+   "old": "Which name correctly identifies the compound with a benzene ring bearing a nitro group at position 1, a chloro group at position 3, and a methyl group at position 5?",
+   "new": "A benzene ring carries a nitro group, a chloro group, and a methyl group, with one unsubstituted ring carbon between each pair (a 1,3,5-pattern). Which of the following is the correct IUPAC name?",
+   "reason": "The old stem pre-assigned C1 to the nitro group, which is the very thing the question is supposed to test; as written, the stem fixed a numbering that IUPAC rules do not permit. Rewritten to describe the substitution pattern without numbering it."
+  },
+  {
+   "field": "questions.680.correct_answer",
+   "old": "C",
+   "new": "B",
+   "reason": "In a 1,3,5-trisubstituted benzene every numbering gives the same locant set {1,3,5}, so the tie-break applies: the lowest locant goes to the substituent cited first in alphabetical order. Chloro precedes methyl and nitro, so chloro is C1 and the name is 1-chloro-3-methyl-5-nitrobenzene (choice B). The old key, C, put nitro at C1, which the keyed explanation itself contradicted when it stated that alphabetical order decides which substituent receives C1."
+  },
+  {
+   "field": "questions.680.explanation",
+   "old": "IUPAC rules for substituted benzenes require alphabetical ordering of substituents to determine which receives C1, and then numbering proceeds to give the lowest set of locants. Nitro (n) comes after methyl (m) and chloro (c) alphabetically, but the correct approach is to give the substituents the lowest locants as a set. Assigning nitro to C1 and numbering to give chloro at C3 and methyl at C5 yields the locant set {1,3,5}, which is the same regardless of direction, so the name is built alphabetically: 3-chloro-5-methyl-1-nitrobenzene. Choice A is tempting but incorrectly places methyl at C1.",
+   "new": "Numbering is settled first by the lowest locant set. Here every choice of starting carbon and direction gives {1,3,5}, so the set cannot break the tie. The next rule applies: when locant sets are identical, the lowest locant goes to the substituent cited first in alphabetical order. Chloro comes before methyl and nitro, so the chloro-bearing carbon is C1, and numbering toward the methyl group gives 1-chloro-3-methyl-5-nitrobenzene. Choice C is the common trap, giving C1 to the substituent that happens to be listed first in the problem rather than the one that is first alphabetically; choices A and D assign C1 to methyl and chloro respectively but then break the alphabetical tie-break or the locant assignment.",
+   "reason": "Rewritten to match the corrected key and to state the tie-break rule the old explanation named but did not apply."
+  }
+ ],
+ "sources": [
+  {
+   "title": "IUPAC Nomenclature of Benzene Derivatives — ALLEN",
+   "url": "https://allen.in/jee/chemistry/iupac-nomenclature-benzene"
+  },
+  {
+   "title": "Nomenclature of benzene derivatives, worked problems — quimicaorganica.org",
+   "url": "https://www.quimicaorganica.org/en/benzene-problems/1271-benzene-problem-1.html"
+  },
+  {
+   "title": "Nomenclature of Aromatic Compounds with Multiple Substituents — JoVE 17.3",
+   "url": "https://www.jove.com/science-education/12865/nomenclature-of-aromatic-compounds-with-multiple-substituents"
+  }
+ ],
+ "visual": {
+  "title": "Seniority decides the suffix; everything else drops to a prefix",
+  "src": "/lesson-diagrams/iupac-seniority-ladder.svg",
+  "width": 900,
+  "height": 696,
+  "alt": "A ranked ladder of eleven functional groups from carboxylic acid at rank one down to alkane at rank eleven, each row giving the suffix the group takes when it is the senior group and the prefix it takes when outranked. Below the ladder, the name methyl (2S)-2-amino-3-(4-hydroxyphenyl)propanoate is split into five labelled parts and identified as the methyl ester of L-tyrosine.",
+  "caption": "Only the senior group present becomes the ending and claims the lowest locant; every other group is demoted to a prefix.",
+  "beforeHeading": "## Functional Group Priority and Suffixes"
+ }
+}
