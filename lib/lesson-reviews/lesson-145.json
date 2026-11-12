@@ -1,0 +1,51 @@
+{
+ "lessonId": 145,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  721,
+  722,
+  723,
+  724,
+  725
+ ],
+ "fingerprint": "91a636ee640f3aff57d8502670b0b0851c8327b0c6024ab51c591e6da7d70387",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "The beta-hydroxy carbonyl product has two new stereocenters (the alpha carbon and the beta carbon bearing the hydroxyl).",
+   "new": "The beta-hydroxy carbonyl product can have up to two new stereocenters (the alpha carbon and the beta carbon bearing the hydroxyl), though the alpha carbon is only a stereocenter when the enolate partner carried two different groups — the self-aldol of acetaldehyde, for instance, gives 3-hydroxybutanal with just one.",
+   "reason": "Stated flatly, the claim is wrong for the simplest aldol products. Acetaldehyde's self-aldol gives 3-hydroxybutanal, whose alpha carbon is a CH₂ and therefore not a stereocenter; only the carbinol carbon is. The syn/anti language that follows applies only when both centers exist."
+  },
+  {
+   "field": "lesson.content",
+   "old": "After a second alkylation (or the same alkyl halide twice), hydrolysis of the ester groups and decarboxylation (β-keto acid decarboxylation) yields a substituted acetic acid.",
+   "new": "Optionally a second alkylation installs another group on the same carbon; hydrolysis of both esters then gives a substituted malonic acid, which loses CO₂ on heating to yield a substituted acetic acid.",
+   "reason": "The intermediate here is a substituted malonic acid, a β-dicarboxylic acid, not a β-keto acid — the lesson's own decarboxylation section makes that distinction two sections later. The phrase 'after a second alkylation (or the same alkyl halide twice)' also read as though a second alkylation were required, when it is optional."
+  },
+  {
+   "field": "questions.725.question_text",
+   "old": "A researcher wants to alkylate cyclohexanone at the alpha carbon with high regioselectivity using an alkyl halide. She first treats cyclohexanone with lithium diisopropylamide (LDA) at -78 degrees C, then adds the alkyl halide. Why is LDA used rather than NaOH?",
+   "new": "A researcher wants to alkylate 2-methylcyclohexanone at the less substituted alpha carbon using an alkyl halide. She first treats the ketone with lithium diisopropylamide (LDA) at -78 degrees C, then adds the alkyl halide. Why is LDA used rather than NaOH?",
+   "reason": "Cyclohexanone is symmetrical, so it has only one kind of alpha carbon and there is no regioselectivity for the conditions to control; the stem asked about a choice the substrate cannot offer, and the keyed explanation's appeal to the kinetic enolate was therefore empty. 2-Methylcyclohexanone has two different alpha carbons, which is what makes LDA at −78 °C the meaningful choice."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Alkylation of β-Diester Enolates: Malonic Ester Synthesis — JoVE Core Organic Chemistry 15.34",
+   "url": "https://www.jove.com/science-education/v/13075/alkylation-of-diester-enolates-malonic-ester-synthesis"
+  },
+  {
+   "title": "Decarboxylation of Malonic Acid Derivatives — JoVE Core Organic Chemistry 13.17 (hydrolysis gives a substituted malonic acid, a β-dicarboxylic acid)",
+   "url": "https://www.jove.com/science-education/v/13089/loss-carboxy-group-as-co2-decarboxylation-malonic-acid"
+  }
+ ],
+ "visual": {
+  "title": "Two alpha positions, two enolates: speed or stability",
+  "src": "/lesson-diagrams/kinetic-vs-thermodynamic-enolate.svg",
+  "width": 900,
+  "height": 640,
+  "alt": "2-Methylcyclohexanone is drawn in the centre with its two different alpha carbons marked, one a CH2 and one a CH bearing a methyl group. An arrow to the left leads to the kinetic enolate, formed with LDA at minus 78 degrees in THF, where the bulky non-nucleophilic base removes the most accessible proton irreversibly and gives the less substituted double bond. An arrow to the right leads to the thermodynamic enolate, formed with sodium ethoxide in ethanol at room temperature, where reversible deprotonation lets the two enolates equilibrate so the more substituted double bond wins. A lower band lists alpha-hydrogen pKa values alongside ethanol and diisopropylamine to show which base is strong enough for which substrate.",
+  "caption": "A base that deprotonates completely locks in whichever proton comes off fastest; a base that deprotonates reversibly lets the more stable enolate win.",
+  "beforeHeading": "### Kinetic vs. Thermodynamic Enolates"
+ }
+}
