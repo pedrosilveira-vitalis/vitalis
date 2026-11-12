@@ -1,0 +1,74 @@
+{
+  "lessonId": 127,
+  "patches": [
+    {
+      "target": "lesson.content",
+      "old": "When a nonvolatile solute is added to a solvent, solute particles occupy positions at the surface of the liquid and throughout the bulk solution. This disrupts the solvent's ability to escape into the vapor phase, lowers the chemical potential of the liquid, and fundamentally alters the thermodynamic equilibrium conditions of the solution.",
+      "new": "When a nonvolatile solute is added to a solvent, the solvent is diluted. Mixing raises the entropy of the liquid phase, which lowers the solvent's chemical potential by RT·ln χ_solvent — and therefore lowers its tendency to leave the liquid at all, whether into the vapor, into the solid, or across a membrane. That single shift is the whole subject: it is why one cause produces four different measurements.",
+      "reason": "The sentence gave surface occupancy as the cause and the chemical-potential change as a consequence; the dependence runs the other way. Surface blocking is a kinetic story about an equilibrium quantity — vapour pressure does not depend on how much surface a liquid has — and it cannot explain freezing point depression or osmotic pressure, which involve no surface at all. Stating the thermodynamic cause once, at the top, is what makes the rest of the lesson one idea instead of four."
+    },
+    {
+      "target": "lesson.content",
+      "old": "Imagine the surface of a pure liquid solvent. Solvent molecules at the surface constantly escape into the vapor phase. When solute particles are added, they occupy some surface positions, reducing the rate of solvent evaporation. The equilibrium vapor pressure drops. Since the solute is nonvolatile, it contributes nothing to the vapor pressure itself.",
+      "new": "Imagine a pure liquid solvent at equilibrium with its vapor: molecules leave the surface and return at the same rate. Adding solute lowers the chemical potential of the solvent in the liquid, so the liquid holds its molecules more tightly and the balance is restored at a lower vapor pressure. Since the solute is nonvolatile, it contributes nothing to the vapor pressure itself.\n\nYou will often meet this taught as solute particles \"blocking surface sites\". It is a serviceable mnemonic and it lands on the right formula, but do not mistake it for the mechanism: vapor pressure is an equilibrium property and does not depend on surface area, and the blocking picture says nothing about freezing point depression or osmotic pressure, where no surface is involved.",
+      "reason": "This paragraph contradicted the thermodynamic account given at the top of the same lesson. Rewritten to the equilibrium argument, with the surface picture kept and labelled as the mnemonic it is — students meet it everywhere, so naming it is more useful than deleting it."
+    },
+    {
+      "target": "lesson.content",
+      "old": "- Driving principle: Solute reduces solvent surface activity",
+      "new": "- Driving principle: Solute lowers the solvent's chemical potential (entropy of mixing)",
+      "reason": "Third restatement of the surface-blocking account, in the summary table where students look things up. Brought into line with the corrected mechanism."
+    },
+    {
+      "target": "lesson.content",
+      "old": "**Road salt**: Sodium chloride and calcium chloride are spread on icy roads. CaCl₂ is more effective per gram because it produces three ions (i = 3) versus two for NaCl (i = 2), creating a greater freezing point depression.",
+      "new": "**Road salt**: Sodium chloride and calcium chloride are spread on icy roads. Per *mole*, CaCl₂ is the stronger depressant — three ions (i = 3) against two (i = 2). Per *gram* the ranking reverses: CaCl₂ is 111 g/mol against NaCl's 58.4, so a gram of NaCl releases 0.034 mol of particles against 0.027 mol for CaCl₂. CaCl₂ is chosen anyway because it stays effective at lower temperatures and releases heat as it dissolves, not because it supplies more particles per gram.",
+      "reason": "The per-gram claim is false, and the reason attached to it (three ions versus two) is a per-mole argument. Working it through: 1 g of NaCl is 1/58.44 mol × 2 = 0.0342 mol of particles, while 1 g of CaCl₂ is 1/110.98 × 3 = 0.0270 mol. Since \"which is more effective per gram\" is exactly the comparison the MCAT builds colligative questions around, the error is directly costly, and the real reasons road crews prefer CaCl₂ are worth one clause."
+    },
+    {
+      "target": "lesson.content",
+      "old": "By adjusting the osmolality of the dialysate, clinicians can also remove excess fluid (ultrafiltration) by creating a pressure differential.",
+      "new": "Fluid removal in hemodialysis (ultrafiltration) is driven by a *hydrostatic* transmembrane pressure that the machine applies, not by the osmolality of the dialysate. Osmotic fluid removal is how *peritoneal* dialysis works, where glucose in the dialysate draws water into the peritoneal cavity.",
+      "reason": "The sentence attributed hemodialysis ultrafiltration to dialysate osmolality, which describes peritoneal dialysis instead. Hemodialysis machines set a transmembrane hydrostatic pressure to pull plasma water across the membrane; the dialysate is formulated for solute clearance. Both modalities appear in passages, and the mechanism is the thing that distinguishes them."
+    },
+    {
+      "target": "question.633.question_text",
+      "old": "What is the expected freezing point depression of the MgCl2 solution?",
+      "new": "What is the expected freezing point of the MgCl2 solution?",
+      "reason": "The stem asked for the freezing point *depression*, which this lesson defines as a positive number, but every choice was negative and the keyed answer, −2.79 °C, is the freezing point. The explanation makes the same slip, computing ΔTf = +2.79 and then keying −2.79. Changing the stem to ask for the freezing point makes the question match its own choices and its own answer."
+    },
+    {
+      "target": "question.634.explanation",
+      "old": "Choice C is tempting because students may forget to apply the van't Hoff factor to NaCl, making them think 0.1 M NaCl has fewer particles than 0.2 M sucrose.",
+      "new": "Choice B is the trap: a student who forgets the van't Hoff factor reads Solution B as 0.1 M of particles against Solution A's 0.2 M, concludes A is the more concentrated side, and has water moving B → A — which is exactly what choice B says.",
+      "reason": "The explanation named the wrong choice. Forgetting i makes Solution A look more concentrated, so the error leads to water flowing B → A, which is choice B; choice C asserts the opposite imbalance and is not where that mistake lands. Naming the wrong distractor teaches students to look for the error in the wrong place."
+    },
+    {
+      "target": "question.635.choice_b",
+      "old": "Solute particles occupy surface sites, reducing the fraction of solvent molecules that can escape into the vapor phase.",
+      "new": "Mixing raises the entropy of the liquid, lowering the solvent's chemical potential and so its tendency to escape into the vapor phase.",
+      "reason": "The keyed answer was the surface-blocking misconception that this review removes from the lesson body. Replaced with the thermodynamic account, which is both correct and the one that explains why the same cause produces the other three colligative properties. The remaining three choices stay wrong for the reasons they already were, so the answer letter does not change."
+    },
+    {
+      "target": "question.635.explanation",
+      "old": "Vapor pressure lowering is described by Raoult's Law: the vapor pressure of the solution equals the mole fraction of the solvent times the pure solvent vapor pressure. Solute particles occupy positions at the liquid surface, reducing the proportion of solvent molecules available to escape into the gas phase, thereby lowering vapor pressure. Choice C is tempting but incorrect; colligative properties depend on particle number, not the specific interactions introduced by the solute identity.",
+      "new": "Raoult's Law says the vapor pressure of the solution is the mole fraction of solvent times the pure-solvent vapor pressure. The reason is thermodynamic: diluting the solvent raises the entropy of the liquid, which lowers the solvent's chemical potential by RT·ln(chi_solvent) and so its escaping tendency, and equilibrium is re-established at a lower pressure. Choice C is tempting but wrong — colligative properties depend on particle number, not on any specific interaction the solute introduces, and in an ideal solution the forces are unchanged by definition. Note that the \"solute blocks surface sites\" picture found in many textbooks arrives at the right formula but is not the mechanism: vapor pressure does not depend on surface area, and no surface is involved in freezing point depression or osmotic pressure at all.",
+      "reason": "Rewritten to match the corrected choice B and the corrected lesson body, and to name the surface-blocking account explicitly so a student who has met it elsewhere knows where it sits rather than thinking the key is wrong."
+    }
+  ],
+  "sources": [
+    {
+      "label": "OpenStax, Chemistry 2e — 11.4 Colligative Properties",
+      "url": "https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties",
+      "note": "Raoult's law, ΔTb = Kb·m and ΔTf = Kf·m with Kb = 0.512 and Kf = 1.86 °C·kg/mol for water, π = MRT, and the van't Hoff factor as particles per formula unit, with measured values below the ideal because of ion pairing (i = 1.9 for 0.05 m NaCl against an ideal 2). OpenStax presents the surface-area picture of vapour pressure lowering and then states plainly that \"while this interpretation is useful, it does not account for several important aspects of the colligative nature of vapor pressure lowering\" — which is why this review keeps the picture but labels it a mnemonic."
+    }
+  ],
+  "visual": {
+    "title": "One cause, four properties",
+    "src": "/lesson-diagrams/colligative-phase-diagram.svg",
+    "width": 1180,
+    "height": 900,
+    "alt": "A schematic pressure-against-temperature phase diagram for water, with the shifts exaggerated. The pure solvent's vaporisation curve reaches one atmosphere at 100 degrees; the solution's curve lies below it everywhere and so meets the one-atmosphere line further right, at a raised boiling point. The fusion curve is shifted left, giving a lowered freezing point. The sublimation curve does not move, because the solid that freezes out is pure solvent. Four panels give the properties: vapour pressure lowering, change in pressure equals mole fraction of solute times the pure vapour pressure, needing mole fraction; boiling point elevation, van't Hoff factor times 0.512 times molality; freezing point depression, van't Hoff factor times 1.86 times molality, about three and a half times more sensitive, which is why osmometry reads freezing points; and osmotic pressure, van't Hoff factor times molarity times the gas constant times temperature, the only one of the four using molarity and the largest effect in cells. A table lists van't Hoff factors of one for glucose, urea and sucrose, two for sodium chloride and magnesium sulfate, three for calcium chloride, magnesium chloride and sodium sulfate, with a note that real values fall below these because of ion pairing. A final panel separates osmolarity, which counts every dissolved particle, from tonicity, which counts only particles that cannot cross the membrane, so that urea raises measured osmolarity while moving no water.",
+    "caption": "Dilute the solvent and its chemical potential falls. The vaporisation curve drops, the fusion curve slides left, and the sublimation curve — pure solid either way — does not move at all."
+  }
+}
