@@ -1,0 +1,49 @@
+{
+ "lessonId": 144,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  716,
+  717,
+  718,
+  719,
+  720
+ ],
+ "fingerprint": "46241353892393649ab50669e67db0a031bdb6c4ed9acfe0f574f46423c598ce",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "because the phenyl ring is mildly electron-withdrawing by induction and because the carboxylate can participate in extended conjugation with the ring.",
+   "new": "because the carboxyl group is attached to an sp² carbon, which is more electronegative and more electron-withdrawing than the sp³ carbon of a methyl group. Resonance with the ring actually works the other way — donating electron density toward the carboxyl group — which is why the phenyl ring buys only about half a pKa unit rather than a large shift.",
+   "reason": "Conjugation of the carboxylate into the ring does not stabilise it; pushing negative charge into an already electron-rich ring is unfavourable, and standard treatments state that resonance donation dilutes rather than reinforces the sp² inductive effect. The accepted explanation for benzoic acid being stronger than acetic acid is the greater electronegativity of the sp²-hybridised carbon."
+  },
+  {
+   "field": "lesson.content",
+   "old": "because sulfur is a better leaving group than oxygen (S⁻ is more stable than O⁻ due to larger atomic size)",
+   "new": "for two reasons that reinforce each other: sulfur's lone pairs sit in a 3p orbital that overlaps poorly with the carbonyl carbon's 2p orbital, so the sulfur donates far less electron density into the C=O than an ester oxygen does and the acyl carbon stays strongly electrophilic; and the thiolate RS⁻ is the better leaving group, being the weaker base",
+   "reason": "The leaving-group argument alone is the secondary effect. The main reason a thioester is the more reactive acyl donor — and the reason its hydrolysis releases about −7.5 kcal/mol against roughly −5 for an ordinary ester — is the poor 2p–3p overlap that denies the thioester the resonance stabilisation an ester enjoys. The lesson already makes exactly this orbital argument for chloride a few paragraphs later, so the two passages now agree."
+  }
+ ],
+ "sources": [
+  {
+   "title": "20.04 Substituent Effects on Acidity — Chemistry LibreTexts (benzoic acid's sp² carbon is the electron-withdrawing factor)",
+   "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_(Morsch_et_al.)/20:_Carboxylic_Acids_and_Nitriles/20.04:_Substituent_Effects_on_Acidity"
+  },
+  {
+   "title": "Substituent Effects on Carboxylic Acid Acidity — Reusch (resonance donation dilutes the sp² inductive effect)",
+   "url": "https://organicchemistrydata.org/reusch/virtualtext/substituent-effects-on-carboxylic-acid-acidity/"
+  },
+  {
+   "title": "Thioesters — Gonzaga University biochemistry notes (2p–3p overlap is ineffective; ΔG°′ ≈ −7.5 vs −5 kcal/mol)",
+   "url": "https://web02.gonzaga.edu/faculty/cronk/CHEM440pub/thioesters.html"
+  }
+ ],
+ "visual": {
+  "title": "Acyl reactivity is set by two things, and they point the same way",
+  "src": "/lesson-diagrams/acyl-reactivity-ladder.svg",
+  "width": 900,
+  "height": 600,
+  "alt": "A ladder of carboxylic acid derivatives from acyl chloride at the top down through anhydride, thioester, ester and amide. Each row gives the leaving group with the pKa of its conjugate acid, how strongly that group donates electron density into the carbonyl, and the infrared carbonyl stretch. An arrow down the side marks decreasing reactivity, and a panel notes that interconversion runs downhill only, with climbing back up requiring an activating reagent such as thionyl chloride or, in a cell, ATP.",
+  "caption": "Leaving-group ability and resonance donation move together down the ladder, which is why one ordering explains both the reaction rates and the IR frequencies.",
+  "beforeHeading": "## Relative Reactivity: A Mechanistic Summary"
+ }
+}
