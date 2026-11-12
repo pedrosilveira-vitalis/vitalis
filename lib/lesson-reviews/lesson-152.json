@@ -1,0 +1,69 @@
+{
+ "lessonId": 152,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  756,
+  757,
+  758,
+  759,
+  760
+ ],
+ "fingerprint": "b6817ef3209f24a1a257353cb77d3086e7a5516d8c817389b13b1bf2860431f9",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Overall reaction: Cu²⁺ (0.010 M) → Cu²⁺ (1.0 M) — *effectively*, electrons flow from the dilute side to the concentrated side.",
+   "new": "Overall reaction: Cu²⁺ (1.0 M) → Cu²⁺ (0.010 M) — copper ions are consumed on the concentrated side and produced on the dilute side, so the cell runs in the direction that evens the two concentrations out. Electrons flow through the wire from the dilute side to the concentrated side.",
+   "reason": "The arrow was drawn the wrong way. The concentrated half-cell is the cathode, where Cu²⁺ is consumed, and the dilute half-cell is the anode, where Cu²⁺ is produced, so the net change runs concentrated to dilute — which is also the entropy-driven direction the lesson appeals to two sentences later. As written the equation contradicts the Q that follows it, since Q = 0.010/1.0 only makes sense with the dilute side as the product."
+  },
+  {
+   "field": "questions.760.choice_a",
+   "old": "The cell potential increases from −0.03 V toward a more positive value.",
+   "new": "The cell potential increases from +0.03 V toward a more positive value.",
+   "reason": "With Ag⁺/Ag (+0.80 V) as the cathode and Fe³⁺/Fe²⁺ (+0.77 V) as the anode, E°cell = +0.03 V. Every choice stated the starting potential as −0.03 V, which is the wrong sign and contradicts the explanation's own arithmetic."
+  },
+  {
+   "field": "questions.760.choice_b",
+   "old": "The cell potential decreases further below −0.03 V, making the reaction less spontaneous.",
+   "new": "The cell potential falls from +0.03 V to roughly −0.15 V, so the spontaneous direction reverses.",
+   "reason": "Corrects the starting value and states the actual outcome: diluting Ag⁺ to 0.0010 M drops the cathode to 0.622 V, giving E = 0.622 − 0.77 = −0.148 V. The old wording, 'less spontaneous', understated a change that flips the sign."
+  },
+  {
+   "field": "questions.760.choice_c",
+   "old": "The cell potential increases from −0.03 V and may reverse the spontaneous direction.",
+   "new": "The cell potential falls from +0.03 V but stays positive, so the direction is unchanged.",
+   "reason": "Recast as the near-miss it should be: a student who applies the Nernst correction but underestimates its size, since three decades of dilution costs a full 0.178 V against a starting margin of only 0.03 V."
+  },
+  {
+   "field": "questions.760.choice_d",
+   "old": "The cell potential remains −0.03 V because both half-cells must change simultaneously.",
+   "new": "The cell potential remains +0.03 V because both half-cells must change simultaneously.",
+   "reason": "Corrects the sign of the starting potential; the distractor's reasoning is left intact."
+  },
+  {
+   "field": "questions.760.explanation",
+   "old": "E°cell = E°cathode - E°anode = 0.80 - 0.77 = +0.03 V... actually with Ag as cathode and Fe²⁺/Fe³⁺ as anode (Fe²⁺ → Fe³⁺ + e⁻), E°cell = 0.80 - 0.77 = +0.03 V. Decreasing [Ag⁺] reduces the cathode potential (Nernst: E_cathode = 0.80 - 0.0592×log(1/[Ag⁺])). With [Ag⁺] = 0.0010 M, E_cathode = 0.80 - 0.0592×3 = 0.80 - 0.178 = 0.622 V, so E_cell = 0.622 - 0.77 = -0.148 V. The cell potential decreases and becomes negative, reversing spontaneity. Choice C is tempting but incorrectly states the direction of change; lowering the cathode reactant concentration always decreases the cathode potential and thus the overall cell potential.",
+   "new": "With Ag⁺/Ag as the cathode and Fe³⁺/Fe²⁺ as the anode, E°cell = 0.80 − 0.77 = +0.03 V — spontaneous, but by a very thin margin. Diluting the cathode's reactant pushes that half-cell's potential down: E_cathode = 0.80 − 0.0592 log(1/[Ag⁺]) = 0.80 − 0.0592 × 3 = 0.622 V. The anode is unchanged at 0.77 V, so E_cell = 0.622 − 0.77 = −0.148 V. The potential has fallen by 0.178 V, far more than the 0.03 V it had to spare, so the cell now runs backwards: silver dissolves and Fe³⁺ is reduced. The general lesson is that a cell with a small E°cell can be flipped by ordinary concentration changes, while one with a large E°cell cannot.",
+   "reason": "The published explanation began by computing a value, interrupted itself with '... actually', and recomputed the same number. Rewritten as a single clean argument, and it now states the point the question is really testing: three decades of dilution cost 0.178 V against a 0.03 V margin."
+  }
+ ],
+ "sources": [
+  {
+   "title": "The Nernst Equation — Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Nernst_Equation"
+  },
+  {
+   "title": "Concentration Cells — Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Voltaic_Cells/Concentration_Cell"
+  }
+ ],
+ "visual": {
+  "title": "The Nernst equation is a straight line in log Q",
+  "src": "/lesson-diagrams/nernst-line.svg",
+  "width": 900,
+  "height": 640,
+  "alt": "A plot of cell potential against log Q for a cell with a standard potential of 1.10 volts and two electrons transferred. The line falls steadily with slope minus 0.0592 over n volts per decade, passes through the standard potential where log Q is zero, and crosses zero volts at log Q equal to log K, beyond which the potential is negative and the reverse reaction runs. A panel below gives the equation at 298 kelvin and a table of the four regimes: Q below one puts E above the standard potential, Q equal to one is standard conditions, Q between one and K leaves E positive but falling, and Q equal to K gives zero potential with no work left. A closing note records that solids, pure liquids and the solvent never appear in Q.",
+  "caption": "Reading it left to right is watching a battery discharge: Q climbs, the potential slides down one 0.0592/n step per decade, and the cell dies exactly when Q reaches K.",
+  "beforeHeading": "## Anatomy of the Nernst Equation"
+ }
+}
