@@ -1,0 +1,67 @@
+{
+ "lessonId": 137,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  681,
+  682,
+  683,
+  684,
+  685
+ ],
+ "fingerprint": "d38f8515029b0cbbaccbb2d3c8c9b522e62fbb7c170c119cfd7aedee6266b60c",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "For 2,3-dihalobutane, this is the meso form — it has an internal plane of symmetry. Therefore, this compound is **optically inactive** despite having two chiral centers.",
+   "new": "Opposite configurations are not by themselves enough to make a compound meso. A meso compound needs an internal mirror plane, which requires the two halves to be identical; here the halves are CH₃–CHBr– and –CHCl–CH₃, and because the halogens differ they are not mirror images. (2R,3S)-2-bromo-3-chlorobutane is therefore chiral and **optically active**, and its enantiomer is the (2S,3R) isomer. Replace the chlorine with a second bromine and the (2R,3S) isomer does become meso — that contrast is exactly what this kind of question is built to test.",
+   "reason": "2-Bromo-3-chlorobutane cannot be meso: the two halves carry different halogens, so no internal mirror plane exists and the molecule is chiral and optically active. The worked example asserted the opposite, teaching students that opposite R/S at adjacent centers is sufficient for meso."
+  },
+  {
+   "field": "lesson.content",
+   "old": "the carboxylic acid carbon is attached to (O, O, H) while the aldehyde carbon is attached to (O, H, H)",
+   "new": "the carboxylic acid carbon is attached to (O, O, O) — the hydroxyl oxygen plus the doubled carbonyl oxygen — while the aldehyde carbon is attached to (O, O, H)",
+   "reason": "The duplicate-atom rule was applied inconsistently. With the C=O duplicated, a -COOH carbon has the substituent set (O, O, O) and a -CHO carbon has (O, O, H). The sets given were each one oxygen short, which is the very step CIP questions test, even though the conclusion -COOH > -CHO was right."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Priorities: Br (atomic number 35) > Cl (via C-3, but we compare the atom directly attached) — wait, let's be precise.",
+   "new": "Priorities are set by the atoms bonded directly to the stereocenter, working outward only to break ties — not by a halogen sitting further along the chain.",
+   "reason": "Removes an unfinished self-correction left in the published text, which reads as an error to a student and states nothing usable."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- C-1 of glucose and other monosaccharides",
+   "new": "- The anomeric carbon (C-1) of cyclic glucose and other cyclic aldoses — in the open-chain form C-1 is the aldehyde carbon and is *not* a stereocenter",
+   "reason": "In open-chain glucose C-1 is a planar aldehyde carbon with only three groups, so it is not a chiral center; glucose's four open-chain stereocenters are C-2 through C-5. C-1 becomes a stereocenter only on cyclisation, which is the high-yield alpha/beta anomer point, so the distinction is worth stating rather than blurring."
+  },
+  {
+   "field": "questions.681.explanation",
+   "old": "An enantiomer is the non-superimposable mirror image of a molecule, which requires inverting ALL chiral centers. Inverting both (2R, 3S) gives (2S, 3R). Choice C inverts both centers but that would be (2S, 3R) only if we track carefully — actually inverting 2R gives 2S and inverting 3S gives 3R, yielding (2S, 3R). Choice A changes only one center, making it a diastereomer, not an enantiomer.",
+   "new": "An enantiomer is the non-superimposable mirror image, which requires inverting every chiral center. Inverting C-2 turns R into S and inverting C-3 turns S into R, so the enantiomer of (2R,3S) is (2S,3R). Choices A and C each invert only one of the two centers, which gives a diastereomer rather than an enantiomer. Choice D is the original compound unchanged.",
+   "reason": "The old explanation contained a garbled self-correction that misdescribed choice C, which is (2S,3S) and inverts only C-2, and it never said what choice D was. Rewritten to state the rule cleanly and dispose of each distractor."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Absolute Configuration: R-S Sequence Rules (duplicated atoms for C=O) — TRU Pressbooks CHEM 1500 8.4",
+   "url": "https://chem1500.pressbooks.tru.ca/?p=116"
+  },
+  {
+   "title": "R/S Configuration (CIP Rules): sphere-2 atom sets for -CHO {O,O,H} and -COOH {O,O,O}",
+   "url": "https://www.varsitytutors.com/practice/subjects/organic-chemistry-1/lessons/r-s-configuration-cip-rules"
+  },
+  {
+   "title": "Meso Compounds — Chemistry LibreTexts (requires two or more identically substituted stereocenters)",
+   "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Supplemental_Modules_(Organic_Chemistry)/Chirality/Meso_Compounds"
+  }
+ ],
+ "visual": {
+  "title": "Two structures: what is their relationship?",
+  "src": "/lesson-diagrams/stereo-relationship-tree.svg",
+  "width": 900,
+  "height": 716,
+  "alt": "A decision tree for classifying two structures. Same molecular formula separates isomers from unrelated compounds; same connectivity separates constitutional isomers from stereoisomers; and mirror-image or not separates enantiomers from diastereomers. A separate panel covers the meso case, a single molecule with stereocentres and an internal mirror plane, noting that 2,3-dibromobutane has a meso form while 2-bromo-3-chlorobutane does not. A lower table lists which cases rotate plane-polarised light.",
+  "caption": "Work down the questions in order; the first \"no\" names the relationship. Meso is the side case: one molecule whose own halves cancel.",
+  "beforeHeading": "## Diastereomers"
+ }
+}
