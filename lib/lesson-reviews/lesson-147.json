@@ -1,0 +1,69 @@
+{
+ "lessonId": 147,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  731,
+  732,
+  733,
+  734,
+  735
+ ],
+ "fingerprint": "dd6d8660a20e531380127d345cf05f8b546e41be85ca7b6e289fa2003f3195e6",
+ "patches": [
+  {
+   "field": "questions.732.question_text",
+   "old": "In a mass spectrum, a compound with molecular ion M+ at m/z = 86 shows a base peak at m/z = 57. What is the mass of the neutral fragment lost, and what common fragment could produce a peak at m/z = 57?",
+   "new": "A ketone shows a molecular ion M+ at m/z = 86 and a base peak at m/z = 57. What is the mass of the neutral fragment lost, and what fragment ion accounts for the peak at m/z = 57?",
+   "reason": "Without naming the compound class the item had two defensible answers. A loss of 29 from m/z 86 fits a ketone losing C₂H₅• to give C₂H₅CO⁺ at 57 (choice B), but it fits pentanal equally well, losing CHO• to give C₄H₉⁺ at 57 — which is choice A, and the keyed explanation itself conceded that C₄H₉⁺ weighs 57. Specifying a ketone makes B uniquely correct."
+  },
+  {
+   "field": "questions.732.explanation",
+   "old": "The neutral fragment lost is 86 - 57 = 29 mass units, which corresponds to an ethyl group (C2H5, MW = 29). An acylium ion (RCO+) at m/z = 57 would be C3H5O+ (MW = 57), consistent with loss of C2H5 from a ketone like 3-hexanone. Choice A incorrectly identifies m/z 57 as a butyl cation (C4H9+ = 57 is actually correct in mass but the neutral loss of 29 as CHO is less common in simple ketone fragmentation). Choice D reverses the fragment and neutral loss assignments.",
+   "new": "The neutral fragment lost is 86 − 57 = 29 mass units. For a ketone that is an ethyl radical, C2H5•, lost by alpha-cleavage, and the surviving ion is the acylium C2H5CO+ (C3H5O+, m/z 57). 3-Pentanone, C5H10O, has exactly this molecular weight and gives m/z 57 as its base peak. Choice A also has the arithmetic right — C4H9+ does weigh 57 — but a loss of CHO• is aldehyde chemistry, and the stem specifies a ketone. Choice C is wrong twice over: losing CH3 from 86 would give 71, and a pentyl cation weighs 71, not 57. Choice D is internally inconsistent, since losing 43 from 86 leaves 43, not 57.",
+   "reason": "Rewritten for the clarified stem, and to fix two errors: the worked compound was named as 3-hexanone, which has a molecular weight of 100 rather than 86 (3-pentanone is the compound that fits), and the critique of choice A was a self-correcting aside that conceded the distractor's arithmetic without resolving it."
+  },
+  {
+   "field": "questions.734.question_text",
+   "old": "The compound shows no IR absorption above 3000 cm-1 and a series of absorptions near 1500 and 1600 cm-1.",
+   "new": "The compound shows C–H stretching just above 3000 cm-1, no broad absorption above 3200 cm-1, and a series of absorptions near 1500 and 1600 cm-1.",
+   "reason": "As written the stem excluded the keyed answer: benzene's aromatic C–H stretch sits at about 3030 cm⁻¹, which is above 3000. The intent — rule out O–H and N–H — is served by 3200 cm⁻¹, and the aromatic C–H stretch is now stated positively, which is the clue that points to benzene rather than cyclohexane."
+  },
+  {
+   "field": "questions.735.explanation",
+   "old": "Pentan-2-one (CH3COCH2CH2CH3) cleaves to give CH3CO+ at m/z = 43 and C3H7+ at m/z = 57.",
+   "new": "Pentan-2-one (CH3COCH2CH2CH3) cleaves on either side of the carbonyl: losing the propyl group gives CH3CO+ at m/z = 43, and losing the methyl gives C3H7CO+ at m/z = 71.",
+   "reason": "A propyl cation weighs 43, not 57. The complementary acylium ion from losing the methyl group is C3H7CO+ at m/z 71, which is also the peak choice A refers to, so the corrected numbers now let a student check both distractors."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- *Carbon dioxide (C=O=C, cumulated double bonds)*: also appear in this region.",
+   "new": "- *Cumulated double bonds*: carbon dioxide itself (O=C=O) absorbs near 2350 cm⁻¹, and allenes, ketenes and isocyanates fall just below the nitrile window.",
+   "reason": "Carbon dioxide is O=C=O, not C=O=C — the carbon is central. The entry also gave no wavenumber, which is the one thing it needed to be useful in a list organised by position."
+  },
+  {
+   "field": "lesson.content",
+   "old": "a hydrogen on the carbon three bonds away from the carbonyl oxygen",
+   "new": "a hydrogen on the third carbon along the chain from the carbonyl carbon — the alpha, beta, then gamma position",
+   "reason": "Counting from the oxygen gives the wrong atom: the gamma carbon is three carbons from the carbonyl carbon, which is four bonds from the oxygen. Counting positions by Greek letter is how the six-membered transition state is identified."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Infrared Spectroscopy Absorption Table — Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Ancillary_Materials/Reference/Reference_Tables/Spectroscopic_Reference_Tables/Infrared_Spectroscopy_Absorption_Table"
+  },
+  {
+   "title": "McLafferty rearrangement — Wikipedia (gamma-hydrogen transfer through a six-membered transition state)",
+   "url": "https://en.wikipedia.org/wiki/McLafferty_rearrangement"
+  }
+ ],
+ "visual": {
+  "title": "Reading an IR spectrum: five places to look, in order",
+  "src": "/lesson-diagrams/ir-band-map.svg",
+  "width": 900,
+  "height": 640,
+  "alt": "An infrared wavenumber axis running from 4000 down to 400 inverse centimetres with the diagnostic regions marked as blocks: O–H and N–H stretches from 3200 to 3600, the carboxylic acid O–H smear from 2500 to 3300, C–H stretches around 3000 with sp3 below and sp2 above, the triple-bond window from 2100 to 2260 for alkynes and nitriles, the carbonyl window from 1650 to 1850, and the fingerprint region below 1500. A lower panel orders the carbonyl types within that window from acid chloride at 1800 to 1850 down to amide at 1630 to 1690, and lists the diagnostic mass-spectrometry fragments alongside the chlorine and bromine isotope ratios.",
+  "caption": "Work left to right: O–H and N–H first, then C–H either side of 3000, then the triple-bond window, then the carbonyl. Everything below 1500 is for matching against a reference, not for reading.",
+  "beforeHeading": "## Practical IR Interpretation Strategy"
+ }
+}
