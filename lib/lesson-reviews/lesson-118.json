@@ -1,0 +1,64 @@
+{
+ "lessonId": 118,
+ "reviewedAt": "2026-11-11",
+ "questionIds": [
+  586,
+  587,
+  588,
+  589,
+  590
+ ],
+ "fingerprint": "21fa7be71aa5afc4d5270fa5acdaf514ab27d41a75f13fccc77412977066ccac",
+ "patches": [
+  {
+   "target": "lesson.content",
+   "old": "The large negative ΔG has both enthalpic and entropic contributions: breaking the phosphoanhydride bond releases resonance stabilization energy, and the products have more translational freedom (two particles from one) and are better solvated.",
+   "new": "The large negative ΔG has both enthalpic and entropic contributions, and it is worth stating them in the right direction. The *products* are more resonance-stabilized than ATP: free inorganic phosphate spreads its charge over four equivalent oxygens, which the phosphoanhydride linkage prevents. Electrostatic repulsion among ATP's own closely spaced negative charges is relieved on hydrolysis. And entropically, one molecule becomes two, so the products have more translational freedom and are better solvated.",
+   "reason": "\"Breaking the phosphoanhydride bond releases resonance stabilization energy\" states the thermodynamics backwards. Breaking a bond never releases stabilization energy; what favours hydrolysis is that the products are *more* resonance-stabilized than the reactant, together with relief of charge repulsion in ATP. As written the sentence would teach a student that bond cleavage is itself a source of stabilization, which is the single most common misconception about the so-called high-energy phosphate bond."
+  },
+  {
+   "target": "lesson.content",
+   "old": "- **ΔH < 0, ΔS > 0:** ΔG is always negative. Spontaneous at all temperatures. (Example: combustion reactions)",
+   "new": "- **ΔH < 0, ΔS > 0:** ΔG is always negative. Spontaneous at all temperatures. (Example: decomposition of hydrogen peroxide, 2H₂O₂(l) → 2H₂O(l) + O₂(g) — exothermic, and a gas appears where there was none. Note that combustion is *not* a safe example here: burning methane to CO₂ and liquid water has ΔS° ≈ −242 J/mol·K, because three moles of gas become one plus a liquid. Combustion is spontaneous because ΔH is enormously negative, not because entropy helps.)",
+   "reason": "Combustion was given as the example of the always-spontaneous quadrant, but most combustions do not belong in it. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l) has ΔS° ≈ −242 J/mol·K; even with gaseous water it is roughly zero. Replaced with a reaction that really does have ΔH < 0 and ΔS > 0, and the counterexample is kept because \"combustion must increase entropy\" is a widespread and testable misconception."
+  },
+  {
+   "target": "lesson.content",
+   "old": "Liquid crystals can have lower entropy than some isotropic liquids despite appearing more \"disordered\" to the eye.",
+   "new": "A sharper example: dissolving MgSO₄ destroys a crystal lattice, which looks like a large increase in disorder — yet ΔS is *negative*, because each small, doubly charged ion locks a shell of water molecules into place around it, and that ordering of the solvent outweighs the disordering of the solid.",
+   "reason": "The liquid crystal example had the comparison backwards. A liquid-crystalline phase is more ordered than the isotropic liquid of the same substance, both thermodynamically and to the eye — it is birefringent and visibly textured — so it does not illustrate the point that visual disorder can mislead. Replaced with a case that does: the dissolution of a small, highly charged salt, where the obvious disordering of the lattice is outweighed by the hidden ordering of the hydration shells. That example is also used elsewhere in this lesson, so the two now reinforce each other."
+  },
+  {
+   "target": "lesson.content",
+   "old": "**Standard molar entropies are always positive.** Since entropy is zero at 0 K and increases as temperature rises (adding thermal energy always increases the number of accessible microstates), S° values at 298 K are always greater than zero.",
+   "new": "**Standard molar entropies of pure substances are always positive.** Since entropy is zero at 0 K and increases as temperature rises (adding thermal energy always increases the number of accessible microstates), S° values at 298 K are always greater than zero. One exception to watch for in tables: the standard entropies of *aqueous ions* are conventional values, measured relative to H⁺(aq) being assigned zero, and some of them come out negative — OH⁻(aq) is about −11 and Mg²⁺(aq) about −138 J·mol⁻¹·K⁻¹. That is not a violation of the Third Law; it means those ions order the surrounding water more than H⁺ does.",
+   "reason": "Stated without qualification, this is false for the aqueous ions that appear in the same tables students are told to use: OH⁻(aq) has S° = −10.8 and Mg²⁺(aq) about −138 J·mol⁻¹·K⁻¹, because ionic entropies are reported on a scale that sets H⁺(aq) to zero. A student who takes the rule literally would conclude a table was misprinted. The exception and its reason are now given."
+  }
+ ],
+ "sources": [
+  {
+   "label": "CRC Handbook of Chemistry and Physics — standard molar entropies",
+   "url": "https://hbcp.chemnetbase.com/",
+   "note": "S° at 298 K, J/(mol·K): CH₄(g) 186.3, O₂(g) 205.2, CO₂(g) 213.8, H₂O(l) 69.9, H₂O(g) 188.8 — giving ΔS° ≈ −242 J/(mol·K) for methane combustion to liquid water. Aqueous ions are tabulated on the convention S°(H⁺, aq) = 0, which makes OH⁻(aq) −10.8 and Mg²⁺(aq) −138.1."
+  },
+  {
+   "label": "Berg, Tymoczko & Stryer, Biochemistry — the free energy of ATP hydrolysis",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK22432/",
+   "note": "Hydrolysis is favoured because the products are more resonance-stabilised than ATP, because electrostatic repulsion between ATP's negative charges is relieved, and because the products are more favourably solvated — not because bond cleavage itself liberates stabilisation energy."
+  },
+  {
+   "label": "Lambert, F. L., \"Disorder — A Cracked Crutch for Supporting Entropy Discussions\", J. Chem. Educ.",
+   "url": "https://pubs.acs.org/doi/10.1021/ed079p187",
+   "note": "Argues that visual \"disorder\" is an unreliable guide to entropy, and that energy dispersal over accessible microstates is the sounder picture — the basis for replacing the liquid crystal illustration with the hydration-shell case."
+  }
+ ],
+ "visual": {
+  "title": "Entropy from three angles",
+  "src": "/lesson-diagrams/entropy-three-views.svg",
+  "width": 1180,
+  "height": 806,
+  "alt": "Three linked panels. The first shows the statistical picture: four particles distributed between two halves of a box, with the number of microstates for each split (1, 4, 6, 4, 1) drawn as a histogram peaking at the even distribution, and Boltzmann's S = k ln W beneath. The second shows the thermodynamic picture, delta S = q_rev over T, with the same heat producing a larger entropy change at low temperature than at high. The third lists the heuristics for predicting the sign of delta S. A footer gives the four combinations of delta H and delta S signs with the temperature behaviour of each and the crossover temperature.",
+  "caption": "The histogram is the whole Second Law in miniature: nothing pushes the particles apart, there are simply far more ways to be spread out than to be bunched up — and with Avogadro's number of particles, 'far more' becomes 'always'.",
+  "beforeHeading": "## Boltzmann's Statistical Interpretation"
+ }
+}
