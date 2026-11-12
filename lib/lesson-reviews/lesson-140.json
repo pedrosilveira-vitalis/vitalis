@@ -1,0 +1,51 @@
+{
+ "lessonId": 140,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  696,
+  697,
+  698,
+  699,
+  700
+ ],
+ "fingerprint": "4f531eecd05edcec93966e5ae4fc5c165c9c6c8fbe1314fc5b1623906128794c",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "the antiperiplanar elimination of the axially oriented H (or D) and Br gives a specific E or Z alkene depending on the exact configuration",
+   "new": "only the conformer that places a β-hydrogen (or the deuterium) antiperiplanar to the Br can react, and which of the two is removed fixes whether the product is the E or the Z alkene",
+   "reason": "The substrate is acyclic, so there are no axial positions; the conformational requirement is antiperiplanar alignment reached by rotation about the C2–C3 bond. Calling the hydrogen 'axially oriented' imports chair vocabulary into an open-chain molecule and obscures the actual rule."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Elimination reactions have higher activation energies and produce gaseous or volatile alkene products, giving them a favorable entropy of activation (ΔS‡ > 0 relative to substitution).",
+   "new": "Elimination reactions have higher activation energies, and they turn two species into three — alkene, protonated base, and leaving group — where substitution turns two into two, so elimination has the more positive entropy change.",
+   "reason": "The entropy advantage of elimination comes from the increase in the number of particles, not from the alkene being volatile; a product's boiling point has no bearing on the entropy of activation. As written the lesson gave a reason a student could not apply to any reaction run in solution."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Two sets of β-hydrogens are available: the three equivalent hydrogens on C1 (–CH₃), and the two hydrogens on C3 (–CH₂–).",
+   "new": "- Two kinds of β-hydrogen are available: six equivalent methyl hydrogens (three on C1 and three on the 2-methyl group, which lead to the same alkene), and the two hydrogens on C3 (–CH₂–).",
+   "reason": "The count left out the 2-methyl group's three β-hydrogens. The six-to-two ratio is part of why a bulky base swings the product to the Hofmann alkene, so the omission weakens the worked example it belongs to."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Elimination reactions 8.05 — Organic Chemistry I (Walker), Chemistry LibreTexts: heat favours elimination because two molecules become three",
+   "url": "https://chem.libretexts.org/Courses/SUNY_Potsdam/Book%3A_Organic_Chemistry_I_(Walker)/08%3A_NUCLEOPHILIC_SUBSTITUTIONS_AND_ELIMINATIONS/8.05%3A_Elimination_reactions"
+  },
+  {
+   "title": "8.5 Elimination reactions — SUNY Potsdam Organic Chemistry (Lumen Learning)",
+   "url": "https://courses.lumenlearning.com/suny-potsdam-organicchemistry/chapter/8-5-elimination-reactions/"
+  }
+ ],
+ "visual": {
+  "title": "E2 needs the β-H and the leaving group antiperiplanar",
+  "src": "/lesson-diagrams/e2-antiperiplanar.svg",
+  "width": 900,
+  "height": 660,
+  "alt": "Two Newman projections compared. On the left the beta hydrogen on the front carbon and the leaving group on the back carbon are 180 degrees apart, antiperiplanar, and E2 proceeds. On the right they are 60 degrees apart, gauche, and no E2 occurs from that rotamer. A panel below shows a cyclohexane chair in which the leaving group is axial on one carbon and the beta hydrogen is axial on the adjacent carbon, the only pair of ring bonds that can be 180 degrees apart.",
+  "caption": "Rotation can always reach the 180° arrangement in an open chain. On a ring it cannot: only adjacent axial bonds are antiperiplanar, so the leaving group has to be axial.",
+  "beforeHeading": "### The Antiperiplanar Requirement"
+ }
+}
