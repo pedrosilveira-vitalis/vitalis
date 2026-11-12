@@ -1,0 +1,59 @@
+{
+ "lessonId": 151,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  751,
+  752,
+  753,
+  754,
+  755
+ ],
+ "fingerprint": "a29cb02f5bbd0bd92645f22834c57b9d22f87ef7572c60bf61a1da86a3432959",
+ "patches": [
+  {
+   "field": "questions.754.question_text",
+   "old": "Under standard conditions, which of the following reactions is spontaneous based on standard reduction potentials? (E°: Fe3+/Fe2+ = +0.77 V; I2/I- = +0.54 V; Ag+/Ag = +0.80 V; Sn4+/Sn2+ = +0.15 V)",
+   "new": "Under standard conditions, which of the following reactions is NOT spontaneous based on standard reduction potentials? (E°: Fe3+/Fe2+ = +0.77 V; I2/I- = +0.54 V; Ag+/Ag = +0.80 V; Sn4+/Sn2+ = +0.15 V)",
+   "reason": "As written the item had three correct answers. I⁻ reducing Fe³⁺ gives +0.23 V, Fe²⁺ reducing Ag⁺ gives +0.03 V, and Sn²⁺ reducing I₂ gives +0.39 V — all spontaneous. Only Fe²⁺ reducing I₂ is not, at −0.23 V. Asking which is NOT spontaneous makes exactly one choice correct and keeps all four worth evaluating."
+  },
+  {
+   "field": "questions.754.correct_answer",
+   "old": "A",
+   "new": "D",
+   "reason": "With the stem asking which reaction is not spontaneous, the answer is D: Fe²⁺ reducing I₂ requires I₂/I⁻ (+0.54 V) as the cathode against Fe³⁺/Fe²⁺ (+0.77 V) as the anode, giving E°cell = −0.23 V."
+  },
+  {
+   "field": "questions.754.explanation",
+   "old": "For spontaneity, E°cell = E°cathode - E°anode must be positive. In choice A, Fe3+ is reduced (cathode, +0.77 V) and I- is oxidized (anode, +0.54 V), giving E°cell = 0.77 - 0.54 = +0.23 V, which is positive and therefore spontaneous. Choice B gives 0.80 - 0.77 = +0.03 V for Ag+ reduction, but Fe2+ oxidation is the anode; this is actually spontaneous too, but choice A is the primary correct answer. Wait, re-evaluating: choice B: E°cell = E°(Ag+/Ag) - E°(Fe3+/Fe2+) = 0.80 - 0.77 = +0.03 V, which is also spontaneous. However, choice A yields a clearly positive E°cell and is the best supported answer. Choices C and D both yield negative E°cell values, confirming nonspontaneity.",
+   "new": "Work out E°cell = E°cathode − E°anode for each, remembering that the species being reduced is the cathode. Choice A: Fe3+ reduced (+0.77) against I- oxidised (+0.54) gives +0.23 V, spontaneous. Choice B: Ag+ reduced (+0.80) against Fe2+ oxidised (+0.77) gives +0.03 V, spontaneous but only just. Choice C: I2 reduced (+0.54) against Sn2+ oxidised (+0.15) gives +0.39 V, spontaneous. Choice D: I2 reduced (+0.54) against Fe2+ oxidised (+0.77) gives −0.23 V, so this one is not spontaneous — which makes sense, since it is simply the reverse of choice A. A reaction and its reverse cannot both be spontaneous, and spotting that pairing answers the question without any arithmetic.",
+   "reason": "Rewritten for the corrected stem. The old explanation worked out that choice B was also spontaneous, said so in the published text (“Wait, re-evaluating…”), and then asserted that choices C and D both give negative potentials, which is wrong for C at +0.39 V."
+  },
+  {
+   "field": "lesson.content",
+   "old": "But Cu has a *higher* E° than Zn²⁺/Zn, meaning Cu is a better oxidizing agent than Zn²⁺.",
+   "new": "But the Cu²⁺/Cu couple has a *higher* E° than Zn²⁺/Zn, meaning Cu²⁺ is the better oxidizing agent and copper metal the weaker reducing agent.",
+   "reason": "Copper metal is not an oxidizing agent; the oxidizing agent in that couple is Cu²⁺. Potentials belong to couples rather than to single species, and this sentence is the one place in the lesson where the distinction decides the answer."
+  },
+  {
+   "field": "lesson.content",
+   "old": "For n = 2, double the n in the denominator, so the same E°cell gives log K = n × E°cell / 0.0592.",
+   "new": "Rearranged, log K = n × E°cell / 0.0592, so for n = 2 the same cell potential corresponds to a K that is squared relative to the n = 1 case.",
+   "reason": "“Double the n in the denominator” is not an instruction a reader can carry out: n is the denominator, and it is set by the reaction, not doubled by the reader. The rearranged formula says what was meant."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Standard Reduction Potentials and spontaneity — Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Redox_Chemistry/Standard_Reduction_Potential"
+  }
+ ],
+ "visual": {
+  "title": "E°cell, ΔG° and K are one fact in three languages",
+  "src": "/lesson-diagrams/emf-gibbs-k-triangle.svg",
+  "width": 900,
+  "height": 620,
+  "alt": "A triangle linking standard cell potential, standard free energy change and the equilibrium constant. The edge between potential and free energy is labelled delta G equals minus nFE cell; the edge between free energy and K is labelled delta G equals minus RT ln K; the edge between potential and K is labelled E cell equals 0.0592 over n times log K. A table below lines up the three quantities: potential above zero with free energy below zero and K above one means spontaneous as written; all three at their neutral values means equilibrium; potential below zero with free energy above zero and K below one means the reverse is spontaneous. A closing note records that cell potential is intensive while free energy is extensive and scales with n.",
+  "caption": "Any one of the three fixes the other two. The only thing that trips people is the minus sign in ΔG° = −nFE°cell, which is what flips the direction of every inequality.",
+  "beforeHeading": "## Connecting E°cell to Thermodynamics"
+ }
+}
