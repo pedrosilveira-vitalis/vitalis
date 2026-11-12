@@ -1,0 +1,63 @@
+{
+ "lessonId": 128,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  636,
+  637,
+  638,
+  639,
+  640
+ ],
+ "fingerprint": "d09e9d9ed803f172e2b0a0b779476bc509101ba084839b12ed8355da0f10c19e",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "The rule of thumb for alcohols: if the carbon chain is four carbons or fewer, the compound is miscible with water.",
+   "new": "The rule of thumb for alcohols: straight-chain alcohols are *miscible* with water up to three carbons (methanol, ethanol, 1-propanol). At four the chain wins — 1-butanol is soluble but not miscible, about 9 g per 100 g of water — and solubility keeps falling after that (1-hexanol ≈ 0.6 g, 1-octanol ≈ 0.05 g). Branching buys some back: *tert*-butanol, same formula as 1-butanol, is miscible.",
+   "reason": "1-Butanol is not miscible with water; it dissolves to about 9 g per 100 g and then separates into two layers. The miscibility cutoff for straight-chain alcohols is three carbons. The rule as printed would have a student call a two-phase mixture a solution, and it also buries the branching comparison this lesson makes two sections later — tert-butanol is miscible while its straight-chain isomer is not, which is the cleanest demonstration that surface area, not formula, sets water solubility."
+  },
+  {
+   "field": "lesson.content",
+   "old": "For example, aspirin (acetylsalicylic acid, pKa ≈ 3.5) is predominantly neutral in the stomach (pH ≈ 1.5–2) and largely unionized, allowing it to partition into the gastric mucosa. In the small intestine (pH ≈ 6–7), it becomes ionized and more water-soluble, facilitating absorption into the bloodstream.",
+   "new": "For example, aspirin (acetylsalicylic acid, pKa ≈ 3.5) is largely un-ionized in the stomach (pH ≈ 1.5–2), and it is that neutral form that crosses the gastric mucosa. In the small intestine (pH ≈ 6–7) it is almost entirely ionized, which makes it far more water-soluble but *less* able to cross a membrane — the charged form is trapped on whichever side it is on. Keep the two apart: ionising a drug raises its solubility and lowers its permeability. (Most aspirin is still absorbed in the small intestine, because its enormous surface area outweighs the lower fraction crossing per unit area — a reminder that the pH-partition rule governs permeability, not total absorption.)",
+   "reason": "The passage had ionisation *facilitating* absorption, which inverts the pH-partition principle the paragraph exists to teach: the neutral form crosses membranes and the ionised form is trapped. The sentence immediately before it states the rule correctly, so the example contradicted its own setup. The parenthetical keeps the clinically true fact — intestinal absorption dominates — without letting it be mistaken for the mechanism."
+  },
+  {
+   "field": "lesson.content",
+   "old": "CO₂ has a much higher k_H than O₂ or N₂ because CO₂ reacts chemically with water to form carbonic acid (CO₂ + H₂O ⇌ H₂CO₃), effectively removing dissolved CO₂ from solution and allowing more to dissolve. This chemical reaction makes CO₂ behave as though it has higher \"physical\" solubility.",
+   "new": "CO₂ has a much higher k_H than O₂ or N₂ for *physical* reasons: it is larger and far more polarisable, and its quadrupole interacts with water's dipoles much more favourably than the near-inert O₂ and N₂ molecules can. The reaction with water contributes almost nothing — the hydration equilibrium [H₂CO₃]/[CO₂(aq)] is only about 1.7 × 10⁻³ at 25 °C, so barely 0.2% of dissolved CO₂ is ever present as carbonic acid. What *does* pull far more CO₂ into blood is the onward conversion to bicarbonate, catalysed by carbonic anhydrase and driven by buffering of the released H⁺ — but that is a reaction of the dissolved gas, not a correction to its Henry's law constant.",
+   "reason": "Only about 0.2% of dissolved CO₂ is hydrated to carbonic acid, so that reaction cannot explain a Henry's law constant twenty-six times that of oxygen. The reason is physical — polarisability and the CO₂ quadrupole against water's dipole. The distinction matters because the lesson later uses CO₂ transport in blood as an example: there the extra carriage really is chemical, but it runs through bicarbonate and carbonic anhydrase, not through H₂CO₃ raising k_H."
+  },
+  {
+   "field": "lesson.content",
+   "old": "At very high pressures or concentrations, deviations from Henry's Law become significant. CO₂ in water is a borderline case because of the chemical reaction with water, but Henry's Law is still applied to the physical dissolution step.",
+   "new": "At very high pressures or concentrations, deviations from Henry's Law become significant. CO₂ in water is still well described by Henry's law for the dissolution step itself, since so little of the dissolved gas is hydrated; the case where the law genuinely needs amending is a gas whose reaction with the solvent consumes a large fraction of what dissolves — ammonia, or CO₂ in an alkaline solution, where bicarbonate and carbonate formation removes it in earnest.",
+   "reason": "Second statement of the same error — CO₂ described as a borderline case for Henry's law because of a reaction that consumes 0.2% of what dissolves. Replaced with a case where the caveat is real, so the limitation is still taught but with an example that earns it."
+  }
+ ],
+ "sources": [
+  {
+   "title": "JoVE Core Organic Chemistry — 10.2 Physical properties of alcohols and phenols",
+   "url": "https://www.jove.com/science-education/11921/physical-properties-and-uses-of-alcohols-and-phenols",
+   "note": "Alcohols with an alkyl region of up to three carbon atoms are miscible with water. 1-Butanol dissolves to 9.1 g per 100 g of water and tert-butanol, the same molecular formula, is miscible; 1-hexanol falls to 0.6 g per 100 g. Branching reduces the nonpolar surface area and so raises water solubility."
+  },
+  {
+   "title": "Frostburg State University general chemistry FAQ — How does H₂CO₃ form when CO₂ dissolves in water?",
+   "url": "https://antoine.frostburg.edu/chem/senese/101/inorganic/faq/h2co3-formation.shtml",
+   "note": "The equilibrium constant for CO₂(aq) + H₂O ⇌ H₂CO₃ is about 1.6 × 10⁻³ near room temperature, so only about 0.16% of dissolved CO₂ is present as carbonic acid; most of it remains hydrated CO₂. The commonly quoted value of the hydration constant is 1.7 × 10⁻³ at 25 °C in pure water."
+  },
+  {
+   "title": "Soli & Byrne, \"CO₂ system hydration and dehydration kinetics and the equilibrium CO₂/H₂CO₃ ratio in aqueous NaCl solution\", Marine Chemistry 78:65–73 (2002)",
+   "url": "https://doi.org/10.1016/S0304-4203(02)00010-5",
+   "note": "Measured equilibrium ratio of dissolved CO₂ to carbonic acid in aqueous solution, the basis for the ~1.7 × 10⁻³ hydration constant in pure water and ~1.2 × 10⁻³ in seawater."
+  }
+ ],
+ "visual": {
+  "title": "Why anything dissolves",
+  "src": "/lesson-diagrams/dissolution-energetics.svg",
+  "width": 1180,
+  "height": 940,
+  "alt": "An enthalpy ladder for sodium chloride dissolving in water: from solid plus water at zero, separating the lattice into gaseous ions costs plus 788 kilojoules per mole, and hydrating those ions releases 784, landing at plus 4 — a slightly endothermic net, with the note that sodium chloride dissolves anyway because the entropy term carries it, and that tabulated hydration enthalpies already include the cost of opening a cavity in the solvent. Beside it, three salts under the same picture: lithium chloride at about minus 37 kilojoules per mole, exothermic and very soluble; sodium chloride at plus 4, a near tie carried by entropy; silver chloride at plus 65, lattice-dominated and insoluble. A panel ranks what a solvent can offer a solute, strongest first: ion-dipole, hydrogen bonding, dipole-dipole, then London dispersion. A Henry's law panel gives C equals the Henry constant times partial pressure, with constants in water at 25 degrees of 3.4 times ten to the minus two for carbon dioxide, 1.3 times ten to the minus three for oxygen, 6.1 times ten to the minus four for nitrogen and 3.7 times ten to the minus four for helium, and notes that raising partial pressure raises dissolved concentration proportionally while raising temperature lowers it, since dissolving a gas is exothermic. A solubility-product panel gives molar solubility as the square root of Ksp for a one-to-one salt and the cube root of Ksp over four for a one-to-two salt, works barium sulfate at about ten to the minus five molar in pure water against ten to the minus nine in 0.10 molar sulfate, and states the Q against Ksp test. A footer notes that the hydrophobic effect is entropic, and that ionising a weak acid or base raises water solubility while the neutral form is the one that crosses membranes.",
+  "caption": "Break the lattice, then hydrate the pieces. For NaCl the second step repays 784 of the 788 — and entropy covers the last four."
+ }
+}
