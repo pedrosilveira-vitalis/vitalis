@@ -1,0 +1,88 @@
+{
+ "lessonId": 133,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  661,
+  662,
+  663,
+  664,
+  665
+ ],
+ "fingerprint": "1500e93475f006e90360cea77c24fe85811809fd959f6846e5c5c0a985bc429e",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **pKa values to know:** acetic acid 4.75, carbonic acid 6.1/10.3, phosphoric acid 2.1/7.2/12.3, ammonium 9.25, water 15.7 (as acid)",
+   "new": "- **pKa values to know:** acetic acid 4.75, carbonic acid 6.1/10.3, phosphoric acid 2.1/7.2/12.3, ammonium 9.25, water 14 (water as the solvent being deprotonated — the convention that makes Kₐ × K_b = K_w work, and the one used everywhere else in this lesson; 15.7 is the organic-chemistry convention, which treats water as a 55.5 M solute)",
+   "reason": "This list sits in a lesson whose worked examples repeatedly use K_w = 10⁻¹⁴ — the acetic acid / ammonia combination is computed as Kₐ·K_b/K_w — and that arithmetic only holds on the pKa = 14 convention. Quoting 15.7 here contradicts both this lesson's own calculations and the acid-base lesson earlier in the course, where the two conventions are set out and the 55-fold error from mixing them is the point."
+  },
+  {
+   "field": "questions.663.question_text",
+   "old": "For the overall reaction: CaCO3(s) + H2SO4(aq) -> CaSO4(s) + H2O(l) + CO2(g), which combination of simpler equilibria, when added together, gives the correct overall equilibrium constant expression?",
+   "new": "Limestone dissolves in acid by the overall reaction CaCO3(s) + 2 H+(aq) <-> Ca2+(aq) + CO2(aq) + H2O(l). Using the solubility product of CaCO3 and the two acid dissociation constants of carbonic acid (Ka1 defined over dissolved CO2, Ka2 for bicarbonate), which expression gives the overall equilibrium constant?",
+   "reason": "The original reaction could not be decomposed into the constants the choices offered. It was written with H2SO4, whose first ionisation is complete so has no finite Ka to multiply in, and with CaSO4 precipitating, which brings in a second solubility product that none of the sensible routes need. Replaced with the reaction the lesson itself works two sections earlier — carbonate dissolving in acid — which decomposes cleanly into Ksp and the two carbonic-acid constants."
+  },
+  {
+   "field": "questions.663.choice_a",
+   "old": "Koverall = Ksp(CaCO3) x Ka1(H2SO4) x 1/Ksp(CaSO4)",
+   "new": "K = Ksp x Ka1 x Ka2",
+   "reason": "Rewritten for the corrected stem: this is the error of multiplying by the acid constants instead of dividing, i.e. adding the dissociation reactions in the forward direction rather than reversing them."
+  },
+  {
+   "field": "questions.663.choice_b",
+   "old": "Koverall = Ksp(CaCO3) x Ka1(H2SO4) x Ka2(H2SO4) x Kf(H2CO3) x 1/Ksp(CaSO4)",
+   "new": "K = Ksp / (Ka1 x Ka2)",
+   "reason": "The correct expression, and the keyed letter is unchanged. The net reaction is the sum of CaCO3(s) <-> Ca2+ + CO3^2- (Ksp), CO3^2- + H+ <-> HCO3- (1/Ka2) and HCO3- + H+ <-> CO2 + H2O (1/Ka1), so the constants multiply to Ksp/(Ka1·Ka2). With Ksp = 3.4e-9, Ka1 = 4.3e-7 and Ka2 = 4.7e-11 this is about 1.7e8, which is why limestone and antacid tablets dissolve readily in acid."
+  },
+  {
+   "field": "questions.663.choice_c",
+   "old": "Koverall = Ksp(CaCO3) / (Ka1(H2SO4) x Ksp(CaSO4))",
+   "new": "K = Ksp x Ka2 / Ka1",
+   "reason": "Rewritten for the corrected stem: this reverses only one of the two protonation steps, a common slip when a polyprotic anion has to be protonated twice."
+  },
+  {
+   "field": "questions.663.choice_d",
+   "old": "Koverall = Ksp(CaCO3) x 1/Ksp(CaSO4) x 1/Ka(HCO3-)",
+   "new": "K = Ksp / Ka2",
+   "reason": "Rewritten for the corrected stem: this stops at bicarbonate instead of carrying on to dissolved CO2, which is the species the balanced overall reaction actually produces."
+  },
+  {
+   "field": "questions.663.explanation",
+   "old": "The overall reaction can be broken into: (1) dissolution of CaCO3 with Ksp(CaCO3), (2) dissociation of H2SO4 in two steps with Ka1 and Ka2, (3) formation of H2CO3 from Ca2+ and CO3^2- coupling with Kf, and (4) precipitation of CaSO4 with 1/Ksp(CaSO4). When equilibria are added, their K values are multiplied. Choice A is tempting but omits Ka2 for H2SO4 and the carbonate protonation steps, which are necessary to account for the full conversion of CO3^2- to CO2 and H2O. The multi-step nature of H2SO4 dissociation and carbonate speciation must be included.",
+   "new": "Break the overall reaction into steps whose constants you know, then multiply. (1) CaCO3(s) <-> Ca2+ + CO3^2-, which is Ksp. (2) CO3^2- + H+ <-> HCO3-: this is the reverse of the second ionisation of carbonic acid, so it contributes 1/Ka2. (3) HCO3- + H+ <-> CO2(aq) + H2O: the reverse of the first ionisation, contributing 1/Ka1. Adding the three gives the overall reaction, so the constants multiply: K = Ksp x (1/Ka2) x (1/Ka1) = Ksp/(Ka1 x Ka2). Numerically, 3.4e-9 / (4.3e-7 x 4.7e-11) is about 1.7e8 -- enormous, which is why a salt with a Ksp of 1e-9 dissolves completely in stomach acid. Choice A multiplies by the acid constants instead of dividing, which is what you get if you add the dissociation reactions forwards instead of reversing them. Choice C reverses only one of the two protonation steps. Choice D stops at bicarbonate rather than going on to dissolved CO2.",
+   "reason": "The original explanation was chemically wrong in its central step, describing \"formation of H2CO3 from Ca2+ and CO3^2-\", which is not a reaction, and it invoked ionisation constants of sulfuric acid for a conversion that involves carbonic acid. Rewritten to the actual decomposition, with the arithmetic carried through so the student can see why the net constant is enormous."
+  },
+  {
+   "field": "questions.664.question_text",
+   "old": "Ksp of its hydroxide M(OH)2 equal to 1 x 10^-15",
+   "new": "Ksp of its hydroxide M(OH)2 equal to 1 x 10^-17",
+   "reason": "With Ksp = 1e-15 the ion product without any EDTA is 0.05 x (1e-7)^2 = 5e-16, already below Ksp, so nothing would precipitate whether or not EDTA were present — the keyed answer's stated reason does no work, and the original explanation says so outright. Lowering Ksp to 1e-17 makes the uncomplexed solution genuinely supersaturated (5e-16 > 1e-17), so the chelation is what prevents precipitation and the question tests what it claims to."
+  },
+  {
+   "field": "questions.664.explanation",
+   "old": "At pH 7, [OH-] = 10^-7 M. Without EDTA, [M2+][OH-]^2 = 0.05 x (10^-7)^2 = 5 x 10^-16, which is less than Ksp = 10^-15, so no precipitation occurs even without EDTA. However, the key concept is that EDTA with Kf = 10^18 sequesters virtually all M2+, reducing free [M2+] to negligible levels, making precipitation even less likely.",
+   "new": "At pH 7, [OH-] = 10^-7 M. Without EDTA the ion product would be [M2+][OH-]^2 = 0.05 x (10^-7)^2 = 5 x 10^-16, which exceeds Ksp = 10^-17 by about fiftyfold, so M(OH)2 would precipitate. EDTA changes that: with Kf = 10^18 and excess chelator present, free [M2+] = [MY]/(Kf x [Y]) is of order 0.05/(10^18 x 0.05) = 10^-18 M, so the ion product falls to roughly 10^-32 -- fifteen orders of magnitude below Ksp. The metal is still in solution; it is simply almost all bound. This is why EDTA is used clinically in heavy-metal poisoning and industrially to keep metal ions from precipitating.",
+   "reason": "Rewritten for the corrected Ksp so that the arithmetic now supports the keyed answer rather than undermining it, and extended to show the free-metal calculation, which is the step the question is really about."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Chemistry LibreTexts (OpenStax Chemistry 2e) — 14.5 Polyprotic Acids",
+   "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/14%3A_Acid-Base_Equilibria/14.05%3A_Polyprotic_Acids",
+   "note": "Carbonic acid ionises in two steps with Ka1 = 4.3 × 10⁻⁷ and Ka2 = 4.7 × 10⁻¹¹; sulfuric acid's first ionisation is complete (Ka1 > 10²) with only the second, Ka2 = 1.2 × 10⁻², finite — which is why a sulfuric-acid Ka1 cannot appear as a factor in a combined equilibrium constant."
+  },
+  {
+   "title": "Chemistry LibreTexts (OpenStax Chemistry 2e) — 13.2 Equilibrium Constants",
+   "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/13%3A_Fundamental_Equilibrium_Concepts/13.02%3A_Equilibrium_Constants",
+   "note": "When chemical equations are added, their equilibrium constants multiply; reversing an equation inverts its constant and multiplying an equation through by n raises the constant to the nth power."
+  }
+ ],
+ "visual": {
+  "title": "Add the reactions, multiply the constants",
+  "src": "/lesson-diagrams/coupled-equilibria.svg",
+  "width": 1180,
+  "height": 950,
+  "alt": "Three couplings worked as reaction sums. Calcium carbonate in acid: a solubility product of 3.4 times ten to the minus nine multiplied by the reciprocal of carbonic acid's second constant, 2.1 times ten to the tenth, gives a net constant of about 71, product-favoured, which is antacids and acid rain on marble. Silver chloride in ammonia: 1.8 times ten to the minus ten multiplied by a formation constant of 1.7 times ten to the seventh gives 3.1 times ten to the minus three, still below one but ten million times the bare solubility product. Silver chloride in thiosulfate: the same solubility product times a formation constant of 2.9 times ten to the thirteenth gives 5.2 times ten to the third, essentially complete dissolution, the chemistry of photographic fixing. A logarithmic plot shows magnesium hydroxide solubility against pH in buffered solution, falling by two decades per pH unit because solubility is the solubility product over the square of the hydroxide concentration; at pH 9 it is 5.6 times ten to the minus two molar, five hundred times the unbuffered value of 1.1 times ten to the minus four at pH 10.3, which is marked. A panel works selective precipitation from 0.10 molar barium and calcium: barium sulfate begins at 1.1 times ten to the minus nine molar sulfate and calcium sulfate only at 4.9 times ten to the minus four, by which point barium has fallen to 2.2 times ten to the minus seven molar, 99.9998 per cent removed. A footer lists the anions that make a salt more soluble in acid — carbonate, phosphate, hydroxide, sulfide, fluoride, oxalate — against those that do not, noting sulfate as the near-miss since its parent has a pKa near 1.9, and that a formation constant is the reciprocal of a dissociation constant.",
+  "caption": "A tiny Ksp and a huge Kf multiply to something ordinary. That product, not either constant alone, is what decides whether the solid dissolves."
+ }
+}
