@@ -1,0 +1,64 @@
+{
+ "lessonId": 126,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  626,
+  627,
+  628,
+  629,
+  630
+ ],
+ "fingerprint": "5c101a07a09936d30338f16c8c4817b5203e73f88902718088c36f20c74a9c4c",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "This means you can use mass percent or moles directly in buffer problems without converting to molarity — a significant time saver.",
+   "new": "This means you can use **moles** directly in buffer problems without converting to molarity — a significant time saver. It does **not** extend to masses or mass percents: the two species have different molar masses, so a mass ratio is not a mole ratio. A buffer built from acetic acid (60.05 g/mol) and sodium acetate (82.03 g/mol) in equal masses is not a 1:1 buffer — it is 1.37:1 in favour of the acid, which is 0.14 pH units away from pKa. Convert to moles first, then take the ratio.",
+   "reason": "Mass percent cannot be substituted into Henderson–Hasselbalch. The volume cancels in the ratio, which is why moles work, but the molar masses do not cancel — and for the commonest buffer pair on the exam, acetic acid and sodium acetate, they differ by 37%. A student following this shortcut gets the wrong pH on exactly the problems it was offered for."
+  },
+  {
+   "field": "lesson.content",
+   "old": "**Check:** Molarity (4.20 M) and molality (5.43 m) differ significantly because this is a concentrated solution with density appreciably less than 1.00 g/mL. This confirms why dilute-solution approximations (M ≈ m) fail here.",
+   "new": "**Check:** Molarity (4.20 M) and molality (5.43 m) differ by 29%, and the reason is mostly the *solute*, not the density. Molality divides by the solvent alone, and in one litre of this solution the ethanol accounts for 4.20 × 46.07 ≈ 194 g of the 968 g present, leaving only 774 g of water. Even at a density of exactly 1.00 g/mL the two would still differ by 24%. That is the general rule: M and m diverge once the solute carries an appreciable share of the mass, which is what \"concentrated\" means here.",
+   "reason": "The stated cause was the minor one. Working from m = 1000M/(1000d − M·Ms), the denominator loses 194 g to the solute and only 32 g to the sub-unity density; setting d = 1.00 still leaves a 24% gap. Attributing the divergence to density teaches students to expect M ≈ m whenever density is near 1, which is exactly the case the MCAT uses to catch them."
+  },
+  {
+   "field": "questions.629.choice_b",
+   "old": "1.23 M",
+   "new": "1.54 M",
+   "reason": "The explanation names the common error — ignoring the density and assuming 1 g/mL, which gives 1.54 M — but no choice held that value, so the trap the question was built around could not be fallen into or diagnosed. 1.23 M corresponded to no identifiable mistake. Replacing it keeps the choices in ascending order and makes the discrimination the question is testing a real one."
+  },
+  {
+   "field": "questions.629.explanation",
+   "old": "A tempting error is ignoring density and assuming 1 g/mL, which gives about 1.54 M.",
+   "new": "Choice B is what you get by ignoring the density and assuming 1 g/mL: 1000 g × 0.09 = 90 g, and 90 / 58.5 = 1.54 M. The gap between 1.54 and 1.63 is the density, and it is the whole point of the question — a 9% solution is denser than water, so a litre of it holds more grams and therefore more moles.",
+   "reason": "Updated to name the choice that now carries the error, and to say what the difference between the two numbers physically is, since that is the concept being tested rather than the arithmetic."
+  },
+  {
+   "field": "questions.630.explanation",
+   "old": "The best single answer here is mole fraction, as the question asks which would remain unchanged, and while molality is also temperature-independent, mole fraction is the most fundamental ratio-based unit unaffected by thermal expansion.",
+   "new": "Molality is temperature-independent too, for the same reason — it is defined by mass. It is simply not among the choices on its own, and every other option here contains molarity, which does change. So B is the only choice with nothing temperature-dependent in it.",
+   "reason": "The explanation justified the key by calling mole fraction \"the most fundamental ratio-based unit\", which is not a reason and leaves a student who knows molality is also temperature-independent thinking the question is broken. It is not: the other three choices all contain molarity, so B is uniquely correct, and saying so is both true and the actual elimination."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Chemistry 2e — 14.6 Buffers",
+   "url": "https://openstax.org/books/chemistry-2e/pages/14-6-buffers",
+   "note": "The Henderson–Hasselbalch equation pH = pKa + log([A⁻]/[HA]) comes from rearranging the Ka expression, so the ratio is a ratio of molar concentrations; it may be used with other units only as long as consistent units are used in computing the ratio."
+  },
+  {
+   "title": "Chemistry LibreTexts (OpenStax Chemistry 2e) — 14.6 Buffers",
+   "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)/14%3A_Acid-Base_Equilibria/14.06%3A_Buffers",
+   "note": "Henderson–Hasselbalch is a rearrangement of the Ka expression, so [A⁻]/[HA] is a ratio of molar concentrations; because the two species share a volume, the same ratio may be taken in moles, but not in masses."
+  }
+ ],
+ "visual": {
+  "title": "One basis, every concentration unit",
+  "src": "/lesson-diagrams/concentration-unit-map.svg",
+  "width": 1180,
+  "height": 940,
+  "alt": "A conversion chart. Across the top, five concentration units as cards: molarity, moles of solute over litres of solution, temperature dependent, required by equilibrium constants, Beer-Lambert and osmotic pressure; molality, moles of solute over kilograms of solvent, temperature independent, required by boiling point elevation and freezing point depression; mole fraction, moles of one component over total moles, dimensionless, required by Raoult's and Dalton's laws; mass percent, mass of solute over mass of solution; and parts per million, where one part per million in aqueous solution is one milligram per litre. In the middle, the master strategy: take 100 grams of solution when given a mass percent, or 1 litre of solution when given a molarity, then fill in six quantities — mass of solution, mass of solute, mass of solvent, moles of solute, moles of solvent and volume of solution — using density to move between mass and volume and molar mass to move between mass and moles, after which every unit is a ratio of two of those six. A worked panel runs 20 per cent by mass ethanol at density 0.968 grams per millilitre on a 100 gram basis to a molarity of 4.20, a molality of 5.43 and a mole fraction of 0.0891, noting that the two differ by 29 per cent because the solute carries 194 grams of every litre rather than because the density differs from one. A final panel matches each formula to the unit it requires, with Henderson-Hasselbalch marked as needing a mole ratio, since volume cancels but molar masses do not.",
+  "caption": "Density bridges mass and volume; molar mass bridges mass and moles. Fill in six numbers from one basis and every unit is a ratio of two of them."
+ }
+}
