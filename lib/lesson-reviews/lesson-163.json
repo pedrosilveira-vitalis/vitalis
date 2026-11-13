@@ -1,0 +1,63 @@
+{
+ "lessonId": 163,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  811,
+  812,
+  813,
+  814,
+  815
+ ],
+ "fingerprint": "f9963c704f6e41c2540d4348805dae225e803c0a322a9742ac5d29846e409941",
+ "patches": [
+  {
+   "field": "questions.813.correct_answer",
+   "old": "C",
+   "new": "D",
+   "reason": "The keyed answer was wrong. Taking torques about the right support: the person's 600 N acts 3 m from it and the plank's 200 N acts 2 m from it, so F_left x 4 = 600(3) + 200(2) = 2200 N-m and F_left = 550 N, which is choice D. The check confirms it: F_right = 800 - 550 = 250 N, and torques about the left support give F_right x 4 = 600(1) + 200(2) = 1000, so F_right = 250 N. The published explanation itself concluded 550 N twice and then stated 'the correct answer is D', while the stored key said C."
+  },
+  {
+   "field": "questions.813.explanation",
+   "old": "Clockwise torques: 600 x 3 + 200 x 2 = 1800 + 400 = 2200 N·m. Setting this equal to the left support force times 4 m: F_L x 4 = 2200, so F_L = 550 N. Wait, rechecking: person is 1 m from left = 3 m from right; plank center is 2 m from right. F_L x 4 = 600 x 3 + 200 x 2 = 2200, F_L = 550 N. The answer is D. Correction: the correct answer is D (550 N).",
+   "new": "Clockwise torques about the right support: 600 x 3 + 200 x 2 = 1800 + 400 = 2200 N·m. The left support's upward force acts 4 m from that axis, so F_L x 4 = 2200 and F_L = 550 N. Check it with the other two conditions: the forces must balance, F_L + F_R = 600 + 200 = 800 N, giving F_R = 250 N, and torques about the left support confirm it, F_R x 4 = 600 x 1 + 200 x 2 = 1000 N·m. The person stands nearer the left support, so that support carries more than half the total — any answer below 400 N must be wrong on inspection.",
+   "reason": "The published explanation worked the problem, doubted itself in front of the student ('Wait, rechecking:'), restated the same arithmetic, and ended with 'Correction: the correct answer is D' while the stored key said C. The replacement gives one clean derivation, a check by the force balance and a second axis, and the symmetry argument that rules out the low choices at a glance."
+  },
+  {
+   "field": "questions.812.question_text",
+   "old": "A patient is using a first-class lever to model the action of the elbow joint.",
+   "new": "A crowbar is used as a first-class lever.",
+   "reason": "The stem asked students to treat a first-class lever with a mechanical advantage of 6 as a model of the elbow, but the elbow is the lesson's own flagship third-class lever, with the muscle inserting closer to the joint than the load and a mechanical advantage near 0.14. A student who takes the stem at face value learns the opposite of what the lesson teaches two sections earlier. The numbers and the keyed answer are unchanged."
+  },
+  {
+   "field": "questions.812.explanation",
+   "old": "A common error is inverting the ratio (load arm / effort arm = 0.17), which would give the inverse mechanical advantage, representing how much force is lost rather than gained.",
+   "new": "A common error is inverting the ratio (load arm / effort arm = 0.17). Note the contrast with the elbow, which is a third-class lever: there the muscle inserts closer to the joint than the load sits, so the effort arm is the shorter one, the mechanical advantage falls well below 1, and the muscle force must far exceed the load it holds.",
+   "reason": "Adding the contrast keeps the biological case the MCAT actually tests attached to the question, now that the stem no longer miscasts the elbow as a first-class lever."
+  },
+  {
+   "field": "lesson.content",
+   "old": "A machine with MA < 1 multiplies distance/speed (you apply a larger force over a smaller distance to move something a smaller force over a larger distance — useful for speed, not force amplification).",
+   "new": "A machine with MA < 1 multiplies distance and speed instead: you apply a larger force through a shorter distance, and the load travels a longer distance under a smaller force — useful where range of motion matters more than force, which is exactly the trade the third-class levers of the body make.",
+   "reason": "The published sentence was garbled mid-clause ('to move something a smaller force over a larger distance') and did not parse, leaving the one case students most often get backwards unexplained."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, University Physics Volume 1 — Static equilibrium: the sum of torques about any axis is zero, and a force through the chosen axis contributes none",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/7-additional-problems"
+  },
+  {
+   "title": "LibreTexts (Gettysburg College, Phys 111) — forces, torques and equilibrium conventions",
+   "url": "https://phys.libretexts.org/Courses/Gettysburg_College/Phys_111%3A_Physics_Symmetry_and_Conservation/02%3A_Forces_and_Kinematics/2.02%3A_N2)_1_Dimensional_Kinematics/2.2.04%3A_Free_Fall"
+  }
+ ],
+ "visual": {
+  "title": "Torque, the three lever classes, and why muscles pull so hard",
+  "src": "/lesson-diagrams/torque-levers-and-equilibrium.svg",
+  "width": 920,
+  "height": 830,
+  "alt": "A beam on a pivot with a force applied at an angle, showing the distance r, the component F sine theta that produces the torque and the component F cosine theta that produces none. Beside it, the three lever classes drawn with fulcrum, load and effort, with their mechanical advantages and examples. Below, the biceps calculation giving a 700 newton muscle force for a 100 newton load, and two problem-solving habits: put the axis where the unknowns are, and count supporting rope segments for pulley mechanical advantage.",
+  "caption": "Only the component of the force perpendicular to the lever arm makes torque, so a force aimed along the arm does nothing however large it is. The body's third-class levers put the effort arm inside the load arm, which is why a 100 N weight in the hand needs 700 N from the biceps.",
+  "beforeHeading": "## Torque: The Rotational Analog of Force"
+ }
+}
