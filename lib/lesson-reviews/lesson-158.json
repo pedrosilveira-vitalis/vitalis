@@ -1,0 +1,61 @@
+{
+ "lessonId": 158,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  786,
+  787,
+  788,
+  789,
+  790
+ ],
+ "fingerprint": "4ef649f170f508c883d8297ad9f25738896b6674b430f62dfd461ecb48a366be",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "### Trap 3: Normal Force Doing Work on Inclines\n\nOn a flat surface, the normal force is perpendicular to motion and does zero work. On a curved surface or when the object moves along the normal direction (e.g., being launched vertically by a surface), the normal force can do work. Always check the angle between force and displacement, not just whether the force is \"normal.\"",
+   "new": "### Trap 3: Assuming the Normal Force Can Do Work\n\nA normal force from a *stationary* surface never does work on an object sliding along it — not on a flat floor, not on an incline, and not on a curved track — because it stays perpendicular to the velocity at every instant. The normal force does work only when the surface itself carries the object along the normal direction: an elevator floor lifting a passenger, or a platform launching an object upward. Always check the angle between the force and the displacement, not just whether the force is called \"normal.\"",
+   "reason": "The published version said the normal force 'can do work' on a curved surface, which is false for any fixed rigid surface: the normal stays perpendicular to the velocity at every instant, so W = 0 whatever the curvature. It also contradicted questions 789 and 790 in this same lesson, both of which turn on the normal force doing zero work on a ramp. The genuine exception is a surface that moves the object along the normal direction, such as an elevator floor."
+  },
+  {
+   "field": "lesson.content",
+   "old": "A force of 100 N at 60° does only 50 N worth of useful work per meter (cos 60° = 0.5).",
+   "new": "A force of 100 N at 60° does only 50 J of work per meter of displacement, because only its 50 N horizontal component acts along the motion (cos 60° = 0.5).",
+   "reason": "Work was quoted in newtons. In a lesson that opens by defining the joule and closes by telling students to check their units, naming the unit correctly matters: the 50 N is the component of the force, and the 50 J is the work it does per metre."
+  },
+  {
+   "field": "questions.786.explanation",
+   "old": "Choice C (10 m/s) incorrectly sets work equal to mv rather than (1/2)mv^2.",
+   "new": "Choice C (10 m/s) comes from dropping the mass: solving 50 = (1/2)v² gives v² = 100 and v = 10 m/s. Choice D (50 m/s) is simply the work in joules read off as a speed.",
+   "reason": "The stated route does not give the stated number: setting W = mv gives 50 = 2v, or v = 25 m/s, which is not a choice. Dropping the mass from ½mv² is what produces 10 m/s."
+  },
+  {
+   "field": "questions.788.explanation",
+   "old": "Choice B (100,000 J) is tempting because it results from computing (1/2)(1000)(20-10)^2, incorrectly squaring the difference in velocities rather than taking the difference of squared velocities. This is a very common algebraic error.",
+   "new": "The classic error is squaring the difference in speeds instead of taking the difference of the squares: (1/2)(1000)(20−10)² = 50,000 J, which is choice A, and dropping the factor of ½ from that gives choice B, 100,000 J. Note that choice A is also the car's initial kinetic energy and choice D, 200,000 J, is its final kinetic energy — both are real quantities in the problem, but neither is the change.",
+   "reason": "The arithmetic cited produces 50,000 J (choice A), not the 100,000 J it was offered to explain: (1/2)(1000)(10)² = 50,000. Each distractor is now matched to the calculation that actually yields it, and the two that are the initial and final kinetic energies are named as such."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Jacobs Physics, 'Can a normal force do work?' — no work on a block sliding on any fixed surface, including an incline; work only when the surface itself moves, as with an elevator floor",
+   "url": "https://jacobsphysics.blogspot.nl/2013/10/can-normal-force-do-work.html"
+  },
+  {
+   "title": "Vedantu — the normal force does no work on an object moving along a surface because it is perpendicular to the velocity; the elevator floor is the exception",
+   "url": "https://vedantu.com/question-answer/can-normal-force-do-work-if-not-why-not-if-so-class-11-physics-cbse-61559cfd8ec0356042a8b954"
+  },
+  {
+   "title": "OpenStax, University Physics Volume 1 — Work and Kinetic Energy problems (work done by the normal force)",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/7-additional-problems"
+  }
+ ],
+ "visual": {
+  "title": "The sign of work, the tally of work, and the forces that do none",
+  "src": "/lesson-diagrams/work-sign-tally-and-zero-work.svg",
+  "width": 920,
+  "height": 780,
+  "alt": "Three cases showing a force at less than 90 degrees to the displacement doing positive work, at 90 degrees doing zero work, and at more than 90 degrees doing negative work; a worked tally of +43.3 J from an applied force, −15 J from friction and zero from the normal force and gravity, summing to 28.3 J of net work equal to the change in kinetic energy; four forces that do no work; and the conservative versus non-conservative split.",
+  "caption": "Work each force separately with W = Fd cos θ, keep the signs, and only then add. The normal force, the centripetal force, a magnetic force on a charge, and any force applied without displacement all contribute exactly zero, however large they are.",
+  "beforeHeading": "## Defining Mechanical Work"
+ }
+}
