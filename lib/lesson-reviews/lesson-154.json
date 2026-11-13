@@ -1,0 +1,55 @@
+{
+ "lessonId": 154,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  766,
+  767,
+  768,
+  769,
+  770
+ ],
+ "fingerprint": "7927a06043eb6eae92ac210c1a5cb8c48abd3f1fc69389043a49b8931957ee48",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "For vertical problems, most MCAT passages define upward as positive. Under this convention, gravitational acceleration is **g = −9.8 m/s²** (often approximated as −10 m/s² on the MCAT for mental arithmetic). If you define downward as positive, then g = +10 m/s². Either works — but mixing conventions within a single problem guarantees wrong answers.",
+   "new": "For vertical problems, most MCAT passages define upward as positive. The symbol *g* is the **magnitude** of free-fall acceleration, and it is always positive: *g* = 9.8 m/s² ≈ 10 m/s². The sign comes from your coordinate choice, never from *g* itself. With upward positive, the acceleration is **a = −g = −10 m/s²**; with downward positive, **a = +g = +10 m/s²**. Either works — but mixing conventions within a single problem guarantees wrong answers, and writing \"g = −10\" and then substituting it into a formula that already contains −*g* flips the sign twice.",
+   "reason": "The lesson defined g itself as negative (−9.8 m/s²), then later wrote a_y = −g = −10 m/s² in the projectile section and v_y² = v_y,i² − 2g·Δy in the maximum-height derivation. Both of those are only correct if g is the positive magnitude 9.8 m/s². Standard treatments define g as always positive and put the sign on the acceleration (a = −g with up positive, a = +g with down positive). Since the lesson itself names sign errors as the number-one source of kinematics mistakes, leaving the two conventions in conflict within one lesson is a point-costing error."
+  },
+  {
+   "field": "lesson.content",
+   "old": "This is not constant-direction acceleration, so the standard kinematic equations do not apply to the circular path itself. However, the linear kinematic equations apply to any instantaneous tangential component of motion.",
+   "new": "Because this acceleration continuously changes direction, it is not constant, so the constant-acceleration kinematic equations do not apply to the circular path. For uniform circular motion you use the constant-speed relations instead: the arc length covered is *s* = *v*·*t*, and one full revolution takes a period *T* = 2π*r* / *v*.",
+   "reason": "The replaced sentence was both vague and misleading: in uniform circular motion the tangential acceleration is zero, so there is no 'instantaneous tangential component' to which the constant-acceleration equations would be applied. Giving the two relations that actually are used (s = vt and T = 2πr/v) replaces a confusing statement with the ones tested."
+  },
+  {
+   "field": "questions.769.explanation",
+   "old": "Velocity is the derivative of position: v = dx/dt = 6t - 6. At t = 2 s, v = 6(2) - 6 = 6 m/s. Choice A is tempting if students plug t = 2 into the original position equation and confuse the result with velocity. Choice D results from forgetting to subtract the constant term when differentiating.",
+   "new": "No calculus is needed, and the MCAT does not require any. Match the given expression term by term to x = x_i + v_i·t + ½at²: the constant gives x_i = 2 m, the t term gives v_i = −6 m/s, and ½a = 3 gives a = 6 m/s². Then v_f = v_i + a·t = −6 + 6(2) = 6 m/s. (If you do know calculus, v = dx/dt = 6t − 6 gives the same value.) Choice A is tempting if students plug t = 2 into the position equation itself and report the position, x = 2 m, as the velocity. Choice D, 12 m/s, comes from using only a·t and dropping the −6 m/s initial velocity.",
+   "reason": "The published explanation solved the item by differentiation, but the AAMC states that an understanding of calculus is not required for the exam, so a student following this explanation is being taught a method the test does not expect. The question is fully solvable by matching coefficients to x = x_i + v_i t + ½at², which is the route the MCAT intends. The old description of choice D was also inaccurate: 12 m/s comes from dropping the initial-velocity term, not from mishandling 'the constant term' (the constant +2 plays no role in the velocity at all)."
+  }
+ ],
+ "sources": [
+  {
+   "title": "LibreTexts (Gettysburg College, Phys 111) — Free Fall: \"the quantity g is always defined to be positive\"",
+   "url": "https://phys.libretexts.org/Courses/Gettysburg_College/Phys_111%3A_Physics_Symmetry_and_Conservation/02%3A_Forces_and_Kinematics/2.02%3A_N2)_1_Dimensional_Kinematics/2.2.04%3A_Free_Fall"
+  },
+  {
+   "title": "OpenStax, University Physics Volume 1 §3.5 Free Fall — a = −g with up positive, a = +g with down positive",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/3-5-free-fall"
+  },
+  {
+   "title": "AAMC — Chemical and Physical Foundations of Biological Systems content outline (an understanding of calculus is not required)",
+   "url": "https://students-residents.aamc.org/media/8981/download"
+  }
+ ],
+ "visual": {
+  "title": "Sign conventions, independent projectile components, and v–t graph areas",
+  "src": "/lesson-diagrams/kinematics-signs-components-areas.svg",
+  "width": 920,
+  "height": 850,
+  "alt": "Four panels: g as a positive magnitude with a = −g when up is positive and a = +g when down is positive; a projectile parabola with constant horizontal velocity arrows and vertical arrows that shrink to zero at the peak; the symmetric-flight formulas for T, R and H; and a three-phase velocity–time graph whose slopes give 5, 0 and −10 m/s² and whose areas give 40, 80 and 20 m for a total of 140 m.",
+  "caption": "g is always the positive magnitude 9.8 ≈ 10 m/s²; the minus sign belongs to the acceleration once you pick a positive direction. In projectile motion the horizontal arrow never changes length while the vertical one shrinks to zero at the peak, and on a v–t graph slope is acceleration while area is displacement.",
+  "beforeHeading": "## Sign Conventions and Coordinate Systems"
+ }
+}
