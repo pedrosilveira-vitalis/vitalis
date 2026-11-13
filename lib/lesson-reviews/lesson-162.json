@@ -1,0 +1,55 @@
+{
+ "lessonId": 162,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  806,
+  807,
+  808,
+  809,
+  810
+ ],
+ "fingerprint": "db20e931048c16e210d6caeca4926de901c39eb5b4183c50cf82378c1fdb2388",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "the ping-pong ball rebounds at approximately twice the bowling ball's initial velocity. This is important in nuclear physics contexts, where neutron moderation depends on elastic collisions with light nuclei.",
+   "new": "the ping-pong ball is knocked *forward* at approximately twice the bowling ball's initial velocity — forward, not backward. The opposite case is the one that matters in nuclear physics: a neutron gives up the largest share of its energy when it strikes a nucleus of *similar* mass, which is why hydrogen-rich moderators such as water and paraffin slow neutrons so effectively (a head-on hit on a proton can stop a neutron dead), while a neutron striking a heavy nucleus such as lead bounces off with almost all of its energy intact.",
+   "reason": "Two problems. 'Rebounds' says the light ball comes back, when in a heavy-strikes-light elastic collision it is driven forward at about 2v. And the nuclear link was attached to the wrong case: moderation does not depend on the heavy-hits-light geometry but on the target mass being close to the neutron's, since maximum energy transfer in an elastic collision occurs between equal masses. A neutron can lose all its energy in one head-on collision with hydrogen (A = 1) and loses almost none against a heavy nucleus."
+  },
+  {
+   "field": "lesson.content",
+   "old": "v₂f = √(2.6² + 1.8²) = √(6.76 + 3.24) = √10 ≈ 3.16 m/s",
+   "new": "v₂f = √(2.6² + 1.8²) = √(6.76 + 3.24) = √10 ≈ 3.16 m/s\n\n**Was this collision elastic?** Check the kinetic energy: before, ½(2)(5²) = 25 J; after, ½(2)(3²) + ½(2)(3.16²) = 9 + 10 = 19 J. Six joules are missing, so this collision is inelastic — which is exactly why momentum conservation alone was enough to solve it. Worth remembering: two equal masses colliding *elastically* always separate at 90°, and these two do not.",
+   "reason": "The worked example never said whether the collision was elastic, which invites a student to assume it was and to try the kinetic-energy equation as a check — it would fail. Adding the energy check turns a loose end into the lesson's own warning about not assuming elasticity, and introduces the 90° separation rule for equal masses, which the MCAT uses as a quick elasticity test."
+  },
+  {
+   "field": "questions.807.explanation",
+   "old": "Choice D is tempting because students may forget to assign a negative sign to the westward velocity.",
+   "new": "Choice C, 6 m/s west, has the right magnitude with the direction reversed — the heavier car carries the larger momentum (30,000 versus 15,000 kg·m/s), so the wreckage must continue east. Choice B, 5 m/s, is the difference of the two speeds, 20 − 15, with the masses left out. Note that actually forgetting the minus sign on the westward car gives (30,000 + 15,000)/2500 = 18 m/s, which is not among the choices at all.",
+   "reason": "The published note did not match its number: dropping the negative sign gives 18 m/s, not the 9 m/s of choice D. The rewritten note explains the two distractors that do have clean origins and states what the sign error actually produces, so a student who made it can recognise it."
+  }
+ ],
+ "sources": [
+  {
+   "title": "LibreTexts (Engineering) — Moderators: hydrogen works because its mass is almost identical to the neutron's, so one collision cuts the neutron's speed substantially",
+   "url": "https://eng.libretexts.org/Bookshelves/Materials_Science/TLP_Library_II/4%3A_Materials_for_Nuclear_Power_Generation/4.6%3A_Moderators"
+  },
+  {
+   "title": "Thermal Reactors & Moderation — a neutron in an elastic collision with a heavy nucleus rebounds with almost its initial energy, giving very little to the nucleus",
+   "url": "https://nuceng.ca/igna/thermal_reactors.htm"
+  },
+  {
+   "title": "MIT OpenCourseWare 22.05 lecture notes — in elastic scatter, the lighter the nucleus the larger the fraction of energy lost per collision; α = 0 for hydrogen",
+   "url": "https://dspace.mit.edu/bitstream/handle/1721.1/74136/22-05-fall-2006/contents/lecture-notes/lecture14.pdf"
+  }
+ ],
+ "visual": {
+  "title": "Three collisions, and the two questions that pick your equations",
+  "src": "/lesson-diagrams/collision-types-and-decision-tree.svg",
+  "width": 920,
+  "height": 800,
+  "alt": "Before-and-after pictures of an elastic collision between equal masses where the moving ball stops and the struck ball leaves at the same speed, a perfectly inelastic collision where the objects stick and move off together, and an explosion from rest where the lighter fragment moves faster. Beside them a decision tree: do they stick together, and is kinetic energy conserved, leading to one equation, two equations, or momentum alone. Below, the kinetic energy lost when objects stick, the coefficient of restitution scale, and the neutron moderation case.",
+  "caption": "Two questions decide everything: do they stick, and is kinetic energy conserved? Sticking gives one equation and one unknown; elastic gives two equations; anything else leaves momentum alone, which is why those problems always supply extra information.",
+  "beforeHeading": "## Classification of Collisions"
+ }
+}
