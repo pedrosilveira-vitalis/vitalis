@@ -1,0 +1,67 @@
+{
+ "lessonId": 165,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  821,
+  822,
+  823,
+  824,
+  825
+ ],
+ "fingerprint": "9131a74c6ca6fa97c78f9d23cf853231a52e24e558d732b1819ef895efeae188",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "The aorta has a cross-sectional area of roughly 4–5 cm², and blood flows through it at approximately 30–40 cm/s. The capillary bed, in contrast, consists of billions of tiny vessels with a *total* cross-sectional area that is roughly 500–700 times larger than the aorta—on the order of 2,500–4,500 cm².",
+   "new": "The aorta has a cross-sectional area of about 2.5 cm², and blood moves through it at a mean velocity of roughly 33 cm/s. The capillary bed, in contrast, consists of billions of tiny vessels whose *total* cross-sectional area is about 2,500 cm² — roughly 1,000 times the aorta.",
+   "reason": "The published pair of figures was not self-consistent with cardiac output. An aortic area of 4–5 cm² at 30–40 cm/s gives Q = Av ≈ 9 L/min, nearly double the resting cardiac output of about 5 L/min. The standard physiology values (Guyton) are 2.5 cm² and 33 cm/s, whose product is 83 cm³/s ≈ 5 L/min exactly, with the capillary bed at about 2,500 cm² — a thousandfold ratio, not 500–700."
+  },
+  {
+   "field": "lesson.content",
+   "old": "By the continuity equation, blood velocity in capillaries is therefore roughly 500–700 times slower than in the aorta, dropping to about 0.03–0.05 cm/s.",
+   "new": "By the continuity equation, blood velocity in capillaries is therefore about 1,000 times slower than in the aorta, dropping to roughly 0.03 cm/s (0.3 mm/s). You can check the whole picture with Q = Av: (2.5 cm²)(33 cm/s) ≈ 83 cm³/s ≈ 5 L/min, the resting cardiac output, and (2,500 cm²)(0.03 cm/s) ≈ 75 cm³/s — the same flow, as continuity demands.",
+   "reason": "The thousandfold figure is the standard one and it is what makes the numbers close: the same 5 L/min must pass every level of the circulation. Adding the explicit Q = Av check turns the two quoted velocities into something a student can verify rather than memorize."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Aortic cross-sectional area: ~4–5 cm²\n- Aortic blood velocity: ~30–40 cm/s\n- Capillary blood velocity: ~0.03–0.05 cm/s",
+   "new": "- Aortic cross-sectional area: ~2.5 cm²\n- Mean aortic blood velocity: ~33 cm/s\n- Total capillary cross-sectional area: ~2,500 cm²\n- Capillary blood velocity: ~0.03 cm/s (0.3 mm/s)\n- Resting cardiac output: ~5 L/min ≈ 83 cm³/s (the Q that must pass every level)",
+   "reason": "The memorization list repeated the figures that do not multiply out to cardiac output, and it omitted the total capillary area, which is the number the continuity argument actually needs. Listing the cardiac output alongside gives students the consistency check."
+  },
+  {
+   "field": "lesson.content",
+   "old": "An airplane wing (**airfoil**) is shaped so that air moves faster over the curved upper surface than over the flatter lower surface. By Bernoulli's equation, pressure is lower above the wing than below it, creating a net upward force—**lift**.",
+   "new": "An airplane wing (**airfoil**) is shaped and angled so that air moves faster over the upper surface than over the lower surface. By Bernoulli's equation, pressure is lower above the wing than below it, creating a net upward force—**lift**.\n\nBe careful with the usual story for *why* the air moves faster. The familiar \"the top surface is longer, so the air has farther to travel and must hurry to meet its partner at the trailing edge\" account is wrong, and NASA lists it as the most common incorrect theory of lift: nothing requires the two streams to arrive together, the air over the top in fact arrives first, and symmetric wings, flat plates and inverted flight all generate lift. What actually sets the speed difference is the wing's shape *and angle of attack* turning the oncoming air. Bernoulli's equation then correctly converts that speed difference into the pressure difference, which is why it remains the right answer to \"which principle relates the faster flow to the lower pressure?\"",
+   "reason": "The lesson implied that the curvature alone makes the air travel faster, which is the equal-transit-time explanation that NASA's Glenn Research Center identifies as a mis-application of Bernoulli's equation; the velocity on the upper surface of a lifting wing is much higher than equal transit time would predict. The addition keeps Bernoulli as the correct link between speed and pressure (and so does not disturb the keyed answer to question 825) while removing the false mechanism."
+  },
+  {
+   "field": "questions.821.explanation",
+   "old": "The most tempting wrong answer is A (5 cm/s), which results from incorrectly squaring the area ratio rather than applying it linearly.",
+   "new": "The most tempting wrong answer is A (5 cm/s), which comes from squaring the area ratio (20 ÷ 2²) rather than applying it linearly. Choice C, 40 cm/s, multiplies by the area ratio instead of dividing by it, and choice D, 80 cm/s, both multiplies and squares. The direction is the thing to hold on to: a larger total cross-section always means slower flow.",
+   "reason": "Only one of the three distractors was accounted for. Naming the arithmetic behind each lets a student identify their own slip, and the closing sentence states the qualitative rule the MCAT tests far more often than the calculation."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Guyton and Hall, Textbook of Medical Physiology, ch. 14 — aorta 2.5 cm², capillaries 2,500 cm²; resting velocity averages about 33 cm/s in the aorta and 1/1000 of that in the capillaries",
+   "url": "https://tsmu.edu/ts/images/file/1591281191Med.Physiology_Circulation.pdf"
+  },
+  {
+   "title": "University of Maryland lecture notes after Guyton & Hall — aorta 2.5 cm² at 33 cm/s, capillaries 2,500 cm² at 0.3 mm/s",
+   "url": "https://terpconnect.umd.edu/~jpfisher/index_files/lecture6.pdf"
+  },
+  {
+   "title": "NASA Glenn Research Center — the equal transit time (\"longer path\") account is the most common incorrect theory of lift; the real upper-surface velocity is much higher than it predicts",
+   "url": "https://www.grc.nasa.gov/WWW/k-12/VirtualAero/BottleRocket/airplane/bernnew.html"
+  }
+ ],
+ "visual": {
+  "title": "Continuity sets the speed, Bernoulli spends the pressure",
+  "src": "/lesson-diagrams/continuity-bernoulli-and-the-circulation.svg",
+  "width": 920,
+  "height": 800,
+  "alt": "A pipe that narrows and widens again, with pressure-tap columns tall in the wide sections and short at the constriction, labelled 0.04 square metres at 2 metres per second and 200 kPa widening to 0.01 square metres at 8 metres per second and 170 kPa. Below, stacked bars showing pressure energy converting into kinetic energy at the constriction while the total is unchanged, and a table showing the aorta at 2.5 square centimetres and 33 centimetres per second against the capillary bed at 2,500 square centimetres and 0.03 centimetres per second, both carrying about 5 litres per minute.",
+  "caption": "The flow rate Q = Av is the same everywhere, so a four-times narrower pipe runs four times faster — and the energy for that speed comes out of the pressure. The circulation runs the same arithmetic in reverse: a thousandfold wider capillary bed means a thousandfold slower blood.",
+  "beforeHeading": "## The Continuity Equation: Conservation of Mass"
+ }
+}
