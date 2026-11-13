@@ -1,0 +1,67 @@
+{
+ "lessonId": 161,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  801,
+  802,
+  803,
+  804,
+  805
+ ],
+ "fingerprint": "60a110d6b1bb668171db41e19bdc9022c16e5c113bbf70457a866e3b7e1ec7a2",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Heel striking (short contact time) produces higher peak forces than forefoot striking (longer contact time), which is why running shoe design and gait analysis focus heavily on impulse distribution.",
+   "new": "A rearfoot (heel) strike produces a sharp impact transient — a force spike in the first 20–30 ms of contact — that a forefoot or midfoot landing largely lacks, because the ankle and calf lengthen under load and spread the same momentum change over a longer rise time. What differs is the *rate* at which force is applied, called the loading rate, rather than the total time the foot spends on the ground; barefoot forefoot strikers have been measured at roughly half the loading rate of shod rearfoot strikers, though whether that translates into fewer injuries remains debated. This is why running-shoe design and gait analysis focus on loading rate and not on peak force alone.",
+   "reason": "The published sentence got the mechanism wrong twice. Forefoot striking does not give a longer ground-contact time — if anything contact time is shorter — and the quantity that differs is the loading rate (the slope of the force rise), not the peak force by itself. The distinguishing feature is the impact transient, which is characteristic of a rearfoot strike and typically absent in a forefoot or midfoot strike. The injury claim is also genuinely contested in the literature, so the revision says so rather than presenting it as settled."
+  },
+  {
+   "field": "questions.801.explanation",
+   "old": "A common error is to add only the magnitudes without accounting for the direction change, giving 0.15(10)/0.002 = 750 N, which is choice A.",
+   "new": "A common error is to subtract the speeds, as if the ball kept going the same way: 0.15(50 − 40)/0.002 = 750 N, which is choice A. Choice B, 3750 N, uses only the outgoing momentum, 0.15(50), and ignores the incoming motion entirely.",
+   "reason": "The published sentence described the error as adding magnitudes, but the arithmetic it quotes, 0.15(10), is a subtraction — adding the magnitudes is what gives the correct 90 m/s. Choice B was also left unexplained, and it has a clean origin: using the final momentum alone."
+  },
+  {
+   "field": "questions.802.explanation",
+   "old": "Choice D is tempting if students incorrectly use kinetic energy conservation instead of momentum conservation.",
+   "new": "Choice D, 5.3 m/s, comes from inverting the mass ratio — multiplying 4 m/s by 80/60 rather than 60/80. Note also that equal and opposite momenta do not mean equal kinetic energies: skater A leaves with 480 J and skater B with 360 J, because KE = p²/2m gives the lighter skater more of the energy.",
+   "reason": "The stated route does not give the stated number: using kinetic-energy conservation would give ½(60)(4²) = ½(80)v², or v = 3.5 m/s, not 5.3 m/s. The 5.3 m/s figure is 4 × 80/60, the inverted mass ratio. The added remark about unequal kinetic energies is the companion fact the MCAT tests alongside recoil."
+  },
+  {
+   "field": "questions.803.question_text",
+   "old": "A force vs. time graph shows a triangular pulse acting on a 2 kg object: force rises linearly from 0 to 20 N over 3 s, then drops back to 0.",
+   "new": "A force vs. time graph shows a triangular pulse acting on a 2 kg object: the force rises linearly from 0 to a peak of 20 N over 1.5 s, then falls linearly back to 0 over the next 1.5 s, for a total pulse duration of 3 s.",
+   "reason": "As written the pulse was ambiguous: the rise alone took 3 s and the fall took an unstated time, so the triangle's base was undefined and the area could not be computed. The keyed answer assumes a base of 3 s, which the stem now states explicitly, leaving the area and the answer unchanged."
+  },
+  {
+   "field": "questions.803.explanation",
+   "old": "Choice A is wrong if students use average force incorrectly as 20 N times half the time without the factor of 1/2 for the triangle area.",
+   "new": "Choice C, 30 m/s, comes from treating the pulse as a rectangle: (3 s)(20 N) = 60 N·s instead of 30 N·s. Choice D, 60 m/s, is that same rectangle with the division by the 2 kg mass left out. Choice A, 10 m/s, comes from dividing the impulse by the 3 s duration instead of by the mass.",
+   "reason": "The published sentence described a calculation that gives the correct answer, not choice A: 20 N × 1.5 s is 30 N·s, hence 15 m/s. Each distractor is now matched to a calculation that actually produces it."
+  }
+ ],
+ "sources": [
+  {
+   "title": "British Journal of Sports Medicine — a rearfoot strike has a characteristic impact transient not typically seen in midfoot or forefoot strikes, and it is associated with high rates of loading",
+   "url": "https://bjsm.bmj.com/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6ODoiYmpzcG9ydHMiO3M6NToicmVzaWQiO3M6OToiNTAvMTQvODg3IjtzOjQ6ImF0b20iO3M6MjU6Ii9ianNwb3J0cy81My8yMy8xNDc5LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ=="
+  },
+  {
+   "title": "Lower Extremity Review — the vertical impact peak is often absent in forefoot strikers, and Lieberman et al. found barefoot forefoot strikers loading at roughly half the rate of shod rearfoot strikers",
+   "url": "https://lermagazine.com/?p=12478"
+  },
+  {
+   "title": "Hamill and Gruber, ISBS 2012 — evidence that lower loading rates with a forefoot pattern do not hold for all runners",
+   "url": "https://ojs.ub.uni-konstanz.de/cpa/article/view/5160/4737"
+  }
+ ],
+ "visual": {
+  "title": "Impulse as the area under F–t, and what each collision conserves",
+  "src": "/lesson-diagrams/impulse-area-and-collision-types.svg",
+  "width": 920,
+  "height": 790,
+  "alt": "A force-versus-time graph with two pulses of equal area — a tall narrow one for a hard landing and a low wide one for a padded landing — showing that the same change in momentum can come from a large force over a short time or a small force over a long time. Beside it, a table of collision types showing momentum conserved in every case and kinetic energy conserved only in elastic collisions. Below, the condition for conservation, the two steps of the ballistic pendulum, and the equal-mass elastic special cases.",
+  "caption": "The two shaded pulses carry the same impulse, so they produce the same change in momentum — the padded one simply spreads it over more time, which is the whole principle behind airbags, crumple zones and bending your knees on landing.",
+  "beforeHeading": "## Impulse and the Impulse-Momentum Theorem"
+ }
+}
