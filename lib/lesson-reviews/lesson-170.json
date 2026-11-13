@@ -1,0 +1,45 @@
+{
+ "lessonId": 170,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  846,
+  847,
+  848,
+  849,
+  850
+ ],
+ "fingerprint": "c50aec9dd0cb7dbe57d44e8711554cfd9b49957a5f94eee90b9504dd7735e75f",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Sound travels faster in denser, stiffer media. In water, v ≈ 1480 m/s; in bone, v ≈ 3000–4000 m/s.",
+   "new": "Sound travels faster in stiffer media; density works against it, sitting in the denominator of v = √(B/ρ). Water and bone are fast in spite of being dense, because their bulk or Young's modulus is larger by far more than their density is. In water, v ≈ 1480 m/s; in bone, v ≈ 3000–4000 m/s.",
+   "reason": "\"Faster in denser media\" inverts the density dependence of v = √(B/ρ): at a given stiffness, a denser medium carries sound more slowly. The same wording appeared in the two companion sound lessons and has been corrected there; this keeps the series consistent and matches the proportional reasoning the MCAT asks for."
+  },
+  {
+   "field": "questions.848.explanation",
+   "old": "Choice D contains a partially correct statement about phase inversion at the open end but draws the wrong conclusion about which harmonics are supported.",
+   "new": "Choice D names the right harmonics for the wrong reason, which is why it still fails a question that asks \"and why\": a sound wave's *pressure* does invert on reflection at an open end, but that is not what restricts the series. What restricts it is the geometric requirement that a displacement node sit at the closed end and an antinode at the open end, a condition only an odd number of quarter-wavelengths can meet.",
+   "reason": "The published note said choice D \"draws the wrong conclusion about which harmonics are supported\", but D says odd harmonics, which is correct. Its flaw is the justification, not the conclusion. Leaving the note as written would teach a student that odd harmonics are somehow wrong for a closed pipe — the opposite of the lesson."
+  }
+ ],
+ "sources": [
+  {
+   "title": "LibreTexts (Georgia State) — v = √(B/ρ) in a fluid and √(Y/ρ) in a solid; the more rigid the medium, the faster the sound",
+   "url": "https://phys.libretexts.org/Courses/Georgia_State_University/GSU-TM-Physics_I_(2211)/11%3A_Waves/11.06%3A_Speed_of_Sound"
+  },
+  {
+   "title": "OpenStax, University Physics Volume 1 — standing waves and the boundary conditions that fix the harmonic series in open and closed tubes",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/7-additional-problems"
+  }
+ ],
+ "visual": {
+  "title": "The impedance fix, the tonotopic map, and the hair cell cascade",
+  "src": "/lesson-diagrams/ear-impedance-and-tonotopy.svg",
+  "width": 920,
+  "height": 820,
+  "alt": "The chain from ear canal to cochlea, with the canal resonating near 3.4 kilohertz, the eardrum's 55 square millimetres concentrated onto the oval window's 3.2 and an ossicular lever of about 1.3, together worth some 20 to 30 decibels; the uncoiled cochlea, narrow and stiff at the base where 20 kilohertz peaks and wide and floppy at the apex where 20 hertz peaks, with a travelling wave; and the hair cell cascade from stereocilia bending through potassium entry to glutamate release, with outer hair cells amplifying via prestin.",
+  "caption": "Air pushing directly on cochlear fluid would reflect almost all of its energy; the eardrum's area and the ossicular lever recover 20–30 dB of it. Inside, frequency becomes position — stiff base for high tones, floppy apex for low — which is why noise damage takes the high frequencies first.",
+  "beforeHeading": "## The Physiology of Hearing"
+ }
+}
