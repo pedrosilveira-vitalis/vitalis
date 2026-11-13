@@ -1,0 +1,73 @@
+{
+ "lessonId": 156,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  776,
+  777,
+  778,
+  779,
+  780
+ ],
+ "fingerprint": "6bca4a6a8cf2095de88dbd1cbc312e5e8ac8411afa01a1f5ce49f80e1f0da02a",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Universally, μ_k < μ_s for any given pair of surfaces.",
+   "new": "For nearly every pair of surfaces μ_k < μ_s, and the MCAT will expect that ordering; treat it as μ_k ≤ μ_s rather than a universal law, since for a few pairs — Teflon on steel in the table below is one — the two coefficients are essentially equal.",
+   "reason": "The lesson asserted μ_k < μ_s universally and then, a few lines later, listed Teflon on steel with μ_s and μ_k 'both near 0.04' — the lesson contradicted itself. The corrected statement keeps the ordering students need while matching the lesson's own data."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Relationship: μ_k < μ_s always",
+   "new": "- Relationship: μ_k ≤ μ_s (strictly smaller for nearly every pair; essentially equal for a few, such as Teflon on steel)",
+   "reason": "The summary repeated the same absolute claim that the lesson's own coefficient table contradicts."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Synovial fluid** in joints dramatically reduces the effective coefficient of friction between cartilage surfaces to approximately 0.001–0.003, comparable to ice on ice but achieved biochemically.",
+   "new": "- **Synovial fluid** in joints reduces the effective coefficient of friction between cartilage surfaces to roughly 0.001–0.005 — about an order of magnitude *below* ice on ice (μ_k ≈ 0.03, the value in the table above), and lower than any engineered bearing surface, achieved biochemically rather than by polish.",
+   "reason": "'Comparable to ice on ice' contradicted the lesson's own table, which lists ice on ice at μ_k ≈ 0.03 — roughly ten to thirty times higher than the cartilage figure quoted in the same sentence. Measured whole-joint coefficients are about 0.001–0.005, which the literature describes as lower than any man-made surface including Teflon and graphite."
+  },
+  {
+   "field": "lesson.content",
+   "old": "1. Define a consistent positive direction for the entire system (e.g., if mass A slides down the incline, that direction is positive for A; the hanging mass B moving down is also positive).",
+   "new": "1. Define a consistent positive direction for the entire system by following the rope: the two masses cannot both descend. If the hanging mass B moves down, then mass A moves *up* the incline, so up-the-slope is positive for A and downward is positive for B.",
+   "reason": "The published instruction described a physically impossible sign convention — an inextensible rope over a pulley means one mass rises as the other falls, so 'A slides down the incline' and 'B moves down' cannot both be the positive sense. Following this instruction produces the sign error that appears in the equations immediately below it."
+  },
+  {
+   "field": "lesson.content",
+   "old": "For m₁ (along incline, positive down the slope): m₁a = m₁g sin θ - T",
+   "new": "For m₁ (along incline, positive up the slope — the direction it moves as m₂ descends): m₁a = T - m₁g sin θ",
+   "reason": "As published, the two equations used opposite senses of motion, so adding them does not give the stated result: m₁a = m₁g sinθ − T plus m₂a = m₂g − T sums to (m₁+m₂)a = m₁g sinθ + m₂g − 2T, not (m₁+m₂)a = m₂g − m₁g sinθ. With m₁ taken positive up the slope the tension cancels on addition and the lesson's own answer, a = g(m₂ − m₁ sin θ)/(m₁ + m₂), follows correctly."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The deceleration going up is greater in magnitude than the acceleration coming down, so the object takes longer to come down than it took to go up, and returns with less speed than it started with.",
+   "new": "Going up, the magnitude of the deceleration is g(sin θ + μ_k cos θ); coming down it is g(sin θ − μ_k cos θ). The deceleration going up is therefore the larger of the two, so the object takes longer to come down than it took to go up and returns with less speed than it started with. It only comes back down at all if tan θ > μ_s — on a slope shallower than the angle of repose it stops and stays stopped.",
+   "reason": "The claim was correct but unquantified, and it omitted the case the MCAT actually tests: an object pushed up a gentle slope does not slide back, because static friction holds it once it stops. Giving both acceleration magnitudes also lets a student see why the up-trip is shorter rather than having to take it on assertion."
+  }
+ ],
+ "sources": [
+  {
+   "title": "PMC — whole-joint friction measurement: cartilage lubricated by synovial fluid has μ ≈ 0.001, lower than any man-made surface including Teflon and graphite",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2688668"
+  },
+  {
+   "title": "Physics Today (April 2018), 'Lubrication of articular cartilage' — measured coefficients between roughly 0.001 and 0.03",
+   "url": "https://aip.brightspotcdn.com/PTO.v71.i4.48_1.online.pdf"
+  },
+  {
+   "title": "Body Physics (Open Oregon) — cartilage-on-cartilage kinetic friction coefficient measured as low as 0.002",
+   "url": "https://openoregon.pressbooks.pub/bodyphysics2ed/chapter/friction-in-joints/"
+  }
+ ],
+ "visual": {
+  "title": "Resolve the forces, then decide whether it slides",
+  "src": "/lesson-diagrams/incline-resolve-then-decide.svg",
+  "width": 920,
+  "height": 780,
+  "alt": "An incline with weight resolved into mg sin theta down the slope and mg cos theta into the surface, the normal force equal to mg cos theta and friction up the slope; a decision ladder comparing tan theta with mu_s, giving f_s = mg sin theta when it stays put and a = g(sin theta minus mu_k cos theta) when it slides; and four cases for the normal force: flat, pushed at an angle, pulled at an angle, and on an incline.",
+  "caption": "Two steps, always in this order: resolve the weight along the tilted axes to get N = mg cos θ, then compare tan θ with μ_s to decide whether static or kinetic friction applies. The mass cancels out of that comparison and out of the sliding acceleration.",
+  "beforeHeading": "## Inclined Planes: Force Resolution"
+ }
+}
