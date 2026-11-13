@@ -1,0 +1,61 @@
+{
+ "lessonId": 159,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  791,
+  792,
+  793,
+  794,
+  795
+ ],
+ "fingerprint": "6473dd2fee9543a107298dab813d974eca849bf2136d28901f5a10d8658d1869",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "These relationships are analogous to electrical resistors (series/parallel), a useful mnemonic.",
+   "new": "Be careful with the mnemonic: the labels are the *reverse* of resistors. Springs in parallel add directly, the way resistors in *series* do. The clean match is capacitance — springs in parallel add just as capacitors in parallel do, and springs in series combine reciprocally just as capacitors in series do.",
+   "reason": "The published mnemonic is backwards and would make a student derive the wrong effective constant. Resistors add directly in series and reciprocally in parallel; springs do the opposite, adding directly in parallel and reciprocally in series. Capacitors follow the spring pattern exactly, so that is the analogy worth carrying."
+  },
+  {
+   "field": "questions.791.explanation",
+   "old": "Choice A is incorrect because it results from forgetting the factor of 2 in the kinetic energy formula.",
+   "new": "Choice A, 10 m/s, comes from dividing by the 2 instead of multiplying — writing v = √(gh/2) = √100 rather than √(2gh). Choice B, 14 m/s, drops the 2 altogether: √(gh) = √200 ≈ 14.1. Choice D, 200 m/s, is gh with the square root never taken.",
+   "reason": "The published attribution does not produce choice A: dropping the factor of 2 gives √(gh) ≈ 14.1 m/s, which is choice B. Each distractor is now matched to the slip that actually yields it."
+  },
+  {
+   "field": "questions.793.question_text",
+   "old": "A spring with spring constant k = 400 N/m is compressed by 0.05 m.",
+   "new": "A spring with spring constant k = 40 N/m is compressed by 0.05 m.",
+   "reason": "With k = 400 N/m the stored energy is 0.5 J and the ball's speed is √(2 × 0.5 / 0.1) ≈ 3.2 m/s, which is not among the four choices — the question had no correct answer. Lowering the constant to 40 N/m gives 0.05 J, hence v = 1.0 m/s, which is the keyed choice B, and leaves the rest of the setup untouched."
+  },
+  {
+   "field": "questions.793.explanation",
+   "old": "Substituting: (1/2)(400)(0.05)² = (1/2)(0.1)v², which gives 0.5 = 0.05v², so v² = 1 and v = 1.0 m/s. Choice A results from forgetting to take the square root properly.",
+   "new": "Substituting: (1/2)(40)(0.05)² = (1/2)(0.1)v², which gives 0.05 = 0.05v², so v² = 1 and v = 1.0 m/s. Note that the maximum speed is v = x√(k/m) = 0.05 × √(40/0.1) = 0.05 × 20 = 1.0 m/s, so the speed scales with the compression itself, not its square, and only with the square root of the spring constant. Choices A and C are the correct value halved and doubled — the signature of a stray factor of 2 from one of the ½ terms.",
+   "reason": "The published arithmetic was wrong twice over: 0.5 J set equal to 0.05v² gives v² = 10, not 1, so the stated line did not support its own answer, and the claim that choice A comes from 'forgetting to take the square root properly' describes no actual calculation. With the corrected spring constant the arithmetic now closes exactly, and the scaling relation v = x√(k/m) is added because it is the form the MCAT tests in ratio questions."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cleveland State University, MCE371 notes — springs in parallel combine like resistors in series (capacitors in parallel); springs in series like resistors in parallel (capacitors in series)",
+   "url": "https://academic.csuohio.edu/richter-hanz/wp-content/uploads/sites/61/2022/06/mce371_2.pdf"
+  },
+  {
+   "title": "Fiveable, AP Physics C — springs in parallel share a displacement and add directly (k_eq = k₁ + k₂), the reverse of the resistor rule",
+   "url": "https://fiveable.me/ap-physics-c-mechanics/key-terms/springs-in-parallel.md"
+  },
+  {
+   "title": "xaktly, Hooke's Law — springs in series are treated like parallel resistors, k_tot = (1/k₁ + 1/k₂)⁻¹",
+   "url": "https://xaktly.com/HookesLaw.html"
+  }
+ ],
+ "visual": {
+  "title": "The energy ledger, and how to read a U(x) curve",
+  "src": "/lesson-diagrams/mechanical-energy-ledger-and-curve.svg",
+  "width": 920,
+  "height": 820,
+  "alt": "Stacked energy bars at three points of a track: without friction the kinetic plus potential total is identical at every point, while with friction the mechanical total shrinks and the missing share appears as heat. Alongside, a potential energy curve with a total energy line showing turning points, a stable minimum, an unstable maximum, and kinetic energy as the vertical gap. Below, the spring combination rules and the two energy equations.",
+  "caption": "Without friction the bars are re-labelled but never shortened; with friction the mechanical total falls and the difference leaves the ledger as heat. On a U(x) curve the kinetic energy is the vertical gap between the energy line and the curve, so the curve crossing the line is where the motion turns around.",
+  "beforeHeading": "## Conservation of Mechanical Energy"
+ }
+}
