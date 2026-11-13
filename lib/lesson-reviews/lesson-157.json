@@ -1,0 +1,55 @@
+{
+ "lessonId": 157,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  781,
+  782,
+  783,
+  784,
+  785
+ ],
+ "fingerprint": "02c86957b6b1299b62acfbbc3effe1dc702189ab556b392816b23484216307fb",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "3. Confusing the direction of normal force at the top of a loop (it points downward, toward the center).",
+   "new": "3. Confusing the direction of the normal force at the top of a curve. Inside a loop the track is above the car, so N points downward, toward the center, and *adds* to gravity: N + mg = mv²/r. Over the crest of a hill the track is below the car, so N points upward, away from the center, and *subtracts*: mg − N = mv²/r. Locate the center of the circle first; whichever forces point toward it are the positive ones.",
+   "reason": "As published, the statement was unqualified — 'the normal force at the top of a loop points downward' — but the lesson also covers a car at the crest of a hill, where the normal force points up and the equation is mg − N = mv²/r. A student who memorizes the sentence as written gets the hill case backwards, which is exactly what question 783 in this lesson asks about."
+  },
+  {
+   "field": "questions.781.question_text",
+   "old": "A 0.5 kg ball is attached to a string and swung in a horizontal circle of radius 1.2 m at a constant speed of 4 m/s. What is the tension in the string? (Ignore gravity for this calculation.)",
+   "new": "A 0.5 kg puck attached to a string slides in a horizontal circle of radius 1.2 m on a frictionless table at a constant speed of 4 m/s. What is the tension in the string?",
+   "reason": "A ball swung on a string in a horizontal circle is a conical pendulum: the string cannot be horizontal, and the tension is mg/cos φ, not mv²/r, so the stem had to tell students to ignore gravity to make its own keyed answer right. The MCAT does not instruct students to ignore a force; it specifies a setup in which the force does not enter. Putting the puck on a frictionless table — the arrangement this lesson itself describes in the horizontal-circle section — makes the string the only horizontal force and the keyed answer exactly correct."
+  },
+  {
+   "field": "questions.781.explanation",
+   "old": "Centripetal force = mv^2/r = (0.5)(4^2)/(1.2) = (0.5)(16)/1.2 = 8/1.2 = 6.7 N. The tension provides the centripetal force, so T = 6.7 N. A common mistake is forgetting to square the velocity or misapplying the formula, leading to answer A or C.",
+   "new": "The table supports the puck vertically, so the string is the only horizontal force and supplies the entire centripetal force: T = mv²/r = (0.5)(4²)/1.2 = 8/1.2 ≈ 6.7 N. Choice C, 8.0 N, is mv² with the division by the radius left out. Choice D, 13.3 N, is v²/r with the mass left out. Choice A, 3.3 N, is v/r — both the mass and the squaring dropped.",
+   "reason": "The published analysis did not match the numbers. Forgetting to square the velocity gives (0.5)(4)/1.2 ≈ 1.7 N, which is not among the choices, and neither choice A nor choice C arises that way: 8.0 N is the numerator mv² left undivided, 13.3 N is v²/r without the mass, and 3.3 N is v/r. Each distractor now names the specific slip that produces it."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Eastern Illinois University, 'Vertical Circles' — over a crest mg − n = mv²/r, with n = 0 at v² = gr",
+   "url": "https://www.ux1.eiu.edu/~addavis/1150-05/06Applications/vert.html"
+  },
+  {
+   "title": "Monash University, 'Vertical Circular Motion' — at the bottom of a loop F_N = mv²/r + mg",
+   "url": "https://www.monash.edu/student-academic-success/physics/forces/vertical-circular-motion"
+  },
+  {
+   "title": "Science Ready, 'Circular Motion Involving Normal Force' — N = F_c − mg inside the top of a loop versus N = mg − mv²/r over a crest",
+   "url": "https://scienceready.com.au/pages/circular-motion-involving-normal-force"
+  }
+ ],
+ "visual": {
+  "title": "Who supplies mv²/r, and which way does N point",
+  "src": "/lesson-diagrams/centripetal-suppliers-and-signs.svg",
+  "width": 920,
+  "height": 800,
+  "alt": "A circle with tangential velocity arrows and inward acceleration arrows alongside v = 2 pi r over T and a = v squared over r; a list of the five physical forces that can supply the centripetal force with their equations; and four cases giving the normal-force equation inside the top of a loop, at the bottom of a loop, over the crest of a hill, and on a flat turn.",
+  "caption": "Centripetal force is never an extra arrow on a free-body diagram — it is the name for whatever net force already points at the center. Find the center first: inside a loop the normal force points toward it and adds to gravity; over a crest it points away and subtracts.",
+  "beforeHeading": "## Dynamics: The Centripetal Force"
+ }
+}
