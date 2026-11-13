@@ -1,0 +1,51 @@
+{
+ "lessonId": 164,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  816,
+  817,
+  818,
+  819,
+  820
+ ],
+ "fingerprint": "0e4b72eec1143c6c1596f4f5361d02ccd051b661e6b4a49303117ecd17ff790f",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **Floats**: F_b > W → ρ_object < ρ_fluid (object is less dense than fluid)\n- **Sinks**: F_b < W → ρ_object > ρ_fluid (object is denser than fluid)\n- **Neutral buoyancy**: F_b = W → ρ_object = ρ_fluid",
+   "new": "Picture the object held *fully submerged*, then release it:\n\n- **Rises, then floats**: F_b > W → ρ_object < ρ_fluid (less dense than the fluid)\n- **Sinks**: F_b < W → ρ_object > ρ_fluid (denser than the fluid)\n- **Neutrally buoyant, stays put at any depth**: F_b = W → ρ_object = ρ_fluid\n\nThose inequalities describe the fully submerged object. Once a floating object has settled at the surface it displaces less fluid than its own volume, and at rest the two forces are exactly equal again: F_b = W. That equality is what fixes how deep it sits.",
+   "reason": "As published, the bullet 'Floats: F_b > W' contradicts the lesson's own later statement that floating requires F_b = W, and the problem-solving section that applies ΣF = 0 to floating objects. The inequality only holds while the object is fully submerged; at rest on the surface the forces balance exactly. The rewrite keeps both facts and says which situation each describes."
+  },
+  {
+   "field": "questions.816.explanation",
+   "old": "Choice D is a common error where students use water density of 1000 kg/m³ instead of seawater density, yielding 101,325 + 200,000 = 301,325 Pa.",
+   "new": "Choice B, 205,000 Pa, is the gauge pressure ρgh on its own, with the atmosphere above the water left out — the single most common error here. Choice D, 201,325 Pa, adds only half the column, as if the depth were 10 m. Note that using fresh water instead of seawater would give 101,325 + 200,000 = 301,325 Pa, which is close to the correct answer but not among the choices.",
+   "reason": "The published note did not match its own number: the fresh-water slip it describes produces 301,325 Pa, while choice D is 201,325 Pa. The rewrite names the error each distractor actually comes from, and keeps the fresh-water point as a warning rather than a mislabel."
+  },
+  {
+   "field": "questions.817.explanation",
+   "old": "Choice B is tempting if students mistakenly multiply force by area ratio inverted (0.01/0.5), and choice D results from an arithmetic error.",
+   "new": "Inverting the area ratio, 100 × (0.01/0.5), gives 2 N — choice A. Choices B and D, 500 N and 50,000 N, are the correct answer off by a factor of ten in each direction, which is what a misplaced decimal in 0.5/0.01 produces.",
+   "reason": "The published note assigned the inverted-ratio error to choice B, but 100 × (0.01/0.5) = 2 N, which is choice A. Choice D was dismissed as 'an arithmetic error' without saying which. Both are now matched to the slip that produces them."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, University Physics Volume 1 — Fluid statics: hydrostatic pressure, Pascal's principle and Archimedes' principle",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/7-additional-problems"
+  },
+  {
+   "title": "LibreTexts (Gettysburg College, Phys 111) — force balance and equilibrium conventions",
+   "url": "https://phys.libretexts.org/Courses/Gettysburg_College/Phys_111%3A_Physics_Symmetry_and_Conservation/02%3A_Forces_and_Kinematics/2.02%3A_N2)_1_Dimensional_Kinematics/2.2.04%3A_Free_Fall"
+  }
+ ],
+ "visual": {
+  "title": "Depth sets pressure; density sets how deep it floats",
+  "src": "/lesson-diagrams/fluid-statics-depth-and-buoyancy.svg",
+  "width": 920,
+  "height": 840,
+  "alt": "A tank showing pressure rising by about one atmosphere every ten metres of water with a note that container shape does not matter; two floating blocks showing wood 60 percent submerged and ice 92 percent submerged, equal to the ratio of densities; a hydraulic lift where 200 newtons on a small piston supports 10,000 newtons on a large one; and a standing body column with pressure about 100 mmHg higher at the feet and 30 mmHg lower at the brain than at the heart.",
+  "caption": "Pressure depends on depth and fluid density alone, so a narrow tube and a wide tank reach the same pressure at the same depth. Buoyancy depends on the fluid's density and the volume displaced, which is why the submerged fraction is just the ratio of the two densities.",
+  "beforeHeading": "## Hydrostatic Pressure: Pressure as a Function of Depth"
+ }
+}
