@@ -1,0 +1,45 @@
+{
+ "lessonId": 169,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  841,
+  842,
+  843,
+  844,
+  845
+ ],
+ "fingerprint": "cf79b2e876a984fffc48f52bb417d4b37e1d51db3867d3abfe8128ae52b466bd",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "The critical pattern: sound travels *faster* in denser, stiffer media. This seems counterintuitive because we often associate density with resistance to motion, but the restoring force (related to bulk modulus or Young's modulus) increases more dramatically than density as you move from gas to liquid to solid.",
+   "new": "The critical pattern: sound travels *faster* in stiffer media, while density works the other way — it sits in the denominator of v = √(B/ρ), so at a given stiffness a denser medium carries sound more slowly. Solids and liquids are fast in spite of their density, not because of it: going from gas to liquid to solid, the bulk or Young's modulus rises far more steeply than the density does. Water's bulk modulus, for instance, is roughly 20,000 times that of air while its density is only about 800 times greater.",
+   "reason": "\"Faster in denser media\" states the opposite of the proportionality in the equation the lesson gives two lines later, v = √(B/ρ). The companion lesson on wave properties carried the same error and has been corrected the same way; a student doing proportional reasoning on either would get the density dependence backwards."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Anesthesia and muscle relaxants:** Reducing blood viscosity (e.g., in hemodilution) increases turbulence and can produce flow murmurs, testable in a combined physiology/physics passage.",
+   "new": "- **Hemodilution and flow murmurs:** Reducing blood viscosity — in anemia, or with intraoperative hemodilution — raises the Reynolds number (Re = ρvd/η) and pushes flow toward turbulence, which is why these patients often develop flow murmurs. A natural combined physiology/physics passage.",
+   "reason": "The heading named anaesthesia and muscle relaxants, which have nothing to do with the viscosity-and-turbulence point the bullet actually makes; neither agent class changes blood viscosity. The heading now matches its content, and the Reynolds relationship is named so the mechanism is checkable."
+  }
+ ],
+ "sources": [
+  {
+   "title": "LibreTexts (Georgia State) — v = √(B/ρ): the more rigid the medium the faster the sound, with density in the denominator",
+   "url": "https://phys.libretexts.org/Courses/Georgia_State_University/GSU-TM-Physics_I_(2211)/11%3A_Waves/11.06%3A_Speed_of_Sound"
+  },
+  {
+   "title": "Fiveable, Fluid Dynamics — water's bulk modulus is ~20,000× air's while its density is only ~800× greater",
+   "url": "https://fiveable.me/fluid-dynamics/unit-6/speed-sound/study-guide/gGYx91UsZmcqXBfA"
+  }
+ ],
+ "visual": {
+  "title": "The decibel ladder, the spreading sphere, and the crowded wavefront",
+  "src": "/lesson-diagrams/decibels-inverse-square-and-doppler.svg",
+  "width": 920,
+  "height": 830,
+  "alt": "A decibel ladder from the 0 dB threshold of hearing to the 120 dB threshold of pain with the matching intensities and the rules that ten times the intensity adds 10 dB and twice adds 3 dB; the inverse square law drawn as spreading arcs with intensity falling to a quarter and a ninth; a moving source with wavefronts crowded ahead and stretched behind, with the Doppler formula; and an ultrasound panel with the impedance mismatch that makes gel necessary, the cosine factor and the pulse-echo depth formula.",
+  "caption": "Decibels are a logarithm, so intensities add but decibel numbers do not — two 60 dB sources make 63 dB. The Doppler shift comes from wavefronts being crowded ahead of a closing source, which is also why an ultrasound beam aimed perpendicular to flow reports no flow at all.",
+  "beforeHeading": "## Sound Intensity"
+ }
+}
