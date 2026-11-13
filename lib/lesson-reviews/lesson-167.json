@@ -1,0 +1,45 @@
+{
+ "lessonId": 167,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  831,
+  832,
+  833,
+  834,
+  835
+ ],
+ "fingerprint": "3f76f09f5e1f75e04e51dfa0f1c7af6bba686747d49dfbe09f95a3c17a4a1c4f",
+ "patches": [
+  {
+   "field": "questions.834.explanation",
+   "old": "Choice C is incorrect because surface molecules actually have slightly lower kinetic energy on average; evaporation preferentially removes the highest-energy surface molecules.",
+   "new": "Choice C is incorrect because kinetic energy is not what distinguishes the surface: a liquid at thermal equilibrium has the same mean molecular kinetic energy everywhere, since that is what its temperature measures. What differs at the surface is *potential* energy — a surface molecule has fewer attractive neighbours, so it sits higher in energy, and that energy cost per unit area is exactly what γ measures.",
+   "reason": "The published explanation claimed surface molecules have lower average kinetic energy. At equilibrium the mean kinetic energy is uniform throughout the liquid — it is the definition of temperature — and the asymmetry that creates surface tension is in potential energy, not kinetic. (Evaporative cooling removes the fastest molecules, but that is a non-equilibrium process and does not make the surface permanently colder.) The corrected version also connects the asymmetry directly to γ as energy per unit area, which is how the lesson defines it."
+  },
+  {
+   "field": "questions.831.explanation",
+   "old": "A common mistake is to think the area (proportional to r^2) is the relevant factor, which would predict a fourfold increase, but the geometry of the meniscus depends on the radius linearly.",
+   "new": "The reason for the inverse dependence is worth seeing: surface tension pulls along the contact line, whose length is the perimeter 2πr, while the weight it must hold up is that of a column of cross-section πr². Setting γ(2πr)cosθ = ρgh(πr²) leaves one factor of r in the denominator, so h ∝ 1/r. A common mistake is to use the area (∝ r²) and predict a fourfold increase.",
+   "reason": "The published note dismissed the r² error by asserting that 'the geometry of the meniscus depends on the radius linearly', which explains nothing. The actual reason — force scales with the perimeter while weight scales with the area, leaving one net factor of r — is the derivation the lesson already gives a few sections earlier, and it is what makes the 1/r relationship memorable."
+  }
+ ],
+ "sources": [
+  {
+   "title": "LibreTexts (Gettysburg College, Phys 111) — temperature as a measure of mean molecular kinetic energy",
+   "url": "https://phys.libretexts.org/Courses/Gettysburg_College/Phys_111%3A_Physics_Symmetry_and_Conservation/02%3A_Forces_and_Kinematics/2.02%3A_N2)_1_Dimensional_Kinematics/2.2.04%3A_Free_Fall"
+  },
+  {
+   "title": "OpenStax, University Physics Volume 1 — surface tension and capillary action",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/7-additional-problems"
+  }
+ ],
+ "visual": {
+  "title": "The surface, the sphere, and the narrow tube",
+  "src": "/lesson-diagrams/surface-tension-laplace-and-capillarity.svg",
+  "width": 920,
+  "height": 820,
+  "alt": "A molecular picture contrasting a bulk molecule pulled evenly in all directions with a surface molecule pulled only inward; two alveoli joined by an airway, the smaller at higher pressure emptying into the larger, with a note that surfactant lowers surface tension more as an alveolus shrinks; capillary rise higher in a narrow tube than a wide one, with mercury sitting lower inside its tube; and a table of surface tension values with the Laplace equations.",
+  "caption": "A molecule at the surface is missing half its neighbours, and γ is the energy price of that. The same γ then sets two things the MCAT asks about constantly: the pressure inside a small sphere, 2γ/R, and how high a liquid climbs a narrow tube, 2γcosθ/ρgr.",
+  "beforeHeading": "## The Young-Laplace Equation"
+ }
+}
