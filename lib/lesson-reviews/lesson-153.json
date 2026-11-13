@@ -1,0 +1,51 @@
+{
+ "lessonId": 153,
+ "reviewedAt": "2026-11-12",
+ "questionIds": [
+  761,
+  762,
+  763,
+  764,
+  765
+ ],
+ "fingerprint": "113b31e3958157b17639d8eb84e88a2d19781200ebc689f40247f4755427e061",
+ "patches": [
+  {
+   "field": "questions.763.correct_answer",
+   "old": "A",
+   "new": "B",
+   "reason": "The electron transport chain is a galvanic system, not an electrolytic one. An electrolytic cell is defined by an *external* power source driving a non-spontaneous reaction; nothing outside the mitochondrion drives the ETC. The proton pumping is uphill on its own, but it is paid for by the spontaneous electron drop from NADH to O₂ that it is coupled to — exactly how a galvanic cell does electrical work. The lesson body says so three times, calling the ETC “a biological galvanic cell writ large” and “the battery” of the system, so the keyed answer also contradicted its own lesson."
+  },
+  {
+   "field": "questions.763.choice_a",
+   "old": "Electrolytic deposition, because energy input is required to move protons against their concentration gradient",
+   "new": "An electrolytic cell, because an external energy source is needed to move protons against their gradient",
+   "reason": "Sharpened into a clean distractor. The old wording said only that 'energy input is required', which is true of any coupled uphill step and made the choice defensible; naming the external source identifies precisely what an electrolytic cell has and the ETC does not."
+  },
+  {
+   "field": "questions.763.explanation",
+   "old": "Proton pumping against a concentration gradient requires energy input from electron transfer reactions, analogous to an electrolytic cell where external energy drives a non-spontaneous process. While the overall ETC electron flow is spontaneous (like a galvanic cell), the specific act of pumping protons against their gradient is the non-spontaneous, energy-consuming step. Choice B describes the overall directionality of electron flow but does not capture the energy-requiring nature of proton pumping against a gradient.",
+   "new": "Electrons fall from NADH (E°' = −0.32 V) to O₂ (E°' = +0.82 V), a drop of 1.14 V and about −220 kJ/mol. That is a spontaneous redox reaction doing work on its surroundings, which is exactly what a galvanic cell is. The work it does happens to be pumping protons uphill — but a galvanic cell driving a load is still galvanic, just as a battery turning a motor is not an electrolytic cell. Choice A fails on the defining feature of an electrolytic cell: an external power source supplying energy. Nothing outside the mitochondrion supplies energy here; the electron drop pays for the pumping. Choice D inverts cause and effect, since the proton gradient is the product of the chain rather than its driving force.",
+   "reason": "Rewritten for the corrected key. The old explanation conceded in its second sentence that the overall flow is spontaneous and galvanic, then kept A as the answer anyway."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Electrolytic Cells — Chemistry LibreTexts (an electrolytic cell requires an external source of electrical energy)",
+   "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Electrolytic_Cells"
+  },
+  {
+   "title": "Chemiosmosis and the proton-motive force — Chemistry LibreTexts",
+   "url": "https://chem.libretexts.org/Bookshelves/Biological_Chemistry/Supplemental_Modules_(Biological_Chemistry)/Metabolism/Catabolism/Oxidative_Phosphorylation"
+  }
+ ],
+ "visual": {
+  "title": "Counting electrons, in a plating bath and in a mitochondrion",
+  "src": "/lesson-diagrams/faraday-and-etc.svg",
+  "width": 900,
+  "height": 680,
+  "alt": "Two parallel calculation chains. On the left, electrolysis: current times time gives 3600 coulombs, divided by the Faraday constant gives 0.0373 moles of electrons, divided by two electrons per copper ion gives 0.0187 moles of copper, times 63.5 grams per mole gives 1.18 grams plated, summarised as m equals ItM over nF. On the right, the electron transport chain: a 1.14 volt drop from NADH to oxygen, worth about minus 220 kilojoules per mole for two electrons, pumps ten protons across Complexes I, III and IV, and at about four protons per ATP once transport costs are counted that is roughly 2.5 ATP per NADH. A panel notes that oxidation is at the anode and reduction at the cathode in every cell, that only the electrode signs differ between galvanic and electrolytic cells, and that the ETC is galvanic because nothing outside the mitochondrion drives it.",
+  "caption": "Both columns are the same bookkeeping: convert to moles of electrons first, then spend them. In the bath the electrons buy metal; in the mitochondrion they buy a gradient.",
+  "beforeHeading": "## Connecting Electrochemistry to Biology: The Electron Transport Chain"
+ }
+}
