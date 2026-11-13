@@ -1,0 +1,67 @@
+{
+ "lessonId": 155,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  771,
+  772,
+  773,
+  774,
+  775
+ ],
+ "fingerprint": "1ea95bcc34be7fd4c670fe39c8144082af513edbf7f1e5b0f0ce3c895fcce8f9",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Approximately 25% of the physics content on the MCAT involves mechanics, and Newton's laws underpin virtually all of it.",
+   "new": "Introductory physics makes up about 25% of the Chemical and Physical Foundations section — roughly 15 of its 59 questions — and mechanics is the block of that content Newton's laws underpin.",
+   "reason": "The published sentence was a fabricated statistic: the AAMC publishes discipline weightings for the section (general chemistry 30%, biochemistry 25%, introductory physics 25%, organic chemistry 15%, introductory biology 5%) but publishes no figure for the share of physics that is mechanics. The replacement states only the weighting the AAMC actually gives."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The scale reads 720 N, which corresponds to an apparent weight of 72 kg. The person feels heavier.",
+   "new": "The scale reads 720 N — an apparent weight 20% greater than the true weight of 600 N. (A scale calibrated in kilograms would display 72 kg, but that is only how the scale is labelled: the person's mass is still 60 kg.) The person feels heavier.",
+   "reason": "The lesson reported an apparent weight in kilograms, which contradicts its own Trap 1 ('Mass (kg) and weight (N) are not interchangeable... always check units'). Weight is a force in newtons; the 72 kg figure is a scale label, not a mass."
+  },
+  {
+   "field": "lesson.content",
+   "old": "N = 600 − 120 = 480 N (apparent weight = 48 kg, feels lighter)",
+   "new": "N = 600 − 120 = 480 N (apparent weight 480 N, 20% lighter than the true weight; the mass is still 60 kg)",
+   "reason": "Same unit error as the upward-acceleration case: an apparent weight is a force in newtons, and stating it as 48 kg conflicts with the lesson's own warning not to interchange mass and weight."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Spring force (F_s = kx)**: Along the spring axis, restoring toward equilibrium.",
+   "new": "- **Spring force (Hooke's law, F_s = −kx; magnitude kx)**: Along the spring axis, restoring toward equilibrium — the minus sign records that the force opposes the displacement.",
+   "reason": "Hooke's law is F = −kx. Written as F_s = kx the equation says the force points along the displacement rather than against it, which is the opposite of the restoring behaviour described in the same line."
+  },
+  {
+   "field": "questions.773.explanation",
+   "old": "Choice B is tempting because students may incorrectly use cos(30°) instead of sin(30°) for the vertical component, or confuse the angle reference. Drawing a proper free-body diagram clarifies which trigonometric function applies to each component.",
+   "new": "Choice A, 50 N, comes from splitting the weight evenly between two cables and forgetting that each cable pulls at an angle, so only part of its tension is vertical. Choice B, 87 N, is the horizontal component of each tension (100 × cos 30° ≈ 87 N) — a real quantity in this problem (the two horizontal components cancel), but not the tension itself. Choice D, 173 N, comes from using tan 30° in place of sin 30°. Drawing the free-body diagram and resolving each tension into components shows that only the vertical parts, T sin 30°, hold up the weight.",
+   "reason": "The published analysis of choice B was arithmetically wrong: using cos 30° in place of sin 30° gives 100 / (2 × 0.866) ≈ 58 N, not 87 N. The rewritten explanation traces each distractor to the calculation that actually produces it (87 N is the horizontal component, 173 N comes from tan 30°, 50 N from ignoring the angle), so a student who picked one can find their own error."
+  }
+ ],
+ "sources": [
+  {
+   "title": "AAMC — Chemical and Physical Foundations of Biological Systems: discipline weightings (introductory physics 25%)",
+   "url": "https://students-residents.aamc.org/media/8981/download"
+  },
+  {
+   "title": "OpenStax, University Physics Volume 1 §3.5 Free Fall — g as a positive magnitude, weight as a force in newtons",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/3-5-free-fall"
+  },
+  {
+   "title": "Kaplan — What's Tested on the MCAT: Chem/Physics (section discipline percentages)",
+   "url": "https://www.kaptest.com/study/mcat/whats-tested-on-the-mcat-chemistry-and-physics/"
+  }
+ ],
+ "visual": {
+  "title": "Three standard free-body diagrams, and what is not a third-law pair",
+  "src": "/lesson-diagrams/fbd-flat-incline-elevator.svg",
+  "width": 920,
+  "height": 600,
+  "alt": "Three free-body diagrams: a block on a flat surface with weight, normal force and applied force giving N = mg and a = F/m; a block on an incline with tilted axes giving N = mg cos theta and sliding only when tan theta exceeds the coefficient of static friction; and a person on an elevator scale with N = m(g+a) accelerating upward, N = mg at rest, and N = 0 in free fall. A footer shows two genuine third-law pairs and notes that weight and normal force on a resting book are not a pair.",
+  "caption": "Every force in a diagram acts on the object; forces the object exerts on other things belong in their diagrams, not this one. The normal force equals mg only on a flat surface with no vertical acceleration — on an incline it is mg cos θ, and in an accelerating elevator it is m(g ± a).",
+  "beforeHeading": "## Free-Body Diagrams: The Systematic Approach"
+ }
+}
