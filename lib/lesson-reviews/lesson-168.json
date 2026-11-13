@@ -1,0 +1,49 @@
+{
+ "lessonId": 168,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  836,
+  837,
+  838,
+  839,
+  840
+ ],
+ "fingerprint": "4c56ecaadb5dc3d96aa9b21a2bde23895bdc08a75af371bf2504a44a3a669a71",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- Sound travels **faster in denser, stiffer materials**. The stiffness effect dominates over density. Sound travels at ~343 m/s in air, ~1480 m/s in water, and ~5100 m/s in steel.",
+   "new": "- Sound travels **faster in stiffer materials** and *slower* in denser ones — density sits in the denominator of √(B/ρ). Solids and liquids are fast not because they are dense but in spite of it: water's bulk modulus is roughly 20,000 times that of air while its density is only about 800 times greater, so the stiffness wins by a wide margin. Sound travels at ~343 m/s in air, ~1480 m/s in water, and ~5100 m/s in steel.",
+   "reason": "\"Faster in denser materials\" states the opposite of what v = √(B/ρ) says: at fixed stiffness, greater density means slower sound. The lesson's own next sentence half-corrected this, but a student scanning the bullet would carry away the wrong proportionality — and the MCAT asks it as a proportional-reasoning question. The revision keeps the comparison and shows why water beats air despite being denser."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Sound travels **faster at higher temperatures** because increased thermal energy increases molecular collision frequency and the effective bulk modulus of the gas. In air, speed increases by about 0.6 m/s per °C.",
+   "new": "- Sound travels **faster at higher temperatures**: in an ideal gas v = √(γRT/M), so the speed rises with the square root of the *absolute* temperature. The mechanism is worth getting right — heating air at constant pressure does not raise its bulk modulus (that is γP, fixed by the pressure); it lowers the density, and the smaller ρ under the square root is what raises the speed. The same accounting explains why the speed of sound in a gas is independent of pressure: raising P raises B and ρ in the same proportion. In air, the speed increases by about 0.6 m/s per °C.",
+   "reason": "The stated mechanism was wrong. The adiabatic bulk modulus of an ideal gas is γP, which does not change when the gas is heated at constant pressure; what changes is the density, and v = √(γRT/M) follows. Giving the correct account also delivers the related fact the MCAT tests — that the speed of sound in a gas depends on temperature but not on pressure."
+  }
+ ],
+ "sources": [
+  {
+   "title": "LibreTexts (Georgia State) — v = √(B/ρ) in a fluid, √(Y/ρ) in a solid, √(γRT/M) in an ideal gas; the more rigid the medium, the faster the sound",
+   "url": "https://phys.libretexts.org/Courses/Georgia_State_University/GSU-TM-Physics_I_(2211)/11%3A_Waves/11.06%3A_Speed_of_Sound"
+  },
+  {
+   "title": "University of Texas (Fitzpatrick) — the speed of sound in an ideal gas depends only on temperature and is independent of pressure",
+   "url": "https://farside.ph.utexas.edu/teaching/355/Surveyhtml/node210.html"
+  },
+  {
+   "title": "Fiveable, Fluid Dynamics — water's bulk modulus is ~20,000× that of air while its density is only ~800× greater, which is why sound is faster in water",
+   "url": "https://fiveable.me/fluid-dynamics/unit-6/speed-sound/study-guide/gGYx91UsZmcqXBfA"
+  }
+ ],
+ "visual": {
+  "title": "Wave anatomy, who sets what, and which harmonics fit",
+  "src": "/lesson-diagrams/wave-anatomy-and-harmonics.svg",
+  "width": 920,
+  "height": 830,
+  "alt": "A transverse wave labelled with crest, trough, amplitude and wavelength above a longitudinal wave drawn as alternating compressions and rarefactions; a panel assigning frequency to the source, speed to the medium and wavelength to whatever v = f lambda requires, with the boundary-crossing rule; standing-wave harmonics for a string or open pipe where every harmonic fits and the fundamental wavelength is 2L, against a closed pipe where only odd harmonics fit and the fundamental is 4L; and a table of standard values.",
+  "caption": "Frequency belongs to the source and speed belongs to the medium, so when a wave crosses a boundary it is the wavelength that gives way. A closed pipe fits only odd harmonics because one end must be a node and the other an antinode.",
+  "beforeHeading": "## Fundamental Wave Descriptors"
+ }
+}
