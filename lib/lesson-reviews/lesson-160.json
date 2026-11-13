@@ -1,0 +1,57 @@
+{
+ "lessonId": 160,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  796,
+  797,
+  798,
+  799,
+  800
+ ],
+ "fingerprint": "7ff2f7d4c2736dfb86c484d2118a2af82e1e1cfac73722d338b464fce915907d",
+ "patches": [
+  {
+   "field": "questions.798.explanation",
+   "old": "For Machine X: P_out = 6000/20 = 300 W, so P_in = 300/0.75 = 400 W. For Machine Y: P_out = 6000/30 = 200 W, so P_in = 200/0.50 = 400 W. Wait, both equal 400 W, making them equal. Re-examining: Machine X P_in = 400 W, Machine Y P_in = 400 W. The correct answer is D.",
+   "new": "Work out each machine's input power separately. Machine X: P_out = 6000/20 = 300 W, so P_in = 300/0.75 = 400 W. Machine Y: P_out = 6000/30 = 200 W, so P_in = 200/0.50 = 400 W. The two are equal, so the answer is D.",
+   "reason": "The published explanation argued with itself in front of the student — \"Wait, both equal 400 W, making them equal. Re-examining:\" — and then restated the same two numbers. The arithmetic and the keyed answer were right; only the presentation needed cleaning up so it reads as a worked solution rather than a draft."
+  },
+  {
+   "field": "questions.796.question_text",
+   "old": "If the motor operates at 60% efficiency, what is the actual power input required by the motor?",
+   "new": "If the motor operates at 60% efficiency, what is the actual power input required by the motor? (Use g = 9.8 m/s².)",
+   "reason": "The answer choices were built with g = 9.8 m/s² (980 W of useful output, 1633 W of input), but this lesson and the rest of the series tell students to use g = 10 m/s², which gives 1000 W and 1667 W — not among the choices. Naming the value in the stem makes the keyed answer reachable instead of leaving the student to reverse-engineer which g was intended."
+  },
+  {
+   "field": "questions.796.explanation",
+   "old": "The useful power output needed is P_out = mgh/t = (200)(10)(15)/30 = 1000 W. Since efficiency = P_out/P_in, P_in = P_out/efficiency = 1000/0.60 = 1667 W, approximately 1633 W. Choice A represents only the useful output power without accounting for efficiency. Choice C doubles the output power incorrectly, and D ignores the time factor entirely.",
+   "new": "The useful power output is P_out = mgh/t = (200)(9.8)(15)/30 = 980 W. Since efficiency = P_out/P_in, the input is P_in = P_out/η = 980/0.60 ≈ 1633 W. Choice A, 980 W, is the useful output with the efficiency ignored — the classic error of forgetting that a real motor must draw more than it delivers. Choices C and D are three and five times the useful output, which no step of this calculation produces. (With the MCAT's usual g = 10 m/s² the numbers would be 1000 W and 1667 W, so watch for the value the question specifies.)",
+   "reason": "The published explanation computed 1667 W with g = 10 and then asserted that this was 'approximately 1633 W', which it is not — the two differ by 2%, and the 1633 W choice comes from g = 9.8. The corrected version uses the value the choices were built on and flags the discrepancy. The distractor notes were also wrong: 2940 W is not double anything in the problem, and 4900 W is not mgh (29,400 J), so neither description matched its number."
+  },
+  {
+   "field": "lesson.content",
+   "old": "*Static friction* is also non-conservative in the sense that it can do zero net work (when surfaces do not slide), but it does not dissipate energy.",
+   "new": "*Static friction* acts where the surfaces are not sliding, so the contact point is instantaneously at rest and static friction does no work there and dissipates no energy — it is sliding that generates heat.",
+   "reason": "The published sentence was self-contradictory: being 'non-conservative in the sense that it can do zero net work' describes nothing, since doing zero work is not what makes a force non-conservative. The rewrite states the fact the MCAT actually tests — no sliding, no dissipation — and says why."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, University Physics Volume 1 — Work, power and the work-energy theorem (P = W/t = Fv)",
+   "url": "https://openstax.org/books/university-physics-volume-1/pages/7-additional-problems"
+  },
+  {
+   "title": "Jacobs Physics — a contact force does work only when the contact point itself moves",
+   "url": "https://jacobsphysics.blogspot.nl/2013/10/can-normal-force-do-work.html"
+  }
+ ],
+ "visual": {
+  "title": "Efficiency divides, stages multiply, and the rest becomes heat",
+  "src": "/lesson-diagrams/power-efficiency-and-dissipation.svg",
+  "width": 920,
+  "height": 770,
+  "alt": "An energy-flow bar for a muscle at 25 percent efficiency: 2000 joules of chemical energy in, splitting into 500 joules of useful work and 1500 joules of heat. Beside it, the four power formulas P = W/t, P = Fv, P = pressure times flow rate, and P = friction force times speed. Below, three rules: efficiency divides so the input exceeds the output, stage efficiencies multiply, and dissipated energy becomes heat rather than disappearing.",
+  "caption": "Efficiency always divides: a 25% muscle needs four joules in for every joule of work out, and the other three become heat. Stage efficiencies multiply, so two 80% stages give 64%.",
+  "beforeHeading": "## Mechanical Efficiency"
+ }
+}
