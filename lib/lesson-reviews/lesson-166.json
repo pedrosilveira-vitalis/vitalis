@@ -1,0 +1,61 @@
+{
+ "lessonId": 166,
+ "reviewedAt": "2026-11-13",
+ "questionIds": [
+  826,
+  827,
+  828,
+  829,
+  830
+ ],
+ "fingerprint": "05928fadbe73c111757c5c4c702a2b31cd9c2767beaf8a7bc679926db7fbd44f",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "In the aorta at peak systole, Re can approach 3000–4000, meaning flow is near the turbulent transition—which is why the first heart sound and aortic flow are audible with a stethoscope.",
+   "new": "In the aorta at peak systole, Re can approach 3000–4000, meaning flow is near the turbulent transition — which is why disturbed aortic flow becomes audible as a murmur or bruit as soon as a valve or vessel narrows. Be careful not to extend this to the normal heart sounds: S1 is produced by closure of the mitral and tricuspid valves and S2 by closure of the aortic and pulmonic valves. Turbulence is what you hear in murmurs and bruits, not in S1 and S2.",
+   "reason": "The published sentence attributed the first heart sound to turbulent aortic flow. S1 is produced by closure of the atrioventricular (mitral and tricuspid) valves at the start of isovolumetric contraction, and S2 by closure of the semilunar valves; murmurs and bruits, not the normal heart sounds, are the sounds of turbulence. This is a distinction the MCAT tests directly, and the lesson taught the wrong half of it."
+  },
+  {
+   "field": "lesson.content",
+   "old": "which means mean velocity is lowest here (~0.5–1 mm/s)",
+   "new": "which means mean velocity is lowest here (~0.3–1 mm/s, depending on the vascular bed and the source)",
+   "reason": "The standard physiology figure for mean capillary velocity is about 0.3 mm/s (Guyton), which is the value the continuity-equation lesson in this series uses; other sources quote 0.5–1 mm/s. Widening the range keeps this lesson consistent with the companion lesson rather than quoting a number a student would find contradicted a few pages earlier."
+  },
+  {
+   "field": "questions.830.choice_b",
+   "old": "The total cross-sectional area of the venous system is large, keeping velocity and turbulence low.",
+   "new": "Veins have large radii and run largely in parallel, and resistance falls with the fourth power of radius.",
+   "reason": "The keyed answer gave a reason that is not actually the cause of low venous resistance. In laminar Poiseuille flow, resistance (8ηL/πr⁴) does not depend on velocity at all; low velocity is a consequence of the large total cross-section, not the explanation for low resistance. A student reasoning correctly could reject the keyed choice. The rewritten option states the real mechanism and keeps B as the answer."
+  },
+  {
+   "field": "questions.830.explanation",
+   "old": "When multiple vessels run in parallel, total resistance decreases significantly. The large aggregate cross-sectional area of veins means blood moves slowly and flow remains laminar, minimizing energy loss. Wall thickness affects structural integrity, not viscous resistance.",
+   "new": "Resistance is 8ηL/πr⁴, so the large radii of veins make each one a low-resistance conduit, and running many of them in parallel (1/R_total = Σ1/R) lowers the total further. The low velocity in the venous system is a consequence of its large total cross-sectional area, not the cause of the low resistance — in laminar flow, resistance does not depend on velocity at all. Wall thickness affects structural integrity, not viscous resistance.",
+   "reason": "The explanation blended two distinct ideas and implied that slow flow is what makes venous resistance low. Separating the cause (large radius, parallel arrangement) from the consequence (slow flow) matches the Poiseuille relationship the lesson teaches."
+  }
+ ],
+ "sources": [
+  {
+   "title": "CV Physiology — S1 is caused by closure of the mitral and tricuspid valves, S2 by closure of the aortic and pulmonic valves",
+   "url": "https://cvphysiology.com/heart-disease/hd010"
+  },
+  {
+   "title": "Virginia Tech, Cardiovascular Pathophysiology — a murmur is the sound of turbulence, distinct from the heart sounds associated with valve closure",
+   "url": "https://pressbooks.lib.vt.edu/cardiovascularpathophysiology/?p=38"
+  },
+  {
+   "title": "Guyton and Hall, Textbook of Medical Physiology, ch. 14 — capillary velocity about 1/1000 of the aortic 33 cm/s, i.e. ~0.3 mm/s",
+   "url": "https://tsmu.edu/ts/images/file/1591281191Med.Physiology_Circulation.pdf"
+  }
+ ],
+ "visual": {
+  "title": "The fourth power, the parabola, and the Reynolds threshold",
+  "src": "/lesson-diagrams/poiseuille-r4-and-reynolds.svg",
+  "width": 920,
+  "height": 810,
+  "alt": "Bars showing flow falling to 41, 32 and 6 percent as the radius drops to 0.8, 0.75 and 0.5 of its original value; a parabolic velocity profile with zero velocity at the walls and the mean equal to half the maximum; the resistance formula 8 eta L over pi r to the fourth with the Ohm's law analogy and series and parallel rules; and the Reynolds scale from laminar below 2000 to turbulent above 4000.",
+  "caption": "Because flow follows r⁴, a quarter off the radius takes two thirds of the flow — which is why arteriolar tone, not pressure, is how the body routes blood. The same formula read as resistance, 8ηL/πr⁴, behaves exactly like a circuit, adding in series and in parallel.",
+  "beforeHeading": "## Poiseuille's Law"
+ }
+}
