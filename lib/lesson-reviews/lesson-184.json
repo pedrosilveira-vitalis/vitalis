@@ -1,0 +1,32 @@
+{
+ "lessonId": 184,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  916,
+  917,
+  918,
+  919,
+  920
+ ],
+ "fingerprint": "37d989579a297142d696f2056a32088b8385cc8edf09045a2ed4954b1c5503d7",
+ "patches": [],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §6.2 — classical conditioning: Pavlov's procedure, acquisition, extinction, spontaneous recovery, generalization and discrimination",
+   "url": "https://openstax.org/books/psychology/pages/6-2-classical-conditioning"
+  },
+  {
+   "title": "OpenStax, Psychology, ch. 6 summary — instincts and reflexes as innate, and the three basic forms of learning",
+   "url": "https://openstax.org/books/psychology/pages/6-summary"
+  }
+ ],
+ "visual": {
+  "title": "Naming the four parts, and the shape of the curve",
+  "src": "/lesson-diagrams/classical-conditioning-terms-and-curves.svg",
+  "width": 920,
+  "height": 860,
+  "alt": "The four conditioning labels laid out before, during and after training, with food as the unconditioned stimulus producing salivation as the unconditioned response, the bell presented about half a second before the food, and the bell afterwards producing a usually weaker conditioned response; a curve of conditioned-response strength rising through acquisition, falling through extinction, and reappearing by itself after a rest; a generalisation gradient falling away from the trained stimulus; and a panel on taste aversion as the exception, with the amygdala for fear conditioning and the cerebellum for eyeblink conditioning.",
+  "caption": "Label the unconditioned pair first — the thing that works without training and the reflex it produces — and the conditioned pair is whatever is left. Spontaneous recovery after a rest is the evidence that extinction never deleted the original association.",
+  "beforeHeading": "## Acquisition, Extinction, and Spontaneous Recovery"
+ }
+}
