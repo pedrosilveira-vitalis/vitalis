@@ -1,0 +1,45 @@
+{
+ "lessonId": 185,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  921,
+  922,
+  923,
+  924,
+  925
+ ],
+ "fingerprint": "2673d76c80376d909ed5e2dc29c24215fd98161b6bd1557fbc5ef9a96f49c7fb",
+ "patches": [
+  {
+   "field": "questions.924.explanation",
+   "old": "Simultaneous CS-UCS presentation is actually a weaker conditioning procedure than forward pairing. Increasing CS intensity during extinction would not strengthen the original association and would not slow extinction.",
+   "new": "Simultaneous CS-UCS presentation is a weaker conditioning procedure than forward pairing, so it would make extinction faster, not slower. Increasing CS intensity during extinction does not strengthen the original association. Choice B is the one worth thinking through: spacing the acquisition trials does produce somewhat more durable conditioning, but it slows extinction far less than partial reinforcement does, because the organism still learns that the CS is always followed by the UCS and so notices immediately when that stops. The question asks which condition slows extinction most effectively, and that is the partial schedule.",
+   "reason": "The published explanation addresses only choices A and D and leaves B unanswered, even though the lesson's own text states that spaced trials produce \"stronger and more durable conditioning\" than massed trials — which makes B defensible as written. Naming why the partial schedule wins closes the ambiguity rather than leaving the student to guess."
+  },
+  {
+   "field": "questions.925.explanation",
+   "old": "Spontaneous recovery is the return of an extinguished CR after a period of time or following a change in context, and it can be triggered or enhanced by stressors.",
+   "new": "Spontaneous recovery is the return of an extinguished CR after a period of time has passed, and stress can enhance it. Note that it is the passage of time that defines it: a return of fear caused specifically by testing in a different place is renewal, and a return caused by a fresh encounter with the UCS alone is reinstatement. Here the patient is in the same elevators with no new aversive event, and weeks have passed since treatment, so spontaneous recovery is the right label.",
+   "reason": "As written, the sentence defines spontaneous recovery as a return of the CR \"after a period of time or following a change in context\", which folds renewal into the definition and contradicts the lesson's own section distinguishing the two. The MCAT tests exactly that distinction, so the explanation needs to keep the three return-of-fear effects separate."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §6.2 — acquisition, extinction, spontaneous recovery, generalization and discrimination in classical conditioning",
+   "url": "https://openstax.org/books/psychology/pages/6-2-classical-conditioning"
+  },
+  {
+   "title": "OpenStax, Psychology, ch. 6 summary — the three basic forms of learning and how conditioned responses are acquired and lost",
+   "url": "https://openstax.org/books/psychology/pages/6-summary"
+  }
+ ],
+ "visual": {
+  "title": "Prediction, blocking, and why fear comes back",
+  "src": "/lesson-diagrams/prediction-blocking-and-the-return-of-the-cr.svg",
+  "width": 920,
+  "height": 872,
+  "alt": "Blocking shown in two phases, with a tone trained to predict shock and a light later added that is barely learned, under the Rescorla-Wagner rule; the four ways an extinguished response returns — spontaneous recovery after time, renewal in another context, reinstatement after the US alone, and rapid reacquisition on re-pairing; a generalisation gradient narrowing after discrimination training with its peak shifted away from the unreinforced stimulus; and a list of what makes a CS easy or hard to learn, including latent inhibition, overshadowing, preparedness and second-order conditioning.",
+  "caption": "The through-line is prediction: a CS that adds no information is barely learned, and extinction teaches a second, competing prediction rather than deleting the first — which is why all four of those return effects exist.",
+  "beforeHeading": "## Conditions That Strengthen or Weaken Conditioned Associations"
+ }
+}
