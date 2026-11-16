@@ -1,0 +1,39 @@
+{
+ "lessonId": 188,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  936,
+  937,
+  938,
+  939,
+  940
+ ],
+ "fingerprint": "04f45e2f00f6d492493ac6ee1c7598a6f6fa4b94d6c97ec95c60ee75b35c730a",
+ "patches": [
+  {
+   "field": "questions.937.explanation",
+   "old": "Choice C is incorrect because the experiments showed broad imitation regardless of similarity.",
+   "new": "Choice C is incorrect because of the word \"only\". Similarity does matter — Bandura found children imitated same-sex models more readily, along with models who were warm, competent or high in status — but similarity is one influence on how much imitation occurs, not a precondition for any of it.",
+   "reason": "The published sentence states that imitation was broad \"regardless of similarity\", which contradicts this lesson's own section on model characteristics (\"children were more likely to imitate models who were similar to themselves (same sex)\"). The real flaw in choice C is its claim that similarity is necessary, not that similarity is irrelevant."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §6.4 — observational learning and modelling, including the Bobo doll studies and the four steps of attention, retention, reproduction and motivation",
+   "url": "https://openstax.org/books/psychology/pages/6-4-observational-learning-modeling"
+  },
+  {
+   "title": "OpenStax, Psychology, ch. 6 summary — the three basic forms of learning and how observational learning differs from conditioning",
+   "url": "https://openstax.org/books/psychology/pages/6-summary"
+  }
+ ],
+ "visual": {
+  "title": "The four steps, and what the 1965 follow-up proved",
+  "src": "/lesson-diagrams/observational-learning-and-self-efficacy.svg",
+  "width": 920,
+  "height": 860,
+  "alt": "The four processes of observational learning as a chain from attention through retention and reproduction to motivation, each with the thing that breaks it; a bar chart of the 1965 Bobo doll follow-up showing that children who saw the model punished imitated least when left alone but as much as every other group once offered a reward; the four sources of self-efficacy drawn as bars in order of strength from mastery experience down to bodily state; and reciprocal determinism as a triangle of person, behaviour and environment with arrows running both ways.",
+  "caption": "The 1965 bars are the whole point of the lesson: the punished group had learned exactly as much as the rewarded group, and only motivation differed. Learning is what is stored; performance is what you choose to show.",
+  "beforeHeading": "## The Four Processes of Observational Learning"
+ }
+}
