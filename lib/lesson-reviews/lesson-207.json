@@ -1,0 +1,43 @@
+{
+ "lessonId": 207,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1031,
+  1032,
+  1033,
+  1034,
+  1035
+ ],
+ "fingerprint": "fd785806208946e82b11707eeb82135dcb0a8b15c3878b45a2ec34233201b146",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "The most widely accepted explanation invokes **misapplied size constancy**: the arrowhead configurations serve as depth cues suggesting that one line is the inside corner of a room (farther away) and the other is the outside corner of a building (closer).",
+   "new": "The most widely accepted explanation invokes **misapplied size constancy**, and it is worth fixing the direction in memory because it is easy to reverse. The fins that **splay outward** from the ends of the shaft read as the **inside corner of a room**, which recedes away from you; since the brain scales a retinal image up with perceived distance, that shaft looks **longer**. The **arrowheads that close back inward** over the shaft read as the **outside corner of a building**, which juts toward you; that shaft looks **shorter**. Same retinal length, two different distance stories, two different percepts."
+  },
+  {
+   "field": "questions.1032.explanation",
+   "old": "People in carpentered environments learn to associate inward fins with corners receding in depth, making those lines appear longer.",
+   "new": "People in carpentered environments learn to read outward-splaying fins as the inside corner of a room receding away from them, and because perceived size is scaled by perceived distance, that line looks longer; inward-closing arrowheads read as the near outside corner of a building and look shorter."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Illusions Index, University of Edinburgh — the Müller-Lyer illusion, noting the line with outward-pointing arrowheads appears longer and Gregory's distance-scaling account",
+   "url": "https://www.illusionsindex.org/i/mueller-lyer"
+  },
+  {
+   "title": "OpenStax, Psychology §5.1 — sensation versus perception, covering bottom-up and top-down processing",
+   "url": "https://openstax.org/books/psychology/pages/5-1-sensation-versus-perception"
+  }
+ ],
+ "visual": {
+  "title": "The illusion drawn the right way round",
+  "src": "/lesson-diagrams/muller-lyer-constancies-and-illusions.svg",
+  "width": 920,
+  "height": 884,
+  "alt": "Two Müller-Lyer figures of identical shaft length side by side: the left with fins splaying outward, labelled as reading like an inside corner that is farther away and therefore looking longer, and the right with arrowheads closing inward, reading as a nearer outside corner and looking shorter; a list of the five perceptual constancies; and a list of illusions paired with the mechanism each one exposes.",
+  "caption": "Outward fins, inside corner, farther, longer. Reverse any one of those four and the whole chain comes out backwards.",
+  "beforeHeading": "### Geometric Illusions of Size and Length"
+ }
+}
