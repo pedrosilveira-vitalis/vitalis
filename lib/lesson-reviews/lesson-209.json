@@ -1,0 +1,38 @@
+{
+ "lessonId": 209,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1041,
+  1042,
+  1043,
+  1044,
+  1045
+ ],
+ "fingerprint": "09c3ebefbdf23f9fa8389a9b1cb55d2a779b3d9113afb2d53bd04a730c084536",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "while right hemisphere strokes are more likely to produce inappropriate cheerfulness (**pseudobulbar affect** or emotional indifference)",
+   "new": "while right hemisphere strokes are more likely to produce an **indifference reaction** — inappropriate cheerfulness, minimisation of the deficit, and sometimes frank **anosognosia**, in which the patient denies being impaired at all. (Do not confuse this with **pseudobulbar affect**, which is uncontrollable laughing or crying out of proportion to the mood behind it, caused by bilateral corticobulbar damage in conditions such as ALS, multiple sclerosis or brainstem stroke rather than by a single right hemisphere lesion.)"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §10.4 — emotion, covering the James-Lange, Cannon-Bard and Schachter-Singer theories and the limbic structures",
+   "url": "https://openstax.org/books/psychology/pages/10-4-emotion"
+  },
+  {
+   "title": "OpenStax, Anatomy and Physiology §15.1 — divisions of the autonomic nervous system, covering sympathetic and parasympathetic output and the adrenal medulla",
+   "url": "https://openstax.org/books/anatomy-and-physiology/pages/15-1-divisions-of-the-autonomic-nervous-system"
+  }
+ ],
+ "visual": {
+  "title": "Two roads, two clocks, four theories",
+  "src": "/lesson-diagrams/two-roads-to-the-amygdala-and-the-stress-axes.svg",
+  "width": 920,
+  "height": 906,
+  "alt": "A diagram of LeDoux's dual pathways, with a fast thalamus-to-amygdala low road and a slower route through sensory cortex; a comparison of the seconds-long sympathetic and adrenal medullary response with the minutes-to-hours HPA axis running from CRH through ACTH to cortisol; and four cards setting out the James-Lange, Cannon-Bard, Schachter-Singer and Lazarus theories as different orderings of body, appraisal and feeling.",
+  "caption": "The low road is fast because it is permitted to be wrong. The high road arrives later and is what calls the alarm off.",
+  "beforeHeading": "## The Prefrontal Cortex: Regulation and Appraisal"
+ }
+}
