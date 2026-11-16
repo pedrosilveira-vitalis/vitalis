@@ -1,0 +1,51 @@
+{
+  "lessonId": 178,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    886,
+    887,
+    888,
+    889,
+    890
+  ],
+  "fingerprint": "43db3fffd1906609a98e24b1538ad2a903a2d8e96e10d19768f7bf32c94ff599",
+  "patches": [
+    {
+      "field": "questions.887.explanation",
+      "old": "Wait, re-checking: I = 9/2 = 4.5 A, so the correct answer is D. Actually the correct answer is D: 4.5 A. The tempting wrong answer is 3 A, which might arise from incorrectly averaging the resistances or applying series formulas.",
+      "new": "Each distractor is the same Ohm's law step with the wrong equivalent resistance: 1 A uses 9 Ω, the series sum; 2 A uses 4.5 Ω, the average of the two resistances; and 3 A uses 3 Ω, the smaller branch alone. The quick check on any parallel answer is that the equivalent resistance must come out below the smaller resistor, so 2 Ω is plausible and 4.5 Ω or 9 Ω cannot be.",
+      "reason": "The published explanation corrects itself mid-paragraph (\"Wait, re-checking\") and states the answer three times, and its account of the 3 A distractor is wrong — averaging the resistances gives 4.5 Ω and therefore 2 A, not 3 A."
+    },
+    {
+      "field": "questions.888.explanation",
+      "old": "A common error is using P = IR and solving incorrectly, or using P = I^2R without first finding current. Choice B (3 ohms) may result from arithmetic errors in applying the formula.",
+      "new": "Each wrong choice is a recognisable slip. Choice B, 3 Ω, is really the current: I = P/V = 36/12 = 3 A, the right calculation reported in the wrong units. Choice A, 0.25 Ω, inverts the formula to P/V² = 36/144. Choice D, 432 Ω, multiplies P by V instead of dividing V² by P. Checking units at the end catches all three.",
+      "reason": "The published note cites \"P = IR\", which is not a formula, and dismisses the 3 Ω choice as an arithmetic error when it is in fact the current in amperes — the single most instructive trap in this item."
+    },
+    {
+      "field": "questions.889.explanation",
+      "old": "The tempting wrong answer is 4 A, which might result from subtracting I2 - I4 = 5 - 2 = 3 and adding I1 incorrectly, or forgetting to include I4 as a leaving current.",
+      "new": "Choice D, 10 A, comes from treating I4 as a current entering the node (3 + 5 + 2) instead of leaving it, and choice A just repeats I4 itself. The reliable habit is to write the rule as a single equation before substituting anything: I1 + I2 = I3 + I4, then 8 = I3 + 2.",
+      "reason": "The published note is self-defeating: the procedure it describes (5 − 2 = 3, then adding I1) gives 6 A, the correct answer, not the 4 A it claims to explain. Replaced with the two distractors that do follow from identifiable mistakes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, University Physics Volume 2 §10.3 — Kirchhoff's junction and loop rules, and the sign conventions for applying them",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/10-3-kirchhoffs-rules"
+    },
+    {
+      "title": "OpenStax, University Physics Volume 2, ch. 10 summary — series and parallel combination rules as special cases of Kirchhoff's rules",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/10-summary"
+    }
+  ],
+  "visual": {
+    "title": "Which quantity is shared decides the rest",
+    "src": "/lesson-diagrams/series-parallel-and-kirchhoff.svg",
+    "width": 920,
+    "height": 836,
+    "alt": "A series loop in which the same current passes through both resistors, so resistances add and the larger resistor takes more voltage and more power; a parallel pair across one battery, where the voltage is common, the equivalent resistance is smaller than either branch and the smaller resistor dissipates more power; the worked twelve volt circuit reduced from six ohms in series with four and twelve in parallel to nine ohms, 1.33 amps and sixteen watts; and the two Kirchhoff rules shown as charge conservation at a junction and energy conservation around a loop.",
+    "caption": "The one question to answer first is whether the elements share a current or share a voltage. Note how it reverses which resistor runs hottest: the largest in series, the smallest in parallel.",
+    "beforeHeading": "## Resistors in Series"
+  }
+}

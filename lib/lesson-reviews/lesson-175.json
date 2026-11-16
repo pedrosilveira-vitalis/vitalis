@@ -1,63 +1,63 @@
 {
- "lessonId": 175,
- "reviewedAt": "2026-11-16",
- "questionIds": [
-  871,
-  872,
-  873,
-  874,
-  875
- ],
- "fingerprint": "54d7f2517a9ab4038e95f02c6f2c21c46c903da7eac6ce42560246d31cc3a4a3",
- "patches": [
-  {
-   "field": "questions.873.correct_answer",
-   "old": "C",
-   "new": "B",
-   "reason": "ΔU = qΔV = (−3 × 10⁻⁶ C)(800 V − 200 V) = −1800 µJ, so the potential energy DECREASES, and the external work for a slow move equals ΔU, which is also negative. That is choice B. The item's own explanation computes −1800 µJ and says in writing that the potential energy decreases, then keys C, which asserts an increase."
-  },
-  {
-   "field": "questions.873.explanation",
-   "old": "The change in potential energy is ΔU = qΔV = (-3 × 10^-6)(800 - 200) = -1800 µJ, meaning potential energy decreases. Since the electric force would naturally push the negative charge toward higher potential (toward B), the external agent must do negative work to move the charge slowly to B (opposing the natural motion). Choice A is tempting because moving to higher potential sounds like it requires positive external work, but the negative charge reverses the relationship between potential and force direction.",
-   "new": "Work it out from ΔU = qΔV, keeping the sign of the charge: ΔU = (−3 × 10⁻⁶ C)(800 V − 200 V) = −1.8 × 10⁻³ J = −1800 µJ. The potential energy therefore drops. For a charge carried slowly, with no change in kinetic energy, the external work equals ΔU, so the external agent does −1800 µJ of work — it holds the charge back rather than pushing it, because the electric force already pulls a negative charge toward the higher potential at B. Choices A and D are tempting because \"moving to higher potential\" sounds like it should cost energy, but U = qV, so a negative q turns a rise in V into a fall in U.",
-   "reason": "Rewritten for the corrected key: the old text ended by discussing choice A as the tempting wrong answer when A and the former key C share the same error, and it never stated which choice its own −1800 µJ result selects."
-  },
-  {
-   "field": "questions.875.choice_c",
-   "old": "The electron moves toward higher electric potential, gaining kinetic energy",
-   "new": "The electron moves toward higher electric potential, losing kinetic energy",
-   "reason": "As written, choice C was a true statement about this electron — moving in −x is moving toward higher potential, and it does gain kinetic energy — so the item had two correct answers, and the published explanation states choice C's content word for word while keying B. The single word changed makes C false and turns it into the useful trap: with U = qV, a negative charge moving toward higher V is losing potential energy, not gaining it."
-  },
-  {
-   "field": "questions.875.explanation",
-   "old": "Choice A confuses the direction of force on a negative charge with the field direction, and choice D incorrectly states the electron moves toward lower potential.",
-   "new": "Choice A confuses the direction of the force on a negative charge with the field direction. Choice D has the potential backwards: potential rises in the direction opposite to E, which is the way the electron goes. Choice C gets that direction right but then reverses the energy bookkeeping — U = qV, so for a negative charge a higher V means a lower U, and the kinetic energy rises rather than falls.",
-   "reason": "Expanded to distinguish the repaired choice C from the keyed answer, since the two now differ only in the energy clause."
-  },
-  {
-   "field": "lesson.content",
-   "old": "This field strength is enormous—comparable to the breakdown voltage of many materials—and it plays a role in voltage-gated ion channel activation.",
-   "new": "This field strength is enormous — comparable to the breakdown *field strength* of many insulators, which for dry air is about 3 × 10⁶ V/m — and it plays a role in voltage-gated ion channel activation. Note that it is the field, in volts per metre, that is comparable; the voltage itself is only 70 mV, and the field is large only because the membrane is so thin.",
-   "reason": "A lesson whose central point is that field and potential are different quantities should not compare a field to a \"breakdown voltage\": breakdown is specified as a field strength in V/m, and the 70 mV membrane voltage is tiny. Adding the air value gives the comparison something concrete to stand on."
+  "lessonId": 175,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    871,
+    872,
+    873,
+    874,
+    875
+  ],
+  "fingerprint": "54d7f2517a9ab4038e95f02c6f2c21c46c903da7eac6ce42560246d31cc3a4a3",
+  "patches": [
+    {
+      "field": "questions.873.correct_answer",
+      "old": "C",
+      "new": "B",
+      "reason": "ΔU = qΔV = (−3 × 10⁻⁶ C)(800 V − 200 V) = −1800 µJ, so the potential energy DECREASES, and the external work for a slow move equals ΔU, which is also negative. That is choice B. The item's own explanation computes −1800 µJ and says in writing that the potential energy decreases, then keys C, which asserts an increase."
+    },
+    {
+      "field": "questions.873.explanation",
+      "old": "The change in potential energy is ΔU = qΔV = (-3 × 10^-6)(800 - 200) = -1800 µJ, meaning potential energy decreases. Since the electric force would naturally push the negative charge toward higher potential (toward B), the external agent must do negative work to move the charge slowly to B (opposing the natural motion). Choice A is tempting because moving to higher potential sounds like it requires positive external work, but the negative charge reverses the relationship between potential and force direction.",
+      "new": "Work it out from ΔU = qΔV, keeping the sign of the charge: ΔU = (−3 × 10⁻⁶ C)(800 V − 200 V) = −1.8 × 10⁻³ J = −1800 µJ. The potential energy therefore drops. For a charge carried slowly, with no change in kinetic energy, the external work equals ΔU, so the external agent does −1800 µJ of work — it holds the charge back rather than pushing it, because the electric force already pulls a negative charge toward the higher potential at B. Choices A and D are tempting because \"moving to higher potential\" sounds like it should cost energy, but U = qV, so a negative q turns a rise in V into a fall in U.",
+      "reason": "Rewritten for the corrected key: the old text ended by discussing choice A as the tempting wrong answer when A and the former key C share the same error, and it never stated which choice its own −1800 µJ result selects."
+    },
+    {
+      "field": "questions.875.choice_c",
+      "old": "The electron moves toward higher electric potential, gaining kinetic energy",
+      "new": "The electron moves toward higher electric potential, losing kinetic energy",
+      "reason": "As written, choice C was a true statement about this electron — moving in −x is moving toward higher potential, and it does gain kinetic energy — so the item had two correct answers, and the published explanation states choice C's content word for word while keying B. The single word changed makes C false and turns it into the useful trap: with U = qV, a negative charge moving toward higher V is losing potential energy, not gaining it."
+    },
+    {
+      "field": "questions.875.explanation",
+      "old": "Choice A confuses the direction of force on a negative charge with the field direction, and choice D incorrectly states the electron moves toward lower potential.",
+      "new": "Choice A confuses the direction of the force on a negative charge with the field direction. Choice D has the potential backwards: potential rises in the direction opposite to E, which is the way the electron goes. Choice C gets that direction right but then reverses the energy bookkeeping — U = qV, so for a negative charge a higher V means a lower U, and the kinetic energy rises rather than falls.",
+      "reason": "Expanded to distinguish the repaired choice C from the keyed answer, since the two now differ only in the energy clause."
+    },
+    {
+      "field": "lesson.content",
+      "old": "This field strength is enormous—comparable to the breakdown voltage of many materials—and it plays a role in voltage-gated ion channel activation.",
+      "new": "This field strength is enormous — comparable to the breakdown *field strength* of many insulators, which for dry air is about 3 × 10⁶ V/m — and it plays a role in voltage-gated ion channel activation. Note that it is the field, in volts per metre, that is comparable; the voltage itself is only 70 mV, and the field is large only because the membrane is so thin.",
+      "reason": "A lesson whose central point is that field and potential are different quantities should not compare a field to a \"breakdown voltage\": breakdown is specified as a field strength in V/m, and the 70 mV membrane voltage is tiny. Adding the air value gives the comparison something concrete to stand on."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, University Physics Volume 2 §7.2 — electric potential and potential difference, and the work done moving a charge between two points",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/7-2-electric-potential-and-potential-difference"
+    },
+    {
+      "title": "OpenStax, University Physics Volume 2, ch. 8 summary — a dielectric between the plates induces equal and opposite surface charge on its two faces, reducing the field",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/8-summary"
+    }
+  ],
+  "visual": {
+    "title": "Field against potential, and the uniform field",
+    "src": "/lesson-diagrams/field-versus-potential-and-uniform-fields.svg",
+    "width": 920,
+    "height": 856,
+    "alt": "A point charge with radial field lines crossing circular equipotentials at right angles; a plot comparing the inverse-square fall of E with the slower inverse fall of V; parallel plates with a uniform field running from the positive to the negative plate, equipotential planes across it, and the cell membrane as the same geometry with 70 mV across 8 nm giving about 10 to the 7 volts per metre; and a table giving, for a positive and a negative charge released from rest, the force direction and whether it moves toward higher or lower potential.",
+    "caption": "Field and potential describe the same situation from two sides: E is a vector that must be added component by component, V is a scalar you can simply sum. Both charges in the table lose potential energy as they move — the sign of q decides which direction that is.",
+    "beforeHeading": "## Relating Electric Field and Electric Potential"
   }
- ],
- "sources": [
-  {
-   "title": "OpenStax, University Physics Volume 2 §7.2 — electric potential energy and the work done moving a charge through a potential difference",
-   "url": "https://openstax.org/books/university-physics-volume-2/pages/7-2-electric-potential-and-potential-difference"
-  },
-  {
-   "title": "OpenStax, University Physics Volume 2 §8.5 — dielectric strength, the maximum field a material withstands before breakdown (air ≈ 3 × 10⁶ V/m)",
-   "url": "https://openstax.org/books/university-physics-volume-2/pages/8-5-molecular-model-of-a-dielectric"
-  }
- ],
- "visual": {
-  "title": "Field against potential, and the uniform field",
-  "src": "/lesson-diagrams/field-versus-potential-and-uniform-fields.svg",
-  "width": 920,
-  "height": 856,
-  "alt": "A point charge with radial field lines crossing circular equipotentials at right angles; a plot comparing the inverse-square fall of E with the slower inverse fall of V; parallel plates with a uniform field running from the positive to the negative plate, equipotential planes across it, and the cell membrane as the same geometry with 70 mV across 8 nm giving about 10 to the 7 volts per metre; and a table giving, for a positive and a negative charge released from rest, the force direction and whether it moves toward higher or lower potential.",
-  "caption": "Field and potential describe the same situation from two sides: E is a vector that must be added component by component, V is a scalar you can simply sum. Both charges in the table lose potential energy as they move — the sign of q decides which direction that is.",
-  "beforeHeading": "## Relating Electric Field and Electric Potential"
- }
 }
