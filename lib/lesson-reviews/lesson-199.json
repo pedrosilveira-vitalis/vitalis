@@ -1,0 +1,38 @@
+{
+  "lessonId": 199,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    991,
+    992,
+    993,
+    994,
+    995
+  ],
+  "fingerprint": "8d1fa3dd050b498a91f9814e6958511856860d6d852e6a21f47d1800317a9210",
+  "patches": [
+    {
+      "field": "questions.993.question_text",
+      "old": "when tested with simplified, puppet-based scenarios compared to Wimmer and Perner's original false-belief task",
+      "new": "when a false-belief task is simplified — shortening the story and reducing what the child has to hold in memory — compared with the standard version"
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, Psychology §9.2 — lifespan theories, covering Piaget's four stages and Vygotsky's sociocultural account",
+      "url": "https://openstax.org/books/psychology/pages/9-2-lifespan-theories"
+    },
+    {
+      "title": "OpenStax, Lifespan Development §1.3 — major theories and theorists, placing Piaget's cognitive perspective alongside the other lifespan frameworks",
+      "url": "https://openstax.org/books/lifespan-development/pages/1-3-major-theories-and-theorists"
+    }
+  ],
+  "visual": {
+    "title": "The stages, the engine and the contrast",
+    "src": "/lesson-diagrams/piaget-stages-and-the-vygotsky-contrast.svg",
+    "width": 920,
+    "height": 902,
+    "alt": "Four cards for Piaget's stages, each giving the age band, the achievement that defines the stage and the limitation that still remains; a three-step sequence from assimilation through disequilibrium to accommodation; and a two-column comparison of Piaget and Vygotsky on whether development drives learning, the place of readiness and instruction, the child as scientist or apprentice, the meaning of private speech, and the order of thought and language.",
+    "caption": "In a vignette the age is a hint and the behaviour is the answer: what the child fails at places the stage more reliably than the birthday does.",
+    "beforeHeading": "## The Four Stages of Cognitive Development"
+  }
+}
