@@ -1,0 +1,43 @@
+{
+ "lessonId": 210,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1046,
+  1047,
+  1048,
+  1049,
+  1050
+ ],
+ "fingerprint": "2e067aa19385aae6856878674cb703a1cde7b656b861fa428f7a347f513f6980",
+ "patches": [
+  {
+   "field": "questions.1049.choice_a",
+   "old": "People in high-arousal situations tend to label their emotions based on context",
+   "new": "Different emotions are accompanied by somewhat different patterns of autonomic activity"
+  },
+  {
+   "field": "questions.1049.explanation",
+   "old": "Choice A is a criticism better directed at James-Lange but actually describes a finding used to support Schachter-Singer.",
+   "new": "Choice A is not a criticism at all: emotion-specific autonomic patterns are exactly what James-Lange predicts, and evidence for them supports the theory rather than undermining it."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §10.4 — emotion, covering the James-Lange, Cannon-Bard and Schachter-Singer two-factor theories",
+   "url": "https://openstax.org/books/psychology/pages/10-4-emotion"
+  },
+  {
+   "title": "OpenStax, Introduction to Behavioral Neuroscience §13.1 — foundational and contemporary theories of emotion, including Cannon's three grounds for challenging James",
+   "url": "https://openstax.org/books/introduction-behavioral-neuroscience/pages/13-1-foundational-and-contemporary-theories-of-emotion"
+  }
+ ],
+ "visual": {
+  "title": "The experiment that made the two-factor case",
+  "src": "/lesson-diagrams/schachter-singer-design-and-lazarus-appraisal.svg",
+  "width": 920,
+  "height": 906,
+  "alt": "A table of the Schachter and Singer design showing uninformed, misinformed and informed epinephrine groups and a saline group crossed with euphoric and angry confederates, with the resulting emotions; a four-step chain illustrating excitation transfer on Dutton and Aron's suspension bridge; and Lazarus's primary appraisal categories of irrelevant, benign-positive, harm, threat and challenge beside secondary appraisal of coping options and reappraisal.",
+  "caption": "Only one thing differs down the epinephrine rows: whether the person already has an explanation for the pounding heart. That alone decides the emotion.",
+  "beforeHeading": "### The Classic Adrenaline Experiment"
+ }
+}
