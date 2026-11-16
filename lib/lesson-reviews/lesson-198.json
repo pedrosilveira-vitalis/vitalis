@@ -1,0 +1,48 @@
+{
+ "lessonId": 198,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  986,
+  987,
+  988,
+  989,
+  990
+ ],
+ "fingerprint": "4f01063a42d6c19e9fe67a09f6b3a42fc9558c31111bd1f6cbbce8c27c08cfa5",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "The **angular gyrus** (Brodmann area 39) integrates visual, auditory, and somatosensory information and is critical for reading. Damage here produces **alexia** (inability to read) without agraphia (writing is preserved).",
+   "new": "The **angular gyrus** (Brodmann area 39) integrates visual, auditory, and somatosensory information and is critical for reading and writing. Damage here produces **alexia with agraphia** — both reading and writing are lost — usually alongside the other parietal signs of **Gerstmann syndrome**: acalculia, finger agnosia and left-right disorientation. **Alexia without agraphia** (pure alexia), in which the patient can still write but cannot read back what they wrote, is a different lesion entirely: a left posterior cerebral artery infarct damaging the left occipital cortex and the splenium of the corpus callosum, which disconnects both visual cortices from the intact language areas. The exam uses the presence or absence of agraphia to separate these two."
+  },
+  {
+   "field": "lesson.content",
+   "old": "their pidgin contact language (which has no grammar) is transformed into a full grammatical language within one generation",
+   "new": "their pidgin contact language (which has only rudimentary and highly variable grammar) is transformed by the next generation of child speakers into a creole with full, stable grammar"
+  },
+  {
+   "field": "questions.988.explanation",
+   "old": "Option D describes morphology, a subset of semantics.",
+   "new": "Option D describes morphology, the level at which meaning-bearing units combine into words, which is distinct from both semantics and pragmatics."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Sheldon, Malcolm and Barton, Canadian Journal of Neurological Sciences — alexia with and without agraphia, localising pure alexia to left occipital damage and alexia with agraphia to the left angular gyrus",
+   "url": "https://www.cambridge.org/core/journals/canadian-journal-of-neurological-sciences/article/alexia-with-and-without-agraphia-an-assessment-of-two-classical-syndromes/6DF4AD4D8EC2B290EA1306C8C2F4FC0A"
+  },
+  {
+   "title": "MedLink Neurology — alexia without agraphia, most often from left posterior cerebral artery infarction involving the occipital lobe and splenium",
+   "url": "https://www.medlink.com/articles/alexia-without-agraphia"
+  }
+ ],
+ "visual": {
+  "title": "The five levels and the aphasia decision tree",
+  "src": "/lesson-diagrams/language-levels-and-the-aphasias.svg",
+  "width": 920,
+  "height": 916,
+  "alt": "A stack of the five levels of language from phonology up to pragmatics, each with what it governs and the disorder that isolates it; a schematic left hemisphere marking Broca's area, Wernicke's area, the arcuate fasciculus between them and the angular gyrus; and a three-step decision sequence asking whether speech is fluent, whether comprehension is intact and whether repetition is intact, naming Broca's, Wernicke's and conduction aphasia in turn.",
+  "caption": "Fluency, then comprehension, then repetition — asked in that order, the three questions name the aphasia and the lesion at the same time.",
+  "beforeHeading": "## Neuroscience of Language"
+ }
+}
