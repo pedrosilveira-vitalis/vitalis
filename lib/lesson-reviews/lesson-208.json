@@ -1,0 +1,48 @@
+{
+ "lessonId": 208,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1036,
+  1037,
+  1038,
+  1039,
+  1040
+ ],
+ "fingerprint": "070ac6497be0022abd1666ac2dd1fb92318deb539d7d9aae43908570bafea732",
+ "patches": [
+  {
+   "field": "questions.1038.question_text",
+   "old": "Participants are simultaneously presented with a video of a person saying the syllable 'ba' while the audio track plays the syllable 'ga.'",
+   "new": "Participants are simultaneously presented with an audio track of the syllable 'ba' dubbed onto a video of a person whose lips are saying 'ga.'"
+  },
+  {
+   "field": "lesson.content",
+   "old": "This applies across modalities and individuals, though the constant k differs by modality (vision: ~2%, audition: ~3%, touch: ~7%)",
+   "new": "This applies across modalities and individuals, though the constant k differs by modality — weight discrimination is fine, at roughly 2 per cent, while brightness sits nearer 8 per cent and loudness around 10 per cent, and taste and smell are coarser still. Published values vary substantially between studies and stimulus conditions, so hold the ordering and the proportionality rather than the exact constants"
+  },
+  {
+   "field": "questions.1040.explanation",
+   "old": "Simple habituation (D) predicts longer looking to the same stimulus repeated, which is the opposite of what is described.",
+   "new": "Simple habituation (D) predicts the reverse pattern of looking from the one that matters here: repeated exposure to an unchanged stimulus reduces looking, and any novel feature would recover it. That low-level account cannot explain why the infant treats the reappearing ball as the *same object* that went behind the screen, which is what the violation-of-expectation design is built to show."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §5.1 — sensation versus perception, covering attention, perceptual set and the limits of conscious perception",
+   "url": "https://openstax.org/books/psychology/pages/5-1-sensation-versus-perception"
+  },
+  {
+   "title": "Illusions Index, University of Edinburgh — the Müller-Lyer illusion and the carpentered-world account of cross-cultural differences",
+   "url": "https://www.illusionsindex.org/i/mueller-lyer"
+  }
+ ],
+ "visual": {
+  "title": "Selection, integration and narrowing",
+  "src": "/lesson-diagrams/attention-models-mcgurk-and-perceptual-narrowing.svg",
+  "width": 920,
+  "height": 898,
+  "alt": "Four cards comparing Broadbent's early filter, Treisman's attenuator, Deutsch and Deutsch's late selection and Lavie's load theory; a three-box sequence showing the McGurk effect with audio ba, visual ga and the perceived da; a list of the conditions under which two senses integrate, covering spatial and temporal correspondence, inverse effectiveness and reliability weighting; and a developmental list from newborn acuity through stereopsis, the visual cliff, phonemic narrowing and the other-race effect to presbycusis.",
+  "caption": "Ears ba, eyes ga, percept da. The order matters, and knowing the trick does not undo it — the senses have already been combined before you are aware of either.",
+  "beforeHeading": "### Classic Demonstrations of Multisensory Integration"
+ }
+}
