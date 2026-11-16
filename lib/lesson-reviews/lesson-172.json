@@ -1,0 +1,63 @@
+{
+ "lessonId": 172,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  856,
+  857,
+  858,
+  859,
+  860
+ ],
+ "fingerprint": "0da0e4b2ee5363ac9155473b7f253e7ff128a29813633516da6d61207e4fc240",
+ "patches": [
+  {
+   "field": "questions.858.choice_a",
+   "old": "-1.0",
+   "new": "-0.5",
+   "reason": "The question had no correct answer. With R = 30 cm the focal length is 15 cm, and an object at 45 cm gives d_i = 22.5 cm and m = −0.5 — a value absent from the four choices, as the published explanation itself discovered mid-sentence. Replacing −1.0 with −0.5 keeps A as the key and, as a bonus, makes the remaining distractors meaningful: +0.5 drops the sign, −2.0 inverts the ratio, and +2.0 does both."
+  },
+  {
+   "field": "questions.858.explanation",
+   "old": "The focal length is f = R/2 = 15 cm. Using the mirror equation: 1/15 = 1/45 + 1/di, giving di = 22.5 cm. Magnification m = -di/do = -22.5/45 = -0.5, not -1.0. Wait, recalculating: 1/di = 1/15 - 1/45 = 3/45 - 1/45 = 2/45, so di = 22.5 cm and m = -22.5/45 = -0.5. The correct answer should be -0.5, but since that is not listed, the closest and most defensible answer given the choices is A (-1.0) only if do = 2f = 30 cm. At do = 45 cm, m = -0.5. This question highlights careful application: m = -di/do = -(22.5/45) = -0.5, meaning the image is real, inverted, and diminished. Students should recognize that a negative magnification always indicates an inverted image for mirrors.",
+   "new": "The focal length is f = R/2 = 15 cm. Using the mirror equation: 1/15 = 1/45 + 1/d_i, so 1/d_i = 3/45 − 1/45 = 2/45 and d_i = +22.5 cm — positive, so the image is real and in front of the mirror. The magnification is m = −d_i/d_o = −22.5/45 = −0.5: real, inverted and half-size, exactly what the table predicts for an object beyond 2f (here 2f = 30 cm). Choice B, +0.5, is the right size with the sign dropped — a real image in a concave mirror is always inverted. Choice C, −2.0, inverts the ratio (−d_o/d_i). Choice D, +2.0, makes both errors at once.",
+   "reason": "The published explanation computed −0.5, said \"not −1.0\", wrote \"Wait, recalculating:\", repeated the same arithmetic, then conceded that \"the correct answer should be −0.5, but since that is not listed\" it would settle for A. With the choice corrected the arithmetic now closes, and each distractor is tied to the specific slip that produces it."
+  },
+  {
+   "field": "lesson.content",
+   "old": "A converging lens (f₁ = 10 cm) is placed 30 cm to the left of a diverging lens (f₂ = −20 cm). An object is 15 cm to the left of lens 1. Find the final image.",
+   "new": "A converging lens (f₁ = 10 cm) is placed 50 cm to the left of a diverging lens (f₂ = −20 cm). An object is 15 cm to the left of lens 1. Find the final image.",
+   "reason": "At the published separation of 30 cm the intermediate image lands exactly on the second lens, which is a degenerate case the worked example could not actually solve. Moving the second lens to 50 cm leaves the same first-lens arithmetic (d_i1 = 30 cm) and gives the second lens a clean object distance of 20 cm."
+  },
+  {
+   "field": "lesson.content",
+   "old": "**Lens 2:**\nThe image from lens 1 is 30 cm to the right of lens 1, but lens 2 is only 30 cm to the right of lens 1. So the intermediate image falls exactly at lens 2 (dₒ₂ = 0). In practice, treat it as dₒ₂ → 0, which gives dᵢ₂ → 0. More realistically, if the intermediate image is 1 cm beyond lens 2, dₒ₂ = −1 cm (virtual object). For the MCAT, such edge cases are usually avoided; the problem would state a cleaner geometry. The key skill is the sequential application of the equation.",
+   "new": "**Lens 2:**\nThe intermediate image sits 30 cm to the right of lens 1, and lens 2 is 50 cm to the right of lens 1, so that image lies 20 cm to the *left* of lens 2 and acts as a real object for it: dₒ₂ = +20 cm.\n\n1/(−20) = 1/20 + 1/dᵢ₂\n1/dᵢ₂ = −1/20 − 1/20 = −1/10\ndᵢ₂ = −10 cm — a virtual image 10 cm to the left of lens 2.\n\n**Magnifications multiply:**\nm₁ = −dᵢ₁/dₒ₁ = −30/15 = −2.0\nm₂ = −dᵢ₂/dₒ₂ = −(−10)/20 = +0.5\nm_total = m₁ × m₂ = −1.0\n\nThe final image is virtual, inverted relative to the original object, and the same size as it. The method is the point: solve lens 1, convert its image into an object distance for lens 2, then solve again.",
+   "reason": "The worked example broke down in front of the student: it reported d_o2 = 0, suggested treating it as a limit, invented a hypothetical 1 cm offset, and then admitted that \"for the MCAT, such edge cases are usually avoided; the problem would state a cleaner geometry\". With the lens moved to 50 cm the second step now works out exactly (d_i2 = −10 cm, m_total = −1.0), which is what a two-lens example is for."
+  },
+  {
+   "field": "lesson.content",
+   "old": "For a young adult it is approximately 10–15 cm.",
+   "new": "For a young adult it is approximately 10–15 cm, although 25 cm is the conventional value used in magnifier and corrective-lens calculations — including the ones later in this lesson — and the near point recedes steadily with age.",
+   "reason": "The lesson quotes a 10–15 cm near point here but then uses 25 cm as \"the standard near point\" in the hyperopia calculation and as \"the conventional near point of a normal eye\" for the simple magnifier. Flagging the convention removes an apparent contradiction between the lesson's own numbers."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, University Physics Volume 3 §2.5 — the thin-lens equation, sign conventions and image characterisation",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/1-summary"
+  },
+  {
+   "title": "OpenStax, University Physics Volume 3 §1.4 — total internal reflection and the critical angle",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/1-4-total-internal-reflection"
+  }
+ ],
+ "visual": {
+  "title": "Object position decides the image, and the two prescriptions that follow",
+  "src": "/lesson-diagrams/image-positions-and-prescriptions.svg",
+  "width": 920,
+  "height": 800,
+  "alt": "Five object positions for a converging lens or concave mirror — beyond 2f, at 2f, between f and 2f, at f and inside f — each with the resulting image, running from real inverted and diminished to virtual upright and magnified; the single always-rule for diverging lenses and convex mirrors; and the two corrective-lens calculations, a 50 cm far point giving −2.0 dioptres and a 100 cm near point giving +3.0 dioptres.",
+  "caption": "For a converging lens or concave mirror the answer depends entirely on where the object sits relative to f and 2f; for a diverging lens or convex mirror there is nothing to work out, since the image is always virtual, upright and smaller.",
+  "beforeHeading": "## Lenses: Curved Surfaces That Refract"
+ }
+}
