@@ -1,0 +1,39 @@
+{
+ "lessonId": 193,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  961,
+  962,
+  963,
+  964,
+  965
+ ],
+ "fingerprint": "227f9e03045a2146a89aaf40b5577e1ec84eade4ef368f3a42761ad831bc2f75",
+ "patches": [
+  {
+   "field": "questions.962.explanation",
+   "old": "Choice A is tempting because verbal rehearsal is involved in word memory, but the phonological loop is a passive storage system and does not explain the competition between two cognitively demanding tasks.",
+   "new": "Choice A is tempting because verbal rehearsal is involved in holding the words, but the phonological loop is a specialised subsystem — a passive phonological store plus an articulatory rehearsal process — and it only handles sound-based material. It cannot account for competition between two demanding tasks, one of which is arithmetic; that competition is for the central executive's attentional resources.",
+   "reason": "Calling the phonological loop \"a passive storage system\" contradicts this lesson's own description, which gives the loop two parts and explicitly calls the articulatory rehearsal process an active mechanism. The distinction between the passive store and the active rehearsal process is itself testable, so the explanation should not flatten it."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §8.1 — how memory functions, including short-term memory capacity and the Atkinson-Shiffrin stores",
+   "url": "https://openstax.org/books/psychology/pages/8-1-how-memory-functions"
+  },
+  {
+   "title": "OpenStax, Psychology, ch. 8 summary — encoding, storage and retrieval and the limits of the short-term store",
+   "url": "https://openstax.org/books/psychology/pages/8-summary"
+  }
+ ],
+ "visual": {
+  "title": "How long it lasts, and what buys more room",
+  "src": "/lesson-diagrams/short-term-and-working-memory.svg",
+  "width": 920,
+  "height": 872,
+  "alt": "The Peterson and Peterson curve of trigram recall against seconds of counting backwards, falling to about ten per cent by eighteen seconds; twelve loose letters recoded into four familiar acronyms to show chunking; four experimental effects that reveal the phonological loop, namely phonological similarity, word length, articulatory suppression and irrelevant speech, each with what it demonstrates; and a side-by-side comparison of short-term memory as a passive store with working memory as an active multicomponent workspace.",
+  "caption": "Chunking does not enlarge the store — it changes what counts as one item. That is why expertise looks like a bigger memory and is really a bigger vocabulary of patterns.",
+  "beforeHeading": "## Chunking: Expanding Effective Capacity"
+ }
+}
