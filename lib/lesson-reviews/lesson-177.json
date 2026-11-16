@@ -1,0 +1,87 @@
+{
+ "lessonId": 177,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  881,
+  882,
+  883,
+  884,
+  885
+ ],
+ "fingerprint": "a97d2a42a6b024313467224a458cb5e5b24f53a54fb86206dd4520c2f2ff3117",
+ "patches": [
+  {
+   "field": "questions.884.correct_answer",
+   "old": "B",
+   "new": "A",
+   "reason": "For an isolated capacitor the charge is fixed, so E = σ/ε₀ = Q/(ε₀A) does not depend on d at all: pulling the plates apart doubles V and leaves E unchanged. That is choice A, and the published explanation derives exactly this and states twice that the correct answer is A while the key said B."
+  },
+  {
+   "field": "questions.884.explanation",
+   "old": "For an isolated capacitor, charge Q is fixed. Capacitance C = epsilon_0*A/d, so doubling d halves C. The electric field between parallel plates is E = sigma/epsilon_0 = Q/(epsilon_0*A), which depends only on surface charge density, not on d. Since Q and A are unchanged, E remains constant. Wait, rechecking: E = V/d, and V = Q/C = Qd/(epsilon_0*A), so if d doubles, V doubles and E = V/d stays constant. Therefore the correct answer is A. Correction: E is constant, not halved. The correct answer is A.",
+   "new": "Isolated means the charge Q has nowhere to go, so Q and the plate area A are both fixed. Capacitance C = ε₀A/d is inversely proportional to d, so doubling the gap halves it. The field, however, is set by the charge on the plates alone: E = σ/ε₀ = Q/(ε₀A), with no d in it, so E is unchanged. The two results fit together through V: since C halves at fixed Q, the voltage doubles, and E = V/d keeps the same value because d doubled as well. Choice B is the trap — it reads the d out of E = V/d without noticing that V has changed too.",
+   "reason": "The published explanation visibly corrects itself mid-paragraph (\"Wait, rechecking\") and ends by contradicting the answer key. Replaced with a single clean derivation."
+  },
+  {
+   "field": "questions.882.question_text",
+   "old": "The cell membrane of a neuron can be modeled as a parallel-plate capacitor with membrane thickness d = 7 nm and dielectric constant k = 7. If the membrane capacitance per unit area is approximately 0.01 F/m^2, what is the approximate permittivity of free space used in this calculation? (Use C/A = k*epsilon_0/d)",
+   "new": "A neuron's membrane behaves as a parallel-plate capacitor whose insulating layer has dielectric constant k = 2.5 and whose capacitance per unit area is approximately 0.01 F/m^2 (1 microfarad per square centimeter). Using C/A = k*epsilon_0/d with epsilon_0 = 8.85 x 10^-12 F/m, how thick is that insulating layer?",
+   "reason": "The item asked the student to compute the permittivity of free space, a universal constant, from invented numbers, and keyed 1 x 10^-11 F/m — so a student who knows ε₀ = 8.85 x 10^-12 F/m and chooses the true value is marked wrong. The input k = 7 also contradicts the κ ≈ 2–3 the lesson states for lipid elsewhere. Rebuilt around the same algebra (rearranging C/A = κε₀/d) with the unknown being the one quantity actually in question, which also shows why the capacitive thickness is the hydrophobic core and not the whole bilayer."
+  },
+  {
+   "field": "questions.882.choice_a",
+   "old": "8.85 x 10^-12 F/m",
+   "new": "0.9 nm",
+   "reason": "New choice set for the rebuilt question; 0.9 nm is what you get by leaving k out of the numerator."
+  },
+  {
+   "field": "questions.882.choice_b",
+   "old": "7.00 x 10^-12 F/m",
+   "new": "1.4 nm",
+   "reason": "New choice set; 1.4 nm comes from dividing by k instead of multiplying."
+  },
+  {
+   "field": "questions.882.choice_c",
+   "old": "1.00 x 10^-11 F/m",
+   "new": "2.2 nm",
+   "reason": "The correct value: d = kε₀/(C/A) = (2.5)(8.85 x 10^-12)/(1 x 10^-2) = 2.2 x 10^-9 m. Placed at C so the stored answer key stays valid."
+  },
+  {
+   "field": "questions.882.choice_d",
+   "old": "8.85 x 10^-10 F/m",
+   "new": "7.0 nm",
+   "reason": "New choice set; 7.0 nm is the full bilayer thickness, the tempting answer for anyone who assumes the whole membrane is the dielectric."
+  },
+  {
+   "field": "questions.882.explanation",
+   "old": "Rearranging C/A = k*epsilon_0/d gives epsilon_0 = (C/A)*d/k = (0.01 F/m^2)(7x10^-9 m)/7 = 1x10^-11 F/m, which is approximately 10^-11 F/m. This is consistent with the known value of epsilon_0 = 8.85x10^-12 F/m given the approximations used. Choice A is the actual value of epsilon_0 but does not result from this calculation with the given numbers; the question tests whether students can apply the formula algebraically rather than recall a constant.",
+   "new": "Rearranging C/A = k*epsilon_0/d for the thickness gives d = k*epsilon_0/(C/A) = (2.5)(8.85 x 10^-12 F/m)/(1 x 10^-2 F/m^2) = 2.2 x 10^-9 m, about 2.2 nm. Choice D, 7 nm, is the thickness of the whole bilayer and is the most instructive wrong answer: the measured capacitance corresponds to only the hydrophobic core, because the polar headgroups and the adjacent water are not part of the insulating gap. Choice A drops the factor k and choice B divides by it instead of multiplying.",
+   "reason": "Rewritten for the rebuilt question."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Very small plate separation (d ≈ 7–10 nm), which drives capacitance up dramatically",
+   "new": "- Very small plate separation. The gap that matters electrically is not the full 7–10 nm bilayer but the ≈2–3 nm hydrophobic core, since only that core is the insulator; this small d is what drives the capacitance up dramatically",
+   "reason": "With the lesson's own κ ≈ 2–3 and a 7 nm gap, C/A works out to about 0.3 µF/cm², not the 1 µF/cm² the lesson states two lines later. The measured specific capacitance corresponds to a dielectric gap of roughly 2–3 nm, which is the acyl-chain core; naming it removes the internal contradiction and matches the rebuilt question 882."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Nature Communications (2019) — the hydrophobic acyl chains, dielectric constant about 2–3, form the membrane's parallel-plate capacitor at roughly 0.1–1 µF/cm²",
+   "url": "https://www.doi.org/10.1038/s41467-019-11223-8"
+  },
+  {
+   "title": "OpenStax, University Physics Volume 2 §8.2 — capacitors in series and parallel, and the parallel-plate result C = ε₀A/d",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/8-2-capacitors-in-series-and-in-parallel"
+  }
+ ],
+ "visual": {
+  "title": "What stays fixed decides everything",
+  "src": "/lesson-diagrams/capacitance-dielectrics-and-the-two-cases.svg",
+  "width": 920,
+  "height": 846,
+  "alt": "A parallel-plate capacitor with the definition C = Q/V, the geometry formula with kappa, the uniform field E = V/d and the three energy expressions; two side-by-side columns for inserting a dielectric, one with the battery still connected where V and E stay the same while C, Q and U rise by kappa, and one disconnected where Q stays the same while V, E and U fall by kappa; the series and parallel rules with a worked four and twelve microfarad pair; and the membrane capacitor whose insulating gap is the two to three nanometre hydrophobic core.",
+  "caption": "Before touching a dielectric problem, settle one question: is the battery still attached? That single fact decides whether the charge or the voltage is the quantity that cannot move, and every other answer follows from it.",
+  "beforeHeading": "### What Changes and What Doesn't When a Dielectric Is Inserted"
+ }
+}
