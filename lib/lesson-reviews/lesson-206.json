@@ -1,0 +1,43 @@
+{
+  "lessonId": 206,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    1026,
+    1027,
+    1028,
+    1029,
+    1030
+  ],
+  "fingerprint": "9b31acafaf0f78ad77bcde11a85fccc3261f596bdc6a05a56d71966a5ce36e2b",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "This principle is why camouflage works: when an animal's outline is interrupted by patterns that align with background contours, the figure-ground boundary is disrupted and the animal becomes harder to detect.",
+      "new": "Good continuation is one of the principles camouflage exploits, though not the main one. The primary mechanism of camouflage is **similarity**: matching the colour, texture and pattern of the background means the hidden figure shares features with the ground, so figure-ground segregation never gets started. Good continuation is exploited in addition by *disruptive* patterning — bold shapes that run across an animal's outline and join up with background contours, so the eye follows a smooth path straight past the real edge of the body. Expect a question about plain camouflage to be keyed to similarity, and one about outline-breaking stripes or blotches to involve good continuation."
+    },
+    {
+      "field": "questions.1030.explanation",
+      "old": "Common fate is tempting but refers to elements moving together being grouped, which is not the primary mechanism of static camouflage.",
+      "new": "Common fate is tempting but refers to elements moving together being grouped, which is not the primary mechanism of static camouflage. Continuity is the next best distractor: disruptive patterns that run across an outline do exploit good continuation, but that is a secondary effect, whereas matching colour and texture to the background — similarity — is what the stem actually describes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, Psychology §5.6 — Gestalt principles of perception, covering figure-ground, proximity, similarity, continuity and closure",
+      "url": "https://openstax.org/books/psychology/pages/5-6-gestalt-principles-of-perception"
+    },
+    {
+      "title": "OpenStax, Psychology §5.1 — sensation versus perception, covering bottom-up and top-down processing",
+      "url": "https://openstax.org/books/psychology/pages/5-1-sensation-versus-perception"
+    }
+  ],
+  "visual": {
+    "title": "The grouping rules and the depth cues",
+    "src": "/lesson-diagrams/gestalt-principles-and-depth-cues.svg",
+    "width": 920,
+    "height": 912,
+    "alt": "Eight small panels illustrating proximity, similarity, good continuation, closure, common fate, symmetry, figure-ground and Prägnanz; below, the depth cues sorted into a monocular group covering linear perspective, relative size, interposition, texture gradient, aerial perspective, shading, motion parallax and accommodation, and a binocular group covering retinal disparity and convergence with their effective ranges.",
+    "caption": "Lose an eye and only the bottom two cues go. That is why monocular observers judge distance well while moving and poorly while sitting still.",
+    "beforeHeading": "### The Classic Gestalt Principles of Grouping"
+  }
+}
