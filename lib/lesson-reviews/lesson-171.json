@@ -1,45 +1,45 @@
 {
- "lessonId": 171,
- "reviewedAt": "2026-11-16",
- "questionIds": [
-  851,
-  852,
-  853,
-  854,
-  855
- ],
- "fingerprint": "26b9bf1a3519608fcb1e237b5667da898a509829ec50109b0a3c3420d03b9d2c",
- "patches": [
-  {
-   "field": "questions.854.question_text",
-   "old": "A surgeon increases the bending angle of the fiber beyond the critical angle from the inside of the core.",
-   "new": "A surgeon bends the fiber so sharply that some rays now meet the core–cladding interface at angles smaller than the critical angle.",
-   "reason": "As written the stem contradicted its own keyed answer. Striking the interface *beyond* the critical angle is the condition that preserves total internal reflection; what makes light escape — and what the keyed answer and its explanation describe — is rays arriving at angles *below* the critical angle once the fiber is bent sharply. A student reasoning correctly from the stem would conclude that nothing is lost."
-  },
-  {
-   "field": "lesson.content",
-   "old": "The image is **laterally inverted** (left–right reversed) but not inverted top-to-bottom.",
-   "new": "The image is **laterally inverted** (your raised left hand appears as the image's right) but not inverted top-to-bottom. Strictly, a plane mirror reverses neither left–right nor up–down but the axis running *into* the mirror — front becomes back. We read that depth flip as a left–right swap because we imagine ourselves turned around to face our image.",
-   "reason": "'Laterally inverted' is the standard phrase and is kept, but on its own it invites the common misconception that a mirror treats the horizontal axis differently from the vertical one. Naming the actual front-to-back reversal answers the conceptual version of this question, which is the form the MCAT uses, without changing the terminology a student will meet elsewhere."
+  "lessonId": 171,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    851,
+    852,
+    853,
+    854,
+    855
+  ],
+  "fingerprint": "26b9bf1a3519608fcb1e237b5667da898a509829ec50109b0a3c3420d03b9d2c",
+  "patches": [
+    {
+      "field": "questions.854.question_text",
+      "old": "A surgeon increases the bending angle of the fiber beyond the critical angle from the inside of the core.",
+      "new": "A surgeon bends the fiber so sharply that some rays now meet the core–cladding interface at angles smaller than the critical angle.",
+      "reason": "As written the stem contradicted its own keyed answer. Striking the interface *beyond* the critical angle is the condition that preserves total internal reflection; what makes light escape — and what the keyed answer and its explanation describe — is rays arriving at angles *below* the critical angle once the fiber is bent sharply. A student reasoning correctly from the stem would conclude that nothing is lost."
+    },
+    {
+      "field": "lesson.content",
+      "old": "The image is **laterally inverted** (left–right reversed) but not inverted top-to-bottom.",
+      "new": "The image is **laterally inverted** (your raised left hand appears as the image's right) but not inverted top-to-bottom. Strictly, a plane mirror reverses neither left–right nor up–down but the axis running *into* the mirror — front becomes back. We read that depth flip as a left–right swap because we imagine ourselves turned around to face our image.",
+      "reason": "'Laterally inverted' is the standard phrase and is kept, but on its own it invites the common misconception that a mirror treats the horizontal axis differently from the vertical one. Naming the actual front-to-back reversal answers the conceptual version of this question, which is the form the MCAT uses, without changing the terminology a student will meet elsewhere."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, University Physics Volume 3 §1.4 — total internal reflection: all light is reflected when the incident angle exceeds the critical angle, and no light enters the cladding of a fiber",
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/1-4-total-internal-reflection"
+    },
+    {
+      "title": "OpenStax, University Physics Volume 3 — chapter summary: Snell's law, the critical angle, dispersion, and why diamonds sparkle",
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/1-summary"
+    }
+  ],
+  "visual": {
+    "title": "Snell's law, the two-ray construction, and where the focus lands",
+    "src": "/lesson-diagrams/snell-lenses-and-the-eye.svg",
+    "width": 920,
+    "height": 840,
+    "alt": "A ray crossing from air into water and bending toward the normal, with Snell's law and the critical-angle condition and values for glass, water and diamond; a converging lens with a parallel ray refracted through the far focus and a ray straight through the centre, meeting at a real inverted image, with the thin lens equation; a table of sign conventions for lenses and mirrors; and two eyes, one too long with the focus falling short of the retina and one too short with the focus behind it.",
+    "caption": "Everything follows from one rule and one convention: light bends toward the normal entering a slower medium, and angles are measured from the normal rather than the surface. Two rays — one parallel, one through the centre — are enough to place any image.",
+    "beforeHeading": "## Snell's Law"
   }
- ],
- "sources": [
-  {
-   "title": "OpenStax, University Physics Volume 3 — geometric optics: reflection, refraction, Snell's law and total internal reflection",
-   "url": "https://openstax.org/books/university-physics-volume-3/pages/1-introduction"
-  },
-  {
-   "title": "LibreTexts (Georgia State) — wave reflection and transmission conventions",
-   "url": "https://phys.libretexts.org/Courses/Georgia_State_University/GSU-TM-Physics_I_(2211)/11%3A_Waves/11.06%3A_Speed_of_Sound"
-  }
- ],
- "visual": {
-  "title": "Snell's law, the two-ray construction, and where the focus lands",
-  "src": "/lesson-diagrams/snell-lenses-and-the-eye.svg",
-  "width": 920,
-  "height": 840,
-  "alt": "A ray crossing from air into water and bending toward the normal, with Snell's law and the critical-angle condition and values for glass, water and diamond; a converging lens with a parallel ray refracted through the far focus and a ray straight through the centre, meeting at a real inverted image, with the thin lens equation; a table of sign conventions for lenses and mirrors; and two eyes, one too long with the focus falling short of the retina and one too short with the focus behind it.",
-  "caption": "Everything follows from one rule and one convention: light bends toward the normal entering a slower medium, and angles are measured from the normal rather than the surface. Two rays — one parallel, one through the centre — are enough to place any image.",
-  "beforeHeading": "## Snell's Law"
- }
 }
