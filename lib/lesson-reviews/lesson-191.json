@@ -1,0 +1,45 @@
+{
+ "lessonId": 191,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  951,
+  952,
+  953,
+  954,
+  955
+ ],
+ "fingerprint": "9044c649883ead286420789ebd2db76153cf18837b7dd769d8c1a4894f812184",
+ "patches": [
+  {
+   "field": "questions.955.choice_a",
+   "old": "State-dependent memory and encoding specificity",
+   "new": "Context-dependent memory and encoding specificity",
+   "reason": "The cue in the scenario is a smell in the hallway — an external feature of the environment — which makes this context-dependent memory. This lesson defines state-dependent memory as a match in the learner's *internal* physiological or emotional state, and the MCAT tests that separation directly, so labelling an external cue as state-dependent teaches the distinction backwards."
+  },
+  {
+   "field": "questions.955.explanation",
+   "old": "This also relates to state-dependent memory when internal or external states match.",
+   "new": "Keep the two forms apart: an external match — the same room, the same smell, the same background noise — is context-dependent memory, while an internal match — the same mood, the same level of caffeine or arousal — is state-dependent memory. Both follow from encoding specificity, and this scenario is the external case.",
+   "reason": "The published sentence folds external cues into state-dependent memory, contradicting the lesson's own definitions of the two terms; corrected alongside the repaired choice."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §8.1 — how memory functions: encoding, storage and retrieval, and the stores of the information-processing model",
+   "url": "https://openstax.org/books/psychology/pages/8-1-how-memory-functions"
+  },
+  {
+   "title": "OpenStax, Psychology §8.3 — problems with memory, including interference, and the cues that drive retrieval",
+   "url": "https://openstax.org/books/psychology/pages/8-3-problems-with-memory"
+  }
+ ],
+ "visual": {
+  "title": "The pipeline, the branches, and the two interferences",
+  "src": "/lesson-diagrams/information-processing-memory-stores-and-failures.svg",
+  "width": 920,
+  "height": 892,
+  "alt": "The flow from sensory memory, which holds almost everything for under a second, through working memory at about seven chunks for fifteen to thirty seconds, into long-term memory with no known limit, with attention gating the first transfer, encoding the second and retrieval running back; long-term memory branching into explicit, with episodic and semantic and the hippocampus, and implicit, with procedural, priming and conditioning and the basal ganglia and cerebellum; Baddeley's central executive over the phonological loop, visuospatial sketchpad and episodic buffer; bars showing memory strength rising from structural through phonemic to semantic processing; and the two directions of interference.",
+  "caption": "Most memory questions come down to naming the step that failed. Material that was never attended to was never encoded, and no amount of retrieval cueing will bring it back.",
+  "beforeHeading": "### Storage"
+ }
+}
