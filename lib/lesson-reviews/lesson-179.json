@@ -1,0 +1,51 @@
+{
+ "lessonId": 179,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  891,
+  892,
+  893,
+  894,
+  895
+ ],
+ "fingerprint": "46c76572b88c9a56c8dc7e051e6a20b15d235ef4ff3bbf648801b516f34462e1",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Assign currents: I₁ flows clockwise in the left loop through ε₁ and R₁. I₂ flows clockwise in the right loop through ε₂ and R₃. The middle branch (R₂) carries current I₁ − I₂ downward (by KCL at the top node, assuming I₁ flows right and I₂ flows left through the middle branch).\n\nActually, let's set this up cleanly. Label the top-left node A, top-right node B, bottom as a common ground node.\n\n- Left branch: ε₁ = 10 V and R₁ = 4 Ω, current I₁ flowing downward (from A to ground through left side)\n- Right branch: ε₂ = 6 V and R₃ = 3 Ω, current I₂ flowing downward (from B to ground through right side)\n- Middle branch: R₂ = 2 Ω connecting A to B, current I₃ flowing from A to B\n\nKCL at node A: I₁ + I₃ = I_from_battery_left ... \n\nFor clarity, let's use a cleaner two-loop setup:",
+   "new": "Use **mesh currents**: let I₁ circulate clockwise around the left loop and I₂ circulate clockwise around the right loop. The two loops share the middle branch, so R₂ carries the difference of the two mesh currents — (I₁ − I₂) as seen when walking the left loop, and (I₂ − I₁) when walking the right one. Each battery is oriented so that it is traversed from − to + in its own clockwise walk, giving +ε. With two meshes there are exactly two unknowns and two equations, and KCL is satisfied automatically because each mesh current enters and leaves every node it passes through.",
+   "reason": "The published passage contains an abandoned first attempt: it sets up one labelling, interrupts itself with \"Actually, let's set this up cleanly\", defines a third current I₃, breaks off mid-equation at \"KCL at node A: I₁ + I₃ = I_from_battery_left ...\", and then starts over with \"For clarity, let's use a cleaner two-loop setup\". None of that scaffolding matches the equations that follow, which are ordinary mesh equations in I₁ and I₂. Replaced with the single setup the solution actually uses; the arithmetic below it checks out (I₁ = 31/13 ≈ 2.38 A, I₂ = 28/13 ≈ 2.15 A, 3/13 ≈ 0.23 A in the shared branch)."
+  },
+  {
+   "field": "questions.893.question_text",
+   "old": "Two resistors, 4 ohms and 6 ohms, are connected in parallel and then placed in series with a 2-ohm resistor. A 20 V ideal battery (no internal resistance) drives the circuit. What is the current through the 6-ohm resistor?",
+   "new": "Two resistors, 4 ohms and 12 ohms, are connected in parallel and then placed in series with a 2-ohm resistor. A 20 V ideal battery (no internal resistance) drives the circuit. What is the current through the 12-ohm resistor?",
+   "reason": "As written the item had no correct answer. With 4 Ω and 6 Ω the parallel pair is 2.4 Ω, the total is 4.4 Ω, the current is 4.55 A and the parallel voltage is 10.9 V, so the 6 Ω branch carries 10.9/6 = 1.82 A — not the keyed 1.0 A, and not equal to any of the four choices. The published explanation builds all of this correctly and then divides wrongly at the last step. Changing 6 Ω to 12 Ω makes the arithmetic exact (3 Ω parallel, 5 Ω total, 4 A, 12 V across the pair, 1.0 A through the 12 Ω branch) and keeps the keyed answer and the skill being tested intact."
+  },
+  {
+   "field": "questions.893.explanation",
+   "old": "The parallel combination of 4 ohms and 6 ohms gives R_parallel = (4x6)/(4+6) = 2.4 ohms. Total resistance = 2 + 2.4 = 4.4 ohms, so total current I_total = 20/4.4 = 4.55 A. The voltage across the parallel combination is V_parallel = 4.55 x 2.4 = 10.9 V. Current through the 6-ohm resistor = 10.9/6 = 1.0 A (approximately). Choice B is tempting if students mistakenly use the total current through the 6-ohm branch without applying the current divider correctly.",
+   "new": "Work inward, then back outward. The parallel pair is R_parallel = (4 x 12)/(4 + 12) = 48/16 = 3 ohms, so the total resistance is 2 + 3 = 5 ohms and the battery delivers I_total = 20/5 = 4 A. That whole 4 A passes through the 2-ohm resistor, dropping 8 V, which leaves 12 V across the parallel pair. The 12-ohm branch therefore carries 12/12 = 1.0 A, and the 4-ohm branch carries the remaining 3.0 A — three times as much, as it must be, since the branch currents divide in inverse proportion to the resistances. Choice D, 3.3 A, is 20/6: it comes from putting the two resistors in series with each other instead of in parallel. Choice C, 2.0 A, splits the total current evenly between the two branches, which would only be right if they were equal.",
+   "reason": "Rewritten for the corrected numbers; the published version also ended with a division error (10.9/6 reported as 1.0 A)."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, University Physics Volume 2 §10.3 — Kirchhoff's junction and loop rules and the sign conventions for applying them",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/10-3-kirchhoffs-rules"
+  },
+  {
+   "title": "OpenStax, University Physics Volume 2, ch. 10 summary — electromotive force, internal resistance and terminal voltage, and the series and parallel rules",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/10-summary"
+  }
+ ],
+ "visual": {
+  "title": "EMF, internal resistance and the loop recipe",
+  "src": "/lesson-diagrams/emf-internal-resistance-and-loop-analysis.svg",
+  "width": 920,
+  "height": 800,
+  "alt": "A battery drawn as an ideal EMF in series with its internal resistance feeding an external resistor, with the terminal voltage measured across the terminals; a plot of terminal voltage against current that starts at the EMF and falls with slope minus r to zero at the short-circuit current; the worked example with twelve volts, half an ohm internal and five and a half ohms external giving two amps, eleven volts and a twenty-two to two watt split; and a five-step recipe for multi-loop analysis.",
+  "caption": "The EMF is what the battery would give if nothing were lost inside it; the terminal voltage is what you actually get, and the gap widens with every extra amp drawn.",
+  "beforeHeading": "## Terminal Voltage and Internal Resistance"
+ }
+}
