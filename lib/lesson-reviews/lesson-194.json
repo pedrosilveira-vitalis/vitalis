@@ -1,0 +1,39 @@
+{
+ "lessonId": 194,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  966,
+  967,
+  968,
+  969,
+  970
+ ],
+ "fingerprint": "f169aef0952c27f044215e0b304a376469a8026cfbb4d431cd81a57564be5496",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "**Hippocampal amnesia** (e.g., H.M., Korsakoff syndrome): Severe anterograde amnesia for episodic and new semantic memories; intact procedural memory, priming, classical conditioning. This is the prototypical demonstration of explicit-implicit dissociation.",
+   "new": "**Medial temporal lobe amnesia** (e.g., H.M., hypoxic hippocampal injury): Severe anterograde amnesia for episodic and new semantic memories; intact procedural memory, priming, classical conditioning. This is the prototypical demonstration of explicit-implicit dissociation. Korsakoff syndrome produces a behaviourally similar amnesia but from a different site — the diencephalon rather than the medial temporal lobe — as described next.",
+   "reason": "The heading listed Korsakoff syndrome as an example of hippocampal amnesia, and the very next paragraph correctly places its damage in the mammillary bodies and mediodorsal thalamus. Medial temporal versus diencephalic amnesia is a distinction the exam draws, so the two cases should not be filed under one anatomical label."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §8.2 — parts of the brain involved with memory, including the hippocampus, amygdala and cerebellum",
+   "url": "https://openstax.org/books/psychology/pages/8-2-parts-of-the-brain-involved-with-memory"
+  },
+  {
+   "title": "OpenStax, Psychology §8.1 — how memory functions, including the procedural and declarative and the semantic and episodic distinctions",
+   "url": "https://openstax.org/books/psychology/pages/8-1-how-memory-functions"
+  }
+ ],
+ "visual": {
+  "title": "The branches, and what each lesion takes",
+  "src": "/lesson-diagrams/long-term-memory-systems-and-their-lesions.svg",
+  "width": 920,
+  "height": 884,
+  "alt": "Long-term memory branching into explicit memory, with episodic memory run by the hippocampus and semantic memory hubbed in the anterior temporal lobes, and implicit memory, with procedural skills in the basal ganglia and cerebellum, priming in the neocortex and classical conditioning split between amygdala for fear and cerebellum for eyeblink; a table matching medial temporal, diencephalic, anterior temporal and striatal damage to the memory each spares; and the two timescales of consolidation, synaptic through long-term potentiation and systems through sleep-driven transfer to the cortex.",
+  "caption": "Every clinical case in this lesson is the same experiment run by nature: knock out one structure and see which kind of remembering disappears. H.M. is the reason we know the two families are separate.",
+  "beforeHeading": "## Clinical Correlates and Dissociations"
+ }
+}
