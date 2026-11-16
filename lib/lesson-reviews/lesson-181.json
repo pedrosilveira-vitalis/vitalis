@@ -1,0 +1,81 @@
+{
+  "lessonId": 181,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    901,
+    902,
+    903,
+    904,
+    905
+  ],
+  "fingerprint": "2165ebecf6c2e17fb33079fbe94bd29d2e9bfec5133e3f214b540f288ce320ae",
+  "patches": [
+    {
+      "field": "questions.901.explanation",
+      "old": "Choice A is a common error from forgetting to square the radius when calculating area.",
+      "new": "Forgetting to square the radius — using A = πr instead of πr² — makes the area ten times too large and gives choice C, 0.63 V; choices A and D are the same answer misplaced by a power of ten in each direction. Keep πr² and the 0.3 s separate when you estimate.",
+      "reason": "The published note is backwards: omitting the square makes the area larger, not smaller, so it cannot produce choice A, which is a tenth of the correct answer. The error it describes actually lands on choice C."
+    },
+    {
+      "field": "questions.902.explanation",
+      "old": "Choice C incorrectly pairs counterclockwise current with an upward north pole.",
+      "new": "Choice C reaches the right conclusion about the pole — the loop does present a north pole upward — but pairs it with a clockwise current, which by the right-hand rule would give a field pointing down. Choices A and D fail on the physics rather than the geometry: an induced current never attracts the magnet that is approaching, because that would speed it up and create energy from nothing.",
+      "reason": "The published sentence misdescribes choice C, which says clockwise, not counterclockwise. Rewritten to name what is actually wrong with each remaining choice."
+    },
+    {
+      "field": "questions.905.question_text",
+      "old": "Two identical conducting loops, X and Y, are placed near a long straight wire carrying a steadily increasing current. Loop X has its plane parallel to the wire, and loop Y has its plane perpendicular to the wire. Which loop experiences an induced EMF?",
+      "new": "Two identical rectangular conducting loops, X and Y, are placed near a long straight wire carrying a steadily increasing current. Loop X lies in the same plane as the wire, alongside it. Loop Y lies flat in a plane perpendicular to the wire, off to one side of it. Which loop has an EMF induced in it?",
+      "reason": "The original question was keyed backwards. A long wire's field lines are circles that lie in planes perpendicular to the wire, so a loop lying in a plane perpendicular to the wire (Y) has the field running within its own plane and catches zero flux, while a loop coplanar with the wire (X) has those circles passing straight through its face. The original wording was also ambiguous — \"plane parallel to the wire\" describes two different orientations, only one of which catches flux — so the geometry is now stated explicitly."
+    },
+    {
+      "field": "questions.905.choice_a",
+      "old": "Only loop X, because its plane is parallel to the magnetic field lines around the wire",
+      "new": "Only loop Y, because the circular field lines run through the plane in which it lies",
+      "reason": "Rebuilt choice set. This is the trap for a student who pictures the field lines correctly but then counts lines lying in the plane as flux through it."
+    },
+    {
+      "field": "questions.905.choice_b",
+      "old": "Only loop Y, because magnetic flux passes through it and is changing",
+      "new": "Only loop X, because the circular field lines pass through its face, so the flux through it changes",
+      "reason": "The correct statement, placed at B so the stored answer key remains valid."
+    },
+    {
+      "field": "questions.905.choice_c",
+      "old": "Both loops, because both experience a changing magnetic field",
+      "new": "Both loops, since both sit in a magnetic field that is changing",
+      "reason": "Kept in substance — it is the useful trap of confusing a changing field with a changing flux — and reworded to match the new stem."
+    },
+    {
+      "field": "questions.905.choice_d",
+      "old": "Neither loop, because the current is increasing steadily rather than oscillating",
+      "new": "Neither loop, because a steadily increasing current produces a steady magnetic field",
+      "reason": "Rewritten so the distractor states a definite, checkable falsehood: a rising current makes a rising field, and Faraday's law needs only a changing flux, not an oscillating one."
+    },
+    {
+      "field": "questions.905.explanation",
+      "old": "A long straight wire produces circular magnetic field lines centered on the wire. Loop Y, with its plane perpendicular to the wire, has these field lines passing through it, creating changing flux that induces an EMF. Loop X, with its plane parallel to the wire, has its face oriented so the magnetic field lines run parallel to the plane and do not pass through the loop, resulting in zero flux and zero induced EMF. Choice C is tempting because both loops are in a changing magnetic field, but EMF requires changing flux through the loop, not merely the presence of a changing field.",
+      "new": "A long straight wire's field lines are circles centred on the wire, and each circle lies in a plane perpendicular to the wire. Loop X lies in the same plane as the wire, so those circles cross its face at right angles: the flux through X is large, it grows as the current grows, and an EMF appears. Loop Y lies in a plane perpendicular to the wire — the same plane the field circles lie in — so the field skims along Y's surface and never passes through it; the flux is zero at every instant and so is the EMF. Choice C is the common trap: a changing field in the neighbourhood is not enough, since Faraday's law responds only to a changing flux through the loop. Choice D is simply false, since a steadily rising current produces a steadily rising field.",
+      "reason": "Rewritten for the corrected geometry; the published version had the two loops' roles exactly reversed."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, University Physics Volume 2 §13.1 — Faraday's law: an EMF appears only when the flux through the circuit changes",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law"
+    },
+    {
+      "title": "OpenStax, University Physics Volume 2 §13.2 — Lenz's law and the step-by-step method for finding the direction of the induced current",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/13-2-lenzs-law"
+    }
+  ],
+  "visual": {
+    "title": "Flux, Lenz, and why orientation decides",
+    "src": "/lesson-diagrams/flux-faraday-lenz-and-the-transformer.svg",
+    "width": 920,
+    "height": 846,
+    "alt": "Flux shown as the field lines a loop catches, maximum when the field is along the loop's normal and zero when the field lies in its plane, with the three ways flux can change; a bar magnet approaching a loop north pole first, with the induced current presenting a north pole back and repelling it; a straight wire whose circular field passes through a loop lying in the same plane as the wire but skims a loop lying in a plane perpendicular to it; and a transformer with the turns ratio setting the voltage, power conserved, and nothing happening on direct current.",
+    "caption": "Faraday's law reacts to the rate of change of flux, never to its size. The wire panel is the case most often got backwards: the loop that catches the field is the one lying in the wire's own plane.",
+    "beforeHeading": "## Faraday's Law of Electromagnetic Induction"
+  }
+}
