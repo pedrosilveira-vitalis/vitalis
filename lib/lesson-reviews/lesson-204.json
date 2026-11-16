@@ -1,0 +1,28 @@
+{
+ "lessonId": 204,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1016,
+  1017,
+  1018,
+  1019,
+  1020
+ ],
+ "fingerprint": "45bb708fcf7883b435163f771dc69423b8cb18dc8f9abd374ecd92216335bb04",
+ "patches": [],
+ "sources": [
+  {
+   "title": "OpenStax, Anatomy and Physiology §14.1 — sensory perception, covering the ear, the cochlea and hair cell transduction",
+   "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception"
+  }
+ ],
+ "visual": {
+  "title": "Impedance, tonotopy and the hair cell",
+  "src": "/lesson-diagrams/ear-impedance-tonotopy-and-hair-cells.svg",
+  "width": 920,
+  "height": 902,
+  "alt": "The outer, middle and inner ear in sequence with the impedance-matching arithmetic of the middle ear; the basilar membrane drawn unrolled as a wedge, narrow and stiff at the base and wide at the apex, labelled from twenty kilohertz at the oval window down to twenty hertz at the helicotrema; a five-step account of hair cell transduction from stereocilia shear through tip links and potassium entry to glutamate release; and a contrast of conductive against sensorineural hearing loss.",
+  "caption": "The membrane is a ruler for frequency. Which part of it moves decides the pitch you hear, and that same map is carried all the way to cortex.",
+  "beforeHeading": "### The Basilar Membrane and Frequency Tuning"
+ }
+}
