@@ -1,0 +1,32 @@
+{
+  "lessonId": 190,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    946,
+    947,
+    948,
+    949,
+    950
+  ],
+  "fingerprint": "6308b3e3e7b68f543f53fe2637184606619dbd1a90fb3f1688134c6a52c585dc",
+  "patches": [],
+  "sources": [
+    {
+      "title": "OpenStax, Psychology §6.3 — operant conditioning, reinforcement and punishment, shaping, and the use of token economies",
+      "url": "https://openstax.org/books/psychology/pages/6-3-operant-conditioning"
+    },
+    {
+      "title": "EBSCO Research Starters — systematic desensitisation: Wolpe's behaviour-therapy technique pairing graduated exposure with relaxation",
+      "url": "https://www.ebsco.com/research-starters/health-and-medicine/systematic-desensitization"
+    }
+  ],
+  "visual": {
+    "title": "What each technique changes, and the ladder ethics requires",
+    "src": "/lesson-diagrams/behaviour-modification-techniques-and-ethics.svg",
+    "width": 920,
+    "height": 884,
+    "alt": "Anxiety plotted over time for systematic desensitisation, which stays low while the patient climbs a hierarchy in a relaxed state, against flooding, which produces one large spike that must be waited out; the three-term contingency with prompting and fading on the antecedent, shaping and chaining on the behaviour, and reinforcement, extinction and response cost on the consequence; a curve showing the extinction burst that precedes the decline; the token economy as a two-step exchange from target behaviour to token to backup reinforcer; and a ladder of least restrictive alternatives to be climbed from the bottom.",
+    "caption": "Two families of technique, one for each conditioning law: desensitisation and flooding re-pair a stimulus, while everything hung on the A-B-C spine re-arranges consequences. The burst is the moment most extinction programmes fail.",
+    "beforeHeading": "## Applied Behavior Analysis (ABA)"
+  }
+}
