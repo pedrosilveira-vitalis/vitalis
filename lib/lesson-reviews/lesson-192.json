@@ -1,0 +1,32 @@
+{
+ "lessonId": 192,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  956,
+  957,
+  958,
+  959,
+  960
+ ],
+ "fingerprint": "31278a981bedfa054dac50743c0425b250369001f40ae836c82b533016dbc7ef",
+ "patches": [],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §8.1 — how memory functions, including the sensory, short-term and long-term stores of the Atkinson-Shiffrin model",
+   "url": "https://openstax.org/books/psychology/pages/8-1-how-memory-functions"
+  },
+  {
+   "title": "OpenStax, Psychology §5.1 — sensation versus perception, and the role of attention in what reaches awareness",
+   "url": "https://openstax.org/books/psychology/pages/5-1-sensation-versus-perception"
+  }
+ ],
+ "visual": {
+  "title": "Sperling's grid and the moving bottleneck",
+  "src": "/lesson-diagrams/sensory-memory-and-the-attention-bottleneck.svg",
+  "width": 920,
+  "height": 876,
+  "alt": "Sperling's twelve-letter grid flashed for fifty milliseconds, with whole report recovering four or five letters and a tone-cued single row recovering three of four, implying about nine were available; a curve of letters still available against the delay before the cue, falling from nine to the whole-report level by one second; the three filter models placed along a processing stream, with Broadbent's filter before meaning, Treisman's attenuator, and the Deutsch-Norman late bottleneck after semantic analysis; and four failures of attention — inattentional blindness, change blindness, the psychological refractory period and the vigilance decrement.",
+  "caption": "Partial report is the whole experiment in one idea: cue the row before the image fades and almost all of it is still there. What limits report is decay plus attention, not how much the eye took in.",
+  "beforeHeading": "## Attention: The Gatekeeper"
+ }
+}
