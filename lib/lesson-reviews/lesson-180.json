@@ -1,0 +1,51 @@
+{
+  "lessonId": 180,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    896,
+    897,
+    898,
+    899,
+    900
+  ],
+  "fingerprint": "1176683c133d0fe71f4cdf22f6432af547ffed1337f91382641671eb85a0a0eb",
+  "patches": [
+    {
+      "field": "questions.897.correct_answer",
+      "old": "B",
+      "new": "A",
+      "reason": "m = qBr/v = (1.6 × 10⁻¹⁹)(0.50)(0.20)/(2.0 × 10⁶) = 1.6 × 10⁻²⁰/2.0 × 10⁶ = 8.0 × 10⁻²⁷ kg, which is choice A. The published explanation gets 8.0 × 10⁻²⁷ right the first time, then a \"Wait, recalculating\" step reports the same product as 1.6 × 10⁻²⁶ — off by a factor of two — and the key followed the mistaken line."
+    },
+    {
+      "field": "questions.897.explanation",
+      "old": "For circular motion in a magnetic field, qvB = mv^2/r, so m = qBr/v. Substituting q = 1.6 x 10^-19 C, B = 0.50 T, r = 0.20 m, and v = 2.0 x 10^6 m/s gives m = (1.6 x 10^-19)(0.50)(0.20)/(2.0 x 10^6) = 8.0 x 10^-27 kg. Wait, recalculating: (1.6e-19 x 0.50 x 0.20) / (2.0e6) = 1.6e-26 kg. Choice A is a common error from misplacing a factor of 2.",
+      "new": "Set the magnetic force equal to the centripetal force: qvB = mv^2/r, which gives r = mv/(qB) and therefore m = qBr/v. Substituting q = 1.6 x 10^-19 C, B = 0.50 T, r = 0.20 m and v = 2.0 x 10^6 m/s: the numerator is (1.6 x 10^-19)(0.50)(0.20) = 1.6 x 10^-20, and dividing by 2.0 x 10^6 gives m = 8.0 x 10^-27 kg. Work the powers of ten separately from the digits to avoid the usual slip here; choice B is exactly twice the right answer, and choice C is five times it.",
+      "reason": "Rewritten: the published version contained the arithmetic error that produced the wrong key, and its closing sentence described choice A — the correct answer — as the common error."
+    },
+    {
+      "field": "questions.900.explanation",
+      "old": "The radius in the magnetic field is r = mv/qB = sqrt(2mV/q)/B x sqrt(m).",
+      "new": "The radius in the magnetic field is r = mv/(qB); substituting v = sqrt(2qV/m) gives r = sqrt(2mV/q)/B.",
+      "reason": "The published formula is garbled: it sets r equal to sqrt(2mV/q)/B and then multiplies by an extra sqrt(m), which is dimensionally wrong. The substitution gives r = sqrt(2mV/q)/B on its own, and that expression already shows the r ∝ sqrt(m) dependence the next sentence relies on."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, University Physics Volume 2 §11.2 — the magnetic force on a moving charge, its right-hand rule, and the fact that it does no work",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/11-2-magnetic-fields-and-lines"
+    },
+    {
+      "title": "OpenStax, University Physics Volume 2 §11.3 — circular motion of a charged particle in a magnetic field, with r = mv/qB and the period T = 2πm/qB",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/11-3-motion-of-a-charged-particle-in-a-magnetic-field"
+    }
+  ],
+  "visual": {
+    "title": "Right hand, circle, and what the force cannot do",
+    "src": "/lesson-diagrams/magnetic-force-right-hand-rule-and-circular-motion.svg",
+    "width": 920,
+    "height": 824,
+    "alt": "The right-hand rule with fingers along v, curling to B and the thumb giving the force on a positive charge, reversed for a negative one; a charge entering a field into the page and circling with radius mv over qB and a period that does not depend on its speed; a table contrasting the electric force, which acts on any charge, points along E and does work, with the magnetic force, which acts only on moving charges, points perpendicular to v and B and does none; parallel wires attracting with like currents and repelling with opposed ones; and a mass spectrometer in which the heavier isotope sweeps the wider arc.",
+    "caption": "Everything here follows from the force being perpendicular to the velocity: it can bend the path into a circle, but it can never add a joule of kinetic energy.",
+    "beforeHeading": "## The Lorentz Force Law"
+  }
+}
