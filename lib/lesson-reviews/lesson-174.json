@@ -1,0 +1,75 @@
+{
+ "lessonId": 174,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  866,
+  867,
+  868,
+  869,
+  870
+ ],
+ "fingerprint": "fc1097e545b4cfdf8682ddf39005cc991baffb150af3a8ff58c5c723d1030151",
+ "patches": [
+  {
+   "field": "questions.866.choice_a",
+   "old": "Toward the +2 µC charge",
+   "new": "Perpendicular to the line joining the two charges",
+   "reason": "Choice A as written names exactly the same direction as choice D, the keyed answer, so the item had two correct options. Replaced with a genuinely distinct (and wrong) direction: two point charges on a line can only push a third charge along that line, never sideways."
+  },
+  {
+   "field": "questions.866.explanation",
+   "old": "Choice C is tempting but ignores that the two source charges differ in magnitude, so forces do not cancel.",
+   "new": "Choice C is tempting but ignores that the two source charges differ in magnitude, so the forces do not cancel. Choice A is impossible: both forces lie along the line joining the charges, so the sum has no sideways component.",
+   "reason": "Updated to match the repaired choice A, which no longer duplicates the keyed answer."
+  },
+  {
+   "field": "questions.868.choice_d",
+   "old": "Away from both A and C, so the net force is zero",
+   "new": "Zero only because B is negative; a positive charge at B would feel a net force",
+   "reason": "As written, choices C and D both concluded that the net force is zero, so a student who reached the right conclusion by choice D still lost the point. The replacement is a single clearly wrong statement and tests a real misconception — symmetry, not sign, is what cancels the forces."
+  },
+  {
+   "field": "questions.868.explanation",
+   "old": "Choice A or B would be correct only if the configuration were asymmetric.",
+   "new": "Choice A or B would be correct only if the configuration were asymmetric. Choice D fails because the cancellation comes from the symmetry of the arrangement: reverse B's sign and both forces reverse together, so they still cancel.",
+   "reason": "Updated to address the repaired choice D."
+  },
+  {
+   "field": "questions.869.explanation",
+   "old": "Choice A (4F/9) is a common error where students double the charge but forget to properly apply the squared distance in the denominator.",
+   "new": "Choice A (4F/9) pairs the correct 1/9 distance factor with a charge factor of 4 — the original charge in microcoulombs rather than the ratio 8/4 = 2 by which it actually grew. Choice B (8F/9) makes the same slip with the number 8, and choice D (F/9) changes the distance but forgets the charge entirely.",
+   "reason": "The published note does not produce 4F/9: doubling the charge and mishandling the squared distance gives 2F/3 or 2F, never 4F/9. Each distractor here comes from a specific wrong charge factor paired with the correct 1/9, which is the error actually worth naming."
+  },
+  {
+   "field": "questions.870.correct_answer",
+   "old": "A",
+   "new": "B",
+   "reason": "Only one sphere is touched, so only one charge is halved: F_new = k(q/2)(q)/d² = F/2, which is choice B. The published explanation reaches F/2 three separate times and ends by stating that the correct answer should be B, so the key of A contradicts the item's own worked solution. F/4 is the answer to a different question, the one in which both spheres end up at q/2."
+  },
+  {
+   "field": "questions.870.explanation",
+   "old": "When one charged sphere (charge q) touches an identical uncharged sphere, charge distributes equally, leaving each with q/2. The touched sphere is returned with charge q/2, while the other sphere retains charge q. The new force is F_new = k(q/2)(q)/d^2 = kq^2/(2d^2) = F/2. Wait, re-evaluating: original F = kq^2/d^2, new F = k(q/2)(q)/d^2 = F/2. However, the correct answer should be F/2 if only one sphere is halved. Re-checking the answer: both spheres are originally charge q. One sphere is halved to q/2. New force = k(q/2)(q)/d^2 = F/2. The correct answer is actually B (F/2), but if the question intends both charges to be halved, the answer would be F/4. Since only one sphere is touched, the answer is F/2, so the correct answer should be B.",
+   "new": "Two identical conductors in contact share their total charge equally. Here the total is q + 0 = q, so each ends up with q/2. Only the touched sphere changes: it comes back carrying q/2 while its partner still carries q, and the separation d is unchanged. F_new = k(q/2)(q)/d² = ½ · kq²/d² = F/2. Choice A (F/4) is the answer to a different scenario — the one in which both spheres are halved, which would require touching each of them to a neutral sphere. Choice C (F/8) multiplies the two halvings by an extra factor, and choice D assumes contact with a neutral conductor changes nothing.",
+   "reason": "The published explanation visibly argues with itself (\"Wait, re-evaluating\"), states the answer three different ways, and ends by contradicting the answer key. Replaced with a single clean derivation and distractor analysis."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, University Physics Volume 2 §5.4 — Coulomb's law: the magnitude is proportional to the product of the charges and inversely proportional to the square of the separation",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/5-4-coulombs-law"
+  },
+  {
+   "title": "OpenStax, University Physics Volume 2 §5.3 — conductors, insulators and charging by contact, where identical conductors in contact share charge equally",
+   "url": "https://openstax.org/books/university-physics-volume-2/pages/5-3-conductors-insulators-and-charging-by-induction"
+  }
+ ],
+ "visual": {
+  "title": "The inverse square, the sign rule, and adding forces",
+  "src": "/lesson-diagrams/coulomb-inverse-square-and-superposition.svg",
+  "width": 920,
+  "height": 800,
+  "alt": "A plot of force against separation showing a quarter of the force at double the distance, a ninth at triple and four times at half; a sign-rule panel with like charges pushed apart and unlike charges pulled together; a worked line of three charges with the 8 mN and 6 mN forces on the middle charge summing to 2 mN; and panels on where the net force is zero and on the dielectric constant kappa that weakens the force in water.",
+  "caption": "Coulomb's law gives only a magnitude — the signs decide the direction and the vectors decide the sum. Notice that the distance enters squared while each charge enters only once.",
+  "beforeHeading": "## The Inverse-Square Relationship"
+ }
+}
