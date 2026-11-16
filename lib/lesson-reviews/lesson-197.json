@@ -1,0 +1,34 @@
+{
+ "lessonId": 197,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  981,
+  982,
+  983,
+  984,
+  985
+ ],
+ "fingerprint": "ecfc44b82920732f888e2acbbbffc3f757eceebd356ba193eeb8888c4c2c7303",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Means-end analysis is a form of **working backward** — starting from the goal and determining what must be true just before the goal is achieved, then working backward to the current state.",
+   "new": "Means-end analysis is often paired with **working backward**, which is a related but separate strategy: the solver starts at the goal state, asks what must have been true immediately before it, and repeats that step until reaching the current state. Working backward is most useful when the goal is clearly specified and the starting point is not, as in a maze solved from the exit. Means-end analysis can run in either direction — what defines it is that every move is chosen to reduce the difference between the current state and the goal, not the direction of travel. Expect the exam to list them as distinct strategies."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §7.3 — problem solving, covering algorithms, heuristics including working backward, and roadblocks such as functional fixedness and mental set",
+   "url": "https://openstax.org/books/psychology/pages/7-3-problem-solving"
+  }
+ ],
+ "visual": {
+  "title": "The shortcuts, the strategies and the two barriers",
+  "src": "/lesson-diagrams/heuristics-biases-and-the-two-barriers.svg",
+  "width": 920,
+  "height": 884,
+  "alt": "A table of the three named heuristics — availability, representativeness and anchoring — each paired with what it substitutes for a real probability judgement and the error that results, with the clinical form of each; four cards for algorithm, means-end analysis, working backward and analogy; and a side-by-side contrast of functional fixedness, which fixes what an object is for, against mental set, which fixes what a method can solve.",
+  "caption": "Functional fixedness is about an object, mental set is about a method. Passages describe one or the other precisely, and the choices will offer both.",
+  "beforeHeading": "## Heuristic Problem Solving"
+ }
+}
