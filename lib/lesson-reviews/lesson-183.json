@@ -1,0 +1,51 @@
+{
+  "lessonId": 183,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    911,
+    912,
+    913,
+    914,
+    915
+  ],
+  "fingerprint": "ac48b5febde52ca7facda5b767c1c9a46c80501ad1cef83a0b053a51e3cf79e5",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "If the egg is removed mid-sequence, the goose completes the rolling motion anyway. This \"vacuum activity\" illustrates the stereotyped, internally driven nature of FAPs.",
+      "new": "If the egg is removed mid-sequence, the goose completes the rolling motion anyway, tucking an egg that is no longer there. That persistence is the defining feature of a fixed action pattern: once released, the motor program runs to completion whether or not the stimulus is still present. A related but distinct term is **vacuum activity**, which names a fixed action pattern performed with no sign stimulus at all — a caged bird going through the full sequence of catching an insect when no insect has appeared.",
+      "reason": "The passage mislabels the egg-rolling demonstration as vacuum activity. Completing a sequence after the releaser is withdrawn is simply a fixed action pattern running to completion; vacuum activity is the separate ethological term for a fixed action pattern released with no sign stimulus present in the first place. Since both terms are testable definitions, conflating them is a point-costing error."
+    },
+    {
+      "field": "questions.913.choice_b",
+      "old": "A child fears dogs after being bitten; a student studies harder after receiving praise",
+      "new": "A child fears dogs after being bitten; the child's younger sibling becomes afraid of dogs after watching that reaction",
+      "reason": "As written, choice B was a second fully correct answer: a fear acquired from a bite is textbook classical conditioning and studying more after praise is textbook positive reinforcement, so it contrasts the two frameworks exactly as cleanly as the keyed choice A. The replacement pairs classical conditioning with observational learning, so it no longer illustrates the classical-versus-operant distinction the question asks about, while still testing a real confusion."
+    },
+    {
+      "field": "questions.913.explanation",
+      "old": "Option B is tempting but both examples could fit either framework without the clear mechanistic contrast provided in A. Options C and D do not cleanly distinguish the two frameworks.",
+      "new": "Option B pairs classical conditioning with observational learning rather than with operant conditioning, so it illustrates a different contrast than the one asked about. Option C pairs operant conditioning with observational learning, and option D pairs the two forms of non-associative learning — neither involves classical conditioning at all.",
+      "reason": "The published note claimed the examples in B \"could fit either framework\", which was not true of the original wording and is not the reason any of these choices fail; each distractor now gets the specific reason it is wrong."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, Psychology §6.1 — what learning is, and how instincts and reflexes differ from learned behaviour",
+      "url": "https://openstax.org/books/psychology/pages/6-1-what-is-learning"
+    },
+    {
+      "title": "OpenStax, Psychology §6.4 — observational learning and modelling",
+      "url": "https://openstax.org/books/psychology/pages/6-4-observational-learning-modeling"
+    }
+  ],
+  "visual": {
+    "title": "What counts as learning — and who says so",
+    "src": "/lesson-diagrams/what-learning-is-and-the-four-frameworks.svg",
+    "width": 920,
+    "height": 846,
+    "alt": "The definition of learning split into its three tests, with what each one rules out; a list of the kinds of learning from habituation and sensitisation through classical and operant conditioning to observational and latent learning, with reflexes and fixed action patterns marked as not learning; the four theoretical frameworks with their central claim, key names and the finding each struggles with; and the brain structures, with the hippocampus for declarative memory, amygdala for fear conditioning, cerebellum for conditioned motor responses and basal ganglia for habits.",
+    "caption": "The three clauses of the definition are where most exam questions live: a change that is temporary, that came from maturation, or that never had an experience behind it is not learning, however much the behaviour differs.",
+    "beforeHeading": "## Innate Behaviors Versus Acquired Responses"
+  }
+}
