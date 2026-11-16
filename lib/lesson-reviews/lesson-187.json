@@ -1,0 +1,45 @@
+{
+ "lessonId": 187,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  931,
+  932,
+  933,
+  934,
+  935
+ ],
+ "fingerprint": "52aaccbcec7899a6799296cca4f40d781e9ebd957aa8f98f7086b327b105a4ea",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- The cumulative record of FR behavior shows a **scalloped staircase pattern**: flat pauses followed by steep, rapid response bursts",
+   "new": "- The cumulative record of FR behavior shows a **stair-step, or break-and-run, pattern**: flat pauses followed by steep, rapid response bursts. Reserve the word *scalloped* for fixed interval schedules, where the curve bends upward gradually instead of jumping",
+   "reason": "\"Scalloped\" is the specific term for the fixed interval record, in which responding accelerates smoothly as the interval runs out; the fixed ratio record is a stair-step of pauses and bursts. The lesson's own MCAT-tips section later states that \"scalloping is specifically associated with FI schedules\", so as written the two passages contradict each other on a term the exam tests directly."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Differential reinforcement of other behavior (DRO)** combines extinction of the problem behavior with reinforcement of incompatible or alternative behaviors, accelerating the extinction process",
+   "new": "- **Differential reinforcement** combines extinction of the problem behavior with reinforcement of something else, which accelerates the process. The variants are worth keeping straight: **DRO** reinforces the *absence* of the problem behavior across an interval, **DRI** reinforces a behavior *incompatible* with it, and **DRA** reinforces an acceptable *alternative* that serves the same function",
+   "reason": "The published bullet defines DRO as reinforcing incompatible or alternative behaviours, which are DRI and DRA; DRO reinforces the omission of the target behaviour for a set interval. The preceding lesson in this series states the distinction correctly, so this also removed a contradiction between the two."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §6.3 — operant conditioning, including shaping and the four schedules of reinforcement with their response patterns",
+   "url": "https://openstax.org/books/psychology/pages/6-3-operant-conditioning"
+  },
+  {
+   "title": "OpenStax, Psychology, ch. 6 summary — reinforcement, punishment and the forms of learning",
+   "url": "https://openstax.org/books/psychology/pages/6-summary"
+  }
+ ],
+ "visual": {
+  "title": "Four signatures, two orderings, one ladder",
+  "src": "/lesson-diagrams/reinforcement-schedules-and-shaping.svg",
+  "width": 920,
+  "height": 858,
+  "alt": "Cumulative response records for the four schedules, with variable ratio steepest and unbroken, fixed ratio stepped by pauses, variable interval gently even, and fixed interval scalloped; the ordering of response rates from variable ratio down to fixed interval and of resistance to extinction from variable ratio down to continuous reinforcement; a comparison of evenly spaced fixed payouts against clustered variable ones showing why a dry spell is undetectable on a variable schedule; and a five-step shaping ladder from moving toward the lever to pressing it hard enough.",
+  "caption": "Ratio schedules pay per response, so they push the rate up; variable ones hide the moment reinforcement stops, so they hold on longest. That single fact is behind the slot machine and behind most failed attempts to extinguish a habit.",
+  "beforeHeading": "## Comparing the Four Schedules: A Summary Framework"
+ }
+}
