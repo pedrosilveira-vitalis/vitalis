@@ -1,0 +1,44 @@
+{
+ "lessonId": 203,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1011,
+  1012,
+  1013,
+  1014,
+  1015
+ ],
+ "fingerprint": "8b87be5ad0883209f7696de967df99f55f17c1f899fd42e56718c833c3ffd57e",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **Bitemporal hemianopia** (\"tunnel vision\"): lesion at the optic chiasm, classically caused by a **pituitary adenoma** compressing the crossing nasal fibers. Both temporal visual fields are lost.",
+   "new": "- **Bitemporal hemianopia**: lesion at the optic chiasm, classically caused by a **pituitary adenoma** compressing the crossing nasal fibers. Both temporal (outer) visual fields are lost, so the patient keeps only the two inner halves. Do not call this tunnel vision: *tunnel vision* means a concentric constriction of the periphery in each eye, which comes from retinal or optic nerve disease such as advanced glaucoma or retinitis pigmentosa, not from a chiasmal lesion."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- Transducin is a **heterotrimeric G-protein** (Gi-type; inhibits effector)",
+   "new": "- Transducin is a **heterotrimeric G-protein** of the Gi family, but note that here the activated Gα subunit *activates* its effector: it pulls the inhibitory γ subunits off phosphodiesterase, switching the enzyme on"
+  },
+  {
+   "field": "lesson.content",
+   "old": "These cells are not part of the image-forming visual pathway but are high-yield for MCAT questions about biological clocks and light entrainment.",
+   "new": "These cells are not part of the image-forming visual pathway but are high-yield for MCAT questions about biological clocks and light entrainment.\n\nTwo other subcortical targets receive direct retinal input and are worth knowing. The **superior colliculus** of the midbrain drives reflexive **saccades** that orient the eyes toward a sudden or salient stimulus, and it contributes to the startle-like visual grasp reflex; it is the target tested when a question asks what moves the eyes toward something new. The **pretectal nucleus**, also in the midbrain, is the afferent relay for the pupillary light reflex described later in this lesson."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Anatomy and Physiology §14.1 — sensory perception, covering the eye, the retina and the central visual pathway",
+   "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception"
+  }
+ ],
+ "visual": {
+  "title": "The pathway and its five lesion sites",
+  "src": "/lesson-diagrams/visual-pathway-and-field-defects.svg",
+  "width": 920,
+  "height": 906,
+  "alt": "The visual pathway drawn from above: both eyes, crossing nasal fibres at the optic chiasm, optic tracts to each lateral geniculate nucleus, the parietal radiation and Meyer's loop through the temporal lobe, and V1 at the occipital pole, with five numbered lesion sites; below, a table matching each site to its field defect — monocular blindness, bitemporal hemianopia, contralateral homonymous hemianopia, superior quadrantanopia and hemianopia with macular sparing — and a note that tunnel vision is a different thing altogether.",
+  "caption": "Only a chiasmal lesion splits the two eyes' losses in opposite directions. Everything behind it takes the same half of the world from both eyes.",
+  "beforeHeading": "### Classic Visual Field Defects (MCAT High-Yield)"
+ }
+}
