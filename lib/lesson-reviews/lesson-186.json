@@ -1,0 +1,45 @@
+{
+ "lessonId": 186,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  926,
+  927,
+  928,
+  929,
+  930
+ ],
+ "fingerprint": "7f635c05071ef012762582711a69556d1eba7a9f48fdb4c6fd403740717c6d8f",
+ "patches": [
+  {
+   "field": "questions.930.question_text",
+   "old": "Which combination of reinforcement schedules best describes these two outcomes?",
+   "new": "Which combination of operant contingencies best describes these two outcomes?",
+   "reason": "The four answer choices are contingencies — positive and negative reinforcement and punishment — not schedules. In this lesson's own terminology a schedule of reinforcement is fixed or variable ratio or interval, so asking for a \"combination of reinforcement schedules\" names the wrong category and could lead a student to look for FR, VR, FI or VI among the options."
+  },
+  {
+   "field": "questions.927.explanation",
+   "old": "Choices C and D describe classical conditioning concepts involving unconditioned and conditioned stimuli, which involve reflexive rather than voluntary behavior, making them incorrect in this context.",
+   "new": "Choices C and D describe classical conditioning, in which a stimulus elicits a reflexive response rather than a consequence strengthening a voluntary one. Choice A is the subtler distractor: a stimulus that has been paired with food is a conditioned (secondary) reinforcer and really would strengthen the behaviour, but it does so only by borrowing its value from the food, and Thorndike's law is stated in terms of the satisfying state of affairs itself. The question asks what most strengthens the behaviour, which is the satisfying consequence in choice B.",
+   "reason": "The published note skips choice A, which is the one a careful student will hesitate over, since following a behaviour with a stimulus previously paired with food does strengthen it — that is what a secondary reinforcer is. Explaining why B still wins closes a real gap rather than leaving the student to assume A is simply wrong."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §6.3 — operant conditioning: Thorndike's law of effect, Skinner's contingencies, shaping, and the four schedules of reinforcement",
+   "url": "https://openstax.org/books/psychology/pages/6-3-operant-conditioning"
+  },
+  {
+   "title": "OpenStax, Psychology, ch. 6 summary — reinforcement and punishment and the three basic forms of learning",
+   "url": "https://openstax.org/books/psychology/pages/6-summary"
+  }
+ ],
+ "visual": {
+  "title": "The two-by-two, and the four schedules",
+  "src": "/lesson-diagrams/operant-contingencies-and-schedules.svg",
+  "width": 920,
+  "height": 880,
+  "alt": "A two-by-two table of operant contingencies, with adding or taking a stimulus away on one axis and the behaviour rising or falling on the other, giving positive and negative reinforcement and positive and negative punishment with an example in each cell; cumulative response curves for the four schedules, with variable ratio steepest, fixed ratio stepped by post-reinforcement pauses, variable interval steady and fixed interval scalloped; a curve showing the extinction burst that follows the end of reinforcement; and the three-term contingency of antecedent, behaviour and consequence.",
+  "caption": "Two questions settle every one of these items: was something added or taken away, and did the behaviour go up or down? The words positive and negative carry no judgement at all.",
+  "beforeHeading": "## Organizing the Four Contingencies"
+ }
+}
