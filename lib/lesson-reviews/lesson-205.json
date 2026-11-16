@@ -1,0 +1,43 @@
+{
+  "lessonId": 205,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    1021,
+    1022,
+    1023,
+    1024,
+    1025
+  ],
+  "fingerprint": "a2ebd06a10959312675a568ffe9bc99adf8c44cb2eb9d4a505b17827707be562",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "Ligand binding activates **gustducin** (a Gi-like G protein), ultimately increasing intracellular Ca²⁺ and triggering neurotransmitter release.",
+      "new": "Ligand binding activates **gustducin** (a Gi-like G protein), whose βγ subunits activate **phospholipase C-β2**. PLCβ2 generates **IP₃**, which releases Ca²⁺ from intracellular stores; the rise in Ca²⁺ opens the **TRPM5** channel, depolarising the cell and triggering transmitter release. The same PLCβ2 cascade is shared by bitter and umami, which is why a single mutation downstream of the receptors can knock out all three of these tastes at once while leaving salty and sour intact."
+    },
+    {
+      "field": "lesson.content",
+      "old": "Anosmia can also result from COVID-19 infection, which damages olfactory epithelium.",
+      "new": "Anosmia can also result from COVID-19 infection, which damages olfactory epithelium.\n\nOne further point that MCAT questions exploit: not everything you smell is olfaction. Free nerve endings of the **trigeminal nerve (CN V)** in the nasal mucosa detect chemical irritants — ammonia, the sting of chlorine, the cool of menthol, the burn of capsaicin. This **chemesthetic** pathway bypasses the olfactory epithelium and bulb entirely, so a patient with a destroyed olfactory bulb still reacts to ammonia while being unable to identify any ordinary odour. That dissociation is how clinicians distinguish true anosmia from malingering."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, Anatomy and Physiology §14.1 — sensory perception, covering taste, smell and the somatosensory receptors",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception"
+    },
+    {
+      "title": "OpenStax, Anatomy and Physiology 2e — chapter 14 review, stating that the dorsal column system carries touch and proprioception and crosses the midline in the medulla",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-chapter-review"
+    }
+  ],
+  "visual": {
+    "title": "Taste, smell, the two tracts and the gate",
+    "src": "/lesson-diagrams/chemical-senses-somatosensory-tracts-and-the-gate.svg",
+    "width": 920,
+    "height": 918,
+    "alt": "Taste divided by transduction mechanism into the G protein tastes, salt through ENaC and sour through OTOP1, with their cranial nerves; smell shown reaching piriform cortex, amygdala and entorhinal cortex without a thalamic relay; a schematic cord contrasting the dorsal column pathway, which ascends on the same side and crosses in the medulla, with the spinothalamic tract, which crosses at entry; and the dorsal horn gate, opened by small pain fibres and closed by large touch fibres.",
+    "caption": "One pathway crosses at the top, the other at the bottom. That single difference is what makes a cord hemisection produce losses on opposite sides of the body.",
+    "beforeHeading": "### Somatosensory Pathways"
+  }
+}
