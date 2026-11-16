@@ -1,0 +1,51 @@
+{
+ "lessonId": 173,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  861,
+  862,
+  863,
+  864,
+  865
+ ],
+ "fingerprint": "bd53baec77b911916d08534af071ce8b33710a2ea9e2c8d0c17fa4424dde778d",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Sunglasses use horizontal polarizers to block glare from horizontal surfaces (roads, water).",
+   "new": "Sunglasses use *vertical* transmission axes: glare bouncing off a road or a lake is polarized horizontally, so a filter that passes only the vertical component is what removes it.",
+   "reason": "As written this is backwards and contradicts the lesson's own question 865, whose explanation states that polarized sunglasses have a vertical transmission axis. A horizontal polarizer would transmit horizontally polarized glare rather than block it — the opposite of what the lens is for."
+  },
+  {
+   "field": "questions.861.explanation",
+   "old": "A common error is inverting d and L or misplacing a power of ten. Choice A results from using d in the numerator instead of the denominator.",
+   "new": "The distractors all come from the slit separation rather than the formula: 0.5 mm is what you get with d = 1.0 mm, 1.0 mm with d = 0.5 mm, and 5.0 mm with d = 0.1 mm. Read the 0.25 mm carefully and convert it to 2.5 × 10⁻⁴ m before dividing.",
+   "reason": "The published note does not describe choice A: putting d in the numerator gives λLd ≈ 10⁻¹⁰ m, not 0.5 mm. Every wrong choice here is the right formula evaluated with a different separation, which is the error actually worth warning about."
+  },
+  {
+   "field": "questions.863.explanation",
+   "old": "Choice A is wrong because all electromagnetic radiation travels at the same speed c in a given medium.",
+   "new": "Choice A is wrong because all electromagnetic radiation travels at the same speed c in vacuum — and inside a medium the speed varies with wavelength (that is dispersion), but never in a way that makes UV faster. What changes with frequency is the energy per photon, not the delivery speed.",
+   "reason": "\"The same speed c in a given medium\" contradicts the lesson's own section on dispersion, which defines the refractive index, and hence the speed, as wavelength-dependent. The speed is common to all wavelengths only in vacuum."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, University Physics Volume 3 §1.4 — refraction, the critical angle and how the index of refraction sets the speed of light in a medium",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/1-4-total-internal-reflection"
+  },
+  {
+   "title": "OpenStax, University Physics Volume 3, ch. 1 summary — dispersion is the spreading of white light into its wavelengths because the index varies with wavelength",
+   "url": "https://openstax.org/books/university-physics-volume-3/pages/1-summary"
+  }
+ ],
+ "visual": {
+  "title": "Fringes, phase flips and transmission axes",
+  "src": "/lesson-diagrams/interference-diffraction-and-polarization.svg",
+  "width": 920,
+  "height": 830,
+  "alt": "A double-slit setup with bright fringes marked m = 0, 1 and 2 and the spacing lambda L over d; two single-slit diffraction curves showing that halving the slit doubles the width of the central maximum, with the Rayleigh criterion; a thin film with one reflection flipping phase and the other not, and the two interference conditions that follow; and a polarization panel with Malus's law, Brewster's angle and the vertical transmission axis that blocks horizontal glare.",
+  "caption": "Both slit formulas look identical — a sinθ = mλ and d sinθ = mλ — but the first locates dark fringes and the second bright ones. For a film, count how many reflections flip phase before choosing the condition.",
+  "beforeHeading": "## Single-Slit Diffraction"
+ }
+}
