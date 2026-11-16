@@ -1,0 +1,43 @@
+{
+ "lessonId": 196,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  976,
+  977,
+  978,
+  979,
+  980
+ ],
+ "fingerprint": "64e79b5ed873d6acc0ec2c5291406832a5f161808e089db9300761c4ac6660a2",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Gordon Bower and colleagues demonstrated this with various substances.",
+   "new": "The classic demonstrations of this used alcohol. Gordon Bower's related work established mood-dependent retrieval, in which the state that has to match is an emotional one rather than a pharmacological one."
+  },
+  {
+   "field": "lesson.content",
+   "old": "This double dissociation supports the existence of anatomically and functionally distinct memory systems.",
+   "new": "On its own this is a single dissociation. It becomes a double dissociation only when paired with the opposite profile, seen in Huntington's and Parkinson's disease, where procedural learning is impaired while declarative memory holds up. The two patterns together are what establish that the systems are anatomically and functionally distinct."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §8.3 — problems with memory, covering interference, the misinformation effect and source misattribution",
+   "url": "https://openstax.org/books/psychology/pages/8-3-problems-with-memory"
+  },
+  {
+   "title": "OpenStax, Psychology §8.1 — how memory functions, covering encoding, the stores and retrieval",
+   "url": "https://openstax.org/books/psychology/pages/8-1-how-memory-functions"
+  }
+ ],
+ "visual": {
+  "title": "The curve, the five failures and the two interferences",
+  "src": "/lesson-diagrams/serial-position-forgetting-and-interference.svg",
+  "width": 920,
+  "height": 900,
+  "alt": "A U-shaped serial position curve for immediate free recall shown against a dashed curve for recall after a filled thirty-second delay, in which the recency end has flattened while the primacy end is unchanged; a table of five forgetting mechanisms distinguished by whether the memory was never stored, faded, crowded out, uncued or kept out; and a contrast between proactive and retroactive interference decided by which list is being tested.",
+  "caption": "The delay is the whole experiment: knock out recency and leave primacy standing, and you have measured two stores with one word list.",
+  "beforeHeading": "## The Serial Position Effect"
+ }
+}
