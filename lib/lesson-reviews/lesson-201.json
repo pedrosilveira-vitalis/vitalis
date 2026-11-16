@@ -1,39 +1,53 @@
 {
- "lessonId": 201,
- "reviewedAt": "2026-11-16",
- "questionIds": [
-  1001,
-  1002,
-  1003,
-  1004,
-  1005
- ],
- "fingerprint": "23785275c4a242b63c5f570024806697935a62c988eb258147812609d1771ccd",
- "patches": [
-  {
-   "field": "lesson.content",
-   "old": "From an SDT perspective, adaptation shifts the signal-plus-noise distribution downward—the adapted stimulus produces less internal activation, making it harder to detect and effectively raising the criterion relative to the stimulus.",
-   "new": "From an SDT perspective, adaptation moves the signal-plus-noise distribution toward the noise distribution: the adapted stimulus now produces less internal activation, the two distributions overlap more, and d′ falls. Note that this is a change in **sensitivity**, not in bias — the observer's criterion need not move at all. The same logic applies to added background noise, which widens and raises the noise distribution and so lowers d′."
-  },
-  {
-   "field": "lesson.content",
-   "old": "The **criterion** (also called **beta, β**, or the decision threshold) is the internal activation level above which the observer will say \"yes, signal present.\"",
-   "new": "The **criterion** (the decision threshold) is the internal activation level above which the observer will say \"yes, signal present.\" Its position is reported either as **c**, the location of the line itself, or as **β**, the likelihood ratio at that line; the two are different numbers for the same idea, and the MCAT treats either as the measure of response bias, in contrast to d′."
+  "lessonId": 201,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005
+  ],
+  "fingerprint": "23785275c4a242b63c5f570024806697935a62c988eb258147812609d1771ccd",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "From an SDT perspective, adaptation shifts the signal-plus-noise distribution downward—the adapted stimulus produces less internal activation, making it harder to detect and effectively raising the criterion relative to the stimulus.",
+      "new": "From an SDT perspective, adaptation moves the signal-plus-noise distribution toward the noise distribution: the adapted stimulus now produces less internal activation, the two distributions overlap more, and d′ falls. Note that this is a change in **sensitivity**, not in bias — the observer's criterion need not move at all. The same logic applies to added background noise, which widens and raises the noise distribution and so lowers d′."
+    },
+    {
+      "field": "lesson.content",
+      "old": "The **criterion** (also called **beta, β**, or the decision threshold) is the internal activation level above which the observer will say \"yes, signal present.\"",
+      "new": "The **criterion** (the decision threshold) is the internal activation level above which the observer will say \"yes, signal present.\" Its position is reported either as **c**, the location of the line itself, or as **β**, the likelihood ratio at that line; the two are different numbers for the same idea, and the MCAT treats either as the measure of response bias, in contrast to d′."
+    },
+    {
+      "field": "lesson.content",
+      "old": "- **Brightness (vision)**: k ≈ 0.02 (2%) — you need only a 2% change in light intensity to notice a difference",
+      "new": "- **Brightness (vision)**: k ≈ 0.08 (8%) — you need roughly an 8% change in light intensity to notice a difference"
+    },
+    {
+      "field": "lesson.content",
+      "old": "- **Smell**: k ≈ 0.05–0.07 (5–7%)",
+      "new": "- **Smell**: k ≈ 0.07–0.10 (7–10%), varying widely with the odorant\n\nThese constants are approximations. Published Weber fractions for the same modality differ substantially across studies and stimulus conditions, so treat the ordering — weight and vision fine, taste and smell coarse — as the point, and expect the exam to test the proportionality rather than the exact constants."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, Psychology §5.1 — sensation versus perception, covering absolute and difference thresholds, Weber's law and signal detection theory",
+      "url": "https://openstax.org/books/psychology/pages/5-1-sensation-versus-perception"
+    },
+    {
+      "title": "Purdue University, Sensation and Perception course notes — Weber fraction table giving light at 8 per cent and weight at 2 per cent",
+      "url": "http://www.psych.purdue.edu/~willia55/120/6.S-PMM.pdf"
+    }
+  ],
+  "visual": {
+    "title": "The two distributions, the four outcomes and Weber's fraction",
+    "src": "/lesson-diagrams/signal-detection-and-webers-law.svg",
+    "width": 920,
+    "height": 916,
+    "alt": "Overlapping normal distributions for noise alone and signal plus noise, with d-prime marked as the distance between their peaks and a vertical criterion line that can slide left for a liberal bias or right for a conservative one; a two-by-two table of hit, miss, false alarm and correct rejection with their clinical equivalents; and a bar chart of Weber fractions from heaviness and brightness at two per cent up to loudness at ten per cent.",
+    "caption": "Hits and false alarms moving together means the line moved. Only a change in the gap between the two curves is a change in sensitivity.",
+    "beforeHeading": "### The Core Framework: Signal + Noise"
   }
- ],
- "sources": [
-  {
-   "title": "OpenStax, Psychology §5.1 — sensation versus perception, covering absolute and difference thresholds, Weber's law and signal detection theory",
-   "url": "https://openstax.org/books/psychology/pages/5-1-sensation-versus-perception"
-  }
- ],
- "visual": {
-  "title": "The two distributions, the four outcomes and Weber's fraction",
-  "src": "/lesson-diagrams/signal-detection-and-webers-law.svg",
-  "width": 920,
-  "height": 916,
-  "alt": "Overlapping normal distributions for noise alone and signal plus noise, with d-prime marked as the distance between their peaks and a vertical criterion line that can slide left for a liberal bias or right for a conservative one; a two-by-two table of hit, miss, false alarm and correct rejection with their clinical equivalents; and a bar chart of Weber fractions from heaviness and brightness at two per cent up to loudness at ten per cent.",
-  "caption": "Hits and false alarms moving together means the line moved. Only a change in the gap between the two curves is a change in sensitivity.",
-  "beforeHeading": "### The Core Framework: Signal + Noise"
- }
 }

@@ -1,0 +1,43 @@
+{
+ "lessonId": 202,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1006,
+  1007,
+  1008,
+  1009,
+  1010
+ ],
+ "fingerprint": "a5006d37324c78a66d32bff52d6f969585aad4b70eee2fa1ce452e0d41221b6b",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "| Taste (salt) | ~0.20 (20%) |",
+   "new": "| Taste (salt) | ~0.08–0.20 (8–20%) |"
+  },
+  {
+   "field": "lesson.content",
+   "old": "| Smell | ~0.25 (25%) |",
+   "new": "| Smell | ~0.10–0.25 (10–25%), depending on the odorant |\n\nThese constants are approximations, and published values for the same modality differ substantially across studies and stimulus conditions. What is stable, and what the exam tests, is the ordering — weight and vision fine, taste and smell coarse — together with the proportionality itself."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Purdue University, Sensation and Perception course notes — transduction and the Weber fraction, with light at 8 per cent and weight at 2 per cent",
+   "url": "http://www.psych.purdue.edu/~willia55/120/6.S-PMM.pdf"
+  },
+  {
+   "title": "OpenStax, Anatomy and Physiology §14.1 — sensory perception, covering receptor types, transduction and adaptation",
+   "url": "https://openstax.org/books/anatomy-and-physiology/pages/14-1-sensory-perception"
+  }
+ ],
+ "visual": {
+  "title": "One chain, five front ends, three adaptation profiles",
+  "src": "/lesson-diagrams/transduction-by-modality-and-adaptation.svg",
+  "width": 920,
+  "height": 910,
+  "alt": "A five-step chain from stimulus through channel opening to a graded receptor potential, all-or-none action potentials and rate coding of intensity; a table of the transduction mechanism for touch, hearing, vision, smell, taste and temperature or pain, marking vision as the case where channels close and the cell hyperpolarises; and three cards contrasting rapidly adapting receptors, slowly adapting receptors and nociceptors, which sensitise instead of adapting.",
+  "caption": "Rapidly adapting receptors report that something changed; slowly adapting ones report that it is still there. Nociceptors do neither — they get louder.",
+  "beforeHeading": "### General Steps of Transduction"
+ }
+}

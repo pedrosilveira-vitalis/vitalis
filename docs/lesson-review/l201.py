@@ -93,11 +93,12 @@ d.text(680, 594, "ΔI / I = k", color=NAVY, weight="bold", size=22)
 d.text(680, 618, "the change you can just detect, over what you started with",
        color=GREY, size=10)
 
-d.text(680, 660, "smaller k = finer discrimination", color=GOLD, weight="bold", size=13)
+d.text(680, 656, "smaller k = finer discrimination", color=GOLD, weight="bold", size=13)
+d.text(680, 674, "(approximate \u2014 published values vary by study)", color=GREY, size=10)
 
-bars = [("heaviness", 0.02), ("brightness", 0.02), ("smell", 0.06),
-        ("pain", 0.07), ("salt taste", 0.08), ("loudness", 0.10)]
-y = 686
+bars = [("heaviness", 0.02), ("pain", 0.07), ("brightness", 0.08),
+        ("salt taste", 0.08), ("smell", 0.10), ("loudness", 0.10)]
+y = 692
 for name, k in bars:
     d.text(596, y + 9, name, anchor="end", color=NAVY, size=11)
     w = k * 1800
