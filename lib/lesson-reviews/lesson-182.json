@@ -1,0 +1,51 @@
+{
+  "lessonId": 182,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    906,
+    907,
+    908,
+    909,
+    910
+  ],
+  "fingerprint": "8152b939d60c4ae3980dd1b858a803b09886c5e317103b9e3e0b96781457e980",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "- **Cl⁻**: ~4 mM ICF vs. ~120 mM ECF (high outside)",
+      "new": "- **Cl⁻**: ~5–10 mM ICF vs. ~120 mM ECF (high outside; mature neurons hold intracellular Cl⁻ low using the KCC2 cotransporter)",
+      "reason": "The quoted 4 mM intracellular chloride forces E_Cl to about −90 mV, which contradicts this lesson's own statements elsewhere that E_Cl is near −70 mV in adult neurons (the GABA_A bullet) and that chloride sits close to electrochemical equilibrium at rest (question 909). Measured intracellular Cl⁻ in mature neurons is roughly 5–10 mM, which is what makes those other statements true."
+    },
+    {
+      "field": "lesson.content",
+      "old": "- **E_Cl** = (61.5/−1) × log(120/4) ≈ **−89 mV**",
+      "new": "- **E_Cl** = (61.5/−1) × log(120/9) ≈ **−69 mV**, close enough to the resting potential that Cl⁻ carries little net current at rest",
+      "reason": "Recomputed from the corrected intracellular concentration, and reconciled with the lesson's later claims that GABA_A currents have E_Cl ≈ −70 mV and that chloride sits near equilibrium at rest."
+    },
+    {
+      "field": "lesson.content",
+      "old": "- E_K: **−95 mV** | E_Na: **+67 mV** | E_Cl: **−89 mV**",
+      "new": "- E_K: **−95 mV** | E_Na: **+67 mV** | E_Cl: **≈ −70 mV** (near rest, so Cl⁻ mostly stabilises rather than shifts V_m)",
+      "reason": "Brought the memorisation list into line with the corrected E_Cl, so the three places the lesson quotes a chloride equilibrium potential now agree."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, Anatomy and Physiology §12.4 — the resting membrane potential, leak and voltage-gated channels, and the phases of the action potential",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/12-4-the-action-potential"
+    },
+    {
+      "title": "Frontiers review (PMC9355526) — mature neurons hold intracellular chloride low through KCC2, which is what makes GABA_A currents hyperpolarizing",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9355526"
+    }
+  ],
+  "visual": {
+    "title": "The voltage ladder and the spike",
+    "src": "/lesson-diagrams/membrane-potential-action-potential-and-myelin.svg",
+    "width": 920,
+    "height": 860,
+    "alt": "A voltage scale marking E_K at minus ninety-five, the resting potential at minus seventy, threshold at minus fifty-five, the action potential peak near plus thirty-five and E_Na at plus sixty-seven; the action potential traced through its rising phase, peak, repolarisation and undershoot with the absolute and relative refractory periods marked beneath; the membrane drawn as a capacitor in parallel with a conductance and battery for each ion; and a myelinated axon showing the nodes of Ranvier where the sodium channels are clustered.",
+    "caption": "Each ion's equilibrium potential is the voltage the membrane would drift to if only that channel were open. The spike is the membrane being dragged toward E_Na and then released back toward E_K.",
+    "beforeHeading": "## The Action Potential"
+  }
+}
