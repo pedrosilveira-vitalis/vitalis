@@ -1,0 +1,38 @@
+{
+ "lessonId": 200,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  996,
+  997,
+  998,
+  999,
+  1000
+ ],
+ "fingerprint": "075eaa06b476409894d54f2218db1b7eb7a85418379440e6720636e5dc72c05c",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "This is the **Dickens-Flynn model** logic: when environments are more uniform, genetic differences explain more of the remaining variance.",
+   "new": "This pattern is the **Scarr-Rowe effect**, named for the investigators who first reported and replicated it and brought back to prominence by Turkheimer and colleagues in 2003: when environments are more uniform, genetic differences explain more of the remaining variance, so heritability rises with socioeconomic status. (The separate **Dickens-Flynn model** addresses a different puzzle — how heritability can be high while environmental effects such as the Flynn effect are also large — by proposing that small genetic advantages get multiplied through the environments people select and evoke.)"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Turkheimer, Haley, Waldron, D'Onofrio and Gottesman, Psychological Science 2003 — socioeconomic status modifies heritability of IQ in young children",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/14629696/"
+  },
+  {
+   "title": "Nisbett and colleagues, on the Scarr-Rowe interaction between measured socioeconomic status and the heritability of cognitive ability",
+   "url": "https://link.springer.com/10.1007/978-1-4614-7447-0_2"
+  }
+ ],
+ "visual": {
+  "title": "The curve, the theories and the statistic",
+  "src": "/lesson-diagrams/iq-distribution-theories-and-heritability.svg",
+  "width": 920,
+  "height": 902,
+  "alt": "A normal IQ distribution with mean 100 and standard deviation 15, marked at 70, 85, 100, 115 and 130 with the clinical cut-offs two deviations out; four cards summarising Spearman, Cattell, Gardner and Sternberg; and a two-column list separating what heritability is — a share of variance in one population in one environment — from what it is not, including any claim about an individual or about a gap between groups.",
+  "caption": "Heritability describes variance inside one population in one environment. The fact that the number itself drops under deprivation is the clearest sign it is not a fixed property of the trait.",
+  "beforeHeading": "## Psychometric Approaches and IQ Testing"
+ }
+}
