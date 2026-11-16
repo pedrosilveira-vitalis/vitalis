@@ -1,0 +1,32 @@
+{
+ "lessonId": 189,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  941,
+  942,
+  943,
+  944,
+  945
+ ],
+ "fingerprint": "3bc1da375c8a3cc63c918687e6597aa749691ea12fc332a046c32608f72dd52d",
+ "patches": [],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §6.1 — what learning is, and how instincts and reflexes differ from learned behaviour",
+   "url": "https://openstax.org/books/psychology/pages/6-1-what-is-learning"
+  },
+  {
+   "title": "OpenStax, Psychology §6.4 — observational learning and modelling, including the four steps it requires",
+   "url": "https://openstax.org/books/psychology/pages/6-4-observational-learning-modeling"
+  }
+ ],
+ "visual": {
+  "title": "What cognition adds and what biology forbids",
+  "src": "/lesson-diagrams/cognitive-and-biological-constraints-on-learning.svg",
+  "width": 920,
+  "height": 880,
+  "alt": "Tolman's three groups of rats plotted as errors against days, with the group switched to reward on day eleven dropping almost at once to the level of the always-rewarded group; Garcia and Koelling's result, in which a compound of taste with light and noise is followed by illness or by shock and the illness attaches to the taste while the shock attaches to the light and noise; four cards giving the rules taste aversion breaks and the adaptive reason for each; a contrast between instinctive drift, where reward continues but instinct wins, and extinction, where the reward stopped; and a list matching each researcher to their phenomenon.",
+  "caption": "The day-eleven drop is the evidence that the map was already built, and the Garcia crossover is the evidence that the brain is not an all-purpose association machine. Together they are what ended the blank-slate reading of conditioning.",
+  "beforeHeading": "## Part II: Biological Constraints on Learning"
+ }
+}
