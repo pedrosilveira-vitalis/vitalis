@@ -1,0 +1,32 @@
+{
+ "lessonId": 195,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  971,
+  972,
+  973,
+  974,
+  975
+ ],
+ "fingerprint": "d7b9029e563c1bb23a52bc9a906deb3f488ad5551020ce54adde0187e6b78083",
+ "patches": [],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §8.2 — parts of the brain involved with memory, including hippocampal encoding and amygdala modulation",
+   "url": "https://openstax.org/books/psychology/pages/8-2-parts-of-the-brain-involved-with-memory"
+  },
+  {
+   "title": "OpenStax, Psychology §8.4 — ways to enhance memory, including elaborative rehearsal, distributed practice and retrieval practice",
+   "url": "https://openstax.org/books/psychology/pages/8-4-ways-to-enhance-memory"
+  }
+ ],
+ "visual": {
+  "title": "The coincidence detector and the two phases",
+  "src": "/lesson-diagrams/ltp-and-the-biology-of-memory-formation.svg",
+  "width": 920,
+  "height": 892,
+  "alt": "A synapse showing glutamate released onto NMDA and AMPA receptors, with the NMDA channel plugged by magnesium until the membrane depolarises, and the cascade that follows: calcium entry, CaMKII activation, AMPA receptors phosphorylated and inserted, and a larger response to the same input; a contrast between early long-term potentiation, which needs no new protein, and late potentiation, which runs through PKA and CREB to new gene expression; and a curve of hippocampal dependence falling over months, beside the roles of slow-wave and REM sleep in consolidation.",
+  "caption": "The magnesium plug is why conditioning is selective: glutamate alone does nothing, and only a synapse that was active while the cell was already firing gets strengthened.",
+  "beforeHeading": "### NMDA Receptors: The Molecular Coincidence Detectors"
+ }
+}
