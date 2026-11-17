@@ -1,0 +1,39 @@
+{
+ "lessonId": 240,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1196,
+  1197,
+  1198,
+  1199,
+  1200
+ ],
+ "fingerprint": "3957efb2f10451dfcfd416db1720959300d88994e27cab3d4373c89db62be2bb",
+ "patches": [
+  {
+   "field": "questions.1197.question_text",
+   "old": "receive 50% fewer callbacks than applicants with identical resumes bearing stereotypically white-sounding names",
+   "new": "receive substantially fewer callbacks than applicants with identical resumes bearing stereotypically white-sounding names, with white-sounding names drawing about 50% more callbacks"
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Resilience and cultural pride**: Affirming minority identity as a source of strength, community, and resistance",
+   "new": "- **Resilience and cultural pride**: Affirming minority identity as a source of strength, community, and resistance\n\n### Barriers Within Institutions\n\nTwo further terms describe what happens to minority group members who are already inside an institution rather than excluded from it.\n\nThe **glass ceiling** is an invisible but real barrier that prevents women and members of minority groups from advancing past a certain level of an organisation despite having the qualifications for it. Its signature is the *justification*: because no formal rule bars the candidate, the refusal is explained in vague and unfalsifiable terms — \"communication style\", \"executive presence\", \"not quite the right fit\". Related terms worth recognising are the **glass escalator**, the tendency for men in female-dominated professions such as nursing to be pushed upward into administration faster than their female colleagues, and the **sticky floor**, which describes being held in the lowest-paid positions rather than stopped near the top.\n\nA **middleman minority** is a group that occupies an intermediate economic position — often in small business or trade — between a dominant group and a subordinate one, a position that can bring economic opportunity along with hostility from both directions."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Bertrand & Mullainathan, “Are Emily and Greg More Employable than Lakisha and Jamal?” — resumes with white-sounding names received about 50 per cent more callbacks",
+   "url": "https://www.aeaweb.org/articles?id=10.1257/0002828042002561"
+  }
+ ],
+ "visual": {
+  "title": "From social category to biological effect",
+  "src": "/lesson-diagrams/race-as-social-category-levels-and-vocabulary.svg",
+  "width": 920,
+  "height": 972,
+  "alt": "A four-step chain from race as a socially assigned category, through its use to allocate housing, schooling, work and care, to chronic stress and exposure, to measurable biological change in allostatic load and telomere length, with the birth-outcome evidence that rules out a purely economic explanation and a warning that sickle cell trait and Tay-Sachs track ancestry rather than race. Below, cards for individual, institutional and structural racism plus colourblind racism, and a vocabulary panel separating prejudice as attitude from discrimination as act and defining implicit bias, stereotype threat, code-switching, the glass ceiling and intersectionality.",
+  "caption": "Race has no genetic basis and still produces measurable biological effects — through allocation and stress, not through genes.",
+  "beforeHeading": "## MCAT-Specific Applications and Passage Strategies"
+ }
+}
