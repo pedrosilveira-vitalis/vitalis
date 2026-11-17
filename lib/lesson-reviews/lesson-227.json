@@ -1,0 +1,39 @@
+{
+ "lessonId": 227,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1131,
+  1132,
+  1133,
+  1134,
+  1135
+ ],
+ "fingerprint": "ac0fde40b5aee4c76a5ca5901cd4cf0995c1bfb95997d176289d1d81668d31d4",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Its inverse, the **horn effect**, occurs when a single negative trait contaminates the entire impression.",
+   "new": "Its inverse, the **horn effect**, occurs when a single negative trait contaminates the entire impression.\n\n### Implicit Personality Theory\n\nClosely related, and frequently tested alongside the halo effect, is **implicit personality theory**: the set of lay assumptions each of us holds about which traits tend to travel together. Most people assume, without ever having checked, that someone who is warm is probably also generous, or that someone who is attractive is probably also intelligent and socially skilled — the last pairing being so common it has its own name, the **“what is beautiful is good” stereotype**. These assumed trait clusters let us infer a whole personality from one or two observations.\n\nThe distinction from the halo effect is subtle but testable. The **halo effect** is about *valence spilling over*: a global positive feeling about a person raises ratings on unrelated dimensions. **Implicit personality theory** is about *structure*: a specific belief that trait A and trait B co-occur, which is what licenses the inference in the first place. The attractiveness-to-intelligence judgement is routinely cited as an example of both, so on test day let the answer choices decide — if the question emphasises a general favourable glow, that is halo; if it emphasises a belief system linking particular traits, that is implicit personality theory."
+  },
+  {
+   "field": "lesson.content",
+   "old": "In social contexts, anchoring affects salary negotiations, legal sentencing, and medical diagnosis. The initial information sets a reference point, and subsequent adjustments are typically insufficient to overcome its influence.",
+   "new": "In social contexts, anchoring affects salary negotiations, legal sentencing, and medical diagnosis. The initial information sets a reference point, and subsequent adjustments are typically insufficient to overcome its influence. **Anchoring and insufficient adjustment also operates on impressions of people, not just on numbers**: the first impression functions as the anchor, and later contradictory information produces only a small revision rather than a fresh judgement. This is a second mechanism, alongside the primacy effect and confirmation bias, behind the stubbornness of first impressions."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §12.1 — what is social psychology, covering situational versus dispositional attribution, the fundamental attribution error and actor-observer bias",
+   "url": "https://openstax.org/books/psychology/pages/12-1-what-is-social-psychology"
+  }
+ ],
+ "visual": {
+  "title": "The same behaviour from four seats",
+  "src": "/lesson-diagrams/attribution-seats-kelley-dials-and-inference-biases.svg",
+  "width": 920,
+  "height": 1000,
+  "alt": "One behaviour, arriving late, explained from four positions: watching someone else gives a dispositional reading and the fundamental attribution error; explaining your own lateness gives a situational reading; your own success is read dispositionally and your own failure situationally, both self-serving. Alongside, Kelley's consensus, distinctiveness and consistency dials with the high-high-high and low-low-high combinations, and a list of inference biases from primacy and anchoring to implicit personality theory and confirmation bias.",
+  "caption": "The attribution biases are one tilt seen from different seats: the person is salient when you watch, the situation when you live it.",
+  "beforeHeading": "### The Actor-Observer Bias"
+ }
+}
