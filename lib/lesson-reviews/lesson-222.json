@@ -1,0 +1,34 @@
+{
+ "lessonId": 222,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1106,
+  1107,
+  1108,
+  1109,
+  1110
+ ],
+ "fingerprint": "c232994f9d8076e909f9602a98f7c0c48c03eae50bd74a46547a66d483db75a8",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "A **hypomanic episode** meets the same symptom criteria as mania but lasts only *four consecutive days* and does not cause marked functional impairment or require hospitalization.",
+   "new": "A **hypomanic episode** meets the same symptom criteria as mania but requires a minimum of *four consecutive days* rather than seven, and does not cause marked functional impairment or require hospitalization. Note that four days is a floor, not a ceiling: a two-week elevated episode that never impairs functioning is still hypomania, and conversely an episode of any length is mania if it causes marked impairment, requires hospitalization, or includes psychotic features. Duration alone never settles it — severity does."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §15.7 — mood disorders, covering major depressive disorder and the bipolar episodes",
+   "url": "https://openstax.org/books/psychology/pages/15-7-mood-disorders"
+  }
+ ],
+ "visual": {
+  "title": "Duration, severity, and what follows from them",
+  "src": "/lesson-diagrams/mood-episodes-duration-biology-and-treatment.svg",
+  "width": 920,
+  "height": 1018,
+  "alt": "Mood episodes arranged by duration above and below a severity line: hypomania at four or more days without marked impairment, mania at seven or more days or any length requiring hospitalization, a major depressive episode at two or more weeks and persistent depressive disorder at two or more years; four diagnosis cards for bipolar I, bipolar II, major depressive disorder and cyclothymia; a panel of monoamine, HPA axis and neuroplasticity findings with the delayed-onset problem; and a panel of drug classes ending with the warning against antidepressant monotherapy in bipolar disorder.",
+  "caption": "Duration alone never settles an elevated episode. Impairment, hospitalization or psychosis makes it mania at any length.",
+  "beforeHeading": "## Neurobiological Mechanisms"
+ }
+}
