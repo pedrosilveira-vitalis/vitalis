@@ -1,0 +1,43 @@
+{
+ "lessonId": 211,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1051,
+  1052,
+  1053,
+  1054,
+  1055
+ ],
+ "fingerprint": "4fcfcca7ada6e71ca7fd04d45931d04bf3cafeac5cbbc2f741a8e4cc9e5e68cf",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "However, a large-scale **replication failure** in 2016 (the \"Many Labs\" replication project) failed to reproduce the effect, casting doubt on the original finding.",
+   "new": "However, a **Registered Replication Report** published in 2016 by Wagenmakers and colleagues — seventeen independent laboratories running the procedure on nearly 1,900 participants — failed to reproduce the effect, casting doubt on the original finding. (This is a different project from the separate *Many Labs* replication series, which the two are often confused with.)"
+  },
+  {
+   "field": "lesson.content",
+   "old": "Research by Batja Mesquita distinguishes between **ego-focused emotions**",
+   "new": "A distinction drawn by Markus and Kitayama, and developed in later cross-cultural work by Batja Mesquita and others, separates **ego-focused emotions**"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Wagenmakers and colleagues, Perspectives on Psychological Science 2016 — Registered Replication Report of Strack, Martin and Stepper (1988), seventeen direct replications of the pen-in-mouth study",
+   "url": "https://doi.org/10.1177/1745691616674458"
+  },
+  {
+   "title": "OpenStax, Psychology §10.4 — emotion, covering universal facial expressions and cultural display rules",
+   "url": "https://openstax.org/books/psychology/pages/10-4-emotion"
+  }
+ ],
+ "visual": {
+  "title": "The study that separates feeling from showing",
+  "src": "/lesson-diagrams/display-rules-and-the-universality-debate.svg",
+  "width": 920,
+  "height": 884,
+  "alt": "A two-panel comparison of Ekman and Friesen's finding that Japanese and American viewers made the same faces watching a distressing film alone but diverged when an authority figure was present, with the Japanese viewers masking distress with smiles; four cards for the display rule operations of intensifying, deintensifying, neutralising and masking; and a side-by-side summary of the universalist and constructionist positions with the evidence each rests on.",
+  "caption": "Alone, no difference. Watched, a large one. The emotion was never the variable — the audience was.",
+  "beforeHeading": "### Ekman's Japanese-American Study"
+ }
+}
