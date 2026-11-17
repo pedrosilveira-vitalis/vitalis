@@ -1,0 +1,49 @@
+{
+ "lessonId": 248,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1236,
+  1237,
+  1238,
+  1239,
+  1240
+ ],
+ "fingerprint": "6e525ae6ad18c249f32213ea5e1948525e2ccf84fbb2898b3ab39da1f95c2564",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "A **confounding variable** (also called a **confound** or **extraneous variable**) is a variable that the experimenter did not intend to manipulate",
+   "new": "A **confounding variable** (also called a **confound**) is a variable that the experimenter did not intend to manipulate"
+  },
+  {
+   "field": "questions.1240.question_text",
+   "old": "A psychologist tests whether background music improves memory by having one group study with classical music and another group study in silence. Both groups are tested in a noisy cafeteria. Which aspect of this design is most problematic?",
+   "new": "A psychologist tests whether background music improves memory by having one group study with classical music and another group study in silence. Because of room availability, the music group is later tested in a quiet library while the silence group is tested in a noisy cafeteria. Which aspect of this design is most problematic?"
+  },
+  {
+   "field": "questions.1240.explanation",
+   "old": "If both groups are tested in a noisy cafeteria, the noise during testing is an extraneous variable that affects performance for all participants but was not part of the intended manipulation. More critically, if the testing environment differs from the study environment for the silence group but not the music group, it could differentially affect recall, acting as a confound. Controlling experimental conditions requires that non-manipulated variables remain constant across groups, especially during measurement. Choice D is tempting but less critical here because blinding is more relevant to subjective measurements or when demand characteristics are a concern.",
+   "new": "The testing environment now varies systematically with the independent variable: the music group is tested in quiet and the silence group in noise. Noise during retrieval impairs recall on its own, so if the music group scores higher the psychologist cannot tell whether the music helped or the quieter test room did. That is exactly what makes a variable a confound — it affects the dependent variable AND it tracks the groups. Note the contrast with the original version of this situation: had BOTH groups been tested in the same noisy cafeteria, the noise would have been held constant across groups and so would have been merely an extraneous variable, adding noise to the data and costing statistical power without biasing the comparison in either direction. The fix is to test both groups under identical conditions. Choice D is tempting but less critical here, because blinding matters most for subjective measurements or where demand characteristics are a concern."
+  },
+  {
+   "field": "lesson.content",
+   "old": "The distinction between a confounding variable and a mere nuisance variable is important.",
+   "new": "There is a third requirement that students often miss: a confounder must not lie **on the causal pathway** between the IV and the DV. A variable that the IV causes, and that in turn causes the DV, is a **mediator**, not a confound — it is how the effect happens, not a rival explanation for it. If exercise lowers blood pressure by reducing body fat, body fat is a mediator; statistically “controlling for” it would subtract away part of the real effect you are trying to measure. So the full test is three-part: the variable is associated with the IV, it independently affects the DV, and it is not a step on the path from one to the other.\n\nThe distinction between a confounding variable and a mere nuisance variable is important."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Oregon State University open epidemiology text, ch. 7 — the three criteria for a confounder, and why variables on the causal pathway are mediators rather than confounders",
+   "url": "https://open.oregonstate.education/epidemiology/chapter/confounding/"
+  }
+ ],
+ "visual": {
+  "title": "The two-part test for a confound",
+  "src": "/lesson-diagrams/what-makes-a-variable-a-confound.svg",
+  "width": 920,
+  "height": 1004,
+  "alt": "A decision tree testing whether an unmanipulated variable affects the dependent variable and then whether it varies with the independent variable, with the two outcomes shown side by side: held constant means an extraneous or nuisance variable that costs power without biasing, while varying with the groups means a confounding variable and a rival explanation; a panel of the four defences, random assignment, holding constant, matching and counterbalancing, with what each buys; and a four-rung blinding ladder naming the bias each rung removes.",
+  "caption": "Holding a variable constant does not remove it from the study — it demotes it from a confound to mere noise.",
+  "beforeHeading": "### Confounding Variables"
+ }
+}
