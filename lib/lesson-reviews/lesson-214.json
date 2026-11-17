@@ -1,0 +1,34 @@
+{
+ "lessonId": 214,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1066,
+  1067,
+  1068,
+  1069,
+  1070
+ ],
+ "fingerprint": "0a51f8d0522c11842a8f2947ca919ebbdc8e7b51ebff0950dac2af696b2c8036",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **Performance-contingent rewards** (rewards tied to quality of performance) are less harmful than **task-contingent rewards** (rewards simply for doing the task).",
+   "new": "- **How the reward is tied to the behaviour** matters, but not in a simple ranking. Meta-analytic work finds that expected tangible rewards undermine free-choice intrinsic motivation whether they are given for merely engaging in the task, for completing it, or for performing it well. A **performance-contingent** reward is the most double-edged case: it carries the strongest competence information, which can raise interest, while also exerting the strongest control, which lowers it — so its net effect depends on which aspect the person experiences more."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology 2e §10.1 — motivation, covering Maslow's hierarchy and intrinsic against extrinsic motivation with the overjustification effect",
+   "url": "https://openstax.org/books/psychology-2e/pages/10-1-motivation"
+  }
+ ],
+ "visual": {
+  "title": "Four frameworks, four jobs",
+  "src": "/lesson-diagrams/maslow-sdt-continuum-and-expectancy-value.svg",
+  "width": 920,
+  "height": 920,
+  "alt": "Maslow's five-level pyramid with the deficiency needs marked; the self-determination continuum running from amotivation through external, introjected, identified and integrated regulation to intrinsic motivation; a four-step chain showing how a promised prize shifts the perceived cause of drawing outward and leaves less drawing once withdrawn; and the expectancy-value product broken into self-efficacy on one side and interest, attainment, utility and cost on the other.",
+  "caption": "Identified and integrated regulation are technically extrinsic and behave almost nothing like being paid — which is the whole reason the continuum exists.",
+  "beforeHeading": "### The Motivation Continuum"
+ }
+}
