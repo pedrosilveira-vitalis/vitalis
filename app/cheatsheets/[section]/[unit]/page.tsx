@@ -6,6 +6,7 @@ import NoriSubject from "@/components/NoriSubject";
 import { capabilitiesFor } from "@/lib/billing";
 import { portalDb } from "@/lib/portal-db";
 import { sectionMeta, sheetFor, type Block } from "@/lib/cheatsheets";
+import PrintButton from "@/components/PrintButton";
 
 function BlockView({ block, accent }: { block: Block; accent: string }) {
   const heading = (
@@ -19,7 +20,7 @@ function BlockView({ block, accent }: { block: Block; accent: string }) {
 
   if (block.kind === "formulas") {
     return (
-      <section className="break-inside-avoid mb-7">
+      <section className="sheet-block mb-7">
         {heading}
         <div className="space-y-2.5">
           {block.items.map(item => (
@@ -36,7 +37,7 @@ function BlockView({ block, accent }: { block: Block; accent: string }) {
 
   if (block.kind === "table") {
     return (
-      <section className="break-inside-avoid mb-7">
+      <section className="sheet-block mb-7">
         {heading}
         <div className="rounded-xl border border-[#0c1a2e18] overflow-hidden">
           <table className="w-full text-[13px]">
@@ -68,7 +69,7 @@ function BlockView({ block, accent }: { block: Block; accent: string }) {
 
   const isTrap = block.kind === "trap";
   return (
-    <section className="break-inside-avoid mb-7">
+    <section className="sheet-block mb-7">
       {heading}
       <ul className={`space-y-2 ${isTrap ? "rounded-xl border-2 border-[#a8324a35] bg-[#a8324a08] px-4 py-3.5" : ""}`}>
         {block.items.map(item => (
@@ -101,7 +102,7 @@ export default async function CheatSheetPage({
         <MainNav badge="Cheat sheets" />
       </div>
 
-      <article className="px-10 py-10 max-w-4xl mx-auto">
+      <article className="sheet-page px-10 py-10 max-w-4xl mx-auto">
         <Link
           href={`/cheatsheets/${section.id}`}
           className="print:hidden font-sans text-[11px] tracking-[0.12em] uppercase opacity-55 hover:opacity-100"
@@ -134,20 +135,19 @@ export default async function CheatSheetPage({
 
         {capabilities.lessons ? (
           <>
-            <div className="md:columns-2 md:gap-10">
+            <div className="sheet-columns md:columns-2 md:gap-10">
               {sheet.blocks.map(block => (
                 <BlockView key={block.heading} block={block} accent={section.accent} />
               ))}
             </div>
             <footer className="print:hidden mt-6 pt-6 border-t border-[#0c1a2e15] flex flex-wrap gap-3 items-center">
+              <PrintButton accent={section.accent} />
               <Link
                 href={`/study/${section.id}`}
-                className="rounded-xl px-5 py-3 font-sans text-sm font-medium text-[#f5f1ea]"
-                style={{ background: section.accent }}
+                className="rounded-xl px-5 py-3 font-sans text-sm font-medium border-2 border-[#0c1a2e] hover:bg-[#0c1a2e] hover:text-[#f5f1ea] transition-colors"
               >
                 Study this unit in full &rarr;
               </Link>
-              <span className="text-[12px] opacity-55">Print this page for a paper copy.</span>
             </footer>
           </>
         ) : (

@@ -65,3 +65,16 @@ h1, h2, h3 { letter-spacing: -.025em; }
 .subject-card, .subject-card.blue, .subject-card.sage, .subject-card.gold {
  --subject-color: var(--vitalis-accent); --subject-bg: var(--vitalis-tint);
 }
+
+/* Cheat sheets: make the browser's Save as PDF produce a clean sheet.
+   Everything that is chrome rather than content is dropped, the two-column
+   layout is kept, and blocks are stopped from splitting across a page break. */
+@media print {
+  .vitalis-sidebar, .vitalis-topbar, .skip-link, .nori-companion, .print\:hidden { display: none !important; }
+  body { background: #fff !important; }
+  .sheet-page { padding: 0 !important; max-width: none !important; }
+  .sheet-page * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .sheet-block { break-inside: avoid; page-break-inside: avoid; }
+  .sheet-columns { column-count: 2; column-gap: 28px; }
+  @page { margin: 14mm; size: A4 portrait; }
+}
