@@ -1,0 +1,39 @@
+{
+ "lessonId": 238,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1186,
+  1187,
+  1188,
+  1189,
+  1190
+ ],
+ "fingerprint": "570fddc786514a23f1d8698b699fb98b41edc105204af868a8974e53806ad781",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "This is what Marx called **false consciousness**.",
+   "new": "This is **false consciousness**. Note the attribution: Marx himself never used the phrase — it comes from an 1893 letter by Engels, written a decade after Marx's death, and was developed into a full concept by later Marxists in the 1920s. The exam treats it as a Marxist concept, which it is, but it is not a term of Marx's own."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Credential inflation**: As more people obtain college degrees, employers raise credential requirements, ensuring that those with access to elite education maintain advantages.",
+   "new": "- **Credential inflation**: As more people obtain college degrees, employers raise credential requirements, ensuring that those with access to elite education maintain advantages.\n- **Educational tracking and the correspondence principle**: Bowles and Gintis argued that schools mirror the hierarchy of the workplace, rewarding punctuality and deference to authority rather than independent thought, and that **tracking** — sorting students into vocational or college-preparatory streams — channels working-class children away from the routes to mobility while presenting the outcome as meritocratic. For conflict theorists this is the central mechanism by which schooling reproduces class rather than disrupting it."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Encyclopedia entry on false consciousness — the phrase was never used by Marx; Engels introduced it in an 1893 letter to Franz Mehring and later Marxists theorised it",
+   "url": "https://sk.sagepub.com/ency/edvol/embed/consumerculture/chpt/false-consciousness-false-needs"
+  }
+ ],
+ "visual": {
+  "title": "The same fact through three lenses",
+  "src": "/lesson-diagrams/three-lenses-on-inequality-triage-and-vocabulary.svg",
+  "width": 920,
+  "height": 946,
+  "alt": "Three columns answering why a surgeon earns more than a nurse: functionalism at the macro level says unequal rewards staff demanding posts, conflict theory at the macro level says the powerful set the rates, and symbolic interactionism at the micro level looks at how the difference is enacted in interaction, each with its standard critique. Below, a three-question triage for identifying the lens a passage uses, and a panel listing the vocabulary belonging to each framework.",
+  "caption": "Functionalism asks what the arrangement does, conflict theory asks who it serves, and symbolic interactionism asks how it is lived.",
+  "beforeHeading": "## Comparing the Three Frameworks"
+ }
+}
