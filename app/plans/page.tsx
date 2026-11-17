@@ -61,7 +61,7 @@ export default function PlansPage() {
             Plans
           </div>
           <h1 className="font-sans font-normal leading-[0.95] tracking-[-0.03em] text-[clamp(48px,6vw,88px)] max-w-4xl">
-            Buy the <span className="italic font-light text-[#245574]">window</span> you&rsquo;ll actually study in.
+            Buy the <span className="italic font-light text-[#245574]">window</span>{" "}you&rsquo;ll actually study in.
           </h1>
           <p className="text-[15px] opacity-70 mt-4 max-w-xl leading-relaxed">
             No monthly subscription to remember to cancel. You pick a stretch of time, pay once, and it runs
@@ -121,7 +121,7 @@ export default function PlansPage() {
                   )}
                 </div>
                 <div className="font-sans text-[11px] tracking-[0.14em] uppercase opacity-55 mt-2">
-                  {days} days of access &middot; paid once
+                  {`${days} days of access · paid once`}
                 </div>
                 {discounted && (
                   <div className="font-sans text-[12px] text-[#245574] mt-2">
