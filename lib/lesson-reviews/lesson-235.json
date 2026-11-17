@@ -1,0 +1,44 @@
+{
+ "lessonId": 235,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1171,
+  1172,
+  1173,
+  1174,
+  1175
+ ],
+ "fingerprint": "f1fb1f19c363e1ec709a3079c4ad8d37c19f00246c562ff5db6fa61298c794fc",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Research by Erika Racial and colleagues suggests that perspective-getting may be more effective than perspective-taking in some contexts, because it relies on accurate information rather than projection of one's own experiences onto others.",
+   "new": "Across 25 experiments, Eyal, Steffel and Epley found no consistent evidence that being instructed to take another person's perspective improved the *accuracy* of judgements about them — if anything it reduced accuracy while raising confidence — whereas **perspective-getting**, simply asking the person and listening to the answer, did improve accuracy. The lesson for intervention design is that imagining another viewpoint largely projects one's own experience onto them, while obtaining the viewpoint directly supplies information one did not have."
+  },
+  {
+   "field": "lesson.content",
+   "old": "This is called the **fence post problem**",
+   "new": "This is the **generalization problem**, and the mechanism behind it is **subtyping** — what Allport himself called *re-fencing*, in which the exception is given its own mental compartment"
+  },
+  {
+   "field": "lesson.content",
+   "old": "observing positive intergroup relationships in your social network or in media can shift attitudes.",
+   "new": "observing positive intergroup relationships in your social network or in media can shift attitudes.\n\nTwo further indirect forms are worth knowing by name. **Vicarious contact** is observing a positive intergroup interaction, including in television or film. **Imagined contact** is more striking still: simply instructing people to spend a few minutes mentally simulating a positive, relaxed encounter with an out-group member reliably produces small reductions in prejudice and increases willingness to engage in real contact later. These findings matter theoretically because Allport's formulation assumed direct, face-to-face interaction, and they matter practically because they offer a route into highly segregated settings where equal-status contact rarely occurs on its own."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Eyal, Steffel & Epley, “Perspective mistaking: Accurately understanding the mind of another requires getting perspective, not taking perspective”, Journal of Personality and Social Psychology (2018)",
+   "url": "https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5cbe54fb71c10bbdc16e0dbc/1555977471661/eyal.steffel.epley.2018.pdf"
+  }
+ ],
+ "visual": {
+  "title": "Conditions, forms, and what the fix targets",
+  "src": "/lesson-diagrams/contact-conditions-interventions-and-generalization.svg",
+  "width": 920,
+  "height": 946,
+  "alt": "Four cards for Allport's conditions of equal status, common goals, cooperation and institutional support with a note that contact helps on average without them and far more with them; four cards for direct, extended, imagined and vicarious contact; a ranked list of interventions from changing the procedure and cooperative learning down to implicit bias training and thought suppression, which rebounds; and a panel showing that a positive encounter generalises only when the person is seen as typical, and is subtyped when seen as atypical.",
+  "caption": "The counter-example that is most impressive is the easiest to dismiss: generalization needs the person to be seen as a typical member of the group.",
+  "beforeHeading": "## Structural and Institutional Interventions"
+ }
+}
