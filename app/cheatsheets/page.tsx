@@ -54,7 +54,7 @@ export default function CheatSheetsPage() {
                   </h2>
                   <p className="text-[13px] opacity-70 leading-relaxed">{section.blurb}</p>
                   <div className="mt-5 font-sans text-[11px] tracking-[0.1em] uppercase" style={{ color: section.accent }}>
-                    {published} of {total} ready &nbsp;&rarr;
+                    {`${published} of ${total} ready`} &nbsp;&rarr;
                   </div>
                 </div>
                 <NoriSubject
