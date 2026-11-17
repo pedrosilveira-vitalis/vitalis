@@ -109,8 +109,11 @@ export default async function CheatSheetPage({
           &larr; {section.name}
         </Link>
 
-        <header className="mt-5 pb-6 mb-8 border-b-2 relative" style={{ borderColor: section.accent }}>
-          <div className="pr-28">
+        <header
+          className="mt-5 pb-6 mb-8 border-b-2 flex items-start justify-between gap-6"
+          style={{ borderColor: section.accent }}
+        >
+          <div className="min-w-0">
             <div
               className="font-sans text-[10px] tracking-[0.14em] uppercase font-semibold mb-2"
               style={{ color: section.accent }}
@@ -125,7 +128,7 @@ export default async function CheatSheetPage({
           <NoriSubject
             prop={section.prop}
             accent={section.accent}
-            className="hidden sm:block absolute right-0 bottom-4 w-24 pointer-events-none print:hidden"
+            className="hidden sm:block w-24 flex-shrink-0 pointer-events-none print:hidden"
           />
         </header>
 
