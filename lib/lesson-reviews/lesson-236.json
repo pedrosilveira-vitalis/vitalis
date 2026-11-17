@@ -1,0 +1,39 @@
+{
+  "lessonId": 236,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    1176,
+    1177,
+    1178,
+    1179,
+    1180
+  ],
+  "fingerprint": "3b4829321159ab4b3f6351ad65f6b699178dc1ffbfc80c3a2f20238f09816dd5",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "social psychologists John **Latané** and Bibb **Darley**",
+      "new": "social psychologists **Bibb Latané** and **John Darley**"
+    },
+    {
+      "field": "lesson.content",
+      "old": "The inverse relationship between group size and helping rate is the defining pattern of the bystander effect.",
+      "new": "The inverse relationship between group size and helping rate is the defining pattern of the bystander effect.\n\nOne further detail from this study is worth carrying into an exam, because it rules out the obvious alternative explanation. The participants who did not help were **not indifferent**: they were visibly agitated, many trembling and sweating, and several asked the experimenter afterwards whether the victim was all right. Apathy was not the mechanism. What the presence of others removed was the sense of personal responsibility, not the concern."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Poepsel & Schroeder, “Helping and Prosocial Behavior” (Noba / Maricopa open text) — bystander intervention research of Latané and Darley and the diffusion of responsibility",
+      "url": "https://open.maricopa.edu/socialpsychology/chapter/helping-and-prosocial-behavior/"
+    }
+  ],
+  "visual": {
+    "title": "The five gates, and the two that close socially",
+    "src": "/lesson-diagrams/bystander-five-gates-numbers-and-remedies.svg",
+    "width": 920,
+    "height": 972,
+    "alt": "Five cards in series for noticing the event, reading it as an emergency, feeling responsible, knowing how to help and acting, each with the failure mode that closes it, with pluralistic ignorance at the second and diffusion of responsibility at the third. Alongside, bar charts of the seizure study at 85, 62 and 31 per cent and the smoke-filled room at 75 and 10 per cent, a note that the non-helpers were visibly distressed, and panels on what reopens the gates and on the parallel situational logic of aggression.",
+    "caption": "Gate two fails because the bystander does not know it is an emergency; gate three fails although they do.",
+    "beforeHeading": "## Key Studies Supporting the Bystander Effect"
+  }
+}
