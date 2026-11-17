@@ -1,0 +1,38 @@
+{
+  "lessonId": 212,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    1056,
+    1057,
+    1058,
+    1059,
+    1060
+  ],
+  "fingerprint": "497ad06d208efe8bd63dc360a588b15d4d210f39ca7164401ceaab8c10a350d4",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "Resistance to *other* stressors is actually reduced during this stage (a phenomenon Selye called **cross-resistance failure**).",
+      "new": "Resistance to the *original* stressor is high during this stage, but resistance to *other*, novel stressors is reduced — the organism has committed its reserves to one fight and has less left for any other."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, Psychology — chapter 14 summary, setting out Selye's general adaptation syndrome in its three stages",
+      "url": "https://openstax.org/books/psychology/pages/14-summary"
+    },
+    {
+      "title": "OpenStax, Anatomy and Physiology §15.1 — divisions of the autonomic nervous system, covering sympathetic output and the adrenal medulla",
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/15-1-divisions-of-the-autonomic-nervous-system"
+    }
+  ],
+  "visual": {
+    "title": "The curve, the axes and the appraisals",
+    "src": "/lesson-diagrams/gas-curve-stress-axes-and-appraisal.svg",
+    "width": 920,
+    "height": 898,
+    "alt": "A plot of resistance against time through Selye's three stages, dipping below normal during alarm, rising above normal through resistance and falling away in exhaustion; a comparison of the sympathetic-adrenal-medullary axis acting in seconds with the HPA axis acting over minutes to hours; and three cards covering primary appraisal, secondary appraisal and the rule that problem-focused coping suits controllable stressors while emotion-focused coping suits uncontrollable ones.",
+    "caption": "Resistance dips before it rises: during alarm the defences are still being mobilised, which is why the first minutes of a crisis are the worst.",
+    "beforeHeading": "## Selye's General Adaptation Syndrome"
+  }
+}
