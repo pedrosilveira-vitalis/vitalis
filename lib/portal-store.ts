@@ -25,6 +25,14 @@ export const portalSchema = [
     created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
   )`,
   `CREATE INDEX IF NOT EXISTS vitalis_entitlements_email_expiry ON vitalis_entitlements(email, expires_at DESC)`,
+  `CREATE TABLE IF NOT EXISTS vitalis_answers (
+    email TEXT NOT NULL, lesson_id INTEGER NOT NULL, question_id INTEGER NOT NULL,
+    chosen CHAR(1) NOT NULL, correct BOOLEAN NOT NULL,
+    answered_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    PRIMARY KEY (email, question_id)
+  )`,
+  `CREATE INDEX IF NOT EXISTS vitalis_answers_email_time ON vitalis_answers(email, answered_at DESC)`,
+  `CREATE INDEX IF NOT EXISTS vitalis_answers_wrong ON vitalis_answers(question_id) WHERE correct = FALSE`,
 ];
 export async function activity(db: Database, email: string, timeZone: string, answered: boolean, now = new Date()) {
   const normalized = email.toLowerCase();
@@ -61,4 +69,32 @@ export async function saveCall(db: Database, input: CallInput, creator: string, 
   await db.query(`INSERT INTO vitalis_calls (id,student_email,title,starts_at,duration_minutes,zoom_url,notes,created_by)
     VALUES ($1,$2,$3,$4,$5,$6,$7,$8) ON CONFLICT (id) DO NOTHING`, values);
   return true;
+}
+
+/**
+ * One row per student per question, holding their most recent attempt. Keyed on
+ * the question so a retake overwrites rather than accumulating, which keeps
+ * "what are they still getting wrong" an honest question to ask of this table.
+ */
+export async function recordAnswers(
+  db: Database,
+  email: string,
+  lessonId: number,
+  answers: { questionId: number; chosen: string; correct: boolean }[],
+) {
+  if (!answers.length) return;
+  const normalized = email.toLowerCase();
+  const values: unknown[] = [];
+  const tuples = answers.map((answer, index) => {
+    const base = index * 5;
+    values.push(normalized, lessonId, answer.questionId, answer.chosen, answer.correct);
+    return `($${base + 1}, $${base + 2}, $${base + 3}, $${base + 4}, $${base + 5})`;
+  });
+  await db.query(
+    `INSERT INTO vitalis_answers (email, lesson_id, question_id, chosen, correct)
+     VALUES ${tuples.join(", ")}
+     ON CONFLICT (email, question_id)
+     DO UPDATE SET chosen = EXCLUDED.chosen, correct = EXCLUDED.correct, answered_at = NOW()`,
+    values,
+  );
 }

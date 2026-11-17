@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import Link from "next/link";
 
 type Person = {
@@ -11,6 +11,18 @@ type Person = {
   paid: string | null;
   referral: string | null;
   expiresAt: string | null;
+};
+
+type Detail = {
+  email: string;
+  lessonsRead: number;
+  attempted: number;
+  correct: number;
+  accuracy: number | null;
+  lastSeen: string | null;
+  daysActive: number;
+  missed: { questionId: number; lesson: string | null; lessonId: number; question: string | null; chose: string; answer: string | null }[];
+  purchases: { plan: string; windowDays: number; amountCents: number; expiresAt: string; referral: string | null }[];
 };
 
 type Overview = {
@@ -28,6 +40,18 @@ function daysLeft(expiresAt: string | null): number | null {
 export default function AdminOverview() {
   const [data, setData] = useState<Overview | null>(null);
   const [error, setError] = useState("");
+  const [open, setOpen] = useState<string | null>(null);
+  const [detail, setDetail] = useState<Detail | null>(null);
+
+  function inspect(email: string) {
+    if (open === email) { setOpen(null); setDetail(null); return; }
+    setOpen(email);
+    setDetail(null);
+    fetch(`/api/admin/student?email=${encodeURIComponent(email)}`)
+      .then(response => response.json())
+      .then(payload => (payload.error ? setError(payload.error) : setDetail(payload)))
+      .catch(() => setError("Could not load this student."));
+  }
 
   useEffect(() => {
     fetch("/api/admin/overview")
@@ -77,7 +101,7 @@ export default function AdminOverview() {
 
       <section className="px-10 pb-14 max-w-6xl">
         <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55 mb-3">
-          People ({data.people.length})
+          People ({data.people.length}) &mdash; click a row for detail
         </div>
         {data.people.length === 0 ? (
           <div className="rounded-2xl border-2 border-dashed border-[#0c1a2e25] p-10 text-center">
@@ -99,7 +123,11 @@ export default function AdminOverview() {
                 {data.people.map(person => {
                   const left = daysLeft(person.expiresAt);
                   return (
-                    <tr key={person.email} className="border-t border-[#0c1a2e12]">
+                    <Fragment key={person.email}>
+                    <tr
+                      onClick={() => inspect(person.email)}
+                      className="border-t border-[#0c1a2e12] cursor-pointer hover:bg-[#0c1a2e06]"
+                    >
                       <td className="px-5 py-3">
                         <div className="font-medium">{person.name || person.email}</div>
                         {person.name && <div className="opacity-55 text-[12px]">{person.email}</div>}
@@ -115,12 +143,87 @@ export default function AdminOverview() {
                       </td>
                       <td className="px-5 py-3">{person.paid ?? <span className="opacity-45">&mdash;</span>}</td>
                       <td className="px-5 py-3">
-                        {left === null ? <span className="opacity-45">&mdash;</span> : `${left}`}
+                        {left === null ? (
+                          <span className="opacity-45">&mdash;</span>
+                        ) : (
+                          <span className={left <= 14 ? "text-[#a8324a] font-medium" : ""}>
+                            {left}
+                            {left <= 14 && " \u00b7 renewing soon"}
+                          </span>
+                        )}
                       </td>
                       <td className="px-5 py-3">
                         {person.referral ?? <span className="opacity-45">&mdash;</span>}
                       </td>
                     </tr>
+                    {open === person.email && (
+                      <tr className="border-t border-[#0c1a2e12] bg-[#0c1a2e05]">
+                        <td colSpan={5} className="px-5 py-5">
+                          {!detail ? (
+                            <span className="opacity-50">Loading&hellip;</span>
+                          ) : (
+                            <div className="space-y-5">
+                              <div className="flex flex-wrap gap-8">
+                                {[
+                                  ["Lessons read", String(detail.lessonsRead)],
+                                  ["Questions answered", String(detail.attempted)],
+                                  ["Accuracy", detail.accuracy === null ? "\u2014" : `${detail.accuracy}%`],
+                                  ["Days practised", String(detail.daysActive)],
+                                  ["Last seen", detail.lastSeen ? new Date(detail.lastSeen).toLocaleDateString() : "\u2014"],
+                                ].map(([label, value]) => (
+                                  <div key={label}>
+                                    <div className="font-sans text-[10px] tracking-[0.12em] uppercase opacity-50 mb-1">{label}</div>
+                                    <div className="font-sans text-xl font-medium">{value}</div>
+                                  </div>
+                                ))}
+                              </div>
+
+                              <div>
+                                <div className="font-sans text-[10px] tracking-[0.12em] uppercase opacity-50 mb-2">
+                                  Getting wrong ({detail.missed.length})
+                                </div>
+                                {detail.missed.length === 0 ? (
+                                  <p className="opacity-55 text-[13px]">
+                                    Nothing recorded yet. Missed questions appear here once they work through a
+                                    lesson&rsquo;s questions.
+                                  </p>
+                                ) : (
+                                  <ul className="space-y-2">
+                                    {detail.missed.map(item => (
+                                      <li key={item.questionId} className="rounded-xl border border-[#0c1a2e18] px-4 py-3">
+                                        <div className="text-[13px] leading-relaxed">{item.question}</div>
+                                        <div className="font-sans text-[11px] opacity-60 mt-1.5">
+                                          {item.lesson} &middot; chose {item.chose}, answer was {item.answer}
+                                        </div>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                )}
+                              </div>
+
+                              {detail.purchases.length > 0 && (
+                                <div>
+                                  <div className="font-sans text-[10px] tracking-[0.12em] uppercase opacity-50 mb-2">
+                                    Purchases
+                                  </div>
+                                  <ul className="space-y-1 text-[13px]">
+                                    {detail.purchases.map(buy => (
+                                      <li key={buy.expiresAt}>
+                                        {buy.plan} &middot; {buy.windowDays} days &middot; $
+                                        {(buy.amountCents / 100).toFixed(2)} &middot; until{" "}
+                                        {new Date(buy.expiresAt).toLocaleDateString()}
+                                        {buy.referral && ` \u00b7 ${buy.referral}`}
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              )}
+                            </div>
+                          )}
+                        </td>
+                      </tr>
+                    )}
+                    </Fragment>
                   );
                 })}
               </tbody>

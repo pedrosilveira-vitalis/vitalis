@@ -317,6 +317,9 @@ export default function StudyLessonPage() {
             questions_correct: correct,
             questions_total: data.questions.length,
             read_complete: true,
+            answers: data.questions
+              .filter(q => answers[q.id])
+              .map(q => ({ questionId: q.id, chosen: answers[q.id], correct: answers[q.id] === q.correct_answer })),
           }),
         });
       } catch (e) {

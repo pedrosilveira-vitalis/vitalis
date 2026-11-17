@@ -1,4 +1,6 @@
 import { auth } from "@/auth";
+import { recordAnswers } from "@/lib/portal-store";
+import { portalDb } from "@/lib/portal-db";
 import { Pool } from "pg";
 
 const pool = new Pool({
@@ -74,6 +76,24 @@ export async function POST(
         ...values,
       ]
     );
+
+    // Per-question detail, so the admin view can answer "what are they getting
+    // wrong" rather than only "how many did they get right". Best effort: a
+    // failure here must not lose the student's progress.
+    const submitted = Array.isArray(body?.answers) ? body.answers : [];
+    const answers = submitted
+      .filter((entry: unknown): entry is { questionId: number; chosen: string; correct: boolean } => {
+        const item = entry as { questionId?: unknown; chosen?: unknown; correct?: unknown };
+        return Number.isInteger(item?.questionId)
+          && typeof item?.chosen === "string"
+          && ["A", "B", "C", "D"].includes(item.chosen)
+          && typeof item?.correct === "boolean";
+      })
+      .slice(0, 50);
+    if (answers.length && session?.user?.email) {
+      try { await recordAnswers(await portalDb(), session.user.email, lessonId, answers); }
+      catch (answerError) { console.error("Could not record answers", answerError); }
+    }
 
     return Response.json({ progress: result.rows[0] });
   } catch (error) {
