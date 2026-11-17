@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import MainNav from "@/components/MainNav";
-import { PLANS, formatPrice, type PlanId, type WindowDays } from "@/lib/billing";
+import { LESSON_COUNT, PLANS, QUESTION_COUNT, formatPrice, type PlanId, type WindowDays } from "@/lib/billing";
 
 type Access = { signedIn: boolean; entitlement: { plan: PlanId; daysLeft: number } | null };
 
@@ -200,8 +200,9 @@ export default function PlansPage() {
             <div>
               <div className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-55 mb-2">What you get</div>
               <p className="text-[13px] opacity-70 leading-relaxed">
-                1,265 practice questions across 250 units. Every one of them has been checked against published
-                sources, and every answer carries a written explanation.
+                {QUESTION_COUNT.toLocaleString()} practice questions and {LESSON_COUNT} lessons across 28 units.
+                Every lesson has been checked line by line against published sources, and every answer carries a
+                written explanation.
               </p>
             </div>
           </div>

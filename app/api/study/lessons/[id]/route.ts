@@ -1,5 +1,7 @@
 import { applyLessonUpdates } from "@/lib/lesson-updates";
 import { withQuestionTokens } from "@/lib/question-token";
+import { capabilitiesFor } from "@/lib/billing";
+import { portalDb } from "@/lib/portal-db";
 import { auth } from "@/auth";
 import { Pool } from "pg";
 
@@ -40,6 +42,33 @@ export async function GET(
     );
     if (lessonRes.rows.length === 0) {
       return Response.json({ error: "Lesson not found" }, { status: 404 });
+    }
+
+    // Written lessons are the Complete tier. Everything the paywall screen needs
+    // to be useful is still returned; the lesson body and its questions are not.
+    const capabilities = await capabilitiesFor(await portalDb(), session?.user?.email);
+    if (!capabilities.lessons) {
+      const locked = lessonRes.rows[0];
+      return Response.json({
+        locked: true,
+        requiredPlan: "complete",
+        lesson: {
+          id: locked.id,
+          lesson_number: locked.lesson_number,
+          title: locked.title,
+          description: locked.description,
+          estimated_minutes: locked.estimated_minutes,
+          unitId: locked.unitId,
+          unit_title: locked.unit_title,
+          section: locked.section,
+          unit_number: locked.unit_number,
+          content: null,
+        },
+        questions: [],
+        highlights: [],
+        progress: null,
+        isAuthenticated: !!userId,
+      });
     }
 
     // Questions for this lesson

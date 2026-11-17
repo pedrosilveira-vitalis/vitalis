@@ -1,4 +1,7 @@
 import { withQuestionTokens } from "@/lib/question-token";
+import { capabilitiesFor } from "@/lib/billing";
+import { portalDb } from "@/lib/portal-db";
+import { auth } from "@/auth";
 import Anthropic from "@anthropic-ai/sdk";
 import { sessionSettings, sections, allocateSections, parseQuestions } from "@/lib/practice";
 import { fresh, reserveQuestions } from "./rotation";
@@ -114,6 +117,17 @@ const STANDALONE_SCHEMA = `{
 }`;
 
 export async function POST(request: Request) {
+  // The question bank is what both plans are sold on, so it is gated before any
+  // work is done. Fail-closed: no session, no entitlement, no questions.
+  const session = await auth();
+  const capabilities = await capabilitiesFor(await portalDb(), session?.user?.email);
+  if (!capabilities.questions) {
+    return Response.json(
+      { error: "Your plan doesn't include the question bank.", locked: true, requiredPlan: "core" },
+      { status: 402 },
+    );
+  }
+
   let settings: ReturnType<typeof sessionSettings>;
   let custom = false;
   let seen: Set<string>;

@@ -19,33 +19,48 @@ export interface PlanWindow {
   listCents: number;
 }
 
+/**
+ * What a plan unlocks. Split on question bank versus written lessons rather
+ * than on a unit count: there are only 28 units, so any "first N units" line
+ * either gives most of the course away or is too thin to sell. Questions and
+ * lessons are two genuinely different products, which is also how the rest of
+ * the market is drawn.
+ */
+export interface Capabilities {
+  questions: boolean;
+  lessons: boolean;
+  liveReviews: boolean;
+}
+
 export interface Plan {
   id: PlanId;
   name: string;
   tagline: string;
   /** Higher rank wins when a student holds more than one live entitlement. */
   rank: number;
-  unitLimit: number | null;
+  capabilities: Capabilities;
   features: string[];
   missing: string[];
   windows: PlanWindow[];
 }
 
+export const QUESTION_COUNT = 1250;
+export const LESSON_COUNT = 250;
+
 export const PLANS: Plan[] = [
   {
     id: "core",
     name: "Core",
-    tagline: "The first 20 units, and every question that goes with them.",
+    tagline: "The whole question bank, with a written explanation on every answer.",
     rank: 1,
-    unitLimit: 20,
+    capabilities: { questions: true, lessons: false, liveReviews: false },
     features: [
-      "Units 1–20, reviewed and source-checked",
-      "Every practice question in those units",
-      "Full written explanations on every answer",
+      `All ${QUESTION_COUNT.toLocaleString()} practice questions, every section`,
+      "A full written explanation on every answer",
       "Flashcards, flagged questions and the score calculator",
       "Ask Nori, your AI tutor, without limits",
     ],
-    missing: ["Units 21–250", "Live group review sessions", "Study guides when they ship"],
+    missing: [`The ${LESSON_COUNT} written lessons`, "Live group review sessions", "Study guides when they ship"],
     windows: [
       { days: 90, priceCents: 14900, listCents: 14900 },
       { days: 180, priceCents: 19900, listCents: 19900 },
@@ -54,12 +69,12 @@ export const PLANS: Plan[] = [
   {
     id: "complete",
     name: "Complete",
-    tagline: "All 250 units, every question, and a live review before each test date.",
+    tagline: "Everything in Core, plus all 250 lessons and a live review before each test date.",
     rank: 2,
-    unitLimit: null,
+    capabilities: { questions: true, lessons: true, liveReviews: true },
     features: [
-      "All 250 units, reviewed and source-checked",
-      "All 1,265 practice questions with full explanations",
+      `All ${LESSON_COUNT} lessons, reviewed line by line against published sources`,
+      `All ${QUESTION_COUNT.toLocaleString()} practice questions with full explanations`,
       "A live group review before every MCAT date in your window",
       "Study guides included free when they ship",
       "Flashcards, flagged questions and the score calculator",
@@ -111,9 +126,15 @@ export function priceFor(plan: Plan, window: PlanWindow, referral: string | null
 
 export interface Entitlement {
   plan: PlanId;
-  unitLimit: number | null;
+  capabilities: Capabilities;
   expiresAt: Date;
   daysLeft: number;
+}
+
+const LOCKED: Capabilities = { questions: false, lessons: false, liveReviews: false };
+
+export function capabilitiesOf(entitlement: Entitlement | null): Capabilities {
+  return entitlement ? entitlement.capabilities : LOCKED;
 }
 
 /**
@@ -140,16 +161,25 @@ export async function entitlementFor(db: Database, email: string, now = new Date
   if (!best) return null;
   return {
     plan: best.plan.id,
-    unitLimit: best.plan.unitLimit,
+    capabilities: best.plan.capabilities,
     expiresAt: best.expiresAt,
     daysLeft: Math.max(0, Math.ceil((best.expiresAt.getTime() - now.getTime()) / 86400000)),
   };
 }
 
-export function canSeeUnit(entitlement: Entitlement | null, unitIndex: number): boolean {
-  if (!entitlement) return false;
-  if (entitlement.unitLimit === null) return true;
-  return unitIndex <= entitlement.unitLimit;
+/**
+ * The gate every protected route calls. Returns the student's capabilities, and
+ * is deliberately fail-closed: if the database cannot be reached we lock rather
+ * than open, because the failure mode of guessing wrong is giving the product
+ * away.
+ */
+export async function capabilitiesFor(db: Database, email: string | null | undefined): Promise<Capabilities> {
+  if (!email) return LOCKED;
+  try {
+    return capabilitiesOf(await entitlementFor(db, email));
+  } catch {
+    return LOCKED;
+  }
 }
 
 /**
