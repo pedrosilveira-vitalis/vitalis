@@ -1,0 +1,34 @@
+{
+  "lessonId": 221,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    1101,
+    1102,
+    1103,
+    1104,
+    1105
+  ],
+  "fingerprint": "d236bf12e82acc92b1ce3563532554dc4953961f2a1a2378086d48aba31b6cd5",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "  - *Neologisms*: invented words",
+      "new": "  - *Neologisms*: invented words\n  - *Clang associations*: words strung together by sound rather than meaning (\"store, floor, door, more\")\n  - *Perseveration*: returning repeatedly to the same word or idea regardless of the question asked"
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, Psychology §15.8 — schizophrenia, covering the symptom classes and the genetic and environmental evidence",
+      "url": "https://openstax.org/books/psychology/pages/15-8-schizophrenia"
+    }
+  ],
+  "visual": {
+    "title": "Pathways, symptom classes and the duration ruler",
+    "src": "/lesson-diagrams/dopamine-pathways-symptom-classes-and-durations.svg",
+    "width": 920,
+    "height": 1010,
+    "alt": "Four stacked cards for the mesolimbic, mesocortical, nigrostriatal and tuberoinfundibular dopamine pathways, each giving its route, its state in schizophrenia and what D2 blockade does to it; two panels contrasting positive symptoms with the five A negative symptoms; and a timeline from one day to beyond six months marking brief psychotic disorder, schizophreniform disorder and schizophrenia, with delusional disorder and schizoaffective disorder listed separately.",
+    "caption": "A D2 blocker cannot aim. The same blockade that quiets the mesolimbic pathway hits the other three, which is where the side effects come from.",
+    "beforeHeading": "### The Glutamate Hypothesis"
+  }
+}
