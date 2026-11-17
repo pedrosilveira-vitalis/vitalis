@@ -152,19 +152,25 @@ export default async function CheatSheetPage({
           </>
         ) : (
           <>
+            {/* Only the first block is sent to the browser. Clipping the full
+                sheet with CSS would leave every premium word in the page
+                source, which is a blur, not a paywall. */}
             <div className="relative">
-              <div className="md:columns-2 md:gap-10 max-h-[260px] overflow-hidden" aria-hidden="true">
-                {sheet.blocks.map(block => (
+              <div className="max-h-[300px] overflow-hidden">
+                {sheet.blocks.slice(0, 1).map(block => (
                   <BlockView key={block.heading} block={block} accent={section.accent} />
                 ))}
               </div>
-              <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-[#f5f1ea]" />
+              <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-[#f5f1ea]" />
             </div>
             <div className="rounded-2xl border-2 p-7 mt-2" style={{ borderColor: section.accent }}>
-              <h2 className="font-sans text-xl font-medium mb-2">The rest of this sheet is part of Complete.</h2>
+              <h2 className="font-sans text-xl font-medium mb-2">
+                {`The other ${sheet.blocks.length - 1} sections are part of Complete.`}
+              </h2>
               <p className="text-[14px] opacity-70 leading-relaxed mb-5 max-w-xl">
-                Cheat sheets come with the written lessons. Complete includes all 250 lessons, all 1,250
-                questions, and a live review before every test date in your window.
+                Cheat sheets are a Complete feature, including the panel naming where students actually lose
+                points on this unit. Complete also includes all 250 lessons, all 1,250 questions, and a live
+                review before every test date in your window.
               </p>
               <Link
                 href="/plans"

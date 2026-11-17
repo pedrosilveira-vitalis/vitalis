@@ -61,7 +61,7 @@ export const PLANS: Plan[] = [
       "Flashcards, flagged questions and the score calculator",
       "Ask Nori, your AI tutor, without limits",
     ],
-    missing: [`The ${LESSON_COUNT} written lessons`, "Live group review sessions", "Study guides"],
+    missing: [`The ${LESSON_COUNT} written lessons`, "The 28 unit cheat sheets", "Live group review sessions", "Study guides"],
     windows: [
       { days: 90, priceCents: 14900, listCents: 14900 },
       { days: 180, priceCents: 19900, listCents: 19900 },
@@ -75,6 +75,7 @@ export const PLANS: Plan[] = [
     capabilities: { questions: true, lessons: true, liveReviews: true },
     features: [
       `All ${LESSON_COUNT} lessons, reviewed line by line against published sources`,
+      "All 28 unit cheat sheets, printable as PDFs",
       `All ${QUESTION_COUNT.toLocaleString()} practice questions with full explanations`,
       "A live group review before every MCAT date in your window",
       "Any study guides we publish during your window, free",
