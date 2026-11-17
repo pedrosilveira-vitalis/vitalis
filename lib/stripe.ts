@@ -60,21 +60,26 @@ export async function stripePost<T>(path: string, body: Record<string, unknown>,
  */
 export function verifyWebhook(rawBody: string, header: string | null, secret: string, toleranceSeconds = 300): boolean {
   if (!header) return false;
-  const parts = Object.fromEntries(
-    header.split(",").map(piece => {
-      const [key, ...rest] = piece.trim().split("=");
-      return [key, rest.join("=")];
-    }),
-  );
-  const timestamp = parts.t;
-  const signature = parts.v1;
-  if (!timestamp || !signature) return false;
+  // Stripe sends every v1 signature it considers valid, and sends more than
+  // one while a signing secret is being rotated. Taking only the last would
+  // reject good events during a rotation, so each is checked.
+  let timestamp = "";
+  const signatures: string[] = [];
+  for (const piece of header.split(",")) {
+    const [key, ...rest] = piece.trim().split("=");
+    const value = rest.join("=");
+    if (key === "t") timestamp = value;
+    else if (key === "v1") signatures.push(value);
+  }
+  if (!timestamp || !signatures.length) return false;
 
   const age = Math.abs(Date.now() / 1000 - Number(timestamp));
   if (!Number.isFinite(age) || age > toleranceSeconds) return false;
 
   const expected = createHmac("sha256", secret).update(`${timestamp}.${rawBody}`).digest("hex");
-  const given = Buffer.from(signature, "utf8");
   const mine = Buffer.from(expected, "utf8");
-  return given.length === mine.length && timingSafeEqual(given, mine);
+  return signatures.some(candidate => {
+    const given = Buffer.from(candidate, "utf8");
+    return given.length === mine.length && timingSafeEqual(given, mine);
+  });
 }

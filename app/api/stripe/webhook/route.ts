@@ -1,8 +1,18 @@
-import { findPlan, grantEntitlement, normalizeReferral } from "@/lib/billing";
+import { PLANS, findPlan, grantEntitlement, normalizeReferral } from "@/lib/billing";
 import { portalDb } from "@/lib/portal-db";
 import { verifyWebhook } from "@/lib/stripe";
-import { PLANS } from "@/lib/billing";
 import { sendPurchase } from "@/lib/email";
+
+/**
+ * Two events, not one.
+ *
+ * Card payments finish inside the Checkout session, so completed arrives with
+ * payment_status "paid". Delayed-notification methods — bank debits, and Link
+ * when it routes to a bank account — finish minutes or days later: completed
+ * arrives "unpaid" and the money is confirmed by async_payment_succeeded.
+ * Listening only for the first would charge those students and grant nothing.
+ */
+const FULFILS = new Set(["checkout.session.completed", "checkout.session.async_payment_succeeded"]);
 
 /**
  * Access is granted here and nowhere else.
@@ -23,13 +33,14 @@ export async function POST(request: Request) {
   let event;
   try { event = JSON.parse(raw); } catch { return Response.json({ error: "Invalid payload." }, { status: 400 }); }
 
-  if (event?.type !== "checkout.session.completed") {
+  if (!FULFILS.has(event?.type)) {
     // Everything else is acknowledged so Stripe stops retrying it.
     return Response.json({ received: true });
   }
 
   const checkout = event.data?.object ?? {};
-  if (checkout.payment_status !== "paid") return Response.json({ received: true });
+  // Still pending: the async_payment_succeeded event will follow when it clears.
+  if (checkout.payment_status !== "paid") return Response.json({ received: true, pending: true });
 
   const metadata = checkout.metadata ?? {};
   const email = String(metadata.email || checkout.customer_email || checkout.client_reference_id || "").toLowerCase();
