@@ -1,0 +1,34 @@
+{
+  "lessonId": 213,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    1061,
+    1062,
+    1063,
+    1064,
+    1065
+  ],
+  "fingerprint": "0492110fc10948b7733c079795a2050c0d409c2ec04c02b0b37b059e2d311d26",
+  "patches": [
+    {
+      "field": "questions.1065.explanation",
+      "old": "Drive-reduction theory, developed by Hull and rooted in Hullian homeostasis, proposes that biological needs (like hunger) create uncomfortable psychological states called drives",
+      "new": "Drive-reduction theory, developed by Hull and built on Cannon's concept of homeostasis, proposes that biological needs (like hunger) create uncomfortable psychological states called drives"
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, Psychology 2e §10.1 — motivation, covering instinct theory, drive reduction, arousal theory and the Yerkes-Dodson relationship between task difficulty and optimal arousal",
+      "url": "https://openstax.org/books/psychology-2e/pages/10-1-motivation"
+    }
+  ],
+  "visual": {
+    "title": "The two Yerkes-Dodson curves and Hull's product",
+    "src": "/lesson-diagrams/yerkes-dodson-hull-and-the-three-traditions.svg",
+    "width": 920,
+    "height": 890,
+    "alt": "Two inverted-U curves of performance against arousal, the complex-task curve peaking at lower arousal and the simple-task curve peaking at higher arousal; Hull's equation with drive, habit strength and incentive explained and the note that any term at zero abolishes behaviour; and three cards summarising instinct, drive-reduction and arousal theory with the weakness that undid each.",
+    "caption": "The second half of the law is the half students drop: the peak itself slides left as the task gets harder.",
+    "beforeHeading": "### The Yerkes-Dodson Law"
+  }
+}
