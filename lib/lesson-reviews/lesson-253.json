@@ -1,0 +1,48 @@
+{
+ "lessonId": 253,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1261,
+  1262,
+  1263,
+  1264,
+  1265
+ ],
+ "fingerprint": "c68bea3d894913d4a32cde68cdacef4b0f11d730f78baa011164f8985c9b07ec",
+ "patches": [
+  {
+   "field": "questions.1264.correct_answer",
+   "old": "C",
+   "new": "B"
+  },
+  {
+   "field": "questions.1264.explanation",
+   "old": "For neutral water, [H⁺] = [OH⁻] = √Kw = √(2.4 × 10⁻¹⁴) ≈ 1.55 × 10⁻⁷ M, so pH = -log(1.55 × 10⁻⁷) ≈ 6.81. Wait, recalculating: √(2.4) ≈ 1.549, so [H⁺] ≈ 1.549 × 10⁻⁷, pH ≈ 7 - log(1.549) ≈ 7 - 0.19 = 6.81, which is closest to 6.82. The key concept is that neutral pH is not always 7.00; it equals ½ pKw, which decreases as temperature rises because Kw increases. Choice A is the most tempting error, as students often assume neutral always means pH 7.",
+   "new": "In neutral water [H⁺] = [OH⁻], so each equals √Kw. Here √(2.4 × 10⁻¹⁴) = √2.4 × 10⁻⁷ ≈ 1.55 × 10⁻⁷ M, giving pH = 7 − log(1.55) ≈ 7 − 0.19 = 6.81, which rounds to 6.82. Equivalently, neutral pH is always ½ pKw: pKw here is −log(2.4 × 10⁻¹⁴) = 14 − 0.38 = 13.62, and half of that is 6.81. The concept being tested is that neutral never means “pH 7” as such — it means equal concentrations of H⁺ and OH⁻, and because autoionization is endothermic, warming the water raises Kw and therefore lowers neutral pH. Choice A is the most tempting error, since students often assume neutral always means 7.00. Note also that the solution is still neutral at 6.81, not acidic: acidity is defined by [H⁺] exceeding [OH⁻], not by sitting below 7 on the scale."
+  },
+  {
+   "field": "questions.1265.explanation",
+   "old": "When the acid contributes only 1.0 × 10⁻⁸ M H⁺, the autoionization of water (which also contributes ~10⁻⁷ M) cannot be ignored. The total [H⁺] is slightly above 1.0 × 10⁻⁷ M, giving a pH slightly below 7, meaning the solution is still acidic. Choice A is wrong because adding any acid cannot make a solution basic. Choice D incorrectly assumes water doubles the contribution to give exactly 2.0 × 10⁻⁸ M, ignoring that water equilibrium shifts to contribute ~10⁻⁷ M.",
+   "new": "When the acid contributes only 1.0 × 10⁻⁸ M H⁺, the autoionization of water — which supplies on the order of 10⁻⁷ M on its own — can no longer be ignored, because it is about ten times larger than the acid's contribution. Solving the charge balance [H⁺] = [Cl⁻] + [OH⁻] together with [H⁺][OH⁻] = 10⁻¹⁴ gives a total [H⁺] a little above 1.0 × 10⁻⁷ M, so the pH lands just below 7: acidic, but only barely. Choice A is wrong because adding acid to water can never make it basic. Choice B is wrong in the opposite direction: the acid is not negligible, it simply is not dominant, so the pH is slightly below 7 rather than exactly 7. Choice D names a specific value, 6.0, that no combination of these two sources could produce, since reaching pH 6 would require [H⁺] = 10⁻⁶ M, a hundred times the acid added."
+  }
+ ],
+ "sources": [
+  {
+   "title": "University of Waterloo, Chem 13 News exam analysis — with Kw = 2.4 × 10⁻¹⁴ at 37 °C, [H₃O⁺] = √Kw = 1.5 × 10⁻⁷ M and the pH of pure water is 6.81, not 7.00",
+   "url": "https://uwaterloo.ca/centre-advanced-science-education/news/tough-questions-series-2014-chem-13-news-exam"
+  },
+  {
+   "title": "Mississippi State University, “Auto-ionization of Water” — Kw, pKw and neutral pH tabulated against temperature, including pH 7.47 at 0 °C",
+   "url": "https://dornshuld.chemistry.msstate.edu/books/chemistry/auto-ionization-of-water.html"
+  }
+ ],
+ "visual": {
+  "title": "One constant holds the whole scale",
+  "src": "/lesson-diagrams/kw-holds-the-scale-and-two-traps.svg",
+  "width": 920,
+  "height": 1004,
+  "alt": "A pH scale from 0 to 14 drawn above a mirrored pOH scale running the other way, with the acidic, neutral and basic regions labelled by whether hydrogen ion concentration exceeds hydroxide; a panel showing how to compute pH without a calculator by splitting a concentration into a power of ten and a coefficient, with the logarithms from 2 to 9; and a panel of the two traps, a table of how neutral pH falls from 7.47 at zero degrees to 6.14 at a hundred, and a two-step chain showing why a ten to the minus eight molar acid is not pH 8.",
+  "caption": "Fix the hydrogen ion concentration anywhere on this line and the hydroxide concentration is already determined — their product is pinned.",
+  "beforeHeading": "## Defining pH and pOH"
+ }
+}
