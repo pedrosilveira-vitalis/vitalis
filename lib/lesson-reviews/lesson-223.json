@@ -1,0 +1,43 @@
+{
+  "lessonId": 223,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    1111,
+    1112,
+    1113,
+    1114,
+    1115
+  ],
+  "fingerprint": "e2f9056ecd406eac762f1f6476a593e235ef2ef78d12fb3f8f9e1273e878f815",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "This is why PTSD symptoms can return under stress (spontaneous recovery) or in new contexts (renewal).",
+      "new": "This is why an extinguished fear can come back by three distinct routes, which the exam keeps apart: **spontaneous recovery**, the return of the response after a delay with nothing new happening; **renewal**, its return when the cue is met in a context different from the one where extinction took place; and **reinstatement**, its return after re-exposure to the aversive event itself or to a comparable stressor. Note that spontaneous recovery is defined by the passage of time alone, not by stress."
+    },
+    {
+      "field": "lesson.content",
+      "old": "- Recognition (in adults) that the fear is excessive.",
+      "new": "- Fear that is out of proportion to the actual threat. Note that the DSM-5 dropped the DSM-IV requirement that adults recognise their own fear as excessive or unreasonable; that judgement is now the clinician's, because many patients genuinely believe the danger is real."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Haaker, Golkar, Hermans & Lonsdorf, “A review on human reinstatement studies”, Learning & Memory (2014) — defines return of fear by the passage of time (spontaneous recovery), a change of context (renewal) and re-exposure to the aversive event (reinstatement)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4138360"
+    },
+    {
+      "title": "Kraynak & Hart, summary of DSM-5 anxiety disorder criteria changes — specific phobia and social anxiety disorder no longer require the individual to recognise the fear as excessive; the judgement now rests with the clinician",
+      "url": "https://www.csus.edu/indiv/b/brocks/Courses/EDGR%20260/3.DSM5.HO4.Anxiety.pdf"
+    }
+  ],
+  "visual": {
+    "title": "How an extinguished fear comes back",
+    "src": "/lesson-diagrams/fear-return-after-extinction-and-anxiety-triage.svg",
+    "width": 920,
+    "height": 934,
+    "alt": "A flow from acquisition through extinction to two competing memories, then three cards distinguishing spontaneous recovery triggered by time, renewal triggered by a change of place and reinstatement triggered by the aversive event recurring; a panel showing amygdala overactivity, ventromedial prefrontal underactivity and reduced hippocampal volume in PTSD with the low-cortisol contrast against depression; and a three-question triage for the diagnoses.",
+    "caption": "Extinction never deletes the original fear memory, so the three returns are expected rather than evidence that the therapy failed.",
+    "beforeHeading": "### Adjustment Disorder"
+  }
+}
