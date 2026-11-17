@@ -1,0 +1,39 @@
+{
+ "lessonId": 249,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1241,
+  1242,
+  1243,
+  1244,
+  1245
+ ],
+ "fingerprint": "2ceb9ee8a951f7a21345d5293941ae7ab5c2be76465694f11f1e27c79f9d7572",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **Overt**: participants know they are being observed. This can cause **reactivity** (also called the **Hawthorne effect**)—people change their behavior because they know they are being watched.",
+   "new": "- **Overt**: participants know they are being observed. This can cause **reactivity** — people change their behaviour because they know they are being watched. The **Hawthorne effect** is the best-known name for this idea, taken from productivity studies run at Western Electric's Hawthorne plant in the 1920s, but the two terms are not interchangeable: reactivity is the general phenomenon, while the Hawthorne effect refers to that specific claim. It is worth knowing that the original claim has not held up well. Levitt and List recovered the long-lost illumination data and found no systematic evidence that productivity jumped whenever the lighting was changed, with only weak hints of subtler effects. Use “reactivity” when you mean the general tendency, and treat “Hawthorne effect” as the historical label it is."
+  },
+  {
+   "field": "lesson.content",
+   "old": "### The Hierarchy of Evidence",
+   "new": "### Arguing From Association Toward Causation\n\nIf observational designs cannot establish causation on their own, how did medicine ever conclude that smoking causes lung cancer, when randomly assigning people to smoke would be monstrous? The answer is that evidence from many observational studies was weighed against a set of considerations set out by **Austin Bradford Hill** in 1965. These are not a checklist that proves causation, and Hill himself insisted they were not; they are the questions that make a causal reading more or less credible.\n\n- **Temporality**: the exposure came before the outcome. This is the only one that is strictly required — nothing can cause something that preceded it.\n- **Strength**: a large relative risk or odds ratio is harder for an unmeasured confounder to manufacture than a small one.\n- **Biological gradient (dose-response)**: more exposure produces more disease.\n- **Consistency**: the association turns up again in different populations, by different investigators, using different designs.\n- **Plausibility and coherence**: there is a mechanism that makes sense and the finding fits what else is known about the disease.\n- **Experiment (reversibility)**: removing the exposure lowers the risk.\n- **Specificity** and **analogy** round out the list, though these two carry the least weight today.\n\nOn a passage that reports an observational association and then asks what would most strengthen a causal claim, the answer is almost always one of these — most often a dose-response relationship, replication in an independent population, or evidence that the exposure clearly preceded the outcome.\n\n### The Hierarchy of Evidence"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Levitt & List, “Was There Really a Hawthorne Effect at the Hawthorne Plant?” (NBER w15016) — the recovered illumination data show no systematic productivity jump when lighting changed",
+   "url": "https://www.nber.org/papers/w15016"
+  }
+ ],
+ "visual": {
+  "title": "Three designs on one timeline, and Bradford Hill",
+  "src": "/lesson-diagrams/three-designs-on-one-timeline-and-bradford-hill.svg",
+  "width": 920,
+  "height": 1006,
+  "alt": "A single past-to-future timeline with the exposure and outcome marked, showing a cohort study as a forward arrow from exposure to outcome, a case-control study as a backward arrow from outcome to exposure, and a cross-sectional study as a vertical dashed slice with no direction; a panel giving each design's measure and its signature bias, loss to follow-up, recall bias and Neyman bias; and six cards for the Bradford Hill considerations with temporality marked as the only strictly required one.",
+  "caption": "Everything else about these designs follows from where they start on the timeline.",
+  "beforeHeading": "## Cohort Studies"
+ }
+}
