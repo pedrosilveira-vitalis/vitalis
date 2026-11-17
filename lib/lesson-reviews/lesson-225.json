@@ -1,0 +1,43 @@
+{
+ "lessonId": 225,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1121,
+  1122,
+  1123,
+  1124,
+  1125
+ ],
+ "fingerprint": "c285375c5013747200992733a96bbaaef7f2e35fb85d28dfd2e4ac5bfc209879",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **Withdrawal**: characteristic withdrawal syndrome, or using the substance to relieve or avoid withdrawal symptoms",
+   "new": "- **Withdrawal**: characteristic withdrawal syndrome, or using the substance to relieve or avoid withdrawal symptoms\n\n**An exception that the exam likes:** the DSM-5 states that the tolerance and withdrawal criteria are *not counted* when the substance is taken solely under appropriate medical supervision. A chronic-pain patient on prescribed opioids, or a patient taking a prescribed stimulant for ADHD, can show both tolerance and withdrawal and still have no criteria met on this domain. This is the formal rule behind the physical-dependence-is-not-addiction distinction discussed below."
+  },
+  {
+   "field": "lesson.content",
+   "old": "**Cross-tolerance** occurs when tolerance to one drug confers tolerance to another drug in the same class.",
+   "new": "**Cross-tolerance** occurs when tolerance to one drug confers tolerance to another drug acting through the same mechanism — note that this need not be the same drug class."
+  }
+ ],
+ "sources": [
+  {
+   "title": "DSM-5 substance use disorder criteria (reproduced in Journal of Spinal Cord Medicine, 2021) — the tolerance and withdrawal criteria are not met for those taking substances solely under appropriate medical supervision",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7993020/table/T14-0005"
+  },
+  {
+   "title": "DSM-5 opioid use disorder diagnostic criteria (Washington State University) — same supervision exception stated for both pharmacological criteria",
+   "url": "https://s3.wp.wsu.edu/uploads/sites/2443/2019/09/DSM-5-Opioid-Use-Disorder-Diagnostic-Criteria.pdf"
+  }
+ ],
+ "visual": {
+  "title": "Opponent process, the reward circuit, and tolerance",
+  "src": "/lesson-diagrams/opponent-process-reward-circuit-and-tolerance.svg",
+  "width": 920,
+  "height": 964,
+  "alt": "Two plotted pairs of curves: in early use a large positive A process with a small negative B process, and after chronic use a shrunken A process with a large and prolonged B process; a circuit panel running from the ventral tegmental area to the nucleus accumbens with the amygdala and hippocampus attaching cues and control migrating from prefrontal cortex to dorsal striatum; and a panel of pharmacokinetic, pharmacodynamic and behavioural tolerance with the rule that tolerance and withdrawal under medical supervision do not count toward a diagnosis.",
+  "caption": "As tolerance shrinks the high and the rebound grows, the motive flips from seeking pleasure to escaping withdrawal.",
+  "beforeHeading": "### Withdrawal by Drug Class"
+ }
+}
