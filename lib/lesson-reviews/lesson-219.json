@@ -1,0 +1,39 @@
+{
+ "lessonId": 219,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1091,
+  1092,
+  1093,
+  1094,
+  1095
+ ],
+ "fingerprint": "9d8ed38fd021baf62ad2cb9ca2dfb592da77443d1c1372410217d117fcb47303",
+ "patches": [
+  {
+   "field": "questions.1095.choice_b",
+   "old": "The behavior cannot be classified as a disorder solely because it is absent from the DSM-5",
+   "new": "No specific DSM-5 diagnosis applies, because the manual's recognised categories rather than the 4D framework determine formal diagnosis"
+  },
+  {
+   "field": "questions.1095.explanation",
+   "old": "The DSM-5 serves as the official diagnostic manual, and a behavior not listed in it cannot receive an official diagnosis regardless of how many criteria for abnormality it appears to meet.",
+   "new": "The DSM-5 is the manual that defines formal diagnoses, so a presentation matching none of its categories does not receive a specific diagnosis no matter how many abnormality criteria it appears to meet. In practice the DSM-5 anticipates exactly this situation: it provides **other specified** and **unspecified** categories within each chapter so that a clinically significant presentation which does not fit a listed disorder can still be recorded and treated."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §15.2 — diagnosing and classifying psychological disorders, covering the DSM and its diagnostic criteria",
+   "url": "https://openstax.org/books/psychology/pages/15-2-diagnosing-and-classifying-psychological-disorders"
+  }
+ ],
+ "visual": {
+  "title": "How a diagnosis is built, and what it costs",
+  "src": "/lesson-diagrams/dsm-anatomy-reliability-and-labelling.svg",
+  "width": 920,
+  "height": 910,
+  "alt": "Four cards setting out the components of a DSM entry — symptom counts, duration, impairment and exclusions — with the note that they exist to make clinicians agree; a comparison of reliability, which the criteria bought, against validity, which remains unsettled given comorbidity and the absence of confirmatory tests; a list of the four Ds with the caveat attached to each; and a panel on labelling covering the Rosenhan study and the three levels of stigma alongside the benefits a diagnosis brings.",
+  "caption": "The criteria were written to make two clinicians agree. Agreement is reliability; whether the category is real is a separate question, and still open.",
+  "beforeHeading": "## Reliability and Validity in Diagnosis"
+ }
+}
