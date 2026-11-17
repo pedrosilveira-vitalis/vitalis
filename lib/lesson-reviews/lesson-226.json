@@ -1,0 +1,39 @@
+{
+  "lessonId": 226,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    1126,
+    1127,
+    1128,
+    1129,
+    1130
+  ],
+  "fingerprint": "129f411434050df7a718143253a622416751be3671637bd5453bae9ca9c19ee7",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "A critical concept: antidepressants take *2–4 weeks* to produce clinical improvement despite producing immediate neurochemical changes. This lag is thought to reflect downstream receptor desensitization and neuroplastic changes, including increased **BDNF (brain-derived neurotrophic factor)** expression and hippocampal neurogenesis.",
+      "new": "A critical concept: antidepressants block reuptake within hours but take weeks to produce clinical improvement — partial response is often visible by 2 weeks, with full response typically requiring **4–6 weeks**. The leading explanation is the **autoreceptor account**. Blocking SERT raises serotonin not only at the terminal but also around the cell bodies in the raphe nuclei, where **somatodendritic 5-HT1A autoreceptors** detect the rise and cut the neuron's firing rate, so little extra serotonin actually reaches forebrain targets at first. Over the following weeks those autoreceptors **desensitize**, firing recovers while the reuptake blockade remains in place, and synaptic serotonin finally rises downstream. Slower changes follow and are thought to consolidate the response: postsynaptic receptor adaptation, increased **BDNF (brain-derived neurotrophic factor)** expression, and hippocampal neurogenesis. This is why a trial is not judged a failure at two weeks."
+    },
+    {
+      "field": "lesson.content",
+      "old": "**Deep brain stimulation (DBS)** involves surgically implanting electrodes to modulate specific circuits (e.g., subgenual cingulate cortex for depression, subthalamic nucleus for OCD).",
+      "new": "**Deep brain stimulation (DBS)** involves surgically implanting electrodes to modulate specific circuits — the subgenual cingulate cortex for depression, and for treatment-refractory OCD the **anterior limb of the internal capsule and the adjacent ventral striatum**, which is the target the FDA approved under a humanitarian device exemption in 2009. The subthalamic nucleus, the familiar target in Parkinson's disease, has also been trialled for OCD but is not the approved site."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Pinckard-Dover, Ward & Foote, Frontiers in Surgery (2021) — records the February 2009 FDA humanitarian device exemption for deep brain stimulation of the anterior limb of the internal capsule in refractory OCD",
+      "url": "https://www.frontiersin.org/journals/surgery/articles/10.3389/fsurg.2021.642503/pdf"
+    }
+  ],
+  "visual": {
+    "title": "The lag, the classes, and the three levels",
+    "src": "/lesson-diagrams/antidepressant-lag-drug-classes-and-three-levels.svg",
+    "width": 920,
+    "height": 980,
+    "alt": "Three stages of the antidepressant delay: on day one SERT blockade raises serotonin but autoreceptors cut firing; over weeks one to three those autoreceptors desensitize and firing recovers on top of the blockade; by weeks four to six postsynaptic adaptation, BDNF and neurogenesis consolidate the response. Alongside, a table of drug classes with mechanism, indication and signature adverse effect, and a panel of the biological, psychological and sociocultural levels with the barrier typical of each.",
+    "caption": "The chemistry is immediate; the clinical effect is not. The gap is the autoreceptor brake, and it takes weeks to wear off.",
+    "beforeHeading": "#### Antipsychotics"
+  }
+}
