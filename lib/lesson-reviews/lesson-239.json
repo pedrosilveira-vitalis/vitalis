@@ -1,0 +1,43 @@
+{
+ "lessonId": 239,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1191,
+  1192,
+  1193,
+  1194,
+  1195
+ ],
+ "fingerprint": "6d58f169cf41762ba2128d3a997bb628812263eda281855b89fbc25f263099db",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "(the median white family holds approximately **7–8 times** the wealth of the median Black family in the U.S.)",
+   "new": "(in the Federal Reserve's 2022 Survey of Consumer Finances, the median white family held about **six times** the wealth of the median Black family — roughly $285,000 against $45,000 — and about five times that of the median Hispanic family; the ratio narrowed slightly from 2019 while the dollar gap widened)"
+  },
+  {
+   "field": "lesson.content",
+   "old": "women earn approximately **82 cents** for every dollar earned by men (overall median), with gaps widening at higher income levels and in certain occupational sectors.",
+   "new": "the size of the gap depends on which workers are counted, so note the measure before comparing figures. On the most recent Census data, women working **full time, year round** earned about **84 cents** for every dollar earned by men, while across **all workers** — including part-time and part-year — women earned about **78 cents**. The gap is consistently wider for Black and Hispanic women measured against white men, and it widens at higher income levels and in certain occupational sectors."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Federal Reserve, “Greater Wealth, Greater Uncertainty: Changes in Racial Inequality in the Survey of Consumer Finances” (2023) — the typical white family had about six times the wealth of the typical Black family in the 2022 SCF",
+   "url": "https://www.federalreserve.gov/econres/notes/feds-notes/greater-wealth-greater-uncertainty-changes-in-racial-inequality-in-the-survey-of-consumer-finances-20231018.html"
+  },
+  {
+   "title": "Center for American Progress analysis of Census Bureau annual income data — women working full time, year round earned 84 cents per dollar earned by men, and 78 cents across all workers",
+   "url": "https://www.americanprogress.org/article/amid-rising-costs-the-gender-wage-gap-deepens-affordability-challenges-for-women/"
+  }
+ ],
+ "visual": {
+  "title": "The types, the two measures, and the matrix",
+  "src": "/lesson-diagrams/mobility-types-absolute-relative-and-measures.svg",
+  "width": 920,
+  "height": 962,
+  "alt": "A grid crossing intergenerational against intragenerational mobility with upward and downward examples in each cell and a note that horizontal mobility involves no change of stratum; a panel contrasting absolute mobility, with the 90 per cent of the 1940 cohort and about 50 per cent of the 1984 cohort who out-earned their parents, against relative mobility; a transition row comparing a perfectly mobile 20 per cent in each quintile with the observed distribution for children born in the bottom fifth; and a panel of the IGE, rank-rank slope, Gini coefficient and Great Gatsby curve with their values.",
+  "caption": "A country can have plenty of absolute mobility and almost no relative mobility — everyone richer, the same families on top.",
+  "beforeHeading": "## Measuring Social Mobility"
+ }
+}
