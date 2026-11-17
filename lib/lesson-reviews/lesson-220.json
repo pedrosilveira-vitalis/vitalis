@@ -1,0 +1,38 @@
+{
+  "lessonId": 220,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    1096,
+    1097,
+    1098,
+    1099,
+    1100
+  ],
+  "fingerprint": "bf904b91ad3d959be99ea78cb14e681bb2e98cd4efba5f83254bc6d05859ebbf",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "**ASD and intellectual disability** co-occur in approximately 30–40% of ASD cases; the majority of individuals with ASD have average or above-average intelligence.",
+      "new": "**ASD and intellectual disability** co-occur in roughly a third to 40% of ASD cases. Note the actual distribution, because it is often misremembered: in CDC surveillance of eight-year-olds with ASD, about **38% had intellectual disability** (IQ ≤ 70), about **24% were in the borderline range** (IQ 71–85), and about **39% had average or above-average ability** (IQ > 85). Average-or-above is therefore the largest single group but not a majority — close to two-thirds of children with ASD have below-average measured ability. When intellectual disability is present it must be distinguished from ASD's social communication deficits: in intellectual disability without ASD, social communication is generally commensurate with overall intellectual level."
+    }
+  ],
+  "sources": [
+    {
+      "title": "CDC, Autism and Developmental Disabilities Monitoring Network — 2020 surveillance of 8-year-olds, reporting 1 in 36 prevalence and the intellectual ability distribution among children with ASD",
+      "url": "https://www.cdc.gov/ncbddd/autism/addm-community-report/key-findings.html"
+    },
+    {
+      "title": "OpenStax, Psychology §15.2 — diagnosing and classifying psychological disorders, for the DSM framework these criteria sit within",
+      "url": "https://openstax.org/books/psychology/pages/15-2-diagnosing-and-classifying-psychological-disorders"
+    }
+  ],
+  "visual": {
+    "title": "The two criteria sets and the real cognitive split",
+    "src": "/lesson-diagrams/adhd-autism-criteria-and-comorbidity.svg",
+    "width": 920,
+    "height": 898,
+    "alt": "Side-by-side criteria cards for ADHD, listing onset before age twelve, presence in two or more settings and departure from developmental level, and for autism spectrum disorder, requiring both the social communication domain and the restricted repetitive behaviour domain; a bar chart of measured ability among children with autism showing about 38 per cent with intellectual disability, 24 per cent borderline and 39 per cent average or above; and a list of comorbidity rates.",
+    "caption": "Average-or-above is the largest single group in autism but not a majority — roughly two in three children with the diagnosis test below average.",
+    "beforeHeading": "## Comorbidity and Differential Diagnosis"
+  }
+}
