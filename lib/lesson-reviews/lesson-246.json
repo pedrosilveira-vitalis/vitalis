@@ -1,0 +1,39 @@
+{
+ "lessonId": 246,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1226,
+  1227,
+  1228,
+  1229,
+  1230
+ ],
+ "fingerprint": "362adbcf74db3fc9ad7300745ef35cd5f23b3f3e3ffcb2438b56ad19ff9b0ff2",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **Rate of natural increase (RNI)**: CBR minus CDR (expressed as a percentage)",
+   "new": "- **Rate of natural increase (RNI)**: CBR minus CDR. Both are per 1,000 people, so the difference is also per 1,000; divide by 10 to express it as a percentage. A CBR of 30 and a CDR of 10 give a difference of 20 per 1,000, which is 2.0 per cent per year, not 20 per cent."
+  },
+  {
+   "field": "lesson.content",
+   "old": "This acceleration reflects the global spread of Stage 2 dynamics",
+   "new": "### Population Momentum\n\nOne point confuses students more than any other here: a population keeps growing for decades **after** its fertility rate has fallen to replacement level. This is **population momentum**, and it is a consequence of age structure rather than of fertility.\n\nThink about what a country looks like at the moment its TFR reaches 2.1. The large cohorts born during its high-fertility years are still children and adolescents. They have not entered their reproductive years yet, and there are far more of them than there are elderly people at risk of dying. So even with every woman having just enough children to replace herself, the sheer number of women entering childbearing age keeps annual births above annual deaths. Growth only stops once the age structure has evened out, which takes roughly a generation or two.\n\nMomentum is why global population is still projected to rise for most of this century even though the global TFR is already approaching replacement, and why a question that asks whether population growth stops when fertility hits 2.1 is keying “no, not for decades.”\n\nThis acceleration reflects the global spread of Stage 2 dynamics"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Introduction to Sociology 3e §20.1 — demography, population growth, and demographic transition theory",
+   "url": "https://openstax.org/books/introduction-sociology-3e/pages/20-1-demography-and-population"
+  }
+ ],
+ "visual": {
+  "title": "Two transitions, the regions, and momentum",
+  "src": "/lesson-diagrams/two-transitions-regions-and-momentum.svg",
+  "width": 920,
+  "height": 960,
+  "alt": "The demographic transition and Omran's epidemiological transition drawn as two parallel four-stage rows aligned stage by stage, with the double burden noted beneath; five cards placing sub-Saharan Africa, South Asia, Latin America, Europe and North America, and East Asia on the model; a three-step chain explaining population momentum from reaching replacement fertility to continued growth; and five cards listing the standard criticisms of the model.",
+  "caption": "The two transitions move together because surviving infection is what lets a population live long enough to develop chronic disease.",
+  "beforeHeading": "## Stage 1: Pre-Industrial Equilibrium"
+ }
+}
