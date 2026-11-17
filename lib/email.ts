@@ -19,7 +19,7 @@ function sender(): string {
 }
 
 function siteUrl(): string {
-  return (process.env.NEXT_PUBLIC_SITE_URL || "https://vitalis-lyart.vercel.app").replace(/\/$/, "");
+  return (process.env.NEXT_PUBLIC_SITE_URL || "https://vitalismcat.com").replace(/\/$/, "");
 }
 
 export async function sendEmail(input: { to: string; subject: string; html: string; text: string }): Promise<boolean> {

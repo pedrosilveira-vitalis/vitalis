@@ -31,7 +31,7 @@ yourself; do not paste the secret key into a chat window, including this one.
 |---|---|
 | `STRIPE_SECRET_KEY` | Stripe -> Developers -> API keys -> Secret key (`sk_live_...`) |
 | `STRIPE_WEBHOOK_SECRET` | Created in step 4 below (`whsec_...`) |
-| `NEXT_PUBLIC_SITE_URL` | `https://vitalis-lyart.vercel.app` (no trailing slash) |
+| `NEXT_PUBLIC_SITE_URL` | `https://vitalismcat.com` (no trailing slash) |
 | `FREE_ACCESS_EMAILS` | Your own email, plus any tutor or beta student, comma separated |
 
 ### About `FREE_ACCESS_EMAILS`
@@ -47,7 +47,7 @@ Example: `pedro@example.com,tutor@example.com`
 
 Stripe -> Developers -> Webhooks -> Add endpoint.
 
-- Endpoint URL: `https://vitalis-lyart.vercel.app/api/stripe/webhook`
+- Endpoint URL: `https://vitalismcat.com/api/stripe/webhook`
 - Event to send: `checkout.session.completed` (that one only)
 
 Stripe shows you a signing secret starting `whsec_`. That is
