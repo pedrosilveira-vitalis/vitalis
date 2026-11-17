@@ -1,0 +1,34 @@
+{
+  "lessonId": 216,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    1076,
+    1077,
+    1078,
+    1079,
+    1080
+  ],
+  "fingerprint": "dbde5d4b8cc649c1128f4936090a31ecd417bfe84e125360a23d2e500b529511",
+  "patches": [
+    {
+      "field": "questions.1079.explanation",
+      "old": "Choice D reverses the two theorists' contributions, which is the most tempting distractor since students sometimes confuse the number of factors associated with each theorist.",
+      "new": "Choice D is the most tempting distractor, but note what it actually does: the three broad superfactors belong to Eysenck, not Cattell, and the sixteen factors belong to Cattell, not Allport — so it misassigns both numbers rather than simply swapping this question's two theorists."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, Psychology §11.7 — trait theorists, covering Allport's categories, Cattell's 16 factors, the Eysencks' dimensions and the five factor model",
+      "url": "https://openstax.org/books/psychology/pages/11-7-trait-theorists"
+    }
+  ],
+  "visual": {
+    "title": "The four models and Eysenck's arousal claim",
+    "src": "/lesson-diagrams/trait-models-ocean-and-eysenck-arousal.svg",
+    "width": 920,
+    "height": 906,
+    "alt": "Four cards tracing the trait tradition from Allport's lexical sorting through Cattell's sixteen source traits and Eysenck's three supertraits to the five factor model; a list of the OCEAN dimensions with what each one predicts; and a panel setting out Eysenck's two biological claims, that introverts begin from higher cortical arousal and therefore prefer quiet while extraverts seek input, and that neuroticism reflects limbic reactivity.",
+    "caption": "Introverts start high on the arousal dial, which is why the quiet room suits them. Reversing that is the single commonest error on this topic.",
+    "beforeHeading": "## The Five-Factor Model (Big Five)"
+  }
+}
