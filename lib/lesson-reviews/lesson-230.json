@@ -1,0 +1,34 @@
+{
+  "lessonId": 230,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    1146,
+    1147,
+    1148,
+    1149,
+    1150
+  ],
+  "fingerprint": "f0ef4c5fca9379a3fa477c7877ac80609555f06654bfaee9034336d57b3e7533",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "The ELM predicts that when motivation or ability to process is low (e.g., distracted, disinterested, or cognitively overloaded), peripheral cues dominate.",
+      "new": "The ELM predicts that when motivation or ability to process is low (e.g., distracted, disinterested, or cognitively overloaded), peripheral cues dominate.\n\nThis produces a counter-intuitive result worth knowing: **mild distraction can increase persuasion**. Festinger and Maccoby (1964) found that an audience distracted during a counter-attitudinal message was *more* persuaded than an attentive one. The reason is that the distraction interferes with **counterarguing** — the silent rebuttals a listener would otherwise generate — leaving peripheral cues such as the speaker's likability free to do the work. Petty and colleagues later generalised the finding: distraction disrupts whatever the *dominant* cognitive response would have been, so it increases persuasion when the audience would have argued back (weak arguments, or a message they oppose) and **decreases** it when the audience would have been generating favourable thoughts (strong arguments they already lean toward)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Petty, Wells & Brock, “Distraction can enhance or reduce yielding to propaganda” — reports Festinger and Maccoby's 1964 distraction finding and generalises it to disruption of the dominant cognitive response",
+      "url": "https://typeset.io/pdf/distraction-can-enhance-or-reduce-yielding-to-propaganda-1fu568l90x.pdf"
+    }
+  ],
+  "visual": {
+    "title": "The gate, the dissonance, and the prediction",
+    "src": "/lesson-diagrams/elaboration-routes-dissonance-and-attitude-behaviour.svg",
+    "width": 920,
+    "height": 978,
+    "alt": "A persuasive message passing through a gate asking whether the listener is both motivated and able to think about it, branching to a central route producing durable change that predicts behaviour and a peripheral route producing fragile change; a panel showing a dissonant pair of cognitions with the three resolutions and the insufficient justification, post-decision and effort justification paradigms; and a panel of the conditions under which an attitude predicts behaviour, ending with the three components of the theory of planned behaviour feeding intention.",
+    "caption": "Both motivation and ability are needed for the central route; losing either sends the message down the peripheral one, where the change will not last.",
+    "beforeHeading": "### Source, Message, and Audience Factors"
+  }
+}
