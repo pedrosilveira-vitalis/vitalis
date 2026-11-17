@@ -1,0 +1,39 @@
+{
+  "lessonId": 242,
+  "reviewedAt": "2026-11-17",
+  "questionIds": [
+    1206,
+    1207,
+    1208,
+    1209,
+    1210
+  ],
+  "fingerprint": "209a686e2f20d5a60ecd23d7ebf8af499016f4e2c3cc7536a64311b0dd2da1a6",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "Children progress through the **play stage** (imitating specific roles, like playing \"doctor\") and the **game stage** (understanding that multiple roles interact according to rules), eventually developing awareness of the **generalized other**",
+      "new": "Mead described **three** stages, and the exam expects all three in order. In the **preparatory stage** (roughly up to age two) children imitate the actions of those around them without understanding the roles behind them — copying the gesture, not the part. In the **play stage** (roughly two to six) they take **one role at a time**, playing doctor or parent, and so begin to see themselves from another's position. In the **game stage** (roughly seven onward) they can hold **several roles simultaneously** and grasp how those roles interlock, which is what makes organised games possible. It is at this point that the child develops awareness of the **generalized other**"
+    },
+    {
+      "field": "lesson.content",
+      "old": "Socialization continues in later life, though it increasingly involves **role exit** — the process of disengaging from roles that have been central to one's identity.",
+      "new": "Socialization continues in later life, though it increasingly involves **role exit** — the process, described by Helen Rose Ebaugh, of disengaging from a role that has been central to one's identity and constructing a new sense of self afterwards. Ebaugh traced four stages: first doubts about the role, seeking alternatives, a turning point at which the exit is made, and creating an \"ex-role\" identity — the lasting status of being a *former* physician, spouse or member of a faith."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, Introduction to Sociology 3e §5.1 — theories of self-development, covering Mead's preparatory, play and game stages and the generalized other",
+      "url": "https://openstax.org/books/introduction-sociology-3e/pages/5-1-theories-of-self-development"
+    }
+  ],
+  "visual": {
+    "title": "Agents, stages, and the four types",
+    "src": "/lesson-diagrams/socialization-agents-mead-stages-and-four-types.svg",
+    "width": 920,
+    "height": 900,
+    "alt": "A timeline from birth to later life with bars showing when family, peers, school, media and work act as socialization agents and what each transmits; three cards for Mead's preparatory, play and game stages with their ages and defining feature; and four cards distinguishing anticipatory socialization, developmental socialization, resocialization and role exit by what is happening to the role the person holds.",
+    "caption": "Mead's stages go imitation, then one role at a time, then several roles at once — the last is what makes a game, and the generalized other, possible.",
+    "beforeHeading": "### Secondary Socialization"
+  }
+}
