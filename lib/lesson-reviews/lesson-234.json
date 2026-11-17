@@ -1,0 +1,39 @@
+{
+  "lessonId": 234,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    1166,
+    1167,
+    1168,
+    1169,
+    1170
+  ],
+  "fingerprint": "91fe41889626a247b277f1898edbaf4e11ca7c49a8a7572575bb029ff81bf542",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "consumes working memory resources that would otherwise support task performance.",
+      "new": "consumes working memory resources that would otherwise support task performance.\n\n**A note on the evidence.** Stereotype threat is firmly part of the tested curriculum and you should answer questions on it as described above. Be aware, however, that the size of the effect is contested. A meta-analysis of 47 effect sizes in schoolgirls found a mean effect of about 0.22 but several indications of **publication bias**, and the same group's later large-scale registered replication found no evidence of the effect in Dutch schoolchildren. The mechanism is well specified and the laboratory demonstrations are real; what remains unsettled is how large and how general the effect is outside the laboratory."
+    },
+    {
+      "field": "lesson.content",
+      "old": "preserving the broader stereotype.",
+      "new": "preserving the broader stereotype. Closely related is **expectancy violation**: because the stereotype sets up an expectation, a counter-stereotypic performance is registered as *surprising* rather than as disconfirming evidence. Observers react to the surprise — and then subtype the individual — instead of revising the category, which is why one impressive exception so rarely changes anything."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Flore & Wicherts, “Does stereotype threat influence performance of girls in stereotyped domains? A meta-analysis”, Journal of School Psychology (2015) — mean effect 0.22 with several signs of publication bias",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25636259/"
+    }
+  ],
+  "visual": {
+    "title": "The three words, the four levels, the defences",
+    "src": "/lesson-diagrams/prejudice-structure-levels-and-persistence.svg",
+    "width": 920,
+    "height": 960,
+    "alt": "Three linked cards for stereotype as the cognitive component, prejudice as the affective attitude and discrimination as the behaviour, with a note that the links are weak in both directions; four columns giving the cognitive, motivational, personality and structural levels of explanation with the theories belonging to each; a panel on subtyping, the ultimate attribution error and confirmation bias as the reasons counter-evidence fails; and Allport's four contact conditions.",
+    "caption": "Most questions are asking which level the explanation sits at — a shortcut in the mind, a need the group serves, a personality, or a policy.",
+    "beforeHeading": "## Reducing Prejudice: Theoretical Approaches"
+  }
+}
