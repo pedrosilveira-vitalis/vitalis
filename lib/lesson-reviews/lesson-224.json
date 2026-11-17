@@ -1,0 +1,43 @@
+{
+ "lessonId": 224,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1116,
+  1117,
+  1118,
+  1119,
+  1120
+ ],
+ "fingerprint": "b1213309be8bde4cd441de8a17395e641af06284c4273ca31db7eddb52a2f71d",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "In contrast, neurological amnesias (e.g., from hippocampal damage in Korsakoff syndrome) typically show severe anterograde amnesia with relatively preserved remote memories.",
+   "new": "In contrast, neurological amnesias typically show severe anterograde amnesia with relatively preserved remote memories. Two classic examples: bilateral medial temporal lobe damage, as in the patient H.M., and **Korsakoff syndrome**, which follows thiamine deficiency and damages the **mammillary bodies and the medial thalamic nuclei** rather than the hippocampus itself. Both produce the opposite profile from dissociative amnesia: new learning fails, while identity and remote autobiographical memory are largely intact."
+  },
+  {
+   "field": "lesson.content",
+   "old": "ASPD is significantly more common in males than females (approximately 3:1 ratio) and is highly prevalent in incarcerated populations (estimated 50–80% of prisoners meet criteria).",
+   "new": "ASPD is significantly more common in males than females (approximately 3:1 ratio) and is heavily over-represented in incarcerated populations. The largest systematic review of prison surveys found that about **47% of male prisoners and about 21% of female prisoners** met criteria for ASPD, with roughly two-thirds of male prisoners meeting criteria for some personality disorder. Be wary of the higher figures sometimes quoted; they come from selected forensic samples rather than general prison populations."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Fazel & Danesh, “Serious mental disorder in 23000 prisoners: a systematic review of 62 surveys”, Lancet (2002) — 47% of male and 21% of female prisoners met criteria for antisocial personality disorder",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/11867106/"
+  },
+  {
+   "title": "Kril & Harper, “Neuroanatomy and neuropathology associated with Korsakoff's syndrome” — locates the damage in the mammillary bodies and mediodorsal thalamus",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3371089"
+  }
+ ],
+ "visual": {
+  "title": "The clusters, the syntony question, and the dissociation continuum",
+  "src": "/lesson-diagrams/personality-clusters-ego-syntony-and-dissociation.svg",
+  "width": 920,
+  "height": 962,
+  "alt": "Three columns listing the odd, dramatic and anxious clusters with the signature feature of each of the ten personality disorders; a panel contrasting ego-syntonic traits, which feel like part of the self and bring the person in only when someone else insists, with ego-dystonic symptoms, which feel alien and drive help-seeking; and a continuum from daydreaming through depersonalization and derealization and dissociative amnesia with fugue to dissociative identity disorder.",
+  "caption": "Ask whether the trait feels right to the person before reaching for a diagnosis — it separates the personality disorders from everything else, and OCPD from OCD.",
+  "beforeHeading": "## Dissociative Disorders"
+ }
+}
