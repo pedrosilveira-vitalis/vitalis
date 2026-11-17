@@ -17,6 +17,14 @@ export const portalSchema = [
     cancelled BOOLEAN NOT NULL DEFAULT FALSE, created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
   )`,
   `CREATE INDEX IF NOT EXISTS vitalis_calls_student_start ON vitalis_calls(student_email, starts_at)`,
+  `CREATE TABLE IF NOT EXISTS vitalis_entitlements (
+    id TEXT PRIMARY KEY, email TEXT NOT NULL, plan TEXT NOT NULL,
+    window_days INTEGER NOT NULL CHECK (window_days BETWEEN 1 AND 400),
+    amount_cents INTEGER NOT NULL CHECK (amount_cents >= 0), referral_code TEXT,
+    starts_at TIMESTAMPTZ NOT NULL DEFAULT NOW(), expires_at TIMESTAMPTZ NOT NULL,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+  )`,
+  `CREATE INDEX IF NOT EXISTS vitalis_entitlements_email_expiry ON vitalis_entitlements(email, expires_at DESC)`,
 ];
 export async function activity(db: Database, email: string, timeZone: string, answered: boolean, now = new Date()) {
   const normalized = email.toLowerCase();
