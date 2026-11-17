@@ -1,0 +1,39 @@
+{
+ "lessonId": 228,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1136,
+  1137,
+  1138,
+  1139,
+  1140
+ ],
+ "fingerprint": "5b1c887fb2454693c6afc770a396b597d6a6dd63532c09420486976e73c39245",
+ "patches": [
+  {
+   "field": "questions.1136.question_text",
+   "old": "that Marcus is almost always on time, that no other employees were late that day, and that Marcus has been late on previous Monday mornings specifically",
+   "new": "that no other employees were late that day, that Marcus is routinely late to meetings and appointments of every kind, and that he has been late to this particular Monday meeting every week for months"
+  },
+  {
+   "field": "questions.1136.explanation",
+   "old": "Here, consensus is low (no other employees were late), distinctiveness is low (Marcus has been late on Mondays before, suggesting it is not unique to one situation), and consistency is high (it happens repeatedly on Mondays).",
+   "new": "Here, consensus is low (no other employees were late), distinctiveness is low (Marcus is late to everything, not just this meeting), and consistency is high (it happens every week). Note the trap in distinctiveness: lateness confined to one specific setting would be HIGH distinctiveness and would point away from the person toward that setting."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §12.1 — what is social psychology, covering dispositional and situational attribution and the attribution biases",
+   "url": "https://openstax.org/books/psychology/pages/12-1-what-is-social-psychology"
+  }
+ ],
+ "visual": {
+  "title": "Reading the three dials",
+  "src": "/lesson-diagrams/kelley-dials-discounting-and-weiner-dimensions.svg",
+  "width": 920,
+  "height": 946,
+  "alt": "Three cards for consensus, distinctiveness and consistency giving the question each answers and what a high or low reading means, with a warning that behaviour confined to one setting is high distinctiveness; three combination cards mapping low-low-high to the person, high-high-high to the stimulus and low-high-low to the circumstance; a panel on the discounting and augmentation principles for single observations; and Weiner's four causes with their locus, stability and controllability and the emotion and motivation each produces.",
+  "caption": "Distinctiveness is the dial most often misread: doing it only in one place is HIGH, and points at the place rather than the person.",
+  "beforeHeading": "### The Discounting and Augmentation Principles"
+ }
+}
