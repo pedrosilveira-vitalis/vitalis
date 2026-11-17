@@ -1,4 +1,5 @@
 import { auth } from "@/auth";
+import { isAdmin } from "@/lib/engagement";
 
 export async function GET() {
   const session = await auth();
@@ -11,5 +12,6 @@ export async function GET() {
       email: session.user.email || null,
       image: session.user.image || null,
     },
+    isAdmin: isAdmin(session.user.email),
   });
 }

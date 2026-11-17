@@ -1,5 +1,6 @@
 "use client";
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import Nori from './Nori';
 import UserNav from './UserNav';
@@ -10,10 +11,13 @@ const groups = [
  { title: 'Explore', links: [{href:'/resume',label:'Résumé builder',icon:'book'},{href:'/medical-news',label:'Medical news',icon:'book'},{href:'/voice-cases',label:'Voice cases',icon:'voice'},{href:'/score-calculator',label:'Score calculator',icon:'score'}]},
  { title: 'Account', links: [{href:'/plans',label:'Plans & access',icon:'score'}]},
 ];
+const adminGroup = { title: 'Admin', links: [{href:'/admin',label:'Students & revenue',icon:'score'},{href:'/admin/calls',label:'Schedule sessions',icon:'calendar'}]};
 function Logo() { return <Link href="/" className="vitalis-brand" aria-label="Vitalis home"><Nori className="brand-nori"/><span>Vitalis<span className="brand-dot">.</span></span></Link>; }
 export default function MainNav({badge,rightSlot,contentId}: {contentId?:string;active?:string;badge?:string;rightSlot?:React.ReactNode;compact?:boolean}) {
  const pathname=usePathname();
+ const [admin,setAdmin]=useState(false);
+ useEffect(()=>{let live=true;fetch('/api/session').then(r=>r.json()).then(d=>{if(live)setAdmin(!!d.isAdmin);}).catch(()=>{});return()=>{live=false;};},[]);
  const selected=(href:string)=>href==='/'?pathname==='/':pathname===href||pathname.startsWith(href+'/');
- const navigation=groups.map(group=><div className="nav-group" key={group.title}><p>{group.title}</p>{group.links.map(link=><Link key={link.href} href={link.href} className="nav-item" aria-current={selected(link.href)?'page':undefined}><StudyIcon name={link.icon}/>{link.label}</Link>)}</div>);
+ const navigation=(admin?[...groups,adminGroup]:groups).map(group=><div className="nav-group" key={group.title}><p>{group.title}</p>{group.links.map(link=><Link key={link.href} href={link.href} className="nav-item" aria-current={selected(link.href)?'page':undefined}><StudyIcon name={link.icon}/>{link.label}</Link>)}</div>);
  return <><a href={`#${contentId || "page-content"}`} className="skip-link">Skip to content</a><aside className="vitalis-sidebar"><div className="sidebar-brand"><Logo/><span className="brand-caption">MCAT PREPARATION</span></div><nav className="min-h-0 overflow-y-auto" aria-label="Main navigation">{navigation}</nav><div className="sidebar-note"><span>THE PHYSICIAN IN YOU</span><p>Built one concept<br/>at a time.</p><Link href="/study-plan">Find your study rhythm <span aria-hidden="true">↗</span></Link></div></aside><header className="vitalis-topbar"><div className="mobile-brand"><Logo/></div><div className="desktop-breadcrumb">Your workspace <span>/</span> <strong>{badge || groups.flatMap(g=>g.links).find(l=>selected(l.href))?.label || 'MCAT'}</strong></div><div className="topbar-actions">{rightSlot ?? <UserNav/>}<details key={pathname} className="mobile-menu"><summary>Menu</summary><nav aria-label="Mobile navigation">{navigation}</nav></details></div></header>{!contentId && <div id="page-content" tabIndex={-1} className="content-start"/>}</>;
 }
