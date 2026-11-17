@@ -168,6 +168,21 @@ export async function entitlementFor(db: Database, email: string, now = new Date
 }
 
 /**
+ * Accounts that get everything without paying: you, your tutors, and any beta
+ * students. Set FREE_ACCESS_EMAILS in Vercel as a comma-separated list.
+ * Without this the owner cannot read his own lessons, which is a silly way to
+ * find out the gate works.
+ */
+export function hasStandingAccess(email: string): boolean {
+  const list = process.env.FREE_ACCESS_EMAILS;
+  if (!list) return false;
+  const target = email.trim().toLowerCase();
+  return list.split(",").some(entry => entry.trim().toLowerCase() === target && entry.trim().length > 0);
+}
+
+const EVERYTHING: Capabilities = { questions: true, lessons: true, liveReviews: true };
+
+/**
  * The gate every protected route calls. Returns the student's capabilities, and
  * is deliberately fail-closed: if the database cannot be reached we lock rather
  * than open, because the failure mode of guessing wrong is giving the product
@@ -175,6 +190,7 @@ export async function entitlementFor(db: Database, email: string, now = new Date
  */
 export async function capabilitiesFor(db: Database, email: string | null | undefined): Promise<Capabilities> {
   if (!email) return LOCKED;
+  if (hasStandingAccess(email)) return EVERYTHING;
   try {
     return capabilitiesOf(await entitlementFor(db, email));
   } catch {

@@ -32,6 +32,16 @@ yourself; do not paste the secret key into a chat window, including this one.
 | `STRIPE_SECRET_KEY` | Stripe -> Developers -> API keys -> Secret key (`sk_live_...`) |
 | `STRIPE_WEBHOOK_SECRET` | Created in step 4 below (`whsec_...`) |
 | `NEXT_PUBLIC_SITE_URL` | `https://vitalis-lyart.vercel.app` (no trailing slash) |
+| `FREE_ACCESS_EMAILS` | Your own email, plus any tutor or beta student, comma separated |
+
+### About `FREE_ACCESS_EMAILS`
+
+Lessons and the question bank are now behind the paywall, which includes being
+behind it for you. Anyone listed here gets everything without paying, so put
+your own address in before you look at the site again, along with your tutors
+and any beta students you have promised access to.
+
+Example: `pedro@example.com,tutor@example.com`
 
 ## 4. Create the webhook
 

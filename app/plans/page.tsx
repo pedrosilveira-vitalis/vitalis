@@ -5,7 +5,7 @@ import Link from "next/link";
 import MainNav from "@/components/MainNav";
 import { LESSON_COUNT, PLANS, QUESTION_COUNT, formatPrice, type PlanId, type WindowDays } from "@/lib/billing";
 
-type Access = { signedIn: boolean; entitlement: { plan: PlanId; daysLeft: number } | null };
+type Access = { signedIn: boolean; standing?: boolean; entitlement: { plan: PlanId; daysLeft: number | null } | null };
 
 const WINDOWS: { days: WindowDays; label: string; note: string }[] = [
   { days: 90, label: "90 days", note: "One focused test cycle" },
@@ -72,7 +72,10 @@ export default function PlansPage() {
             <div className="mt-6 inline-flex items-center gap-3 rounded-2xl border-2 border-[#5b7a64] bg-[#5b7a6412] px-5 py-3">
               <span className="font-sans text-[10px] tracking-[0.14em] uppercase opacity-60">Current access</span>
               <span className="font-sans text-sm font-medium">
-                {PLANS.find(plan => plan.id === access.entitlement?.plan)?.name} &middot; {access.entitlement.daysLeft} days left
+                {PLANS.find(plan => plan.id === access.entitlement?.plan)?.name}
+                {access.standing
+                  ? " · standing access"
+                  : access.entitlement.daysLeft !== null && ` · ${access.entitlement.daysLeft} days left`}
               </span>
             </div>
           )}
