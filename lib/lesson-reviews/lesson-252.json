@@ -1,0 +1,39 @@
+{
+ "lessonId": 252,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1256,
+  1257,
+  1258,
+  1259,
+  1260
+ ],
+ "fingerprint": "d0140920d85af8c7e3e0e1e86b3660ba712e488286b224d842f496dc51b88245",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **Wider CI** = less precision = smaller sample, higher variability, or lower confidence level.",
+   "new": "- **Wider CI** = less precision = smaller sample, higher variability, or a **higher** confidence level. Note the direction carefully: demanding more confidence means casting a wider net, so a 99% CI is always wider than a 95% CI computed from the same data, and a 90% CI is narrower than both."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Originally observed in productivity studies at the Hawthorne Works factory in the 1920s, it is a major concern in behavioral research.",
+   "new": "It takes its name from productivity studies run at the Hawthorne Works factory in the 1920s, although the original claim has not survived scrutiny — when the long-lost illumination data were recovered and analysed, there was no systematic jump in productivity whenever the lighting was changed. The underlying phenomenon, usually called **reactivity**, is nonetheless real and well documented in behavioural research; treat “Hawthorne effect” as the conventional name for it rather than as a reference to a well-established finding."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Levitt & List, “Was There Really a Hawthorne Effect at the Hawthorne Plant?” (NBER w15016)",
+   "url": "https://www.nber.org/papers/w15016"
+  }
+ ],
+ "visual": {
+  "title": "Two ways to be wrong, and which way each bias pushes",
+  "src": "/lesson-diagrams/two-ways-to-be-wrong-and-bias-direction.svg",
+  "width": 920,
+  "height": 1016,
+  "alt": "A two-by-two decision table with the truth about the null hypothesis in the columns and the researcher's decision in the rows, marking Type I error with probability alpha, Type II error with probability beta, and the two correct cells including power as one minus beta; a panel listing what raises power and a panel giving the confidence-interval readings for differences and ratios along with what makes an interval wider; and a panel sorting the research biases into those that inflate an effect and those that hide or shrink it.",
+  "caption": "Tightening alpha only trades one error for the other — a larger sample is the only thing that shrinks both.",
+  "beforeHeading": "## Type I and Type II Errors"
+ }
+}
