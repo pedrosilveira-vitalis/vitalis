@@ -1,0 +1,34 @@
+{
+  "lessonId": 215,
+  "reviewedAt": "2026-11-16",
+  "questionIds": [
+    1071,
+    1072,
+    1073,
+    1074,
+    1075
+  ],
+  "fingerprint": "c3b506bb5d14000b631057eff48551989e1b6c12646a2f38556b744ae905e97d",
+  "patches": [
+    {
+      "field": "lesson.content",
+      "old": "- **The ventromedial hypothalamus (VMH)**: important for female sexual receptivity in animal models.",
+      "new": "- **The ventromedial hypothalamus (VMH)**: important for female sexual receptivity in animal models.\n\n### Organizational vs. Activational Effects\n\nSex hormones act on behaviour at two very different points in life, and the MCAT expects you to tell them apart.\n\n**Organizational effects** occur during a critical window before birth and shortly after it, when circulating androgens permanently shape the architecture of the developing brain — including the sexually dimorphic nucleus described above. These effects are *structural* and *irreversible*: once the window closes, removing or adding the hormone does not undo them. Natural experiments such as **congenital adrenal hyperplasia**, in which a fetus is exposed to high androgen levels, are the main human evidence for organizational effects.\n\n**Activational effects** occur in adulthood, when hormones switch on behaviours in circuits that were organised earlier. These effects are *functional* and *reversible*: testosterone raises libido while it is present, and castration or oophorectomy lowers it, with restoration of the hormone restoring the behaviour.\n\nThe short version: organisation builds the circuit, activation turns it on."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenStax, Psychology §10.2 — hunger and eating, covering hypothalamic regulation, the satiety hormones and set-point theory",
+      "url": "https://openstax.org/books/psychology/pages/10-2-hunger-and-eating"
+    }
+  ],
+  "visual": {
+    "title": "The switchboard and the two hormone windows",
+    "src": "/lesson-diagrams/arcuate-switchboard-and-hormone-timing.svg",
+    "width": 920,
+    "height": 912,
+    "alt": "The arcuate nucleus shown with its two opposing cell populations, NPY and AgRP driving eating and POMC and CART stopping it, with ghrelin from the stomach feeding the first and leptin, insulin, CCK, PYY and GLP-1 feeding the second; a comparison of set-point and settling-point models of body weight with the evidence for each; and a contrast between permanent organisational hormone effects before birth and reversible activational effects in adulthood.",
+    "caption": "One hormone says eat and four say stop. Obesity is not a shortage of the stopping signal — it is a brain that no longer answers it.",
+    "beforeHeading": "### Peripheral Hunger Signals"
+  }
+}
