@@ -1,0 +1,34 @@
+{
+ "lessonId": 237,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1181,
+  1182,
+  1183,
+  1184,
+  1185
+ ],
+ "fingerprint": "b24f5a9592b094c259dde9fe7f7340d2310a1c0f6b8b8d385b469be5fdae55c9",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "It is typically defined by a specific income threshold (e.g., the international poverty line of $2.15 per day).",
+   "new": "It is typically defined by a specific income threshold. The World Bank's **international poverty line** — the line for extreme poverty — is currently **$3.00 per person per day**, measured in 2021 purchasing-power-parity dollars; it replaced the older $2.15 line (2017 PPP) in June 2025. Two higher lines are used for richer country groups: $4.20 a day for lower-middle-income countries and $8.30 for upper-middle-income countries. The line is revised periodically as price data are updated, so treat any specific figure as the current value of a moving threshold rather than a constant."
+  }
+ ],
+ "sources": [
+  {
+   "title": "World Bank, “June 2025 Update to Global Poverty Lines” — the international poverty line is now $3.00 per person per day in 2021 PPPs, replacing $2.15",
+   "url": "https://www.worldbank.org/en/news/factsheet/2025/06/05/june-2025-update-to-global-poverty-lines"
+  }
+ ],
+ "visual": {
+  "title": "Three axes, and what they do to health",
+  "src": "/lesson-diagrams/weber-dimensions-health-gradient-and-capital.svg",
+  "width": 920,
+  "height": 962,
+  "alt": "Three cards for class as the economic dimension, status as prestige and party as organised power, with three cases where they diverge and the label status inconsistency; a plotted mortality gradient falling steadily from the lowest to the highest employment grade in the Whitehall data, with a note on absolute and relative poverty; and a panel of the material, psychosocial, behavioural, access and exposure pathways alongside economic, cultural and social capital and habitus.",
+  "caption": "The Whitehall gradient runs the whole length of the hierarchy, which is why relative position matters and not only absolute deprivation.",
+  "beforeHeading": "## Theoretical Perspectives on Stratification"
+ }
+}
