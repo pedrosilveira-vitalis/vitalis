@@ -33,6 +33,13 @@ export const portalSchema = [
   )`,
   `CREATE INDEX IF NOT EXISTS vitalis_answers_email_time ON vitalis_answers(email, answered_at DESC)`,
   `CREATE INDEX IF NOT EXISTS vitalis_answers_wrong ON vitalis_answers(question_id) WHERE correct = FALSE`,
+  `CREATE TABLE IF NOT EXISTS vitalis_tutor_applications (
+    id UUID PRIMARY KEY, name TEXT NOT NULL, email TEXT NOT NULL, mcat_score INTEGER,
+    experience TEXT NOT NULL DEFAULT '', students TEXT NOT NULL DEFAULT '',
+    referral_code TEXT, status TEXT NOT NULL DEFAULT 'new',
+    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+  )`,
+  `CREATE INDEX IF NOT EXISTS vitalis_tutor_apps_created ON vitalis_tutor_applications(created_at DESC)`,
 ];
 export async function activity(db: Database, email: string, timeZone: string, answered: boolean, now = new Date()) {
   const normalized = email.toLowerCase();
