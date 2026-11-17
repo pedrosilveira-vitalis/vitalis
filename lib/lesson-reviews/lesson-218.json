@@ -1,0 +1,34 @@
+{
+ "lessonId": 218,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1086,
+  1087,
+  1088,
+  1089,
+  1090
+ ],
+ "fingerprint": "9ff26e9df2253d90c78ed9b5aa8c3299e0093252769c40688b865c12e9f8ce5d",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "**Leon Festinger** and later **David Funder** developed the concept of **situational strength** to explain when traits predict behavior and when they do not.",
+   "new": "The concept of **situational strength** — developed by **Walter Mischel** himself in the 1970s and extended in later work by **Snyder and Ickes** and by industrial-organisational researchers — explains when traits predict behaviour and when they do not."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §11.7 — trait theorists, covering the five factor model and the trait tradition the debate concerns",
+   "url": "https://openstax.org/books/psychology/pages/11-7-trait-theorists"
+  }
+ ],
+ "visual": {
+  "title": "How the debate went, and what settled it",
+  "src": "/lesson-diagrams/person-situation-debate-and-assessment.svg",
+  "width": 920,
+  "height": 900,
+  "alt": "A four-step sequence from trait theory's promise through Mischel's 0.30 correlations and Epstein's aggregation argument to interactionism; a contrast of strong and weak situations with the kinds of setting each describes and the effect on trait prediction; three if-then rows showing the same child behaving differently by context while the pattern stays fixed; and a comparison of projective and objective tests with what each trades away.",
+  "caption": "One observation is one test item. Average fourteen days of behaviour and the same correlations climb from 0.3 to 0.8 — the traits were there, the measurement was not.",
+  "beforeHeading": "### Aggregation and Reliability"
+ }
+}
