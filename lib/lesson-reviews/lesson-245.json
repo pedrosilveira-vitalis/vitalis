@@ -1,0 +1,43 @@
+{
+ "lessonId": 245,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1221,
+  1222,
+  1223,
+  1224,
+  1225
+ ],
+ "fingerprint": "4de758d5b7da511ada0da56eff68c37276194582b47ffe449351e62f865bc48b",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- Western Europe, Japan, South Korea: TFR often 1.2–1.6.",
+   "new": "- Western Europe: TFR often 1.3–1.7. Japan: about 1.2. South Korea has the lowest recorded national fertility in the world — a record low of 0.72 in 2023, since recovering slightly to 0.75 in 2024 and 0.80 in 2025."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **East Asia**: Extremely low fertility (TFR 1.0–1.3 in South Korea and Japan), rapidly aging populations, labor force contraction.",
+   "new": "- **East Asia**: Extremely low fertility — about 1.2 in Japan and below 1.0 in South Korea, which has been the only OECD country under 1.0 since 2018 — together with rapidly aging populations and labor force contraction. You will not be asked for the exact figure; what matters is that these countries sit far below the 2.1 replacement level, so their populations are projected to shrink substantially even with no change in mortality."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Reuters via The Star (2026) — South Korea's TFR was 0.72 in 2023, 0.75 in 2024 and 0.80 in 2025",
+   "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/02/korea039s-birth-rebound-offers-hope-but-demographic-challenges-remain"
+  },
+  {
+   "title": "Al Jazeera (2025) — Japan's birth rate is about 1.2, and South Korea has been the only OECD member below 1.0",
+   "url": "https://www.aljazeera.com/features/2025/3/3/how-south-korea-raised-its-birthrate-love-bingo-parental-support-and-more"
+  }
+ ],
+ "visual": {
+  "title": "The transition, the pyramids, and the measures",
+  "src": "/lesson-diagrams/demographic-transition-pyramids-and-measures.svg",
+  "width": 920,
+  "height": 972,
+  "alt": "A plotted demographic transition in which the death rate falls before the birth rate, with the gap between the two curves shaded and labelled as the period of population growth, and the four stages marked beneath; three population pyramids labelled expansive, constrictive and stationary with what each predicts for dependency; and a panel of the demographic measures with their formulas, ending with the warning that crude rates are not adjusted for age.",
+  "caption": "The gap between the two curves is the whole model: deaths fall first because sanitation and food require no change in behaviour, births fall later because they require a change in what children are for.",
+  "beforeHeading": "### Stage 1: Pre-Industrial"
+ }
+}
