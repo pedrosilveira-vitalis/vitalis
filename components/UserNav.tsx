@@ -33,7 +33,7 @@ export default function UserNav() {
         href="/sign-in"
         className="font-sans text-xs uppercase tracking-[0.08em] bg-[#0c1a2e] text-[#f5f1ea] px-4 py-2.5 rounded-full hover:bg-[#1a2c4a] transition-colors"
       >
-        Sign in →
+        Sign up →
       </Link>
     );
   }

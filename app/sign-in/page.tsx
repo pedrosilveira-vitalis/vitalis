@@ -13,7 +13,18 @@ function Logo() {
   );
 }
 
-export default function SignInPage() {
+const SAFE_NEXT = /^\/[A-Za-z0-9\-_/]*$/;
+
+export default async function SignInPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ next?: string }>;
+}) {
+  const requested = (await searchParams)?.next;
+  // Only ever redirect to a path on this site: an absolute URL here would be an
+  // open redirect, and sign-in pages are the classic place to find one.
+  const next = typeof requested === "string" && SAFE_NEXT.test(requested) ? requested : "/";
+
   return (
     <div className="min-h-screen bg-[#f5f1ea] text-[#0c1a2e] font-sans flex flex-col">
       <header className="flex items-center justify-between px-10 py-5 border-b border-[#0c1a2e15]">
@@ -29,19 +40,21 @@ export default function SignInPage() {
         <div className="w-full max-w-md">
           <div className="font-sans text-[11px] tracking-[0.18em] uppercase opacity-60 mb-4 flex items-center gap-3">
             <span className="w-10 h-px bg-[#0c1a2e] opacity-40" />
-            Sign in
+            Sign up
           </div>
           <h1 className="font-sans text-[clamp(36px,5vw,56px)] font-medium leading-[1.05] tracking-tight mb-3">
             Welcome to <span className="italic font-light text-[#245574]">Vitalis.</span>
           </h1>
           <p className="text-[14px] opacity-70 leading-relaxed mb-10">
-            Sign in to save your progress, build custom flashcards, and access your tutor conversation history.
+            Create your account to save your progress, build custom flashcards, and keep your tutor
+            conversations. It takes one tap &mdash; and if you have been here before, the same button signs
+            you straight back in.
           </p>
 
           <form
             action={async () => {
               "use server";
-              await signIn("google", { redirectTo: "/" });
+              await signIn("google", { redirectTo: next });
             }}
           >
             <button
@@ -54,11 +67,14 @@ export default function SignInPage() {
                 <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" />
                 <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" />
               </svg>
-              Sign in with Google
+              Continue with Google
             </button>
           </form>
 
-          <div className="mt-6 text-center font-sans text-[10px] tracking-[0.1em] uppercase opacity-50">
+          <p className="mt-6 text-center text-[12px] opacity-55 leading-relaxed">
+            New here? This creates your account. Already have one? This signs you in.
+          </p>
+          <div className="mt-5 text-center font-sans text-[10px] tracking-[0.1em] uppercase opacity-50">
             Microsoft sign-in coming next
           </div>
         </div>

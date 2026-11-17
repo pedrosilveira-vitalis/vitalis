@@ -147,16 +147,27 @@ export default function PlansPage() {
                   ))}
                 </ul>
 
-                <button
-                  type="button"
-                  onClick={() => checkout(plan.id)}
-                  disabled={busy !== null}
-                  className={`mt-7 w-full rounded-xl px-6 py-4 font-sans text-sm font-medium tracking-wide transition-opacity disabled:opacity-50 ${
-                    featured ? "bg-[#245574] text-[#f5f1ea]" : "border-2 border-[#0c1a2e] hover:bg-[#0c1a2e] hover:text-[#f5f1ea]"
-                  }`}
-                >
-                  {busy === plan.id ? "Opening checkout…" : `Get ${plan.name}`}
-                </button>
+                {access && !access.signedIn ? (
+                  <Link
+                    href="/sign-in?next=%2Fplans"
+                    className={`mt-7 w-full rounded-xl px-6 py-4 font-sans text-sm font-medium tracking-wide text-center transition-opacity ${
+                      featured ? "bg-[#245574] text-[#f5f1ea]" : "border-2 border-[#0c1a2e] hover:bg-[#0c1a2e] hover:text-[#f5f1ea]"
+                    }`}
+                  >
+                    {`Sign up to get ${plan.name}`}
+                  </Link>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => checkout(plan.id)}
+                    disabled={busy !== null || !access}
+                    className={`mt-7 w-full rounded-xl px-6 py-4 font-sans text-sm font-medium tracking-wide transition-opacity disabled:opacity-50 ${
+                      featured ? "bg-[#245574] text-[#f5f1ea]" : "border-2 border-[#0c1a2e] hover:bg-[#0c1a2e] hover:text-[#f5f1ea]"
+                    }`}
+                  >
+                    {busy === plan.id ? "Opening checkout…" : `Get ${plan.name}`}
+                  </button>
+                )}
               </div>
             );
           })}
