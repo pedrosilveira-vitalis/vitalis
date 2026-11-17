@@ -1,0 +1,38 @@
+{
+ "lessonId": 251,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1251,
+  1252,
+  1253,
+  1254,
+  1255
+ ],
+ "fingerprint": "cbd9f666f24b08dcd7b040c0d0072735cdea15d281c1d6d4d19b643659ee3c27",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "When interpreting bar graphs with error bars, overlapping error bars do *not* necessarily mean the difference is statistically non-significant—that determination requires inferential statistics. Conversely, non-overlapping error bars suggest (but do not confirm) statistical significance.",
+   "new": "What you may conclude from error bars depends entirely on **which kind of bar is drawn**, and the figure legend is the only place that tells you. The three cases behave differently:\n\n- **SD bars**: overlap or a gap tells you very little. SD describes the scatter of individuals and takes no account of sample size, so two groups can have heavily overlapping SD bars and a highly significant difference, or separated SD bars and no significant difference.\n- **SEM bars**: the asymmetry here is the part students get wrong. If SEM bars **overlap** and the two sample sizes are similar, the p value is well above 0.05, so the difference is not significant. The reverse does **not** hold: SEM bars that merely stop short of each other are not yet significant — p reaches about 0.05 only once there is a gap of roughly one SEM between them.\n- **95% confidence interval bars**: these are the most generous. Two 95% CI bars can overlap by as much as about half the length of one arm and the difference will still be significant at 0.05; if they only just touch, the difference is already highly significant.\n\nNone of this replaces an actual significance test, and a passage that reports a p value has settled the question. But when a figure gives you only bars, knowing which type is plotted turns a vague impression into a usable inference."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cumming, Fidler & Vaux, “Error bars in experimental biology”, J Cell Biol 177(1):7–11 (2007) — p = 0.05 is not reached until SEM bars are separated by about one SEM, while 95% CI bars can overlap by about half an arm and still be significant",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2064100"
+  },
+  {
+   "title": "GraphPad, “What you can conclude when two error bars overlap (or don't)” — overlapping SEM bars with similar sample sizes imply p well above 0.05, while SD-bar overlap implies nothing either way",
+   "url": "https://www.graphpad.com/support/faqid/1362"
+  }
+ ],
+ "visual": {
+  "title": "Shape from three numbers, and what error bars mean",
+  "src": "/lesson-diagrams/shape-from-three-numbers-and-error-bars.svg",
+  "width": 920,
+  "height": 1070,
+  "alt": "Three plotted distributions — normal, right-skewed and left-skewed — each with dashed lines marking the mode at the peak, the median next, and the mean dragged toward the long tail, with the ordering written beneath; a normal curve marked at one, two and three standard deviations with the 68, 95 and 99.7 per cent figures; and a panel contrasting standard deviation with standard error and giving the separate rules for interpreting SD bars, SEM bars and 95 per cent confidence interval bars.",
+  "caption": "The mean is always dragged toward the tail, which is why a mean far above a median is the signature of a right skew.",
+  "beforeHeading": "## Measures of Central Tendency"
+ }
+}
