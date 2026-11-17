@@ -1,0 +1,39 @@
+{
+ "lessonId": 232,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1156,
+  1157,
+  1158,
+  1159,
+  1160
+ ],
+ "fingerprint": "539b4e04a49aaaebdc2c62953d23fcba852757d70e916ec3e9a9ee51964768f7",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "A 2009 replication by Jerry Burger using a modified protocol (stopping at 150 volts) found comparable rates of obedience, suggesting the phenomenon is not a historical artifact.",
+   "new": "A 2009 replication by Jerry Burger using a modified protocol (stopping at 150 volts) found comparable rates of obedience, suggesting the phenomenon is not a historical artifact.\n\nThe original study has nonetheless come under serious archival scrutiny, and it is worth knowing the shape of the criticism. Working from Milgram's own tapes and notes at Yale, **Gina Perry** found that the experimenter frequently departed from the four scripted prods, improvising more coercive pressure and in some sessions urging a participant to continue far more than four times; that Milgram's account of how many participants genuinely believed the shocks were real is less secure than his published reports imply; and that several variations went unpublished. None of this overturns the central finding — the Burger replication and the many cross-national replications stand — but it means the specific percentages should be read as the results of a procedure that was less uniform than the published method describes."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Milgram's results, along with Philip Zimbardo's Stanford Prison Experiment, became foundational evidence for **situationism** — the view that situational factors often override personality in determining behavior.",
+   "new": "Milgram's results became foundational evidence for **situationism** — the view that situational factors often override personality in determining behavior. Philip Zimbardo's Stanford Prison Experiment is usually cited alongside it, and still is in many textbooks, but its methodology and conclusions have been heavily criticised since archival recordings showed that guards were coached toward brutality rather than falling into it spontaneously; treat it as a disputed illustration rather than as evidence on a par with Milgram's controlled variations."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Brannigan et al., review of Gina Perry's criticisms of the Milgram experiments and their coverage in textbooks — documents the experimenter's departures from the scripted prods",
+   "url": "https://is.muni.cz/el/phil/jaro2020/PSX_512/um/Milgram_experiment_criticisms.pdf"
+  }
+ ],
+ "visual": {
+  "title": "The variations, side by side",
+  "src": "/lesson-diagrams/milgram-conditions-mechanisms-and-three-words.svg",
+  "width": 920,
+  "height": 884,
+  "alt": "A horizontal bar chart of obedience rates across Milgram's conditions, from 65 per cent at baseline through 62.5 with voice feedback, 47.5 in a run-down office, 40 with the learner in the room, 30 with forced contact, 20.5 with orders by telephone, 20 with an ordinary man giving orders, and 10 when two peers refuse and leave; a panel of the four mechanisms that keep a reluctant participant going; and a panel separating obedience, compliance and conformity by where the pressure comes from.",
+  "caption": "Moving the victim closer and moving the authority further away both cut obedience — the two proximity series run in opposite directions.",
+  "beforeHeading": "## Psychological Mechanisms Underlying Obedience"
+ }
+}
