@@ -1,0 +1,48 @@
+{
+ "lessonId": 88,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  436,
+  437,
+  438,
+  439,
+  440
+ ],
+ "fingerprint": "a971160740ba0c465f326d2aa116eaa5a65ff3c5dd017ac7f99b8114e73b3ce9",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "which is why cell-wall synthesis inhibitors like penicillin are ineffective against *Chlamydia*.",
+   "new": "which is part of why cell-wall synthesis inhibitors like penicillin are not used against *Chlamydia* (see the note on chlamydial peptidoglycan below for the rest of the reason)."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Consider endotoxin release... but wait — *S. aureus* is gram-*positive* and lacks LPS.",
+   "new": "Endotoxin release is the reflex answer, but it cannot be right here: *S. aureus* is gram-**positive** and has no LPS at all."
+  },
+  {
+   "field": "lesson.content",
+   "old": "*Chlamydia* is an obligate intracellular pathogen; it also lacks a classic peptidoglycan layer. Penicillin cannot reach the intracellular compartment and has no target even if it could.",
+   "new": "*Chlamydia* is an obligate intracellular pathogen, and penicillin penetrates host cells poorly. Older textbooks add that *Chlamydia* has no peptidoglycan at all; that claim is now out of date and is worth getting right, because it was a famous puzzle. *Chlamydia* carries the genes for peptidoglycan synthesis and is sensitive to drugs that target it, yet for fifty years nobody could detect any peptidoglycan in it — the so-called **chlamydial anomaly**. Newer labelling methods resolved it: pathogenic *Chlamydia* do make peptidoglycan, but instead of the full sacculus that surrounds an ordinary bacterium, they build only a narrow ring at the division septum, used for cell division and otherwise absent. So the accurate statement is that *Chlamydia* lacks a conventional peptidoglycan cell wall, not that it lacks peptidoglycan. Either way the clinical conclusion is the same — beta-lactams are not the treatment."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Liechti et al., “A new metabolic cell-wall labelling method reveals peptidoglycan in Chlamydia trachomatis”, Nature (2013) — peptidoglycan detected, localized mainly to the septum of dividing cells",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3997218"
+  },
+  {
+   "title": "Liechti et al., “Pathogenic Chlamydia Lack a Classical Sacculus but Synthesize a Narrow, Mid-cell Peptidoglycan Ring…”, PLoS Pathogens (2016)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4856321"
+  }
+ ],
+ "visual": {
+  "title": "Five targets, and the four replies",
+  "src": "/lesson-diagrams/five-antibiotic-targets-and-four-replies.svg",
+  "width": 920,
+  "height": 1046,
+  "alt": "A schematic bacterial cell marking the five druggable targets — the peptidoglycan wall, the cell membrane, the 70S ribosomes, DNA gyrase and folate synthesis — each annotated with why the human equivalent differs or is absent; a panel listing the drug classes at each target with the single fact each is tested on; and a panel presenting the four resistance mechanisms as replies: destroy the drug, change the lock, pump it out, and shut the door.",
+  "caption": "Each target is something you do not have — that absence is the entire safety margin, which is why there are so few of them.",
+  "beforeHeading": "## Antibiotic Mechanisms and Targets"
+ }
+}
