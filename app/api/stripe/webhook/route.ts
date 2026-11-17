@@ -1,6 +1,8 @@
 import { findPlan, grantEntitlement, normalizeReferral } from "@/lib/billing";
 import { portalDb } from "@/lib/portal-db";
 import { verifyWebhook } from "@/lib/stripe";
+import { PLANS } from "@/lib/billing";
+import { sendPurchase } from "@/lib/email";
 
 /**
  * Access is granted here and nowhere else.
@@ -55,6 +57,14 @@ export async function POST(request: Request) {
     // A 500 asks Stripe to retry, which is what we want if the database blinked.
     console.error("Entitlement write failed", error);
     return Response.json({ error: "Could not record the purchase." }, { status: 500 });
+  }
+
+  try {
+    const name = PLANS.find(entry => entry.id === plan.id)?.name ?? plan.id;
+    await sendPurchase(email, name, windowDays, new Date(Date.now() + windowDays * 86400000));
+  } catch (error) {
+    // The student has their access; a missing email is not worth a retry storm.
+    console.error("Purchase email failed", error);
   }
 
   return Response.json({ received: true, fulfilled: true });

@@ -80,3 +80,67 @@ The discount only applies where a plan genuinely lists higher than it sells, so
 a code takes $100 off Complete and nothing off Core. That is deliberate. Core's
 list price and its real price are the same number, and discounting from a price
 that was never charged is a fictitious reference price under FTC guidance.
+
+
+---
+
+# Switching on email
+
+Vitalis sends three emails. Stripe sends the payment receipt itself, so that
+one is not rebuilt here.
+
+| When | What it says |
+|---|---|
+| Account created | Welcome, and where to start |
+| Payment succeeds | Which plan, how many days, when it ends |
+| 10 days before access ends | Extend, and that progress is kept |
+
+## 1. Create a Resend account
+
+Go to resend.com and sign up. The free tier is enough to begin with.
+
+## 2. Get an API key
+
+**API Keys** in the sidebar, then **Create API Key**. Copy it; it starts
+`re_`.
+
+## 3. Add two variables in Vercel
+
+| Name | Value |
+|---|---|
+| `RESEND_API_KEY` | the `re_...` key |
+| `CRON_SECRET` | any long random string you invent, 32+ characters |
+
+`CRON_SECRET` stops anyone else from calling the renewal endpoint and mailing
+your students. Make one up, paste it in, and never use it anywhere else.
+
+## 4. Send from your own domain, when you are ready
+
+Until you verify a domain, mail goes out from `onboarding@resend.dev`, which is
+fine for testing but looks like what it is.
+
+To use your own: Resend -> **Domains** -> **Add Domain**, then add the DNS
+records it gives you wherever your domain is registered. Once it verifies, add
+one more variable in Vercel:
+
+| Name | Value |
+|---|---|
+| `EMAIL_FROM` | `Vitalis <hello@yourdomain.com>` |
+
+This matters more than it sounds. Mail from a shared sending address is far
+likelier to land in spam, and a student who never sees the welcome email is a
+student who forgets they signed up.
+
+## 5. Redeploy
+
+Same as before: new variables only take effect on a new deployment.
+
+## Testing it
+
+Sign out, then sign up with an address you can check. The welcome email should
+arrive within a few seconds. If nothing comes, Resend's dashboard has a
+**Logs** page showing every attempt and why it failed.
+
+The renewal email runs daily at 14:00 UTC, which is 9am Eastern. Nothing will
+go out until someone's window is inside 10 days, and each purchase is only ever
+warned once.
