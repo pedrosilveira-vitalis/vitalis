@@ -1,0 +1,43 @@
+{
+ "lessonId": 229,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1141,
+  1142,
+  1143,
+  1144,
+  1145
+ ],
+ "fingerprint": "6114405ba594f62a9fa74b2735b7835fc365cdcb8ebc8af353f049f25c419461",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- **Consistency**: Does this person behave this way across time? (High consistency = dispositional attribution)",
+   "new": "- **Consistency**: Does this person behave this way across time? Consistency does not by itself point in either direction — high consistency is required for both the person and the stimulus attributions, and it is low consistency that signals a one-off circumstance. Read it together with the other two dials rather than on its own."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Laboratory studies by Miller and Ross (1975) showed that when participants were led to believe they had succeeded or failed at a task, success produced more internal attributions and failure produced more external attributions—even when objective performance feedback was held constant.",
+   "new": "The strength of the evidence has been debated. Miller and Ross's influential 1975 review found good support for the *self-enhancing* half of the pattern — taking internal credit for success — but only minimal evidence for the *self-protective* half, and argued that even the success effect might reflect ordinary information processing rather than ego defence: people expect their efforts to succeed, and they see a clearer link between behaviour and outcome when results are improving than when they are uniformly poor. Later reviews, notably Zuckerman's, found self-serving effects for both success and failure across most paradigms and favoured the motivational reading. The exam tests the pattern as stated above; the debate is over its cause, not its existence."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Miller & Ross, “Self-serving biases in the attribution of causality: Fact or fiction?”, Psychological Bulletin (1975) — support for self-enhancing attributions after success, only minimal evidence for self-protective attributions after failure",
+   "url": "https://www.gsb.stanford.edu/faculty-research/publications/self-serving-biases-attribution-causality-fact-or-fiction"
+  },
+  {
+   "title": "OpenStax, Psychology §12.1 — what is social psychology, covering the fundamental attribution error, actor-observer bias, self-serving bias and the just-world hypothesis",
+   "url": "https://openstax.org/books/psychology/pages/12-1-what-is-social-psychology"
+  }
+ ],
+ "visual": {
+  "title": "One grid, four biases",
+  "src": "/lesson-diagrams/attribution-bias-grid-identification-and-remedies.svg",
+  "width": 920,
+  "height": 930,
+  "alt": "A two-by-two grid with my own behaviour and someone else's across the top and good and bad outcomes down the side, each cell carrying the typical quote and whether the attribution is dispositional or situational, with notes showing that the column contrast is the actor-observer bias, the row contrast on the self side is the self-serving bias, the other-person column alone is the fundamental attribution error and swapping self and other for in-group and out-group gives the ultimate attribution error. Alongside, a four-question identification flow and a panel of remedies.",
+  "caption": "All four biases are one grid read along different edges — which is why vignettes are told apart by whose behaviour is described and whether both outcomes appear.",
+  "beforeHeading": "### Reducing Attribution Errors"
+ }
+}
