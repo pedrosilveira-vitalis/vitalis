@@ -1,6 +1,6 @@
 import Link from "next/link";
 import MainNav from "@/components/MainNav";
-import NoriSubject from "@/components/NoriSubject";
+import SubjectTile from "@/components/SubjectTile";
 import { CHEAT_SHEETS, SECTIONS, sheetsFor, unitsFor } from "@/lib/cheatsheets";
 
 export const metadata = { title: "Cheat sheets | Vitalis" };
@@ -31,38 +31,19 @@ export default function CheatSheetsPage() {
           </p>
         </section>
 
-        <section className="px-10 py-12 grid sm:grid-cols-2 gap-6 max-w-5xl">
+        <section className="px-10 py-12 grid sm:grid-cols-2 gap-5 max-w-5xl">
           {SECTIONS.map(section => {
             const published = sheetsFor(section.id).length;
             const total = unitsFor(section.id).length;
             return (
-              <Link
+              <SubjectTile
                 key={section.id}
                 href={`/cheatsheets/${section.id}`}
-                className="group relative overflow-hidden rounded-2xl p-7 pb-6 border-2 transition-transform hover:-translate-y-1"
-                style={{ borderColor: section.accent, background: section.tint }}
-              >
-                <div className="relative z-10 pr-28">
-                  <div
-                    className="font-sans text-[10px] tracking-[0.14em] uppercase mb-2 font-semibold"
-                    style={{ color: section.accent }}
-                  >
-                    {section.short}
-                  </div>
-                  <h2 className="font-sans text-2xl font-medium tracking-tight leading-tight mb-2">
-                    {section.name}
-                  </h2>
-                  <p className="text-[13px] opacity-70 leading-relaxed">{section.blurb}</p>
-                  <div className="mt-5 font-sans text-[11px] tracking-[0.1em] uppercase" style={{ color: section.accent }}>
-                    {`${published} of ${total} ready`} &nbsp;&rarr;
-                  </div>
-                </div>
-                <NoriSubject
-                  prop={section.prop}
-                  accent={section.accent}
-                  className="absolute -right-3 -bottom-3 w-32 opacity-90 pointer-events-none"
-                />
-              </Link>
+                eyebrow={section.short}
+                title={section.name}
+                meta={`${published} of ${total} ready`}
+                art={section.prop}
+              />
             );
           })}
         </section>

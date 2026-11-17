@@ -1,4 +1,5 @@
 import type { Database } from "./portal-store";
+import { isAdmin } from "./engagement";
 
 /**
  * Plan catalogue.
@@ -190,7 +191,10 @@ const EVERYTHING: Capabilities = { questions: true, lessons: true, liveReviews: 
  */
 export async function capabilitiesFor(db: Database, email: string | null | undefined): Promise<Capabilities> {
   if (!email) return LOCKED;
-  if (hasStandingAccess(email)) return EVERYTHING;
+  // An administrator can always see the product. Nobody should have to buy
+  // their own site to look at it, and a separate env var for that is a step
+  // waiting to be forgotten.
+  if (isAdmin(email) || hasStandingAccess(email)) return EVERYTHING;
   try {
     return capabilitiesOf(await entitlementFor(db, email));
   } catch {

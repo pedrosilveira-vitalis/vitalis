@@ -1,5 +1,6 @@
 import { auth } from "@/auth";
 import { entitlementFor, hasStandingAccess } from "@/lib/billing";
+import { isAdmin } from "@/lib/engagement";
 import { portalDb } from "@/lib/portal-db";
 
 const NO_STORE = { headers: { "Cache-Control": "no-store" } };
@@ -9,7 +10,7 @@ export async function GET() {
   const email = session?.user?.email;
   if (!email) return Response.json({ signedIn: false, entitlement: null }, NO_STORE);
 
-  if (hasStandingAccess(email)) {
+  if (isAdmin(email) || hasStandingAccess(email)) {
     return Response.json({ signedIn: true, standing: true, entitlement: { plan: "complete", daysLeft: null } }, NO_STORE);
   }
   try {
