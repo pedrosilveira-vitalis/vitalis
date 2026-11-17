@@ -1,0 +1,39 @@
+{
+ "lessonId": 250,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1246,
+  1247,
+  1248,
+  1249,
+  1250
+ ],
+ "fingerprint": "3226c8b0acb4f2fcaf57b7760092b7af2b8f999fb8ab9793674faabb6bb12bb7",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "The most common measure of internal consistency is the **split-half reliability**, in which the test is divided into two halves and scores on each half are correlated.",
+   "new": "An older approach to the same idea is **split-half reliability**, in which the test is divided into two halves and scores on each half are correlated. Cronbach's alpha superseded it and is now the standard report: alpha is mathematically equivalent to the average of the correlations you would obtain from every possible way of splitting the test in half, which is why it does not depend on the arbitrary choice of where to cut."
+  },
+  {
+   "field": "lesson.content",
+   "old": "- **Placebo effect:** Participants in a control group improve simply because they believe they are receiving treatment. Addressed with **placebo controls** and blinding.",
+   "new": "- **Placebo effect:** Participants in a control group improve simply because they believe they are receiving treatment. Addressed with **placebo controls** and blinding.\n\nThree further threats arise specifically because the control group knows it is the control group, and the exam likes them because they are easy to describe and hard to name:\n\n- **Diffusion of treatment (treatment contamination):** control participants obtain the treatment, or something like it, on their own. If controls in a drug trial hear the experimental drug is promising and seek similar therapy outside the study, the two groups converge and the real effect is understated. Separating the groups physically, or at least in time, is the usual defence.\n\n- **Compensatory rivalry (the John Henry effect):** controls who know what they were denied try harder than they otherwise would, again narrowing the gap.\n\n- **Resentful demoralization:** the opposite reaction — controls become discouraged and perform worse than their true baseline, which flatters the treatment group and overstates the effect.\n\nNotice that the first two bias the result toward the null while the third biases it away, so naming which one a passage describes tells you the direction of the error."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Cronbach, “Coefficient alpha and the internal structure of tests”, Psychometrika (1951) — alpha is the mean of all split-half coefficients obtainable from different splittings of a test",
+   "url": "https://doi.org/10.1007/BF02310555"
+  }
+ ],
+ "visual": {
+  "title": "Reliable, valid, or neither",
+  "src": "/lesson-diagrams/reliable-valid-or-neither.svg",
+  "width": 920,
+  "height": 1000,
+  "alt": "Four target diagrams showing shots that are tightly clustered off-centre (reliable but not valid), scattered around the bullseye (accurate on average but unreliable), scattered off-centre (neither), and tightly clustered on the bullseye (both); a panel of the four reliability types with the statistic each uses, correlation, Cohen's kappa, Cronbach's alpha and parallel-form correlation; and a panel of internal-validity threats including the three that arise because the control group knows it is a control group.",
+  "caption": "A scale that reads ten pounds heavy every time is perfectly reliable and completely invalid.",
+  "beforeHeading": "### Types of Reliability"
+ }
+}
