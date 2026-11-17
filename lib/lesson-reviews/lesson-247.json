@@ -1,0 +1,39 @@
+{
+ "lessonId": 247,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1231,
+  1232,
+  1233,
+  1234,
+  1235
+ ],
+ "fingerprint": "aaf11cea3d82576c7571a1bde2bbd4f0e5ac9c4dd56dce8fa60f99c99b8e7f32",
+ "patches": [
+  {
+   "field": "questions.1233.question_text",
+   "old": "A scientist hypothesizes that a new drug lowers blood pressure. She designs a study but cannot ethically randomly assign participants to receive no treatment. Instead, she compares patients who chose to take the drug with those who chose not to. Which study design is this?",
+   "new": "A scientist hypothesizes that a new drug lowers blood pressure. Randomly assigning patients to go untreated is not ethically acceptable, so she arranges for every patient at one clinic to receive the drug and every patient at a second, demographically similar clinic to receive usual care, then compares blood pressure in the two groups after six months. Which study design is this?"
+  },
+  {
+   "field": "questions.1233.explanation",
+   "old": "A quasi-experimental design involves manipulation of an independent variable but lacks random assignment, which is exactly the case here since participants self-selected into groups. A randomized controlled trial requires random assignment. A prospective cohort study is observational with no manipulation of the independent variable. The absence of random assignment is the defining feature that separates quasi-experimental from true experimental designs.",
+   "new": "A quasi-experimental design involves manipulation of an independent variable but lacks random assignment. Here the researcher does determine who receives the drug — that is manipulation — but assignment follows which clinic a patient already attends rather than a random process, which makes this the nonequivalent control group design. A randomized controlled trial requires random assignment, so A is out. A prospective cohort study (D) is purely observational: the researcher records an exposure that arose on its own and never decides who is exposed, which is not what happens here. Note the general rule, because the exam leans on it: if the researcher assigns the exposure, the study is experimental or quasi-experimental depending on whether that assignment was random; if the researcher only watches, it is observational, however carefully the groups are compared."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Reeves et al., “A synthesis of the literature on the terminology and methods of quasi-experimental study designs” (PMC) — on the ambiguity between quasi-experimental and observational labels and how assignment resolves it",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5669452"
+  }
+ ],
+ "visual": {
+  "title": "Naming a study design, and the two validities",
+  "src": "/lesson-diagrams/naming-a-study-design-and-the-two-validities.svg",
+  "width": 920,
+  "height": 1010,
+  "alt": "A decision tree that asks first whether the researcher assigned the exposure — yes leads to true experiment if assignment was random and quasi-experiment if not, no leads to the three observational designs sorted by where the study starts in time; a panel giving what each observational design can compute, odds ratio for case-control, relative risk and incidence for cohort, prevalence for cross-sectional; and a panel contrasting internal validity with its seven named threats against external validity with its population and ecological forms.",
+  "caption": "Random sampling buys external validity; random assignment buys internal validity. Only the second licenses a causal claim.",
+  "beforeHeading": "## Experimental Study Designs"
+ }
+}
