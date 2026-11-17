@@ -1,0 +1,39 @@
+{
+ "lessonId": 244,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1216,
+  1217,
+  1218,
+  1219,
+  1220
+ ],
+ "fingerprint": "0a31a229a2826c54514104b772f6d530faf507a9008fd255d51ed17dfef200da",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "- Adults in the lowest income quintile have a life expectancy approximately 10-15 years shorter than adults in the highest income quintile.",
+   "new": "- The most-cited figures come from Chetty and colleagues' analysis of US tax and mortality records: at age 40, the gap in life expectancy between the **richest and poorest one per cent** was **14.6 years for men and 10.1 years for women**. Note that these are the extremes of the distribution; the gap between the top and bottom *quintiles* is real but smaller, so be careful not to quote the one-per-cent figure for a quintile comparison."
+  },
+  {
+   "field": "lesson.content",
+   "old": "Fundamental cause theory has important implications for intervention: addressing only proximal risk factors (diet, exercise, smoking) without addressing underlying social conditions will not eliminate disparities.",
+   "new": "Fundamental cause theory has important implications for intervention: addressing only proximal risk factors (diet, exercise, smoking) without addressing underlying social conditions will not eliminate disparities. A related observation is Julian Tudor Hart's **inverse care law**: the availability of good medical care tends to vary inversely with the need for it in the population served, so the communities with the greatest need are supplied with the least care.\n\n### Inequality Itself as a Determinant\n\nA distinct claim, associated with Richard Wilkinson and Kate Pickett, is that the **degree of income inequality within a society** affects population health *over and above* average income. Comparing rich countries, and comparing US states, they report that more unequal places show lower life expectancy, higher infant mortality, more mental illness, more violence and lower social trust — and that these costs are not confined to the poorest group but are detectable across the distribution.\n\nThe proposed mechanisms are psychosocial: steeper hierarchies intensify status anxiety and invidious comparison, erode social cohesion and trust, and weaken political support for public goods such as schools, transport and health services.\n\nTreat this as a contested but examinable claim. Critics argue that the correlations are sensitive to which countries are included and that they may reflect the ordinary individual-level income gradient aggregated upward rather than a separate effect of inequality itself. The exam tests the hypothesis and its proposed mechanisms; it does not require you to adjudicate the dispute."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Chetty et al., “The Association Between Income and Life Expectancy in the United States, 2001–2014”, JAMA (2016) — a 14.6-year gap for men and 10.1 for women between the richest and poorest one per cent",
+   "url": "https://sites.bu.edu/geriatricsfellowship/files/2016/05/Income-and-life-expectancy.pdf"
+  }
+ ],
+ "visual": {
+  "title": "Four pathways, the gradient, and the fundamental cause",
+  "src": "/lesson-diagrams/four-pathways-gradient-and-fundamental-cause.svg",
+  "width": 920,
+  "height": 968,
+  "alt": "Four cards for the material, psychosocial, behavioural and access pathways from social position to disease, with the note that behaviour is downstream of the first two; a plotted health gradient falling steadily from poorest to richest with the point that a poverty threshold cannot explain it; a panel showing how a new health technology is taken up first by higher socioeconomic groups so the gap reappears around it, illustrating Link and Phelan's fundamental cause theory; and a panel of the key figures including the 14.6 and 10.1 year life expectancy gaps and the Hispanic paradox.",
+  "caption": "Behaviour is a real pathway but a downstream one — which is why an answer that stops at individual choices is usually the wrong one.",
+  "beforeHeading": "## Access to Health Care as a Social Determinant"
+ }
+}
