@@ -1,0 +1,39 @@
+{
+ "lessonId": 231,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1151,
+  1152,
+  1153,
+  1154,
+  1155
+ ],
+ "fingerprint": "1349ddfad739659131546a4660b2ee8a0ec4425855be33ef038ba20a0d552cb6",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Conformity should be distinguished from two related concepts:",
+   "new": "Conformity should be distinguished from three related concepts:"
+  },
+  {
+   "field": "lesson.content",
+   "old": "Replications of Asch's paradigm in countries such as Japan, China, and Fiji have produced conformity rates higher than those found in the United States. However, conformity exists in all cultures — the baseline level differs, not the phenomenon itself.",
+   "new": "The evidence comes mainly from Bond and Smith's meta-analysis of 133 Asch-type studies across 17 countries, which found conformity significantly higher the more collectivist the country: the largest effects came from Fiji, Hong Kong and Japan, the smallest from individualist countries such as the United States, Britain and France. Two caveats are worth carrying into an exam. First, conformity in US studies has *declined* since the 1950s, so Asch's 32% is a figure from its era rather than a constant. Second, the Japanese result is contested — several direct replications, including Takano and Sogon's, found no elevated conformity among Japanese participants, which suggests that what matters is the relationship between the participant and the particular group rather than nationality as such. Conformity exists in all cultures; the baseline level differs, not the phenomenon itself."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Bond & Smith, “Culture and conformity: A meta-analysis of studies using Asch's line judgment task”, Psychological Bulletin (1996) — 133 studies from 17 countries; collectivist countries showed higher conformity, and US conformity declined over time",
+   "url": "https://d-r-b-o-b.github.io/teaching/web_PSY333/Week_12/Ashe_meta.pdf"
+  }
+ ],
+ "visual": {
+  "title": "Normative against informational, and what Asch varied",
+  "src": "/lesson-diagrams/normative-versus-informational-asch-variations-and-levels.svg",
+  "width": 920,
+  "height": 972,
+  "alt": "Two panels contrasting normative influence, which operates in clear situations, needs an audience and leaves private belief unchanged, with informational influence, which operates in ambiguous situations and changes belief, anchored to Asch's line task and Sherif's autokinetic task. Below, four cards for Asch's variations in group size, one ally, written responses and harder lines with the result of each; then panels for the compliance, identification and internalisation levels of change, and for minority influence and groupthink.",
+  "caption": "Asch's lines were unambiguous and Sherif's dot was not — which is exactly why one experiment isolates normative influence and the other informational.",
+  "beforeHeading": "## Factors That Increase Conformity"
+ }
+}
