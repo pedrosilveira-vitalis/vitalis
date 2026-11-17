@@ -1,0 +1,39 @@
+{
+ "lessonId": 241,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1201,
+  1202,
+  1203,
+  1204,
+  1205
+ ],
+ "fingerprint": "40678aeed1b7c6b34f9946359e162f938f900cad458f028b8c0c74f7fab7242b",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "women earn approximately 82 cents for every dollar earned by men (as of recent data), though this figure varies substantially by race, occupation, and education level.",
+   "new": "the figure depends on which workers are counted, so identify the measure before comparing numbers. On the most recent Census data, women working **full time, year round** earned about **84 cents** for every dollar earned by men, while across **all workers** — including part-time and part-year — the figure is about **78 cents**. The gap also varies substantially by race, occupation and education: measured against white men, Black and Hispanic women's earnings ratios are far lower than the headline figure."
+  },
+  {
+   "field": "lesson.content",
+   "old": "(~82 cents on the dollar in the U.S.)",
+   "new": "(about 84 cents on the dollar for full-time year-round workers in the U.S., about 78 cents across all workers; always check which measure a figure uses)"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Center for American Progress analysis of Census Bureau annual income data — 84 cents per dollar for women working full time, year round, and 78 cents across all workers",
+   "url": "https://www.americanprogress.org/article/amid-rising-costs-the-gender-wage-gap-deepens-affordability-challenges-for-women/"
+  }
+ ],
+ "visual": {
+  "title": "Decomposing the gap, and the barriers above it",
+  "src": "/lesson-diagrams/pay-gap-mechanisms-vertical-barriers-and-frameworks.svg",
+  "width": 920,
+  "height": 946,
+  "alt": "A reminder to check whether a pay-gap figure counts full-time year-round workers or all workers, followed by four cards for occupational segregation, devaluation, the motherhood penalty against the fatherhood bonus, and the within-job gap. Below, a panel of vertical barriers covering the glass ceiling, glass escalator, sticky floor and double bind, and a panel naming the sex-gender distinction, performativity, patriarchy, intersectionality, minority stress and medicalization.",
+  "caption": "If sorting into occupations explained the whole gap, the within-occupation gap would be zero — and it is not.",
+  "beforeHeading": "### The Glass Ceiling and Glass Escalator"
+ }
+}
