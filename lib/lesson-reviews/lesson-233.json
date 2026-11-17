@@ -1,0 +1,39 @@
+{
+ "lessonId": 233,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1161,
+  1162,
+  1163,
+  1164,
+  1165
+ ],
+ "fingerprint": "3e098dd0f4976dcc6f9b934e042c503ae108c30e0b5f888eff77c029ad7e4926",
+ "patches": [
+  {
+   "field": "questions.1161.question_text",
+   "old": "A novice pianist performs a simple scale flawlessly when alone but makes several errors when playing in front of an audience.",
+   "new": "A beginning pianist is working on a piece she learned only last week. She can play it accurately when practising alone, but makes several errors when playing it in front of an audience."
+  },
+  {
+   "field": "lesson.content",
+   "old": "This explains why an expert pianist performs better in concert than in private rehearsal, while a beginner pianist performs worse in front of an audience. The mechanism is not social comparison or evaluation — it is the automatic arousal triggered by the presence of others.",
+   "new": "This explains why an expert pianist performs better in concert than in private rehearsal, while a beginner pianist performs worse in front of an audience. The mechanism is not social comparison or evaluation — it is the automatic arousal triggered by the presence of others.\n\n**A point the exam likes to turn on:** \"simple\" and \"complex\" here are defined *relative to the performer*, not by the task itself. The same laparoscopic procedure is a well-practised task for the attending surgeon and a novel one for the intern, so the identical audience improves one performance and degrades the other. When a question describes a task, do not ask whether it sounds easy — ask whether this particular person has made the correct response their dominant one."
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §12.4 — conformity, compliance and obedience, covering groupthink, group polarization and social facilitation and loafing",
+   "url": "https://openstax.org/books/psychology/pages/12-4-conformity-compliance-and-obedience"
+  }
+ ],
+ "visual": {
+  "title": "The crossover, and the two sorting questions",
+  "src": "/lesson-diagrams/social-facilitation-crossover-loafing-and-group-decisions.svg",
+  "width": 920,
+  "height": 948,
+  "alt": "An audience raising arousal and branching two ways: when the task is well practised for this performer the dominant response is correct and performance improves, and when it is not yet learned the dominant response is an error and performance worsens. Below, a panel sorting social facilitation from social loafing by whether the task is your own and your share is visible, with the Ringelmann figures; and a panel contrasting groupthink, where debate is suppressed, with group polarization, where debate drives the shift.",
+  "caption": "Simple and complex are defined relative to the performer: the same audience helps the attending and hurts the intern on the very same procedure.",
+  "beforeHeading": "## Social Loafing"
+ }
+}
