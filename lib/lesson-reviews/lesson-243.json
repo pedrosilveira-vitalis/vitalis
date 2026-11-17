@@ -1,0 +1,34 @@
+{
+ "lessonId": 243,
+ "reviewedAt": "2026-11-17",
+ "questionIds": [
+  1211,
+  1212,
+  1213,
+  1214,
+  1215
+ ],
+ "fingerprint": "2cc24144b0c1fc1887581c6d66a9b01eb20ab1883877549fa9c393bdff60b418",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "**Symbolic interactionists** examine how religious meaning is constructed in interaction",
+   "new": "### Civil Religion\n\nOne influential extension of Durkheim deserves its own name. **Robert Bellah** argued that modern societies develop a **civil religion** — a set of secular beliefs, symbols and rituals that performs the integrative work Durkheim attributed to religion proper, without reference to any particular faith. National holidays, flags and anthems, founding documents treated as sacred texts, oaths, memorials and the veneration of national founders all function in this way: they set certain objects and occasions apart from ordinary life, generate collective effervescence, and bind strangers into a moral community.\n\nThe concept matters because it shows that Durkheim's analysis was never really about gods. It was about the social work that the distinction between sacred and profane performs — work that secular ritual can do just as well. A question describing a stadium singing an anthem, or a civic ceremony producing intense solidarity, is pointing at civil religion rather than at secularization.\n\n**Symbolic interactionists** examine how religious meaning is constructed in interaction"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Introduction to Sociology 3e §15.1 — the sociological approach to religion, covering Durkheim's sacred and profane and the functions of religion",
+   "url": "https://openstax.org/books/introduction-sociology-3e/pages/15-1-the-sociological-approach-to-religion"
+  }
+ ],
+ "visual": {
+  "title": "Three institutions by three frameworks",
+  "src": "/lesson-diagrams/three-institutions-three-frameworks-and-health.svg",
+  "width": 920,
+  "height": 960,
+  "alt": "A three-by-three grid reading family, education and religion through functionalist, conflict and symbolic interactionist lenses, with a note that Bellah's civil religion applies the religious reading to secular ritual; a panel ordering ecclesia, denomination, sect and new religious movement by tension with surrounding society; and a panel of the health associations for education, marriage and family, and religious attendance, including the ways religion can impede care.",
+  "caption": "A passage rarely asks which institution is involved — it asks which of the three readings of it the author has taken.",
+  "beforeHeading": "### Religious Organizations"
+ }
+}
