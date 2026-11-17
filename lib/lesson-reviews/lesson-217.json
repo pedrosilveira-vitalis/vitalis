@@ -1,0 +1,39 @@
+{
+ "lessonId": 217,
+ "reviewedAt": "2026-11-16",
+ "questionIds": [
+  1081,
+  1082,
+  1083,
+  1084,
+  1085
+ ],
+ "fingerprint": "aeb5f597809e913f06545e10da1d3bd22a9dfc9816966dc68cf10631178bb4a3",
+ "patches": [
+  {
+   "field": "lesson.content",
+   "old": "Conditions of worth force the child to distort their self-concept to match external expectations, creating incongruence between the real self and the ideal self.",
+   "new": "Conditions of worth force the child to distort their self-concept to match external expectations, creating incongruence between the real self and the ideal self.\n\nRogers described a second, more fundamental form of incongruence, and it is the one his theory actually rests on. Every person has an **organismic valuing process**: an innate, pre-verbal capacity to evaluate experiences by whether they genuinely further the person's own growth — what feels right, what feels wrong, what one actually wants. Conditions of worth teach the child to override that internal compass and judge experiences by whether they will earn approval instead. The result is a split between the **self-concept** (built from other people's conditions) and the **organismic valuing process** (what the person actually experiences and values). A person in this state can no longer tell what they want from what they are supposed to want; they defer, seek reassurance, and lose access to their own preferences. The real-self/ideal-self gap is the visible symptom; the self-concept drifting away from organismic experience is the underlying fault."
+  },
+  {
+   "field": "questions.1082.choice_b",
+   "old": "Actual self and ideal self",
+   "new": "Conscious and preconscious levels of awareness"
+  }
+ ],
+ "sources": [
+  {
+   "title": "OpenStax, Psychology §11.7 — trait theorists and the surrounding personality chapter, covering the psychodynamic, humanistic and social-cognitive frameworks",
+   "url": "https://openstax.org/books/psychology/pages/11-7-trait-theorists"
+  }
+ ],
+ "visual": {
+  "title": "The three frameworks, Rogers' chain and Bandura's loop",
+  "src": "/lesson-diagrams/three-personality-frameworks-rogers-and-bandura.svg",
+  "width": 920,
+  "height": 916,
+  "alt": "Three cards comparing the psychodynamic, humanistic and social-cognitive frameworks on what drives behaviour, their view of human nature and their testability; a four-step chain from conditional regard through conditions of worth and a distorting self-concept to incongruence, with the therapeutic conditions that reverse it; a two-column table pairing the defence mechanisms students confuse; and Bandura's reciprocal triangle of person, behaviour and environment with the four sources of self-efficacy in order of strength.",
+  "caption": "Rogers runs in one direction: conditions come first, the self-concept bends to fit them, and the gap that opens is the distress.",
+  "beforeHeading": "#### Conditions of Worth and Unconditional Positive Regard"
+ }
+}
