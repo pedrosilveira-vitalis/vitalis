@@ -44,7 +44,7 @@ export default function PeriodicTable({ onClose }: { onClose: () => void }) {
       <div className="exam-window-head">
         <h2>Periodic Table of the Elements</h2>
         <button type="button" onClick={onClose} className="exam-window-close">
-          Close <span className="exam-key">Alt+C</span>
+          Close
         </button>
       </div>
       <div className="exam-window-body">

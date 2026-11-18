@@ -95,6 +95,12 @@ export default function ExamRunner({ examId }: { examId: string }) {
   const dirty = useRef(false);
   const landed = useRef<number>(Date.now());
   const passagePane = useRef<HTMLElement | null>(null);
+  const bodyPane = useRef<HTMLElement | null>(null);
+  // How much of the width the passage takes. The real interface lets this be
+  // dragged, and people read very differently - some want the passage wide,
+  // some want the choices wide.
+  const [split, setSplit] = useState(50);
+  const dragging = useRef(false);
 
   const questions = view?.content?.questions ?? [];
   const question = questions[index];
@@ -218,6 +224,38 @@ export default function ExamRunner({ examId }: { examId: string }) {
   useEffect(() => {
     if (passagePane.current) passagePane.current.scrollTop = 0;
   }, [index]);
+
+  useEffect(() => {
+    try {
+      const saved = Number(window.localStorage.getItem("vitalis.exam.split"));
+      if (Number.isFinite(saved) && saved >= 25 && saved <= 75) setSplit(saved);
+    } catch { /* private mode */ }
+  }, []);
+
+  const moveDivider = useCallback((clientX: number) => {
+    const pane = bodyPane.current;
+    if (!pane) return;
+    const box = pane.getBoundingClientRect();
+    if (box.width <= 0) return;
+    const percent = Math.min(75, Math.max(25, ((clientX - box.left) / box.width) * 100));
+    setSplit(percent);
+  }, []);
+
+  useEffect(() => {
+    const onMove = (event: PointerEvent) => { if (dragging.current) moveDivider(event.clientX); };
+    const onUp = () => {
+      if (!dragging.current) return;
+      dragging.current = false;
+      document.body.classList.remove("exam-dragging");
+      try { window.localStorage.setItem("vitalis.exam.split", String(Math.round(split))); } catch { /* private mode */ }
+    };
+    window.addEventListener("pointermove", onMove);
+    window.addEventListener("pointerup", onUp);
+    return () => {
+      window.removeEventListener("pointermove", onMove);
+      window.removeEventListener("pointerup", onUp);
+    };
+  }, [moveDivider, split]);
 
   /* ---------------- answering ---------------- */
 
@@ -434,15 +472,15 @@ export default function ExamRunner({ examId }: { examId: string }) {
           </p>
 
           <div className="exam-review-tabs">
-            {([["all", "Review all", "Alt+A"], ["incomplete", "Review incomplete", "Alt+I"], ["flagged", "Review flagged", "Alt+R"]] as const).map(
-              ([value, label, hint]) => (
+            {([["all", "Review all"], ["incomplete", "Review incomplete"], ["flagged", "Review flagged"]] as const).map(
+              ([value, label]) => (
                 <button
                   key={value}
                   type="button"
                   className={filter === value ? "exam-tab is-on" : "exam-tab"}
                   onClick={() => setFilter(value)}
                 >
-                  {label} <span className="exam-key">{hint}</span>
+                  {label}
                 </button>
               ),
             )}
@@ -476,7 +514,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
               Back to the section
             </button>
             <button type="button" className="exam-primary" onClick={() => setConfirmEnd(true)}>
-              End this section <span className="exam-key">Alt+E</span>
+              End this section
             </button>
           </div>
         </div>
@@ -534,17 +572,17 @@ export default function ExamRunner({ examId }: { examId: string }) {
         {/* Upper-left, always visible, as on the real exam. */}
         <div className="exam-tools">
           <button type="button" className="exam-chip" onClick={() => tool("highlight")} title="Select text first">
-            Highlight <span className="exam-key">Alt+H</span>
+            Highlight
           </button>
           <button type="button" className="exam-chip" onClick={() => tool("strike")} title="Select text first">
-            Strikethrough <span className="exam-key">Alt+S</span>
+            Strikethrough
           </button>
         </div>
 
         <div className="exam-bar-right">
           {section.periodicTable && (
             <button type="button" className="exam-chip" onClick={() => setTableOpen(true)}>
-              Periodic table <span className="exam-key">Alt+T</span>
+              Periodic table
             </button>
           )}
           <select
@@ -567,7 +605,11 @@ export default function ExamRunner({ examId }: { examId: string }) {
         </div>
       </header>
 
-      <main className={passage ? "exam-body has-passage" : "exam-body"}>
+      <main
+        className={passage ? "exam-body has-passage" : "exam-body"}
+        ref={bodyPane}
+        style={passage ? ({ "--exam-split": `${split}%` } as React.CSSProperties) : undefined}
+      >
         {passage && (
           <section className="exam-passage" aria-label="Passage" ref={passagePane}>
             <h2>{passage.title}</h2>
@@ -586,6 +628,32 @@ export default function ExamRunner({ examId }: { examId: string }) {
               </figure>
             )}
           </section>
+        )}
+
+        {passage && (
+          <div
+            className="exam-divider"
+            role="separator"
+            aria-orientation="vertical"
+            aria-label="Drag to resize the passage"
+            aria-valuenow={Math.round(split)}
+            aria-valuemin={25}
+            aria-valuemax={75}
+            tabIndex={0}
+            onPointerDown={event => {
+              dragging.current = true;
+              document.body.classList.add("exam-dragging");
+              event.preventDefault();
+            }}
+            onDoubleClick={() => setSplit(50)}
+            onKeyDown={event => {
+              if (event.key === "ArrowLeft") setSplit(current => Math.max(25, current - 2));
+              if (event.key === "ArrowRight") setSplit(current => Math.min(75, current + 2));
+              if (event.key === "Home") setSplit(50);
+            }}
+          >
+            <span aria-hidden="true" />
+          </div>
         )}
 
         <section className="exam-question" aria-label="Question">
@@ -623,10 +691,10 @@ export default function ExamRunner({ examId }: { examId: string }) {
       <footer className="exam-foot">
         <div className="exam-foot-left">
           <button type="button" className="exam-chip" onClick={() => setNavOpen(true)}>
-            Navigator <span className="exam-key">Alt+V</span>
+            Navigator
           </button>
           <button type="button" className={question && flagged.has(question.id) ? "exam-chip is-flagged" : "exam-chip"} onClick={toggleFlag}>
-            {question && flagged.has(question.id) ? "Unflag" : "Flag for review"} <span className="exam-key">Alt+F</span>
+            {question && flagged.has(question.id) ? "Unflag" : "Flag for review"}
           </button>
           <span className="exam-progress">
             {answeredCount} of {questions.length} answered
@@ -634,7 +702,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
         </div>
         <div className="exam-foot-right">
           <button type="button" className="exam-secondary" onClick={() => go(index - 1)} disabled={index === 0}>
-            Previous <span className="exam-key">Alt+P</span>
+            Previous
           </button>
           <button
             type="button"
@@ -643,7 +711,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
               if (index === questions.length - 1) { stamp(); setMode("review"); } else { go(index + 1); }
             }}
           >
-            {index === questions.length - 1 ? "Review the section" : "Next"} <span className="exam-key">Alt+N</span>
+            {index === questions.length - 1 ? "Review the section" : "Next"}
           </button>
         </div>
       </footer>
@@ -653,7 +721,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
           <div className="exam-window-head">
             <h2>Navigator</h2>
             <button type="button" className="exam-window-close" onClick={() => setNavOpen(false)}>
-              Close <span className="exam-key">Alt+C</span>
+              Close
             </button>
           </div>
           <div className="exam-window-body">
