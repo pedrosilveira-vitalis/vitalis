@@ -2,10 +2,9 @@ import { auth } from "@/auth";
 import { capabilitiesFor } from "@/lib/billing";
 import { portalDb } from "@/lib/portal-db";
 import { SECTIONS } from "@/lib/exams/blueprint";
-import { EXAMS, examProgress } from "@/lib/exams/registry";
+import { EXAMS, examProgress, loadExam } from "@/lib/exams/registry";
 import { finishedAttempts, liveAttempt } from "@/lib/exams/store";
 import { buildReport } from "@/lib/exams/score";
-import { loadExam } from "@/lib/exams/registry";
 
 const NO_STORE = { headers: { "Cache-Control": "no-store" } };
 

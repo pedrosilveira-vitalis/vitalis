@@ -7,9 +7,12 @@ import StudyIcon from "@/components/StudyIcon";
 
 type Progress = { id: string; short: string; written: number; needed: number };
 type Exam = { id: string; name: string; number: number; blurb: string; ready: boolean; written: number; needed: number; progress: Progress[] };
-type Attempt =
-  | { status: "live"; examId: string; attemptId: string; startedAt: string; sectionIndex: number }
-  | { status: "scored"; examId: string; attemptId: string; finishedAt: string; total: number; low: number; high: number; sections: { short: string; scaled: number }[] };
+type LiveAttempt = { status: "live"; examId: string; attemptId: string; startedAt: string; sectionIndex: number };
+type ScoredAttempt = { status: "scored"; examId: string; attemptId: string; finishedAt: string; total: number; low: number; high: number; sections: { short: string; scaled: number }[] };
+type Attempt = LiveAttempt | ScoredAttempt;
+
+const isLive = (item: Attempt): item is LiveAttempt => item.status === "live";
+const isScored = (item: Attempt): item is ScoredAttempt => item.status === "scored";
 
 export default function ExamsPage() {
   const [data, setData] = useState<{ signedIn: boolean; allowed: boolean; exams: Exam[]; attempts: Attempt[] } | null>(null);
@@ -39,8 +42,9 @@ export default function ExamsPage() {
 
         <div className="exam-cards">
           {(data?.exams ?? []).map(exam => {
-            const live = data?.attempts.find(item => item.examId === exam.id && item.status === "live");
-            const scored = (data?.attempts ?? []).filter(item => item.examId === exam.id && item.status === "scored");
+            const mine = (data?.attempts ?? []).filter(item => item.examId === exam.id);
+            const live = mine.filter(isLive)[0];
+            const scored = mine.filter(isScored);
             return (
               <article key={exam.id} className="exam-card">
                 <div className="exam-card-head">
@@ -70,19 +74,17 @@ export default function ExamsPage() {
 
                 {scored.length > 0 && (
                   <ul className="exam-card-scores">
-                    {scored.map(attempt =>
-                      attempt.status === "scored" ? (
-                        <li key={attempt.attemptId}>
-                          <Link href={`/exams/${exam.id}/score/${attempt.attemptId}`}>
-                            <strong>{attempt.total}</strong>
-                            <span>
-                              estimated, {attempt.low}&ndash;{attempt.high}
-                            </span>
-                            <small>{new Date(attempt.finishedAt).toLocaleDateString()}</small>
-                          </Link>
-                        </li>
-                      ) : null,
-                    )}
+                    {scored.map(attempt => (
+                      <li key={attempt.attemptId}>
+                        <Link href={`/exams/${exam.id}/score/${attempt.attemptId}`}>
+                          <strong>{attempt.total}</strong>
+                          <span>
+                            estimated, {attempt.low}&ndash;{attempt.high}
+                          </span>
+                          <small>{new Date(attempt.finishedAt).toLocaleDateString()}</small>
+                        </Link>
+                      </li>
+                    ))}
                   </ul>
                 )}
 

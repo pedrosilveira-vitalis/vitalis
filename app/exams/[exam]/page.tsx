@@ -14,9 +14,9 @@ type Exam = { id: string; name: string; number: number; blurb: string; ready: bo
  * makes the student commit before anything is timed.
  */
 export default function ExamStartPage() {
-  const params = useParams<{ exam: string }>();
+  const params = useParams();
   const router = useRouter();
-  const examId = params.exam;
+  const examId = (params.exam as string) || "";
   const [data, setData] = useState<{ signedIn: boolean; allowed: boolean; exams: Exam[] } | null>(null);
   const [starting, setStarting] = useState(false);
   const [error, setError] = useState("");

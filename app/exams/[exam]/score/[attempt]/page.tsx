@@ -39,14 +39,15 @@ function minutes(seconds: number) {
 }
 
 export default function ScoreReportPage() {
-  const params = useParams<{ exam: string; attempt: string }>();
+  const params = useParams();
+  const attemptId = (params.attempt as string) || "";
   const [data, setData] = useState<{ report: Report; verdict: string } | null>(null);
   const [error, setError] = useState("");
   const [openSection, setOpenSection] = useState<string>("all");
 
   useEffect(() => {
     let live = true;
-    fetch(`/api/exams/report?attempt=${encodeURIComponent(params.attempt)}`)
+    fetch(`/api/exams/report?attempt=${encodeURIComponent(attemptId)}`)
       .then(async response => {
         const payload = await response.json();
         if (!live) return;
@@ -55,7 +56,7 @@ export default function ScoreReportPage() {
       })
       .catch(() => { if (live) setError("Could not load your report."); });
     return () => { live = false; };
-  }, [params.attempt]);
+  }, [attemptId]);
 
   if (error) {
     return (

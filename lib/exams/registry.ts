@@ -52,14 +52,22 @@ export function examSummary(id: string): ExamSummary | undefined {
 type SectionFile = { passages: ExamSection["passages"]; questions: ExamQuestion[] };
 
 /**
- * Content files are added one section at a time as they are written, so a
- * missing file is an expected state rather than an error: the exam simply is
- * not ready yet.
+ * Written content, one entry per finished section.
+ *
+ * The specifiers are literals rather than a template so the bundler can
+ * resolve and split them; a section that is not listed here has not been
+ * written yet, which is a normal state while a form is in progress rather
+ * than an error.
  */
+const CONTENT: Record<string, () => Promise<SectionFile>> = {
+  // "fl1/chem-phys": () => import("./content/fl1/chem-phys.json").then(file => file.default as SectionFile),
+};
+
 async function sectionFile(examId: string, sectionId: ExamSectionId): Promise<SectionFile | null> {
+  const load = CONTENT[`${examId}/${sectionId}`];
+  if (!load) return null;
   try {
-    const loaded = await import(`./content/${examId}/${sectionId}.json`);
-    const data = (loaded.default ?? loaded) as SectionFile;
+    const data = await load();
     if (!Array.isArray(data?.questions) || !data.questions.length) return null;
     return data;
   } catch {
