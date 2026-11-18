@@ -4,6 +4,7 @@ import { readdirSync, readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { CONTENT_CATEGORIES, SECTIONS, SKILLS } from "../lib/exams/blueprint";
 import { UNITS } from "../lib/cheatsheets";
+import { DIFFICULTY_MIX, SPECS, TOLERANCE, conceptOf } from "../lib/exams/spec";
 
 /**
  * Structural checks on every written exam section.
@@ -152,6 +153,76 @@ test("the answer key is spread across all four letters", () => {
     for (const letter of LETTERS) {
       const share = data.questions.filter(question => question.correct === letter).length / data.questions.length;
       assert.ok(share >= 0.15 && share <= 0.35, `${exam}/${section}: ${letter} is the key ${Math.round(share * 100)}% of the time`);
+    }
+  }
+});
+
+/* ------------------------------------------------------------------ *
+ * Blueprint accuracy
+ *
+ * These fire only once a section is complete, because a half-written
+ * section is legitimately lopsided. They are what let us say the forms are
+ * built to the AAMC's published weighting rather than to our own taste.
+ * ------------------------------------------------------------------ */
+
+test("a finished section matches the AAMC's published distribution", () => {
+  for (const { exam, section, data } of files()) {
+    const spec = SPECS[section as keyof typeof SPECS];
+    const blueprint = SECTIONS.find(item => item.id === section);
+    if (!spec || !blueprint || data.questions.length !== blueprint.questions) continue;
+    const total = data.questions.length;
+    const share = (count: number) => count / total;
+
+    for (const [concept, target] of Object.entries(spec.foundationalConcepts)) {
+      const actual = share(data.questions.filter(question => conceptOf(question.category) === concept).length);
+      assert.ok(
+        Math.abs(actual - target) <= TOLERANCE,
+        `${exam}/${section}: foundational concept ${concept} is ${Math.round(actual * 100)}% but should be about ${Math.round(target * 100)}%`,
+      );
+    }
+
+    for (const [skill, target] of Object.entries(spec.skills)) {
+      const actual = share(data.questions.filter(question => question.skill === skill).length);
+      assert.ok(
+        Math.abs(actual - (target as number)) <= TOLERANCE,
+        `${exam}/${section}: ${skill} is ${Math.round(actual * 100)}% but should be about ${Math.round((target as number) * 100)}%`,
+      );
+    }
+
+    // Not stacked toward hard: that is the single most common defect in
+    // third-party forms, and it makes the score estimate pessimistic.
+    for (const [level, target] of Object.entries(DIFFICULTY_MIX)) {
+      const actual = share(data.questions.filter(question => question.difficulty === level).length);
+      assert.ok(
+        Math.abs(actual - target) <= TOLERANCE + 0.04,
+        `${exam}/${section}: ${level} questions are ${Math.round(actual * 100)}% but should be about ${Math.round(target * 100)}%`,
+      );
+    }
+
+    const passageCount = data.passages.length;
+    assert.equal(passageCount, spec.passages.count, `${exam}/${section}: should have ${spec.passages.count} passage sets`);
+    for (const passage of data.passages) {
+      const attached = data.questions.filter(question => question.passageId === passage.id).length;
+      const [min, max] = spec.passages.questionsEach;
+      assert.ok(
+        attached >= min && attached <= max,
+        `${exam}/${section}: passage ${passage.id} carries ${attached} questions, outside the ${min}-${max} the real exam uses`,
+      );
+    }
+  }
+});
+
+test("passages are the length the real exam uses", () => {
+  for (const { exam, section, data } of files()) {
+    const spec = SPECS[section as keyof typeof SPECS];
+    if (!spec) continue;
+    const [min, max] = spec.passageWords;
+    for (const passage of data.passages) {
+      const words = passage.paragraphs.join(" ").trim().split(/\s+/).length;
+      // A generous floor while authoring; the ceiling is the part that matters,
+      // because an over-long passage changes the pacing of the whole section.
+      assert.ok(words <= max * 1.25, `${exam}/${section}: ${passage.id} runs ${words} words, well over the ${max} the real exam uses`);
+      assert.ok(words >= min * 0.6, `${exam}/${section}: ${passage.id} is only ${words} words, too thin to carry its questions`);
     }
   }
 });

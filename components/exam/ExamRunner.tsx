@@ -94,6 +94,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
   const pendingTiming = useRef<Record<string, number>>({});
   const dirty = useRef(false);
   const landed = useRef<number>(Date.now());
+  const passagePane = useRef<HTMLElement | null>(null);
 
   const questions = view?.content?.questions ?? [];
   const question = questions[index];
@@ -210,6 +211,13 @@ export default function ExamRunner({ examId }: { examId: string }) {
   useEffect(() => {
     if (question) setSeen(current => (current.has(question.id) ? current : new Set(current).add(question.id)));
   }, [question]);
+
+  // On the real exam a passage you have scrolled through returns to the top
+  // when you move to the next question. It is a small thing that costs
+  // students time on test day if they have only practised somewhere kinder.
+  useEffect(() => {
+    if (passagePane.current) passagePane.current.scrollTop = 0;
+  }, [index]);
 
   /* ---------------- answering ---------------- */
 
@@ -505,6 +513,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
           </span>
         </div>
 
+        {/* Upper-left, always visible, as on the real exam. */}
         <div className="exam-tools">
           <button type="button" className="exam-chip" onClick={() => tool("highlight")} title="Select text first">
             Highlight <span className="exam-key">Alt+H</span>
@@ -512,6 +521,9 @@ export default function ExamRunner({ examId }: { examId: string }) {
           <button type="button" className="exam-chip" onClick={() => tool("strike")} title="Select text first">
             Strikethrough <span className="exam-key">Alt+S</span>
           </button>
+        </div>
+
+        <div className="exam-bar-right">
           {section.periodicTable && (
             <button type="button" className="exam-chip" onClick={() => setTableOpen(true)}>
               Periodic table <span className="exam-key">Alt+T</span>
@@ -527,9 +539,6 @@ export default function ExamRunner({ examId }: { examId: string }) {
             <option value="dark">Black background</option>
             <option value="salmon">Salmon background</option>
           </select>
-        </div>
-
-        <div className="exam-bar-right">
           <button
             type="button"
             className={low ? "exam-chip exam-clock is-low" : "exam-chip exam-clock"}
@@ -542,7 +551,7 @@ export default function ExamRunner({ examId }: { examId: string }) {
 
       <main className={passage ? "exam-body has-passage" : "exam-body"}>
         {passage && (
-          <section className="exam-passage" aria-label="Passage">
+          <section className="exam-passage" aria-label="Passage" ref={passagePane}>
             <h2>{passage.title}</h2>
             {passage.paragraphs.map((paragraph, position) => (
               <Annotated

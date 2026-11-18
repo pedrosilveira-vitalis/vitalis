@@ -31,6 +31,7 @@
 .exam-bar-left strong { font-size: 13px; font-weight: 600; }
 .exam-bar-left span { font-size: 12px; opacity: .8; }
 .exam-tools, .exam-bar-right, .exam-foot-left, .exam-foot-right { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.exam-bar-right { margin-left: auto; }
 .exam-progress { font-size: 12px; opacity: .75; margin-left: 4px; }
 
 .exam-chip {
