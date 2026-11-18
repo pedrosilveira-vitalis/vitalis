@@ -31,6 +31,8 @@ export interface Capabilities {
   questions: boolean;
   lessons: boolean;
   liveReviews: boolean;
+  /** The two full-length practice exams and their score reports. */
+  fullLengths: boolean;
 }
 
 export interface Plan {
@@ -54,14 +56,14 @@ export const PLANS: Plan[] = [
     name: "Core",
     tagline: "The whole question bank, with a written explanation on every answer.",
     rank: 1,
-    capabilities: { questions: true, lessons: false, liveReviews: false },
+    capabilities: { questions: true, lessons: false, liveReviews: false, fullLengths: false },
     features: [
       `All ${QUESTION_COUNT.toLocaleString()} practice questions, every section`,
       "A full written explanation on every answer",
       "Flashcards, flagged questions and the score calculator",
       "Ask Nori, your AI tutor, without limits",
     ],
-    missing: [`The ${LESSON_COUNT} written lessons`, "The 28 unit cheat sheets", "Live group review sessions", "Study guides"],
+    missing: [`The ${LESSON_COUNT} written lessons`, "The 28 unit cheat sheets", "Two full-length practice exams", "Live group review sessions", "Study guides"],
     windows: [
       { days: 90, priceCents: 14900, listCents: 14900 },
       { days: 180, priceCents: 19900, listCents: 19900 },
@@ -72,11 +74,12 @@ export const PLANS: Plan[] = [
     name: "Complete",
     tagline: "Everything in Core, plus all 250 lessons and a live review before each test date.",
     rank: 2,
-    capabilities: { questions: true, lessons: true, liveReviews: true },
+    capabilities: { questions: true, lessons: true, liveReviews: true, fullLengths: true },
     features: [
       `All ${LESSON_COUNT} lessons, reviewed line by line against published sources`,
       "All 28 unit cheat sheets, printable as PDFs",
       `All ${QUESTION_COUNT.toLocaleString()} practice questions with full explanations`,
+      "Two full-length practice exams, timed and scored like the real thing",
       "A live group review before every MCAT date in your window",
       "Any study guides we publish during your window, free",
       "Flashcards, flagged questions and the score calculator",
@@ -133,7 +136,7 @@ export interface Entitlement {
   daysLeft: number;
 }
 
-const LOCKED: Capabilities = { questions: false, lessons: false, liveReviews: false };
+const LOCKED: Capabilities = { questions: false, lessons: false, liveReviews: false, fullLengths: false };
 
 export function capabilitiesOf(entitlement: Entitlement | null): Capabilities {
   return entitlement ? entitlement.capabilities : LOCKED;
@@ -182,7 +185,7 @@ export function hasStandingAccess(email: string): boolean {
   return list.split(",").some(entry => entry.trim().toLowerCase() === target && entry.trim().length > 0);
 }
 
-const EVERYTHING: Capabilities = { questions: true, lessons: true, liveReviews: true };
+const EVERYTHING: Capabilities = { questions: true, lessons: true, liveReviews: true, fullLengths: true };
 
 /**
  * The gate every protected route calls. Returns the student's capabilities, and

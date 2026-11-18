@@ -135,6 +135,10 @@ export async function startAttempt(db: Database, email: string, examId: string):
  * Saves answers mid-section. Writes are merged rather than replaced so a stale
  * tab cannot wipe answers a newer one has saved, and the clock is never taken
  * from the client.
+ *
+ * The update refuses to apply once the section's deadline has passed, or while
+ * a break is running. Without that, closing the tab at the one-minute mark and
+ * reopening it later would be a way to buy unlimited time.
  */
 export async function saveProgress(
   db: Database,
@@ -148,6 +152,8 @@ export async function saveProgress(
             timing = timing || $4::jsonb,
             flagged = COALESCE($5::jsonb, flagged)
       WHERE id = $1 AND email = $2 AND finished_at IS NULL
+        AND section_deadline IS NOT NULL AND section_deadline > NOW()
+        AND (break_ends_at IS NULL OR break_ends_at <= NOW())
       RETURNING *`,
     [
       attemptId,
