@@ -16,6 +16,7 @@ const isScored = (item: Attempt): item is ScoredAttempt => item.status === "scor
 
 export default function ExamsPage() {
   const [data, setData] = useState<{ signedIn: boolean; allowed: boolean; exams: Exam[]; attempts: Attempt[] } | null>(null);
+  const [admin, setAdmin] = useState(false);
 
   useEffect(() => {
     let live = true;
@@ -23,6 +24,15 @@ export default function ExamsPage() {
       .then(response => response.json())
       .then(payload => { if (live) setData(payload); })
       .catch(() => { if (live) setData({ signedIn: false, allowed: false, exams: [], attempts: [] }); });
+    return () => { live = false; };
+  }, []);
+
+  useEffect(() => {
+    let live = true;
+    fetch("/api/session")
+      .then(response => response.json())
+      .then(payload => { if (live) setAdmin(Boolean(payload.isAdmin)); })
+      .catch(() => {});
     return () => { live = false; };
   }, []);
 
@@ -116,9 +126,16 @@ export default function ExamsPage() {
                       Read the instructions <StudyIcon name="arrow" />
                     </Link>
                   ) : (
-                    <span className="exam-card-note">
-                      You will get an email the day this one opens. It is included in your plan.
-                    </span>
+                    <>
+                      {admin && (
+                        <Link href={`/exams/${exam.id}`} className="button-primary">
+                          Preview the interface (admin) <StudyIcon name="arrow" />
+                        </Link>
+                      )}
+                      <span className="exam-card-note">
+                        You will get an email the day this one opens. It is included in your plan.
+                      </span>
+                    </>
                   )}
                 </div>
               </article>
