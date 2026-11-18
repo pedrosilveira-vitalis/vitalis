@@ -1,5 +1,6 @@
 import { Pool } from "pg";
 import { portalSchema, type Database } from "./portal-store";
+import { examSchema } from "./exams/store";
 let pool: Pool | undefined;
 let ready: Promise<void> | undefined;
 export async function portalDb(): Promise<Database> {
@@ -11,7 +12,7 @@ export async function portalDb(): Promise<Database> {
     try {
       await connection.query("BEGIN");
       await connection.query("SELECT pg_advisory_xact_lock(84619207)");
-      for (const statement of portalSchema) await connection.query(statement);
+      for (const statement of [...portalSchema, ...examSchema]) await connection.query(statement);
       await connection.query("COMMIT");
     } catch (error) { await connection.query("ROLLBACK"); throw error; }
     finally { connection.release(); }
