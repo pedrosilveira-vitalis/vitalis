@@ -16,7 +16,7 @@ type Miss = {
   id: string; section: string; position: number; stem: string;
   chosen: "A" | "B" | "C" | "D" | null; correct: "A" | "B" | "C" | "D";
   category: string; categoryName: string; skillName: string; difficulty: string;
-  unit: string | null; seconds: number | null;
+  unit: string | null; unitName: string | null; unitHref: string | null; seconds: number | null;
   choices: Record<"A" | "B" | "C" | "D", string> | null;
   explanation: string; whyWrong: string; passageTitle: string | null;
 };
@@ -25,13 +25,12 @@ type Report = {
   total: number; totalLow: number; totalHigh: number; percentile: number | null;
   correct: number; questions: number;
   sections: SectionScore[]; missed: Miss[];
-  recommendations: { unit: string; section: string; missed: number; total: number; categories: string[] }[];
+  recommendations: {
+    unit: string; section: string; missed: number; total: number; categories: string[];
+    unitName: string; lessonHref: string | null; sheetHref: string | null; drillHref: string | null;
+  }[];
   weakestSkills: Breakdown[]; weakestCategories: Breakdown[];
 };
-
-function unitLabel(slug: string) {
-  return slug.replace(/-/g, " ").replace(/^./, letter => letter.toUpperCase());
-}
 
 function minutes(seconds: number) {
   const whole = Math.round(seconds / 60);
@@ -201,15 +200,15 @@ export default function ScoreReportPage() {
                 <li key={row.unit}>
                   <span className="report-rank">{position + 1}</span>
                   <div>
-                    <h3>{unitLabel(row.unit)}</h3>
+                    <h3>{row.unitName}</h3>
                     <p>
                       Cost you {row.missed} {row.missed === 1 ? "mark" : "marks"} out of {row.total} on this form
                       {row.categories.length ? ` · ${row.categories.join(", ")}` : ""}
                     </p>
                     <div className="report-plan-links">
-                      <Link href={`/study?unit=${encodeURIComponent(row.unit)}`}>Read the lesson</Link>
-                      <Link href={`/cheatsheets/${row.section}`}>Cheat sheet</Link>
-                      <Link href={`/practice/${row.section}?n=10&d=mixed`}>Drill 10 questions</Link>
+                      {row.lessonHref && <Link href={row.lessonHref}>Read the unit</Link>}
+                      {row.sheetHref && <Link href={row.sheetHref}>Cheat sheet</Link>}
+                      {row.drillHref && <Link href={row.drillHref}>Drill 10 questions</Link>}
                     </div>
                   </div>
                 </li>
@@ -278,10 +277,10 @@ export default function ScoreReportPage() {
                     {miss.categoryName}
                     {miss.category ? ` (${miss.category})` : ""} · {miss.skillName} · {miss.difficulty}
                     {miss.seconds !== null ? ` · you spent ${miss.seconds}s on it` : ""}
-                    {miss.unit ? (
+                    {miss.unitName && miss.unitHref ? (
                       <>
                         {" · "}
-                        <Link href={`/study?unit=${encodeURIComponent(miss.unit)}`}>{unitLabel(miss.unit)}</Link>
+                        <Link href={miss.unitHref}>{miss.unitName}</Link>
                       </>
                     ) : null}
                   </p>

@@ -60,7 +60,7 @@ type SectionFile = { passages: ExamSection["passages"]; questions: ExamQuestion[
  * than an error.
  */
 const CONTENT: Record<string, () => Promise<SectionFile>> = {
-  // "fl1/chem-phys": () => import("./content/fl1/chem-phys.json").then(file => file.default as SectionFile),
+  "fl1/chem-phys": () => import("./content/fl1/chem-phys.json").then(file => file.default as unknown as SectionFile),
 };
 
 async function sectionFile(examId: string, sectionId: ExamSectionId): Promise<SectionFile | null> {

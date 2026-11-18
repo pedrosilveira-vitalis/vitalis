@@ -37,8 +37,10 @@ export interface ExamQuestion {
   skill: SkillId;
   difficulty: "easy" | "medium" | "hard";
   /**
-   * The unit slug this question maps to, so a miss can point at the lesson and
-   * the cheat sheet to read. Null only for CARS, which has no content unit.
+   * The id of the unit this question belongs to, as a string — the same ids
+   * `UNITS` in lib/cheatsheets uses, so a miss can link straight to that
+   * unit's lesson list and cheat sheet. Null only for CARS, which has no
+   * content unit to send anyone back to.
    */
   unit: string | null;
 }

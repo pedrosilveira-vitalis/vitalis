@@ -5,6 +5,7 @@ import { loadExam } from "@/lib/exams/registry";
 import { attemptById } from "@/lib/exams/store";
 import { buildReport, verdictFor } from "@/lib/exams/score";
 import { SECTIONS } from "@/lib/exams/blueprint";
+import { UNITS } from "@/lib/cheatsheets";
 
 const NO_STORE = { headers: { "Cache-Control": "no-store" } };
 
@@ -36,6 +37,18 @@ export async function GET(request: Request) {
 
   const report = buildReport(exam, attempt);
 
+  const unitOf = (id: string | null) => (id ? UNITS.find(unit => String(unit.id) === id) : undefined);
+  const named = report.recommendations.map(row => {
+    const unit = unitOf(row.unit);
+    return {
+      ...row,
+      unitName: unit?.title ?? "Unit",
+      lessonHref: unit ? `/study/${unit.section}` : null,
+      sheetHref: unit ? `/cheatsheets/${unit.section}/${unit.id}` : null,
+      drillHref: unit ? `/practice/${unit.section}?n=10&d=mixed` : null,
+    };
+  });
+
   // The missed questions carry their full explanation here, which is the whole
   // point of the review: a number without the reasoning teaches nothing.
   const detail = report.missed.map(miss => {
@@ -44,6 +57,8 @@ export async function GET(request: Request) {
     const passage = question?.passageId ? section?.passages.find(item => item.id === question.passageId) : undefined;
     return {
       ...miss,
+      unitName: unitOf(miss.unit)?.title ?? null,
+      unitHref: unitOf(miss.unit) ? `/study/${unitOf(miss.unit)!.section}` : null,
       choices: question?.choices ?? null,
       explanation: question?.explanation ?? "",
       whyWrong: miss.chosen ? question?.wrong[miss.chosen] ?? "" : "",
@@ -53,7 +68,7 @@ export async function GET(request: Request) {
 
   return Response.json(
     {
-      report: { ...report, missed: detail },
+      report: { ...report, missed: detail, recommendations: named },
       verdict: verdictFor(report),
       sections: SECTIONS.map(section => ({ id: section.id, short: section.short, nickname: section.nickname, minutes: section.minutes })),
     },

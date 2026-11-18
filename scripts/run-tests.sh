@@ -13,7 +13,7 @@ trap 'rm -rf "$work"' EXIT
 
 cp -r "$root/lib" "$work/lib"
 mkdir -p "$work/components/exam"
-cp "$root/components/exam/annotations.ts" "$work/components/exam/" 2>/dev/null || true
+cp "$root/components/exam/annotations.ts" "$work/components/exam/"
 mkdir -p "$work/tests"
 for name in "$@"; do cp "$root/tests/$name" "$work/tests/"; done
 
@@ -28,7 +28,7 @@ for base, _, files in os.walk(work):
         text = open(path).read()
         text = re.sub(
             r'(from\s+")(\.[^"]*?)(")',
-            lambda m: m.group(1) + m.group(2) + ("" if m.group(2).endswith(".ts") else ".ts") + m.group(3),
+            lambda m: m.group(1) + m.group(2) + ("" if m.group(2).endswith((".ts", ".json")) else ".ts") + m.group(3),
             text,
         )
         open(path, "w").write(text)
