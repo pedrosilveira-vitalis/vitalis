@@ -364,6 +364,24 @@ export default function ExamRunner({ examId }: { examId: string }) {
   const answeredCount = questions.filter(item => answers[item.id]).length;
   const low = seconds <= 300 && mode !== "break";
 
+  if (mode !== "break" && !questions.length) {
+    return (
+      <div className={`exam-shell exam-${theme}`}>
+        <div className="exam-notice">
+          <span className="exam-eyebrow">{section.short}</span>
+          <h1>This section has no questions yet</h1>
+          <p>
+            {section.name} is still being written. Hand it in to move on &mdash; nothing here will be scored against
+            you.
+          </p>
+          <button type="button" className="exam-primary" disabled={busy} onClick={() => void endSection(false)}>
+            {busy ? "Moving on\u2026" : "Hand in and continue"}
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   if (mode === "break") {
     return (
       <div className={`exam-shell exam-${theme}`}>

@@ -18,6 +18,7 @@ export default function ExamStartPage() {
   const router = useRouter();
   const examId = (params.exam as string) || "";
   const [data, setData] = useState<{ signedIn: boolean; allowed: boolean; exams: Exam[] } | null>(null);
+  const [admin, setAdmin] = useState(false);
   const [starting, setStarting] = useState(false);
   const [error, setError] = useState("");
 
@@ -27,6 +28,15 @@ export default function ExamStartPage() {
       .then(response => response.json())
       .then(payload => { if (live) setData(payload); })
       .catch(() => { if (live) setError("Could not load the exam."); });
+    return () => { live = false; };
+  }, []);
+
+  useEffect(() => {
+    let live = true;
+    fetch("/api/session")
+      .then(response => response.json())
+      .then(payload => { if (live) setAdmin(Boolean(payload.isAdmin)); })
+      .catch(() => {});
     return () => { live = false; };
   }, []);
 
@@ -117,6 +127,11 @@ export default function ExamStartPage() {
                   This form is still being written &mdash; {exam?.written ?? 0} of {exam?.needed ?? 230} questions are
                   finished. We will email you the day it opens.
                 </span>
+                {admin && (
+                  <button type="button" className="button-primary" onClick={begin} disabled={starting}>
+                    {starting ? "Opening\u2026" : "Preview the interface (admin)"}
+                  </button>
+                )}
                 <Link href="/exams" className="button-outline">Back to full-lengths</Link>
               </>
             ) : (
