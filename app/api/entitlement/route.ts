@@ -10,16 +10,24 @@ export async function GET() {
   const email = session?.user?.email;
   if (!email) return Response.json({ signedIn: false, entitlement: null }, NO_STORE);
 
-  if (isAdmin(email) || hasStandingAccess(email)) {
-    return Response.json({ signedIn: true, standing: true, entitlement: { plan: "complete", daysLeft: null } }, NO_STORE);
-  }
+  const standing = isAdmin(email) || hasStandingAccess(email);
   try {
     const entitlement = await entitlementFor(await portalDb(), email);
-    return Response.json(
-      { signedIn: true, entitlement: entitlement && { plan: entitlement.plan, daysLeft: entitlement.daysLeft, expiresAt: entitlement.expiresAt } },
-      NO_STORE,
-    );
+    if (entitlement) {
+      return Response.json(
+        {
+          signedIn: true,
+          standing,
+          entitlement: { plan: entitlement.plan, daysLeft: entitlement.daysLeft, expiresAt: entitlement.expiresAt },
+        },
+        NO_STORE,
+      );
+    }
   } catch {
-    return Response.json({ signedIn: true, entitlement: null }, NO_STORE);
+    // Fall through: standing access should still work if the database blinks.
   }
+  if (standing) {
+    return Response.json({ signedIn: true, standing: true, entitlement: { plan: "complete", daysLeft: null } }, NO_STORE);
+  }
+  return Response.json({ signedIn: true, standing: false, entitlement: null }, NO_STORE);
 }

@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import MainNav from "@/components/MainNav";
+import Celebration from "@/components/Celebration";
 import { PLANS, type PlanId } from "@/lib/billing";
 
 type Access = { signedIn: boolean; entitlement: { plan: PlanId; daysLeft: number } | null };
@@ -56,12 +57,15 @@ export default function CheckoutSuccessPage() {
 
           {entitlement && plan ? (
             <>
+              <Celebration />
               <h1 className="font-sans font-normal leading-[0.95] tracking-[-0.03em] text-[clamp(40px,5vw,72px)]">
-                {plan.name} is <span className="italic font-light text-[#5b7a64]">live</span>.
+                Let&rsquo;s get to work.
               </h1>
               <p className="text-[15px] opacity-70 mt-5 leading-relaxed max-w-xl">
-                You have {entitlement.daysLeft} days of access, starting now. A receipt is on its way to your
-                email from Stripe.
+                {entitlement.daysLeft === null
+                  ? `${plan.name} is live on your account.`
+                  : `${plan.name} is live. You have ${entitlement.daysLeft} days of access, starting now.`}{" "}
+                A receipt is on its way to your email from Stripe.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link href="/study" className="rounded-xl bg-[#245574] text-[#f5f1ea] px-6 py-4 font-sans text-sm font-medium">

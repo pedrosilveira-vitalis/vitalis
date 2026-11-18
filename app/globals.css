@@ -78,3 +78,37 @@ h1, h2, h3 { letter-spacing: -.025em; }
   .sheet-columns { column-count: 2; column-gap: 28px; }
   @page { margin: 14mm; size: A4 portrait; }
 }
+
+/* The success page celebration: two cannons fire once, Nori jumps.
+   Everything stops on its own, and nothing moves at all for anyone who has
+   asked their system for reduced motion. */
+.celebration { position: relative; height: 150px; margin: 6px 0 4px; }
+.celebration-nori { position: absolute; left: 50%; bottom: 0; width: 112px; margin-left: -56px; animation: nori-jump 1.15s cubic-bezier(.3,.7,.4,1) 3; transform-origin: 50% 100%; }
+.celebration-nori svg { width: 100%; height: auto; }
+.cannon { position: absolute; bottom: 4px; width: 56px; }
+.cannon-left { left: calc(50% - 170px); animation: cannon-kick .5s ease-out 1; }
+.cannon-right { left: calc(50% + 114px); transform: scaleX(-1); animation: cannon-kick .5s ease-out 1; }
+.cannon-art { width: 100%; height: auto; }
+.confetti { position: absolute; bottom: 26px; width: 9px; height: 13px; opacity: 0; animation: confetti-fly 1.5s cubic-bezier(.15,.75,.4,1) forwards; }
+.confetti-left { left: calc(50% - 128px); }
+.confetti-right { left: calc(50% + 150px); }
+@keyframes nori-jump {
+  0%, 100% { transform: translateY(0) scaleY(1); }
+  12% { transform: translateY(0) scaleY(.86) scaleX(1.08); }
+  42% { transform: translateY(-46px) scaleY(1.06) scaleX(.96); }
+  72% { transform: translateY(0) scaleY(.92) scaleX(1.05); }
+}
+@keyframes cannon-kick {
+  0% { transform: translateX(0) rotate(0); }
+  18% { transform: translateX(-9px) rotate(-7deg); }
+  100% { transform: translateX(0) rotate(0); }
+}
+.cannon-right { transform: scaleX(-1); }
+@keyframes confetti-fly {
+  0% { opacity: 1; transform: translate(0, 0) rotate(0); }
+  100% { opacity: 0; transform: translate(var(--dx), var(--dy)) rotate(var(--spin)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .celebration-nori, .cannon-left, .cannon-right, .confetti { animation: none !important; }
+  .confetti { display: none; }
+}
