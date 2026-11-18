@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./nori.css";
 import "./study-polish.css";
+import "./exam.css";
 import ActivityProvider from "@/components/ActivityProvider";
 import NoriCompanion from "@/components/NoriCompanion";
 import WelcomeTour from "@/components/WelcomeTour";

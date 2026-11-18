@@ -12,6 +12,8 @@ work="$(mktemp -d)"
 trap 'rm -rf "$work"' EXIT
 
 cp -r "$root/lib" "$work/lib"
+mkdir -p "$work/components/exam"
+cp "$root/components/exam/annotations.ts" "$work/components/exam/" 2>/dev/null || true
 mkdir -p "$work/tests"
 for name in "$@"; do cp "$root/tests/$name" "$work/tests/"; done
 
