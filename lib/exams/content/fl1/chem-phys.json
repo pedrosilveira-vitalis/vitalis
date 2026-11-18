@@ -4,22 +4,22 @@
    "id": "cp-p1",
    "title": "Buffering of arterial plasma",
    "paragraphs": [
-    "Arterial plasma is held within roughly 0.04 pH units of 7.40 despite a daily acid load of 50-100 mmol of non-volatile acid. The dominant buffer is the carbon dioxide / bicarbonate pair, whose behaviour is described by pH = 6.1 + log([HCO3-] / (0.03 x PCO2)), where bicarbonate is in mmol/L and the partial pressure of carbon dioxide is in mmHg. The factor 0.03 converts PCO2 to the concentration of dissolved CO2 in mmol/L.",
+    "Arterial plasma is held within roughly 0.04 pH units of 7.40 despite a daily acid load of 50–100 mmol of non-volatile acid. The dominant buffer is the carbon dioxide / bicarbonate pair, whose behaviour is described by pH = 6.1 + log([HCO₃⁻] / (0.03 × PCO₂)), where bicarbonate is in mmol/L and the partial pressure of carbon dioxide is in mmHg. The factor 0.03 converts PCO₂ to the concentration of dissolved CO₂ in mmol/L.",
     "A buffer resists pH change most strongly when the pH of the solution equals the pKa of the buffering pair, because the two forms are then present in equal amounts. The apparent pKa of this pair is 6.1, more than a full unit below the pH it is asked to defend, and in a closed container a buffer this far from its pKa would be a poor one.",
-    "What rescues it is that the system is not closed. Dissolved CO2 is in equilibrium with alveolar gas, and the respiratory centre adjusts ventilation in response to arterial pH and PCO2 within minutes. Acid added to plasma is converted to CO2 and breathed off, so the denominator of the ratio is actively held down rather than rising as acid accumulates. The kidney adjusts the numerator over hours to days by reclaiming filtered bicarbonate and excreting ammonium.",
-    "Researchers measured arterial blood gases in four patients presenting to an emergency department, shown in Table 1. Reference ranges are pH 7.35-7.45, PCO2 35-45 mmHg, and bicarbonate 22-26 mmol/L."
+    "What rescues it is that the system is not closed. Dissolved CO₂ is in equilibrium with alveolar gas, and the respiratory centre adjusts ventilation in response to arterial pH and PCO₂ within minutes. Acid added to plasma is converted to CO₂ and breathed off, so the denominator of the ratio is actively held down rather than rising as acid accumulates. The kidney adjusts the numerator over hours to days by reclaiming filtered bicarbonate and excreting ammonium.",
+    "Researchers measured arterial blood gases in four patients presenting to an emergency department, shown in Table 1. Reference ranges are pH 7.35–7.45, PCO₂ 35–45 mmHg, and bicarbonate 22–26 mmol/L."
    ],
    "figure": {
     "kind": "table",
     "caption": "Table 1  Arterial blood gas measurements in four patients.",
-    "markup": "<table><thead><tr><th>Patient</th><th>PCO2 (mmHg)</th><th>HCO3- (mmol/L)</th></tr></thead><tbody><tr><td>W</td><td>40</td><td>24</td></tr><tr><td>X</td><td>24</td><td>12</td></tr><tr><td>Y</td><td>60</td><td>26</td></tr><tr><td>Z</td><td>30</td><td>36</td></tr></tbody></table>"
+    "markup": "<table><thead><tr><th>Patient</th><th>PCO₂ (mmHg)</th><th>HCO₃⁻ (mmol/L)</th></tr></thead><tbody><tr><td>W</td><td>40</td><td>24</td></tr><tr><td>X</td><td>24</td><td>12</td></tr><tr><td>Y</td><td>60</td><td>26</td></tr><tr><td>Z</td><td>30</td><td>36</td></tr></tbody></table>"
    }
   },
   {
    "id": "cp-p2",
    "title": "Temperature dependence of a hydrolysis reaction",
    "paragraphs": [
-    "The rate constant of most reactions varies with temperature according to k = A exp(-Ea/RT), where Ea is the activation energy, R is 8.314 J/(mol K) and T is the absolute temperature. Taking logarithms gives ln k = ln A - Ea/(RT), so a plot of ln k against 1/T is a straight line whose gradient is -Ea/R.",
+    "The rate constant of most reactions varies with temperature according to k = A exp(-Eₐ/RT), where Eₐ is the activation energy, R is 8.314 J/(mol K) and T is the absolute temperature. Taking logarithms gives ln k = ln A - Eₐ/(RT), so a plot of ln k against 1/T is a straight line whose gradient is -Eₐ/R.",
     "A research group studied the hydrolysis of a phosphate ester that is also a substrate of alkaline phosphatase. The uncatalysed reaction was followed at five temperatures between 288 K and 328 K in buffer at pH 8.0, and the enzyme-catalysed reaction was followed at 310 K. From the uncatalysed data the group reported an activation energy of 50 kJ/mol. With enzyme present the apparent activation energy fell to 25 kJ/mol, while the measured pre-exponential factor was unchanged within error.",
     "A second group repeated the enzyme-catalysed measurement between 310 K and 340 K and found that the rate rose with temperature to a maximum near 320 K and then fell sharply, even though substrate was still in large excess."
    ],
@@ -34,9 +34,9 @@
    "id": "cp-p3",
    "title": "Flow through a narrowed artery",
    "paragraphs": [
-    "For steady laminar flow of a Newtonian fluid through a rigid cylindrical tube, the volume flow rate is Q = (pi r^4 dP) / (8 eta L), where r is the radius, dP the pressure difference across the length L, and eta the viscosity. Because the radius is raised to the fourth power, small changes in calibre have large consequences for flow at a fixed driving pressure.",
-    "Where a vessel narrows, the volume passing any cross-section per second must be the same on both sides of the narrowing, so A1 v1 = A2 v2. Bernoulli's relation then requires that the faster-moving fluid inside the narrowing be at lower pressure: P + (1/2) rho v^2 + rho g h is constant along a streamline for an ideal fluid.",
-    "A clinician images a coronary artery and finds a segment where the lumen area has fallen to 40% of the value in the adjacent healthy vessel. Blood velocity in the healthy segment is 0.30 m/s. Take the density of blood as 1060 kg/m^3 and treat the vessel as horizontal."
+    "For steady laminar flow of a Newtonian fluid through a rigid cylindrical tube, the volume flow rate is Q = (π r⁴ ΔP) / (8 η L), where r is the radius, ΔP the pressure difference across the length L, and η the viscosity. Because the radius is raised to the fourth power, small changes in calibre have large consequences for flow at a fixed driving pressure.",
+    "Where a vessel narrows, the volume passing any cross-section per second must be the same on both sides of the narrowing, so A₁ v₁ = A₂ v₂. Bernoulli's relation then requires that the faster-moving fluid inside the narrowing be at lower pressure: P + (1/2) ρ v² + ρ g h is constant along a streamline for an ideal fluid.",
+    "A clinician images a coronary artery and finds a segment where the lumen area has fallen to 40% of the value in the adjacent healthy vessel. Blood velocity in the healthy segment is 0.30 m/s. Take the density of blood as 1060 kg/m³ and treat the vessel as horizontal."
    ],
    "sources": [
     {
@@ -49,7 +49,7 @@
    "id": "cp-p4",
    "title": "Correcting the optics of the eye",
    "paragraphs": [
-    "A thin lens obeys 1/f = 1/do + 1/di, and its power in dioptres is P = 1/f with f in metres. Lens powers in contact add, so a corrective lens placed in front of the eye adds its power to that of the eye itself. A converging lens has positive power; a diverging lens has negative power.",
+    "A thin lens obeys 1/f = 1/dₒ + 1/dᵢ, and its power in dioptres is P = 1/f with f in metres. Lens powers in contact add, so a corrective lens placed in front of the eye adds its power to that of the eye itself. A converging lens has positive power; a diverging lens has negative power.",
     "The unaided eye focuses light from a range of distances between its near point and its far point. In a myopic eye the far point is closer than infinity, so distant objects cannot be brought to a focus on the retina. In presbyopia the near point recedes with age as the lens stiffens, so close work becomes impossible even though distance vision may be unaffected.",
     "A patient is found to have a far point of 40 cm and, at a later visit some years on, a near point of 66.7 cm. A technician in the same clinic assembles a compound microscope from an objective of focal length 4.0 mm and an eyepiece of focal length 25 mm, with the tube length arranged so that the objective forms an image 160 mm beyond its focal point."
    ]
@@ -67,9 +67,9 @@
     "D": "7.55"
    },
    "correct": "C",
-   "explanation": "The ratio is 24 / (0.03 x 40) = 24 / 1.2 = 20, and log 20 = log 2 + 1 = 1.30. Adding that to the pKa of 6.1 gives 7.40 - the value the passage names as normal, which is the fastest way to confirm the arithmetic without a calculator.",
+   "explanation": "The ratio is 24 / (0.03 × 40) = 24 / 1.2 = 20, and log 20 = log 2 + 1 = 1.30. Adding that to the pKa of 6.1 gives 7.40 - the value the passage names as normal, which is the fastest way to confirm the arithmetic without a calculator.",
    "wrong": {
-    "A": "7.10 is what you get if the ratio is 10 rather than 20, which would require a PCO2 of 80 mmHg.",
+    "A": "7.10 is what you get if the ratio is 10 rather than 20, which would require a PCO₂ of 80 mmHg.",
     "B": "7.26 does not follow from any pairing of the values given; it is roughly what you get by taking log 15, which no part of the calculation produces.",
     "D": "7.55 overshoots because log 20 is 1.30, not 1.45. Remember log 2 = 0.30, so log 20 = 1.30 exactly."
    },
@@ -89,11 +89,11 @@
     "D": "7.52"
    },
    "correct": "B",
-   "explanation": "The ratio is 12 / (0.03 x 24) = 12 / 0.72 = 16.7. Since log 16.7 falls between log 10 and log 20, the pH must fall between 7.10 and 7.40, which already eliminates two choices. Taking log 16.7 as about 1.22 gives 6.1 + 1.22 = 7.32.",
+   "explanation": "The ratio is 12 / (0.03 × 24) = 12 / 0.72 = 16.7. Since log 16.7 falls between log 10 and log 20, the pH must fall between 7.10 and 7.40, which already eliminates two choices. Taking log 16.7 as about 1.22 gives 6.1 + 1.22 = 7.32.",
    "wrong": {
     "A": "7.22 would need a ratio of about 13, which means dividing 12 by 0.9 rather than by 0.72.",
-    "C": "7.42 is above the normal value, but this patient has lost more bicarbonate proportionally than CO2, so the ratio and the pH must both fall.",
-    "D": "7.52 describes an alkalosis. Both numbers are below their reference ranges here, and the bicarbonate has fallen by half while PCO2 has fallen by only 40%."
+    "C": "7.42 is above the normal value, but this patient has lost more bicarbonate proportionally than CO₂, so the ratio and the pH must both fall.",
+    "D": "7.52 describes an alkalosis. Both numbers are below their reference ranges here, and the bicarbonate has fallen by half while PCO₂ has fallen by only 40%."
    },
    "category": "5E",
    "skill": "skill-4",
@@ -111,11 +111,11 @@
     "D": "Patient Z"
    },
    "correct": "C",
-   "explanation": "Patient Y has a raised PCO2 (60 mmHg), which is a respiratory disturbance because PCO2 is set by ventilation, together with a bicarbonate above range (26 mmol/L). Renal compensation is the slow arm of the system described in the passage, so a bicarbonate that has risen to defend the ratio points to a respiratory problem of some standing.",
+   "explanation": "Patient Y has a raised PCO₂ (60 mmHg), which is a respiratory disturbance because PCO₂ is set by ventilation, together with a bicarbonate above range (26 mmol/L). Renal compensation is the slow arm of the system described in the passage, so a bicarbonate that has risen to defend the ratio points to a respiratory problem of some standing.",
    "wrong": {
     "A": "Patient W has entirely normal values and so has no disturbance to compensate for.",
-    "B": "Patient X has a low bicarbonate with a low PCO2, which is a metabolic acidosis with respiratory compensation - the reverse of what is asked.",
-    "D": "Patient Z has a high bicarbonate with a low PCO2. The primary problem is the metabolic alkalosis; a kidney compensating for a respiratory problem would not drive bicarbonate to 36 mmol/L."
+    "B": "Patient X has a low bicarbonate with a low PCO₂, which is a metabolic acidosis with respiratory compensation - the reverse of what is asked.",
+    "D": "Patient Z has a high bicarbonate with a low PCO₂. The primary problem is the metabolic alkalosis; a kidney compensating for a respiratory problem would not drive bicarbonate to 36 mmol/L."
    },
    "category": "5E",
    "skill": "skill-3",
@@ -125,7 +125,7 @@
   {
    "id": "cp-p1-q4",
    "passageId": "cp-p1",
-   "stem": "If a patient's PCO2 rose from 40 to 80 mmHg while bicarbonate stayed at 24 mmol/L, the plasma pH would:",
+   "stem": "If a patient's PCO₂ rose from 40 to 80 mmHg while bicarbonate stayed at 24 mmol/L, the plasma pH would:",
    "choices": {
     "A": "fall by about 0.30 units",
     "B": "fall by about 0.60 units",
@@ -133,10 +133,10 @@
     "D": "be unchanged, because bicarbonate did not change"
    },
    "correct": "A",
-   "explanation": "Doubling PCO2 halves the ratio, and the logarithm of a halved quantity is 0.30 lower, so the pH falls from 7.40 to 7.10. This is worth recognising on sight: every doubling of PCO2 at fixed bicarbonate costs 0.30 pH units.",
+   "explanation": "Doubling PCO₂ halves the ratio, and the logarithm of a halved quantity is 0.30 lower, so the pH falls from 7.40 to 7.10. This is worth recognising on sight: every doubling of PCO₂ at fixed bicarbonate costs 0.30 pH units.",
    "wrong": {
-    "B": "0.60 units would be two doublings - a PCO2 of 160 mmHg.",
-    "C": "The direction is wrong. CO2 is the acid member of the pair, so more of it lowers the pH.",
+    "B": "0.60 units would be two doublings - a PCO₂ of 160 mmHg.",
+    "C": "The direction is wrong. CO₂ is the acid member of the pair, so more of it lowers the pH.",
     "D": "The pH depends on the ratio of the two, not on bicarbonate alone, so a change in either moves it."
    },
    "category": "5E",
@@ -147,19 +147,19 @@
   {
    "id": "cp-p1-q5",
    "passageId": "cp-p1",
-   "stem": "The passage argues that a buffer is most effective when the solution pH equals the buffer pKa, yet the CO2/HCO3- pair buffers plasma well at pH 7.40. The best explanation is that:",
+   "stem": "The passage argues that a buffer is most effective when the solution pH equals the buffer pKa, yet the CO₂/HCO₃⁻ pair buffers plasma well at pH 7.40. The best explanation is that:",
    "choices": {
     "A": "the apparent pKa of the pair rises to 7.4 at body temperature",
     "B": "bicarbonate is present at a far higher concentration than any other plasma buffer",
     "C": "ventilation removes the acid member of the pair, so its concentration does not rise as acid is added",
-    "D": "plasma proteins and phosphate buffer the pH instead, leaving the CO2/HCO3- pair unused"
+    "D": "plasma proteins and phosphate buffer the pH instead, leaving the CO₂/HCO₃⁻ pair unused"
    },
    "correct": "C",
-   "explanation": "The passage makes exactly this point: the system is open, and the respiratory centre holds the CO2 term down rather than letting it climb. Closed-system buffer reasoning, which is where the pKa rule comes from, does not apply when one member is continuously vented.",
+   "explanation": "The passage makes exactly this point: the system is open, and the respiratory centre holds the CO₂ term down rather than letting it climb. Closed-system buffer reasoning, which is where the pKa rule comes from, does not apply when one member is continuously vented.",
    "wrong": {
     "A": "The passage gives the apparent pKa as 6.1 and does not describe it shifting with temperature; invoking an unstated shift is unnecessary once the open system is recognised.",
     "B": "Bicarbonate's concentration contributes to buffer capacity, but a high concentration of a buffer far from its pKa still buffers poorly. Concentration alone does not resolve the paradox the passage raises.",
-    "D": "Both do contribute, but the passage identifies the CO2/HCO3- pair as dominant, so an explanation that sidelines it contradicts the text."
+    "D": "Both do contribute, but the passage identifies the CO₂/HCO₃⁻ pair as dominant, so an explanation that sidelines it contradicts the text."
    },
    "category": "5E",
    "skill": "skill-2",
@@ -171,16 +171,16 @@
    "passageId": "cp-p2",
    "stem": "What does the gradient of a plot of ln k against 1/T give for the uncatalysed reaction?",
    "choices": {
-    "A": "-Ea/R, so a gradient of about -6.0 x 10^3 K",
-    "B": "-Ea/R, so a gradient of about -4.2 x 10^2 K",
-    "C": "+Ea/R, so a gradient of about +6.0 x 10^3 K",
+    "A": "-Eₐ/R, so a gradient of about -6.0 × 10³ K",
+    "B": "-Eₐ/R, so a gradient of about -4.2 × 10² K",
+    "C": "+Eₐ/R, so a gradient of about +6.0 × 10³ K",
     "D": "ln A, which is independent of temperature"
    },
    "correct": "A",
-   "explanation": "The passage gives the gradient as -Ea/R. With Ea = 50 000 J/mol and R = 8.314 J/(mol K), Ea/R = 6.0 x 10^3 K, so the gradient is -6.0 x 10^3 K. The sign is negative because the rate rises as 1/T falls.",
+   "explanation": "The passage gives the gradient as -Eₐ/R. With Eₐ = 50 000 J/mol and R = 8.314 J/(mol K), Eₐ/R = 6.0 × 10³ K, so the gradient is -6.0 × 10³ K. The sign is negative because the rate rises as 1/T falls.",
    "wrong": {
-    "B": "4.2 x 10^2 K comes from dividing 50 000 by 120 or similar; dividing by 8.314 gives roughly 6000, not 420.",
-    "C": "The magnitude is right but the sign is wrong. Rearranged, ln k = ln A - Ea/(RT), so the coefficient of 1/T carries a minus sign.",
+    "B": "4.2 × 10² K comes from dividing 50 000 by 120 or similar; dividing by 8.314 gives roughly 6000, not 420.",
+    "C": "The magnitude is right but the sign is wrong. Rearranged, ln k = ln A - Eₐ/(RT), so the coefficient of 1/T carries a minus sign.",
     "D": "ln A is the intercept of this plot, not its gradient."
    },
    "category": "5E",
@@ -199,11 +199,11 @@
     "D": "it falls, because entropy increases"
    },
    "correct": "B",
-   "explanation": "The ratio is exp[-(Ea/R)(1/310 - 1/298)]. The bracket is about -1.30 x 10^-4 K^-1, and multiplying by Ea/R = 6.0 x 10^3 K gives an exponent of about +0.78, so the ratio is e^0.78, roughly 2.2. The familiar rule of thumb that rates roughly double over a 10 degree rise is doing the same arithmetic.",
+   "explanation": "The ratio is exp[-(Eₐ/R)(1/310–1/298)]. The bracket is about -1.30 × 10⁻⁴ K⁻¹, and multiplying by Eₐ/R = 6.0 × 10³ K gives an exponent of about +0.78, so the ratio is e⁰.78, roughly 2.2. The familiar rule of thumb that rates roughly double over a 10 degree rise is doing the same arithmetic.",
    "wrong": {
     "A": "1.04 is the ratio of the temperatures themselves, 310/298. Rate depends exponentially on 1/T, not linearly on T.",
     "C": "12 would require an activation energy several times larger than 50 kJ/mol over this interval.",
-    "D": "Raising the temperature increases the fraction of collisions carrying at least Ea, so the rate constant of an uncatalysed step rises."
+    "D": "Raising the temperature increases the fraction of collisions carrying at least Eₐ, so the rate constant of an uncatalysed step rises."
    },
    "category": "5E",
    "skill": "skill-4",
@@ -216,16 +216,16 @@
    "stem": "Taking the pre-exponential factor as unchanged, by roughly what factor does the enzyme raise the rate at 310 K?",
    "choices": {
     "A": "2",
-    "B": "1.0 x 10^2",
-    "C": "1.6 x 10^4",
-    "D": "1.0 x 10^6"
+    "B": "1.0 × 10²",
+    "C": "1.6 × 10⁴",
+    "D": "1.0 × 10⁶"
    },
    "correct": "C",
-   "explanation": "With A unchanged, the ratio of rate constants is exp[(50 000 - 25 000)/(R x 310)] = exp(25 000/2577) = exp(9.7), which is about 1.6 x 10^4. Halving the activation energy does far more than halve the barrier's cost, because it sits in an exponent.",
+   "explanation": "With A unchanged, the ratio of rate constants is exp[(50 000–25 000)/(R x 310)] = exp(25 000/2577) = exp(9.7), which is about 1.6 × 10⁴. Halving the activation energy does far more than halve the barrier's cost, because it sits in an exponent.",
    "wrong": {
-    "A": "A factor of 2 would follow if rate were proportional to 1/Ea. It is not; Ea appears in an exponent.",
-    "B": "10^2 corresponds to an exponent near 4.6, which would need the activation energy to fall by only about 12 kJ/mol.",
-    "D": "10^6 needs an exponent near 13.8, which would require a drop of about 36 kJ/mol rather than 25."
+    "A": "A factor of 2 would follow if rate were proportional to 1/Eₐ. It is not; Eₐ appears in an exponent.",
+    "B": "10² corresponds to an exponent near 4.6, which would need the activation energy to fall by only about 12 kJ/mol.",
+    "D": "10⁶ needs an exponent near 13.8, which would require a drop of about 36 kJ/mol rather than 25."
    },
    "category": "5E",
    "skill": "skill-2",
@@ -265,10 +265,10 @@
     "D": "20% of its original value"
    },
    "correct": "C",
-   "explanation": "Flow goes as r^4, so the fraction remaining is 0.8^4 = 0.41. This is the single most useful consequence of Poiseuille's relation: a fifth off the radius costs nearly 60% of the flow.",
+   "explanation": "Flow goes as r⁴, so the fraction remaining is 0.8⁴ = 0.41. This is the single most useful consequence of Poiseuille's relation: a fifth off the radius costs nearly 60% of the flow.",
    "wrong": {
     "A": "80% treats flow as proportional to radius. The fourth power is the whole point of the relation.",
-    "B": "64% is 0.8^3, which would be the answer if flow went as r^3.",
+    "B": "64% is 0.8³, which would be the answer if flow went as r³.",
     "D": "20% confuses the fraction lost from the radius with the fraction of flow remaining."
    },
    "category": "4B",
@@ -287,10 +287,10 @@
     "D": "4.7 m/s"
    },
    "correct": "B",
-   "explanation": "Continuity applies to area, and the passage gives the area as 40% of healthy. So v2 = v1 x (A1/A2) = 0.30 x (1/0.40) = 0.75 m/s. Note that the area ratio is used once: squaring it would be appropriate only if the passage had given a radius ratio.",
+   "explanation": "Continuity applies to area, and the passage gives the area as 40% of healthy. So v₂ = v₁ x (A₁/A₂) = 0.30 × (1/0.40) = 0.75 m/s. Note that the area ratio is used once: squaring it would be appropriate only if the passage had given a radius ratio.",
    "wrong": {
     "A": "0.12 m/s multiplies by 0.40 instead of dividing by it, which would have fluid slowing down as the vessel narrows - impossible if the same volume must pass each second.",
-    "C": "1.9 m/s squares the area ratio, giving 2.5^2 = 6.25. That step converts a radius ratio into an area ratio, but the passage has already given the area.",
+    "C": "1.9 m/s squares the area ratio, giving 2.5² = 6.25. That step converts a radius ratio into an area ratio, but the passage has already given the area.",
     "D": "4.7 m/s raises the ratio to the fourth power, which belongs to the flow-versus-radius relation and not to continuity."
    },
    "category": "4B",
@@ -305,15 +305,15 @@
    "choices": {
     "A": "48 Pa",
     "B": "250 Pa",
-    "C": "1.8 x 10^3 Pa",
-    "D": "1.8 x 10^5 Pa"
+    "C": "1.8 × 10³ Pa",
+    "D": "1.8 × 10⁵ Pa"
    },
    "correct": "B",
-   "explanation": "For a horizontal vessel Bernoulli gives dP = (1/2) rho (v2^2 - v1^2). With v1 = 0.30 m/s and v2 = 0.75 m/s, that is 0.5 x 1060 x (0.5625 - 0.09) = 2.5 x 10^2 Pa, which is under 2 mmHg - small, because these velocities are low.",
+   "explanation": "For a horizontal vessel Bernoulli gives ΔP = (1/2) ρ (v₂² - v₁². With v₁ = 0.30 m/s and v₂ = 0.75 m/s, that is 0.5 × 1060 × (0.5625–0.09) = 2.5 × 10² Pa, which is under 2 mmHg - small, because these velocities are low.",
    "wrong": {
-    "A": "48 Pa is the dynamic pressure of the healthy segment alone, 0.5 x 1060 x 0.30^2. It leaves out the faster fluid inside the narrowing, which is where the pressure actually falls.",
-    "C": "1.8 x 10^3 Pa follows from taking the velocity in the narrowing as 1.9 m/s, which comes from squaring an area ratio the passage had already given as an area.",
-    "D": "1.8 x 10^5 Pa is roughly two atmospheres. A sanity check against arterial pressures, which span about 1.3 x 10^4 Pa, rules it out immediately."
+    "A": "48 Pa is the dynamic pressure of the healthy segment alone, 0.5 × 1060 × 0.30². It leaves out the faster fluid inside the narrowing, which is where the pressure actually falls.",
+    "C": "1.8 × 10³ Pa follows from taking the velocity in the narrowing as 1.9 m/s, which comes from squaring an area ratio the passage had already given as an area.",
+    "D": "1.8 × 10⁵ Pa is roughly two atmospheres. A sanity check against arterial pressures, which span about 1.3 × 10⁴ Pa, rules it out immediately."
    },
    "category": "4B",
    "skill": "skill-4",
@@ -375,7 +375,7 @@
     "D": "+5.5 D"
    },
    "correct": "B",
-   "explanation": "The reading lens must take an object at 25 cm and form an image at the near point, 66.7 cm, so P = 1/0.25 - 1/0.667 = 4.0 - 1.5 = +2.5 D. Working in dioptres rather than centimetres keeps this to one subtraction.",
+   "explanation": "The reading lens must take an object at 25 cm and form an image at the near point, 66.7 cm, so P = 1/0.25–1/0.667 = 4.0–1.5 = +2.5 D. Working in dioptres rather than centimetres keeps this to one subtraction.",
    "wrong": {
     "A": "+1.5 D is the 1/0.667 term on its own, which is the power the eye can already manage.",
     "C": "+4.0 D is the 1/0.25 term on its own and ignores what the eye still does unaided.",
