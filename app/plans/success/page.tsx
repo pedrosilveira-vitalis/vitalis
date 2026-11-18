@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import MainNav from "@/components/MainNav";
 import Celebration from "@/components/Celebration";
+import { TOUR_EVENT } from "@/components/WelcomeTour";
 import { PLANS, type PlanId } from "@/lib/billing";
 
 type Access = { signedIn: boolean; entitlement: { plan: PlanId; daysLeft: number } | null };
@@ -68,7 +69,14 @@ export default function CheckoutSuccessPage() {
                 A receipt is on its way to your email from Stripe.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
-                <Link href="/study" className="rounded-xl bg-[#245574] text-[#f5f1ea] px-6 py-4 font-sans text-sm font-medium">
+                <button
+                  type="button"
+                  onClick={() => window.dispatchEvent(new Event(TOUR_EVENT))}
+                  className="rounded-xl bg-[#245574] text-[#f5f1ea] px-6 py-4 font-sans text-sm font-medium"
+                >
+                  Show me around &rarr;
+                </button>
+                <Link href="/study" className="rounded-xl border-2 border-[#0c1a2e] px-6 py-4 font-sans text-sm font-medium hover:bg-[#0c1a2e] hover:text-[#f5f1ea] transition-colors">
                   Start studying
                 </Link>
                 <Link href="/study-plan" className="rounded-xl border-2 border-[#0c1a2e] px-6 py-4 font-sans text-sm font-medium hover:bg-[#0c1a2e] hover:text-[#f5f1ea] transition-colors">

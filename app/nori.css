@@ -139,3 +139,67 @@ button.nori-companion { background: transparent; border: 0; padding: 0; cursor: 
 .nav-item[aria-current=page] { box-shadow: inset 3px 0 #bdd0dc, 0 6px 14px #091a2826; }
 .nori-panel-header, .nori-panel-form button { background: linear-gradient(145deg,#426d86,#173247); }
 .nori-panel-error, .portal-error { color: #173247; background: #eaf0f4; }
+
+/* ---------------------------------------------------------------------------
+   The welcome tour: a pop-up window where Nori walks a new student through
+   what their plan opened. Cartoony — thick borders, offset shadows, a speech
+   bubble with a tail — but in the same cream, navy and blue as the rest.
+   --------------------------------------------------------------------------- */
+.tour-scrim { position: fixed; inset: 0; z-index: 120; display: grid; place-items: center; padding: 20px; background: #0c1a2e70; backdrop-filter: blur(5px); animation: tour-fade .2s ease-out both; }
+.tour-card { width: min(680px, 100%); max-height: calc(100vh - 40px); overflow: auto; background: radial-gradient(ellipse at 100% 0%, #fdeadd, transparent 58%), linear-gradient(150deg, #fffdf7, #f7eee2); border: 2px solid #223d54; border-radius: 26px; box-shadow: 0 10px 0 #1e3650, 0 26px 48px #0c1a2e38; animation: tour-pop .26s cubic-bezier(.2,1.3,.5,1) both; }
+.tour-card:focus { outline: none; }
+.tour-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 20px 0; }
+.tour-kicker { font: 10px var(--font-geist-sans), Arial, sans-serif; letter-spacing: .16em; text-transform: uppercase; color: #245574; }
+.tour-close { font-size: 26px; line-height: 1; width: 32px; height: 32px; border-radius: 50%; color: #245574; background: #fff6ea; border: 1.5px solid #e3cdbb; box-shadow: 0 2px 0 #e0cab7; transition: transform .15s, background .15s; }
+.tour-close:hover { background: #ffeedd; transform: translateY(-1px); }
+.tour-body { display: grid; grid-template-columns: 220px 1fr; gap: 22px; align-items: center; padding: 10px 24px 4px; }
+.tour-stage { position: relative; padding-top: 52px; background: radial-gradient(ellipse at 50% 85%, color-mix(in srgb, var(--tour-accent) 16%, transparent), transparent 70%); }
+.tour-bubble { position: absolute; top: 0; left: 4px; right: 0; width: max-content; max-width: 200px; transform: rotate(-3deg); background: #fffdf7; border: 2px solid #223d54; border-radius: 16px 16px 16px 3px; padding: 10px 14px; font: 12.5px/1.5 var(--font-geist-sans), Arial, sans-serif; color: #245574; box-shadow: 0 3px 0 #223d5425; z-index: 2; }
+.tour-copy h2 { font: clamp(22px, 3vw, 30px)/1.12 var(--font-geist-sans), Arial, sans-serif; letter-spacing: -.02em; color: #0c1a2e; }
+.tour-copy p { font-size: 13.5px; line-height: 1.72; color: #3c4b58; margin-top: 12px; }
+.tour-link { display: inline-block; margin-top: 16px; font: 12px var(--font-geist-sans), Arial, sans-serif; letter-spacing: .04em; color: #245574; border-bottom: 2px solid #24557455; padding-bottom: 2px; transition: border-color .15s, color .15s; }
+.tour-link:hover { border-color: #245574; }
+.tour-link-muted { color: #6d716f; border-bottom-color: #6d716f44; }
+.tour-foot { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; padding: 14px 24px 20px; margin-top: 10px; border-top: 1.5px dashed #ddc8b6; }
+.tour-dots { display: flex; gap: 7px; }
+.tour-dot { width: 9px; height: 9px; border-radius: 50%; background: #e0cab7; border: 1px solid #d3b9a3; transition: background .15s, transform .15s; }
+.tour-dot.is-on { background: linear-gradient(#426d86, #245574); border-color: #245574; transform: scale(1.25); }
+.tour-controls { display: flex; align-items: center; gap: 10px; }
+.tour-back { font: 11px var(--font-geist-sans), Arial, sans-serif; letter-spacing: .12em; text-transform: uppercase; color: #245574; opacity: .7; padding: 10px 6px; transition: opacity .15s; }
+.tour-back:hover:not(:disabled) { opacity: 1; }
+.tour-back:disabled { opacity: .25; cursor: default; }
+.tour-next { font: 13px var(--font-geist-sans), Arial, sans-serif; color: #f5f1ea; padding: 12px 20px; border-radius: 12px; background: linear-gradient(160deg, #426d86, #245574); border: 1px solid #245574; border-top-color: #bdd0dc; box-shadow: inset 0 1px 0 #ffffff5c, 0 4px 0 #1b4157, 0 10px 18px #24557426; transition: transform .16s, box-shadow .16s, filter .16s; }
+.tour-next:hover { filter: brightness(1.05); transform: translateY(-2px); box-shadow: inset 0 1px 0 #ffffff70, 0 6px 0 #1b4157, 0 13px 22px #2455742e; }
+.tour-next:active { transform: translateY(2px); box-shadow: inset 0 1px 0 #ffffff5c, 0 1px 0 #1b4157; }
+
+/* Nori's poses. One drawing, tilted and bounced per step. */
+.nori-pose { position: relative; width: 100%; }
+.nori-pose-prop { position: absolute; top: 34px; left: 50%; transform: translateX(-50%); width: 64%; z-index: 1; }
+.nori-pose-art { position: relative; z-index: 0; filter: drop-shadow(0 12px 10px #2455741f); }
+.nori-pose-wave .nori-pose-art { animation: nori-wave 2.6s ease-in-out infinite; }
+.nori-pose-hop .nori-pose-art { animation: nori-hop 1.5s cubic-bezier(.3,.7,.4,1) infinite; }
+.nori-pose-point .nori-pose-art { transform: rotate(4deg) scale(1.03); animation: nori-nudge 2.2s ease-in-out infinite; }
+.nori-pose-lean .nori-pose-art { transform: rotate(-6deg); }
+.nori-pose-read .nori-pose-art { transform: rotate(2.5deg) translateY(4px); animation: nori-breathe 3.4s ease-in-out infinite; }
+
+@keyframes tour-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes tour-pop { from { opacity: 0; transform: translateY(18px) scale(.95); } to { opacity: 1; transform: none; } }
+@keyframes nori-wave { 0%,100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+@keyframes nori-hop { 0%,100% { transform: translateY(0) scaleY(1); } 18% { transform: translateY(2px) scaleY(.96); } 45% { transform: translateY(-14px) scaleY(1.04); } 70% { transform: translateY(0) scaleY(.98); } }
+@keyframes nori-nudge { 0%,100% { transform: rotate(4deg) scale(1.03); } 50% { transform: rotate(1deg) scale(1.03) translateY(-5px); } }
+@keyframes nori-breathe { 0%,100% { transform: rotate(2.5deg) translateY(4px); } 50% { transform: rotate(2.5deg) translateY(-2px); } }
+
+@media (max-width: 620px) {
+  .tour-body { grid-template-columns: 1fr; gap: 10px; padding: 8px 18px 0; }
+  .tour-stage { width: 72%; margin: 0 auto; }
+  .tour-foot { padding: 14px 18px 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tour-scrim, .tour-card { animation: none; }
+  .nori-pose-art { animation: none !important; }
+}
+
+/* The tour entry in the sidebar is a button, not a link — it opens a window
+   rather than navigating — so it has to be talked back into looking like one. */
+button.nav-item { width: 100%; text-align: left; background: none; border: none; cursor: pointer; font-family: inherit; font-size: 13px; }

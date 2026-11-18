@@ -5,6 +5,7 @@ import "./nori.css";
 import "./study-polish.css";
 import ActivityProvider from "@/components/ActivityProvider";
 import NoriCompanion from "@/components/NoriCompanion";
+import WelcomeTour from "@/components/WelcomeTour";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,7 +32,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col"><ActivityProvider>{children}<NoriCompanion/></ActivityProvider></body>
+      <body className="min-h-full flex flex-col"><ActivityProvider>{children}<NoriCompanion/><WelcomeTour/></ActivityProvider></body>
     </html>
   );
 }
