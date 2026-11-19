@@ -53,6 +53,69 @@
     "The unaided eye focuses light from a range of distances between its near point and its far point. In a myopic eye the far point is closer than infinity, so distant objects cannot be brought to a focus on the retina. In presbyopia the near point recedes with age as the lens stiffens, so close work becomes impossible even though distance vision may be unaffected.",
     "A patient is found to have a far point of 40 cm and, at a later visit some years on, a near point of 66.7 cm. A technician in the same clinic assembles a compound microscope from an objective of focal length 4.0 mm and an eyepiece of focal length 25 mm, with the tube length arranged so that the objective forms an image 160 mm beyond its focal point."
    ]
+  },
+  {
+   "id": "cp-p5",
+   "title": "An amperometric glucose biosensor",
+   "paragraphs": [
+    "A continuous glucose monitor measures current rather than concentration. Glucose oxidase immobilised on an electrode oxidises glucose to gluconolactone, releasing two electrons per molecule. Rather than passing those electrons to O₂, the sensor uses a ferricyanide mediator that is reduced to ferrocyanide at the enzyme and re-oxidised at the working electrode, so the current the instrument reads is proportional to the rate at which glucose is consumed.",
+    "The relevant standard reduction potentials at pH 7 are +0.36 V for the ferricyanide / ferrocyanide couple and -0.45 V for the gluconolactone / glucose couple. Standard free energy change and cell potential are related by ΔG = -nFE, with F = 96 485 C/mol. Away from standard conditions the cell potential follows the Nernst equation, which at 25 ° C takes the form E = E - (0.0592/n) log Q.",
+    "In a calibration run the instrument integrated the current over a fixed sampling window and recorded a total charge of 9.65 mC."
+   ],
+   "sources": [
+    {
+     "label": "NIST, electrochemical series reference data",
+     "url": "https://www.nist.gov/pml/productsservices/physical-reference-data"
+    }
+   ]
+  },
+  {
+   "id": "cp-p6",
+   "title": "Isolating a carboxylic acid drug",
+   "paragraphs": [
+    "A student is given a crude mixture containing a carboxylic acid drug with a pKa of 4.4, a neutral ester of similar molecular mass, and inorganic salts. The mixture is dissolved in diethyl ether and shaken with aqueous sodium bicarbonate in a separating funnel. The two layers are separated, the aqueous layer is acidified to pH 2 with hydrochloric acid, and a white solid precipitates.",
+    "The solid is purified and analysed. Its infrared spectrum shows a very broad absorption spanning roughly 2500 to 3300 wavenumbers together with a strong sharp band at 1710 wavenumbers. Its proton NMR spectrum shows a six-proton doublet, a one-proton multiplet, a two-proton doublet, and a one-proton signal far downfield that disappears when the sample is shaken with D2O.",
+    "Purity is checked by thin-layer chromatography on silica with an ether / hexane eluent. The sample spot travels 3.2 cm from the baseline while the solvent front travels 8.0 cm."
+   ]
+  },
+  {
+   "id": "cp-p7",
+   "title": "Calcium oxalate and kidney stones",
+   "paragraphs": [
+    "Most kidney stones are calcium oxalate. The solid dissolves according to CaC2O4(s) in equilibrium with Ca2+(aq) + C2O4 2-(aq), for which the solubility product at 37 ° C is approximately 2.3 × 10⁻⁹. Urine supersaturated in either ion favours crystal growth, which is why prevention targets the concentration of both rather than of the salt as a whole.",
+    "Oxalate is the conjugate base of oxalic acid, a diprotic acid whose second ionisation corresponds to a pKa of about 4.3. Urine pH in healthy adults ranges from roughly 4.5 to 8.0 depending on diet and time of day, so the fraction of dissolved oxalate present as the fully deprotonated ion varies substantially across the day. Dietary calcium complicates the picture: calcium eaten with a meal binds oxalate in the gut and reduces how much oxalate is absorbed, so restricting calcium can raise urinary oxalate rather than lower it.",
+    "Citrate is prescribed to some stone formers. It chelates calcium in urine, forming a soluble complex that holds calcium in solution and so lowers the free calcium available to the equilibrium above. It also raises urine pH, which has its own consequences for the oxalate equilibrium.",
+    "A clinician compares two laboratory samples: one of pure water saturated with calcium oxalate, and one of a 0.010 M calcium chloride solution saturated with the same salt. Both are held at 37 ° C."
+   ]
+  },
+  {
+   "id": "cp-p8",
+   "title": "Forces during walking",
+   "paragraphs": [
+    "A 70 kg adult walks across a force plate that records the vertical ground reaction force. The trace shows two peaks per step: the first as the foot accepts the body's weight, the second as the foot pushes off. Between them is a trough, during which the centre of mass passes over the planted foot and the vertical force dips below body weight. In normal walking the larger peak reaches about 1.2 times body weight. Take g as 9.8 m/s².",
+    "The centre of mass rises and falls by about 5 cm over each stride, reaching its highest point at the middle of stance and its lowest at the moment both feet are on the ground. A stride at a comfortable pace takes 0.60 s.",
+    "Walking is comparatively efficient because much of the energy lifted into the centre of mass on one half of the stride is recovered on the other, in the way a pendulum exchanges height for speed. The exchange is not perfect: the muscles must supply the shortfall each stride, and the shortfall grows as speed rises. Above roughly 2 m/s the exchange breaks down and most people switch to running, in which the elastic recoil of tendons replaces the pendulum as the energy store.",
+    "Running changes the force profile as well. The two peaks merge into a single, larger one, and the ground reaction force at a comfortable running pace reaches two to three times body weight."
+   ]
+  },
+  {
+   "id": "cp-p9",
+   "title": "The thermodynamics of folding",
+   "paragraphs": [
+    "A small globular protein folds reversibly between a folded and an unfolded state with no detectable intermediate, so the transition can be treated as a two-state equilibrium. Calorimetry on the folding transition gives an enthalpy change of -120 kJ/mol and an entropy change of -350 J/(mol K) for the protein itself, and both are roughly constant over the range studied. Spontaneity is set by ΔG = dH - T dS.",
+    "The negative entropy term is the cost of ordering a flexible chain into a single structure. An unfolded chain samples an enormous number of conformations; a folded one occupies essentially a single arrangement, and that collapse in accessible states is expensive.",
+    "It is paid for by the hydrophobic effect. Non-polar side chains in water force the surrounding molecules into ordered cages, and burying those side chains in the protein's core releases that caged water. The entropy gained is large, but it belongs to the solvent and so is not counted in the -350 J/(mol K) quoted above, which describes the protein alone. Hydrogen bonds and van der Waals contacts within the folded core supply most of the favourable enthalpy.",
+    "The protein unfolds when the folded state is no longer favoured. Because the entropy term is multiplied by temperature while the enthalpy term is not, the balance between them shifts as the protein is warmed."
+   ]
+  },
+  {
+   "id": "cp-p10",
+   "title": "The membrane as a circuit",
+   "paragraphs": [
+    "A patch of axonal membrane behaves electrically like a resistor and a capacitor in parallel. The lipid bilayer separates charge and so stores it, giving a membrane capacitance close to 1.0 microfarad per square centimetre in essentially every cell. Ion channels provide a conducting path across it; in a resting unmyelinated axon the membrane resistance is about 1.0 × 10⁴ ohm cm².",
+    "When current is injected, the membrane potential does not change instantly. It approaches its new value exponentially with a time constant given by the product of resistance and capacitance, which sets how quickly a synaptic input can change the potential and therefore how briefly two inputs can be separated and still add together.",
+    "Myelination wraps many layers of membrane around the axon. Capacitors in series combine so that the total capacitance is lower than any individual one, while the many layers also raise the resistance across the sheath."
+   ]
   }
  ],
  "questions": [
@@ -83,17 +146,17 @@
    "passageId": "cp-p1",
    "stem": "Patient X is acidotic. What is this patient's plasma pH?",
    "choices": {
-    "A": "7.22",
-    "B": "7.32",
-    "C": "7.42",
-    "D": "7.52"
+    "A": "7.12",
+    "B": "7.22",
+    "C": "7.32",
+    "D": "7.42"
    },
-   "correct": "B",
+   "correct": "C",
    "explanation": "The ratio is 12 / (0.03 × 24) = 12 / 0.72 = 16.7. Since log 16.7 falls between log 10 and log 20, the pH must fall between 7.10 and 7.40, which already eliminates two choices. Taking log 16.7 as about 1.22 gives 6.1 + 1.22 = 7.32.",
    "wrong": {
-    "A": "7.22 would need a ratio of about 13, which means dividing 12 by 0.9 rather than by 0.72.",
-    "C": "7.42 is above the normal value, but this patient has lost more bicarbonate proportionally than CO₂, so the ratio and the pH must both fall.",
-    "D": "7.52 describes an alkalosis. Both numbers are below their reference ranges here, and the bicarbonate has fallen by half while PCO₂ has fallen by only 40%."
+    "A": "7.12 uses the normal PCO₂ of 40 mmHg rather than this patient's 24 mmHg, which gives a ratio of 10 instead of 16.7.",
+    "B": "7.22 would need a ratio of about 13, which means dividing 12 by 0.9 rather than by 0.72.",
+    "D": "7.42 is above normal, but this patient has lost proportionally more bicarbonate than CO₂, so the ratio and the pH must both fall."
    },
    "category": "5E",
    "skill": "skill-4",
@@ -107,15 +170,15 @@
    "choices": {
     "A": "Patient W",
     "B": "Patient X",
-    "C": "Patient Y",
-    "D": "Patient Z"
+    "C": "Patient Z",
+    "D": "Patient Y"
    },
-   "correct": "C",
+   "correct": "D",
    "explanation": "Patient Y has a raised PCO₂ (60 mmHg), which is a respiratory disturbance because PCO₂ is set by ventilation, together with a bicarbonate above range (26 mmol/L). Renal compensation is the slow arm of the system described in the passage, so a bicarbonate that has risen to defend the ratio points to a respiratory problem of some standing.",
    "wrong": {
     "A": "Patient W has entirely normal values and so has no disturbance to compensate for.",
     "B": "Patient X has a low bicarbonate with a low PCO₂, which is a metabolic acidosis with respiratory compensation - the reverse of what is asked.",
-    "D": "Patient Z has a high bicarbonate with a low PCO₂. The primary problem is the metabolic alkalosis; a kidney compensating for a respiratory problem would not drive bicarbonate to 36 mmol/L."
+    "C": "Patient Z has a high bicarbonate with a low PCO₂. The primary problem is the metabolic alkalosis; a kidney compensating for a respiratory problem would not drive bicarbonate to 36 mmol/L."
    },
    "category": "5E",
    "skill": "skill-3",
@@ -149,16 +212,16 @@
    "passageId": "cp-p1",
    "stem": "The passage argues that a buffer is most effective when the solution pH equals the buffer pKa, yet the CO₂/HCO₃⁻ pair buffers plasma well at pH 7.40. The best explanation is that:",
    "choices": {
-    "A": "the apparent pKa of the pair rises to 7.4 at body temperature",
-    "B": "bicarbonate is present at a far higher concentration than any other plasma buffer",
-    "C": "ventilation removes the acid member of the pair, so its concentration does not rise as acid is added",
+    "A": "ventilation removes the acid member of the pair, so its concentration does not rise as acid is added",
+    "B": "the apparent pKa of the pair rises to 7.4 at body temperature",
+    "C": "bicarbonate is present at a far higher concentration than any other plasma buffer",
     "D": "plasma proteins and phosphate buffer the pH instead, leaving the CO₂/HCO₃⁻ pair unused"
    },
-   "correct": "C",
+   "correct": "A",
    "explanation": "The passage makes exactly this point: the system is open, and the respiratory centre holds the CO₂ term down rather than letting it climb. Closed-system buffer reasoning, which is where the pKa rule comes from, does not apply when one member is continuously vented.",
    "wrong": {
-    "A": "The passage gives the apparent pKa as 6.1 and does not describe it shifting with temperature; invoking an unstated shift is unnecessary once the open system is recognised.",
-    "B": "Bicarbonate's concentration contributes to buffer capacity, but a high concentration of a buffer far from its pKa still buffers poorly. Concentration alone does not resolve the paradox the passage raises.",
+    "B": "The passage gives the apparent pKa as 6.1 and does not describe it shifting with temperature; invoking an unstated shift is unnecessary once the open system is recognised.",
+    "C": "Bicarbonate's concentration contributes to buffer capacity, but a high concentration of a buffer far from its pKa still buffers poorly. Concentration alone does not resolve the paradox the passage raises.",
     "D": "Both do contribute, but the passage identifies the CO₂/HCO₃⁻ pair as dominant, so an explanation that sidelines it contradicts the text."
    },
    "category": "5E",
@@ -171,15 +234,15 @@
    "passageId": "cp-p2",
    "stem": "What does the gradient of a plot of ln k against 1/T give for the uncatalysed reaction?",
    "choices": {
-    "A": "-Eₐ/R, so a gradient of about -6.0 × 10³ K",
-    "B": "-Eₐ/R, so a gradient of about -4.2 × 10² K",
+    "A": "-Eₐ/R, so a gradient of about -4.2 × 10² K",
+    "B": "-Eₐ/R, so a gradient of about -6.0 × 10³ K",
     "C": "+Eₐ/R, so a gradient of about +6.0 × 10³ K",
     "D": "ln A, which is independent of temperature"
    },
-   "correct": "A",
+   "correct": "B",
    "explanation": "The passage gives the gradient as -Eₐ/R. With Eₐ = 50 000 J/mol and R = 8.314 J/(mol K), Eₐ/R = 6.0 × 10³ K, so the gradient is -6.0 × 10³ K. The sign is negative because the rate rises as 1/T falls.",
    "wrong": {
-    "B": "4.2 × 10² K comes from dividing 50 000 by 120 or similar; dividing by 8.314 gives roughly 6000, not 420.",
+    "A": "4.2 × 10² K comes from dividing 50 000 by 120 or similar; dividing by 8.314 gives roughly 6000, not 420.",
     "C": "The magnitude is right but the sign is wrong. Rearranged, ln k = ln A - Eₐ/(RT), so the coefficient of 1/T carries a minus sign.",
     "D": "ln A is the intercept of this plot, not its gradient."
    },
@@ -238,16 +301,16 @@
    "stem": "What best explains the second group's finding that the catalysed rate falls above about 320 K?",
    "choices": {
     "A": "The activation energy of the catalysed reaction rises with temperature",
-    "B": "The enzyme denatures, so the concentration of functional catalyst falls",
-    "C": "The reaction becomes endothermic above 320 K",
-    "D": "Substrate becomes limiting at higher temperature"
+    "B": "The reaction becomes endothermic above 320 K",
+    "C": "Substrate becomes limiting at higher temperature",
+    "D": "The enzyme denatures, so the concentration of functional catalyst falls"
    },
-   "correct": "B",
+   "correct": "D",
    "explanation": "Arrhenius behaviour predicts a monotonic rise, so a fall means the catalyst itself is being lost. Above a protein's melting range the tertiary structure unfolds and the active site is destroyed, and that loss outruns the Arrhenius gain.",
    "wrong": {
     "A": "Activation energy is a property of the reaction pathway, and treating it as temperature-dependent here invents a mechanism when a much simpler one fits.",
-    "C": "Whether a reaction is exothermic or endothermic is a thermodynamic property that does not flip at a particular temperature, and in any case it sets the position of equilibrium rather than the rate.",
-    "D": "The passage states that substrate was still in large excess, so saturation cannot explain the fall."
+    "B": "Whether a reaction is exothermic or endothermic is a thermodynamic property that does not flip at a particular temperature, and in any case it sets the position of equilibrium rather than the rate.",
+    "C": "The passage states that substrate was still in large excess, so saturation cannot explain the fall."
    },
    "category": "5E",
    "skill": "skill-3",
@@ -261,15 +324,15 @@
    "choices": {
     "A": "80% of its original value",
     "B": "64% of its original value",
-    "C": "41% of its original value",
-    "D": "20% of its original value"
+    "C": "20% of its original value",
+    "D": "41% of its original value"
    },
-   "correct": "C",
+   "correct": "D",
    "explanation": "Flow goes as r⁴, so the fraction remaining is 0.8⁴ = 0.41. This is the single most useful consequence of Poiseuille's relation: a fifth off the radius costs nearly 60% of the flow.",
    "wrong": {
     "A": "80% treats flow as proportional to radius. The fourth power is the whole point of the relation.",
     "B": "64% is 0.8³, which would be the answer if flow went as r³.",
-    "D": "20% confuses the fraction lost from the radius with the fraction of flow remaining."
+    "C": "20% confuses the fraction lost from the radius with the fraction of flow remaining."
    },
    "category": "4B",
    "skill": "skill-2",
@@ -282,16 +345,16 @@
    "stem": "What is the blood velocity inside the narrowed segment?",
    "choices": {
     "A": "0.12 m/s",
-    "B": "0.75 m/s",
-    "C": "1.9 m/s",
-    "D": "4.7 m/s"
+    "B": "0.30 m/s",
+    "C": "0.75 m/s",
+    "D": "1.9 m/s"
    },
-   "correct": "B",
+   "correct": "C",
    "explanation": "Continuity applies to area, and the passage gives the area as 40% of healthy. So v₂ = v₁ x (A₁/A₂) = 0.30 × (1/0.40) = 0.75 m/s. Note that the area ratio is used once: squaring it would be appropriate only if the passage had given a radius ratio.",
    "wrong": {
-    "A": "0.12 m/s multiplies by 0.40 instead of dividing by it, which would have fluid slowing down as the vessel narrows - impossible if the same volume must pass each second.",
-    "C": "1.9 m/s squares the area ratio, giving 2.5² = 6.25. That step converts a radius ratio into an area ratio, but the passage has already given the area.",
-    "D": "4.7 m/s raises the ratio to the fourth power, which belongs to the flow-versus-radius relation and not to continuity."
+    "A": "0.12 m/s multiplies by 0.40 instead of dividing by it, which would have fluid slowing as the vessel narrows - impossible if the same volume passes each second.",
+    "B": "0.30 m/s is the velocity in the healthy segment, unchanged. Continuity requires that it rise where the area falls.",
+    "D": "1.9 m/s squares the area ratio. Squaring converts a radius ratio into an area ratio, but the passage has already given the area."
    },
    "category": "4B",
    "skill": "skill-4",
@@ -415,20 +478,614 @@
    "choices": {
     "A": "40x",
     "B": "100x",
-    "C": "400x",
-    "D": "4000x"
+    "C": "4000x",
+    "D": "400x"
    },
-   "correct": "C",
+   "correct": "D",
    "explanation": "The objective contributes image distance over focal length, 160 / 4.0 = 40x. The eyepiece acts as a magnifier contributing 250 / 25 = 10x with both lengths in millimetres. Multiplying gives about 400x.",
    "wrong": {
     "A": "40x is the objective alone.",
     "B": "100x would need an eyepiece contribution of 2.5x rather than 10x.",
-    "D": "4000x comes from a factor-of-ten slip, most often from mixing millimetres and centimetres in the eyepiece term."
+    "C": "4000x comes from a factor-of-ten slip, most often from mixing millimetres and centimetres in the eyepiece term."
    },
    "category": "4D",
    "skill": "skill-4",
    "difficulty": "medium",
    "unit": "16"
+  },
+  {
+   "id": "cp-p5-q1",
+   "passageId": "cp-p5",
+   "stem": "What is the standard cell potential of this sensor?",
+   "choices": {
+    "A": "0.09 V",
+    "B": "0.45 V",
+    "C": "0.81 V",
+    "D": "1.26 V"
+   },
+   "correct": "C",
+   "explanation": "Cell potential is the cathode's reduction potential minus the anode's. Ferricyanide is reduced at the electrode and glucose is oxidised, so E = 0.36 - (-0.45) = 0.81 V. Subtracting a negative number is where most slips happen here.",
+   "wrong": {
+    "A": "0.09 V adds the two values instead of subtracting, which drops the sign on the glucose couple.",
+    "B": "0.45 V is the glucose couple alone with its sign flipped, and ignores the mediator entirely.",
+    "D": "1.26 V adds 0.36 to 0.90, doubling the glucose term."
+   },
+   "category": "4C",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "14"
+  },
+  {
+   "id": "cp-p5-q2",
+   "passageId": "cp-p5",
+   "stem": "What is the standard free energy change for the reaction as written, per mole of glucose?",
+   "choices": {
+    "A": "+156 kJ/mol",
+    "B": "-78 kJ/mol",
+    "C": "-156 kJ/mol",
+    "D": "-313 kJ/mol"
+   },
+   "correct": "C",
+   "explanation": "ΔG = -nFE with n = 2 and E = 0.81 V gives -(2)(96 485)(0.81) = -1.56 × 10⁵ J/mol, or -156 kJ/mol. A positive cell potential must give a negative ΔG, which is the sign check worth doing before the arithmetic.",
+   "wrong": {
+    "A": "The sign is wrong. A spontaneous cell has a positive potential and therefore a negative free energy change.",
+    "B": "-78 kJ/mol uses n = 1. The passage states that two electrons are released per glucose.",
+    "D": "-313 kJ/mol uses n = 4, which would be two glucose molecules rather than one."
+   },
+   "category": "4C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "14"
+  },
+  {
+   "id": "cp-p5-q3",
+   "passageId": "cp-p5",
+   "stem": "At which electrode does glucose react, and what is that electrode called?",
+   "choices": {
+    "A": "The working electrode; it is the cathode",
+    "B": "The working electrode; it is the anode",
+    "C": "The enzyme layer; it is the cathode",
+    "D": "The enzyme layer; it is the anode"
+   },
+   "correct": "D",
+   "explanation": "Oxidation defines the anode, and glucose is oxidised at the immobilised enzyme layer. The electrons then travel via the mediator to the working electrode, where ferricyanide is reduced - that electrode is the cathode.",
+   "wrong": {
+    "A": "Glucose does not react at the working electrode; the mediator does. And oxidation never happens at a cathode.",
+    "B": "The electrode is correctly named an anode here, but the passage places the glucose reaction at the enzyme, not at the working electrode.",
+    "C": "The site is right but the name is wrong: oxidation happens at an anode, by definition."
+   },
+   "category": "4C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "14"
+  },
+  {
+   "id": "cp-p5-q4",
+   "passageId": "cp-p5",
+   "stem": "If the ratio of ferrocyanide to ferricyanide at the working electrode rose by a factor of ten, the cell potential would fall by approximately:",
+   "choices": {
+    "A": "0.015 V",
+    "B": "0.030 V",
+    "C": "0.059 V",
+    "D": "0.118 V"
+   },
+   "correct": "B",
+   "explanation": "A tenfold change in Q changes log Q by exactly 1, so the Nernst term changes by 0.0592/n. With n = 2 that is 0.0296 V, about 0.030 V. Recognising that one factor of ten costs 0.0592/n volts saves the whole calculation.",
+   "wrong": {
+    "A": "0.015 V uses n = 4, which would be four electrons per glucose. The passage gives two, and n sits in the denominator, so halving it doubles the shift rather than halving it.",
+    "C": "0.059 V is the n = 1 value. This cell passes two electrons.",
+    "D": "0.118 V doubles the n = 1 value rather than halving it; n appears in the denominator."
+   },
+   "category": "4C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "14"
+  },
+  {
+   "id": "cp-p5-q5",
+   "passageId": "cp-p5",
+   "stem": "How many moles of glucose were consumed during the calibration window?",
+   "choices": {
+    "A": "2.5 × 10⁻⁸ mol",
+    "B": "5.0 × 10⁻⁸ mol",
+    "C": "1.0 × 10⁻⁷ mol",
+    "D": "2.0 × 10⁻⁷ mol"
+   },
+   "correct": "B",
+   "explanation": "Charge divided by Faraday's constant gives moles of electrons: 9.65 × 10⁻³ / 96 485 = 1.00 × 10⁻⁷ mol. Each glucose releases two electrons, so the glucose consumed is half that, 5.0 × 10⁻⁸ mol.",
+   "wrong": {
+    "A": "2.5 × 10⁻⁸ mol divides by four rather than by two.",
+    "C": "1.0 × 10⁻⁷ mol is the moles of electrons, not of glucose. The last step is the one being tested.",
+    "D": "2.0 × 10⁻⁷ mol multiplies by two instead of dividing, which would be right only if two electrons made two glucose."
+   },
+   "category": "4C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "14"
+  },
+  {
+   "id": "cp-p6-q1",
+   "passageId": "cp-p6",
+   "stem": "After the first extraction, where is the drug, and why?",
+   "choices": {
+    "A": "In the ether layer, because carboxylic acids are more soluble in organic solvents",
+    "B": "In the aqueous layer, because bicarbonate protonates it to a charged species",
+    "C": "Distributed evenly, because its pKa is close to the pH of bicarbonate solution",
+    "D": "In the aqueous layer, because bicarbonate deprotonates it to a charged carboxylate"
+   },
+   "correct": "D",
+   "explanation": "Sodium bicarbonate solution sits near pH 8, well above the drug's pKa of 4.4, so the acid is almost entirely deprotonated. The resulting carboxylate carries a charge and partitions into the water. Acidifying afterwards reprotonates it, which is why the solid then precipitates.",
+   "wrong": {
+    "A": "The neutral acid would favour ether, but bicarbonate converts it to its charged conjugate base first.",
+    "B": "Bicarbonate is a base in this reaction; it removes a proton rather than adding one.",
+    "C": "PH 8 is more than three units above the pKa, so the ratio of base to acid is over a thousand to one - not an even split."
+   },
+   "category": "5C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp-p6-q2",
+   "passageId": "cp-p6",
+   "stem": "The very broad absorption from 2500 to 3300 wavenumbers is best assigned to:",
+   "choices": {
+    "A": "the O-H stretch of a carboxylic acid",
+    "B": "the N-H stretch of a primary amine",
+    "C": "the C-H stretch of an aromatic ring",
+    "D": "the C=O stretch of an ester"
+   },
+   "correct": "A",
+   "explanation": "A carboxylic acid O-H gives an unusually broad band over roughly this range because of strong hydrogen-bonded dimers, and it appears alongside the carbonyl band at 1710. Together those two features are close to diagnostic.",
+   "wrong": {
+    "B": "A primary amine gives two comparatively sharp bands near 3300, not a band hundreds of wavenumbers wide.",
+    "C": "Aromatic C-H stretches are sharp and sit just above 3000.",
+    "D": "A C=O stretch is the sharp band at 1710, a different feature of the same spectrum."
+   },
+   "category": "5D",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "13"
+  },
+  {
+   "id": "cp-p6-q3",
+   "passageId": "cp-p6",
+   "stem": "What is the retention factor of the sample on the TLC plate?",
+   "choices": {
+    "A": "0.25",
+    "B": "0.32",
+    "C": "0.40",
+    "D": "2.5"
+   },
+   "correct": "C",
+   "explanation": "Retention factor is the distance travelled by the spot divided by the distance travelled by the solvent front: 3.2 / 8.0 = 0.40. It cannot exceed 1, since the spot cannot outrun the solvent carrying it.",
+   "wrong": {
+    "A": "0.25 inverts part of the ratio or misreads which distance is which.",
+    "B": "0.32 divides the spot distance by 10 cm rather than by the 8.0 cm the solvent front actually travelled.",
+    "D": "2.5 divides the solvent front by the spot. A retention factor above 1 is impossible, since the spot cannot outrun the solvent carrying it."
+   },
+   "category": "5C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp-p6-q4",
+   "passageId": "cp-p6",
+   "stem": "The one-proton signal that disappears on shaking with D2O is:",
+   "choices": {
+    "A": "the methine proton",
+    "B": "the carboxylic acid proton",
+    "C": "one of the methyl protons",
+    "D": "an aromatic proton"
+   },
+   "correct": "B",
+   "explanation": "Protons on oxygen exchange rapidly with deuterium from D2O, so the signal vanishes. The acid proton is the only exchangeable one here, and it is also the furthest downfield, which matches the description.",
+   "wrong": {
+    "A": "A methine proton is bound to carbon and does not exchange.",
+    "C": "Methyl protons are bound to carbon, do not exchange, and would integrate for six rather than one.",
+    "D": "Aromatic protons are bound to carbon and do not exchange."
+   },
+   "category": "5D",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "13"
+  },
+  {
+   "id": "cp-p6-q5",
+   "passageId": "cp-p6",
+   "stem": "The six-proton doublet is most consistent with:",
+   "choices": {
+    "A": "a single methyl group adjacent to a methylene",
+    "B": "three equivalent methylene groups",
+    "C": "two equivalent methyl groups on a carbon bearing one hydrogen",
+    "D": "two methyl groups on a quaternary carbon"
+   },
+   "correct": "C",
+   "explanation": "Six equivalent protons means two equivalent methyl groups. Their appearance as a doublet means exactly one neighbouring proton, so those methyls sit on a carbon that itself bears a single hydrogen - an isopropyl group, which also accounts for the one-proton multiplet.",
+   "wrong": {
+    "A": "A single methyl integrates for three, not six, and would appear as a triplet next to a methylene.",
+    "B": "Three methylene groups would integrate for six but would not appear as a clean doublet, and there is no such arrangement in a molecule this small.",
+    "D": "Methyls on a quaternary carbon have no neighbouring protons, so they would be a singlet."
+   },
+   "category": "5D",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp-p7-q1",
+   "passageId": "cp-p7",
+   "stem": "What is the molar solubility of calcium oxalate in pure water at this temperature?",
+   "choices": {
+    "A": "2.3 × 10⁻⁹ M",
+    "B": "4.8 × 10⁻⁵ M",
+    "C": "1.5 × 10⁻³ M",
+    "D": "4.8 × 10⁻³ M"
+   },
+   "correct": "B",
+   "explanation": "For a 1:1 salt, Ksp = s², so s is the square root of 2.3 × 10⁻⁹. Since the square root of 23 × 10⁻¹⁰ is about 4.8 × 10⁻⁵, that is the molar solubility.",
+   "wrong": {
+    "A": "2.3 × 10⁻⁹ M is the solubility product itself, not the solubility. They have different units and different meanings.",
+    "C": "1.5 × 10⁻³ M is roughly the cube root rather than the square root, which would suit a salt releasing three ions.",
+    "D": "4.8 × 10⁻³ M is off by two orders of magnitude, which comes from halving the exponent of 2.3 × 10⁻⁹ without care."
+   },
+   "category": "5A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "12"
+  },
+  {
+   "id": "cp-p7-q2",
+   "passageId": "cp-p7",
+   "stem": "What is the molar solubility of calcium oxalate in the 0.010 M calcium chloride solution?",
+   "choices": {
+    "A": "2.3 × 10⁻¹¹ M",
+    "B": "2.3 × 10⁻⁷ M",
+    "C": "4.8 × 10⁻⁵ M",
+    "D": "2.3 × 10⁻⁵ M"
+   },
+   "correct": "B",
+   "explanation": "Calcium is already present at 0.010 M, which swamps the small amount the salt contributes. So Ksp = (0.010)(s) and s = 2.3 × 10⁻⁹ / 0.010 = 2.3 × 10⁻⁷ M. The common ion has cut solubility by more than two hundredfold.",
+   "wrong": {
+    "A": "2.3 × 10⁻¹¹ M multiplies by 0.010 rather than dividing, which would make the salt less soluble still.",
+    "C": "4.8 × 10⁻⁵ M is the pure-water value and ignores the common ion entirely.",
+    "D": "2.3 × 10⁻⁵ M divides by 10⁻⁴ rather than by 10⁻²."
+   },
+   "category": "5A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "12"
+  },
+  {
+   "id": "cp-p7-q3",
+   "passageId": "cp-p7",
+   "stem": "A patient's urine pH falls from 7.0 to 4.5. The effect on calcium oxalate solubility is to:",
+   "choices": {
+    "A": "increase it, because protonation of oxalate lowers the free oxalate concentration",
+    "B": "increase it, because calcium is displaced by protons from the crystal lattice",
+    "C": "decrease it, because the solubility product falls as pH falls",
+    "D": "leave it unchanged, because the solubility product does not depend on pH"
+   },
+   "correct": "A",
+   "explanation": "At pH 4.5 a substantial fraction of oxalate is protonated to hydrogen oxalate, since the relevant pKa is 4.3. Removing free oxalate from solution pulls the dissolution equilibrium to the right, so more solid dissolves.",
+   "wrong": {
+    "B": "Protons do not exchange for calcium in the lattice; the pH effect acts on the oxalate ion in solution.",
+    "C": "A solubility product is an equilibrium constant and does not change with pH; only the concentrations do.",
+    "D": "The constant is indeed fixed, but the free oxalate concentration is not, and that is what shifts the equilibrium."
+   },
+   "category": "5A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "12"
+  },
+  {
+   "id": "cp-p7-q4",
+   "passageId": "cp-p7",
+   "stem": "The solubility product of calcium oxalate is best described as:",
+   "choices": {
+    "A": "the rate at which the solid dissolves",
+    "B": "the concentration of solid in equilibrium with its ions",
+    "C": "the mass of salt that dissolves in one litre",
+    "D": "the equilibrium constant for the dissolution of the solid"
+   },
+   "correct": "D",
+   "explanation": "A solubility product is an equilibrium constant written for the dissolution reaction, so it is the product of the dissolved ion concentrations at equilibrium. The solid itself does not appear, which is why its amount never enters the expression.",
+   "wrong": {
+    "A": "Equilibrium constants say nothing about rate. A salt with a tiny Ksp can dissolve quickly up to its limit.",
+    "B": "A pure solid has no meaningful concentration term and is omitted from the expression.",
+    "C": "That describes solubility in grams per litre, which depends on molar mass as well."
+   },
+   "category": "5A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "12"
+  },
+  {
+   "id": "cp-p8-q1",
+   "passageId": "cp-p8",
+   "stem": "What is the adult's weight?",
+   "choices": {
+    "A": "686 N",
+    "B": "7.1 N",
+    "C": "70 N",
+    "D": "6860 N"
+   },
+   "correct": "A",
+   "explanation": "Weight is mass times gravitational field strength: 70 × 9.8 = 686 N. Mass in kilograms and weight in newtons are different quantities, and the factor between them here is about ten.",
+   "wrong": {
+    "B": "7.1 N divides by g instead of multiplying.",
+    "C": "70 N is the mass in kilograms with the wrong unit attached.",
+    "D": "6860 N uses g = 98 m/s², a factor of ten too large."
+   },
+   "category": "4A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "15"
+  },
+  {
+   "id": "cp-p8-q2",
+   "passageId": "cp-p8",
+   "stem": "What is the approximate magnitude of the larger ground reaction force peak?",
+   "choices": {
+    "A": "84 N",
+    "B": "686 N",
+    "C": "823 N",
+    "D": "1370 N"
+   },
+   "correct": "C",
+   "explanation": "The passage gives the peak as 1.2 times body weight, so 1.2 × 686 = 823 N. The useful idea is that walking is not static: the ground must push harder than body weight to decelerate a falling centre of mass.",
+   "wrong": {
+    "A": "84 N is 1.2 times the mass in kilograms, which is not a force.",
+    "B": "686 N is body weight itself, which is what the force would be only if the person stood still.",
+    "D": "1370 N is twice body weight, which is nearer a running peak than a walking one."
+   },
+   "category": "4A",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "15"
+  },
+  {
+   "id": "cp-p8-q3",
+   "passageId": "cp-p8",
+   "stem": "How much work is done against gravity raising the centre of mass during one stride?",
+   "choices": {
+    "A": "3.4 J",
+    "B": "17 J",
+    "C": "34 J",
+    "D": "343 J"
+   },
+   "correct": "C",
+   "explanation": "Work against gravity is mgh: 70 × 9.8 × 0.05 = 34.3 J. The commonest error is leaving the height in centimetres, which inflates the answer a hundredfold.",
+   "wrong": {
+    "A": "3.4 J is a factor of ten low, usually from using 0.005 m for the height.",
+    "B": "17 J halves the height, which would be right only if the 5 cm were the full peak-to-peak range and the lift were half of it. The passage gives the rise itself.",
+    "D": "343 J uses h = 0.5 m rather than 0.05 m."
+   },
+   "category": "4A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "15"
+  },
+  {
+   "id": "cp-p8-q4",
+   "passageId": "cp-p8",
+   "stem": "What average power is required for that lifting, over a single stride?",
+   "choices": {
+    "A": "21 W",
+    "B": "57 W",
+    "C": "206 W",
+    "D": "572 W"
+   },
+   "correct": "B",
+   "explanation": "Power is work over time: 34.3 J in 0.60 s is about 57 W. Dividing by a number less than one must increase the value, which rules out the smaller choice immediately.",
+   "wrong": {
+    "A": "21 W multiplies by 0.60 instead of dividing by it.",
+    "C": "206 W divides the work by 0.166 s, which would be a stride rate of six per second.",
+    "D": "572 W compounds a unit slip in the work term with the division."
+   },
+   "category": "4A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "15"
+  },
+  {
+   "id": "cp-p8-q5",
+   "passageId": "cp-p8",
+   "stem": "The passage compares walking to a pendulum. The point of the comparison is that:",
+   "choices": {
+    "A": "the leg swings at its natural frequency, so no muscular work is needed at all",
+    "B": "the centre of mass moves in a straight line, minimising work",
+    "C": "the ground reaction force stays equal to body weight throughout",
+    "D": "gravitational potential energy and kinetic energy are exchanged, so less energy must be supplied each stride"
+   },
+   "correct": "D",
+   "explanation": "A pendulum trades height for speed and back again, and the passage says walking recovers much of the energy lifted into the centre of mass. That exchange is why the metabolic cost of walking is far below the work that would be needed to lift and lower the body from scratch each step.",
+   "wrong": {
+    "A": "Some recovery does not mean complete recovery; muscles still do work every stride, which is why walking is tiring.",
+    "B": "The passage states the centre of mass rises and falls by about 5 cm, so it does not travel in a straight line.",
+    "C": "The passage gives a peak of 1.2 times body weight, so the force plainly varies."
+   },
+   "category": "4A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "15"
+  },
+  {
+   "id": "cp-p9-q1",
+   "passageId": "cp-p9",
+   "stem": "What is ΔG for folding at body temperature, 310 K?",
+   "choices": {
+    "A": "+228 kJ/mol",
+    "B": "+11.5 kJ/mol",
+    "C": "-11.5 kJ/mol",
+    "D": "-120 kJ/mol"
+   },
+   "correct": "C",
+   "explanation": "ΔG = dH - T dS = -120 000 - (310)(-350) = -120 000 + 108 500 = -11 500 J/mol, so -11.5 kJ/mol. Note that the entropy term must be converted from joules to match, and that subtracting a negative adds.",
+   "wrong": {
+    "A": "+228 kJ/mol adds the two magnitudes, which drops the sign on the enthalpy term.",
+    "B": "The sign is wrong, which usually comes from subtracting 108 500 rather than adding it. Subtracting a negative adds.",
+    "D": "-120 kJ/mol is the enthalpy alone and ignores the entropy term entirely."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "11"
+  },
+  {
+   "id": "cp-p9-q2",
+   "passageId": "cp-p9",
+   "stem": "Above approximately what temperature does the protein unfold?",
+   "choices": {
+    "A": "298 K",
+    "B": "310 K",
+    "C": "343 K",
+    "D": "373 K"
+   },
+   "correct": "C",
+   "explanation": "Unfolding begins where ΔG for folding reaches zero, so T = dH / dS = 120 000 / 350 = 343 K, about 70 ° C. Above that the unfavourable entropy term outweighs the favourable enthalpy term and the folded state is no longer stable.",
+   "wrong": {
+    "A": "298 K is standard room temperature and has nothing to do with this protein's numbers.",
+    "B": "310 K is body temperature, where the previous calculation shows the free energy change is still negative and the protein is folded.",
+    "D": "373 K is the boiling point of water, not a value derived from the enthalpy and entropy given."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "11"
+  },
+  {
+   "id": "cp-p9-q3",
+   "passageId": "cp-p9",
+   "stem": "The entropy change for the protein itself is negative because:",
+   "choices": {
+    "A": "a folded chain has far fewer accessible conformations than an unfolded one",
+    "B": "heat is released as the protein folds",
+    "C": "water molecules become more ordered around the folded protein",
+    "D": "the folded state has lower energy"
+   },
+   "correct": "A",
+   "explanation": "Entropy counts accessible microstates. An unfolded chain can adopt an enormous number of conformations and a folded one essentially adopts a single structure, so folding reduces the protein's own entropy sharply.",
+   "wrong": {
+    "B": "Released heat is the enthalpy term, which is a separate quantity.",
+    "C": "The passage says the opposite: ordered water is released on burying hydrophobic side chains, and in any case that entropy is counted in the solvent.",
+    "D": "Lower energy describes enthalpy, not entropy. The two are independent in this expression."
+   },
+   "category": "5E",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "11"
+  },
+  {
+   "id": "cp-p9-q4",
+   "passageId": "cp-p9",
+   "stem": "A mutation makes folding more exothermic without changing the entropy of folding. Compared with the original protein, the mutant will:",
+   "choices": {
+    "A": "unfold at a lower temperature",
+    "B": "unfold at the same temperature, because dS is unchanged",
+    "C": "not fold at all",
+    "D": "unfold at a higher temperature"
+   },
+   "correct": "D",
+   "explanation": "The unfolding temperature is dH / dS. Making dH more negative increases the magnitude of that ratio, so the temperature at which the entropy term finally wins is higher. A more exothermic folding reaction buys thermal stability.",
+   "wrong": {
+    "A": "That would follow from a smaller enthalpy magnitude, not a larger one.",
+    "B": "The temperature depends on both terms, so changing either moves it.",
+    "C": "A more favourable enthalpy makes folding more spontaneous, not less."
+   },
+   "category": "5E",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "11"
+  },
+  {
+   "id": "cp-p10-q1",
+   "passageId": "cp-p10",
+   "stem": "What is the membrane time constant for this patch?",
+   "choices": {
+    "A": "1.0 × 10⁻² ms",
+    "B": "1.0 ms",
+    "C": "10 ms",
+    "D": "100 ms"
+   },
+   "correct": "C",
+   "explanation": "The time constant is the product of resistance and capacitance: (1.0 × 10⁴ ohm cm²(1.0 × 10⁻⁶ F/cm² = 1.0 × 10⁻² s, which is 10 ms. The area units cancel, which is the clue that the two quantities are meant to be multiplied as given.",
+   "wrong": {
+    "A": "1.0 × 10⁻² ms is the answer in seconds mislabelled as milliseconds, a factor of a thousand out.",
+    "B": "1.0 ms would need either a tenfold smaller resistance or a tenfold smaller capacitance.",
+    "D": "100 ms is ten times too large, usually from taking the capacitance as 10 microfarads."
+   },
+   "category": "4C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "17"
+  },
+  {
+   "id": "cp-p10-q2",
+   "passageId": "cp-p10",
+   "stem": "Compared with an unmyelinated axon, a myelinated one has a membrane time constant that is:",
+   "choices": {
+    "A": "shorter, because both capacitance and resistance fall",
+    "B": "longer, because resistance rises and capacitance is unchanged",
+    "C": "shorter, because capacitance falls more than resistance rises",
+    "D": "unchanged, because resistance and capacitance change by the same factor"
+   },
+   "correct": "C",
+   "explanation": "Myelin cuts capacitance sharply, since capacitors in series give a total smaller than any one of them, while resistance rises. The net effect in real axons is a shorter time constant and faster conduction, which is the point of myelin.",
+   "wrong": {
+    "A": "The passage states that the many layers raise resistance; they do not lower it.",
+    "B": "Capacitance is not unchanged - the passage makes the series combination explicit.",
+    "D": "If the two changed by the same factor in the same direction the product would move, not stay put; and here they move in opposite directions."
+   },
+   "category": "4C",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "17"
+  },
+  {
+   "id": "cp-p10-q3",
+   "passageId": "cp-p10",
+   "stem": "Three identical resistors are connected in parallel. The resistance of the combination is:",
+   "choices": {
+    "A": "three times that of one resistor",
+    "B": "one third that of one resistor",
+    "C": "equal to that of one resistor",
+    "D": "the square root of that of one resistor"
+   },
+   "correct": "B",
+   "explanation": "Parallel paths add conductance, so n identical resistors in parallel give R/n. Physically, opening more channels across a membrane gives current more routes and so lowers resistance - which is exactly what channel opening does.",
+   "wrong": {
+    "A": "Three times is the series result.",
+    "C": "Adding a parallel path always lowers resistance below that of the single path.",
+    "D": "No combination rule produces a square root."
+   },
+   "category": "4C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "17"
+  },
+  {
+   "id": "cp-p10-q4",
+   "passageId": "cp-p10",
+   "stem": "Two synaptic inputs arriving 5 ms apart sum more effectively in this unmyelinated patch than two arriving 50 ms apart because:",
+   "choices": {
+    "A": "the membrane potential from the first input has decayed little after one half of a time constant",
+    "B": "the second input is larger when it arrives sooner",
+    "C": "the membrane resistance falls between the two inputs",
+    "D": "capacitance increases with the frequency of stimulation"
+   },
+   "correct": "A",
+   "explanation": "With a time constant of 10 ms, 5 ms is half a time constant and the first input has lost only a fraction of its effect, so the two add. After 50 ms, five time constants have passed and almost nothing of the first input remains. This is temporal summation, and the time constant sets its window.",
+   "wrong": {
+    "B": "The size of an input is set by the synapse, not by when it arrives.",
+    "C": "Nothing in the passage changes resistance between inputs, and a fall in resistance would shorten the window rather than explain the summation.",
+    "D": "Membrane capacitance is fixed by the bilayer at about 1 microfarad per square centimetre and does not vary with stimulation."
+   },
+   "category": "4C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "17"
   }
  ]
 }
