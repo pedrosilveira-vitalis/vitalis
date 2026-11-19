@@ -8,7 +8,7 @@ import StudyIcon from './StudyIcon';
 import { TOUR_EVENT } from './WelcomeTour';
 const groups = [
  { title: 'Your workspace', links: [{href:'/',label:'Home',icon:'home'},{href:'/study-plan',label:'Study planner',icon:'calendar'},{href:'/tutor',label:'Ask Nori',icon:'tutor'},{href:'/calls',label:'Your calls',icon:'calendar'}]},
- { title: 'Learn & practice', links: [{href:'/study',label:'Study guides',icon:'book'},{href:'/cheatsheets',label:'Cheat sheets',icon:'cards'},{href:'/practice',label:'Practice questions',icon:'practice'},{href:'/exams',label:'Full-length exams',icon:'score'},{href:'/flagged',label:'Flagged questions',icon:'book'},{href:'/flashcards',label:'Flashcards',icon:'cards'}]},
+ { title: 'Learn & practice', links: [{href:'/study',label:'Study guides',icon:'book'},{href:'/cheatsheets',label:'Cheat sheets',icon:'cards'},{href:'/practice',label:'Practice questions',icon:'practice'},{href:'/exams',label:'Full-length exams',icon:'score'},{href:'/exams/scores',label:'Score history',icon:'score'},{href:'/flagged',label:'Flagged questions',icon:'book'},{href:'/flashcards',label:'Flashcards',icon:'cards'}]},
  { title: 'Explore', links: [{href:'/resume',label:'Résumé builder',icon:'book'},{href:'/medical-news',label:'Medical news',icon:'book'},{href:'/voice-cases',label:'Voice cases',icon:'voice'},{href:'/score-calculator',label:'Score calculator',icon:'score'}]},
 ];
 const adminGroup = { title: 'Admin', links: [{href:'/admin',label:'Students & revenue',icon:'score'},{href:'/admin/calls',label:'Schedule sessions',icon:'calendar'}]};

@@ -6,7 +6,7 @@ import MainNav from "@/components/MainNav";
 import StudyIcon from "@/components/StudyIcon";
 
 type Progress = { id: string; short: string; written: number; needed: number };
-type Exam = { id: string; name: string; number: number; blurb: string; ready: boolean; written: number; needed: number; progress: Progress[] };
+type Exam = { id: string; name: string; number: number; blurb: string; ready: boolean; free: boolean; allowed: boolean; written: number; needed: number; progress: Progress[] };
 type LiveAttempt = { status: "live"; examId: string; attemptId: string; startedAt: string; sectionIndex: number };
 type ScoredAttempt = { status: "scored"; examId: string; attemptId: string; finishedAt: string; total: number; low: number; high: number; sections: { short: string; scaled: number }[] };
 type Attempt = LiveAttempt | ScoredAttempt;
@@ -58,7 +58,10 @@ export default function ExamsPage() {
             return (
               <article key={exam.id} className="exam-card">
                 <div className="exam-card-head">
-                  <span className="eyebrow">FULL-LENGTH {exam.number}</span>
+                  <span className="eyebrow">
+                    FULL-LENGTH {exam.number}
+                    {exam.free ? <em className="exam-free-tag">Free</em> : null}
+                  </span>
                   <h2>{exam.name}</h2>
                   <p>{exam.blurb}</p>
                 </div>
@@ -105,12 +108,14 @@ export default function ExamsPage() {
                     <Link href="/sign-in" className="button-primary">
                       Sign in <StudyIcon name="arrow" />
                     </Link>
-                  ) : !data.allowed ? (
+                  ) : !exam.allowed ? (
                     <>
                       <Link href="/plans" className="button-primary">
-                        Full-lengths are part of Complete <StudyIcon name="arrow" />
+                        Unlock with Complete <StudyIcon name="arrow" />
                       </Link>
-                      <span className="exam-card-note">Both exams and their score reports are included.</span>
+                      <span className="exam-card-note">
+                        Full-Length 1 is free with your account. Complete adds the other four and their score reports.
+                      </span>
                     </>
                   ) : live ? (
                     <>
@@ -141,6 +146,10 @@ export default function ExamsPage() {
               </article>
             );
           })}
+        </div>
+
+        <div className="exam-history-link">
+          <Link href="/exams/scores">See every score you have had &rarr;</Link>
         </div>
 
         <section className="exam-how">

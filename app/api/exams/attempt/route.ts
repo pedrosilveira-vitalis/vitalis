@@ -2,7 +2,7 @@ import { auth } from "@/auth";
 import { capabilitiesFor } from "@/lib/billing";
 import { portalDb } from "@/lib/portal-db";
 import { SECTIONS } from "@/lib/exams/blueprint";
-import { examSummary, loadSection, publicSection } from "@/lib/exams/registry";
+import { canTake, examSummary, loadSection, publicSection } from "@/lib/exams/registry";
 import { abandonAttempt, attemptById, endBreak, liveAttempt, saveProgress, startAttempt, submitSection } from "@/lib/exams/store";
 import type { AnswerMap, Attempt, TimingMap } from "@/lib/exams/types";
 
@@ -19,13 +19,14 @@ const LETTERS = new Set(["A", "B", "C", "D"]);
  * timer in the page.
  */
 
-async function student() {
+async function student(examId: string) {
   const session = await auth();
   const email = session?.user?.email;
   if (!email) return { error: Response.json({ error: "Sign in to take a full-length." }, { status: 401 }) };
   const db = await portalDb();
-  if (!(await capabilitiesFor(db, email)).fullLengths) {
-    return { error: Response.json({ error: "Full-length exams are part of Complete." }, { status: 403 }) };
+  const paid = (await capabilitiesFor(db, email)).fullLengths;
+  if (!canTake(examId, paid)) {
+    return { error: Response.json({ error: "Full-Length 1 is free with your account. The rest are part of Complete." }, { status: 403 }) };
   }
   return { email, db };
 }
@@ -76,10 +77,10 @@ async function view(attempt: Attempt) {
 }
 
 export async function GET(request: Request) {
-  const who = await student();
-  if ("error" in who) return who.error;
   const examId = new URL(request.url).searchParams.get("exam") ?? "";
   if (!examSummary(examId)) return Response.json({ error: "Unknown exam." }, { status: 404 });
+  const who = await student(examId);
+  if ("error" in who) return who.error;
   const attempt = await liveAttempt(who.db, who.email, examId);
   if (!attempt) return Response.json({ attempt: null }, NO_STORE);
   return Response.json(await view(attempt), NO_STORE);
@@ -112,9 +113,6 @@ function cleanTiming(value: unknown): TimingMap {
 }
 
 export async function POST(request: Request) {
-  const who = await student();
-  if ("error" in who) return who.error;
-
   let body: Record<string, unknown>;
   try {
     body = await request.json();
@@ -125,6 +123,9 @@ export async function POST(request: Request) {
   const action = String(body.action ?? "");
   const examId = String(body.exam ?? "");
   if (!examSummary(examId)) return Response.json({ error: "Unknown exam." }, { status: 404 });
+
+  const who = await student(examId);
+  if ("error" in who) return who.error;
 
   if (action === "start") {
     const attempt = await startAttempt(who.db, who.email, examId);

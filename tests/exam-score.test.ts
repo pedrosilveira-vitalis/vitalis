@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { SECTIONS, TOTAL_QUESTIONS, TESTING_MINUTES, BREAK_MINUTES, percentileFor, scaledFor } from "../lib/exams/blueprint";
-import { buildReport, verdictFor } from "../lib/exams/score";
+import { buildReport, guidanceFor, verdictFor } from "../lib/exams/score";
 import type { Attempt, ExamQuestion, FullLengthExam } from "../lib/exams/types";
 
 test("the blueprint matches the published MCAT format", () => {
@@ -152,4 +152,30 @@ test("a perfect paper scores the ceiling and recommends nothing", () => {
   assert.equal(report.recommendations.length, 0);
   const bio = report.sections.find(s => s.id === "bio-biochem")!;
   assert.equal(bio.scaled, 132);
+});
+
+test("guidance changes with the band, and names pacing before content", () => {
+  const exam = examOf({
+    "bio-biochem": Array.from({ length: 20 }, (_, i) => question(`bb-${i}`)),
+  });
+
+  // Nothing answered: the advice must lead on pacing, not on content.
+  const abandoned = buildReport(exam, attemptOf(exam, {}));
+  const abandonedGuidance = guidanceFor(abandoned);
+  assert.match(abandonedGuidance.actions[0], /pacing|timing/i);
+
+  // A strong paper gets protective advice rather than a content rebuild.
+  const perfect = buildReport(exam, attemptOf(exam, Object.fromEntries(exam.sections
+    .flatMap(section => section.questions)
+    .map(q => [q.id, "A" as const]))));
+  const strong = guidanceFor(perfect);
+  assert.ok(strong.actions.length >= 2);
+  assert.ok(strong.headline.length > 20);
+
+  // Every band returns something usable rather than an empty list.
+  for (const report of [abandoned, perfect]) {
+    const guidance = guidanceFor(report);
+    assert.ok(guidance.band.length > 0);
+    assert.ok(guidance.actions.every(action => action.length > 30), "advice must be specific enough to act on");
+  }
 });

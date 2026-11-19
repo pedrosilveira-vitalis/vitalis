@@ -1,9 +1,9 @@
 import { auth } from "@/auth";
 import { capabilitiesFor } from "@/lib/billing";
 import { portalDb } from "@/lib/portal-db";
-import { loadExam } from "@/lib/exams/registry";
+import { canTake, loadExam } from "@/lib/exams/registry";
 import { attemptById } from "@/lib/exams/store";
-import { buildReport, verdictFor } from "@/lib/exams/score";
+import { buildReport, guidanceFor, verdictFor } from "@/lib/exams/score";
 import { SECTIONS } from "@/lib/exams/blueprint";
 import { UNITS } from "@/lib/cheatsheets";
 
@@ -24,12 +24,11 @@ export async function GET(request: Request) {
   if (!/^[0-9a-f-]{36}$/i.test(attemptId)) return Response.json({ error: "Bad request." }, { status: 400 });
 
   const db = await portalDb();
-  if (!(await capabilitiesFor(db, email)).fullLengths) {
-    return Response.json({ error: "Full-length exams are part of Complete." }, { status: 403 });
-  }
-
   const attempt = await attemptById(db, email, attemptId);
   if (!attempt) return Response.json({ error: "No such attempt." }, { status: 404 });
+  if (!canTake(attempt.examId, (await capabilitiesFor(db, email)).fullLengths)) {
+    return Response.json({ error: "That form is part of Complete." }, { status: 403 });
+  }
   if (!attempt.finishedAt) return Response.json({ error: "That exam is still running.", running: true }, { status: 409 });
 
   const exam = await loadExam(attempt.examId);
@@ -70,6 +69,7 @@ export async function GET(request: Request) {
     {
       report: { ...report, missed: detail, recommendations: named },
       verdict: verdictFor(report),
+      guidance: guidanceFor(report),
       sections: SECTIONS.map(section => ({ id: section.id, short: section.short, nickname: section.nickname, minutes: section.minutes })),
     },
     NO_STORE,

@@ -2,7 +2,7 @@ import { auth } from "@/auth";
 import { capabilitiesFor } from "@/lib/billing";
 import { portalDb } from "@/lib/portal-db";
 import { SECTIONS } from "@/lib/exams/blueprint";
-import { EXAMS, examProgress, loadExam } from "@/lib/exams/registry";
+import { EXAMS, canTake, examProgress, loadExam } from "@/lib/exams/registry";
 import { finishedAttempts, liveAttempt } from "@/lib/exams/store";
 import { buildReport } from "@/lib/exams/score";
 
@@ -18,7 +18,7 @@ export async function GET() {
     const progress = await examProgress(exam.id);
     const written = progress.reduce((sum, row) => sum + row.written, 0);
     const needed = progress.reduce((sum, row) => sum + row.needed, 0);
-    catalogue.push({ ...exam, ready: written >= needed, written, needed, progress });
+    catalogue.push({ ...exam, ready: written >= needed, written, needed, progress, allowed: exam.free });
   }
 
   if (!email) return Response.json({ signedIn: false, allowed: false, exams: catalogue, attempts: [] }, NO_STORE);
@@ -28,7 +28,8 @@ export async function GET() {
   try {
     const db = await portalDb();
     allowed = (await capabilitiesFor(db, email)).fullLengths;
-    if (allowed) {
+    for (const entry of catalogue) entry.allowed = canTake(entry.id, allowed);
+    {
       const live = [];
       for (const exam of EXAMS) {
         const running = await liveAttempt(db, email, exam.id);

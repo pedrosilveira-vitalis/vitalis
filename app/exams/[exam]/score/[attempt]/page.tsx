@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import MainNav from "@/components/MainNav";
 
+type Guidance = { band: string; headline: string; actions: string[] };
 type Breakdown = { key: string; name: string; correct: number; total: number; percent: number };
 type SectionScore = {
   id: string; name: string; short: string; nickname: string;
@@ -40,7 +41,7 @@ function minutes(seconds: number) {
 export default function ScoreReportPage() {
   const params = useParams();
   const attemptId = (params.attempt as string) || "";
-  const [data, setData] = useState<{ report: Report; verdict: string } | null>(null);
+  const [data, setData] = useState<{ report: Report; verdict: string; guidance: Guidance } | null>(null);
   const [error, setError] = useState("");
   const [openSection, setOpenSection] = useState<string>("all");
 
@@ -83,7 +84,7 @@ export default function ScoreReportPage() {
     );
   }
 
-  const { report, verdict } = data;
+  const { report, verdict, guidance } = data;
   const misses = openSection === "all" ? report.missed : report.missed.filter(miss => miss.section === openSection);
 
   return (
@@ -137,6 +138,16 @@ export default function ScoreReportPage() {
               </dl>
             </article>
           ))}
+        </section>
+
+        <section className="report-block report-guidance">
+          <span className="eyebrow">WHAT TO DO WITH THE WEEKS YOU HAVE LEFT &middot; {guidance.band}</span>
+          <h2>{guidance.headline}</h2>
+          <ol className="report-guidance-list">
+            {guidance.actions.map((action, position) => (
+              <li key={position}>{action}</li>
+            ))}
+          </ol>
         </section>
 
         <section className="report-block">
@@ -303,7 +314,10 @@ export default function ScoreReportPage() {
             Where this exam is most reliable is in the ranking: the sections and units it says are weakest are the ones
             that are weakest. That is the part you can act on.
           </p>
-          <Link href="/exams" className="button-outline">Back to full-lengths</Link>
+          <div className="report-footer-links">
+            <Link href="/exams" className="button-outline">Back to full-lengths</Link>
+            <Link href="/exams/scores" className="button-outline">See all your scores</Link>
+          </div>
         </section>
       </main>
     </div>

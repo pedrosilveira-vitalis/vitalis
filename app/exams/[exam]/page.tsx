@@ -6,7 +6,7 @@ import { useParams, useRouter } from "next/navigation";
 import MainNav from "@/components/MainNav";
 
 type Progress = { id: string; short: string; written: number; needed: number };
-type Exam = { id: string; name: string; number: number; blurb: string; ready: boolean; written: number; needed: number; progress: Progress[] };
+type Exam = { id: string; name: string; number: number; blurb: string; ready: boolean; free: boolean; allowed: boolean; written: number; needed: number; progress: Progress[] };
 
 /**
  * The screen before the clock starts. It does the job the test-day tutorial
@@ -119,8 +119,8 @@ export default function ExamStartPage() {
           <div className="exam-brief-actions">
             {!data ? (
               <span className="exam-card-note">Loading&hellip;</span>
-            ) : !data.allowed ? (
-              <Link href="/plans" className="button-primary">Full-lengths are part of Complete</Link>
+            ) : !exam?.allowed ? (
+              <Link href="/plans" className="button-primary">Unlock this form with Complete</Link>
             ) : !exam?.ready ? (
               <>
                 <span className="exam-card-note">

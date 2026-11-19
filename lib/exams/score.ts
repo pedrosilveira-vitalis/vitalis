@@ -239,3 +239,106 @@ export function verdictFor(report: ExamReport): string {
   }
   return "Your four sections are within a few points of each other, so the gains come from content, not from one broken section.";
 }
+
+export interface Guidance {
+  band: string;
+  headline: string;
+  /** What to do with the weeks remaining, in priority order. */
+  actions: string[];
+}
+
+/**
+ * What to do next, given where the score actually landed.
+ *
+ * A student at 495 and a student at 515 have almost nothing in common in what
+ * should change, and telling both of them to "review your weak areas" is the
+ * sort of advice that fills a report without helping anyone. The bands below
+ * are drawn from where the published percentile curve bends: the middle of the
+ * distribution is crowded, so a few raw marks move a score a long way there,
+ * and much less at the top.
+ */
+export function guidanceFor(report: ExamReport): Guidance {
+  const blank = report.sections.reduce((sum, section) => sum + section.blank, 0);
+  const sorted = report.sections.slice().sort((a, b) => a.scaled - b.scaled);
+  const worst = sorted[0];
+  const spread = sorted.length > 1 ? sorted[sorted.length - 1].scaled - worst.scaled : 0;
+  const cars = report.sections.find(section => section.id === "cars");
+  const rushed = report.sections.filter(section => section.blank >= 3).map(section => section.nickname);
+
+  // Pacing leads in every band when it is the problem. A student who left ten
+  // questions blank is not short of content, whatever their score says, and
+  // burying that under "go and read the lessons" wastes the report.
+  const urgent: string[] = [];
+  if (blank >= 10) {
+    urgent.push(`Fix pacing before anything else. You left ${blank} questions unanswered, and every one was a free guess you did not take - there is no penalty for a wrong answer.`);
+  } else if (rushed.length) {
+    urgent.push(`Work on timing in ${rushed.join(" and ")}: you ran out of time there, and no amount of content review fixes a clock problem.`);
+  }
+
+  const actions: string[] = [];
+
+  if (spread >= 4 && worst) {
+    actions.push(`${worst.nickname} is ${spread} points below your best section. That gap is the cheapest place to gain, because the ceiling there is furthest away.`);
+  }
+
+  if (cars && cars.scaled <= report.total / 4 - 1) {
+    actions.push("CARS is dragging the total. It responds to daily practice rather than to study: one timed passage set every day, reviewed properly, beats a long session once a week.");
+  }
+
+  const top = report.weakestSkills[0];
+  if (top && top.percent < 60 && top.total >= 5) {
+    actions.push(`Your weakest reasoning skill is ${top.name.toLowerCase()} at ${top.percent}%. That is a technique problem, not a content gap, so re-reading units will not move it.`);
+  }
+
+  if (report.recommendations.length) {
+    actions.push("Work through the units listed below in order. They are ranked by how many marks each cost you, not by percentage.");
+  }
+
+  if (report.total >= 515) {
+    return {
+      band: "515+",
+      headline: "You are in range for almost every school. The work now is protecting this, not raising it.",
+      actions: [
+        ...urgent,
+        "Sit the remaining full-lengths under real conditions, at the hour your exam starts. At this level stamina and consistency decide the score, not content.",
+        ...actions.slice(0, 2),
+        "Resist a content rebuild. At this score the marks lost are nearly all single careless errors, and the fix is a slower read of the stem.",
+      ],
+    };
+  }
+
+  if (report.total >= 505) {
+    return {
+      band: "505-514",
+      headline: "A competitive score, with a clear path to a stronger one.",
+      actions: [
+        ...urgent,
+        ...actions,
+        "Review every question you got right but were unsure of. At this band those are the marks that swing a form.",
+      ],
+    };
+  }
+
+  if (report.total >= 495) {
+    return {
+      band: "495-504",
+      headline: "Around the middle of the distribution, where a handful of raw marks moves the score a long way.",
+      actions: [
+        ...urgent,
+        ...actions,
+        "The percentile curve is steepest here: two or three extra correct answers per section is worth several scaled points. Pick the two weakest units and finish them properly before moving on.",
+      ],
+    };
+  }
+
+  return {
+    band: "Below 495",
+    headline: "Content first. The gaps here are wide enough that technique work would not stick yet.",
+    actions: [
+      ...urgent,
+      "Go back to the lessons for your weakest units and work them end to end, rather than drilling questions. Questions diagnose; they do not teach.",
+      ...actions.filter(action => !action.startsWith("Work through the units")),
+      "Give yourself enough weeks. A score in this band usually reflects material not yet learned, and that is a matter of time rather than of strategy.",
+    ],
+  };
+}

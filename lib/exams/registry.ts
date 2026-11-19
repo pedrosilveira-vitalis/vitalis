@@ -24,6 +24,13 @@ export interface ExamSummary {
   blurb: string;
   /** False until every section's content is written and reviewed. */
   ready: boolean;
+  /**
+   * One form is free to anyone with an account. A full-length is the only
+   * honest way to find out whether a course is worth buying, and a student who
+   * has sat ours and seen the report is a far warmer prospect than one who has
+   * read a sales page.
+   */
+  free: boolean;
 }
 
 export const EXAMS: ExamSummary[] = [
@@ -32,8 +39,9 @@ export const EXAMS: ExamSummary[] = [
     name: "Vitalis Full-Length 1",
     number: 1,
     blurb:
-      "A first full-length, weighted the way the real exam is: experimental data in the science sections, and nine CARS passages drawn from the humanities and social sciences.",
+      "A first full-length, weighted the way the real exam is: experimental data in the science sections, and nine CARS passages drawn from the humanities and social sciences. Free with any account.",
     ready: false,
+    free: true,
   },
   {
     id: "fl2",
@@ -42,8 +50,43 @@ export const EXAMS: ExamSummary[] = [
     blurb:
       "A second form at the same difficulty, with no repeated passages or concepts, so a second sitting measures progress rather than memory.",
     ready: false,
+    free: false,
+  },
+  {
+    id: "fl3",
+    name: "Vitalis Full-Length 3",
+    number: 3,
+    blurb:
+      "Written to sit mid-course, when content review is mostly done and the question is whether it holds up under seven hours of pressure.",
+    ready: false,
+    free: false,
+  },
+  {
+    id: "fl4",
+    name: "Vitalis Full-Length 4",
+    number: 4,
+    blurb:
+      "A late form, weighted toward the reasoning and data-interpretation questions that separate a good score from a great one.",
+    ready: false,
+    free: false,
+  },
+  {
+    id: "fl5",
+    name: "Vitalis Full-Length 5",
+    number: 5,
+    blurb:
+      "The last form before test day, meant to be sat two weeks out at the hour your real exam starts.",
+    ready: false,
+    free: false,
   },
 ];
+
+/** Whether this student may open a given form. */
+export function canTake(examId: string, hasFullLengths: boolean): boolean {
+  const exam = examSummary(examId);
+  if (!exam) return false;
+  return exam.free || hasFullLengths;
+}
 
 export function examSummary(id: string): ExamSummary | undefined {
   return EXAMS.find(exam => exam.id === id);
