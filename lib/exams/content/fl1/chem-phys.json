@@ -1086,6 +1086,336 @@
    "skill": "skill-2",
    "difficulty": "medium",
    "unit": "17"
+  },
+  {
+   "id": "cp-d1",
+   "passageId": null,
+   "stem": "Which compound has the highest boiling point?",
+   "choices": {
+    "A": "CH3CH2CH3",
+    "B": "CH3CH2OH",
+    "C": "CH3OCH3",
+    "D": "CH3CH2CH2CH3"
+   },
+   "correct": "B",
+   "explanation": "Ethanol is the only one of these that can donate a hydrogen bond, since its hydrogen sits on oxygen. Hydrogen bonding is far stronger than the dispersion forces available to the others, so ethanol boils well above them despite its modest mass.",
+   "wrong": {
+    "A": "Propane has only dispersion forces and the lowest mass here, so it boils lowest of all.",
+    "C": "Dimethyl ether can accept a hydrogen bond but has no O-H to donate, so ether molecules cannot hydrogen bond to each other.",
+    "D": "Butane is heavier than ethanol and so has stronger dispersion forces, but dispersion alone does not match hydrogen bonding at this size."
+   },
+   "category": "5B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "12"
+  },
+  {
+   "id": "cp-d2",
+   "passageId": null,
+   "stem": "Ice floats on liquid water because:",
+   "choices": {
+    "A": "hydrogen bonds in ice are weaker than in liquid water",
+    "B": "ice contains trapped air that lowers its density",
+    "C": "hydrogen bonding holds the molecules in an open lattice with more space between them",
+    "D": "water molecules in ice are smaller than in the liquid"
+   },
+   "correct": "C",
+   "explanation": "Each water molecule in ice is hydrogen bonded to four others in a tetrahedral arrangement, and that geometry holds the molecules further apart on average than the jostling of the liquid does. More space per molecule means lower density, so ice floats.",
+   "wrong": {
+    "A": "Hydrogen bonds in ice are stronger and more ordered, not weaker. That is precisely why the lattice is rigid.",
+    "B": "Pure ice frozen from degassed water still floats, so trapped air cannot be the explanation.",
+    "D": "A molecule's size does not change on freezing; only the spacing between molecules does."
+   },
+   "category": "5B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "12"
+  },
+  {
+   "id": "cp-d3",
+   "passageId": null,
+   "stem": "Which molecule is non-polar despite containing polar bonds?",
+   "choices": {
+    "A": "H₂O",
+    "B": "NH3",
+    "C": "CHCl3",
+    "D": "CO₂"
+   },
+   "correct": "D",
+   "explanation": "Carbon dioxide is linear, so its two C=O bond dipoles point in opposite directions and cancel exactly. Polarity depends on geometry as much as on electronegativity: symmetric arrangements cancel, bent or pyramidal ones do not.",
+   "wrong": {
+    "A": "Water is bent, so its two O-H dipoles add to a substantial net dipole rather than cancelling.",
+    "B": "Ammonia is trigonal pyramidal, and its lone pair makes the arrangement asymmetric.",
+    "C": "Chloroform is tetrahedral with three chlorines and one hydrogen, which is not symmetric enough to cancel."
+   },
+   "category": "5B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "12"
+  },
+  {
+   "id": "cp-d4",
+   "passageId": null,
+   "stem": "At pH 7.0, glycine (pKa values 2.3 and 9.6) exists predominantly as:",
+   "choices": {
+    "A": "a cation with a protonated amine and a protonated carboxyl",
+    "B": "a zwitterion with a deprotonated carboxyl and a protonated amine",
+    "C": "an anion with a deprotonated carboxyl and a neutral amine",
+    "D": "a neutral molecule with a protonated carboxyl and a neutral amine"
+   },
+   "correct": "B",
+   "explanation": "At pH 7.0 the solution sits well above the carboxyl pKa of 2.3, so that group is deprotonated, and well below the amino pKa of 9.6, so that group is still protonated. The result carries both a negative and a positive charge with no net charge: the zwitterion.",
+   "wrong": {
+    "A": "A protonated carboxyl would need a pH below 2.3, more than four units lower than this.",
+    "C": "A neutral amine would need a pH above 9.6. At pH 7.0 the amine is still holding its proton.",
+    "D": "This combination requires a pH both below 2.3 and above 9.6 at once, which is impossible."
+   },
+   "category": "5D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "13"
+  },
+  {
+   "id": "cp-d5",
+   "passageId": null,
+   "stem": "The peptide bond shows restricted rotation because:",
+   "choices": {
+    "A": "the carbonyl oxygen hydrogen bonds to the amide hydrogen",
+    "B": "delocalisation gives the C-N bond partial double-bond character",
+    "C": "the adjacent side chains are too bulky to allow rotation",
+    "D": "the nitrogen is sp3 hybridised and therefore rigid"
+   },
+   "correct": "B",
+   "explanation": "The nitrogen lone pair delocalises into the carbonyl, so the C-N bond carries partial double-bond character. Double bonds do not rotate freely, which is why the peptide unit is planar and why proteins have a limited set of backbone conformations.",
+   "wrong": {
+    "A": "That hydrogen bond forms between different residues in secondary structure and does not fix rotation about the bond itself.",
+    "C": "Glycine has only a hydrogen for a side chain and its peptide bonds are just as restricted, so bulk is not the cause.",
+    "D": "Delocalisation makes the nitrogen effectively sp2, and sp3 hybridisation would permit rotation rather than prevent it."
+   },
+   "category": "5D",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp-d6",
+   "passageId": null,
+   "stem": "A student has a sample of a chiral drug and wants to establish whether it is a single enantiomer or a racemic mixture. The most direct measurement is:",
+   "choices": {
+    "A": "melting point, since enantiomers melt at different temperatures",
+    "B": "infrared spectroscopy, since enantiomers absorb at different wavenumbers",
+    "C": "optical rotation in a polarimeter, since a racemate rotates plane-polarised light not at all",
+    "D": "mass spectrometry, since enantiomers differ in molecular mass"
+   },
+   "correct": "C",
+   "explanation": "Enantiomers rotate plane-polarised light by equal amounts in opposite directions, so an equal mixture gives zero net rotation while a single enantiomer gives a measurable one. That difference is the defining physical distinction between them.",
+   "wrong": {
+    "A": "Enantiomers have identical melting points. A racemate can melt differently from the pure enantiomer, but that comparison needs a pure reference the student does not have.",
+    "B": "Enantiomers have identical infrared spectra, because the bonds and their force constants are the same.",
+    "D": "Enantiomers have identical molecular masses, since they contain exactly the same atoms."
+   },
+   "category": "5D",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp-d7",
+   "passageId": null,
+   "stem": "A substitution on a tertiary alkyl halide in a polar protic solvent proceeds with racemisation. This is most consistent with:",
+   "choices": {
+    "A": "an SN2 mechanism, because the nucleophile attacks from the back",
+    "B": "an SN1 mechanism, because a planar carbocation can be attacked from either face",
+    "C": "an E1 mechanism, because elimination destroys the stereocentre",
+    "D": "an SN2 mechanism, because the solvent stabilises the transition state"
+   },
+   "correct": "B",
+   "explanation": "A tertiary centre in a protic solvent favours ionisation to a carbocation, which is trigonal planar. A nucleophile can then attack either face with roughly equal probability, giving both configurations. Racemisation is the signature of a planar intermediate.",
+   "wrong": {
+    "A": "Back-side attack inverts configuration cleanly rather than racemising it, and a tertiary centre is too hindered for SN2 anyway.",
+    "C": "Elimination produces an alkene, not a substitution product, so it cannot be the pathway for the product described.",
+    "D": "The solvent description is accurate but the mechanism is not: protic solvents stabilise carbocations and hinder SN2 by caging the nucleophile."
+   },
+   "category": "5D",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp-d8",
+   "passageId": null,
+   "stem": "In size-exclusion chromatography, the first proteins to elute are:",
+   "choices": {
+    "A": "the largest, because they cannot enter the pores of the beads",
+    "B": "the smallest, because they travel through the column fastest",
+    "C": "the most positively charged, because they are repelled by the resin",
+    "D": "the most hydrophobic, because they interact least with water"
+   },
+   "correct": "A",
+   "explanation": "Large proteins are excluded from the pores and so travel only through the space between beads, which is the shorter path. Small proteins enter the pores, take a longer route, and elute later. The separation is by size alone, with no binding involved.",
+   "wrong": {
+    "B": "Small proteins enter the pores, which lengthens their path, so they elute last rather than first.",
+    "C": "Charge-based separation is ion exchange, a different technique.",
+    "D": "Hydrophobic interaction is another technique entirely, and size exclusion is designed to avoid binding of any kind."
+   },
+   "category": "5C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "13"
+  },
+  {
+   "id": "cp-d9",
+   "passageId": null,
+   "stem": "A researcher separates proteins by SDS-PAGE and finds a single band. To test whether the sample is genuinely one protein rather than two of equal mass, the most informative additional experiment is:",
+   "choices": {
+    "A": "repeating the gel with a longer run time",
+    "B": "running the sample on an isoelectric focusing gel, which separates by charge rather than mass",
+    "C": "increasing the SDS concentration to ensure complete denaturation",
+    "D": "staining the gel with a more sensitive dye"
+   },
+   "correct": "B",
+   "explanation": "Two proteins of the same mass are indistinguishable by a method that separates on mass alone, however carefully it is run. Isoelectric focusing separates by isoelectric point, so it would resolve them unless they happened to match on both properties, which is far less likely.",
+   "wrong": {
+    "A": "A longer run spreads the lane but cannot separate species that migrate identically, because the property being separated on is the same for both.",
+    "C": "More SDS does not help: the problem is not incomplete denaturation but that mass is the only variable being measured.",
+    "D": "A more sensitive dye reveals fainter bands, not bands hidden underneath one another at the same position."
+   },
+   "category": "5C",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp-d10",
+   "passageId": null,
+   "stem": "A student measures the osmotic pressure of a 0.10 M solution of an unknown salt and wants to determine how many ions it releases per formula unit. The control that makes the measurement interpretable is:",
+   "choices": {
+    "A": "a 0.10 M solution of a non-electrolyte such as glucose, measured in the same apparatus",
+    "B": "pure water, measured in the same apparatus",
+    "C": "a 0.20 M solution of the same unknown salt",
+    "D": "a 0.10 M solution of a strong acid"
+   },
+   "correct": "A",
+   "explanation": "Osmotic pressure depends on the total concentration of dissolved particles. A non-electrolyte at the same molarity gives the pressure expected from one particle per formula unit, so the ratio of the two readings is the number of ions released. Without that reference the reading is a number with nothing to compare it against.",
+   "wrong": {
+    "B": "Pure water sets the zero of the instrument but gives no scale, so it cannot say whether a reading corresponds to two particles or three.",
+    "C": "Doubling the concentration of the same unknown confirms the response is linear but still leaves the particle count unknown.",
+    "D": "A strong acid is itself an electrolyte of unknown particle count for this purpose, so it is not a reference for one particle per formula unit."
+   },
+   "category": "5A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "12"
+  },
+  {
+   "id": "cp-d11",
+   "passageId": null,
+   "stem": "Which solution has the greatest buffer capacity at pH 7.4?",
+   "choices": {
+    "A": "0.01 M acetic acid and 0.01 M sodium acetate, pKa 4.8",
+    "B": "0.50 M acetic acid and 0.50 M sodium acetate, pKa 4.8",
+    "C": "0.01 M dihydrogen phosphate and 0.01 M hydrogen phosphate, pKa 7.2",
+    "D": "0.50 M dihydrogen phosphate and 0.50 M hydrogen phosphate, pKa 7.2"
+   },
+   "correct": "D",
+   "explanation": "Buffer capacity rises with concentration and is greatest when the pH is near the pKa. The phosphate pair has a pKa of 7.2, close to 7.4, and the concentrated pair has fifty times the material of the dilute one, so it resists added acid or base best on both counts.",
+   "wrong": {
+    "A": "This loses on both counts: a pKa two and a half units away and a low concentration.",
+    "B": "Concentrated, but a pKa of 4.8 is far from 7.4, so the pair is almost entirely in its basic form and has little acid left to neutralise added base.",
+    "C": "The right pKa but fifty times less material, so it is exhausted by a much smaller addition."
+   },
+   "category": "5A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "12"
+  },
+  {
+   "id": "cp-d12",
+   "passageId": null,
+   "stem": "A reaction is thought to be first order in substrate. Which experiment would test that most directly?",
+   "choices": {
+    "A": "Measure the initial rate at several substrate concentrations and check whether rate is proportional to concentration",
+    "B": "Measure the rate at several temperatures and check whether it follows the Arrhenius equation",
+    "C": "Measure how long the reaction takes to go to completion at one concentration",
+    "D": "Measure the equilibrium constant at several concentrations"
+   },
+   "correct": "A",
+   "explanation": "Reaction order is defined by how rate depends on concentration, so varying concentration and watching the rate is the direct test. Initial rates are used because they avoid the complication of the concentration changing as the reaction proceeds.",
+   "wrong": {
+    "B": "Temperature dependence gives the activation energy. Reactions of every order obey the Arrhenius equation, so it says nothing about order.",
+    "C": "A single concentration provides one data point, and order is a statement about how rate changes between concentrations.",
+    "D": "An equilibrium constant describes the final position of the reaction, not the rate at which it gets there, and it does not vary with concentration."
+   },
+   "category": "5E",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "11"
+  },
+  {
+   "id": "cp-d13",
+   "passageId": null,
+   "stem": "Of the noble gases, xenon has the highest boiling point because:",
+   "choices": {
+    "A": "it is the most electronegative",
+    "B": "it forms the strongest hydrogen bonds",
+    "C": "its larger electron cloud is more easily polarised, giving stronger dispersion forces",
+    "D": "it has permanent dipoles that the lighter noble gases lack"
+   },
+   "correct": "C",
+   "explanation": "Dispersion forces arise from momentary fluctuations in an electron cloud, and a larger, more loosely held cloud distorts more readily. Xenon has the most electrons of the common noble gases, so its dispersion forces are strongest and it holds together to the highest temperature.",
+   "wrong": {
+    "A": "Noble gases are not meaningfully electronegative, and electronegativity decreases down a group in any case.",
+    "B": "Hydrogen bonding requires hydrogen bound to nitrogen, oxygen or fluorine. Noble gases have no hydrogen at all.",
+    "D": "A single atom cannot have a permanent dipole; what it has are instantaneous, fluctuating ones."
+   },
+   "category": "5B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "12"
+  },
+  {
+   "id": "cp-d14",
+   "passageId": null,
+   "stem": "Which atom has the largest first ionisation energy?",
+   "choices": {
+    "A": "Na",
+    "B": "Mg",
+    "C": "Al",
+    "D": "Cl"
+   },
+   "correct": "D",
+   "explanation": "Ionisation energy rises across a period as nuclear charge increases while shielding stays roughly constant, so the outermost electron is held more tightly. Chlorine is furthest to the right of these four and so holds its electrons most tightly.",
+   "wrong": {
+    "A": "Sodium has a single loosely held 3s electron and the lowest ionisation energy of the four.",
+    "B": "Magnesium's filled 3s subshell gives it a local maximum relative to aluminium, but it is still far to the left of chlorine.",
+    "C": "Aluminium's 3p electron is higher in energy and better shielded, so it is actually easier to remove than magnesium's."
+   },
+   "category": "4E",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "12"
+  },
+  {
+   "id": "cp-d15",
+   "passageId": null,
+   "stem": "A radiotracer has a half-life of 6.0 hours. What fraction of the original activity remains after 24 hours?",
+   "choices": {
+    "A": "1/4",
+    "B": "1/8",
+    "C": "1/16",
+    "D": "1/24"
+   },
+   "correct": "C",
+   "explanation": "Twenty-four hours is four half-lives, and each one halves the activity: 1/2, 1/4, 1/8, 1/16. Counting half-lives rather than reaching for the exponential form is both faster and harder to get wrong.",
+   "wrong": {
+    "A": "1/4 is two half-lives, which would be 12 hours.",
+    "B": "1/8 is three half-lives, which would be 18 hours. This is the commonest slip: counting the halvings but stopping one short.",
+    "D": "1/24 divides the time by the half-life and treats the result as a fraction, which confuses a count of half-lives with a fraction remaining."
+   },
+   "category": "4E",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "11"
   }
  ]
 }
