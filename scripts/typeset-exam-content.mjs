@@ -6,6 +6,11 @@
 // day, and translation costs seconds they do not have.
 import { readFileSync, writeFileSync } from "node:fs";
 
+const ELEMENTS = new Set((
+  "H He Li Be B C N O F Ne Na Mg Al Si P S Cl Ar K Ca Sc Ti V Cr Mn Fe Co Ni Cu Zn Ga Ge As Se Br Kr " +
+  "Rb Sr Y Zr Nb Mo Tc Ru Rh Pd Ag Cd In Sn Sb Te I Xe Cs Ba La Ce Pr Nd Pm Sm Eu Gd Tb Dy Ho Er Tm Yb " +
+  "Lu Hf Ta W Re Os Ir Pt Au Hg Tl Pb Bi Po At Rn Fr Ra Ac Th Pa U Np Pu Am Cm Bk Cf Es Fm Md No Lr"
+).split(" "));
 const SUB = "₀₁₂₃₄₅₆₇₈₉";
 const SUP = { "0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴",
               "5": "⁵", "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹",
@@ -51,12 +56,18 @@ const RULES = [
   [/\bE1\b/g, "E1"],
   [/\bC2O4 2-/g, "C\u2082O\u2084\u00b2\u207b"],
   [/\bCa2\+/g, "Ca\u00b2\u207a"],
-  // Any remaining chemical formula: a run of element-like groups containing at
-  // least one digit, with no spaces. Subscripts the digits and leaves prose,
-  // units and scientific notation alone.
-  [/\b((?:[A-Z][a-z]?\d*){2,})\b/g, (whole) => {
+  // Ionic charges: Fe2+ -> Fe2+ with a superscript charge.
+  [/\b([A-Z][a-z]?)(\d)([+\u2212-])(?![\w])/g, (_m, el, n, sign) =>
+    el + (n === "1" ? "" : SUP[n]) + (sign === "+" ? "\u207a" : "\u207b")],
+  // Any remaining chemical formula. A token qualifies only if it decomposes
+  // entirely into real element symbols, which keeps protein and gene names
+  // out: CaC2O4 is Ca + C2 + O4, but SGLT2 would need an element "G", E2F an
+  // element "E", and cytochrome P450 is excluded by the two-digit cap.
+  [/\b((?:[A-Z][a-z]?\d{0,2}){2,})\b/g, (whole) => {
     if (!/\d/.test(whole)) return whole;
-    if (/^(?:10|[A-Z]{2,}$)/.test(whole)) return whole;
+    const parts = whole.match(/[A-Z][a-z]?\d{0,2}/g) ?? [];
+    if (parts.join("") !== whole) return whole;
+    if (!parts.every(part => ELEMENTS.has(part.replace(/\d+$/, "")))) return whole;
     return whole.replace(/\d/g, (digit) => SUB[Number(digit)]);
   }],
   // Variable subscripts: v1, A2, do, di.

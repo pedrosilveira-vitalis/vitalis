@@ -92,6 +92,24 @@ letters, deltas, multiplication signs and ranges. The defect: a whole section
 shipped reading `[HCO3-]`, `PCO2`, `r^4` and `0.03 x PCO2`. A student who has
 only ever read the shorthand has to translate on test day.
 
+### What the typesetter will and will not touch
+
+It converts a token only when the whole token decomposes into real element
+symbols, so chemical formulas convert and biological names do not:
+
+| Written | Becomes | |
+|---|---|---|
+| `H2O`, `CaC2O4`, `C6H12O6` | H₂O, CaC₂O₄, C₆H₁₂O₆ | real formulas |
+| `Fe2+`, `NH4+` | Fe²⁺, NH₄⁺ | charges superscript |
+| `SGLT2`, `CDK4`, `E2F`, `HER2`, `IL6`, `P450` | unchanged | no element "G", "D", "E"; P450 exceeds the two-digit cap |
+| `beta-oxidation` | unchanged | only a standalone `eta` becomes η |
+
+The defect: an earlier version subscripted any letters-and-digits token, which
+turned SGLT2 into SGLT₂ and E2F into E₂F. An agent writing the Bio/Biochem
+section had to spell those names out in prose to avoid it. Write the names
+normally; if something still converts wrongly, fix the rule rather than the
+content.
+
 ## Reports
 
 **A section with no questions is unscored, not zero.** The defect: three
@@ -99,6 +117,17 @@ unwritten sections each scored the floor of 118, which produced a
 confident-looking total of 481 and advice telling the student that CARS was
 "dragging the total" and sat "9 points below your best section" — about a
 section with nothing in it. A form with any unscored section yields no total.
+
+## When a check is wrong
+
+A broken check does not merely fail to catch defects — it introduces them. The
+overlap screen once flagged a numeric choice set because "1.6 mM" is a
+substring of "0.016 mM", and the author replaced a good distractor with a
+weaker one to satisfy it. Another replaced a "156%" option, the best wrong
+answer on its question, because it contained "56%".
+
+If a check objects to something you believe is right, say so and leave the
+content alone. Report it rather than degrading the question to pass.
 
 ## Copyright
 

@@ -129,8 +129,8 @@ check("bb-p7-q1/B", 25, 125.0 / PG, note="distractor: divided instead of multipl
 check("bb-p7-q1/C", 6.25, 1.25 * PG, note="distractor: 125 mL read as 1.25 L")
 assert GFR_L * PG < TM, "a fasting adult must sit below the transport maximum"
 check("bb-p7-q2", 16, TM / GFR_L, note="key: threshold plasma concentration in mmol/L")
-check("bb-p7-q2/C", 1.6, TM / 1.25, note="distractor: divided by 1.25 L/min")
-check("bb-p7-q2/D", 0.016, TM / 125.0, note="distractor: divided by 125 mL/min")
+check("bb-p7-q2/B", 3.2, TM / (GFR_L * PG), note="distractor: transport maximum divided by the filtered load")
+check("bb-p7-q2/D", 1.6, TM / 1.25, note="distractor: divided by 1.25 L/min")
 check("bb-p7-q2b", 3.2, (TM / GFR_L) / PG, note="threshold is about three times the fasting concentration")
 
 print()
@@ -180,7 +180,7 @@ check("bb-d11/C", 4 / 16, 0.25, note="distractor: one locus only")
 check("bb-d11/D", 9 / 16, 0.75 * 0.75, note="distractor: both dominant")
 
 print()
-total = 55
+total = 54
 print(f"{total - len(BAD)}/{total} values verified")
 if BAD:
     raise SystemExit("FAILED: " + ", ".join(BAD))

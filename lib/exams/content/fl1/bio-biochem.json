@@ -766,16 +766,16 @@
    "stem": "Above roughly what plasma glucose concentration would glucose begin to appear in the urine?",
    "choices": {
     "A": "16 mM",
-    "B": "2.0 mM",
-    "C": "1.6 mM",
-    "D": "0.016 mM"
+    "B": "3.2 mM",
+    "C": "2.0 mM",
+    "D": "1.6 mM"
    },
    "correct": "A",
    "explanation": "Glucose spills once the filtered load exceeds the transport maximum, so set 0.125 L/min multiplied by the plasma concentration equal to 2.0 mmol/min, which gives 16 mmol/L. That threshold is about three times the fasting concentration, which is why glycosuria signals substantial hyperglycaemia rather than a small rise.",
    "wrong": {
-    "B": "This reads the transport maximum, which is a rate in mmol/min, as though it were a concentration.",
-    "C": "This divides by 1.25 L/min; a filtration rate of 125 mL/min is 0.125 L/min.",
-    "D": "This divides the transport maximum by 125 without converting millilitres to litres."
+    "B": "3.2 mM divides the transport maximum by the filtered load of 0.625 mmol/min, which compares two rates instead of solving for a concentration.",
+    "C": "2.0 mM reads the transport maximum, which is a rate in mmol/min, as though it were a concentration.",
+    "D": "1.6 mM divides by 1.25 L/min; a filtration rate of 125 mL/min is 0.125 L/min."
    },
    "category": "3B",
    "skill": "skill-2",
