@@ -1,0 +1,1446 @@
+{
+ "passages": [
+  {
+   "id": "bb-p1",
+   "title": "Allosteric control of a glycolytic enzyme",
+   "paragraphs": [
+    "Phosphofructokinase-1 catalyses the transfer of a phosphoryl group from ATP to fructose-6-phosphate, giving fructose-1,6-bisphosphate. The reaction is the committed step of glycolysis: once it has happened the sugar cannot easily return to the hexose pool, so the cell regulates this enzyme rather than the steps on either side of it. The enzyme is a tetramer, and each subunit carries a catalytic site for the sugar and a separate regulatory site. ATP is a substrate at the catalytic site, but at higher concentrations it also occupies the regulatory site and lowers the enzyme's affinity for the sugar. Citrate, which accumulates when the citric acid cycle is already well supplied with carbon, binds at that same regulatory site. AMP and fructose-2,6-bisphosphate bind elsewhere and raise the affinity for the sugar.",
+    "Investigators studied a bacterial form of the enzyme that, under the conditions used, gives a hyperbolic rather than a sigmoidal velocity curve, so that initial rates follow v = Vmax[S]/(Km + [S]). Initial velocity was measured over a range of fructose-6-phosphate concentrations at pH 7.4 and 37 °C, with ATP held at 0.10 mM, a concentration low enough to leave the regulatory site unoccupied. The experiment was repeated with each effector present, and an apparent Km and an apparent Vmax were fitted to every curve (Table 1).",
+    "A second series used an enzyme in which an arginine of the regulatory site had been replaced by alanine. This protein was indistinguishable from the wild type when assayed with no effector present, and its turnover number was unchanged, but neither ATP at 5 mM nor citrate at 2.0 mM altered its kinetics."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Apparent kinetic constants for fructose-6-phosphate with each effector present.",
+    "markup": "<table><thead><tr><th>Effector present</th><th>Apparent Km (mM)</th><th>Vmax (nmol/min)</th></tr></thead><tbody><tr><td>None</td><td>1.0</td><td>60</td></tr><tr><td>AMP, 0.10 mM</td><td>0.25</td><td>60</td></tr><tr><td>Citrate, 2.0 mM</td><td>4.0</td><td>60</td></tr><tr><td>Fructose-2,6-bisphosphate, 0.10 mM</td><td>0.20</td><td>60</td></tr></tbody></table>"
+   },
+   "sources": [
+    {
+     "label": "IUBMB Enzyme Nomenclature",
+     "url": "https://iubmb.qmul.ac.uk/enzyme/"
+    }
+   ]
+  },
+  {
+   "id": "bb-p2",
+   "title": "Fidelity of DNA replication",
+   "paragraphs": [
+    "A replicative DNA polymerase builds a new strand by adding deoxyribonucleotides to the 3' end of a primer, choosing each one by its ability to pair with the template. Base selection on its own is accurate to about one error in 10⁵ nucleotides added. The same enzyme carries a second active site that hydrolyses the nucleotide it has just added when that nucleotide is mispaired; this activity works in the 3' to 5' direction on the newly made strand and is called proofreading. A separate system, mismatch repair, scans the finished duplex, distinguishes the new strand from the template and excises a tract containing the mismatch so that it can be resynthesised.",
+    "Because the three mechanisms act in series, their contributions multiply. Investigators measured the mutation rate of a bacterium whose genome is 4.6 × 10⁶ base pairs, using a reporter gene whose inactivation can be scored on selective plates. Four strains were compared: a wild-type strain, a strain whose polymerase lacks the proofreading site, a strain lacking the mismatch repair system, and a strain lacking both (Table 2). Every culture was grown for the same number of generations without selection before plating.",
+    "The investigators noted that both single mutants grew at normal rates, while the double mutant grew more slowly and lost viability over successive subcultures. Sequencing of the reporter gene from the proofreading-deficient strain showed almost entirely single base substitutions, while the reporter from the mismatch-repair-deficient strain carried, in addition to substitutions, frequent insertions and deletions of one or two base pairs within short runs of a repeated base."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 2  Measured error rate of each strain.",
+    "markup": "<table><thead><tr><th>Strain</th><th>Errors per base pair replicated</th></tr></thead><tbody><tr><td>Wild type</td><td>1 × 10⁻¹⁰</td></tr><tr><td>Proofreading-deficient</td><td>1 × 10⁻⁷</td></tr><tr><td>Mismatch-repair-deficient</td><td>1 × 10⁻⁸</td></tr><tr><td>Deficient in both</td><td>1 × 10⁻⁵</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb-p3",
+   "title": "Oxygen carriage in the blood",
+   "paragraphs": [
+    "Each haemoglobin tetramer binds up to four molecules of oxygen, one at the haem iron of each subunit. Binding is cooperative: the first oxygen bound shifts the tetramer toward a conformation in which the remaining sites bind more readily, which is what gives the sigmoidal relationship between saturation and oxygen partial pressure. The partial pressure at which haemoglobin is half saturated, the P50, is about 27 mmHg in a healthy adult at rest. A fall in pH, a rise in PCO₂, a rise in temperature and a rise in the concentration of 2,3-BPG each raise the P50, shifting the curve to the right and favouring release of oxygen to the tissues; the opposite changes shift it to the left.",
+    "Almost all of the oxygen in blood is carried on haemoglobin, and only a little is dissolved in plasma. The oxygen content of arterial blood, in millilitres of oxygen per decilitre of blood, is content = (1.34 × Hb) × SaO₂ + (0.003 × PaO₂), where Hb is the haemoglobin concentration in g/dL, SaO₂ is the fractional saturation of haemoglobin and PaO₂ is the arterial partial pressure of oxygen in mmHg. The first term is the oxygen bound to haemoglobin and the second is the oxygen in physical solution.",
+    "Four adults attending a clinic were studied. Haemoglobin concentration, arterial saturation measured by co-oximetry and arterial oxygen partial pressure are given in Table 3. Subject J was a healthy control. Subject K had iron deficiency anaemia. Subject L had advanced lung disease. Subject M had been rescued from a house fire and had inhaled carbon monoxide, which binds haem with an affinity more than two hundred times that of oxygen and, by occupying some subunits, holds the remaining subunits in the high-affinity conformation."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 3  Measurements in four subjects.",
+    "markup": "<table><thead><tr><th>Subject</th><th>Hb (g/dL)</th><th>SaO₂</th><th>PaO₂ (mmHg)</th></tr></thead><tbody><tr><td>J</td><td>15</td><td>0.97</td><td>90</td></tr><tr><td>K</td><td>8</td><td>0.98</td><td>95</td></tr><tr><td>L</td><td>15</td><td>0.80</td><td>50</td></tr><tr><td>M</td><td>15</td><td>0.60</td><td>95</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb-p4",
+   "title": "A receptor variant and the restriction point",
+   "paragraphs": [
+    "Most animal cells will not divide unless a growth factor tells them to. The signal is received by a receptor whose cytoplasmic domain is a protein kinase: binding of growth factor brings two receptor molecules together, each phosphorylates the other, and a cascade running through Ras and the mitogen-activated protein kinases ends in transcription of the genes for the D-type cyclins. A cyclin-dependent kinase activated by those cyclins phosphorylates the retinoblastoma protein, which in its unphosphorylated form holds inactive the transcription factors that switch on the genes of DNA replication. Once the retinoblastoma protein is phosphorylated, the cell passes the restriction point in G1 and completes the cycle whether or not growth factor is still present.",
+    "A laboratory identified a receptor variant, found in a tumour, in which a short deletion in the extracellular domain lets two receptor molecules associate without growth factor. Cultured fibroblasts were transfected with no construct, with the normal receptor, or with the variant receptor. Each culture was grown to confluence in serum, washed, and then held in serum-free medium for 24 hours. The cells were fixed, their DNA stained, and the proportion in each phase of the cycle determined by flow cytometry (Table 4).",
+    "Serum is the usual source of growth factors in culture, so serum-free medium leaves a cell with no mitogenic signal from outside. The investigators confirmed by immunoblotting that the normal and variant receptors were present in similar amounts at the cell surface, and that neither construct altered the total amount of retinoblastoma protein in the cell."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 4  Distribution of cells by cycle phase after 24 hours without serum.",
+    "markup": "<table><thead><tr><th>Transfected construct</th><th>G1 (%)</th><th>S (%)</th><th>G2/M (%)</th></tr></thead><tbody><tr><td>None</td><td>85</td><td>6</td><td>9</td></tr><tr><td>Normal receptor</td><td>80</td><td>9</td><td>11</td></tr><tr><td>Variant receptor</td><td>45</td><td>35</td><td>20</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb-p5",
+   "title": "Transfer of a resistance plasmid",
+   "paragraphs": [
+    "Bacteria acquire genes from one another in three main ways. In transformation, a competent cell takes up DNA from the medium around it. In transduction, a bacteriophage carries host DNA from one cell into the next. In conjugation, a donor builds a pilus that contacts a recipient and passes a copy of a plasmid through the bridge that forms; because the DNA never enters the medium, conjugation proceeds even in the presence of a nuclease that would destroy any free DNA. A plasmid may carry several resistance genes at once, so a single transfer event can convert a susceptible strain into a strain resistant to drugs of two unrelated classes.",
+    "A clinical isolate of Escherichia coli carried a plasmid with two resistance genes: one encoding an enzyme that hydrolyses the strained four-membered ring of penicillins, and one encoding a pump that exports tetracycline from the cytoplasm. The isolate was mixed with a plasmid-free recipient strain distinguishable by a chromosomal marker. After 2 hours the recipients were separated and their minimum inhibitory concentrations determined (Table 5). The mating was repeated with a deoxyribonuclease present throughout, and separately the recipient was incubated with purified plasmid DNA and the same nuclease rather than with donor cells.",
+    "Growth of the recipient strain was also followed in rich broth. Starting from 1.0 × 10³ cells/mL, it divided once every 30 minutes for the whole period studied, with no detectable lag. Neither the plasmid-free recipient nor the strain that had received the plasmid grew more slowly than the other in drug-free broth, so carrying the plasmid imposed no measurable cost under these conditions."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 5  Minimum inhibitory concentrations, in micrograms/mL.",
+    "markup": "<table><thead><tr><th>Preparation</th><th>Ampicillin</th><th>Tetracycline</th></tr></thead><tbody><tr><td>Plasmid-free recipient</td><td>2</td><td>1</td></tr><tr><td>Plasmid-bearing donor</td><td>512</td><td>64</td></tr><tr><td>Recipient after mating with donor</td><td>512</td><td>64</td></tr><tr><td>Recipient after mating, nuclease present</td><td>512</td><td>64</td></tr><tr><td>Recipient with plasmid DNA and nuclease</td><td>2</td><td>1</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb-p6",
+   "title": "Fuel use during a prolonged fast",
+   "paragraphs": [
+    "An adult at rest oxidises about 300 g of glucose a day, of which the brain takes roughly 120 g. The liver holds about 100 g of glycogen and can release the glucose from it into the blood; skeletal muscle holds about 400 g but lacks the phosphatase needed to export free glucose, so muscle glycogen serves muscle alone. As a fast continues, falling insulin releases adipose tissue lipolysis from inhibition, free fatty acids are mobilised, and the liver converts part of the resulting acetyl-CoA into the ketone bodies acetoacetate and 3-hydroxybutyrate, which the brain can oxidise.",
+    "Oxidation of a fatty acid begins with its activation to a coenzyme A thioester, at a cost of two ATP equivalents. Each round of the oxidation spiral then shortens the chain by two carbons and yields one NADH, one FADH₂ and one acetyl-CoA, except that the last round yields two acetyl-CoA and no further shortening. Taking each NADH as 2.5 ATP, each FADH₂ as 1.5 ATP and each acetyl-CoA oxidised in the citric acid cycle as 10 ATP gives the net yield of a saturated fatty acid of any length.",
+    "Six healthy volunteers fasted for 72 hours under observation. Plasma glucose, insulin, free fatty acids and 3-hydroxybutyrate were measured at intervals (Table 6). All six remained well, and in no subject did plasma glucose fall below 3.5 mM. Urinary nitrogen excretion rose over the first two days and then fell, and indirect calorimetry showed that by 72 hours more than four fifths of the energy being expended came from the oxidation of fat."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 6  Plasma measurements during a 72 hour fast, mean of six subjects.",
+    "markup": "<table><thead><tr><th>Hours fasted</th><th>Glucose (mM)</th><th>Insulin (pmol/L)</th><th>Free fatty acids (mM)</th><th>3-Hydroxybutyrate (mM)</th></tr></thead><tbody><tr><td>0</td><td>5.0</td><td>300</td><td>0.3</td><td>0.05</td></tr><tr><td>12</td><td>4.4</td><td>60</td><td>0.6</td><td>0.15</td></tr><tr><td>24</td><td>4.0</td><td>30</td><td>1.0</td><td>0.6</td></tr><tr><td>72</td><td>3.6</td><td>15</td><td>1.4</td><td>3.0</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb-p7",
+   "title": "Recovery of glucose in the proximal tubule",
+   "paragraphs": [
+    "Blood is filtered at the glomerulus at about 125 mL/min in a healthy adult, and the filtrate begins with the same concentration of small solutes as plasma. Essentially all of the filtered glucose is recovered in the proximal tubule. On the basolateral surface of the tubule cell a pump hydrolyses ATP to move three sodium ions out of the cell and two potassium ions in, which keeps the intracellular sodium concentration low. On the apical surface, facing the filtrate, a carrier binds sodium and glucose together and takes both into the cell: sodium moves down its electrochemical gradient, and glucose is dragged up its own concentration gradient. Glucose then leaves across the basolateral membrane by facilitated diffusion.",
+    "The amount of a solute delivered to the tubule each minute is its filtered load, the product of the filtration rate and the plasma concentration. The carriers have a finite capacity: once the filtered load exceeds the transport maximum, which is about 2.0 mmol/min for glucose in an adult, the excess stays in the tubular fluid and appears in the urine. Plasma glucose in a fasting adult is about 5.0 mmol/L.",
+    "Investigators perfused isolated segments of proximal tubule and measured glucose uptake across the apical membrane. Uptake was abolished when the sodium in the perfusate was replaced by an impermeant cation, and it did not increase further once the glucose concentration in the perfusate was raised past the point at which the carriers were saturated. A second preparation was used to confirm that the same segments reabsorbed amino acids by carriers that also depend on sodium, and that uptake of both classes of solute was lost together when sodium was removed."
+   ]
+  },
+  {
+   "id": "bb-p8",
+   "title": "An inherited hearing loss",
+   "paragraphs": [
+    "Severe hearing loss present from birth is most often inherited, and in populations of European descent a large share of cases is accounted for by loss-of-function variants in a single gene, encoding the gap junction protein connexin 26. Gap junctions are channels that connect the cytoplasm of adjacent cells directly to one another. In the cochlea they link the supporting cells that surround the sensory hair cells, and they provide the route by which the potassium that enters hair cells during transduction is passed back to the fluid of the cochlear duct. Without that route the ion gradients on which transduction depends cannot be maintained, and the hair cells degenerate.",
+    "Variants in this gene are recessive: a person with one normal copy hears normally. In one surveyed population 4 of every 10 000 people have hearing loss attributable to this gene, and the population may be treated as being in Hardy-Weinberg equilibrium at the locus. Many other genes can also cause non-syndromic recessive hearing loss, so two deaf people are not necessarily homozygous at the same locus.",
+    "A clinic reviewed its records. Among 40 families in which both parents heard normally and at least one child was deaf, affected children made up close to a quarter of the children in those sibships, and affected sons and daughters were about equally common. Among couples in which both partners were deaf, most had only deaf children, but in several families every child heard normally. No pedigree in the series showed an affected individual in three successive generations."
+   ],
+   "sources": [
+    {
+     "label": "NHGRI Talking Glossary of Genomic and Genetic Terms",
+     "url": "https://www.genome.gov/genetics-glossary"
+    }
+   ]
+  },
+  {
+   "id": "bb-p9",
+   "title": "Transmission at the neuromuscular junction",
+   "paragraphs": [
+    "An action potential arriving at a motor nerve terminal opens voltage-gated calcium channels, and the calcium that enters triggers fusion of transmitter-filled vesicles with the presynaptic membrane. The acetylcholine released crosses the cleft and binds nicotinic receptors on the muscle fibre, each of which is a cation channel that opens when two molecules of transmitter are bound. The inward current through those channels depolarises the end-plate region, and if the end-plate potential reaches threshold it sets off an action potential in the muscle fibre. Acetylcholinesterase in the cleft hydrolyses the transmitter within milliseconds, which ends the signal and frees the receptors.",
+    "A healthy junction releases far more transmitter than it needs, so the end-plate potential normally exceeds threshold several times over. In myasthenia gravis, autoantibodies reduce the number of receptors in the postsynaptic membrane. Investigators modelled this by exposing isolated nerve-muscle preparations to purified antibody against the receptor, and a third group of preparations was treated with antibody and then with an inhibitor of acetylcholinesterase. Antibody-treated preparations were washed before recording, so that any antibody remaining was bound to the membrane rather than free in the bath, and the amount of transmitter released per impulse was shown by a separate method to be the same as in control preparations.",
+    "End-plate potentials were recorded with a microelectrode while the motor nerve was stimulated ten times at 10 Hz, a rate at which the amount of transmitter released declines slightly from the first stimulus to the last in any preparation. In these muscle fibres an end-plate potential of at least 25 mV was needed to set off a muscle action potential. Amplitudes at the first and the tenth stimulus of the train are given in Table 8."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 8  End-plate potential amplitude, in mV, at the first and tenth stimulus of a 10 Hz train.",
+    "markup": "<table><thead><tr><th>Preparation</th><th>Stimulus 1</th><th>Stimulus 10</th></tr></thead><tbody><tr><td>Control</td><td>40</td><td>38</td></tr><tr><td>Antibody</td><td>18</td><td>9</td></tr><tr><td>Antibody and cholinesterase inhibitor</td><td>32</td><td>26</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb-p10",
+   "title": "Affinity maturation after immunisation",
+   "paragraphs": [
+    "A naive B cell displays a single antibody specificity on its surface. Antigen binding, together with signals from a helper T cell that recognises peptide from the same antigen, drives the cell into a germinal centre, where it divides rapidly. Two processes then act on the dividing cells. In class switching, a recombination event joins the assembled variable region exon to a different heavy chain constant region gene, so that the same binding site is carried on an antibody of a different class. In somatic hypermutation, point mutations are introduced into the variable region at a high rate; cells whose receptors now bind antigen more tightly compete more successfully for the limited antigen and helper signals available, and those are the cells that go on to secrete antibody or to persist as memory cells.",
+    "Mice were immunised once with a protein antigen in adjuvant on day 0 and again on day 35. Serum was taken at intervals. The dominant antibody class was determined by a class-specific immunoassay, the titre was taken as the greatest dilution still giving a signal, and the dissociation constant of the serum antibody for the antigen was measured by equilibrium binding (Table 9). A lower dissociation constant means tighter binding. Titre reports how much antibody is present and the dissociation constant reports how tightly it binds, so the two measurements can move independently of each other.",
+    "Mice given adjuvant alone made no detectable antibody against the antigen at any time point, and mice lacking helper T cells made a small amount of IgM whose dissociation constant did not change over the six weeks."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 9  Serum antibody after immunisation on day 0 and day 35.",
+    "markup": "<table><thead><tr><th>Day</th><th>Dominant class</th><th>Titre</th><th>Dissociation constant (mol/L)</th></tr></thead><tbody><tr><td>7</td><td>IgM</td><td>1:100</td><td>1 × 10⁻⁶</td></tr><tr><td>28</td><td>IgG</td><td>1:10 000</td><td>1 × 10⁻⁹</td></tr><tr><td>42</td><td>IgG</td><td>1:100 000</td><td>1 × 10⁻¹⁰</td></tr></tbody></table>"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "bb-p1-q1",
+   "passageId": "bb-p1",
+   "stem": "Using Table 1, what is the initial velocity of the enzyme in the presence of 2.0 mM citrate when fructose-6-phosphate is held at 2.0 mM?",
+   "choices": {
+    "A": "53 nmol/min",
+    "B": "40 nmol/min",
+    "C": "30 nmol/min",
+    "D": "20 nmol/min"
+   },
+   "correct": "D",
+   "explanation": "The rate equation gives v = Vmax[S]/(Km + [S]), and with citrate present the apparent Km is 4.0 mM. So v = 60 × 2.0/(4.0 + 2.0) = 120/6 = 20 nmol/min. The substrate sits well below its apparent Km here, so the velocity has to come out well under half of Vmax, which rules out the three larger choices on sight.",
+   "wrong": {
+    "A": "This uses the apparent Km of 0.25 mM from the AMP row of Table 1; the condition in the stem is citrate, not AMP.",
+    "B": "This uses the no-effector apparent Km of 1.0 mM instead of the 4.0 mM measured with citrate present.",
+    "C": "This leaves the substrate term out of the denominator, computing Vmax[S]/Km rather than Vmax[S]/(Km + [S])."
+   },
+   "category": "1A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "2"
+  },
+  {
+   "id": "bb-p1-q2",
+   "passageId": "bb-p1",
+   "stem": "The effect of citrate shown in Table 1 is most consistent with which pattern of enzyme inhibition?",
+   "choices": {
+    "A": "Uncompetitive inhibition, because the apparent Km and Vmax both fall",
+    "B": "Non-competitive inhibition, because Vmax falls while Km is unchanged",
+    "C": "Mixed inhibition, because the apparent Km rises and Vmax falls",
+    "D": "Competitive inhibition, because the apparent Km rises while Vmax holds"
+   },
+   "correct": "D",
+   "explanation": "Citrate raises the apparent Km fourfold, from 1.0 to 4.0 mM, and leaves Vmax at 60 nmol/min. Raising the substrate concentration therefore still reaches the same maximal rate, which is the kinetic signature of competition. The inhibitor binds a regulatory site rather than the catalytic one, so these are competitive kinetics produced allosterically.",
+   "wrong": {
+    "A": "Uncompetitive inhibition lowers both constants, and Vmax is 60 nmol/min in every row of Table 1.",
+    "B": "Non-competitive inhibition leaves the apparent Km alone and lowers Vmax; Table 1 shows the opposite pattern.",
+    "C": "Mixed inhibition requires Vmax to fall as well, and Vmax is unchanged with citrate present."
+   },
+   "category": "1A",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "2"
+  },
+  {
+   "id": "bb-p1-q3",
+   "passageId": "bb-p1",
+   "stem": "Which of the following changes would raise the rate of the committed step of glycolysis in a cell whose enzyme behaves as in Table 1?\n\nI. A rise in the concentration of AMP\nII. A rise in the concentration of citrate\nIII. A rise in the concentration of fructose-2,6-bisphosphate",
+   "choices": {
+    "A": "I only",
+    "B": "I and II only",
+    "C": "I and III only",
+    "D": "I, II and III"
+   },
+   "correct": "C",
+   "explanation": "AMP and fructose-2,6-bisphosphate both lower the apparent Km in Table 1, to 0.25 and 0.20 mM, so at any sub-saturating substrate concentration each raises the velocity. Citrate does the reverse, raising the apparent Km to 4.0 mM, because a citric acid cycle already supplied with carbon has no use for more. Vmax is the same throughout, so every effect here works through affinity.",
+   "wrong": {
+    "A": "AMP does raise the rate, but Table 1 shows fructose-2,6-bisphosphate lowering the apparent Km further still, to 0.20 mM.",
+    "B": "Citrate raises the apparent Km to 4.0 mM, which lowers the velocity at any sub-saturating substrate concentration.",
+    "D": "Two of the three raise the rate. Citrate reports that the citric acid cycle is already supplied, and it inhibits the step."
+   },
+   "category": "1D",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "3"
+  },
+  {
+   "id": "bb-p1-q4",
+   "passageId": "bb-p1",
+   "stem": "ATP is described as both a substrate and an inhibitor of this enzyme. Which finding most strongly supports the claim that its inhibitory effect occurs at a site distinct from the catalytic site?",
+   "choices": {
+    "A": "Raising ATP above 1 mM lowers the velocity measured at a fixed sugar concentration",
+    "B": "The enzyme has a lower apparent Km for ATP than for fructose-6-phosphate",
+    "C": "Replacing one arginine abolishes inhibition by high ATP while turnover is retained",
+    "D": "AMP added with high ATP restores the velocity to its uninhibited value"
+   },
+   "correct": "C",
+   "explanation": "A substitution that removes the inhibition while leaving catalysis intact places the effect at a site that catalysis does not need, which is what a distinct site means. Each of the other findings is equally consistent with ATP acting at the catalytic site itself, so none of them discriminates between the two possibilities.",
+   "wrong": {
+    "A": "This shows only that high ATP inhibits. Inhibition at the catalytic site would look exactly the same, so it does not locate the site.",
+    "B": "Relative affinities describe binding at the catalytic site and say nothing about where the inhibitory molecule binds.",
+    "D": "Reversal by AMP shows that the two effectors interact, but AMP could be competing for the catalytic site as easily as for another one."
+   },
+   "category": "1A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "2"
+  },
+  {
+   "id": "bb-p1-q5",
+   "passageId": "bb-p1",
+   "stem": "Fructose-2,6-bisphosphate is made by a bifunctional liver enzyme whose synthetic activity dominates when insulin signalling is high. Its effect in Table 1 best explains why:",
+   "choices": {
+    "A": "glycolysis in the liver slows when insulin is high",
+    "B": "the liver exports glucose during a prolonged fast",
+    "C": "citrate and AMP must occupy the same regulatory site",
+    "D": "glycolysis in the liver speeds up when insulin is high"
+   },
+   "correct": "D",
+   "explanation": "Table 1 shows fructose-2,6-bisphosphate lowering the apparent Km from 1.0 to 0.20 mM, a fivefold rise in affinity, so the committed step runs faster at the same substrate concentration. Because insulin signalling raises the concentration of that effector, the fed state accelerates glycolysis in the liver.",
+   "wrong": {
+    "A": "The direction is wrong: the effector lowers the apparent Km, which raises the velocity at any sub-saturating substrate concentration.",
+    "B": "Export of glucose during a fast is driven by glucagon and gluconeogenesis, neither of which appears in Table 1.",
+    "C": "The passage places citrate and ATP at one regulatory site and puts AMP and fructose-2,6-bisphosphate elsewhere."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb-p2-q1",
+   "passageId": "bb-p2",
+   "stem": "How many mutations per genome per generation would the wild-type strain be expected to acquire?",
+   "choices": {
+    "A": "4.6 × 10⁻¹",
+    "B": "4.6 × 10⁻⁴",
+    "C": "4.6 × 10⁻⁷",
+    "D": "4.6 × 10⁻¹⁶"
+   },
+   "correct": "B",
+   "explanation": "Multiplying the per-base-pair error rate of the wild-type strain, 1 × 10⁻¹⁰, by the 4.6 × 10⁶ base pairs of the genome gives 4.6 × 10⁻⁴ mutations per genome per generation. Exponents add in a product, so -10 and 6 give -4. A figure well below one mutation per genome per generation is what keeps a genome of this size stable over many divisions.",
+   "wrong": {
+    "A": "This uses the proofreading-deficient rate of 1 × 10⁻⁷ per base pair rather than the wild-type rate of 1 × 10⁻¹⁰.",
+    "C": "This treats the genome as 4.6 × 10³ base pairs, which is its size in kilobases rather than in base pairs.",
+    "D": "This subtracts the exponents instead of adding them; in a product of powers of ten the exponents are summed."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb-p2-q2",
+   "passageId": "bb-p2",
+   "stem": "By how many orders of magnitude does proofreading alone lower the error rate, according to Table 2?",
+   "choices": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "5"
+   },
+   "correct": "C",
+   "explanation": "The intact strain makes 1 × 10⁻¹⁰ errors per base pair and the proofreading-deficient strain makes 1 × 10⁻⁷, so removing proofreading alone costs 3 orders of magnitude. Dividing powers of ten means subtracting exponents, and -7 minus -10 is 3.",
+   "wrong": {
+    "A": "One order of magnitude separates the two single mutants from each other, 1 × 10⁻⁷ against 1 × 10⁻⁸.",
+    "B": "Two orders of magnitude is what mismatch repair contributes, comparing 1 × 10⁻⁸ with the intact strain.",
+    "D": "Five orders of magnitude separates the double mutant from the intact strain, so it credits both systems at once."
+   },
+   "category": "1B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb-p2-q3",
+   "passageId": "bb-p2",
+   "stem": "The proofreading activity described in the passage removes a mispaired nucleotide. This activity is best described as:",
+   "choices": {
+    "A": "a 5' to 3' exonuclease acting on the template strand",
+    "B": "an endonuclease that nicks the strand behind the mismatch",
+    "C": "a 3' to 5' exonuclease acting on the newly made strand",
+    "D": "a glycosylase that excises the mispaired base alone"
+   },
+   "correct": "C",
+   "explanation": "Nucleotides are added to the 3' end of the growing strand, so an enzyme that backs up over its own last mistake has to work in the 3' to 5' direction, and it acts on the daughter strand it has just built. The template is never cut, because the template carries the information being copied.",
+   "wrong": {
+    "A": "A 5' to 3' exonuclease would work from the wrong end, and cutting the template would destroy the information being copied.",
+    "B": "Nicking behind the mismatch would break the backbone while leaving the wrong nucleotide in place, which is not what proofreading achieves.",
+    "D": "A glycosylase removes a damaged base and leaves the backbone intact, which is base excision repair rather than proofreading."
+   },
+   "category": "1B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "4"
+  },
+  {
+   "id": "bb-p2-q4",
+   "passageId": "bb-p2",
+   "stem": "The mismatch-repair-deficient strain makes 1 × 10⁻⁸ errors per base pair. All of the following would be expected of this strain EXCEPT:",
+   "choices": {
+    "A": "fewer insertions and deletions in short repeat tracts than in the wild type",
+    "B": "an increased frequency of base substitutions across the whole genome",
+    "C": "an advantage over the wild type under sustained antibiotic selection",
+    "D": "a further rise in error rate if the proofreading site is also removed"
+   },
+   "correct": "A",
+   "explanation": "Mismatch repair is the system that corrects the strand-slippage errors that arise in repeated sequences, so losing it raises rather than lowers the frequency of small insertions and deletions, which is what the sequencing of its reporter gene showed. The other three all follow from a raised mutation rate, and Table 2 records the double mutant at 1 × 10⁻⁵.",
+   "wrong": {
+    "B": "This is expected: an uncorrected mismatch becomes a fixed substitution at the next round of replication.",
+    "C": "This is expected: a raised mutation rate supplies resistance alleles faster, which is an advantage for as long as selection lasts.",
+    "D": "This is expected, and Table 2 reports it, with the double mutant at 1 × 10⁻⁵, above either single mutant."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb-p3-q1",
+   "passageId": "bb-p3",
+   "stem": "What is the arterial oxygen content of Subject K?",
+   "choices": {
+    "A": "1.6 mL/dL",
+    "B": "10.8 mL/dL",
+    "C": "19.8 mL/dL",
+    "D": "105.5 mL/dL"
+   },
+   "correct": "B",
+   "explanation": "The bound term is 1.34 × 8 = 10.7 mL/dL at full saturation, which at a saturation of 0.98 gives 10.5 mL/dL, and the dissolved term is 0.003 × 95 = 0.29 mL/dL. The total is 10.8 mL/dL. Notice how small the dissolved term is: in this subject the haemoglobin concentration, not the partial pressure, is what has gone wrong.",
+   "wrong": {
+    "A": "This leaves the haemoglobin concentration out altogether, multiplying 1.34 by the saturation alone.",
+    "C": "This uses the control subject's 15 g/dL rather than the 8 g/dL that Table 3 gives for Subject K.",
+    "D": "This adds the arterial partial pressure of 95 mmHg straight into the total instead of multiplying it by 0.003."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb-p3-q2",
+   "passageId": "bb-p3",
+   "stem": "Which subject's arterial blood carries the greatest amount of oxygen per decilitre?",
+   "choices": {
+    "A": "Subject J",
+    "B": "Subject K",
+    "C": "Subject L",
+    "D": "Subject M"
+   },
+   "correct": "A",
+   "explanation": "Content is dominated by the product of haemoglobin concentration and saturation. For Subject J that product is 1.34 × 15 = 20.1 mL/dL at full saturation, which at a saturation of 0.97 gives 19.5 mL/dL, and the dissolved term adds 0.27 mL/dL. No other subject combines a normal haemoglobin concentration with a near-normal saturation, so none comes close.",
+   "wrong": {
+    "B": "Subject K is saturated but has only 8 g/dL of haemoglobin, so there is little carrier for the oxygen to sit on.",
+    "C": "Subject L has a normal haemoglobin concentration but a saturation of 0.80, which costs about a fifth of the bound oxygen.",
+    "D": "Subject M has carbon monoxide on a large share of the haem sites, leaving an oxygen saturation of only 0.60."
+   },
+   "category": "3B",
+   "skill": "skill-4",
+   "difficulty": "easy",
+   "unit": "7"
+  },
+  {
+   "id": "bb-p3-q3",
+   "passageId": "bb-p3",
+   "stem": "Which change in an exercising muscle capillary would make haemoglobin release more oxygen at a given partial pressure?",
+   "choices": {
+    "A": "a rise in the pH of the plasma",
+    "B": "a fall in the temperature of the blood",
+    "C": "a fall in the concentration of 2,3-BPG",
+    "D": "a rise in the partial pressure of carbon dioxide"
+   },
+   "correct": "D",
+   "explanation": "More unloading at a given partial pressure means a right shift, that is a higher P50. Carbon dioxide raises the hydrogen ion concentration and so lowers pH, and the passage lists both changes among those that raise the P50. The other three choices each shift the curve to the left, which is the direction that holds oxygen on.",
+   "wrong": {
+    "A": "A rise in pH shifts the curve to the left and raises affinity, so less oxygen is released at a given partial pressure.",
+    "B": "Cooling shifts the curve to the left; it is the rise in temperature in working muscle that helps unloading.",
+    "C": "Less 2,3-BPG means tighter binding and a left shift, the opposite of what unloading requires."
+   },
+   "category": "3B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "7"
+  },
+  {
+   "id": "bb-p3-q4",
+   "passageId": "bb-p3",
+   "stem": "The sigmoidal shape of the oxygen dissociation curve is best explained by:",
+   "choices": {
+    "A": "competition between oxygen and 2,3-BPG for the same binding site",
+    "B": "binding at one subunit raising the affinity of the remaining subunits",
+    "C": "four separate binding sites of identical and independent affinity",
+    "D": "oxidation of the haem iron from the ferrous to the ferric state on binding"
+   },
+   "correct": "B",
+   "explanation": "Independent sites of equal affinity give a hyperbola, and the sigmoid is what distinguishes haemoglobin from that case: the first oxygen bound shifts the tetramer toward a conformation in which the rest bind more readily. That positive cooperativity is what makes haemoglobin a good carrier across the narrow range between arterial and venous partial pressures.",
+   "wrong": {
+    "A": "2,3-BPG binds in the central cavity between the subunits rather than at a haem, and competition at one site would not produce cooperativity.",
+    "C": "Four identical independent sites give a hyperbolic curve, which is precisely the shape the sigmoid has to be told apart from.",
+    "D": "The iron stays ferrous throughout. Oxidation to the ferric state gives methaemoglobin, which carries no oxygen at all."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "1"
+  },
+  {
+   "id": "bb-p3-q5",
+   "passageId": "bb-p3",
+   "stem": "Which of the following would be expected in Subject M?\n\nI. An arterial oxygen content below that of Subject J\nII. A dissociation curve shifted to the left\nIII. An arterial oxygen partial pressure within the normal range",
+   "choices": {
+    "A": "I only",
+    "B": "I and II only",
+    "C": "I and III only",
+    "D": "I, II and III"
+   },
+   "correct": "D",
+   "explanation": "Carbon monoxide occupies haem sites, so content falls: 1.34 × 15 = 20.1 mL/dL at full saturation becomes about 12 mL/dL at a saturation of 0.60, against 19.8 mL/dL for Subject J. The passage also states that occupied subunits hold the rest in the high-affinity form, which is a left shift, while dissolved oxygen is untouched, so the measured partial pressure stays normal and looks falsely reassuring.",
+   "wrong": {
+    "A": "The fall in content is right, but carbon monoxide also raises the affinity of the unoccupied subunits and leaves dissolved oxygen alone.",
+    "B": "Both of those hold, and so does the third: the partial pressure measures dissolved oxygen, which carbon monoxide does not displace.",
+    "C": "Both of those hold, and so does the second: the passage states that occupied subunits stabilise the high-affinity conformation."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "7"
+  },
+  {
+   "id": "bb-p4-q1",
+   "passageId": "bb-p4",
+   "stem": "The flow cytometry results in Table 4 indicate that the variant receptor allows fibroblasts to:",
+   "choices": {
+    "A": "arrest in G1 even while growth factor is present",
+    "B": "complete mitosis without having replicated their DNA",
+    "C": "pass the restriction point without a growth factor signal",
+    "D": "replicate their DNA twice within one cell cycle"
+   },
+   "correct": "C",
+   "explanation": "Serum was removed, so no growth factor was available, yet only 45% of the cells carrying the variant remained in G1 and 35% were in S phase, against 6% of the untransfected cells. The restriction point is where a cell commits to dividing on the strength of a growth signal, so a receptor that signals without its ligand lets cells through it unprompted.",
+   "wrong": {
+    "A": "Arrest in G1 is what the first two rows of Table 4 show, and the variant has fewer cells in G1 rather than more.",
+    "B": "A cell in G2/M has already replicated its DNA, and 20% of the variant cells are there; nothing in the table shows mitosis without replication.",
+    "D": "A cell with twice-replicated DNA would appear as a population above the G2 peak, and Table 4 reports only the three normal compartments."
+   },
+   "category": "2C",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "6"
+  },
+  {
+   "id": "bb-p4-q2",
+   "passageId": "bb-p4",
+   "stem": "Phosphorylation of the retinoblastoma protein promotes entry into S phase because phosphorylation:",
+   "choices": {
+    "A": "activates the kinase that added the phosphoryl group, amplifying the signal",
+    "B": "releases the transcription factors that switch on the genes of replication",
+    "C": "marks the retinoblastoma protein for destruction by the proteasome",
+    "D": "lets the retinoblastoma protein bind promoters and act as an activator"
+   },
+   "correct": "B",
+   "explanation": "The unphosphorylated protein holds those transcription factors inactive; phosphorylation changes its shape so that they are let go and the genes for replication are transcribed. The retinoblastoma protein is therefore a brake that is taken off, not an accelerator that is switched on.",
+   "wrong": {
+    "A": "That would be a loop with no output. The kinase is activated by cyclin binding, and what matters is what its substrate stops doing.",
+    "C": "The protein is inactivated rather than destroyed, and it is dephosphorylated again later in the cycle; the passage notes its total amount is unchanged.",
+    "D": "It works by holding transcription factors away from their target genes, not by binding promoters itself."
+   },
+   "category": "2C",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "6"
+  },
+  {
+   "id": "bb-p4-q3",
+   "passageId": "bb-p4",
+   "stem": "Fibroblasts carrying the variant receptor would be expected to show all of the following EXCEPT:",
+   "choices": {
+    "A": "growth in soft agar in the absence of added growth factor",
+    "B": "activity of the Ras pathway that persists without ligand",
+    "C": "a need for ligand binding before the receptor kinase is active",
+    "D": "a larger fraction of cells with replicated DNA after serum removal"
+   },
+   "correct": "C",
+   "explanation": "A receptor that drives cells past the restriction point with no serum present must be signalling without its ligand, so a continuing requirement for ligand is the one thing that cannot be true of it. Table 4 shows the consequence directly: 55% of the variant cells had left G1 after serum removal, against 15% of the untransfected cells.",
+   "wrong": {
+    "A": "This is expected: growth without anchorage or added factors is the usual consequence of a receptor that signals on its own.",
+    "B": "This is expected: the receptor kinase lies upstream of Ras, so constitutive receptor activity gives constitutive pathway activity.",
+    "D": "This is expected, and Table 4 shows it, with 35% of variant cells in S phase and 20% in G2/M after serum removal."
+   },
+   "category": "2A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "6"
+  },
+  {
+   "id": "bb-p4-q4",
+   "passageId": "bb-p4",
+   "stem": "Which further experiment would best test whether the extra S-phase cells depend on the kinase activity of the variant receptor?",
+   "choices": {
+    "A": "Repeat the serum-free experiment with the variant receptor and a kinase inhibitor",
+    "B": "Repeat the experiment with serum present and record the fraction in G2/M",
+    "C": "Measure how much variant receptor protein reaches the cell surface",
+    "D": "Transfect the normal receptor into cells that lack the retinoblastoma protein"
+   },
+   "correct": "A",
+   "explanation": "The claim is that the catalytic activity of the variant drives cells through the restriction point, so the test is to leave every other condition as it was and remove only that activity. If inhibiting the kinase returns the variant row of Table 4 to the untransfected distribution, the kinase is the cause.",
+   "wrong": {
+    "B": "Adding serum back puts a growth signal into every dish, which conceals the very independence from serum that is in question.",
+    "C": "Expression level says how much receptor is present, not whether its catalytic activity is what pushes the cells on, and the passage reports it was already matched.",
+    "D": "This changes two things at once and tests the receptor that behaves normally, so it cannot speak to the variant's kinase."
+   },
+   "category": "2C",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "6"
+  },
+  {
+   "id": "bb-p5-q1",
+   "passageId": "bb-p5",
+   "stem": "Starting from the density given in the passage, what cell density would the recipient strain reach after 4 hours in rich broth?",
+   "choices": {
+    "A": "8.0 × 10³ cells/mL",
+    "B": "1.6 × 10⁴ cells/mL",
+    "C": "1.3 × 10⁵ cells/mL",
+    "D": "2.6 × 10⁵ cells/mL"
+   },
+   "correct": "D",
+   "explanation": "Four hours at one division every 30 minutes is eight generations, so the count rises by a factor of 2⁸ = 256, and 1.0 × 10³ cells/mL becomes 2.6 × 10⁵ cells/mL. Exponential growth is multiplicative, so the number of generations belongs in the exponent and not in the coefficient.",
+   "wrong": {
+    "A": "This multiplies the starting density by the eight generations instead of by 2 raised to the eighth power.",
+    "B": "This counts one division an hour, giving a factor of 2⁴, but the generation time given is 30 minutes.",
+    "C": "This uses a factor of 2⁷, which counts the gaps between eight divisions rather than the divisions themselves."
+   },
+   "category": "2B",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "9"
+  },
+  {
+   "id": "bb-p5-q2",
+   "passageId": "bb-p5",
+   "stem": "That the transfer of resistance was unaffected by the nuclease is best explained by:",
+   "choices": {
+    "A": "direct cell-to-cell passage of the plasmid through a conjugative pilus",
+    "B": "uptake of free plasmid DNA from the medium by competent recipients",
+    "C": "release of plasmid DNA from donor cells that had lysed during the mating",
+    "D": "selection of resistant mutants already present in the recipient population"
+   },
+   "correct": "A",
+   "explanation": "A nuclease degrades DNA in the medium, so any route that requires the plasmid to cross open solution would have been blocked. Conjugation moves DNA through a protein bridge, where the nuclease cannot reach it. The final row of Table 5 makes the same point from the other side: purified plasmid DNA with nuclease present conferred nothing.",
+   "wrong": {
+    "B": "Uptake from the medium is transformation, and the last row of Table 5 shows that the nuclease abolishes it.",
+    "C": "DNA released from lysed cells sits in the medium, which is exactly where the nuclease acts, so this route would have been blocked too.",
+    "D": "Pre-existing mutants would not need a donor at all, and the plasmid-free strain stayed inhibited by 2 micrograms/mL of ampicillin throughout."
+   },
+   "category": "2B",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "9"
+  },
+  {
+   "id": "bb-p5-q3",
+   "passageId": "bb-p5",
+   "stem": "By what factor does acquiring the plasmid raise the minimum inhibitory concentration of ampicillin?",
+   "choices": {
+    "A": "8",
+    "B": "64",
+    "C": "128",
+    "D": "256"
+   },
+   "correct": "D",
+   "explanation": "The plasmid-free recipient is inhibited by 2 micrograms/mL of ampicillin and the plasmid-bearing strain needs 512, so the factor is 512/2 = 256. Both figures are powers of two, which makes the division quick.",
+   "wrong": {
+    "A": "This divides the ampicillin concentration by the tetracycline concentration for the same strain, which compares two different drugs.",
+    "B": "This is the fold rise in the tetracycline concentration, and the question asks about ampicillin.",
+    "C": "This divides 512 by 4; the plasmid-free strain is inhibited by 2 micrograms/mL, not 4."
+   },
+   "category": "2B",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "9"
+  },
+  {
+   "id": "bb-p5-q4",
+   "passageId": "bb-p5",
+   "stem": "One plasmid gene encodes an enzyme that hydrolyses penicillins. Which mechanism best accounts for the raised tetracycline concentration needed by the same strain?",
+   "choices": {
+    "A": "hydrolysis of tetracycline by that same enzyme",
+    "B": "a pump that lowers the concentration of the drug inside the cell",
+    "C": "a thicker peptidoglycan layer that keeps the drug out",
+    "D": "a mutation in the gene encoding the drug's ribosomal target"
+   },
+   "correct": "B",
+   "explanation": "The passage assigns tetracycline resistance on this plasmid to an export pump, and pumping the drug back out holds its concentration at the ribosome below the level that blocks translation. An enzyme evolved to open a strained four-membered ring has no comparable bond to attack in tetracycline.",
+   "wrong": {
+    "A": "Tetracycline contains no strained four-membered ring for that enzyme to open, and the passage assigns the two resistances to separate genes.",
+    "C": "Peptidoglycan is a porous mesh rather than a permeability barrier, and it is the target of ampicillin rather than a defence against it.",
+    "D": "A target mutation is a chromosomal change, so it could not have been carried into the recipient on the plasmid."
+   },
+   "category": "2B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "9"
+  },
+  {
+   "id": "bb-p6-q1",
+   "passageId": "bb-p6",
+   "stem": "Using the yields given in the passage, what is the net ATP yield from the complete oxidation of one molecule of a saturated 16-carbon fatty acid?",
+   "choices": {
+    "A": "106 ATP",
+    "B": "108 ATP",
+    "C": "110 ATP",
+    "D": "129 ATP"
+   },
+   "correct": "A",
+   "explanation": "A 16-carbon chain needs seven rounds of the spiral to give eight acetyl-CoA, and each round yields one NADH and one FADH₂. That is 7 × 2.5 = 17.5 plus 7 × 1.5 = 10.5, so 28 ATP from the reduced carriers, and 8 × 10 = 80 ATP from the cycle, giving 108. Subtracting the two ATP equivalents spent on activation leaves 106 ATP.",
+   "wrong": {
+    "B": "This omits the two ATP equivalents spent activating the fatty acid to its coenzyme A thioester.",
+    "C": "This uses eight rounds of the spiral, one for each acetyl-CoA, but seven rounds already cut a 16-carbon chain into eight two-carbon units.",
+    "D": "This uses the older yields of 3 ATP per NADH, 2 per FADH₂ and 12 per acetyl-CoA rather than the values the passage supplies."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "3"
+  },
+  {
+   "id": "bb-p6-q2",
+   "passageId": "bb-p6",
+   "stem": "The rise in 3-hydroxybutyrate between 12 and 72 hours of fasting is most directly explained by:",
+   "choices": {
+    "A": "the fall in plasma glucose from 4.4 to 3.6 mM",
+    "B": "a rise in the rate of gluconeogenesis from amino acids",
+    "C": "a rise in the delivery of fatty acids to the liver as insulin falls",
+    "D": "depletion of liver glycogen within the first 24 hours"
+   },
+   "correct": "C",
+   "explanation": "Ketone bodies are built in the liver from the acetyl-CoA that fatty acid oxidation supplies, and Table 6 shows free fatty acids rising from 0.6 to 1.4 mM while insulin falls from 60 to 15 pmol/L. Falling insulin releases adipose lipolysis from inhibition, so the direct cause of the rise is substrate supply.",
+   "wrong": {
+    "A": "Plasma glucose falls by less than a fifth over that interval while 3-hydroxybutyrate rises twentyfold, and glucose is not the substrate for ketone synthesis.",
+    "B": "Gluconeogenesis consumes carbon to defend plasma glucose rather than producing the acetyl-CoA from which ketone bodies are made.",
+    "D": "Loss of glycogen begins the shift, but it was largely complete by 24 hours, and 3-hydroxybutyrate rose fivefold after that."
+   },
+   "category": "1D",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb-p6-q3",
+   "passageId": "bb-p6",
+   "stem": "Which of the following would be expected to rise in plasma between 12 and 72 hours of fasting?\n\nI. Free fatty acids\nII. 3-Hydroxybutyrate\nIII. Insulin",
+   "choices": {
+    "A": "I only",
+    "B": "I and II only",
+    "C": "II and III only",
+    "D": "I, II and III"
+   },
+   "correct": "B",
+   "explanation": "Table 6 shows free fatty acids rising from 0.6 to 1.4 mM and 3-hydroxybutyrate from 0.15 to 3.0 mM over that interval, while insulin falls from 60 to 15 pmol/L. The fall in insulin is what permits the other two, so it cannot itself be rising.",
+   "wrong": {
+    "A": "Free fatty acids do rise, but 3-hydroxybutyrate rises twentyfold over the same interval and belongs in the set as well.",
+    "C": "3-Hydroxybutyrate rises, but insulin falls fourfold; a rise in insulin would shut adipose lipolysis down.",
+    "D": "Two of the three rise. Insulin falls from 60 to 15 pmol/L, which is the permissive change behind the other two."
+   },
+   "category": "1D",
+   "skill": "skill-4",
+   "difficulty": "easy",
+   "unit": "3"
+  },
+  {
+   "id": "bb-p6-q4",
+   "passageId": "bb-p6",
+   "stem": "Why can the brain oxidise 3-hydroxybutyrate during a prolonged fast but not free fatty acids?",
+   "choices": {
+    "A": "fatty acids travel bound to albumin and are largely excluded from the brain",
+    "B": "neurons lack the enzymes of the citric acid cycle",
+    "C": "oxidation of fatty acids needs oxygen, which the brain cannot spare",
+    "D": "ketone bodies can be oxidised without mitochondria"
+   },
+   "correct": "A",
+   "explanation": "Long-chain fatty acids are carried bound to albumin and do not reach the brain in useful amounts, whereas 3-hydroxybutyrate is small and water-soluble and is carried across on a monocarboxylate transporter. Once inside it is converted back to acetyl-CoA, so the brain gets the energy of fat without having to import fat.",
+   "wrong": {
+    "B": "Neurons run a full citric acid cycle; that is how they oxidise acetyl-CoA from glucose and from ketone bodies alike.",
+    "C": "Both fuels are oxidised aerobically, and the brain's oxygen supply is defended in preference to almost every other tissue.",
+    "D": "Ketone bodies are converted to acetyl-CoA and oxidised in mitochondria, just as fatty acids are in other tissues."
+   },
+   "category": "1D",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb-p6-q5",
+   "passageId": "bb-p6",
+   "stem": "If the brain's glucose requirement were met from liver glycogen alone, how long would the store described in the passage last?",
+   "choices": {
+    "A": "8 hours",
+    "B": "20 hours",
+    "C": "29 hours",
+    "D": "48 hours"
+   },
+   "correct": "B",
+   "explanation": "The brain takes about 120 g of glucose a day and the liver holds about 100 g of glycogen, so the store covers 100/120 of a day. That is 0.83 of a day, or close to 20 hours, which is why liver glycogen is largely spent within a day and gluconeogenesis has to take over.",
+   "wrong": {
+    "A": "This uses whole-body glucose oxidation of about 300 g a day rather than the brain's share of about 120 g.",
+    "C": "This divides the daily requirement by the store rather than the store by the requirement, which inverts the ratio.",
+    "D": "This would follow from a requirement near 50 g a day, less than half the figure the passage gives for the brain."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "3"
+  },
+  {
+   "id": "bb-p7-q1",
+   "passageId": "bb-p7",
+   "stem": "What is the filtered load of glucose in a fasting adult with the filtration rate and plasma concentration given in the passage?",
+   "choices": {
+    "A": "625 mmol/min",
+    "B": "25 mmol/min",
+    "C": "6.25 mmol/min",
+    "D": "0.625 mmol/min"
+   },
+   "correct": "D",
+   "explanation": "Filtered load is the filtration rate times the plasma concentration, so the rate has to be in litres: 125 mL/min is 0.125 L/min, and 0.125 L/min × 5.0 mmol/L = 0.625 mmol/min. That figure sits well below the transport maximum of 2.0 mmol/min, which is why a fasting adult passes no glucose in the urine.",
+   "wrong": {
+    "A": "This leaves the filtration rate in millilitres, which is a thousandfold too large and would deliver more glucose each minute than the body holds.",
+    "B": "This divides the filtration rate by the plasma concentration instead of multiplying the two.",
+    "C": "This is out by a factor of ten: 125 mL is 0.125 L, not 1.25 L."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "7"
+  },
+  {
+   "id": "bb-p7-q2",
+   "passageId": "bb-p7",
+   "stem": "Above roughly what plasma glucose concentration would glucose begin to appear in the urine?",
+   "choices": {
+    "A": "16 mM",
+    "B": "2.0 mM",
+    "C": "1.6 mM",
+    "D": "0.016 mM"
+   },
+   "correct": "A",
+   "explanation": "Glucose spills once the filtered load exceeds the transport maximum, so set 0.125 L/min multiplied by the plasma concentration equal to 2.0 mmol/min, which gives 16 mmol/L. That threshold is about three times the fasting concentration, which is why glycosuria signals substantial hyperglycaemia rather than a small rise.",
+   "wrong": {
+    "B": "This reads the transport maximum, which is a rate in mmol/min, as though it were a concentration.",
+    "C": "This divides by 1.25 L/min; a filtration rate of 125 mL/min is 0.125 L/min.",
+    "D": "This divides the transport maximum by 125 without converting millilitres to litres."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "7"
+  },
+  {
+   "id": "bb-p7-q3",
+   "passageId": "bb-p7",
+   "stem": "Uptake of glucose across the apical membrane of the proximal tubule cell is best described as:",
+   "choices": {
+    "A": "primary active transport, because it consumes ATP at the carrier",
+    "B": "secondary active transport, driven by the gradient the pump maintains",
+    "C": "facilitated diffusion, because glucose moves down its own gradient",
+    "D": "simple diffusion, because glucose is small and carries no charge"
+   },
+   "correct": "B",
+   "explanation": "The apical carrier moves glucose uphill, against its concentration gradient, but hydrolyses no ATP itself; the energy comes from sodium running down the gradient that the basolateral pump created. ATP is spent, just not at this carrier, and that is what makes the transport secondary.",
+   "wrong": {
+    "A": "No ATP is hydrolysed at the apical carrier. The pump that does hydrolyse it sits on the basolateral surface.",
+    "C": "Glucose enters against its own concentration gradient, and facilitated diffusion can only carry a solute down one.",
+    "D": "Glucose is far too polar to cross a lipid bilayer at any useful rate, which is why a carrier is needed at all."
+   },
+   "category": "2A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "6"
+  },
+  {
+   "id": "bb-p7-q4",
+   "passageId": "bb-p7",
+   "stem": "An inhibitor of the basolateral pump is added to a perfused tubule segment. What happens to apical glucose uptake, and why?",
+   "choices": {
+    "A": "It falls, because the sodium gradient that drives the carrier collapses",
+    "B": "It falls, because the inhibitor also blocks the apical carrier itself",
+    "C": "It rises, because sodium accumulates inside the cell and drives the carrier",
+    "D": "It is unchanged, because the apical carrier hydrolyses no ATP"
+   },
+   "correct": "A",
+   "explanation": "The pump is what holds the intracellular sodium concentration low, so inhibiting it lets sodium build up inside and the inward gradient disappears. With no gradient left to spend, the apical carrier cannot move glucose uphill, and uptake falls, exactly as it did when sodium was replaced in the perfusate.",
+   "wrong": {
+    "B": "The inhibitor acts on the pump. The fall in uptake is indirect, through the loss of the gradient, not through the carrier itself.",
+    "C": "Sodium does accumulate inside the cell, but the carrier needs sodium to be moving inwards, and a high internal concentration opposes that.",
+    "D": "The apical carrier does hydrolyse no ATP, yet it depends entirely on a gradient that only the ATP-driven pump can maintain."
+   },
+   "category": "2A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "6"
+  },
+  {
+   "id": "bb-p8-q1",
+   "passageId": "bb-p8",
+   "stem": "In the surveyed population, what fraction of people would be expected to carry one copy of the variant?",
+   "choices": {
+    "A": "0.04%",
+    "B": "0.08%",
+    "C": "2%",
+    "D": "3.9%"
+   },
+   "correct": "D",
+   "explanation": "The affected are the homozygotes, so the square of the allele frequency is 4/10 000 = 0.0004 and the allele frequency is 0.02. Heterozygotes are twice the product of the two allele frequencies, 2(0.98)(0.02) = 0.039, that is 3.9%, or about one person in 26. A rare recessive disease implies a far commoner carrier state.",
+   "wrong": {
+    "A": "This is the frequency of affected homozygotes, which the passage already gives as 4 in 10 000.",
+    "B": "This doubles the frequency of the affected without first taking its square root to recover the allele frequency.",
+    "C": "This is the allele frequency itself; a carrier has one variant and one normal allele, so the heterozygote term is needed."
+   },
+   "category": "1C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "5"
+  },
+  {
+   "id": "bb-p8-q2",
+   "passageId": "bb-p8",
+   "stem": "Two deaf partners in the clinic series had three children, all of whom heard normally. The most likely explanation is that:",
+   "choices": {
+    "A": "the condition is dominant rather than recessive in this family",
+    "B": "one partner's deafness arose from a new mutation",
+    "C": "the two partners are homozygous at different loci",
+    "D": "the children inherited a protective variant from one partner"
+   },
+   "correct": "C",
+   "explanation": "The passage notes that many genes can give the same recessive phenotype. If each partner is homozygous at a different gene, every child receives one normal copy at each of those genes and so hears normally. That is genetic heterogeneity rather than an error in the pedigree.",
+   "wrong": {
+    "A": "If the condition were dominant and both partners affected, affected children would be the expected outcome rather than the exception.",
+    "B": "A new mutation still has to be present in both copies to give a recessive phenotype, and it would not spare all three children.",
+    "D": "Nothing in the passage describes a modifier allele, and an unaffected child is already explained by one normal copy at each locus."
+   },
+   "category": "1C",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "5"
+  },
+  {
+   "id": "bb-p8-q3",
+   "passageId": "bb-p8",
+   "stem": "Loss of function in the gap junction protein causes deafness because gap junctions in the cochlea:",
+   "choices": {
+    "A": "allow potassium to be passed back from hair cells through supporting cells",
+    "B": "anchor the stereocilia of hair cells to the basilar membrane",
+    "C": "turn mechanical displacement into an electrical signal",
+    "D": "secrete the fluid that bathes the sensory hair cells"
+   },
+   "correct": "A",
+   "explanation": "A gap junction is a channel joining the cytoplasm of two neighbouring cells, and the passage describes the cochlear junctions as the route by which potassium entering hair cells during transduction is returned to the fluid of the duct. Without that route the gradients transduction depends on cannot be held, and the hair cells die.",
+   "wrong": {
+    "B": "Anchoring is the work of cytoskeletal and matrix proteins; a gap junction joins the interiors of two cells to each other.",
+    "C": "Transduction is done by mechanically gated channels in the stereocilia themselves, not by junctions between supporting cells.",
+    "D": "The fluid of the cochlear duct is secreted by specialised epithelium, and a channel between two cells secretes nothing."
+   },
+   "category": "3A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb-p8-q4",
+   "passageId": "bb-p8",
+   "stem": "Which observation would be LEAST consistent with autosomal recessive inheritance of this condition?",
+   "choices": {
+    "A": "affected children born to two parents who hear normally",
+    "B": "roughly equal numbers of affected sons and daughters",
+    "C": "affected siblings clustered in one sibship with unaffected parents",
+    "D": "an affected individual in each of three successive generations"
+   },
+   "correct": "D",
+   "explanation": "A recessive condition usually skips generations, because most carriers are unaffected; appearing in every generation of a line is the hallmark of a dominant pattern, and the passage notes that no pedigree in the series did so. The other three are the expected picture of a recessive trait.",
+   "wrong": {
+    "A": "This is the commonest presentation of a recessive condition: two heterozygous parents, each with normal hearing.",
+    "B": "An autosomal locus affects the two sexes equally, so an even sex ratio among the affected is what is expected.",
+    "C": "A recessive condition typically appears as a horizontal cluster of affected siblings rather than down a line of descent."
+   },
+   "category": "1C",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "5"
+  },
+  {
+   "id": "bb-p8-q5",
+   "passageId": "bb-p8",
+   "stem": "A couple who both hear normally have one deaf child attributable to this gene. What is the probability that their next child will carry exactly one copy of the variant?",
+   "choices": {
+    "A": "2/3",
+    "B": "1/2",
+    "C": "1/3",
+    "D": "1/4"
+   },
+   "correct": "B",
+   "explanation": "Both parents must be heterozygous, since the affected child received a variant allele from each. The cross of two heterozygotes gives 1/4 homozygous normal, 1/2 heterozygous and 1/4 homozygous affected, so the chance that the next child is a carrier is 1/2. The question asks about the next child outright, with no condition attached.",
+   "wrong": {
+    "A": "This is the chance that a child already known to hear normally is a carrier; the stem places no such condition on the next child.",
+    "C": "This would follow from treating three outcomes as equally likely, but the heterozygote class is twice the size of either homozygote class.",
+    "D": "This is the probability of each homozygous class, not of the heterozygote."
+   },
+   "category": "1C",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "5"
+  },
+  {
+   "id": "bb-p9-q1",
+   "passageId": "bb-p9",
+   "stem": "Which statement best accounts for the pattern of amplitudes in the antibody-treated preparations?",
+   "choices": {
+    "A": "Fewer vesicles are released at each successive stimulus in any preparation",
+    "B": "A reduced number of receptors leaves no reserve as release declines during the train",
+    "C": "Acetylcholinesterase activity increases during repetitive stimulation",
+    "D": "The muscle fibre has become unable to fire at any end-plate potential"
+   },
+   "correct": "B",
+   "explanation": "Control amplitudes fall only from 40 to 38 mV, because a normal junction releases far more transmitter than it needs. The treated preparations start at 18 mV and halve to 9, because with few receptors there is no safety margin to absorb the ordinary run-down in release, and the passage states that release itself was unchanged. This is why weakness in this disorder worsens with use.",
+   "wrong": {
+    "A": "Release does decline across a train, but it does so in the control as well, where the amplitude falls by only 2 mV.",
+    "C": "Nothing measured here bears on enzyme activity, and faster hydrolysis would shorten the response rather than halve its amplitude by the tenth stimulus.",
+    "D": "The treated fibre is not inexcitable: with the cholinesterase inhibitor its end-plate potential reaches 32 mV, above the 25 mV needed."
+   },
+   "category": "3A",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "7"
+  },
+  {
+   "id": "bb-p9-q2",
+   "passageId": "bb-p9",
+   "stem": "The cholinesterase inhibitor raises the end-plate potential in the antibody-treated preparations because it:",
+   "choices": {
+    "A": "increases the number of vesicles released per nerve impulse",
+    "B": "raises the number of receptors in the postsynaptic membrane",
+    "C": "lets the transmitter stay in the cleft longer, so more receptors are bound",
+    "D": "depolarises the muscle fibre directly toward its threshold"
+   },
+   "correct": "C",
+   "explanation": "Blocking the enzyme changes neither how much transmitter is released nor how many receptors remain; it lets each molecule released linger in the cleft long enough to find one of the few receptors left. Table 8 shows the first response rising from 18 to 32 mV, back above the 25 mV needed to fire the fibre.",
+   "wrong": {
+    "A": "Release is a presynaptic event and the enzyme works in the cleft, so the amount released per impulse is unaffected.",
+    "B": "Receptor number is set by the antibody; the drug works around that loss rather than reversing it.",
+    "D": "The drug has no action of its own on the muscle membrane, and the potentials recorded still require nerve stimulation."
+   },
+   "category": "3A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb-p9-q3",
+   "passageId": "bb-p9",
+   "stem": "Which of the following would reduce the amplitude of the end-plate potential?\n\nI. A toxin that blocks presynaptic calcium channels\nII. An antibody that blocks nicotinic receptors\nIII. A drug that prevents vesicles from fusing with the terminal membrane",
+   "choices": {
+    "A": "I only",
+    "B": "I and II only",
+    "C": "II and III only",
+    "D": "I, II and III"
+   },
+   "correct": "D",
+   "explanation": "The end-plate potential is the current flowing through receptor channels, so anything that cuts either the transmitter or the receptors available will lower it. Blocking calcium entry or vesicle fusion removes the transmitter, and blocking the receptors removes its targets, which is the change Table 8 records as a fall from 40 to 18 mV at the first stimulus.",
+   "wrong": {
+    "A": "Calcium entry is required, but the receptor antibody lowers the amplitude too, which is what the treated preparations show.",
+    "B": "Both of those lower the amplitude, and so does preventing fusion, which is the step that calcium entry exists to trigger.",
+    "C": "Both of those lower the amplitude, and so does blocking calcium entry, without which no vesicle fuses at all."
+   },
+   "category": "3A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "7"
+  },
+  {
+   "id": "bb-p9-q4",
+   "passageId": "bb-p9",
+   "stem": "Using the amplitude the passage gives as necessary to fire the muscle fibre, which preparation would fail to do so at the tenth stimulus of the train?",
+   "choices": {
+    "A": "Antibody-treated, with no inhibitor added",
+    "B": "Control, at every stimulus of the train",
+    "C": "Antibody-treated, with the cholinesterase inhibitor",
+    "D": "Both of the antibody-treated preparations"
+   },
+   "correct": "A",
+   "explanation": "At the tenth stimulus the amplitudes are 38 mV for the control, 9 mV with antibody alone and 26 mV with antibody and the inhibitor. Only 9 mV falls short of the 25 mV needed, so the antibody-treated preparation fails to fire the fibre unless the inhibitor is present.",
+   "wrong": {
+    "B": "The control reaches 38 mV at the tenth stimulus, far above what is needed, which is the margin a healthy junction keeps in hand.",
+    "C": "With the inhibitor the tenth response is 26 mV, which clears the 25 mV needed, if only just.",
+    "D": "The inhibitor holds the tenth response above the threshold, so the two treated preparations behave differently from each other."
+   },
+   "category": "3A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb-p10-q1",
+   "passageId": "bb-p10",
+   "stem": "What change in the affinity of the dominant serum antibody does Table 9 show between day 7 and day 28?",
+   "choices": {
+    "A": "a 1000-fold rise",
+    "B": "a 100-fold rise",
+    "C": "a 3-fold rise",
+    "D": "a 1000-fold fall"
+   },
+   "correct": "A",
+   "explanation": "Affinity is the reciprocal of the dissociation constant, so a constant falling from 1 × 10⁻⁶ to 1 × 10⁻⁹ mol/L is a 1000-fold rise in affinity. Somatic hypermutation followed by selection in the germinal centre is what produces a change of that size over three weeks.",
+   "wrong": {
+    "B": "A hundredfold change is the ratio of the titres, 1:100 against 1:10 000, which reports how much antibody there is rather than how tightly it binds.",
+    "C": "Three is the difference between the two exponents; the factor is ten raised to that difference.",
+    "D": "The dissociation constant falls by that factor, and because affinity is its reciprocal the affinity rises instead."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "8"
+  },
+  {
+   "id": "bb-p10-q2",
+   "passageId": "bb-p10",
+   "stem": "The change in the dominant antibody class between day 7 and day 28 requires:",
+   "choices": {
+    "A": "a change in the variable region genes encoding the light chain",
+    "B": "a second exposure to the same antigen in adjuvant",
+    "C": "proliferation of memory cells formed during the first week",
+    "D": "recombination joining the same variable exon to a different constant gene"
+   },
+   "correct": "D",
+   "explanation": "Class switching rearranges the heavy chain constant region while leaving the antigen-binding variable region in place, so the same specificity is carried on an antibody of a different class. That is why the day 28 antibody binds the same antigen and yet is IgG rather than IgM.",
+   "wrong": {
+    "A": "Changing the variable region would change what the antibody binds, and specificity is retained across the switch.",
+    "B": "One immunisation is enough: Table 9 records the switch between day 7 and day 28, before the second dose on day 35.",
+    "C": "Memory cells account for the speed of a later response rather than for the change of class within the first one."
+   },
+   "category": "3B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "8"
+  },
+  {
+   "id": "bb-p10-q3",
+   "passageId": "bb-p10",
+   "stem": "Which process best explains the fall in the dissociation constant between day 7 and day 28?",
+   "choices": {
+    "A": "selection of B cells whose mutated receptors bind the antigen more tightly",
+    "B": "clearance of the lower-affinity antibody from the serum by the kidney",
+    "C": "an increase in the number of antibody molecules each plasma cell secretes",
+    "D": "binding of two antigen molecules by each antibody molecule"
+   },
+   "correct": "A",
+   "explanation": "Dividing B cells in the germinal centre mutate their variable region genes, and those whose receptors bind antigen best are the ones that win the limited antigen and helper signals and go on to secrete antibody. Over three weeks that selection lowers the dissociation constant of the serum antibody from 1 × 10⁻⁶ to 1 × 10⁻⁹ mol/L.",
+   "wrong": {
+    "B": "Antibody is not cleared according to how tightly it binds its antigen, and clearance would lower the titre, which rises instead.",
+    "C": "More antibody of the same kind raises the titre without altering the dissociation constant, which is a property of the molecule.",
+    "D": "An IgM molecule offers ten binding sites and an IgG two, so the switch of class lowers rather than raises the number of sites."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "8"
+  },
+  {
+   "id": "bb-p10-q4",
+   "passageId": "bb-p10",
+   "stem": "The titre reaches 1:100 000 within a week of the second dose. Which feature of the secondary response does this best illustrate?",
+   "choices": {
+    "A": "the primary response is dominated by IgM rather than IgG",
+    "B": "antigen in a secondary response is presented only by dendritic cells",
+    "C": "the secondary response proceeds without help from T cells",
+    "D": "memory cells allow a faster and larger response to the same antigen"
+   },
+   "correct": "D",
+   "explanation": "A tenfold higher titre and a further fall in dissociation constant within one week of the second dose is the signature of a memory response: cells selected during the first response are already numerous and already class-switched. The naive repertoire took three weeks to reach a tenth of that titre.",
+   "wrong": {
+    "A": "That is true of the primary response and is visible at day 7, but it says nothing about why the second dose works so quickly.",
+    "B": "Memory B cells capture and present antigen themselves as well, and in any case presentation is not what a titre measures.",
+    "C": "Class switching and affinity maturation both depend on helper signals, and the passage reports that mice lacking helper T cells showed neither."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "8"
+  },
+  {
+   "id": "bb-d1",
+   "passageId": null,
+   "stem": "Which amino acid side chain is most likely to be found buried in the interior of a globular protein in aqueous solution?",
+   "choices": {
+    "A": "lysine",
+    "B": "aspartate",
+    "C": "valine",
+    "D": "serine"
+   },
+   "correct": "C",
+   "explanation": "Burial in the core is driven by the hydrophobic effect: a non-polar side chain at the surface forces the surrounding water into an ordered shell, and that cost is avoided by folding it inward. Valine's branched hydrocarbon side chain is non-polar, while each of the others carries charge or a hydrogen-bonding group that water accommodates happily.",
+   "wrong": {
+    "A": "Lysine carries a positively charged side chain at physiological pH and is strongly favoured at the solvent-exposed surface.",
+    "B": "Aspartate is negatively charged at physiological pH, and burying a charge with no partner to pair with is costly.",
+    "D": "The hydroxyl of serine hydrogen bonds with water, so there is little driving force to move it out of contact with solvent."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "1"
+  },
+  {
+   "id": "bb-d2",
+   "passageId": null,
+   "stem": "A non-competitive inhibitor binds an enzyme away from the active site and does not change the enzyme's affinity for substrate. Its effect on the kinetic constants is:",
+   "choices": {
+    "A": "Km rises and Vmax is unchanged",
+    "B": "Km falls and Vmax is unchanged",
+    "C": "Km is unchanged and Vmax falls",
+    "D": "Km is unchanged and Vmax rises"
+   },
+   "correct": "C",
+   "explanation": "A non-competitive inhibitor takes a share of the enzyme molecules out of service whatever the substrate concentration, so the maximal rate falls and no amount of added substrate restores it. Because affinity is unaffected by assumption, the apparent Km stays where it was.",
+   "wrong": {
+    "A": "A raised Km with Vmax intact is the competitive pattern, in which substrate and inhibitor compete for one site.",
+    "B": "A fall in Km would mean tighter substrate binding, which an inhibitor that never touches the active site has no means of producing.",
+    "D": "No inhibitor raises the maximal rate; that is what an activator does."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "2"
+  },
+  {
+   "id": "bb-d3",
+   "passageId": null,
+   "stem": "A haemoglobin tetramer is treated so that it separates into four subunits, each of which keeps its own fold. Which level of structure has been lost?",
+   "choices": {
+    "A": "primary structure",
+    "B": "secondary structure",
+    "C": "tertiary structure",
+    "D": "quaternary structure"
+   },
+   "correct": "D",
+   "explanation": "Quaternary structure is the arrangement of separate polypeptide chains within a multi-subunit protein, so losing the association between subunits while each keeps its fold is a loss of quaternary structure alone.",
+   "wrong": {
+    "A": "Primary structure is the covalent order of residues, which no change in the association between subunits can alter.",
+    "B": "Secondary structure is local backbone hydrogen bonding within one chain and survives the separation of subunits.",
+    "C": "Tertiary structure is the fold of a single chain, and the stem states that each subunit keeps its fold."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "1"
+  },
+  {
+   "id": "bb-d4",
+   "passageId": null,
+   "stem": "An investigator must decide whether a purified protein of 60 kDa is a single polypeptide or two non-covalently associated chains of 30 kDa each. Which approach answers the question most directly?",
+   "choices": {
+    "A": "measuring its isoelectric point by isoelectric focusing",
+    "B": "comparing its migration on a native gel with a set of standards",
+    "C": "running it on a denaturing gel beside standards and reading the band",
+    "D": "measuring its absorbance at 280 nm against a standard curve"
+   },
+   "correct": "C",
+   "explanation": "A denaturing gel separates by the mass of individual polypeptides, because the detergent dissociates subunits and coats each chain separately. A single band near 30 kDa would mean two chains and a band near 60 kDa one chain, so the result distinguishes the two possibilities directly.",
+   "wrong": {
+    "A": "The isoelectric point reports net charge, which does not differ in any predictable way between the two arrangements.",
+    "B": "A native gel holds subunits together, so both possibilities run near 60 kDa and the result cannot discriminate.",
+    "D": "Absorbance at 280 nm reports how much protein is present, not how its mass is divided between chains."
+   },
+   "category": "1A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "1"
+  },
+  {
+   "id": "bb-d5",
+   "passageId": null,
+   "stem": "A mutation replaces a buried leucine of an enzyme with aspartate. The protein is made at the normal mass but has no activity and precipitates at 37 °C. The substitution most likely:",
+   "choices": {
+    "A": "blocks the active site by placing a negative charge within it",
+    "B": "destabilises the fold by burying a charged group in a non-polar core",
+    "C": "prevents translation of the full-length polypeptide",
+    "D": "creates a disulfide bond that locks the protein in an inactive shape"
+   },
+   "correct": "B",
+   "explanation": "A charged side chain in a non-polar interior has neither a counter-charge to pair with nor water to solvate it, and that cost is more than the folding free energy can pay, so the protein unfolds and aggregates. The mass is normal because one residue has been swapped rather than lost, which rules out a truncated product.",
+   "wrong": {
+    "A": "The residue is described as buried in the core rather than lining the active site, and a protein that had merely lost catalysis would not precipitate.",
+    "C": "A substitution of one residue for another gives a full-length chain, and the stem states that the mass is normal.",
+    "D": "Aspartate carries no thiol group, so no disulfide can form from it, and a cross-link would not usually cause precipitation."
+   },
+   "category": "1A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "1"
+  },
+  {
+   "id": "bb-d6",
+   "passageId": null,
+   "stem": "Which enzyme activity is required to synthesise a strand of DNA using an RNA template?",
+   "choices": {
+    "A": "DNA-dependent RNA polymerase",
+    "B": "RNA-dependent DNA polymerase",
+    "C": "RNA-dependent RNA polymerase",
+    "D": "DNA-dependent DNA polymerase"
+   },
+   "correct": "B",
+   "explanation": "Reading an RNA template and writing DNA is reverse transcription, which by the naming convention is an RNA-dependent DNA polymerase: the template is named first and the product second.",
+   "wrong": {
+    "A": "This reads DNA and writes RNA, which is transcription and runs in the opposite direction of information flow.",
+    "C": "This copies RNA into RNA, as some viruses replicate their genomes, but it makes no DNA at all.",
+    "D": "This is the replicative activity of a dividing cell, which copies DNA into DNA and cannot read an RNA template."
+   },
+   "category": "1B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb-d7",
+   "passageId": null,
+   "stem": "A single base substitution at the third position of a codon leaves the amino acid sequence of the protein unchanged. Which consequence remains possible?",
+   "choices": {
+    "A": "a shift of the reading frame downstream of the substitution",
+    "B": "a change in the amino acid inserted at that codon",
+    "C": "a change in the rate at which that codon is translated",
+    "D": "a change in the number of codons in the open reading frame"
+   },
+   "correct": "C",
+   "explanation": "A synonymous substitution cannot change the residue inserted, the reading frame or the length of the reading frame. It can change which transfer RNA reads the codon, and because synonymous transfer RNAs differ in abundance the local rate of elongation and the folding that depends on it can change. That is why silent mutations are not always silent.",
+   "wrong": {
+    "A": "A substitution adds and removes no bases, so the frame downstream of it is preserved.",
+    "B": "The stem states that the amino acid sequence is unchanged, which is what a synonymous substitution means.",
+    "D": "Changing the number of codons requires an insertion, a deletion or a new stop codon, none of which a synonymous substitution creates."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "4"
+  },
+  {
+   "id": "bb-d8",
+   "passageId": null,
+   "stem": "Which modification of a eukaryotic messenger RNA is required for efficient export from the nucleus and initiation of translation?",
+   "choices": {
+    "A": "methylation of cytosines within the promoter",
+    "B": "removal of the tail of adenosine residues",
+    "C": "addition of a methylated guanosine cap at the 5' end",
+    "D": "covalent attachment of a ribosomal RNA"
+   },
+   "correct": "C",
+   "explanation": "The cap is added at the 5' end of the transcript and is recognised both by the machinery that exports the message and by the initiation factor that recruits the small ribosomal subunit. Without it the transcript is neither exported efficiently nor translated.",
+   "wrong": {
+    "A": "Methylation of a promoter is a change to DNA that affects transcription; it is not a modification of the transcript.",
+    "B": "That tail is added rather than removed, and its removal is one of the signals that mark a message for degradation.",
+    "D": "Ribosomal RNA is a component of the ribosome and is never attached covalently to a messenger RNA."
+   },
+   "category": "1B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb-d9",
+   "passageId": null,
+   "stem": "In which direction does a ribosome travel along a messenger RNA during translation?",
+   "choices": {
+    "A": "from the 3' end toward the 5' end",
+    "B": "from the 5' end toward the 3' end",
+    "C": "from the tail of adenosine residues toward the cap",
+    "D": "outward in both directions from an internal start site"
+   },
+   "correct": "B",
+   "explanation": "Translation begins at an initiation codon near the 5' end and proceeds toward the 3' end, building the protein from its amino terminus onward. The cap at the 5' end is where the small subunit is recruited, which fixes the direction of travel.",
+   "wrong": {
+    "A": "This is the direction in which a template strand is read during transcription, not the direction a ribosome moves.",
+    "C": "That tail lies at the 3' end and the cap at the 5' end, so this describes movement the wrong way along the message.",
+    "D": "A ribosome initiates at one start codon and travels one way; reading outward in both directions would give two different proteins from one message."
+   },
+   "category": "1B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "4"
+  },
+  {
+   "id": "bb-d10",
+   "passageId": null,
+   "stem": "Which process increases genetic diversity by producing new combinations of alleles along a single chromosome?",
+   "choices": {
+    "A": "independent assortment of homologous chromosomes",
+    "B": "random fertilisation of one gamete by another",
+    "C": "crossing over between homologous chromosomes",
+    "D": "failure of homologues to separate during meiosis"
+   },
+   "correct": "C",
+   "explanation": "Crossing over exchanges segments between homologues, so a chromosome leaving meiosis can carry alleles that were previously on two different chromosomes. The other mechanisms shuffle whole chromosomes or whole genomes and leave the combination of alleles along each chromosome as it was.",
+   "wrong": {
+    "A": "Independent assortment distributes whole chromosomes among gametes and leaves the alleles on each chromosome together.",
+    "B": "Fertilisation combines two gametes and alters the content of neither chromosome set.",
+    "D": "Failure of homologues to separate changes chromosome number rather than producing new allele combinations along a chromosome."
+   },
+   "category": "1C",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "5"
+  },
+  {
+   "id": "bb-d11",
+   "passageId": null,
+   "stem": "Two individuals heterozygous at two unlinked loci are crossed. What proportion of their offspring is expected to show the recessive phenotype at both loci?",
+   "choices": {
+    "A": "1/16",
+    "B": "3/16",
+    "C": "4/16",
+    "D": "9/16"
+   },
+   "correct": "A",
+   "explanation": "Unlinked loci assort independently, so the probabilities multiply: 1/4 recessive at the first locus times 1/4 at the second gives 1/16. In the familiar 9:3:3:1 ratio the double recessive is the single smallest class.",
+   "wrong": {
+    "B": "This is the proportion showing the recessive phenotype at one locus and the dominant phenotype at the other.",
+    "C": "This takes the 1/4 for one locus and stops there, rather than multiplying the two independent probabilities.",
+    "D": "This is the proportion showing the dominant phenotype at both loci."
+   },
+   "category": "1C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "5"
+  },
+  {
+   "id": "bb-d12",
+   "passageId": null,
+   "stem": "In human muscle working without oxygen, the main role of lactate dehydrogenase is to:",
+   "choices": {
+    "A": "produce ATP by substrate-level phosphorylation",
+    "B": "regenerate the oxidised cofactor that glycolysis consumes",
+    "C": "pass electrons directly to the electron transport chain",
+    "D": "convert pyruvate to acetyl-CoA for the citric acid cycle"
+   },
+   "correct": "B",
+   "explanation": "Glycolysis reduces NAD+ to NADH at the glyceraldehyde-3-phosphate step and stops as soon as the oxidised form runs out. Reducing pyruvate to lactate regenerates NAD+ in the cytosol, which is what lets glycolysis and its two net ATP continue in the absence of oxygen.",
+   "wrong": {
+    "A": "No ATP is made in this reaction; the ATP of anaerobic metabolism comes from the two substrate-level steps of glycolysis itself.",
+    "C": "The enzyme works in the cytosol and passes its electrons to pyruvate, not to any carrier of the chain.",
+    "D": "That conversion is the pyruvate dehydrogenase reaction, which is mitochondrial and useful only when oxygen is available downstream."
+   },
+   "category": "1D",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb-d13",
+   "passageId": null,
+   "stem": "A tissue is given a compound that makes the inner mitochondrial membrane permeable to protons. Which change is expected?",
+   "choices": {
+    "A": "oxygen consumption rises while ATP synthesis falls",
+    "B": "oxygen consumption falls while ATP synthesis rises",
+    "C": "oxygen consumption and ATP synthesis both fall",
+    "D": "oxygen consumption and ATP synthesis both rise"
+   },
+   "correct": "A",
+   "explanation": "With protons leaking freely back across the membrane the gradient cannot build, so the electron transport chain is no longer held back by a high protonmotive force and pumps faster, consuming more oxygen. The synthase, which needs that gradient, makes less ATP, and the energy appears as heat instead, which is how brown adipose tissue warms a newborn.",
+   "wrong": {
+    "B": "Removing the gradient leaves the synthase with nothing to work on, so ATP synthesis cannot rise, and the chain speeds up rather than slowing.",
+    "C": "Electron transport accelerates once the back-pressure of the gradient is relieved, so oxygen consumption rises rather than falling.",
+    "D": "ATP synthesis depends on the proton gradient, which is exactly what the compound dissipates."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "3"
+  },
+  {
+   "id": "bb-d14",
+   "passageId": null,
+   "stem": "Which organelle modifies and sorts proteins that have already entered the secretory pathway?",
+   "choices": {
+    "A": "the rough endoplasmic reticulum",
+    "B": "the Golgi apparatus",
+    "C": "the peroxisome",
+    "D": "the lysosome"
+   },
+   "correct": "B",
+   "explanation": "Proteins enter the pathway at the endoplasmic reticulum and are then passed to the Golgi, where attached sugar chains are trimmed and extended and where the cargo is sorted into vesicles bound for the surface, for secretion or for the lysosome. Sorting is the step the question picks out.",
+   "wrong": {
+    "A": "The endoplasmic reticulum is where proteins enter the pathway and fold, which the stem treats as already done.",
+    "C": "Peroxisomes import their proteins straight from the cytosol and are no part of the secretory pathway.",
+    "D": "The lysosome is a destination within the pathway, where hydrolysis rather than sorting is carried out."
+   },
+   "category": "2A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "6"
+  },
+  {
+   "id": "bb-d15",
+   "passageId": null,
+   "stem": "An investigator concludes that a drug blocks a plasma membrane calcium channel, because treated cells show no rise in cytosolic calcium when stimulated. Which control is most necessary before that conclusion is accepted?",
+   "choices": {
+    "A": "showing that the drug does not prevent calcium release from internal stores",
+    "B": "showing that the drug does not alter the resting membrane potential",
+    "C": "showing that the treated cells remain viable throughout the experiment",
+    "D": "showing that a higher dose of the drug gives the same result"
+   },
+   "correct": "A",
+   "explanation": "Cytosolic calcium can rise either by entry across the plasma membrane or by release from internal stores, so an absent rise does not on its own say which route was blocked. Ruling out an effect on store release is what makes the conclusion specific to the surface channel.",
+   "wrong": {
+    "B": "A change in resting potential would be a plausible mechanism for reduced entry rather than an artefact, so it would not undermine the conclusion.",
+    "C": "Viability matters for interpreting any drug experiment, but dead cells would fail many other tests, and this does not locate the drug's target.",
+    "D": "Repeating the experiment at a higher dose addresses potency, not whether the block lies at the plasma membrane."
+   },
+   "category": "2A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "6"
+  }
+ ]
+}

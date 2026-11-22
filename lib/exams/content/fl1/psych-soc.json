@@ -1,0 +1,1457 @@
+{
+ "passages": [
+  {
+   "id": "ps-p1",
+   "title": "Cue-elicited craving and the limits of extinction",
+   "paragraphs": [
+    "In classical conditioning a stimulus that reliably precedes a biologically significant event comes to elicit a response of its own. Investigators applied this framework to appetite. One hundred twenty adults who reported eating sweet snacks most days completed 20 acquisition trials in a small testing room. On each trial a 500 ms tone sounded, and three seconds later a sweetened snack was delivered through a chute. Immediately after each tone, and before the snack arrived, participants rated how strongly they wanted the snack on a scale from 0 to 100.",
+    "Participants were then assigned at random to one of three groups of 40 for a second phase. The standard extinction group received 20 trials on which the tone sounded and no snack followed, in the same room used for acquisition. The context-change extinction group received the same 20 tone-alone trials, but in a differently furnished room on another floor. The no-extinction group spent the same length of time in the acquisition room completing unrelated questionnaires and received no tone at all. Group sizes were equal and no participant was told that the second phase differed from one group to another.",
+    "All participants returned the next day and were tested with five tone-alone trials in the original acquisition room, and again two weeks later under the same conditions. Mean craving ratings at each stage are given in Table 1. No snack was delivered on any trial after the acquisition phase, and the research assistant who collected the test-day ratings did not know which group a participant had been in. Each value in Table 1 is the mean of a participant's ratings at that stage, taken on the same 0 to 100 scale throughout.",
+    "The investigators concluded that extinction had suppressed the conditioned craving without abolishing the association that produced it, and that the suppression was tied to the place in which it had been learned."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean craving rating (0 to 100) by group and stage.",
+    "markup": "<table><thead><tr><th>Group</th><th>After acquisition</th><th>End of phase 2</th><th>Test, day 1</th><th>Retest, 2 weeks</th></tr></thead><tbody><tr><td>Standard extinction</td><td>62</td><td>18</td><td>24</td><td>41</td></tr><tr><td>Context-change extinction</td><td>60</td><td>20</td><td>48</td><td>52</td></tr><tr><td>No extinction</td><td>61</td><td>not applicable</td><td>58</td><td>55</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps-p2",
+   "title": "Dividing attention in a visual search task",
+   "paragraphs": [
+    "Attention is often modelled as a limited pool of capacity drawn on by whatever a person is doing. A research group tested the model with a task in which 80 adults searched a display of 16 letters for a single target letter and pressed one of two keys to report whether it was present. Reaction time was recorded from the onset of the display, and an error was any wrong key press. The 16 letters were redrawn in a new arrangement on every trial, and the target was present on half of the trials, so a participant could not succeed by guessing.",
+    "Each participant completed the search task under three conditions, in a counterbalanced order. In the single-task condition they searched the displays alone. In the low-load condition a recorded voice read two digits before each display, which participants recalled after responding. In the high-load condition the voice read six digits. Digit lists were drawn at random and the digit recall itself was scored. Mean reaction times, error rates and digit recall are given in Table 1.",
+    "A subset of 24 participants returned for five further sessions of the high-load condition. By the fifth session their mean reaction time in that condition had fallen to 760 ms, with errors at 5%, while their single-task reaction time was unchanged at 615 ms. Participants in this subset described the search as having become something they no longer had to think about, although their reports were not scored. The group noted that this subset's single-task time had not differed from the whole sample's at the first session, so the improvement under load was not a matter of these participants having been faster to begin with."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean reaction time, error rate and digit recall by condition.",
+    "markup": "<table><thead><tr><th>Condition</th><th>Reaction time (ms)</th><th>Errors (%)</th><th>Digits recalled (%)</th></tr></thead><tbody><tr><td>Single task</td><td>620</td><td>3</td><td>not applicable</td></tr><tr><td>Low load, two digits</td><td>710</td><td>4</td><td>97</td></tr><tr><td>High load, six digits</td><td>950</td><td>11</td><td>82</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps-p3",
+   "title": "A staged collision and the information that follows it",
+   "paragraphs": [
+    "Memory for an event can be altered by information encountered after it. To examine how far that alteration depends on delay, investigators showed 150 participants a 90-second video of a cyclist and a car meeting at a junction. In the video the cyclist rides past a yield sign before entering the junction. The junction, the sign and both vehicles are visible throughout the clip, and a separate group of 20 viewers asked only to name the sign identified it correctly on every occasion.",
+    "Twenty minutes later each participant read a 200-word summary described as the account of another witness. Half the participants read an accurate summary. The other half read a summary identical in length and style except for one sentence, which stated that the cyclist had ridden past the stop sign. Participants were allocated to the accurate or misleading summary according to the order in which they arrived at the laboratory, and were allocated at random to one of two delays before testing: ten minutes or one week.",
+    "Testing used a 24-item forced-choice recognition test, one item of which asked which sign the cyclist had passed. The proportion of participants choosing the stop sign is given in Table 1. A further probe asked participants, for each item they had answered, whether they remembered seeing the detail in the video, remembered reading it in the summary, or had worked it out. Among those who chose the stop sign after the misleading summary, 68% reported having seen it in the video. Both delay groups were tested in the same room and by the same procedure, and no participant was told that the summaries differed from one participant to another."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Percentage of participants choosing the stop sign, by summary and delay.",
+    "markup": "<table><thead><tr><th>Summary read</th><th>Ten-minute delay</th><th>One-week delay</th></tr></thead><tbody><tr><td>Accurate</td><td>9</td><td>14</td></tr><tr><td>Misleading</td><td>29</td><td>48</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps-p4",
+   "title": "Detection and discrimination across the adult lifespan",
+   "paragraphs": [
+    "Sensory performance can be described by an absolute threshold, the weakest stimulus a person detects on half of the occasions it is presented, and by a difference threshold, the smallest change in a stimulus a person can tell apart from the standard. A research group measured both in 60 adults, 20 in each of three age bands, all of whom reported no history of ear disease.",
+    "Auditory absolute thresholds at 4 kHz were measured in a sound-attenuating booth with an adaptive procedure that raised the tone after a miss and lowered it after a hit. Sensitivity in noise was then measured with 200 trials of a faint tone presented in continuous noise, the tone being present on half the trials. The group computed d', an index of how far the signal and noise distributions are separated, and recorded the false-alarm rate, the proportion of tone-absent trials on which a participant reported a tone. Each value in Table 1 is the mean of three separate runs of the procedure, and no participant wore a hearing aid during testing.",
+    "In a third task participants lifted two containers in turn and said which was heavier. With a standard of 100 g, the group recorded the mean smallest difference each band could detect. Weber's law holds that this difference threshold is a constant fraction of the standard rather than a constant amount, so a heavier standard should require a proportionally larger difference. All three measures are given in Table 1. The containers were identical in size and surface, so only their mass distinguished them, and the order in which the pair was lifted was alternated across trials."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Auditory and tactile measures by age band.",
+    "markup": "<table><thead><tr><th>Age band (years)</th><th>Threshold at 4 kHz (dB SPL)</th><th>d' in noise</th><th>False-alarm rate</th><th>Difference threshold at 100 g (g)</th></tr></thead><tbody><tr><td>20 to 29</td><td>8</td><td>2.4</td><td>0.08</td><td>4</td></tr><tr><td>45 to 54</td><td>16</td><td>1.8</td><td>0.10</td><td>5</td></tr><tr><td>65 to 74</td><td>29</td><td>1.1</td><td>0.09</td><td>7</td></tr></tbody></table>"
+   },
+   "sources": [
+    {
+     "label": "WHO, deafness and hearing loss fact sheet",
+     "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"
+    }
+   ]
+  },
+  {
+   "id": "ps-p5",
+   "title": "Appraisal, cortisol and performance under evaluation",
+   "paragraphs": [
+    "Whether a demand provokes a stress response is held to depend on how the person sizes it up: a demand judged to exceed one's resources is appraised as a threat, while the same demand judged to be within them is appraised as a challenge. Investigators tested whether appraisal could be steered by instructions. Ninety adults performed five minutes of serial subtraction aloud in front of two evaluators who gave no feedback and who did not know which instructions a participant had received.",
+    "Participants were assigned at random to three groups of 30. The threat group was told that the task measured a fixed ability and that most people fail it. The challenge group was told that the task was demanding but that effort reliably improves performance. The neutral group was told only to work as accurately as possible. Saliva was collected at baseline and at 10, 30 and 60 minutes after the task began, and assayed for cortisol. Mean values are shown in Figure 1. Samples were assayed in a single batch by a technician who did not know which group any sample came from.",
+    "Self-reported anxiety on a 1 to 7 scale after the task was 5.4 in the threat group, 4.3 in the neutral group and 3.6 in the challenge group. Arithmetic accuracy ran in the opposite direction: 61% correct in the threat group, 70% in the neutral group and 78% in the challenge group. The three groups did not differ in baseline cortisol, in age or in self-reported sleep the previous night. Serial subtraction was chosen because it is demanding, can be scored exactly, and cannot usefully be rehearsed in advance."
+   ],
+   "figure": {
+    "kind": "svg",
+    "caption": "Figure 1  Mean salivary cortisol (nmol/L) at baseline and 10, 30 and 60 minutes after the task began. Solid line, threat group; dashed line, neutral group; dotted line, challenge group.",
+    "markup": "<svg viewBox=\"0 0 440 240\" role=\"img\" aria-label=\"Mean salivary cortisol over time in three framing conditions, all peaking at 30 minutes\"><line x1=\"60\" y1=\"200\" x2=\"400\" y2=\"200\" stroke=\"currentColor\"></line><line x1=\"60\" y1=\"200\" x2=\"60\" y2=\"40\" stroke=\"currentColor\"></line><text x=\"28\" y=\"204\" font-size=\"11\">0</text><text x=\"22\" y=\"124\" font-size=\"11\">10</text><text x=\"22\" y=\"44\" font-size=\"11\">20</text><text x=\"44\" y=\"220\" font-size=\"11\">base</text><text x=\"124\" y=\"220\" font-size=\"11\">+10</text><text x=\"224\" y=\"220\" font-size=\"11\">+30</text><text x=\"324\" y=\"220\" font-size=\"11\">+60</text><polyline points=\"60,152 140,96 240,56 340,104\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"></polyline><polyline points=\"60,152 140,112 240,88 340,128\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"7 4\"></polyline><polyline points=\"60,152 140,128 240,112 340,144\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"2 4\"></polyline><text x=\"346\" y=\"100\" font-size=\"11\">threat</text><text x=\"346\" y=\"132\" font-size=\"11\">neutral</text><text x=\"346\" y=\"150\" font-size=\"11\">challenge</text></svg>"
+   }
+  },
+  {
+   "id": "ps-p6",
+   "title": "Unanimity and dissent in a line-judgement task",
+   "paragraphs": [
+    "A classic question in social psychology is how often a person will endorse a judgement they can see is wrong because everyone around them has endorsed it first. Investigators seated each of 160 participants in a group of five, the other four being confederates, and asked the group to say aloud which of three comparison lines matched a standard line in length. The participant always answered fifth. Each group completed 18 trials, and on 12 of them, chosen in advance, the confederates all named a line that was clearly the wrong length. The three comparison lines differed in length by at least 15% and were presented at the same distance from every seat in the room.",
+    "Participants were assigned at random to one of four conditions of 40. In the public unanimous condition the four confederates gave the same wrong answer and the participant answered aloud. In the correct-dissenter condition one confederate named the right line before the participant answered. In the different-wrong-dissenter condition one confederate named a wrong line other than the majority's. In the private condition the confederates were unanimous but the participant wrote the answer on a card seen by no one else.",
+    "The outcome was the percentage of the 12 critical trials on which the participant gave the majority's wrong answer, shown in Table 1. In an interview afterwards, 71% of those who had conformed in the public unanimous condition said they had seen which line matched but had not wanted to be the only person in the room disagreeing. Participants were debriefed at the end of the session and told that the other four members of their group had been working to a script."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Percentage of critical trials on which the participant gave the majority's wrong answer.",
+    "markup": "<table><thead><tr><th>Condition</th><th>Wrong answers on critical trials (%)</th></tr></thead><tbody><tr><td>Public, unanimous majority</td><td>36</td></tr><tr><td>Public, one correct dissenter</td><td>8</td></tr><tr><td>Public, one different-wrong dissenter</td><td>14</td></tr><tr><td>Private, unanimous majority</td><td>11</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps-p7",
+   "title": "Message quality, personal relevance and vaccination intention",
+   "paragraphs": [
+    "Models of persuasion distinguish two routes to attitude change. On the central route a person weighs the content of the argument, and the strength of that content decides the outcome. On the peripheral route the person relies on cues outside the argument, such as the number of reasons offered or the appeal of the speaker. Which route operates is held to depend on how motivated and able the person is to think about the message.",
+    "Four hundred adults were assigned at random to a 2 × 2 design. Argument quality was varied by giving either a strong message, in which each claim about a seasonal vaccine was supported by named evidence, or a weak message of the same length, in which the claims were supported only by assertion and anecdote. Personal relevance was varied by telling participants either that the vaccine was under consideration for their own age group, or that it was under consideration for an age group they did not belong to. Intention to accept the vaccine was reported on a 1 to 7 scale immediately afterwards. Participants were recruited from a standing online panel and were told only that the study concerned health communication.",
+    "Mean intention is given in Table 1. Wording was counterbalanced within each cell so that half of each group read the message phrased as a gain and half as a loss; that variation produced a small overall difference, 4.9 against 4.6. Two weeks later participants reported intention again. In the high-relevance strong-argument cell the mean was 5.6, while in the two low-relevance cells the means had converged at 4.5. No participant was offered or given a vaccine as part of the study. Attrition by the two-week follow-up was 7% and did not differ across the four cells."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean intention to accept the vaccine (1 to 7) immediately after the message.",
+    "markup": "<table><thead><tr><th>Personal relevance</th><th>Strong argument</th><th>Weak argument</th></tr></thead><tbody><tr><td>High</td><td>5.8</td><td>3.9</td></tr><tr><td>Low</td><td>4.6</td><td>4.4</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps-p8",
+   "title": "Moving districts, identity and school engagement",
+   "paragraphs": [
+    "Identity is formed in part by comparison with the people around us, so a change in the surrounding group is a natural occasion to study it. A longitudinal survey followed 1,200 adolescents in one metropolitan region from age 13. Over the following two years 300 of them changed school district, most often because a parent changed job or because the household could no longer meet its rent; 900 remained in the same district. The researchers refer to the two groups as movers and stayers.",
+    "At baseline and again two years later, participants completed scales of self-esteem, of identity exploration, which asks how actively a person is trying out ways of describing themselves, and of school engagement, which asks about attention in class, homework completion and participation in school activities. All three were scored from 1 to 5. Mean scores are given in Table 1. Forty participants, half from each group, also gave an interview. All three scales had been used in earlier waves of the same survey and were administered in the same order on each occasion.",
+    "In the interviews, movers more often described keeping track of two sets of expectations, those of the friends they had left and those of the people they now saw daily, and several said they presented themselves differently to each. Stayers rarely described anything of the kind. The researchers note that the groups were not formed by random assignment and that the circumstances prompting a move may themselves affect the outcomes measured. Attrition over the two years was 9% overall and was slightly higher among movers than among stayers."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean scores (1 to 5) at baseline and after two years.",
+    "markup": "<table><thead><tr><th>Group</th><th>Self-esteem, baseline</th><th>Self-esteem, year 2</th><th>Identity exploration, baseline</th><th>Identity exploration, year 2</th><th>School engagement, year 2</th></tr></thead><tbody><tr><td>Movers</td><td>3.6</td><td>3.4</td><td>2.8</td><td>3.7</td><td>3.1</td></tr><tr><td>Stayers</td><td>3.6</td><td>3.6</td><td>2.8</td><td>3.0</td><td>3.5</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps-p9",
+   "title": "Explaining another person's job loss",
+   "paragraphs": [
+    "People explain behaviour by appealing either to something about the person or to something about the situation, and the balance they strike depends on whose behaviour is being explained. A survey experiment put the question to 600 adults living in one city. Each respondent read a 150-word account of an adult who had lost a job when a workplace reduced its staff. The accounts were identical except for one detail, assigned at random: the person was described either as living in the respondent's own neighbourhood or as living in a distant neighbourhood of the city. The sample was recruited to match the city's distribution of age, sex and household income, and each respondent read only one version of the account.",
+    "Respondents then chose whether the loss was due mainly to the person's own shortcomings or mainly to circumstances beyond their control, and rated their confidence. Afterwards, respondents were asked whether they had ever lost a job themselves. The 190 who said they had were asked, in the same sitting, to say what had caused their own loss using the same two options.",
+    "The percentage attributing a loss mainly to the person's own shortcomings is given in Table 1. The research team also recorded, for each respondent, whether they would be willing to have the person in the account as a neighbour, and 17% of those reading about the distant neighbourhood said they would prefer not to, against 6% of those reading about their own neighbourhood. The account named no employer and gave no detail of the person's work history beyond length of service."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Percentage attributing the loss mainly to the person's own shortcomings.",
+    "markup": "<table><thead><tr><th>Person being explained</th><th>Respondents who had never lost a job</th><th>Respondents who had lost a job</th></tr></thead><tbody><tr><td>Own-neighbourhood target</td><td>41</td><td>22</td></tr><tr><td>Distant-neighbourhood target</td><td>64</td><td>48</td></tr><tr><td>The respondent's own past loss</td><td>not applicable</td><td>12</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps-p10",
+   "title": "Two districts of one metropolitan region",
+   "paragraphs": [
+    "Populations change through births, deaths and movement, and the three can be read off a district's vital statistics. A regional statistical office published figures for two districts of the same metropolitan region, which are served by the same national health insurance scheme and the same regional government. Northvale is an older, wealthier district of long-standing housing. Southmere has grown quickly on the edge of the region and houses a much younger population.",
+    "The office reported, for one calendar year, the crude birth rate and crude death rate per 1,000 residents, net migration per 1,000 residents, the share of the population under 15 and aged 65 or over, and the number of physicians practising per 10,000 residents. These are given in Table 1. The office notes that the two districts had almost identical total populations in the year reported. Rates are expressed per 1,000 residents of the district in which the events occurred, using the mid-year population as the denominator.",
+    "A second report broke Northvale's own population into fifths by household income. Life expectancy at birth was 82 years in the richest fifth and 74 years in the poorest fifth. Because both fifths hold the same insurance entitlement and live within the same district boundary, the report argues that entitlement alone cannot account for the eight-year gap, and points instead to differences in housing, in working conditions, in the food available nearby and in the stress of making ends meet. Neither district contains a large institutional population such as a prison or a university hall of residence, which can distort an age structure."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Vital statistics, age structure and physician supply for the two districts.",
+    "markup": "<table><thead><tr><th>District</th><th>Crude birth rate (per 1,000)</th><th>Crude death rate (per 1,000)</th><th>Net migration (per 1,000)</th><th>Under 15 (%)</th><th>Aged 65 or over (%)</th><th>Physicians per 10,000</th></tr></thead><tbody><tr><td>Northvale</td><td>11</td><td>9</td><td>+4</td><td>16</td><td>19</td><td>23</td></tr><tr><td>Southmere</td><td>26</td><td>8</td><td>-3</td><td>38</td><td>6</td><td>7</td></tr></tbody></table>"
+   },
+   "sources": [
+    {
+     "label": "UN World Population Prospects, definitions of vital rates",
+     "url": "https://population.un.org/wpp/"
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "ps-p1-q1",
+   "passageId": "ps-p1",
+   "stem": "Which element of the acquisition procedure served as the conditioned stimulus?",
+   "choices": {
+    "A": "the sweet snack",
+    "B": "the craving rating",
+    "C": "the room used in phase 2",
+    "D": "the tone"
+   },
+   "correct": "D",
+   "explanation": "The tone began as a neutral stimulus and acquired the power to elicit craving only because it reliably preceded the snack, which is what makes it the conditioned stimulus. The snack is the unconditioned stimulus, since wanting it required no training.",
+   "wrong": {
+    "A": "The snack elicited appetite before any pairing, which makes it the unconditioned stimulus rather than the conditioned one.",
+    "B": "The craving rating is the measure of the response, not a stimulus the investigators presented to participants.",
+    "C": "The room is background context during phase 2; it was never paired with the snack on a trial-by-trial basis the way the tone was."
+   },
+   "category": "7A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "18"
+  },
+  {
+   "id": "ps-p1-q2",
+   "passageId": "ps-p1",
+   "stem": "For the context-change extinction group, the day-1 test rating represents what percentage increase over that group's rating at the end of phase 2?",
+   "choices": {
+    "A": "28%",
+    "B": "47%",
+    "C": "58%",
+    "D": "140%"
+   },
+   "correct": "D",
+   "explanation": "The group rated craving 20 at the end of phase 2 and 48 on the day-1 test, a rise of 28 rating points. A percentage increase is the rise divided by the starting value, so 28/20 = 1.40, or 140%.",
+   "wrong": {
+    "A": "28 is the rise in rating points, which is not a percentage of anything until it is divided by the value it started from.",
+    "B": "47% divides the rise by the post-acquisition rating of 60, which is not where this group's craving stood when the test began.",
+    "C": "58% divides the rise by the final value of 48 rather than by the starting value, which understates every increase."
+   },
+   "category": "7A",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps-p1-q3",
+   "passageId": "ps-p1",
+   "stem": "Which result most directly supports the conclusion that extinction suppressed the conditioned craving without abolishing the underlying association?",
+   "choices": {
+    "A": "The standard extinction group's rating fell to 18 by the end of phase 2.",
+    "B": "The no-extinction group rated craving near 58 on both test occasions.",
+    "C": "The context-change group rated craving 48 when tested in the acquisition room.",
+    "D": "All three groups rated craving near 60 at the end of the acquisition phase."
+   },
+   "correct": "C",
+   "explanation": "A craving that returns almost to its trained level as soon as the original room is re-entered cannot have been erased by the tone-alone trials; what the extinction trials produced was a suppression tied to the room in which they occurred. This renewal of the response is the central evidence that the original association survived.",
+   "wrong": {
+    "A": "A fall during extinction is what any account predicts, including one in which the original association is erased, so it does not distinguish between them.",
+    "B": "This group received no extinction trials at all, so its ratings say nothing about what extinction does or does not abolish.",
+    "D": "Equivalent ratings after acquisition show only that conditioning succeeded in all three groups before phase 2 began."
+   },
+   "category": "7A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "18"
+  },
+  {
+   "id": "ps-p1-q4",
+   "passageId": "ps-p1",
+   "stem": "The standard extinction group's rise from 24 on day 1 to 41 two weeks later, with no further trials in between, is best described as:",
+   "choices": {
+    "A": "stimulus discrimination",
+    "B": "higher-order conditioning",
+    "C": "spontaneous recovery",
+    "D": "negative reinforcement"
+   },
+   "correct": "C",
+   "explanation": "Spontaneous recovery is the return of an extinguished conditioned response after a period in which neither the conditioned nor the unconditioned stimulus is presented. The passage of two weeks without further trials is exactly the condition under which it appears.",
+   "wrong": {
+    "A": "Discrimination is learning to respond to one stimulus and not to a similar one, which requires differential training the study never gave.",
+    "B": "Higher-order conditioning requires a second neutral stimulus to be paired with the established conditioned stimulus, and none was introduced.",
+    "D": "Negative reinforcement is an operant process in which removing something unpleasant makes a behaviour more frequent; no behaviour was reinforced here."
+   },
+   "category": "7A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "18"
+  },
+  {
+   "id": "ps-p1-q5",
+   "passageId": "ps-p1",
+   "stem": "Which addition to the design would best establish that the fall in craving during phase 2 was due to the tone no longer predicting the snack, rather than to repeated exposure to the tone as such?",
+   "choices": {
+    "A": "a group given 40 rather than 20 tone-alone trials in the acquisition room",
+    "B": "a group whose craving was rated before rather than after each tone",
+    "C": "a group tested in the extinction room rather than the acquisition room",
+    "D": "a group given 20 trials in which tone and snack occurred on separate, unpaired occasions"
+   },
+   "correct": "D",
+   "explanation": "Presenting the tone and the snack the same number of times but never together holds exposure to both stimuli constant while removing only the predictive relation between them. A fall in craving confined to the paired-then-unpaired comparison is then attributable to the loss of predictiveness rather than to familiarity with the tone.",
+   "wrong": {
+    "A": "More tone-alone trials vary the amount of the same treatment and leave exposure and predictiveness confounded exactly as before.",
+    "B": "Rating before the tone would remove the measure of the conditioned response itself, since the craving of interest is the one the tone elicits.",
+    "C": "Testing in the extinction room addresses where the suppression transfers to, which is a different question from why craving fell."
+   },
+   "category": "7A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps-p2-q1",
+   "passageId": "ps-p2",
+   "stem": "Which conclusion about attention is best supported by the pattern of reaction times across the three conditions?",
+   "choices": {
+    "A": "Attention is all or none, so a task is either attended to or not attended to.",
+    "B": "A limited pool of attentional capacity is shared between concurrent tasks.",
+    "C": "The search task was automatic, since participants completed it in every condition.",
+    "D": "The digit task and the search task drew on wholly independent resources."
+   },
+   "correct": "B",
+   "explanation": "Reaction time rose from 620 ms to 710 ms and then to 950 ms as the digit load grew from none to two to six, so the cost to the search task scaled with the demand of the second task. A shared pool of limited capacity predicts precisely this graded cost.",
+   "wrong": {
+    "A": "An all-or-none account predicts a single cost whenever a second task is present, not a cost that grows with the size of the digit list.",
+    "C": "An automatic process is one that proceeds without cost under load, yet both reaction time and errors worsened as the load increased.",
+    "D": "Independent resources predict no cost at all from adding the digit task, whereas every added digit made the search slower."
+   },
+   "category": "6B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "19"
+  },
+  {
+   "id": "ps-p2-q2",
+   "passageId": "ps-p2",
+   "stem": "Digit recall itself fell from 97% under the low load to 82% under the high load. What does this add to the interpretation of the results?",
+   "choices": {
+    "A": "It shows the digit lists were too easy to interfere with the search task.",
+    "B": "It shows the digits were rehearsed only after the search response was made.",
+    "C": "It shows the interference ran in both directions, as a shared-capacity account predicts.",
+    "D": "It shows the two tasks interfered only on trials where the target was absent."
+   },
+   "correct": "C",
+   "explanation": "If a single limited pool were being divided, loading it should degrade both tasks rather than protect one at the expense of the other. Finding a cost to the digit task as well as to the search task is the symmetrical interference that the account predicts.",
+   "wrong": {
+    "A": "A fall of 15 percentage points in recall is evidence that the digit task was demanding, not that it was too easy to matter.",
+    "B": "Rehearsal after the response would leave recall unaffected by the search; recall instead worsened as the load on the search grew.",
+    "D": "Target-present and target-absent trials were not reported separately, so the data cannot single out either kind of trial."
+   },
+   "category": "6B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "19"
+  },
+  {
+   "id": "ps-p2-q3",
+   "passageId": "ps-p2",
+   "stem": "Which of the following claims are supported by the results? I. Performing a second task can slow a primary task. II. The cost of a second task grows with how demanding it is. III. Practice removes the cost of a second task entirely.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "C",
+   "explanation": "Claim I follows from the rise from 620 ms to 710 ms when two digits were added, and claim II from the further rise to 950 ms when six digits were added. Claim III fails because after five sessions the high-load time was 760 ms against a single-task time of 615 ms, so a cost remained.",
+   "wrong": {
+    "A": "Confining the support to claim I ignores the difference between the two-digit and six-digit conditions, which is what establishes claim II.",
+    "B": "Claim II cannot be supported while claim I is rejected, since the graded cost is itself made of slowing produced by the second task.",
+    "D": "Claim III overstates the practice data: the high-load time after training was still well above the single-task time."
+   },
+   "category": "6B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "19"
+  },
+  {
+   "id": "ps-p2-q4",
+   "passageId": "ps-p2",
+   "stem": "The fall in high-load reaction time over five sessions of practice is best understood as a shift toward:",
+   "choices": {
+    "A": "automatic processing of the search task",
+    "B": "iconic storage of the digit lists",
+    "C": "state-dependent retrieval of the digits",
+    "D": "top-down expectancy about the digit load"
+   },
+   "correct": "A",
+   "explanation": "Repeated practice on a consistent task makes its performance progressively less dependent on controlled attention, which is why the same digit load cost less by the fifth session. The hallmark of automaticity is exactly this reduced vulnerability to a concurrent load.",
+   "wrong": {
+    "B": "Iconic storage is a visual store lasting a fraction of a second and has nothing to do with retaining a spoken digit list over seconds.",
+    "C": "State-dependent retrieval concerns matching internal states at encoding and recall, which the study did not manipulate.",
+    "D": "An expectancy about the load would not explain why the single-task time stayed at about 615 ms while the loaded time improved."
+   },
+   "category": "6B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "19"
+  },
+  {
+   "id": "ps-p3-q1",
+   "passageId": "ps-p3",
+   "stem": "Which process best accounts for the errors made by participants who read the misleading summary?",
+   "choices": {
+    "A": "proactive interference, since the video was seen before the summary",
+    "B": "retroactive interference from material encountered after encoding",
+    "C": "decay of the sensory store, which holds visual detail for under a second",
+    "D": "encoding failure, since the sign was never attended to in the video"
+   },
+   "correct": "B",
+   "explanation": "The summary arrived after the video had been encoded and competed with what was already stored, which is retroactive interference. Its signature here is that the error rate depends on what the later material said, not on anything about the video itself.",
+   "wrong": {
+    "A": "Proactive interference is older material disrupting newer learning; here the newer material is disrupting memory for the older event.",
+    "C": "Sensory stores are gone within a second, long before the summary was read, so they cannot be what the summary altered.",
+    "D": "Participants who read the accurate summary chose the correct sign most of the time, which shows the sign was encoded from the video."
+   },
+   "category": "6B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "19"
+  },
+  {
+   "id": "ps-p3-q2",
+   "passageId": "ps-p3",
+   "stem": "At the one-week delay, participants who read the misleading summary chose the stop sign how many times as often as those who read the accurate summary?",
+   "choices": {
+    "A": "3.4",
+    "B": "3.2",
+    "C": "1.7",
+    "D": "0.3"
+   },
+   "correct": "A",
+   "explanation": "The one-week figures are 48% after the misleading summary and 14% after the accurate one, and 48/14 = 3.4. The question asks for a ratio of the two summary conditions within the same delay, so both values come from the one-week column.",
+   "wrong": {
+    "B": "3.2 is the same ratio computed in the ten-minute column, 29/9, which answers the question for the wrong delay.",
+    "C": "1.7 compares the two delays within the misleading condition, 48/29, rather than the two summary conditions.",
+    "D": "0.3 inverts the ratio and gives how often the accurate group erred relative to the misleading group."
+   },
+   "category": "6B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps-p3-q3",
+   "passageId": "ps-p3",
+   "stem": "Participants were allocated to the accurate or misleading summary by their order of arrival at the laboratory. Which objection to this procedure is strongest?",
+   "choices": {
+    "A": "The sample of 150 is too small to detect a difference of the size reported.",
+    "B": "Participants could not be kept unaware of how long their delay would be.",
+    "C": "The two summaries may have differed in length as well as in content.",
+    "D": "Arrival order may track traits that also affect memory, leaving the groups unequal."
+   },
+   "correct": "D",
+   "explanation": "Allocation by arrival order is not random, so anything that varies with when a person turns up, such as class timetable, sleep or motivation, can differ systematically between the two summary groups. That leaves a difference in memory performance open to an explanation other than the summary.",
+   "wrong": {
+    "A": "A gap of 48% against 14% in a sample of 150 is large, and the concern with non-random allocation is bias rather than insufficient power.",
+    "B": "Knowing one's delay is a feature of the design the two summary groups share, so it cannot produce a difference between them.",
+    "C": "The passage states that the summaries were identical in length and style apart from the one sentence that was manipulated."
+   },
+   "category": "6B",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps-p3-q4",
+   "passageId": "ps-p3",
+   "stem": "A participant who chose the stop sign and reported having seen it in the video has made an error of:",
+   "choices": {
+    "A": "encoding specificity",
+    "B": "source monitoring",
+    "C": "proactive interference",
+    "D": "state-dependent memory"
+   },
+   "correct": "B",
+   "explanation": "The detail was genuinely in memory, but its origin has been assigned to the video rather than to the written summary, which is a failure to monitor the source of a remembered detail. The 68% who reported seeing it illustrate how confidently such a misattribution is held.",
+   "wrong": {
+    "A": "Encoding specificity concerns how well retrieval cues match the conditions of learning, not where a remembered detail came from.",
+    "C": "Proactive interference would mean the video disrupted memory for the summary, which is the opposite of what happened.",
+    "D": "State-dependent memory concerns the physiological or mood state at learning and retrieval, which was not manipulated."
+   },
+   "category": "6B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "19"
+  },
+  {
+   "id": "ps-p3-q5",
+   "passageId": "ps-p3",
+   "stem": "The results are consistent with each of the following statements EXCEPT:",
+   "choices": {
+    "A": "misleading information encountered after an event can enter a witness's report",
+    "B": "some errors occur even when the information read afterwards is accurate",
+    "C": "the influence of misleading information grew as the delay before testing grew",
+    "D": "a well-encoded event is protected against a detail suggested afterwards"
+   },
+   "correct": "D",
+   "explanation": "Participants who read the accurate summary identified the sign correctly at both delays, so the video was well encoded, and yet 48% of the misleading group adopted the false detail at one week. Good encoding therefore did not protect the memory from later suggestion.",
+   "wrong": {
+    "A": "This is the central result: the false detail was adopted at a far higher rate by those who read it.",
+    "B": "The accurate-summary rows show errors of 9% and 14%, so some error occurs without any misleading information.",
+    "C": "The misleading figure rises from 29% to 48% between the two delays, which is the growth described."
+   },
+   "category": "6B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "19"
+  },
+  {
+   "id": "ps-p4-q1",
+   "passageId": "ps-p4",
+   "stem": "Using the Weber fraction implied by the youngest band's result, what difference threshold is predicted for that band with a 250 g standard?",
+   "choices": {
+    "A": "4 g",
+    "B": "6.5 g",
+    "C": "10 g",
+    "D": "62.5 g"
+   },
+   "correct": "C",
+   "explanation": "The youngest band needed 4 g to tell a difference from a 100 g standard, so the Weber fraction is 4/100 = 0.04. Holding that fraction constant, a 250 g standard requires 0.04 × 250 = 10 g.",
+   "wrong": {
+    "A": "4 g treats the difference threshold as a fixed amount, which is the assumption Weber's law replaces with a fixed proportion.",
+    "B": "6.5 g comes from adding the ratio of the standards, 2.5, to the original 4 g instead of multiplying by it.",
+    "D": "62.5 g divides the new standard by the old threshold, which produces a number with no psychophysical meaning."
+   },
+   "category": "6A",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "20"
+  },
+  {
+   "id": "ps-p4-q2",
+   "passageId": "ps-p4",
+   "stem": "What does the oldest band's d' of 1.1, taken with its false-alarm rate, indicate?",
+   "choices": {
+    "A": "They heard the tone as well as the youngest band but misremembered the trials.",
+    "B": "Their sensitivity to the tone was poorer, with a response criterion much like the others'.",
+    "C": "They detected less because they were unwilling to report a tone they had heard.",
+    "D": "The noise masked the tone less for them, which made the task easier."
+   },
+   "correct": "B",
+   "explanation": "d' measures how far apart the signal and noise distributions lie and is therefore a measure of sensitivity rather than of willingness to respond. Since the false-alarm rates are close across the three bands, the fall in d' from 2.4 to 1.1 reflects poorer sensitivity rather than a more conservative criterion.",
+   "wrong": {
+    "A": "Hearing the tone equally well would produce an equal d'; memory for trials does not enter the computation.",
+    "C": "An unwillingness to report would show up as a lower false-alarm rate, yet the oldest band's rate of 0.09 is close to the youngest band's 0.08.",
+    "D": "Less effective masking would make the signal easier to detect and so raise d' rather than lower it."
+   },
+   "category": "6A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "20"
+  },
+  {
+   "id": "ps-p4-q3",
+   "passageId": "ps-p4",
+   "stem": "Which explanation of the rise in absolute threshold at 4 kHz across the three bands is best supported?",
+   "choices": {
+    "A": "an increase in the Weber fraction for sound intensity with age",
+    "B": "reduced movement of the tympanic membrane, which affects all frequencies alike",
+    "C": "loss of hair cells in the cochlea, which raises the intensity needed for detection",
+    "D": "slower conduction in the auditory nerve, which alters latency rather than threshold"
+   },
+   "correct": "C",
+   "explanation": "Detection of a high-frequency tone depends on the hair cells at the base of the cochlea, which are lost progressively with age and noise exposure, so more intensity is needed before a response is generated. A sensory loss of this kind raises the absolute threshold directly.",
+   "wrong": {
+    "A": "The Weber fraction describes discrimination between two stimuli, not the weakest stimulus that can be detected at all.",
+    "B": "A conductive problem of this sort would raise thresholds across the frequency range rather than selectively at high frequencies.",
+    "D": "Slower conduction changes how quickly a response arrives, which the adaptive threshold procedure does not measure."
+   },
+   "category": "6A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "20"
+  },
+  {
+   "id": "ps-p4-q4",
+   "passageId": "ps-p4",
+   "stem": "Which conclusion is LEAST supported by Table 1?",
+   "choices": {
+    "A": "Older adults are more reluctant than younger adults to report a faint tone.",
+    "B": "The weakest detectable tone at 4 kHz becomes more intense with age.",
+    "C": "Discrimination between two weights becomes coarser with age.",
+    "D": "Sensitivity to a tone presented in noise declines with age."
+   },
+   "correct": "A",
+   "explanation": "Reluctance to report is a matter of response criterion, which shows up in the false-alarm rate, and those rates are 0.08, 0.10 and 0.09 across the bands. With no systematic change there, the table gives no support for a difference in willingness to respond.",
+   "wrong": {
+    "B": "Thresholds of 8, 16 and 29 dB SPL across the bands support this conclusion directly.",
+    "C": "Difference thresholds of 4, 5 and 7 g at a 100 g standard show coarser discrimination in the older bands.",
+    "D": "Values of d' falling from 2.4 to 1.1 are exactly a decline in sensitivity in noise."
+   },
+   "category": "6A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "20"
+  },
+  {
+   "id": "ps-p5-q1",
+   "passageId": "ps-p5",
+   "stem": "Which inference about the instructions is best supported by the three cortisol curves in Figure 1?",
+   "choices": {
+    "A": "They determined whether a cortisol response occurred at all.",
+    "B": "They shifted the time at which cortisol reached its maximum.",
+    "C": "They took effect only after the task had been completed.",
+    "D": "They changed the size of the response while leaving its timing alone."
+   },
+   "correct": "D",
+   "explanation": "All three groups rise from the same baseline, peak at the 30-minute sample and are falling by 60 minutes, so the shape and timing of the curve are common to them. What differs is height: the threat group peaks at 18 nmol/L against 11 in the challenge group.",
+   "wrong": {
+    "A": "Every group's cortisol rose above its baseline, so no instruction abolished the response.",
+    "B": "The maximum falls at the 30-minute sample in all three groups, so the timing of the peak did not move.",
+    "C": "The groups already differ at the 10-minute sample, which was drawn while the task was still under way or had only just ended."
+   },
+   "category": "6C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "21"
+  },
+  {
+   "id": "ps-p5-q2",
+   "passageId": "ps-p5",
+   "stem": "Release of the cortisol measured in this study is governed by which system?",
+   "choices": {
+    "A": "the hypothalamic-pituitary-adrenal axis",
+    "B": "the sympathetic chain acting on the adrenal medulla",
+    "C": "the parasympathetic fibres carried in the vagus nerve",
+    "D": "the anterior pituitary acting directly on the kidney"
+   },
+   "correct": "A",
+   "explanation": "Cortisol is released from the adrenal cortex under the control of pituitary corticotropin, which is itself driven by hypothalamic releasing hormone. The delay inherent in this hormonal chain is why the peak arrives tens of minutes after the stressor rather than within seconds.",
+   "wrong": {
+    "B": "The sympathetic pathway to the adrenal medulla releases adrenaline within seconds and does not produce cortisol.",
+    "C": "Parasympathetic activity in the vagus slows the heart and supports digestion rather than driving adrenal steroid release.",
+    "D": "The pituitary hormone involved acts on the adrenal cortex; the kidney is not the gland that makes cortisol."
+   },
+   "category": "6C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "21"
+  },
+  {
+   "id": "ps-p5-q3",
+   "passageId": "ps-p5",
+   "stem": "Which account best explains why the challenge group was the most accurate on the arithmetic task?",
+   "choices": {
+    "A": "Higher arousal improves performance on any cognitive task.",
+    "B": "They were told the task mattered less, so they had less to lose by failing.",
+    "C": "Being watched improves performance, and this group was watched most closely.",
+    "D": "A demand appraised as manageable produced moderate arousal, which suits a hard task."
+   },
+   "correct": "D",
+   "explanation": "Performance is best at a moderate level of arousal, and the more demanding the task, the lower the level of arousal that is optimal. The challenge instructions produced the smallest cortisol rise and the lowest anxiety, leaving this group nearer that optimum than the threat group.",
+   "wrong": {
+    "A": "If arousal only helped, the threat group, which showed the largest cortisol rise, would have scored highest rather than lowest.",
+    "B": "The challenge instructions said the task was demanding and that effort pays; they did not say it mattered less.",
+    "C": "All three groups performed in front of the same two evaluators, so being watched cannot explain a difference between them."
+   },
+   "category": "7A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "21"
+  },
+  {
+   "id": "ps-p5-q4",
+   "passageId": "ps-p5",
+   "stem": "Which claims do the results support? I. Instructions given beforehand can alter the size of an endocrine stress response. II. Cortisol reaches its maximum at the moment a stressor begins. III. In this sample the group with the smaller cortisol response performed better.",
+   "choices": {
+    "A": "I only",
+    "B": "I and III only",
+    "C": "II and III only",
+    "D": "I, II and III"
+   },
+   "correct": "B",
+   "explanation": "Claim I follows from random assignment to instructions that produced peaks of 11, 14 and 18 nmol/L, and claim III from the ordering of accuracy, 78%, 70% and 61%, against those peaks. Claim II is contradicted by the figure, in which every group's maximum falls at the 30-minute sample.",
+   "wrong": {
+    "A": "Restricting support to claim I overlooks the accuracy figures, which run in the opposite order to the cortisol peaks.",
+    "C": "Claim II cannot be supported, since cortisol was still rising at the 10-minute sample in every group.",
+    "D": "Including claim II requires a peak at the onset of the task, which the delay inherent in hormonal signalling rules out."
+   },
+   "category": "6C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "21"
+  },
+  {
+   "id": "ps-p6-q1",
+   "passageId": "ps-p6",
+   "stem": "Which process best explains why wrong answers fell from 36% in the public unanimous condition to 11% in the private condition?",
+   "choices": {
+    "A": "normative social influence, which operates only where the answer is seen",
+    "B": "informational social influence, which supplies a missing fact",
+    "C": "obedience to an authority who has instructed the participant",
+    "D": "internalisation of the majority's judgement as the participant's own"
+   },
+   "correct": "A",
+   "explanation": "Normative influence is conformity driven by the wish to be accepted and to avoid standing out, so removing the audience removes most of its force. The interviews point the same way: most of those who conformed in public said they could see which line matched.",
+   "wrong": {
+    "B": "Informational influence would persist in private, since a participant who genuinely lacked the answer would still use the group's.",
+    "C": "No authority instructed anyone; the confederates were peers giving their own judgements, which is group pressure rather than obedience.",
+    "D": "Internalisation means the judgement has been accepted as one's own, which would not vanish the moment answers stopped being public."
+   },
+   "category": "7B",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "23"
+  },
+  {
+   "id": "ps-p6-q2",
+   "passageId": "ps-p6",
+   "stem": "Introducing one correct dissenter reduced wrong answers by what percentage of the rate seen with a unanimous public majority?",
+   "choices": {
+    "A": "22%",
+    "B": "28%",
+    "C": "78%",
+    "D": "450%"
+   },
+   "correct": "C",
+   "explanation": "The rate fell from 36% to 8%, a drop of 28 percentage points, and a reduction is expressed relative to where it started: 28/36 = 0.78, or 78%.",
+   "wrong": {
+    "A": "22% is 8/36, the share of the original conformity that remained rather than the share that was removed.",
+    "B": "28 is the fall in percentage points, which becomes a percentage reduction only after division by the starting rate.",
+    "D": "450% is 36/8 expressed as a percentage, which describes how many times larger the unanimous rate was, not the reduction."
+   },
+   "category": "7B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps-p6-q3",
+   "passageId": "ps-p6",
+   "stem": "A dissenter who named a wrong line other than the majority's also reduced conformity, to 14%. What does this indicate?",
+   "choices": {
+    "A": "Participants were copying whichever answer they heard last.",
+    "B": "What mattered was the break in unanimity rather than the accuracy of the dissent.",
+    "C": "Two wrong answers in the room made the correct line easier to see.",
+    "D": "The dissenter was treated as an authority on the length of the lines."
+   },
+   "correct": "B",
+   "explanation": "If the benefit came from hearing the right answer, a dissenter who was also wrong should not have helped, yet conformity fell from 36% to 14%. What the two dissent conditions share is that the participant was no longer facing a group that agreed with itself.",
+   "wrong": {
+    "A": "Copying the last answer heard would have raised agreement with whichever confederate spoke immediately before the participant, including the majority's final member.",
+    "C": "The lines were clearly different in length, so the task's perceptual difficulty was not what the dissenter changed.",
+    "D": "A confederate who gives a visibly wrong answer is a poor candidate for authority, and none was described as expert."
+   },
+   "category": "7B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps-p6-q4",
+   "passageId": "ps-p6",
+   "stem": "The design as described does NOT support which of the following conclusions?",
+   "choices": {
+    "A": "Participants who conformed came to believe the majority's line was the match.",
+    "B": "Answering in front of the group raised the rate of wrong answers.",
+    "C": "A single dissenting voice lowered the rate of wrong answers.",
+    "D": "The majority's answers on the critical trials were wrong by design."
+   },
+   "correct": "A",
+   "explanation": "The study measured only the answers participants gave, which records compliance and leaves private belief unmeasured. The interviews point away from belief change, since most of those who conformed said they had seen which line matched.",
+   "wrong": {
+    "B": "The 36% public rate against the 11% private rate, with random assignment, supports this conclusion.",
+    "C": "Both dissent conditions produced lower rates than the unanimous condition, which is the conclusion stated.",
+    "D": "The passage states that the confederates named a clearly wrong line on 12 trials chosen in advance."
+   },
+   "category": "7B",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps-p6-q5",
+   "passageId": "ps-p6",
+   "stem": "Suppose the line task were replaced with a question whose correct answer is genuinely hard to determine. What would be expected, and why?",
+   "choices": {
+    "A": "Less conformity, because participants would stop caring about the group's opinion.",
+    "B": "More conformity, because the group's answers would now serve as evidence.",
+    "C": "Less conformity, because an uncertain participant would refuse to answer.",
+    "D": "No change, because conformity here depended only on being observed."
+   },
+   "correct": "B",
+   "explanation": "When the answer cannot be read off the stimulus, other people's judgements become the best available information, so informational influence is added to the normative pressure already present. The expected result is more agreement with the majority, not less.",
+   "wrong": {
+    "A": "Uncertainty makes the group's view more useful, not less, so there is no reason for concern with the group to fall away.",
+    "C": "Participants in a forced-choice procedure still have to name one of the options, and refusal was not available.",
+    "D": "The private condition shows observation matters, but it does not show that nothing else does; ambiguity adds a second route to conformity."
+   },
+   "category": "7B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "23"
+  },
+  {
+   "id": "ps-p7-q1",
+   "passageId": "ps-p7",
+   "stem": "Which explanation best accounts for argument quality mattering far more in the high-relevance cells than in the low-relevance cells?",
+   "choices": {
+    "A": "High-relevance participants had stronger prior attitudes about the vaccine.",
+    "B": "Low-relevance participants did not read the message they were given.",
+    "C": "High-relevance participants were given the stronger message more often.",
+    "D": "High relevance raised motivation to think, so the content of the argument decided the outcome."
+   },
+   "correct": "D",
+   "explanation": "A message about a vaccine for one's own age group is worth thinking about, and a person who thinks about it is moved by the quality of the reasons. That is why the strong and weak messages diverged by 1.9 points at high relevance and by only 0.2 at low relevance.",
+   "wrong": {
+    "A": "Prior attitudes were not manipulated or measured, and a stronger prior attitude would if anything reduce the effect of the message.",
+    "B": "Low-relevance participants still responded above the midpoint of the scale and differed slightly by message, so they were not ignoring it.",
+    "C": "Assignment to the four cells was random, which is what makes the cells comparable in how often each message was received."
+   },
+   "category": "7C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps-p7-q2",
+   "passageId": "ps-p7",
+   "stem": "Which feature of the low-relevance results is the clearest sign of peripheral processing?",
+   "choices": {
+    "A": "Their intention barely differed between the strong and the weak message.",
+    "B": "Their intention was lower on average than that of the high-relevance group.",
+    "C": "Their intention was measured immediately rather than after a delay.",
+    "D": "Their two cells converged on the same value two weeks afterwards."
+   },
+   "correct": "A",
+   "explanation": "Peripheral processing means the argument's substance is not being weighed, so a strong case and a weak one should produce much the same response. Means of 4.6 and 4.4 are the signature of a judgement made on something other than the content.",
+   "wrong": {
+    "B": "An average across both messages mixes the strong and weak cells together and so says nothing about whether content was weighed.",
+    "C": "The timing of the measurement is a feature of the procedure, applied to every cell alike, rather than a result.",
+    "D": "Convergence at two weeks shows the change did not last; it is the immediate insensitivity to quality that marks the route taken."
+   },
+   "category": "7C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps-p7-q3",
+   "passageId": "ps-p7",
+   "stem": "The study measured reported intention rather than whether anyone accepted a vaccine. What does this most limit?",
+   "choices": {
+    "A": "whether the four cells can be regarded as equivalent at baseline",
+    "B": "whether the difference between messages would appear in uptake",
+    "C": "whether argument quality was successfully varied between messages",
+    "D": "whether the two-week follow-up measured the same construct as the first"
+   },
+   "correct": "B",
+   "explanation": "Intention and behaviour are related but imperfectly, so an effect on a 1 to 7 intention scale sets an upper bound on what one can claim about vaccines actually taken. Nothing else about the design is weakened by the choice of outcome measure.",
+   "wrong": {
+    "A": "Equivalence at baseline is secured by random assignment, which is unaffected by which outcome is then measured.",
+    "C": "The manipulation of argument quality is a feature of the messages themselves, and the high-relevance cells show it worked.",
+    "D": "The follow-up used the same intention scale, so the construct measured at the two time points is the same one."
+   },
+   "category": "7C",
+   "skill": "skill-3",
+   "difficulty": "easy",
+   "unit": "25"
+  },
+  {
+   "id": "ps-p7-q4",
+   "passageId": "ps-p7",
+   "stem": "Two weeks later the high-relevance strong-argument advantage remained while the low-relevance difference had vanished. Which principle does this best illustrate?",
+   "choices": {
+    "A": "Attitudes formed through elaboration of the argument are more durable.",
+    "B": "Attitudes always return to their starting point once a message is forgotten.",
+    "C": "Repeated measurement by itself strengthens a reported attitude.",
+    "D": "Loss-framed wording produces longer-lasting change than gain-framed wording."
+   },
+   "correct": "A",
+   "explanation": "An attitude that a person has reasoned their way to is supported by the reasons themselves, which remain available later; one based on a peripheral cue has nothing to rest on once the cue has faded. The durability of the high-relevance strong cell against the convergence of the low-relevance cells is exactly that contrast.",
+   "wrong": {
+    "B": "The high-relevance strong cell stayed at 5.6 two weeks later, which is well above its own low-relevance comparison, so no general return occurred.",
+    "C": "Repeated measurement cannot explain why one cell held its position while others moved, since every cell was measured twice.",
+    "D": "The framing variation was counterbalanced within cells and produced only a small overall difference, which was not followed up separately."
+   },
+   "category": "7C",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "23"
+  },
+  {
+   "id": "ps-p8-q1",
+   "passageId": "ps-p8",
+   "stem": "The rise in identity exploration among movers, from 2.8 to 3.7, is best understood as:",
+   "choices": {
+    "A": "a decline in self-esteem expressed as uncertainty about the self",
+    "B": "the onset of role confusion caused by leaving a familiar school",
+    "C": "a response to being measured twice on the same questionnaire",
+    "D": "identity work prompted by a new reference group against which to compare"
+   },
+   "correct": "D",
+   "explanation": "A person's sense of who they are is worked out partly by comparison with the people around them, so a change of school district replaces the reference group and reopens questions that had been settled. Stayers, whose comparison group was unchanged, moved only from 2.8 to 3.0.",
+   "wrong": {
+    "A": "Self-esteem fell by only 0.2 among movers, which is too small and too separate a measure to account for a rise of 0.9 in exploration.",
+    "B": "Exploration as the scale defines it is active trying out of self-descriptions, which is not the same as a failure to form an identity at all.",
+    "C": "Both groups completed the same questionnaire twice, so repeated measurement cannot explain a difference between them."
+   },
+   "category": "8A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps-p8-q2",
+   "passageId": "ps-p8",
+   "stem": "A mover who describes himself one way to his old friends and another way to his new classmates is best described as:",
+   "choices": {
+    "A": "holding two incompatible personality traits at once",
+    "B": "showing an external locus of control over his social life",
+    "C": "activating a different role identity in each setting",
+    "D": "experiencing a loss of self-esteem in the newer setting"
+   },
+   "correct": "C",
+   "explanation": "A self-concept is organised into role identities, each tied to a set of relationships and expectations, and the one a person draws on depends on which audience is present. Describing oneself differently to two groups is the ordinary working of that structure rather than a sign of instability.",
+   "wrong": {
+    "A": "Traits are defined by consistency across situations, so situational variation in self-description is not a statement about traits at all.",
+    "B": "Locus of control concerns whether outcomes are seen as following from one's own actions, which is a separate matter from self-description.",
+    "D": "Self-esteem is how favourably a person evaluates themselves, and the interviews describe a change in content rather than in favourability."
+   },
+   "category": "8A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps-p8-q3",
+   "passageId": "ps-p8",
+   "stem": "Which explanation of the movers' lower school engagement at year 2 is best supported by the study as a whole?",
+   "choices": {
+    "A": "the loss of established relationships with peers and teachers that sustain engagement",
+    "B": "a fall in the cognitive ability needed to complete homework after a move",
+    "C": "the smaller number of movers, which makes their mean less reliable",
+    "D": "a deliberate choice by movers to invest in identity work instead of school"
+   },
+   "correct": "A",
+   "explanation": "Engagement as the scale defines it depends on relationships with classmates and teachers, and a move dissolves those and leaves them to be rebuilt. The interviews describe exactly that position, with movers tracking two sets of expectations while belonging fully to neither.",
+   "wrong": {
+    "B": "Nothing in the study measured ability, and a change of district is not a plausible cause of a decline in it.",
+    "C": "A group of 300 gives a stable mean, and an unreliable mean would not be expected to differ in a consistent direction.",
+    "D": "Nothing in the interviews describes a trade-off of this kind, and exploration and engagement are not alternatives a student allocates between."
+   },
+   "category": "8C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps-p8-q4",
+   "passageId": "ps-p8",
+   "stem": "Movers and stayers were not formed by random assignment. Which step would most strengthen a causal claim about the effect of moving?",
+   "choices": {
+    "A": "recruiting enough movers to equal the number of stayers",
+    "B": "measuring school engagement with a longer questionnaire",
+    "C": "interviewing all 1,200 participants rather than only 40",
+    "D": "adjusting for the baseline family circumstances that prompted the move"
+   },
+   "correct": "D",
+   "explanation": "The threat to the causal claim is that job loss or housing cost affects the outcomes directly as well as causing the move, so the comparison is between families that differ in more than moving. Measuring those circumstances at baseline and adjusting for them removes the part of the difference they explain.",
+   "wrong": {
+    "A": "Equal group sizes improve precision but do nothing about a systematic difference between the kinds of family in each group.",
+    "B": "A longer questionnaire would sharpen the measure of the outcome and leave the comparability of the groups untouched.",
+    "C": "More interviews would enrich the description of what moving is like without making the two groups equivalent."
+   },
+   "category": "8A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps-p9-q1",
+   "passageId": "ps-p9",
+   "stem": "Respondents who had lost a job attributed their own loss to shortcomings 12% of the time but the distant target's loss 48% of the time. This contrast illustrates:",
+   "choices": {
+    "A": "the just-world hypothesis",
+    "B": "the actor-observer difference",
+    "C": "the self-fulfilling prophecy",
+    "D": "the false-consensus effect"
+   },
+   "correct": "B",
+   "explanation": "People explaining their own conduct have the pressures of their situation in view and lean on them, while explaining someone else's they see mainly the person. The same respondents applying the two standards within one sitting is the clearest form of that asymmetry.",
+   "wrong": {
+    "A": "A belief that the world is just would push toward blaming anyone who suffers, including oneself, rather than producing the split seen here.",
+    "C": "A self-fulfilling prophecy requires an expectation to change the behaviour it concerns, and no behaviour of the target was affected.",
+    "D": "False consensus is overestimating how far others share one's own views, which the study did not measure."
+   },
+   "category": "8B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "23"
+  },
+  {
+   "id": "ps-p9-q2",
+   "passageId": "ps-p9",
+   "stem": "Among respondents who had never lost a job, the figure for the distant target exceeds that for the own-neighbourhood target by what percentage of the own-neighbourhood figure?",
+   "choices": {
+    "A": "156%",
+    "B": "56%",
+    "C": "36%",
+    "D": "23%"
+   },
+   "correct": "B",
+   "explanation": "The two figures are 64% and 41%, a gap of 23 percentage points, and the question asks for that gap as a share of 41: 23/41 = 0.56, or 56%.",
+   "wrong": {
+    "A": "156% is 64 divided by 41, which answers how large the distant figure is relative to the own-neighbourhood one, not how far it exceeds it. A figure that exceeds another by 56% is 156% of it.",
+    "C": "36% divides the gap by 64, the larger of the two values, rather than by the value named in the question.",
+    "D": "23 is the gap in percentage points, which is not yet expressed relative to any baseline."
+   },
+   "category": "8B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps-p9-q3",
+   "passageId": "ps-p9",
+   "stem": "Respondents who had themselves lost a job blamed both targets less than other respondents did. Which explanation of this pattern is best supported?",
+   "choices": {
+    "A": "They had less information about the targets, so they judged more cautiously.",
+    "B": "They identified with the targets and so wished to appear generous to the researchers.",
+    "C": "Direct experience had made the situational constraints on job loss salient to them.",
+    "D": "They were more likely than other respondents to live in distant neighbourhoods."
+   },
+   "correct": "C",
+   "explanation": "Having been through a redundancy makes the forces outside the worker's control concrete and easy to call to mind, and an explanation reaches for whatever is most available. The shift appears for both targets, which is what an account based on the respondent rather than on the target predicts.",
+   "wrong": {
+    "A": "Every respondent read the same 150-word account, so information about the target was held constant by design.",
+    "B": "A wish to appear generous would be expected to operate on respondents in general and does not explain why experience in particular mattered.",
+    "D": "Where respondents lived was not reported to differ by their own job history, and the target's neighbourhood was assigned at random."
+   },
+   "category": "8B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "23"
+  },
+  {
+   "id": "ps-p9-q4",
+   "passageId": "ps-p9",
+   "stem": "A respondent who says she would prefer not to have the unemployed person as a neighbour is reporting something best classified as:",
+   "choices": {
+    "A": "a stereotype, because it is a belief about a category of people",
+    "B": "prejudice, because it is a feeling directed at a group",
+    "C": "ethnocentrism, because it ranks one group above another",
+    "D": "discrimination, because it concerns how she would act"
+   },
+   "correct": "D",
+   "explanation": "Stereotype, prejudice and discrimination map onto belief, feeling and action, and a statement about whom one would accept as a neighbour is a statement about conduct. It is the behavioural component that is being reported here.",
+   "wrong": {
+    "A": "A stereotype would be a claim about what unemployed people are like, which this respondent has not been asked to give.",
+    "B": "Prejudice is the affective component, and a preference about action is a step beyond reporting how one feels.",
+    "C": "Ethnocentrism concerns judging other cultures by the standards of one's own, which is not what unemployment status is."
+   },
+   "category": "8C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "23"
+  },
+  {
+   "id": "ps-p9-q5",
+   "passageId": "ps-p9",
+   "stem": "Respondents reported the cause of their own past job loss in the same sitting, immediately after judging the vignette. Which objection does this raise?",
+   "choices": {
+    "A": "An account of one's own past may be adjusted to fit the judgement just made.",
+    "B": "The 190 respondents with past job loss are too few to compare with the others.",
+    "C": "Assigning the target's neighbourhood at random is undermined by the later question.",
+    "D": "Respondents may not remember the city they were living in at the time."
+   },
+   "correct": "A",
+   "explanation": "Asking about one's own case straight after judging someone else's invites consistency, or a correction for having been harsh, so the two reports are not independent. Collecting the respondent's own history at a separate session, or before the vignette, would remove the problem.",
+   "wrong": {
+    "B": "A subgroup of 190 is ample for a comparison of this size, and the concern raised by the ordering is bias rather than sample size.",
+    "C": "Random assignment of the vignette detail happened before any of this and is unaffected by a question asked afterwards.",
+    "D": "Nothing in the study turns on where the respondent lived when the earlier job loss occurred."
+   },
+   "category": "8B",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps-p10-q1",
+   "passageId": "ps-p10",
+   "stem": "What was Northvale's rate of natural increase in the year reported?",
+   "choices": {
+    "A": "2 per 1,000",
+    "B": "6 per 1,000",
+    "C": "20 per 1,000",
+    "D": "24 per 1,000"
+   },
+   "correct": "A",
+   "explanation": "Natural increase counts only births and deaths, so with 11 births and 9 deaths per 1,000 residents the district gained 2 residents per 1,000 from vital events. Movement in and out is excluded by definition.",
+   "wrong": {
+    "B": "6 per 1,000 adds the net migration of 4, which gives total population growth rather than natural increase.",
+    "C": "20 per 1,000 adds the birth and death rates instead of taking deaths from births, which would mean deaths increase a population.",
+    "D": "24 per 1,000 sums all three rates, compounding the sign error with the inclusion of migration."
+   },
+   "category": "9B",
+   "skill": "skill-4",
+   "difficulty": "easy",
+   "unit": "24"
+  },
+  {
+   "id": "ps-p10-q2",
+   "passageId": "ps-p10",
+   "stem": "Northvale's profile corresponds most closely to which stage of the demographic transition?",
+   "choices": {
+    "A": "the first stage, with high birth rates and high death rates",
+    "B": "the second stage, with high birth rates and falling death rates",
+    "C": "the third stage, with birth rates beginning to fall and low death rates",
+    "D": "the fourth stage, with low birth rates and low death rates"
+   },
+   "correct": "D",
+   "explanation": "Northvale has a crude birth rate of 11 and a crude death rate of 9 per 1,000, both low, with growth coming mainly from in-migration. The resulting age structure, 16% under 15 against 19% aged 65 or over, is the top-heavy profile of a population at the end of the transition.",
+   "wrong": {
+    "A": "The first stage pairs a high birth rate with a high death rate, and Northvale's rates are low on both counts.",
+    "B": "A birth rate of 26 with a death rate of 8, as in Southmere, is the second-stage pattern; Northvale's is not.",
+    "C": "The third stage still shows a clear excess of births over deaths and a young age structure, which Northvale does not have."
+   },
+   "category": "9B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps-p10-q3",
+   "passageId": "ps-p10",
+   "stem": "How do the dependency burdens of the two districts differ?",
+   "choices": {
+    "A": "Southmere's dependents are mainly children, Northvale's mainly older adults.",
+    "B": "Southmere has the heavier burden because it has fewer physicians per resident.",
+    "C": "Northvale has almost no dependent population, since its birth rate is low.",
+    "D": "The two burdens are equivalent, since both districts hold similar populations."
+   },
+   "correct": "A",
+   "explanation": "In Southmere 38% are under 15 and 6% are 65 or over, while in Northvale the figures are 16% and 19%. The two districts therefore carry dependents of different kinds, which call on schooling in one case and on long-term health and pension provision in the other.",
+   "wrong": {
+    "B": "Physician supply describes the service available rather than the share of the population that is dependent.",
+    "C": "Northvale's dependent share is substantial once the 19% aged 65 or over are counted alongside the 16% under 15.",
+    "D": "Equal total populations say nothing about age structure, which is precisely where the two districts differ."
+   },
+   "category": "9B",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "24"
+  },
+  {
+   "id": "ps-p10-q4",
+   "passageId": "ps-p10",
+   "stem": "Which account of the eight-year difference in life expectancy within Northvale is best supported by the second report?",
+   "choices": {
+    "A": "Insurance entitlement differs between the richest and poorest fifths.",
+    "B": "The poorest fifth lives too far from the district's physicians to reach them.",
+    "C": "Life expectancy figures are unreliable when a population is divided into fifths.",
+    "D": "Material conditions and chronic stress vary with income across the same district."
+   },
+   "correct": "D",
+   "explanation": "The report notes that both fifths hold the same entitlement and live inside the same boundary, which leaves the conditions of daily life as the difference between them. Housing, work, the food available nearby and the strain of low income form a gradient that tracks position in the income distribution.",
+   "wrong": {
+    "A": "The report states explicitly that both fifths hold the same insurance entitlement, so entitlement cannot be the difference.",
+    "B": "The comparison is within one district, and nothing in the report describes the poorest fifth as living further from care.",
+    "C": "Dividing a population into fifths is standard practice and does not make the resulting estimates unreliable."
+   },
+   "category": "10A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps-d1",
+   "passageId": null,
+   "stem": "A gambling machine pays out after an unpredictable number of plays, and players keep playing for long periods without a payout. Which schedule of reinforcement is at work?",
+   "choices": {
+    "A": "a fixed-ratio schedule",
+    "B": "a fixed-interval schedule",
+    "C": "a variable-ratio schedule",
+    "D": "a variable-interval schedule"
+   },
+   "correct": "C",
+   "explanation": "Reinforcement that arrives after an unpredictable number of responses is a variable-ratio schedule, which produces a high, steady rate of behaviour and is the most resistant to extinction. Because the next response might be the one that pays, there is no point at which stopping becomes attractive.",
+   "wrong": {
+    "A": "A fixed ratio pays after a set number of responses, which produces a pause immediately after each payout rather than steady play.",
+    "B": "A fixed interval pays for the first response after a set time, so behaviour accelerates as the interval ends and the player could simply wait.",
+    "D": "A variable interval depends on unpredictable elapsed time rather than on the number of plays, and produces slow, steady responding."
+   },
+   "category": "7A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "18"
+  },
+  {
+   "id": "ps-d2",
+   "passageId": null,
+   "stem": "A clinician's notes describe a patient as low in conscientiousness and high in neuroticism. This description belongs to which approach to personality?",
+   "choices": {
+    "A": "the psychoanalytic approach, which looks to unconscious conflict",
+    "B": "the humanistic approach, which looks to growth and self-regard",
+    "C": "the trait approach, which places people on continuous dimensions",
+    "D": "the behaviourist approach, which looks only to learning history"
+   },
+   "correct": "C",
+   "explanation": "Describing a person by their position on named dimensions such as conscientiousness and neuroticism is the defining move of trait theory. The dimensions are continuous, so the description locates the patient on a scale rather than assigning a type.",
+   "wrong": {
+    "A": "A psychoanalytic description would appeal to defences and to conflict between unconscious structures, not to rated dimensions.",
+    "B": "A humanistic description would concern self-concept, conditions of worth and movement toward one's potential.",
+    "D": "A behaviourist description would specify the reinforcement history that established the conduct, without reference to internal dimensions."
+   },
+   "category": "7A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "21"
+  },
+  {
+   "id": "ps-d3",
+   "passageId": null,
+   "stem": "A man collapses in a crowded station concourse and dozens of commuters walk past without stopping. Which process best explains the inaction?",
+   "choices": {
+    "A": "deindividuation in a crowd, which loosens personal restraint",
+    "B": "social loafing, which reduces effort on a shared group task",
+    "C": "group polarisation, which pushes a group toward its leaning",
+    "D": "diffusion of responsibility among many available helpers"
+   },
+   "correct": "D",
+   "explanation": "When many people could act, the obligation each person feels is divided among them, so the chance that any given bystander intervenes falls as the number present rises. The presence of others also makes it easier to read the situation as one that does not require help.",
+   "wrong": {
+    "A": "Deindividuation describes loss of self-awareness leading to behaviour a person would not otherwise perform, not failure to act at all.",
+    "B": "Social loafing applies to a group working together toward a shared product, which a concourse of strangers is not.",
+    "C": "Group polarisation concerns the hardening of an opinion through discussion, and no discussion took place."
+   },
+   "category": "7B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps-d4",
+   "passageId": null,
+   "stem": "A student who believes that late nights damage health routinely studies until 3 a.m., and now says that sleep matters less than she used to think. Her change of view is best described as:",
+   "choices": {
+    "A": "compliance with a demand made by someone in authority",
+    "B": "an attitude acquired by pairing study with physical fatigue",
+    "C": "dissonance reduction by revising the less costly belief",
+    "D": "persuasion by a strong argument processed centrally"
+   },
+   "correct": "C",
+   "explanation": "Holding a belief that contradicts one's own repeated conduct is uncomfortable, and the discomfort is relieved by changing whichever element is cheaper to change. Giving up the belief about sleep costs less than giving up the studying, so the belief moves.",
+   "wrong": {
+    "A": "No one has asked her to change her view, and compliance is agreement with a request rather than a privately revised belief.",
+    "B": "Classical conditioning of this sort would require fatigue to acquire a new meaning, which is not what altered her view of sleep.",
+    "D": "No argument was presented to her; the pressure came from the mismatch between her own belief and her own behaviour."
+   },
+   "category": "7C",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps-d5",
+   "passageId": null,
+   "stem": "A patient tells her physician, \"I can manage the exercise programme, because I managed the diet you gave me.\" Which construct does this statement express most directly?",
+   "choices": {
+    "A": "an external locus of control over health outcomes",
+    "B": "self-efficacy, a belief in one's capacity to carry out an action",
+    "C": "the self-serving bias in explaining a past success",
+    "D": "self-verification, the wish to be seen as one sees oneself"
+   },
+   "correct": "B",
+   "explanation": "Self-efficacy is a judgement about one's capability to perform a particular behaviour, and mastery of a similar task is its strongest source. The patient is reasoning from a past success to a belief that she can meet the new demand.",
+   "wrong": {
+    "A": "An external locus of control attributes outcomes to luck or to other people, which is the opposite of what she claims.",
+    "C": "Self-serving bias would mean claiming credit for success while blaming circumstances for failure, and no failure is being explained.",
+    "D": "Self-verification is a wish for others to confirm an existing self-view, not a judgement about future capability."
+   },
+   "category": "8A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "21"
+  },
+  {
+   "id": "ps-d6",
+   "passageId": null,
+   "stem": "Hospital staff rate identical case notes as describing a less cooperative patient when the name at the top suggests a minority background. Which of the following does this result demonstrate? I. A stereotype, as a belief about a category of people. II. Prejudice, as a feeling directed at a group. III. Discrimination, as unequal treatment of equivalent cases.",
+   "choices": {
+    "A": "I only",
+    "B": "I and III only",
+    "C": "II and III only",
+    "D": "I, II and III"
+   },
+   "correct": "B",
+   "explanation": "A rating that varies with the name alone shows a belief about the category operating on the judgement, which is claim I, and it also shows two equivalent cases being treated unequally, which is claim III. Claim II fails because the study recorded judgements, not the raters' feelings toward the group.",
+   "wrong": {
+    "A": "Confining the result to claim I ignores that the rating is itself an unequal response to equivalent material.",
+    "C": "Claim II requires evidence about affect, which a rating of case notes does not supply.",
+    "D": "Including claim II treats a difference in judgement as proof of an emotional disposition, which the design cannot establish."
+   },
+   "category": "8B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps-d7",
+   "passageId": null,
+   "stem": "A neighbour drives an elderly patient to her dialysis appointments three times a week. Which kind of social support is the neighbour providing?",
+   "choices": {
+    "A": "emotional support, which conveys care and reassurance",
+    "B": "informational support, which supplies advice and facts",
+    "C": "instrumental support, which supplies practical assistance",
+    "D": "appraisal support, which helps a person judge a problem"
+   },
+   "correct": "C",
+   "explanation": "Instrumental support is the provision of tangible help, such as transport, money or labour, that solves a practical part of the problem. Driving a patient to treatment removes a concrete barrier to care rather than changing how she feels or what she knows.",
+   "wrong": {
+    "A": "Emotional support consists of expressions of concern and affection, which the description does not mention.",
+    "B": "Informational support would mean explaining the treatment or advising on options, not supplying the journey.",
+    "D": "Appraisal support helps a person evaluate how serious a problem is, which is again a matter of information rather than assistance."
+   },
+   "category": "8C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "23"
+  },
+  {
+   "id": "ps-d8",
+   "passageId": null,
+   "stem": "A researcher records how patients and nurses on a ward negotiate what counts as being a good patient. This work is closest to which theoretical perspective?",
+   "choices": {
+    "A": "functionalism, which asks what a practice contributes to the whole",
+    "B": "conflict theory, which asks whose interests a practice serves",
+    "C": "symbolic interactionism, which asks how meanings are built in exchange",
+    "D": "rational choice theory, which asks what each party stands to gain"
+   },
+   "correct": "C",
+   "explanation": "Symbolic interactionism takes social life to be assembled from the meanings people work out in face-to-face encounters, so a study of how a category is negotiated on a ward sits squarely within it. Its characteristic method is close observation of small-scale interaction.",
+   "wrong": {
+    "A": "A functionalist account would ask what the good-patient role does for the hospital as a system, not how two parties arrive at it.",
+    "B": "A conflict account would set the question in terms of the power of staff over patients rather than the construction of meaning.",
+    "D": "Rational choice would model the two parties as weighing costs and benefits, which is not what a negotiation of meaning describes."
+   },
+   "category": "9A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps-d9",
+   "passageId": null,
+   "stem": "Marked shyness, once regarded as a temperament, is now widely diagnosed and treated with medication. This change is best described as:",
+   "choices": {
+    "A": "the sick role, the set of expectations placed on an ill person",
+    "B": "medicalization, the recasting of a human variation as a medical problem",
+    "C": "iatrogenesis, harm produced by medical treatment itself",
+    "D": "stigma, the discrediting of a person for a devalued attribute"
+   },
+   "correct": "B",
+   "explanation": "Medicalization is the process by which a condition previously understood in moral, legal or everyday terms is brought under medical authority and given a diagnosis and a treatment. The example describes exactly that shift in jurisdiction over shyness.",
+   "wrong": {
+    "A": "The sick role describes the rights and duties of someone already recognised as ill, not how a trait comes to count as illness.",
+    "C": "Iatrogenesis concerns harm caused by medical care, which the example does not claim has occurred.",
+    "D": "Stigma concerns the devaluing of a person who carries an attribute, which can accompany medicalization but is a different process."
+   },
+   "category": "9A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps-d10",
+   "passageId": null,
+   "stem": "A job seeker learns of a vacancy from a former colleague's acquaintance rather than from an advertisement. The resource he has drawn on is best described as:",
+   "choices": {
+    "A": "cultural capital, the tastes and credentials he has acquired",
+    "B": "human capital, the skills and training he would bring to the post",
+    "C": "social capital, the resources made available through his network",
+    "D": "a social institution, the organised arrangement that allocates work"
+   },
+   "correct": "C",
+   "explanation": "Social capital is the value that flows to a person through the relationships they hold, including information that never reaches the open market. A vacancy learned of through a weak tie of this kind is a standard illustration.",
+   "wrong": {
+    "A": "Cultural capital consists of the dispositions and qualifications that mark a person as belonging, not of the contacts who tell him things.",
+    "B": "Human capital is what he could do once hired, which is separate from how he came to hear that the post existed.",
+    "D": "A social institution is a durable arrangement such as the labour market itself, not a resource an individual holds."
+   },
+   "category": "9A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps-d11",
+   "passageId": null,
+   "stem": "Over a decade, an inner district gains new shops and refurbished housing while many long-standing tenants leave because they can no longer meet the rent. Which process does this describe?",
+   "choices": {
+    "A": "gentrification",
+    "B": "suburbanisation",
+    "C": "urban decline",
+    "D": "residential segregation"
+   },
+   "correct": "A",
+   "explanation": "Gentrification is the arrival of investment and of wealthier residents in a central district, with rising housing costs displacing poorer tenants. The combination of visible improvement with the departure of existing residents is its distinguishing feature.",
+   "wrong": {
+    "B": "Suburbanisation is movement of population out of the centre toward the urban fringe, which is the opposite direction of travel.",
+    "C": "Urban decline involves disinvestment and falling property values, not refurbishment and rising rents.",
+    "D": "Residential segregation describes how groups are distributed across a city rather than the transformation of one district over time."
+   },
+   "category": "9A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "24"
+  },
+  {
+   "id": "ps-d12",
+   "passageId": null,
+   "stem": "A district's population grows over a decade even though its deaths outnumber its births throughout. Which account fits these facts?",
+   "choices": {
+    "A": "a rise in the total fertility rate during the decade",
+    "B": "net in-migration larger than the natural decrease",
+    "C": "a crude death rate that has fallen below replacement level",
+    "D": "an increase in life expectancy at birth among residents"
+   },
+   "correct": "B",
+   "explanation": "Population change is the sum of natural increase and net migration, so a population that loses residents to vital events can only grow if more people move in than move out. The size of the in-migration has to exceed the shortfall of births against deaths.",
+   "wrong": {
+    "A": "A higher fertility rate is consistent with the facts only if births came to exceed deaths, which the question rules out.",
+    "C": "Replacement level is defined for fertility, the births per woman needed to replace a generation, and does not apply to a death rate.",
+    "D": "Longer life expectancy slows deaths but cannot by itself make a population grow while deaths still outnumber births."
+   },
+   "category": "9B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps-d13",
+   "passageId": null,
+   "stem": "Two neighbourhoods in one city differ by six years in life expectancy although their residents hold the same insurance. Which explanation is best supported by work on the social determinants of health?",
+   "choices": {
+    "A": "differences in built environment, food access and chronic stress",
+    "B": "inherited genetic differences between the two populations",
+    "C": "random variation, since life expectancy always differs somewhat",
+    "D": "differences in how often residents claim the benefits they hold"
+   },
+   "correct": "A",
+   "explanation": "Health follows a gradient set by the conditions in which people live and work, which operate whether or not care is paid for. Housing quality, what food is sold nearby, exposure to pollution and the sustained strain of insecurity all vary between neighbourhoods and all affect mortality.",
+   "wrong": {
+    "B": "Neighbourhoods within a city are not genetically distinct populations, and gaps of this size appear and close too quickly for inheritance.",
+    "C": "A six-year gap between adjacent neighbourhoods is far larger than sampling variation and is reproduced year after year.",
+    "D": "Claiming behaviour concerns take-up of entitlements, and the question already holds insurance coverage constant."
+   },
+   "category": "10A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "24"
+  },
+  {
+   "id": "ps-d14",
+   "passageId": null,
+   "stem": "Which measure best captures a household's position in the class structure as sociologists usually define it?",
+   "choices": {
+    "A": "its annual income alone",
+    "B": "its income, education and occupational prestige together",
+    "C": "how satisfied its members say they are with their standing",
+    "D": "the market value of the house in which it lives"
+   },
+   "correct": "B",
+   "explanation": "Socioeconomic status is treated as a composite of economic, educational and occupational position, because each captures something the others miss. Combining them identifies households that an income figure alone would place wrongly, such as a well-educated trainee or a retired professional.",
+   "wrong": {
+    "A": "Income alone misses education and occupation, and fluctuates year to year in a way that a household's social position does not.",
+    "C": "Satisfaction with one's standing is a subjective judgement, which is a different variable from the position itself.",
+    "D": "Housing value reflects the local property market as much as the household, and tells one nothing about education or occupation."
+   },
+   "category": "10A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps-d15",
+   "passageId": null,
+   "stem": "A sociologist separates the objects a group makes from the beliefs, norms and language it holds. The second of these belongs to:",
+   "choices": {
+    "A": "non-material culture: shared beliefs, norms and language",
+    "B": "material culture: the physical objects a group produces",
+    "C": "cultural capital: advantages carried by taste and credential",
+    "D": "a subculture: a group with its own variant practices"
+   },
+   "correct": "A",
+   "explanation": "Culture is conventionally divided into its material products and its non-material content, the latter being the ideas, rules and symbols a group shares. Beliefs, norms and language fall on the non-material side of that division.",
+   "wrong": {
+    "B": "Material culture is the category the question has set aside, namely the objects themselves.",
+    "C": "Cultural capital is an individual's stock of valued dispositions and qualifications, not a component of culture as such.",
+    "D": "A subculture is a group within a larger society, which is a unit of social organisation rather than a kind of cultural content."
+   },
+   "category": "9A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "24"
+  }
+ ]
+}

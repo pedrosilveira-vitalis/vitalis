@@ -108,8 +108,12 @@ for (const examDir of existsSync(ROOT) ? readdirSync(ROOT, { withFileTypes: true
       // 7. Choices that are not mutually exclusive by text. Roman numeral
       //    sets are exempt: "I only" is contained in "I and II only" by the
       //    nature of the format, which the real exam uses throughout.
+      //    Numeric sets are exempt too: "8 hours" is a substring of
+      //    "48 hours", and "1.6 mM" of "0.016 mM", which says nothing about
+      //    whether the choices are distinct quantities.
       const romanNumeral = LETTERS.every(l => /^(?:i{1,3}|i+\s*(?:,|and)\s*i+)[\s,i]*(?:and\s+iii)?\s*(?:only)?$/i.test(q.choices[l].trim()));
-      const texts = romanNumeral ? [] : LETTERS.map(l => q.choices[l].trim().toLowerCase());
+      const allNumeric = LETTERS.every(l => isQuantity(q.choices[l]));
+      const texts = romanNumeral || allNumeric ? [] : LETTERS.map(l => q.choices[l].trim().toLowerCase());
       for (let i = 0; i < texts.length; i += 1) {
         for (let j = i + 1; j < texts.length; j += 1) {
           if (texts[i] && texts[j] && (texts[i].includes(texts[j]) || texts[j].includes(texts[i]))) {

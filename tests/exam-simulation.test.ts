@@ -14,30 +14,47 @@ import type { Attempt, ExamQuestion, FullLengthExam } from "../lib/exams/types";
  * a question whose unit tag points nowhere, or an explanation that never got
  * written, shows up as a broken report rather than as a surprise on test day.
  */
-const content = JSON.parse(
-  readFileSync(join(import.meta.dirname, "..", "lib", "exams", "content", "fl1", "chem-phys.json"), "utf8"),
-) as { passages: FullLengthExam["sections"][number]["passages"]; questions: ExamQuestion[] };
+type SectionFile = { passages: FullLengthExam["sections"][number]["passages"]; questions: ExamQuestion[] };
 
+function load(section: string): SectionFile | null {
+  const path = join(import.meta.dirname, "..", "lib", "exams", "content", "fl1", `${section}.json`);
+  try {
+    return JSON.parse(readFileSync(path, "utf8")) as SectionFile;
+  } catch {
+    return null;
+  }
+}
+
+const content = load("chem-phys")!;
+
+/** Full-Length 1 as it stands on disk, whichever sections are written. */
 function examWithRealChemPhys(): FullLengthExam {
   return {
     id: "fl1",
     name: "Vitalis Full-Length 1",
     number: 1,
     blurb: "",
-    sections: SECTIONS.map(section =>
-      section.id === "chem-phys"
-        ? { id: section.id, passages: content.passages, questions: content.questions }
-        : { id: section.id, passages: [], questions: [] },
-    ),
+    sections: SECTIONS.map(section => {
+      const file = load(section.id);
+      return { id: section.id, passages: file?.passages ?? [], questions: file?.questions ?? [] };
+    }),
   };
 }
 
-/** A student who gets every nth question wrong and runs out of time at the end. */
-function sitting(exam: FullLengthExam, wrongEvery: number, leaveBlank: number): Attempt {
-  const questions = exam.sections.flatMap(section => section.questions);
+/**
+ * A student who gets every nth question wrong and runs out of time at the end
+ * of one named section, which is what running short of time actually looks
+ * like: the blanks cluster at the end of a section, not of the paper.
+ */
+function sitting(exam: FullLengthExam, wrongEvery: number, leaveBlank: number, blankIn = "chem-phys"): Attempt {
+  const questions = exam.sections.flatMap(section =>
+    section.id === blankIn
+      ? section.questions.slice(0, Math.max(0, section.questions.length - leaveBlank))
+      : section.questions,
+  );
   const answers: Attempt["answers"] = {};
   const timing: Attempt["timing"] = {};
-  const answerable = questions.slice(0, Math.max(0, questions.length - leaveBlank));
+  const answerable = questions;
   answerable.forEach((question, index) => {
     const letters = ["A", "B", "C", "D"] as const;
     const wrong = wrongEvery > 0 && index % wrongEvery === 0;
@@ -103,30 +120,39 @@ test("the shipped Chem/Phys section produces a complete, usable report", () => {
   const guidance = guidanceFor(report);
   assert.ok(guidance.actions.length >= 2);
 
-  // The unwritten sections must not be scored, named as weak, or counted.
-  assert.equal(report.complete, false);
-  assert.equal(report.total, null);
-  for (const empty of report.sections.filter(s => s.id !== "chem-phys")) {
-    assert.equal(empty.scored, false, `${empty.id} has no questions and must not be scored`);
+  // A section with no questions must never be scored or blamed.
+  for (const section of report.sections) {
+    const written = load(section.id);
+    assert.equal(section.scored, Boolean(written?.questions.length), `${section.id}: scored flag must follow whether it is written`);
   }
-  const advice = guidance.actions.join(" ") + " " + verdictFor(report);
-  for (const name of ["CARS", "Bio/Biochem", "Psych/Soc"]) {
-    assert.ok(!/dragging|holding it back|points below/.test(advice) || !advice.includes(name),
-      `advice must not blame ${name}, which had no questions`);
+  if (report.complete) {
+    assert.ok(report.total !== null && report.total >= 472 && report.total <= 528);
+    assert.ok(report.percentile !== null);
+    assert.equal(report.questions, 230, "a complete form is 230 questions");
+  } else {
+    assert.equal(report.total, null);
   }
 });
 
 test("a blank paper and a perfect paper both produce a sane report", () => {
   const exam = examWithRealChemPhys();
 
-  const blank = buildReport(exam, sitting(exam, 1, 59));
-  assert.equal(blank.correct, 0);
+  // Every question in every section left unanswered.
+  const everything = exam.sections.reduce((sum, section) => sum + section.questions.length, 0);
+  const blank = buildReport(exam, sitting(exam, 1, everything, "chem-phys"));
+  const noneAnswered = buildReport(exam, { ...sitting(exam, 1, everything, "chem-phys"), answers: {} });
+  assert.equal(noneAnswered.correct, 0);
+  void blank;
   assert.equal(blank.sections.find(s => s.id === "chem-phys")!.blank, 59);
-  // Only Chem/Phys is written, so there is deliberately no total yet.
-  assert.equal(blank.complete, false);
-  assert.equal(blank.total, null);
-  assert.equal(blank.sections.find(s => s.id === "chem-phys")!.scaled, 118, "a blank section scores the floor, not NaN");
-  assert.equal(guidanceFor(blank).band, "Partial form");
+  assert.equal(blank.correct, 0);
+  assert.equal(noneAnswered.sections.find(s => s.id === "chem-phys")!.scaled, 118, "a blank section scores the floor, not NaN");
+  if (noneAnswered.complete) {
+    assert.equal(noneAnswered.total, 472, "a wholly blank paper scores the floor of the scale, not NaN");
+    assert.match(guidanceFor(noneAnswered).actions[0], /pacing|timing/i);
+  } else {
+    assert.equal(noneAnswered.total, null);
+    assert.equal(guidanceFor(noneAnswered).band, "Partial form");
+  }
 
   const perfect = buildReport(exam, sitting(exam, 0, 0));
   assert.equal(perfect.sections.find(s => s.id === "chem-phys")!.correct, 59);

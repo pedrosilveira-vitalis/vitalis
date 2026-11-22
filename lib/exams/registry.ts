@@ -110,6 +110,8 @@ type SectionFile = { passages: ExamSection["passages"]; questions: ExamQuestion[
 const CONTENT: Record<string, () => Promise<SectionFile>> = {
   "fl1/chem-phys": () => import("./content/fl1/chem-phys.json").then(file => file.default as unknown as SectionFile),
   "fl1/cars": () => import("./content/fl1/cars.json").then(file => file.default as unknown as SectionFile),
+  "fl1/bio-biochem": () => import("./content/fl1/bio-biochem.json").then(file => file.default as unknown as SectionFile),
+  "fl1/psych-soc": () => import("./content/fl1/psych-soc.json").then(file => file.default as unknown as SectionFile),
 };
 
 async function sectionFile(examId: string, sectionId: ExamSectionId): Promise<SectionFile | null> {
