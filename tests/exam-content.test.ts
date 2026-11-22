@@ -303,3 +303,19 @@ test("a finished science section uses the question formats the real exam uses", 
     }
   }
 });
+
+test("the answer key never repeats a letter three times running", () => {
+  // A real form does not key three in a row, and a student who notices a run
+  // starts answering the pattern rather than the question.
+  for (const { exam, section, data } of files()) {
+    if (data.questions.length < 20) continue;
+    let run = 1;
+    for (let index = 1; index < data.questions.length; index += 1) {
+      run = data.questions[index].correct === data.questions[index - 1].correct ? run + 1 : 1;
+      assert.ok(
+        run < 3,
+        `${exam}/${section}: ${data.questions[index].correct} is the key for questions ${index - 1} to ${index + 1} in a row`,
+      );
+    }
+  }
+});

@@ -147,16 +147,16 @@
    "stem": "Patient X is acidotic. What is this patient's plasma pH?",
    "choices": {
     "A": "7.12",
-    "B": "7.22",
-    "C": "7.32",
-    "D": "7.42"
+    "B": "7.32",
+    "C": "7.42",
+    "D": "7.52"
    },
-   "correct": "C",
+   "correct": "B",
    "explanation": "The ratio is 12 / (0.03 × 24) = 12 / 0.72 = 16.7. Since log 16.7 falls between log 10 and log 20, the pH must fall between 7.10 and 7.40, which already eliminates two choices. Taking log 16.7 as about 1.22 gives 6.1 + 1.22 = 7.32.",
    "wrong": {
     "A": "7.12 uses the normal PCO₂ of 40 mmHg rather than this patient's 24 mmHg, which gives a ratio of 10 instead of 16.7.",
-    "B": "7.22 would need a ratio of about 13, which means dividing 12 by 0.9 rather than by 0.72.",
-    "D": "7.42 is above normal, but this patient has lost proportionally more bicarbonate than CO₂, so the ratio and the pH must both fall."
+    "C": "7.42 is above normal, but this patient has lost proportionally more bicarbonate than CO₂, so the ratio and the pH must both fall.",
+    "D": "7.52 describes an alkalosis. Both values here are below their reference ranges, and the bicarbonate has halved while the PCO₂ has fallen by only 40%."
    },
    "category": "5E",
    "skill": "skill-4",
@@ -520,17 +520,17 @@
    "passageId": "cp-p5",
    "stem": "What is the standard free energy change for the reaction as written, per mole of glucose?",
    "choices": {
-    "A": "+156 kJ/mol",
-    "B": "-78 kJ/mol",
-    "C": "-156 kJ/mol",
-    "D": "-313 kJ/mol"
+    "A": "-313 kJ/mol",
+    "B": "-156 kJ/mol",
+    "C": "-78 kJ/mol",
+    "D": "+156 kJ/mol"
    },
-   "correct": "C",
+   "correct": "B",
    "explanation": "ΔG = -nFE with n = 2 and E = 0.81 V gives -(2)(96 485)(0.81) = -1.56 × 10⁵ J/mol, or -156 kJ/mol. A positive cell potential must give a negative ΔG, which is the sign check worth doing before the arithmetic.",
    "wrong": {
-    "A": "The sign is wrong. A spontaneous cell has a positive potential and therefore a negative free energy change.",
-    "B": "-78 kJ/mol uses n = 1. The passage states that two electrons are released per glucose.",
-    "D": "-313 kJ/mol uses n = 4, which would be two glucose molecules rather than one."
+    "A": "-313 kJ/mol uses n = 4, which would be two glucose molecules rather than one.",
+    "C": "-78 kJ/mol uses n = 1. The passage states that two electrons are released per glucose.",
+    "D": "The sign is wrong. A spontaneous cell has a positive potential and therefore a negative free energy change."
    },
    "category": "4C",
    "skill": "skill-2",
@@ -828,17 +828,17 @@
    "passageId": "cp-p8",
    "stem": "What is the approximate magnitude of the larger ground reaction force peak?",
    "choices": {
-    "A": "84 N",
-    "B": "686 N",
-    "C": "823 N",
-    "D": "1370 N"
+    "A": "1370 N",
+    "B": "823 N",
+    "C": "686 N",
+    "D": "84 N"
    },
-   "correct": "C",
+   "correct": "B",
    "explanation": "The passage gives the peak as 1.2 times body weight, so 1.2 × 686 = 823 N. The useful idea is that walking is not static: the ground must push harder than body weight to decelerate a falling centre of mass.",
    "wrong": {
-    "A": "84 N is 1.2 times the mass in kilograms, which is not a force.",
-    "B": "686 N is body weight itself, which is what the force would be only if the person stood still.",
-    "D": "1370 N is twice body weight, which is nearer a running peak than a walking one."
+    "A": "1370 N is twice body weight, which is nearer a running peak than a walking one.",
+    "C": "686 N is body weight itself, which is what the force would be only if the person stood still.",
+    "D": "84 N is 1.2 times the mass in kilograms, which is not a force."
    },
    "category": "4A",
    "skill": "skill-2",
@@ -1092,17 +1092,17 @@
    "passageId": null,
    "stem": "Which compound has the LOWEST boiling point?",
    "choices": {
-    "A": "CH₃CH₂CH₃",
-    "B": "CH₃OCH₃",
-    "C": "CH₃CH₂CH₂CH₃",
-    "D": "CH₃CH₂OH"
+    "A": "CH₃OCH₃",
+    "B": "CH₃CH₂CH₂CH₃",
+    "C": "CH₃CH₂OH",
+    "D": "CH₃CH₂CH₃"
    },
-   "correct": "A",
+   "correct": "D",
    "explanation": "Propane is the smallest molecule here and has only dispersion forces holding it together, so it needs the least energy to boil. Dimethyl ether adds dipole-dipole attraction, butane has a larger electron cloud and so stronger dispersion, and ethanol hydrogen bonds, which costs far more again.",
    "wrong": {
-    "B": "Dimethyl ether has a permanent dipole as well as dispersion forces, so it boils above propane.",
-    "C": "Butane has more electrons than propane and so stronger dispersion forces, which raises its boiling point.",
-    "D": "Ethanol donates hydrogen bonds, the strongest intermolecular force here, so it boils far above the rest."
+    "A": "Dimethyl ether has a permanent dipole as well as dispersion forces, so it boils above propane.",
+    "B": "Butane has more electrons than propane and so stronger dispersion forces, which raises its boiling point.",
+    "C": "Ethanol donates hydrogen bonds, the strongest intermolecular force here, so it boils far above the rest."
    },
    "category": "5B",
    "skill": "skill-1",
@@ -1158,15 +1158,15 @@
    "passageId": null,
    "stem": "At pH 7.0, glycine (pKa values 2.3 and 9.6) exists predominantly as:",
    "choices": {
-    "A": "a cation with a protonated amine and a protonated carboxyl",
-    "B": "a zwitterion with a deprotonated carboxyl and a protonated amine",
+    "A": "a zwitterion with a deprotonated carboxyl and a protonated amine",
+    "B": "a cation with a protonated amine and a protonated carboxyl",
     "C": "an anion with a deprotonated carboxyl and a neutral amine",
     "D": "a neutral molecule with a protonated carboxyl and a neutral amine"
    },
-   "correct": "B",
+   "correct": "A",
    "explanation": "At pH 7.0 the solution sits well above the carboxyl pKa of 2.3, so that group is deprotonated, and well below the amino pKa of 9.6, so that group is still protonated. The result carries both a negative and a positive charge with no net charge: the zwitterion.",
    "wrong": {
-    "A": "A protonated carboxyl would need a pH below 2.3, more than four units lower than this.",
+    "B": "A protonated carboxyl would need a pH below 2.3, more than four units lower than this.",
     "C": "A neutral amine would need a pH above 9.6. At pH 7.0 the amine is still holding its proton.",
     "D": "This combination requires a pH both below 2.3 and above 9.6 at once, which is impossible."
    },
