@@ -40,8 +40,25 @@ const RULES = [
   [/\bdT\b/g, "ΔT"],
   [/\bdG\b/g, "ΔG"],
   [/\bEa\b/g, "Eₐ"],
+  [/\bdeg\s+([CF])\b/g, "°$1"],
   [/\bdeg\b/g, "°"],
+  [/°\s+([CF])\b/g, "°$1"],
   [/->/g, "→"],
+  [/\bdS\b/g, "\u0394S"],
+  [/\bdH\b/g, "\u0394H"],
+  [/\bSN1\b/g, "S\u20991"],
+  [/\bSN2\b/g, "S\u20992"],
+  [/\bE1\b/g, "E1"],
+  [/\bC2O4 2-/g, "C\u2082O\u2084\u00b2\u207b"],
+  [/\bCa2\+/g, "Ca\u00b2\u207a"],
+  // Any remaining chemical formula: a run of element-like groups containing at
+  // least one digit, with no spaces. Subscripts the digits and leaves prose,
+  // units and scientific notation alone.
+  [/\b((?:[A-Z][a-z]?\d*){2,})\b/g, (whole) => {
+    if (!/\d/.test(whole)) return whole;
+    if (/^(?:10|[A-Z]{2,}$)/.test(whole)) return whole;
+    return whole.replace(/\d/g, (digit) => SUB[Number(digit)]);
+  }],
   // Variable subscripts: v1, A2, do, di.
   [/\b([vAPQr])([12])\b/g, (_m, letter, digit) => letter + sub(digit)],
   [/\bdo\b(?=\s*[,)=+]|\s+and\b)/g, "dₒ"],

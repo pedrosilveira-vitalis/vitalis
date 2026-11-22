@@ -59,7 +59,7 @@
    "title": "An amperometric glucose biosensor",
    "paragraphs": [
     "A continuous glucose monitor measures current rather than concentration. Glucose oxidase immobilised on an electrode oxidises glucose to gluconolactone, releasing two electrons per molecule. Rather than passing those electrons to O₂, the sensor uses a ferricyanide mediator that is reduced to ferrocyanide at the enzyme and re-oxidised at the working electrode, so the current the instrument reads is proportional to the rate at which glucose is consumed.",
-    "The relevant standard reduction potentials at pH 7 are +0.36 V for the ferricyanide / ferrocyanide couple and -0.45 V for the gluconolactone / glucose couple. Standard free energy change and cell potential are related by ΔG = -nFE, with F = 96 485 C/mol. Away from standard conditions the cell potential follows the Nernst equation, which at 25 ° C takes the form E = E - (0.0592/n) log Q.",
+    "The relevant standard reduction potentials at pH 7 are +0.36 V for the ferricyanide / ferrocyanide couple and -0.45 V for the gluconolactone / glucose couple. Standard free energy change and cell potential are related by ΔG = -nFE, with F = 96 485 C/mol. Away from standard conditions the cell potential follows the Nernst equation, which at 25 °C takes the form E = E - (0.0592/n) log Q.",
     "In a calibration run the instrument integrated the current over a fixed sampling window and recorded a total charge of 9.65 mC."
    ],
    "sources": [
@@ -74,7 +74,7 @@
    "title": "Isolating a carboxylic acid drug",
    "paragraphs": [
     "A student is given a crude mixture containing a carboxylic acid drug with a pKa of 4.4, a neutral ester of similar molecular mass, and inorganic salts. The mixture is dissolved in diethyl ether and shaken with aqueous sodium bicarbonate in a separating funnel. The two layers are separated, the aqueous layer is acidified to pH 2 with hydrochloric acid, and a white solid precipitates.",
-    "The solid is purified and analysed. Its infrared spectrum shows a very broad absorption spanning roughly 2500 to 3300 wavenumbers together with a strong sharp band at 1710 wavenumbers. Its proton NMR spectrum shows a six-proton doublet, a one-proton multiplet, a two-proton doublet, and a one-proton signal far downfield that disappears when the sample is shaken with D2O.",
+    "The solid is purified and analysed. Its infrared spectrum shows a very broad absorption spanning roughly 2500 to 3300 wavenumbers together with a strong sharp band at 1710 wavenumbers. Its proton NMR spectrum shows a six-proton doublet, a one-proton multiplet, a two-proton doublet, and a one-proton signal far downfield that disappears when the sample is shaken with D₂O.",
     "Purity is checked by thin-layer chromatography on silica with an ether / hexane eluent. The sample spot travels 3.2 cm from the baseline while the solvent front travels 8.0 cm."
    ]
   },
@@ -82,10 +82,10 @@
    "id": "cp-p7",
    "title": "Calcium oxalate and kidney stones",
    "paragraphs": [
-    "Most kidney stones are calcium oxalate. The solid dissolves according to CaC2O4(s) in equilibrium with Ca2+(aq) + C2O4 2-(aq), for which the solubility product at 37 ° C is approximately 2.3 × 10⁻⁹. Urine supersaturated in either ion favours crystal growth, which is why prevention targets the concentration of both rather than of the salt as a whole.",
+    "Most kidney stones are calcium oxalate. The solid dissolves according to CaC₂O₄(s) in equilibrium with Ca²⁺(aq) + C₂O₄²⁻(aq), for which the solubility product at 37 °C is approximately 2.3 × 10⁻⁹. Urine supersaturated in either ion favours crystal growth, which is why prevention targets the concentration of both rather than of the salt as a whole.",
     "Oxalate is the conjugate base of oxalic acid, a diprotic acid whose second ionisation corresponds to a pKa of about 4.3. Urine pH in healthy adults ranges from roughly 4.5 to 8.0 depending on diet and time of day, so the fraction of dissolved oxalate present as the fully deprotonated ion varies substantially across the day. Dietary calcium complicates the picture: calcium eaten with a meal binds oxalate in the gut and reduces how much oxalate is absorbed, so restricting calcium can raise urinary oxalate rather than lower it.",
     "Citrate is prescribed to some stone formers. It chelates calcium in urine, forming a soluble complex that holds calcium in solution and so lowers the free calcium available to the equilibrium above. It also raises urine pH, which has its own consequences for the oxalate equilibrium.",
-    "A clinician compares two laboratory samples: one of pure water saturated with calcium oxalate, and one of a 0.010 M calcium chloride solution saturated with the same salt. Both are held at 37 ° C."
+    "A clinician compares two laboratory samples: one of pure water saturated with calcium oxalate, and one of a 0.010 M calcium chloride solution saturated with the same salt. Both are held at 37 °C."
    ]
   },
   {
@@ -102,7 +102,7 @@
    "id": "cp-p9",
    "title": "The thermodynamics of folding",
    "paragraphs": [
-    "A small globular protein folds reversibly between a folded and an unfolded state with no detectable intermediate, so the transition can be treated as a two-state equilibrium. Calorimetry on the folding transition gives an enthalpy change of -120 kJ/mol and an entropy change of -350 J/(mol K) for the protein itself, and both are roughly constant over the range studied. Spontaneity is set by ΔG = dH - T dS.",
+    "A small globular protein folds reversibly between a folded and an unfolded state with no detectable intermediate, so the transition can be treated as a two-state equilibrium. Calorimetry on the folding transition gives an enthalpy change of -120 kJ/mol and an entropy change of -350 J/(mol K) for the protein itself, and both are roughly constant over the range studied. Spontaneity is set by ΔG = ΔH - T ΔS.",
     "The negative entropy term is the cost of ordering a flexible chain into a single structure. An unfolded chain samples an enormous number of conformations; a folded one occupies essentially a single arrangement, and that collapse in accessible states is expensive.",
     "It is paid for by the hydrophobic effect. Non-polar side chains in water force the surrounding molecules into ordered cages, and burying those side chains in the protein's core releases that caged water. The entropy gained is large, but it belongs to the solvent and so is not counted in the -350 J/(mol K) quoted above, which describes the protein alone. Hydrogen bonds and van der Waals contacts within the folded core supply most of the favourable enthalpy.",
     "The protein unfolds when the folded state is no longer favoured. Because the entropy term is multiplied by temperature while the enthalpy term is not, the balance between them shifts as the protein is warmed."
@@ -672,7 +672,7 @@
   {
    "id": "cp-p6-q4",
    "passageId": "cp-p6",
-   "stem": "The one-proton signal that disappears on shaking with D2O is:",
+   "stem": "The one-proton signal that disappears on shaking with D₂O is:",
    "choices": {
     "A": "the methine proton",
     "B": "the carboxylic acid proton",
@@ -680,7 +680,7 @@
     "D": "an aromatic proton"
    },
    "correct": "B",
-   "explanation": "Protons on oxygen exchange rapidly with deuterium from D2O, so the signal vanishes. The acid proton is the only exchangeable one here, and it is also the furthest downfield, which matches the description.",
+   "explanation": "Protons on oxygen exchange rapidly with deuterium from D₂O, so the signal vanishes. The acid proton is the only exchangeable one here, and it is also the furthest downfield, which matches the description.",
    "wrong": {
     "A": "A methine proton is bound to carbon and does not exchange.",
     "C": "Methyl protons are bound to carbon, do not exchange, and would integrate for six rather than one.",
@@ -922,7 +922,7 @@
     "D": "-120 kJ/mol"
    },
    "correct": "C",
-   "explanation": "ΔG = dH - T dS = -120 000 - (310)(-350) = -120 000 + 108 500 = -11 500 J/mol, so -11.5 kJ/mol. Note that the entropy term must be converted from joules to match, and that subtracting a negative adds.",
+   "explanation": "ΔG = ΔH - T ΔS = -120 000 - (310)(-350) = -120 000 + 108 500 = -11 500 J/mol, so -11.5 kJ/mol. Note that the entropy term must be converted from joules to match, and that subtracting a negative adds.",
    "wrong": {
     "A": "+228 kJ/mol adds the two magnitudes, which drops the sign on the enthalpy term.",
     "B": "The sign is wrong, which usually comes from subtracting 108 500 rather than adding it. Subtracting a negative adds.",
@@ -944,7 +944,7 @@
     "D": "373 K"
    },
    "correct": "C",
-   "explanation": "Unfolding begins where ΔG for folding reaches zero, so T = dH / dS = 120 000 / 350 = 343 K, about 70 ° C. Above that the unfavourable entropy term outweighs the favourable enthalpy term and the folded state is no longer stable.",
+   "explanation": "Unfolding begins where ΔG for folding reaches zero, so T = ΔH / ΔS = 120 000 / 350 = 343 K, about 70 °C. Above that the unfavourable entropy term outweighs the favourable enthalpy term and the folded state is no longer stable.",
    "wrong": {
     "A": "298 K is standard room temperature and has nothing to do with this protein's numbers.",
     "B": "310 K is body temperature, where the previous calculation shows the free energy change is still negative and the protein is folded.",
@@ -983,12 +983,12 @@
    "stem": "A mutation makes folding more exothermic without changing the entropy of folding. Compared with the original protein, the mutant will:",
    "choices": {
     "A": "unfold at a lower temperature",
-    "B": "unfold at the same temperature, because dS is unchanged",
+    "B": "unfold at the same temperature, because ΔS is unchanged",
     "C": "not fold at all",
     "D": "unfold at a higher temperature"
    },
    "correct": "D",
-   "explanation": "The unfolding temperature is dH / dS. Making dH more negative increases the magnitude of that ratio, so the temperature at which the entropy term finally wins is higher. A more exothermic folding reaction buys thermal stability.",
+   "explanation": "The unfolding temperature is ΔH / ΔS. Making ΔH more negative increases the magnitude of that ratio, so the temperature at which the entropy term finally wins is higher. A more exothermic folding reaction buys thermal stability.",
    "wrong": {
     "A": "That would follow from a smaller enthalpy magnitude, not a larger one.",
     "B": "The temperature depends on both terms, so changing either moves it.",
@@ -1092,10 +1092,10 @@
    "passageId": null,
    "stem": "Which compound has the highest boiling point?",
    "choices": {
-    "A": "CH3CH2CH3",
-    "B": "CH3CH2OH",
-    "C": "CH3OCH3",
-    "D": "CH3CH2CH2CH3"
+    "A": "CH₃CH₂CH₃",
+    "B": "CH₃CH₂OH",
+    "C": "CH₃OCH₃",
+    "D": "CH₃CH₂CH₂CH₃"
    },
    "correct": "B",
    "explanation": "Ethanol is the only one of these that can donate a hydrogen bond, since its hydrogen sits on oxygen. Hydrogen bonding is far stronger than the dispersion forces available to the others, so ethanol boils well above them despite its modest mass.",
@@ -1137,8 +1137,8 @@
    "stem": "Which molecule is non-polar despite containing polar bonds?",
    "choices": {
     "A": "H₂O",
-    "B": "NH3",
-    "C": "CHCl3",
+    "B": "NH₃",
+    "C": "CHCl₃",
     "D": "CO₂"
    },
    "correct": "D",
@@ -1224,17 +1224,17 @@
    "passageId": null,
    "stem": "A substitution on a tertiary alkyl halide in a polar protic solvent proceeds with racemisation. This is most consistent with:",
    "choices": {
-    "A": "an SN2 mechanism, because the nucleophile attacks from the back",
-    "B": "an SN1 mechanism, because a planar carbocation can be attacked from either face",
+    "A": "an Sₙ2 mechanism, because the nucleophile attacks from the back",
+    "B": "an Sₙ1 mechanism, because a planar carbocation can be attacked from either face",
     "C": "an E1 mechanism, because elimination destroys the stereocentre",
-    "D": "an SN2 mechanism, because the solvent stabilises the transition state"
+    "D": "an Sₙ2 mechanism, because the solvent stabilises the transition state"
    },
    "correct": "B",
    "explanation": "A tertiary centre in a protic solvent favours ionisation to a carbocation, which is trigonal planar. A nucleophile can then attack either face with roughly equal probability, giving both configurations. Racemisation is the signature of a planar intermediate.",
    "wrong": {
-    "A": "Back-side attack inverts configuration cleanly rather than racemising it, and a tertiary centre is too hindered for SN2 anyway.",
+    "A": "Back-side attack inverts configuration cleanly rather than racemising it, and a tertiary centre is too hindered for Sₙ2 anyway.",
     "C": "Elimination produces an alkene, not a substitution product, so it cannot be the pathway for the product described.",
-    "D": "The solvent description is accurate but the mechanism is not: protic solvents stabilise carbocations and hinder SN2 by caging the nucleophile."
+    "D": "The solvent description is accurate but the mechanism is not: protic solvents stabilise carbocations and hinder Sₙ2 by caging the nucleophile."
    },
    "category": "5D",
    "skill": "skill-1",
