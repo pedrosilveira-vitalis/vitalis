@@ -13,7 +13,8 @@ type Attempt = LiveAttempt | ScoredAttempt;
 
 const isLive = (item: Attempt): item is LiveAttempt => item.status === "live";
 const isScored = (item: Attempt): item is ScoredAttempt => item.status === "scored";
-const hasTotal = (item: ScoredAttempt) => item.complete && item.total !== null;
+type ChartedAttempt = ScoredAttempt & { total: number; low: number; high: number };
+const hasTotal = (item: ScoredAttempt): item is ChartedAttempt => item.complete && item.total !== null;
 
 export default function ExamsPage() {
   const [data, setData] = useState<{ signedIn: boolean; allowed: boolean; exams: Exam[]; attempts: Attempt[] } | null>(null);

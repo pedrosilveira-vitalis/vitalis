@@ -13,6 +13,9 @@ type Attempt = Scored | { status: "live"; examId: string; attemptId: string; sta
 type Exam = { id: string; name: string; number: number };
 
 const isScored = (item: Attempt): item is Scored => item.status === "scored";
+/** A sitting of a finished form, so it has a total worth charting. */
+type Charted = Scored & { total: number; low: number; high: number };
+const isCharted = (item: Scored): item is Charted => item.complete && item.total !== null;
 
 /**
  * Every full-length this student has sat, oldest first.
@@ -37,7 +40,7 @@ export default function ScoreHistoryPage() {
   // A sitting of a form that is not finished has no total to chart.
   const scored = (data?.attempts ?? [])
     .filter(isScored)
-    .filter(item => item.complete && item.total !== null)
+    .filter(isCharted)
     .sort((a, b) => new Date(a.finishedAt).getTime() - new Date(b.finishedAt).getTime());
 
   const best = scored.length ? Math.max(...scored.map(item => item.total)) : null;
