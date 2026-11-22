@@ -329,7 +329,9 @@ export function guidanceFor(report: ExamReport): Guidance {
     };
   }
 
-  if (report.total >= 515) {
+  const total = report.total ?? 0;
+
+  if (total >= 515) {
     return {
       band: "515+",
       headline: "You are in range for almost every school. The work now is protecting this, not raising it.",
@@ -342,7 +344,7 @@ export function guidanceFor(report: ExamReport): Guidance {
     };
   }
 
-  if (report.total >= 505) {
+  if (total >= 505) {
     return {
       band: "505-514",
       headline: "A competitive score, with a clear path to a stronger one.",
@@ -354,7 +356,7 @@ export function guidanceFor(report: ExamReport): Guidance {
     };
   }
 
-  if (report.total >= 495) {
+  if (total >= 495) {
     return {
       band: "495-504",
       headline: "Around the middle of the distribution, where a handful of raw marks moves the score a long way.",
