@@ -6,7 +6,8 @@ import MainNav from "@/components/MainNav";
 
 type Scored = {
   status: "scored"; attemptId: string; examId: string; finishedAt: string;
-  total: number; low: number; high: number; sections: { short: string; scaled: number }[];
+  total: number | null; low: number | null; high: number | null; complete: boolean;
+  sections: { short: string; scaled: number }[];
 };
 type Attempt = Scored | { status: "live"; examId: string; attemptId: string; startedAt: string; sectionIndex: number };
 type Exam = { id: string; name: string; number: number };
@@ -33,8 +34,10 @@ export default function ScoreHistoryPage() {
     return () => { live = false; };
   }, []);
 
+  // A sitting of a form that is not finished has no total to chart.
   const scored = (data?.attempts ?? [])
     .filter(isScored)
+    .filter(item => item.complete && item.total !== null)
     .sort((a, b) => new Date(a.finishedAt).getTime() - new Date(b.finishedAt).getTime());
 
   const best = scored.length ? Math.max(...scored.map(item => item.total)) : null;

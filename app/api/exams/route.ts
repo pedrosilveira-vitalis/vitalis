@@ -48,6 +48,7 @@ export async function GET() {
           total: report.total,
           low: report.totalLow,
           high: report.totalHigh,
+          complete: report.complete,
           sections: report.sections.map(section => ({ short: section.short, scaled: section.scaled })),
         });
       }

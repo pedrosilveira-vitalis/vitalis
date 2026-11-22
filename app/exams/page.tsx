@@ -8,11 +8,12 @@ import StudyIcon from "@/components/StudyIcon";
 type Progress = { id: string; short: string; written: number; needed: number };
 type Exam = { id: string; name: string; number: number; blurb: string; ready: boolean; free: boolean; allowed: boolean; written: number; needed: number; progress: Progress[] };
 type LiveAttempt = { status: "live"; examId: string; attemptId: string; startedAt: string; sectionIndex: number };
-type ScoredAttempt = { status: "scored"; examId: string; attemptId: string; finishedAt: string; total: number; low: number; high: number; sections: { short: string; scaled: number }[] };
+type ScoredAttempt = { status: "scored"; examId: string; attemptId: string; finishedAt: string; total: number | null; low: number | null; high: number | null; complete: boolean; sections: { short: string; scaled: number }[] };
 type Attempt = LiveAttempt | ScoredAttempt;
 
 const isLive = (item: Attempt): item is LiveAttempt => item.status === "live";
 const isScored = (item: Attempt): item is ScoredAttempt => item.status === "scored";
+const hasTotal = (item: ScoredAttempt) => item.complete && item.total !== null;
 
 export default function ExamsPage() {
   const [data, setData] = useState<{ signedIn: boolean; allowed: boolean; exams: Exam[]; attempts: Attempt[] } | null>(null);
@@ -54,7 +55,7 @@ export default function ExamsPage() {
           {(data?.exams ?? []).map(exam => {
             const mine = (data?.attempts ?? []).filter(item => item.examId === exam.id);
             const live = mine.filter(isLive)[0];
-            const scored = mine.filter(isScored);
+            const scored = mine.filter(isScored).filter(hasTotal);
             return (
               <article key={exam.id} className="exam-card">
                 <div className="exam-card-head">

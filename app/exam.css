@@ -302,3 +302,7 @@ body.exam-dragging { user-select: none; cursor: col-resize; }
 .report-guidance-list li { counter-increment: step; position: relative; padding-left: 34px; font-size: 12.5px; line-height: 1.85; color: #4a5560; max-width: 78ch; }
 .report-guidance-list li::before { content: counter(step); position: absolute; left: 0; top: 2px; width: 22px; height: 22px; display: grid; place-items: center; border-radius: 50%; background: #245574; color: #fff; font-size: 10px; font-weight: 600; }
 .report-footer-links { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+.report-section-card.is-unscored { opacity: .62; background: #f7f4ee; }
+.report-section-card.is-unscored header strong { color: #9aa0a4; }
+.report-unscored-note { font-size: 11px; color: #8a8e8c; border-top: 1px solid #e6dfd4; padding-top: 11px; line-height: 1.7; }
+.report-total-partial { color: #9aa0a4; }

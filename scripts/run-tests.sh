@@ -11,7 +11,7 @@ root="$(cd "$(dirname "$0")/.." && pwd)"
 work="$(mktemp -d)"
 trap 'rm -rf "$work"' EXIT
 
-cp -r "$root/lib" "$work/lib"
+cp -r "$root/lib" "$work/lib"   # includes lib/exams/content
 mkdir -p "$work/components/exam"
 cp "$root/components/exam/annotations.ts" "$work/components/exam/"
 mkdir -p "$work/tests"

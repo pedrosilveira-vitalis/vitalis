@@ -130,15 +130,44 @@ test("the report counts, ranks weak units, and never credits a blank", () => {
   // CARS has no unit, so it must never appear as something to "go read".
   assert.ok(!report.recommendations.some(r => r.unit === null || r.unit === ""));
 
-  // The total is the sum of the four section estimates and sits in range.
-  assert.equal(report.total, report.sections.reduce((sum, s) => sum + s.scaled, 0));
-  assert.ok(report.total >= 472 && report.total <= 528);
-  assert.ok(report.totalLow <= report.total && report.total <= report.totalHigh);
+  // Two of the four sections carried no questions, so there is no total: a
+  // figure built from two real sections and two empty ones would be wrong,
+  // not merely low, and a student would act on it.
+  assert.equal(report.complete, false);
+  assert.equal(report.total, null);
+  assert.equal(report.percentile, null);
+  assert.equal(report.sections.filter(s => s.scored).length, 2);
+});
+
+test("a form with every section written produces a total; a partial one does not", () => {
+  const full = examOf(Object.fromEntries(
+    SECTIONS.map(section => [section.id, [question(`${section.id}-1`), question(`${section.id}-2`)]]),
+  ));
+  const complete = buildReport(full, attemptOf(full, Object.fromEntries(
+    full.sections.flatMap(s => s.questions).map(q => [q.id, "A" as const]),
+  )));
+  assert.equal(complete.complete, true);
+  assert.equal(complete.total, complete.sections.reduce((sum, s) => sum + s.scaled, 0));
+  assert.ok(complete.total! >= 472 && complete.total! <= 528);
+  assert.ok(complete.totalLow! <= complete.total! && complete.total! <= complete.totalHigh!);
+  assert.ok(complete.percentile !== null);
+
+  const partial = examOf({ cars: [question("cars-1", { unit: null, category: "", skill: "cars-comprehension" })] });
+  const partialReport = buildReport(partial, attemptOf(partial, {}));
+  assert.equal(partialReport.complete, false);
+  assert.equal(partialReport.total, null);
+  assert.match(verdictFor(partialReport), /still being written|no total/i);
+  assert.equal(guidanceFor(partialReport).band, "Partial form");
 });
 
 test("the verdict calls out pacing before content when answers are missing", () => {
-  const exam = examOf({ "bio-biochem": Array.from({ length: 20 }, (_, i) => question(`bb-${i}`)) });
-  const report = buildReport(exam, attemptOf(exam, { "bb-0": "A", "bb-1": "A" }));
+  // A complete form, so the pacing logic is reached rather than the
+  // partial-form message.
+  const exam = examOf(Object.fromEntries(
+    SECTIONS.map(section => [section.id, Array.from({ length: 5 }, (_, i) => question(`${section.id}-${i}`))]),
+  ));
+  const report = buildReport(exam, attemptOf(exam, { "bio-biochem-0": "A", "bio-biochem-1": "A" }));
+  assert.equal(report.complete, true);
   assert.match(verdictFor(report), /blank/);
 });
 
@@ -152,12 +181,14 @@ test("a perfect paper scores the ceiling and recommends nothing", () => {
   assert.equal(report.recommendations.length, 0);
   const bio = report.sections.find(s => s.id === "bio-biochem")!;
   assert.equal(bio.scaled, 132);
+  assert.equal(bio.scored, true);
+  assert.equal(report.sections.find(s => s.id === "cars")!.scored, false);
 });
 
 test("guidance changes with the band, and names pacing before content", () => {
-  const exam = examOf({
-    "bio-biochem": Array.from({ length: 20 }, (_, i) => question(`bb-${i}`)),
-  });
+  const exam = examOf(Object.fromEntries(
+    SECTIONS.map(section => [section.id, Array.from({ length: 5 }, (_, i) => question(`${section.id}-${i}`))]),
+  ));
 
   // Nothing answered: the advice must lead on pacing, not on content.
   const abandoned = buildReport(exam, attemptOf(exam, {}));
@@ -168,6 +199,7 @@ test("guidance changes with the band, and names pacing before content", () => {
   const perfect = buildReport(exam, attemptOf(exam, Object.fromEntries(exam.sections
     .flatMap(section => section.questions)
     .map(q => [q.id, "A" as const]))));
+  assert.equal(perfect.complete, true);
   const strong = guidanceFor(perfect);
   assert.ok(strong.actions.length >= 2);
   assert.ok(strong.headline.length > 20);

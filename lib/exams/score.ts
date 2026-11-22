@@ -38,6 +38,8 @@ export interface Breakdown {
 
 export interface SectionScore {
   id: ExamSectionId;
+  /** False when the section carried no questions, so it was never sat. */
+  scored: boolean;
   name: string;
   short: string;
   nickname: string;
@@ -70,10 +72,17 @@ export interface ExamReport {
   examName: string;
   startedAt: string;
   finishedAt: string | null;
-  total: number;
-  totalLow: number;
-  totalHigh: number;
+  /**
+   * Null unless all four sections were sat. A total built from three real
+   * sections and one empty one is not a low score, it is a wrong one, and a
+   * student would act on it.
+   */
+  total: number | null;
+  totalLow: number | null;
+  totalHigh: number | null;
   percentile: number | null;
+  /** True only when every section carried questions. */
+  complete: boolean;
   correct: number;
   questions: number;
   sections: SectionScore[];
@@ -149,6 +158,7 @@ export function buildReport(exam: FullLengthExam, attempt: Attempt): ExamReport 
     const scale = scaledFor(section.id, correct, total);
     sections.push({
       id: section.id,
+      scored: total > 0,
       name: blueprint.name,
       short: blueprint.short,
       nickname: blueprint.nickname,
@@ -166,9 +176,12 @@ export function buildReport(exam: FullLengthExam, attempt: Attempt): ExamReport 
     });
   }
 
-  const total = sections.reduce((sum, section) => sum + section.scaled, 0);
-  const totalLow = sections.reduce((sum, section) => sum + section.low, 0);
-  const totalHigh = sections.reduce((sum, section) => sum + section.high, 0);
+  // Only a form where every section carried questions produces a total.
+  const scoredSections = sections.filter(section => section.scored);
+  const complete = scoredSections.length === SECTIONS.length;
+  const total = complete ? scoredSections.reduce((sum, section) => sum + section.scaled, 0) : null;
+  const totalLow = complete ? scoredSections.reduce((sum, section) => sum + section.low, 0) : null;
+  const totalHigh = complete ? scoredSections.reduce((sum, section) => sum + section.high, 0) : null;
 
   // Units to read next: ranked by how many points they cost, not by percentage,
   // because a unit that cost six marks matters more than one that cost one.
@@ -210,7 +223,8 @@ export function buildReport(exam: FullLengthExam, attempt: Attempt): ExamReport 
     total,
     totalLow,
     totalHigh,
-    percentile: percentileFor(total),
+    complete,
+    percentile: total === null ? null : percentileFor(total),
     correct: sections.reduce((sum, section) => sum + section.correct, 0),
     questions: everything.length,
     sections,
@@ -228,9 +242,14 @@ export function buildReport(exam: FullLengthExam, attempt: Attempt): ExamReport 
  * needs the truth, and a false "great job" costs them a test fee.
  */
 export function verdictFor(report: ExamReport): string {
-  const blank = report.sections.reduce((sum, section) => sum + section.blank, 0);
-  const worst = report.sections.slice().sort((a, b) => a.scaled - b.scaled)[0];
-  const best = report.sections.slice().sort((a, b) => b.scaled - a.scaled)[0];
+  const scored = report.sections.filter(section => section.scored);
+  const blank = scored.reduce((sum, section) => sum + section.blank, 0);
+  const worst = scored.slice().sort((a, b) => a.scaled - b.scaled)[0];
+  const best = scored.slice().sort((a, b) => b.scaled - a.scaled)[0];
+  if (!report.complete) {
+    const names = scored.map(section => section.nickname).join(", ") || "no section";
+    return `This form is still being written, so there is no total score. What follows covers ${names} only.`;
+  }
   if (blank >= 10) {
     return `You left ${blank} questions blank, so this score is a pacing result before it is a content result. Fixing timing is worth more than any content review right now.`;
   }
@@ -258,12 +277,13 @@ export interface Guidance {
  * and much less at the top.
  */
 export function guidanceFor(report: ExamReport): Guidance {
-  const blank = report.sections.reduce((sum, section) => sum + section.blank, 0);
-  const sorted = report.sections.slice().sort((a, b) => a.scaled - b.scaled);
+  const scoredSections = report.sections.filter(section => section.scored);
+  const blank = scoredSections.reduce((sum, section) => sum + section.blank, 0);
+  const sorted = scoredSections.slice().sort((a, b) => a.scaled - b.scaled);
   const worst = sorted[0];
   const spread = sorted.length > 1 ? sorted[sorted.length - 1].scaled - worst.scaled : 0;
-  const cars = report.sections.find(section => section.id === "cars");
-  const rushed = report.sections.filter(section => section.blank >= 3).map(section => section.nickname);
+  const cars = scoredSections.find(section => section.id === "cars");
+  const rushed = scoredSections.filter(section => section.blank >= 3).map(section => section.nickname);
 
   // Pacing leads in every band when it is the problem. A student who left ten
   // questions blank is not short of content, whatever their score says, and
@@ -281,7 +301,10 @@ export function guidanceFor(report: ExamReport): Guidance {
     actions.push(`${worst.nickname} is ${spread} points below your best section. That gap is the cheapest place to gain, because the ceiling there is furthest away.`);
   }
 
-  if (cars && cars.scaled <= report.total / 4 - 1) {
+  const average = scoredSections.length
+    ? scoredSections.reduce((sum, section) => sum + section.scaled, 0) / scoredSections.length
+    : 0;
+  if (cars && cars.scaled <= average - 1) {
     actions.push("CARS is dragging the total. It responds to daily practice rather than to study: one timed passage set every day, reviewed properly, beats a long session once a week.");
   }
 
@@ -292,6 +315,18 @@ export function guidanceFor(report: ExamReport): Guidance {
 
   if (report.recommendations.length) {
     actions.push("Work through the units listed below in order. They are ranked by how many marks each cost you, not by percentage.");
+  }
+
+  if (!report.complete) {
+    return {
+      band: "Partial form",
+      headline: "This form is not finished, so there is no total score to act on.",
+      actions: [
+        `Only ${scoredSections.map(section => section.nickname).join(", ") || "part of the exam"} carried questions, so treat what follows as section practice rather than as a full-length result.`,
+        ...urgent,
+        ...actions.slice(0, 3),
+      ],
+    };
   }
 
   if (report.total >= 515) {

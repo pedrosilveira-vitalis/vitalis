@@ -9,7 +9,7 @@ type Guidance = { band: string; headline: string; actions: string[] };
 type Breakdown = { key: string; name: string; correct: number; total: number; percent: number };
 type SectionScore = {
   id: string; name: string; short: string; nickname: string;
-  correct: number; total: number; answered: number; blank: number;
+  correct: number; total: number; answered: number; blank: number; scored: boolean;
   percent: number; scaled: number; low: number; high: number; secondsRemaining: number;
   categories: Breakdown[]; skills: Breakdown[];
 };
@@ -23,7 +23,8 @@ type Miss = {
 };
 type Report = {
   examName: string; startedAt: string; finishedAt: string | null;
-  total: number; totalLow: number; totalHigh: number; percentile: number | null;
+  total: number | null; totalLow: number | null; totalHigh: number | null; percentile: number | null;
+  complete: boolean;
   correct: number; questions: number;
   sections: SectionScore[]; missed: Miss[];
   recommendations: {
@@ -94,12 +95,19 @@ export default function ScoreReportPage() {
         <section className="report-hero">
           <div>
             <p className="eyebrow">{report.examName.toUpperCase()}</p>
-            <h1>
-              <span className="report-total">{report.total}</span>
-              <small>
-                estimated &mdash; likely {report.totalLow} to {report.totalHigh}
-              </small>
-            </h1>
+            {report.complete && report.total !== null ? (
+              <h1>
+                <span className="report-total">{report.total}</span>
+                <small>
+                  estimated &mdash; likely {report.totalLow} to {report.totalHigh}
+                </small>
+              </h1>
+            ) : (
+              <h1>
+                <span className="report-total report-total-partial">&mdash;</span>
+                <small>no total: this form is not finished yet</small>
+              </h1>
+            )}
             <p className="report-verdict">{verdict}</p>
             <p className="report-meta">
               {report.correct} of {report.questions} correct
@@ -111,15 +119,20 @@ export default function ScoreReportPage() {
 
         <section className="report-sections">
           {report.sections.map(section => (
-            <article key={section.id} className="report-section-card">
+            <article key={section.id} className={section.scored ? "report-section-card" : "report-section-card is-unscored"}>
               <header>
                 <span className="eyebrow">{section.short}</span>
-                <strong>{section.scaled}</strong>
-                <small>
-                  {section.low}&ndash;{section.high}
-                </small>
+                <strong>{section.scored ? section.scaled : "\u2014"}</strong>
+                {section.scored && (
+                  <small>
+                    {section.low}&ndash;{section.high}
+                  </small>
+                )}
               </header>
               <p className="report-section-name">{section.nickname}</p>
+              {!section.scored ? (
+                <p className="report-unscored-note">Not written yet, so not scored.</p>
+              ) : (
               <dl>
                 <div>
                   <dt>Correct</dt>
@@ -136,6 +149,7 @@ export default function ScoreReportPage() {
                   <dd>{minutes(section.secondsRemaining)}</dd>
                 </div>
               </dl>
+              )}
             </article>
           ))}
         </section>
@@ -234,7 +248,7 @@ export default function ScoreReportPage() {
             <button type="button" className={openSection === "all" ? "exam-tab is-on" : "exam-tab"} onClick={() => setOpenSection("all")}>
               All {report.missed.length}
             </button>
-            {report.sections.map(section => {
+            {report.sections.filter(section => section.scored).map(section => {
               const count = report.missed.filter(miss => miss.section === section.id).length;
               return (
                 <button
