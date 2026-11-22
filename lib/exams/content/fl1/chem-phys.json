@@ -782,19 +782,19 @@
   {
    "id": "cp-p7-q4",
    "passageId": "cp-p7",
-   "stem": "The solubility product of calcium oxalate is best described as:",
+   "stem": "All of the following are true of the solubility product of calcium oxalate EXCEPT:",
    "choices": {
-    "A": "the rate at which the solid dissolves",
-    "B": "the concentration of solid in equilibrium with its ions",
-    "C": "the mass of salt that dissolves in one litre",
-    "D": "the equilibrium constant for the dissolution of the solid"
+    "A": "it is the equilibrium constant for dissolution of the solid",
+    "B": "its value changes when a common ion is added to the solution",
+    "C": "it carries no term for the undissolved solid",
+    "D": "its value changes with temperature"
    },
-   "correct": "D",
-   "explanation": "A solubility product is an equilibrium constant written for the dissolution reaction, so it is the product of the dissolved ion concentrations at equilibrium. The solid itself does not appear, which is why its amount never enters the expression.",
+   "correct": "B",
+   "explanation": "A common ion shifts the position of the equilibrium and so changes the solubility, but it does not change the constant. That is the distinction the earlier calculation rests on: Ksp stayed at 2.3 × 10⁻⁹ while the solubility fell by more than two hundredfold.",
    "wrong": {
-    "A": "Equilibrium constants say nothing about rate. A salt with a tiny Ksp can dissolve quickly up to its limit.",
-    "B": "A pure solid has no meaningful concentration term and is omitted from the expression.",
-    "C": "That describes solubility in grams per litre, which depends on molar mass as well."
+    "A": "This is true: a solubility product is simply the equilibrium constant written for the dissolution reaction.",
+    "C": "This is true: a pure solid has no meaningful concentration term, so it is omitted from the expression.",
+    "D": "This is true. Equilibrium constants are temperature-dependent, which is why the passage quotes a value at 37 degrees."
    },
    "category": "5A",
    "skill": "skill-1",
@@ -1024,23 +1024,23 @@
   {
    "id": "cp-p10-q2",
    "passageId": "cp-p10",
-   "stem": "Compared with an unmyelinated axon, a myelinated one has a membrane time constant that is:",
+   "stem": "Myelination has which of the following effects on the membrane described in the passage?\n\nI. It lowers the capacitance across the sheath\nII. It raises the resistance across the sheath\nIII. It lengthens the membrane time constant",
    "choices": {
-    "A": "shorter, because both capacitance and resistance fall",
-    "B": "longer, because resistance rises and capacitance is unchanged",
-    "C": "unchanged, because resistance and capacitance change by the same factor",
-    "D": "shorter, because capacitance falls more than resistance rises"
+    "A": "I only",
+    "B": "I and II only",
+    "C": "II and III only",
+    "D": "I, II and III"
    },
-   "correct": "D",
-   "explanation": "Myelin cuts capacitance sharply, since capacitors in series give a total smaller than any one of them, while resistance rises. The net effect in real axons is a shorter time constant and faster conduction, which is the point of myelin.",
+   "correct": "B",
+   "explanation": "The passage gives both of the first two directly: capacitors in series give a total smaller than any one of them, and the many wrapped layers raise resistance. The third is the trap. The time constant is the product of the two, and in real axons the fall in capacitance dominates, so the time constant shortens - which is the point of myelin.",
    "wrong": {
-    "A": "The passage states that the many layers raise resistance; they do not lower it.",
-    "B": "Capacitance is not unchanged - the passage makes the series combination explicit.",
-    "C": "If the two changed by the same factor in the same direction the product would move, not stay put; and here they move in opposite directions."
+    "A": "The fall in capacitance is right, but the passage also states that the many layers raise the resistance across the sheath.",
+    "C": "The rise in resistance is right, but the time constant shortens rather than lengthens, and the fall in capacitance belongs in the set.",
+    "D": "The first two hold, but a lengthened time constant would mean slower conduction, the opposite of what myelin achieves."
    },
    "category": "4C",
    "skill": "skill-1",
-   "difficulty": "medium",
+   "difficulty": "hard",
    "unit": "17"
   },
   {
@@ -1090,19 +1090,19 @@
   {
    "id": "cp-d1",
    "passageId": null,
-   "stem": "Which compound has the highest boiling point?",
+   "stem": "Which compound has the LOWEST boiling point?",
    "choices": {
     "A": "CH₃CH₂CH₃",
-    "B": "CH₃CH₂OH",
-    "C": "CH₃OCH₃",
-    "D": "CH₃CH₂CH₂CH₃"
+    "B": "CH₃OCH₃",
+    "C": "CH₃CH₂CH₂CH₃",
+    "D": "CH₃CH₂OH"
    },
-   "correct": "B",
-   "explanation": "Ethanol is the only one of these that can donate a hydrogen bond, since its hydrogen sits on oxygen. Hydrogen bonding is far stronger than the dispersion forces available to the others, so ethanol boils well above them despite its modest mass.",
+   "correct": "A",
+   "explanation": "Propane is the smallest molecule here and has only dispersion forces holding it together, so it needs the least energy to boil. Dimethyl ether adds dipole-dipole attraction, butane has a larger electron cloud and so stronger dispersion, and ethanol hydrogen bonds, which costs far more again.",
    "wrong": {
-    "A": "Propane has only dispersion forces and the lowest mass here, so it boils lowest of all.",
-    "C": "Dimethyl ether can accept a hydrogen bond but has no O-H to donate, so ether molecules cannot hydrogen bond to each other.",
-    "D": "Butane is heavier than ethanol and so has stronger dispersion forces, but dispersion alone does not match hydrogen bonding at this size."
+    "B": "Dimethyl ether has a permanent dipole as well as dispersion forces, so it boils above propane.",
+    "C": "Butane has more electrons than propane and so stronger dispersion forces, which raises its boiling point.",
+    "D": "Ethanol donates hydrogen bonds, the strongest intermolecular force here, so it boils far above the rest."
    },
    "category": "5B",
    "skill": "skill-1",
@@ -1134,19 +1134,19 @@
   {
    "id": "cp-d3",
    "passageId": null,
-   "stem": "Which molecule is non-polar despite containing polar bonds?",
+   "stem": "Which of the following molecules are non-polar despite containing polar covalent bonds?\n\nI. CO₂\nII. CCl₄\nIII. NH₃",
    "choices": {
-    "A": "H₂O",
-    "B": "NH₃",
-    "C": "CHCl₃",
-    "D": "CO₂"
+    "A": "I only",
+    "B": "I and II only",
+    "C": "II and III only",
+    "D": "I, II and III"
    },
-   "correct": "D",
-   "explanation": "Carbon dioxide is linear, so its two C=O bond dipoles point in opposite directions and cancel exactly. Polarity depends on geometry as much as on electronegativity: symmetric arrangements cancel, bent or pyramidal ones do not.",
+   "correct": "B",
+   "explanation": "Polarity depends on geometry as much as on electronegativity. CO₂ is linear and CCl₄ is tetrahedral with four identical bonds, so in both the bond dipoles point in directions that cancel exactly. NH₃ is trigonal pyramidal, and its lone pair leaves the arrangement asymmetric, so its dipoles add to a net moment.",
    "wrong": {
-    "A": "Water is bent, so its two O-H dipoles add to a substantial net dipole rather than cancelling.",
-    "B": "Ammonia is trigonal pyramidal, and its lone pair makes the arrangement asymmetric.",
-    "C": "Chloroform is tetrahedral with three chlorines and one hydrogen, which is not symmetric enough to cancel."
+    "A": "CO₂ does cancel, but so does CCl₄: four identical bonds arranged tetrahedrally sum to zero.",
+    "C": "CCl₄ belongs in the set, but NH₃ does not. A pyramidal molecule with a lone pair cannot cancel its dipoles.",
+    "D": "This includes NH₃, which is polar. Ammonia's dipole is what makes it hydrogen bond and dissolve readily in water."
    },
    "category": "5B",
    "skill": "skill-1",
@@ -1200,19 +1200,19 @@
   {
    "id": "cp-d6",
    "passageId": null,
-   "stem": "A student has a sample of a chiral drug and wants to establish whether it is a single enantiomer or a racemic mixture. The most direct measurement is:",
+   "stem": "A student must establish whether a sample of a chiral drug is a single enantiomer or a racemic mixture. Which of the following measurements could settle it?\n\nI. Optical rotation in a polarimeter\nII. Infrared spectroscopy\nIII. Chromatography on a chiral stationary phase",
    "choices": {
-    "A": "optical rotation in a polarimeter, since a racemate rotates plane-polarised light not at all",
-    "B": "melting point, since enantiomers melt at different temperatures",
-    "C": "infrared spectroscopy, since enantiomers absorb at different wavenumbers",
-    "D": "mass spectrometry, since enantiomers differ in molecular mass"
+    "A": "I only",
+    "B": "I and II only",
+    "C": "I and III only",
+    "D": "I, II and III"
    },
-   "correct": "A",
-   "explanation": "Enantiomers rotate plane-polarised light by equal amounts in opposite directions, so an equal mixture gives zero net rotation while a single enantiomer gives a measurable one. That difference is the defining physical distinction between them.",
+   "correct": "C",
+   "explanation": "Enantiomers rotate plane-polarised light equally in opposite directions, so a racemate gives no net rotation while a single enantiomer gives a measurable one. A chiral stationary phase interacts differently with each enantiomer and so resolves them into two peaks. Infrared spectroscopy cannot: enantiomers have identical bonds and identical force constants, so their spectra are the same.",
    "wrong": {
-    "B": "Enantiomers have identical melting points. A racemate can melt differently from the pure enantiomer, but that comparison needs a pure reference the student does not have.",
-    "C": "Enantiomers have identical infrared spectra, because the bonds and their force constants are the same.",
-    "D": "Enantiomers have identical molecular masses, since they contain exactly the same atoms."
+    "A": "Polarimetry works, but it is not the only method here; a chiral stationary phase separates the two physically.",
+    "B": "Infrared spectroscopy does not distinguish enantiomers at all, because their bonds and vibrational frequencies are identical.",
+    "D": "This includes infrared, which cannot tell enantiomers apart however carefully the spectrum is run."
    },
    "category": "5D",
    "skill": "skill-3",
@@ -1244,19 +1244,19 @@
   {
    "id": "cp-d8",
    "passageId": null,
-   "stem": "In size-exclusion chromatography, the first proteins to elute are:",
+   "stem": "All of the following are true of size-exclusion chromatography EXCEPT:",
    "choices": {
-    "A": "the largest, because they cannot enter the pores of the beads",
-    "B": "the smallest, because they travel through the column fastest",
-    "C": "the most positively charged, because they are repelled by the resin",
-    "D": "the most hydrophobic, because they interact least with water"
+    "A": "proteins are separated by size rather than by charge",
+    "B": "small proteins enter the pores of the beads and so travel a longer path",
+    "C": "proteins bind to the resin and are released by a salt gradient",
+    "D": "the largest proteins leave the column first"
    },
-   "correct": "A",
-   "explanation": "Large proteins are excluded from the pores and so travel only through the space between beads, which is the shorter path. Small proteins enter the pores, take a longer route, and elute later. The separation is by size alone, with no binding involved.",
+   "correct": "C",
+   "explanation": "Binding followed by elution with a salt gradient describes ion exchange, not size exclusion. The whole design of a size-exclusion column is to avoid binding: proteins travel through it unretained, and the only thing that differs between them is the length of the path they take.",
    "wrong": {
-    "B": "Small proteins enter the pores, which lengthens their path, so they elute last rather than first.",
-    "C": "Charge-based separation is ion exchange, a different technique.",
-    "D": "Hydrophobic interaction is another technique entirely, and size exclusion is designed to avoid binding of any kind."
+    "A": "This is true, and it is the defining feature of the method.",
+    "B": "This is true, and it is why small proteins come off last rather than first.",
+    "D": "This is true: large proteins are excluded from the pores and so take the shorter route between the beads."
    },
    "category": "5C",
    "skill": "skill-1",

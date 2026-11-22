@@ -276,3 +276,30 @@ test("choices that have a natural order are presented in it", () => {
     }
   }
 });
+
+test("a finished science section uses the question formats the real exam uses", () => {
+  // Roman numeral items and negative stems are used throughout the real exam.
+  // A student who has only ever practised on questions without them meets
+  // both formats cold on test day, and both cost time the first time.
+  for (const { exam, section, data } of files()) {
+    const blueprint = SECTIONS.find(item => item.id === section);
+    if (!blueprint || data.questions.length !== blueprint.questions) continue;
+
+    const roman = data.questions.filter(q => /\bI\.\s/.test(q.stem) && /\bII\.\s/.test(q.stem));
+    const negative = data.questions.filter(q => /\b(EXCEPT|LEAST|LOWEST|NOT)\b/.test(q.stem));
+
+    assert.ok(roman.length >= 2, `${exam}/${section}: only ${roman.length} Roman numeral questions; the real exam uses them throughout`);
+    assert.ok(roman.length <= 8, `${exam}/${section}: ${roman.length} Roman numeral questions is more than the real exam uses`);
+    assert.ok(negative.length >= 2, `${exam}/${section}: only ${negative.length} questions with a negative or reversed stem`);
+    assert.ok(negative.length <= 8, `${exam}/${section}: ${negative.length} negative stems overloads the form`);
+
+    // A Roman numeral question must offer combinations, not single items.
+    for (const question of roman) {
+      const texts = ["A", "B", "C", "D"].map(letter => question.choices[letter]);
+      assert.ok(
+        texts.some(text => /\band\b/i.test(text)),
+        `${question.id}: a Roman numeral question needs combination choices`,
+      );
+    }
+  }
+});

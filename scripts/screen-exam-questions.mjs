@@ -105,8 +105,11 @@ for (const examDir of existsSync(ROOT) ? readdirSync(ROOT, { withFileTypes: true
       // 6. A passage question whose stem cannot stand alone.
       if (q.passageId && !passages[q.passageId]) flag(id, "orphan", "passage missing");
 
-      // 7. Choices that are not mutually exclusive by text.
-      const texts = LETTERS.map(l => q.choices[l].trim().toLowerCase());
+      // 7. Choices that are not mutually exclusive by text. Roman numeral
+      //    sets are exempt: "I only" is contained in "I and II only" by the
+      //    nature of the format, which the real exam uses throughout.
+      const romanNumeral = LETTERS.every(l => /^(?:i{1,3}|i+\s*(?:,|and)\s*i+)[\s,i]*(?:and\s+iii)?\s*(?:only)?$/i.test(q.choices[l].trim()));
+      const texts = romanNumeral ? [] : LETTERS.map(l => q.choices[l].trim().toLowerCase());
       for (let i = 0; i < texts.length; i += 1) {
         for (let j = i + 1; j < texts.length; j += 1) {
           if (texts[i] && texts[j] && (texts[i].includes(texts[j]) || texts[j].includes(texts[i]))) {
