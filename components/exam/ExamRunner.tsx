@@ -612,7 +612,8 @@ export default function ExamRunner({ examId }: { examId: string }) {
       >
         {passage && (
           <section className="exam-passage" aria-label="Passage" ref={passagePane}>
-            <h2>{passage.title}</h2>
+            {/* CARS passages are untitled on the real exam. */}
+            {passage.title ? <h2>{passage.title}</h2> : null}
             {passage.paragraphs.map((paragraph, position) => (
               <Annotated
                 key={position}

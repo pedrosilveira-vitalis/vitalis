@@ -67,7 +67,10 @@ test("question ids are unique across the whole form and passages are never orpha
     for (const passage of data.passages) {
       assert.ok(used.has(passage.id), `${exam}/${section}: passage ${passage.id} has no questions`);
       assert.ok(passage.paragraphs.length >= 2, `${passage.id}: a passage needs at least two paragraphs`);
-      assert.ok(passage.title.length > 4, `${passage.id}: passage needs a real title`);
+      // CARS passages carry no title on the real exam; science passages do.
+      if (section !== "cars") {
+        assert.ok(passage.title.length > 4, `${passage.id}: passage needs a real title`);
+      }
     }
   }
 });
