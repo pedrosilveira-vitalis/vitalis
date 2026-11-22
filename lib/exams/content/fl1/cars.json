@@ -51,7 +51,7 @@
    "title": "",
    "paragraphs": [
     "Western musical notation is often described as a recording technology, a means of fixing sound so that it survives its performance. The description is natural and it inverts the history. Notation did not begin as a way of preserving music that already existed in finished form; it began as a set of reminders for singers who knew the music already, marks that indicated the shape of a melody without specifying its pitches, useless to anyone who had not learned the chant by ear. What notation preserved, at first, was not the music but the memory of someone who had it.",
-    "The gradual specification of pitch, and much later of duration, changed what the marks could do, and changed with it the relationship between composer and performer. A score that fixes every pitch and every value can be realised by a musician who has never heard the piece. This is an extraordinary achievement and it carries a cost that is seldom counted: the more a notation specifies, the more it implies that what it does not specify is unimportant. Phrasing, articulation, the thousand decisions that distinguish one performance from another, came to be regarded as matters of interpretation, a category that did not exist when the marks were reminders and everything was interpretation.",
+    "The gradual specification of pitch, and much later of duration, changed what the marks could dₒ, and changed with it the relationship between composer and performer. A score that fixes every pitch and every value can be realised by a musician who has never heard the piece. This is an extraordinary achievement and it carries a cost that is seldom counted: the more a notation specifies, the more it implies that what it does not specify is unimportant. Phrasing, articulation, the thousand decisions that distinguish one performance from another, came to be regarded as matters of interpretation, a category that did not exist when the marks were reminders and everything was interpretation.",
     "Traditions that developed other solutions make the point sharply. In classical Indian music the raga is transmitted by a teacher to a student over years, and what is transmitted is not a sequence of notes but a set of possibilities, constraints and characteristic gestures from which a performance is assembled in the moment. A transcription of a performance records what one musician did once, and a student who learned from such a transcription would have learned a performance rather than the raga. The notation is possible; it is simply not the thing.",
     "It would be a mistake to conclude that Western notation impoverished the music written in it. What it did was redistribute. Decisions that had belonged to the performer migrated to the composer, and the kind of complexity a composer could demand grew far beyond what an ensemble could have held in memory. A late symphony is not a transcription of something that could have been improvised. It exists because the notation exists.",
     "The question worth asking is therefore not whether notation gained or lost but what it made invisible. A musician trained to read will hear a performance as a realisation of a text and will evaluate it against that text. A musician trained in a transmitted tradition will hear the same performance as an instance of a practice, and will ask a different question about it, one for which the score provides no evidence at all."
@@ -76,7 +76,7 @@
     "Medieval pilgrimage routes were commercial enterprises. They had inns, guides, souvenir trades and a well-developed market in forged relics. Pilgrims complained about prices, collected badges proving where they had been, and travelled in groups organised for the purpose by people who made a living from it. A modern tourist who bought a mass-produced object at a famous site, grumbled about the cost and photographed themselves beside the monument would have been entirely legible to a fourteenth-century traveller, who did the same things with different technology.",
     "There is a further resemblance that the writers tend to pass over. Both practices generate an anxiety about authenticity, and both resolve it the same way. The medieval traveller worried that the relic was forged and that the guide was fleecing them, and sought out the obscure shrine on the assumption that obscurity was evidence of genuineness. The modern traveller performs the identical manoeuvre, avoiding the crowded site in favour of one that fewer people have reached, and treating scarcity of visitors as a proxy for something it has never reliably indicated. The anxiety is not a symptom of shallow tourism. It is what happens whenever a person travels a long way on the strength of a claim they cannot check.",
     "The usual rescue of the distinction is to locate it in the traveller's inner state rather than their behaviour. The pilgrim seeks transformation; the tourist seeks diversion. This is harder to refute because it is harder to observe, which is not a point in its favour. It also assumes a uniformity within each category that neither has. Some medieval pilgrims went because they were sentenced to; some went to escape a marriage; some went because their neighbours were going. Some modern tourists stand in front of a painting and are changed by it.",
-    "A more defensible version of the distinction concerns not the traveller but the destination, and specifically whether the place makes a claim on the visitor. A shrine asserts that something happened there which ought to alter the person standing in front of it. A beach asserts nothing. A traveller may decline the shrine's claim, and many do, but the claim is made by the site rather than brought to it, and that is a real difference between kinds of place rather than a flattering story about kinds of people.",
+    "A more defensible version of the distinction concerns not the traveller but the destination, and specifically whether the place makes a claim on the visitor. A shrine asserts that something happened there which ought to alter the person standing in front of it. A beach asserts nothing. A traveller may decline the shrine's claim, and many dₒ, but the claim is made by the site rather than brought to it, and that is a real difference between kinds of place rather than a flattering story about kinds of people.",
     "This reframing has a consequence the writers who prefer the original distinction may not welcome. Many of the destinations they would class as touristic do make such claims: a battlefield, a preserved camp, the house where a writer worked. These sites assert that what happened there should change the visitor, and they are visited by people in shorts carrying cameras, who are frequently changed. If the distinction is about the claim a place makes, then the pilgrim is not a rarer figure than the tourist. The pilgrim is most of the tourists, some of the time."
    ]
   },
@@ -571,22 +571,22 @@
   {
    "id": "cars-p4-q4",
    "passageId": "cars-p4",
-   "stem": "The remark that the better dictionaries disclose their methods 'in their front matter, where almost nobody looks' most directly implies that:",
+   "stem": "A scientific journal states that it publishes on merit alone, while an editor decides which submissions are sent out for review at all. Based on the passage, the author would most likely say that:",
    "choices": {
-    "A": "such disclosure does little to correct the impression most readers form",
-    "B": "front matter should be relocated to the end of the volume",
-    "C": "readers are at fault for not reading a dictionary's introduction",
-    "D": "the disclosure is written in language ordinary readers cannot follow"
+    "A": "the journal's claim is false, since selection cannot be a matter of merit",
+    "B": "the editor's selection is a judgement that the claim to neutrality conceals",
+    "C": "the journal's authority would be unaffected if the selection were disclosed",
+    "D": "the guidelines should be relocated to where authors are more likely to read them"
    },
-   "correct": "A",
-   "explanation": "The clause undercuts the concession it follows. Disclosure that is made where nobody reads it does not reach the reader whose impression of neutrality the author has been describing.",
+   "correct": "B",
+   "explanation": "The author's case is that a claim to neutrality does real work in a reference work's authority while its structure consists of judgements the reader never sees. A journal that advertises merit alone while an editor filters submissions is the same shape, and the author is careful that this is not an accusation of arbitrariness.",
    "wrong": {
-    "B": "No proposal of any kind is made about where front matter should sit.",
-    "C": "The author attributes no fault to readers, treating their habits as a fact the practice has to reckon with.",
-    "D": "Nothing is said about the difficulty of the language in front matter."
+    "A": "The author rejects exactly this inference about dictionaries: 'it would be a poor reader who concluded that the enterprise is arbitrary'. A judgement is not the absence of merit.",
+    "C": "The passage says the claim to neutrality 'does real work in a dictionary's authority', so disclosing the judgements would cost something rather than nothing.",
+    "D": "The front-matter remark notes where disclosure goes unread; the author draws no recommendation about relocating it, and the point is about the claim rather than its placement."
    },
    "category": "",
-   "skill": "cars-reasoning-within",
+   "skill": "cars-reasoning-beyond",
    "difficulty": "hard",
    "unit": null
   },
@@ -835,22 +835,22 @@
   {
    "id": "cars-p6-q4",
    "passageId": "cars-p6",
-   "stem": "The author says the temptation to fill silences by inference 'should be resisted in proportion to its usefulness'. This suggests that:",
+   "stem": "A historian writes that villagers in a particular parish 'would have heard the sermon as a warning', citing no source for the claim. Based on the passage, the author would most likely say that the statement is:",
    "choices": {
-    "A": "inference should be avoided entirely in historical writing",
-    "B": "the most useful inferences are the ones least likely to be true",
-    "C": "the inferences hardest to do without are the ones most needing to be marked",
-    "D": "usefulness is the correct test of whether an inference is justified"
+    "A": "illegitimate, since no surviving document supports it",
+    "B": "acceptable only if the parish's records are unusually complete",
+    "C": "possibly the only route to a claim worth making, provided it is marked as inference",
+    "D": "testable by reading surviving sermons against the grain"
    },
    "correct": "C",
-   "explanation": "The sentence is followed immediately by the reason: such inference 'is sometimes the only route to a claim worth making' and 'produces an account that reads exactly like an account built from evidence'. The more indispensable it is, the more it will be used, and the more it needs flagging - which is the honest practice the author then describes.",
+   "explanation": "The passage grants that inference of this kind 'is sometimes the only route to a claim worth making' while warning that it 'produces an account that reads exactly like an account built from evidence'. The honest practice the author names is to mark the inference as what it is.",
    "wrong": {
-    "A": "The author grants that inference is sometimes the only route to a worthwhile claim.",
-    "B": "No link between usefulness and falsity is drawn; the worry is about disclosure, not accuracy.",
-    "D": "The author treats usefulness as the source of the danger rather than as a justification."
+    "A": "The author explicitly declines to rule such inference out, and says the temptation should be resisted in proportion to its usefulness rather than absolutely.",
+    "B": "Completeness of the record is not the test the author proposes; the question is whether the inference is disclosed.",
+    "D": "Reading against the grain recovers what left some oblique trace. A belief no institution had reason to record leaves no such trace, which is the limit the passage presses."
    },
    "category": "",
-   "skill": "cars-reasoning-within",
+   "skill": "cars-reasoning-beyond",
    "difficulty": "hard",
    "unit": null
   },
@@ -999,7 +999,7 @@
    "correct": "C",
    "explanation": "On the author's account the distinction lies in the claim the place makes, not in what the visitor feels. A beach 'asserts nothing', so however transformed the visitor, the visit is not a pilgrimage in these terms.",
    "wrong": {
-    "A": "The camp makes the claim; the author allows that a traveller 'may decline' it and many do, so the visit still counts.",
+    "A": "The camp makes the claim; the author allows that a traveller 'may decline' it and many dₒ, so the visit still counts.",
     "B": "A cathedral makes the claim regardless of why this visitor came.",
     "D": "A writer's house is named by the author as a site that makes such a claim."
    },
@@ -1099,22 +1099,22 @@
   {
    "id": "cars-p8-q4",
    "passageId": "cars-p8",
-   "stem": "The author describes the 'sharper worry' as concerning the effect of an assembly on:",
+   "stem": "A legislature refers a question it has repeatedly failed to settle to a citizens' assembly, then adopts the recommendation unchanged. According to the passage, the author's sharper worry about this would be that:",
    "choices": {
-    "A": "the willingness of experts to participate in public processes",
-    "B": "the statistical quality of public opinion research",
-    "C": "the possibility of continuing to argue about the question",
-    "D": "the cost of resolving contested political questions"
+    "A": "the assembly's members were chosen by lot and answerable to nobody",
+    "B": "the experts who briefed the assembly may not have been balanced",
+    "C": "the recommendation may differ from what a poll of the population would have found",
+    "D": "the question is now difficult to oppose without appearing to oppose the public"
    },
-   "correct": "C",
-   "explanation": "The final paragraph says the question is 'removed from ordinary politics' and returned in a form 'difficult to oppose without appearing to oppose the public itself', closing on 'an expensive way of ending conversations'.",
+   "correct": "D",
+   "explanation": "The passage distinguishes the objections it answers from the one it presses. The sharper worry is that a question returns from an assembly 'difficult to oppose without appearing to oppose the public itself', so a procedure that makes a conclusion hard to argue with gets mistaken for one that makes it correct.",
    "wrong": {
-    "A": "Experts' willingness is never raised.",
-    "B": "Polling quality was dealt with earlier and is not the sharper worry.",
-    "D": "Expense appears in the last clause as a figure of speech, not as the worry itself."
+    "A": "The author treats the accountability objection as weaker than it looks, since an assembly that dissolves exercises no power unless a legislature adopts its recommendation.",
+    "B": "This is the author's conditional objection, raised earlier and distinguished from the sharper one.",
+    "C": "The passage sets this aside at the start: advocates do not claim the assembly is more representative than a poll."
    },
    "category": "",
-   "skill": "cars-reasoning-within",
+   "skill": "cars-reasoning-beyond",
    "difficulty": "medium",
    "unit": null
   },
