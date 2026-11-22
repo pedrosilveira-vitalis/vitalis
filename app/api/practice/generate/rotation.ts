@@ -15,15 +15,39 @@ const fixed: Entry[] = sections.flatMap(section =>
 for (const q of supplement) fixed.push({ ...q, mode: q.section === "cars" ? "passage" : "both" });
 
 let pool: Pool | undefined;
+
+/** One retry, because a cold database refuses the first connection and accepts the second. */
+async function queryWithRetry(db: Pool, sql: string) {
+  try {
+    return await db.query(sql);
+  } catch (first) {
+    await new Promise(resolve => setTimeout(resolve, 600));
+    try {
+      return await db.query(sql);
+    } catch {
+      throw first;
+    }
+  }
+}
 let cache: { rows: Entry[]; until: number; connected: boolean } | undefined;
 let pending: Promise<NonNullable<typeof cache>> | undefined;
+/**
+ * Reads the stored question bank.
+ *
+ * The database suspends when idle, and a cold connection takes longer than a
+ * warm one. A three-second ceiling meant the first student to arrive after a
+ * quiet spell silently got 330 questions instead of 1,998, with nothing on
+ * screen to say so - the worst kind of failure, because it looks like it
+ * worked. The timeout now allows for a cold start, and a failed connection is
+ * retried once before the fallback is accepted.
+ */
 async function readCatalog() {
   let rows: Entry[] = [];
   let connected = false;
   if (process.env.POSTGRES_URL) {
     try {
-      pool ??= new Pool({ connectionString: process.env.POSTGRES_URL, connectionTimeoutMillis: 3000, statement_timeout: 5000 });
-      const result = await pool.query(`
+      pool ??= new Pool({ connectionString: process.env.POSTGRES_URL, connectionTimeoutMillis: 12000, statement_timeout: 15000, max: 3 });
+      const result = await queryWithRetry(pool, `
         SELECT q.question_text, q.choice_a, q.choice_b, q.choice_c, q.choice_d, q.correct_answer, q.explanation, l.title AS topic, u.section
         FROM study_lesson_questions q JOIN study_lessons l ON l.id=q."lessonId" JOIN study_units u ON u.id=l."unitId"
         UNION ALL
@@ -39,7 +63,10 @@ async function readCatalog() {
         rows.push({...q,id,correct_answer:answer,difficulty:"unrated",family:q.topic,mode:"guide",wrongAnswerExplanations:{}});
       }
       connected = true;
-    } catch { console.warn("Practice guide bank unavailable"); }
+    } catch (error) {
+      // Cache the failure only briefly, so the next visitor tries again.
+      console.warn("Practice guide bank unavailable", error instanceof Error ? error.message : error);
+    }
   }
   cache = { rows: [...fixed,...rows], connected, until: Date.now()+(connected ? 60000 : 10000) };
   return cache;
