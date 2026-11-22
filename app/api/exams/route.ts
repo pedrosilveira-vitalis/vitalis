@@ -18,17 +18,17 @@ export async function GET() {
     const progress = await examProgress(exam.id);
     const written = progress.reduce((sum, row) => sum + row.written, 0);
     const needed = progress.reduce((sum, row) => sum + row.needed, 0);
-    catalogue.push({ ...exam, ready: written >= needed, written, needed, progress, allowed: exam.free });
+    catalogue.push({ ...exam, ready: written >= needed, written, needed, progress, allowed: false });
   }
 
-  if (!email) return Response.json({ signedIn: false, allowed: false, exams: catalogue, attempts: [] }, NO_STORE);
+  if (!email) return Response.json({ signedIn: false, allowance: 0, exams: catalogue, attempts: [] }, NO_STORE);
 
-  let allowed = false;
+  let allowance = 0;
   let attempts: unknown[] = [];
   try {
     const db = await portalDb();
-    allowed = (await capabilitiesFor(db, email)).fullLengths;
-    for (const entry of catalogue) entry.allowed = canTake(entry.id, allowed);
+    allowance = (await capabilitiesFor(db, email)).fullLengths;
+    for (const entry of catalogue) entry.allowed = canTake(entry.id, allowance);
     {
       const live = [];
       for (const exam of EXAMS) {
@@ -58,5 +58,5 @@ export async function GET() {
     // The catalogue is still worth showing if the database blinks.
   }
 
-  return Response.json({ signedIn: true, allowed, exams: catalogue, attempts, sections: SECTIONS }, NO_STORE);
+  return Response.json({ signedIn: true, allowance, exams: catalogue, attempts, sections: SECTIONS }, NO_STORE);
 }

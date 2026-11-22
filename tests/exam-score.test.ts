@@ -2,6 +2,8 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { SECTIONS, TOTAL_QUESTIONS, TESTING_MINUTES, BREAK_MINUTES, percentileFor, scaledFor } from "../lib/exams/blueprint";
 import { buildReport, guidanceFor, verdictFor } from "../lib/exams/score";
+import { canTake } from "../lib/exams/registry";
+import { PLANS } from "../lib/billing";
 import type { Attempt, ExamQuestion, FullLengthExam } from "../lib/exams/types";
 
 test("the blueprint matches the published MCAT format", () => {
@@ -210,4 +212,32 @@ test("guidance changes with the band, and names pacing before content", () => {
     assert.ok(guidance.band.length > 0);
     assert.ok(guidance.actions.every(action => action.length > 30), "advice must be specific enough to act on");
   }
+});
+
+test("access is tiered by form number, not by a single paid flag", () => {
+  // Signed out opens nothing; an account opens the first form only.
+  assert.equal(canTake("fl1", 0), false);
+  assert.equal(canTake("fl1", 1), true);
+  assert.equal(canTake("fl2", 1), false);
+  // Core opens two.
+  assert.equal(canTake("fl2", 2), true);
+  assert.equal(canTake("fl3", 2), false);
+  // Complete opens all five.
+  for (const id of ["fl1", "fl2", "fl3", "fl4", "fl5"]) {
+    assert.equal(canTake(id, 5), true, `${id} should open on Complete`);
+  }
+  // An unknown form is never open, whatever the allowance.
+  assert.equal(canTake("fl9", 5), false);
+  assert.equal(canTake("", 5), false);
+});
+
+test("the plans advertise the access they actually grant", () => {
+  const core = PLANS.find(plan => plan.id === "core")!;
+  const complete = PLANS.find(plan => plan.id === "complete")!;
+  assert.equal(core.capabilities.fullLengths, 2);
+  assert.equal(complete.capabilities.fullLengths, 5);
+  // Whatever the wording, each tier must name a count matching its capability.
+  assert.ok(core.features.some(line => /Full-Lengths 1 and 2/.test(line)), "Core must say it opens two");
+  assert.ok(complete.features.some(line => /five full-length/i.test(line)), "Complete must say it opens five");
+  assert.ok(core.missing.some(line => /3, 4 and 5/.test(line)), "Core must say which forms it does not open");
 });

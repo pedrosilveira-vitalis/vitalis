@@ -48,7 +48,7 @@ export const EXAMS: ExamSummary[] = [
     name: "Vitalis Full-Length 2",
     number: 2,
     blurb:
-      "A second form at the same difficulty, with no repeated passages or concepts, so a second sitting measures progress rather than memory.",
+      "A second form at the same difficulty, with no repeated passages or concepts, so a second sitting measures progress rather than memory. Included with Core and Complete.",
     ready: false,
     free: false,
   },
@@ -57,7 +57,7 @@ export const EXAMS: ExamSummary[] = [
     name: "Vitalis Full-Length 3",
     number: 3,
     blurb:
-      "Written to sit mid-course, when content review is mostly done and the question is whether it holds up under seven hours of pressure.",
+      "Written to sit mid-course, when content review is mostly done and the question is whether it holds up under seven hours of pressure. Part of Complete.",
     ready: false,
     free: false,
   },
@@ -66,7 +66,7 @@ export const EXAMS: ExamSummary[] = [
     name: "Vitalis Full-Length 4",
     number: 4,
     blurb:
-      "A late form, weighted toward the reasoning and data-interpretation questions that separate a good score from a great one.",
+      "A late form, weighted toward the reasoning and data-interpretation questions that separate a good score from a great one. Part of Complete.",
     ready: false,
     free: false,
   },
@@ -75,17 +75,22 @@ export const EXAMS: ExamSummary[] = [
     name: "Vitalis Full-Length 5",
     number: 5,
     blurb:
-      "The last form before test day, meant to be sat two weeks out at the hour your real exam starts.",
+      "The last form before test day, meant to be sat two weeks out at the hour your real exam starts. Part of Complete.",
     ready: false,
     free: false,
   },
 ];
 
-/** Whether this student may open a given form. */
-export function canTake(examId: string, hasFullLengths: boolean): boolean {
+/**
+ * Whether this student may open a given form.
+ *
+ * Access is tiered by how far up the list a plan reaches: an account opens
+ * Full-Length 1, Core opens the first two, Complete opens all five.
+ */
+export function canTake(examId: string, allowance: number): boolean {
   const exam = examSummary(examId);
   if (!exam) return false;
-  return exam.free || hasFullLengths;
+  return exam.number <= allowance;
 }
 
 export function examSummary(id: string): ExamSummary | undefined {

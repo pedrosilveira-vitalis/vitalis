@@ -31,8 +31,11 @@ export interface Capabilities {
   questions: boolean;
   lessons: boolean;
   liveReviews: boolean;
-  /** The two full-length practice exams and their score reports. */
-  fullLengths: boolean;
+  /**
+   * How many full-length forms this plan opens, counted from Full-Length 1.
+   * Zero signed out, one with any account, two on Core, five on Complete.
+   */
+  fullLengths: number;
 }
 
 export interface Plan {
@@ -56,18 +59,18 @@ export const PLANS: Plan[] = [
     name: "Core",
     tagline: "The whole question bank, with a written explanation on every answer.",
     rank: 1,
-    capabilities: { questions: true, lessons: false, liveReviews: false, fullLengths: false },
+    capabilities: { questions: true, lessons: false, liveReviews: false, fullLengths: 2 },
     features: [
       `All ${QUESTION_COUNT.toLocaleString()} practice questions, every section`,
       "A full written explanation on every answer",
-      "Full-Length 1, timed and scored like the real thing, with its full report",
+      "Full-Lengths 1 and 2, timed and scored like the real thing, with their full reports",
       "Flashcards, flagged questions and the score calculator",
       "Ask Nori, your AI tutor, without limits",
     ],
     missing: [
       `The ${LESSON_COUNT} written lessons`,
       "The 28 unit cheat sheets",
-      "Full-Lengths 2 to 5",
+      "Full-Lengths 3, 4 and 5",
       "Live group review sessions",
       "Study guides",
     ],
@@ -81,15 +84,14 @@ export const PLANS: Plan[] = [
     name: "Complete",
     tagline: "Everything in Core, plus all 250 lessons and a live review before each test date.",
     rank: 2,
-    capabilities: { questions: true, lessons: true, liveReviews: true, fullLengths: true },
+    capabilities: { questions: true, lessons: true, liveReviews: true, fullLengths: 5 },
     features: [
       `All ${LESSON_COUNT} lessons, reviewed line by line against published sources`,
       "All 28 unit cheat sheets, printable as PDFs",
       `All ${QUESTION_COUNT.toLocaleString()} practice questions with full explanations`,
-      "Five full-length practice exams, timed and scored like the real thing",
+      "All five full-length practice exams, timed and scored like the real thing",
       "A live group review before every MCAT date in your window",
       "Any study guides we publish during your window, free",
-      "Full-Length 1, timed and scored like the real thing, with its full report",
       "Flashcards, flagged questions and the score calculator",
       "Ask Nori, your AI tutor, without limits",
     ],
@@ -144,10 +146,16 @@ export interface Entitlement {
   daysLeft: number;
 }
 
-const LOCKED: Capabilities = { questions: false, lessons: false, liveReviews: false, fullLengths: false };
+const LOCKED: Capabilities = { questions: false, lessons: false, liveReviews: false, fullLengths: 0 };
+/**
+ * Someone signed in without a plan. Full-Length 1 is free with any account:
+ * sitting a full-length and reading the report is the only honest way to find
+ * out whether the course is worth buying.
+ */
+const FREE_TIER: Capabilities = { questions: false, lessons: false, liveReviews: false, fullLengths: 1 };
 
 export function capabilitiesOf(entitlement: Entitlement | null): Capabilities {
-  return entitlement ? entitlement.capabilities : LOCKED;
+  return entitlement ? entitlement.capabilities : FREE_TIER;
 }
 
 /**
@@ -193,7 +201,7 @@ export function hasStandingAccess(email: string): boolean {
   return list.split(",").some(entry => entry.trim().toLowerCase() === target && entry.trim().length > 0);
 }
 
-const EVERYTHING: Capabilities = { questions: true, lessons: true, liveReviews: true, fullLengths: true };
+const EVERYTHING: Capabilities = { questions: true, lessons: true, liveReviews: true, fullLengths: 5 };
 
 /**
  * The gate every protected route calls. Returns the student's capabilities, and
@@ -210,7 +218,8 @@ export async function capabilitiesFor(db: Database, email: string | null | undef
   try {
     return capabilitiesOf(await entitlementFor(db, email));
   } catch {
-    return LOCKED;
+    // Fail closed on everything paid, but an account still opens the free form.
+    return FREE_TIER;
   }
 }
 

@@ -17,7 +17,7 @@ export default function ExamStartPage() {
   const params = useParams();
   const router = useRouter();
   const examId = (params.exam as string) || "";
-  const [data, setData] = useState<{ signedIn: boolean; allowed: boolean; exams: Exam[] } | null>(null);
+  const [data, setData] = useState<{ signedIn: boolean; allowance: number; exams: Exam[] } | null>(null);
   const [admin, setAdmin] = useState(false);
   const [starting, setStarting] = useState(false);
   const [error, setError] = useState("");

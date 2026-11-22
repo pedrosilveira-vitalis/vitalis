@@ -17,7 +17,7 @@ type ChartedAttempt = ScoredAttempt & { total: number; low: number; high: number
 const hasTotal = (item: ScoredAttempt): item is ChartedAttempt => item.complete && item.total !== null;
 
 export default function ExamsPage() {
-  const [data, setData] = useState<{ signedIn: boolean; allowed: boolean; exams: Exam[]; attempts: Attempt[] } | null>(null);
+  const [data, setData] = useState<{ signedIn: boolean; allowance: number; exams: Exam[]; attempts: Attempt[] } | null>(null);
   const [admin, setAdmin] = useState(false);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export default function ExamsPage() {
     fetch("/api/exams")
       .then(response => response.json())
       .then(payload => { if (live) setData(payload); })
-      .catch(() => { if (live) setData({ signedIn: false, allowed: false, exams: [], attempts: [] }); });
+      .catch(() => { if (live) setData({ signedIn: false, allowance: 0, exams: [], attempts: [] }); });
     return () => { live = false; };
   }, []);
 
@@ -116,7 +116,9 @@ export default function ExamsPage() {
                         Unlock with Complete <StudyIcon name="arrow" />
                       </Link>
                       <span className="exam-card-note">
-                        Full-Length 1 is free with your account. Complete adds the other four and their score reports.
+                        {exam.number <= 2
+                          ? "Core opens Full-Lengths 1 and 2. Complete opens all five."
+                          : "Complete opens all five full-lengths and their score reports."}
                       </span>
                     </>
                   ) : live ? (

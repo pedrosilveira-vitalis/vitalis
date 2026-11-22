@@ -24,9 +24,9 @@ async function student(examId: string) {
   const email = session?.user?.email;
   if (!email) return { error: Response.json({ error: "Sign in to take a full-length." }, { status: 401 }) };
   const db = await portalDb();
-  const paid = (await capabilitiesFor(db, email)).fullLengths;
-  if (!canTake(examId, paid)) {
-    return { error: Response.json({ error: "Full-Length 1 is free with your account. The rest are part of Complete." }, { status: 403 }) };
+  const allowance = (await capabilitiesFor(db, email)).fullLengths;
+  if (!canTake(examId, allowance)) {
+    return { error: Response.json({ error: "That form is not part of your plan yet." }, { status: 403 }) };
   }
   return { email, db };
 }
