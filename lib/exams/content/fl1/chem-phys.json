@@ -170,15 +170,15 @@
    "choices": {
     "A": "Patient W",
     "B": "Patient X",
-    "C": "Patient Z",
-    "D": "Patient Y"
+    "C": "Patient Y",
+    "D": "Patient Z"
    },
-   "correct": "D",
+   "correct": "C",
    "explanation": "Patient Y has a raised PCO₂ (60 mmHg), which is a respiratory disturbance because PCO₂ is set by ventilation, together with a bicarbonate above range (26 mmol/L). Renal compensation is the slow arm of the system described in the passage, so a bicarbonate that has risen to defend the ratio points to a respiratory problem of some standing.",
    "wrong": {
     "A": "Patient W has entirely normal values and so has no disturbance to compensate for.",
     "B": "Patient X has a low bicarbonate with a low PCO₂, which is a metabolic acidosis with respiratory compensation - the reverse of what is asked.",
-    "C": "Patient Z has a high bicarbonate with a low PCO₂. The primary problem is the metabolic alkalosis; a kidney compensating for a respiratory problem would not drive bicarbonate to 36 mmol/L."
+    "D": "Patient Z has a high bicarbonate with a low PCO₂. The primary problem is the metabolic alkalosis; a kidney compensating for a respiratory problem would not drive bicarbonate to 36 mmol/L."
    },
    "category": "5E",
    "skill": "skill-3",
@@ -235,16 +235,16 @@
    "stem": "What does the gradient of a plot of ln k against 1/T give for the uncatalysed reaction?",
    "choices": {
     "A": "-Eₐ/R, so a gradient of about -4.2 × 10² K",
-    "B": "-Eₐ/R, so a gradient of about -6.0 × 10³ K",
-    "C": "+Eₐ/R, so a gradient of about +6.0 × 10³ K",
-    "D": "ln A, which is independent of temperature"
+    "B": "+Eₐ/R, so a gradient of about +6.0 × 10³ K",
+    "C": "ln A, which is independent of temperature",
+    "D": "-Eₐ/R, so a gradient of about -6.0 × 10³ K"
    },
-   "correct": "B",
+   "correct": "D",
    "explanation": "The passage gives the gradient as -Eₐ/R. With Eₐ = 50 000 J/mol and R = 8.314 J/(mol K), Eₐ/R = 6.0 × 10³ K, so the gradient is -6.0 × 10³ K. The sign is negative because the rate rises as 1/T falls.",
    "wrong": {
     "A": "4.2 × 10² K comes from dividing 50 000 by 120 or similar; dividing by 8.314 gives roughly 6000, not 420.",
-    "C": "The magnitude is right but the sign is wrong. Rearranged, ln k = ln A - Eₐ/(RT), so the coefficient of 1/T carries a minus sign.",
-    "D": "ln A is the intercept of this plot, not its gradient."
+    "B": "The magnitude is right but the sign is wrong. Rearranged, ln k = ln A - Eₐ/(RT), so the coefficient of 1/T carries a minus sign.",
+    "C": "ln A is the intercept of this plot, not its gradient."
    },
    "category": "5E",
    "skill": "skill-4",
@@ -257,16 +257,16 @@
    "stem": "By approximately what factor does the uncatalysed rate constant increase on warming from 298 K to 310 K?",
    "choices": {
     "A": "1.04",
-    "B": "2.2",
-    "C": "12",
-    "D": "it falls, because entropy increases"
+    "B": "12",
+    "C": "it falls, because entropy increases",
+    "D": "2.2"
    },
-   "correct": "B",
+   "correct": "D",
    "explanation": "The ratio is exp[-(Eₐ/R)(1/310–1/298)]. The bracket is about -1.30 × 10⁻⁴ K⁻¹, and multiplying by Eₐ/R = 6.0 × 10³ K gives an exponent of about +0.78, so the ratio is e⁰.78, roughly 2.2. The familiar rule of thumb that rates roughly double over a 10 degree rise is doing the same arithmetic.",
    "wrong": {
     "A": "1.04 is the ratio of the temperatures themselves, 310/298. Rate depends exponentially on 1/T, not linearly on T.",
-    "C": "12 would require an activation energy several times larger than 50 kJ/mol over this interval.",
-    "D": "Raising the temperature increases the fraction of collisions carrying at least Eₐ, so the rate constant of an uncatalysed step rises."
+    "B": "12 would require an activation energy several times larger than 50 kJ/mol over this interval.",
+    "C": "Raising the temperature increases the fraction of collisions carrying at least Eₐ, so the rate constant of an uncatalysed step rises."
    },
    "category": "5E",
    "skill": "skill-4",
@@ -322,17 +322,17 @@
    "passageId": "cp-p3",
    "stem": "Independently of the case described, if disease narrowed a vessel's radius by 20% at a fixed pressure difference, flow through it would fall to approximately:",
    "choices": {
-    "A": "80% of its original value",
+    "A": "20% of its original value",
     "B": "64% of its original value",
-    "C": "20% of its original value",
+    "C": "80% of its original value",
     "D": "41% of its original value"
    },
    "correct": "D",
-   "explanation": "Flow goes as r⁴, so the fraction remaining is 0.8⁴ = 0.41. This is the single most useful consequence of Poiseuille's relation: a fifth off the radius costs nearly 60% of the flow.",
+   "explanation": "Flow goes as r⁴, so the fraction remaining is 0.8⁴ = 0.41, or 41%. This is the single most useful consequence of Poiseuille's relation: a fifth off the radius costs nearly 60% of the flow.",
    "wrong": {
-    "A": "80% treats flow as proportional to radius. The fourth power is the whole point of the relation.",
-    "B": "64% is 0.8³, which would be the answer if flow went as r³.",
-    "C": "20% confuses the fraction lost from the radius with the fraction of flow remaining."
+    "A": "20% confuses the fraction taken off the radius with the fraction of flow left behind.",
+    "B": "64% is 0.8³, which would be the answer if flow went as the cube of the radius.",
+    "C": "80% treats flow as proportional to radius. The fourth power is the whole point of the relation."
    },
    "category": "4B",
    "skill": "skill-2",
@@ -478,15 +478,15 @@
    "choices": {
     "A": "40x",
     "B": "100x",
-    "C": "4000x",
-    "D": "400x"
+    "C": "400x",
+    "D": "4000x"
    },
-   "correct": "D",
+   "correct": "C",
    "explanation": "The objective contributes image distance over focal length, 160 / 4.0 = 40x. The eyepiece acts as a magnifier contributing 250 / 25 = 10x with both lengths in millimetres. Multiplying gives about 400x.",
    "wrong": {
-    "A": "40x is the objective alone.",
-    "B": "100x would need an eyepiece contribution of 2.5x rather than 10x.",
-    "C": "4000x comes from a factor-of-ten slip, most often from mixing millimetres and centimetres in the eyepiece term."
+    "A": "40x is the objective's contribution alone, and ignores the eyepiece.",
+    "B": "100x would need an eyepiece contributing 2.5x rather than the 10x its 25 mm focal length gives.",
+    "D": "4000x is a factor-of-ten slip, most often from mixing millimetres and centimetres in the eyepiece term."
    },
    "category": "4D",
    "skill": "skill-4",
@@ -698,15 +698,15 @@
    "choices": {
     "A": "a single methyl group adjacent to a methylene",
     "B": "three equivalent methylene groups",
-    "C": "two equivalent methyl groups on a carbon bearing one hydrogen",
-    "D": "two methyl groups on a quaternary carbon"
+    "C": "two methyl groups on a quaternary carbon",
+    "D": "two equivalent methyl groups on a carbon bearing one hydrogen"
    },
-   "correct": "C",
+   "correct": "D",
    "explanation": "Six equivalent protons means two equivalent methyl groups. Their appearance as a doublet means exactly one neighbouring proton, so those methyls sit on a carbon that itself bears a single hydrogen - an isopropyl group, which also accounts for the one-proton multiplet.",
    "wrong": {
     "A": "A single methyl integrates for three, not six, and would appear as a triplet next to a methylene.",
     "B": "Three methylene groups would integrate for six but would not appear as a clean doublet, and there is no such arrangement in a molecule this small.",
-    "D": "Methyls on a quaternary carbon have no neighbouring protons, so they would be a singlet."
+    "C": "Methyls on a quaternary carbon have no neighbouring protons, so they would be a singlet."
    },
    "category": "5D",
    "skill": "skill-1",
@@ -742,15 +742,15 @@
    "choices": {
     "A": "2.3 × 10⁻¹¹ M",
     "B": "2.3 × 10⁻⁷ M",
-    "C": "4.8 × 10⁻⁵ M",
-    "D": "2.3 × 10⁻⁵ M"
+    "C": "2.3 × 10⁻⁵ M",
+    "D": "4.8 × 10⁻⁵ M"
    },
    "correct": "B",
    "explanation": "Calcium is already present at 0.010 M, which swamps the small amount the salt contributes. So Ksp = (0.010)(s) and s = 2.3 × 10⁻⁹ / 0.010 = 2.3 × 10⁻⁷ M. The common ion has cut solubility by more than two hundredfold.",
    "wrong": {
     "A": "2.3 × 10⁻¹¹ M multiplies by 0.010 rather than dividing, which would make the salt less soluble still.",
-    "C": "4.8 × 10⁻⁵ M is the pure-water value and ignores the common ion entirely.",
-    "D": "2.3 × 10⁻⁵ M divides by 10⁻⁴ rather than by 10⁻²."
+    "C": "2.3 × 10⁻⁵ M divides by 10⁻⁴ rather than by 10⁻².",
+    "D": "4.8 × 10⁻⁵ M is the pure-water value and ignores the common ion entirely."
    },
    "category": "5A",
    "skill": "skill-2",
@@ -806,16 +806,16 @@
    "passageId": "cp-p8",
    "stem": "What is the adult's weight?",
    "choices": {
-    "A": "686 N",
-    "B": "7.1 N",
-    "C": "70 N",
+    "A": "7.1 N",
+    "B": "70 N",
+    "C": "686 N",
     "D": "6860 N"
    },
-   "correct": "A",
+   "correct": "C",
    "explanation": "Weight is mass times gravitational field strength: 70 × 9.8 = 686 N. Mass in kilograms and weight in newtons are different quantities, and the factor between them here is about ten.",
    "wrong": {
-    "B": "7.1 N divides by g instead of multiplying.",
-    "C": "70 N is the mass in kilograms with the wrong unit attached.",
+    "A": "7.1 N divides by g instead of multiplying by it.",
+    "B": "70 N is the mass in kilograms with the wrong unit attached. Mass and weight are different quantities.",
     "D": "6860 N uses g = 98 m/s², a factor of ten too large."
    },
    "category": "4A",
@@ -1028,15 +1028,15 @@
    "choices": {
     "A": "shorter, because both capacitance and resistance fall",
     "B": "longer, because resistance rises and capacitance is unchanged",
-    "C": "shorter, because capacitance falls more than resistance rises",
-    "D": "unchanged, because resistance and capacitance change by the same factor"
+    "C": "unchanged, because resistance and capacitance change by the same factor",
+    "D": "shorter, because capacitance falls more than resistance rises"
    },
-   "correct": "C",
+   "correct": "D",
    "explanation": "Myelin cuts capacitance sharply, since capacitors in series give a total smaller than any one of them, while resistance rises. The net effect in real axons is a shorter time constant and faster conduction, which is the point of myelin.",
    "wrong": {
     "A": "The passage states that the many layers raise resistance; they do not lower it.",
     "B": "Capacitance is not unchanged - the passage makes the series combination explicit.",
-    "D": "If the two changed by the same factor in the same direction the product would move, not stay put; and here they move in opposite directions."
+    "C": "If the two changed by the same factor in the same direction the product would move, not stay put; and here they move in opposite directions."
    },
    "category": "4C",
    "skill": "skill-1",
@@ -1070,17 +1070,17 @@
    "passageId": "cp-p10",
    "stem": "Two synaptic inputs arriving 5 ms apart sum more effectively in this unmyelinated patch than two arriving 50 ms apart because:",
    "choices": {
-    "A": "the membrane potential from the first input has decayed little after one half of a time constant",
-    "B": "the second input is larger when it arrives sooner",
-    "C": "the membrane resistance falls between the two inputs",
-    "D": "capacitance increases with the frequency of stimulation"
+    "A": "the second input arrives before the first has decayed appreciably",
+    "B": "the membrane resistance falls between the two arriving inputs",
+    "C": "the capacitance of the membrane rises with stimulation frequency",
+    "D": "an input arriving sooner produces a larger postsynaptic potential"
    },
    "correct": "A",
-   "explanation": "With a time constant of 10 ms, 5 ms is half a time constant and the first input has lost only a fraction of its effect, so the two add. After 50 ms, five time constants have passed and almost nothing of the first input remains. This is temporal summation, and the time constant sets its window.",
+   "explanation": "With a time constant of 10 ms, 5 ms is half a time constant and the first input has lost only a fraction of its effect, so the two potentials add. After 50 ms, five time constants have passed and almost nothing of the first remains. This is temporal summation, and the membrane time constant sets its window.",
    "wrong": {
-    "B": "The size of an input is set by the synapse, not by when it arrives.",
-    "C": "Nothing in the passage changes resistance between inputs, and a fall in resistance would shorten the window rather than explain the summation.",
-    "D": "Membrane capacitance is fixed by the bilayer at about 1 microfarad per square centimetre and does not vary with stimulation."
+    "B": "Nothing in the passage changes resistance between inputs, and a fall in resistance would shorten the summation window rather than widen it.",
+    "C": "Membrane capacitance is fixed by the bilayer at about 1 μF/cm² and does not vary with how often the cell is stimulated.",
+    "D": "The size of a postsynaptic potential is set by the synapse, not by when the input happens to arrive."
    },
    "category": "4C",
    "skill": "skill-2",
@@ -1114,16 +1114,16 @@
    "passageId": null,
    "stem": "Ice floats on liquid water because:",
    "choices": {
-    "A": "hydrogen bonds in ice are weaker than in liquid water",
-    "B": "ice contains trapped air that lowers its density",
-    "C": "hydrogen bonding holds the molecules in an open lattice with more space between them",
+    "A": "hydrogen bonding holds the molecules in an open lattice with more space between them",
+    "B": "hydrogen bonds in ice are weaker than in liquid water",
+    "C": "ice contains trapped air that lowers its density",
     "D": "water molecules in ice are smaller than in the liquid"
    },
-   "correct": "C",
+   "correct": "A",
    "explanation": "Each water molecule in ice is hydrogen bonded to four others in a tetrahedral arrangement, and that geometry holds the molecules further apart on average than the jostling of the liquid does. More space per molecule means lower density, so ice floats.",
    "wrong": {
-    "A": "Hydrogen bonds in ice are stronger and more ordered, not weaker. That is precisely why the lattice is rigid.",
-    "B": "Pure ice frozen from degassed water still floats, so trapped air cannot be the explanation.",
+    "B": "Hydrogen bonds in ice are stronger and more ordered, not weaker. That is precisely why the lattice is rigid.",
+    "C": "Pure ice frozen from degassed water still floats, so trapped air cannot be the explanation.",
     "D": "A molecule's size does not change on freezing; only the spacing between molecules does."
    },
    "category": "5B",
@@ -1202,16 +1202,16 @@
    "passageId": null,
    "stem": "A student has a sample of a chiral drug and wants to establish whether it is a single enantiomer or a racemic mixture. The most direct measurement is:",
    "choices": {
-    "A": "melting point, since enantiomers melt at different temperatures",
-    "B": "infrared spectroscopy, since enantiomers absorb at different wavenumbers",
-    "C": "optical rotation in a polarimeter, since a racemate rotates plane-polarised light not at all",
+    "A": "optical rotation in a polarimeter, since a racemate rotates plane-polarised light not at all",
+    "B": "melting point, since enantiomers melt at different temperatures",
+    "C": "infrared spectroscopy, since enantiomers absorb at different wavenumbers",
     "D": "mass spectrometry, since enantiomers differ in molecular mass"
    },
-   "correct": "C",
+   "correct": "A",
    "explanation": "Enantiomers rotate plane-polarised light by equal amounts in opposite directions, so an equal mixture gives zero net rotation while a single enantiomer gives a measurable one. That difference is the defining physical distinction between them.",
    "wrong": {
-    "A": "Enantiomers have identical melting points. A racemate can melt differently from the pure enantiomer, but that comparison needs a pure reference the student does not have.",
-    "B": "Enantiomers have identical infrared spectra, because the bonds and their force constants are the same.",
+    "B": "Enantiomers have identical melting points. A racemate can melt differently from the pure enantiomer, but that comparison needs a pure reference the student does not have.",
+    "C": "Enantiomers have identical infrared spectra, because the bonds and their force constants are the same.",
     "D": "Enantiomers have identical molecular masses, since they contain exactly the same atoms."
    },
    "category": "5D",
@@ -1290,16 +1290,16 @@
    "passageId": null,
    "stem": "A student measures the osmotic pressure of a 0.10 M solution of an unknown salt and wants to determine how many ions it releases per formula unit. The control that makes the measurement interpretable is:",
    "choices": {
-    "A": "a 0.10 M solution of a non-electrolyte such as glucose, measured in the same apparatus",
-    "B": "pure water, measured in the same apparatus",
-    "C": "a 0.20 M solution of the same unknown salt",
-    "D": "a 0.10 M solution of a strong acid"
+    "A": "pure water measured in the same apparatus at the same temperature",
+    "B": "a 0.10 M glucose solution measured in the same apparatus",
+    "C": "a 0.20 M solution of the same unknown salt, measured identically",
+    "D": "a 0.10 M solution of a strong acid measured in the same apparatus"
    },
-   "correct": "A",
-   "explanation": "Osmotic pressure depends on the total concentration of dissolved particles. A non-electrolyte at the same molarity gives the pressure expected from one particle per formula unit, so the ratio of the two readings is the number of ions released. Without that reference the reading is a number with nothing to compare it against.",
+   "correct": "B",
+   "explanation": "Osmotic pressure depends on the total concentration of dissolved particles. Glucose does not dissociate, so a 0.10 M glucose solution gives the pressure expected from one particle per formula unit. The ratio of the salt's reading to that reference is the number of ions released. Without it the measurement is a number with nothing to compare against.",
    "wrong": {
-    "B": "Pure water sets the zero of the instrument but gives no scale, so it cannot say whether a reading corresponds to two particles or three.",
-    "C": "Doubling the concentration of the same unknown confirms the response is linear but still leaves the particle count unknown.",
+    "A": "Pure water sets the instrument's zero but gives no scale, so it cannot distinguish a reading from two particles from one from three.",
+    "C": "Doubling the concentration of the same unknown confirms the response is linear, but leaves the particle count per formula unit unknown.",
     "D": "A strong acid is itself an electrolyte of unknown particle count for this purpose, so it is not a reference for one particle per formula unit."
    },
    "category": "5A",
@@ -1356,16 +1356,16 @@
    "passageId": null,
    "stem": "Of the noble gases, xenon has the highest boiling point because:",
    "choices": {
-    "A": "it is the most electronegative",
-    "B": "it forms the strongest hydrogen bonds",
-    "C": "its larger electron cloud is more easily polarised, giving stronger dispersion forces",
+    "A": "its larger electron cloud is more easily polarised, giving stronger dispersion forces",
+    "B": "it is the most electronegative",
+    "C": "it forms the strongest hydrogen bonds",
     "D": "it has permanent dipoles that the lighter noble gases lack"
    },
-   "correct": "C",
+   "correct": "A",
    "explanation": "Dispersion forces arise from momentary fluctuations in an electron cloud, and a larger, more loosely held cloud distorts more readily. Xenon has the most electrons of the common noble gases, so its dispersion forces are strongest and it holds together to the highest temperature.",
    "wrong": {
-    "A": "Noble gases are not meaningfully electronegative, and electronegativity decreases down a group in any case.",
-    "B": "Hydrogen bonding requires hydrogen bound to nitrogen, oxygen or fluorine. Noble gases have no hydrogen at all.",
+    "B": "Noble gases are not meaningfully electronegative, and electronegativity decreases down a group in any case.",
+    "C": "Hydrogen bonding requires hydrogen bound to nitrogen, oxygen or fluorine. Noble gases have no hydrogen at all.",
     "D": "A single atom cannot have a permanent dipole; what it has are instantaneous, fluctuating ones."
    },
    "category": "5B",

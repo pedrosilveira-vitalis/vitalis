@@ -226,3 +226,53 @@ test("passages are the length the real exam uses", () => {
     }
   }
 });
+
+test("choices that have a natural order are presented in it", () => {
+  // Rotating choices to balance the answer key is safe for prose, but not for
+  // choices that carry an order of their own: a real exam never lists
+  // percentages as 80, 64, 20, 41, or patients as W, X, Z, Y.
+  const LABEL = /^(?:patient|sample|subject|group|curve|compound|experiment|trial)\s+([A-Z0-9])\b/i;
+  const QUANTITY = /^[-+]?(\d+(?:\.\d+)?)\s*(?:×\s*10\s*[¹²³⁰⁴-⁹⁻]+)?\s*(?:%|[A-Za-z°μ/]{0,6})$/;
+
+  const magnitude = (text: string) => {
+    const cleaned = text.replace(/×/g, "x").replace(/,/g, "");
+    const match = cleaned.match(/^([-+]?\d+(?:\.\d+)?)/);
+    if (!match) return null;
+    const mantissa = parseFloat(match[1]);
+    const sup: Record<string, string> = { "⁰":"0","¹":"1","²":"2","³":"3","⁴":"4","⁵":"5","⁶":"6","⁷":"7","⁸":"8","⁹":"9","⁻":"-" };
+    const exp = cleaned.match(/x\s*10\s*([¹²³⁰⁴-⁹⁻]+)/);
+    if (exp) {
+      const value = parseInt([...exp[1]].map(c => sup[c] ?? c).join(""), 10);
+      if (Number.isFinite(value)) return mantissa * 10 ** value;
+    }
+    return mantissa;
+  };
+
+  const monotonic = (values: number[]) =>
+    values.every((v, i) => i === 0 || v >= values[i - 1]) ||
+    values.every((v, i) => i === 0 || v <= values[i - 1]);
+
+  for (const { exam, section, data } of files()) {
+    for (const question of data.questions) {
+      const texts = ["A", "B", "C", "D"].map(letter => question.choices[letter].trim());
+
+      // Labelled items: the letters must run in order.
+      const labels = texts.map(text => text.match(LABEL)?.[1]?.toUpperCase() ?? null);
+      if (labels.every(label => label !== null)) {
+        const sorted = [...labels as string[]].sort();
+        assert.deepEqual(labels, sorted, `${exam}/${section}/${question.id}: labelled choices are out of order (${labels.join(", ")})`);
+      }
+
+      // Bare quantities: they must run up or down, not jump about.
+      if (texts.every(text => QUANTITY.test(text) || /^[-+]?[\d.]+\s*(?:×\s*10)/.test(text))) {
+        const values = texts.map(magnitude);
+        if (values.every(value => value !== null)) {
+          assert.ok(
+            monotonic(values as number[]),
+            `${exam}/${section}/${question.id}: numeric choices are out of order (${texts.join(", ")})`,
+          );
+        }
+      }
+    }
+  }
+});
