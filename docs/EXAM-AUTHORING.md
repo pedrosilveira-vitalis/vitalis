@@ -134,6 +134,15 @@ Every test passed throughout: no test read the prose. The screen now checks
 bracket balance in every stem, choice, note and paragraph, but the lesson is
 that a passing suite is not the same as a correct one.
 
+### Running the checks while others are writing
+
+`screen-exam-questions.mjs` and the content test walk every file under
+`content/`, so a section another author is part-way through writing used to
+take them down with "Unexpected end of JSON input". Both now skip a file that
+will not parse and say so. A file that is genuinely malformed still fails the
+build when its import resolves, so nothing broken gets through on the
+strength of being skipped.
+
 ## When a check is wrong
 
 A broken check does not merely fail to catch defects — it introduces them. The

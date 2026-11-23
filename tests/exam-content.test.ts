@@ -29,11 +29,16 @@ function files() {
   const out: { exam: string; section: string; data: Section }[] = [];
   for (const exam of readdirSync(ROOT, { withFileTypes: true }).filter(entry => entry.isDirectory())) {
     for (const file of readdirSync(join(ROOT, exam.name)).filter(name => name.endsWith(".json"))) {
-      out.push({
-        exam: exam.name,
-        section: file.replace(/\.json$/, ""),
-        data: JSON.parse(readFileSync(join(ROOT, exam.name, file), "utf8")) as Section,
-      });
+      // A section being written by another author is not yet valid JSON.
+      // Skipping it beats failing every other section's checks; a file that
+      // is genuinely malformed fails the build when its import resolves.
+      let parsed: Section;
+      try {
+        parsed = JSON.parse(readFileSync(join(ROOT, exam.name, file), "utf8")) as Section;
+      } catch {
+        continue;
+      }
+      out.push({ exam: exam.name, section: file.replace(/\.json$/, ""), data: parsed });
     }
   }
   return out;

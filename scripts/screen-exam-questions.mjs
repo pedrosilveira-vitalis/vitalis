@@ -48,7 +48,15 @@ const appears = (a, b) => a === 0 ? Math.abs(b) < 1e-9 : Math.abs((a - b) / a) <
 for (const examDir of existsSync(ROOT) ? readdirSync(ROOT, { withFileTypes: true }).filter(d => d.isDirectory()) : []) {
   for (const file of readdirSync(join(ROOT, examDir.name)).filter(n => n.endsWith(".json"))) {
     const section = file.replace(/\.json$/, "");
-    const data = JSON.parse(readFileSync(join(ROOT, examDir.name, file), "utf8"));
+    let data;
+    try {
+      data = JSON.parse(readFileSync(join(ROOT, examDir.name, file), "utf8"));
+    } catch {
+      // Almost always a sibling section mid-write; a genuinely broken file
+      // fails the build when its import is resolved.
+      console.log(`  skipped ${examDir.name}/${section}: not valid JSON yet (being written?)`);
+      continue;
+    }
     const passages = Object.fromEntries((data.passages ?? []).map(p => [p.id, p]));
 
     for (const passage of data.passages ?? []) {
