@@ -86,11 +86,17 @@ for (const examDir of existsSync(ROOT) ? readdirSync(ROOT, { withFileTypes: true
         const stripDirection = (t) => t.toLowerCase().replace(DIRECTION, "~");
         // Identical once direction words are removed means the two choices
         // differ only in direction, which is the legitimate case.
+        // Choices may share a number deliberately when what differs is the
+        // substance rather than the quantity: "0.10 M glucose" against
+        // "0.10 M CaCl2" is a colligative comparison at fixed concentration,
+        // and making the numbers differ would destroy the question.
+        const strip = (t) => t.replace(/[\d.,]|\u00d7|x\s*10|[\u2070-\u209f]/g, "").replace(/\s+/g, " ").trim().toLowerCase();
+        const differInSubstance = strip(keyText) !== strip(q.choices[letter]);
         const differOnlyInDirection =
           stripDirection(keyText) === stripDirection(q.choices[letter]) &&
           keyText.trim() !== q.choices[letter].trim();
         if (keyNums.length && dNums.length && keyNums.length === dNums.length &&
-            keyNums.every((k, index) => close(k, dNums[index])) && !differOnlyInDirection) {
+            keyNums.every((k, index) => close(k, dNums[index])) && !differOnlyInDirection && !differInSubstance) {
           flag(id, "duplicate-value", `choice ${letter} has the same value as the key`);
         }
       }

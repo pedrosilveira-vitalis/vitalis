@@ -1,0 +1,1444 @@
+{
+ "passages": [
+  {
+   "id": "bb2-p1",
+   "title": "Uncoupling of oxidative phosphorylation in isolated mitochondria",
+   "paragraphs": [
+    "Mitochondria were isolated from rat liver and suspended in a buffered medium containing inorganic phosphate at pH 7.2 and 30 °C. Oxygen consumption was followed continuously with an oxygen electrode, and ATP synthesis was measured in parallel samples drawn from the same suspension. Succinate, which donates electrons to the respiratory chain at complex II and so bypasses complex I, was supplied as the only oxidisable substrate. With succinate alone the suspension consumed oxygen slowly. The rate rose sharply when ADP was added and fell again once the added ADP had been converted to ATP. This dependence of respiration on the supply of ADP is called respiratory control, and the ratio of the ADP-stimulated rate to the resting rate is the respiratory control ratio.",
+    "Four further additions were tested. Oligomycin binds the ATP synthase and blocks proton flow through it. 2,4-dinitrophenol (DNP) is a weak acid whose protonated form is lipid soluble: it crosses the inner membrane, releases a proton into the matrix, and returns as the anion. Cyanide binds complex IV. Each addition was made to a suspension that already contained succinate and 0.5 mM ADP, and the steady rates reached are given in Table 1.",
+    "In every condition in which ATP synthesis was abolished, the concentration of inorganic phosphate in the medium was unchanged at the end of the measurement, and mitochondria recovered from the cuvette still had an intact outer membrane."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Steady rates of oxygen consumption and of ATP synthesis, per milligram of mitochondrial protein.",
+    "markup": "<table><thead><tr><th>Condition</th><th>O₂ consumption (nmol O₂/min)</th><th>ATP synthesis (nmol ATP/min)</th></tr></thead><tbody><tr><td>Succinate alone</td><td>5</td><td>0</td></tr><tr><td>Succinate + ADP</td><td>30</td><td>90</td></tr><tr><td>Succinate + ADP + oligomycin</td><td>4</td><td>0</td></tr><tr><td>Succinate + ADP + DNP</td><td>48</td><td>0</td></tr><tr><td>Succinate + ADP + DNP + oligomycin</td><td>46</td><td>0</td></tr><tr><td>Succinate + ADP + cyanide</td><td>0.5</td><td>0</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb2-p2",
+   "title": "Fat absorption in four subjects",
+   "paragraphs": [
+    "Dietary triacylglycerol has to be hydrolysed before it can be absorbed. Pancreatic lipase, working with colipase at the surface of an emulsion droplet, removes the outer two fatty acids and leaves a 2-monoacylglycerol. Bile salts secreted into the duodenum disperse the emulsion and then carry the products in mixed micelles to the brush border of the enterocyte, where they are taken up. Inside the cell the fatty acids and the monoacylglycerol are re-esterified in the smooth endoplasmic reticulum, and the triacylglycerol so formed is packaged with apolipoprotein B-48 and phospholipid into a chylomicron. The chylomicron leaves across the basolateral membrane and enters the lymph, so chylomicron triacylglycerol appears in plasma an hour or two after a fatty meal.",
+    "Four subjects each ate a diet containing 100 g of fat per day for five days, and all faeces were collected and analysed for fat. On the sixth day each subject was given a standard fatty test meal, and the rise in plasma triacylglycerol above the fasting value was measured three hours later (Table 1). One of the four was a healthy control. Of the other three, one lacked pancreatic lipase, one had lost the terminal ileum and could not reclaim bile salts from the gut lumen, and one could not assemble chylomicrons. Which subject had which defect was not disclosed to the analysts.",
+    "Biopsies of the duodenal mucosa were taken four hours after the test meal. In one of the three affected subjects the enterocytes were swollen with large cytosolic lipid droplets; in the other two the mucosa looked normal under the microscope."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Faecal fat on a 100 g per day fat intake, and the rise in plasma triacylglycerol three hours after a standard fatty test meal.",
+    "markup": "<table><thead><tr><th>Subject</th><th>Faecal fat (g/day)</th><th>Rise in plasma triacylglycerol (mg/dL)</th></tr></thead><tbody><tr><td>Subject 1</td><td>4</td><td>80</td></tr><tr><td>Subject 2</td><td>45</td><td>8</td></tr><tr><td>Subject 3</td><td>30</td><td>20</td></tr><tr><td>Subject 4</td><td>10</td><td>2</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb2-p3",
+   "title": "Control of a mannitol catabolic operon",
+   "paragraphs": [
+    "In the soil bacterium studied here, the three enzymes of mannitol catabolism are encoded by the mtl operon and transcribed as a single messenger RNA from one promoter. Immediately upstream of the promoter lies an operator. A separate gene, mtlR, sits elsewhere on the chromosome and encodes a protein, MtlR, that binds the operator as a dimer. Mannitol binds MtlR and lowers its affinity for the operator. A second site, further upstream of the promoter, is occupied by a complex of a small activator protein with cyclic AMP, and the concentration of cyclic AMP in these cells falls when glucose is available.",
+    "To measure transcription from the promoter, the investigators fused the promoter and operator to a reporter gene whose product is easy to assay, and introduced the fusion on a plasmid into four strains: the wild type, a strain carrying a deletion of mtlR, a strain carrying a single base substitution in the operator, and a strain carrying a single base substitution in mtlR. Each strain was grown in a minimal medium with glycerol as the carbon source. Reporter activity was measured after two hours in medium alone, in medium with 10 mM mannitol, and in medium with 10 mM mannitol and 10 mM glucose together (Table 1).",
+    "All four strains grew at the same rate on glycerol, and in every strain the reporter plasmid was present at the same copy number, so differences in reporter activity reflect differences in transcription from the fused promoter."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Reporter activity, in arbitrary units, after two hours in each medium.",
+    "markup": "<table><thead><tr><th>Strain</th><th>No addition</th><th>Mannitol</th><th>Mannitol and glucose</th></tr></thead><tbody><tr><td>Wild type</td><td>5</td><td>500</td><td>50</td></tr><tr><td>mtlR deleted</td><td>480</td><td>500</td><td>50</td></tr><tr><td>Operator substitution</td><td>460</td><td>470</td><td>48</td></tr><tr><td>mtlR substitution</td><td>4</td><td>6</td><td>4</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb2-p4",
+   "title": "Two isoforms of a cell-surface receptor",
+   "paragraphs": [
+    "The receptor studied here is encoded by a gene of eight exons. Exon 6, which is 144 nucleotides long, encodes the single transmembrane segment. Exon 5, immediately upstream of it, is 108 nucleotides long and encodes part of the extracellular stalk. Two mature messenger RNAs are made from the same pre-messenger RNA. In form A every exon is retained and the protein is anchored in the plasma membrane. In form B exon 6 is skipped, exon 5 being joined directly to exon 7; the reading frame is preserved across the new junction, and the protein that results is released into the medium. Both forms use the same promoter, the same transcription start site and the same polyadenylation site.",
+    "Inclusion of exon 6 depends on a serine- and arginine-rich splicing factor that binds a short sequence inside exon 6 and recruits the spliceosome to the weak upstream splice site. Cultured cells were left untreated, treated for 12 hours with an inflammatory cytokine, transfected with a small interfering RNA against the splicing factor, or transfected with a plasmid that overexpresses the factor. The two messenger RNAs were then measured by reverse transcription and quantitative PCR. In untreated cells 85% of receptor transcripts were form A; after the cytokine, 40% were form A; after knockdown of the splicing factor, 20%; and after overexpression of the factor, 95%. In each condition the rest of the transcripts were form B.",
+    "Total receptor messenger RNA, measured with a primer pair lying in exons 2 and 3, fell between 97 and 102 arbitrary units in all four conditions. The amount of receptor pre-messenger RNA, measured with a primer pair spanning the junction between exon 4 and the intron that follows it, differed between conditions by less than 10%."
+   ],
+   "figure": {
+    "kind": "svg",
+    "caption": "Figure 1  The receptor gene, with the lengths of exons 5 and 6 marked, and the two splicing patterns. Form A retains exon 6; form B joins exon 5 directly to exon 7.",
+    "markup": "<svg viewBox=\"0 0 460 190\" role=\"img\" aria-label=\"Diagram of an eight-exon gene in which exon 6 is either retained, giving form A, or skipped, giving form B\"><text x=\"4\" y=\"14\" font-size=\"11\">Pre-mRNA</text><line x1=\"8\" y1=\"40\" x2=\"452\" y2=\"40\" stroke=\"currentColor\"></line><rect x=\"8\" y=\"30\" width=\"34\" height=\"20\" fill=\"none\" stroke=\"currentColor\"></rect><text x=\"20\" y=\"45\" font-size=\"10\">1</text><rect x=\"66\" y=\"30\" width=\"34\" height=\"20\" fill=\"none\" stroke=\"currentColor\"></rect><text x=\"78\" y=\"45\" font-size=\"10\">2</text><rect x=\"124\" y=\"30\" width=\"34\" height=\"20\" fill=\"none\" stroke=\"currentColor\"></rect><text x=\"136\" y=\"45\" font-size=\"10\">3</text><rect x=\"182\" y=\"30\" width=\"34\" height=\"20\" fill=\"none\" stroke=\"currentColor\"></rect><text x=\"194\" y=\"45\" font-size=\"10\">4</text><rect x=\"240\" y=\"30\" width=\"34\" height=\"20\" fill=\"none\" stroke=\"currentColor\"></rect><text x=\"252\" y=\"45\" font-size=\"10\">5</text><rect x=\"298\" y=\"30\" width=\"34\" height=\"20\" fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"currentColor\"></rect><text x=\"310\" y=\"45\" font-size=\"10\">6</text><rect x=\"356\" y=\"30\" width=\"34\" height=\"20\" fill=\"none\" stroke=\"currentColor\"></rect><text x=\"368\" y=\"45\" font-size=\"10\">7</text><rect x=\"414\" y=\"30\" width=\"34\" height=\"20\" fill=\"none\" stroke=\"currentColor\"></rect><text x=\"426\" y=\"45\" font-size=\"10\">8</text><text x=\"228\" y=\"22\" font-size=\"10\">108 nt</text><text x=\"286\" y=\"22\" font-size=\"10\">144 nt</text><text x=\"4\" y=\"92\" font-size=\"11\">Form A</text><polyline points=\"257,58 278,78 299,58\" fill=\"none\" stroke=\"currentColor\"></polyline><polyline points=\"315,58 336,78 357,58\" fill=\"none\" stroke=\"currentColor\"></polyline><text x=\"62\" y=\"92\" font-size=\"10\">exon 5 to exon 6 to exon 7, transmembrane segment retained</text><text x=\"4\" y=\"150\" font-size=\"11\">Form B</text><polyline points=\"257,112 307,146 357,112\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"5 3\"></polyline><text x=\"62\" y=\"150\" font-size=\"10\">exon 5 joined to exon 7, exon 6 skipped, protein secreted</text></svg>"
+   }
+  },
+  {
+   "id": "bb2-p5",
+   "title": "Three viruses compared in one cell line",
+   "paragraphs": [
+    "Three viruses that grow in the same cultured mammalian cell line were compared. Virus P has a single-stranded RNA genome of positive sense and no envelope, and completes its cycle in the cytoplasm. Virus Q is enveloped, carries two copies of a single-stranded RNA genome, and packages a polymerase that copies RNA into DNA; the DNA product is inserted into a host chromosome before any viral messenger RNA is made. Virus R has a double-stranded DNA genome and replicates in the nucleus. Yields of infectious virus were measured 24 hours after infection by plaque assay and are reported as the common logarithm of plaque-forming units per millilitre (Table 1).",
+    "Four treatments were applied one hour before infection and maintained throughout. A nucleoside analogue that is accepted by RNA-dependent DNA polymerases and terminates the growing chain was used at 10 micromolar. Actinomycin D was used at a concentration that blocks host DNA-dependent RNA polymerases without killing the cells within 24 hours. Cycloheximide blocks the elongation step of translation on host ribosomes. A peptide inhibitor of the Virus P protease was used at 5 micromolar.",
+    "In a separate experiment, genomic nucleic acid was purified free of protein from each virus and introduced into uninfected cells by transfection. Virus P RNA and Virus R DNA each gave rise to infectious virus; purified Virus Q RNA gave none that could be detected."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Virus yield 24 hours after infection, as log10 plaque-forming units per millilitre.",
+    "markup": "<table><thead><tr><th>Treatment</th><th>Virus P</th><th>Virus Q</th><th>Virus R</th></tr></thead><tbody><tr><td>None</td><td>8.0</td><td>7.0</td><td>8.0</td></tr><tr><td>Nucleoside analogue</td><td>8.0</td><td>3.0</td><td>8.0</td></tr><tr><td>Actinomycin D</td><td>7.9</td><td>4.0</td><td>5.0</td></tr><tr><td>Cycloheximide</td><td>5.0</td><td>4.0</td><td>5.0</td></tr><tr><td>Virus P protease inhibitor</td><td>4.0</td><td>7.0</td><td>8.0</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb2-p6",
+   "title": "Filling, contractility and cardiac output",
+   "paragraphs": [
+    "In an anaesthetised large-animal preparation, left ventricular volume was measured by an imaging method at the end of diastole and at the end of systole, and heart rate was recorded at the same time. Stroke volume is the difference between the two volumes; cardiac output is the product of stroke volume and heart rate; and the ejection fraction is the stroke volume expressed as a fraction of the end-diastolic volume. Four conditions were studied in the same animal, in the order shown in Table 1, with at least 30 minutes between them and with measurements taken only once the circulation had settled.",
+    "The first condition was the untreated baseline. The second was produced by rapid infusion of warmed saline into a central vein, which raises venous return without acting directly on the myocardium. The third was produced by infusing a drug that increases the amount of calcium delivered to the myofilaments with each beat; this drug also acts on the sinoatrial node. The fourth followed a single dose of a beta-adrenergic antagonist. Mean arterial pressure was held within 10 mmHg of the baseline value throughout by adjusting a clamp on the aorta, so the load against which the ventricle ejected was similar in all four conditions.",
+    "No arrhythmia was recorded at any point, and the ventricular wall was reported to thicken normally during systole in every condition, so the measured volumes reflect ordinary contraction rather than regional failure of the muscle."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Left ventricular volumes and heart rate in each of the four conditions.",
+    "markup": "<table><thead><tr><th>Condition</th><th>End-diastolic volume (mL)</th><th>End-systolic volume (mL)</th><th>Heart rate (beats/min)</th></tr></thead><tbody><tr><td>Baseline</td><td>120</td><td>50</td><td>70</td></tr><tr><td>Saline infusion</td><td>150</td><td>55</td><td>70</td></tr><tr><td>Inotropic drug</td><td>120</td><td>30</td><td>80</td></tr><tr><td>Beta-adrenergic antagonist</td><td>130</td><td>70</td><td>50</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb2-p7",
+   "title": "A three-point cross in a flour beetle",
+   "paragraphs": [
+    "Three recessive mutations affecting body colour, antenna shape and wing texture were followed in a flour beetle, and are written b, a and c in that arbitrary order. A female beetle whose two homologues carried b, a and c together on one chromosome and the three wild-type alleles together on the other was crossed to a male homozygous for all three recessive alleles. Because the male can contribute only recessive alleles, the phenotype of each offspring reveals directly which combination of alleles it received from its mother. One thousand offspring were scored, and the combination each of them received from the mother is given in Table 1. The three genes lie close enough together that no triple crossover is expected in a sample of this size.",
+    "A map distance is defined as the percentage of gametes in which an exchange occurred between the two genes concerned, and one map unit, or centimorgan, is one per cent recombination. Offspring in which an exchange occurred in each of the two intervals carry an exchange in both, and so must be counted in both intervals when the distances are worked out. If exchanges in the two intervals occurred independently of one another, the expected frequency of double-crossover gametes would be the product of the two interval frequencies.",
+    "A plus sign in Table 1 stands for the wild-type allele of the gene in that position. The eight classes together account for all 1000 offspring scored, and no offspring was excluded from the count."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  The combination of alleles received from the mother by each class of offspring, with the number of offspring in each class.",
+    "markup": "<table><thead><tr><th>Alleles received from the mother</th><th>Number of offspring</th></tr></thead><tbody><tr><td>+ + +</td><td>410</td></tr><tr><td>b a c</td><td>390</td></tr><tr><td>b + +</td><td>54</td></tr><tr><td>+ a c</td><td>50</td></tr><tr><td>+ + c</td><td>45</td></tr><tr><td>b a +</td><td>43</td></tr><tr><td>+ a +</td><td>4</td></tr><tr><td>b + c</td><td>4</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb2-p8",
+   "title": "A steroid and a peptide hormone compared",
+   "paragraphs": [
+    "Cultured liver cells were used to compare the action of a synthetic steroid, S, with that of a peptide hormone, P. S is a small hydrophobic molecule. Its receptor is a protein with four separable parts: a hydrophobic pocket that binds the hormone, a zinc-coordinating module that binds a particular DNA sequence, a short stretch of basic residues recognised by the machinery that imports proteins into the nucleus, and a surface that recruits coactivators. P binds a receptor in the plasma membrane and raises cytosolic cyclic AMP within seconds. Both hormones increase transcription of the same target gene, and a reporter carrying that gene's regulatory region was used to follow the response.",
+    "Four variants of the experiment were run with steroid S. In the first, actinomycin D was present throughout. In the second, the cells expressed a receptor in which the stretch of basic residues had been replaced by alanines; this protein bound S normally and bound the DNA sequence normally when both were tested in vitro. In the third, S was coupled covalently to a 70 kDa polymer that cannot cross a lipid bilayer, and the conjugate bound the purified receptor with the same affinity as free S. Values in Table 1 are fold changes in reporter messenger RNA relative to untreated cells, measured at three times after the hormone was added.",
+    "Untreated cells contained about 400 copies of the reporter messenger RNA per cell. Cell viability was above 95% in every condition at the end of the eight hours, and the amount of a housekeeping transcript measured alongside the reporter varied by less than 5% between conditions."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Fold change in reporter messenger RNA relative to untreated cells.",
+    "markup": "<table><thead><tr><th>Treatment</th><th>30 min</th><th>2 h</th><th>8 h</th></tr></thead><tbody><tr><td>Steroid S, 1 nM</td><td>1.2</td><td>6.0</td><td>24</td></tr><tr><td>Steroid S with actinomycin D</td><td>1.0</td><td>1.1</td><td>1.0</td></tr><tr><td>Steroid S, receptor lacking the basic stretch</td><td>1.0</td><td>1.1</td><td>1.2</td></tr><tr><td>Steroid S coupled to the polymer</td><td>1.1</td><td>1.2</td><td>1.1</td></tr><tr><td>Peptide hormone P, 10 nM</td><td>3.0</td><td>4.0</td><td>2.0</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb2-p9",
+   "title": "Exit of a secreted enzyme from the cell",
+   "paragraphs": [
+    "A secreted enzyme was studied in a cultured cell line. Its messenger RNA encodes a polypeptide of 54.5 kDa, of which the first 2.5 kDa is a hydrophobic signal sequence removed by a protease in the lumen of the endoplasmic reticulum. The remaining chain carries two sites at which an oligosaccharide can be attached to the amide nitrogen of an asparagine side chain. Each oligosaccharide is added in the endoplasmic reticulum as a core of about 2 kDa and is then extended during passage through the Golgi apparatus, so the mature secreted form is larger than the form found in the endoplasmic reticulum.",
+    "Cells were labelled with radioactive amino acids for ten minutes and then chased with unlabelled medium. Labelled protein was recovered from the cells and from the medium after two hours, and its apparent mass was measured on a denaturing gel. Five preparations were compared: cells expressing the wild-type enzyme; cells expressing a construct from which the codons for the signal sequence had been deleted; wild-type cells treated with tunicamycin, which blocks the first step in the assembly of asparagine-linked oligosaccharides; cells expressing a construct in which both asparagine codons had been changed to glutamine; and wild-type cells treated with brefeldin A. Results are given in Table 1.",
+    "Total incorporation of label into protein differed between the five preparations by less than 8%, and none of the treatments reduced cell viability below 95% over the two hours of the chase."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Apparent mass of the labelled enzyme after a two-hour chase, the proportion recovered from the medium, and where the cell-associated protein was found.",
+    "markup": "<table><thead><tr><th>Preparation</th><th>Apparent mass (kDa)</th><th>In the medium (%)</th><th>Cell-associated protein found in</th></tr></thead><tbody><tr><td>Wild type</td><td>60</td><td>85</td><td>secretory vesicles</td></tr><tr><td>Signal sequence deleted</td><td>52</td><td>2</td><td>cytosol</td></tr><tr><td>Wild type with tunicamycin</td><td>52</td><td>40</td><td>Golgi apparatus and vesicles</td></tr><tr><td>Asparagine codons changed</td><td>52</td><td>55</td><td>Golgi apparatus and vesicles</td></tr><tr><td>Wild type with brefeldin A</td><td>56</td><td>3</td><td>endoplasmic reticulum</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb2-p10",
+   "title": "Two routes to the same lesion",
+   "paragraphs": [
+    "Complement can be activated either by antibody bound to a target surface or by a route that needs no antibody at all. In the antibody-dependent route, C1q recognises bound antibody and activates associated proteases, which cleave C4 and C2 to build a C3 convertase. In the antibody-independent route, a small amount of C3b deposited spontaneously on a surface binds factor B; cleavage of factor B yields a second kind of C3 convertase, which deposits more C3b and so amplifies the response. Both routes converge on the cleavage of C3 into C3a and C3b, then on the cleavage of C5, after which C6, C7, C8 and several molecules of C9 assemble in the target membrane as the pore that lyses the cell.",
+    "Serum from four patients and from a healthy donor was tested in two assays. In the first, target cells coated with antibody were incubated with serum and lysis was measured; this assay reports the activity of the antibody-dependent route. In the second, serum was diluted into a buffer that excludes the calcium the antibody-dependent route requires, then incubated with a surface that activates the antibody-independent route, and lysis was measured again. Serum C3 was measured separately, and the reference interval in this laboratory is 100 to 180 mg/dL. Each patient was subsequently shown to have a complete deficiency of one complement protein.",
+    "In both assays, heating a serum sample to 56 °C for 30 minutes before use abolished lysis entirely, including in the healthy donor's serum, which confirms that the lysis measured depended on heat-labile serum proteins rather than on the target cells themselves."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Lysis of target cells in the two assays, and serum C3 concentration.",
+    "markup": "<table><thead><tr><th>Serum</th><th>Lysis, antibody-dependent assay (%)</th><th>Lysis, antibody-independent assay (%)</th><th>Serum C3 (mg/dL)</th></tr></thead><tbody><tr><td>Healthy donor</td><td>100</td><td>100</td><td>130</td></tr><tr><td>Patient 1</td><td>2</td><td>98</td><td>125</td></tr><tr><td>Patient 2</td><td>3</td><td>4</td><td>8</td></tr><tr><td>Patient 3</td><td>5</td><td>6</td><td>135</td></tr><tr><td>Patient 4</td><td>96</td><td>3</td><td>128</td></tr></tbody></table>"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "bb2-p1-q1",
+   "passageId": "bb2-p1",
+   "stem": "Using Table 1, what is the P/O ratio - the number of ATP molecules formed per atom of oxygen reduced - in the succinate plus ADP condition?",
+   "choices": {
+    "A": "9.0",
+    "B": "3.0",
+    "C": "2.5",
+    "D": "1.5"
+   },
+   "correct": "D",
+   "explanation": "The suspension reduces 30 nmol of O₂ each minute, and each O₂ molecule supplies two oxygen atoms, so 60 nmol of oxygen atoms are reduced per minute. Dividing the 90 nmol of ATP made in the same minute by 60 gives a P/O ratio of 1.5, which is the value expected for a substrate that enters at complex II and so drives only two of the three proton-pumping complexes.",
+   "wrong": {
+    "A": "This divides the ATP rate by twice the resting rate of 5 nmol O₂/min; the resting rate is measured without ADP, so it cannot be the rate at which ATP was being made.",
+    "B": "This divides 90 by 30, counting each O₂ molecule as a single oxygen atom. The P/O ratio is defined per atom, so the denominator must be doubled.",
+    "C": "This is the ratio expected for an NADH-linked substrate, which also drives complex I. Succinate feeds electrons in at complex II, so one proton-pumping step is skipped."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb2-p1-q2",
+   "passageId": "bb2-p1",
+   "stem": "DNP raises oxygen consumption above the ADP-stimulated rate while abolishing ATP synthesis. Which statement best accounts for both observations at once?",
+   "choices": {
+    "A": "DNP inhibits the carrier that exchanges ADP for ATP across the inner membrane",
+    "B": "DNP activates complex II, so more electrons per minute enter the respiratory chain",
+    "C": "DNP hydrolyses ATP as fast as the synthase can make it, so none accumulates",
+    "D": "DNP carries protons across the inner membrane, so the gradient that both restrains electron flow and drives the synthase collapses"
+   },
+   "correct": "D",
+   "explanation": "Electron transport and ATP synthesis are connected only through the proton gradient. A protonophore short-circuits that gradient: electron transport loses the back-pressure that was limiting it and speeds up to 48 nmol O₂/min, while the synthase loses the driving force it needs and makes no ATP. The persistence of the fast rate when oligomycin is also present confirms that the protons are returning through DNP rather than through the synthase.",
+   "wrong": {
+    "A": "Blocking the exchange of ADP for ATP would starve the synthase and leave the gradient intact, so oxygen consumption would fall back towards the resting rate of 5 nmol O₂/min rather than rise.",
+    "B": "A faster entry of electrons would not by itself stop ATP synthesis, and it cannot explain why the high rate survives when oligomycin blocks the synthase.",
+    "C": "The parallel assay measures synthesis rather than the amount of ATP present, so rapid hydrolysis of the product would still leave a measurable rate of synthesis."
+   },
+   "category": "1D",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb2-p1-q3",
+   "passageId": "bb2-p1",
+   "stem": "Which comparison within Table 1 shows most directly that the oxygen consumption seen in the presence of DNP does not depend on the ATP synthase?",
+   "choices": {
+    "A": "the succinate-only condition against the succinate plus ADP condition",
+    "B": "the succinate plus ADP condition against the same condition with oligomycin",
+    "C": "the DNP condition against the DNP plus oligomycin condition",
+    "D": "the DNP condition against the cyanide condition"
+   },
+   "correct": "C",
+   "explanation": "Oligomycin blocks the synthase, so adding it to a suspension that is already uncoupled isolates the question asked. Oxygen consumption falls only from 48 to 46 nmol O₂/min, essentially unchanged, which shows that the protons sustaining the fast rate are returning through a route other than the synthase.",
+   "wrong": {
+    "A": "This comparison establishes respiratory control in the coupled preparation. It says nothing about the uncoupled condition, in which no ADP dependence remains.",
+    "B": "This shows that respiration in the coupled preparation does depend on the synthase, which is the opposite of the condition the question asks about.",
+    "D": "Cyanide blocks complex IV, so this comparison tests whether the uncoupled rate needs the respiratory chain, not whether it needs the synthase."
+   },
+   "category": "1D",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb2-p1-q4",
+   "passageId": "bb2-p1",
+   "stem": "What is the respiratory control ratio of this mitochondrial preparation, as the passage defines it?",
+   "choices": {
+    "A": "9.6",
+    "B": "7.5",
+    "C": "6.0",
+    "D": "5.0"
+   },
+   "correct": "C",
+   "explanation": "The ratio is the ADP-stimulated rate divided by the resting rate measured with substrate alone: 30 divided by 5, which is 6.0. A well coupled preparation gives a figure of this order, and the value falls towards 1 as the membrane becomes leaky.",
+   "wrong": {
+    "A": "This uses the DNP-stimulated rate of 48 nmol O₂/min as the numerator. DNP uncouples the preparation, so its rate is not the ADP-stimulated rate.",
+    "B": "This uses the oligomycin rate of 4 nmol O₂/min as the resting rate. The resting rate defined in the passage is the one measured with succinate alone, before ADP is added.",
+    "D": "This subtracts the resting rate from the stimulated rate before dividing, giving 25 over 5. The ratio is defined as one rate divided by the other, not as an increment divided by a rate."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "3"
+  },
+  {
+   "id": "bb2-p1-q5",
+   "passageId": "bb2-p1",
+   "stem": "The investigators report that mitochondria recovered at the end of each measurement still had an intact outer membrane. Why does that observation matter for the interpretation of the DNP result?",
+   "choices": {
+    "A": "it shows that the oxygen electrode had been correctly calibrated for the medium used",
+    "B": "it shows that DNP did not react chemically with succinate in the cuvette",
+    "C": "it shows that inorganic phosphate was not limiting at any point in the measurement",
+    "D": "it rules out mechanical damage, which would also abolish respiratory control and could mimic an uncoupler"
+   },
+   "correct": "D",
+   "explanation": "A preparation whose membranes have been torn loses respiratory control for a trivial reason, and would show a high rate of oxygen consumption that no longer depends on ADP. Establishing that the membranes survived the measurement is what allows the fast, ADP-independent rate to be attributed to proton transport by DNP rather than to a damaged preparation.",
+   "wrong": {
+    "A": "Calibration of the electrode is checked against known oxygen concentrations and has nothing to do with the state of the mitochondrial membranes.",
+    "B": "A chemical reaction between DNP and succinate would consume substrate and lower the rate, and membrane integrity is not evidence about it either way.",
+    "C": "That point is covered by the separate observation that medium phosphate was unchanged. Membrane integrity is a different control answering a different objection."
+   },
+   "category": "2A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "3"
+  },
+  {
+   "id": "bb2-p2-q1",
+   "passageId": "bb2-p2",
+   "stem": "Using Table 1, what percentage of the fat it ingested did Subject 3 absorb?",
+   "choices": {
+    "A": "96%",
+    "B": "70%",
+    "C": "55%",
+    "D": "30%"
+   },
+   "correct": "B",
+   "explanation": "Of the 100 g eaten each day, 30 g appeared in the faeces, so 70 g was absorbed. The coefficient of fat absorption is that absorbed amount as a percentage of the intake, 70 divided by 100, which is 70%.",
+   "wrong": {
+    "A": "This is the figure for Subject 1, whose faecal fat was 4 g/day. The stem asks about Subject 3.",
+    "C": "This is the figure for Subject 2, whose faecal fat was 45 g/day, and the most severe of the four.",
+    "D": "This is the faecal fat as a percentage of the intake, which is the fraction that was not absorbed rather than the fraction that was."
+   },
+   "category": "3B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb2-p2-q2",
+   "passageId": "bb2-p2",
+   "stem": "Which subject's results are most consistent with an inability to form mixed micelles in the intestinal lumen?",
+   "choices": {
+    "A": "Subject 1",
+    "B": "Subject 2",
+    "C": "Subject 3",
+    "D": "Subject 4"
+   },
+   "correct": "C",
+   "explanation": "Loss of bile salts leaves lipase working normally, so triacylglycerol is still hydrolysed, but the products reach the brush border inefficiently. The expected result is therefore moderate steatorrhoea with a reduced but clearly present rise in plasma triacylglycerol, and Subject 3 shows exactly that: 30 g of faecal fat a day and a rise of 20 mg/dL.",
+   "wrong": {
+    "A": "Subject 1 absorbed 96% of its fat and showed the largest rise in plasma triacylglycerol, so this is the healthy control.",
+    "B": "Subject 2 has the most severe steatorrhoea and almost no rise in plasma triacylglycerol, a pattern that points to failure of lipolysis itself rather than of micellar transport.",
+    "D": "Subject 4 absorbed 90% of its fat, so the luminal steps must be working; its defect has to lie after uptake into the enterocyte."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "7"
+  },
+  {
+   "id": "bb2-p2-q3",
+   "passageId": "bb2-p2",
+   "stem": "In the subject whose enterocytes were swollen with cytosolic lipid droplets, which step of the pathway has failed?",
+   "choices": {
+    "A": "hydrolysis of dietary triacylglycerol by pancreatic lipase in the lumen",
+    "B": "uptake of fatty acids and monoacylglycerol across the brush border",
+    "C": "packaging of re-esterified triacylglycerol with apolipoprotein B-48 into a chylomicron",
+    "D": "hydrolysis of chylomicron triacylglycerol by lipoprotein lipase in capillaries"
+   },
+   "correct": "C",
+   "explanation": "Lipid that has been hydrolysed, absorbed and re-esterified but cannot be exported has nowhere to go, and accumulates in the cytosol of the enterocyte as droplets. That places the block at the assembly of the chylomicron, which also explains why so little triacylglycerol reaches the plasma while faecal fat stays fairly low.",
+   "wrong": {
+    "A": "A failure of luminal hydrolysis would leave the fat outside the cell altogether, giving severe steatorrhoea and no lipid loading of the enterocytes.",
+    "B": "If uptake across the brush border failed, the lipid would remain in the lumen and be excreted, so the enterocytes would not fill with droplets.",
+    "D": "That enzyme acts on chylomicrons once they are in the circulation, long after the enterocyte has released them, so a defect there cannot load the enterocyte with lipid."
+   },
+   "category": "1D",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "3"
+  },
+  {
+   "id": "bb2-p2-q4",
+   "passageId": "bb2-p2",
+   "stem": "Each of the following would be expected to reduce the rise in plasma triacylglycerol after the test meal in a healthy subject EXCEPT",
+   "choices": {
+    "A": "a drug that inhibits lipoprotein lipase in capillary beds",
+    "B": "a drug that inhibits pancreatic lipase within the intestinal lumen",
+    "C": "a resin taken with the meal that binds bile salts and prevents micelle formation",
+    "D": "a drug that blocks transfer of lipid onto apolipoprotein B-48 in the enterocyte"
+   },
+   "correct": "A",
+   "explanation": "The measurement is the rise in plasma triacylglycerol, which reflects the balance between chylomicron entry and chylomicron clearance. Inhibiting lipoprotein lipase blocks clearance, so chylomicron triacylglycerol would persist in the plasma and the measured rise would be larger, not smaller.",
+   "wrong": {
+    "B": "Without lipase the triacylglycerol is never hydrolysed, so nothing is absorbed and no chylomicron triacylglycerol enters the plasma.",
+    "C": "Binding the bile salts prevents mixed micelles from forming, so the products of lipolysis reach the brush border poorly and less lipid is absorbed.",
+    "D": "This is the step that loads the nascent chylomicron, so blocking it leaves absorbed lipid stranded in the enterocyte and keeps it out of the lymph."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb2-p3-q1",
+   "passageId": "bb2-p3",
+   "stem": "By what factor does mannitol induce the reporter in the wild-type strain?",
+   "choices": {
+    "A": "125-fold",
+    "B": "100-fold",
+    "C": "10-fold",
+    "D": "1.0-fold"
+   },
+   "correct": "B",
+   "explanation": "Induction is the activity with the inducer divided by the activity without it, within the same strain. For the wild type that is 500 divided by 5, which is 100-fold.",
+   "wrong": {
+    "A": "This divides the wild-type induced activity of 500 by the basal activity of 4 measured in the strain carrying the mtlR substitution. The two figures come from different strains.",
+    "C": "This compares the mannitol value of 500 with the mannitol plus glucose value of 50, which measures the effect of glucose rather than induction by mannitol.",
+    "D": "This is the ratio obtained in the mtlR deletion strain, where expression is already near maximal without mannitol and so barely changes."
+   },
+   "category": "1B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb2-p3-q2",
+   "passageId": "bb2-p3",
+   "stem": "The results for the strain carrying the single base substitution in the operator are best explained by which change?",
+   "choices": {
+    "A": "an operator that no longer binds MtlR, leaving the promoter free of repression",
+    "B": "a promoter sequence that RNA polymerase can no longer recognise or use",
+    "C": "an MtlR protein that has lost the ability to bind its inducer, mannitol",
+    "D": "loss of the upstream site at which the cyclic AMP activator complex binds"
+   },
+   "correct": "A",
+   "explanation": "This strain expresses the reporter strongly without mannitol (460 units) and is hardly induced further by it, which is what loss of repressor binding predicts. Expression still falls to 48 units when glucose is added, so the upstream activator site is intact and is acting independently of the operator.",
+   "wrong": {
+    "B": "A promoter that polymerase could not use would lower reporter activity in every medium, whereas this strain expresses the reporter at 460 units with no inducer present.",
+    "C": "An MtlR protein unable to bind its inducer would leave the operon repressed in every condition, which is the pattern of the fourth strain, not this one.",
+    "D": "Losing that site would abolish the fall in expression caused by glucose, and in this strain the fall from 470 to 48 units is as large as in the wild type."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb2-p3-q3",
+   "passageId": "bb2-p3",
+   "stem": "Which single amino acid substitution in MtlR would account for the pattern seen in the fourth strain?",
+   "choices": {
+    "A": "a substitution in the recognition helix that abolishes operator binding",
+    "B": "a substitution at the second codon that truncates the protein at once",
+    "C": "a substitution that raises the affinity of MtlR for mannitol tenfold",
+    "D": "a substitution in the inducer pocket that abolishes mannitol binding"
+   },
+   "correct": "D",
+   "explanation": "The fourth strain is repressed whether mannitol is present or not: 4 units with no addition and 6 units with mannitol. Repression therefore still works, so the protein binds the operator, while induction has been lost, so it no longer responds to the inducer. A change in the pocket that binds mannitol produces exactly that combination.",
+   "wrong": {
+    "A": "A repressor that cannot bind the operator would leave the operon expressed without mannitol, which is the pattern of the operator substitution strain and of the deletion strain.",
+    "B": "Truncating MtlR removes the repressor altogether and would give the constitutive expression seen in the mtlR deletion strain, which reaches 480 units with no inducer.",
+    "C": "A repressor that bound mannitol more tightly would be released at lower concentrations of inducer, making the operon easier to induce rather than impossible to induce."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "4"
+  },
+  {
+   "id": "bb2-p3-q4",
+   "passageId": "bb2-p3",
+   "stem": "In the wild type and in the two strains that express the reporter without an inducer, adding glucose alongside mannitol lowers expression about tenfold. Which explanation fits that result?",
+   "choices": {
+    "A": "glucose binds MtlR and increases its occupancy of the operator",
+    "B": "glucose lowers cyclic AMP, so the activator complex vacates the upstream site and transcription starts less often",
+    "C": "glucose blocks mannitol uptake, so MtlR is never released from the operator",
+    "D": "glucose causes the promoter region to be chemically modified and permanently silenced"
+   },
+   "correct": "B",
+   "explanation": "The fall happens in the strain that has no MtlR at all and in the strain whose operator cannot bind MtlR, so it cannot be working through the repressor. What remains is the positive control described in the passage: glucose lowers cyclic AMP, the activator complex leaves the upstream site, and initiation at the promoter becomes less efficient.",
+   "wrong": {
+    "A": "The mtlR deletion strain has no repressor to bind, yet its expression still falls from 500 to 50 units when glucose is added.",
+    "C": "The same objection applies, and more sharply in the operator substitution strain, where expression does not depend on the inducer reaching the repressor at all.",
+    "D": "Permanent silencing by modification of the DNA would not reverse when glucose was removed, and it is not a mechanism these bacteria use at this promoter."
+   },
+   "category": "2B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "9"
+  },
+  {
+   "id": "bb2-p3-q5",
+   "passageId": "bb2-p3",
+   "stem": "Which of the following conclusions are supported by Table 1? I. MtlR represses the operon when mannitol is absent. II. Mannitol acts by binding MtlR rather than by binding the operator. III. Glucose acts through a site other than the operator.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "D",
+   "explanation": "All three follow from the comparisons available. Deleting mtlR raises expression from 5 to 480 units with no inducer, which is statement I. The strain whose MtlR carries a substitution still represses but can no longer be induced, so the inducer must act on the protein, which is statement II. And the strain whose operator cannot bind the repressor still shows the full glucose effect, which is statement III.",
+   "wrong": {
+    "A": "Statement I is supported, but so are the other two, and each rests on a different strain in the table.",
+    "B": "Statement II is supported, but the mtlR deletion strain also establishes statement I directly.",
+    "C": "Both of these are supported, but the operator substitution strain shows that glucose still acts when the operator is unusable, which establishes statement III as well."
+   },
+   "category": "2B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "9"
+  },
+  {
+   "id": "bb2-p4-q1",
+   "passageId": "bb2-p4",
+   "stem": "How many fewer amino acid residues does the protein encoded by form B contain than the protein encoded by form A?",
+   "choices": {
+    "A": "144",
+    "B": "84",
+    "C": "48",
+    "D": "36"
+   },
+   "correct": "C",
+   "explanation": "Only exon 6 is missing from form B, and the reading frame is preserved on either side of the new junction, so the protein simply lacks the residues that exon 6 encoded. Three nucleotides specify one residue, so 144 divided by 3 gives 48 residues.",
+   "wrong": {
+    "A": "This is the number of nucleotides removed, counted as though each nucleotide specified one residue.",
+    "B": "This treats exon 5 as missing as well, dividing 144 plus 108 by three. Exon 5 is present in both forms; it is the exon to which exon 7 becomes joined.",
+    "D": "This divides the 108 nucleotides of exon 5 by three. Exon 5 is retained, and it is exon 6 that is skipped."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb2-p4-q2",
+   "passageId": "bb2-p4",
+   "stem": "Which conclusion about the splicing factor is best supported by the measurements reported in the passage?",
+   "choices": {
+    "A": "it raises the rate at which the receptor gene is transcribed",
+    "B": "it promotes inclusion of exon 6 without changing the amount of receptor messenger RNA",
+    "C": "it selectively protects form A messenger RNA from degradation",
+    "D": "it is required for cleavage and polyadenylation of the receptor transcript"
+   },
+   "correct": "B",
+   "explanation": "Knocking the factor down drops form A from 85% to 20% of transcripts and overexpressing it raises form A to 95%, so the factor controls which splice is made. Total receptor messenger RNA stays between 97 and 102 units throughout and pre-messenger RNA varies by less than 10%, so the factor is not changing how much RNA there is, only which form it becomes.",
+   "wrong": {
+    "A": "Transcription is not changing: pre-messenger RNA differs by less than 10% between conditions, and total receptor messenger RNA is effectively constant.",
+    "C": "Selectively stabilising the form that makes up 85% of transcripts would raise the total when the factor was overexpressed, and the total did not move.",
+    "D": "Blocking cleavage and polyadenylation would reduce the amount of mature messenger RNA of both forms, and the total measured in exons 2 and 3 was unchanged."
+   },
+   "category": "1B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb2-p4-q3",
+   "passageId": "bb2-p4",
+   "stem": "What is the most likely functional consequence of the shift towards form B after cytokine treatment?",
+   "choices": {
+    "A": "the receptor signals continuously even when no ligand is present",
+    "B": "the receptor accumulates in the endoplasmic reticulum and is degraded",
+    "C": "a soluble protein is released that binds ligand without transmitting a signal",
+    "D": "the receptor becomes anchored in the membranes of neighbouring cells"
+   },
+   "correct": "C",
+   "explanation": "Form B lacks the transmembrane segment encoded by exon 6, so it cannot be held in the membrane and is released into the medium. It keeps the extracellular ligand-binding region, so the secreted protein competes for ligand while having no way to pass a signal across a membrane. Shifting the balance towards form B therefore damps signalling through this receptor.",
+   "wrong": {
+    "A": "Losing the membrane anchor removes the receptor from the cell surface altogether; it does not lock the remaining protein into an active state.",
+    "B": "The reading frame is preserved and the protein is described as released into the medium, so it folds and traverses the secretory pathway normally.",
+    "D": "A protein with no transmembrane segment and no lipid anchor cannot insert itself into another cell's membrane from the outside."
+   },
+   "category": "1B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "4"
+  },
+  {
+   "id": "bb2-p4-q4",
+   "passageId": "bb2-p4",
+   "stem": "Which experiment would best establish that the cytokine changes splice-site choice rather than transcription of the receptor gene?",
+   "choices": {
+    "A": "transcribe a minigene of exons 5 to 7 from a constitutive promoter and measure the ratio of its two products",
+    "B": "measure total receptor protein by immunoblot before and after treatment with the cytokine",
+    "C": "measure the half-life of each of the two messenger RNAs after transcription has been blocked",
+    "D": "measure occupancy of the receptor gene promoter by RNA polymerase II after the cytokine"
+   },
+   "correct": "A",
+   "explanation": "A minigene driven by a promoter the cytokine cannot regulate holds transcription constant by construction. Any change in the ratio of included to skipped product must then come from splice-site choice, which is precisely the claim being tested.",
+   "wrong": {
+    "B": "Total protein cannot separate how much is made from which form is made, and the two isoforms would have to be distinguished in any case.",
+    "C": "Differential stability is a third possible explanation of the shift, so measuring it addresses a different alternative rather than splice-site choice.",
+    "D": "This measures transcription, which the pre-messenger RNA data already show is unchanged; it cannot show that splice-site choice has moved."
+   },
+   "category": "1B",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "4"
+  },
+  {
+   "id": "bb2-p5-q1",
+   "passageId": "bb2-p5",
+   "stem": "Which observation shows most directly that the genome of Virus P can itself serve as messenger RNA?",
+   "choices": {
+    "A": "the yield of Virus P is unchanged by the nucleoside analogue",
+    "B": "the yield of Virus P is barely changed by actinomycin D",
+    "C": "the yield of Virus P falls when host ribosomes are blocked",
+    "D": "purified Virus P RNA, free of protein, gives rise to infectious virus"
+   },
+   "correct": "D",
+   "explanation": "If protein-free genomic RNA is infectious, the first event after it enters the cytoplasm must be its own translation, since no viral protein has been delivered with it. That is what identifies the genome as messenger RNA. The same test distinguishes Virus P from Virus Q, whose RNA is not infectious because it has to be copied into DNA by an enzyme carried in the virion.",
+   "wrong": {
+    "A": "Insensitivity to the analogue shows only that no DNA intermediate is made from RNA. A negative-sense RNA virus would behave the same way.",
+    "B": "This shows only that Virus P does not depend on host RNA polymerases, which says nothing about whether its genome is translated or first copied.",
+    "C": "All three viruses are sensitive to cycloheximide, so this shows only that host ribosomes make viral proteins, not which RNA they read first."
+   },
+   "category": "2B",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "9"
+  },
+  {
+   "id": "bb2-p5-q2",
+   "passageId": "bb2-p5",
+   "stem": "By what factor does the nucleoside analogue reduce the yield of Virus Q?",
+   "choices": {
+    "A": "10,000-fold",
+    "B": "1,000-fold",
+    "C": "100-fold",
+    "D": "10-fold"
+   },
+   "correct": "A",
+   "explanation": "The values in Table 1 are common logarithms, so the fold change is ten raised to the difference between them. Untreated Virus Q gives 7.0 and the treated culture gives 3.0, a difference of 4.0, so the yield falls by a factor of ten to the fourth power, 10,000-fold.",
+   "wrong": {
+    "B": "This uses the cycloheximide value of 4.0 for Virus Q instead of the 3.0 measured with the nucleoside analogue, giving a difference of three logarithms.",
+    "C": "This divides the two logarithms, 7.0 by 3.0, and reads the result as about two orders of magnitude. The logarithms of a ratio are subtracted, not divided.",
+    "D": "This compares the nucleoside analogue value of 3.0 with the cycloheximide value of 4.0, which contrasts two treatments rather than treatment with no treatment."
+   },
+   "category": "2B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "9"
+  },
+  {
+   "id": "bb2-p5-q3",
+   "passageId": "bb2-p5",
+   "stem": "Actinomycin D lowers the yield of Virus R by three orders of magnitude but reduces the yield of Virus P by only about one-fifth. Which difference between the two viruses accounts for that?",
+   "choices": {
+    "A": "Virus R has the larger genome and so needs more rounds of genome replication",
+    "B": "Virus P is non-enveloped and is released without passing through the Golgi apparatus",
+    "C": "actinomycin D is taken up poorly by cells that Virus P has already infected",
+    "D": "Virus R needs a host RNA polymerase to make its messenger RNA, while Virus P brings its own"
+   },
+   "correct": "D",
+   "explanation": "Actinomycin D blocks host DNA-dependent RNA polymerases. A DNA virus transcribing its genes in the nucleus depends on them entirely, so its yield collapses from 8.0 to 5.0. A positive-sense RNA virus never needs a DNA-dependent polymerase: its genome is read directly by ribosomes and then copied by a virus-encoded RNA-dependent RNA polymerase, so the yield falls only from 8.0 to 7.9.",
+   "wrong": {
+    "A": "Genome size does not determine sensitivity to a drug that acts on transcription, and Table 1 gives no information about how many rounds of replication each virus needs.",
+    "B": "The route of release has nothing to do with a drug that blocks transcription, and Virus P is not the virus that was strongly inhibited.",
+    "C": "Nothing in the design supports selective exclusion of the drug, and Virus P shares the cell line and the treatment schedule with the other two viruses."
+   },
+   "category": "2B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "9"
+  },
+  {
+   "id": "bb2-p5-q4",
+   "passageId": "bb2-p5",
+   "stem": "Cycloheximide lowers the yield of all three viruses. Which shared requirement does that sensitivity demonstrate?",
+   "choices": {
+    "A": "all three integrate a DNA copy of the genome into a host chromosome",
+    "B": "all three depend on host ribosomes to synthesise their proteins",
+    "C": "all three copy their genomes with a host DNA polymerase",
+    "D": "all three encode an RNA-dependent RNA polymerase of their own"
+   },
+   "correct": "B",
+   "explanation": "No virus carries a ribosome. Cycloheximide blocks elongation on host ribosomes, so a drop in yield for every virus shows only what all viruses have in common: viral proteins are made by the host translation machinery.",
+   "wrong": {
+    "A": "Only Virus Q is described as inserting a DNA copy into a chromosome, and blocking translation would not report on integration in any case.",
+    "C": "Cycloheximide acts on translation, not on DNA synthesis, and Virus P does not make DNA at any point in its cycle.",
+    "D": "Virus R has a DNA genome and Virus Q copies RNA into DNA, so neither needs an RNA-dependent RNA polymerase."
+   },
+   "category": "2B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "9"
+  },
+  {
+   "id": "bb2-p5-q5",
+   "passageId": "bb2-p5",
+   "stem": "Which pair of activities is needed to convert the Virus Q genome into the double-stranded DNA that is inserted into the host chromosome?",
+   "choices": {
+    "A": "an RNA-dependent DNA polymerase and a ribonuclease H activity",
+    "B": "a DNA-dependent RNA polymerase and an RNA ligase activity",
+    "C": "an RNA-dependent RNA polymerase and a DNA ligase activity",
+    "D": "a DNA-dependent DNA polymerase and a topoisomerase activity"
+   },
+   "correct": "A",
+   "explanation": "The genome is RNA and the product is double-stranded DNA, so the polymerase must read RNA and write DNA. The first strand it makes is part of an RNA-DNA hybrid, and the RNA of that hybrid has to be degraded before the second DNA strand can be made, which is the job of a ribonuclease H activity. Both are carried in the virion of such a virus.",
+   "wrong": {
+    "B": "A DNA-dependent RNA polymerase makes RNA from DNA, the opposite of what is needed, and the step that joins DNA ends is not an RNA ligase reaction.",
+    "C": "An RNA-dependent RNA polymerase would copy the genome into more RNA and never produce DNA at all.",
+    "D": "A DNA-dependent DNA polymerase cannot begin, because the template presented to it at the start of the cycle is RNA, not DNA."
+   },
+   "category": "1B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb2-p6-q1",
+   "passageId": "bb2-p6",
+   "stem": "Using Table 1, what was the cardiac output during infusion of the inotropic drug?",
+   "choices": {
+    "A": "2.4 L/min",
+    "B": "6.3 L/min",
+    "C": "7.2 L/min",
+    "D": "9.6 L/min"
+   },
+   "correct": "C",
+   "explanation": "Stroke volume is 120 minus 30, which is 90 mL. Multiplying by the heart rate recorded in that condition, 80 beats per minute, gives 7200 mL/min, or 7.2 L/min.",
+   "wrong": {
+    "A": "This multiplies the end-systolic volume of 30 mL by the heart rate. End-systolic volume is the blood left behind, not the blood ejected.",
+    "B": "This uses the baseline heart rate of 70 beats/min rather than the 80 recorded during the infusion; the drug also acts on the sinoatrial node.",
+    "D": "This multiplies the end-diastolic volume of 120 mL by the heart rate, treating the whole filling volume as though it were ejected."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb2-p6-q2",
+   "passageId": "bb2-p6",
+   "stem": "Saline infusion raised stroke volume from 70 mL to 95 mL with heart rate unchanged and no drug given. Which mechanism accounts for the rise?",
+   "choices": {
+    "A": "a rise in heart rate, which raises output at a fixed stroke volume",
+    "B": "greater stretch of the ventricular wall at end diastole, which increases the force of the next contraction",
+    "C": "a rise in the calcium sensitivity of the myofilaments, so more of the filling volume is ejected",
+    "D": "a fall in aortic pressure, which lowers the load the ventricle has to overcome"
+   },
+   "correct": "B",
+   "explanation": "Raising venous return raises end-diastolic volume from 120 to 150 mL. Stretching the muscle improves the overlap of its filaments and its response to the calcium already released, so the ventricle develops more force and ejects a larger stroke volume without any change in heart rate or in the signal reaching the myocardium.",
+   "wrong": {
+    "A": "Heart rate was 70 beats per minute both at baseline and during the infusion, so it cannot explain a change in stroke volume.",
+    "C": "No drug was given in this condition and nothing acted on the myocardium directly, so the responsiveness of the myofilaments to calcium is unaltered.",
+    "D": "Mean arterial pressure was held within 10 mmHg of baseline by the aortic clamp, so the load on the ventricle was deliberately kept constant."
+   },
+   "category": "3B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "7"
+  },
+  {
+   "id": "bb2-p6-q3",
+   "passageId": "bb2-p6",
+   "stem": "What was the ejection fraction after the beta-adrenergic antagonist was given?",
+   "choices": {
+    "A": "46%",
+    "B": "54%",
+    "C": "58%",
+    "D": "86%"
+   },
+   "correct": "A",
+   "explanation": "Stroke volume in that condition is 130 minus 70, which is 60 mL. The ejection fraction is the stroke volume divided by the end-diastolic volume, 60 over 130, which is 0.46 or 46%.",
+   "wrong": {
+    "B": "This divides the end-systolic volume by the end-diastolic volume, 70 over 130. That is the fraction retained rather than the fraction ejected.",
+    "C": "This is the baseline ejection fraction, 70 over 120, not the value measured after the antagonist.",
+    "D": "This divides the stroke volume by the end-systolic volume, 60 over 70. The ejection fraction is defined against the end-diastolic volume."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb2-p6-q4",
+   "passageId": "bb2-p6",
+   "stem": "Starting from the baseline condition, which of the following changes, acting alone, would be expected to raise cardiac output? I. A fall in venous return. II. A rise in end-diastolic volume with heart rate unchanged. III. A drug that lowers heart rate and leaves stroke volume unchanged.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "B",
+   "explanation": "Cardiac output is stroke volume multiplied by heart rate, so only a change that raises one of them without lowering the other can raise the output. Statement II does exactly that, and the saline infusion in Table 1 is the worked example: end-diastolic volume rises to 150 mL, stroke volume to 95 mL, and output from 4.9 to 6.65 L/min at an unchanged rate of 70 beats per minute.",
+   "wrong": {
+    "A": "A fall in venous return lowers end-diastolic volume, which lowers stroke volume by the relation the saline infusion demonstrates, so output falls.",
+    "C": "Statement II raises output, but statement I lowers it, so the two cannot both be correct.",
+    "D": "Statement III lowers heart rate while holding stroke volume constant, which must lower the product of the two."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "7"
+  },
+  {
+   "id": "bb2-p7-q1",
+   "passageId": "bb2-p7",
+   "stem": "Which of the three genes lies between the other two, and which classes of offspring identify it?",
+   "choices": {
+    "A": "gene b, identified from the classes numbering 54 and 50",
+    "B": "gene c, identified from the classes numbering 45 and 43",
+    "C": "gene a, identified from the classes numbering 410 and 390",
+    "D": "gene a, identified from the classes numbering 4 and 4"
+   },
+   "correct": "D",
+   "explanation": "The rarest two classes are the double crossovers, here the two classes of 4 offspring each. Comparing them with the parental combinations shows which gene has changed sides: + a + and b + c differ from + + + and b a c only in the allele of a, so a must be the gene that was moved by the second exchange, which places it in the middle.",
+   "wrong": {
+    "A": "The classes of 54 and 50 are single-crossover classes, not the rarest, and they differ from the parentals in the allele of b, which would place b in the middle only if they were the rarest.",
+    "B": "The classes of 45 and 43 are the other single-crossover pair. They are nearly as frequent as the 54 and 50 classes, so neither pair can be the double crossovers.",
+    "C": "The classes of 410 and 390 are the parental combinations, which carry no exchange at all and so cannot identify a gene order."
+   },
+   "category": "1C",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "5"
+  },
+  {
+   "id": "bb2-p7-q2",
+   "passageId": "bb2-p7",
+   "stem": "What is the map distance between b and c?",
+   "choices": {
+    "A": "20.8 cM",
+    "B": "19.2 cM",
+    "C": "11.2 cM",
+    "D": "9.6 cM"
+   },
+   "correct": "A",
+   "explanation": "The two intervals are b to a, which contains 54 plus 50 plus the 8 double crossovers, that is 112 of 1000 or 11.2 cM; and a to c, which contains 45 plus 43 plus the same 8 double crossovers, that is 96 of 1000 or 9.6 cM. The distance from b to c is the sum of the two intervals, 20.8 cM.",
+   "wrong": {
+    "B": "This counts the offspring that are recombinant for b and c directly, 192 of 1000. It underestimates the distance because each double crossover restores the parental combination of the two outer genes.",
+    "C": "This is the b to a interval on its own, and leaves out the distance from a to c.",
+    "D": "This is the a to c interval on its own, and leaves out the distance from b to a."
+   },
+   "category": "1C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "5"
+  },
+  {
+   "id": "bb2-p7-q3",
+   "passageId": "bb2-p7",
+   "stem": "What is the map distance between a and c?",
+   "choices": {
+    "A": "8.8 cM",
+    "B": "9.6 cM",
+    "C": "11.2 cM",
+    "D": "20.8 cM"
+   },
+   "correct": "B",
+   "explanation": "An exchange in this interval produced the classes of 45 and 43, and it also occurred in each of the 8 double-crossover offspring. That is 45 plus 43 plus 8, which is 96 of the 1000 offspring, or 9.6 cM.",
+   "wrong": {
+    "A": "This counts only the 88 single-crossover offspring and omits the 8 double crossovers, which carry an exchange in this interval as well.",
+    "C": "This is the other interval, from b to a, which contains the classes of 54 and 50 together with the double crossovers.",
+    "D": "This is the whole distance from b to c, the sum of both intervals, rather than the distance from a to c."
+   },
+   "category": "1C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "5"
+  },
+  {
+   "id": "bb2-p7-q4",
+   "passageId": "bb2-p7",
+   "stem": "Why is the recombination frequency measured directly between b and c smaller than the sum of the two interval distances?",
+   "choices": {
+    "A": "each double crossover restores the parental combination of b and c, so those offspring are scored as non-recombinant",
+    "B": "interference lowers the number of double crossovers below the number expected from independence",
+    "C": "map distances stop being additive once two genes have been shown to lie on different chromosomes",
+    "D": "the recessive alleles contributed by the father mask recombination that occurred in the mother"
+   },
+   "correct": "A",
+   "explanation": "An exchange in each interval moves the middle gene across but leaves the two outer genes together as they began. The 8 double-crossover offspring are therefore counted as parental when only b and c are scored, which is why the direct figure of 19.2% falls short of the 20.8 cM obtained by adding the intervals.",
+   "wrong": {
+    "B": "Interference changes how many double crossovers there are, but the shortfall would appear even with no interference at all, because double crossovers are invisible to the outer markers either way.",
+    "C": "All three genes are clearly linked, since the parental classes make up 800 of 1000 offspring rather than the 500 expected for independent genes.",
+    "D": "The father's contribution of only recessive alleles is what makes each offspring's maternal gamete readable, so it hides nothing."
+   },
+   "category": "1C",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "5"
+  },
+  {
+   "id": "bb2-p7-q5",
+   "passageId": "bb2-p7",
+   "stem": "If exchanges in the two intervals occurred independently of one another, how many double-crossover offspring would be expected among the 1000 scored?",
+   "choices": {
+    "A": "208",
+    "B": "192",
+    "C": "108",
+    "D": "11"
+   },
+   "correct": "D",
+   "explanation": "Independence means the frequencies multiply: 0.112 for the b to a interval times 0.096 for the a to c interval gives 0.0108, and 0.0108 of 1000 offspring is 10.8, which rounds to 11. Only 8 were observed, so exchanges in the two intervals are not quite independent.",
+   "wrong": {
+    "A": "This adds the two interval frequencies, 11.2% plus 9.6%, instead of multiplying them. Adding gives the distance between the outer genes, not the frequency of double exchange.",
+    "B": "This is the recombination frequency measured directly between b and c, 19.2%, applied to 1000 offspring; it is not an expectation for double crossovers.",
+    "C": "This multiplies the two distances as percentages, 11.2 times 9.6, without converting them to fractions first, which inflates the answer by a factor of 100 before rounding."
+   },
+   "category": "1C",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "5"
+  },
+  {
+   "id": "bb2-p8-q1",
+   "passageId": "bb2-p8",
+   "stem": "Why does the reporter respond to hormone P sooner than to steroid S?",
+   "choices": {
+    "A": "S has to be converted to an active metabolite by the liver cells before it can act",
+    "B": "S crosses the plasma membrane slowly, because steroid hormones are hydrophilic",
+    "C": "P uses a receptor already in the membrane and a second messenger, while S must first reach the nucleus",
+    "D": "P binds its own receptor with a far higher affinity than S binds its receptor"
+   },
+   "correct": "C",
+   "explanation": "A membrane receptor and a diffusible second messenger are in place before the hormone arrives, so the signal is amplified within seconds and the reporter is already up threefold at 30 minutes. The steroid pathway has more steps to complete: the hormone must enter the cell, bind its receptor, carry it into the nucleus and recruit coactivators before transcription can rise, which is why the response to S is still only 1.2-fold at 30 minutes and climbs to 24-fold by eight hours.",
+   "wrong": {
+    "A": "Nothing in the design suggests a metabolite is needed, and the response to S is eventually far larger than the response to P, which a limiting activation step would not produce.",
+    "B": "Steroids are hydrophobic, which is why they cross the bilayer readily; the passage states this and the polymer conjugate experiment depends on it.",
+    "D": "Affinity sets the concentration at which a hormone acts, not the time a response takes, and the two hormones were used at different concentrations in any case."
+   },
+   "category": "3A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "7"
+  },
+  {
+   "id": "bb2-p8-q2",
+   "passageId": "bb2-p8",
+   "stem": "Untreated cells contain about 400 copies of the reporter messenger RNA. About how many copies would be present eight hours after 1 nM steroid S is added?",
+   "choices": {
+    "A": "9600 copies",
+    "B": "2400 copies",
+    "C": "480 copies",
+    "D": "17 copies"
+   },
+   "correct": "A",
+   "explanation": "A fold change is a multiplier on the starting amount. At eight hours the fold change for 1 nM S is 24, so the number of copies is 24 times 400, which is 9600 copies per cell.",
+   "wrong": {
+    "B": "This uses the two-hour fold change of 6.0 rather than the eight-hour value the stem asks for.",
+    "C": "This uses the 30-minute fold change of 1.2, when the response has barely begun.",
+    "D": "This divides 400 by 24 instead of multiplying, which would describe a transcript being destroyed rather than induced."
+   },
+   "category": "3A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb2-p8-q3",
+   "passageId": "bb2-p8",
+   "stem": "The receptor in which the basic stretch was replaced by alanines binds steroid S and binds its DNA sequence normally in vitro, yet the reporter does not respond. Which function of the receptor has been lost?",
+   "choices": {
+    "A": "the hydrophobic pocket that binds the hormone",
+    "B": "the zinc-coordinating module that recognises the DNA sequence",
+    "C": "the surface that recruits coactivators to the promoter",
+    "D": "the signal recognised by the machinery that imports proteins into the nucleus"
+   },
+   "correct": "D",
+   "explanation": "A short run of basic residues is the classic form of a nuclear import signal, and the passage names it as one of the four parts of this receptor. Hormone binding and DNA binding were both tested directly and found intact, so the receptor is competent in every respect except reaching the compartment where its DNA site lies.",
+   "wrong": {
+    "A": "The variant protein was shown to bind S normally in vitro, so the hormone pocket is intact.",
+    "B": "The variant protein was shown to bind the DNA sequence normally in vitro, so that module is intact as well.",
+    "C": "The coactivator surface is a separate region of the protein, and a receptor stranded in the cytosol would fail whether that surface worked or not."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "1"
+  },
+  {
+   "id": "bb2-p8-q4",
+   "passageId": "bb2-p8",
+   "stem": "What does the result obtained with steroid S coupled to the 70 kDa polymer establish?",
+   "choices": {
+    "A": "the polymer blocks the hormone-binding pocket of the receptor",
+    "B": "the receptor that carries this response lies inside the cell, so the hormone must cross the membrane",
+    "C": "the response requires the receptor to form a dimer on its DNA site",
+    "D": "the polymer is toxic to the cells over the eight hours of the experiment"
+   },
+   "correct": "B",
+   "explanation": "The conjugate binds the purified receptor as well as free S does, so its failure cannot be a failure of recognition. What the polymer removes is the ability to cross a bilayer. A hormone that can still bind its receptor but can no longer get in produces no response only if the receptor is on the inside, which is the conclusion this comparison is designed to reach.",
+   "wrong": {
+    "A": "The passage states that the conjugate bound the purified receptor with the same affinity as free S, so the pocket is not blocked.",
+    "C": "Dimerisation is not varied between any two conditions here, so no comparison in the table bears on it.",
+    "D": "Viability stayed above 95% and the housekeeping transcript varied by less than 5%, and a toxic effect would be expected to disturb those as well."
+   },
+   "category": "3A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "7"
+  },
+  {
+   "id": "bb2-p9-q1",
+   "passageId": "bb2-p9",
+   "stem": "Using Table 1, what mass does each of the two oligosaccharides contribute to the mature secreted enzyme?",
+   "choices": {
+    "A": "8.0 kDa",
+    "B": "4.0 kDa",
+    "C": "2.5 kDa",
+    "D": "2.0 kDa"
+   },
+   "correct": "B",
+   "explanation": "The three unglycosylated preparations all run at 52 kDa, which is the mass of the chain once the 2.5 kDa signal sequence has been removed. The mature wild-type enzyme runs at 60 kDa, so the two oligosaccharides together contribute 8 kDa, and each contributes 4.0 kDa.",
+   "wrong": {
+    "A": "This is the whole difference between 60 and 52 kDa, assigned to a single site. The passage states that two asparagine side chains carry oligosaccharide.",
+    "C": "This is the mass of the signal sequence, which is cut off the chain rather than added to it.",
+    "D": "This is the core added in the endoplasmic reticulum before any extension in the Golgi apparatus, as the 56 kDa of the brefeldin A sample confirms."
+   },
+   "category": "1A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "1"
+  },
+  {
+   "id": "bb2-p9-q2",
+   "passageId": "bb2-p9",
+   "stem": "The protein made from the construct lacking the signal sequence runs at 52 kDa and is found in the cytosol. Which conclusions does that result support? I. The signal sequence is needed to direct the growing chain to the endoplasmic reticulum. II. The oligosaccharides are added only after the chain has entered the lumen of the endoplasmic reticulum. III. The signal sequence is needed for the enzyme to fold into an active shape.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "C",
+   "explanation": "The protein ends up in the cytosol, which supports statement I, and it is unglycosylated at 52 kDa despite the two asparagine sites being intact, which supports statement II: the enzymes that add the oligosaccharide act on the lumenal side and cannot reach a chain left in the cytosol. Nothing in the table reports whether the cytosolic protein is correctly folded or active, so statement III is untested.",
+   "wrong": {
+    "A": "Statement I is supported, but the mass of 52 kDa with both asparagine sites present also establishes statement II.",
+    "B": "Statement II is supported, but the location of the protein in the cytosol establishes statement I as directly.",
+    "D": "Statement III cannot be judged from these data, because no measurement of folding or of catalytic activity is reported for any preparation."
+   },
+   "category": "1A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "1"
+  },
+  {
+   "id": "bb2-p9-q3",
+   "passageId": "bb2-p9",
+   "stem": "Tunicamycin lowered secretion to 40% and the asparagine substitutions lowered it to 55%, while in both cases the protein still reached the Golgi apparatus. What do these results show about the oligosaccharides?",
+   "choices": {
+    "A": "they are the signal that directs the protein into the secretory pathway",
+    "B": "they must be added before the signal sequence can be removed",
+    "C": "they are required for the chain to cross the membrane of the endoplasmic reticulum",
+    "D": "they are not required for entry into the pathway, but they raise the efficiency of export"
+   },
+   "correct": "D",
+   "explanation": "Two independent ways of removing the oligosaccharides, one chemical and one genetic, both leave a protein that is translocated, processed and carried as far as the Golgi apparatus, so the sugars are not required for any of those steps. Secretion nevertheless falls from 85% to 40 and 55%, so the sugars do make export more efficient, as expected of groups that assist folding and quality control.",
+   "wrong": {
+    "A": "Entry into the pathway is directed by the signal sequence, and both unglycosylated proteins entered and were partly secreted without any oligosaccharide at all.",
+    "B": "Both unglycosylated preparations run at 52 kDa, the mass of the chain after the 2.5 kDa signal sequence has been cut off, so cleavage happened without them.",
+    "C": "Both unglycosylated proteins reached the Golgi apparatus, which can only be reached from the lumen, so translocation clearly occurred."
+   },
+   "category": "2A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "6"
+  },
+  {
+   "id": "bb2-p9-q4",
+   "passageId": "bb2-p9",
+   "stem": "Brefeldin A left the labelled enzyme at 56 kDa in the endoplasmic reticulum. Which step does the drug block?",
+   "choices": {
+    "A": "budding of coated vesicles that carry cargo to the Golgi apparatus",
+    "B": "movement of the growing chain through the channel in the membrane",
+    "C": "removal of the signal sequence by the protease in the lumen",
+    "D": "fusion of secretory vesicles with the plasma membrane"
+   },
+   "correct": "A",
+   "explanation": "The protein is inside the endoplasmic reticulum and carries its two core oligosaccharides, giving 52 plus 4, that is 56 kDa, but it has not been extended in the Golgi apparatus and only 3% reaches the medium. The last step it completed is therefore the last one that happens in the endoplasmic reticulum, which places the block at export from that compartment.",
+   "wrong": {
+    "B": "The protein is in the lumen and glycosylated, both of which require that it crossed the membrane successfully.",
+    "C": "A mass of 56 kDa is the cleaved 52 kDa chain plus two 2 kDa cores; had the signal sequence remained the chain would be about 2.5 kDa heavier.",
+    "D": "A block at the final fusion step would leave the protein in post-Golgi vesicles with its oligosaccharides fully extended, at 60 kDa."
+   },
+   "category": "2A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "6"
+  },
+  {
+   "id": "bb2-p10-q1",
+   "passageId": "bb2-p10",
+   "stem": "Which patient's serum is missing a protein that only the antibody-dependent route requires?",
+   "choices": {
+    "A": "Patient 1",
+    "B": "Patient 2",
+    "C": "Patient 3",
+    "D": "Patient 4"
+   },
+   "correct": "A",
+   "explanation": "A protein needed only by the antibody-dependent route should abolish lysis in the first assay and leave the second untouched. Patient 1 shows exactly that split: 2% lysis with antibody-coated targets against 98% by the antibody-independent route, with a serum C3 of 125 mg/dL inside the reference interval.",
+   "wrong": {
+    "B": "Patient 2 fails both assays and has a serum C3 of 8 mg/dL, far below the reference interval, so the missing protein is one the two routes share.",
+    "C": "Patient 3 fails both assays with a serum C3 of 135 mg/dL, so the missing protein acts after the point at which the two routes converge.",
+    "D": "Patient 4 fails only the antibody-independent assay and lyses antibody-coated targets at 96%, so its missing protein is specific to the other route."
+   },
+   "category": "3B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "8"
+  },
+  {
+   "id": "bb2-p10-q2",
+   "passageId": "bb2-p10",
+   "stem": "Patient 3's serum lyses target cells poorly in both assays although the serum C3 concentration is normal. Which deficiency best accounts for that combination?",
+   "choices": {
+    "A": "C1q",
+    "B": "C4",
+    "C": "factor B",
+    "D": "C8"
+   },
+   "correct": "D",
+   "explanation": "Lysis is the end point of both assays, and both routes reach it through the same late components. A protein needed only after the two routes converge therefore blocks lysis whichever way the cascade is started, and leaves the amount of C3 in the serum untouched because C3 is never consumed. C8 is such a component, acting in the pore itself.",
+   "wrong": {
+    "A": "A C1q deficiency spares the antibody-independent route, which is the pattern seen in Patient 1, whose second assay gives 98% lysis.",
+    "B": "C4 is cleaved only in the antibody-dependent route, so losing it would leave the antibody-independent assay normal.",
+    "C": "Factor B acts only in the antibody-independent route, which is the pattern of Patient 4, whose first assay gives 96% lysis."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "8"
+  },
+  {
+   "id": "bb2-p10-q3",
+   "passageId": "bb2-p10",
+   "stem": "Patient 2 has almost no detectable C3. Which consequence follows most directly from that deficiency?",
+   "choices": {
+    "A": "bacteria are coated poorly with C3b, so phagocytes take them up inefficiently",
+    "B": "antibody can no longer bind to the surface of a bacterium at all",
+    "C": "neutrophils lose the ability to leave a blood vessel at a site of infection",
+    "D": "the antibody-dependent route is blocked at the step that cleaves C4"
+   },
+   "correct": "A",
+   "explanation": "C3b is the principal opsonin of the complement system: once deposited on a surface it is recognised by receptors on phagocytes. With C3 at 8 mg/dL there is almost nothing to deposit, so opsonisation fails, and this is the reason C3 deficiency presents with repeated infection by encapsulated bacteria.",
+   "wrong": {
+    "B": "Antibody binds antigen through its own variable regions and needs no complement protein to do so; C1q acts only after antibody has bound.",
+    "C": "Leaving a vessel depends on adhesion molecules and chemotactic signals, several of which survive a C3 deficiency, so the ability is reduced rather than lost.",
+    "D": "C4 is cleaved upstream of C3, so a C3 deficiency leaves that step intact; the block lies after it."
+   },
+   "category": "3B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "8"
+  },
+  {
+   "id": "bb2-p10-q4",
+   "passageId": "bb2-p10",
+   "stem": "Each of the following is expected in the serum of Patient 4 EXCEPT",
+   "choices": {
+    "A": "normal lysis of target cells that have been coated with antibody",
+    "B": "a serum C3 concentration lying within the reference interval",
+    "C": "assembly of the membrane pore when antibody is present on the target",
+    "D": "amplification of C3b deposition on a surface that carries no antibody"
+   },
+   "correct": "D",
+   "explanation": "Patient 4 lyses antibody-coated targets at 96% but manages only 3% by the antibody-independent route, with a serum C3 of 128 mg/dL. That is the signature of a missing component of the antibody-independent route, which is the route that provides the amplification loop, so amplification on a surface with no antibody on it is the one thing this serum cannot do.",
+   "wrong": {
+    "A": "Table 1 records 96% lysis in the antibody-dependent assay, which is close to the healthy donor's 100%.",
+    "B": "Serum C3 is 128 mg/dL, comfortably inside the reference interval of 100 to 180 mg/dL.",
+    "C": "Lysis in the first assay requires the pore, so the late components must be assembling normally when antibody starts the cascade."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "8"
+  },
+  {
+   "id": "bb2-d1",
+   "passageId": null,
+   "stem": "Which interaction is chiefly responsible for holding an alpha helix in shape?",
+   "choices": {
+    "A": "ionic bonds between side chains four residues apart in the sequence",
+    "B": "disulfide bridges between cysteine residues within the same helix",
+    "C": "hydrogen bonds between a backbone carbonyl oxygen and a backbone amide hydrogen four residues along",
+    "D": "hydrophobic packing of side chains within the interior of the helix"
+   },
+   "correct": "C",
+   "explanation": "The alpha helix is held together by a regular ladder of hydrogen bonds along the backbone itself, each carbonyl oxygen pairing with the amide hydrogen of the residue four positions further on. Because the pattern involves only the backbone, any sequence can in principle form a helix, and the side chains project outward from it.",
+   "wrong": {
+    "A": "Side-chain ionic pairs can stabilise a particular helix, but they depend on having the right charged residues in the right places and are not what defines the structure.",
+    "B": "Disulfide bridges are covalent cross-links that tie distant parts of a folded protein together; within a single helical turn the geometry does not allow them.",
+    "D": "A helix has no interior to pack: the backbone runs through the axis, and the side chains all point away from it into the surroundings."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "1"
+  },
+  {
+   "id": "bb2-d2",
+   "passageId": null,
+   "stem": "An enzyme lowers the activation energy of the reaction it catalyses. Which statement best explains how it does so?",
+   "choices": {
+    "A": "it raises the free energy of the substrate, so less energy is needed to reach the transition state",
+    "B": "it makes the overall reaction more exergonic, so more product is present at equilibrium",
+    "C": "it binds the transition state more tightly than the substrate, lowering the transition state's energy",
+    "D": "it shifts the equilibrium constant of the reaction in favour of the products"
+   },
+   "correct": "C",
+   "explanation": "Catalysis is a matter of differential binding. An enzyme whose active site is complementary to the transition state stabilises that state more than it stabilises the substrate, which lowers the barrier between them. The energies of substrate and product are unchanged, so the equilibrium position is unchanged and only the rate rises.",
+   "wrong": {
+    "A": "Raising the energy of the substrate would mean binding it less well than the free molecule, which would make the enzyme worse than no enzyme at all.",
+    "B": "The free energy change of the reaction is a property of substrate and product, and a catalyst cannot alter it.",
+    "D": "The equilibrium constant is fixed by that same free energy change; a catalyst speeds the approach to equilibrium without moving it."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "2"
+  },
+  {
+   "id": "bb2-d3",
+   "passageId": null,
+   "stem": "An enzyme has a turnover number of 300 per second and a Michaelis constant of 50 micromolar for its substrate. What is its catalytic efficiency?",
+   "choices": {
+    "A": "1.7 × 10⁻⁷ M⁻¹ s⁻¹",
+    "B": "6.0 × 10³ M⁻¹ s⁻¹",
+    "C": "1.5 × 10⁴ M⁻¹ s⁻¹",
+    "D": "6.0 × 10⁶ M⁻¹ s⁻¹"
+   },
+   "correct": "D",
+   "explanation": "Catalytic efficiency is the turnover number divided by the Michaelis constant, both in consistent units. A Michaelis constant of 50 micromolar is 5.0 × 10⁻⁵ M, so the efficiency is 300 divided by 5.0 × 10⁻⁵, which is 6.0 × 10⁶ M⁻¹ s⁻¹ - within about two orders of magnitude of the diffusion limit, so this is an efficient enzyme.",
+   "wrong": {
+    "A": "This divides the Michaelis constant by the turnover number, inverting the ratio, and the units that result are not those of a second-order rate constant.",
+    "B": "This expresses the Michaelis constant in millimolar, 0.050 mM, rather than converting it to molar, which shifts the answer by a factor of a thousand.",
+    "C": "This multiplies the turnover number by 50 rather than dividing by the Michaelis constant, so a tighter-binding enzyme would come out less efficient."
+   },
+   "category": "1A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "2"
+  },
+  {
+   "id": "bb2-d4",
+   "passageId": null,
+   "stem": "A single base substitution changes a codon within the coding sequence of a gene from UCA to UCG. What is the most likely consequence for the protein?",
+   "choices": {
+    "A": "one amino acid in the chain is replaced by a different one",
+    "B": "the reading frame downstream of the substitution is shifted",
+    "C": "the protein is unchanged, because the two codons specify the same amino acid",
+    "D": "translation ends prematurely at the altered codon"
+   },
+   "correct": "C",
+   "explanation": "The genetic code is degenerate, and the degeneracy falls mostly in the third position of the codon. UCA and UCG both specify serine, so the protein made from the altered message is identical to the original. Such a change is called silent.",
+   "wrong": {
+    "A": "A substitution that changed the amino acid would have to change the codon's meaning, and these two codons have the same meaning.",
+    "B": "The frame shifts only when the number of nucleotides changes. A substitution replaces one base with another and leaves the length alone.",
+    "D": "Premature termination requires the new codon to be a stop codon, and UCG specifies serine."
+   },
+   "category": "1B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "4"
+  },
+  {
+   "id": "bb2-d5",
+   "passageId": null,
+   "stem": "A transcription factor binds a sequence lying 20 kilobases upstream of a human gene and increases transcription of that gene. Which term describes the sequence it binds?",
+   "choices": {
+    "A": "a promoter",
+    "B": "an enhancer",
+    "C": "an operator",
+    "D": "a polyadenylation signal"
+   },
+   "correct": "B",
+   "explanation": "An enhancer is a regulatory sequence that raises transcription of a gene and can do so from a long distance and from either orientation, the intervening DNA looping so that the bound factors reach the promoter. Twenty kilobases upstream is well within the range over which enhancers are known to act.",
+   "wrong": {
+    "A": "A promoter is the sequence at which the polymerase and its general factors assemble, and it lies immediately upstream of the transcription start site.",
+    "C": "An operator is the repressor-binding site of a bacterial operon, and binding there lowers transcription rather than raising it.",
+    "D": "A polyadenylation signal lies at the far end of the transcription unit and directs cleavage and tailing of the transcript, not its rate of synthesis."
+   },
+   "category": "1B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "4"
+  },
+  {
+   "id": "bb2-d6",
+   "passageId": null,
+   "stem": "A gamete is found to carry two copies of the same chromosome, both inherited from the same one of the parent's two homologues. Which error produced it?",
+   "choices": {
+    "A": "failure of homologous chromosomes to separate during meiosis I",
+    "B": "failure of sister chromatids to separate during meiosis II",
+    "C": "failure of cytokinesis after the second meiotic division",
+    "D": "an error in DNA replication during the S phase preceding meiosis"
+   },
+   "correct": "B",
+   "explanation": "Meiosis I separates the two homologues, so a gamete with two copies of the same homologue must have received both of that homologue's sister chromatids. Sister chromatids are separated at meiosis II, so it is the second division that failed.",
+   "wrong": {
+    "A": "Failure at meiosis I delivers both homologues to one cell, so the resulting gamete would carry one copy of each parental homologue rather than two of the same one.",
+    "C": "A failure of cytokinesis leaves two nuclei in one cell rather than changing which chromosomes went where.",
+    "D": "An error in replication changes the sequence of a chromosome; it does not alter how many chromosomes reach a gamete."
+   },
+   "category": "1C",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "5"
+  },
+  {
+   "id": "bb2-d7",
+   "passageId": null,
+   "stem": "A woman whose father was affected by an X-linked recessive condition has children with an unaffected man who does not carry the allele. What is the probability that a son of theirs is affected?",
+   "choices": {
+    "A": "0%",
+    "B": "25%",
+    "C": "50%",
+    "D": "100%"
+   },
+   "correct": "C",
+   "explanation": "An affected father passes his only X chromosome to every daughter, so the woman is an obligate carrier. Each son receives one of her two X chromosomes at random, so the probability that a son is affected is 50%. The father contributes a Y to a son and so cannot offset it.",
+   "wrong": {
+    "A": "This reasons that unaffected parents cannot have an affected child, which is exactly what carrier mothers make false for an X-linked recessive condition.",
+    "B": "This is the probability that a given child is both male and affected, which is a different question from the probability that a son is affected.",
+    "D": "This treats the woman as affected rather than as a carrier; she has one normal X chromosome from her mother."
+   },
+   "category": "1C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "5"
+  },
+  {
+   "id": "bb2-d8",
+   "passageId": null,
+   "stem": "How many rounds of the beta-oxidation cycle are needed to convert one molecule of palmitate, a saturated fatty acid of 16 carbons, entirely to acetyl-CoA?",
+   "choices": {
+    "A": "16",
+    "B": "8",
+    "C": "7",
+    "D": "6"
+   },
+   "correct": "C",
+   "explanation": "Each round shortens the chain by two carbons and releases one acetyl-CoA. A 16-carbon chain yields 8 acetyl-CoA in total, but the last round splits a four-carbon intermediate into two of them at once, so the number of rounds is one fewer than the number of acetyl-CoA, that is 7.",
+   "wrong": {
+    "A": "This is the number of carbon atoms in palmitate, not the number of cycles; each cycle removes two of them.",
+    "B": "This is the number of acetyl-CoA molecules produced, which exceeds the number of cycles by one because the final cycle releases two.",
+    "D": "This subtracts two from the eight acetyl-CoA, as though the last cycle produced none at all."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb2-d9",
+   "passageId": null,
+   "stem": "Which substrate is LEAST able to supply carbon for the net synthesis of glucose in a fasting person?",
+   "choices": {
+    "A": "glycerol released from adipose triacylglycerol",
+    "B": "palmitate released from adipose triacylglycerol",
+    "C": "lactate released from exercising skeletal muscle",
+    "D": "alanine released from the breakdown of muscle protein"
+   },
+   "correct": "B",
+   "explanation": "An even-chain fatty acid is oxidised to acetyl-CoA, and acetyl-CoA entering the citric acid cycle loses both of its carbons as CO₂ before oxaloacetate is regenerated. The reaction that made the acetyl-CoA, catalysed by pyruvate dehydrogenase, is irreversible, so there is no route by which these carbons can reach glucose in net terms.",
+   "wrong": {
+    "A": "Glycerol is phosphorylated in the liver and oxidised to dihydroxyacetone phosphate, which is a glycolytic intermediate and feeds straight into the pathway.",
+    "C": "Lactate is oxidised back to pyruvate, which is carboxylated to oxaloacetate, and this is the main gluconeogenic route during and after exercise.",
+    "D": "Alanine is transaminated to pyruvate and so enters at the same point, which is why it is the chief amino acid exported by fasting muscle."
+   },
+   "category": "1D",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "3"
+  },
+  {
+   "id": "bb2-d10",
+   "passageId": null,
+   "stem": "An investigator wants to know whether a cell line meets most of its ATP demand by oxidative phosphorylation or by glycolysis. Which measurement would distinguish the two best?",
+   "choices": {
+    "A": "the concentration of ATP in the cells at a single time point",
+    "B": "the rate at which the cells take up glucose from the medium",
+    "C": "the rate of oxygen consumption together with the rate of lactate release",
+    "D": "the activity of hexokinase measured in a lysate of the cells"
+   },
+   "correct": "C",
+   "explanation": "The two pathways have distinct products that leave the cell, so measuring both fluxes at once separates them: oxygen consumption reports the rate of oxidative phosphorylation, and lactate release reports the glycolytic flux that ends in fermentation. Taking them together also allows the share of ATP from each to be estimated.",
+   "wrong": {
+    "A": "Cells hold ATP nearly constant whichever pathway supplies it, so a single concentration says almost nothing about the rate at which it is being made.",
+    "B": "Glucose uptake rises with glycolysis, but glucose also feeds oxidative metabolism, so uptake alone cannot say which fate the carbon meets.",
+    "D": "An activity measured in a lysate reports how much enzyme is present under assay conditions, not the flux running through the pathway in living cells."
+   },
+   "category": "1D",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb2-d11",
+   "passageId": null,
+   "stem": "Which motor protein carries cargo towards the plus end of a microtubule?",
+   "choices": {
+    "A": "kinesin",
+    "B": "cytoplasmic dynein",
+    "C": "myosin V",
+    "D": "dynamin"
+   },
+   "correct": "A",
+   "explanation": "Most kinesins walk towards the plus end of a microtubule, which in an animal cell points away from the centrosome, so kinesin carries cargo out towards the periphery and down an axon away from the cell body.",
+   "wrong": {
+    "B": "Cytoplasmic dynein is the minus-end motor of the microtubule system, carrying cargo inwards towards the centrosome.",
+    "C": "Myosin V is an actin-based motor and does not engage microtubules at all.",
+    "D": "Dynamin is a GTPase that pinches off budding vesicles; it is not a motor and does not walk along a filament."
+   },
+   "category": "2A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "6"
+  },
+  {
+   "id": "bb2-d12",
+   "passageId": null,
+   "stem": "A cell that suffers double-strand DNA breaks during G2 does not enter mitosis. Which event does the checkpoint prevent?",
+   "choices": {
+    "A": "firing of replication origins in a second round of DNA synthesis",
+    "B": "condensation of the chromosomes and breakdown of the nuclear envelope while breaks remain unrepaired",
+    "C": "separation of sister chromatids once the spindle has formed",
+    "D": "exit from mitosis before the chromosomes have segregated"
+   },
+   "correct": "B",
+   "explanation": "The checkpoint at the G2 to M transition holds the mitosis-promoting cyclin-dependent kinase inactive while damage persists. Entry into mitosis is what that kinase triggers, so what the checkpoint prevents is the start of mitosis: chromosome condensation and the breakdown of the nuclear envelope, which would commit a cell with broken chromosomes to segregate them.",
+   "wrong": {
+    "A": "Re-firing of origins within one cycle is prevented by licensing controls that act in S phase, not by the damage checkpoint before mitosis.",
+    "C": "That step is governed by the spindle assembly checkpoint, which acts later and responds to unattached kinetochores rather than to DNA damage.",
+    "D": "Exit from mitosis is controlled after the metaphase to anaphase transition, by which point the cell has already entered mitosis."
+   },
+   "category": "2C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "6"
+  },
+  {
+   "id": "bb2-d13",
+   "passageId": null,
+   "stem": "A bacterial culture in exponential growth rises from 1.0 × 10³ to 6.4 × 10⁴ cells per millilitre in 3.0 hours. What is the doubling time?",
+   "choices": {
+    "A": "30 min",
+    "B": "36 min",
+    "C": "60 min",
+    "D": "90 min"
+   },
+   "correct": "A",
+   "explanation": "The culture grew by a factor of 64, and 64 is 2 to the sixth power, so six doublings occurred. Three hours is 180 minutes, and 180 divided by 6 gives a doubling time of 30 min.",
+   "wrong": {
+    "B": "This counts five doublings instead of six, as though a 64-fold rise were 2 to the fifth power rather than 2 to the sixth.",
+    "C": "This takes the number of doublings to be three because the culture grew for three hours, confusing the length of the experiment with the number of divisions.",
+    "D": "This treats the rise as two doublings, which would be a fourfold increase rather than the 64-fold increase observed."
+   },
+   "category": "2B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "9"
+  },
+  {
+   "id": "bb2-d14",
+   "passageId": null,
+   "stem": "A person moved into a cold room begins to shiver, and blood flow to the skin falls. Which structure integrates these two responses?",
+   "choices": {
+    "A": "the medulla oblongata",
+    "B": "the hypothalamus",
+    "C": "the anterior pituitary",
+    "D": "the adrenal cortex"
+   },
+   "correct": "B",
+   "explanation": "The hypothalamus holds the body's thermal set point, compares it against signals from skin and core thermoreceptors, and drives the motor and sympathetic outputs that follow. Shivering and cutaneous vasoconstriction are two of those outputs, which is why both appear together.",
+   "wrong": {
+    "A": "The medulla oblongata holds the reflex centres for breathing and for moment-to-moment control of blood pressure, not the thermal set point.",
+    "C": "The anterior pituitary releases hormones on hypothalamic instruction; it is downstream of the integration rather than performing it.",
+    "D": "The adrenal cortex secretes steroid hormones in response to signals it receives, and it cannot drive a somatic motor response such as shivering."
+   },
+   "category": "3A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "7"
+  },
+  {
+   "id": "bb2-d15",
+   "passageId": null,
+   "stem": "A resting person voluntarily breathes deeply and rapidly for two minutes. What happens in the arterial blood?",
+   "choices": {
+    "A": "PCO₂ falls and pH rises",
+    "B": "PCO₂ rises and pH falls",
+    "C": "PCO₂ falls and pH falls",
+    "D": "PCO₂ is unchanged and pH rises"
+   },
+   "correct": "A",
+   "explanation": "Ventilation above the rate needed to clear metabolic CO₂ blows off carbon dioxide faster than it is produced, so arterial PCO₂ falls. Carbon dioxide is the acid of the bicarbonate buffer system, so removing it leaves fewer protons and the pH rises, which is a respiratory alkalosis.",
+   "wrong": {
+    "B": "This is the pattern of hypoventilation, in which CO₂ accumulates; here ventilation has been increased rather than reduced.",
+    "C": "The two changes move in opposite directions, because CO₂ is the acid of the system: losing it cannot lower the pH.",
+    "D": "Rapid deep breathing in a resting person necessarily clears CO₂ faster than metabolism makes it, so PCO₂ cannot stay put."
+   },
+   "category": "3B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "7"
+  }
+ ]
+}

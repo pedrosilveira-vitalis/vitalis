@@ -1,0 +1,1444 @@
+{
+ "passages": [
+  {
+   "id": "ps2-p1",
+   "title": "Rotating shifts, sleep architecture and vigilance",
+   "paragraphs": [
+    "Sleep is not a uniform state. Across a night a sleeper cycles through light non-rapid-eye-movement stages, a deeper slow-wave stage, and rapid-eye-movement sleep, and the proportions of each shift with the time of day at which sleep is attempted. Investigators recruited 72 hospital staff from a single teaching hospital and studied them after they had worked a particular rota for two consecutive weeks. Twenty-four worked days only. Twenty-four worked a slow rotation, in which the shift changed once every two weeks. Twenty-four worked a rapid rotation, in which the shift changed every second day. Staff were not assigned to a rota by the investigators; each had been placed on a rota by the hospital's scheduling office months earlier.",
+    "At the end of the two weeks each participant slept one night in a laboratory, beginning at the hour at which they would ordinarily have gone to bed. Electrodes recorded the electroencephalogram, eye movements and muscle tone, and a technician blind to rota scored each 30-second epoch as stage 1, 2 or 3 of non-rapid-eye-movement sleep, as rapid-eye-movement sleep, or as wake. On waking, participants completed a 10-minute vigilance task in which they pressed a key whenever a small dot appeared at an unpredictable interval; a response slower than 500 ms was counted as a lapse. Table 1 gives the mean minutes in each stage, the mean total sleep time, and the mean number of lapses.",
+    "The rapid-rotation group slept 80 minutes less in total than the day-only group, and recorded more than three times as many lapses. The investigators noted that the shortfall was not spread evenly across the stages, and that the stage most reduced is the one from which sleepers are hardest to wake. They argued that a rota which moves a worker's sleep period before the circadian system has adjusted to the previous move imposes a cost that no single night of recovery sleep repays."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean minutes per stage, total sleep time and vigilance lapses, by rota.",
+    "markup": "<table><thead><tr><th>Rota</th><th>Stage 1</th><th>Stage 2</th><th>Stage 3</th><th>REM</th><th>Total sleep time</th><th>Lapses</th></tr></thead><tbody><tr><td>Day only</td><td>25</td><td>220</td><td>95</td><td>100</td><td>440</td><td>3</td></tr><tr><td>Slow rotation</td><td>32</td><td>205</td><td>78</td><td>85</td><td>400</td><td>6</td></tr><tr><td>Rapid rotation</td><td>40</td><td>190</td><td>60</td><td>70</td><td>360</td><td>11</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps2-p2",
+   "title": "Two routes into early vocabulary",
+   "paragraphs": [
+    "Children differ widely in how many words they produce at two and a half years, and the input they hear differs widely too. Two features of that input are often confused. The first is sheer quantity: how many words an adult speaks near the child in an hour. The second is contingency: how often an adult answers what the child has just done or said, promptly and on the same topic. Investigators followed 96 children recruited from nurseries in one city. At 18 months each family wore a recorder for two full days at home. Trained coders transcribed six randomly chosen hours per family and counted adult words per hour, and separately the proportion of the child's own vocalisations that drew an adult reply within two seconds on the same topic.",
+    "Families also reported hours of television audible in the room per day, and parents completed a checklist of words the child produced. At 30 months the same checklist was completed again, and the number of words produced was the study's outcome. Coders were blind to the families' 18-month vocabulary scores. Table 1 gives the correlation of each 18-month measure with vocabulary at 30 months, together with the correlation of contingent replies with 30-month vocabulary after adult words per hour had been partialled out.",
+    "Quantity and contingency were themselves correlated with each other at r = 0.39, so a family that spoke more also tended to reply more. The investigators argued that the two are nevertheless separable, and that the second carries most of the association with later vocabulary. They were careful to say that no family had been assigned to speak in one way rather than another, and that nothing in the design rules out a third variable that raises both contingent replying and the child's own rate of word learning."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Correlation of each 18-month measure with words produced at 30 months (n = 96).",
+    "markup": "<table><thead><tr><th>Measure at 18 months</th><th>r with 30-month vocabulary</th></tr></thead><tbody><tr><td>Adult words per hour</td><td>0.24</td></tr><tr><td>Contingent replies (proportion)</td><td>0.48</td></tr><tr><td>Hours of audible television per day</td><td>-0.11</td></tr><tr><td>Words produced at 18 months</td><td>0.55</td></tr><tr><td>Contingent replies, adult words per hour partialled out</td><td>0.44</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps2-p3",
+   "title": "Tokens, schedules and persistence in a classroom",
+   "paragraphs": [
+    "A reading programme in one school issued plastic tokens that children could exchange for time in the library. Investigators used the programme to compare three schedules of reinforcement. Sixty children aged 9 and 10 were assigned at random to one of three groups of 20. In the fixed-ratio group a token arrived after every tenth page read. In the variable-ratio group a token arrived after an average of ten pages, but the number required varied unpredictably from two to eighteen. In the fixed-interval group a token arrived for the first page completed after each two minutes of reading had elapsed. All three groups read in daily 20-minute sessions for three weeks, and by the final session of the token phase the three groups were reading an equal mean of 45 pages per session.",
+    "Tokens were then withdrawn without announcement. The sessions continued unchanged in every other respect for four further days. Figure 1 shows the mean pages read per session for each group in the last token session and in each of the four withdrawal sessions. Teachers recorded the pages read and knew which schedule each child had been on.",
+    "Reading fell in all three groups once the tokens stopped, but not at the same rate. By the fourth withdrawal session the variable-ratio group was still reading 29 pages per session, about 64 percent of its token-phase level, while the fixed-ratio group had fallen to 9. The investigators argued that what a schedule teaches is not only how often to respond but also what the absence of a reinforcer means. Under a fixed schedule a missing token is an informative event, because the child has learned exactly when one is due. Under a variable schedule no particular page is the one that pays, so a run of unrewarded pages is nothing a child has not met before."
+   ],
+   "figure": {
+    "kind": "svg",
+    "caption": "Figure 1  Mean pages read per session in the last token session (T) and the four withdrawal sessions. Solid line, variable ratio; dashed line, fixed ratio; dotted line, fixed interval.",
+    "markup": "<svg viewBox=\"0 0 440 240\" role=\"img\" aria-label=\"Pages read per session falling after tokens are withdrawn, least steeply in the variable-ratio group\"><line x1=\"60\" y1=\"200\" x2=\"400\" y2=\"200\" stroke=\"currentColor\"></line><line x1=\"60\" y1=\"200\" x2=\"60\" y2=\"50\" stroke=\"currentColor\"></line><text x=\"40\" y=\"204\" font-size=\"11\">0</text><text x=\"34\" y=\"128\" font-size=\"11\">25</text><text x=\"34\" y=\"54\" font-size=\"11\">50</text><text x=\"56\" y=\"220\" font-size=\"11\">T</text><text x=\"128\" y=\"220\" font-size=\"11\">W1</text><text x=\"203\" y=\"220\" font-size=\"11\">W2</text><text x=\"278\" y=\"220\" font-size=\"11\">W3</text><text x=\"353\" y=\"220\" font-size=\"11\">W4</text><polyline points=\"60,65 135,74 210,86 285,101 360,113\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"></polyline><polyline points=\"60,65 135,80 210,116 285,149 360,173\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"7 4\"></polyline><polyline points=\"60,65 135,110 210,134 285,155 360,164\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"2 4\"></polyline><text x=\"366\" y=\"112\" font-size=\"11\">VR</text><text x=\"366\" y=\"176\" font-size=\"11\">FR</text><text x=\"366\" y=\"160\" font-size=\"11\">FI</text></svg>"
+   }
+  },
+  {
+   "id": "ps2-p4",
+   "title": "Eight weeks of two treatments for low mood",
+   "paragraphs": [
+    "Two hundred and forty adults presenting to primary care with moderate depressive symptoms consented to a trial. A score of 24 or more on a 60-point symptom inventory was required for entry. Patients were allocated by a computer-generated sequence, concealed from the recruiting clinician, to one of three arms of 80. The first arm received a structured behavioural activation programme of eight weekly sessions, in which patients scheduled and recorded small activities they had stopped doing. The second received a standard antidepressant at a fixed dose. The third was placed on a waiting list and offered the programme after the trial ended.",
+    "Symptoms were scored at entry and at week eight by assessors who were not told which arm a patient had been allocated to. A patient was counted as a responder if their score fell by at least half. Table 1 gives the number allocated and the number still attending at week eight, the mean symptom score at each time point, and the proportion of responders in each arm. Patients who stopped attending were telephoned and, where they agreed, scored at week eight at home.",
+    "The three arms began at effectively the same mean score. By week eight both active arms had separated from the waiting list, and the behavioural programme had the highest proportion of responders. The waiting-list arm also improved, from a mean of 32 to a mean of 28, which the investigators took as a reason that no uncontrolled before-and-after comparison could have settled the question. Attendance differed across the arms, with the antidepressant arm losing the most patients, and the investigators reported that most of those who left that arm cited side effects in the first fortnight."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Allocation, attendance, mean symptom score (0 to 60) and response rate by arm.",
+    "markup": "<table><thead><tr><th>Arm</th><th>Allocated</th><th>Attending at week 8</th><th>Mean score at entry</th><th>Mean score at week 8</th><th>Responders</th></tr></thead><tbody><tr><td>Behavioural activation</td><td>80</td><td>68</td><td>32</td><td>19</td><td>45%</td></tr><tr><td>Antidepressant</td><td>80</td><td>62</td><td>31</td><td>20</td><td>40%</td></tr><tr><td>Waiting list</td><td>80</td><td>74</td><td>32</td><td>28</td><td>20%</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps2-p5",
+   "title": "Dose, symptom cluster and side effect in first-episode psychosis",
+   "paragraphs": [
+    "Antipsychotic drugs in common use block dopamine D2 receptors, and the clinical question is how much blockade is worth its cost. A clinic followed 120 patients presenting with a first episode of psychosis. Each was rated on two subscales of a standard interview, one covering positive symptoms such as hallucinations and delusions and one covering negative symptoms such as blunted affect, poverty of speech and loss of volition. Each subscale runs from 0 to 30, with higher scores indicating more severe symptoms. Patients were allocated at random to a low, standard or high fixed dose of the same D2 antagonist and rated again after six weeks by an interviewer who did not know the dose.",
+    "A third scale recorded movement side effects of the kind attributed to blockade of dopamine pathways outside the limbic system, on a 0 to 30 scale. Table 1 gives the mean score on each measure at entry and at six weeks. The three groups were well matched at entry, with identical mean subscale scores.",
+    "Positive symptoms fell at every dose, and fell further as the dose rose. Negative symptoms barely moved at any dose, and did not move at all at the high dose. Movement side effects rose steeply with dose, from a mean of 2 at the low dose to a mean of 11 at the high dose. The clinicians concluded that the drug acts on one symptom cluster rather than on the disorder as a whole, and that the step from the standard to the high dose bought a single further point of positive-symptom improvement at a considerable cost. They added that the negative cluster, which predicts long-term functioning better than the positive cluster does, was left essentially untouched."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean subscale scores (0 to 30) at entry and at six weeks, by dose.",
+    "markup": "<table><thead><tr><th>Dose</th><th>Positive, entry</th><th>Positive, week 6</th><th>Negative, entry</th><th>Negative, week 6</th><th>Movement side effects, week 6</th></tr></thead><tbody><tr><td>Low</td><td>24</td><td>18</td><td>15</td><td>14</td><td>2</td></tr><tr><td>Standard</td><td>24</td><td>13</td><td>15</td><td>13</td><td>5</td></tr><tr><td>High</td><td>24</td><td>12</td><td>15</td><td>15</td><td>11</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps2-p6",
+   "title": "Goal specificity, a watched model and persistence at a puzzle",
+   "paragraphs": [
+    "A laboratory task was used to separate two things that often travel together: what a person is asked to achieve, and what they believe they can achieve. One hundred and fifty undergraduates were told they would work through a set of letter puzzles of graded difficulty for 25 minutes. Before any instruction was given, each rated on a 1 to 10 scale how confident they were that they could solve puzzles of this kind. That rating is the baseline confidence column of Table 1.",
+    "Participants were then assigned at random to one of four conditions. The do-your-best group was asked simply to do as well as they could. The easy-goal group was asked to solve eight puzzles. The difficult-goal group was asked to solve sixteen. The fourth group received the same difficult goal, but first watched a two-minute recording in which a student of their own age worked through two puzzles aloud, got one wrong, said what she would try next, and solved it. The model left the recording before the participant began, and no participant worked in the presence of another person.",
+    "The investigators recorded the number of puzzles solved, and the number of minutes a participant kept working after reaching a puzzle they could not solve, which was the study's measure of persistence. At the end, participants rated their confidence again on the same scale. Table 1 gives the means. Baseline confidence was flat across the four conditions and bore no relation to the number of puzzles a group went on to solve. Confidence measured after the task told a different story: it rose by more than a point in both difficult-goal conditions and by two tenths of a point in the other two. The investigators argued that a specific and demanding target changes effort, and that watching someone else struggle and recover changes what a person expects effort to accomplish."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean confidence before and after the task, puzzles solved, and minutes of persistence after failure.",
+    "markup": "<table><thead><tr><th>Condition</th><th>Confidence before</th><th>Puzzles solved</th><th>Minutes of persistence</th><th>Confidence after</th></tr></thead><tbody><tr><td>Do your best</td><td>6.3</td><td>10</td><td>6.0</td><td>6.5</td></tr><tr><td>Easy goal (eight puzzles)</td><td>6.4</td><td>9</td><td>5.0</td><td>6.6</td></tr><tr><td>Difficult goal (sixteen puzzles)</td><td>6.2</td><td>14</td><td>9.5</td><td>7.4</td></tr><tr><td>Difficult goal, after watching a model</td><td>6.3</td><td>16</td><td>11.0</td><td>7.9</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps2-p7",
+   "title": "How a test is described and how it is taken",
+   "paragraphs": [
+    "Performance on a test is not fixed by what a person knows. Investigators prepared a 20-item quantitative test of a difficulty the participating students had met in coursework, and administered it under a 20-minute limit. One hundred and eighty students were assigned at random to one of four cells formed by crossing two factors. The first factor was how the test was introduced. Half were told it was a diagnostic measure of mathematical ability that reliably distinguishes strong from weak students. Half were told it was a set of problem-solving puzzles being piloted for a later study, and that individual scores would not be examined.",
+    "The second factor was when a short demographic form, asking for age, sex and ethnic background, was placed. Half completed it immediately before the test and half immediately after. Every cell contained 45 students, every cell had the same 20 minutes, and the demographic form took under a minute in all cells and was timed separately so that it took no time from the test. Prior course grades were recorded from the registry and did not differ across the four cells. Table 1 gives the mean number of items answered correctly.",
+    "The two factors did not act independently. Where the test was called a diagnostic measure of ability, students who had just given their demographic details scored 9.8 against 12.6 for those who gave them afterwards. Where the same test was called a set of puzzles, the order of the form made almost no difference, 12.4 against 12.8. In a free-response item afterwards, several students in the low-scoring cell wrote that the test was not the sort of thing they were good at, and that they had been thinking during the test about how their answers would be read."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean items correct out of 20, by framing and position of the demographic form (n = 45 per cell).",
+    "markup": "<table><thead><tr><th>Framing of the test</th><th>Demographic form before</th><th>Demographic form after</th></tr></thead><tbody><tr><td>Diagnostic of mathematical ability</td><td>9.8</td><td>12.6</td></tr><tr><td>Problem-solving puzzles being piloted</td><td>12.4</td><td>12.8</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps2-p8",
+   "title": "Group size and intervention in a staged emergency",
+   "paragraphs": [
+    "One hundred and sixty adults arrived individually for what they understood to be a study of consumer preferences. Each was shown to a waiting room and given a questionnaire. After four minutes a recording was played from an adjoining room: a crash of equipment, then a voice calling for help and saying that something had fallen on them. The recording ran for two minutes and then stopped. An observer behind a one-way screen timed how long it took the participant to leave the room or call out, and whether they did so at all within the two minutes.",
+    "Participants were assigned at random to one of four conditions of 40. In the first they waited alone. In the second, two other people were in the room; in the third, five were. Those others were confederates instructed to glance up at the sound, then return to their questionnaires and remain seated. The fourth condition also had five others, but one of them was instructed to put down the questionnaire at the first sound, look towards the wall and say nothing further. Table 1 gives the proportion who intervened and the mean time taken by those who did.",
+    "Intervention fell as the number of people in the room rose, and the time taken rose with it. The fourth condition shows that the number present was not the whole story. A single person who visibly treated the sound as worth attending to raised intervention from 31 percent to 62 percent without changing how many people were in the room. In a debriefing interview, participants in the five-other condition most often said that they had assumed someone else had already gone to help or had already telephoned for help, and several said that because nobody else had moved they had taken the sound to be part of the study."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Proportion intervening within two minutes and mean time to intervene, by condition (n = 40 each).",
+    "markup": "<table><thead><tr><th>Condition</th><th>Intervened</th><th>Mean time to intervene</th></tr></thead><tbody><tr><td>Alone</td><td>78%</td><td>24 s</td></tr><tr><td>Two others present</td><td>45%</td><td>52 s</td></tr><tr><td>Five others present</td><td>31%</td><td>71 s</td></tr><tr><td>Five others, one visibly attending</td><td>62%</td><td>38 s</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps2-p9",
+   "title": "Ties, support and reported health in two neighbourhoods",
+   "paragraphs": [
+    "A survey of 1,400 adults was drawn from two adjacent neighbourhoods of one city, one with a median household income roughly twice that of the other. Interviewers asked each respondent how many people they could call on to discuss something that mattered to them, how often they met those people, and whether they belonged to any club, congregation or association that met at least monthly. Respondents also rated their own health on a five-point scale, and completed a short screening questionnaire for depressive symptoms. Every measure was taken in the same interview.",
+    "Table 1 groups respondents by the number of close ties reported and gives, for each band, the proportion rating their health as good or excellent and the proportion screening positive on the depression questionnaire. The association ran in the same direction in both neighbourhoods. Respondents who belonged to an association meeting at least monthly rated their health as good or excellent 62 percent of the time, against 48 percent of those who did not, and membership was markedly less common in the lower-income neighbourhood, where fewer such associations met within walking distance.",
+    "The investigators were explicit about what the design could and could not support. Ties and health had been measured at the same moment from the same respondent, so an association between them is open to being read in either direction, and to being produced by something that bears on both. They noted that the resources which flow through a network, from a lift to a clinic to a word about a job, are unevenly distributed because the institutions through which ties are formed are unevenly distributed, and that a person's stock of such resources is therefore not simply a matter of how sociable they are."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Self-rated health and depression screening by number of close ties (n = 1,400).",
+    "markup": "<table><thead><tr><th>Close ties reported</th><th>Respondents</th><th>Health good or excellent</th><th>Screened positive for depression</th></tr></thead><tbody><tr><td>None or one</td><td>320</td><td>41%</td><td>28%</td></tr><tr><td>Two or three</td><td>610</td><td>58%</td><td>17%</td></tr><tr><td>Four or more</td><td>470</td><td>69%</td><td>11%</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps2-p10",
+   "title": "Segregation and primary-care supply in one county",
+   "paragraphs": [
+    "Where people live is not independent of the services they can reach. Analysts assembled administrative records for the 148 census tracts of a single county. For each tract they recorded the share of residents belonging to the county's largest minority group, the number of primary-care physicians with a practice address in the tract per 10,000 residents, the share of adults reporting a usual source of medical care, and the number of hospital admissions per 1,000 residents for conditions that timely outpatient care is generally held to prevent. Tracts were then sorted into three bands by the first of these measures.",
+    "Table 1 gives the mean of each remaining measure within each band. Physician supply in the most segregated band was about a third of the supply in the least segregated band, and admissions for the conditions in question were more than twice as high. The analysts repeated the comparison after adjusting each tract's admission figure for the share of its residents without health insurance, and reported that the gradient across the bands was reduced but still present.",
+    "The analysts cautioned that the unit of analysis is the tract rather than the person, so a difference between bands need not hold of any particular resident, and that the share of one group's residents in a tract is a crude summary of a pattern that is better captured by measures of how evenly two populations are distributed across all the tracts of a city. They nevertheless argued that a practice chooses its address, that addresses follow the concentration of insured and higher-income patients, and that the resulting map is a structural feature of the county rather than an aggregate of individual choices about seeking care."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean primary-care supply, usual source of care and preventable admissions, by tract band.",
+    "markup": "<table><thead><tr><th>Share of residents from the largest minority group</th><th>Tracts</th><th>Primary-care physicians per 10,000</th><th>Adults with a usual source of care</th><th>Preventable admissions per 1,000</th></tr></thead><tbody><tr><td>Under 20%</td><td>61</td><td>9.6</td><td>84%</td><td>12</td></tr><tr><td>20% to 50%</td><td>52</td><td>6.4</td><td>71%</td><td>19</td></tr><tr><td>Over 50%</td><td>35</td><td>3.2</td><td>58%</td><td>28</td></tr></tbody></table>"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "ps2-p1-q1",
+   "passageId": "ps2-p1",
+   "stem": "The technician scored one stage from which sleepers are hardest to wake and which the passage identifies as most reduced by rapid rotation. Which electroencephalographic feature characterises that stage?",
+   "choices": {
+    "A": "alpha waves of 8 to 12 Hz",
+    "B": "sleep spindles and K-complexes",
+    "C": "low-voltage mixed-frequency activity with rapid eye movements",
+    "D": "high-amplitude delta waves below 4 Hz"
+   },
+   "correct": "D",
+   "explanation": "Stage 3 of non-REM sleep is slow-wave sleep, defined by high-amplitude delta activity below about 4 Hz, and it is the stage from which a sleeper is hardest to rouse. Table 1 shows stage 3 falling from 95 minutes under a day rota to 60 under rapid rotation, the largest proportional loss of any stage.",
+   "wrong": {
+    "A": "Alpha activity dominates quiet wakefulness with the eyes closed and drops away at sleep onset, so it does not define any sleep stage.",
+    "B": "Spindles and K-complexes are the signature of stage 2, which is lighter sleep and which Table 1 shows falling by only 30 minutes.",
+    "C": "Low-voltage mixed-frequency activity with rapid eye movements describes REM sleep, not the deepest non-REM stage."
+   },
+   "category": "6B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "19"
+  },
+  {
+   "id": "ps2-p1-q2",
+   "passageId": "ps2-p1",
+   "stem": "Which feature of this study most limits the conclusion that rotating shifts caused the reduction in total sleep time?",
+   "choices": {
+    "A": "Sleep was recorded on a single night rather than over a week",
+    "B": "The vigilance task was given only after the recorded night",
+    "C": "The technician scored epochs without knowing the participant's rota",
+    "D": "Staff were already on their rotas, which the investigators did not assign"
+   },
+   "correct": "D",
+   "explanation": "The rota was set by the hospital's scheduling office, so whatever determined who ended up on a rapid rotation, such as seniority, caring responsibilities or a preference for the extra pay, may also bear on how well a person sleeps. Without random assignment the groups are not exchangeable and a difference between them cannot be attributed to the rota itself.",
+   "wrong": {
+    "A": "A single night makes the estimate noisier but does not bias it toward one rota, so it weakens precision rather than the causal claim.",
+    "B": "A pre-task vigilance measure would be useful, but the absence of one does not explain why the groups differed in sleep.",
+    "C": "Blind scoring is a strength of the study: it removes one route by which the scorer's expectations could shape the stage totals."
+   },
+   "category": "6B",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps2-p1-q3",
+   "passageId": "ps2-p1",
+   "stem": "According to Table 1, what share of the rapid-rotation group's total sleep time was spent in stage 3 of non-REM sleep?",
+   "choices": {
+    "A": "21.6%",
+    "B": "20.7%",
+    "C": "16.7%",
+    "D": "13.6%"
+   },
+   "correct": "C",
+   "explanation": "The rapid-rotation row gives 60 minutes of stage 3 out of a total sleep time of 360 minutes, and 60 divided by 360 is 0.167, or 16.7%. The comparison that makes the figure meaningful is the day rota's 95 out of 440, which is 21.6%, so the proportion of deep sleep fell as well as the absolute amount.",
+   "wrong": {
+    "A": "This is 95 out of 440, the day-only group's share of stage 3; it reads the stage 3 minutes and the total from the wrong row.",
+    "B": "This is 60 out of 290, which divides stage 3 by the three non-REM stages only and leaves REM out of the total sleep time.",
+    "D": "This divides the rapid-rotation group's 60 minutes of stage 3 by the day-only group's total of 440 minutes, mixing the rows."
+   },
+   "category": "6B",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps2-p1-q4",
+   "passageId": "ps2-p1",
+   "stem": "Consider the following statements. I. The rapid-rotation group spent a smaller share of its total sleep in stage 3 than the day-only group did. II. Mean lapses rose as mean total sleep time fell. III. The slow-rotation group spent more minutes in REM sleep than the day-only group did. Which are supported by Table 1?",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "C",
+   "explanation": "Statement I holds because 60 of 360 minutes is 16.7% against 95 of 440, or 21.6%. Statement II holds because lapses of 3, 6 and 11 line up against total sleep times of 440, 400 and 360 minutes. Statement III fails: the slow-rotation group recorded 85 minutes of REM against 100 for the day-only group.",
+   "wrong": {
+    "A": "This drops statement II, but the lapse column rises monotonically as total sleep time falls across the three rotas.",
+    "B": "This drops statement I, which the stage 3 shares of 16.7% and 21.6% support directly.",
+    "D": "This accepts statement III, but REM minutes fall from 100 to 85 to 70 across the rotas rather than rising."
+   },
+   "category": "6B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "19"
+  },
+  {
+   "id": "ps2-p1-q5",
+   "passageId": "ps2-p1",
+   "stem": "A nurse in the rapid-rotation group reported that during a night shift she noticed her heart pounding and her hands shaking, and concluded from these sensations that she was anxious about the workload. Which account of emotion best fits the sequence she describes?",
+   "choices": {
+    "A": "the James-Lange account, in which the bodily change is the emotion",
+    "B": "the Cannon-Bard account, in which bodily change and feeling arise together",
+    "C": "the appraisal account, in which evaluating the situation produces the arousal",
+    "D": "the two-factor account, in which arousal is interpreted by reference to the situation"
+   },
+   "correct": "D",
+   "explanation": "She describes undifferentiated arousal that is already present and is then given a label drawn from the situation she is in, which is exactly the two-factor sequence of physiological arousal plus a cognitive interpretation of its source. The same pounding heart could have been labelled excitement had the context supplied that reading.",
+   "wrong": {
+    "A": "On the James-Lange account the pattern of bodily change is itself the emotion and needs no interpretive step, but she explicitly reasons from the sensations to a label.",
+    "B": "On the Cannon-Bard account the feeling and the bodily response are triggered simultaneously and independently, so neither is inferred from the other.",
+    "C": "On an appraisal account the evaluation comes first and generates the arousal, whereas here the arousal is noticed first and then explained."
+   },
+   "category": "6C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "21"
+  },
+  {
+   "id": "ps2-p2-q1",
+   "passageId": "ps2-p2",
+   "stem": "At 26 months one child in the sample said \"I holded it\" when describing what she had done. This error is best described as:",
+   "choices": {
+    "A": "telegraphic speech, in which function words are omitted",
+    "B": "overregularisation of a grammatical rule she has acquired",
+    "C": "fast mapping of a word from a single exposure",
+    "D": "a phonological simplification of a cluster she cannot yet produce"
+   },
+   "correct": "B",
+   "explanation": "A child who says \"holded\" has extracted the regular past-tense rule and applied it to a verb that is irregular, which is why the error is evidence of rule learning rather than of its absence. Such errors appear after the child has been producing the correct irregular form, and recede as exceptions are learned individually.",
+   "wrong": {
+    "A": "Telegraphic speech leaves out function words, as in \"want cup\", and the utterance here contains both a pronoun and a determiner.",
+    "C": "Fast mapping is the rapid attachment of a new word to a meaning after very little exposure, which says nothing about inflection.",
+    "D": "A phonological simplification would alter the sounds of a word the child means to produce, not add a grammatical ending."
+   },
+   "category": "6B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "19"
+  },
+  {
+   "id": "ps2-p2-q2",
+   "passageId": "ps2-p2",
+   "stem": "Based on Table 1, what proportion of the variance in 30-month vocabulary is accounted for by the proportion of contingent replies at 18 months?",
+   "choices": {
+    "A": "6%",
+    "B": "19%",
+    "C": "23%",
+    "D": "48%"
+   },
+   "correct": "C",
+   "explanation": "The shared variance is the square of the correlation, and 0.48 × 0.48 = 0.23, so about 23% of the variance in 30-month vocabulary is accounted for. The remaining 77% is not, which is worth holding in mind before the measure is treated as the main driver of vocabulary growth.",
+   "wrong": {
+    "A": "This squares 0.24, the correlation for adult words per hour, and so answers for the wrong row of the table.",
+    "B": "This squares 0.44, the partial correlation with adult word count removed, which answers a different question from the one asked.",
+    "D": "This reports the correlation itself as a percentage, which treats r and r squared as the same quantity."
+   },
+   "category": "6B",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps2-p2-q3",
+   "passageId": "ps2-p2",
+   "stem": "The investigators want to support the stronger claim that contingent replying raises later vocabulary. Which addition to the study would do most to support it?",
+   "choices": {
+    "A": "recruiting a further 200 families from the same nurseries",
+    "B": "transcribing all 48 recorded hours per family rather than six",
+    "C": "assigning families at random to a programme that trains contingent replying",
+    "D": "adjusting the correlation for hours of audible television as well"
+   },
+   "correct": "C",
+   "explanation": "The design is observational, so the association is open to reverse causation and to a third variable that raises both replying and word learning. Assigning families at random to an intervention that changes the proposed cause, and then measuring the outcome, is what converts the association into evidence about direction.",
+   "wrong": {
+    "A": "A larger sample narrows the confidence interval around a correlation but leaves every alternative explanation of that correlation intact.",
+    "B": "Fuller transcription improves how precisely the input is measured and still cannot distinguish cause from consequence.",
+    "D": "Adding a covariate addresses only the confounders that happen to be measured, and the investigators have already shown that one such adjustment leaves the association in place."
+   },
+   "category": "6B",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps2-p2-q4",
+   "passageId": "ps2-p2",
+   "stem": "Table 1 supports each of the following statements EXCEPT:",
+   "choices": {
+    "A": "television audible in the room was associated with larger vocabularies at 30 months",
+    "B": "contingent replying was more strongly associated with later vocabulary than adult word count was",
+    "C": "the association of contingent replying with later vocabulary survived adjustment for adult word count",
+    "D": "vocabulary at 18 months was the single strongest predictor of vocabulary at 30 months"
+   },
+   "correct": "A",
+   "explanation": "Audible television correlates with 30-month vocabulary at -0.11, a weak negative association, so the table gives no support to the claim that more television went with larger vocabularies. The other three statements read the table correctly: 0.48 exceeds 0.24, the partial correlation remains 0.44, and 0.55 is the largest value in the column.",
+   "wrong": {
+    "B": "The table does support this: 0.48 for contingent replies exceeds 0.24 for adult words per hour.",
+    "C": "The table does support this: removing adult word count lowers the correlation only from 0.48 to 0.44.",
+    "D": "The table does support this: 0.55 for earlier vocabulary is the largest correlation reported."
+   },
+   "category": "6B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "19"
+  },
+  {
+   "id": "ps2-p3-q1",
+   "passageId": "ps2-p3",
+   "stem": "Withdrawing the tokens without announcement while the reading sessions continued unchanged is an instance of:",
+   "choices": {
+    "A": "negative reinforcement of the reading response",
+    "B": "extinction of the reinforced response",
+    "C": "punishment of the reading response",
+    "D": "habituation to the reading task"
+   },
+   "correct": "B",
+   "explanation": "Extinction is the withholding of a reinforcer that a response has previously produced, and the behaviour declines as a result. That is exactly the withdrawal phase: nothing aversive is introduced and nothing is removed contingent on the child's behaviour, the tokens simply stop arriving.",
+   "wrong": {
+    "A": "Negative reinforcement would mean removing something unpleasant when the child reads, which would raise reading rather than lower it.",
+    "C": "Punishment requires a consequence delivered because the response occurred; here the consequence is that nothing happens at all.",
+    "D": "Habituation is the waning of a reflexive response to a repeated stimulus and does not describe a change in a reinforced operant."
+   },
+   "category": "7C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "18"
+  },
+  {
+   "id": "ps2-p3-q2",
+   "passageId": "ps2-p3",
+   "stem": "Figure 1 shows the variable-ratio group reading most persistently after the tokens stopped. Which account best explains that result?",
+   "choices": {
+    "A": "an unrewarded run of pages was never a reliable signal that no token was coming",
+    "B": "the variable-ratio group had collected more tokens in total during the token phase",
+    "C": "the variable-ratio group's reading had by then become intrinsically motivated",
+    "D": "a token earned on a variable schedule is a stronger reinforcer than one earned on a fixed schedule"
+   },
+   "correct": "A",
+   "explanation": "On a fixed ratio the child learns precisely when a token is due, so the first page past the tenth that pays nothing is informative and the behaviour drops quickly. On a variable ratio long unrewarded runs occurred during training itself, so the same runs during withdrawal carry no new information, which is why variable schedules are the most resistant to extinction.",
+   "wrong": {
+    "B": "All three groups were reading the same 45 pages per session by the end of the token phase, and the variable-ratio schedule paid on average every tenth page just as the fixed ratio did.",
+    "C": "Nothing in the figure speaks to the children's reasons, and the variable-ratio group's reading declined too, which is not what a shift to intrinsic motivation would predict.",
+    "D": "The tokens were identical across groups; what differed was the rule by which they arrived, not their value."
+   },
+   "category": "7C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "18"
+  },
+  {
+   "id": "ps2-p3-q3",
+   "passageId": "ps2-p3",
+   "stem": "By the fourth withdrawal session, by what percentage had the fixed-ratio group's reading fallen from its final token-phase level?",
+   "choices": {
+    "A": "20%",
+    "B": "36%",
+    "C": "73%",
+    "D": "80%"
+   },
+   "correct": "D",
+   "explanation": "The fixed-ratio group read 45 pages in the last token session and 9 in the fourth withdrawal session, a fall of 36 pages. Expressed against the starting value, 36 divided by 45 is 0.80, a fall of 80%.",
+   "wrong": {
+    "A": "This is 9 divided by 45, the share of the token-phase level still being read, which is the complement of the fall rather than the fall.",
+    "B": "This is the fall in the variable-ratio group, whose reading went from 45 to 29 pages, so it reads the wrong curve.",
+    "C": "This is the fall in the fixed-interval group, from 45 to 12 pages, which is again the wrong curve."
+   },
+   "category": "7C",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps2-p3-q4",
+   "passageId": "ps2-p3",
+   "stem": "Children were assigned to schedules at random, but the teachers who recorded each child's pages knew which schedule the child was on. Which problem does this most directly introduce?",
+   "choices": {
+    "A": "regression to the mean across the withdrawal sessions",
+    "B": "experimenter expectancy shaping the recorded outcome",
+    "C": "a selection effect arising from how children entered the groups",
+    "D": "differential attrition between the three groups"
+   },
+   "correct": "B",
+   "explanation": "The outcome is recorded by a person who knows the condition and who may hold an expectation about what each schedule should produce, which can shift borderline judgements about what counts as a page read. Blinding whoever records the outcome is the standard remedy, and it is independent of whether assignment was random.",
+   "wrong": {
+    "A": "Regression to the mean concerns extreme scores drifting toward the average on retest, which is not what unblinded recording produces.",
+    "C": "Assignment was random, which is precisely what rules out a selection effect in how children entered the groups.",
+    "D": "Attrition is about children leaving the study, and the passage reports that sessions continued unchanged for all three groups."
+   },
+   "category": "7C",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps2-p3-q5",
+   "passageId": "ps2-p3",
+   "stem": "Which of the following statements is LEAST consistent with Figure 1?",
+   "choices": {
+    "A": "reading fell in all three groups once the tokens stopped",
+    "B": "the fixed-ratio group had fallen below the fixed-interval group by the fourth withdrawal session",
+    "C": "the three groups read about the same amount in the final token session",
+    "D": "the variable-ratio group showed the steepest single-session fall of the three"
+   },
+   "correct": "D",
+   "explanation": "Between the final token session and the first withdrawal session the variable-ratio group fell from 45 to 42 pages, the smallest drop of the three, while the fixed-interval group fell from 45 to 30. No later interval in the figure has the variable-ratio curve falling fastest either, so this is the statement the figure contradicts.",
+   "wrong": {
+    "A": "The figure is consistent with this: every curve declines from the final token session onward.",
+    "B": "The figure is consistent with this: the fixed-ratio curve reaches 9 pages while the fixed-interval curve reaches 12.",
+    "C": "The figure is consistent with this: all three curves begin the withdrawal phase from the same 45 pages."
+   },
+   "category": "7C",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "18"
+  },
+  {
+   "id": "ps2-p4-q1",
+   "passageId": "ps2-p4",
+   "stem": "Which feature of the trial does most to rule out pre-existing differences between the three groups as an explanation of the week-eight results?",
+   "choices": {
+    "A": "the requirement of a score of 24 or more for entry",
+    "B": "the near-identical mean symptom scores at entry",
+    "C": "allocation by a concealed computer-generated sequence",
+    "D": "the scoring of symptoms by assessors unaware of the arm"
+   },
+   "correct": "C",
+   "explanation": "Random allocation with the sequence concealed from the recruiting clinician is what makes the three arms comparable on everything measured and unmeasured alike, including features nobody thought to record. It is the feature that licenses attributing the week-eight difference to the treatments rather than to who ended up where.",
+   "wrong": {
+    "A": "An entry threshold makes the sample more uniform at the outset but says nothing about how patients were distributed between the arms.",
+    "B": "Equal baseline means are evidence that the allocation worked, and they can only reassure on the variables that were actually measured.",
+    "D": "Blind assessment protects the measurement of the outcome from the assessor's expectations; it does nothing about differences that existed before treatment began."
+   },
+   "category": "7A",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps2-p4-q2",
+   "passageId": "ps2-p4",
+   "stem": "Using the response rates in Table 1, how many patients would have to receive behavioural activation rather than be placed on the waiting list for one additional responder to be produced?",
+   "choices": {
+    "A": "2 patients",
+    "B": "4 patients",
+    "C": "5 patients",
+    "D": "20 patients"
+   },
+   "correct": "B",
+   "explanation": "The absolute difference in response rates is 45% less 20%, or 25 percentage points, so one extra responder appears for every 100 divided by 25 patients treated, which is 4 patients. The figure is the reciprocal of the absolute difference and not of either rate on its own.",
+   "wrong": {
+    "A": "This is the reciprocal of the 45% response rate alone, which ignores the fact that one patient in five responded on the waiting list as well.",
+    "C": "This uses the antidepressant arm, whose 40% against 20% gives a 20-point difference, so it answers for the wrong comparison.",
+    "D": "This compares the two active arms, 45% against 40%, which is not the comparison the question asks for."
+   },
+   "category": "7A",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps2-p4-q3",
+   "passageId": "ps2-p4",
+   "stem": "Attendance at week eight differed across the arms, at 68, 62 and 74 of 80. Which analytic approach best protects the comparison against the bias this introduces?",
+   "choices": {
+    "A": "analysing only those patients who attended all eight weeks",
+    "B": "replacing each missing week-eight score with the mean of that arm",
+    "C": "analysing every patient in the arm to which they were allocated",
+    "D": "dropping the arm with the most missing scores from the comparison"
+   },
+   "correct": "C",
+   "explanation": "Analysing patients in the arm to which they were allocated, whatever they went on to do afterwards, preserves the comparability that randomisation created. Patients who leave an arm tend to differ from those who stay, so any analysis that selects on staying reintroduces exactly the differences the allocation removed.",
+   "wrong": {
+    "A": "Restricting the analysis to completers conditions on an event that happened after allocation, and the antidepressant arm lost patients for a reason tied to the treatment itself.",
+    "B": "Filling in the arm's own mean understates the uncertainty and assumes the missing patients were doing as well as those who stayed, which is the assumption most in doubt.",
+    "D": "Discarding an arm removes the comparison the trial was designed to make and does not repair the missing data in the others."
+   },
+   "category": "7A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps2-p4-q4",
+   "passageId": "ps2-p4",
+   "stem": "Which feature is required for a diagnosis of major depressive disorder rather than being a specifier or a feature of a different diagnosis?",
+   "choices": {
+    "A": "depressed mood or loss of interest lasting at least two weeks",
+    "B": "a manic or hypomanic episode at some point in the past",
+    "C": "delusions or hallucinations during the current episode",
+    "D": "symptoms present on most days for at least two years"
+   },
+   "correct": "A",
+   "explanation": "A diagnosis of major depressive disorder requires either depressed mood or loss of interest and pleasure, present for at least two weeks alongside a sufficient number of further symptoms. One of those two cardinal symptoms must be there; the rest of the criteria cannot substitute for them.",
+   "wrong": {
+    "B": "A past manic or hypomanic episode points to a bipolar diagnosis and in fact excludes major depressive disorder.",
+    "C": "Psychotic features are recorded as a specifier when they occur and are not required for the diagnosis.",
+    "D": "A two-year course of milder symptoms describes persistent depressive disorder rather than a major depressive episode."
+   },
+   "category": "7A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "22"
+  },
+  {
+   "id": "ps2-p5-q1",
+   "passageId": "ps2-p5",
+   "stem": "Which of the symptoms described in the passage would be scored on the negative subscale?",
+   "choices": {
+    "A": "auditory hallucinations",
+    "B": "delusions of reference",
+    "C": "disorganised speech",
+    "D": "poverty of speech"
+   },
+   "correct": "D",
+   "explanation": "Negative symptoms are deficits in ordinary function: blunted affect, poverty of speech and loss of volition are the three the passage names for that subscale. Poverty of speech is a reduction in what the patient produces, which is what makes it a deficit rather than an addition.",
+   "wrong": {
+    "A": "A hallucination is a perception without a stimulus, an addition to normal experience, and is scored as a positive symptom.",
+    "B": "A delusion is a fixed false belief, again an addition to normal experience rather than a loss of function.",
+    "C": "Disorganised speech is a positive symptom: the output is present but disordered, unlike the reduced output of poverty of speech."
+   },
+   "category": "7A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "22"
+  },
+  {
+   "id": "ps2-p5-q2",
+   "passageId": "ps2-p5",
+   "stem": "Positive symptoms fell at every dose while negative symptoms barely moved. Which conclusion does this pattern best support?",
+   "choices": {
+    "A": "the two symptom clusters do not depend to the same degree on the mechanism the drug acts on",
+    "B": "the negative symptoms recorded at six weeks were side effects of the drug itself",
+    "C": "the negative subscale failed to measure the construct it was intended to measure",
+    "D": "negative symptoms would have fallen had the dose been raised beyond the high dose"
+   },
+   "correct": "A",
+   "explanation": "A manipulation that moves one measure a great deal and another hardly at all is evidence that the two measures do not share the same determinants. Blocking D2 receptors across three dose levels shifts the positive cluster by 6, 11 and 12 points while the negative cluster shifts by 1, 2 and 0, which points to a mechanism specific to the first cluster.",
+   "wrong": {
+    "B": "Negative symptoms were present at entry, at a mean of 15 before any drug was given, so the drug cannot be their source.",
+    "C": "A measure that registers a mean of 15 at entry and detects movement side effects separately is behaving as intended; failing to change is a result, not a measurement failure.",
+    "D": "The trend across the three doses runs the other way: negative symptoms moved by 1 point at the low dose, 2 at the standard dose and not at all at the high dose."
+   },
+   "category": "7A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "22"
+  },
+  {
+   "id": "ps2-p5-q3",
+   "passageId": "ps2-p5",
+   "stem": "Which observation in Table 1 argues most strongly against prescribing the high dose rather than the standard dose?",
+   "choices": {
+    "A": "negative symptoms did not improve at the high dose",
+    "B": "positive symptoms fell by 12 points at the high dose",
+    "C": "the low dose produced the fewest movement side effects",
+    "D": "side effects doubled for one further point of positive-symptom gain"
+   },
+   "correct": "D",
+   "explanation": "The high dose lowers positive symptoms to 12 against the standard dose's 13, a gain of a single point, while the movement side-effect score goes from 5 to 11. A comparison of the extra benefit with the extra harm is what bears on the choice between those two doses, and here the harm is far larger.",
+   "wrong": {
+    "A": "Negative symptoms failed to improve at every dose, so this is not a reason to prefer one of the two doses over the other.",
+    "B": "A 12-point fall is the high dose's benefit, which taken alone is an argument for it rather than against it.",
+    "C": "That the low dose has the fewest side effects bears on a different choice, since its positive-symptom fall of 6 points is much the smallest."
+   },
+   "category": "7A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "22"
+  },
+  {
+   "id": "ps2-p5-q4",
+   "passageId": "ps2-p5",
+   "stem": "By what percentage did mean positive-symptom scores fall from entry to six weeks in the standard-dose group?",
+   "choices": {
+    "A": "13%",
+    "B": "46%",
+    "C": "50%",
+    "D": "85%"
+   },
+   "correct": "B",
+   "explanation": "The standard-dose group fell from 24 to 13, a change of 11 points, and 11 divided by the starting value of 24 is 0.458, or about 46%. The denominator has to be the entry score, because a percentage fall is always expressed against the value it started from.",
+   "wrong": {
+    "A": "This is the negative subscale in the same group, which went from 15 to 13, so it reads the wrong pair of columns.",
+    "C": "This is the high-dose group's fall, from 24 to 12, which answers for the wrong row.",
+    "D": "This divides the 11-point change by the week-six score of 13 instead of by the entry score of 24, which inflates the fall."
+   },
+   "category": "7A",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "22"
+  },
+  {
+   "id": "ps2-p5-q5",
+   "passageId": "ps2-p5",
+   "stem": "The clinic's findings are most consistent with which account of the symptoms of psychosis?",
+   "choices": {
+    "A": "excess dopamine signalling in mesolimbic pathways underlies the positive cluster",
+    "B": "excess dopamine signalling in mesolimbic pathways underlies both clusters equally",
+    "C": "a deficit of acetylcholine in the basal forebrain underlies the positive cluster",
+    "D": "blockade of dopamine receptors in the striatum relieves the negative cluster"
+   },
+   "correct": "A",
+   "explanation": "A drug that blocks D2 receptors reduces hallucinations and delusions in proportion to dose while leaving blunted affect and poverty of speech untouched, which is the pattern predicted if excess dopamine transmission in mesolimbic pathways drives the positive cluster specifically. The movement side effects, which rise with dose, are attributed to the same blockade in motor pathways.",
+   "wrong": {
+    "B": "If one mechanism drove both clusters equally, the negative subscale should have fallen alongside the positive subscale, and it moved by at most 2 points.",
+    "C": "Nothing in the study manipulates acetylcholine, and the drug used acts on dopamine receptors.",
+    "D": "The table shows negative symptoms unchanged at the high dose, so blockade did not relieve that cluster at any dose tested."
+   },
+   "category": "7A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "22"
+  },
+  {
+   "id": "ps2-p6-q1",
+   "passageId": "ps2-p6",
+   "stem": "The rating participants gave before any instruction, and again at the end, is best described as a measure of:",
+   "choices": {
+    "A": "the value they placed on solving the puzzles",
+    "B": "a stable trait of general optimism about the future",
+    "C": "their belief in their own capacity to succeed at this kind of task",
+    "D": "the extent to which they credited their results to effort rather than luck"
+   },
+   "correct": "C",
+   "explanation": "Self-efficacy is a belief about one's own capability in a specified domain, which is what a rating of confidence that one can solve puzzles of this kind captures. It is domain-specific and it can change with experience, which is why the investigators were able to measure it twice and find it had moved.",
+   "wrong": {
+    "A": "How much a person wants an outcome is its incentive value, a separate component of motivation from the belief that one can achieve it.",
+    "B": "A stable trait could not have risen by 1.6 points in a single 25-minute session, as it did in the model condition.",
+    "D": "Crediting a result to effort rather than luck is an attribution about a cause, made after the fact, not a judgement of one's own capability."
+   },
+   "category": "7A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "21"
+  },
+  {
+   "id": "ps2-p6-q2",
+   "passageId": "ps2-p6",
+   "stem": "Which comparison between conditions in Table 1 isolates the effect of goal difficulty most cleanly?",
+   "choices": {
+    "A": "do your best against the easy goal",
+    "B": "the easy goal against the difficult goal",
+    "C": "the difficult goal against the difficult goal with a model",
+    "D": "do your best against the difficult goal with a model"
+   },
+   "correct": "B",
+   "explanation": "Both of these conditions were given a specific numerical target and neither saw a model, so the only feature that differs between them is how demanding the target was. That is what makes the 9 against 14 puzzles and the 5.0 against 9.5 minutes attributable to difficulty rather than to specificity or to modelling.",
+   "wrong": {
+    "A": "The do-your-best instruction supplies no number at all, so this comparison confounds how difficult the goal was with whether there was a specific goal.",
+    "C": "These two conditions share the same difficult goal and differ in whether a model was watched, so the comparison isolates modelling instead.",
+    "D": "These conditions differ in both specificity and modelling at once, so neither effect can be separated from the other."
+   },
+   "category": "7A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "21"
+  },
+  {
+   "id": "ps2-p6-q3",
+   "passageId": "ps2-p6",
+   "stem": "The group that watched the recording persisted longest after failure, although the model was absent while they worked. Which process best accounts for the model's effect?",
+   "choices": {
+    "A": "vicarious experience raised their expectation that further effort would succeed",
+    "B": "the model's presence produced social facilitation during the task itself",
+    "C": "the model's success reinforced the participants' own responses directly",
+    "D": "watching the model classically conditioned a positive response to the puzzles"
+   },
+   "correct": "A",
+   "explanation": "Seeing another person of similar standing fail and then recover supplies information about what effort accomplishes without the observer having to try it, which is the vicarious route to self-efficacy. The table is consistent with this: confidence after the task was highest in that condition, at 7.9, and so was persistence.",
+   "wrong": {
+    "B": "Social facilitation requires another person to be present while the task is performed, and the passage states that nobody worked in the presence of another person.",
+    "C": "Reinforcement acts on the behaviour of the person who receives it; the model's token or success cannot reinforce a response the participant had not yet made.",
+    "D": "Classical conditioning pairs a neutral stimulus with one that already elicits a response, which is not what observing a problem-solving sequence does."
+   },
+   "category": "7C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "18"
+  },
+  {
+   "id": "ps2-p6-q4",
+   "passageId": "ps2-p6",
+   "stem": "Table 1 supports each of the following statements EXCEPT:",
+   "choices": {
+    "A": "a difficult specific goal produced more persistence after failure than an easy specific goal",
+    "B": "confidence measured before the instruction predicted how many puzzles a condition went on to solve",
+    "C": "the easy-goal condition solved fewer puzzles than the do-your-best condition",
+    "D": "watching a model went with both the highest confidence after the task and the most puzzles solved"
+   },
+   "correct": "B",
+   "explanation": "Confidence before the instruction was 6.3, 6.4, 6.2 and 6.3 across conditions that went on to solve 10, 9, 14 and 16 puzzles, so the baseline measure is flat where the outcome varies by more than half. The condition that started lowest solved the second most, which is the opposite of a predictive relationship.",
+   "wrong": {
+    "A": "The table does support this: persistence was 9.5 minutes under the difficult goal against 5.0 under the easy goal.",
+    "C": "The table does support this: the easy-goal condition solved 9 puzzles against 10 for do your best.",
+    "D": "The table does support this: the model condition recorded 7.9 for confidence after the task and 16 puzzles solved, the highest of each."
+   },
+   "category": "7A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "21"
+  },
+  {
+   "id": "ps2-p7-q1",
+   "passageId": "ps2-p7",
+   "stem": "The depressed performance of students who gave their demographic details immediately before a test described as diagnostic of ability is best explained as an instance of:",
+   "choices": {
+    "A": "the fundamental attribution error",
+    "B": "in-group favouritism in a competitive setting",
+    "C": "a self-serving bias in explaining a result",
+    "D": "stereotype threat"
+   },
+   "correct": "D",
+   "explanation": "Stereotype threat is the performance cost of working in a setting where a negative stereotype about a group one belongs to could be confirmed by the result. The demographic form made group membership salient and the diagnostic framing made the result look like evidence about ability, which is the combination the effect requires.",
+   "wrong": {
+    "A": "The fundamental attribution error is an observer's tendency to credit another person's behaviour to disposition rather than situation, and nothing here concerns judging others.",
+    "B": "In-group favouritism is preferential treatment of one's own group, which is about how a person treats others rather than how they perform.",
+    "C": "A self-serving bias is a pattern in how a result is explained afterwards, which cannot account for a difference in the score itself."
+   },
+   "category": "8B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "23"
+  },
+  {
+   "id": "ps2-p7-q2",
+   "passageId": "ps2-p7",
+   "stem": "Which mechanism best explains why the position of the demographic form mattered under one framing and not the other?",
+   "choices": {
+    "A": "it made a group identity salient where ability was said to be measured",
+    "B": "it reduced the time available for working on the 20 items",
+    "C": "it lowered the students' general self-esteem for the rest of the day",
+    "D": "it made the individual test items themselves harder to solve"
+   },
+   "correct": "A",
+   "explanation": "Identity salience alone is not enough and a diagnostic framing alone is not enough; the cost appears where both are present, because only then does the result threaten to say something about the group one has just been reminded of belonging to. That is why the two factors multiply rather than add.",
+   "wrong": {
+    "B": "The passage states that the form took under a minute and was timed separately, so every cell had the same 20 minutes for the test.",
+    "C": "A general drop in self-esteem would have depressed performance under the puzzle framing too, and the puzzle rows differ by only 0.4 items.",
+    "D": "The same 20 items were used in every cell, so item difficulty cannot vary between them."
+   },
+   "category": "8A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps2-p7-q3",
+   "passageId": "ps2-p7",
+   "stem": "By how many items does the effect of placing the demographic form before the test differ between the two framings?",
+   "choices": {
+    "A": "0.4 items",
+    "B": "2.4 items",
+    "C": "2.8 items",
+    "D": "3.0 items"
+   },
+   "correct": "B",
+   "explanation": "Under the diagnostic framing the form costs 12.6 less 9.8, or 2.8 items; under the puzzle framing it costs 12.8 less 12.4, or 0.4 items. The difference between those two effects is 2.8 less 0.4, which is 2.4 items, and a difference between two differences of this kind is what an interaction is.",
+   "wrong": {
+    "A": "This is the effect of the form within the puzzle framing alone, which is one of the two numbers the comparison is built from.",
+    "C": "This is the effect of the form within the diagnostic framing alone, and taking it as the answer ignores that the form cost something under the other framing too.",
+    "D": "This is 12.8 less 9.8, the gap between the highest and lowest cells, which crosses both factors at once and so measures neither effect."
+   },
+   "category": "8B",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps2-p7-q4",
+   "passageId": "ps2-p7",
+   "stem": "Consider the following additional findings. I. Students in the lowest-scoring cell reported more intrusive thoughts during the test than students in any other cell. II. The diagnostic framing lowered scores by the same amount whether the form came before or after. III. The puzzle framing lowered scores when the form came first but not when it came afterwards. Which would strengthen the investigators' interpretation?",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "A",
+   "explanation": "Finding I supplies the mechanism the interpretation requires, a mind occupied with how the result will be read rather than with the items. Findings II and III both describe a main effect of one factor that does not depend on the other, and the interpretation rests on the two factors needing each other, so either would count against it.",
+   "wrong": {
+    "B": "Finding II describes the framing acting alone, which is the pattern the interaction account predicts should not occur.",
+    "C": "This accepts finding II, which weakens rather than strengthens an account built on the two factors acting together.",
+    "D": "This accepts both II and III, each of which removes the dependence between the factors that the interpretation asserts."
+   },
+   "category": "8B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "23"
+  },
+  {
+   "id": "ps2-p7-q5",
+   "passageId": "ps2-p7",
+   "stem": "Several students in the lowest-scoring cell wrote afterwards that the test was not the sort of thing they were good at. Taken as a response to the experience, this is best understood as:",
+   "choices": {
+    "A": "an external attribution for an outcome that was in fact internal",
+    "B": "social comparison with a higher-status reference group",
+    "C": "a reduction of dissonance by changing the behaviour rather than the belief",
+    "D": "protecting self-worth by discounting the importance of the domain"
+   },
+   "correct": "D",
+   "explanation": "Deciding that a domain does not matter, or is not one's own kind of thing, keeps a poor result from bearing on self-worth, and it is a common response to repeated threat in a domain. Its cost is that disengaging from the domain also removes the motivation to improve in it.",
+   "wrong": {
+    "A": "Calling the test not one's sort of thing locates the cause in the self rather than in the situation, so it is not an external attribution.",
+    "B": "Social comparison involves evaluating oneself against particular other people, and the students are commenting on the domain rather than on anyone else.",
+    "C": "Dissonance reduction by changing behaviour would mean acting differently; these students changed how much weight they gave the result."
+   },
+   "category": "8A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "23"
+  },
+  {
+   "id": "ps2-p8-q1",
+   "passageId": "ps2-p8",
+   "stem": "Participants in the five-other condition most often explained their inaction by saying they had assumed someone else had already gone to help. This explanation points to:",
+   "choices": {
+    "A": "deindividuation produced by being in a group",
+    "B": "social loafing on a task with a shared product",
+    "C": "diffusion of responsibility among those present",
+    "D": "pluralistic ignorance about what the sound meant"
+   },
+   "correct": "C",
+   "explanation": "Diffusion of responsibility is the division of an obligation to act among everyone who could act, so that no single person carries the whole of it. An assumption that somebody else has already dealt with it is exactly that division, and it predicts the fall from 78 percent alone to 31 percent with five others present.",
+   "wrong": {
+    "A": "Deindividuation is a loss of self-awareness and restraint in a crowd, which predicts uninhibited action rather than careful inaction.",
+    "B": "Social loafing concerns reduced effort on a joint task whose output is pooled, and no joint task was set here.",
+    "D": "Pluralistic ignorance is reading others' inaction as evidence that nothing is wrong; it was reported by some participants but it is a different account from assuming help is already on its way."
+   },
+   "category": "8C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "23"
+  },
+  {
+   "id": "ps2-p8-q2",
+   "passageId": "ps2-p8",
+   "stem": "Consider the following conclusions. I. Adding bystanders both lowered the rate of intervention and slowed those who did intervene. II. A single visibly attending bystander restored intervention to the level seen when participants waited alone. III. The five-other condition produced the fastest intervention of the four. Which are supported by Table 1?",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "A",
+   "explanation": "Conclusion I is supported twice over: intervention falls from 78 to 45 to 31 percent while mean time rises from 24 to 52 to 71 seconds. Conclusion II overstates the fourth condition, which reached 62 percent against 78 percent alone, and conclusion III reverses the time column, where the five-other condition was the slowest at 71 seconds.",
+   "wrong": {
+    "B": "Conclusion II claims a return to the level seen alone, and 62 percent falls well short of 78 percent.",
+    "C": "This accepts conclusion II, which the 62 percent figure does not support.",
+    "D": "This accepts conclusion III, but the five-other condition had the longest mean time of the four, not the shortest."
+   },
+   "category": "8C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps2-p8-q3",
+   "passageId": "ps2-p8",
+   "stem": "The fourth condition differed from the third only in that one of the five others put down the questionnaire and looked towards the wall. Which account best explains the result?",
+   "choices": {
+    "A": "it reduced the number of people who could have acted",
+    "B": "it gave the participant a direct instruction to help",
+    "C": "it supplied a complete model of the helping response to copy",
+    "D": "it removed the ambiguity that had made sitting still look appropriate"
+   },
+   "correct": "D",
+   "explanation": "Participants in the third condition reported taking the sound to be part of the study because nobody else had moved, which is inaction being read as evidence that nothing is wrong. One person treating the sound as worth attending to breaks that reading, and intervention doubles from 31 to 62 percent without the number present changing.",
+   "wrong": {
+    "A": "Five others were present in both conditions, so the number who could have acted was identical.",
+    "B": "The confederate said nothing further, so no instruction of any kind was given.",
+    "C": "The confederate never left the room or called out, so no helping response was modelled for the participant to copy."
+   },
+   "category": "8C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps2-p8-q4",
+   "passageId": "ps2-p8",
+   "stem": "Each of the following changes to the staged emergency would be expected to raise the proportion who intervene EXCEPT:",
+   "choices": {
+    "A": "the voice in the next room calling the participant by name",
+    "B": "adding four further bystanders who glance up and remain seated",
+    "C": "recruiting participants who hold a current first-aid certificate",
+    "D": "making the sounds unmistakably those of a serious injury"
+   },
+   "correct": "B",
+   "explanation": "Adding bystanders who do nothing works in the opposite direction, both by dividing responsibility further and by adding to the number of people whose stillness suggests no emergency. The table already shows intervention falling from 78 to 45 to 31 percent as the number present rose from none to two to five.",
+   "wrong": {
+    "A": "Being named assigns the obligation to one person and so undoes the division of responsibility, which raises intervention.",
+    "C": "Knowing what to do removes the fear of acting wrongly, which is one of the costs that holds a bystander back.",
+    "D": "An unmistakable emergency removes the ambiguity that let participants read the sound as part of the study, which raises intervention."
+   },
+   "category": "8C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps2-p9-q1",
+   "passageId": "ps2-p9",
+   "stem": "The resources that reach a person through their network of relationships, such as a lift to a clinic or word of a job, are referred to by sociologists as:",
+   "choices": {
+    "A": "cultural capital",
+    "B": "social capital",
+    "C": "social stratification",
+    "D": "social reproduction"
+   },
+   "correct": "B",
+   "explanation": "Social capital is the stock of resources available to a person by virtue of the relationships they are part of, and the examples the passage gives are of exactly that kind. Its distribution depends on which networks a person has access to, which is why the investigators treat it as a structural rather than a personal matter.",
+   "wrong": {
+    "A": "Cultural capital is the knowledge, tastes and credentials that carry advantage in institutions, which a person holds rather than receives through a tie.",
+    "C": "Social stratification is the arrangement of a population into layers of unequal advantage, not a resource an individual draws on.",
+    "D": "Social reproduction is the process by which advantage passes from one generation to the next, which describes an outcome over time."
+   },
+   "category": "9A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "24"
+  },
+  {
+   "id": "ps2-p9-q2",
+   "passageId": "ps2-p9",
+   "stem": "Ties and health were recorded in the same interview. Which alternative explanation of the association in Table 1 does that design leave open?",
+   "choices": {
+    "A": "the two neighbourhoods were surveyed in different seasons",
+    "B": "respondents in poor health under-reported their close ties",
+    "C": "poor health reduced the number of ties a respondent could maintain",
+    "D": "the health rating and the depression screen measure the same thing"
+   },
+   "correct": "C",
+   "explanation": "Measuring a supposed cause and its supposed effect at one moment leaves the direction of the arrow undetermined. Illness that keeps a person at home will shrink the circle of people they see, which would generate the same table without support having done anything for health.",
+   "wrong": {
+    "A": "Both neighbourhoods were covered by the same survey, and a seasonal difference would not produce a gradient across tie bands within it.",
+    "B": "Systematic under-reporting by the unwell would be a measurement problem, and it is not the alternative that simultaneous measurement specifically creates.",
+    "D": "Overlap between two outcome measures would make them redundant with each other, which says nothing about their relationship to the number of ties."
+   },
+   "category": "9A",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps2-p9-q3",
+   "passageId": "ps2-p9",
+   "stem": "A respondent reports that a neighbour drives her to her clinic appointments each month. The neighbour is providing which kind of social support?",
+   "choices": {
+    "A": "emotional support",
+    "B": "informational support",
+    "C": "appraisal support",
+    "D": "instrumental support"
+   },
+   "correct": "D",
+   "explanation": "Instrumental support is the provision of tangible goods or services, and a lift to an appointment is a service that solves a practical problem. It is the form of support most directly tied to whether care is actually reached, which is why it matters for the health gradient the passage reports.",
+   "wrong": {
+    "A": "Emotional support is the offer of sympathy, affection and a willingness to listen, none of which is what a lift supplies.",
+    "B": "Informational support is advice or guidance, such as telling her which clinic to attend or what to ask.",
+    "C": "Appraisal support is feedback that helps a person evaluate themselves or their situation, again not a tangible service."
+   },
+   "category": "9A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "24"
+  },
+  {
+   "id": "ps2-p9-q4",
+   "passageId": "ps2-p9",
+   "stem": "Membership of an association meeting at least monthly was less common in the lower-income neighbourhood, where fewer such associations met nearby. Which interpretation of that finding is best supported?",
+   "choices": {
+    "A": "unequal access to local institutions limits which ties can be formed in the first place",
+    "B": "residents of lower-income areas place less value on regular social contact",
+    "C": "self-rated health cannot be compared between two neighbourhoods of one city",
+    "D": "organisational membership has no bearing on health in any population"
+   },
+   "correct": "A",
+   "explanation": "The passage reports that fewer associations met within walking distance, which is a feature of the neighbourhood and not of its residents' preferences. If the settings in which ties are made are unevenly distributed, then so is the social capital those ties carry, which locates part of the health gradient in structure rather than in individual sociability.",
+   "wrong": {
+    "B": "Nothing in the survey measured how much residents valued contact, and the passage offers an explanation in terms of what was available nearby.",
+    "C": "The investigators report the same direction of association in both neighbourhoods, which is evidence that the rating behaves comparably.",
+    "D": "The passage reports 62 percent against 48 percent rating their health as good or excellent by membership, so membership is clearly associated with health."
+   },
+   "category": "10A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "24"
+  },
+  {
+   "id": "ps2-p10-q1",
+   "passageId": "ps2-p10",
+   "stem": "The analysts note that the share of one group's residents within a tract is a crude summary, and that a measure of how evenly two populations are spread across all of a city's tracts would be better. The measure they are describing is:",
+   "choices": {
+    "A": "an index of dissimilarity",
+    "B": "a dependency ratio",
+    "C": "a Gini coefficient",
+    "D": "a crude mortality rate"
+   },
+   "correct": "A",
+   "explanation": "An index of dissimilarity reports the share of one group that would have to move between tracts for the two populations to be distributed identically, which is precisely a measure of evenness across all the tracts of a city. A within-tract share, by contrast, describes one tract at a time and carries no information about the pattern as a whole.",
+   "wrong": {
+    "B": "A dependency ratio compares the population outside working ages with the population within them, which is a measure of age structure.",
+    "C": "A Gini coefficient summarises inequality in a distribution such as income, and it is not defined over positions in space.",
+    "D": "A crude mortality rate reports deaths per 1,000 residents and says nothing about how a population is distributed."
+   },
+   "category": "9B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "24"
+  },
+  {
+   "id": "ps2-p10-q2",
+   "passageId": "ps2-p10",
+   "stem": "Which process would most directly produce the distribution of physicians shown in Table 1?",
+   "choices": {
+    "A": "higher rates of chronic illness among residents of the most segregated tracts",
+    "B": "a preference among those residents for hospital care over primary care",
+    "C": "differences between the bands in how residents rate their own health",
+    "D": "practices choosing addresses where insured and higher-income patients are concentrated"
+   },
+   "correct": "D",
+   "explanation": "The quantity in the table is the number of practices with an address in the tract, so what has to be explained is where practices locate. A practice that depends on reimbursement will site itself among patients whose care is paid for, which concentrates supply in the bands where such patients live.",
+   "wrong": {
+    "A": "More illness would, if anything, raise the demand for practices in those tracts, so it does not explain why supply is lowest there.",
+    "B": "A preference of residents would show up in how care was used rather than in how many practices chose to open nearby.",
+    "C": "Self-rated health is one of the outcomes the analysts measured and cannot account for the location decisions of practices."
+   },
+   "category": "9B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps2-p10-q3",
+   "passageId": "ps2-p10",
+   "stem": "According to Table 1, the mean number of primary-care physicians per 10,000 residents in the most segregated band is what multiple of the figure in the least segregated band?",
+   "choices": {
+    "A": "0.33",
+    "B": "0.50",
+    "C": "0.67",
+    "D": "3.00"
+   },
+   "correct": "A",
+   "explanation": "The most segregated band has 3.2 physicians per 10,000 and the least segregated band has 9.6, and 3.2 divided by 9.6 is 0.33. That is the sense in which the passage describes supply in the most segregated band as about a third of supply in the least.",
+   "wrong": {
+    "B": "This is 3.2 divided by 6.4, which compares the most segregated band with the middle band rather than with the least segregated one.",
+    "C": "This is 6.4 divided by 9.6, which compares the middle band with the least segregated band.",
+    "D": "This is 9.6 divided by 3.2, the ratio taken the other way round, which answers how many times the larger figure exceeds the smaller."
+   },
+   "category": "9B",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps2-p10-q4",
+   "passageId": "ps2-p10",
+   "stem": "The gradient in preventable admissions across the bands was reduced but still present after each tract's figure was adjusted for the share of residents without insurance. Which interpretation is best supported?",
+   "choices": {
+    "A": "insurance coverage has no bearing on preventable admissions",
+    "B": "the residual gradient must be due to the health of individual residents",
+    "C": "the adjustment has removed every confounder of the association",
+    "D": "barriers to care beyond coverage contribute to the gradient"
+   },
+   "correct": "D",
+   "explanation": "That the gradient shrinks shows coverage accounts for part of it, and that a gradient remains shows coverage is not the whole of it. What is left has to be carried by something else, and the table points to the supply of practices and the share of adults with a usual source of care, both of which fall across the bands.",
+   "wrong": {
+    "A": "The gradient was reduced by the adjustment, which is direct evidence that coverage accounts for part of it.",
+    "B": "The unit of analysis is the tract, and the analysts warn that a difference between bands need not hold of any particular resident.",
+    "C": "Adjusting for one measured variable can only remove that variable's contribution, and nothing in the result speaks to confounders that were not measured."
+   },
+   "category": "10A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps2-d1",
+   "passageId": null,
+   "stem": "Which structure of the auditory system is most directly responsible for converting mechanical movement into a neural signal?",
+   "choices": {
+    "A": "the ossicles of the middle ear",
+    "B": "the tympanic membrane",
+    "C": "the hair cells of the organ of Corti",
+    "D": "the superior olivary complex"
+   },
+   "correct": "C",
+   "explanation": "Transduction in hearing happens when movement of the basilar membrane deflects the stereocilia of the hair cells in the organ of Corti, opening ion channels and changing the cell's membrane potential. That is the step at which a mechanical event becomes a neural one.",
+   "wrong": {
+    "A": "The ossicles amplify and transmit vibration from the eardrum to the oval window, which is mechanical throughout.",
+    "B": "The tympanic membrane vibrates in response to pressure changes in air but produces no neural signal of its own.",
+    "D": "The superior olivary complex compares input from the two ears to localise sound, which happens well after transduction."
+   },
+   "category": "6A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "20"
+  },
+  {
+   "id": "ps2-d2",
+   "passageId": null,
+   "stem": "In a tone-detection task an observer is paid for every faint tone she correctly reports and loses nothing for reporting a tone that was not presented. Compared with a session in which false alarms are penalised, she is most likely to:",
+   "choices": {
+    "A": "show a higher sensitivity to the tones",
+    "B": "adopt a stricter criterion and report fewer tones",
+    "C": "adopt a more lenient criterion, raising both hits and false alarms",
+    "D": "leave both her sensitivity and her criterion unchanged"
+   },
+   "correct": "C",
+   "explanation": "Payoffs act on the decision rule rather than on the sensory evidence, so an observer rewarded for hits and not punished for false alarms will accept weaker evidence as sufficient. Both hits and false alarms rise together, which is the signature of a criterion shift rather than of better discrimination.",
+   "wrong": {
+    "A": "Sensitivity reflects how well the signal can be distinguished from noise by the sensory system and is not altered by what the responses are worth.",
+    "B": "A stricter criterion is what a penalty for false alarms would produce, which is the opposite of the payoff described.",
+    "D": "Leaving the criterion unchanged would mean the payoffs had no effect on the decision, which is not what manipulating them does."
+   },
+   "category": "6A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "20"
+  },
+  {
+   "id": "ps2-d3",
+   "passageId": null,
+   "stem": "Binocular disparity, the small difference between the images formed on the two retinae, contributes most directly to the perception of:",
+   "choices": {
+    "A": "colour constancy across changes in illumination",
+    "B": "the loudness of a simultaneous sound",
+    "C": "shape inferred from patterns of shading",
+    "D": "depth within a few metres of the observer"
+   },
+   "correct": "D",
+   "explanation": "Each eye views a near scene from a slightly different position, and the visual system uses the resulting disparity to recover distance. The cue is strongest for nearby objects, because disparity shrinks as distance grows and is negligible for objects far away.",
+   "wrong": {
+    "A": "Colour constancy depends on discounting the illuminant across a scene and is available to one eye alone.",
+    "B": "Loudness is coded in the auditory system and has no dependence on retinal images.",
+    "C": "Shading is a monocular cue to shape, available in a single image and unrelated to the difference between two."
+   },
+   "category": "6A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "20"
+  },
+  {
+   "id": "ps2-d4",
+   "passageId": null,
+   "stem": "A reader works through a handwritten note in which one letter of a familiar word is badly smudged, reads the word correctly, and does not notice the smudge. This is best described as a demonstration of:",
+   "choices": {
+    "A": "sensory adaptation to a constant stimulus",
+    "B": "bottom-up processing driven by the features present",
+    "C": "top-down processing driven by context and expectation",
+    "D": "a failure of transduction in the visual pathway"
+   },
+   "correct": "C",
+   "explanation": "The missing feature is supplied by what the reader expects the word to be, given the surrounding letters and the sense of the sentence, which is the defining case of perception guided from the top down. The expectation is strong enough that the gap itself goes unnoticed.",
+   "wrong": {
+    "A": "Sensory adaptation is the declining response of receptors to an unchanging stimulus, which does not fill in missing information.",
+    "B": "Processing driven only by the features present would have to register the smudge, since the features of the letter are what is degraded.",
+    "D": "Transduction converts light into neural signals and is working normally; the ink, not the eye, is at fault."
+   },
+   "category": "6A",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "20"
+  },
+  {
+   "id": "ps2-d5",
+   "passageId": null,
+   "stem": "A student given a list of 20 unrelated words to study recalls the first few and the last few far better than those in the middle. This pattern is known as:",
+   "choices": {
+    "A": "the spacing effect",
+    "B": "the serial position effect",
+    "C": "state-dependent recall",
+    "D": "proactive interference"
+   },
+   "correct": "B",
+   "explanation": "The serial position effect is the characteristic U-shaped recall curve across a list, combining a primacy advantage for early items, which have had most rehearsal and reached long-term storage, with a recency advantage for the last items, which are still available in short-term storage.",
+   "wrong": {
+    "A": "The spacing effect concerns the benefit of distributing study sessions over time rather than the position of an item within one list.",
+    "C": "State-dependent recall is the advantage of matching the internal state at retrieval to that at encoding, which applies to the whole list alike.",
+    "D": "Proactive interference is disruption of new learning by earlier learning, which would impair the later items in particular rather than the middle ones."
+   },
+   "category": "6B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "19"
+  },
+  {
+   "id": "ps2-d6",
+   "passageId": null,
+   "stem": "Which structure is most directly implicated in the rapid detection of a threatening facial expression, before the face has been consciously identified?",
+   "choices": {
+    "A": "the hippocampus",
+    "B": "the amygdala",
+    "C": "the hypothalamus",
+    "D": "the dorsolateral prefrontal cortex"
+   },
+   "correct": "B",
+   "explanation": "The amygdala receives a fast subcortical route from the thalamus as well as a slower cortical route, which allows it to respond to threatening stimuli before the slower pathway has produced a detailed representation. Lesions to it impair the recognition of fear in faces specifically.",
+   "wrong": {
+    "A": "The hippocampus supports the formation of new declarative memories and the context in which an event occurred, rather than the rapid evaluation of threat.",
+    "C": "The hypothalamus coordinates the endocrine and autonomic response once threat has been registered, which places it downstream of detection.",
+    "D": "The dorsolateral prefrontal cortex supports working memory and the deliberate regulation of a response, both of which are slow."
+   },
+   "category": "6C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "21"
+  },
+  {
+   "id": "ps2-d7",
+   "passageId": null,
+   "stem": "In a study of compliance, participants were instructed to deliver an increasingly unpleasant noise to another person. Which variation would be expected to produce the highest rate of continued compliance?",
+   "choices": {
+    "A": "the person receiving the noise seated in the same room",
+    "B": "the participant told that responsibility for any harm was theirs alone",
+    "C": "the instruction given by a researcher in the setting where the work was done",
+    "D": "two other participants refusing to continue before the participant's turn"
+   },
+   "correct": "C",
+   "explanation": "Compliance with an instruction to harm is highest when the person instructing is taken to hold legitimate authority in the setting, because the participant hands responsibility for the outcome to that authority. Everything that undermines the authority's standing, or that returns responsibility to the participant, lowers it.",
+   "wrong": {
+    "A": "Proximity to the person being harmed makes the consequences immediate and sharply reduces continued compliance.",
+    "B": "Being told the responsibility is theirs alone prevents the transfer of responsibility that sustains compliance.",
+    "D": "Seeing others refuse supplies a model of disobedience and licenses the participant to refuse as well."
+   },
+   "category": "7B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps2-d8",
+   "passageId": null,
+   "stem": "A woman learned table manners from her parents as a child. In her first job she learns, from colleagues and supervisors, how meetings are conducted and what counts as acceptable dress. The second process is best described as:",
+   "choices": {
+    "A": "primary socialization",
+    "B": "anticipatory socialization",
+    "C": "secondary socialization",
+    "D": "resocialization"
+   },
+   "correct": "C",
+   "explanation": "Secondary socialization is the learning of the norms of a particular setting or institution later in life, after the broad norms of the culture have been acquired at home. The workplace is the standard example, and the agents are colleagues and supervisors rather than family.",
+   "wrong": {
+    "A": "Primary socialization is the early acquisition of a culture's basic norms within the family, which is the first process described rather than the second.",
+    "B": "Anticipatory socialization is rehearsing a role one expects to occupy in future, which would be learning office norms before starting the job.",
+    "D": "Resocialization is the replacement of previously held norms with new ones, usually after a sharp break such as entry to prison or the military."
+   },
+   "category": "7B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps2-d9",
+   "passageId": null,
+   "stem": "A medical student in her final year notices that she has begun to describe herself to others as a clinician rather than as a student. The change is best described as a change in her:",
+   "choices": {
+    "A": "self-efficacy for clinical work",
+    "B": "role identity",
+    "C": "self-esteem relative to her peers",
+    "D": "locus of control over her training"
+   },
+   "correct": "B",
+   "explanation": "A role identity is the part of the self-concept attached to a position a person occupies in a social structure, together with the expectations that come with it. Describing oneself by a new position, rather than by one's level of confidence or worth, is a change in which role the self-concept is organised around.",
+   "wrong": {
+    "A": "Self-efficacy is a judgement of how capably one can perform specified tasks, which can rise without any change in how a person labels herself.",
+    "C": "Self-esteem is a global evaluation of one's own worth, and the change described is in category rather than in evaluation.",
+    "D": "Locus of control concerns whether outcomes are attributed to one's own actions or to outside forces, which is a different dimension again."
+   },
+   "category": "8A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps2-d10",
+   "passageId": null,
+   "stem": "A manager privately believes that workers over 60 learn new systems slowly, but when hiring he applies the same criteria to every applicant and appoints two candidates in their sixties. His conduct is best described as:",
+   "choices": {
+    "A": "discrimination in the absence of prejudice",
+    "B": "neither prejudice nor discrimination",
+    "C": "prejudice in the absence of discrimination",
+    "D": "both prejudice and discrimination"
+   },
+   "correct": "C",
+   "explanation": "Prejudice is an attitude held toward a group, and discrimination is differential treatment of its members. The manager holds the attitude, which satisfies the first, and treats applicants alike, which means the second does not occur, so the two come apart in this case.",
+   "wrong": {
+    "A": "This reverses the case: it would describe someone who treats a group unequally while holding no negative attitude toward it, as when a rule has an unequal effect.",
+    "B": "The belief about workers over 60 is a negative generalisation about a group, which is prejudice by definition.",
+    "D": "Differential treatment is what the second term requires, and the manager applied the same criteria to every applicant."
+   },
+   "category": "8B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps2-d11",
+   "passageId": null,
+   "stem": "A driver slows to let a stranger merge ahead of her in heavy traffic, remarking that she hopes someone will do the same for her one day. Her behaviour is best described as:",
+   "choices": {
+    "A": "reciprocal altruism",
+    "B": "kin selection",
+    "C": "social loafing",
+    "D": "a foot-in-the-door effect"
+   },
+   "correct": "A",
+   "explanation": "Reciprocal altruism is help given at a cost to oneself with the expectation, however vague, that help will be returned at some later time by someone in a similar position. The expectation of a future return is what distinguishes it from help given with no prospect of reciprocation.",
+   "wrong": {
+    "B": "Kin selection explains help directed at genetic relatives, and a stranger in traffic shares no such relationship.",
+    "C": "Social loafing is reduced effort when a task's output is pooled across a group, which is not a form of helping at all.",
+    "D": "The foot-in-the-door effect is compliance with a large request after agreeing to a small one, and no request was made here."
+   },
+   "category": "8C",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps2-d12",
+   "passageId": null,
+   "stem": "Over several decades, ordinary shyness came to be described in clinical language, assessed with diagnostic criteria and treated with medication. This change is best described as:",
+   "choices": {
+    "A": "the sick role being extended to a new group",
+    "B": "medicalization of a form of ordinary variation",
+    "C": "iatrogenesis arising from treatment",
+    "D": "illness behaviour among the newly diagnosed"
+   },
+   "correct": "B",
+   "explanation": "Medicalization is the process by which a condition previously treated as a feature of ordinary life comes to be defined and managed as a medical problem. It changes who holds authority over the condition, moving it from the person and their circle to the clinic.",
+   "wrong": {
+    "A": "The sick role is the set of rights and duties granted to someone already recognised as ill, which is a consequence of a condition being medical rather than the process of making it so.",
+    "C": "Iatrogenesis is harm produced by medical treatment itself, which is a different phenomenon from the redefinition of a condition.",
+    "D": "Illness behaviour is what a person does once they consider themselves unwell, such as consulting or resting, rather than a change in how a condition is classified."
+   },
+   "category": "9A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps2-d13",
+   "passageId": null,
+   "stem": "Under the sick role as sociologists have described it, a person recognised as ill is exempted from some ordinary obligations. In return, which obligation is placed on them?",
+   "choices": {
+    "A": "to seek competent help and to try to get well",
+    "B": "to continue their usual work at a reduced pace",
+    "C": "to accept that the condition is likely to be permanent",
+    "D": "to keep the condition from the knowledge of their employer"
+   },
+   "correct": "A",
+   "explanation": "The exemption from normal duties is conditional. The ill person is expected to treat the condition as undesirable, to want to recover, and to co-operate with a recognised source of competent help, which is what keeps the exemption from being open to anyone who claims it.",
+   "wrong": {
+    "B": "Release from ordinary obligations, including work, is the exemption the role grants rather than a duty it imposes.",
+    "C": "Accepting permanence runs against the expectation that the person wants to recover, which is central to the role.",
+    "D": "Concealment would prevent the recognition by others on which the exemption depends."
+   },
+   "category": "9A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps2-d14",
+   "passageId": null,
+   "stem": "A country's population pyramid is narrow at the base, widest in the bands from 35 to 54 years, and tapering only slowly above that. Over the next three decades this country is most likely to face:",
+   "choices": {
+    "A": "a falling ratio of dependants to working-age adults",
+    "B": "a rising ratio of older dependants to working-age adults",
+    "C": "rapid natural increase from a surplus of births over deaths",
+    "D": "high infant mortality concentrated in the first year of life"
+   },
+   "correct": "B",
+   "explanation": "A narrow base means each cohort entering working age is smaller than the one before it, while the large middle bands will themselves pass beyond working age within the period described. Both movements push the ratio of older dependants to working-age adults upward.",
+   "wrong": {
+    "A": "The total dependency ratio is driven upward by the ageing of the large middle cohorts, which more than offsets the smaller number of children.",
+    "C": "A narrow base indicates low fertility, and an ageing population raises deaths, so natural increase will fall rather than accelerate.",
+    "D": "The shape of a pyramid above the base says nothing about infant mortality, and a narrow base is characteristic of countries where it is already low."
+   },
+   "category": "9B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps2-d15",
+   "passageId": null,
+   "stem": "Residents of one district of a city must travel three times as far as residents of another to reach the nearest pharmacy, grocer selling fresh food, or primary-care practice. This difference is best described as:",
+   "choices": {
+    "A": "spatial inequality in access to services",
+    "B": "intragenerational mobility between districts",
+    "C": "cultural capital held unequally by residents",
+    "D": "a difference in the districts' dependency ratios"
+   },
+   "correct": "A",
+   "explanation": "Spatial inequality is the unequal distribution of resources and services across the places people live, so that the same income buys different access depending on the address. Distance to a pharmacy or a practice is the standard way the concept is operationalised.",
+   "wrong": {
+    "B": "Intragenerational mobility is a change in a person's own social position during their lifetime, not a feature of where services are located.",
+    "C": "Cultural capital is a resource a person carries with them, which would not change according to how far the nearest pharmacy is.",
+    "D": "A dependency ratio describes a population's age structure and has no bearing on the distance to a service."
+   },
+   "category": "10A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "24"
+  }
+ ]
+}

@@ -112,6 +112,10 @@ const CONTENT: Record<string, () => Promise<SectionFile>> = {
   "fl1/cars": () => import("./content/fl1/cars.json").then(file => file.default as unknown as SectionFile),
   "fl1/bio-biochem": () => import("./content/fl1/bio-biochem.json").then(file => file.default as unknown as SectionFile),
   "fl1/psych-soc": () => import("./content/fl1/psych-soc.json").then(file => file.default as unknown as SectionFile),
+  "fl2/chem-phys": () => import("./content/fl2/chem-phys.json").then(file => file.default as unknown as SectionFile),
+  "fl2/cars": () => import("./content/fl2/cars.json").then(file => file.default as unknown as SectionFile),
+  "fl2/bio-biochem": () => import("./content/fl2/bio-biochem.json").then(file => file.default as unknown as SectionFile),
+  "fl2/psych-soc": () => import("./content/fl2/psych-soc.json").then(file => file.default as unknown as SectionFile),
 };
 
 async function sectionFile(examId: string, sectionId: ExamSectionId): Promise<SectionFile | null> {

@@ -47,6 +47,10 @@ const RULES = [
   [/\bdeg\s+([CF])\b/g, "°$1"],
   [/\bdeg\b/g, "°"],
   [/°\s+([CF])\b/g, "°$1"],
+  // A bare angle takes no space before the degree sign ("60°"), while a
+  // temperature keeps one ("37 °C"), as SI requires. The defect: "60 deg"
+  // converted to "60 °", which reads as a temperature with its unit lost.
+  [/(\d)\s+°(?![CF])/g, "$1°"],
   [/->/g, "→"],
   [/\bdS\b/g, "\u0394S"],
   [/\bdH\b/g, "\u0394H"],
