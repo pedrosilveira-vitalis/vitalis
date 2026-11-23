@@ -207,6 +207,29 @@ test("a finished section matches the AAMC's published distribution", () => {
       );
     }
 
+    /**
+     * Every content category of this section's concepts has to be present.
+     *
+     * The concept-level percentages above can be met exactly while a whole
+     * content category is missing, because a concept holds several of them.
+     * That is how Full-Length 3 came to have no question at all on
+     * intermolecular forces and only one on the nervous and endocrine
+     * systems: ten assigned passage topics clustered, every published
+     * percentage was hit, and nothing noticed. A student notices.
+     *
+     * Two is the floor rather than a proportional target: the AAMC does not
+     * publish per-category weights, and some categories are genuinely thin.
+     */
+    const concepts = Object.keys(spec.foundationalConcepts);
+    const belongs = Object.keys(CONTENT_CATEGORIES).filter(code => concepts.includes(conceptOf(code)));
+    for (const code of belongs) {
+      const count = data.questions.filter(question => question.category === code).length;
+      assert.ok(
+        count >= 2,
+        `${exam}/${section}: content category ${code} (${CONTENT_CATEGORIES[code]}) has ${count} question${count === 1 ? "" : "s"}; every category of concepts ${concepts.join("/")} needs at least 2, or a student sits a form with a hole in it`,
+      );
+    }
+
     const passageCount = data.passages.length;
     assert.equal(passageCount, spec.passages.count, `${exam}/${section}: should have ${spec.passages.count} passage sets`);
     for (const passage of data.passages) {
