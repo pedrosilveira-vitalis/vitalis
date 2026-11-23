@@ -104,6 +104,13 @@ symbols, so chemical formulas convert and biological names do not:
 | `SGLT2`, `CDK4`, `E2F`, `HER2`, `IL6`, `P450` | unchanged | no element "G", "D", "E"; P450 exceeds the two-digit cap |
 | `beta-oxidation` | unchanged | only a standalone `eta` becomes η |
 
+Two more collisions were found by authors and fixed in the rule rather than
+worked around in prose: `N2` was being read as nitrogen, which turned the
+sleep stage N2 into N₂, so the standalone nitrogen rule is gone (write it
+inside a longer formula if you need it); and the optics variables `do` and
+`di` fired on ordinary English, turning "what each schedule should do, which"
+into "should dₒ, which" — they now convert only in `1/do` and `1/di`.
+
 The defect: an earlier version subscripted any letters-and-digits token, which
 turned SGLT2 into SGLT₂ and E2F into E₂F. An agent writing the Bio/Biochem
 section had to spell those names out in prose to avoid it. Write the names

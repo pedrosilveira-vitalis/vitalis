@@ -28,7 +28,6 @@ const RULES = [
   [/\bCO2\b/g, "CO₂"],
   [/\bH2O\b/g, "H₂O"],
   [/\bO2\b/g, "O₂"],
-  [/\bN2\b/g, "N₂"],
   [/\bNH4\+/g, "NH₄⁺"],
   [/\bH\+/g, "H⁺"],
   [/\bOH-/g, "OH⁻"],
@@ -72,8 +71,8 @@ const RULES = [
   }],
   // Variable subscripts: v1, A2, do, di.
   [/\b([vAPQr])([12])\b/g, (_m, letter, digit) => letter + sub(digit)],
-  [/\bdo\b(?=\s*[,)=+]|\s+and\b)/g, "dₒ"],
-  [/\bdi\b(?=\s*[,)=+]|\s+and\b)/g, "dᵢ"],
+  [/(1\s*\/\s*)do\b/g, "$1dₒ"],
+  [/(1\s*\/\s*)di\b/g, "$1dᵢ"],
   // Multiplication, either side numeric or symbolic.
   [/([\d)\]])\s*x\s*(\d)/g, (_m, l, r) => `${l} × ${r}`],
   [/([\d)\]])\s+x\s+([A-Za-z(])/g, (_m, l, r) => `${l} × ${r}`],
