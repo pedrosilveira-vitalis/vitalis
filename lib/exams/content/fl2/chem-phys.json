@@ -4,15 +4,15 @@
    "id": "cp2-p1",
    "title": "Measuring the energy in food",
    "paragraphs": [
-    "A bomb calorimeter burns a weighed sample in excess oxygen inside a sealed steel vessel of fixed volume, immersed in a stirred water bath. Because the volume cannot change, the sample does no work against its surroundings and every joule released appears as heat, so what the instrument measures is the internal energy change rather than the enthalpy change. For solids and liquids the two differ by too little to matter in nutritional work. The heat is found from q = C ΔT, where C is the heat capacity of the whole assembly and ΔT the rise in bath temperature.",
-    "The assembly is calibrated before use by burning 1.000 g of benzoic acid, whose heat of combustion is known accurately as 26.4 kJ/g. In one laboratory the standard raised the bath by 2.64 °C. Four 1.00 g samples were then burned in the calibrated instrument: glucose, casein, ethanol and palmitic acid, a saturated 16-carbon fatty acid. Table 1 records the temperature rise each produced.",
+    "A bomb calorimeter burns a weighed sample in excess oxygen inside a sealed steel vessel of fixed volume, immersed in a stirred water bath. Because the volume cannot change, the sample does no work against its surroundings and every joule released appears as heat, so what the instrument measures is the internal energy change rather than the enthalpy change. For solids and liquids the two differ by too little to matter in nutritional work. The heat is found from q = C \u0394T, where C is the heat capacity of the whole assembly and \u0394T the rise in bath temperature.",
+    "The assembly is calibrated before use by burning 1.000 g of benzoic acid, whose heat of combustion is known accurately as 26.4 kJ/g. In one laboratory the standard raised the bath by 2.64 \u00b0C. Four 1.00 g samples were then burned in the calibrated instrument: glucose, casein, ethanol and palmitic acid, a saturated 16-carbon fatty acid. Table 1 records the temperature rise each produced.",
     "How much energy a food releases per gram depends on how reduced its carbon atoms are. Combustion converts C-H and C-C bonds into C=O and O-H bonds, and a carbon already bonded to oxygen has less of that conversion left to give. A fatty acid is a long hydrocarbon chain with a single carboxyl group; a carbohydrate carries an oxygen on almost every carbon.",
     "Figures measured this way exceed the energy a body can extract. Digestion is incomplete, and the nitrogen of a protein leaves the body as urea rather than being oxidised, so a calorimeter credits protein with energy the body never collects."
    ],
    "figure": {
     "kind": "table",
     "caption": "Table 1  Temperature rise in the calibrated calorimeter for 1.00 g of each sample.",
-    "markup": "<table><thead><tr><th>Sample</th><th>Mass burned (g)</th><th>Bath temperature rise (°C)</th></tr></thead><tbody><tr><td>Glucose</td><td>1.00</td><td>1.56</td></tr><tr><td>Casein</td><td>1.00</td><td>1.72</td></tr><tr><td>Ethanol</td><td>1.00</td><td>2.97</td></tr><tr><td>Palmitic acid</td><td>1.00</td><td>3.90</td></tr></tbody></table>"
+    "markup": "<table><thead><tr><th>Sample</th><th>Mass burned (g)</th><th>Bath temperature rise (\u00b0C)</th></tr></thead><tbody><tr><td>Glucose</td><td>1.00</td><td>1.56</td></tr><tr><td>Casein</td><td>1.00</td><td>1.72</td></tr><tr><td>Ethanol</td><td>1.00</td><td>2.97</td></tr><tr><td>Palmitic acid</td><td>1.00</td><td>3.90</td></tr></tbody></table>"
    },
    "sources": [
     {
@@ -26,14 +26,14 @@
    "title": "Breathing thin air",
    "paragraphs": [
     "Dry air is 21% oxygen wherever one stands; what changes with altitude is the total pressure. Gas reaching the alveoli has been warmed to body temperature and fully saturated with water vapour, which contributes 47 mmHg of the total whatever the barometric pressure happens to be. By Dalton's law each gas in a mixture exerts a pressure proportional to its share of the molecules, so the partial pressure of oxygen in humidified inspired gas is the oxygen fraction multiplied by the barometric pressure after the water vapour has been taken out.",
-    "Oxygen is diluted again inside the alveolus by carbon dioxide arriving from the blood. The alveolar gas equation accounts for that dilution: alveolar PO₂ equals the humidified inspired value minus PaCO₂ divided by R, where PaCO₂ is the arterial carbon dioxide pressure and R the respiratory exchange ratio, close to 0.8 on a mixed diet.",
+    "Oxygen is diluted again inside the alveolus by carbon dioxide arriving from the blood. The alveolar gas equation accounts for that dilution: alveolar PO\u2082 equals the humidified inspired value minus PaCO\u2082 divided by R, where PaCO\u2082 is the arterial carbon dioxide pressure and R the respiratory exchange ratio, close to 0.8 on a mixed diet.",
     "A research team compared arterial blood gases in volunteers at sea level with those in volunteers at a clinic 4000 m higher (Table 1). The altitude group had been resident for a week, long enough for ventilation to rise and arterial carbon dioxide to settle at a new, lower value.",
     "The same team studied the air transport of patients with a closed pneumothorax. Gas trapped in the pleural space sits at the pressure of its surroundings and contains a fixed quantity of gas, so as the ambient pressure falls the pocket expands, at constant temperature, according to Boyle's law. A pocket measured at 20 mL at sea level is carried up to the same clinic."
    ],
    "figure": {
     "kind": "table",
     "caption": "Table 1  Barometric pressure and measured arterial carbon dioxide at the two sites.",
-    "markup": "<table><thead><tr><th>Site</th><th>Barometric pressure (mmHg)</th><th>Arterial PCO₂ (mmHg)</th></tr></thead><tbody><tr><td>Sea level</td><td>760</td><td>40</td></tr><tr><td>Clinic, 4000 m</td><td>460</td><td>30</td></tr></tbody></table>"
+    "markup": "<table><thead><tr><th>Site</th><th>Barometric pressure (mmHg)</th><th>Arterial PCO\u2082 (mmHg)</th></tr></thead><tbody><tr><td>Sea level</td><td>760</td><td>40</td></tr><tr><td>Clinic, 4000 m</td><td>460</td><td>30</td></tr></tbody></table>"
    },
    "sources": [
     {
@@ -64,7 +64,7 @@
     "Ascorbic acid is a two-electron reducing agent. Oxidation converts it to dehydroascorbic acid, releasing two protons and two electrons, and an iodine molecule takes both of those electrons as it is reduced to two iodide ions. One mole of ascorbic acid therefore consumes exactly one mole of iodine. The endpoint is signalled by starch, which forms an intense blue complex with the first trace of iodine left unreacted.",
     "A tablet was crushed, dissolved and made up to 100.0 mL with water that had been boiled and cooled. Boiling matters: dissolved oxygen oxidises ascorbic acid slowly in solution, and any that is lost that way never reaches the burette. A 25.00 mL aliquot was acidified and titrated with 0.0100 M iodine solution, and the titration was repeated three times (Table 1).",
     "The iodine solution was standardised against a weighed sample of sodium thiosulfate on the morning of the assay, because an iodine solution does not keep: iodine escapes slowly from the solution, and traces of air convert iodide back to iodine in the reverse direction. Starch was added only as the endpoint approached, since starch is itself slowly oxidised by iodine and, in the presence of a large excess of iodine, the blue complex releases its iodine sluggishly and blurs the endpoint.",
-    "The formula mass of ascorbic acid, C₆H₈O₆, is 176.1 g/mol. Assays of this kind measure total reducing capacity rather than ascorbic acid specifically, so a tablet containing another reducing agent will read high. A label that overstates the vitamin content of a supplement is a common finding in surveys of the market, and an assay that measures reducing capacity rather than ascorbic acid specifically cannot distinguish an honest tablet from one fortified with a cheaper reductant."
+    "The formula mass of ascorbic acid, C\u2086H\u2088O\u2086, is 176.1 g/mol. Assays of this kind measure total reducing capacity rather than ascorbic acid specifically, so a tablet containing another reducing agent will read high. A label that overstates the vitamin content of a supplement is a common finding in surveys of the market, and an assay that measures reducing capacity rather than ascorbic acid specifically cannot distinguish an honest tablet from one fortified with a cheaper reductant."
    ],
    "figure": {
     "kind": "table",
@@ -76,9 +76,9 @@
    "id": "cp2-p5",
    "title": "Spinning a sample down",
    "paragraphs": [
-    "A centrifuge creates no new force. It places a sample in a rotating frame, where the only way a particle can follow a circle is for the fluid around it to push it inward. A particle denser than the medium cannot be pushed inward hard enough to keep up, and so drifts outward, toward the bottom of the tube. The inward acceleration required is a = ω² r, with ω the angular velocity in radians per second and r the distance from the axis of rotation. Laboratories report this as a relative centrifugal force: the ratio of ω² r to g.",
-    "Angular velocity follows from the rotor speed, ω = 2 π f, where f is the number of revolutions each second, so a speed quoted in revolutions per minute has to be divided by 60 before it is used. Because the radius enters once and the speed twice, doubling the speed changes the field four times as much as doubling the radius does.",
-    "A laboratory compares four protocols on the same benchtop machine (Table 1), first separating plasma from cells and then platelets from plasma. Take g as 9.8 m/s².",
+    "A centrifuge creates no new force. It places a sample in a rotating frame, where the only way a particle can follow a circle is for the fluid around it to push it inward. A particle denser than the medium cannot be pushed inward hard enough to keep up, and so drifts outward, toward the bottom of the tube. The inward acceleration required is a = \u03c9\u00b2 r, with \u03c9 the angular velocity in radians per second and r the distance from the axis of rotation. Laboratories report this as a relative centrifugal force: the ratio of \u03c9\u00b2 r to g.",
+    "Angular velocity follows from the rotor speed, \u03c9 = 2 \u03c0 f, where f is the number of revolutions each second, so a speed quoted in revolutions per minute has to be divided by 60 before it is used. Because the radius enters once and the speed twice, doubling the speed changes the field four times as much as doubling the radius does.",
+    "A laboratory compares four protocols on the same benchtop machine (Table 1), first separating plasma from cells and then platelets from plasma. Take g as 9.8 m/s\u00b2.",
     "How fast a given particle actually settles depends on more than the field. A larger or denser particle in a less viscous medium settles faster, and two populations of nearly equal density separate poorly however hard the rotor is driven, because the difference in their sedimentation rates, not the rate itself, is what sets them apart. Protocols for such pairs run long and moderate, often with the sample layered over a density gradient so that each population halts where the gradient matches its own density. A swinging-bucket rotor is preferred when the boundary between two layers has to stay flat enough to pipette."
    ],
    "figure": {
@@ -91,14 +91,14 @@
    "id": "cp2-p6",
    "title": "Measuring blood velocity with ultrasound",
    "paragraphs": [
-    "Doppler ultrasound sends a pulse of frequency f₀ into tissue and listens for the echo returned by moving red cells. The sound is shifted once as it meets a moving target and again as the echo returns to a stationary probe, so the shift appears twice over: Δf = 2 f₀ v cosθ / c, where v is the speed of the blood, θ the angle between the beam and the direction of flow, and c the speed of sound in soft tissue, 1540 m/s. The instrument reports the velocity it computes, not the shift it measures.",
-    "The angle is the weak point of the method. At θ = 90° the cosine is zero and flow is invisible however fast it runs, which is why an operator tilts the probe to look along a vessel rather than across it. Clinical practice keeps θ at or below 60°, where the cosine is 0.50 and a small error in the recorded angle costs comparatively little.",
-    "A technician using a 5.0 MHz probe records the peak shift from four vessels, holding the beam at θ = 60° throughout (Table 1).",
-    "Choosing the probe involves a second compromise. The finest detail the beam can resolve along its own direction is set by the wavelength, so a higher frequency gives a sharper image; but attenuation in tissue rises with frequency, so a higher-frequency probe cannot see as deep. Abdominal work uses 2–3 MHz probes, while superficial vessels in the neck or wrist are imaged at 7–12 MHz."
+    "Doppler ultrasound sends a pulse of frequency f\u2080 into tissue and listens for the echo returned by moving red cells. The sound is shifted once as it meets a moving target and again as the echo returns to a stationary probe, so the shift appears twice over: \u0394f = 2 f\u2080 v cos\u03b8 / c, where v is the speed of the blood, \u03b8 the angle between the beam and the direction of flow, and c the speed of sound in soft tissue, 1540 m/s. The instrument reports the velocity it computes, not the shift it measures.",
+    "The angle is the weak point of the method. At \u03b8 = 90\u00b0 the cosine is zero and flow is invisible however fast it runs, which is why an operator tilts the probe to look along a vessel rather than across it. Clinical practice keeps \u03b8 at or below 60\u00b0, where the cosine is 0.50 and a small error in the recorded angle costs comparatively little.",
+    "A technician using a 5.0 MHz probe records the peak shift from four vessels, holding the beam at \u03b8 = 60\u00b0 throughout (Table 1).",
+    "Choosing the probe involves a second compromise. The finest detail the beam can resolve along its own direction is set by the wavelength, so a higher frequency gives a sharper image; but attenuation in tissue rises with frequency, so a higher-frequency probe cannot see as deep. Abdominal work uses 2\u20133 MHz probes, while superficial vessels in the neck or wrist are imaged at 7\u201312 MHz."
    ],
    "figure": {
     "kind": "table",
-    "caption": "Table 1  Peak Doppler shift recorded from each vessel at a beam angle of 60°.",
+    "caption": "Table 1  Peak Doppler shift recorded from each vessel at a beam angle of 60\u00b0.",
     "markup": "<table><thead><tr><th>Vessel</th><th>Peak frequency shift (Hz)</th></tr></thead><tbody><tr><td>A</td><td>650</td></tr><tr><td>B</td><td>1300</td></tr><tr><td>C</td><td>3250</td></tr><tr><td>D</td><td>6500</td></tr></tbody></table>"
    }
   },
@@ -121,7 +121,7 @@
    "id": "cp2-p8",
    "title": "Keeping alveoli open",
    "paragraphs": [
-    "A molecule at the surface of a liquid has fewer neighbours to attract it than one in the bulk, so a surface behaves as though it were under tension and shrinks to the smallest area available. For a spherical film of liquid enclosing gas, the pressure inside exceeds the pressure outside by P = 2γ/r, Laplace's law, where γ is the surface tension and r the radius. The thin film of fluid lining an alveolus therefore pulls it inward, and the smaller the alveolus the harder that pull.",
+    "A molecule at the surface of a liquid has fewer neighbours to attract it than one in the bulk, so a surface behaves as though it were under tension and shrinks to the smallest area available. For a spherical film of liquid enclosing gas, the pressure inside exceeds the pressure outside by P = 2\u03b3/r, Laplace's law, where \u03b3 is the surface tension and r the radius. The thin film of fluid lining an alveolus therefore pulls it inward, and the smaller the alveolus the harder that pull.",
     "Pulmonary surfactant, a mixture of phospholipids and protein secreted by type II alveolar cells, lowers the tension of that film. Its molecules are amphipathic: the hydrophobic tails project into the gas, the head groups stay in the water, and the hydrogen-bonded network at the surface is interrupted wherever one of them sits. Table 1 gives measured values for a saline-lined model alveolus and for a surfactant-lined one at two radii. Treat the pressures as gauge pressures, measured relative to the space outside the alveolus.",
     "The striking property of surfactant is that its tension is not fixed. As an alveolus shrinks the film is compressed, the molecules crowd together and the tension falls further; on inflation the film is stretched, the surfactant is spread thin and the tension rises again. Table 1 shows both states.",
     "That variability is what keeps a lung of unequal alveoli stable. Consider two alveoli of different radii sharing a duct. At a fixed tension, Laplace's law puts the smaller one at the higher pressure, so it would empty into the larger and collapse. A tension that falls as the radius falls works against that, holding the pressures closer together. Infants born before surfactant production begins suffer exactly the predicted failure, and are treated with surfactant instilled into the airway."
@@ -136,7 +136,7 @@
    "id": "cp2-p9",
    "title": "Delivering a shock",
    "paragraphs": [
-    "A defibrillator stores energy in a capacitor and releases it through the chest in a few milliseconds. A capacitor held at a potential difference V carries a charge Q = CV and stores an energy U = (1/2) C V². Because the energy goes as the square of the voltage, the charging voltage sets the dose far more sharply than the capacitance does, and a machine changes its setting by charging to a different voltage rather than by switching capacitors.",
+    "A defibrillator stores energy in a capacitor and releases it through the chest in a few milliseconds. A capacitor held at a potential difference V carries a charge Q = CV and stores an energy U = (1/2) C V\u00b2. Because the energy goes as the square of the voltage, the charging voltage sets the dose far more sharply than the capacitance does, and a machine changes its setting by charging to a different voltage rather than by switching capacitors.",
     "The discharge path is the patient. Resistance between the pads is typically close to 50 ohm, so the current falls away with a time constant equal to the product of that resistance and the capacitance. Clinicians speak of the dose in joules, but it is current through the myocardium that interrupts a fibrillating rhythm, so a patient whose thoracic impedance is high receives less current from the same stored energy. Modern units measure impedance between the pads before discharging and reshape the waveform to compensate.",
     "Table 1 lists the capacitor modules of one machine, all discharging through the same 50 ohm. The adult module is charged to 2.0 kV for its standard setting, and reaches its 100 J and 360 J settings by charging to 1.4 kV and 2.7 kV instead. A service engineer may wire the two adult capacitors together in parallel.",
     "Capacitors in parallel share the same voltage, and their capacitances add, because the arrangement amounts to one capacitor with the plate area of both. In series the reciprocals add, so a pair behaves as half of one, and the applied voltage divides between them. Either arrangement changes the time constant of the discharge as well as the energy stored, which is why a modified machine has to be re-characterised before use."
@@ -151,15 +151,15 @@
    "id": "cp2-p10",
    "title": "How a drug meets glutathione",
    "paragraphs": [
-    "Electrophilic drugs and drug metabolites are detoxified in the liver by conjugation with glutathione, a tripeptide whose cysteine thiol supplies the nucleophile. A candidate drug carrying a primary alkyl bromide was mixed with a model thiol in buffer at pH 7.4 and 37 °C, and the initial rate of conjugate formation was measured at four combinations of concentration (Table 1).",
+    "Electrophilic drugs and drug metabolites are detoxified in the liver by conjugation with glutathione, a tripeptide whose cysteine thiol supplies the nucleophile. A candidate drug carrying a primary alkyl bromide was mixed with a model thiol in buffer at pH 7.4 and 37 \u00b0C, and the initial rate of conjugate formation was measured at four combinations of concentration (Table 1).",
     "A rate law of the form rate = k[RBr]^m[RSH]^n is established by changing one concentration at a time and watching what the rate does. The exponents are properties of the mechanism rather than of the balanced equation, and in a substitution at saturated carbon they separate the two limiting pathways. In a bimolecular displacement the nucleophile attacks the carbon bearing the leaving group from the side opposite that group, and the new bond forms as the carbon-bromine bond breaks, so both species appear in the rate-determining step. In a unimolecular pathway the leaving group departs first, in a slow step involving the substrate alone, and the carbocation that results is captured afterwards by whatever nucleophile is at hand.",
     "A tertiary analogue of the same drug was then studied under identical conditions. It reacted about thirty times faster, and its rate did not change when the thiol concentration was doubled.",
     "The distinction matters in toxicology. A drug that reacts by the bimolecular route is cleared at a rate proportional to the glutathione available, so clearance slows as the store is depleted but the drug itself is not activated into anything worse. A drug that ionises first is consumed at a rate depletion cannot slow, and the carbocation it forms will react with whatever nucleophile it meets, including the nitrogen atoms of DNA bases."
    ],
    "figure": {
     "kind": "table",
-    "caption": "Table 1  Initial rate of conjugate formation at 37 °C and pH 7.4.",
-    "markup": "<table><thead><tr><th>Trial</th><th>[RBr] (M)</th><th>[RSH] (M)</th><th>Initial rate (M/s)</th></tr></thead><tbody><tr><td>1</td><td>0.10</td><td>0.10</td><td>2.0 × 10⁻⁴</td></tr><tr><td>2</td><td>0.20</td><td>0.10</td><td>4.0 × 10⁻⁴</td></tr><tr><td>3</td><td>0.10</td><td>0.20</td><td>4.0 × 10⁻⁴</td></tr><tr><td>4</td><td>0.20</td><td>0.20</td><td>8.0 × 10⁻⁴</td></tr></tbody></table>"
+    "caption": "Table 1  Initial rate of conjugate formation at 37 \u00b0C and pH 7.4.",
+    "markup": "<table><thead><tr><th>Trial</th><th>[RBr] (M)</th><th>[RSH] (M)</th><th>Initial rate (M/s)</th></tr></thead><tbody><tr><td>1</td><td>0.10</td><td>0.10</td><td>2.0 \u00d7 10\u207b\u2074</td></tr><tr><td>2</td><td>0.20</td><td>0.10</td><td>4.0 \u00d7 10\u207b\u2074</td></tr><tr><td>3</td><td>0.10</td><td>0.20</td><td>4.0 \u00d7 10\u207b\u2074</td></tr><tr><td>4</td><td>0.20</td><td>0.20</td><td>8.0 \u00d7 10\u207b\u2074</td></tr></tbody></table>"
    }
   }
  ],
@@ -169,17 +169,17 @@
    "passageId": "cp2-p1",
    "stem": "From the calibration run, what is the heat capacity of the calorimeter assembly?",
    "choices": {
-    "A": "0.010 kJ/°C",
-    "B": "0.10 kJ/°C",
-    "C": "2.64 kJ/°C",
-    "D": "10.0 kJ/°C"
+    "A": "0.010 kJ/\u00b0C",
+    "B": "0.10 kJ/\u00b0C",
+    "C": "2.64 kJ/\u00b0C",
+    "D": "10.0 kJ/\u00b0C"
    },
    "correct": "D",
-   "explanation": "The standard released 26.4 kJ and the bath rose 2.64 °C, so C = q / ΔT = 26.4 / 2.64 = 10.0 kJ per °C. Dividing the heat by the temperature rise is the order that leaves the right units, kJ per degree.",
+   "explanation": "The standard released 26.4 kJ and the bath rose 2.64 \u00b0C, so C = q / \u0394T = 26.4 / 2.64 = 10.0 kJ per \u00b0C. Dividing the heat by the temperature rise is the order that leaves the right units, kJ per degree.",
    "wrong": {
-    "A": "0.010 kJ/°C follows from reading the standard's heat as 26.4 J/g rather than kJ/g, a thousandfold slip in the unit.",
-    "B": "0.10 kJ/°C is the division taken the wrong way round, 2.64 divided by 26.4; that quantity has units of degrees per kilojoule.",
-    "C": "2.64 kJ/°C quotes the temperature rise itself as though it were the heat capacity, leaving the 26.4 kJ of heat unused."
+    "A": "0.010 kJ/\u00b0C follows from reading the standard's heat as 26.4 J/g rather than kJ/g, a thousandfold slip in the unit.",
+    "B": "0.10 kJ/\u00b0C is the division taken the wrong way round, 2.64 divided by 26.4; that quantity has units of degrees per kilojoule.",
+    "C": "2.64 kJ/\u00b0C quotes the temperature rise itself as though it were the heat capacity, leaving the 26.4 kJ of heat unused."
    },
    "category": "5E",
    "skill": "skill-4",
@@ -197,11 +197,11 @@
     "D": "39.0 kJ/g"
    },
    "correct": "D",
-   "explanation": "Palmitic acid raised the bath 3.90 °C, and each degree corresponds to 10.0 kJ, so the sample released 39.0 kJ. Because exactly 1.00 g was burned, that is also the energy per gram, 39.0 kJ/g.",
+   "explanation": "Palmitic acid raised the bath 3.90 \u00b0C, and each degree corresponds to 10.0 kJ, so the sample released 39.0 kJ. Because exactly 1.00 g was burned, that is also the energy per gram, 39.0 kJ/g.",
    "wrong": {
     "A": "3.90 kJ/g is the temperature rise with a unit of energy attached; it still has to be multiplied by the calorimeter constant.",
-    "B": "15.6 kJ/g is the figure for glucose, whose rise was 1.56 °C, not for palmitic acid.",
-    "C": "29.7 kJ/g belongs to the ethanol row of Table 1, which produced a 2.97 °C rise."
+    "B": "15.6 kJ/g is the figure for glucose, whose rise was 1.56 \u00b0C, not for palmitic acid.",
+    "C": "29.7 kJ/g belongs to the ethanol row of Table 1, which produced a 2.97 \u00b0C rise."
    },
    "category": "5E",
    "skill": "skill-2",
@@ -219,10 +219,10 @@
     "D": "-4000 kJ/mol"
    },
    "correct": "C",
-   "explanation": "Glucose released 1.56 °C x 10.0 kJ/°C = 15.6 kJ per gram. One mole is 180 g, so a mole releases 15.6 × 180 = 2810 kJ, and the value is negative because combustion gives heat out: -2810 kJ/mol.",
+   "explanation": "Glucose released 1.56 \u00b0C x 10.0 kJ/\u00b0C = 15.6 kJ per gram. One mole is 180 g, so a mole releases 15.6 \u00d7 180 = 2810 kJ, and the value is negative because combustion gives heat out: -2810 kJ/mol.",
    "wrong": {
     "A": "-15.6 kJ/mol is the energy per gram, not per mole; it has yet to be multiplied by the 180 g in a mole.",
-    "B": "-281 kJ/mol multiplies the temperature rise by the molar mass without ever applying the 10.0 kJ/°C calorimeter constant.",
+    "B": "-281 kJ/mol multiplies the temperature rise by the molar mass without ever applying the 10.0 kJ/\u00b0C calorimeter constant.",
     "D": "-4000 kJ/mol uses 256 g/mol, the molar mass of palmitic acid, in place of the molar mass of glucose."
    },
    "category": "5E",
@@ -266,7 +266,7 @@
    "explanation": "Combustion releases energy by converting C-H and C-C bonds into C=O and O-H bonds. Glucose already carries an oxygen on nearly every carbon, so much of that conversion has already happened; the hydrocarbon chain of a fatty acid has not been oxidised at all, which is why it yields 39.0 kJ/g against 15.6 kJ/g.",
    "wrong": {
     "A": "Energy per gram is independent of molar mass: dividing by mass removes the size of the molecule from the comparison.",
-    "B": "Palmitic acid melts near 63 °C, well above the bath, and in any case a heat of fusion is far too small to explain a difference of this size.",
+    "B": "Palmitic acid melts near 63 \u00b0C, well above the bath, and in any case a heat of fusion is far too small to explain a difference of this size.",
     "C": "The sample is burned inside a sealed vessel and never contacts the bath water, so it cannot dissolve in it."
    },
    "category": "5B",
@@ -285,7 +285,7 @@
     "D": "713 mmHg"
    },
    "correct": "B",
-   "explanation": "Removing the 47 mmHg of water vapour from 760 mmHg leaves 713 mmHg of dry gas, of which 21% is oxygen: 0.21 × 713 = 150 mmHg. Nothing in this step involves carbon dioxide, which only dilutes the oxygen later, inside the alveolus.",
+   "explanation": "Removing the 47 mmHg of water vapour from 760 mmHg leaves 713 mmHg of dry gas, of which 21% is oxygen: 0.21 \u00d7 713 = 150 mmHg. Nothing in this step involves carbon dioxide, which only dilutes the oxygen later, inside the alveolus.",
    "wrong": {
     "A": "100 mmHg is the alveolar value, after carbon dioxide has diluted the inspired gas; the question asks for the inspired partial pressure.",
     "C": "160 mmHg takes 21% of the full 760 mmHg and so counts the 47 mmHg of water vapour as though it were air.",
@@ -299,7 +299,7 @@
   {
    "id": "cp2-p2-q2",
    "passageId": "cp2-p2",
-   "stem": "Using Table 1, what is the alveolar PO₂ of the volunteers resident at the clinic?",
+   "stem": "Using Table 1, what is the alveolar PO\u2082 of the volunteers resident at the clinic?",
    "choices": {
     "A": "12 mmHg",
     "B": "37 mmHg",
@@ -307,11 +307,11 @@
     "D": "57 mmHg"
    },
    "correct": "C",
-   "explanation": "Humidified inspired oxygen at the clinic is 0.21 × (460 mmHg less 47 mmHg) = 87 mmHg. The residents' PaCO₂ is 30 mmHg, so the dilution term is 30 / 0.8 = 37.5 mmHg, leaving an alveolar PO₂ of about 49 mmHg - roughly half the sea-level figure, which is why arterial saturation falls at altitude.",
+   "explanation": "Humidified inspired oxygen at the clinic is 0.21 \u00d7 (460 mmHg less 47 mmHg) = 87 mmHg. The residents' PaCO\u2082 is 30 mmHg, so the dilution term is 30 / 0.8 = 37.5 mmHg, leaving an alveolar PO\u2082 of about 49 mmHg - roughly half the sea-level figure, which is why arterial saturation falls at altitude.",
    "wrong": {
     "A": "12 mmHg subtracts the carbon dioxide correction twice over; the equation applies it once.",
-    "B": "37 mmHg uses the sea-level PaCO₂ of 40 mmHg. The residents have hyperventilated their PaCO₂ down to 30 mmHg, which is the value in their own row of the table.",
-    "D": "57 mmHg subtracts PaCO₂ itself rather than PaCO₂ divided by the exchange ratio of 0.8, and so understates the dilution."
+    "B": "37 mmHg uses the sea-level PaCO\u2082 of 40 mmHg. The residents have hyperventilated their PaCO\u2082 down to 30 mmHg, which is the value in their own row of the table.",
+    "D": "57 mmHg subtracts PaCO\u2082 itself rather than PaCO\u2082 divided by the exchange ratio of 0.8, and so understates the dilution."
    },
    "category": "4B",
    "skill": "skill-2",
@@ -329,7 +329,7 @@
     "D": "55 mL"
    },
    "correct": "C",
-   "explanation": "At constant temperature and fixed quantity of gas, PV is constant, so V2 = V1 × P₁/P₂ = 20 mL x 760/460 = 33 mL. Pressure has fallen, so the volume must rise, and the pocket grows by about two thirds.",
+   "explanation": "At constant temperature and fixed quantity of gas, PV is constant, so V2 = V1 \u00d7 P\u2081/P\u2082 = 20 mL x 760/460 = 33 mL. Pressure has fallen, so the volume must rise, and the pocket grows by about two thirds.",
    "wrong": {
     "A": "12 mL inverts the pressure ratio, multiplying by 460/760 instead of 760/460, and so predicts that the pocket shrinks as pressure falls.",
     "B": "20 mL would require the gas to be unaffected by the fall in surrounding pressure, which Boyle's law rules out for a compliant pocket.",
@@ -343,19 +343,19 @@
   {
    "id": "cp2-p2-q4",
    "passageId": "cp2-p2",
-   "stem": "Which change would have the LEAST effect on the alveolar PO₂ of a resident at the clinic?",
+   "stem": "Which change would have the LEAST effect on the alveolar PO\u2082 of a resident at the clinic?",
    "choices": {
     "A": "A rise in the saturated water vapour pressure from 47 to 50 mmHg with a fever.",
-    "B": "A fall in arterial PCO₂ from 30 to 20 mmHg on further hyperventilation.",
+    "B": "A fall in arterial PCO\u2082 from 30 to 20 mmHg on further hyperventilation.",
     "C": "A fall in the respiratory exchange ratio from 0.8 to 0.6 on a fat-rich diet.",
     "D": "A storm that lowers the barometric pressure at the clinic from 460 to 440 mmHg."
    },
    "correct": "A",
-   "explanation": "Water vapour enters the calculation only through the subtraction from barometric pressure, and it is then multiplied by the oxygen fraction: three more mmHg of vapour costs 0.21 × 3, about 0.6 mmHg of alveolar oxygen. Every other change here moves the result by several mmHg at least, so the fever matters least.",
+   "explanation": "Water vapour enters the calculation only through the subtraction from barometric pressure, and it is then multiplied by the oxygen fraction: three more mmHg of vapour costs 0.21 \u00d7 3, about 0.6 mmHg of alveolar oxygen. Every other change here moves the result by several mmHg at least, so the fever matters least.",
    "wrong": {
-    "B": "Dropping PaCO₂ from 30 to 20 mmHg cuts the dilution term from 37.5 to 25 mmHg and so raises alveolar PO₂ by about 12 mmHg - the largest effect listed.",
-    "C": "A ratio of 0.6 raises the dilution term from 37.5 to 50 mmHg, lowering alveolar PO₂ by about 12 mmHg.",
-    "D": "Losing 20 mmHg of barometric pressure costs 0.21 × 20, about 4 mmHg of alveolar oxygen, several times the effect of the fever."
+    "B": "Dropping PaCO\u2082 from 30 to 20 mmHg cuts the dilution term from 37.5 to 25 mmHg and so raises alveolar PO\u2082 by about 12 mmHg - the largest effect listed.",
+    "C": "A ratio of 0.6 raises the dilution term from 37.5 to 50 mmHg, lowering alveolar PO\u2082 by about 12 mmHg.",
+    "D": "Losing 20 mmHg of barometric pressure costs 0.21 \u00d7 20, about 4 mmHg of alveolar oxygen, several times the effect of the fever."
    },
    "category": "4B",
    "skill": "skill-1",
@@ -499,17 +499,17 @@
    "passageId": "cp2-p4",
    "stem": "Using the mean titre, how many moles of ascorbic acid were present in the 25.00 mL aliquot?",
    "choices": {
-    "A": "7.10 × 10⁻⁵ mol",
-    "B": "1.42 × 10⁻⁴ mol",
-    "C": "2.84 × 10⁻⁴ mol",
-    "D": "1.42 × 10⁻³ mol"
+    "A": "7.10 \u00d7 10\u207b\u2075 mol",
+    "B": "1.42 \u00d7 10\u207b\u2074 mol",
+    "C": "2.84 \u00d7 10\u207b\u2074 mol",
+    "D": "1.42 \u00d7 10\u207b\u00b3 mol"
    },
    "correct": "B",
-   "explanation": "The three titres average to 14.20 mL. Moles of iodine delivered are 0.0100 mol/L x 0.01420 L = 1.42 × 10⁻⁴ mol, and because ascorbic acid and iodine react in a one-to-one ratio the aliquot held 1.42 × 10⁻⁴ mol of ascorbic acid.",
+   "explanation": "The three titres average to 14.20 mL. Moles of iodine delivered are 0.0100 mol/L x 0.01420 L = 1.42 \u00d7 10\u207b\u2074 mol, and because ascorbic acid and iodine react in a one-to-one ratio the aliquot held 1.42 \u00d7 10\u207b\u2074 mol of ascorbic acid.",
    "wrong": {
-    "A": "7.10 × 10⁻⁵ mol halves the iodine figure, as though two moles of iodine were needed per mole of ascorbic acid. Two electrons are transferred, but one iodine molecule accepts both.",
-    "C": "2.84 × 10⁻⁴ mol doubles the iodine figure instead, which would require each iodine molecule to oxidise two ascorbic acid molecules.",
-    "D": "1.42 × 10⁻³ mol is a decade too large: the burette reading is 14.20 mL, which is 0.01420 L, not 0.1420 L."
+    "A": "7.10 \u00d7 10\u207b\u2075 mol halves the iodine figure, as though two moles of iodine were needed per mole of ascorbic acid. Two electrons are transferred, but one iodine molecule accepts both.",
+    "C": "2.84 \u00d7 10\u207b\u2074 mol doubles the iodine figure instead, which would require each iodine molecule to oxidise two ascorbic acid molecules.",
+    "D": "1.42 \u00d7 10\u207b\u00b3 mol is a decade too large: the burette reading is 14.20 mL, which is 0.01420 L, not 0.1420 L."
    },
    "category": "5A",
    "skill": "skill-2",
@@ -527,7 +527,7 @@
     "D": "400.0 mg"
    },
    "correct": "C",
-   "explanation": "The aliquot was one quarter of the 100.0 mL solution, so the tablet held 4 × 1.42 × 10⁻⁴ = 5.68 × 10⁻⁴ mol. Multiplying by 176.1 g/mol gives 0.1000 g, that is 100.0 mg of ascorbic acid.",
+   "explanation": "The aliquot was one quarter of the 100.0 mL solution, so the tablet held 4 \u00d7 1.42 \u00d7 10\u207b\u2074 = 5.68 \u00d7 10\u207b\u2074 mol. Multiplying by 176.1 g/mol gives 0.1000 g, that is 100.0 mg of ascorbic acid.",
    "wrong": {
     "A": "25.0 mg is the mass in the aliquot alone and ignores that only a quarter of the tablet's solution was titrated.",
     "B": "50.0 mg follows from assuming two moles of iodine per mole of ascorbic acid, which halves the moles found before the dilution factor is applied.",
@@ -571,7 +571,7 @@
     "D": "Protocol 4"
    },
    "correct": "D",
-   "explanation": "The field goes as ω² r, so speed counts twice and radius once. Protocol 4 pairs the highest speed in the table with the larger of the two radii used at that speed, and no other row combines both: it reaches about 1.5 × 10³ times g, while protocols 2 and 3 reach about 755 times g and protocol 1 about 168 times g.",
+   "explanation": "The field goes as \u03c9\u00b2 r, so speed counts twice and radius once. Protocol 4 pairs the highest speed in the table with the larger of the two radii used at that speed, and no other row combines both: it reaches about 1.5 \u00d7 10\u00b3 times g, while protocols 2 and 3 reach about 755 times g and protocol 1 about 168 times g.",
    "wrong": {
     "A": "Protocol 1 has the lowest speed of the four, and speed is the term that is squared, so it gives the weakest field of all.",
     "B": "Protocol 2 shares the highest speed but at half the radius of protocol 4, which halves the field.",
@@ -587,17 +587,17 @@
    "passageId": "cp2-p5",
    "stem": "What relative centrifugal force, as a multiple of g, does Protocol 4 apply?",
    "choices": {
-    "A": "1.5 × 10³",
-    "B": "1.5 × 10⁴",
-    "C": "1.5 × 10⁵",
-    "D": "5.4 × 10⁶"
+    "A": "1.5 \u00d7 10\u00b3",
+    "B": "1.5 \u00d7 10\u2074",
+    "C": "1.5 \u00d7 10\u2075",
+    "D": "5.4 \u00d7 10\u2076"
    },
    "correct": "A",
-   "explanation": "3000 rpm is 50 revolutions per second, so ω = 2 π x 50 = 314 rad/s. Then ω² r = 314² x 0.15 = 1.48 × 10⁴ m/s², and dividing by g = 9.8 m/s² gives about 1.5 × 10³ times g, a figure typical of a clinical bench spin.",
+   "explanation": "3000 rpm is 50 revolutions per second, so \u03c9 = 2 \u03c0 x 50 = 314 rad/s. Then \u03c9\u00b2 r = 314\u00b2 x 0.15 = 1.48 \u00d7 10\u2074 m/s\u00b2, and dividing by g = 9.8 m/s\u00b2 gives about 1.5 \u00d7 10\u00b3 times g, a figure typical of a clinical bench spin.",
    "wrong": {
-    "B": "1.5 × 10⁴ is the acceleration in m/s². A relative centrifugal force is that acceleration divided by g, which this choice omits.",
-    "C": "1.5 × 10⁵ leaves the radius in centimetres. The formula needs SI units, so 15 cm has to be entered as 0.15 m.",
-    "D": "5.4 × 10⁶ uses 3000 directly as revolutions per second. A speed in revolutions per minute must be divided by 60 first."
+    "B": "1.5 \u00d7 10\u2074 is the acceleration in m/s\u00b2. A relative centrifugal force is that acceleration divided by g, which this choice omits.",
+    "C": "1.5 \u00d7 10\u2075 leaves the radius in centimetres. The formula needs SI units, so 15 cm has to be entered as 0.15 m.",
+    "D": "5.4 \u00d7 10\u2076 uses 3000 directly as revolutions per second. A speed in revolutions per minute must be divided by 60 first."
    },
    "category": "4A",
    "skill": "skill-2",
@@ -615,7 +615,7 @@
     "D": "Protocols 2 and 3"
    },
    "correct": "D",
-   "explanation": "Protocol 3 runs at half the speed of protocol 2, which cuts ω² to a quarter, but at four times the radius, which restores the product. Both come to about 755 times g, and the pair illustrates that a slow wide rotor and a fast narrow one can be interchangeable.",
+   "explanation": "Protocol 3 runs at half the speed of protocol 2, which cuts \u03c9\u00b2 to a quarter, but at four times the radius, which restores the product. Both come to about 755 times g, and the pair illustrates that a slow wide rotor and a fast narrow one can be interchangeable.",
    "wrong": {
     "A": "Protocol 1 reaches about 168 times g and protocol 2 about 755 times g, a factor of four or so apart.",
     "B": "Protocols 1 and 4 share a radius but differ threefold in speed, so their fields differ about ninefold.",
@@ -659,9 +659,9 @@
     "D": "0.40 m/s"
    },
    "correct": "A",
-   "explanation": "Rearranging gives v = Δf c / (2 f₀ cosθ). With Δf = 3250 Hz, c = 1540 m/s, f₀ = 5.0 MHz and cosθ = 0.50, the denominator is 2 × 5.0 × 10⁶ x 0.50 = 5.0 × 10⁶, and 3250 × 1540 / (5.0 × 10⁶ = 1.00 m/s - a normal peak for a large artery.",
+   "explanation": "Rearranging gives v = \u0394f c / (2 f\u2080 cos\u03b8). With \u0394f = 3250 Hz, c = 1540 m/s, f\u2080 = 5.0 MHz and cos\u03b8 = 0.50, the denominator is 2 \u00d7 5.0 \u00d7 10\u2076 \u00d7 0.50 = 5.0 \u00d7 10\u2076, and 3250 \u00d7 1540 / (5.0 \u00d7 10\u2076) = 1.00 m/s - a normal peak for a large artery.",
    "wrong": {
-    "B": "0.58 m/s uses sin 60°, 0.866, in place of cos 60°. The formula carries the cosine of the angle between the beam and the flow.",
+    "B": "0.58 m/s uses sin 60\u00b0, 0.866, in place of cos 60\u00b0. The formula carries the cosine of the angle between the beam and the flow.",
     "C": "0.50 m/s drops the cosine altogether, which is the velocity that would be reported if the beam lay along the vessel.",
     "D": "0.40 m/s is the velocity in Vessel B, whose shift of 1300 Hz is a fifth of the value asked about."
    },
@@ -681,9 +681,9 @@
     "D": "3.1 mm"
    },
    "correct": "C",
-   "explanation": "Wavelength is speed divided by frequency: 1540 m/s divided by 5.0 × 10⁶ Hz is 3.1 × 10⁻⁴ m, which is 0.31 mm. That figure is also the scale of the finest detail the beam can resolve along its own axis.",
+   "explanation": "Wavelength is speed divided by frequency: 1540 m/s divided by 5.0 \u00d7 10\u2076 Hz is 3.1 \u00d7 10\u207b\u2074 m, which is 0.31 mm. That figure is also the scale of the finest detail the beam can resolve along its own axis.",
    "wrong": {
-    "A": "0.031 mm is a decade too small; 1540 divided by 5.0 × 10⁶ is 3.1 × 10⁻⁴ m, not 3.1 × 10⁻⁵ m.",
+    "A": "0.031 mm is a decade too small; 1540 divided by 5.0 \u00d7 10\u2076 is 3.1 \u00d7 10\u207b\u2074 m, not 3.1 \u00d7 10\u207b\u2075 m.",
     "B": "0.15 mm halves the wavelength, borrowing the factor of two that belongs to the round trip of the Doppler shift rather than to the wavelength.",
     "D": "3.1 mm is a decade too large and would make the beam unable to resolve any vessel wall."
    },
@@ -698,14 +698,14 @@
    "stem": "Which change would NOT increase the frequency shift recorded from a given vessel?",
    "choices": {
     "A": "Fitting a 7.5 MHz probe in place of the 5.0 MHz probe.",
-    "B": "Tilting the probe so the beam meets the flow at 75° rather than 60°.",
+    "B": "Tilting the probe so the beam meets the flow at 75\u00b0 rather than 60\u00b0.",
     "C": "Recording at peak systole rather than at end-diastole.",
     "D": "Sampling within a stenosis, where the same flow passes through a narrower lumen."
    },
    "correct": "B",
-   "explanation": "The shift is proportional to the cosine of the angle, and the cosine falls as the angle grows toward 90°: from 0.50 at 60° to 0.26 at 75°. Tilting the beam further off the line of flow therefore cuts the shift roughly in half. Every other change listed raises either the probe frequency or the blood velocity, both of which raise the shift.",
+   "explanation": "The shift is proportional to the cosine of the angle, and the cosine falls as the angle grows toward 90\u00b0: from 0.50 at 60\u00b0 to 0.26 at 75\u00b0. Tilting the beam further off the line of flow therefore cuts the shift roughly in half. Every other change listed raises either the probe frequency or the blood velocity, both of which raise the shift.",
    "wrong": {
-    "A": "The shift is directly proportional to f₀, so a 7.5 MHz probe returns half again as much shift from the same velocity.",
+    "A": "The shift is directly proportional to f\u2080, so a 7.5 MHz probe returns half again as much shift from the same velocity.",
     "C": "Blood moves fastest at peak systole, and the shift is proportional to velocity, so the recorded shift rises.",
     "D": "Continuity requires the velocity to rise where the lumen narrows, so the same flow gives a larger shift inside a stenosis."
    },
@@ -717,7 +717,7 @@
   {
    "id": "cp2-p6-q4",
    "passageId": "cp2-p6",
-   "stem": "The technician's goniometer reads 60°, but the beam in fact meets the flow at 70°. What is the consequence for the reported velocity?",
+   "stem": "The technician's goniometer reads 60\u00b0, but the beam in fact meets the flow at 70\u00b0. What is the consequence for the reported velocity?",
    "choices": {
     "A": "It is about a third too low, because the true cosine is smaller than the one assumed.",
     "B": "It is about a third too high, because a larger angle returns a larger frequency shift.",
@@ -725,7 +725,7 @@
     "D": "It is too low by the ratio 60/70, since the error is proportional to the angle itself."
    },
    "correct": "A",
-   "explanation": "The instrument divides the measured shift by the cosine it has been told to assume. The true cosine at 70° is 0.342 against the assumed 0.500, so the true velocity is larger than the reported one by 0.500/0.342, and the report falls short by about 32%. This is why the angle is recorded with the measurement and why practice keeps it well below 90°, where the error grows without limit.",
+   "explanation": "The instrument divides the measured shift by the cosine it has been told to assume. The true cosine at 70\u00b0 is 0.342 against the assumed 0.500, so the true velocity is larger than the reported one by 0.500/0.342, and the report falls short by about 32%. This is why the angle is recorded with the measurement and why practice keeps it well below 90\u00b0, where the error grows without limit.",
    "wrong": {
     "B": "A larger angle returns a smaller shift, not a larger one, because the cosine falls; the reported velocity is therefore too low rather than too high.",
     "C": "The factor of two accounts for the double shift, but the angle enters both legs the same way, so nothing about it cancels.",
@@ -769,7 +769,7 @@
     "D": "100 MBq"
    },
    "correct": "D",
-   "explanation": "The half-life is 110 min, so 220 minutes is exactly two half-lives. The activity falls to 400 × (1/2)² = 100 MBq, a quarter of the assayed value, which is why a delayed scan may need a fresh vial.",
+   "explanation": "The half-life is 110 min, so 220 minutes is exactly two half-lives. The activity falls to 400 \u00d7 (1/2)\u00b2 = 100 MBq, a quarter of the assayed value, which is why a delayed scan may need a fresh vial.",
    "wrong": {
     "A": "283 MBq is 400 divided by the square root of two, the activity after half of one half-life rather than after two.",
     "B": "200 MBq counts one half-life only, as though 110 minutes had elapsed instead of 220.",
@@ -785,17 +785,17 @@
    "passageId": "cp2-p7",
    "stem": "What is the decay constant of gallium-68?",
    "choices": {
-    "A": "1.0 × 10⁻² min⁻¹",
-    "B": "1.5 × 10⁻² min⁻¹",
-    "C": "6.1 × 10⁻¹ min⁻¹",
-    "D": "4.7 × 10¹ min⁻¹"
+    "A": "1.0 \u00d7 10\u207b\u00b2 min\u207b\u00b9",
+    "B": "1.5 \u00d7 10\u207b\u00b2 min\u207b\u00b9",
+    "C": "6.1 \u00d7 10\u207b\u00b9 min\u207b\u00b9",
+    "D": "4.7 \u00d7 10\u00b9 min\u207b\u00b9"
    },
    "correct": "A",
-   "explanation": "For a first-order process k = ln 2 / T. With T = 68 min, k = 0.693 / 68 = 1.0 × 10⁻² per minute, so about 1% of the remaining nuclei decay each minute.",
+   "explanation": "For a first-order process k = ln 2 / T. With T = 68 min, k = 0.693 / 68 = 1.0 \u00d7 10\u207b\u00b2 per minute, so about 1% of the remaining nuclei decay each minute.",
    "wrong": {
-    "B": "1.5 × 10⁻² per minute is 1/68, which omits the factor of ln 2 that links a half-life to a rate constant.",
-    "C": "6.1 × 10⁻¹ is the value per hour, 0.693 × 60 / 68, carrying the wrong unit of time.",
-    "D": "4.7 × 10¹ multiplies ln 2 by the half-life instead of dividing by it, which inverts the units as well as the size."
+    "B": "1.5 \u00d7 10\u207b\u00b2 per minute is 1/68, which omits the factor of ln 2 that links a half-life to a rate constant.",
+    "C": "6.1 \u00d7 10\u207b\u00b9 is the value per hour, 0.693 \u00d7 60 / 68, carrying the wrong unit of time.",
+    "D": "4.7 \u00d7 10\u00b9 multiplies ln 2 by the half-life instead of dividing by it, which inverts the units as well as the size."
    },
    "category": "5E",
    "skill": "skill-2",
@@ -835,7 +835,7 @@
     "D": "400 Pa"
    },
    "correct": "A",
-   "explanation": "Laplace's law gives P = 2γ/r with γ = 50 mN/m = 0.050 N/m and r = 50 micrometres = 5.0 × 10⁻⁵ m. So P = 2 × 0.050 / (5.0 × 10⁻⁵ = 2000 Pa, around 15 mmHg, which is far more than the pressure a breath could overcome.",
+   "explanation": "Laplace's law gives P = 2\u03b3/r with \u03b3 = 50 mN/m = 0.050 N/m and r = 50 micrometres = 5.0 \u00d7 10\u207b\u2075 m. So P = 2 \u00d7 0.050 / (5.0 \u00d7 10\u207b\u2075) = 2000 Pa, around 15 mmHg, which is far more than the pressure a breath could overcome.",
    "wrong": {
     "B": "1000 Pa omits the factor of two in Laplace's law, which comes from the two directions of curvature of a sphere.",
     "C": "500 Pa belongs to the surfactant-lined alveolus at full inflation, with a tension of 25 mN/m and twice the radius.",
@@ -857,7 +857,7 @@
     "D": "3.0 mmHg"
    },
    "correct": "D",
-   "explanation": "With γ = 10 mN/m = 0.010 N/m and r = 5.0 × 10⁻⁵ m, Laplace's law gives 2 × 0.010 / (5.0 × 10⁻⁵ = 400 Pa. Dividing by 133 Pa per mmHg gives 3.0 mmHg, which is the order of pressure a quiet breath can supply.",
+   "explanation": "With \u03b3 = 10 mN/m = 0.010 N/m and r = 5.0 \u00d7 10\u207b\u2075 m, Laplace's law gives 2 \u00d7 0.010 / (5.0 \u00d7 10\u207b\u2075) = 400 Pa. Dividing by 133 Pa per mmHg gives 3.0 mmHg, which is the order of pressure a quiet breath can supply.",
    "wrong": {
     "A": "15.0 mmHg is the 2000 Pa of the saline-lined film and uses the tension of a surface with no surfactant on it.",
     "B": "7.5 mmHg comes from pairing the full-inflation tension of 25 mN/m with the end-expiratory radius of 50 micrometres; the table pairs that tension with 100 micrometres.",
@@ -901,7 +901,7 @@
     "D": "Once surfactant is present the internal pressure no longer depends on the radius at all."
    },
    "correct": "A",
-   "explanation": "At a fixed surface tension the smaller sphere is at higher pressure and would indeed discharge into the larger. Surfactant breaks that logic: the smaller alveolus has the more compressed film, its tension is lower, and the fall in tension offsets the fall in radius in P = 2γ/r, so the two pressures stay close and both stay open.",
+   "explanation": "At a fixed surface tension the smaller sphere is at higher pressure and would indeed discharge into the larger. Surfactant breaks that logic: the smaller alveolus has the more compressed film, its tension is lower, and the fall in tension offsets the fall in radius in P = 2\u03b3/r, so the two pressures stay close and both stay open.",
    "wrong": {
     "B": "Film thickness is not what Laplace's law depends on; the pressure is set by tension and radius, and a thicker film would not stop a pressure difference from driving flow.",
     "C": "Laplace's law applies to each alveolus whatever it is connected to; the connection is what makes the pressure difference matter.",
@@ -923,9 +923,9 @@
     "D": "200 J"
    },
    "correct": "D",
-   "explanation": "U = (1/2) C V² with C = 100 microfarads = 1.0 × 10⁻⁴ F and V = 2000 V. Then U = 0.5 × 1.0 × 10⁻⁴ x (2000)² = 200 J, which is the standard adult dose quoted in practice.",
+   "explanation": "U = (1/2) C V\u00b2 with C = 100 microfarads = 1.0 \u00d7 10\u207b\u2074 F and V = 2000 V. Then U = 0.5 \u00d7 1.0 \u00d7 10\u207b\u2074 x (2000)\u00b2 = 200 J, which is the standard adult dose quoted in practice.",
    "wrong": {
-    "A": "0.10 J leaves the voltage unsquared, computing (1/2) C V instead of (1/2) C V².",
+    "A": "0.10 J leaves the voltage unsquared, computing (1/2) C V instead of (1/2) C V\u00b2.",
     "B": "0.20 J is the charge on the capacitor in coulombs, CV, reported as though it were an energy.",
     "C": "100 J is the energy of the lower setting, which this machine reaches by charging to 1.4 kV rather than 2.0 kV."
    },
@@ -939,17 +939,17 @@
    "passageId": "cp2-p9",
    "stem": "What charge sits on the adult capacitor at its standard setting?",
    "choices": {
-    "A": "1.0 × 10⁻¹ C",
-    "B": "2.0 × 10⁻¹ C",
-    "C": "2.7 × 10⁻¹ C",
-    "D": "2.0 × 10⁵ C"
+    "A": "1.0 \u00d7 10\u207b\u00b9 C",
+    "B": "2.0 \u00d7 10\u207b\u00b9 C",
+    "C": "2.7 \u00d7 10\u207b\u00b9 C",
+    "D": "2.0 \u00d7 10\u2075 C"
    },
    "correct": "B",
-   "explanation": "Q = CV = 1.0 × 10⁻⁴ F x 2000 V = 2.0 × 10⁻¹ C. Two tenths of a coulomb delivered in a few milliseconds is a current of tens of amperes, which is what the myocardium actually responds to.",
+   "explanation": "Q = CV = 1.0 \u00d7 10\u207b\u2074 F x 2000 V = 2.0 \u00d7 10\u207b\u00b9 C. Two tenths of a coulomb delivered in a few milliseconds is a current of tens of amperes, which is what the myocardium actually responds to.",
    "wrong": {
-    "A": "1.0 × 10⁻¹ C carries the factor of one half across from the energy formula; the charge is CV with no such factor.",
-    "C": "2.7 × 10⁻¹ C uses 2.7 kV, the voltage of the 360 J setting, rather than the standard 2.0 kV.",
-    "D": "2.0 × 10⁵ C treats the capacitance as 100 F. The module is 100 microfarads, which is 1.0 × 10⁻⁴ F."
+    "A": "1.0 \u00d7 10\u207b\u00b9 C carries the factor of one half across from the energy formula; the charge is CV with no such factor.",
+    "C": "2.7 \u00d7 10\u207b\u00b9 C uses 2.7 kV, the voltage of the 360 J setting, rather than the standard 2.0 kV.",
+    "D": "2.0 \u00d7 10\u2075 C treats the capacitance as 100 F. The module is 100 microfarads, which is 1.0 \u00d7 10\u207b\u2074 F."
    },
    "category": "4C",
    "skill": "skill-2",
@@ -961,17 +961,17 @@
    "passageId": "cp2-p9",
    "stem": "What is the time constant of the adult module discharging through the chest?",
    "choices": {
-    "A": "2.5 × 10⁻³ s",
-    "B": "5.0 × 10⁻³ s",
-    "C": "1.0 × 10⁻² s",
-    "D": "5.0 × 10³ s"
+    "A": "2.5 \u00d7 10\u207b\u00b3 s",
+    "B": "5.0 \u00d7 10\u207b\u00b3 s",
+    "C": "1.0 \u00d7 10\u207b\u00b2 s",
+    "D": "5.0 \u00d7 10\u00b3 s"
    },
    "correct": "B",
-   "explanation": "The time constant of a resistor and capacitor in series is their product: 50 ohm x 1.0 × 10⁻⁴ F = 5.0 × 10⁻³ s, that is 5 ms. The discharge is therefore over in roughly 20 ms, which matches the few-millisecond pulse the passage describes.",
+   "explanation": "The time constant of a resistor and capacitor in series is their product: 50 ohm x 1.0 \u00d7 10\u207b\u2074 F = 5.0 \u00d7 10\u207b\u00b3 s, that is 5 ms. The discharge is therefore over in roughly 20 ms, which matches the few-millisecond pulse the passage describes.",
    "wrong": {
-    "A": "2.5 × 10⁻³ s uses the paediatric module's 50 microfarads rather than the adult module's 100 microfarads.",
-    "C": "1.0 × 10⁻² s uses the 200 microfarads of the parallel pair, not the single adult capacitor.",
-    "D": "5.0 × 10³ s treats the capacitance as 100 F; forgetting the μ prefix stretches a 5 ms pulse into well over an hour."
+    "A": "2.5 \u00d7 10\u207b\u00b3 s uses the paediatric module's 50 microfarads rather than the adult module's 100 microfarads.",
+    "C": "1.0 \u00d7 10\u207b\u00b2 s uses the 200 microfarads of the parallel pair, not the single adult capacitor.",
+    "D": "5.0 \u00d7 10\u00b3 s treats the capacitance as 100 F; forgetting the \u03bc prefix stretches a 5 ms pulse into well over an hour."
    },
    "category": "4C",
    "skill": "skill-2",
@@ -989,7 +989,7 @@
     "D": "800 J"
    },
    "correct": "C",
-   "explanation": "Capacitances in parallel add, so the pair is 200 microfarads = 2.0 × 10⁻⁴ F at the same 2.0 kV. Then U = 0.5 × 2.0 × 10⁻⁴ x (2000)² = 400 J: doubling the capacitance at a fixed voltage doubles the stored energy.",
+   "explanation": "Capacitances in parallel add, so the pair is 200 microfarads = 2.0 \u00d7 10\u207b\u2074 F at the same 2.0 kV. Then U = 0.5 \u00d7 2.0 \u00d7 10\u207b\u2074 x (2000)\u00b2 = 400 J: doubling the capacitance at a fixed voltage doubles the stored energy.",
    "wrong": {
     "A": "100 J is the result for the two capacitors in series, where the reciprocals add and the pair behaves as 50 microfarads.",
     "B": "200 J is the energy of a single adult capacitor and ignores the second one entirely.",
@@ -1011,7 +1011,7 @@
     "D": "I, II and III"
    },
    "correct": "D",
-   "explanation": "Energy is (1/2) C V², so it rises with either factor. Doubling the capacitance doubles it, and statement I holds. Doubling the voltage quadruples it, so statement II holds. Adding an identical capacitor in parallel doubles the capacitance, which is statement I by another route, so statement III holds as well.",
+   "explanation": "Energy is (1/2) C V\u00b2, so it rises with either factor. Doubling the capacitance doubles it, and statement I holds. Doubling the voltage quadruples it, so statement II holds. Adding an identical capacitor in parallel doubles the capacitance, which is statement I by another route, so statement III holds as well.",
    "wrong": {
     "A": "This omits statement II, but the energy depends on the square of the voltage, so doubling the voltage raises the stored energy most of all.",
     "B": "Statement III also holds: parallel capacitances add, so the pair stores twice the energy of one at the same voltage.",
@@ -1049,17 +1049,17 @@
    "passageId": "cp2-p10",
    "stem": "What is the rate constant for the primary drug?",
    "choices": {
-    "A": "2.0 × 10⁻² M⁻¹ s⁻¹",
-    "B": "5.0 × 10⁻³ M⁻¹ s⁻¹",
-    "C": "2.0 × 10⁻³ M⁻¹ s⁻¹",
-    "D": "2.0 × 10⁻⁴ M⁻¹ s⁻¹"
+    "A": "2.0 \u00d7 10\u207b\u00b2 M\u207b\u00b9 s\u207b\u00b9",
+    "B": "5.0 \u00d7 10\u207b\u00b3 M\u207b\u00b9 s\u207b\u00b9",
+    "C": "2.0 \u00d7 10\u207b\u00b3 M\u207b\u00b9 s\u207b\u00b9",
+    "D": "2.0 \u00d7 10\u207b\u2074 M\u207b\u00b9 s\u207b\u00b9"
    },
    "correct": "A",
-   "explanation": "With the rate law first order in each reactant, k = rate / ([RBr][RSH]). Using trial 1, k = 2.0 × 10⁻⁴ / (0.10 × 0.10) = 2.0 × 10⁻² per molar per second. Any of the four trials gives the same value, which is itself a check on the rate law.",
+   "explanation": "With the rate law first order in each reactant, k = rate / ([RBr][RSH]). Using trial 1, k = 2.0 \u00d7 10\u207b\u2074 / (0.10 \u00d7 0.10) = 2.0 \u00d7 10\u207b\u00b2 per molar per second. Any of the four trials gives the same value, which is itself a check on the rate law.",
    "wrong": {
-    "B": "5.0 × 10⁻³ pairs the rate of trial 1 with the concentrations of trial 4, mixing rows of the table.",
-    "C": "2.0 × 10⁻³ divides by one concentration only, which would be the rate constant for a reaction first order overall.",
-    "D": "2.0 × 10⁻⁴ is the measured rate of trial 1 reported as a rate constant; it has not been divided by any concentration."
+    "B": "5.0 \u00d7 10\u207b\u00b3 pairs the rate of trial 1 with the concentrations of trial 4, mixing rows of the table.",
+    "C": "2.0 \u00d7 10\u207b\u00b3 divides by one concentration only, which would be the rate constant for a reaction first order overall.",
+    "D": "2.0 \u00d7 10\u207b\u2074 is the measured rate of trial 1 reported as a rate constant; it has not been divided by any concentration."
    },
    "category": "5E",
    "skill": "skill-2",
@@ -1115,17 +1115,17 @@
    "passageId": "cp2-p10",
    "stem": "The primary drug is run again at 0.40 M in the bromide and 0.050 M in the thiol. What initial rate should be expected?",
    "choices": {
-    "A": "1.6 × 10⁻⁴ M/s",
-    "B": "2.0 × 10⁻⁴ M/s",
-    "C": "4.0 × 10⁻⁴ M/s",
-    "D": "1.0 × 10⁻³ M/s"
+    "A": "1.6 \u00d7 10\u207b\u2074 M/s",
+    "B": "2.0 \u00d7 10\u207b\u2074 M/s",
+    "C": "4.0 \u00d7 10\u207b\u2074 M/s",
+    "D": "1.0 \u00d7 10\u207b\u00b3 M/s"
    },
    "correct": "C",
-   "explanation": "With the rate law first order in each reactant, rate = k[RBr][RSH]. Using the constant from the table, 2.0 × 10⁻² x 0.40 × 0.050 = 4.0 × 10⁻⁴ M/s. Raising the bromide fourfold and lowering the thiol by half changes the product of the concentrations by a factor of two, so the rate is twice that of trial 1.",
+   "explanation": "With the rate law first order in each reactant, rate = k[RBr][RSH]. Using the constant from the table, 2.0 \u00d7 10\u207b\u00b2 x 0.40 \u00d7 0.050 = 4.0 \u00d7 10\u207b\u2074 M/s. Raising the bromide fourfold and lowering the thiol by half changes the product of the concentrations by a factor of two, so the rate is twice that of trial 1.",
    "wrong": {
-    "A": "1.6 × 10⁻⁴ M/s makes the reaction second order in the bromide, computing k[RBr]²[RSH]; the data show the order in the bromide is one.",
-    "B": "2.0 × 10⁻⁴ M/s is the rate of trial 1 and assumes the two changes cancel, but quadrupling one concentration while halving the other doubles their product.",
-    "D": "1.0 × 10⁻³ M/s drops the bromide term and computes k[RSH] alone, which would be the rate law only if the bromide were zero order."
+    "A": "1.6 \u00d7 10\u207b\u2074 M/s makes the reaction second order in the bromide, computing k[RBr]\u00b2[RSH]; the data show the order in the bromide is one.",
+    "B": "2.0 \u00d7 10\u207b\u2074 M/s is the rate of trial 1 and assumes the two changes cancel, but quadrupling one concentration while halving the other doubles their product.",
+    "D": "1.0 \u00d7 10\u207b\u00b3 M/s drops the bromide term and computes k[RSH] alone, which would be the rate law only if the bromide were zero order."
    },
    "category": "5E",
    "skill": "skill-2",
@@ -1135,7 +1135,7 @@
   {
    "id": "cp2-d1",
    "passageId": null,
-   "stem": "Normal saline is 0.154 M NaCl. What osmotic pressure does it exert at 37 °C across a membrane permeable to water alone? (R = 0.0821 L atm mol⁻¹ K⁻¹",
+   "stem": "Normal saline is 0.154 M NaCl. What osmotic pressure does it exert at 37 \u00b0C across a membrane permeable to water alone? (R = 0.0821 L atm mol\u207b\u00b9 K\u207b\u00b9)",
    "choices": {
     "A": "794 atm",
     "B": "7.8 atm",
@@ -1143,11 +1143,11 @@
     "D": "0.94 atm"
    },
    "correct": "B",
-   "explanation": "Osmotic pressure is i M R T, and sodium chloride dissociates into two particles, so i = 2. Then 2 × 0.154 × 0.0821 × 310 = 7.8 atm. The figure is large because osmotic pressure counts particles, not mass, and it is the reason an isotonic fluid is prescribed by concentration rather than by volume.",
+   "explanation": "Osmotic pressure is i M R T, and sodium chloride dissociates into two particles, so i = 2. Then 2 \u00d7 0.154 \u00d7 0.0821 \u00d7 310 = 7.8 atm. The figure is large because osmotic pressure counts particles, not mass, and it is the reason an isotonic fluid is prescribed by concentration rather than by volume.",
    "wrong": {
-    "A": "794 is the answer in kilopascals, obtained with R = 8.314 J mol⁻¹ K⁻¹, mislabelled as atmospheres.",
+    "A": "794 is the answer in kilopascals, obtained with R = 8.314 J mol\u207b\u00b9 K\u207b\u00b9, mislabelled as atmospheres.",
     "C": "3.9 atm takes i = 1, treating dissolved sodium chloride as though it stayed as intact units rather than separating into two ions.",
-    "D": "0.94 atm uses 37 for the temperature. The gas constant requires kelvin, so 37 °C must be entered as 310 K."
+    "D": "0.94 atm uses 37 for the temperature. The gas constant requires kelvin, so 37 \u00b0C must be entered as 310 K."
    },
    "category": "5A",
    "skill": "skill-2",
@@ -1161,11 +1161,11 @@
    "choices": {
     "A": "0.10 M glucose",
     "B": "0.10 M acetic acid",
-    "C": "0.10 M CaCl₂",
+    "C": "0.10 M CaCl\u2082",
     "D": "0.10 M NaCl"
    },
    "correct": "C",
-   "explanation": "Freezing point depression depends on the total concentration of dissolved particles. Calcium chloride releases three ions per formula unit, so 0.10 M CaCl₂ is about 0.30 M in particles, a higher particle concentration than any other solution listed, and it therefore depresses the freezing point the most.",
+   "explanation": "Freezing point depression depends on the total concentration of dissolved particles. Calcium chloride releases three ions per formula unit, so 0.10 M CaCl\u2082 is about 0.30 M in particles, a higher particle concentration than any other solution listed, and it therefore depresses the freezing point the most.",
    "wrong": {
     "A": "Glucose does not ionise, so 0.10 M glucose is 0.10 M in particles, the lowest of the four.",
     "B": "Acetic acid is a weak acid and only a few percent ionises, so its particle concentration is barely above 0.10 M.",
@@ -1247,17 +1247,17 @@
    "passageId": null,
    "stem": "An optical fibre has a core of refractive index 1.50 and cladding of index 1.45. Measured from the normal, what is the critical angle at the core-cladding boundary?",
    "choices": {
-    "A": "14.8°",
-    "B": "41.8°",
-    "C": "69.1°",
-    "D": "75.2°"
+    "A": "14.8\u00b0",
+    "B": "41.8\u00b0",
+    "C": "69.1\u00b0",
+    "D": "75.2\u00b0"
    },
    "correct": "D",
-   "explanation": "Total internal reflection sets in when the refracted ray would graze the boundary, so sinθ = n₂/n₁ = 1.45/1.50 = 0.967, giving θ = 75.2°. The angle is large because the two indices are close, which is exactly what confines light that enters the fibre nearly along its axis.",
+   "explanation": "Total internal reflection sets in when the refracted ray would graze the boundary, so sin\u03b8 = n\u2082/n\u2081 = 1.45/1.50 = 0.967, giving \u03b8 = 75.2\u00b0. The angle is large because the two indices are close, which is exactly what confines light that enters the fibre nearly along its axis.",
    "wrong": {
-    "A": "14.8° is the complement of the critical angle, the angle measured from the boundary rather than from the normal.",
-    "B": "41.8° is the critical angle for this core against air, using a ratio of 1/1.50, and ignores the cladding.",
-    "C": "69.1° squares the ratio of the indices before taking the inverse sine; the relation uses the ratio itself."
+    "A": "14.8\u00b0 is the complement of the critical angle, the angle measured from the boundary rather than from the normal.",
+    "B": "41.8\u00b0 is the critical angle for this core against air, using a ratio of 1/1.50, and ignores the cladding.",
+    "C": "69.1\u00b0 squares the ratio of the indices before taking the inverse sine; the relation uses the ratio itself."
    },
    "category": "4D",
    "skill": "skill-2",
@@ -1275,7 +1275,7 @@
     "D": "3675 N"
    },
    "correct": "C",
-   "explanation": "Taking torques about the elbow, F x 0.040 m = 5.0 kg x 9.8 m/s² x 0.30 m, so F = 49 × 0.30 / 0.040 = 368 N. The muscle is at a mechanical disadvantage of about seven to one, which is the price paid for a short insertion that lets the hand move quickly.",
+   "explanation": "Taking torques about the elbow, F x 0.040 m = 5.0 kg x 9.8 m/s\u00b2 x 0.30 m, so F = 49 \u00d7 0.30 / 0.040 = 368 N. The muscle is at a mechanical disadvantage of about seven to one, which is the price paid for a short insertion that lets the hand move quickly.",
    "wrong": {
     "A": "6.5 N interchanges the two lever arms, dividing by 0.30 m and multiplying by 0.040 m, and would mean the muscle had the advantage.",
     "B": "49 N is the weight of the load alone and ignores that the load and the muscle act at different distances from the joint.",
@@ -1297,7 +1297,7 @@
     "D": "40 dB"
    },
    "correct": "C",
-   "explanation": "Intensity level is 10 log(I/I0) in decibels, and log 100 = 2, so the level rises by 10 × 2 = 20 dB. Each tenfold rise in intensity adds 10 dB, and two of them add 20.",
+   "explanation": "Intensity level is 10 log(I/I0) in decibels, and log 100 = 2, so the level rises by 10 \u00d7 2 = 20 dB. Each tenfold rise in intensity adds 10 dB, and two of them add 20.",
    "wrong": {
     "A": "2 dB is the logarithm itself, which still has to be multiplied by 10 to reach decibels.",
     "B": "10 dB corresponds to a tenfold rise in intensity, not a hundredfold one.",
@@ -1363,7 +1363,7 @@
     "D": "9"
    },
    "correct": "C",
-   "explanation": "Each stereocentre can take either of two configurations independently, so the count is 2³ = 8 stereoisomers, which make up four pairs of enantiomers. The absence of internal symmetry is what rules out meso forms that would reduce the count.",
+   "explanation": "Each stereocentre can take either of two configurations independently, so the count is 2\u00b3 = 8 stereoisomers, which make up four pairs of enantiomers. The absence of internal symmetry is what rules out meso forms that would reduce the count.",
    "wrong": {
     "A": "3 counts the stereocentres rather than the arrangements they can take.",
     "B": "6 multiplies the number of centres by two, which would be right only if the centres could not vary independently of one another.",
@@ -1382,14 +1382,14 @@
     "A": "replacing the methyl group on the acyl carbon with a tert-butyl group.",
     "B": "raising the hydroxide concentration at constant temperature.",
     "C": "replacing a methyl substituent on the acyl group with a trifluoromethyl group.",
-    "D": "warming the reaction from 25 to 45 °C."
+    "D": "warming the reaction from 25 to 45 \u00b0C."
    },
    "correct": "A",
    "explanation": "Base-catalysed ester hydrolysis begins with hydroxide adding to the carbonyl carbon, so anything that crowds that carbon slows the reaction. A tert-butyl group beside the carbonyl is the bulkiest substituent offered and shields the carbon from attack, which is why hindered esters hydrolyse sluggishly. The other three changes all speed the reaction.",
    "wrong": {
     "B": "Hydroxide appears in the rate law of this reaction, so a higher concentration of it gives a faster rate.",
     "C": "A trifluoromethyl group withdraws electron density inductively, making the carbonyl carbon more electrophilic and more readily attacked.",
-    "D": "A rise of 20 °C typically multiplies a rate of this kind several times over, since the rate constant rises steeply with temperature."
+    "D": "A rise of 20 \u00b0C typically multiplies a rate of this kind several times over, since the rate constant rises steeply with temperature."
    },
    "category": "5D",
    "skill": "skill-1",
@@ -1399,7 +1399,7 @@
   {
    "id": "cp2-d13",
    "passageId": null,
-   "stem": "A drug is eliminated by a first-order process with a rate constant of 0.050 s⁻¹. What fraction of a dose remains 60 s after it is given?",
+   "stem": "A drug is eliminated by a first-order process with a rate constant of 0.050 s\u207b\u00b9. What fraction of a dose remains 60 s after it is given?",
    "choices": {
     "A": "5%",
     "B": "25%",
@@ -1407,7 +1407,7 @@
     "D": "95%"
    },
    "correct": "A",
-   "explanation": "For first-order loss the fraction remaining is e raised to the power −kt. With k = 0.050 s⁻¹ and t = 60 s that exponent is −3, and e⁻³ is about 0.05, or 5%. The same result follows from the half-life: ln 2 / 0.050 is about 14 s, and 60 s is more than four half-lives, which leaves a twentieth or so.",
+   "explanation": "For first-order loss the fraction remaining is e raised to the power \u2212kt. With k = 0.050 s\u207b\u00b9 and t = 60 s that exponent is \u22123, and e\u207b\u00b3 is about 0.05, or 5%. The same result follows from the half-life: ln 2 / 0.050 is about 14 s, and 60 s is more than four half-lives, which leaves a twentieth or so.",
    "wrong": {
     "B": "25% is what two half-lives would leave, that is about 28 s of elimination rather than 60 s.",
     "C": "50% is one half-life of about 14 s, and treats the 60 s as though it were that interval.",
@@ -1445,7 +1445,7 @@
    "passageId": null,
    "stem": "For which process is the entropy change of the system negative?",
    "choices": {
-    "A": "Condensation of steam to liquid water at 100 °C",
+    "A": "Condensation of steam to liquid water at 100 \u00b0C",
     "B": "Sublimation of solid carbon dioxide at room temperature",
     "C": "Dissolution of solid sodium chloride in water",
     "D": "Thermal denaturation of a folded globular protein"

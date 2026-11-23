@@ -51,6 +51,21 @@ for (const examDir of existsSync(ROOT) ? readdirSync(ROOT, { withFileTypes: true
     const data = JSON.parse(readFileSync(join(ROOT, examDir.name, file), "utf8"));
     const passages = Object.fromEntries((data.passages ?? []).map(p => [p.id, p]));
 
+    for (const passage of data.passages ?? []) {
+      (passage.paragraphs ?? []).forEach((text, index) => {
+        let depth = 0;
+        let broken = false;
+        for (const ch of text) {
+          if (ch === "(") depth += 1;
+          if (ch === ")") depth -= 1;
+          if (depth < 0) broken = true;
+        }
+        if (broken || depth !== 0) {
+          flag(`${examDir.name}/${section}/${passage.id}`, "unbalanced-brackets", `paragraph ${index + 1} has a bracket that never closes`);
+        }
+      });
+    }
+
     for (const q of data.questions) {
       const id = `${examDir.name}/${section}/${q.id}`;
       const keyText = q.choices[q.correct];
@@ -106,6 +121,24 @@ for (const examDir of existsSync(ROOT) ? readdirSync(ROOT, { withFileTypes: true
         if (/\b(?:this|that|it|[A-D])\s+is\s+(?:the\s+)?(?:correct(?:\s+answer)?|right\s+answer|answer)\b/i.test(note)) {
           flag(id, "distractor-claims-correct", `note for ${letter} reads as if ${letter} were right`);
         }
+      }
+
+      // 5b. Unbalanced brackets. An exponent rule that consumed the bracket
+      //     after "^2" shipped six corrupted explanations across two forms
+      //     before anything noticed, because no test reads prose.
+      const unbalanced = (text) => {
+        let depth = 0;
+        for (const ch of text) {
+          if (ch === "(") depth += 1;
+          if (ch === ")") depth -= 1;
+          if (depth < 0) return true;
+        }
+        return depth !== 0;
+      };
+      for (const [where, text] of [["stem", q.stem], ["explanation", exp],
+        ...LETTERS.map(l => [`choice ${l}`, q.choices[l]]),
+        ...Object.entries(q.wrong).map(([l, n]) => [`note ${l}`, n])]) {
+        if (unbalanced(text)) flag(id, "unbalanced-brackets", `${where} has a bracket that never closes`);
       }
 
       // 6. A passage question whose stem cannot stand alone.

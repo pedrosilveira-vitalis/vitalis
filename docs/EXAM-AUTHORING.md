@@ -125,6 +125,15 @@ confident-looking total of 481 and advice telling the student that CARS was
 "dragging the total" and sat "9 points below your best section" — about a
 section with nothing in it. A form with any unscored section yields no total.
 
+### Read the output, not just the exit code
+
+Six explanations shipped across two forms with a bracket that never closed,
+because the exponent rule `\^\(?(-?\d+)\)?` consumed the parenthesis after
+`^2` as well as the one in `^(-2)`. `(v2^2 - v1^2)` became `(v₂² - v₁²`.
+Every test passed throughout: no test read the prose. The screen now checks
+bracket balance in every stem, choice, note and paragraph, but the lesson is
+that a passing suite is not the same as a correct one.
+
 ## When a check is wrong
 
 A broken check does not merely fail to catch defects — it introduces them. The

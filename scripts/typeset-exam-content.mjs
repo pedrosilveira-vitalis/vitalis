@@ -32,7 +32,11 @@ const RULES = [
   [/\bH\+/g, "H⁺"],
   [/\bOH-/g, "OH⁻"],
   // Exponents written as ^n, including negative and multi-digit.
-  [/\^\(?(-?\d+)\)?/g, (_m, digits) => sup(digits)],
+  // A parenthesised exponent consumes its own brackets; a bare one must not
+  // eat the bracket that follows it, or "(v2^2 - v1^2)" loses its closing
+  // parenthesis and the explanation ships unbalanced.
+  [/\^\((-?\d+)\)/g, (_m, digits) => sup(digits)],
+  [/\^(-?\d+)/g, (_m, digits) => sup(digits)],
   // Greek and deltas spelled out while drafting.
   [/\bpi\b/g, "π"],
   [/\beta\b/g, "η"],

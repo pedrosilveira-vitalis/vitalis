@@ -4,22 +4,22 @@
    "id": "cp-p1",
    "title": "Buffering of arterial plasma",
    "paragraphs": [
-    "Arterial plasma is held within roughly 0.04 pH units of 7.40 despite a daily acid load of 50–100 mmol of non-volatile acid. The dominant buffer is the carbon dioxide / bicarbonate pair, whose behaviour is described by pH = 6.1 + log([HCO₃⁻] / (0.03 × PCO₂)), where bicarbonate is in mmol/L and the partial pressure of carbon dioxide is in mmHg. The factor 0.03 converts PCO₂ to the concentration of dissolved CO₂ in mmol/L.",
+    "Arterial plasma is held within roughly 0.04 pH units of 7.40 despite a daily acid load of 50\u2013100 mmol of non-volatile acid. The dominant buffer is the carbon dioxide / bicarbonate pair, whose behaviour is described by pH = 6.1 + log([HCO\u2083\u207b] / (0.03 \u00d7 PCO\u2082)), where bicarbonate is in mmol/L and the partial pressure of carbon dioxide is in mmHg. The factor 0.03 converts PCO\u2082 to the concentration of dissolved CO\u2082 in mmol/L.",
     "A buffer resists pH change most strongly when the pH of the solution equals the pKa of the buffering pair, because the two forms are then present in equal amounts. The apparent pKa of this pair is 6.1, more than a full unit below the pH it is asked to defend, and in a closed container a buffer this far from its pKa would be a poor one.",
-    "What rescues it is that the system is not closed. Dissolved CO₂ is in equilibrium with alveolar gas, and the respiratory centre adjusts ventilation in response to arterial pH and PCO₂ within minutes. Acid added to plasma is converted to CO₂ and breathed off, so the denominator of the ratio is actively held down rather than rising as acid accumulates. The kidney adjusts the numerator over hours to days by reclaiming filtered bicarbonate and excreting ammonium.",
-    "Researchers measured arterial blood gases in four patients presenting to an emergency department, shown in Table 1. Reference ranges are pH 7.35–7.45, PCO₂ 35–45 mmHg, and bicarbonate 22–26 mmol/L."
+    "What rescues it is that the system is not closed. Dissolved CO\u2082 is in equilibrium with alveolar gas, and the respiratory centre adjusts ventilation in response to arterial pH and PCO\u2082 within minutes. Acid added to plasma is converted to CO\u2082 and breathed off, so the denominator of the ratio is actively held down rather than rising as acid accumulates. The kidney adjusts the numerator over hours to days by reclaiming filtered bicarbonate and excreting ammonium.",
+    "Researchers measured arterial blood gases in four patients presenting to an emergency department, shown in Table 1. Reference ranges are pH 7.35\u20137.45, PCO\u2082 35\u201345 mmHg, and bicarbonate 22\u201326 mmol/L."
    ],
    "figure": {
     "kind": "table",
     "caption": "Table 1  Arterial blood gas measurements in four patients.",
-    "markup": "<table><thead><tr><th>Patient</th><th>PCO₂ (mmHg)</th><th>HCO₃⁻ (mmol/L)</th></tr></thead><tbody><tr><td>W</td><td>40</td><td>24</td></tr><tr><td>X</td><td>24</td><td>12</td></tr><tr><td>Y</td><td>60</td><td>26</td></tr><tr><td>Z</td><td>30</td><td>36</td></tr></tbody></table>"
+    "markup": "<table><thead><tr><th>Patient</th><th>PCO\u2082 (mmHg)</th><th>HCO\u2083\u207b (mmol/L)</th></tr></thead><tbody><tr><td>W</td><td>40</td><td>24</td></tr><tr><td>X</td><td>24</td><td>12</td></tr><tr><td>Y</td><td>60</td><td>26</td></tr><tr><td>Z</td><td>30</td><td>36</td></tr></tbody></table>"
    }
   },
   {
    "id": "cp-p2",
    "title": "Temperature dependence of a hydrolysis reaction",
    "paragraphs": [
-    "The rate constant of most reactions varies with temperature according to k = A exp(-Eₐ/RT), where Eₐ is the activation energy, R is 8.314 J/(mol K) and T is the absolute temperature. Taking logarithms gives ln k = ln A - Eₐ/(RT), so a plot of ln k against 1/T is a straight line whose gradient is -Eₐ/R.",
+    "The rate constant of most reactions varies with temperature according to k = A exp(-E\u2090/RT), where E\u2090 is the activation energy, R is 8.314 J/(mol K) and T is the absolute temperature. Taking logarithms gives ln k = ln A - E\u2090/(RT), so a plot of ln k against 1/T is a straight line whose gradient is -E\u2090/R.",
     "A research group studied the hydrolysis of a phosphate ester that is also a substrate of alkaline phosphatase. The uncatalysed reaction was followed at five temperatures between 288 K and 328 K in buffer at pH 8.0, and the enzyme-catalysed reaction was followed at 310 K. From the uncatalysed data the group reported an activation energy of 50 kJ/mol. With enzyme present the apparent activation energy fell to 25 kJ/mol, while the measured pre-exponential factor was unchanged within error.",
     "A second group repeated the enzyme-catalysed measurement between 310 K and 340 K and found that the rate rose with temperature to a maximum near 320 K and then fell sharply, even though substrate was still in large excess."
    ],
@@ -34,9 +34,9 @@
    "id": "cp-p3",
    "title": "Flow through a narrowed artery",
    "paragraphs": [
-    "For steady laminar flow of a Newtonian fluid through a rigid cylindrical tube, the volume flow rate is Q = (π r⁴ ΔP) / (8 η L), where r is the radius, ΔP the pressure difference across the length L, and η the viscosity. Because the radius is raised to the fourth power, small changes in calibre have large consequences for flow at a fixed driving pressure.",
-    "Where a vessel narrows, the volume passing any cross-section per second must be the same on both sides of the narrowing, so A₁ v₁ = A₂ v₂. Bernoulli's relation then requires that the faster-moving fluid inside the narrowing be at lower pressure: P + (1/2) ρ v² + ρ g h is constant along a streamline for an ideal fluid.",
-    "A clinician images a coronary artery and finds a segment where the lumen area has fallen to 40% of the value in the adjacent healthy vessel. Blood velocity in the healthy segment is 0.30 m/s. Take the density of blood as 1060 kg/m³ and treat the vessel as horizontal."
+    "For steady laminar flow of a Newtonian fluid through a rigid cylindrical tube, the volume flow rate is Q = (\u03c0 r\u2074 \u0394P) / (8 \u03b7 L), where r is the radius, \u0394P the pressure difference across the length L, and \u03b7 the viscosity. Because the radius is raised to the fourth power, small changes in calibre have large consequences for flow at a fixed driving pressure.",
+    "Where a vessel narrows, the volume passing any cross-section per second must be the same on both sides of the narrowing, so A\u2081 v\u2081 = A\u2082 v\u2082. Bernoulli's relation then requires that the faster-moving fluid inside the narrowing be at lower pressure: P + (1/2) \u03c1 v\u00b2 + \u03c1 g h is constant along a streamline for an ideal fluid.",
+    "A clinician images a coronary artery and finds a segment where the lumen area has fallen to 40% of the value in the adjacent healthy vessel. Blood velocity in the healthy segment is 0.30 m/s. Take the density of blood as 1060 kg/m\u00b3 and treat the vessel as horizontal."
    ],
    "sources": [
     {
@@ -49,7 +49,7 @@
    "id": "cp-p4",
    "title": "Correcting the optics of the eye",
    "paragraphs": [
-    "A thin lens obeys 1/f = 1/dₒ + 1/dᵢ, and its power in dioptres is P = 1/f with f in metres. Lens powers in contact add, so a corrective lens placed in front of the eye adds its power to that of the eye itself. A converging lens has positive power; a diverging lens has negative power.",
+    "A thin lens obeys 1/f = 1/d\u2092 + 1/d\u1d62, and its power in dioptres is P = 1/f with f in metres. Lens powers in contact add, so a corrective lens placed in front of the eye adds its power to that of the eye itself. A converging lens has positive power; a diverging lens has negative power.",
     "The unaided eye focuses light from a range of distances between its near point and its far point. In a myopic eye the far point is closer than infinity, so distant objects cannot be brought to a focus on the retina. In presbyopia the near point recedes with age as the lens stiffens, so close work becomes impossible even though distance vision may be unaffected.",
     "A patient is found to have a far point of 40 cm and, at a later visit some years on, a near point of 66.7 cm. A technician in the same clinic assembles a compound microscope from an objective of focal length 4.0 mm and an eyepiece of focal length 25 mm, with the tube length arranged so that the objective forms an image 160 mm beyond its focal point."
    ]
@@ -58,8 +58,8 @@
    "id": "cp-p5",
    "title": "An amperometric glucose biosensor",
    "paragraphs": [
-    "A continuous glucose monitor measures current rather than concentration. Glucose oxidase immobilised on an electrode oxidises glucose to gluconolactone, releasing two electrons per molecule. Rather than passing those electrons to O₂, the sensor uses a ferricyanide mediator that is reduced to ferrocyanide at the enzyme and re-oxidised at the working electrode, so the current the instrument reads is proportional to the rate at which glucose is consumed.",
-    "The relevant standard reduction potentials at pH 7 are +0.36 V for the ferricyanide / ferrocyanide couple and -0.45 V for the gluconolactone / glucose couple. Standard free energy change and cell potential are related by ΔG = -nFE, with F = 96 485 C/mol. Away from standard conditions the cell potential follows the Nernst equation, which at 25 °C takes the form E = E - (0.0592/n) log Q.",
+    "A continuous glucose monitor measures current rather than concentration. Glucose oxidase immobilised on an electrode oxidises glucose to gluconolactone, releasing two electrons per molecule. Rather than passing those electrons to O\u2082, the sensor uses a ferricyanide mediator that is reduced to ferrocyanide at the enzyme and re-oxidised at the working electrode, so the current the instrument reads is proportional to the rate at which glucose is consumed.",
+    "The relevant standard reduction potentials at pH 7 are +0.36 V for the ferricyanide / ferrocyanide couple and -0.45 V for the gluconolactone / glucose couple. Standard free energy change and cell potential are related by \u0394G = -nFE, with F = 96 485 C/mol. Away from standard conditions the cell potential follows the Nernst equation, which at 25 \u00b0C takes the form E = E - (0.0592/n) log Q.",
     "In a calibration run the instrument integrated the current over a fixed sampling window and recorded a total charge of 9.65 mC."
    ],
    "sources": [
@@ -74,7 +74,7 @@
    "title": "Isolating a carboxylic acid drug",
    "paragraphs": [
     "A student is given a crude mixture containing a carboxylic acid drug with a pKa of 4.4, a neutral ester of similar molecular mass, and inorganic salts. The mixture is dissolved in diethyl ether and shaken with aqueous sodium bicarbonate in a separating funnel. The two layers are separated, the aqueous layer is acidified to pH 2 with hydrochloric acid, and a white solid precipitates.",
-    "The solid is purified and analysed. Its infrared spectrum shows a very broad absorption spanning roughly 2500 to 3300 wavenumbers together with a strong sharp band at 1710 wavenumbers. Its proton NMR spectrum shows a six-proton doublet, a one-proton multiplet, a two-proton doublet, and a one-proton signal far downfield that disappears when the sample is shaken with D₂O.",
+    "The solid is purified and analysed. Its infrared spectrum shows a very broad absorption spanning roughly 2500 to 3300 wavenumbers together with a strong sharp band at 1710 wavenumbers. Its proton NMR spectrum shows a six-proton doublet, a one-proton multiplet, a two-proton doublet, and a one-proton signal far downfield that disappears when the sample is shaken with D\u2082O.",
     "Purity is checked by thin-layer chromatography on silica with an ether / hexane eluent. The sample spot travels 3.2 cm from the baseline while the solvent front travels 8.0 cm."
    ]
   },
@@ -82,17 +82,17 @@
    "id": "cp-p7",
    "title": "Calcium oxalate and kidney stones",
    "paragraphs": [
-    "Most kidney stones are calcium oxalate. The solid dissolves according to CaC₂O₄(s) in equilibrium with Ca²⁺(aq) + C₂O₄²⁻(aq), for which the solubility product at 37 °C is approximately 2.3 × 10⁻⁹. Urine supersaturated in either ion favours crystal growth, which is why prevention targets the concentration of both rather than of the salt as a whole.",
+    "Most kidney stones are calcium oxalate. The solid dissolves according to CaC\u2082O\u2084(s) in equilibrium with Ca\u00b2\u207a(aq) + C\u2082O\u2084\u00b2\u207b(aq), for which the solubility product at 37 \u00b0C is approximately 2.3 \u00d7 10\u207b\u2079. Urine supersaturated in either ion favours crystal growth, which is why prevention targets the concentration of both rather than of the salt as a whole.",
     "Oxalate is the conjugate base of oxalic acid, a diprotic acid whose second ionisation corresponds to a pKa of about 4.3. Urine pH in healthy adults ranges from roughly 4.5 to 8.0 depending on diet and time of day, so the fraction of dissolved oxalate present as the fully deprotonated ion varies substantially across the day. Dietary calcium complicates the picture: calcium eaten with a meal binds oxalate in the gut and reduces how much oxalate is absorbed, so restricting calcium can raise urinary oxalate rather than lower it.",
     "Citrate is prescribed to some stone formers. It chelates calcium in urine, forming a soluble complex that holds calcium in solution and so lowers the free calcium available to the equilibrium above. It also raises urine pH, which has its own consequences for the oxalate equilibrium.",
-    "A clinician compares two laboratory samples: one of pure water saturated with calcium oxalate, and one of a 0.010 M calcium chloride solution saturated with the same salt. Both are held at 37 °C."
+    "A clinician compares two laboratory samples: one of pure water saturated with calcium oxalate, and one of a 0.010 M calcium chloride solution saturated with the same salt. Both are held at 37 \u00b0C."
    ]
   },
   {
    "id": "cp-p8",
    "title": "Forces during walking",
    "paragraphs": [
-    "A 70 kg adult walks across a force plate that records the vertical ground reaction force. The trace shows two peaks per step: the first as the foot accepts the body's weight, the second as the foot pushes off. Between them is a trough, during which the centre of mass passes over the planted foot and the vertical force dips below body weight. In normal walking the larger peak reaches about 1.2 times body weight. Take g as 9.8 m/s².",
+    "A 70 kg adult walks across a force plate that records the vertical ground reaction force. The trace shows two peaks per step: the first as the foot accepts the body's weight, the second as the foot pushes off. Between them is a trough, during which the centre of mass passes over the planted foot and the vertical force dips below body weight. In normal walking the larger peak reaches about 1.2 times body weight. Take g as 9.8 m/s\u00b2.",
     "The centre of mass rises and falls by about 5 cm over each stride, reaching its highest point at the middle of stance and its lowest at the moment both feet are on the ground. A stride at a comfortable pace takes 0.60 s.",
     "Walking is comparatively efficient because much of the energy lifted into the centre of mass on one half of the stride is recovered on the other, in the way a pendulum exchanges height for speed. The exchange is not perfect: the muscles must supply the shortfall each stride, and the shortfall grows as speed rises. Above roughly 2 m/s the exchange breaks down and most people switch to running, in which the elastic recoil of tendons replaces the pendulum as the energy store.",
     "Running changes the force profile as well. The two peaks merge into a single, larger one, and the ground reaction force at a comfortable running pace reaches two to three times body weight."
@@ -102,7 +102,7 @@
    "id": "cp-p9",
    "title": "The thermodynamics of folding",
    "paragraphs": [
-    "A small globular protein folds reversibly between a folded and an unfolded state with no detectable intermediate, so the transition can be treated as a two-state equilibrium. Calorimetry on the folding transition gives an enthalpy change of -120 kJ/mol and an entropy change of -350 J/(mol K) for the protein itself, and both are roughly constant over the range studied. Spontaneity is set by ΔG = ΔH - T ΔS.",
+    "A small globular protein folds reversibly between a folded and an unfolded state with no detectable intermediate, so the transition can be treated as a two-state equilibrium. Calorimetry on the folding transition gives an enthalpy change of -120 kJ/mol and an entropy change of -350 J/(mol K) for the protein itself, and both are roughly constant over the range studied. Spontaneity is set by \u0394G = \u0394H - T \u0394S.",
     "The negative entropy term is the cost of ordering a flexible chain into a single structure. An unfolded chain samples an enormous number of conformations; a folded one occupies essentially a single arrangement, and that collapse in accessible states is expensive.",
     "It is paid for by the hydrophobic effect. Non-polar side chains in water force the surrounding molecules into ordered cages, and burying those side chains in the protein's core releases that caged water. The entropy gained is large, but it belongs to the solvent and so is not counted in the -350 J/(mol K) quoted above, which describes the protein alone. Hydrogen bonds and van der Waals contacts within the folded core supply most of the favourable enthalpy.",
     "The protein unfolds when the folded state is no longer favoured. Because the entropy term is multiplied by temperature while the enthalpy term is not, the balance between them shifts as the protein is warmed."
@@ -112,7 +112,7 @@
    "id": "cp-p10",
    "title": "The membrane as a circuit",
    "paragraphs": [
-    "A patch of axonal membrane behaves electrically like a resistor and a capacitor in parallel. The lipid bilayer separates charge and so stores it, giving a membrane capacitance close to 1.0 microfarad per square centimetre in essentially every cell. Ion channels provide a conducting path across it; in a resting unmyelinated axon the membrane resistance is about 1.0 × 10⁴ ohm cm².",
+    "A patch of axonal membrane behaves electrically like a resistor and a capacitor in parallel. The lipid bilayer separates charge and so stores it, giving a membrane capacitance close to 1.0 microfarad per square centimetre in essentially every cell. Ion channels provide a conducting path across it; in a resting unmyelinated axon the membrane resistance is about 1.0 \u00d7 10\u2074 ohm cm\u00b2.",
     "When current is injected, the membrane potential does not change instantly. It approaches its new value exponentially with a time constant given by the product of resistance and capacitance, which sets how quickly a synaptic input can change the potential and therefore how briefly two inputs can be separated and still add together.",
     "Myelination wraps many layers of membrane around the axon. Capacitors in series combine so that the total capacitance is lower than any individual one, while the many layers also raise the resistance across the sheath."
    ]
@@ -130,9 +130,9 @@
     "D": "7.55"
    },
    "correct": "C",
-   "explanation": "The ratio is 24 / (0.03 × 40) = 24 / 1.2 = 20, and log 20 = log 2 + 1 = 1.30. Adding that to the pKa of 6.1 gives 7.40 - the value the passage names as normal, which is the fastest way to confirm the arithmetic without a calculator.",
+   "explanation": "The ratio is 24 / (0.03 \u00d7 40) = 24 / 1.2 = 20, and log 20 = log 2 + 1 = 1.30. Adding that to the pKa of 6.1 gives 7.40 - the value the passage names as normal, which is the fastest way to confirm the arithmetic without a calculator.",
    "wrong": {
-    "A": "7.10 is what you get if the ratio is 10 rather than 20, which would require a PCO₂ of 80 mmHg.",
+    "A": "7.10 is what you get if the ratio is 10 rather than 20, which would require a PCO\u2082 of 80 mmHg.",
     "B": "7.26 does not follow from any pairing of the values given; it is roughly what you get by taking log 15, which no part of the calculation produces.",
     "D": "7.55 overshoots because log 20 is 1.30, not 1.45. Remember log 2 = 0.30, so log 20 = 1.30 exactly."
    },
@@ -152,11 +152,11 @@
     "D": "7.52"
    },
    "correct": "B",
-   "explanation": "The ratio is 12 / (0.03 × 24) = 12 / 0.72 = 16.7. Since log 16.7 falls between log 10 and log 20, the pH must fall between 7.10 and 7.40, which already eliminates two choices. Taking log 16.7 as about 1.22 gives 6.1 + 1.22 = 7.32.",
+   "explanation": "The ratio is 12 / (0.03 \u00d7 24) = 12 / 0.72 = 16.7. Since log 16.7 falls between log 10 and log 20, the pH must fall between 7.10 and 7.40, which already eliminates two choices. Taking log 16.7 as about 1.22 gives 6.1 + 1.22 = 7.32.",
    "wrong": {
-    "A": "7.12 uses the normal PCO₂ of 40 mmHg rather than this patient's 24 mmHg, which gives a ratio of 10 instead of 16.7.",
-    "C": "7.42 is above normal, but this patient has lost proportionally more bicarbonate than CO₂, so the ratio and the pH must both fall.",
-    "D": "7.52 describes an alkalosis. Both values here are below their reference ranges, and the bicarbonate has halved while the PCO₂ has fallen by only 40%."
+    "A": "7.12 uses the normal PCO\u2082 of 40 mmHg rather than this patient's 24 mmHg, which gives a ratio of 10 instead of 16.7.",
+    "C": "7.42 is above normal, but this patient has lost proportionally more bicarbonate than CO\u2082, so the ratio and the pH must both fall.",
+    "D": "7.52 describes an alkalosis. Both values here are below their reference ranges, and the bicarbonate has halved while the PCO\u2082 has fallen by only 40%."
    },
    "category": "5E",
    "skill": "skill-4",
@@ -174,11 +174,11 @@
     "D": "Patient Z"
    },
    "correct": "C",
-   "explanation": "Patient Y has a raised PCO₂ (60 mmHg), which is a respiratory disturbance because PCO₂ is set by ventilation, together with a bicarbonate above range (26 mmol/L). Renal compensation is the slow arm of the system described in the passage, so a bicarbonate that has risen to defend the ratio points to a respiratory problem of some standing.",
+   "explanation": "Patient Y has a raised PCO\u2082 (60 mmHg), which is a respiratory disturbance because PCO\u2082 is set by ventilation, together with a bicarbonate above range (26 mmol/L). Renal compensation is the slow arm of the system described in the passage, so a bicarbonate that has risen to defend the ratio points to a respiratory problem of some standing.",
    "wrong": {
     "A": "Patient W has entirely normal values and so has no disturbance to compensate for.",
-    "B": "Patient X has a low bicarbonate with a low PCO₂, which is a metabolic acidosis with respiratory compensation - the reverse of what is asked.",
-    "D": "Patient Z has a high bicarbonate with a low PCO₂. The primary problem is the metabolic alkalosis; a kidney compensating for a respiratory problem would not drive bicarbonate to 36 mmol/L."
+    "B": "Patient X has a low bicarbonate with a low PCO\u2082, which is a metabolic acidosis with respiratory compensation - the reverse of what is asked.",
+    "D": "Patient Z has a high bicarbonate with a low PCO\u2082. The primary problem is the metabolic alkalosis; a kidney compensating for a respiratory problem would not drive bicarbonate to 36 mmol/L."
    },
    "category": "5E",
    "skill": "skill-3",
@@ -188,7 +188,7 @@
   {
    "id": "cp-p1-q4",
    "passageId": "cp-p1",
-   "stem": "If a patient's PCO₂ rose from 40 to 80 mmHg while bicarbonate stayed at 24 mmol/L, the plasma pH would:",
+   "stem": "If a patient's PCO\u2082 rose from 40 to 80 mmHg while bicarbonate stayed at 24 mmol/L, the plasma pH would:",
    "choices": {
     "A": "fall by about 0.30 units",
     "B": "fall by about 0.60 units",
@@ -196,10 +196,10 @@
     "D": "be unchanged, because bicarbonate did not change"
    },
    "correct": "A",
-   "explanation": "Doubling PCO₂ halves the ratio, and the logarithm of a halved quantity is 0.30 lower, so the pH falls from 7.40 to 7.10. This is worth recognising on sight: every doubling of PCO₂ at fixed bicarbonate costs 0.30 pH units.",
+   "explanation": "Doubling PCO\u2082 halves the ratio, and the logarithm of a halved quantity is 0.30 lower, so the pH falls from 7.40 to 7.10. This is worth recognising on sight: every doubling of PCO\u2082 at fixed bicarbonate costs 0.30 pH units.",
    "wrong": {
-    "B": "0.60 units would be two doublings - a PCO₂ of 160 mmHg.",
-    "C": "The direction is wrong. CO₂ is the acid member of the pair, so more of it lowers the pH.",
+    "B": "0.60 units would be two doublings - a PCO\u2082 of 160 mmHg.",
+    "C": "The direction is wrong. CO\u2082 is the acid member of the pair, so more of it lowers the pH.",
     "D": "The pH depends on the ratio of the two, not on bicarbonate alone, so a change in either moves it."
    },
    "category": "5E",
@@ -210,19 +210,19 @@
   {
    "id": "cp-p1-q5",
    "passageId": "cp-p1",
-   "stem": "The passage argues that a buffer is most effective when the solution pH equals the buffer pKa, yet the CO₂/HCO₃⁻ pair buffers plasma well at pH 7.40. The best explanation is that:",
+   "stem": "The passage argues that a buffer is most effective when the solution pH equals the buffer pKa, yet the CO\u2082/HCO\u2083\u207b pair buffers plasma well at pH 7.40. The best explanation is that:",
    "choices": {
     "A": "ventilation removes the acid member of the pair, so its concentration does not rise as acid is added",
     "B": "the apparent pKa of the pair rises to 7.4 at body temperature",
     "C": "bicarbonate is present at a far higher concentration than any other plasma buffer",
-    "D": "plasma proteins and phosphate buffer the pH instead, leaving the CO₂/HCO₃⁻ pair unused"
+    "D": "plasma proteins and phosphate buffer the pH instead, leaving the CO\u2082/HCO\u2083\u207b pair unused"
    },
    "correct": "A",
-   "explanation": "The passage makes exactly this point: the system is open, and the respiratory centre holds the CO₂ term down rather than letting it climb. Closed-system buffer reasoning, which is where the pKa rule comes from, does not apply when one member is continuously vented.",
+   "explanation": "The passage makes exactly this point: the system is open, and the respiratory centre holds the CO\u2082 term down rather than letting it climb. Closed-system buffer reasoning, which is where the pKa rule comes from, does not apply when one member is continuously vented.",
    "wrong": {
     "B": "The passage gives the apparent pKa as 6.1 and does not describe it shifting with temperature; invoking an unstated shift is unnecessary once the open system is recognised.",
     "C": "Bicarbonate's concentration contributes to buffer capacity, but a high concentration of a buffer far from its pKa still buffers poorly. Concentration alone does not resolve the paradox the passage raises.",
-    "D": "Both do contribute, but the passage identifies the CO₂/HCO₃⁻ pair as dominant, so an explanation that sidelines it contradicts the text."
+    "D": "Both do contribute, but the passage identifies the CO\u2082/HCO\u2083\u207b pair as dominant, so an explanation that sidelines it contradicts the text."
    },
    "category": "5E",
    "skill": "skill-2",
@@ -234,16 +234,16 @@
    "passageId": "cp-p2",
    "stem": "What does the gradient of a plot of ln k against 1/T give for the uncatalysed reaction?",
    "choices": {
-    "A": "-Eₐ/R, so a gradient of about -4.2 × 10² K",
-    "B": "+Eₐ/R, so a gradient of about +6.0 × 10³ K",
+    "A": "-E\u2090/R, so a gradient of about -4.2 \u00d7 10\u00b2 K",
+    "B": "+E\u2090/R, so a gradient of about +6.0 \u00d7 10\u00b3 K",
     "C": "ln A, which is independent of temperature",
-    "D": "-Eₐ/R, so a gradient of about -6.0 × 10³ K"
+    "D": "-E\u2090/R, so a gradient of about -6.0 \u00d7 10\u00b3 K"
    },
    "correct": "D",
-   "explanation": "The passage gives the gradient as -Eₐ/R. With Eₐ = 50 000 J/mol and R = 8.314 J/(mol K), Eₐ/R = 6.0 × 10³ K, so the gradient is -6.0 × 10³ K. The sign is negative because the rate rises as 1/T falls.",
+   "explanation": "The passage gives the gradient as -E\u2090/R. With E\u2090 = 50 000 J/mol and R = 8.314 J/(mol K), E\u2090/R = 6.0 \u00d7 10\u00b3 K, so the gradient is -6.0 \u00d7 10\u00b3 K. The sign is negative because the rate rises as 1/T falls.",
    "wrong": {
-    "A": "4.2 × 10² K comes from dividing 50 000 by 120 or similar; dividing by 8.314 gives roughly 6000, not 420.",
-    "B": "The magnitude is right but the sign is wrong. Rearranged, ln k = ln A - Eₐ/(RT), so the coefficient of 1/T carries a minus sign.",
+    "A": "4.2 \u00d7 10\u00b2 K comes from dividing 50 000 by 120 or similar; dividing by 8.314 gives roughly 6000, not 420.",
+    "B": "The magnitude is right but the sign is wrong. Rearranged, ln k = ln A - E\u2090/(RT), so the coefficient of 1/T carries a minus sign.",
     "C": "ln A is the intercept of this plot, not its gradient."
    },
    "category": "5E",
@@ -262,11 +262,11 @@
     "D": "2.2"
    },
    "correct": "D",
-   "explanation": "The ratio is exp[-(Eₐ/R)(1/310–1/298)]. The bracket is about -1.30 × 10⁻⁴ K⁻¹, and multiplying by Eₐ/R = 6.0 × 10³ K gives an exponent of about +0.78, so the ratio is e⁰.78, roughly 2.2. The familiar rule of thumb that rates roughly double over a 10 degree rise is doing the same arithmetic.",
+   "explanation": "The ratio is exp[-(E\u2090/R)(1/310\u20131/298)]. The bracket is about -1.30 \u00d7 10\u207b\u2074 K\u207b\u00b9, and multiplying by E\u2090/R = 6.0 \u00d7 10\u00b3 K gives an exponent of about +0.78, so the ratio is e\u2070.78, roughly 2.2. The familiar rule of thumb that rates roughly double over a 10 degree rise is doing the same arithmetic.",
    "wrong": {
     "A": "1.04 is the ratio of the temperatures themselves, 310/298. Rate depends exponentially on 1/T, not linearly on T.",
     "B": "12 would require an activation energy several times larger than 50 kJ/mol over this interval.",
-    "C": "Raising the temperature increases the fraction of collisions carrying at least Eₐ, so the rate constant of an uncatalysed step rises."
+    "C": "Raising the temperature increases the fraction of collisions carrying at least E\u2090, so the rate constant of an uncatalysed step rises."
    },
    "category": "5E",
    "skill": "skill-4",
@@ -279,16 +279,16 @@
    "stem": "Taking the pre-exponential factor as unchanged, by roughly what factor does the enzyme raise the rate at 310 K?",
    "choices": {
     "A": "2",
-    "B": "1.0 × 10²",
-    "C": "1.6 × 10⁴",
-    "D": "1.0 × 10⁶"
+    "B": "1.0 \u00d7 10\u00b2",
+    "C": "1.6 \u00d7 10\u2074",
+    "D": "1.0 \u00d7 10\u2076"
    },
    "correct": "C",
-   "explanation": "With A unchanged, the ratio of rate constants is exp[(50 000–25 000)/(R x 310)] = exp(25 000/2577) = exp(9.7), which is about 1.6 × 10⁴. Halving the activation energy does far more than halve the barrier's cost, because it sits in an exponent.",
+   "explanation": "With A unchanged, the ratio of rate constants is exp[(50 000\u201325 000)/(R x 310)] = exp(25 000/2577) = exp(9.7), which is about 1.6 \u00d7 10\u2074. Halving the activation energy does far more than halve the barrier's cost, because it sits in an exponent.",
    "wrong": {
-    "A": "A factor of 2 would follow if rate were proportional to 1/Eₐ. It is not; Eₐ appears in an exponent.",
-    "B": "10² corresponds to an exponent near 4.6, which would need the activation energy to fall by only about 12 kJ/mol.",
-    "D": "10⁶ needs an exponent near 13.8, which would require a drop of about 36 kJ/mol rather than 25."
+    "A": "A factor of 2 would follow if rate were proportional to 1/E\u2090. It is not; E\u2090 appears in an exponent.",
+    "B": "10\u00b2 corresponds to an exponent near 4.6, which would need the activation energy to fall by only about 12 kJ/mol.",
+    "D": "10\u2076 needs an exponent near 13.8, which would require a drop of about 36 kJ/mol rather than 25."
    },
    "category": "5E",
    "skill": "skill-2",
@@ -328,10 +328,10 @@
     "D": "41% of its original value"
    },
    "correct": "D",
-   "explanation": "Flow goes as r⁴, so the fraction remaining is 0.8⁴ = 0.41, or 41%. This is the single most useful consequence of Poiseuille's relation: a fifth off the radius costs nearly 60% of the flow.",
+   "explanation": "Flow goes as r\u2074, so the fraction remaining is 0.8\u2074 = 0.41, or 41%. This is the single most useful consequence of Poiseuille's relation: a fifth off the radius costs nearly 60% of the flow.",
    "wrong": {
     "A": "20% confuses the fraction taken off the radius with the fraction of flow left behind.",
-    "B": "64% is 0.8³, which would be the answer if flow went as the cube of the radius.",
+    "B": "64% is 0.8\u00b3, which would be the answer if flow went as the cube of the radius.",
     "C": "80% treats flow as proportional to radius. The fourth power is the whole point of the relation."
    },
    "category": "4B",
@@ -350,7 +350,7 @@
     "D": "1.9 m/s"
    },
    "correct": "C",
-   "explanation": "Continuity applies to area, and the passage gives the area as 40% of healthy. So v₂ = v₁ x (A₁/A₂) = 0.30 × (1/0.40) = 0.75 m/s. Note that the area ratio is used once: squaring it would be appropriate only if the passage had given a radius ratio.",
+   "explanation": "Continuity applies to area, and the passage gives the area as 40% of healthy. So v\u2082 = v\u2081 x (A\u2081/A\u2082) = 0.30 \u00d7 (1/0.40) = 0.75 m/s. Note that the area ratio is used once: squaring it would be appropriate only if the passage had given a radius ratio.",
    "wrong": {
     "A": "0.12 m/s multiplies by 0.40 instead of dividing by it, which would have fluid slowing as the vessel narrows - impossible if the same volume passes each second.",
     "B": "0.30 m/s is the velocity in the healthy segment, unchanged. Continuity requires that it rise where the area falls.",
@@ -368,15 +368,15 @@
    "choices": {
     "A": "48 Pa",
     "B": "250 Pa",
-    "C": "1.8 × 10³ Pa",
-    "D": "1.8 × 10⁵ Pa"
+    "C": "1.8 \u00d7 10\u00b3 Pa",
+    "D": "1.8 \u00d7 10\u2075 Pa"
    },
    "correct": "B",
-   "explanation": "For a horizontal vessel Bernoulli gives ΔP = (1/2) ρ (v₂² - v₁². With v₁ = 0.30 m/s and v₂ = 0.75 m/s, that is 0.5 × 1060 × (0.5625–0.09) = 2.5 × 10² Pa, which is under 2 mmHg - small, because these velocities are low.",
+   "explanation": "For a horizontal vessel Bernoulli gives \u0394P = (1/2) \u03c1 (v\u2082\u00b2 - v\u2081\u00b2). With v\u2081 = 0.30 m/s and v\u2082 = 0.75 m/s, that is 0.5 \u00d7 1060 \u00d7 (0.5625\u20130.09) = 2.5 \u00d7 10\u00b2 Pa, which is under 2 mmHg - small, because these velocities are low.",
    "wrong": {
-    "A": "48 Pa is the dynamic pressure of the healthy segment alone, 0.5 × 1060 × 0.30². It leaves out the faster fluid inside the narrowing, which is where the pressure actually falls.",
-    "C": "1.8 × 10³ Pa follows from taking the velocity in the narrowing as 1.9 m/s, which comes from squaring an area ratio the passage had already given as an area.",
-    "D": "1.8 × 10⁵ Pa is roughly two atmospheres. A sanity check against arterial pressures, which span about 1.3 × 10⁴ Pa, rules it out immediately."
+    "A": "48 Pa is the dynamic pressure of the healthy segment alone, 0.5 \u00d7 1060 \u00d7 0.30\u00b2. It leaves out the faster fluid inside the narrowing, which is where the pressure actually falls.",
+    "C": "1.8 \u00d7 10\u00b3 Pa follows from taking the velocity in the narrowing as 1.9 m/s, which comes from squaring an area ratio the passage had already given as an area.",
+    "D": "1.8 \u00d7 10\u2075 Pa is roughly two atmospheres. A sanity check against arterial pressures, which span about 1.3 \u00d7 10\u2074 Pa, rules it out immediately."
    },
    "category": "4B",
    "skill": "skill-4",
@@ -438,7 +438,7 @@
     "D": "+5.5 D"
    },
    "correct": "B",
-   "explanation": "The reading lens must take an object at 25 cm and form an image at the near point, 66.7 cm, so P = 1/0.25–1/0.667 = 4.0–1.5 = +2.5 D. Working in dioptres rather than centimetres keeps this to one subtraction.",
+   "explanation": "The reading lens must take an object at 25 cm and form an image at the near point, 66.7 cm, so P = 1/0.25\u20131/0.667 = 4.0\u20131.5 = +2.5 D. Working in dioptres rather than centimetres keeps this to one subtraction.",
    "wrong": {
     "A": "+1.5 D is the 1/0.667 term on its own, which is the power the eye can already manage.",
     "C": "+4.0 D is the 1/0.25 term on its own and ignores what the eye still does unaided.",
@@ -526,7 +526,7 @@
     "D": "+156 kJ/mol"
    },
    "correct": "B",
-   "explanation": "ΔG = -nFE with n = 2 and E = 0.81 V gives -(2)(96 485)(0.81) = -1.56 × 10⁵ J/mol, or -156 kJ/mol. A positive cell potential must give a negative ΔG, which is the sign check worth doing before the arithmetic.",
+   "explanation": "\u0394G = -nFE with n = 2 and E = 0.81 V gives -(2)(96 485)(0.81) = -1.56 \u00d7 10\u2075 J/mol, or -156 kJ/mol. A positive cell potential must give a negative \u0394G, which is the sign check worth doing before the arithmetic.",
    "wrong": {
     "A": "-313 kJ/mol uses n = 4, which would be two glucose molecules rather than one.",
     "C": "-78 kJ/mol uses n = 1. The passage states that two electrons are released per glucose.",
@@ -586,17 +586,17 @@
    "passageId": "cp-p5",
    "stem": "How many moles of glucose were consumed during the calibration window?",
    "choices": {
-    "A": "2.5 × 10⁻⁸ mol",
-    "B": "5.0 × 10⁻⁸ mol",
-    "C": "1.0 × 10⁻⁷ mol",
-    "D": "2.0 × 10⁻⁷ mol"
+    "A": "2.5 \u00d7 10\u207b\u2078 mol",
+    "B": "5.0 \u00d7 10\u207b\u2078 mol",
+    "C": "1.0 \u00d7 10\u207b\u2077 mol",
+    "D": "2.0 \u00d7 10\u207b\u2077 mol"
    },
    "correct": "B",
-   "explanation": "Charge divided by Faraday's constant gives moles of electrons: 9.65 × 10⁻³ / 96 485 = 1.00 × 10⁻⁷ mol. Each glucose releases two electrons, so the glucose consumed is half that, 5.0 × 10⁻⁸ mol.",
+   "explanation": "Charge divided by Faraday's constant gives moles of electrons: 9.65 \u00d7 10\u207b\u00b3 / 96 485 = 1.00 \u00d7 10\u207b\u2077 mol. Each glucose releases two electrons, so the glucose consumed is half that, 5.0 \u00d7 10\u207b\u2078 mol.",
    "wrong": {
-    "A": "2.5 × 10⁻⁸ mol divides by four rather than by two.",
-    "C": "1.0 × 10⁻⁷ mol is the moles of electrons, not of glucose. The last step is the one being tested.",
-    "D": "2.0 × 10⁻⁷ mol multiplies by two instead of dividing, which would be right only if two electrons made two glucose."
+    "A": "2.5 \u00d7 10\u207b\u2078 mol divides by four rather than by two.",
+    "C": "1.0 \u00d7 10\u207b\u2077 mol is the moles of electrons, not of glucose. The last step is the one being tested.",
+    "D": "2.0 \u00d7 10\u207b\u2077 mol multiplies by two instead of dividing, which would be right only if two electrons made two glucose."
    },
    "category": "4C",
    "skill": "skill-2",
@@ -672,7 +672,7 @@
   {
    "id": "cp-p6-q4",
    "passageId": "cp-p6",
-   "stem": "The one-proton signal that disappears on shaking with D₂O is:",
+   "stem": "The one-proton signal that disappears on shaking with D\u2082O is:",
    "choices": {
     "A": "the methine proton",
     "B": "the carboxylic acid proton",
@@ -680,7 +680,7 @@
     "D": "an aromatic proton"
    },
    "correct": "B",
-   "explanation": "Protons on oxygen exchange rapidly with deuterium from D₂O, so the signal vanishes. The acid proton is the only exchangeable one here, and it is also the furthest downfield, which matches the description.",
+   "explanation": "Protons on oxygen exchange rapidly with deuterium from D\u2082O, so the signal vanishes. The acid proton is the only exchangeable one here, and it is also the furthest downfield, which matches the description.",
    "wrong": {
     "A": "A methine proton is bound to carbon and does not exchange.",
     "C": "Methyl protons are bound to carbon, do not exchange, and would integrate for six rather than one.",
@@ -718,17 +718,17 @@
    "passageId": "cp-p7",
    "stem": "What is the molar solubility of calcium oxalate in pure water at this temperature?",
    "choices": {
-    "A": "2.3 × 10⁻⁹ M",
-    "B": "4.8 × 10⁻⁵ M",
-    "C": "1.5 × 10⁻³ M",
-    "D": "4.8 × 10⁻³ M"
+    "A": "2.3 \u00d7 10\u207b\u2079 M",
+    "B": "4.8 \u00d7 10\u207b\u2075 M",
+    "C": "1.5 \u00d7 10\u207b\u00b3 M",
+    "D": "4.8 \u00d7 10\u207b\u00b3 M"
    },
    "correct": "B",
-   "explanation": "For a 1:1 salt, Ksp = s², so s is the square root of 2.3 × 10⁻⁹. Since the square root of 23 × 10⁻¹⁰ is about 4.8 × 10⁻⁵, that is the molar solubility.",
+   "explanation": "For a 1:1 salt, Ksp = s\u00b2, so s is the square root of 2.3 \u00d7 10\u207b\u2079. Since the square root of 23 \u00d7 10\u207b\u00b9\u2070 is about 4.8 \u00d7 10\u207b\u2075, that is the molar solubility.",
    "wrong": {
-    "A": "2.3 × 10⁻⁹ M is the solubility product itself, not the solubility. They have different units and different meanings.",
-    "C": "1.5 × 10⁻³ M is roughly the cube root rather than the square root, which would suit a salt releasing three ions.",
-    "D": "4.8 × 10⁻³ M is off by two orders of magnitude, which comes from halving the exponent of 2.3 × 10⁻⁹ without care."
+    "A": "2.3 \u00d7 10\u207b\u2079 M is the solubility product itself, not the solubility. They have different units and different meanings.",
+    "C": "1.5 \u00d7 10\u207b\u00b3 M is roughly the cube root rather than the square root, which would suit a salt releasing three ions.",
+    "D": "4.8 \u00d7 10\u207b\u00b3 M is off by two orders of magnitude, which comes from halving the exponent of 2.3 \u00d7 10\u207b\u2079 without care."
    },
    "category": "5A",
    "skill": "skill-2",
@@ -740,17 +740,17 @@
    "passageId": "cp-p7",
    "stem": "What is the molar solubility of calcium oxalate in the 0.010 M calcium chloride solution?",
    "choices": {
-    "A": "2.3 × 10⁻¹¹ M",
-    "B": "2.3 × 10⁻⁷ M",
-    "C": "2.3 × 10⁻⁵ M",
-    "D": "4.8 × 10⁻⁵ M"
+    "A": "2.3 \u00d7 10\u207b\u00b9\u00b9 M",
+    "B": "2.3 \u00d7 10\u207b\u2077 M",
+    "C": "2.3 \u00d7 10\u207b\u2075 M",
+    "D": "4.8 \u00d7 10\u207b\u2075 M"
    },
    "correct": "B",
-   "explanation": "Calcium is already present at 0.010 M, which swamps the small amount the salt contributes. So Ksp = (0.010)(s) and s = 2.3 × 10⁻⁹ / 0.010 = 2.3 × 10⁻⁷ M. The common ion has cut solubility by more than two hundredfold.",
+   "explanation": "Calcium is already present at 0.010 M, which swamps the small amount the salt contributes. So Ksp = (0.010)(s) and s = 2.3 \u00d7 10\u207b\u2079 / 0.010 = 2.3 \u00d7 10\u207b\u2077 M. The common ion has cut solubility by more than two hundredfold.",
    "wrong": {
-    "A": "2.3 × 10⁻¹¹ M multiplies by 0.010 rather than dividing, which would make the salt less soluble still.",
-    "C": "2.3 × 10⁻⁵ M divides by 10⁻⁴ rather than by 10⁻².",
-    "D": "4.8 × 10⁻⁵ M is the pure-water value and ignores the common ion entirely."
+    "A": "2.3 \u00d7 10\u207b\u00b9\u00b9 M multiplies by 0.010 rather than dividing, which would make the salt less soluble still.",
+    "C": "2.3 \u00d7 10\u207b\u2075 M divides by 10\u207b\u2074 rather than by 10\u207b\u00b2.",
+    "D": "4.8 \u00d7 10\u207b\u2075 M is the pure-water value and ignores the common ion entirely."
    },
    "category": "5A",
    "skill": "skill-2",
@@ -790,7 +790,7 @@
     "D": "its value changes with temperature"
    },
    "correct": "B",
-   "explanation": "A common ion shifts the position of the equilibrium and so changes the solubility, but it does not change the constant. That is the distinction the earlier calculation rests on: Ksp stayed at 2.3 × 10⁻⁹ while the solubility fell by more than two hundredfold.",
+   "explanation": "A common ion shifts the position of the equilibrium and so changes the solubility, but it does not change the constant. That is the distinction the earlier calculation rests on: Ksp stayed at 2.3 \u00d7 10\u207b\u2079 while the solubility fell by more than two hundredfold.",
    "wrong": {
     "A": "This is true: a solubility product is simply the equilibrium constant written for the dissolution reaction.",
     "C": "This is true: a pure solid has no meaningful concentration term, so it is omitted from the expression.",
@@ -812,11 +812,11 @@
     "D": "6860 N"
    },
    "correct": "C",
-   "explanation": "Weight is mass times gravitational field strength: 70 × 9.8 = 686 N. Mass in kilograms and weight in newtons are different quantities, and the factor between them here is about ten.",
+   "explanation": "Weight is mass times gravitational field strength: 70 \u00d7 9.8 = 686 N. Mass in kilograms and weight in newtons are different quantities, and the factor between them here is about ten.",
    "wrong": {
     "A": "7.1 N divides by g instead of multiplying by it.",
     "B": "70 N is the mass in kilograms with the wrong unit attached. Mass and weight are different quantities.",
-    "D": "6860 N uses g = 98 m/s², a factor of ten too large."
+    "D": "6860 N uses g = 98 m/s\u00b2, a factor of ten too large."
    },
    "category": "4A",
    "skill": "skill-1",
@@ -834,7 +834,7 @@
     "D": "84 N"
    },
    "correct": "B",
-   "explanation": "The passage gives the peak as 1.2 times body weight, so 1.2 × 686 = 823 N. The useful idea is that walking is not static: the ground must push harder than body weight to decelerate a falling centre of mass.",
+   "explanation": "The passage gives the peak as 1.2 times body weight, so 1.2 \u00d7 686 = 823 N. The useful idea is that walking is not static: the ground must push harder than body weight to decelerate a falling centre of mass.",
    "wrong": {
     "A": "1370 N is twice body weight, which is nearer a running peak than a walking one.",
     "C": "686 N is body weight itself, which is what the force would be only if the person stood still.",
@@ -856,7 +856,7 @@
     "D": "343 J"
    },
    "correct": "C",
-   "explanation": "Work against gravity is mgh: 70 × 9.8 × 0.05 = 34.3 J. The commonest error is leaving the height in centimetres, which inflates the answer a hundredfold.",
+   "explanation": "Work against gravity is mgh: 70 \u00d7 9.8 \u00d7 0.05 = 34.3 J. The commonest error is leaving the height in centimetres, which inflates the answer a hundredfold.",
    "wrong": {
     "A": "3.4 J is a factor of ten low, usually from using 0.005 m for the height.",
     "B": "17 J halves the height, which would be right only if the 5 cm were the full peak-to-peak range and the lift were half of it. The passage gives the rise itself.",
@@ -914,7 +914,7 @@
   {
    "id": "cp-p9-q1",
    "passageId": "cp-p9",
-   "stem": "What is ΔG for folding at body temperature, 310 K?",
+   "stem": "What is \u0394G for folding at body temperature, 310 K?",
    "choices": {
     "A": "+228 kJ/mol",
     "B": "+11.5 kJ/mol",
@@ -922,7 +922,7 @@
     "D": "-120 kJ/mol"
    },
    "correct": "C",
-   "explanation": "ΔG = ΔH - T ΔS = -120 000 - (310)(-350) = -120 000 + 108 500 = -11 500 J/mol, so -11.5 kJ/mol. Note that the entropy term must be converted from joules to match, and that subtracting a negative adds.",
+   "explanation": "\u0394G = \u0394H - T \u0394S = -120 000 - (310)(-350) = -120 000 + 108 500 = -11 500 J/mol, so -11.5 kJ/mol. Note that the entropy term must be converted from joules to match, and that subtracting a negative adds.",
    "wrong": {
     "A": "+228 kJ/mol adds the two magnitudes, which drops the sign on the enthalpy term.",
     "B": "The sign is wrong, which usually comes from subtracting 108 500 rather than adding it. Subtracting a negative adds.",
@@ -944,7 +944,7 @@
     "D": "373 K"
    },
    "correct": "C",
-   "explanation": "Unfolding begins where ΔG for folding reaches zero, so T = ΔH / ΔS = 120 000 / 350 = 343 K, about 70 °C. Above that the unfavourable entropy term outweighs the favourable enthalpy term and the folded state is no longer stable.",
+   "explanation": "Unfolding begins where \u0394G for folding reaches zero, so T = \u0394H / \u0394S = 120 000 / 350 = 343 K, about 70 \u00b0C. Above that the unfavourable entropy term outweighs the favourable enthalpy term and the folded state is no longer stable.",
    "wrong": {
     "A": "298 K is standard room temperature and has nothing to do with this protein's numbers.",
     "B": "310 K is body temperature, where the previous calculation shows the free energy change is still negative and the protein is folded.",
@@ -983,12 +983,12 @@
    "stem": "A mutation makes folding more exothermic without changing the entropy of folding. Compared with the original protein, the mutant will:",
    "choices": {
     "A": "unfold at a lower temperature",
-    "B": "unfold at the same temperature, because ΔS is unchanged",
+    "B": "unfold at the same temperature, because \u0394S is unchanged",
     "C": "not fold at all",
     "D": "unfold at a higher temperature"
    },
    "correct": "D",
-   "explanation": "The unfolding temperature is ΔH / ΔS. Making ΔH more negative increases the magnitude of that ratio, so the temperature at which the entropy term finally wins is higher. A more exothermic folding reaction buys thermal stability.",
+   "explanation": "The unfolding temperature is \u0394H / \u0394S. Making \u0394H more negative increases the magnitude of that ratio, so the temperature at which the entropy term finally wins is higher. A more exothermic folding reaction buys thermal stability.",
    "wrong": {
     "A": "That would follow from a smaller enthalpy magnitude, not a larger one.",
     "B": "The temperature depends on both terms, so changing either moves it.",
@@ -1004,15 +1004,15 @@
    "passageId": "cp-p10",
    "stem": "What is the membrane time constant for this patch?",
    "choices": {
-    "A": "1.0 × 10⁻² ms",
+    "A": "1.0 \u00d7 10\u207b\u00b2 ms",
     "B": "1.0 ms",
     "C": "10 ms",
     "D": "100 ms"
    },
    "correct": "C",
-   "explanation": "The time constant is the product of resistance and capacitance: (1.0 × 10⁴ ohm cm²(1.0 × 10⁻⁶ F/cm² = 1.0 × 10⁻² s, which is 10 ms. The area units cancel, which is the clue that the two quantities are meant to be multiplied as given.",
+   "explanation": "The time constant is the product of resistance and capacitance: (1.0 \u00d7 10\u2074 ohm cm\u00b2)(1.0 \u00d7 10\u207b\u2076 F/cm\u00b2) = 1.0 \u00d7 10\u207b\u00b2 s, which is 10 ms. The area units cancel, which is the clue that the two quantities are meant to be multiplied as given.",
    "wrong": {
-    "A": "1.0 × 10⁻² ms is the answer in seconds mislabelled as milliseconds, a factor of a thousand out.",
+    "A": "1.0 \u00d7 10\u207b\u00b2 ms is the answer in seconds mislabelled as milliseconds, a factor of a thousand out.",
     "B": "1.0 ms would need either a tenfold smaller resistance or a tenfold smaller capacitance.",
     "D": "100 ms is ten times too large, usually from taking the capacitance as 10 microfarads."
    },
@@ -1079,7 +1079,7 @@
    "explanation": "With a time constant of 10 ms, 5 ms is half a time constant and the first input has lost only a fraction of its effect, so the two potentials add. After 50 ms, five time constants have passed and almost nothing of the first remains. This is temporal summation, and the membrane time constant sets its window.",
    "wrong": {
     "B": "Nothing in the passage changes resistance between inputs, and a fall in resistance would shorten the summation window rather than widen it.",
-    "C": "Membrane capacitance is fixed by the bilayer at about 1 μF/cm² and does not vary with how often the cell is stimulated.",
+    "C": "Membrane capacitance is fixed by the bilayer at about 1 \u03bcF/cm\u00b2 and does not vary with how often the cell is stimulated.",
     "D": "The size of a postsynaptic potential is set by the synapse, not by when the input happens to arrive."
    },
    "category": "4C",
@@ -1092,10 +1092,10 @@
    "passageId": null,
    "stem": "Which compound has the LOWEST boiling point?",
    "choices": {
-    "A": "CH₃OCH₃",
-    "B": "CH₃CH₂CH₂CH₃",
-    "C": "CH₃CH₂OH",
-    "D": "CH₃CH₂CH₃"
+    "A": "CH\u2083OCH\u2083",
+    "B": "CH\u2083CH\u2082CH\u2082CH\u2083",
+    "C": "CH\u2083CH\u2082OH",
+    "D": "CH\u2083CH\u2082CH\u2083"
    },
    "correct": "D",
    "explanation": "Propane is the smallest molecule here and has only dispersion forces holding it together, so it needs the least energy to boil. Dimethyl ether adds dipole-dipole attraction, butane has a larger electron cloud and so stronger dispersion, and ethanol hydrogen bonds, which costs far more again.",
@@ -1134,7 +1134,7 @@
   {
    "id": "cp-d3",
    "passageId": null,
-   "stem": "Which of the following molecules are non-polar despite containing polar covalent bonds?\n\nI. CO₂\nII. CCl₄\nIII. NH₃",
+   "stem": "Which of the following molecules are non-polar despite containing polar covalent bonds?\n\nI. CO\u2082\nII. CCl\u2084\nIII. NH\u2083",
    "choices": {
     "A": "I only",
     "B": "I and II only",
@@ -1142,11 +1142,11 @@
     "D": "I, II and III"
    },
    "correct": "B",
-   "explanation": "Polarity depends on geometry as much as on electronegativity. CO₂ is linear and CCl₄ is tetrahedral with four identical bonds, so in both the bond dipoles point in directions that cancel exactly. NH₃ is trigonal pyramidal, and its lone pair leaves the arrangement asymmetric, so its dipoles add to a net moment.",
+   "explanation": "Polarity depends on geometry as much as on electronegativity. CO\u2082 is linear and CCl\u2084 is tetrahedral with four identical bonds, so in both the bond dipoles point in directions that cancel exactly. NH\u2083 is trigonal pyramidal, and its lone pair leaves the arrangement asymmetric, so its dipoles add to a net moment.",
    "wrong": {
-    "A": "CO₂ does cancel, but so does CCl₄: four identical bonds arranged tetrahedrally sum to zero.",
-    "C": "CCl₄ belongs in the set, but NH₃ does not. A pyramidal molecule with a lone pair cannot cancel its dipoles.",
-    "D": "This includes NH₃, which is polar. Ammonia's dipole is what makes it hydrogen bond and dissolve readily in water."
+    "A": "CO\u2082 does cancel, but so does CCl\u2084: four identical bonds arranged tetrahedrally sum to zero.",
+    "C": "CCl\u2084 belongs in the set, but NH\u2083 does not. A pyramidal molecule with a lone pair cannot cancel its dipoles.",
+    "D": "This includes NH\u2083, which is polar. Ammonia's dipole is what makes it hydrogen bond and dissolve readily in water."
    },
    "category": "5B",
    "skill": "skill-1",
@@ -1224,17 +1224,17 @@
    "passageId": null,
    "stem": "A substitution on a tertiary alkyl halide in a polar protic solvent proceeds with racemisation. This is most consistent with:",
    "choices": {
-    "A": "an Sₙ2 mechanism, because the nucleophile attacks from the back",
-    "B": "an Sₙ1 mechanism, because a planar carbocation can be attacked from either face",
+    "A": "an S\u20992 mechanism, because the nucleophile attacks from the back",
+    "B": "an S\u20991 mechanism, because a planar carbocation can be attacked from either face",
     "C": "an E1 mechanism, because elimination destroys the stereocentre",
-    "D": "an Sₙ2 mechanism, because the solvent stabilises the transition state"
+    "D": "an S\u20992 mechanism, because the solvent stabilises the transition state"
    },
    "correct": "B",
    "explanation": "A tertiary centre in a protic solvent favours ionisation to a carbocation, which is trigonal planar. A nucleophile can then attack either face with roughly equal probability, giving both configurations. Racemisation is the signature of a planar intermediate.",
    "wrong": {
-    "A": "Back-side attack inverts configuration cleanly rather than racemising it, and a tertiary centre is too hindered for Sₙ2 anyway.",
+    "A": "Back-side attack inverts configuration cleanly rather than racemising it, and a tertiary centre is too hindered for S\u20992 anyway.",
     "C": "Elimination produces an alkene, not a substitution product, so it cannot be the pathway for the product described.",
-    "D": "The solvent description is accurate but the mechanism is not: protic solvents stabilise carbocations and hinder Sₙ2 by caging the nucleophile."
+    "D": "The solvent description is accurate but the mechanism is not: protic solvents stabilise carbocations and hinder S\u20992 by caging the nucleophile."
    },
    "category": "5D",
    "skill": "skill-1",
