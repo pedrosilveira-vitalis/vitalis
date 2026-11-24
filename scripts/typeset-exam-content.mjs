@@ -58,8 +58,12 @@ const RULES = [
   [/->/g, "→"],
   [/\bdS\b/g, "\u0394S"],
   [/\bdH\b/g, "\u0394H"],
-  [/\bSN1\b/g, "S\u20991"],
-  [/\bSN2\b/g, "S\u20992"],
+  // No rule for SN1/SN2. Nucleophilic substitution takes a capital N, and
+  // Unicode has no subscript capital N, so there is nothing correct to convert
+  // to: the rule that used to live here wrote a subscript lowercase n, which is
+  // a notation error. It shipped in a live form and had to be reverted by hand
+  // on every run of this script until the rule itself was removed. Plain SN2 is
+  // the right thing to ship.
   [/\bE1\b/g, "E1"],
   [/\bC2O4 2-/g, "C\u2082O\u2084\u00b2\u207b"],
   [/\bCa2\+/g, "Ca\u00b2\u207a"],
