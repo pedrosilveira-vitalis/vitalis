@@ -11,7 +11,10 @@ from, and that a claim the passage makes about its own data is true. A
 verifier that only repeats the author's arithmetic confirms the author's
 assumptions; these are the checks that can catch the assumption itself.
 """
+import json
 import math
+import os
+import re
 
 BAD = []
 COUNT = 0
@@ -24,6 +27,26 @@ def check(qid, claimed, got, tol=0.02, note=""):
     print(("  ok  " if ok else "  FAIL") + f"  {qid:18s} claimed={claimed:<13.6g} computed={got:<13.6g} {note}")
     if not ok:
         BAD.append(qid)
+
+
+def model(label, ok, note=""):
+    """A statement about the biology or about the design of the experiment,
+    not a sum. Kept separate from the arithmetic because a verifier that
+    recomputes the author's numbers under the author's own assumptions can
+    only confirm them."""
+    global COUNT
+    COUNT += 1
+    print(("  ok  " if ok else "  FAIL") + f"  {label:18s} {'holds' if ok else 'DOES NOT HOLD':14s} {note}")
+    if not ok:
+        BAD.append(label)
+
+
+# No literature value is quoted anywhere in this section: every datum in these
+# ten passages and in the discretes is invented for this form. The P/O ratios
+# of 1.5 and 2.5 discussed by bb2-p1-q1 are textbook expectations rather than
+# measurements, and are reasoned about in the explanations rather than being
+# presented as this preparation's data.
+LITERATURE = {}
 
 
 # ---------------------------------------------------------------- P1
@@ -340,6 +363,126 @@ check("bb2-d13/D", 3.0, SHARE["G2M"] * CYCLE_H, note="distractor: the G2/M share
 # model: the phase lengths must sum back to the cycle time quoted in the stem
 check("bb2-d13 model/sum", CYCLE_H, sum(v * CYCLE_H for v in SHARE.values()), tol=0.0,
       note="model: G1 + S + G2/M returns the 20 h cycle")
+
+# ------------------------------------------------- method text added to five
+# bb2-p1, p3, p6, p7 and p9 were each a little under the 250-word floor this
+# project documents, and each gained a sentence or two of method: how a rate
+# was read, what was held constant, or a control that was run. Those sentences
+# are content, so they are checked here against the data they sit beside. The
+# section's figure and table markup were not touched.
+print()
+print("Method text added to the five short passages")
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+with open(os.path.join(HERE, "..", "lib", "exams", "content", "fl2", "bio-biochem.json")) as handle:
+    SECTION = json.load(handle)
+PASSAGE = {p["id"]: p for p in SECTION["passages"]}
+
+# p1 now says rates were normalised to the protein content of the suspension.
+# That has to be the normalisation the table itself reports, or the prose and
+# the caption describe two different quantities.
+model("bb2-p1 method/units",
+      "per milligram of mitochondrial protein" in PASSAGE["bb2-p1"]["figure"]["caption"],
+      note="prose normalisation matches the per-milligram basis of Table 1")
+# p1 now reports a control given DNP before any substrate, which consumed
+# oxygen no faster than the cyanide sample. The comparison is only informative
+# if the cyanide rate is negligible beside the uncoupled rate it is set against.
+model("bb2-p1 method/control", O2["cn"] < 0.05 * O2["dnp"],
+      note=f"cyanide rate {O2['cn']} is under 5% of the uncoupled {O2['dnp']}, so a control at that "
+           "level shows DNP donates no electrons")
+
+# p3 now reports a promoterless plasmid giving no detectable activity. The
+# detection limit it implies must lie below every value in Table 1, or some
+# tabulated figure would itself be undetectable.
+model("bb2-p3 method/limit",
+      min(v for row in R.values() for v in row.values()) == 4.0,
+      note="lowest tabulated activity is 4 units, so the detection limit implied sits below 4")
+
+# p6 now says each volume is the mean of five consecutive beats taken during a
+# short pause in ventilation. At the slowest rate in Table 1 that sample has
+# to be short enough for the phrase to be true.
+SLOWEST_HR = min(hr for _, _, hr in V.values())
+check("bb2-p6 method", 6.0, 5 * 60.0 / SLOWEST_HR, tol=0.001,
+      note=f"model: five beats at {SLOWEST_HR:.0f}/min is 6 s, a pause a ventilated animal tolerates")
+model("bb2-p6 method/rate", SLOWEST_HR >= 50,
+      note="no condition is slower than 50 beats/min, so no averaging window exceeds six seconds")
+
+# p7 now says two observers scored all three phenotypes independently. Three
+# independent two-state phenotypes give eight scorable classes, which is
+# exactly the number of rows in Table 1.
+model("bb2-p7 method/classes", len(CLASS) == 2 ** 3,
+      note="three phenotypes, each present or absent, give the 8 classes scored")
+
+# p9 now says the three chases agreed to within 1 kDa. That has to be finer
+# than the smallest mass difference any question rests on, which is the 4 kDa
+# contributed per glycosylation site and the 4 kDa between the ER form and the
+# mature form.
+SMALLEST_GAP = min((MASS["wt"] - MASS["tunica"]) / SITES, MASS["wt"] - MASS["bfa"])
+check("bb2-p9 method", 4.0, SMALLEST_GAP, tol=0.001,
+      note="model: smallest mass difference a question uses, in kDa")
+model("bb2-p9 method/precision", 1.0 < SMALLEST_GAP,
+      note="the stated 1 kDa agreement between chases is finer than that 4 kDa gap")
+
+# ------------------------------------------------------------------------------
+# No new figure may coincide with a numeric choice on its own passage's
+# questions. The defect this guards against was caught on Full-Length 1: a
+# figure added to a passage matched a distractor's value and would have made
+# that distractor supportable straight from the prose, and nothing read the
+# new text against the choices. Values are as they appear in the passages.
+NEW_FIGURES = {
+    "bb2-p1": [1],          # one minute of trace read per addition
+    "bb2-p2": [],
+    "bb2-p3": [],           # the added text names no quantity
+    "bb2-p4": [],
+    "bb2-p5": [],
+    "bb2-p6": [5],          # beats averaged per volume
+    "bb2-p7": [2],          # observers scoring independently
+    "bb2-p8": [],
+    "bb2-p9": [3, 1],       # chases averaged; kDa they agreed within
+    "bb2-p10": [],
+}
+
+
+def choice_numbers(text):
+    """Numbers in a choice, with 'x 10^-5' style notation resolved."""
+    cleaned = text.replace("×", "x").replace("−", "-")
+    for glyph, plain in zip("⁰¹²³⁴⁵⁶⁷⁸⁹⁻", "0123456789-"):
+        cleaned = cleaned.replace(glyph, plain)
+    out = []
+    for mantissa, exponent in re.findall(r"(-?\d+(?:\.\d+)?)(?:\s*x\s*10\s*(-?\d+))?", cleaned):
+        try:
+            value = float(mantissa)
+        except ValueError:
+            continue
+        if exponent:
+            value *= 10.0 ** int(exponent)
+        out.append(value)
+    return out
+
+
+print()
+clashes = 0
+for passage_id, figures in NEW_FIGURES.items():
+    questions = [q for q in SECTION["questions"] if q.get("passageId") == passage_id]
+    for figure in figures:
+        for question in questions:
+            for letter, text in question["choices"].items():
+                for value in choice_numbers(text):
+                    if value and abs(value - figure) <= 0.001 * abs(figure):
+                        clashes += 1
+                        print(f"  FAIL  {passage_id}: new figure {figure} matches "
+                              f"{question['id']} choice {letter} ({text})")
+                        BAD.append(f"{passage_id}-clash")
+model("new-figures", clashes == 0,
+      note=f"no new datum coincides with a numeric choice on its own passage "
+           f"({sum(len(v) for v in NEW_FIGURES.values())} figures checked)")
+
+# Every passage must also clear the 250-word floor with margin, since it was a
+# set of passages a word or two short that occasioned this pass.
+print()
+for passage_id, passage in PASSAGE.items():
+    words = len(" ".join(passage["paragraphs"]).strip().split())
+    model(f"{passage_id} length", 250 <= words <= 500, note=f"{words} words")
 
 print()
 print(f"{COUNT - len(BAD)}/{COUNT} values verified")
