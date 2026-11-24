@@ -1,0 +1,1444 @@
+{
+ "passages": [
+  {
+   "id": "bb4-p1",
+   "title": "Malonyl-CoA and the direction of fatty acid flux in hepatocytes",
+   "paragraphs": [
+    "Fatty acids are assembled in the cytosol and dismantled in the mitochondrial matrix, and a hepatocyte must not run both pathways at once. Synthesis begins when acetyl-CoA carboxylase converts acetyl-CoA to malonyl-CoA, which is the committed step; fatty acid synthase then adds malonyl units to a growing chain two carbons at a time, using NADPH as the reductant, and releases palmitate after seven rounds of condensation and reduction. Oxidation begins instead with the transfer of a long-chain acyl group from coenzyme A to carnitine by carnitine palmitoyltransferase 1 (CPT-1) in the outer mitochondrial membrane, and continues through cycles that reduce FAD and NAD+ and release acetyl-CoA. Malonyl-CoA inhibits CPT-1, so the molecule that commits carbon to synthesis also closes the door to oxidation. Acetyl-CoA carboxylase is activated by citrate and is inhibited when AMP-activated protein kinase phosphorylates it.",
+    "Hepatocyte monolayers were incubated for 60 minutes in a medium containing labelled acetate and, in parallel dishes, labelled palmitate. Synthesis was scored as label recovered in cellular palmitate, and oxidation as label recovered in acid-soluble products and in CO\u2082. Five conditions were compared: medium alone; medium with insulin; medium with compound K, an activator of AMP-activated protein kinase; medium with an inhibitor of acetyl-CoA carboxylase; and medium with that inhibitor together with an inhibitor of CPT-1. Cytosolic malonyl-CoA was measured in a separate extract from the same dishes (Table 1).",
+    "Cell ATP content, total protein and the activity of the pentose phosphate pathway that supplies NADPH differed by less than 8% across the five conditions, and no condition reduced the number of attached cells. Labelled acetate entered the cells at the same rate in every condition, so the differences in Table 1 reflect the fate of carbon inside the cell rather than its entry."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Cytosolic malonyl-CoA, and the rates of palmitate synthesis and palmitate oxidation, in each condition.",
+    "markup": "<table><thead><tr><th>Condition</th><th>Malonyl-CoA (nmol/g cells)</th><th>Palmitate synthesis (nmol/h per mg protein)</th><th>Palmitate oxidation (nmol/h per mg protein)</th></tr></thead><tbody><tr><td>Medium alone</td><td>6.0</td><td>12</td><td>4</td></tr><tr><td>Insulin</td><td>12.0</td><td>24</td><td>2</td></tr><tr><td>Compound K</td><td>1.5</td><td>3</td><td>16</td></tr><tr><td>Carboxylase inhibitor</td><td>0.5</td><td>1</td><td>20</td></tr><tr><td>Carboxylase inhibitor and CPT-1 inhibitor</td><td>0.5</td><td>1</td><td>2</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb4-p2",
+   "title": "Ion currents in the ventricular action potential",
+   "paragraphs": [
+    "A ventricular myocyte at rest sits near the potassium equilibrium potential because an inward rectifier potassium channel holds the membrane there. A depolarisation that reaches threshold opens fast sodium channels, and their current drives the upstroke of phase 0; the steepness of that upstroke is a direct reading of how much fast sodium current is available. The channels then inactivate, and a transient outward potassium current produces the small notch of phase 1. Through the long plateau of phase 2, inward current through L-type calcium channels is nearly balanced by outward potassium current, and the calcium that enters triggers release of further calcium from the sarcoplasmic reticulum. Phase 3 repolarisation is carried by delayed rectifier potassium channels, and phase 4 returns the cell to rest. Fast sodium channels recover from inactivation only once the membrane has repolarised, and the fraction available at rest falls steeply as the resting potential becomes less negative.",
+    "Myocytes were isolated from adult ventricle and action potentials were recorded with a microelectrode at 37 \u00b0C while the cells were driven at one beat per second. Each of four compounds was then added to a separate dish at a concentration that blocks a single channel type. For every recording the investigators measured the maximum rate of rise of phase 0, the time from the upstroke to 90% repolarisation, and the resting potential reached between beats (Table 1).",
+    "In the control recordings the membrane rose from its resting potential to an overshoot near +30 mV, fell to a plateau near +5 mV, and repolarised over the following 300 ms. The amplitude of the plateau and the overshoot at the peak were unchanged by drugs W and Y, and no compound altered the resting potential except drug Z, which was applied at a concentration that blocks the inward rectifier without acting on any other channel."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Maximum rate of rise of phase 0, time to 90% repolarisation, and resting potential, in control myocytes and with each channel blocker.",
+    "markup": "<table><thead><tr><th>Condition</th><th>Maximum rate of rise (V/s)</th><th>Time to 90% repolarisation (ms)</th><th>Resting potential (mV)</th></tr></thead><tbody><tr><td>Control</td><td>250</td><td>300</td><td>-85</td></tr><tr><td>Drug W</td><td>90</td><td>290</td><td>-85</td></tr><tr><td>Drug X</td><td>245</td><td>200</td><td>-84</td></tr><tr><td>Drug Y</td><td>250</td><td>420</td><td>-85</td></tr><tr><td>Drug Z</td><td>150</td><td>330</td><td>-65</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb4-p3",
+   "title": "Antibiotic inhibition of translation in cell-free extracts",
+   "paragraphs": [
+    "A bacterial ribosome is a 70S particle built from a 30S subunit, whose 16S ribosomal RNA forms the decoding centre that checks each codon-anticodon pair, and a 50S subunit, whose 23S ribosomal RNA forms the peptidyl transferase centre and the tunnel through which the new chain leaves. The eukaryotic cytosolic ribosome is an 80S particle built from a 40S and a 60S subunit. The catalytic cores of the two ribosomes are built from homologous RNA, but the surfaces around them differ, and most clinically useful inhibitors of translation exploit those differences rather than the catalytic site itself.",
+    "Five compounds were tested in a cell-free system. A single synthetic messenger RNA encoding a protein of 100 amino acid residues, including the initiator methionine, was translated either in an extract of bacterial cells or in an extract of rabbit reticulocytes, both supplied with transfer RNA, amino acids and an energy source. Incorporation of a labelled amino acid into acid-precipitable protein was measured after 20 minutes and is expressed as a percentage of the incorporation in the same extract with no compound added. The subunit each compound binds was determined separately by equilibrium binding to purified subunits (Table 1).",
+    "Two further results were obtained with the bacterial extract. Compound 1 raised the incorporation of an amino acid whose codon was absent from the messenger RNA by about eightfold, while the other four compounds left it unchanged. After treatment with compound 3, the eukaryotic extract retained its ribosomes on the messenger RNA as polysomes rather than releasing them, whereas compound 2 left the bacterial messenger RNA almost free of ribosomes."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Incorporation of labelled amino acid in each extract, as a percentage of the uninhibited rate, and the ribosomal subunit bound by each compound.",
+    "markup": "<table><thead><tr><th>Compound</th><th>Bacterial extract (%)</th><th>Eukaryotic extract (%)</th><th>Subunit bound</th></tr></thead><tbody><tr><td>Compound 1</td><td>25</td><td>95</td><td>30S</td></tr><tr><td>Compound 2</td><td>10</td><td>98</td><td>50S</td></tr><tr><td>Compound 3</td><td>100</td><td>15</td><td>60S</td></tr><tr><td>Compound 4</td><td>8</td><td>90</td><td>30S</td></tr><tr><td>Compound 5</td><td>15</td><td>20</td><td>50S and 60S</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb4-p4",
+   "title": "Methylation and histone acetylation at a silenced reporter",
+   "paragraphs": [
+    "Cytosines that sit immediately 5' of a guanosine can carry a methyl group, added by a DNA methyltransferase. Dense methylation of such sites in a promoter is associated with silence, and it acts indirectly: proteins that bind methylated cytosine recruit histone deacetylases, which strip acetyl groups from the lysine side chains of histone tails. A deacetylated tail carries more positive charge, binds DNA more tightly, and leaves the promoter inaccessible to transcription factors. Two methyltransferase activities exist: one copies an existing pattern onto the new strand after replication, acting only where the parent strand is already methylated, and one places methyl groups on sites that carry no mark at all.",
+    "A reporter gene driven by a promoter rich in these sites was integrated at a single chromosomal position in a cultured line, where it was almost silent. Cells were treated for 72 hours with nothing, with a cytosine analogue that is incorporated into DNA but cannot be methylated, with an inhibitor of histone deacetylases, or with both drugs together. Reporter messenger RNA was then measured (Figure 1). In the same cells the share of the promoter's cytosine-guanosine sites carrying a methyl group was 80% untreated, 15% after the cytosine analogue, 78% after the deacetylase inhibitor and 14% after both drugs; acetylated histone at the promoter, measured by immunoprecipitation and expressed relative to untreated cells, was 1.0, 3.5, 6.0 and 7.0 in the same four conditions.",
+    "Reporter copy number and the sequence of the promoter were identical in all four conditions, and a second reporter driven by a promoter with few such sites gave the same expression whichever treatment was used. When the cytosine analogue was washed out and the cells were grown for 20 further divisions, methylation of the first promoter returned to 79% and the reporter fell silent again."
+   ],
+   "figure": {
+    "kind": "svg",
+    "caption": "Figure 1  Reporter messenger RNA after 72 hours of treatment, in arbitrary units. Bar heights are drawn at 1.4 pixels per unit above a baseline at 0.",
+    "markup": "<svg viewBox=\"0 0 420 200\" role=\"img\" aria-label=\"Bar chart of reporter messenger RNA in arbitrary units: no treatment 5, cytosine analogue 60, deacetylase inhibitor 20, both drugs 100\"><line x1=\"40\" y1=\"160\" x2=\"400\" y2=\"160\" stroke=\"currentColor\"></line><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"160\" stroke=\"currentColor\"></line><text x=\"14\" y=\"164\" font-size=\"10\">0</text><text x=\"10\" y=\"94\" font-size=\"10\">50</text><text x=\"6\" y=\"24\" font-size=\"10\">100</text><rect x=\"60\" y=\"153\" width=\"50\" height=\"7\" fill=\"currentColor\"></rect><rect x=\"145\" y=\"76\" width=\"50\" height=\"84\" fill=\"currentColor\"></rect><rect x=\"230\" y=\"132\" width=\"50\" height=\"28\" fill=\"currentColor\"></rect><rect x=\"315\" y=\"20\" width=\"50\" height=\"140\" fill=\"currentColor\"></rect><text x=\"66\" y=\"174\" font-size=\"10\">none</text><text x=\"146\" y=\"174\" font-size=\"10\">analogue</text><text x=\"228\" y=\"174\" font-size=\"10\">inhibitor</text><text x=\"326\" y=\"174\" font-size=\"10\">both</text><text x=\"68\" y=\"148\" font-size=\"10\">5</text><text x=\"158\" y=\"70\" font-size=\"10\">60</text><text x=\"245\" y=\"126\" font-size=\"10\">20</text><text x=\"328\" y=\"15\" font-size=\"10\">100</text></svg>"
+   }
+  },
+  {
+   "id": "bb4-p5",
+   "title": "Signals that commit a multipotent progenitor",
+   "paragraphs": [
+    "A multipotent mesenchymal progenitor can give rise to bone, cartilage or fat, and which path it takes is decided by signals from outside the cell that converge on a small number of master transcription factors. The factor RUNX2 is required for the osteogenic programme and switches on the genes whose products mineralise the surrounding matrix; the nuclear receptor PPAR-gamma is required for the adipogenic programme and switches on the genes of lipid storage. A progenitor that has committed to either path divides more slowly than one that has not, and a progenitor can also divide without committing at all, which is how the population maintains itself.",
+    "Cells of a clonal progenitor line were plated at a density low enough that each colony arose from one cell, and were grown for 10 days in a defined medium with no added signals, with a bone morphogenetic protein, with insulin together with an agonist of PPAR-gamma, with both sets of signals, or with the bone morphogenetic protein together with a small-molecule inhibitor of RUNX2. Every colony was then scored as mineralised, as containing lipid droplets, or as undifferentiated, and the population doubling time was measured in parallel flasks (Table 1).",
+    "No colony in any condition was scored both mineralised and lipid-laden, and no condition reduced the number of colonies formed, so the proportions in Table 1 are drawn from populations of the same size. Expression of RUNX2 messenger RNA rose about fifteenfold in the cultures given the bone morphogenetic protein, whether or not the RUNX2 inhibitor was present, because the inhibitor blocks the activity of the protein rather than its production."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Fate of colonies after 10 days, as a percentage of colonies scored, with the population doubling time.",
+    "markup": "<table><thead><tr><th>Condition</th><th>Mineralised (%)</th><th>Lipid droplets (%)</th><th>Undifferentiated (%)</th><th>Doubling time (h)</th></tr></thead><tbody><tr><td>No added signals</td><td>2</td><td>3</td><td>95</td><td>24</td></tr><tr><td>Bone morphogenetic protein</td><td>70</td><td>5</td><td>25</td><td>30</td></tr><tr><td>Insulin and PPAR-gamma agonist</td><td>3</td><td>80</td><td>17</td><td>32</td></tr><tr><td>Both sets of signals</td><td>35</td><td>40</td><td>25</td><td>31</td></tr><tr><td>Bone morphogenetic protein and RUNX2 inhibitor</td><td>5</td><td>8</td><td>87</td><td>29</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb4-p6",
+   "title": "Oxidation of a test drug by liver microsomes",
+   "paragraphs": [
+    "Most drugs that reach the liver are first oxidised by a cytochrome P450 enzyme of the endoplasmic reticulum, a haem protein that splits molecular oxygen and inserts one atom into the substrate while reducing the other to water. The electrons come from NADPH by way of a flavoprotein reductase, so an oxidation of this kind cannot proceed without the reduced cofactor. The hydroxylated product is usually more water soluble than the parent drug, and a second set of enzymes then conjugates it to glucuronic acid or sulfate for excretion. The amount of a P450 enzyme in the liver is not fixed: several drugs raise it by increasing transcription of its gene, an effect that takes days to develop and days to reverse.",
+    "Microsomes were prepared from the livers of rats in four groups: untreated animals; animals given an inducing drug daily for five days; untreated animals whose microsomes were assayed with a second drug present in the cuvette; and untreated animals whose assay mixture contained no NADPH. Formation of the hydroxylated metabolite of a test drug was followed at eight substrate concentrations between 1 and 200 micromolar, and the rates were fitted to the Michaelis-Menten equation to give the values in Table 1. The amount of the enzyme in each preparation was measured independently with an antibody against it.",
+    "No metabolite at all was formed in the preparation lacking NADPH, at any substrate concentration, so no Michaelis constant could be fitted for it. The second drug was present at a fixed concentration throughout, and the fit was good at every substrate concentration tested."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Kinetic constants for formation of the hydroxylated metabolite, with the amount of immunoreactive enzyme in each preparation.",
+    "markup": "<table><thead><tr><th>Preparation</th><th>Km (micromolar)</th><th>Vmax (nmol/min per mg protein)</th><th>Enzyme (pmol/mg protein)</th></tr></thead><tbody><tr><td>Untreated</td><td>10</td><td>4.0</td><td>80</td></tr><tr><td>Inducer-pretreated</td><td>10</td><td>16.0</td><td>320</td></tr><tr><td>Untreated, second drug present</td><td>40</td><td>4.0</td><td>80</td></tr><tr><td>Untreated, no NADPH</td><td>not fitted</td><td>0</td><td>80</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb4-p7",
+   "title": "Calcium and the regulation of tension in a smooth muscle strip",
+   "paragraphs": [
+    "Smooth muscle has no troponin. A rise in cytosolic Ca\u00b2\u207a is read instead by calmodulin, and the calcium-calmodulin complex activates myosin light chain kinase, which phosphorylates the regulatory light chain of myosin and so permits cross-bridge cycling. A myosin light chain phosphatase works continuously in the opposite direction, and the level of phosphorylation at any moment is set by the balance of the two. That balance can be shifted without any change in calcium: an agonist acting through a G protein can activate a Rho-associated kinase that inhibits the phosphatase, so that a given calcium concentration produces more phosphorylation and more tension. Calcium itself reaches the cytosol both through voltage-gated channels in the plasma membrane and from the sarcoplasmic reticulum, which releases it when IP\u2083 is generated at the membrane.",
+    "Strips of vascular smooth muscle were mounted at fixed length so that tension could be recorded without shortening, and cytosolic Ca\u00b2\u207a was followed with a fluorescent indicator in the same strips. Each strip was exposed to one stimulus: no stimulus; an agonist at 10 nM in normal medium; the same agonist in a medium from which Ca\u00b2\u207a had been omitted; the agonist with an inhibitor of myosin light chain kinase; the agonist with an inhibitor of Rho-associated kinase; or 60 mM potassium chloride, which depolarises the membrane and opens voltage-gated channels without acting on any receptor. Peak values are given in Table 1, with tension expressed as a percentage of the maximum the strip could develop.",
+    "The indicator was calibrated in each strip before the stimulus was applied, and the calibration did not differ between strips. Neither inhibitor altered the peak calcium reached, and no strip shortened by more than 2% of its resting length during a contraction."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Peak cytosolic Ca\u00b2\u207a, phosphorylation of the myosin regulatory light chain, and peak tension, for each stimulus.",
+    "markup": "<table><thead><tr><th>Stimulus</th><th>Peak Ca\u00b2\u207a (nM)</th><th>Light chain phosphorylated (%)</th><th>Peak tension (% of maximum)</th></tr></thead><tbody><tr><td>None</td><td>120</td><td>5</td><td>2</td></tr><tr><td>Agonist</td><td>600</td><td>55</td><td>80</td></tr><tr><td>Agonist, no external Ca\u00b2\u207a</td><td>300</td><td>25</td><td>35</td></tr><tr><td>Agonist and kinase inhibitor</td><td>590</td><td>8</td><td>5</td></tr><tr><td>Agonist and Rho-kinase inhibitor</td><td>610</td><td>30</td><td>45</td></tr><tr><td>Potassium chloride</td><td>580</td><td>40</td><td>60</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb4-p8",
+   "title": "Mutants defective in biofilm formation",
+   "paragraphs": [
+    "Free-swimming bacteria that meet a surface may attach to it reversibly using a flagellum or pili, then attach irreversibly and secrete an exopolysaccharide matrix that holds the growing community together. The genes of that matrix are switched on only when the population is dense, which the cells judge by the concentration of a small diffusible autoinducer that each of them makes and releases: the molecule accumulates as the cells accumulate, and above a threshold it activates its regulator and the matrix genes with it. A mature biofilm tolerates antibiotics far better than the same cells in suspension, partly because the matrix slows the drug's approach and partly because cells deep inside the film divide slowly, and most antibiotics kill only cells that are growing.",
+    "A wild-type strain and three mutants were grown without shaking in plastic wells for 24 hours. The mutants lacked, respectively, the flagellum, the enzyme that makes the matrix exopolysaccharide, and the enzyme that synthesises the autoinducer; the last strain was also tested with the autoinducer supplied in the medium from the start. Biofilm biomass was measured as the dye retained by the well after the planktonic cells had been rinsed away (Figure 1). Growth in suspension, measured as optical density after eight hours of shaken culture, was 0.80, 0.78, 0.82 and 0.79 for the wild type and the three mutants in the order given, and 0.80 for the autoinducer-supplied culture.",
+    "Each strain was then exposed for four hours to an antibiotic, either as an intact biofilm or as planktonic cells from a shaken culture of the same strain. For the wild type, 40% of the biofilm cells survived against 0.5% of its planktonic cells. For the matrix-deficient mutant, 2% of the cells in the well survived against 0.6% of its planktonic cells."
+   ],
+   "figure": {
+    "kind": "svg",
+    "caption": "Figure 1  Biofilm biomass after 24 hours, as dye retained by the well (absorbance units). Bar heights are drawn at 100 pixels per absorbance unit above a baseline at 0.",
+    "markup": "<svg viewBox=\"0 0 460 200\" role=\"img\" aria-label=\"Bar chart of biofilm biomass in absorbance units: wild type 1.00, no flagellum 0.36, no matrix 0.08, no autoinducer 0.20, no autoinducer with autoinducer supplied 0.96\"><line x1=\"40\" y1=\"150\" x2=\"440\" y2=\"150\" stroke=\"currentColor\"></line><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"150\" stroke=\"currentColor\"></line><text x=\"22\" y=\"154\" font-size=\"10\">0</text><text x=\"10\" y=\"104\" font-size=\"10\">0.5</text><text x=\"10\" y=\"54\" font-size=\"10\">1.0</text><rect x=\"55\" y=\"50\" width=\"45\" height=\"100\" fill=\"currentColor\"></rect><rect x=\"135\" y=\"114\" width=\"45\" height=\"36\" fill=\"currentColor\"></rect><rect x=\"215\" y=\"142\" width=\"45\" height=\"8\" fill=\"currentColor\"></rect><rect x=\"295\" y=\"130\" width=\"45\" height=\"20\" fill=\"currentColor\"></rect><rect x=\"375\" y=\"54\" width=\"45\" height=\"96\" fill=\"currentColor\"></rect><text x=\"58\" y=\"45\" font-size=\"10\">1.00</text><text x=\"138\" y=\"109\" font-size=\"10\">0.36</text><text x=\"218\" y=\"137\" font-size=\"10\">0.08</text><text x=\"298\" y=\"125\" font-size=\"10\">0.20</text><text x=\"378\" y=\"49\" font-size=\"10\">0.96</text><text x=\"58\" y=\"166\" font-size=\"10\">wild type</text><text x=\"136\" y=\"166\" font-size=\"10\">flagellum</text><text x=\"222\" y=\"166\" font-size=\"10\">matrix</text><text x=\"292\" y=\"166\" font-size=\"10\">autoinducer</text><text x=\"372\" y=\"166\" font-size=\"10\">plus signal</text><text x=\"136\" y=\"178\" font-size=\"10\">absent</text><text x=\"222\" y=\"178\" font-size=\"10\">absent</text><text x=\"292\" y=\"178\" font-size=\"10\">absent</text></svg>"
+   }
+  },
+  {
+   "id": "bb4-p9",
+   "title": "Patterns in the thyroid axis of five people",
+   "paragraphs": [
+    "Thyrotropin-releasing hormone from the hypothalamus drives the pituitary thyrotrophs to secrete thyroid-stimulating hormone, and that hormone drives the thyroid follicular cell to trap iodide, build thyroglobulin, and release mostly thyroxine with a little triiodothyronine. Only a small share of circulating triiodothyronine comes from the gland; most is made where it acts, by removal of one iodine atom from thyroxine. Free hormone, not the much larger protein-bound fraction, inhibits secretion at both the pituitary and the hypothalamus, so a healthy axis holds free thyroxine in a narrow band and the concentration of thyroid-stimulating hormone is the most sensitive index of whether it is being held.",
+    "Five people were studied with the same assays on the same day. One was healthy. In one the thyroid had been destroyed by autoimmune disease; in one a pituitary tumour was secreting thyroid-stimulating hormone without regard to feedback; one was taking a large daily dose of thyroxine by mouth; and in one the pituitary had been damaged and could secrete almost no thyroid-stimulating hormone. Which person was which was not disclosed to the laboratory. Each then received an injection of thyrotropin-releasing hormone, and the rise in thyroid-stimulating hormone 30 minutes later was recorded as a fold change over that person's own baseline (Table 1).",
+    "The reference range of the laboratory was 0.4 to 4.0 mIU/L for thyroid-stimulating hormone, 12 to 22 pmol/L for free thyroxine and 3.0 to 6.5 pmol/L for free triiodothyronine. Total thyroxine, which includes the much larger bound fraction, moved in the same direction as free thyroxine in every subject, and the concentration of the binding proteins was normal in all five."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Thyroid-stimulating hormone, free thyroxine, free triiodothyronine, and the fold rise in thyroid-stimulating hormone after injected thyrotropin-releasing hormone.",
+    "markup": "<table><thead><tr><th>Subject</th><th>Thyroid-stimulating hormone (mIU/L)</th><th>Free thyroxine (pmol/L)</th><th>Free triiodothyronine (pmol/L)</th><th>Rise after injection (fold)</th></tr></thead><tbody><tr><td>Subject 1</td><td>1.8</td><td>15</td><td>4.5</td><td>5.0</td></tr><tr><td>Subject 2</td><td>42</td><td>4</td><td>2.0</td><td>8.0</td></tr><tr><td>Subject 3</td><td>9.0</td><td>34</td><td>9.0</td><td>1.2</td></tr><tr><td>Subject 4</td><td>0.05</td><td>32</td><td>7.0</td><td>1.1</td></tr><tr><td>Subject 5</td><td>0.2</td><td>5</td><td>2.2</td><td>1.1</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb4-p10",
+   "title": "Pattern-recognition receptors in cultured macrophages",
+   "paragraphs": [
+    "The innate response to a microbe begins with receptors that recognise molecules shared by whole classes of organism rather than by one strain: the lipopolysaccharide of a Gram-negative outer membrane, a bacterial lipopeptide, double-stranded RNA of the kind made during viral replication. These receptors are encoded in the germline and are the same in every cell of a given type, which is why the response is immediate and why it is identical on a second encounter. Some of them sit in the plasma membrane and meet their ligand outside the cell; others sit in the membrane of an endosome and meet their ligand only after it has been taken up, and their signalling depends on the acidification of that compartment. Whichever receptor is engaged, the signal passes through an adaptor protein to a transcription factor held inactive in the cytosol, which then enters the nucleus and switches on cytokine genes.",
+    "Macrophage lines were derived from a wild-type mouse and from three mutant lines lacking, respectively, receptor P, receptor Q and adaptor R. Each line was stimulated for six hours with bacterial lipopolysaccharide, with a synthetic double-stranded RNA, or with both together, and the cytokine secreted into the medium was measured (Table 1). Unstimulated cultures of every line secreted less than 50 pg/mL.",
+    "In a further experiment, wild-type cells were given a compound that prevents endosomes from acidifying. Their response to double-stranded RNA fell to 150 pg/mL, while their response to lipopolysaccharide was 4000 pg/mL, close to the untreated value. The compound did not alter the number of viable cells over six hours, and all four lines grew at the same rate in the absence of any stimulus."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Cytokine secreted over six hours, in pg/mL, by each line under each stimulus.",
+    "markup": "<table><thead><tr><th>Line</th><th>Lipopolysaccharide</th><th>Double-stranded RNA</th><th>Both together</th></tr></thead><tbody><tr><td>Wild type</td><td>4200</td><td>2600</td><td>6500</td></tr><tr><td>Receptor P absent</td><td>60</td><td>2550</td><td>2600</td></tr><tr><td>Receptor Q absent</td><td>4150</td><td>70</td><td>4200</td></tr><tr><td>Adaptor R absent</td><td>50</td><td>60</td><td>90</td></tr></tbody></table>"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "bb4-p1-q1",
+   "passageId": "bb4-p1",
+   "stem": "In the insulin condition, how many nanomoles of acetyl-CoA are committed to palmitate each hour per milligram of protein?",
+   "choices": {
+    "A": "24",
+    "B": "48",
+    "C": "168",
+    "D": "192"
+   },
+   "correct": "D",
+   "explanation": "Palmitate has 16 carbons and is built entirely from two-carbon units, so eight molecules of acetyl-CoA are consumed for every molecule of palmitate: one is loaded as the primer and seven are carboxylated to malonyl-CoA and added in the seven rounds of elongation. Insulin-treated cells make 24 nmol of palmitate per hour per milligram, so 24 \u00d7 8 = 192 nmol of acetyl-CoA is committed in that time.",
+   "wrong": {
+    "A": "This is the palmitate synthesis rate read straight from Table 1, which treats one acetyl-CoA as enough to build a whole 16-carbon chain.",
+    "B": "This counts two acetyl-CoA per palmitate, as though only the primer and the first malonyl unit were needed and elongation stopped after one round.",
+    "C": "This counts the seven malonyl-CoA units added during elongation but omits the acetyl-CoA that primes the synthase."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb4-p1-q2",
+   "passageId": "bb4-p1",
+   "stem": "Which of the following best explains why the acetyl-CoA carboxylase inhibitor raises the rate of palmitate oxidation?",
+   "choices": {
+    "A": "it raises cytosolic citrate, and citrate activates the carnitine shuttle",
+    "B": "it diverts acetyl-CoA into the citric acid cycle within the cytosol",
+    "C": "it increases the NADPH available to the first oxidative step of beta-oxidation",
+    "D": "it lowers malonyl-CoA, relieving the inhibition of CPT-1 by that molecule"
+   },
+   "correct": "D",
+   "explanation": "The carboxylase makes malonyl-CoA, and the passage states that malonyl-CoA inhibits CPT-1. Blocking the carboxylase drops malonyl-CoA from 6.0 to 0.5 nmol/g, CPT-1 is no longer inhibited, acyl groups cross into the matrix, and oxidation rises from 4 to 20 nmol/h per mg. That the rise disappears when CPT-1 is blocked as well confirms the route.",
+   "wrong": {
+    "A": "Citrate activates acetyl-CoA carboxylase, which is the enzyme being inhibited here; it has no activating action on the carnitine transfer step.",
+    "B": "The citric acid cycle is in the mitochondrial matrix, not the cytosol, so acetyl-CoA cannot be fed into it without first being transported.",
+    "C": "The oxidative steps of beta-oxidation reduce FAD and NAD+, not NADP+, so a greater supply of NADPH would not raise the rate."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "3"
+  },
+  {
+   "id": "bb4-p1-q3",
+   "passageId": "bb4-p1",
+   "stem": "Complete oxidation of one palmitate releases eight molecules of acetyl-CoA. In the compound K condition, how many nanomoles of acetyl-CoA per hour per milligram of protein are released by palmitate oxidation?",
+   "choices": {
+    "A": "16",
+    "B": "112",
+    "C": "128",
+    "D": "256"
+   },
+   "correct": "C",
+   "explanation": "Compound K cells oxidise 16 nmol of palmitate per hour per milligram, and each palmitate yields eight acetyl-CoA, so 16 \u00d7 8 = 128 nmol of acetyl-CoA is released per hour per milligram. The figure is high because activation of AMP-activated protein kinase phosphorylates the carboxylase, malonyl-CoA falls to 1.5 nmol/g, and CPT-1 is released from inhibition.",
+   "wrong": {
+    "A": "This is the oxidation rate taken straight from Table 1, counting one acetyl-CoA for each palmitate rather than eight.",
+    "B": "This multiplies by seven, the number of rounds of beta-oxidation; seven rounds cut a 16-carbon chain into eight two-carbon units, not seven.",
+    "D": "This multiplies by the 16 carbons of palmitate, which counts each carbon as a separate acetyl-CoA and so doubles the true number."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb4-p1-q4",
+   "passageId": "bb4-p1",
+   "stem": "The investigators tested a condition containing both the carboxylase inhibitor and the CPT-1 inhibitor. That condition was included in order to:",
+   "choices": {
+    "A": "confirm that the carboxylase inhibitor does not reduce the number of attached cells",
+    "B": "measure the greatest rate of palmitate synthesis the cells can reach",
+    "C": "test whether the extra oxidation seen with the carboxylase inhibitor requires carnitine transfer",
+    "D": "establish that labelled palmitate enters the cell without the help of a transporter"
+   },
+   "correct": "C",
+   "explanation": "The carboxylase inhibitor is proposed to raise oxidation indirectly, by removing malonyl-CoA from CPT-1. If that is the mechanism, blocking CPT-1 at the same time should abolish the rise, and it does: oxidation falls from 20 back to 2 nmol/h per mg while malonyl-CoA stays at 0.5. The paired condition converts a correlation into a test of the proposed route.",
+   "wrong": {
+    "A": "Cell attachment and protein content are reported separately in the third paragraph and are unchanged, so no extra condition is needed for that purpose.",
+    "B": "Synthesis in that condition is 1 nmol/h per mg, the lowest in the table; a maximal rate of synthesis would need a condition that stimulates the carboxylase.",
+    "D": "Entry of labelled palmitate is addressed by the statement that uptake of label was equal in every condition, which the added inhibitor does not test."
+   },
+   "category": "1D",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb4-p1-q5",
+   "passageId": "bb4-p1",
+   "stem": "Which of the following is supported by the compound K condition? I. Acetyl-CoA carboxylase is more heavily phosphorylated than in medium alone. II. Cytosolic malonyl-CoA is lower than in medium alone. III. Entry of acyl groups into the mitochondrion is less inhibited than in medium alone.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "D",
+   "explanation": "Compound K activates AMP-activated protein kinase, whose action on the carboxylase is phosphorylation, so I follows. Malonyl-CoA is 1.5 nmol/g against 6.0 in medium alone, so II is read directly from Table 1. Because malonyl-CoA inhibits CPT-1, less of it means less inhibition of acyl transfer, which is what the fourfold rise in oxidation shows, so III follows as well.",
+   "wrong": {
+    "A": "This accepts the phosphorylation of the carboxylase but overlooks the malonyl-CoA column, which falls fourfold in this condition.",
+    "B": "This takes the fall in malonyl-CoA as the only supported statement, ignoring that the kinase named in the passage acts by phosphorylating the carboxylase.",
+    "C": "This stops short of the consequence for transport, even though malonyl-CoA is the inhibitor of CPT-1 and oxidation has risen from 4 to 16 nmol/h per mg."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb4-p2-q1",
+   "passageId": "bb4-p2",
+   "stem": "Drug Y lengthens the time to 90% repolarisation from 300 to 420 ms and leaves the rate of rise of phase 0 unchanged. Which channel does drug Y most likely block?",
+   "choices": {
+    "A": "the fast sodium channel that carries phase 0",
+    "B": "the delayed rectifier potassium channel that carries phase 3",
+    "C": "the L-type calcium channel that carries the plateau",
+    "D": "the inward rectifier potassium channel that holds phase 4"
+   },
+   "correct": "B",
+   "explanation": "Repolarisation is carried by the delayed rectifier potassium current, so blocking it leaves the cell depolarised for longer and lengthens the action potential. The upstroke is untouched because it depends on the fast sodium current, and the resting potential is untouched because that is held by the inward rectifier. Both of those are unchanged by drug Y in Table 1.",
+   "wrong": {
+    "A": "Blocking the fast sodium channel is what drug W does, and it cuts the rate of rise from 250 to 90 V/s; drug Y leaves the rate of rise at 250 V/s.",
+    "C": "Blocking the L-type calcium current removes inward current from the plateau and shortens the action potential, which is the pattern seen with drug X.",
+    "D": "Blocking the inward rectifier depolarises the resting potential, as with drug Z; drug Y leaves the resting potential at -85 mV."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-p2-q2",
+   "passageId": "bb4-p2",
+   "stem": "By what percentage does drug X shorten the time to 90% repolarisation, relative to the control value?",
+   "choices": {
+    "A": "2.0%",
+    "B": "3.3%",
+    "C": "33.3%",
+    "D": "50.0%"
+   },
+   "correct": "C",
+   "explanation": "Drug X shortens the time to 90% repolarisation from 300 ms to 200 ms, a change of 100 ms. Expressed against the control value, 100/300 is 0.333, or 33.3%. The percentage change must be taken on the control value, because that is the reference against which the drug's effect is being described.",
+   "wrong": {
+    "A": "This is the change in the rate of rise, 250 to 245 V/s, read from the wrong column; the question asks about repolarisation.",
+    "B": "This is drug W's row, where the time falls from 300 to 290 ms, a change of 3.3%; drug W blocks the fast sodium channel rather than the calcium channel.",
+    "D": "This divides the 100 ms change by the shortened value of 200 ms rather than by the control value of 300 ms."
+   },
+   "category": "3B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-p2-q3",
+   "passageId": "bb4-p2",
+   "stem": "Drug Z blocks only the inward rectifier, yet the rate of rise of phase 0 falls from 250 to 150 V/s. Which explanation best accounts for that fall?",
+   "choices": {
+    "A": "the drug also blocks the fast sodium channel at the concentration used",
+    "B": "potassium current replaces sodium current as the carrier of the upstroke",
+    "C": "the depolarised resting potential leaves fewer fast sodium channels available to open",
+    "D": "intracellular sodium has risen, which lowers the driving force for sodium entry"
+   },
+   "correct": "C",
+   "explanation": "Fast sodium channels recover from inactivation only after the membrane has repolarised, and the passage states that the fraction available at rest falls steeply as the resting potential becomes less negative. Holding the cell at -65 mV instead of -85 mV therefore leaves a smaller pool of channels able to open, and the upstroke they generate is slower, even though the channel protein itself is untouched.",
+   "wrong": {
+    "A": "The passage states that each compound was used at a concentration that blocks a single channel type, so a second action on the sodium channel is excluded by design.",
+    "B": "Potassium current is outward at these potentials and would oppose depolarisation; it cannot generate an upstroke.",
+    "D": "Nothing in the experiment loads the cell with sodium, and a changed sodium gradient would alter the overshoot, which the passage reports as unchanged in amplitude."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-p2-q4",
+   "passageId": "bb4-p2",
+   "stem": "Which of the following changes would be LEAST likely to lengthen the time to 90% repolarisation?",
+   "choices": {
+    "A": "a mutation that increases the conductance of the delayed rectifier potassium channel",
+    "B": "a mutation that slows inactivation of the fast sodium channel",
+    "C": "a drug that reduces the current through the delayed rectifier potassium channel",
+    "D": "a mutation that increases calcium current through the L-type channel during the plateau"
+   },
+   "correct": "A",
+   "explanation": "The action potential ends when outward potassium current exceeds the remaining inward current. A channel that carries more repolarising current ends the plateau sooner, so increasing the conductance of the delayed rectifier shortens the action potential rather than lengthening it; this is the opposite of what drug Y does.",
+   "wrong": {
+    "B": "Sodium channels that inactivate slowly leave a small inward current flowing through the plateau, which opposes repolarisation and lengthens the action potential.",
+    "C": "Reducing the delayed rectifier current is what drug Y does, and it lengthens the time to 90% repolarisation from 300 to 420 ms.",
+    "D": "More calcium entering during the plateau adds inward current that must be overcome before the cell can repolarise, so the plateau lasts longer."
+   },
+   "category": "3B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-p3-q1",
+   "passageId": "bb4-p3",
+   "stem": "Compound 5 inhibits both extracts and binds both large subunits. Which property best accounts for that lack of selectivity?",
+   "choices": {
+    "A": "it binds 16S ribosomal RNA, which has no counterpart in a eukaryotic ribosome",
+    "B": "it acts at the peptidyl transferase centre, whose RNA core is conserved in both large subunits",
+    "C": "it blocks the signal recognition particle as well as the ribosome itself",
+    "D": "it prevents transcription of the messenger RNA in both extracts"
+   },
+   "correct": "B",
+   "explanation": "The passage separates the conserved catalytic cores of the two ribosomes from the less conserved surfaces around them. A compound that binds both the 50S and the 60S subunit is binding something the two share, and the peptidyl transferase centre built from large-subunit RNA is exactly that; selective drugs act instead on the surrounding surfaces, which differ.",
+   "wrong": {
+    "A": "The 16S RNA is in the small subunit, not the large one, and its eukaryotic counterpart is the 18S RNA, so the premise of this choice is wrong twice over.",
+    "C": "The signal recognition particle acts on proteins destined for a membrane and plays no part in a cell-free extract translating a soluble protein.",
+    "D": "A single messenger RNA was supplied ready-made to both extracts, so no transcription takes place and an inhibitor of transcription would have no effect."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb4-p3-q2",
+   "passageId": "bb4-p3",
+   "stem": "After compound 3, the eukaryotic extract retains its ribosomes on the messenger RNA as polysomes. Which step is compound 3 most likely to block?",
+   "choices": {
+    "A": "movement of the ribosome along the messenger RNA after each peptide bond is formed",
+    "B": "binding of the initiator transfer RNA to the small subunit",
+    "C": "release of the finished chain by the release factor at the stop codon",
+    "D": "joining of the small and large subunits at the start codon"
+   },
+   "correct": "A",
+   "explanation": "Ribosomes that stay bound along the message have engaged it and then stopped moving, which is what blocking translocation produces: each ribosome is frozen mid-message with its chain unfinished. The polysome profile is therefore the diagnostic observation, and it distinguishes a block in elongation from a block in initiation.",
+   "wrong": {
+    "B": "If initiator transfer RNA could not bind, ribosomes would never engage the message, and the message would be left bare rather than loaded with polysomes.",
+    "C": "A block at termination would strand ribosomes only at the stop codon, so each message would hold one stalled ribosome rather than a string of them.",
+    "D": "Preventing subunit joining blocks initiation, and the compound 2 result shows what that looks like: a message almost free of ribosomes."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb4-p3-q3",
+   "passageId": "bb4-p3",
+   "stem": "Define a selectivity index as the percentage incorporation remaining in the eukaryotic extract divided by the percentage remaining in the bacterial extract. Which compound has the highest index?",
+   "choices": {
+    "A": "Compound 1",
+    "B": "Compound 2",
+    "C": "Compound 3",
+    "D": "Compound 4"
+   },
+   "correct": "D",
+   "explanation": "The index is 95/25 = 3.8 for compound 1, 98/10 = 9.8 for compound 2, 15/100 = 0.15 for compound 3 and 90/8 = 11.3 for compound 4. Compound 4 is highest because it leaves the eukaryotic extract almost untouched while reducing bacterial incorporation to the lowest value in the table.",
+   "wrong": {
+    "A": "Compound 1 is the compound that makes the ribosome misread, but mechanism does not enter the index; its own index of 3.8 is the second lowest of the four.",
+    "B": "Compound 2 leaves the highest eukaryotic incorporation, 98%, but the index is a ratio, and compound 4's smaller denominator gives it the larger value.",
+    "C": "Compound 3 has the highest index only if the ratio is inverted, 100/15 = 6.7; as defined, its index of 0.15 is the lowest of the four."
+   },
+   "category": "1B",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "9"
+  },
+  {
+   "id": "bb4-p3-q4",
+   "passageId": "bb4-p3",
+   "stem": "Compound 1 raises incorporation of an amino acid whose codon is absent from the messenger RNA. Which part of the ribosome is compound 1 most likely to affect?",
+   "choices": {
+    "A": "the peptidyl transferase centre of the 23S ribosomal RNA",
+    "B": "the decoding centre of the 16S ribosomal RNA in the small subunit",
+    "C": "the tunnel in the large subunit through which the new chain leaves",
+    "D": "the channel in the small subunit where the message is first bound"
+   },
+   "correct": "B",
+   "explanation": "Incorporating an amino acid that the message does not call for means the ribosome is accepting a transfer RNA whose anticodon does not match the codon. Proof-reading of that pairing is the work of the decoding centre in the 16S RNA of the small subunit, and compound 1 is reported to bind the 30S subunit, which carries it.",
+   "wrong": {
+    "A": "A compound acting at the peptidyl transferase centre would slow or stop peptide bond formation, which lowers incorporation of every amino acid rather than admitting the wrong one.",
+    "C": "Obstructing the exit tunnel stalls chains that have already been made correctly, so it cannot explain the insertion of an amino acid the message never specified.",
+    "D": "Interfering with the binding of the message would prevent initiation, and no protein at all would be made from it."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "4"
+  },
+  {
+   "id": "bb4-p3-q5",
+   "passageId": "bb4-p3",
+   "stem": "What is the smallest number of nucleotides the coding region of this synthetic messenger RNA can contain, counting from the initiation codon through the codon that ends translation?",
+   "choices": {
+    "A": "100",
+    "B": "101",
+    "C": "300",
+    "D": "303"
+   },
+   "correct": "D",
+   "explanation": "The protein has 100 residues including the initiator methionine, so 100 codons are read and translated. Termination requires one further codon, which specifies no amino acid, giving 101 codons in all. Each codon is three nucleotides, so the region runs 101 \u00d7 3 = 303 nucleotides.",
+   "wrong": {
+    "A": "This is the number of amino acid residues, which would be the answer only if each residue were specified by a single nucleotide.",
+    "B": "This counts the codons correctly, including the stop codon, but reports them as nucleotides rather than multiplying by three.",
+    "C": "This covers the 100 translated codons but leaves out the stop codon, which must be encoded for the ribosome to release the finished chain."
+   },
+   "category": "1B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "4"
+  },
+  {
+   "id": "bb4-p4-q1",
+   "passageId": "bb4-p4",
+   "stem": "According to Figure 1, treatment with both drugs raises reporter messenger RNA above the untreated level by what factor?",
+   "choices": {
+    "A": "1.7-fold",
+    "B": "12.0-fold",
+    "C": "20.0-fold",
+    "D": "95.0-fold"
+   },
+   "correct": "C",
+   "explanation": "Untreated cells give 5 arbitrary units and cells given both drugs give 100, so the factor is 100/5 = 20. A factor is a ratio of the two values, and the untreated bar is the reference because it is the condition the drugs are being compared with.",
+   "wrong": {
+    "A": "This compares the combination with the cytosine analogue alone, 100/60, rather than with the untreated cells the question names.",
+    "B": "This is 60/5, the effect of the cytosine analogue alone; the bar for the combination is 100 units, not 60.",
+    "D": "This subtracts the untreated 5 units from the 100 units of the combination and reports the difference as though it were a ratio."
+   },
+   "category": "1B",
+   "skill": "skill-4",
+   "difficulty": "easy",
+   "unit": "4"
+  },
+  {
+   "id": "bb4-p4-q2",
+   "passageId": "bb4-p4",
+   "stem": "The cytosine analogue raises acetylated histone at the promoter from 1.0 to 3.5 relative units, although it does not inhibit histone deacetylases. Which explanation best accounts for that rise?",
+   "choices": {
+    "A": "the analogue is incorporated into histone tails and blocks deacetylation there",
+    "B": "losing the methyl marks removes the proteins that recruit the deacetylase to this promoter",
+    "C": "unmethylated DNA wraps more tightly around the nucleosome and exposes the lysine tails",
+    "D": "the analogue increases the supply of acetyl-CoA used by histone acetyltransferases"
+   },
+   "correct": "B",
+   "explanation": "The passage describes methylated cytosine as acting indirectly: proteins that bind it recruit histone deacetylases. When the analogue is incorporated and methylation falls from 80% to 15%, those proteins have little left to bind, the deacetylase is no longer held at the promoter, and the acetylation placed there by acetyltransferases is no longer stripped away.",
+   "wrong": {
+    "A": "The analogue is a cytosine analogue incorporated into DNA, as the passage states; histones are protein and contain no cytosine.",
+    "C": "Tighter wrapping is the consequence of deacetylation, not of demethylation, and it makes the promoter less accessible rather than more.",
+    "D": "Nothing in the experiment alters central metabolism, and the deacetylase inhibitor raises acetylation to 6.0 without any change in acetyl-CoA supply."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb4-p4-q3",
+   "passageId": "bb4-p4",
+   "stem": "Which of the following is supported by the results? I. Removing methyl groups from the promoter raises expression of the reporter. II. DNA methylation and histone acetylation act on this promoter through linked mechanisms. III. The drugs raise expression by increasing the number of copies of the reporter gene.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "C",
+   "explanation": "The analogue drops methylation to 15% and raises the reporter from 5 to 60 units, which supports I. It also raises acetylation from 1.0 to 3.5 without inhibiting a deacetylase, and the two drugs together give more expression than either alone, which supports II. III is excluded directly: the passage states that reporter copy number was identical in all four conditions.",
+   "wrong": {
+    "A": "This accepts the effect of demethylation but overlooks that the same drug changes histone acetylation, which is the evidence that the two marks are linked.",
+    "B": "This takes the link between the two marks but discards the simplest result in the experiment, the twelvefold rise in expression when methylation is lost.",
+    "D": "This accepts a rise in copy number, which the passage rules out by reporting that copy number and promoter sequence were identical throughout."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb4-p4-q4",
+   "passageId": "bb4-p4",
+   "stem": "Methylation of the promoter returns to 79% over 20 divisions after the analogue is washed out. Which activity is chiefly responsible for that return?",
+   "choices": {
+    "A": "methylation of sites that carry no mark at all, by the activity that does not need a methylated parent strand",
+    "B": "copying of the marks from the parent strand, which retained them throughout the treatment",
+    "C": "methylation of histone lysine side chains, which this assay scores together with DNA methylation",
+    "D": "reversion of the promoter sequence to its original content of cytosine-guanosine sites"
+   },
+   "correct": "A",
+   "explanation": "The treatment left only 15% of the sites methylated, so most parent strands carry no mark to copy. Restoring the pattern from that starting point requires the activity the passage describes as placing methyl groups on sites that carry no mark at all; maintenance alone could only preserve the 15% that survived.",
+   "wrong": {
+    "B": "Maintenance methylation acts only where the parent strand is already methylated, and after treatment 85% of the sites had lost the mark on both strands.",
+    "C": "The share of methylated cytosine-guanosine sites is a measurement on DNA; histone methylation is a separate mark and is not what this figure reports.",
+    "D": "The passage states that the promoter sequence was identical in every condition, so the sites were never lost and have nothing to revert to."
+   },
+   "category": "1B",
+   "skill": "skill-1",
+   "difficulty": "hard",
+   "unit": "4"
+  },
+  {
+   "id": "bb4-p5-q1",
+   "passageId": "bb4-p5",
+   "stem": "In the cultures given both sets of signals, what percentage of colonies had committed to a lineage?",
+   "choices": {
+    "A": "25%",
+    "B": "35%",
+    "C": "40%",
+    "D": "75%"
+   },
+   "correct": "D",
+   "explanation": "A colony is committed if it is mineralised or holds lipid droplets, and the passage states that no colony was scored as both. The two shares therefore add: 35% mineralised plus 40% lipid-laden is 75% committed, which agrees with the 25% left undifferentiated in the same row.",
+   "wrong": {
+    "A": "This is the share of colonies that remained undifferentiated, which is the complement of the figure the question asks for.",
+    "B": "This counts only the mineralised colonies and leaves out the 40% that committed to the adipogenic path.",
+    "C": "This counts only the lipid-laden colonies and leaves out the 35% that mineralised."
+   },
+   "category": "2C",
+   "skill": "skill-4",
+   "difficulty": "easy",
+   "unit": "6"
+  },
+  {
+   "id": "bb4-p5-q2",
+   "passageId": "bb4-p5",
+   "stem": "With the bone morphogenetic protein and the RUNX2 inhibitor together, 87% of colonies remain undifferentiated. Which conclusion is best supported?",
+   "choices": {
+    "A": "RUNX2 activity is needed downstream of the signal for osteogenic commitment to occur",
+    "B": "the receptor for the bone morphogenetic protein needs RUNX2 in order to bind its ligand",
+    "C": "blocking RUNX2 diverts the progenitor into the adipogenic lineage instead",
+    "D": "RUNX2 is required for the progenitor to divide at all"
+   },
+   "correct": "A",
+   "explanation": "The signal is present and RUNX2 messenger RNA still rises about fifteenfold, so the cells receive and transduce the signal; what fails is the step after it. Mineralisation falls from 70% to 5% when the protein's activity is blocked, which places RUNX2 activity between the signal and the osteogenic programme.",
+   "wrong": {
+    "B": "Ligand binding is unaffected: the induction of RUNX2 messenger RNA shows the receptor was engaged and the signal reached the nucleus.",
+    "C": "Lipid-laden colonies rise only from 5% with the bone morphogenetic protein alone to 8% when the inhibitor is added, so blocking RUNX2 leaves cells uncommitted rather than redirecting them.",
+    "D": "The doubling time is 29 hours, close to the 24 hours of unstimulated cells, so division continues when RUNX2 is blocked."
+   },
+   "category": "2C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "6"
+  },
+  {
+   "id": "bb4-p5-q3",
+   "passageId": "bb4-p5",
+   "stem": "The investigators plated the cells so that each colony arose from a single cell, and scored colonies one by one. What does that design allow them to conclude that a single measurement on the whole dish would not?",
+   "choices": {
+    "A": "whether the signals change the length of the cell cycle",
+    "B": "whether the defined medium contains enough nutrient for 10 days",
+    "C": "whether RUNX2 messenger RNA rises when the bone morphogenetic protein is present",
+    "D": "whether one population carries both programmes or two populations each carry one"
+   },
+   "correct": "D",
+   "explanation": "A dish given both signals would show both sets of markers however the cells are arranged. Only a cell-by-cell or colony-by-colony score can say whether single cells express both programmes or whether the culture has split into two committed groups, and it is the colony scoring that establishes the 35 and 40 per cent as separate populations.",
+   "wrong": {
+    "A": "Cycle length is read from the doubling times measured in parallel flasks, which are bulk cultures and need no clonal plating.",
+    "B": "Nutrient sufficiency is a property of the medium and would be tested by feeding schedules or by counting colonies, not by scoring them individually.",
+    "C": "The fifteenfold rise in RUNX2 messenger RNA is a bulk measurement, and the passage reports it from cultures rather than from single colonies."
+   },
+   "category": "2C",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "6"
+  },
+  {
+   "id": "bb4-p5-q4",
+   "passageId": "bb4-p5",
+   "stem": "The doubling time rises from 24 hours with no added signals to between 29 and 32 hours in every other condition. Which interpretation of that pattern is best?",
+   "choices": {
+    "A": "the added signals are toxic, since all of them slow the population down",
+    "B": "commitment is accompanied by slower division, whichever lineage is taken",
+    "C": "the medium is used up faster once colonies begin to mineralise",
+    "D": "slowing of division is what causes a progenitor to commit"
+   },
+   "correct": "B",
+   "explanation": "The passage states that a committed progenitor divides more slowly than an uncommitted one, and the measured doubling times follow that rule in both lineages and in the mixed condition. The change is modest and the same whichever programme is running, which is what a general consequence of commitment looks like.",
+   "wrong": {
+    "A": "Toxicity would reduce the number of colonies formed, and the passage states that no condition did so.",
+    "C": "The slowing is just as large in the cultures driven to the adipogenic path, where nothing is mineralised at all.",
+    "D": "The experiment manipulates the signals, not the rate of division, so it cannot show that slow division is the cause rather than the consequence of commitment."
+   },
+   "category": "2C",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "6"
+  },
+  {
+   "id": "bb4-p5-q5",
+   "passageId": "bb4-p5",
+   "stem": "Each of the following is supported by Table 1 EXCEPT:",
+   "choices": {
+    "A": "the two sets of signals act additively, so more colonies commit when both are given",
+    "B": "insulin with the agonist drives the adipogenic path without driving mineralisation",
+    "C": "the bone morphogenetic protein commits most colonies to the osteogenic path",
+    "D": "the two sets of signals compete, since mineralisation is halved when both are given"
+   },
+   "correct": "A",
+   "explanation": "With the bone morphogenetic protein alone, 70% mineralised and 5% took up lipid, so 75% of colonies committed. With both sets of signals the committed share is 35% plus 40%, which is again 75%. Adding the second signal redistributes commitment between the two lineages without committing any more colonies, so the signals are not additive.",
+   "wrong": {
+    "B": "This is supported: insulin with the agonist gives 80% lipid-laden colonies and 3% mineralised, barely above the 2% seen with no signals at all.",
+    "C": "This is supported: 70% of colonies mineralise with the bone morphogenetic protein, against 2% with no added signals.",
+    "D": "This is supported: mineralisation falls from 70% to 35% when the adipogenic signals are added alongside the osteogenic one."
+   },
+   "category": "2C",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "6"
+  },
+  {
+   "id": "bb4-p6-q1",
+   "passageId": "bb4-p6",
+   "stem": "At a substrate concentration of 10 micromolar, what rate of metabolite formation would the inducer-pretreated microsomes give, in nmol/min per mg protein?",
+   "choices": {
+    "A": "2.0",
+    "B": "4.0",
+    "C": "8.0",
+    "D": "16.0"
+   },
+   "correct": "C",
+   "explanation": "The Michaelis-Menten equation gives a velocity of Vmax times substrate divided by the sum of Km and substrate. For the induced preparation that is 16.0 \u00d7 10/(10 + 10) = 8.0 nmol/min per mg. A substrate concentration equal to Km always gives exactly half the maximal rate, whatever the value of Vmax.",
+   "wrong": {
+    "A": "This is half the maximal rate of the untreated preparation, which is the right calculation applied to the wrong row of the table.",
+    "B": "This is the maximal rate of the untreated microsomes, read from the wrong row; the induced preparation has four times as much enzyme.",
+    "D": "This is the maximal rate of the induced preparation, which is approached only when substrate is far above Km, not when it equals Km."
+   },
+   "category": "1A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "2"
+  },
+  {
+   "id": "bb4-p6-q2",
+   "passageId": "bb4-p6",
+   "stem": "The second drug raises the Michaelis constant from 10 to 40 micromolar and leaves Vmax unchanged. What kind of inhibition is this, and what follows from it?",
+   "choices": {
+    "A": "noncompetitive, so raising the drug concentration cannot restore the original rate",
+    "B": "competitive, so a high enough substrate concentration still reaches the original maximal rate",
+    "C": "uncompetitive, so both the Michaelis constant and the maximal rate are reduced together",
+    "D": "irreversible, so a fraction of the enzyme has been permanently destroyed"
+   },
+   "correct": "B",
+   "explanation": "An inhibitor that raises the apparent Michaelis constant without altering Vmax is competing with the substrate for the same site. More substrate outcompetes it, so the maximal rate is still reached, but more substrate is needed to reach any given fraction of it, which is what a fourfold rise in the apparent constant means.",
+   "wrong": {
+    "A": "Noncompetitive inhibition lowers Vmax, because the inhibitor acts on enzyme that has substrate bound as readily as on free enzyme; here Vmax is 4.0 in both rows.",
+    "C": "Uncompetitive inhibition lowers both constants together, so it cannot explain a Michaelis constant that has risen fourfold.",
+    "D": "Destroying enzyme would lower Vmax and leave the Michaelis constant alone, and the immunoreactive enzyme content is 80 pmol/mg in both rows."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "2"
+  },
+  {
+   "id": "bb4-p6-q3",
+   "passageId": "bb4-p6",
+   "stem": "Why did the investigators include a preparation whose assay mixture contained no NADPH?",
+   "choices": {
+    "A": "to show that the metabolite is formed by a reaction requiring the reduced cofactor rather than appearing without enzyme",
+    "B": "to measure the Michaelis constant of the enzyme for NADPH itself",
+    "C": "to confirm that the second drug binds at the same site as the test drug",
+    "D": "to leave a preparation in which conjugation to glucuronic acid could be measured on its own"
+   },
+   "correct": "A",
+   "explanation": "A microsomal suspension contains lipid, haem and the drug itself, so a product might accumulate without the oxidation the investigators are claiming. Removing the electron donor abolishes the P450 reaction but leaves everything else in the tube, and no metabolite at all was formed, which establishes that the product measured is the work of the cofactor-dependent enzyme.",
+   "wrong": {
+    "B": "A constant for NADPH would require a series of NADPH concentrations; omitting it altogether gives a single point at zero and no curve to fit.",
+    "C": "The site at which the second drug binds is addressed by the kinetic pattern it produces, not by removing the cofactor from a separate preparation.",
+    "D": "Conjugation requires the hydroxylated product as its substrate, and in this preparation none is made, so no conjugation could be measured either."
+   },
+   "category": "1A",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "2"
+  },
+  {
+   "id": "bb4-p6-q4",
+   "passageId": "bb4-p6",
+   "stem": "A patient who has taken the inducing drug for a week is then given a standard oral dose of the test drug. Compared with an untreated patient, the plasma concentration of the test drug would be expected to be:",
+   "choices": {
+    "A": "higher, because more enzyme means more of the drug is bound and carried in plasma",
+    "B": "lower, because more enzyme in the liver clears the drug faster as it first passes through",
+    "C": "unchanged, because the Michaelis constant of the enzyme is unchanged",
+    "D": "higher, because an induced enzyme saturates at a lower substrate concentration"
+   },
+   "correct": "B",
+   "explanation": "Induction raised the enzyme from 80 to 320 pmol/mg and Vmax from 4.0 to 16.0 nmol/min per mg, with the same catalytic efficiency per molecule. An oral dose passes through the liver before reaching the systemic circulation, so a fourfold greater oxidising capacity removes more of it on that first pass and the concentration reached in plasma is lower.",
+   "wrong": {
+    "A": "Cytochrome P450 is an enzyme of the hepatic endoplasmic reticulum, not a plasma carrier protein, so its amount does not determine how much drug plasma can hold.",
+    "C": "An unchanged Michaelis constant means unchanged affinity, but the capacity has quadrupled, and it is capacity that sets the rate at the concentrations reached after a standard dose.",
+    "D": "Saturation is governed by the Michaelis constant, which is 10 micromolar in both preparations; induction raises the maximal rate instead."
+   },
+   "category": "1A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-p7-q1",
+   "passageId": "bb4-p7",
+   "stem": "The agonist and potassium chloride raise peak Ca\u00b2\u207a to 600 and 580 nM, yet the agonist gives more phosphorylation and more tension. Which explanation is best supported?",
+   "choices": {
+    "A": "the agonist opens voltage-gated channels, which deliver Ca\u00b2\u207a closer to myosin",
+    "B": "depolarisation by potassium chloride inactivates myosin light chain kinase",
+    "C": "the fluorescent indicator reads Ca\u00b2\u207a too low during potassium depolarisation",
+    "D": "the agonist also inhibits the phosphatase, so a given Ca\u00b2\u207a gives more phosphorylation"
+   },
+   "correct": "D",
+   "explanation": "Phosphorylation is set by the balance between the kinase and the phosphatase. Potassium chloride only depolarises, and at 580 nM it produces 40% phosphorylation; the agonist at a similar calcium concentration produces 55%, and blocking Rho-associated kinase pulls the agonist's figure down to 30%. That is the signature of an agonist that inhibits the phosphatase in addition to raising calcium.",
+   "wrong": {
+    "A": "Potassium chloride is the stimulus that works through voltage-gated channels, and it is the one that produces less tension at the same calcium concentration.",
+    "B": "If the kinase were inactivated, potassium chloride would give phosphorylation near the 8% seen with the kinase inhibitor rather than 40%.",
+    "C": "The passage states that the indicator was calibrated in every strip and that the calibration did not differ between strips."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-p7-q2",
+   "passageId": "bb4-p7",
+   "stem": "In Ca\u00b2\u207a-free medium, the rise in cytosolic Ca\u00b2\u207a above the unstimulated level is what percentage of the rise seen in normal medium?",
+   "choices": {
+    "A": "37.5%",
+    "B": "43.8%",
+    "C": "50.0%",
+    "D": "80.0%"
+   },
+   "correct": "A",
+   "explanation": "The unstimulated strip sits at 120 nM. In normal medium the agonist takes it to 600 nM, a rise of 480 nM; in Ca\u00b2\u207a-free medium it reaches 300 nM, a rise of 180 nM. The ratio of the two rises is 180/480 = 0.375, or 37.5%. The baseline has to be subtracted because the question asks about the rise rather than the level.",
+   "wrong": {
+    "B": "This is the ratio of the two tension values, 35/80, which answers a question about tension rather than about calcium.",
+    "C": "This divides the two peak levels, 300/600, and so counts the 120 nM resting calcium as part of the agonist-induced rise.",
+    "D": "This is the peak tension in normal medium, expressed as a percentage of the strip's maximum, and has nothing to do with the two calcium rises."
+   },
+   "category": "3B",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-p7-q3",
+   "passageId": "bb4-p7",
+   "stem": "With the kinase inhibitor, peak Ca\u00b2\u207a is 590 nM but tension is only 5%. Which conclusions follow? I. Entry of Ca\u00b2\u207a depends on phosphorylation of the light chain. II. A rise in Ca\u00b2\u207a is not by itself sufficient to generate tension. III. The inhibitor prevents Ca\u00b2\u207a from binding calmodulin.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "B",
+   "explanation": "Calcium reaches almost exactly the value it reaches without the inhibitor, so II is the conclusion the result supports: calcium rose and no tension followed. I is the reverse of what the data show, since calcium entry was unaffected by a drug that abolished phosphorylation. III names the wrong target, because the inhibitor acts on the kinase, and blocking calcium binding to calmodulin would be a separate experiment.",
+   "wrong": {
+    "A": "Calcium rose to 590 nM with the inhibitor present and 600 nM without it, so entry plainly does not depend on the phosphorylation step.",
+    "C": "This keeps statement I, which the unchanged peak calcium contradicts; only the second statement survives the comparison.",
+    "D": "This adds a claim about calmodulin binding, which was not tested; the inhibitor named in the passage acts on the kinase itself."
+   },
+   "category": "1A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-p7-q4",
+   "passageId": "bb4-p7",
+   "stem": "Which explanation best accounts for the 35% tension the agonist still produces when Ca\u00b2\u207a has been omitted from the medium?",
+   "choices": {
+    "A": "the agonist releases Ca\u00b2\u207a from the sarcoplasmic reticulum through IP\u2083 receptors",
+    "B": "the kinase can phosphorylate the light chain without Ca\u00b2\u207a once the agonist is bound",
+    "C": "the strip develops passive tension when external Ca\u00b2\u207a is withdrawn",
+    "D": "removing external Ca\u00b2\u207a depolarises the membrane and opens voltage-gated channels"
+   },
+   "correct": "A",
+   "explanation": "Calcium rises to 300 nM even with none available outside the cell, so it must come from inside, and the passage names the sarcoplasmic reticulum as that store and IP\u2083 as the signal that opens it. The partial rise gives partial phosphorylation, 25%, and partial tension, 35%, which is consistent with a smaller calcium signal rather than a different mechanism.",
+   "wrong": {
+    "B": "The kinase is activated by the calcium-calmodulin complex, so without a calcium rise it would stay inactive, and phosphorylation would resemble the 5% of the unstimulated strip.",
+    "C": "Passive tension is a property of a stretched strip, and these strips were held at fixed length, with no stimulus giving more than 2% tension.",
+    "D": "If voltage-gated channels were carrying the current, calcium would have to enter from the medium, which in this condition contains none."
+   },
+   "category": "2A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "6"
+  },
+  {
+   "id": "bb4-p7-q5",
+   "passageId": "bb4-p7",
+   "stem": "A compound that inhibits myosin light chain phosphatase is applied to a resting strip. Compared with an untreated strip, the treated strip would be expected to show:",
+   "choices": {
+    "A": "lower phosphorylation of the light chain and less tension at every Ca\u00b2\u207a concentration",
+    "B": "no release of Ca\u00b2\u207a from the sarcoplasmic reticulum when the agonist is applied",
+    "C": "the same shift in the relation between Ca\u00b2\u207a and tension as the Rho-kinase inhibitor",
+    "D": "more phosphorylation and more tension at any given concentration of Ca\u00b2\u207a"
+   },
+   "correct": "D",
+   "explanation": "Phosphorylation is the balance of kinase and phosphatase activity. Removing the phosphatase leaves the kinase unopposed, so the same calcium signal leaves more of the light chain phosphorylated and generates more tension. This is the same direction of change the agonist achieves by way of Rho-associated kinase, which the passage describes as inhibiting the phosphatase.",
+   "wrong": {
+    "A": "Inhibiting the enzyme that removes the phosphate raises phosphorylation; it is inhibiting the kinase that lowers it, as the 8% value in Table 1 shows.",
+    "B": "The phosphatase acts on the myosin light chain and has no part in calcium release, which the agonist triggers by way of IP\u2083.",
+    "C": "The Rho-kinase inhibitor relieves the phosphatase of inhibition and shifts the relation the other way, lowering phosphorylation from 55% to 30%."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-p8-q1",
+   "passageId": "bb4-p8",
+   "stem": "Supplying the autoinducer in the medium restores the biofilm of the synthesis-deficient mutant from 0.20 to 0.96 absorbance units. What does that result establish?",
+   "choices": {
+    "A": "the autoinducer is a nutrient that this mutant can no longer make for itself",
+    "B": "the mutant carries a second mutation in the genes of the matrix",
+    "C": "the mutant can still respond to the signal and has lost only the ability to make it",
+    "D": "the signal is read only after the matrix has already been laid down"
+   },
+   "correct": "C",
+   "explanation": "A strain that cannot make the signal but behaves normally when the signal is handed to it has an intact receptor, an intact regulator and intact matrix genes. The defect is confined to synthesis, which is what the mutation was designed to remove, and the restored biomass of 0.96 against a wild-type 1.00 shows how complete that restoration is.",
+   "wrong": {
+    "A": "A nutrient supports growth, and this strain grows in suspension to an optical density of 0.79, the same as the wild type's 0.80.",
+    "B": "A second mutation in the matrix genes would leave the strain unable to build a biofilm whether or not the signal was supplied.",
+    "D": "If the signal acted only after the matrix existed, supplying it to a strain with no biofilm could not produce one."
+   },
+   "category": "2B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "9"
+  },
+  {
+   "id": "bb4-p8-q2",
+   "passageId": "bb4-p8",
+   "stem": "Growth in shaken suspension was measured for every strain. What does that measurement contribute to the interpretation of Figure 1?",
+   "choices": {
+    "A": "it shows that a smaller biofilm is not simply the result of a strain growing more slowly",
+    "B": "it establishes the concentration of autoinducer needed to switch on the matrix genes",
+    "C": "it measures the rate at which cells leave a mature biofilm and return to suspension",
+    "D": "it confirms that the dye used to score biomass binds only to matrix polysaccharide"
+   },
+   "correct": "A",
+   "explanation": "The dye retained by a well depends on how much biofilm is there, and a strain that simply grew poorly would retain less dye for a reason that has nothing to do with attachment or matrix. Optical densities of 0.78 to 0.82 across all the strains remove that explanation and leave the biofilm defects as specific ones.",
+   "wrong": {
+    "B": "A threshold concentration would require the signal to be supplied at several concentrations; here it is either absent or supplied at one.",
+    "C": "Dispersal would have to be measured by following cells leaving an established biofilm over time, not by growing them in a shaken flask.",
+    "D": "What the dye binds is a question about the staining method, and growing cells in suspension tests nothing about its specificity."
+   },
+   "category": "2B",
+   "skill": "skill-3",
+   "difficulty": "easy",
+   "unit": "9"
+  },
+  {
+   "id": "bb4-p8-q3",
+   "passageId": "bb4-p8",
+   "stem": "For the wild-type strain, by what factor does survival of the antibiotic in the biofilm exceed survival in suspension?",
+   "choices": {
+    "A": "8.0-fold",
+    "B": "39.5-fold",
+    "C": "40.0-fold",
+    "D": "80.0-fold"
+   },
+   "correct": "D",
+   "explanation": "Survival was 40% for cells in the biofilm and 0.5% for planktonic cells of the same strain, so the factor is 40/0.5 = 80. Dividing by a value below one raises the quotient above the numerator, which is why the factor is larger than either percentage in the comparison.",
+   "wrong": {
+    "A": "This treats the planktonic survival as 5% rather than 0.5%, which moves the decimal point one place and shrinks the factor tenfold.",
+    "B": "This subtracts 0.5 from 40 instead of dividing, which gives a difference in percentage points rather than a factor.",
+    "C": "This quotes the biofilm survival itself as though the planktonic value were 1%."
+   },
+   "category": "2B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "9"
+  },
+  {
+   "id": "bb4-p8-q4",
+   "passageId": "bb4-p8",
+   "stem": "Which observation would be LEAST consistent with the view that the matrix protects biofilm cells by slowing the antibiotic's approach?",
+   "choices": {
+    "A": "a dye of the same size as the antibiotic reaches the base of a wild-type biofilm only after several hours",
+    "B": "cells scraped from a wild-type biofilm and suspended as single cells remain as tolerant as they were in the film",
+    "C": "cells in the well of the matrix-deficient mutant survive at 2%, little better than its planktonic cells at 0.6%",
+    "D": "tolerance of a wild-type biofilm falls sharply when an enzyme that digests the matrix polysaccharide is added"
+   },
+   "correct": "B",
+   "explanation": "A barrier can only work while the cells are behind it. Cells that keep their tolerance after the matrix has been left behind must owe it to something they carry with them, such as the slow growth the passage describes in cells deep inside the film, so that observation argues against the barrier explanation rather than for it.",
+   "wrong": {
+    "A": "This is consistent: it measures the delay in penetration directly, which is exactly what a barrier is supposed to produce.",
+    "C": "This is consistent: a strain with no matrix gains almost nothing from sitting in a well, which is what the barrier view predicts.",
+    "D": "This is consistent: removing the proposed barrier removes the protection, which is the test a barrier explanation invites."
+   },
+   "category": "2B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "9"
+  },
+  {
+   "id": "bb4-p9-q1",
+   "passageId": "bb4-p9",
+   "stem": "Which subject's results are best explained by destruction of the thyroid gland itself?",
+   "choices": {
+    "A": "Subject 1",
+    "B": "Subject 2",
+    "C": "Subject 3",
+    "D": "Subject 4"
+   },
+   "correct": "B",
+   "explanation": "Subject 2 has free thyroxine of 4 pmol/L, well below the reference range, with thyroid-stimulating hormone of 42 mIU/L, ten times the upper limit. A pituitary that is intact responds to the loss of feedback by secreting more, and the eightfold rise after injected releasing hormone confirms that the thyrotrophs are healthy and that the failure lies beyond them.",
+   "wrong": {
+    "A": "Subject 1 has every value inside the reference range and a brisk response to the injection, which is the healthy pattern.",
+    "C": "Subject 3 has a high free thyroxine, so the gland is working; the abnormality is that thyroid-stimulating hormone is high at the same time.",
+    "D": "Subject 4 has a high free thyroxine with thyroid-stimulating hormone almost absent, which is suppression of a normal axis rather than loss of the gland."
+   },
+   "category": "3A",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-p9-q2",
+   "passageId": "bb4-p9",
+   "stem": "Subject 3 has a raised thyroid-stimulating hormone together with a raised free thyroxine. Which explanation best accounts for that combination?",
+   "choices": {
+    "A": "the thyroid has become insensitive to thyroid-stimulating hormone, so more is needed",
+    "B": "the assay is detecting thyroxine bound to its carrier proteins as though it were free",
+    "C": "thyroid-stimulating hormone is being secreted by tissue that does not answer to feedback",
+    "D": "removal of iodine from thyroxine has failed, so no feedback signal is generated"
+   },
+   "correct": "C",
+   "explanation": "In an intact axis a free thyroxine of 34 pmol/L would shut off thyroid-stimulating hormone, as it does in subject 4. A high value of both hormones at once means the source of the stimulating hormone is not listening to the hormone it provokes, and the blunted 1.2-fold response to injected releasing hormone fits a source that is already secreting without regard to the hypothalamus.",
+   "wrong": {
+    "A": "A gland insensitive to stimulation would deliver too little hormone, not a free thyroxine well above the top of the reference range.",
+    "B": "The passage states that binding proteins were normal in all five subjects and that total thyroxine moved with free thyroxine.",
+    "D": "Free triiodothyronine is 9.0 pmol/L, above the reference range, so the removal of iodine from thyroxine is clearly proceeding."
+   },
+   "category": "3A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-p9-q3",
+   "passageId": "bb4-p9",
+   "stem": "To establish that subject 5's low free thyroxine arises from the pituitary rather than from the thyroid gland, which further measurement would be most informative?",
+   "choices": {
+    "A": "total thyroxine, including the fraction bound to carrier proteins",
+    "B": "the ratio of free triiodothyronine to free thyroxine in plasma",
+    "C": "urinary iodide excretion over 24 hours",
+    "D": "free thyroxine after several days of injected thyroid-stimulating hormone"
+   },
+   "correct": "D",
+   "explanation": "Subject 5 has a low free thyroxine with a thyroid-stimulating hormone of 0.2 mIU/L, so the gland has not been asked to work. Supplying the missing stimulus tests the gland directly: a thyroid that responds with a rise in free thyroxine was never the problem, which places the defect in the pituitary.",
+   "wrong": {
+    "A": "Total thyroxine moves with the free fraction when binding proteins are normal, which the passage reports, so it adds nothing about where the defect lies.",
+    "B": "This ratio reflects conversion of one hormone to the other in peripheral tissues and is low in both pituitary and thyroid failure.",
+    "C": "Iodide excretion follows dietary intake and says nothing about whether the gland can respond to stimulation."
+   },
+   "category": "3A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-p9-q4",
+   "passageId": "bb4-p9",
+   "stem": "By what factor is subject 2's thyroid-stimulating hormone raised above that of subject 1?",
+   "choices": {
+    "A": "23.3-fold",
+    "B": "40.2-fold",
+    "C": "42.0-fold",
+    "D": "233.3-fold"
+   },
+   "correct": "A",
+   "explanation": "Subject 2 has 42 mIU/L and subject 1 has 1.8 mIU/L, so the factor is 42/1.8 = 23.3. The reference range is not used here, because the question asks for the comparison with the healthy subject measured in the same laboratory on the same day.",
+   "wrong": {
+    "B": "This subtracts 1.8 from 42 and reports the difference in mIU/L as though it were a factor.",
+    "C": "This quotes subject 2's concentration itself, which would be the factor only if subject 1 had a value of 1.0 mIU/L.",
+    "D": "This divides by 0.18 rather than 1.8, moving the decimal point one place and inflating the factor tenfold."
+   },
+   "category": "3A",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-p10-q1",
+   "passageId": "bb4-p10",
+   "stem": "Cells lacking adaptor R respond to neither stimulus, while cells lacking receptor P or receptor Q respond to one. Which conclusion is best supported?",
+   "choices": {
+    "A": "the two receptors pass their signals through the same adaptor",
+    "B": "adaptor R is the receptor for both of the ligands used",
+    "C": "adaptor R is needed for these macrophages to survive in culture",
+    "D": "the two receptors share the domain that binds their ligands"
+   },
+   "correct": "A",
+   "explanation": "Each receptor knockout removes one response and leaves the other intact, which shows that each receptor serves one ligand. The adaptor knockout removes both, so the two separate receptors must converge on it, which is the arrangement the passage describes when it says the signal passes through an adaptor to a transcription factor.",
+   "wrong": {
+    "B": "A receptor is identified by the loss of a single response when it is removed; losing both responses marks a shared step downstream instead.",
+    "C": "The passage states that all four lines grew at the same rate without stimulation, and unstimulated secretion was below 50 pg/mL in every line.",
+    "D": "A shared binding domain would be ruled out by the receptor knockouts, each of which abolishes the response to only one of the two ligands."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "8"
+  },
+  {
+   "id": "bb4-p10-q2",
+   "passageId": "bb4-p10",
+   "stem": "Preventing endosomes from acidifying cuts the wild-type response to double-stranded RNA to 150 pg/mL while leaving the lipopolysaccharide response near 4000 pg/mL. Which interpretation is best?",
+   "choices": {
+    "A": "the compound degrades double-stranded RNA before it can reach a receptor",
+    "B": "signalling from receptor P does not require the cytosolic transcription factor",
+    "C": "double-stranded RNA is read by a cytosolic sensor that works only at low pH",
+    "D": "receptor Q meets its ligand in an acidified endosome, while receptor P acts at the surface"
+   },
+   "correct": "D",
+   "explanation": "The passage divides these receptors into those that meet their ligand outside the cell and those that meet it in an endosome whose acidification their signalling needs. A compound that blocks acidification removes only the response to double-stranded RNA, which places receptor Q in the endosomal group and receptor P, whose ligand is the lipopolysaccharide, at the plasma membrane.",
+   "wrong": {
+    "A": "The compound prevents endosomes from acidifying, which is a change to a compartment rather than to the ligand, and nothing in the experiment gives it the power to destroy RNA.",
+    "B": "Both responses are abolished in cells lacking adaptor R, so both routes converge on the same downstream machinery.",
+    "C": "A cytosolic sensor would be bathed in cytosol at neutral pH, so its activity could not depend on the acidification of a vesicle."
+   },
+   "category": "2A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "8"
+  },
+  {
+   "id": "bb4-p10-q3",
+   "passageId": "bb4-p10",
+   "stem": "What is the purpose of the condition in which both ligands were given together?",
+   "choices": {
+    "A": "to test whether the two receptors act independently or share a step that limits the response",
+    "B": "to raise the cytokine signal above the lower limit of detection of the assay",
+    "C": "to check that neither preparation of ligand is contaminated with the other",
+    "D": "to measure how long the adaptor remains bound to each receptor"
+   },
+   "correct": "A",
+   "explanation": "Two independent routes should give a response close to the sum of their separate responses. Wild-type cells give 4200 and 2600 separately and 6500 together, slightly less than the sum of 6800, so the two routes are largely independent but begin to run into a shared limit. The combined condition is the only one that can show this.",
+   "wrong": {
+    "B": "Each ligand alone already gives thousands of pg/mL against an unstimulated value below 50, so detection is not in doubt.",
+    "C": "Cross-contamination is tested by the receptor knockouts: cells lacking receptor P still respond fully to double-stranded RNA alone.",
+    "D": "The duration of an interaction between proteins would be measured by a binding experiment over time, not by adding two ligands at once."
+   },
+   "category": "3B",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "8"
+  },
+  {
+   "id": "bb4-p10-q4",
+   "passageId": "bb4-p10",
+   "stem": "Which feature of the response described in this passage distinguishes it from an adaptive immune response?",
+   "choices": {
+    "A": "it is larger and faster when the same stimulus is met a second time",
+    "B": "it depends on the clonal expansion of the cells that respond",
+    "C": "it recognises an epitope unique to one species of pathogen",
+    "D": "the receptors that detect the stimulus are inherited rather than assembled in each cell"
+   },
+   "correct": "D",
+   "explanation": "The passage states that these receptors are encoded in the germline and are the same in every cell of a given type. An adaptive response depends on receptors assembled afresh in each lymphocyte by rearrangement of gene segments, which is what gives that arm of the system its enormous range of specificities and its memory.",
+   "wrong": {
+    "A": "This describes memory, which is a property of the adaptive response; the passage says the innate response is identical on a second encounter.",
+    "B": "Clonal expansion of cells selected by antigen is the adaptive mechanism; the macrophages here respond without dividing at all.",
+    "C": "These receptors recognise molecules shared by whole classes of organism, such as the lipopolysaccharide common to Gram-negative bacteria."
+   },
+   "category": "3B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "8"
+  },
+  {
+   "id": "bb4-d1",
+   "passageId": null,
+   "stem": "A short peptide is dissolved in a buffer at pH 7.0. Which of its side chains is most likely to carry a net positive charge at that pH?",
+   "choices": {
+    "A": "aspartate",
+    "B": "cysteine",
+    "C": "lysine",
+    "D": "tyrosine"
+   },
+   "correct": "C",
+   "explanation": "The side chain amine of lysine has a pKa near 10.5, so at pH 7.0 it sits more than three units below its pKa and is almost entirely protonated, giving an ammonium group with a positive charge. A group is protonated when the pH is below its pKa, and the further below, the more completely.",
+   "wrong": {
+    "A": "The carboxylic acid of aspartate has a pKa near 3.9, so at pH 7.0 it is deprotonated and carries a negative charge.",
+    "B": "The thiol of cysteine has a pKa near 8.3; at pH 7.0 it is mostly protonated, but a protonated thiol is neutral rather than positive.",
+    "D": "The phenol of tyrosine has a pKa near 10.1, so it too is protonated at pH 7.0, and a protonated phenol is uncharged."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "1"
+  },
+  {
+   "id": "bb4-d2",
+   "passageId": null,
+   "stem": "A triacylglycerol rich in oleate melts at a much lower temperature than one rich in stearate, although both fatty acids have 18 carbons. Which feature best accounts for the difference?",
+   "choices": {
+    "A": "the shorter hydrocarbon chain of oleate",
+    "B": "hydrogen bonds formed between unsaturated chains",
+    "C": "the kink introduced by a cis double bond, which prevents close packing",
+    "D": "repulsion between the free carboxylate groups of the chains"
+   },
+   "correct": "C",
+   "explanation": "Oleate carries one cis double bond, and the bend it forces on the chain stops neighbouring chains from lying flat against one another. Weaker and fewer van der Waals contacts between poorly packed chains mean less energy is needed to melt the solid, so the melting point falls.",
+   "wrong": {
+    "A": "Both fatty acids have 18 carbons, as the question states, so chain length cannot be the difference between them.",
+    "B": "A hydrocarbon chain has no hydrogen bond donor or acceptor, whether or not it contains a double bond.",
+    "D": "In a triacylglycerol all three carboxyl groups are esterified to glycerol, so there are no free carboxylates to repel one another."
+   },
+   "category": "1D",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "1"
+  },
+  {
+   "id": "bb4-d3",
+   "passageId": null,
+   "stem": "An enzyme obeying Michaelis-Menten kinetics has a Michaelis constant of 2.0 mM and a maximal velocity of 60 micromol/min. What velocity would it show at a substrate concentration of 6.0 mM?",
+   "choices": {
+    "A": "15 micromol/min",
+    "B": "20 micromol/min",
+    "C": "30 micromol/min",
+    "D": "45 micromol/min"
+   },
+   "correct": "D",
+   "explanation": "The velocity is the maximal velocity multiplied by the substrate concentration and divided by the sum of the Michaelis constant and that concentration: 60 \u00d7 6.0/(2.0 + 6.0) = 360/8.0 = 45 micromol/min. At a substrate concentration three times the Michaelis constant the enzyme runs at three quarters of its maximum.",
+   "wrong": {
+    "A": "This puts the Michaelis constant in the numerator and the substrate concentration in the denominator, which inverts the fraction.",
+    "B": "This divides the maximal velocity by the ratio of substrate to Michaelis constant, as though the velocity fell as substrate rose.",
+    "C": "This is half the maximal velocity, which is the rate at a substrate concentration equal to the Michaelis constant, not three times it."
+   },
+   "category": "1A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "2"
+  },
+  {
+   "id": "bb4-d4",
+   "passageId": null,
+   "stem": "The pyruvate dehydrogenase complex converts pyruvate to acetyl-CoA. Which statement about that step is correct?",
+   "choices": {
+    "A": "it is a substrate-level phosphorylation that yields one molecule of GTP",
+    "B": "it is readily reversible, so acetyl-CoA can be carboxylated back to pyruvate",
+    "C": "it is an oxidative decarboxylation that reduces NAD+ and releases CO\u2082",
+    "D": "it takes place in the cytosol and uses biotin to carry a carboxyl group"
+   },
+   "correct": "C",
+   "explanation": "The complex removes one carbon as CO\u2082 and oxidises the remaining two-carbon unit, passing the electrons to NAD+ and attaching the acetyl group to coenzyme A as a thioester. The large free energy released makes the step effectively irreversible, which is why it is a committed entry into the citric acid cycle.",
+   "wrong": {
+    "A": "No nucleoside triphosphate is made at this step; the energy released is captured as reduced NAD and as the thioester bond of acetyl-CoA.",
+    "B": "The step is irreversible, which is precisely why the two carbons of acetyl-CoA cannot be returned to pyruvate in mammals.",
+    "D": "The complex sits in the mitochondrial matrix, and its cofactors are thiamine pyrophosphate, lipoate and FAD rather than biotin."
+   },
+   "category": "1D",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb4-d5",
+   "passageId": null,
+   "stem": "Which feature of a mature eukaryotic messenger RNA is required for the small ribosomal subunit to recognise it and begin scanning for the start codon?",
+   "choices": {
+    "A": "a poly-A tail at the 3' end",
+    "B": "a 7-methylguanosine cap at the 5' end",
+    "C": "methylation of cytosines within the coding sequence",
+    "D": "a purine-rich sequence upstream of the start codon that pairs with ribosomal RNA"
+   },
+   "correct": "B",
+   "explanation": "The cap added to the 5' end is bound by an initiation factor that in turn recruits the small subunit, which then moves along the message until it meets a start codon in a favourable context. Without the cap the message is both poorly initiated and rapidly degraded.",
+   "wrong": {
+    "A": "The poly-A tail lengthens the life of the message and helps its export, and it stimulates initiation indirectly, but the subunit is not recruited to it.",
+    "C": "Methylation of cytosine is a mark on DNA that affects transcription; it is not a feature of a mature messenger RNA that ribosomes read.",
+    "D": "A purine-rich sequence pairing with ribosomal RNA is how a bacterial ribosome finds a start codon, and eukaryotic messages have no such element."
+   },
+   "category": "1B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "4"
+  },
+  {
+   "id": "bb4-d6",
+   "passageId": null,
+   "stem": "In a large population at Hardy-Weinberg equilibrium, 1 person in 400 is homozygous for a recessive allele. What share of the population is heterozygous?",
+   "choices": {
+    "A": "10.00%",
+    "B": "9.50%",
+    "C": "5.00%",
+    "D": "0.25%"
+   },
+   "correct": "B",
+   "explanation": "The frequency of the homozygous recessive genotype is the square of the recessive allele frequency, so that frequency is the square root of 1/400, which is 0.05. The dominant allele is then at 0.95, and the heterozygote frequency is twice their product: 2 \u00d7 0.05 \u00d7 0.95 = 0.095, or 9.50%.",
+   "wrong": {
+    "A": "This takes the dominant allele frequency as 1.00 rather than 0.95, which overstates the heterozygotes by the share of recessive homozygotes.",
+    "C": "This is the frequency of the recessive allele itself, not the frequency of the genotype that carries one copy of it.",
+    "D": "This is the frequency of the homozygous recessive genotype, 1 in 400, which the question supplies rather than asks for."
+   },
+   "category": "1C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "5"
+  },
+  {
+   "id": "bb4-d7",
+   "passageId": null,
+   "stem": "A gamete is found to contain two copies of one chromosome that are identical in sequence over nearly their whole length. Which event best explains this?",
+   "choices": {
+    "A": "failure of the two homologues to separate at the first meiotic division",
+    "B": "a crossover between homologues during prophase of the first meiotic division",
+    "C": "failure of sister chromatids to separate at the second meiotic division",
+    "D": "replication of that chromosome during the first mitotic division after fertilisation"
+   },
+   "correct": "C",
+   "explanation": "Sister chromatids are copies of a single chromosome, so they match except where a crossover has swapped a segment with the homologue, while two homologues differ at every site where the parents' alleles differ. A near-identical pair in one gamete therefore came from sisters that failed to part, which happens at the second meiotic division, after the homologues have already been separated.",
+   "wrong": {
+    "A": "Failure at the first division delivers both homologues to one cell, and those two chromosomes differ in sequence wherever the individual is heterozygous.",
+    "B": "A crossover exchanges material between homologues without changing how many chromosomes each gamete receives.",
+    "D": "An event after fertilisation cannot change what the gamete contained, and the extra copy was found in the gamete itself."
+   },
+   "category": "1C",
+   "skill": "skill-1",
+   "difficulty": "hard",
+   "unit": "5"
+  },
+  {
+   "id": "bb4-d8",
+   "passageId": null,
+   "stem": "An epithelial monolayer loses most of its electrical resistance across the sheet while the cells remain firmly attached to one another. Which structure has most likely been disrupted?",
+   "choices": {
+    "A": "the desmosome, which links the intermediate filaments of neighbouring cells",
+    "B": "the gap junction, which joins the cytoplasm of neighbouring cells",
+    "C": "the tight junction, which seals the space between neighbouring cells",
+    "D": "the basal lamina, which anchors the sheet to the connective tissue beneath"
+   },
+   "correct": "C",
+   "explanation": "Resistance measured across an epithelium is set almost entirely by how well the space between the cells is sealed, because ions that cannot pass between the cells must cross two membranes instead. Breaking the seal leaves a low-resistance paracellular route while the mechanical attachments, which are separate structures, still hold the cells together.",
+   "wrong": {
+    "A": "Desmosomes carry mechanical load, so losing them would loosen the sheet; the question states that the cells remain firmly attached.",
+    "B": "A gap junction connects the interiors of two cells and does nothing to seal the space between them against ions crossing the sheet.",
+    "D": "The basal lamina lies beneath the sheet and is not part of the barrier between the two compartments the measurement spans."
+   },
+   "category": "2A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "6"
+  },
+  {
+   "id": "bb4-d9",
+   "passageId": null,
+   "stem": "Why does myelination increase the speed at which an action potential travels along an axon?",
+   "choices": {
+    "A": "it raises the density of voltage-gated sodium channels along the whole axon",
+    "B": "it lowers the capacitance of the membrane, so current spreads to the next node quickly",
+    "C": "it makes the resting potential less negative, so less depolarisation is needed",
+    "D": "it allows the impulse to be regenerated at every point along the internode"
+   },
+   "correct": "B",
+   "explanation": "A myelin sheath is many layers of membrane in series, which raises the resistance across the wrapped stretch and lowers its capacitance. Less charge is needed to change the voltage there, so current from one node depolarises the next almost at once, and regeneration happens only at the nodes, which is what makes conduction saltatory.",
+   "wrong": {
+    "A": "Sodium channels are concentrated at the nodes and are sparse under the sheath, which is the opposite of a uniform high density.",
+    "C": "Myelination does not shift the resting potential; it changes the passive properties of the membrane between the nodes.",
+    "D": "Regeneration at every point is what happens in an unmyelinated axon, and it is the slower arrangement."
+   },
+   "category": "3A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-d10",
+   "passageId": null,
+   "stem": "A parietal cell of the gastric gland secretes acid against a steep concentration gradient. Which step moves protons across its apical membrane into the lumen?",
+   "choices": {
+    "A": "an exchanger that uses the inward sodium gradient to drive protons out",
+    "B": "an exchanger that trades chloride for bicarbonate across the basolateral surface",
+    "C": "a pump that hydrolyses ATP and exchanges luminal potassium for cytosolic protons",
+    "D": "diffusion of protons down their electrochemical gradient into the lumen"
+   },
+   "correct": "C",
+   "explanation": "Gastric juice can be a million times more concentrated in protons than the cytosol, and no gradient of another ion is steep enough to pay for that. The apical pump hydrolyses ATP directly, carrying a proton out for each potassium ion it brings in, which is why drugs that inhibit it abolish acid secretion.",
+   "wrong": {
+    "A": "The sodium gradient could not drive secretion against a millionfold difference in proton concentration, and this exchanger is used to defend cytosolic pH.",
+    "B": "That exchanger sits on the basolateral surface and disposes of bicarbonate into the blood; it moves no protons into the lumen.",
+    "D": "Protons are far more concentrated in the lumen than in the cytosol, so diffusion would carry them the other way."
+   },
+   "category": "3B",
+   "skill": "skill-1",
+   "difficulty": "hard",
+   "unit": "7"
+  },
+  {
+   "id": "bb4-d11",
+   "passageId": null,
+   "stem": "Compared with the response to a first dose of a vaccine antigen, the antibody response to a second dose given months later is:",
+   "choices": {
+    "A": "larger and faster, because lymphocytes specific for that antigen are already present in numbers",
+    "B": "slower, because antibody left from the first dose removes the antigen before it is recognised",
+    "C": "unchanged, because the size of an antibody response is set by the innate response to the dose",
+    "D": "larger only if the second dose carries an antigen the immune system has not met before"
+   },
+   "correct": "A",
+   "explanation": "The first exposure leaves an expanded population of memory B and T cells specific for that antigen, so the second exposure starts from a far larger pool of responding cells than the first. The result is a response that appears in days rather than a week or more and reaches a higher concentration of antibody.",
+   "wrong": {
+    "B": "Antibody left from a first dose can reduce a response to some vaccines, but it does not reverse the gain from memory, and the second response is characteristically larger.",
+    "C": "The innate response shapes the early signals, but the size of the antibody response depends on the number of antigen-specific lymphocytes available.",
+    "D": "A new antigen has no memory to draw on, so it would give a primary response; it is the repeated antigen that gives the enhanced one."
+   },
+   "category": "3B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "8"
+  },
+  {
+   "id": "bb4-d12",
+   "passageId": null,
+   "stem": "A bacterial culture in exponential growth rises from 2.0 \u00d7 10\u2075 to 1.28 \u00d7 10\u2077 cells/mL in 3.0 hours. What is its doubling time?",
+   "choices": {
+    "A": "2.8 min",
+    "B": "30.0 min",
+    "C": "36.0 min",
+    "D": "180.0 min"
+   },
+   "correct": "B",
+   "explanation": "The population rises by a factor of 1.28 \u00d7 10\u2077 divided by 2.0 \u00d7 10\u2075, which is 64, and 64 is 2 raised to the sixth power, so six doublings took place. Dividing the 180 minutes of the experiment by six gives a doubling time of 30.0 minutes.",
+   "wrong": {
+    "A": "This divides the 180 minutes by the 64-fold increase itself rather than by the number of doublings that increase represents.",
+    "C": "This counts five doublings instead of six, which would correspond to a 32-fold rather than a 64-fold increase.",
+    "D": "This treats the whole 3.0 hours as a single doubling, which would have taken the culture only to 4.0 \u00d7 10\u2075 cells/mL."
+   },
+   "category": "2B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "9"
+  },
+  {
+   "id": "bb4-d13",
+   "passageId": null,
+   "stem": "An enzyme is warmed until its folded structure is lost, and no peptide bond is broken. Which statement describes the enzyme afterwards?",
+   "choices": {
+    "A": "activity is lost, because the active site's arrangement is gone though the sequence remains",
+    "B": "activity is retained, because the amino acid sequence is what performs the catalysis",
+    "C": "activity is lost, because the peptide has been hydrolysed into its constituent residues",
+    "D": "activity is retained at a reduced maximal velocity, as with a competitive inhibitor"
+   },
+   "correct": "A",
+   "explanation": "Catalysis depends on a small number of side chains held in a precise geometry by the fold of the whole chain. Heat disrupts the weak interactions that maintain that fold without touching the covalent backbone, so the sequence survives intact while the catalytic arrangement, and with it the activity, does not.",
+   "wrong": {
+    "B": "The sequence determines the fold, but it is the folded shape that binds substrate and positions catalytic groups; an unfolded chain does neither.",
+    "C": "The question states that no peptide bond is broken, so the chain has not been hydrolysed.",
+    "D": "A competitive inhibitor leaves the maximal velocity unchanged and raises the apparent Michaelis constant, and denaturation is not an inhibitor at all."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "2"
+  },
+  {
+   "id": "bb4-d14",
+   "passageId": null,
+   "stem": "A mixture of globular proteins is passed through a column packed with porous beads, and the largest proteins leave the column first. On which property is the mixture being separated?",
+   "choices": {
+    "A": "net charge, since larger proteins carry more ionisable groups",
+    "B": "size, since the largest proteins cannot enter the pores and take the shorter path",
+    "C": "hydrophobicity, since the largest proteins bury the most nonpolar surface",
+    "D": "affinity for a ligand that has been coupled to the surface of the beads"
+   },
+   "correct": "B",
+   "explanation": "The volume inside the pores is available only to molecules small enough to enter it. A large protein is confined to the space between the beads, travels the shortest route through the column and emerges first, while smaller proteins wander through the pores and are retarded in proportion to how far into them they can go.",
+   "wrong": {
+    "A": "Separation by charge requires a charged stationary phase and a salt or pH gradient to release the bound proteins, neither of which is described here.",
+    "C": "Separation by hydrophobicity requires a nonpolar stationary phase, and elution would then depend on solvent rather than on how large the protein is.",
+    "D": "A coupled ligand would retain only the proteins that bind it and let everything else through together, regardless of size."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "hard",
+   "unit": "1"
+  },
+  {
+   "id": "bb4-d15",
+   "passageId": null,
+   "stem": "One turn of the citric acid cycle per acetyl-CoA yields 3 NADH, 1 FADH2 and 1 GTP. Taking 2.5 ATP per NADH and 1.5 ATP per FADH2 oxidised, how many ATP equivalents does one acetyl-CoA yield?",
+   "choices": {
+    "A": "10.0",
+    "B": "11.0",
+    "C": "12.0",
+    "D": "12.5"
+   },
+   "correct": "A",
+   "explanation": "Three NADH at 2.5 ATP each give 7.5, the single FADH2 gives 1.5, and the GTP made at the succinyl-CoA step counts as 1, so the total is 7.5 + 1.5 + 1 = 10.0 ATP equivalents. The FADH2 is worth less because its electrons enter the chain after the first proton-pumping complex.",
+   "wrong": {
+    "B": "This values the FADH2 at 2.5 like an NADH, which ignores that its electrons bypass the first proton-pumping complex.",
+    "C": "This uses the older figures of 3 ATP per NADH and 2 per FADH2, which overstate the yield per pair of electrons.",
+    "D": "This adds the NADH made when pyruvate is converted to acetyl-CoA, a step that precedes the cycle rather than forming part of it."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "3"
+  }
+ ]
+}

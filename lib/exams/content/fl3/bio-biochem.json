@@ -1,0 +1,1444 @@
+{
+ "passages": [
+  {
+   "id": "bb3-p1",
+   "title": "Hormonal mobilisation of glycogen in the perfused liver",
+   "paragraphs": [
+    "Livers were removed from fed rats and perfused through the portal vein with a buffered medium containing no amino acids, no lactate and no other substrate from which glucose could be made. Any glucose appearing in the effluent therefore came from glycogen already in the tissue. Glycogen was measured at the start and again after 30 minutes of perfusion, and is reported as micromol of glucosyl units per gram of liver. Glucose output was steady over the 30 minutes in every preparation.",
+    "Glucagon reaches the hepatocyte in the blood and binds a receptor on the plasma membrane. The receptor activates a G protein, which activates adenylate cyclase, and the cyclic AMP formed activates protein kinase A. Protein kinase A phosphorylates phosphorylase kinase, which in turn phosphorylates glycogen phosphorylase b to the a form. The same kinase phosphorylates glycogen synthase and inactivates it, so synthesis and breakdown are never stimulated together. Insulin opposes these changes. Glucose 6-phosphate released from glycogen cannot leave the cell until glucose 6-phosphatase, an enzyme of the endoplasmic reticulum, has removed its phosphate.",
+    "Six preparations were compared: a control with no hormone; glucagon at 1 nmol/L; glucagon together with a cell-permeant inhibitor of protein kinase A; insulin alone; glucagon and insulin together; and a liver from a strain whose hepatocytes carry no glucagon receptor, perfused with glucagon. Every liver began the perfusion with 300 micromol of glucosyl units per gram (Table 1). Cyclic AMP was measured on a freeze-clamped sample taken at the end of the perfusion, and the share of phosphorylase in the a form was measured in the same extract by assaying activity with and without the allosteric activator that the b form requires. Lactate in the effluent was below the limit of detection in all six preparations, so none of the glucose released had been recycled through the tissue."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Cyclic AMP content, the share of glycogen phosphorylase in the a form, glucose output and glycogen remaining after 30 minutes of perfusion.",
+    "markup": "<table><thead><tr><th>Preparation</th><th>Cyclic AMP (pmol/g)</th><th>Phosphorylase a (% of total)</th><th>Glucose output (micromol/min per g)</th><th>Glycogen at 30 min (micromol/g)</th></tr></thead><tbody><tr><td>Control, no hormone</td><td>300</td><td>15</td><td>0.5</td><td>285</td></tr><tr><td>Glucagon</td><td>1800</td><td>75</td><td>2.0</td><td>240</td></tr><tr><td>Glucagon + protein kinase A inhibitor</td><td>1800</td><td>18</td><td>0.6</td><td>282</td></tr><tr><td>Insulin</td><td>220</td><td>8</td><td>0.2</td><td>294</td></tr><tr><td>Glucagon + insulin</td><td>900</td><td>40</td><td>1.0</td><td>270</td></tr><tr><td>No glucagon receptor, glucagon added</td><td>310</td><td>14</td><td>0.5</td><td>285</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb3-p2",
+   "title": "Charging specificity and a proofreading site in a synthetase",
+   "paragraphs": [
+    "The synthetase studied here attaches isoleucine to its transfer RNA in two steps: the amino acid is activated with ATP at the synthetic site, then transferred to the tRNA. Valine differs from isoleucine by a single methyl group, and the synthetic site cannot exclude it completely. A second, separate site on the same enzyme hydrolyses valyl-tRNA formed in error, leaving the tRNA free to be charged again. This editing site does not act on correctly charged isoleucyl-tRNA.",
+    "Three forms of the enzyme were purified: the wild type, a form carrying a substitution that inactivates the editing site, and a form carrying a substitution in the synthetic site. The specificity constant kcat/Km for activation was measured for each amino acid separately. Both amino acids were then supplied together at 10 micromolar, far below the Km of either, so that the ratio of the two specificity constants sets the ratio at which the two are activated. The fraction of mischarged valyl-tRNA that the editing site hydrolysed was measured in the same assay. Each enzyme form was finally supplied to a translation system making a reporter protein, and the protein was analysed to count valine residues sitting at positions whose codons specify isoleucine (Table 1).",
+    "Ribosomes in this system discriminated among transfer RNAs by codon-anticodon pairing alone, and the reporter protein was recovered in the same yield from all three enzyme forms. The transfer RNA used was the same preparation throughout and was supplied in excess, so none of the three enzyme forms was limited by the amount of its acceptor. Isoleucine positions in the reporter protein were identified from the gene sequence, and the residue actually present at each was read by mass spectrometry of the digested protein."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Specificity constants for activation of each amino acid, the share of mischarged valyl-tRNA hydrolysed at the editing site, and the error found in the reporter protein.",
+    "markup": "<table><thead><tr><th>Enzyme form</th><th>kcat/Km, isoleucine (M\u207b\u00b9 s\u207b\u00b9)</th><th>kcat/Km, valine (M\u207b\u00b9 s\u207b\u00b9)</th><th>Mischarged valyl-tRNA hydrolysed (%)</th><th>Valine per 1000 isoleucine positions</th></tr></thead><tbody><tr><td>Wild type</td><td>2.0 \u00d7 10\u2075</td><td>1.0 \u00d7 10\u00b3</td><td>98</td><td>0.10</td></tr><tr><td>Editing site inactivated</td><td>2.0 \u00d7 10\u2075</td><td>1.0 \u00d7 10\u00b3</td><td>0</td><td>5.0</td></tr><tr><td>Synthetic site substituted</td><td>2.0 \u00d7 10\u2074</td><td>1.0 \u00d7 10\u00b3</td><td>98</td><td>1.0</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb3-p3",
+   "title": "A two-component system in bacterial chemotaxis",
+   "paragraphs": [
+    "A swimming bacterium alternates smooth runs with brief tumbles that reorient it. Attractant binding to a membrane receptor is transmitted to CheA, a kinase held against the receptor on the cytoplasmic side. CheA autophosphorylates on a histidine residue using ATP and passes the phosphoryl group to an aspartate of CheY. Phospho-CheY binds the flagellar motor and raises the probability of a tumble, while CheZ hydrolyses the phosphoryl group from CheY. Attractant binding lowers the activity of CheA, so phospho-CheY falls and runs lengthen. Over the following minutes the receptor is methylated by CheR, which restores CheA activity, while CheB removes those methyl groups. Adaptation by methylation lets the cell respond to a change in concentration rather than to its absolute value.",
+    "Six strains were filmed in a shallow chamber. The share of time spent tumbling was scored in the absence of attractant, 10 seconds after a uniform step of attractant was added, and again 5 minutes later with the attractant still present. Each strain was also placed at the edge of a stable attractant gradient and scored for whether the population moved up it over 30 minutes (Table 1).",
+    "All six strains swam at the same speed during runs and carried the same number of flagella, so the differences in Table 1 reflect the signal reaching the motor rather than the motor itself. The attractant was added as a uniform step throughout the chamber, so during the first measurement no strain faced a gradient and every cell experienced the same concentration. The strain in which the aspartate of CheY was replaced by alanine made the protein at the wild-type level, as judged by immunoblotting of whole-cell extracts."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Share of time spent tumbling before attractant, 10 seconds after a step of attractant, and 5 minutes later, with net movement up a gradient.",
+    "markup": "<table><thead><tr><th>Strain</th><th>Tumbling before attractant (% of time)</th><th>10 s after attractant (%)</th><th>5 min after attractant (%)</th><th>Moves up a gradient</th></tr></thead><tbody><tr><td>Wild type</td><td>30</td><td>2</td><td>28</td><td>yes</td></tr><tr><td>CheA deleted</td><td>1</td><td>1</td><td>1</td><td>no</td></tr><tr><td>CheY deleted</td><td>0</td><td>0</td><td>0</td><td>no</td></tr><tr><td>CheZ deleted</td><td>85</td><td>80</td><td>85</td><td>no</td></tr><tr><td>CheB deleted</td><td>70</td><td>8</td><td>9</td><td>no</td></tr><tr><td>CheY aspartate replaced by alanine</td><td>1</td><td>1</td><td>1</td><td>no</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb3-p4",
+   "title": "Sodium along the nephron and a loop diuretic",
+   "paragraphs": [
+    "Sodium is filtered freely at the glomerulus, so the amount entering the tubule each minute is the product of the glomerular filtration rate and the plasma sodium concentration. At a filtration rate of 125 mL/min and a plasma sodium concentration of 140 mmol/L the filtered load is 17.5 mmol/min, and almost all of it is reclaimed. The proximal tubule takes back about 65%, driven by the sodium gradient that the sodium-potassium ATPase maintains at the basolateral membrane. The thick ascending limb of the loop of Henle takes a further 25% through a cotransporter that carries one sodium ion, one potassium ion and two chloride ions together from lumen to cell; because this segment moves salt without water, it makes the medullary interstitium hyperosmotic and so allows the collecting duct to concentrate the urine. The distal convoluted tubule and the collecting duct account for most of the rest (Figure 1).",
+    "Eight healthy volunteers on a fixed sodium intake were studied. Urine was collected for one hour before a single oral dose of compound NX-7, an inhibitor of the thick ascending limb cotransporter, and again during the fourth hour after it. Before the dose the group passed urine at 1.0 mL/min containing sodium at 175 mmol/L and potassium at 50 mmol/L, with an osmolality of 720 mOsm/kg of water. During the fourth hour after the dose urine flow was 10.0 mL/min, urine sodium was 105 mmol/L, urine potassium was 20 mmol/L and urine osmolality was 300 mOsm/kg of water, close to that of plasma. The glomerular filtration rate was 125 mL/min on both occasions, and plasma sodium fell from 140 to 139 mmol/L.",
+    "No volunteer was allowed to drink during the study, so the water lost in the urine was not replaced."
+   ],
+   "figure": {
+    "kind": "svg",
+    "caption": "Figure 1  The share of the filtered sodium load reclaimed by each segment of the nephron, and the share that leaves in the urine.",
+    "markup": "<svg viewBox=\"0 0 470 150\" role=\"img\" aria-label=\"Schematic of the nephron showing the share of filtered sodium reclaimed by each segment: proximal tubule 65 per cent, thick ascending limb 25 per cent, distal convoluted tubule 5 per cent, collecting duct 4 per cent, with 1 per cent excreted\"><text x=\"6\" y=\"16\" font-size=\"11\">Filtered load 17.5 mmol/min</text><rect x=\"6\" y=\"28\" width=\"80\" height=\"34\" fill=\"none\" stroke=\"currentColor\"></rect><text x=\"14\" y=\"44\" font-size=\"10\">Proximal</text><text x=\"14\" y=\"57\" font-size=\"10\">tubule  65%</text><rect x=\"98\" y=\"28\" width=\"86\" height=\"34\" fill=\"none\" stroke=\"currentColor\"></rect><text x=\"106\" y=\"44\" font-size=\"10\">Thick ascending</text><text x=\"106\" y=\"57\" font-size=\"10\">limb  25%</text><rect x=\"196\" y=\"28\" width=\"80\" height=\"34\" fill=\"none\" stroke=\"currentColor\"></rect><text x=\"204\" y=\"44\" font-size=\"10\">Distal convoluted</text><text x=\"204\" y=\"57\" font-size=\"10\">tubule  5%</text><rect x=\"288\" y=\"28\" width=\"76\" height=\"34\" fill=\"none\" stroke=\"currentColor\"></rect><text x=\"296\" y=\"44\" font-size=\"10\">Collecting</text><text x=\"296\" y=\"57\" font-size=\"10\">duct  4%</text><rect x=\"376\" y=\"28\" width=\"88\" height=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"4 3\"></rect><text x=\"384\" y=\"44\" font-size=\"10\">Urine</text><text x=\"384\" y=\"57\" font-size=\"10\">1% excreted</text><line x1=\"86\" y1=\"45\" x2=\"98\" y2=\"45\" stroke=\"currentColor\"></line><line x1=\"184\" y1=\"45\" x2=\"196\" y2=\"45\" stroke=\"currentColor\"></line><line x1=\"276\" y1=\"45\" x2=\"288\" y2=\"45\" stroke=\"currentColor\"></line><line x1=\"364\" y1=\"45\" x2=\"376\" y2=\"45\" stroke=\"currentColor\"></line><text x=\"6\" y=\"92\" font-size=\"10\">Shares are of the filtered sodium load and add to 100%.</text><text x=\"6\" y=\"110\" font-size=\"10\">Compound NX-7 blocks the cotransporter of the thick ascending limb only.</text><text x=\"6\" y=\"128\" font-size=\"10\">Water follows salt in the proximal tubule but not in the thick ascending limb.</text></svg>"
+   }
+  },
+  {
+   "id": "bb3-p5",
+   "title": "Two clotting assays and an oral anticoagulant",
+   "paragraphs": [
+    "Clotting is a cascade of proteolytic activations. In the tissue factor route, tissue factor exposed by injury binds factor VII and the pair activates factor X. In the contact route, factor XII activated on a surface activates factor XI, which activates factor IX; factor IX with factor VIII as its cofactor then activates factor X. From factor X onward the two routes share a common path: activated factor X with factor V converts prothrombin to thrombin, and thrombin converts fibrinogen to fibrin. Factors II, VII, IX and X each carry glutamate residues that are carboxylated in a reaction requiring reduced vitamin K, and the carboxylated residues let the factor bind calcium and dock on the membrane surface where it works.",
+    "Two assays were used. The prothrombin time adds tissue factor and calcium to citrated plasma and reports the time to a clot, so it depends on the tissue factor route and the common path. The activated partial thromboplastin time adds a surface activator and a phospholipid instead, so it depends on the contact route and the common path. Each sample was also mixed in equal volume with plasma from a healthy control and the activated partial thromboplastin time measured again: a sample short of a factor is corrected by the factor that control plasma supplies, while a sample containing an inhibitor of a factor prolongs the control plasma as well.",
+    "Four samples were tested blind (Table 1). One came from a person with a hereditary deficiency of factor VIII, one from a person with a hereditary deficiency of factor VII, one from a person who had developed an antibody against factor VIII, and one from a volunteer who had taken compound AV-3, an inhibitor of the reductase that regenerates reduced vitamin K, for four days. The reference interval is 11 to 13 seconds for the prothrombin time and 25 to 35 seconds for the activated partial thromboplastin time."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Prothrombin time, activated partial thromboplastin time, and the activated partial thromboplastin time of an equal-volume mix with control plasma.",
+    "markup": "<table><thead><tr><th>Plasma</th><th>Prothrombin time (s)</th><th>Activated partial thromboplastin time (s)</th><th>Same test on a 1:1 mix with control plasma (s)</th></tr></thead><tbody><tr><td>Control</td><td>12</td><td>30</td><td>30</td></tr><tr><td>Sample 1</td><td>12</td><td>58</td><td>32</td></tr><tr><td>Sample 2</td><td>26</td><td>30</td><td>30</td></tr><tr><td>Sample 3</td><td>12</td><td>56</td><td>50</td></tr><tr><td>Sample 4</td><td>24</td><td>42</td><td>31</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb3-p6",
+   "title": "Two routes into apoptosis in one cell line",
+   "paragraphs": [
+    "Two routes lead a cell into apoptosis. In the intrinsic route, damage inside the cell drives BAX and BAK to permeabilise the mitochondrial outer membrane; cytochrome c escapes into the cytosol, where it nucleates an apoptosome with Apaf-1 that activates procaspase-9. Bcl-2 opposes BAX and BAK at that membrane. In the extrinsic route, a death ligand binds a death receptor at the surface and a complex assembles on the receptor tail that activates procaspase-8. Both initiator caspases then cleave procaspase-3, the executioner that cuts the several hundred substrates whose loss gives apoptosis its appearance.",
+    "Five lines derived from one parental line were used: the parental line, a line overexpressing Bcl-2, and lines in which caspase-9, caspase-8 or caspase-3 had been knocked out. Each was treated for 12 hours either with a DNA-damaging agent or with a soluble death ligand, and the share of cells showing apoptotic nuclei was scored. Cytochrome c in the cytosol was measured on a separate sample taken 4 hours after the DNA-damaging agent, once mitochondria had been removed by centrifugation (Table 1).",
+    "Every line grew at the same rate when untreated, and untreated parental cells scored 3% apoptotic with 5 arbitrary units of cytosolic cytochrome c. The amount of cytochrome c held in the mitochondria before treatment was the same in all five lines, as was the amount of death receptor at the surface. Each knockout was made by disrupting both copies of the gene, and no protein could be detected for the disrupted gene in the line that carried it. The DNA-damaging agent and the death ligand were each used at a concentration that gave the largest response in the parental line, so no result reflects a dose too low to act."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Apoptosis at 12 hours after each stimulus, and cytosolic cytochrome c 4 hours after the DNA-damaging agent.",
+    "markup": "<table><thead><tr><th>Cell line</th><th>Apoptosis after DNA damage (%)</th><th>Apoptosis after death ligand (%)</th><th>Cytosolic cytochrome c after DNA damage (arbitrary units)</th></tr></thead><tbody><tr><td>Parental</td><td>70</td><td>65</td><td>85</td></tr><tr><td>Bcl-2 overexpressing</td><td>8</td><td>60</td><td>6</td></tr><tr><td>Caspase-9 knockout</td><td>10</td><td>62</td><td>80</td></tr><tr><td>Caspase-8 knockout</td><td>68</td><td>5</td><td>82</td></tr><tr><td>Caspase-3 knockout</td><td>12</td><td>7</td><td>84</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb3-p7",
+   "title": "Telomere length and the replicative limit in culture",
+   "paragraphs": [
+    "A linear chromosome cannot be copied to its very end: the last primer laid down on the lagging strand leaves part of the overhang uncopied, and the end shortens at each division. The ends carry many tandem copies of a short repeat, bound by proteins that mark them as ends rather than as breaks. Telomerase, a reverse transcriptase carrying its own short RNA template, extends the overhang so that the repeats can be replaced. Most somatic cells express little or no telomerase, and when the repeats fall below a critical length the end is read as damaged and the cell stops dividing.",
+    "Three cultures of human fibroblasts were followed from one starting population. The first was left untreated. The second was given the gene for the catalytic subunit of telomerase, TERT. The third was given a version of that gene carrying a substitution in the active site that abolishes catalysis but leaves the protein stable and correctly assembled with the telomerase RNA. Mean telomere length was measured at intervals and the number of population doublings completed before growth stopped was recorded (Table 1). A dash marks a culture that had already stopped dividing.",
+    "Telomerase protein was present at the same level in the two transfected cultures, and no culture carried a mutation in the genes of the damage response that halts the cycle. All three cultures were split on the same schedule and the doublings counted from the number of cells recovered at each split. Averaged over the first 40 doublings the untreated culture lost 70 base pairs of telomere at each doubling."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean telomere length through the life of each culture, and the doublings completed before growth stopped.",
+    "markup": "<table><thead><tr><th>Culture</th><th>Telomere length at doubling 0 (kb)</th><th>At doubling 20 (kb)</th><th>At doubling 40 (kb)</th><th>At doubling 60 (kb)</th><th>Doublings before growth stopped</th></tr></thead><tbody><tr><td>Untreated</td><td>8.0</td><td>6.6</td><td>5.2</td><td>-</td><td>52</td></tr><tr><td>TERT added</td><td>8.0</td><td>8.6</td><td>9.2</td><td>9.8</td><td>still dividing at 200</td></tr><tr><td>Inactive TERT added</td><td>8.0</td><td>6.6</td><td>5.2</td><td>-</td><td>50</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb3-p8",
+   "title": "Reciprocal control at the fructose 6-phosphate step",
+   "paragraphs": [
+    "Phosphofructokinase-1 phosphorylates fructose 6-phosphate with ATP; fructose 1,6-bisphosphatase hydrolyses the product back to fructose 6-phosphate and inorganic phosphate. Both reactions are strongly exergonic and neither is the reverse of the other, so if both ran at once the only net change would be the hydrolysis of ATP to ADP and phosphate. The cell avoids that by reciprocal control: fructose 2,6-bisphosphate activates phosphofructokinase-1 and inhibits fructose 1,6-bisphosphatase. Fructose 2,6-bisphosphate is both made and destroyed by a single bifunctional protein carrying a kinase domain and a phosphatase domain. Protein kinase A phosphorylates that protein, and phosphorylation switches the kinase domain off and the phosphatase domain on, so glucagon lowers fructose 2,6-bisphosphate while insulin raises it.",
+    "Hepatocytes were studied in four states, with the flux through each enzyme measured separately using labelled substrate: a fed state with no hormone; after glucagon; after glucagon together with a compound that blocks the phosphatase domain of the bifunctional protein; and in a line engineered to express a phosphofructokinase-1 that does not bind fructose 2,6-bisphosphate, also treated with glucagon. Net glucose formed at this step is the fructose 1,6-bisphosphatase flux less the phosphofructokinase-1 flux, and a negative value means net flow toward pyruvate. The ATP consumed in cycling is the rate at which the pair turns with no net change, which is the smaller of the two fluxes (Table 1).",
+    "Flux through the other steps of gluconeogenesis was not limiting in any of the four states, and the cells' total ATP content differed by less than 5% among them."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Fructose 2,6-bisphosphate content, the flux through each opposed enzyme, the net glucose formed and the ATP consumed in cycling. Fluxes are micromol per minute per gram.",
+    "markup": "<table><thead><tr><th>State</th><th>Fructose 2,6-bisphosphate (nmol/g)</th><th>Phosphofructokinase-1 flux</th><th>Fructose 1,6-bisphosphatase flux</th><th>Net glucose formed</th><th>ATP consumed in cycling</th></tr></thead><tbody><tr><td>Fed, no hormone</td><td>20</td><td>2.0</td><td>0.2</td><td>-1.8</td><td>0.2</td></tr><tr><td>Glucagon</td><td>1</td><td>0.1</td><td>2.5</td><td>2.4</td><td>0.1</td></tr><tr><td>Glucagon, phosphatase domain blocked</td><td>18</td><td>1.8</td><td>0.3</td><td>-1.5</td><td>0.3</td></tr><tr><td>Insensitive phosphofructokinase-1, glucagon</td><td>1</td><td>2.0</td><td>2.5</td><td>0.5</td><td>2.0</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb3-p9",
+   "title": "Two routes of peptide loading onto MHC molecules",
+   "paragraphs": [
+    "MHC class I molecules are assembled in the endoplasmic reticulum and loaded there with peptides of 8 to 10 residues that the proteasome has produced in the cytosol and that the TAP transporter has pumped across the membrane of the reticulum. Class I is made by almost every nucleated cell and is read by CD8 T cells, so a protein made anywhere in the cytosol can be displayed. MHC class II molecules are assembled in the same compartment with the invariant chain filling the groove, travel through the Golgi to an acidified endosome, and are loaded there with peptides of 13 residues or more that acid proteases have cut from material taken in from outside. Class II is made by dendritic cells, macrophages and B cells and is read by CD4 T cells. The class II groove is open at both ends; the class I groove is closed.",
+    "A dendritic cell line was used in two ways: fed a soluble protein antigen that it took up by endocytosis, or infected with a virus that makes the same protein in the cytosol. A CD8 T cell clone and a CD4 T cell clone, each specific for a peptide of that protein, were added separately and the interferon released was measured. Four conditions were compared: no treatment; an inhibitor of the proteasome; chloroquine, which raises the pH inside endosomes; and brefeldin A, which blocks export from the endoplasmic reticulum to the Golgi. A variant of the line lacking TAP was tested untreated (Table 1).",
+    "With no antigen at all the CD8 clone released 20 pg/mL and the CD4 clone 25 pg/mL. No drug altered the number of class I or class II molecules already at the cell surface during the 6 hours of the assay."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Interferon released by each T cell clone, in pg/mL. The CD8 clone was given virus-infected cells; the CD4 clone was given cells fed the soluble antigen.",
+    "markup": "<table><thead><tr><th>Condition</th><th>CD8 response to infected cells (pg/mL)</th><th>CD4 response to antigen-fed cells (pg/mL)</th></tr></thead><tbody><tr><td>None</td><td>900</td><td>850</td></tr><tr><td>Proteasome inhibitor</td><td>60</td><td>800</td></tr><tr><td>Chloroquine</td><td>870</td><td>40</td></tr><tr><td>Brefeldin A</td><td>50</td><td>90</td></tr><tr><td>TAP-deficient line, untreated</td><td>30</td><td>820</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "bb3-p10",
+   "title": "Compatible solutes in a bacterium under salt stress",
+   "paragraphs": [
+    "A bacterium in a medium of rising salt concentration loses water, and its cytoplasm must be brought back toward the osmolality of its surroundings if the turgor that drives growth is to be restored. The first response, within seconds, is uptake of potassium ions with synthesis of glutamate as the counter-ion. Potassium glutamate at high concentration interferes with the folding and the activity of cytoplasmic proteins, so it is only a stopgap. Over the following minutes the cell replaces it with a compatible solute, one that can reach hundreds of millimolar without disturbing protein function. The organism studied here cannot make glycine betaine but takes it up through a dedicated transporter when it is available, and accumulates it in proportion to the salt it faces.",
+    "Wild-type cells and cells carrying a deletion of the transporter gene were grown in a minimal medium to which sodium chloride had been added at 0.1, 0.5 or 1.0 mol/L, each with and without 1 mM glycine betaine. Without glycine betaine the wild type divided 0.90 times per hour at 0.1 mol/L added salt, 0.45 times per hour at 0.5 mol/L and 0.10 times per hour at 1.0 mol/L; with glycine betaine present the same cells divided 0.90, 0.80 and 0.55 times per hour. The deletion strain divided 0.90, 0.45 and 0.10 times per hour without glycine betaine, and 0.90, 0.46 and 0.11 times per hour with it. Internal glycine betaine was measured in cells grown with the solute present (Figure 1).",
+    "Both strains reached the same internal potassium concentration at each salt concentration, and the deletion strain regained the growth rate of the wild type at 1.0 mol/L when the transporter gene was restored to it on a plasmid."
+   ],
+   "figure": {
+    "kind": "svg",
+    "caption": "Figure 1  Internal glycine betaine, in micromol per gram of dry weight, in wild-type and transporter-deletion cells grown with 1 mM glycine betaine at three added salt concentrations.",
+    "markup": "<svg viewBox=\"0 0 420 200\" role=\"img\" aria-label=\"Bar chart of internal glycine betaine: wild type 20, 180 and 420 micromol per gram at 0.1, 0.5 and 1.0 mol per litre added salt, against 20, 24 and 32 in the transporter-deletion strain\"><line x1=\"50\" y1=\"30\" x2=\"50\" y2=\"150\" stroke=\"currentColor\"></line><line x1=\"50\" y1=\"150\" x2=\"400\" y2=\"150\" stroke=\"currentColor\"></line><text x=\"40\" y=\"153\" font-size=\"10\" text-anchor=\"end\">0</text><text x=\"40\" y=\"103\" font-size=\"10\" text-anchor=\"end\">200</text><text x=\"40\" y=\"53\" font-size=\"10\" text-anchor=\"end\">400</text><rect x=\"90\" y=\"145\" width=\"24\" height=\"5\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\"></rect><rect x=\"116\" y=\"145\" width=\"24\" height=\"5\" fill=\"none\" stroke=\"currentColor\"></rect><rect x=\"190\" y=\"105\" width=\"24\" height=\"45\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\"></rect><rect x=\"216\" y=\"144\" width=\"24\" height=\"6\" fill=\"none\" stroke=\"currentColor\"></rect><rect x=\"290\" y=\"45\" width=\"24\" height=\"105\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\"></rect><rect x=\"316\" y=\"142\" width=\"24\" height=\"8\" fill=\"none\" stroke=\"currentColor\"></rect><text x=\"115\" y=\"165\" font-size=\"10\" text-anchor=\"middle\">0.1 mol/L</text><text x=\"215\" y=\"165\" font-size=\"10\" text-anchor=\"middle\">0.5 mol/L</text><text x=\"315\" y=\"165\" font-size=\"10\" text-anchor=\"middle\">1.0 mol/L</text><text x=\"50\" y=\"22\" font-size=\"10\">Internal glycine betaine (micromol per g dry weight)</text><rect x=\"50\" y=\"180\" width=\"12\" height=\"8\" fill=\"currentColor\" fill-opacity=\"0.35\" stroke=\"currentColor\"></rect><text x=\"68\" y=\"188\" font-size=\"10\">wild type</text><rect x=\"150\" y=\"180\" width=\"12\" height=\"8\" fill=\"none\" stroke=\"currentColor\"></rect><text x=\"168\" y=\"188\" font-size=\"10\">transporter deleted</text></svg>"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "bb3-p1-q1",
+   "passageId": "bb3-p1",
+   "stem": "The glucagon-treated liver released glucose at 2.0 micromol/min per gram for the whole 30 minutes. What share of the glycogen present at the start does that account for?",
+   "choices": {
+    "A": "0.7%",
+    "B": "5%",
+    "C": "10%",
+    "D": "20%"
+   },
+   "correct": "D",
+   "explanation": "Thirty minutes at 2.0 micromol/min per gram releases 60 micromol of glucosyl units per gram. The liver began with 300 micromol/g, so the share mobilised is 60/300, which is 20%. The glycogen column agrees: 300 micromol/g falls to 240 micromol/g, a loss of 60.",
+   "wrong": {
+    "A": "This divides the per-minute rate of 2.0 by the 300 micromol/g present and never multiplies by the 30 minutes over which the output was measured.",
+    "B": "This is the share mobilised by the control liver, which released 0.5 micromol/min per gram for 30 minutes, not the share mobilised under glucagon.",
+    "C": "This is the share mobilised in the glucagon plus insulin preparation, whose output of 1.0 micromol/min per gram is half that of glucagon alone."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb3-p1-q2",
+   "passageId": "bb3-p1",
+   "stem": "Taking all six preparations together, which statement about the relation between the measurements in Table 1 and glucose output is best supported?",
+   "choices": {
+    "A": "Cyclic AMP content predicts glucose output in every one of the six preparations",
+    "B": "Glucose output is directly proportional to cyclic AMP content across the six",
+    "C": "The two measurements rank the six preparations in exactly the same order",
+    "D": "Glucose output tracks the share of phosphorylase in the a form more closely"
+   },
+   "correct": "D",
+   "explanation": "Ranked by the share of phosphorylase in the a form, the six preparations run 8, 14, 15, 18, 40 and 75, and their glucose outputs run 0.2, 0.5, 0.5, 0.6, 1.0 and 2.0, which never fall out of order. Cyclic AMP does not behave that way: the preparation with the protein kinase A inhibitor holds 1800 pmol/g, as much as glucagon alone, yet releases only 0.6 micromol/min per gram.",
+   "wrong": {
+    "A": "The preparation given glucagon with the protein kinase A inhibitor holds as much cyclic AMP as glucagon alone and releases less than a third as much glucose, so cyclic AMP does not predict output there.",
+    "B": "Proportionality fails: the control releases 0.5 micromol/min per gram at 300 pmol/g of cyclic AMP, while glucagon plus insulin releases twice as much at three times that cyclic AMP.",
+    "C": "The two orders differ, because the inhibitor preparation sits near the top on cyclic AMP and near the bottom on glucose output."
+   },
+   "category": "1D",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "3"
+  },
+  {
+   "id": "bb3-p1-q3",
+   "passageId": "bb3-p1",
+   "stem": "Each of the following steps is required if glucagon is to raise the output of free glucose from this liver EXCEPT:",
+   "choices": {
+    "A": "activation of protein kinase A by the cyclic AMP that the receptor's G protein raises",
+    "B": "phosphorylation of glycogen phosphorylase b to the a form by phosphorylase kinase",
+    "C": "entry of glucose 6-phosphate into the mitochondrial matrix before the phosphate is lost",
+    "D": "removal of the phosphate from glucose 6-phosphate by glucose 6-phosphatase"
+   },
+   "correct": "C",
+   "explanation": "Glucose 6-phosphatase sits in the membrane of the endoplasmic reticulum, and the glucose 6-phosphate released from glycogen is carried into that compartment, not into the mitochondrion. Nothing in the route from receptor to free glucose requires the mitochondrial matrix, so this is the step that is not needed.",
+   "wrong": {
+    "A": "The inhibitor preparation shows this step is required: cyclic AMP stays at 1800 pmol/g, yet blocking the kinase holds phosphorylase a at 18% and output at 0.6 micromol/min per gram.",
+    "B": "Phosphorylase in the a form is the active form that cleaves glycogen, and its share rises from 15% to 75% in the preparation that releases the most glucose.",
+    "D": "Glucose 6-phosphate cannot cross the plasma membrane, so without this step the carbon freed from glycogen would stay inside the hepatocyte."
+   },
+   "category": "1D",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "3"
+  },
+  {
+   "id": "bb3-p1-q4",
+   "passageId": "bb3-p1",
+   "stem": "The liver whose hepatocytes carry no glucagon receptor held 310 pmol/g of cyclic AMP and released 0.5 micromol/min per gram despite the hormone. Which addition would be expected to raise its glucose output?",
+   "choices": {
+    "A": "Glucagon at ten times the concentration used in the perfusion",
+    "B": "Insulin, added together with the glucagon already present",
+    "C": "A membrane-permeant analogue of cyclic AMP that protein kinase A binds",
+    "D": "An inhibitor of adenylate cyclase, added with the glucagon"
+   },
+   "correct": "C",
+   "explanation": "The defect lies at the receptor, so everything downstream of it is intact. Supplying a cyclic AMP analogue that crosses the membrane enters the route below the missing step, activates protein kinase A and so raises the share of phosphorylase in the a form and the glucose output.",
+   "wrong": {
+    "A": "More hormone cannot help when there is no receptor to bind it; the cyclic AMP content of 310 pmol/g is already no higher than the control's 300.",
+    "B": "Insulin opposes this route, and in the preparation given both hormones it halved glucose output rather than raising it.",
+    "D": "Blocking adenylate cyclase would lower cyclic AMP further and so lower output; the enzyme is already receiving no signal from the receptor."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb3-p1-q5",
+   "passageId": "bb3-p1",
+   "stem": "Glucose output in these livers rose within a minute of glucagon arriving rather than over hours. Which feature of the hormone's route of action accounts for that speed?",
+   "choices": {
+    "A": "Glucagon crosses the membrane and binds a nuclear receptor that raises transcription",
+    "B": "The receptor itself cleaves glycogen once the hormone has bound to it",
+    "C": "Glucagon is taken into the cell and converted there into cyclic AMP",
+    "D": "The signal works by covalent modification of enzymes already present"
+   },
+   "correct": "D",
+   "explanation": "Glucagon is a peptide that acts at a surface receptor, and everything downstream is a phosphorylation of a protein the cell has already made. No new transcription or translation is needed, so the output can change in seconds rather than over the hours a change in gene expression would take.",
+   "wrong": {
+    "A": "A peptide hormone does not cross the plasma membrane, and a response that depended on new transcription and translation would take hours, not the minute observed.",
+    "B": "The receptor is not an enzyme acting on glycogen; the table shows the response running through cyclic AMP and the phosphorylation state of phosphorylase.",
+    "C": "Cyclic AMP is made from ATP by adenylate cyclase, not from the hormone, which never enters the cell at all."
+   },
+   "category": "3A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb3-p2-q1",
+   "passageId": "bb3-p2",
+   "stem": "Suppose the wild-type editing site were only 60% effective instead of 98%, with everything else unchanged. How many valine residues per 1000 isoleucine positions would the reporter protein then carry?",
+   "choices": {
+    "A": "0.10",
+    "B": "2.0",
+    "C": "3.0",
+    "D": "5.0"
+   },
+   "correct": "B",
+   "explanation": "The wild-type synthetic site activates isoleucine and valine in the ratio 2.0 \u00d7 10\u2075 to 1.0 \u00d7 10\u00b3, that is 200 to 1, so 5 valines per 1000 are transferred to tRNA before editing. The editing site at 60% leaves 40% of them in place, and 5 \u00d7 0.40 is 2.0 per 1000.",
+   "wrong": {
+    "A": "This is the figure the wild type actually gives, which depends on the editing site removing 98%; at 60% a larger share of the mischarged tRNA survives.",
+    "C": "This multiplies the 5 per 1000 by the fraction hydrolysed rather than by the fraction left behind; the residues that reach the protein are the ones editing fails to remove.",
+    "D": "This is the error of the editing-site mutant, which hydrolyses none of the mischarged tRNA at all, rather than 60% of it."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb3-p2-q2",
+   "passageId": "bb3-p2",
+   "stem": "Which of the following can be concluded from the figures in Table 1? I. Discrimination at the activation step alone is about 200-fold in the wild type. II. The editing site removes about 98% of the valine that reaches the transfer RNA. III. The editing site also hydrolyses correctly charged isoleucyl-tRNA.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "C",
+   "explanation": "Statement I follows from the two specificity constants, 2.0 \u00d7 10\u2075 against 1.0 \u00d7 10\u00b3, a ratio of 200. Statement II follows from the fall in error from 5.0 per 1000 in the editing-site mutant to 0.10 in the wild type, a fiftyfold drop that leaves 2% behind. Statement III is contradicted by the passage, which says the editing site does not act on correctly charged isoleucyl-tRNA, and by the equal yield of reporter protein from all three enzyme forms.",
+   "wrong": {
+    "A": "This leaves out statement II, which the two error figures support: 0.10 per 1000 against 5.0 per 1000 is exactly the 98% removal the table reports.",
+    "B": "This leaves out statement I, which follows directly from dividing one specificity constant by the other.",
+    "D": "This adds statement III, which the passage denies and which would also have lowered the yield of reporter protein in the wild type."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "4"
+  },
+  {
+   "id": "bb3-p2-q3",
+   "passageId": "bb3-p2",
+   "stem": "The investigators argue that the rise in valine misincorporation in the editing-site mutant is not caused by a change in how the mutant handles isoleucine. Which figure in Table 1 is the control for that argument?",
+   "choices": {
+    "A": "Valine activation, which is 1.0 \u00d7 10\u00b3 M\u207b\u00b9 s\u207b\u00b9 in both forms",
+    "B": "Valyl-tRNA hydrolysis, which falls from 98% to none in the mutant",
+    "C": "Isoleucine activation, which is 2.0 \u00d7 10\u2075 M\u207b\u00b9 s\u207b\u00b9 in both forms",
+    "D": "The error itself, which rises from 0.10 to 5.0 valines per 1000"
+   },
+   "correct": "C",
+   "explanation": "If the mutant charged isoleucine more slowly, valine would reach the protein more often without the editing site having changed at all. Showing that isoleucine activation is unchanged at 2.0 \u00d7 10\u2075 M\u207b\u00b9 s\u207b\u00b9 rules that alternative out and leaves the loss of editing as the only difference between the two forms.",
+   "wrong": {
+    "A": "An unchanged valine figure says nothing about isoleucine, and it is the handling of isoleucine that the alternative explanation turns on.",
+    "B": "This is the change being tested rather than a control on it; by itself it cannot show that nothing else about the enzyme differs.",
+    "D": "This is the result the argument sets out to explain, so it cannot also serve as the control that rules out a rival explanation."
+   },
+   "category": "1B",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "4"
+  },
+  {
+   "id": "bb3-p2-q4",
+   "passageId": "bb3-p2",
+   "stem": "Valine is isoleucine minus one methyl group. What does that relation imply about how well any single binding pocket can separate the two?",
+   "choices": {
+    "A": "A pocket can exclude a side chain too large for it more readily than one too small",
+    "B": "A pocket separates the two by the charge on the side chain rather than by its shape",
+    "C": "A pocket binds the two equally well, so all discrimination happens at the ribosome",
+    "D": "A pocket must form a covalent bond with the side chain in order to separate them"
+   },
+   "correct": "A",
+   "explanation": "A pocket shaped to fit isoleucine has walls that a bulkier side chain cannot be pushed past, so oversized amino acids are excluded by shape alone. A smaller side chain still fits, losing only some binding energy, which is why the synthetic site discriminates by a mere 200-fold and a second editing site is needed.",
+   "wrong": {
+    "B": "Neither side chain carries a charge; both are branched hydrocarbons, so charge cannot be what the pocket reads.",
+    "C": "The table shows the enzyme does discriminate, by 200-fold at the synthetic site, and the passage states that the ribosome reads the anticodon rather than the amino acid.",
+    "D": "No covalent bond forms between the enzyme and the side chain; the activation chemistry involves the carboxyl group, which is the same in both amino acids."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "1"
+  },
+  {
+   "id": "bb3-p2-q5",
+   "passageId": "bb3-p2",
+   "stem": "A valyl-tRNA that escapes editing puts valine into the protein at an isoleucine codon. Which feature of translation allows that mistake to pass?",
+   "choices": {
+    "A": "The ribosome checks the amino acid carried but not the codon-anticodon pair",
+    "B": "The ribosome checks the codon-anticodon pair but not the amino acid carried",
+    "C": "Both amino acids are specified by the same codons in the genetic code",
+    "D": "The peptidyl transferase centre rejects any amino acid it has not seen before"
+   },
+   "correct": "B",
+   "explanation": "Selection in the A site is made on the pairing between the codon and the anticodon, and the passage states that this system discriminates among transfer RNAs by that pairing alone. The attached amino acid is never inspected, so a tRNA bearing the right anticodon is accepted whatever it carries.",
+   "wrong": {
+    "A": "This reverses the division of labour: it is the synthetase that inspects the amino acid, and the ribosome that inspects the pairing.",
+    "C": "Isoleucine and valine have separate codons, which is why the misincorporation can be counted at positions whose codons specify isoleucine.",
+    "D": "Nothing in the peptidyl transferase centre keeps a record of past substrates; it joins whatever amino acid the accepted tRNA brings."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb3-p3-q1",
+   "passageId": "bb3-p3",
+   "stem": "In this signalling system, where does the phosphoryl group that reaches CheY come from, and by what intermediate?",
+   "choices": {
+    "A": "From ATP, by way of a phosphohistidine on CheA",
+    "B": "From GTP, by way of a phosphoserine on CheA",
+    "C": "From ATP, by way of a phosphotyrosine on CheZ",
+    "D": "From acetyl phosphate, passed straight to CheR"
+   },
+   "correct": "A",
+   "explanation": "CheA is a histidine kinase: it uses ATP to phosphorylate one of its own histidine residues, and that phosphohistidine is the donor from which the group is handed to an aspartate of CheY. The nucleotide is ATP and the intermediate sits on the kinase itself.",
+   "wrong": {
+    "B": "The nucleotide is ATP, not GTP, and the residue phosphorylated on the kinase is a histidine; serine phosphorylation belongs to a different class of kinase.",
+    "C": "CheZ removes the phosphoryl group from CheY rather than carrying it, and no tyrosine is involved anywhere in this route.",
+    "D": "CheR adds methyl groups to the receptor and takes no part in phosphoryl transfer to CheY."
+   },
+   "category": "2B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "9"
+  },
+  {
+   "id": "bb3-p3-q2",
+   "passageId": "bb3-p3",
+   "stem": "The strain lacking CheZ tumbles 85% of the time and does not move up a gradient. What best explains that pair of results?",
+   "choices": {
+    "A": "CheA can no longer autophosphorylate once CheZ is absent",
+    "B": "CheY is degraded, so the motor turns clockwise by default",
+    "C": "The receptor cannot be methylated, so adaptation never happens",
+    "D": "Phospho-CheY is not dephosphorylated, so the motor signal cannot fall"
+   },
+   "correct": "D",
+   "explanation": "CheZ is the enzyme that hydrolyses the phosphoryl group from CheY. Without it, phospho-CheY accumulates and stays high, so the motor is told to tumble whatever the receptor reports. The strain still responds slightly to attractant, falling from 85% to 80%, but cannot bring the signal down far enough to lengthen a run, and a cell that cannot lengthen runs cannot climb a gradient.",
+   "wrong": {
+    "A": "CheZ acts on CheY, not on CheA; if autophosphorylation had stopped, the strain would swim smoothly, as the CheA deletion does at 1%.",
+    "B": "CheY is not degraded here; losing CheY gives the opposite behaviour, 0% tumbling, as the CheY deletion in the table shows.",
+    "C": "Methylation needs CheR and CheB, not CheZ, and a pure failure of adaptation would still permit a low tumbling frequency, as the CheB deletion shows at 8%."
+   },
+   "category": "2B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "9"
+  },
+  {
+   "id": "bb3-p3-q3",
+   "passageId": "bb3-p3",
+   "stem": "By what factor does a step of attractant reduce the tumbling frequency of the wild type when measured 10 seconds after the addition?",
+   "choices": {
+    "A": "1.1-fold",
+    "B": "15-fold",
+    "C": "28-fold",
+    "D": "30-fold"
+   },
+   "correct": "B",
+   "explanation": "The wild type tumbles 30% of the time before the attractant and 2% of the time 10 seconds afterwards. Dividing 30 by 2 gives a 15-fold reduction, which has largely gone by 5 minutes, when the figure has returned to 28%.",
+   "wrong": {
+    "A": "This compares the value before the attractant with the adapted value at 5 minutes, 30 against 28, which measures how complete adaptation is rather than the size of the acute response.",
+    "C": "This subtracts the two values instead of dividing them; 28 is the fall in percentage points, not a factor.",
+    "D": "This treats the 10-second value as zero and takes the starting frequency itself as the factor, which the table does not support."
+   },
+   "category": "2B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "9"
+  },
+  {
+   "id": "bb3-p3-q4",
+   "passageId": "bb3-p3",
+   "stem": "To test directly that the aspartate of CheY is the residue receiving the phosphoryl group, which result would be most informative?",
+   "choices": {
+    "A": "The alanine-substituted strain tumbles 1% of the time, as the CheY deletion does",
+    "B": "Purified CheZ acts on wild-type CheY but not on the alanine-substituted protein",
+    "C": "The alanine-substituted protein is present in cells at the wild-type level",
+    "D": "Purified phospho-CheA passes no phosphoryl group to the alanine-substituted protein"
+   },
+   "correct": "D",
+   "explanation": "The claim is about the chemistry of transfer, so the experiment should be the transfer itself, with purified components and no other cellular protein able to intervene. Showing that phospho-CheA loads the wild-type protein but not the substituted one localises the acceptor to that residue.",
+   "wrong": {
+    "A": "A whole-cell behaviour matching the deletion is also what a misfolded or mislocalised protein would give, so it cannot pin the defect on the chemistry of one residue.",
+    "B": "A failure of CheZ to act on the substituted protein would follow from there being nothing to remove, so the observation is explained by the claim rather than testing it.",
+    "C": "The passage already reports this strain making the protein at the wild-type level, and abundance says nothing about which residue accepts the phosphoryl group."
+   },
+   "category": "1A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "1"
+  },
+  {
+   "id": "bb3-p3-q5",
+   "passageId": "bb3-p3",
+   "stem": "Phosphorylating an aspartate gives an acyl phosphate, which is far less stable than the phosphate ester formed on a serine. Which feature of chemotaxis does that instability best explain?",
+   "choices": {
+    "A": "The receptor must be methylated before the kinase can act on it at all",
+    "B": "The kinase has to use ATP rather than GTP as its phosphoryl donor",
+    "C": "The motor signal decays in under a second, so the cell tracks change as it swims",
+    "D": "Phospho-CheY has to be destroyed by a protease after each tumble it causes"
+   },
+   "correct": "C",
+   "explanation": "A labile acyl phosphate means phospho-CheY has a short lifetime, so the level at the motor reflects what the kinase is doing now rather than what it did a minute ago. That is what allows a cell swimming through a gradient to turn its runs on and off second by second.",
+   "wrong": {
+    "A": "Methylation sets how active the kinase is in a given background of attractant; it is not a requirement for any phosphoryl transfer to occur.",
+    "B": "The choice of nucleotide is a property of the kinase site and has no bearing on how long the phosphorylated aspartate survives.",
+    "D": "No protease is needed: the point of the labile linkage is that hydrolysis, helped by CheZ, resets the protein without destroying it."
+   },
+   "category": "1A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "1"
+  },
+  {
+   "id": "bb3-p4-q1",
+   "passageId": "bb3-p4",
+   "stem": "What share of the filtered sodium load was excreted during the fourth hour after the dose of compound NX-7?",
+   "choices": {
+    "A": "0.75%",
+    "B": "6.0%",
+    "C": "10%",
+    "D": "25%"
+   },
+   "correct": "B",
+   "explanation": "Urine flow of 10.0 mL/min carrying sodium at 105 mmol/L excretes 1.05 mmol of sodium each minute. Against the filtered load of 17.5 mmol/min that is 6.0%, up from 1.0% before the dose, when 1.0 mL/min at 175 mmol/L excreted 0.175 mmol/min.",
+   "wrong": {
+    "A": "This divides the excretion of 1.05 mmol/min by the plasma sodium concentration rather than by the filtered load, which is the filtration rate times that concentration.",
+    "C": "This keeps the urine sodium concentration of 175 mmol/L measured before the dose and applies it to the flow of 10.0 mL/min measured after it.",
+    "D": "This is the share of the filtered load that the blocked segment normally reclaims, not the share that appeared in the urine."
+   },
+   "category": "3B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb3-p4-q2",
+   "passageId": "bb3-p4",
+   "stem": "During the fourth hour the volunteers passed about 600 mL of urine carrying some 63 mmol of sodium, and were given nothing to drink. Which endocrine response to that loss is expected, and what would it do?",
+   "choices": {
+    "A": "Renin falls, so angiotensin II falls and the adrenal cortex releases less aldosterone",
+    "B": "Antidiuretic hormone falls, so the collecting duct withdraws water channels from its membrane",
+    "C": "Renin rises, so angiotensin II rises and the adrenal cortex releases more aldosterone",
+    "D": "Parathyroid hormone rises, so the distal nephron reclaims more calcium and more sodium"
+   },
+   "correct": "C",
+   "explanation": "Urine flow of 10.0 mL/min for an hour is 600 mL, and sodium at 1.05 mmol/min for an hour is 63 mmol, so extracellular volume falls with no water taken in to replace it. The juxtaglomerular cells sense the fall and release renin, which generates angiotensin II, which drives the adrenal cortex to secrete aldosterone. Aldosterone acts on the distal nephron to reclaim sodium and to secrete potassium, which is part of why potassium loss rises from 0.05 to 0.20 mmol/min while the drug is working.",
+   "wrong": {
+    "A": "This has the loop running backwards: a fall in volume raises renin rather than lowering it, which is how the body defends its volume.",
+    "B": "Antidiuretic hormone rises when volume falls, and in any case its water channels cannot work once the drug has removed the medullary gradient.",
+    "D": "Parathyroid hormone is released in response to a fall in plasma calcium, not a fall in volume, and its renal target is calcium rather than sodium."
+   },
+   "category": "3A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb3-p4-q3",
+   "passageId": "bb3-p4",
+   "stem": "The volunteers were given nothing to drink, so release of antidiuretic hormone would have been high throughout, yet their urine emerged at 300 mOsm/kg of water. Which description of that hormone is correct?",
+   "choices": {
+    "A": "Made in hypothalamic neurons, released from the posterior pituitary, acting through cyclic AMP",
+    "B": "Made in the anterior pituitary, released into the portal vessels, acting through cyclic AMP",
+    "C": "Made in hypothalamic neurons, released from the anterior pituitary, acting through a nuclear receptor",
+    "D": "Made in the adrenal cortex, released into the renal artery, acting through a cytoplasmic receptor"
+   },
+   "correct": "A",
+   "explanation": "The hormone is a peptide made in the cell bodies of hypothalamic neurons, carried down their axons and released from the terminals that make up the posterior pituitary. At the collecting duct it binds a surface receptor coupled to a G protein, raising cyclic AMP, which drives water channels into the apical membrane. That it could not concentrate this urine is a separate matter: the drug had removed the medullary gradient that water would have followed, so the urine left at about the osmolality of plasma however many channels were inserted.",
+   "wrong": {
+    "B": "The anterior pituitary makes its own hormones and receives hypothalamic releasing factors through portal vessels; it does not make or store this one.",
+    "C": "The site of synthesis is right but the lobe is wrong, and a peptide acting in seconds works at a surface receptor rather than a nuclear one.",
+    "D": "The adrenal cortex secretes steroids, and a hormone reaching the kidney in the renal artery alone could not act on the many other tissues this one does."
+   },
+   "category": "3A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "7"
+  },
+  {
+   "id": "bb3-p4-q4",
+   "passageId": "bb3-p4",
+   "stem": "The blocked segment normally reclaims 25% of the filtered load, yet the share excreted rose by only 5 percentage points. Which of the following could contribute to that difference? I. Segments beyond the block reclaim part of the extra sodium delivered to them. II. The block was incomplete at the dose given. III. The small fall in plasma sodium lowered the filtered load.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "D",
+   "explanation": "All three contribute. The distal convoluted tubule and collecting duct still have capacity and take up part of the extra load, which is item I. A single oral dose need not saturate the transporter, which is item II. And plasma sodium fell from 140 to 139 mmol/L, which lowers the filtered load by about 0.7% and so lowers the amount available to appear in the urine, which is item III.",
+   "wrong": {
+    "A": "This accepts only downstream reabsorption and rules out an incomplete block, which the data cannot exclude since the drug was given once by mouth.",
+    "B": "This accepts only an incomplete block and ignores the capacity of the segments beyond it, which the figure shows normally handle 9% of the load between them.",
+    "C": "This leaves out the fall in plasma sodium, which does lower the filtered load, even though its effect is small beside the other two."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "7"
+  },
+  {
+   "id": "bb3-p4-q5",
+   "passageId": "bb3-p4",
+   "stem": "The cotransporter of the thick ascending limb carries one sodium ion, one potassium ion and two chloride ions in the same direction. Which statement about its energetics is best supported?",
+   "choices": {
+    "A": "The transfer is electroneutral and is driven by the sodium gradient rather than by ATP",
+    "B": "The transfer carries net positive charge inward and so depends on the membrane potential",
+    "C": "The transporter hydrolyses one ATP for each sodium ion it brings into the cell",
+    "D": "The transfer moves each of the four ions down its own concentration gradient"
+   },
+   "correct": "A",
+   "explanation": "One sodium and one potassium ion carry two positive charges and two chloride ions carry two negative, so the net charge moved is zero and the membrane potential neither helps nor hinders. The energy comes from the inward sodium gradient, which the sodium-potassium ATPase maintains at the basolateral membrane by hydrolysing ATP there.",
+   "wrong": {
+    "B": "The charges cancel: two positive ions against two negative ones leaves no net charge transferred, so the potential across the membrane does not enter the energetics.",
+    "C": "The cotransporter is not an ATPase; the ATP is spent at the basolateral pump that keeps the sodium gradient, which is a separate protein.",
+    "D": "Luminal potassium is low in this segment, so potassium enters against its own gradient, carried along by the sodium that moves down its gradient."
+   },
+   "category": "2A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "6"
+  },
+  {
+   "id": "bb3-p5-q1",
+   "passageId": "bb3-p5",
+   "stem": "Which sample is most consistent with reduced activity of several vitamin K-dependent factors at once?",
+   "choices": {
+    "A": "Sample 1",
+    "B": "Sample 2",
+    "C": "Sample 3",
+    "D": "Sample 4"
+   },
+   "correct": "D",
+   "explanation": "Sample 4 is the only one in which both assays are prolonged, 24 seconds and 42 seconds, and in which the mix with control plasma corrects the result to 31 seconds. Loss of factors II, VII, IX and X together touches both routes, and the prothrombin time is affected more because factor VII falls first.",
+   "wrong": {
+    "A": "Only the activated partial thromboplastin time is prolonged here, at 58 seconds, with a prothrombin time of 12 seconds, so the tissue factor route and the common path are intact.",
+    "B": "Only the prothrombin time is prolonged here, at 26 seconds, which points to a single factor in the tissue factor route rather than to several factors.",
+    "C": "Only the activated partial thromboplastin time is prolonged here, and the mix with control plasma fails to correct it, falling only to 50 seconds, which points to an inhibitor."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb3-p5-q2",
+   "passageId": "bb3-p5",
+   "stem": "What is the purpose of repeating the assay on an equal-volume mix of each sample with control plasma?",
+   "choices": {
+    "A": "To separate a long clotting time caused by too few platelets from one caused by a missing factor",
+    "B": "To separate a missing factor, which control plasma supplies, from an inhibitor, which attacks control plasma too",
+    "C": "To separate a defect of the contact route from a defect of the tissue factor route",
+    "D": "To separate the effect of a drug taken recently from a defect present since birth"
+   },
+   "correct": "B",
+   "explanation": "Control plasma brings a normal amount of every factor, so a sample merely short of one is brought back into range by the mix. An inhibitor is still present in the mix and acts on the factor the control plasma has just supplied, so the time stays long. That is exactly the difference between Sample 1, corrected to 32 seconds, and Sample 3, which stays at 50.",
+   "wrong": {
+    "A": "Both assays are run on citrated plasma from which platelets have been removed and a phospholipid supplied, so neither reports the platelet count.",
+    "C": "That separation comes from running the two assays in the first place, since each depends on a different route into the common path.",
+    "D": "The mix cannot date a defect; a drug effect and an inherited deficiency both correct, as Sample 1 and Sample 4 show."
+   },
+   "category": "3B",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb3-p5-q3",
+   "passageId": "bb3-p5",
+   "stem": "Compound AV-3 blocks the enzyme that regenerates reduced vitamin K. What is the immediate molecular consequence for the factors that depend on it?",
+   "choices": {
+    "A": "Glutamate residues go uncarboxylated, so the factors bind calcium poorly",
+    "B": "The factors are made but cannot be secreted from the liver cell at all",
+    "C": "The genes for the factors are no longer transcribed in liver cells",
+    "D": "Thrombin can no longer cleave fibrinogen into fibrin monomers"
+   },
+   "correct": "A",
+   "explanation": "Reduced vitamin K is the cofactor for the carboxylase that converts particular glutamate residues into dicarboxylate residues. Without it the factors are still made and secreted, but they lack the carboxylates that chelate calcium, so they cannot dock on the membrane where their substrate waits and their activity is low.",
+   "wrong": {
+    "B": "Secretion is not blocked; the uncarboxylated factors do reach the circulation, which is why they can be measured there as inactive protein.",
+    "C": "The drug acts on a reaction after translation, not on transcription, and the amount of protein made is unchanged.",
+    "D": "Thrombin itself is factor II and is affected like the others, but the step the drug blocks is the carboxylation, not the cleavage of fibrinogen."
+   },
+   "category": "3B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "7"
+  },
+  {
+   "id": "bb3-p5-q4",
+   "passageId": "bb3-p5",
+   "stem": "Factors II, VII, IX and X circulate as inactive precursors that are switched on by cleavage. What does a cascade of such cleavages achieve that a single enzyme could not?",
+   "choices": {
+    "A": "Cleavage is reversible, so the cascade can be switched off by re-joining the fragments",
+    "B": "Each precursor inhibits itself, so the cascade needs no separate inhibitory proteins",
+    "C": "Each step amplifies the one before, so a small stimulus yields much thrombin fast",
+    "D": "Proteolysis needs no energy, so the cascade can run where no ATP is available"
+   },
+   "correct": "C",
+   "explanation": "One activated protease activates many molecules of the next precursor, and each of those activates many of the next again, so the number of active molecules multiplies at every step. A trace of exposed tissue factor can therefore generate enough thrombin to clot plasma in seconds, which a single enzyme acting once on each substrate could not do.",
+   "wrong": {
+    "A": "Peptide bond cleavage cannot be reversed by the clotting proteins, which is why the cascade is held in check by inhibitors and by dilution in flowing blood instead.",
+    "B": "The precursors are not their own inhibitors; plasma carries separate inhibitory proteins, and the mixing study in this passage depends on an acquired inhibitor being separate too.",
+    "D": "A single protease would need no ATP either, so this names nothing that a cascade adds, and clotting in any case occurs in plasma, where ATP is not the issue."
+   },
+   "category": "1A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "1"
+  },
+  {
+   "id": "bb3-p6-q1",
+   "passageId": "bb3-p6",
+   "stem": "Which line shows that cytochrome c reaches the cytosol even when the initiator caspase of the intrinsic route is missing?",
+   "choices": {
+    "A": "The Bcl-2 overexpressing line",
+    "B": "The caspase-9 knockout line",
+    "C": "The caspase-8 knockout line",
+    "D": "The caspase-3 knockout line"
+   },
+   "correct": "B",
+   "explanation": "Caspase-9 is the initiator the intrinsic route uses. Its knockout still shows 80 arbitrary units of cytosolic cytochrome c after DNA damage, close to the parental 85, while apoptosis falls to 10%. Release therefore happens upstream of that caspase and does not depend on it.",
+   "wrong": {
+    "A": "This line releases almost no cytochrome c, 6 units against 85, which places Bcl-2 upstream of release rather than showing release without the initiator caspase.",
+    "C": "Caspase-8 is the initiator of the extrinsic route, and this line still dies after DNA damage at 68%, so it says nothing about the intrinsic initiator.",
+    "D": "Caspase-3 is the executioner shared by both routes rather than the initiator of the intrinsic one, so this line cannot place release relative to caspase-9."
+   },
+   "category": "2C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "6"
+  },
+  {
+   "id": "bb3-p6-q2",
+   "passageId": "bb3-p6",
+   "stem": "Which of the following does Table 1 support? I. Caspase-3 acts downstream of both routes. II. Bcl-2 acts downstream of caspase-8. III. Caspase-8 is required for the DNA-damaging agent to kill these cells.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "A",
+   "explanation": "Only item I holds. The caspase-3 knockout resists both stimuli, 12% and 7%, so that enzyme lies below the point where the two routes meet. Item II fails because Bcl-2 leaves the death ligand response almost intact at 60%, which it could not do if it acted below caspase-8. Item III fails because the caspase-8 knockout still dies after DNA damage, at 68%.",
+   "wrong": {
+    "B": "Item II is contradicted by the Bcl-2 line's response to the death ligand, which is 60% against the parental 65%.",
+    "C": "This accepts item II, but a protein acting below caspase-8 would have blocked the death ligand response, and Bcl-2 does not.",
+    "D": "This accepts item III as well, which the 68% apoptosis of the caspase-8 knockout after DNA damage rules out."
+   },
+   "category": "2C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "6"
+  },
+  {
+   "id": "bb3-p6-q3",
+   "passageId": "bb3-p6",
+   "stem": "Cytosolic cytochrome c was 6 arbitrary units in the Bcl-2 line against 85 in the parental line. Where does that place the action of Bcl-2?",
+   "choices": {
+    "A": "On the death receptor, where it prevents the ligand from binding",
+    "B": "At the mitochondrial outer membrane, where it prevents the release itself",
+    "C": "On the apoptosome, where it prevents the initiator caspase being recruited",
+    "D": "On the executioner caspase, where it prevents substrates being cleaved"
+   },
+   "correct": "B",
+   "explanation": "Cytochrome c never reaches the cytosol in this line, so whatever Bcl-2 does, it does before the release. That puts it at the outer membrane, opposing BAX and BAK, which is also why it leaves the death ligand route almost untouched at 60% apoptosis.",
+   "wrong": {
+    "A": "A block at the receptor would have cut the death ligand response, which stays at 60%, and would not explain cytochrome c staying inside the mitochondrion.",
+    "C": "The apoptosome forms after release, so a block there would leave cytosolic cytochrome c high, as in the caspase-9 knockout at 80 units.",
+    "D": "A block at the executioner would also leave release intact, as the caspase-3 knockout shows at 84 units."
+   },
+   "category": "2A",
+   "skill": "skill-4",
+   "difficulty": "easy",
+   "unit": "6"
+  },
+  {
+   "id": "bb3-p6-q4",
+   "passageId": "bb3-p6",
+   "stem": "Procaspase-9 is activated by being brought together on the apoptosome, whereas procaspase-3 is activated by cleavage. Which consequence follows from that difference?",
+   "choices": {
+    "A": "Caspase-9 can activate other procaspase-9 molecules in the cytosol with no scaffold",
+    "B": "Caspase-3 must bind cytochrome c before it can cleave any of its own substrates",
+    "C": "Both enzymes lose their activity as soon as the apoptosome comes apart again",
+    "D": "Caspase-3 stays active once cleaved, while caspase-9 needs the scaffold intact"
+   },
+   "correct": "D",
+   "explanation": "A cleaved peptide bond cannot be restored, so once procaspase-3 has been cut the enzyme is active and stays active. Caspase-9 activity instead depends on the dimer the apoptosome holds together, so it falls away if the scaffold disperses. That asymmetry is what makes the executioner step the point of no return.",
+   "wrong": {
+    "A": "Caspase-9 needs the apoptosome to dimerise, so it cannot activate further molecules of itself free in the cytosol.",
+    "B": "Cytochrome c binds Apaf-1, not caspase-3; the executioner is activated by cleavage and never sees cytochrome c.",
+    "C": "Caspase-3 has already been cleaved by the time the scaffold matters, so its activity survives the apoptosome coming apart."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "hard",
+   "unit": "1"
+  },
+  {
+   "id": "bb3-p7-q1",
+   "passageId": "bb3-p7",
+   "stem": "Using the rate of loss in the untreated culture, how long would its telomeres be after 30 population doublings?",
+   "choices": {
+    "A": "5.9 kb",
+    "B": "6.6 kb",
+    "C": "7.0 kb",
+    "D": "7.9 kb"
+   },
+   "correct": "A",
+   "explanation": "The untreated culture falls from 8.0 kb to 5.2 kb over 40 doublings, a loss of 2.8 kb, which is 70 base pairs per doubling. Thirty doublings therefore remove 2.1 kb, leaving 5.9 kb.",
+   "wrong": {
+    "B": "This is the measured value at 20 doublings, read from the nearest column instead of being worked out for 30.",
+    "C": "This spreads one of the 1.4 kb falls over 40 doublings rather than over the 20 in which it occurred, halving the rate of loss.",
+    "D": "This treats the 70 base pairs as the loss over 20 doublings instead of the loss at each doubling."
+   },
+   "category": "1B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb3-p7-q2",
+   "passageId": "bb3-p7",
+   "stem": "Why was a culture given the catalytically inactive version of TERT included in the design?",
+   "choices": {
+    "A": "To confirm that the untreated fibroblasts make no telomerase of their own",
+    "B": "To show that escape from the limit needs catalysis and not just the protein",
+    "C": "To provide a culture whose telomeres neither shorten nor lengthen with division",
+    "D": "To measure how much telomerase protein each of the three cultures contains"
+   },
+   "correct": "B",
+   "explanation": "The inactive version is present at the same level and still assembles with the telomerase RNA, so it supplies everything the active protein does except the chemistry. Its telomeres shorten exactly as the untreated culture's do, 6.6 kb then 5.2 kb, and it stops at 50 doublings, which shows the rescue in the TERT culture came from catalysis rather than from the protein being there.",
+   "wrong": {
+    "A": "That claim rests on the untreated culture itself, whose telomeres shorten at 70 base pairs per doubling; a third culture adds nothing to it.",
+    "C": "Its telomeres do shorten, following the untreated culture at every measurement, so it provides no such culture.",
+    "D": "The amount of protein was measured separately and found equal in the two transfected cultures; this culture was not needed for that."
+   },
+   "category": "1B",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "4"
+  },
+  {
+   "id": "bb3-p7-q3",
+   "passageId": "bb3-p7",
+   "stem": "A rare cell that reaches the critical telomere length and escapes the arrest is found to carry chromosomes fused end to end. What accounts for those fusions?",
+   "choices": {
+    "A": "An uncapped end is read as a double-strand break and joined to another end",
+    "B": "Telomerase joins two ends together once its RNA template has run out",
+    "C": "The shortened repeats pair with one another and are resolved by crossing over",
+    "D": "Loss of the repeats removes the centromere, leaving the ends unattached"
+   },
+   "correct": "A",
+   "explanation": "The repeats are what the capping proteins bind, and the cap is what tells the cell that an end is an end. Once too few repeats remain, the damage machinery sees the same structure it sees at a break and ligates it to whatever other end it can find, which joins two chromosomes together.",
+   "wrong": {
+    "B": "These cells express no telomerase, and the enzyme in any case extends a single end rather than joining two.",
+    "C": "Crossing over between homologues exchanges segments without fusing chromosomes end to end, and it requires the machinery of meiosis.",
+    "D": "The centromere lies far from the ends and is not lost when the repeats shorten; the fused chromosomes still have centromeres, which is why they are pulled apart and broken in mitosis."
+   },
+   "category": "1C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "5"
+  },
+  {
+   "id": "bb3-p7-q4",
+   "passageId": "bb3-p7",
+   "stem": "The state the untreated culture reaches at about 52 doublings is best described as which of the following?",
+   "choices": {
+    "A": "A pause in G2 that ends when telomerase is next expressed in the culture",
+    "B": "A rapid death by apoptosis as soon as the critical length is reached",
+    "C": "A return to a less differentiated state with an unlimited capacity to divide",
+    "D": "A lasting exit from the division cycle in a cell that remains alive"
+   },
+   "correct": "D",
+   "explanation": "The cells stop dividing but are not killed: they stay metabolically active and attached while the damage response holds the cycle shut. Because the signal is the shortened telomere itself, and nothing in these cells can lengthen it again, the exit does not reverse.",
+   "wrong": {
+    "A": "The arrest does not resolve on its own, and nothing in the untreated culture turns telomerase on; it is also imposed before the cell commits to a further round of replication.",
+    "B": "The culture stops growing rather than dying off, and apoptosis would have reduced the population rather than holding it steady.",
+    "C": "Loss of telomere repeats restricts division rather than freeing it; unlimited division in this experiment required TERT with its catalytic activity intact."
+   },
+   "category": "2C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "6"
+  },
+  {
+   "id": "bb3-p8-q1",
+   "passageId": "bb3-p8",
+   "stem": "In the line whose phosphofructokinase-1 does not bind fructose 2,6-bisphosphate, how much ATP is spent in cycling for each molecule of glucose formed at this step?",
+   "choices": {
+    "A": "0.25 ATP per glucose",
+    "B": "1 ATP per glucose",
+    "C": "4 ATP per glucose",
+    "D": "5 ATP per glucose"
+   },
+   "correct": "C",
+   "explanation": "That line spends 2.0 micromol of ATP per minute per gram in cycling while forming net glucose at only 0.5 micromol per minute per gram. Dividing 2.0 by 0.5 gives 4 ATP hydrolysed with no net change for every glucose that does get made.",
+   "wrong": {
+    "A": "This divides the net glucose by the cycling rate instead of the other way round, giving glucose per ATP rather than ATP per glucose.",
+    "B": "This takes the stoichiometry of a single turn of the pair, one ATP per turn, and ignores how many turns occur for each glucose that leaves the step.",
+    "D": "This counts every turn of fructose 1,6-bisphosphatase as wasteful, dividing 2.5 by 0.5, when the turns matched by the opposing enzyme are the wasteful ones."
+   },
+   "category": "1D",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb3-p8-q2",
+   "passageId": "bb3-p8",
+   "stem": "Glucagon lowered fructose 2,6-bisphosphate from 20 to 1 nmol/g. Which change in the bifunctional protein produces that fall?",
+   "choices": {
+    "A": "Phosphorylation by protein kinase A switches its kinase domain off and its phosphatase domain on",
+    "B": "Phosphorylation by protein kinase A switches its kinase domain on and its phosphatase domain off",
+    "C": "Dephosphorylation by a phosphatase switches its kinase domain off and its phosphatase domain on",
+    "D": "Protein kinase A cleaves the protein so that only its phosphatase domain survives"
+   },
+   "correct": "A",
+   "explanation": "Glucagon raises cyclic AMP and so activates protein kinase A, which phosphorylates the bifunctional protein. That single modification turns the synthesising domain off and the degrading domain on, so the pool of fructose 2,6-bisphosphate collapses and the gluconeogenic enzyme is released from inhibition.",
+   "wrong": {
+    "B": "This has the two domains the wrong way round: if phosphorylation activated the kinase domain, glucagon would raise fructose 2,6-bisphosphate rather than lower it.",
+    "C": "Glucagon acts by adding a phosphate, not by removing one; dephosphorylation is what insulin favours, and it raises fructose 2,6-bisphosphate.",
+    "D": "Protein kinase A transfers a phosphoryl group and is not a protease, and the fall reverses when the hormone is withdrawn, which cleavage could not allow."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb3-p8-q3",
+   "passageId": "bb3-p8",
+   "stem": "Building one glucose from two molecules of pyruvate costs six high-energy phosphate bonds. In the line with the insensitive phosphofructokinase-1, what is the total cost of each glucose at the fluxes measured?",
+   "choices": {
+    "A": "6 high-energy phosphate bonds",
+    "B": "7 high-energy phosphate bonds",
+    "C": "8 high-energy phosphate bonds",
+    "D": "10 high-energy phosphate bonds"
+   },
+   "correct": "D",
+   "explanation": "The route itself costs six bonds per glucose. Cycling at this step adds 2.0 micromol of ATP per minute per gram for 0.5 micromol of glucose, which is four more per glucose. Six plus four is 10, so the futile cycle raises the price of a glucose by about two thirds.",
+   "wrong": {
+    "A": "This ignores the cycling altogether, which the table shows is consuming four times as much ATP per minute as the net glucose formed.",
+    "B": "This adds one ATP for a single turn of the pair instead of the number of turns that occur for each glucose formed.",
+    "C": "This adds the cycling rate of 2.0 micromol per minute directly to the six, without dividing it by the 0.5 micromol of glucose formed in the same minute."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "3"
+  },
+  {
+   "id": "bb3-p8-q4",
+   "passageId": "bb3-p8",
+   "stem": "Each of the following is a reason for a cell to hold two opposed reactions under reciprocal control EXCEPT:",
+   "choices": {
+    "A": "it keeps ATP from being hydrolysed with no net chemical change to show for it",
+    "B": "it brings the two reactions to the same equilibrium constant as each other",
+    "C": "it lets the direction of net flux be set by the needs of the whole animal",
+    "D": "it stops the two steps from cancelling each other out within one cell"
+   },
+   "correct": "B",
+   "explanation": "An equilibrium constant is fixed by the free energy change of the reaction and cannot be altered by regulation; a cell changes flux, not equilibrium. The other three are the reasons reciprocal control exists, and the last row of the table shows what happens without it.",
+   "wrong": {
+    "A": "This is a genuine reason: the line with the insensitive enzyme spends 2.0 micromol of ATP per minute per gram on turns of the pair that change nothing.",
+    "C": "This is a genuine reason: glucagon lowers fructose 2,6-bisphosphate and so turns the step from net glycolysis to net glucose formation when the animal needs blood glucose.",
+    "D": "This is a genuine reason: in the fed state the step runs at 2.0 one way and 0.2 the other, so most of the flux survives rather than cancelling."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "1"
+  },
+  {
+   "id": "bb3-p9-q1",
+   "passageId": "bb3-p9",
+   "stem": "The proteasome inhibitor cut the CD8 response to 60 pg/mL while leaving the CD4 response at 800 pg/mL. What does that contrast show?",
+   "choices": {
+    "A": "Class I molecules are themselves destroyed by the proteasome before reaching the surface",
+    "B": "Class I peptides come from cytosolic proteolysis and class II peptides from endosomal proteases",
+    "C": "The proteasome is needed to remove the invariant chain from a class II molecule",
+    "D": "CD8 T cells require proteasome activity of their own in order to respond at all"
+   },
+   "correct": "B",
+   "explanation": "Blocking the cytosolic protease stops the peptides that class I needs, so the CD8 response collapses from 900 to 60 pg/mL. The CD4 response barely moves, 850 to 800, because the peptides it depends on are cut by acid proteases in the endosome from material taken in from outside, which the inhibitor does not touch.",
+   "wrong": {
+    "A": "The passage states that the number of class I molecules at the surface did not change during the assay, so the loss of response is about peptide supply.",
+    "C": "The invariant chain is removed by acid proteases in the endosome, which is why chloroquine and not the proteasome inhibitor abolishes the CD4 response.",
+    "D": "The T cell clones were added after the drug treatment of the presenting cells, and the CD4 clone responded normally in the same experiment."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "8"
+  },
+  {
+   "id": "bb3-p9-q2",
+   "passageId": "bb3-p9",
+   "stem": "Brefeldin A lowered both responses, while chloroquine lowered only the CD4 response. What does the brefeldin A result establish?",
+   "choices": {
+    "A": "Both kinds of peptide are generated inside the Golgi apparatus itself",
+    "B": "Both responses depend on the inside of the endosome being acidic",
+    "C": "Both classes of MHC molecule must leave the reticulum through the Golgi",
+    "D": "Both T cell clones need a cytokine secreted from their own Golgi"
+   },
+   "correct": "C",
+   "explanation": "Brefeldin A blocks export from the endoplasmic reticulum to the Golgi, and it cut the CD8 response from 900 to 50 pg/mL and the CD4 response from 850 to 90. Both classes of molecule are therefore made in the reticulum and must travel the secretory route, class I to the surface and class II to the endosome where it is loaded.",
+   "wrong": {
+    "A": "The peptides are made in the cytosol and in the endosome, as the proteasome inhibitor and chloroquine results show; the Golgi is a staging post for the MHC molecules.",
+    "B": "Only the CD4 response needs an acid endosome, which is why chloroquine cut it to 40 pg/mL while leaving the CD8 response at 870.",
+    "D": "The drug was applied to the presenting cells, and interferon release by both clones was normal in the untreated condition."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "8"
+  },
+  {
+   "id": "bb3-p9-q3",
+   "passageId": "bb3-p9",
+   "stem": "Which further experiment would best test the claim that the TAP-deficient line fails to stimulate the CD8 clone only because peptides cannot enter the endoplasmic reticulum?",
+   "choices": {
+    "A": "Treating the TAP-deficient line with chloroquine and measuring the CD8 response",
+    "B": "Measuring how much proteasome activity the TAP-deficient line contains",
+    "C": "Infecting the TAP-deficient line with a virus making twice as much protein",
+    "D": "Adding the finished peptide outside the cells and retesting the CD8 clone"
+   },
+   "correct": "D",
+   "explanation": "A peptide supplied from outside can bind surface class I molecules without passing through the reticulum at all. If the only problem is the missing transporter, that bypass should restore the response from 30 pg/mL toward the 900 seen in the untreated line, whereas any other defect in the line would leave it low.",
+   "wrong": {
+    "A": "Chloroquine acts on the endosome and has no bearing on transport into the reticulum; it left the CD8 response untouched at 870 in the parental line.",
+    "B": "Proteasome activity is upstream of the transporter, so finding it normal would not show that transport is the only step at fault.",
+    "C": "More antigen does not help if the peptides produced cannot reach the compartment where class I is loaded, so the result would be uninformative either way."
+   },
+   "category": "3B",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "8"
+  },
+  {
+   "id": "bb3-p9-q4",
+   "passageId": "bb3-p9",
+   "stem": "The class II groove is open at both ends while the class I groove is closed. Which prediction follows from that difference?",
+   "choices": {
+    "A": "A long peptide can sit in the class II groove with its ends free, but must be trimmed for class I",
+    "B": "Class I can bind a peptide of any length provided its anchor residues are correct",
+    "C": "Class II needs no anchor residues at all, because its groove is open at both ends",
+    "D": "The two grooves bind the same peptides, and only the T cell receptor above them differs"
+   },
+   "correct": "A",
+   "explanation": "A closed groove holds both termini of the peptide, which sets a strict length of about 8 to 10 residues and means longer peptides have to be cut down to fit. An open groove lets the peptide run out at either end, so class II can present 13 residues or more from the same protein.",
+   "wrong": {
+    "B": "A closed groove is exactly what makes length a constraint, so anchor residues alone cannot rescue a peptide that is too long to be enclosed.",
+    "C": "Class II peptides still bind through residues that sit in pockets along the groove; what the open ends remove is the limit on length, not the need for anchors.",
+    "D": "The two routes load from different compartments and the grooves differ in shape, so the peptides presented are generally different ones."
+   },
+   "category": "1A",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "1"
+  },
+  {
+   "id": "bb3-p10-q1",
+   "passageId": "bb3-p10",
+   "stem": "In the wild type grown with glycine betaine, by what factor does the internal glycine betaine content rise between 0.1 and 1.0 mol/L added salt?",
+   "choices": {
+    "A": "21-fold",
+    "B": "9.0-fold",
+    "C": "2.3-fold",
+    "D": "1.6-fold"
+   },
+   "correct": "A",
+   "explanation": "The wild-type bars read 20 micromol per gram at 0.1 mol/L and 420 micromol per gram at 1.0 mol/L. Dividing 420 by 20 gives a 21-fold rise, which is why the figure needs an axis reaching 400 while the deletion strain's bars stay against the baseline.",
+   "wrong": {
+    "B": "This compares the first two wild-type bars, 180 against 20, and so covers only the step from 0.1 to 0.5 mol/L.",
+    "C": "This compares the last two wild-type bars, 420 against 180, and so covers only the step from 0.5 to 1.0 mol/L.",
+    "D": "This compares the deletion strain's bars at the same two salt concentrations, 32 against 20, which measures how little that strain accumulates rather than the wild type's rise."
+   },
+   "category": "2B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "9"
+  },
+  {
+   "id": "bb3-p10-q2",
+   "passageId": "bb3-p10",
+   "stem": "Glycine betaine raised the growth rate at 1.0 mol/L added salt from 0.10 to 0.55 divisions per hour in the wild type but from 0.10 to only 0.11 in the deletion strain, although both grow alike at 0.1 mol/L. Which conclusion is best supported?",
+   "choices": {
+    "A": "Glycine betaine protects the cells by lowering the osmolality of the medium outside them",
+    "B": "The deletion strain cannot grow at high salt for a reason unconnected with glycine betaine",
+    "C": "Glycine betaine acts on the transporter protein itself rather than on any other protein",
+    "D": "Protection requires the solute inside the cell, which the deletion strain cannot achieve"
+   },
+   "correct": "D",
+   "explanation": "Both strains face the same medium, so the solute outside them is identical; what differs is that only the wild type carries it in, reaching 420 micromol per gram against 32. Since only the strain that accumulates it is rescued, the protection must come from the solute within the cytoplasm.",
+   "wrong": {
+    "A": "A millimolar addition cannot change the osmolality set by molar sodium chloride, and if it did, both strains would be rescued equally.",
+    "B": "Restoring the transporter gene on a plasmid restored the wild-type growth rate at 1.0 mol/L, so the deficit is caused by the missing transporter.",
+    "C": "If the solute acted on the transporter alone, nothing would follow for growth, and the rescue would not depend on its reaching high concentrations inside."
+   },
+   "category": "2B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "9"
+  },
+  {
+   "id": "bb3-p10-q3",
+   "passageId": "bb3-p10",
+   "stem": "The investigators wish to support the claim that glycine betaine is compatible, meaning that it leaves protein function undisturbed at the concentrations the cells reach. Which experiment tests that claim most directly?",
+   "choices": {
+    "A": "Assay a purified bacterial enzyme in glycine betaine and in potassium glutamate at equal osmolality",
+    "B": "Measure the growth rate of the wild type with glycine betaine at each of the three salt concentrations",
+    "C": "Compare the internal glycine betaine of the wild type with that of the transporter deletion strain",
+    "D": "Measure how fast the transporter carries glycine betaine inward at each salt concentration"
+   },
+   "correct": "A",
+   "explanation": "The claim is about what the solute does to proteins, so the test should put a protein in the solute and watch it work, with the alternative solute at the same osmolality as the comparison. Anything measured in whole cells confounds the effect on proteins with effects on transport, on turgor and on growth.",
+   "wrong": {
+    "B": "Growth rate reports the sum of everything the solute does in a living cell, so a high rate cannot be attributed to protein function being spared.",
+    "C": "This shows which strain accumulates the solute and says nothing about what the solute does to a protein once it is there.",
+    "D": "Transport rates describe how the solute gets in, which is a separate question from whether it disturbs proteins after it has."
+   },
+   "category": "1A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "1"
+  },
+  {
+   "id": "bb3-p10-q4",
+   "passageId": "bb3-p10",
+   "stem": "A wild-type cell adapted to 1.0 mol/L added salt is suddenly transferred to a medium with no added salt. Which response saves it from bursting?",
+   "choices": {
+    "A": "The transporter runs backwards and pumps sodium ions back into the cell",
+    "B": "The cell wall is digested so that the envelope is free to stretch",
+    "C": "Water is driven out across the membrane by an ATP-powered pump",
+    "D": "Mechanosensitive channels open and let the accumulated solutes out"
+   },
+   "correct": "D",
+   "explanation": "The danger is the 420 micromol per gram of glycine betaine and the potassium glutamate the cell has accumulated, which now draw water in. Channels in the membrane that open when it is stretched release those solutes within milliseconds, so the osmotic difference disappears before the envelope fails.",
+   "wrong": {
+    "A": "Bringing sodium in would raise the internal osmolality further and draw in more water, making the problem worse rather than better.",
+    "B": "The wall is what resists turgor; digesting it would leave the membrane to take the whole pressure and burst sooner.",
+    "C": "No pump moves water; water follows the osmotic difference, so the cell must shed solutes rather than pump the solvent."
+   },
+   "category": "2B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "9"
+  },
+  {
+   "id": "bb3-d1",
+   "passageId": null,
+   "stem": "Glycogen phosphorylase removes glucose residues from the outer ends of a glycogen molecule but stops four residues short of each branch point. Which activities allow the breakdown to continue past that point?",
+   "choices": {
+    "A": "A synthase that extends the stalled chain out beyond the branch point",
+    "B": "An isomerase that converts the branch residue into its own enantiomer",
+    "C": "A transferase that moves three residues away and a glucosidase that frees the branch",
+    "D": "A phosphatase that strips the phosphate from the residue at the branch"
+   },
+   "correct": "C",
+   "explanation": "The debranching protein carries two activities. One transfers the block of three remaining residues onto the end of a nearby chain, where phosphorylase can take them. The other hydrolyses the single residue left attached through the branch linkage, releasing it as free glucose rather than as a phosphate ester.",
+   "wrong": {
+    "A": "Extending the chain would add residues rather than clear the obstruction, and synthesis is switched off whenever breakdown is switched on.",
+    "B": "No change of configuration is involved; what blocks phosphorylase is the branch linkage and the short stub left in front of it.",
+    "D": "The residue at the branch is joined to the chain by a glycosidic bond, not by a phosphate, so a phosphatase has nothing to remove there."
+   },
+   "category": "1D",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "3"
+  },
+  {
+   "id": "bb3-d2",
+   "passageId": null,
+   "stem": "An aminoacyl-tRNA synthetase whose editing site has been lost charges its transfer RNA with a near-isosteric amino acid more often than the wild type does. Where does that error appear?",
+   "choices": {
+    "A": "In the messenger RNA, as a wrong base at the third position of a codon",
+    "B": "In the transfer RNA, as a wrong anticodon for the amino acid attached to it",
+    "C": "In the protein, as a wrong residue at positions whose codons are read correctly",
+    "D": "In the DNA, as a mutation that the daughter cells go on to inherit"
+   },
+   "correct": "C",
+   "explanation": "A mischarged transfer RNA still carries the right anticodon, so the ribosome places it at the codon it is meant for. The amino acid it delivers is the wrong one, so the finished protein has a substitution at a position the messenger RNA specified correctly, and nothing in the nucleic acid sequence has changed.",
+   "wrong": {
+    "A": "The synthetase never touches the messenger RNA, which is transcribed from the gene before translation begins.",
+    "B": "The anticodon is part of the transfer RNA's own sequence and is unaffected by which amino acid the enzyme attaches to it.",
+    "D": "Nothing is written back into the genome, so the error affects only the protein molecules made while the faulty enzyme is working."
+   },
+   "category": "1B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb3-d3",
+   "passageId": null,
+   "stem": "Adrenaline reaches the liver from the adrenal medulla and mobilises glycogen there much as glucagon does. Which description of that gland and of its control is correct?",
+   "choices": {
+    "A": "Its cells are modified neurons driven by a tropic hormone from the anterior pituitary",
+    "B": "Its cells are driven by a releasing hormone carried from the hypothalamus in portal vessels",
+    "C": "Its cells receive postganglionic sympathetic fibres and secrete cortisol into the blood",
+    "D": "Its cells receive preganglionic sympathetic fibres and secrete adrenaline into the blood"
+   },
+   "correct": "D",
+   "explanation": "The medulla develops from neural crest and its chromaffin cells are the sympathetic ganglion that never grew an axon. Preganglionic fibres synapse on them directly, and instead of transmitting to a further neuron they release adrenaline into the blood. That is why a sympathetic discharge raises hepatic glucose output within seconds, and why the route is spoken of as nervous and endocrine at once.",
+   "wrong": {
+    "A": "The first half is right, but it is the adrenal cortex that answers to a tropic hormone from the anterior pituitary; the medulla is driven by nerves.",
+    "B": "Portal vessels carry releasing hormones from the hypothalamus to the anterior pituitary, which is a different gland from this one.",
+    "C": "Both halves are wrong: the fibres reaching these cells are preganglionic, and cortisol is a steroid made in the cortex."
+   },
+   "category": "3A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "7"
+  },
+  {
+   "id": "bb3-d4",
+   "passageId": null,
+   "stem": "Telomerase is a reverse transcriptase. What distinguishes it from the reverse transcriptase that a retrovirus carries?",
+   "choices": {
+    "A": "It copies DNA into RNA instead of copying RNA into DNA",
+    "B": "It needs no primer, starting each repeat from a free nucleotide",
+    "C": "It carries its own short RNA template as part of the enzyme",
+    "D": "It adds a different repeat sequence at each round of extension"
+   },
+   "correct": "C",
+   "explanation": "Both enzymes make DNA from an RNA template. The retroviral enzyme is handed the viral genome to copy, whereas telomerase arrives with a short RNA of its own held in the complex, and that RNA specifies the repeat that is added. The same few bases are used over and over.",
+   "wrong": {
+    "A": "Reverse transcription runs from RNA to DNA in both cases; copying DNA into RNA is what a transcriptase does.",
+    "B": "Telomerase uses the existing chromosome end as its primer, extending the overhang rather than starting a chain from nothing.",
+    "D": "The sequence added is the same repeat every time, because the template that specifies it is a fixed part of the enzyme."
+   },
+   "category": "1B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "4"
+  },
+  {
+   "id": "bb3-d5",
+   "passageId": null,
+   "stem": "Making one glucose from two molecules of pyruvate consumes four ATP and two GTP. How does that cost compare with what glycolysis yields from one glucose?",
+   "choices": {
+    "A": "Four high-energy bonds spent, twice the glycolytic yield",
+    "B": "Six high-energy bonds spent, three times the glycolytic yield",
+    "C": "Six high-energy bonds spent, six times the glycolytic yield",
+    "D": "Eight high-energy bonds spent, four times the glycolytic yield"
+   },
+   "correct": "B",
+   "explanation": "Four ATP and two GTP are six high-energy phosphate bonds. Glycolysis nets two ATP per glucose, so the reverse journey costs three times what the forward one returns. That difference is the price of running the irreversible steps in the opposite direction through separate enzymes.",
+   "wrong": {
+    "A": "This counts the four ATP and overlooks the two GTP, which the nucleoside diphosphate kinase makes interchangeable with ATP.",
+    "C": "The total of six is right, but the comparison treats glycolysis as yielding one high-energy bond per glucose rather than a net two.",
+    "D": "This counts eight bonds, which would require four phosphorylation steps on each three-carbon unit instead of the three that occur."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "3"
+  },
+  {
+   "id": "bb3-d6",
+   "passageId": null,
+   "stem": "A virus-infected cell has stopped displaying MHC class I molecules at its surface. Which cell is best placed to kill it, and why?",
+   "choices": {
+    "A": "A CD8 T cell, which recognises the absence of class I molecules directly",
+    "B": "A natural killer cell, which is released from inhibition when class I is missing",
+    "C": "A CD4 T cell, which reads viral peptide displayed on class I molecules",
+    "D": "A B cell, which binds the viral peptide using its surface antibody"
+   },
+   "correct": "B",
+   "explanation": "A natural killer cell carries receptors that are switched off by class I on a healthy cell. Where class I has been shed, that inhibition is lifted and the activating signals win, so the cell is killed. This is why losing class I is not a reliable escape for a virus.",
+   "wrong": {
+    "A": "A CD8 T cell needs to see peptide held in a class I molecule, so losing class I is exactly what makes the infected cell invisible to it.",
+    "C": "A CD4 T cell reads peptide on class II molecules displayed by antigen-presenting cells, and it is not the cell that kills an infected target.",
+    "D": "A B cell's antibody binds intact antigen rather than peptide, and the B cell makes antibody rather than killing a target cell itself."
+   },
+   "category": "3B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "8"
+  },
+  {
+   "id": "bb3-d7",
+   "passageId": null,
+   "stem": "All of the following are covalent modifications by which the activity of a protein can be regulated EXCEPT:",
+   "choices": {
+    "A": "phosphorylation of the hydroxyl of a serine residue by a protein kinase",
+    "B": "carboxylation of a glutamate side chain in a reaction needing vitamin K",
+    "C": "binding of a small molecule at a site some distance from the active site",
+    "D": "methylation of a glutamate side chain on a bacterial receptor protein"
+   },
+   "correct": "C",
+   "explanation": "An allosteric effector sits in its site through hydrogen bonds and other non-covalent contacts and can leave again without any bond in the protein being broken. That is what makes allosteric control fast and reversible, and it is why this is not a covalent modification.",
+   "wrong": {
+    "A": "This forms a phosphate ester with the side chain and so is covalent; a separate phosphatase is needed to hydrolyse it off.",
+    "B": "This adds a carboxyl group to the side chain, giving the dicarboxylate that binds calcium, and the new carbon-carbon bond is covalent.",
+    "D": "This forms a methyl ester with the side chain carboxyl, and a specific esterase is needed to remove it again."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "1"
+  },
+  {
+   "id": "bb3-d8",
+   "passageId": null,
+   "stem": "Cytochrome c has one role in a healthy cell and another in a dying one. Which pair names them correctly?",
+   "choices": {
+    "A": "Pumping protons across the inner membrane, and binding Bcl-2 at the outer membrane",
+    "B": "Oxidising NADH in the matrix, and cleaving procaspase-3 once in the cytosol",
+    "C": "Carrying electrons from complex III to complex IV, and seeding the apoptosome",
+    "D": "Carrying ADP into the matrix, and inhibiting procaspase-8 in the cytosol"
+   },
+   "correct": "C",
+   "explanation": "In the intermembrane space the protein shuttles single electrons from complex III to complex IV. If the outer membrane is permeabilised it escapes to the cytosol, where it binds Apaf-1 and lets the apoptosome assemble, which activates procaspase-9. One small protein therefore reports the state of the membrane that holds it.",
+   "wrong": {
+    "A": "Proton pumping is done by the complexes themselves, and it is Bcl-2 that acts on BAX and BAK at the outer membrane rather than on cytochrome c.",
+    "B": "NADH is oxidised by complex I, and cytochrome c is not a protease, so it cannot cleave a procaspase.",
+    "D": "ADP is carried by a separate translocase, and in the cytosol cytochrome c promotes caspase activation rather than inhibiting it."
+   },
+   "category": "2A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "6"
+  },
+  {
+   "id": "bb3-d9",
+   "passageId": null,
+   "stem": "Filtration proceeds at 120 mL/min and plasma sodium is 140 mmol/L. If 0.5% of the filtered sodium leaves in the urine, how much sodium is excreted each minute?",
+   "choices": {
+    "A": "0.017 mmol/min",
+    "B": "0.084 mmol/min",
+    "C": "0.84 mmol/min",
+    "D": "16.8 mmol/min"
+   },
+   "correct": "B",
+   "explanation": "The filtered load is 0.120 L/min multiplied by 140 mmol/L, which is 16.8 mmol/min. Half a per cent of that is 0.084 mmol/min, which over a day comes to about 120 mmol, roughly the sodium in an ordinary diet.",
+   "wrong": {
+    "A": "This takes 0.1% of the filtered load instead of 0.5%, which is a fifth of the share the question gives.",
+    "C": "This takes 5% of the filtered load, a tenfold error in the decimal place of the fraction excreted.",
+    "D": "This is the filtered load itself, the amount entering the tubule each minute rather than the amount leaving in the urine."
+   },
+   "category": "3B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb3-d10",
+   "passageId": null,
+   "stem": "Adrenaline acting on a skeletal muscle cell and glucagon acting on a liver cell both raise cyclic AMP and both mobilise glycogen, yet only the liver releases glucose into the blood. Why?",
+   "choices": {
+    "A": "Muscle has no glycogen phosphorylase, so its glycogen is never broken down",
+    "B": "Muscle has no protein kinase A, so the rise in cyclic AMP has no consequence",
+    "C": "Muscle lacks glucose 6-phosphatase, so the phosphate cannot be removed",
+    "D": "Muscle has no glucose transporter, so glucose could not cross its membrane"
+   },
+   "correct": "C",
+   "explanation": "A phosphorylated sugar cannot cross a membrane, and only the liver and a few other tissues carry the phosphatase that frees glucose from glucose 6-phosphate. Muscle therefore keeps the carbon it mobilises and feeds it into its own glycolysis, which is why muscle glycogen does not support blood glucose.",
+   "wrong": {
+    "A": "Muscle has its own isoform of the enzyme, and the question states that both tissues do mobilise their glycogen.",
+    "B": "Muscle has protein kinase A and uses it in this very response; the rise in cyclic AMP there activates phosphorylase as it does in liver.",
+    "D": "Muscle carries glucose transporters and takes glucose up from the blood; the problem is the phosphate on the sugar, not the absence of a carrier."
+   },
+   "category": "1D",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "3"
+  },
+  {
+   "id": "bb3-d11",
+   "passageId": null,
+   "stem": "A transfer RNA has the anticodon AAG, written in the 3' to 5' direction. Reading codons in the usual 5' to 3' direction, which codon does this transfer RNA read?",
+   "choices": {
+    "A": "The codon UUC",
+    "B": "The codon AAG",
+    "C": "The codon GAA",
+    "D": "The codon TTC"
+   },
+   "correct": "A",
+   "explanation": "The anticodon pairs with the codon in antiparallel fashion, so an anticodon written 3' to 5' lines up base by base with a codon written 5' to 3'. Pairing A with U, A with U and G with C gives the codon UUC, which specifies phenylalanine.",
+   "wrong": {
+    "B": "This repeats the anticodon sequence instead of taking its complement, which would have the transfer RNA pairing with itself.",
+    "C": "This is the anticodon itself rewritten from 5' to 3', GAA, rather than the complement of it; no base has been paired.",
+    "D": "This uses thymine, which belongs to DNA; a codon in a messenger RNA carries uracil in its place."
+   },
+   "category": "1B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "4"
+  },
+  {
+   "id": "bb3-d12",
+   "passageId": null,
+   "stem": "Germ line cells divide many more times than cultured fibroblasts without running into a replicative limit. What accounts for that?",
+   "choices": {
+    "A": "They divide by meiosis, which does not shorten the ends of chromosomes",
+    "B": "They express telomerase, which restores the repeats lost at each division",
+    "C": "They carry circular chromosomes, which have no ends that could shorten",
+    "D": "They repair their ends by crossing over with the homologous chromosome"
+   },
+   "correct": "B",
+   "explanation": "Germ line cells keep the enzyme switched on, so the repeats removed by each round of replication are added back and the ends never fall to the length that triggers arrest. Most somatic cells switch it off, which is why their telomeres shorten steadily in culture.",
+   "wrong": {
+    "A": "The replications that precede meiosis use the same machinery and leave the same gap at the end of the lagging strand, so meiosis offers no exemption.",
+    "C": "Human germ line chromosomes are linear like any other; circular chromosomes are a feature of bacteria and of organelles.",
+    "D": "Crossing over exchanges material between homologues and cannot lengthen an end, since the homologue is shortening in the same way."
+   },
+   "category": "1C",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "5"
+  },
+  {
+   "id": "bb3-d13",
+   "passageId": null,
+   "stem": "A zymogen is turned into an active enzyme by a single proteolytic cleavage. Which statement about that step is correct?",
+   "choices": {
+    "A": "It cannot be undone, so the enzyme is instead held in check by inhibitors",
+    "B": "It can be reversed by a ligase that joins the two fragments back together",
+    "C": "It consumes ATP, which is why zymogens are activated only inside a cell",
+    "D": "It alters the sequence of the residues that make up the active site itself"
+   },
+   "correct": "A",
+   "explanation": "Hydrolysis of a peptide bond releases energy and no enzyme in the blood or in the gut puts the bond back, so activation by cleavage is a one-way switch. Control therefore has to come from somewhere else: from where and when the activating protease is released, and from inhibitory proteins that bind the active enzyme.",
+   "wrong": {
+    "B": "No such ligase acts on these proteins; re-forming a peptide bond in water is energetically uphill and would need an activated intermediate.",
+    "C": "Peptide bond hydrolysis needs no ATP, and many zymogens are activated outside cells, in the gut lumen and in plasma.",
+    "D": "The sequence is set when the protein is translated; cleavage lets the chain rearrange so that an active site already encoded can take shape."
+   },
+   "category": "1A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "1"
+  },
+  {
+   "id": "bb3-d14",
+   "passageId": null,
+   "stem": "Blood glucose falls during a fast and the alpha cells of the pancreatic islets secrete glucagon, which drives the liver to release glucose. Which description of the control of that secretion is correct?",
+   "choices": {
+    "A": "Glucagon acts back on the alpha cell to raise its own secretion further, a positive loop",
+    "B": "The glucose the liver releases acts back on the alpha cell to slow further secretion",
+    "C": "Secretion is set by a tropic hormone that the anterior pituitary releases in a fast",
+    "D": "Secretion runs on unchanged until the stored hormone in the islet has been used up"
+   },
+   "correct": "B",
+   "explanation": "The variable the loop defends is the blood glucose concentration, and the hormone's own effect is to raise it. As hepatic output restores the concentration, the stimulus to the alpha cell is withdrawn and secretion falls. A loop whose output opposes its own input in this way is negative feedback, and it is what holds blood glucose in a narrow band rather than driving it to an extreme.",
+   "wrong": {
+    "A": "A loop that amplified its own stimulus would drive blood glucose up without limit; feedback that defends a set point has to oppose the stimulus.",
+    "C": "No pituitary hormone controls the alpha cell, which responds to the glucose concentration in the blood washing over it.",
+    "D": "Secretion is regulated continuously rather than run to exhaustion, and the islet goes on making the hormone as it releases it."
+   },
+   "category": "3A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "7"
+  },
+  {
+   "id": "bb3-d15",
+   "passageId": null,
+   "stem": "Acetyl-CoA from the oxidation of fatty acids cannot give a net gain of glucose in a human. What is the reason?",
+   "choices": {
+    "A": "Its two carbons leave as carbon dioxide before oxaloacetate is regenerated",
+    "B": "Acetyl-CoA cannot cross the inner mitochondrial membrane into the matrix",
+    "C": "Pyruvate dehydrogenase runs backwards too slowly to matter in the liver",
+    "D": "The liver has no pyruvate carboxylase, so oxaloacetate cannot be made at all"
+   },
+   "correct": "A",
+   "explanation": "Acetyl-CoA enters the citric acid cycle by condensing with oxaloacetate, and by the time oxaloacetate has been remade two carbons have been released as carbon dioxide. Drawing oxaloacetate off into glucose therefore removes as much carbon from the cycle as the acetyl group brought in, so there is no net gain.",
+   "wrong": {
+    "B": "Fatty acid oxidation occurs in the matrix, so the acetyl-CoA is made where the cycle runs and has no membrane to cross.",
+    "C": "The step is not slow but effectively irreversible, because one of its products is lost as carbon dioxide and the reaction is strongly exergonic.",
+    "D": "The liver has abundant pyruvate carboxylase, which is how lactate and alanine are converted to glucose."
+   },
+   "category": "1D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "3"
+  }
+ ]
+}

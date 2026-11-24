@@ -1,0 +1,1476 @@
+{
+ "passages": [
+  {
+   "id": "cp3-p1",
+   "title": "Clearing the blood by dialysis",
+   "paragraphs": [
+    "In haemodialysis blood flows along one face of a synthetic membrane while dialysate flows the other way along the other. Solutes small enough to enter the pores diffuse down their own concentration gradients, each independently of the others, so the composition of the dialysate decides the direction in which every solute moves. The pores admit molecules up to about 10 kDa and exclude the plasma proteins altogether. By Fick's first law the diffusive flow of a solute is its diffusion coefficient in the membrane, multiplied by the membrane area and by the concentration difference across the membrane, divided by the membrane thickness. One widely used dialyser presents 1.6 m\u00b2 of membrane 20 micrometres thick, and urea's diffusion coefficient in that membrane is 4.0 \u00d7 10\u207b\u00b9\u00b9 m\u00b2/s.",
+    "Table 1 lists the concentrations that a patient's blood and the prescribed dialysate carry as they enter the device. Urea and creatinine are absent from the dialysate, so they leave the blood as fast as diffusion allows. Potassium is held at 2.0 mM rather than at zero, because stripping it too quickly provokes arrhythmia. Bicarbonate is deliberately set above the blood's own value, and glucose is matched to the blood so that the treatment neither feeds nor starves the patient.",
+    "The proteins stay behind, and the osmotic pressure they exert holds water in the circulation. Plasma carries about 40 g/L of albumin, of molar mass 66,500 g/mol, and about 25 g/L of globulins, of average molar mass 150,000 g/mol. Treated as ideal solutes at 310 K they account for less than the 25 mmHg of colloid osmotic pressure actually measured in plasma, because each protein's negative charges hold a cloud of counterions that are themselves osmotically active.",
+    "Peritoneal dialysis dispenses with the machine and uses the peritoneum as the membrane. The dialysate instilled into the abdomen is made hypertonic, traditionally with 1.5 g of glucose per 100 mL, so that water is drawn out of the circulation across the membrane. Over a long dwell the glucose is itself absorbed, the gradient fades and water removal stalls; for overnight dwells a glucose polymer of about 4000 g/mol is used in its place."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Solute concentrations in the blood and in the dialysate entering the dialyser.",
+    "markup": "<table><thead><tr><th>Solute</th><th>Blood entering (mM)</th><th>Dialysate entering (mM)</th></tr></thead><tbody><tr><td>Urea</td><td>25</td><td>0</td></tr><tr><td>Creatinine</td><td>0.9</td><td>0</td></tr><tr><td>Potassium</td><td>5.5</td><td>2.0</td></tr><tr><td>Bicarbonate</td><td>22</td><td>32</td></tr><tr><td>Glucose</td><td>5.0</td><td>5.0</td></tr><tr><td>Albumin</td><td>0.60</td><td>0</td></tr></tbody></table>"
+   },
+   "sources": [
+    {
+     "label": "KDOQI clinical practice guideline for haemodialysis adequacy",
+     "url": "https://www.kidney.org/professionals/guidelines"
+    }
+   ]
+  },
+  {
+   "id": "cp3-p2",
+   "title": "Reading a urine screen by GC-MS",
+   "paragraphs": [
+    "An extract of urine is injected into a heated port, swept onto a narrow capillary column by a stream of helium, and carried through an oven whose temperature is raised on a programme. The inner wall of the column is coated with a thin film of a nonvolatile liquid, a nonpolar poly(dimethylsiloxane). A compound travels only while it is in the gas stream; every excursion into the liquid film holds it still, so the time it takes to reach the far end measures how strongly it partitions into the film. A compound that is retained not at all would emerge in 1.2 min on this column, the holdup time. The retention factor of a real analyte is the time the film held it back, divided by that holdup time. Polar, nonvolatile analytes are first converted to volatile derivatives, since a compound that will not evaporate cannot be carried at all.",
+    "At the far end the compounds pass into a mass spectrometer, where electrons at 70 eV knock an electron out of each molecule. Many of the resulting ions break apart, and the instrument separates all of them by mass divided by charge number. The most intense peak in the resulting spectrum is called the base peak, and it is not always the intact molecular ion. Table 1 lists the retention time, molecular mass and base peak of four compounds run as standards on this column.",
+    "Quantification uses an internal standard, the same compound labelled with deuterium, which is added to every sample at a fixed concentration. Because the labelled and unlabelled forms are extracted and injected with equal efficiency, the ratio of their peak areas depends on concentration alone. For amphetamine on this instrument the calibration line is ratio = 0.25 c + 0.05, with c in mg/L.",
+    "Neither measurement identifies a compound on its own. Hundreds of compounds appear in a urine extract, and a single column assigns many of them to the same narrow window of retention time. The mass spectrum supplies a second description of the same peak, and it is the pair together that a laboratory will defend."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Standards run on the capillary column, with the base peak of each electron impact spectrum.",
+    "markup": "<table><thead><tr><th>Compound</th><th>Retention time (min)</th><th>Molecular mass (u)</th><th>Base peak (m/z)</th></tr></thead><tbody><tr><td>Amphetamine</td><td>6.2</td><td>135</td><td>44</td></tr><tr><td>Nicotine</td><td>8.1</td><td>162</td><td>84</td></tr><tr><td>Caffeine</td><td>11.4</td><td>194</td><td>194</td></tr><tr><td>Cocaine</td><td>14.8</td><td>303</td><td>182</td></tr></tbody></table>"
+   },
+   "sources": [
+    {
+     "label": "NIST Chemistry WebBook, electron ionisation mass spectra",
+     "url": "https://webbook.nist.gov/chemistry/"
+    }
+   ]
+  },
+  {
+   "id": "cp3-p3",
+   "title": "Separating serum proteins in an electric field",
+   "paragraphs": [
+    "A drop of serum is applied near one end of a gel soaked in a buffer at pH 8.6, and 150 V is applied across the 10.0 cm between the electrodes. Every major serum protein has an isoelectric point below the buffer pH, so every one of them carries a net negative charge and all travel in the same direction, toward the anode. A protein reaches a steady speed almost at once, because the electric force on it is matched by the viscous drag of the gel. The electric force is the net charge times the field, and the drag is the Stokes drag, proportional to the buffer's viscosity, the protein's radius and its speed. Setting the two equal makes the steady speed proportional to the ratio of charge to radius, and the mobility, defined as that speed divided by the field, is a property of the protein and the buffer rather than of the voltage chosen.",
+    "Table 1 records the net charge and the Stokes radius of four serum proteins at pH 8.6, with the distance each travelled in a 30 min run. Albumin is both the most negative and among the smallest, and it leads the field; immunoglobulin G is nearly neutral at this pH and barely leaves the application point, which is why the immunoglobulins appear as a broad slow band rather than a sharp one.",
+    "Two practical limits bound the method. The current passing through the buffer heats the gel, and heat both distorts the bands and denatures the proteins, so the voltage cannot simply be raised until the run is quick. The buffer's ionic strength matters as well: a protein in a concentrated salt solution gathers a dense cloud of counterions of opposite sign, which screens part of its charge and lowers its mobility. Running at low ionic strength sharpens the separation but carries more of the current through the protein's own surroundings. Pushed much further, a high salt concentration takes the proteins out of solution altogether: this is how ammonium sulfate is used to precipitate albumin before a gel is ever run."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Four serum proteins at pH 8.6, with the distance each migrated in 30 min at 150 V across 10.0 cm.",
+    "markup": "<table><thead><tr><th>Protein</th><th>Net charge (elementary charges)</th><th>Stokes radius (nm)</th><th>Distance migrated (cm)</th></tr></thead><tbody><tr><td>Albumin</td><td>-18</td><td>3.5</td><td>3.2</td></tr><tr><td>Alpha-1 antitrypsin</td><td>-13</td><td>3.2</td><td>2.5</td></tr><tr><td>Transferrin</td><td>-11</td><td>4.0</td><td>1.7</td></tr><tr><td>Immunoglobulin G</td><td>-2</td><td>6.0</td><td>0.2</td></tr></tbody></table>"
+   },
+   "sources": []
+  },
+  {
+   "id": "cp3-p4",
+   "title": "A limb that swings like a pendulum",
+   "paragraphs": [
+    "For much of the swing phase of walking, the leg hangs from the hip and moves largely without muscular driving, so the time it takes to swing forward can be predicted from mechanics alone. Two models are available. The first treats the leg as a simple pendulum, with all of its mass at the foot, a distance L from the pivot; its period is 2 \u03c0 times the square root of L over g. The second treats it as a uniform rod pivoted at one end, whose mass is spread evenly along its length; its period is 2 \u03c0 times the square root of 2L over 3g. Both results hold only for small angles, where the restoring torque is proportional to the displacement, and neither depends on the mass of the limb or on the size of the swing.",
+    "Four subjects of different height were filmed walking at the speed each chose freely. The swing time recorded for each is the time from the moment the foot leaves the ground to the moment it touches down again, which is half of a full pendulum period, since the leg swings forward and does not swing back before the foot lands. Table 1 lists leg length and swing time for the four. Take g as 9.8 m/s\u00b2.",
+    "Walking near the limb's own pendulum period is cheap, because the muscles then supply only the small losses rather than the whole of the acceleration and deceleration. Walking faster than that, or carrying mass low on the leg, forces the hip flexors to drive the swing, and the metabolic cost per unit distance rises sharply. Within the small-angle limit, swinging the leg through a larger arc does not change the time the swing takes, since the larger arc is covered at a proportionally larger speed."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Leg length and measured swing time for four walking subjects.",
+    "markup": "<table><thead><tr><th>Subject</th><th>Leg length (m)</th><th>Measured swing time (s)</th></tr></thead><tbody><tr><td>W</td><td>0.80</td><td>0.74</td></tr><tr><td>X</td><td>0.90</td><td>0.78</td></tr><tr><td>Y</td><td>1.00</td><td>0.82</td></tr><tr><td>Z</td><td>1.10</td><td>0.86</td></tr></tbody></table>"
+   },
+   "sources": []
+  },
+  {
+   "id": "cp3-p5",
+   "title": "Losing heat in a cool room",
+   "paragraphs": [
+    "A resting adult turns about 80 W of chemical energy into heat, and an adult exercising hard can turn over 600 W. All of it has to leave the body, and it leaves by four routes. Heat is conducted outward through the shell of fat and skin, which can be modelled as a slab: the rate is the conductivity of the layer, times its area, times the temperature difference between its two faces, divided by its thickness. From the skin, heat passes to the surrounding air by convection, at a rate equal to a convective coefficient times the area times the difference between skin and air temperature. Heat also leaves as infrared radiation, and sweat carries heat away as it evaporates, each kilogram taking with it the latent heat of vaporisation.",
+    "Table 1 collects the quantities for one subject in a room at 22 \u00b0C, with skin at 33 \u00b0C and core at 37 \u00b0C. The slab model is a simplification in one important respect: most of the heat that reaches the skin in a warm subject is carried there by blood flowing through the dermis rather than conducted through the fat, and the body regulates its heat loss largely by opening and closing those vessels. The conductive estimate is therefore a floor on what the shell can pass when the skin vessels are shut.",
+    "Evaporation is the route that does not depend on the skin being warmer than the air. Sweat evaporates in proportion to the difference between the water vapour pressure at the wet skin and the water vapour pressure in the air, so it continues, and becomes the only route available, when the air is warmer than the body. In saturated air that difference nearly vanishes, and the sweat runs off without evaporating; this is why humid heat is dangerous at temperatures that dry heat is not."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Quantities for the subject and the room.",
+    "markup": "<table><thead><tr><th>Quantity</th><th>Value</th></tr></thead><tbody><tr><td>Skin surface area</td><td>1.8 m\u00b2</td></tr><tr><td>Core temperature</td><td>37 \u00b0C</td></tr><tr><td>Skin temperature</td><td>33 \u00b0C</td></tr><tr><td>Room air temperature</td><td>22 \u00b0C</td></tr><tr><td>Thickness of the subcutaneous fat layer</td><td>10 mm</td></tr><tr><td>Thermal conductivity of fat</td><td>0.20 W/(m K)</td></tr><tr><td>Thermal conductivity of water</td><td>0.60 W/(m K)</td></tr><tr><td>Convective coefficient at the skin</td><td>8.0 W/(m\u00b2 K)</td></tr><tr><td>Latent heat of vaporisation of sweat</td><td>2430 kJ/kg</td></tr><tr><td>Latent heat of fusion of water</td><td>334 kJ/kg</td></tr></tbody></table>"
+   },
+   "sources": []
+  },
+  {
+   "id": "cp3-p6",
+   "title": "Designing a buffer for an injectable drug",
+   "paragraphs": [
+    "A drug intended for injection hydrolyses quickly in acid and in alkali and is most stable near pH 5.0, losing less than two per cent of its potency a year between pH 4.5 and pH 5.5. The formulation therefore has to hold that window for the shelf life of the product, against acid released by the small amount of degradation that does occur and against carbon dioxide taken up through the closure. A weak acid and its conjugate base do this, and the pH they hold is given by the Henderson-Hasselbalch equation: the pH is the pKa of the acid plus the base-ten logarithm of the ratio of conjugate base to acid.",
+    "Two things decide which pair to use. The first is the pKa: capacity is greatest when the pH equals the pKa, where the two forms are present in equal amounts, and it falls away on either side, so a pair is useful only within about one unit of its pKa. The second is the total concentration, since capacity is proportional to it; but a concentrated buffer makes the injection hypertonic and stings at the injection site, so the formulation is held to 0.10 mol of buffer in total per litre. Table 1 lists the candidates available in injectable grade.",
+    "The chosen formulation is 1.0 L of solution containing 0.10 mol of acetic acid and sodium acetate between them, adjusted to pH 5.00. Buffer capacity can be quantified as the moles of strong acid that a litre absorbs per unit fall in pH over a small addition, and it depends on the total concentration of the pair and on how evenly the pair is divided between its two forms."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Candidate buffer pairs, with pKa values at 25 \u00b0C.",
+    "markup": "<table><thead><tr><th>Buffer pair</th><th>pKa at 25 \u00b0C</th></tr></thead><tbody><tr><td>Lactic acid / lactate</td><td>3.86</td></tr><tr><td>Acetic acid / acetate</td><td>4.76</td></tr><tr><td>MES / MES anion</td><td>6.10</td></tr><tr><td>Dihydrogen phosphate / hydrogen phosphate</td><td>7.20</td></tr></tbody></table>"
+   },
+   "sources": []
+  },
+  {
+   "id": "cp3-p7",
+   "title": "Making a drug intermediate by aldol condensation",
+   "paragraphs": [
+    "A conjugated enone used as a drug intermediate is made by condensing benzaldehyde with acetophenone in aqueous ethanol containing sodium hydroxide. Hydroxide removes the slightly acidic hydrogen from the carbon next to acetophenone's carbonyl group, giving an enolate whose negative charge is shared between that carbon and the oxygen. The carbon end attacks the carbonyl carbon of benzaldehyde, which joins the two fragments by a new carbon-carbon bond and gives a beta-hydroxy ketone. That alcohol then loses water across the two carbons between the new bond and the carbonyl, leaving a carbon-carbon double bond conjugated with both the carbonyl group and a benzene ring. Benzaldehyde has no hydrogen on a carbon next to its own carbonyl, so it cannot form an enolate and cannot condense with itself, which is what keeps the pairing clean.",
+    "Three runs were made with each substrate at 0.20 M. Trial 1, in 1.0 M sodium hydroxide at 25 \u00b0C for two hours, gave 86 per cent of the enone and 5 per cent of the beta-hydroxy ketone. Trial 2, in 0.010 M sodium hydroxide at 0 \u00b0C for two hours, gave 20 per cent of the enone and 62 per cent of the beta-hydroxy ketone. Trial 3, with no base at 25 \u00b0C for two hours, returned the starting materials unchanged.",
+    "The enone is favoured thermodynamically because its double bond is conjugated with the carbonyl group and the ring, and the dehydration can be pushed further by distilling water out of the mixture. The molar masses needed for a yield calculation are 106 g/mol for benzaldehyde, 120 g/mol for acetophenone, 226 g/mol for the beta-hydroxy ketone and 208 g/mol for the enone."
+   ],
+   "figure": {
+    "kind": "svg",
+    "caption": "Figure 1  The three steps of the condensation, with hydroxide regenerated at the end.",
+    "markup": "<svg viewBox=\"0 0 330 190\" role=\"img\" aria-label=\"Flow diagram of three steps: enolate formation, addition to benzaldehyde, then loss of water to give the conjugated enone\"><g font-size=\"9\" fill=\"#222\"><rect x=\"10\" y=\"14\" width=\"120\" height=\"34\" rx=\"5\" fill=\"#eef3f8\" stroke=\"#1a4f8a\"/><text x=\"20\" y=\"28\">acetophenone + hydroxide</text><text x=\"20\" y=\"41\">step 1: remove alpha proton</text><rect x=\"10\" y=\"78\" width=\"120\" height=\"34\" rx=\"5\" fill=\"#eef3f8\" stroke=\"#1a4f8a\"/><text x=\"20\" y=\"92\">enolate + benzaldehyde</text><text x=\"20\" y=\"105\">step 2: addition at carbon</text><rect x=\"10\" y=\"142\" width=\"120\" height=\"34\" rx=\"5\" fill=\"#eef3f8\" stroke=\"#1a4f8a\"/><text x=\"20\" y=\"156\">beta-hydroxy ketone</text><text x=\"20\" y=\"169\">step 3: lose water</text><rect x=\"190\" y=\"78\" width=\"130\" height=\"34\" rx=\"5\" fill=\"#f6f1e7\" stroke=\"#8a5a1a\"/><text x=\"200\" y=\"92\">conjugated enone + water</text><text x=\"200\" y=\"105\">hydroxide regenerated</text></g><g stroke=\"#444\" fill=\"none\" stroke-width=\"1.2\"><path d=\"M70 48 V74\" marker-end=\"url(#cp3a)\"/><path d=\"M70 112 V138\" marker-end=\"url(#cp3a)\"/><path d=\"M130 159 H170 V99 H186\" marker-end=\"url(#cp3a)\"/></g><defs><marker id=\"cp3a\" viewBox=\"0 0 8 8\" refX=\"6\" refY=\"4\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 1 L6 4 L0 7 z\" fill=\"#444\"/></marker></defs></svg>"
+   },
+   "sources": [
+    {
+     "label": "NIST Chemistry WebBook, molar masses and physical properties",
+     "url": "https://webbook.nist.gov/chemistry/"
+    }
+   ]
+  },
+  {
+   "id": "cp3-p8",
+   "title": "How much of an X-ray beam gets through",
+   "paragraphs": [
+    "A narrow beam of X-ray photons crossing matter is attenuated exponentially: the fraction transmitted is e raised to minus the product of the linear attenuation coefficient of the material and the thickness crossed. Each layer removes the same fraction of whatever reaches it, so the thickness that halves the beam, the half-value layer, is the natural logarithm of 2 divided by the attenuation coefficient. Doubling the thickness therefore squares the transmitted fraction rather than halving it.",
+    "At the energies used for diagnosis the dominant interaction in a heavy element is the photoelectric effect, whose probability per atom rises roughly with the cube of atomic number and falls steeply as photon energy rises. In the light elements of soft tissue, Compton scattering from loosely bound outer electrons contributes most of the attenuation instead, and it depends on electron density rather than on atomic number. The difference is what gives a radiograph its contrast: bone attenuates far more than the muscle around it chiefly because of the calcium in it, and a contrast agent works by carrying iodine or barium into a soft tissue. Table 1 gives measured coefficients at 60 keV, a typical mean energy for a diagnostic beam.",
+    "The same figures govern shielding and filtration. A sheet of aluminium placed in the beam removes the lowest-energy photons preferentially, since the photoelectric cross-section falls with energy; those photons would have been absorbed in the patient's skin without ever reaching the detector, so filtering them out lowers the dose without dimming the image. Lead is reserved for shielding, where the aim is to stop everything in the least thickness possible."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Attenuation at 60 keV, from tabulated mass attenuation coefficients.",
+    "markup": "<table><thead><tr><th>Material</th><th>Density (g/cm\u00b3)</th><th>Linear attenuation coefficient (cm\u207b\u00b9)</th><th>Half-value layer (cm)</th></tr></thead><tbody><tr><td>Soft tissue</td><td>1.0</td><td>0.20</td><td>3.5</td></tr><tr><td>Cortical bone</td><td>1.9</td><td>0.53</td><td>1.3</td></tr><tr><td>Aluminium</td><td>2.7</td><td>0.75</td><td>0.92</td></tr><tr><td>Lead</td><td>11.4</td><td>57</td><td>0.012</td></tr></tbody></table>"
+   },
+   "sources": [
+    {
+     "label": "NIST tables of X-ray mass attenuation coefficients",
+     "url": "https://physics.nist.gov/PhysRefData/XrayMassCoef/cover.html"
+    }
+   ]
+  },
+  {
+   "id": "cp3-p9",
+   "title": "How fast cells settle in plasma",
+   "paragraphs": [
+    "The erythrocyte sedimentation rate is measured by standing a column of anticoagulated blood upright and reading how far the boundary between clear plasma and settled cells has fallen after one hour. A single cell settling in plasma reaches a steady speed within a fraction of a second, at which its weight is balanced by the buoyant force and by the viscous drag. For a sphere in a laminar flow, Stokes' law makes that speed twice the square of the radius, times the difference in density between particle and fluid, times g, divided by nine times the viscosity of the fluid. A red cell is treated here as an equivalent sphere of radius 3.5 micrometres and density 1098 kg/m\u00b3; plasma has a density of 1025 kg/m\u00b3 and, when healthy, a viscosity of 1.5 mPa s, against 1.0 mPa s for water.",
+    "What makes the measurement useful in illness is that fibrinogen and the other acute-phase proteins make red cells stack face to face into rouleaux. An aggregate settles as one body, so the effective radius in Stokes' law rises, and because the speed goes as the square of the radius, a modest degree of stacking raises the rate steeply. The same proteins also thicken the plasma, which acts in the opposite direction. Table 1 lists the plasma viscosity, the effective aggregate radius and the measured rate for four patients.",
+    "Two assumptions in the law are worth holding in mind. It describes laminar flow around the particle, which is amply satisfied here: the Reynolds number for a settling cell is of order ten to the minus five, so inertia plays no part. It also describes an isolated particle, which real blood is not. A high cell count means neighbouring cells and the upward flow of displaced plasma hinder each other, which slows the settling; this is why anaemia raises the measured rate and why polycythaemia lowers it."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Plasma viscosity, effective aggregate radius and measured sedimentation rate for four patients.",
+    "markup": "<table><thead><tr><th>Patient</th><th>Plasma viscosity (mPa s)</th><th>Effective aggregate radius (micrometres)</th><th>Measured rate (mm/h)</th></tr></thead><tbody><tr><td>W</td><td>1.5</td><td>3.5</td><td>5</td></tr><tr><td>X</td><td>1.6</td><td>7.0</td><td>17</td></tr><tr><td>Y</td><td>1.8</td><td>10.0</td><td>32</td></tr><tr><td>Z</td><td>2.2</td><td>12.0</td><td>37</td></tr></tbody></table>"
+   },
+   "sources": []
+  },
+  {
+   "id": "cp3-p10",
+   "title": "Reading an inhibitor off a double-reciprocal plot",
+   "paragraphs": [
+    "An enzyme assayed over a range of substrate concentrations gives an initial rate that rises steeply at low substrate and flattens toward a maximum rate at high substrate. Taking the reciprocal of both the rate and the substrate concentration turns that curve into a straight line: a plot of one over the rate against one over the substrate concentration has a slope equal to the Michaelis constant divided by the maximum rate, and it meets the vertical axis at one over the maximum rate. Two quantities can therefore be read off a fitted line, and the slope divided by the intercept returns the Michaelis constant on its own.",
+    "The plot also sorts inhibitors by what they leave untouched. An inhibitor that competes with the substrate for the same site can always be out-competed by raising the substrate concentration, so the maximum rate, and with it the vertical intercept, is unchanged, while the apparent Michaelis constant and the slope both rise. An inhibitor that binds elsewhere and lowers the maximum rate raises the intercept instead. For a competitive inhibitor the apparent Michaelis constant is the true one multiplied by the quantity one plus the inhibitor concentration divided by the inhibition constant.",
+    "Table 1 gives the reciprocal rates measured at four substrate concentrations, with and without 10 micromolar of a candidate drug. Rates are in micromol per litre per minute and substrate concentrations in millimolar, so the reciprocal rates carry units of litre minutes per micromol. The apparent Michaelis constant in the presence of the drug is 6.0 mM."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Reciprocal initial rates with and without 10 micromolar drug.",
+    "markup": "<table><thead><tr><th>1 / [substrate] (per mM)</th><th>1 / rate, no drug</th><th>1 / rate, with drug</th></tr></thead><tbody><tr><td>0.10</td><td>0.024</td><td>0.032</td></tr><tr><td>0.25</td><td>0.030</td><td>0.050</td></tr><tr><td>0.50</td><td>0.040</td><td>0.080</td></tr><tr><td>1.00</td><td>0.060</td><td>0.140</td></tr></tbody></table>"
+   },
+   "sources": []
+  }
+ ],
+ "questions": [
+  {
+   "id": "cp3-p1-q1",
+   "passageId": "cp3-p1",
+   "stem": "Treated as ideal solutes, what colloid osmotic pressure do the plasma proteins of paragraph 3 exert at 310 K? (R = 0.0821 L atm mol\u207b\u00b9 K\u207b\u00b9; 1 atm = 760 mmHg)",
+   "choices": {
+    "A": "3.2 mmHg",
+    "B": "8.4 mmHg",
+    "C": "11.6 mmHg",
+    "D": "14.9 mmHg"
+   },
+   "correct": "D",
+   "explanation": "Each protein contributes in proportion to its molar concentration. Albumin at 40 g/L divided by 66,500 g/mol is 6.0 \u00d7 10\u207b\u2074 mol/L, and the globulins at 25 g/L divided by 150,000 g/mol are 1.7 \u00d7 10\u207b\u2074 mol/L. Their sum, 7.7 \u00d7 10\u207b\u2074 mol/L, multiplied by 0.0821 and by 310 gives 0.0196 atm, which is 14.9 mmHg. The 25 mmHg measured in real plasma is higher because the counterions held by the proteins' charges add osmotic activity that an ideal calculation leaves out.",
+   "wrong": {
+    "A": "3.2 mmHg is the globulin term alone, and leaves out the albumin, which supplies the larger share because it is the more concentrated of the two in molar terms.",
+    "B": "8.4 mmHg adds the two protein masses to 65 g/L and divides by the globulins' molar mass of 150,000 g/mol, which undercounts the albumin particles.",
+    "C": "11.6 mmHg is the albumin term alone, and omits the globulins that paragraph 3 also lists."
+   },
+   "category": "5A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "12"
+  },
+  {
+   "id": "cp3-p1-q2",
+   "passageId": "cp3-p1",
+   "stem": "What is the initial diffusive flow of urea out of the blood in the dialyser described, before the blood's urea concentration has had time to fall?",
+   "choices": {
+    "A": "8.0 \u00d7 10\u207b\u00b9\u00b9 mol/s",
+    "B": "8.0 \u00d7 10\u207b\u2078 mol/s",
+    "C": "2.9 \u00d7 10\u207b\u2076 mol/s",
+    "D": "8.0 \u00d7 10\u207b\u2075 mol/s"
+   },
+   "correct": "D",
+   "explanation": "Fick's first law needs SI units throughout. The concentration difference is 25 mM, which is 25 mol/m\u00b3, and the thickness is 20 micrometres, which is 2.0 \u00d7 10\u207b\u2075 m. Then 4.0 \u00d7 10\u207b\u00b9\u00b9 times 1.6 times 25, divided by 2.0 \u00d7 10\u207b\u2075, is 8.0 \u00d7 10\u207b\u2075 mol/s. That is 4.8 mmol/min, which at 25 mM amounts to clearing about 190 mL of blood every minute, the figure a dialyser is in fact prescribed to deliver.",
+   "wrong": {
+    "A": "8.0 \u00d7 10\u207b\u00b9\u00b9 mol/s keeps the thickness in micrometres, dividing by 20 rather than by 2.0 \u00d7 10\u207b\u2075 m, which shrinks the answer by a factor of a million.",
+    "B": "8.0 \u00d7 10\u207b\u2078 mol/s uses 0.025 as the concentration difference, leaving it in moles per litre while the rest of the calculation is in metres.",
+    "C": "2.9 \u00d7 10\u207b\u2076 mol/s uses creatinine's gradient of 0.9 mM from Table 1 in place of urea's 25 mM."
+   },
+   "category": "4B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "12"
+  },
+  {
+   "id": "cp3-p1-q3",
+   "passageId": "cp3-p1",
+   "stem": "According to Table 1, which solute diffuses from the dialysate into the blood?",
+   "choices": {
+    "A": "Urea",
+    "B": "Potassium",
+    "C": "Bicarbonate",
+    "D": "Creatinine"
+   },
+   "correct": "C",
+   "explanation": "Diffusion follows each solute's own gradient. Bicarbonate is the only entry in Table 1 whose dialysate concentration, 32 mM, exceeds its concentration in the arriving blood, 22 mM, so it is the only one that moves into the blood. That is the point of setting it high: the treatment is expected to correct the acidosis of kidney failure as well as to remove waste.",
+   "wrong": {
+    "A": "Urea is absent from the dialysate, so its gradient runs steeply out of the blood, which is what the treatment is for.",
+    "B": "Potassium stands at 5.5 mM in the blood against 2.0 mM in the dialysate, so it leaves the blood, though more gently than it would against a potassium-free dialysate.",
+    "D": "Creatinine, like urea, is absent from the dialysate and therefore leaves the blood; it is cleared more slowly only because it is the larger molecule."
+   },
+   "category": "5A",
+   "skill": "skill-4",
+   "difficulty": "easy",
+   "unit": "12"
+  },
+  {
+   "id": "cp3-p1-q4",
+   "passageId": "cp3-p1",
+   "stem": "Which change to the dialyser or to its prescription would slow the removal of urea from the blood?",
+   "choices": {
+    "A": "Doubling the membrane area at the same thickness.",
+    "B": "Raising the blood flow so that the urea concentration at the membrane stays near 25 mM.",
+    "C": "Adding urea to the dialysate until it reaches 12.5 mM.",
+    "D": "Halving the thickness of the membrane."
+   },
+   "correct": "C",
+   "explanation": "Diffusive flow is proportional to the concentration difference across the membrane. Putting urea into the dialysate at 12.5 mM halves that difference, and so halves the flow out of the blood. Each of the other three changes either raises a quantity in the numerator of Fick's law or protects the gradient against being used up.",
+   "wrong": {
+    "A": "Doubling the area doubles the flow, since area appears in the numerator of Fick's law.",
+    "B": "Keeping the blood's urea high at the membrane preserves the concentration difference, so removal is faster rather than slower.",
+    "D": "Halving the thickness doubles the flow, because the thickness appears in the denominator."
+   },
+   "category": "4B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "12"
+  },
+  {
+   "id": "cp3-p1-q5",
+   "passageId": "cp3-p1",
+   "stem": "A unit replaces its glucose dialysate with a solution of the 4000 g/mol glucose polymer at the same mass concentration, and reports that water removal over an eight-hour dwell improves. Which explanation best accounts for the result?",
+   "choices": {
+    "A": "The polymer exerts a larger osmotic pressure than glucose at the same mass concentration, because osmotic pressure rises with particle size.",
+    "B": "The polymer dissociates in water into many osmotically active fragments, so the gradient it sets up is far larger from the outset.",
+    "C": "The polymer raises the hydrostatic pressure inside the abdomen, and it is that pressure which drives the water across the peritoneum.",
+    "D": "The polymer starts with a much smaller osmotic pressure, but crosses the peritoneum too slowly to be absorbed, so the gradient it does exert lasts the whole dwell."
+   },
+   "correct": "D",
+   "explanation": "Osmotic pressure counts particles, so at equal mass concentration a 4000 g/mol polymer supplies about one twenty-second of the particles that glucose does, and its initial osmotic pressure is correspondingly small. What it offers instead is persistence: a molecule that large crosses the peritoneum slowly, so its gradient survives all eight hours, while glucose is absorbed and its gradient collapses within a few. Over a long dwell the smaller sustained gradient removes more water than the larger transient one.",
+   "wrong": {
+    "A": "Osmotic pressure depends on the number of dissolved particles rather than on their size, so at equal mass concentration the larger molecule supplies fewer particles and less pressure.",
+    "B": "A glucose polymer is held together by covalent glycosidic bonds and does not dissociate in water, so there are no fragments to count.",
+    "C": "Instilling a solution raises the pressure in the abdomen whatever the solute is, so this cannot explain a difference between two solutions of the same mass concentration."
+   },
+   "category": "5A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "12"
+  },
+  {
+   "id": "cp3-p2-q1",
+   "passageId": "cp3-p2",
+   "stem": "A compound is held back by the column only while it is dissolved in the stationary film. Which interaction holds a compound in a nonpolar film of this kind?",
+   "choices": {
+    "A": "Hydrogen bonds donated by the film to the compound, which is why the polar compounds are retained longest.",
+    "B": "London dispersion forces, which strengthen as the compound's electron cloud grows larger and more polarisable.",
+    "C": "Ion-dipole attractions between the compound and charged groups along the siloxane chain.",
+    "D": "Reversible covalent bonds to the film, which break again as the oven temperature rises."
+   },
+   "correct": "B",
+   "explanation": "A poly(dimethylsiloxane) film has no hydrogen to donate and no charge, so the only attraction it can offer is the instantaneous-dipole attraction of dispersion. Dispersion grows with the size and polarisability of the electron cloud, which is why the four standards come off in order of molecular size, caffeine at 11.4 min being held longer than the smaller nicotine at 8.1 min, and cocaine longest of all.",
+   "wrong": {
+    "A": "The film's methyl groups carry no hydrogen bonded to oxygen or nitrogen, so it has no hydrogen bond to donate; on a nonpolar film the polar compounds are if anything the least retained.",
+    "C": "Poly(dimethylsiloxane) is uncharged, so there are no ions in the film for a dipole to be attracted to; ion-dipole forces need a genuine ion.",
+    "D": "A covalent bond to the film would be chemisorption, not partition, and would not release the compound intact; retention here involves no bond making or breaking."
+   },
+   "category": "5B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-p2-q2",
+   "passageId": "cp3-p2",
+   "stem": "A urine extract gives an amphetamine-to-internal-standard peak area ratio of 0.80. What amphetamine concentration does the calibration line imply?",
+   "choices": {
+    "A": "0.20 mg/L",
+    "B": "0.31 mg/L",
+    "C": "3.0 mg/L",
+    "D": "3.2 mg/L"
+   },
+   "correct": "C",
+   "explanation": "The line is ratio = 0.25 c + 0.05 with c in mg/L. Taking the intercept off the measured ratio leaves 0.75, and 0.75 divided by the slope of 0.25 gives 3.0 mg/L. The intercept has to come off first, because it is the response the method returns with no analyte present at all.",
+   "wrong": {
+    "A": "0.20 mg/L multiplies the ratio by the slope instead of dividing by it, and ignores the intercept as well.",
+    "B": "0.31 mg/L inverts the division, taking the slope over the ratio rather than the ratio over the slope.",
+    "D": "3.2 mg/L divides 0.80 by 0.25 without first removing the 0.05 intercept, and so credits the sample with the blank response."
+   },
+   "category": "5C",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-p2-q3",
+   "passageId": "cp3-p2",
+   "stem": "A laboratory proposes reporting a positive amphetamine result on retention time alone. What is the strongest objection?",
+   "choices": {
+    "A": "Electron impact ionisation would then be unnecessary, and the expense of the instrument could not be justified.",
+    "B": "Retention times drift as a column ages, so a measured value cannot be compared with a library value at all.",
+    "C": "One column gives the same retention time to many compounds, while the mass spectrum adds a molecular mass and a fragmentation pattern for the same peak.",
+    "D": "Retention time does not depend on the stationary phase, so it carries no information about structure."
+   },
+   "correct": "C",
+   "explanation": "Retention time is a single number and it is not unique: a urine extract holds hundreds of compounds, and any one column assigns many of them to the same narrow window. The mass spectrum describes the same peak a second and largely independent way, and it is the combination that makes an identification defensible.",
+   "wrong": {
+    "A": "What an instrument costs is not an objection to the reliability of a result, which is what the proposal turns on.",
+    "B": "Retention times do drift, which is why they are referenced to standards run on the same column; drift makes the measurement awkward rather than uninformative.",
+    "D": "Retention time depends strongly on the stationary phase, which is why a phase is chosen to suit the analyte; the claim made here is false."
+   },
+   "category": "5C",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-p2-q4",
+   "passageId": "cp3-p2",
+   "stem": "Cocaine's base peak fragment carries one positive charge and appears at m/z 182. If the same fragment lost a second electron instead, where would it appear?",
+   "choices": {
+    "A": "91",
+    "B": "180",
+    "C": "182",
+    "D": "364"
+   },
+   "correct": "A",
+   "explanation": "The axis is mass divided by charge number. Removing a second electron leaves the mass essentially untouched, since an electron weighs about one two-thousandth of a hydrogen atom, but it doubles the charge number, so the ion appears at 182 divided by 2, which is 91.",
+   "wrong": {
+    "B": "180 subtracts 2 u for the two electrons removed. Two electrons weigh about 0.001 u between them, far below anything the instrument could register.",
+    "C": "182 treats the axis as a mass axis. It is a mass-to-charge axis, and a doubly charged ion of the same mass is displaced to half the value.",
+    "D": "364 doubles the mass instead of the charge; losing an electron removes mass rather than adding it, and the charge sits in the denominator in any case."
+   },
+   "category": "4E",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-p2-q5",
+   "passageId": "cp3-p2",
+   "stem": "What is caffeine's retention factor on this column?",
+   "choices": {
+    "A": "0.11",
+    "B": "8.5",
+    "C": "9.5",
+    "D": "10.2"
+   },
+   "correct": "B",
+   "explanation": "Caffeine's retention time is 11.4 min and the holdup time is 1.2 min, so the film held it back for 10.2 min. The retention factor is that 10.2 min divided by the 1.2 min it spent moving, which is 8.5. The quantity is a ratio of two times and so is dimensionless.",
+   "wrong": {
+    "A": "0.11 divides the holdup time by the retention time, inverting the ratio.",
+    "C": "9.5 divides the whole retention time by the holdup time without first removing the holdup time, and so counts the travelling time as though the column had held it back.",
+    "D": "10.2 is the time in minutes for which the column held caffeine back; it still has to be divided by the holdup time to give a factor."
+   },
+   "category": "5C",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-p3-q1",
+   "passageId": "cp3-p3",
+   "stem": "What is albumin's electrophoretic mobility in this run?",
+   "choices": {
+    "A": "1.2 \u00d7 10\u207b\u2078 m\u00b2 V\u207b\u00b9 s\u207b\u00b9",
+    "B": "1.2 \u00d7 10\u207b\u2077 m\u00b2 V\u207b\u00b9 s\u207b\u00b9",
+    "C": "7.1 \u00d7 10\u207b\u2077 m\u00b2 V\u207b\u00b9 s\u207b\u00b9",
+    "D": "1.2 \u00d7 10\u207b\u2076 m\u00b2 V\u207b\u00b9 s\u207b\u00b9"
+   },
+   "correct": "A",
+   "explanation": "Mobility is speed divided by field. Albumin covers 3.2 cm, which is 0.032 m, in 30 min, which is 1800 s, a speed of 1.8 \u00d7 10\u207b\u2075 m/s. The field is 150 V across 0.100 m, which is 1500 V/m. Dividing gives 1.2 \u00d7 10\u207b\u2078 m\u00b2 V\u207b\u00b9 s\u207b\u00b9, the order of magnitude reported for serum albumin in buffers of this kind.",
+   "wrong": {
+    "B": "1.2 \u00d7 10\u207b\u2077 m\u00b2 V\u207b\u00b9 s\u207b\u00b9 uses 150 as the field. That is the applied voltage; the field is the voltage divided by the 0.100 m it is applied across.",
+    "C": "7.1 \u00d7 10\u207b\u2077 m\u00b2 V\u207b\u00b9 s\u207b\u00b9 divides the distance by 30 s rather than by 30 min; the run lasted 1800 s.",
+    "D": "1.2 \u00d7 10\u207b\u2076 m\u00b2 V\u207b\u00b9 s\u207b\u00b9 leaves the distance in centimetres, treating 3.2 cm as though it were 3.2 m."
+   },
+   "category": "4C",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "17"
+  },
+  {
+   "id": "cp3-p3-q2",
+   "passageId": "cp3-p3",
+   "stem": "Consider a hypothetical protein with twice albumin's net charge and twice its Stokes radius. Which of the following are true of it in this run? I. The electric force on it is twice the force on albumin. II. Its mobility is about the same as albumin's. III. Its Stokes drag coefficient is twice albumin's.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "D",
+   "explanation": "The electric force is charge times field, so doubling the charge doubles it and statement I holds. The Stokes drag coefficient is proportional to the radius, so doubling the radius doubles it and statement III holds. At the steady speed the two balance, which makes the speed, and with it the mobility, proportional to charge over radius; doubling both leaves that ratio alone, so statement II holds as well.",
+   "wrong": {
+    "A": "Statements II and III hold too: the drag coefficient follows the radius, and the mobility follows the ratio of charge to radius, which this protein shares with albumin.",
+    "B": "The mobility is indeed unchanged, but statements I and III hold as well; both sides of the force balance are twice as large, which is exactly why the speed is the same.",
+    "C": "Statement III holds too. Stokes drag is proportional to radius, so a protein of twice the radius meets twice the drag at any given speed."
+   },
+   "category": "4C",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "17"
+  },
+  {
+   "id": "cp3-p3-q3",
+   "passageId": "cp3-p3",
+   "stem": "Serum is run at pH 8.6 rather than at pH 7.4. What is the advantage of the higher pH?",
+   "choices": {
+    "A": "The proteins are denatured at pH 8.6, so their mobilities depend on mass alone.",
+    "B": "Every major serum protein lies well above its isoelectric point, so all carry net negative charge and travel the same way.",
+    "C": "The buffer conducts less current at pH 8.6, so the gel generates less heat during the run.",
+    "D": "Albumin sits at its isoelectric point at pH 8.6 and stays put, which marks the origin."
+   },
+   "correct": "B",
+   "explanation": "Serum proteins have isoelectric points between roughly 4.5 and 7.3. A buffer at pH 8.6 is above all of them, so every protein is negatively charged and the whole sample spreads out along one direction instead of splitting into two groups on either side of the application point. Albumin, the most acidic, sits furthest above its isoelectric point and leads.",
+   "wrong": {
+    "A": "A buffer at pH 8.6 does not denature serum proteins, and the separation here depends on charge and size rather than on mass alone.",
+    "C": "A buffer's conductivity follows its ionic strength rather than which side of neutrality its pH falls on, and heating is controlled by limiting the current.",
+    "D": "Albumin's isoelectric point is about 4.7, nearly four units below the buffer pH, which is why it is the fastest of the four rather than stationary."
+   },
+   "category": "5C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-p3-q4",
+   "passageId": "cp3-p3",
+   "stem": "Ammonium sulfate is added to serum until albumin comes out of solution. Which account of the precipitation is correct?",
+   "choices": {
+    "A": "The sulfate ion forms a covalent complex with albumin, and the complex is insoluble.",
+    "B": "The salt lowers the pH below albumin's isoelectric point, so the protein loses its charge and its solubility.",
+    "C": "The salt denatures albumin, and an unfolded chain cannot be hydrated at all.",
+    "D": "The salt's ions compete for the water that hydrates albumin's polar surface, so protein molecules associate with one another instead."
+   },
+   "correct": "D",
+   "explanation": "A dissolved protein is held in solution by hydrogen bonds and ion-dipole attractions between its polar and charged surface groups and the water around them. Added ions are hydrated too, and in quantity they take that water for themselves; the protein's exposed patches then find each other rather than the solvent, and it aggregates and falls out. The process is reversible, which is why salting out is used to concentrate proteins without spoiling them.",
+   "wrong": {
+    "A": "Sulfate makes no covalent bond to a protein. Salting out is reversed simply by dialysing the salt away, which a covalent complex would not allow.",
+    "B": "Ammonium sulfate solutions are close to neutral and are buffered here in any case, and albumin's isoelectric point near 4.7 is far below the buffer pH.",
+    "C": "Salting out leaves the protein folded and active, which is the point of using it; denaturing agents such as urea raise solubility rather than lower it."
+   },
+   "category": "5B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "12"
+  },
+  {
+   "id": "cp3-p4-q1",
+   "passageId": "cp3-p4",
+   "stem": "Treated as a simple pendulum with its mass at the foot, what full period would subject Y's 1.00 m leg have?",
+   "choices": {
+    "A": "0.32 s",
+    "B": "1.0 s",
+    "C": "2.0 s",
+    "D": "19.7 s"
+   },
+   "correct": "C",
+   "explanation": "The period is 2 \u03c0 times the square root of length over g. The square root of 1.00 over 9.8 is 0.32, and multiplying by 2 \u03c0 gives 2.0 s. A single swing is half of that, 1.0 s, which is already longer than the 0.82 s Table 1 records.",
+   "wrong": {
+    "A": "0.32 s is the square root of length over g, before it is multiplied by 2 \u03c0.",
+    "B": "1.0 s is half the period, the time for one swing from one extreme to the other, rather than the full period the question asks for.",
+    "D": "19.7 s inverts the fraction inside the root, using g over L. The square root of g over L has units of inverse seconds, so multiplying it by 2 \u03c0 cannot give a time at all."
+   },
+   "category": "4A",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "15"
+  },
+  {
+   "id": "cp3-p4-q2",
+   "passageId": "cp3-p4",
+   "stem": "Which model best accounts for the swing times in Table 1?",
+   "choices": {
+    "A": "A simple pendulum with its whole mass at the foot, since it predicts the right trend with leg length.",
+    "B": "A uniform rod pivoted at the hip, which predicts 0.73 to 0.86 s across these four leg lengths.",
+    "C": "A simple pendulum whose mass sits at the knee, half way down the leg.",
+    "D": "Neither model, because the measured times do not rise with leg length as a pendulum requires."
+   },
+   "correct": "B",
+   "explanation": "The rod model gives a half period of \u03c0 times the square root of 2L over 3g: 0.73 s at 0.80 m, 0.78 s at 0.90 m, 0.82 s at 1.00 m and 0.86 s at 1.10 m, within about one per cent of every measurement. The mass of a leg is spread along its length rather than concentrated at the foot, and that is precisely the difference between the two models.",
+   "wrong": {
+    "A": "The simple pendulum with its mass at the foot predicts 0.90 to 1.05 s, more than 20 per cent longer than every measured swing; getting the trend right is not enough when all four values are wrong.",
+    "C": "Putting the mass at the knee predicts 0.63 to 0.74 s, about 13 per cent shorter than the measurements, and shifts the error to the other side rather than removing it.",
+    "D": "The times do rise with leg length, from 0.74 s at 0.80 m to 0.86 s at 1.10 m, and they rise close to the square root of the length, which is what a pendulum requires."
+   },
+   "category": "4A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "15"
+  },
+  {
+   "id": "cp3-p4-q3",
+   "passageId": "cp3-p4",
+   "stem": "Subject Z walks with a step length of 0.75 m, one step for each swing of a leg. What walking speed does the swing time in Table 1 imply?",
+   "choices": {
+    "A": "0.44 m/s",
+    "B": "0.75 m/s",
+    "C": "0.87 m/s",
+    "D": "1.74 m/s"
+   },
+   "correct": "C",
+   "explanation": "One step of 0.75 m takes one swing time, 0.86 s, so the speed is 0.75 divided by 0.86, which is 0.87 m/s. That is a slow but unremarkable walk, and it is close to the speed at which the limb's own pendulum period makes walking cheapest.",
+   "wrong": {
+    "A": "0.44 m/s halves the step length, as though one swing carried the body half a step; the stem assigns a whole step to each swing.",
+    "B": "0.75 m/s quotes the step length as though each step took exactly one second. The swing lasts 0.86 s, so the speed is a little above that figure rather than equal to it.",
+    "D": "1.74 m/s uses a stride of 1.50 m, which is two steps, for a single swing time. Each leg swings once per step, not once per stride."
+   },
+   "category": "4A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "15"
+  },
+  {
+   "id": "cp3-p4-q4",
+   "passageId": "cp3-p4",
+   "stem": "Each of the following would shorten the swing time of a leg modelled as a uniform rod pivoted at the hip EXCEPT",
+   "choices": {
+    "A": "strapping a weight around the ankle.",
+    "B": "flexing the knee during the swing, which carries the lower leg closer to the hip.",
+    "C": "driving the swing with the hip flexors, adding to the restoring torque that gravity supplies.",
+    "D": "performing the same walk where the acceleration due to gravity is larger."
+   },
+   "correct": "A",
+   "explanation": "A weight at the ankle sits further from the pivot than the rod's own centre of mass, so it adds more to the moment of inertia than it adds to the restoring torque, and the swing takes longer. This is why a heavy boot slows a stride rather than quickening it. Each of the other three changes either reduces the moment of inertia or increases the restoring torque.",
+   "wrong": {
+    "B": "Drawing the lower leg in reduces the moment of inertia about the hip far more than it reduces the restoring torque, so the swing quickens; this is what a runner does.",
+    "C": "An added torque in the same sense as gravity's steepens the restoring effect, which raises the frequency and so shortens the swing.",
+    "D": "The period falls as the square root of g rises, so stronger gravity shortens the swing."
+   },
+   "category": "4A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "15"
+  },
+  {
+   "id": "cp3-p4-q5",
+   "passageId": "cp3-p4",
+   "stem": "A subject swings a leg through twice the usual angle, staying within the small-angle limit. What follows?",
+   "choices": {
+    "A": "The swing takes twice as long, since the leg has twice as far to travel.",
+    "B": "The swing takes longer, but less than twice as long, because the leg also moves faster.",
+    "C": "The swing time is unchanged, and the peak angular speed is unchanged with it, since the period sets the speed.",
+    "D": "The swing time is unchanged, while the peak angular speed and the stored energy both rise."
+   },
+   "correct": "D",
+   "explanation": "Within the small-angle limit the period does not depend on amplitude: the larger arc is covered at a proportionally larger speed, so the time is the same. The peak angular speed is the amplitude times the angular frequency and so doubles, and the energy stored at the extreme of the swing goes as the square of the amplitude and so quadruples.",
+   "wrong": {
+    "A": "Doubling the arc does not double the time, because the peak speed doubles as well; that cancellation is what makes the motion harmonic.",
+    "B": "There is no residual lengthening: within the small-angle limit the two effects cancel exactly, which is why a pendulum clock keeps time as its swing decays.",
+    "C": "The swing time is indeed unchanged, but the peak angular speed is not; the leg covers twice the arc in the same time, so it must move faster."
+   },
+   "category": "4A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "15"
+  },
+  {
+   "id": "cp3-p5-q1",
+   "passageId": "cp3-p5",
+   "stem": "Treating the shell as a slab of fat, what rate of heat conduction from core to skin does Table 1 imply?",
+   "choices": {
+    "A": "144 W",
+    "B": "432 W",
+    "C": "540 W",
+    "D": "1620 W"
+   },
+   "correct": "A",
+   "explanation": "Conduction through a slab is the conductivity times the area times the temperature difference, divided by the thickness: 0.20 times 1.8 times 4.0, divided by 0.010 m, which is 144 W. The difference that belongs in the calculation is the 4 K between core and skin, because those are the two faces of the slab.",
+   "wrong": {
+    "B": "432 W uses water's conductivity of 0.60 W/(m K) in place of fat's 0.20. Fat is the insulating layer the question specifies, and it is the poorer conductor of the two.",
+    "C": "540 W uses the 15 K difference between core and room air. The air is not in contact with the inner face of the slab; the skin is.",
+    "D": "1620 W makes both substitutions at once, taking water's conductivity and the core-to-air temperature difference together."
+   },
+   "category": "5E",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "11"
+  },
+  {
+   "id": "cp3-p5-q2",
+   "passageId": "cp3-p5",
+   "stem": "What rate of convective heat loss from the skin does Table 1 imply?",
+   "choices": {
+    "A": "4.0 W",
+    "B": "16 W",
+    "C": "58 W",
+    "D": "158 W"
+   },
+   "correct": "D",
+   "explanation": "Convective loss is the convective coefficient times the area times the difference between skin and air temperature: 8.0 times 1.8 times 11, which is 158 W. The 11 K is the gap between the 33 \u00b0C skin and the 22 \u00b0C room.",
+   "wrong": {
+    "A": "4.0 W uses fat's thermal conductivity of 0.20 in place of the convective coefficient. The two describe different mechanisms and do not even carry the same units.",
+    "B": "16 W takes the skin area as 0.18 m\u00b2 rather than 1.8 m\u00b2, a tenfold slip.",
+    "C": "58 W uses the 4 K difference between core and skin. Convection happens at the outer surface, between skin and air, where the difference is 11 K."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "11"
+  },
+  {
+   "id": "cp3-p5-q3",
+   "passageId": "cp3-p5",
+   "stem": "The subject exercises, producing 600 W of heat, and the dry routes together remove 240 W. What sweat rate, fully evaporated from the skin, removes the rest?",
+   "choices": {
+    "A": "0.36 L/h",
+    "B": "0.53 L/h",
+    "C": "0.89 L/h",
+    "D": "3.9 L/h"
+   },
+   "correct": "B",
+   "explanation": "Evaporation has to carry the 360 W that remains once the dry routes have taken their 240 W from the 600 W produced. Dividing 360 J/s by 2.43 \u00d7 10\u2076 J/kg gives 1.5 \u00d7 10\u207b\u2074 kg/s, and multiplying by 3600 s gives 0.53 kg, or about 0.53 L, in an hour. A litre an hour is near the limit an acclimatised adult can sustain, so this rate is demanding but ordinary.",
+   "wrong": {
+    "A": "0.36 L/h evaporates the 240 W that the dry routes have already removed, and leaves the 360 W balance unaccounted for.",
+    "C": "0.89 L/h evaporates the whole 600 W, as though conduction, convection and radiation removed nothing at all.",
+    "D": "3.9 L/h uses the latent heat of fusion, 334 kJ/kg, which is the heat of melting ice; evaporating water costs about seven times as much per kilogram."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "11"
+  },
+  {
+   "id": "cp3-p5-q4",
+   "passageId": "cp3-p5",
+   "stem": "The room is warmed until the air reaches 35 \u00b0C while the skin stays at 33 \u00b0C. Which of the following then follow? I. Convection adds heat to the body rather than removing it. II. Evaporation stops, because heat cannot pass from the cooler skin to the warmer air. III. Metabolic heat production falls to zero to compensate.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "A",
+   "explanation": "Convective transfer follows the temperature difference and reverses when the air is warmer than the skin, so statement I holds. Statement II fails: evaporation is driven by the difference in water vapour pressure between the wet skin and the air, not by any temperature difference, and it is the one route that still works in a room warmer than the body. Statement III fails: metabolic heat production has a floor set by the basal needs of the tissues and cannot be switched off.",
+   "wrong": {
+    "B": "Statement II is the false one. Evaporation depends on a vapour pressure difference, which persists in warm dry air, so it does not cease when the air is warmer than the skin.",
+    "C": "Statement I holds but statement II does not; evaporation continues, and in a room warmer than the skin it is the only route left.",
+    "D": "Statements II and III are both false: evaporation continues, and basal metabolism cannot fall to zero in a living subject."
+   },
+   "category": "5E",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "11"
+  },
+  {
+   "id": "cp3-p6-q1",
+   "passageId": "cp3-p6",
+   "stem": "What ratio of acetate to acetic acid holds the formulation at pH 5.00?",
+   "choices": {
+    "A": "0.58",
+    "B": "1.05",
+    "C": "1.7",
+    "D": "2.4"
+   },
+   "correct": "C",
+   "explanation": "The pH exceeds acetate's pKa of 4.76 by 0.24, so the logarithm of the ratio of base to acid is 0.24 and the ratio itself is ten raised to 0.24, which is 1.7. More base than acid, as it has to be when the pH sits above the pKa.",
+   "wrong": {
+    "A": "0.58 is ten raised to minus 0.24, which is the ratio of acid to base; a solution built that way would sit at pH 4.52.",
+    "B": "1.05 divides the pH by the pKa. The equation uses the difference between them as an exponent, not their quotient.",
+    "D": "2.4 multiplies the difference of 0.24 by ten instead of raising ten to it."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "10"
+  },
+  {
+   "id": "cp3-p6-q2",
+   "passageId": "cp3-p6",
+   "stem": "How much acetic acid and how much sodium acetate does the litre of formulation need, given that the two together come to 0.10 mol?",
+   "choices": {
+    "A": "0.029 mol acetic acid and 0.071 mol sodium acetate",
+    "B": "0.037 mol acetic acid and 0.063 mol sodium acetate",
+    "C": "0.050 mol acetic acid and 0.050 mol sodium acetate",
+    "D": "0.063 mol acetic acid and 0.037 mol sodium acetate"
+   },
+   "correct": "B",
+   "explanation": "The ratio of base to acid has to be 1.7, and the two amounts have to sum to 0.10 mol. Dividing 0.10 mol in the proportion 1.7 to 1 gives 0.063 mol of sodium acetate and 0.037 mol of acetic acid. The larger share goes to the base, since the target pH lies above the pKa.",
+   "wrong": {
+    "A": "This divides the 0.10 mol in the ratio 2.4 to 1, the figure obtained by multiplying the pH difference by ten rather than raising ten to it.",
+    "C": "Equal amounts give a pH equal to the pKa, which is 4.76, not the 5.00 the formulation calls for.",
+    "D": "This is the right split in the wrong direction, putting the larger share in the acid; it would hold the solution at pH 4.52."
+   },
+   "category": "5A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "10"
+  },
+  {
+   "id": "cp3-p6-q3",
+   "passageId": "cp3-p6",
+   "stem": "Degradation releases 5.0 mmol of a strong acid into the litre of formulation. What pH does the solution then hold?",
+   "choices": {
+    "A": "4.91",
+    "B": "4.76",
+    "C": "4.61",
+    "D": "2.30"
+   },
+   "correct": "A",
+   "explanation": "The added protons convert 5.0 mmol of acetate into acetic acid, leaving 0.0585 mol of base against 0.0415 mol of acid. That ratio is 1.41, whose logarithm is 0.15, so the pH is 4.76 plus 0.15, which is 4.91. The buffer has absorbed an insult that would otherwise have driven the pH to 2.30, at a cost of nine hundredths of a pH unit.",
+   "wrong": {
+    "B": "4.76 assumes the addition leaves the two forms in equal amounts. Reaching equality would take about 13.5 mmol of acid, not 5.0 mmol.",
+    "C": "4.61 subtracts the logarithm instead of adding it. The base still outnumbers the acid after the addition, so the pH has to stay above the pKa.",
+    "D": "2.30 is what 5.0 mmol of a strong acid would give in a litre of unbuffered water, and ignores the acetate that takes up the protons."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "10"
+  },
+  {
+   "id": "cp3-p6-q4",
+   "passageId": "cp3-p6",
+   "stem": "Which of the pairs in Table 1 is the best choice for a formulation held at pH 5.00?",
+   "choices": {
+    "A": "Lactic acid / lactate",
+    "B": "Acetic acid / acetate",
+    "C": "MES / MES anion",
+    "D": "Dihydrogen phosphate / hydrogen phosphate"
+   },
+   "correct": "B",
+   "explanation": "Capacity is greatest where the pH equals the pKa and is useful within about a unit on either side. Acetate's pKa of 4.76 lies 0.24 of a unit from the target, nearer than any other entry, so its two forms are the most evenly divided at pH 5.00 and it can absorb the most acid or base before the pH leaves the stable window.",
+   "wrong": {
+    "A": "Lactate's pKa of 3.86 is 1.14 units below the target, so at pH 5.00 more than 90 per cent of the pair would be in the lactate form, leaving little acid to take up added base.",
+    "C": "MES has its pKa 1.10 units above the target, so at pH 5.00 it would be mostly in its acid form and poorly placed to absorb added acid.",
+    "D": "Phosphate's second pKa is 2.20 units above the target, which puts it well outside its useful range at pH 5.00."
+   },
+   "category": "5E",
+   "skill": "skill-3",
+   "difficulty": "easy",
+   "unit": "10"
+  },
+  {
+   "id": "cp3-p6-q5",
+   "passageId": "cp3-p6",
+   "stem": "Which change would increase the buffer capacity of the formulation most?",
+   "choices": {
+    "A": "Adjusting the formulation from pH 5.00 to pH 4.76, the pKa of acetate.",
+    "B": "Replacing acetate with a pair of pKa 4.90 at the same total concentration and pH.",
+    "C": "Diluting the formulation twofold and readjusting it to pH 5.00.",
+    "D": "Raising the total acetate concentration from 0.10 M to 0.20 M at the same pH."
+   },
+   "correct": "D",
+   "explanation": "Capacity is proportional to the total concentration of the pair, and also to the product of the fractions in each form, which peaks when the pH equals the pKa. At pH 5.00 the pair is already split 63 to 37, giving a fraction product of 0.232 against a maximum of 0.250, so moving the pH onto the pKa could gain at most eight per cent. Doubling the concentration doubles the capacity outright, from about 0.053 to about 0.107 mol per litre per pH unit.",
+   "wrong": {
+    "A": "Sitting exactly at the pKa does maximise the fraction product, but at pH 5.00 that product is already within eight per cent of its maximum, so the gain is small.",
+    "B": "A pKa of 4.90 is nearer the working pH than 4.76 is, and the gain is real, but it comes through the same small fraction-product term and is a few per cent at best.",
+    "C": "Diluting halves the total concentration of the pair, and so halves the capacity rather than increasing it."
+   },
+   "category": "5A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "10"
+  },
+  {
+   "id": "cp3-p7-q1",
+   "passageId": "cp3-p7",
+   "stem": "Which of the following are supported by comparing Trials 1 and 2? I. Loss of water from the beta-hydroxy ketone needs more base or more heat than the addition step does. II. The addition step cannot proceed at 0 \u00b0C. III. Hydroxide is consumed in stoichiometric amounts as the condensation proceeds.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "A",
+   "explanation": "Trial 2, the colder and more dilute run, left most of its material as the beta-hydroxy ketone, while Trial 1 carried almost all of it through to the enone. The addition therefore happens under both sets of conditions and the dehydration is the step the milder conditions fail to drive, which is statement I. Statement II is refuted by the same run, which formed 62 per cent of the addition product at 0 \u00b0C. Statement III is refuted too: 0.010 M hydroxide took 0.16 M of substrate through the first step, so each hydroxide ion must have been regenerated and used again many times.",
+   "wrong": {
+    "B": "Statement II is contradicted by Trial 2 itself, which gave 62 per cent of the addition product at 0 \u00b0C.",
+    "C": "Statement I holds but statement II does not: the addition clearly proceeds in the cold, since the beta-hydroxy ketone is the main product of Trial 2.",
+    "D": "Statements II and III are both contradicted by Trial 2, which formed the addition product at 0 \u00b0C and did so with far less hydroxide than product."
+   },
+   "category": "5D",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-p7-q2",
+   "passageId": "cp3-p7",
+   "stem": "Which species attacks the carbonyl carbon of benzaldehyde in this synthesis?",
+   "choices": {
+    "A": "Hydroxide ion, which adds to the carbonyl carbon and is displaced later in the sequence.",
+    "B": "The alpha carbon of acetophenone's enolate, which carries the nucleophilic lone pair.",
+    "C": "The oxygen of acetophenone's enolate, which is the more electron-rich of its two ends.",
+    "D": "The benzene ring of a second benzaldehyde molecule, acting as a \u03c0 nucleophile."
+   },
+   "correct": "B",
+   "explanation": "Hydroxide removes the proton from the carbon next to acetophenone's carbonyl, and the resulting enolate shares its charge between that carbon and the oxygen. The carbon is the end that forms the new bond, which is why the two fragments end up joined carbon to carbon and the product has a longer carbon skeleton than either starting material.",
+   "wrong": {
+    "A": "Hydroxide does add reversibly to aldehydes, but that only returns the aldehyde and makes no new carbon-carbon bond; here its role is to remove the alpha proton.",
+    "C": "Attack through the enolate oxygen would make a carbon-oxygen bond and leave the carbon skeletons separate, which is not what an aldol condensation produces.",
+    "D": "Benzaldehyde's ring is deactivated by its own carbonyl group and is a poor nucleophile; the ring takes no part in the bond-forming step."
+   },
+   "category": "5D",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-p7-q3",
+   "passageId": "cp3-p7",
+   "stem": "A run starts from 10.6 g of benzaldehyde and 12.0 g of acetophenone and reaches the yield of Trial 1. What mass of the conjugated enone is isolated?",
+   "choices": {
+    "A": "17.9 g",
+    "B": "19.4 g",
+    "C": "20.8 g",
+    "D": "22.6 g"
+   },
+   "correct": "A",
+   "explanation": "Both reagents supply 0.100 mol: 10.6 g over 106 g/mol and 12.0 g over 120 g/mol, so neither is in excess. Complete conversion would give 0.100 mol of the enone, which at 208 g/mol is 20.8 g, and 86 per cent of that is 17.9 g.",
+   "wrong": {
+    "B": "19.4 g applies the 86 per cent yield to the beta-hydroxy ketone at 226 g/mol, which is the addition product before water is lost rather than the enone.",
+    "C": "20.8 g is the theoretical mass at complete conversion, and ignores the 86 per cent yield.",
+    "D": "22.6 g is 0.100 mol of the beta-hydroxy ketone: the wrong product at the wrong yield."
+   },
+   "category": "5D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-p7-q4",
+   "passageId": "cp3-p7",
+   "stem": "Each of the following helps drive the sequence to the conjugated enone EXCEPT",
+   "choices": {
+    "A": "conjugation of the new double bond with both the carbonyl group and a benzene ring.",
+    "B": "distilling water out of the mixture as the reaction proceeds.",
+    "C": "the acidity of the hydrogen on the carbon next to acetophenone's carbonyl.",
+    "D": "electron donation from benzaldehyde's ring, which raises the electrophilicity of its carbonyl carbon."
+   },
+   "correct": "D",
+   "explanation": "This choice contradicts itself: electron density pushed into a carbonyl group makes its carbon less electrophilic, not more, so donation from the ring could only slow the addition. The other three are genuine contributors, namely the stability of the conjugated product, the removal of a product from an equilibrium, and the acidity that lets hydroxide make the nucleophile at all.",
+   "wrong": {
+    "A": "The conjugated enone is more stable than the alternatives available to the intermediate, and that stability is why the dehydration is not reversed.",
+    "B": "Water is a product of the dehydration, so taking it out of the mixture shifts the equilibrium toward the enone.",
+    "C": "Without an acidic alpha hydrogen there would be no enolate and so no nucleophile; its acidity is what hydroxide exploits."
+   },
+   "category": "5D",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-p8-q1",
+   "passageId": "cp3-p8",
+   "stem": "Lead's half-value layer at 60 keV is some three hundred times smaller than soft tissue's, although its density is only about eleven times greater. What accounts for the rest of the difference?",
+   "choices": {
+    "A": "Density alone accounts for all of it, since attenuation is proportional to density.",
+    "B": "Lead's outer electrons are loosely bound, so Compton scattering removes photons from the beam far more efficiently.",
+    "C": "Photoelectric absorption rises steeply with atomic number at this energy, and lead's atomic number of 82 dwarfs those of the elements in tissue.",
+    "D": "Lead's nuclei capture the photons, a process unavailable to the light nuclei of tissue."
+   },
+   "correct": "C",
+   "explanation": "At 60 keV the photoelectric effect dominates in a heavy element, and its probability per atom rises roughly with the cube of atomic number. Lead's atomic number of 82 against an average near 7 for tissue is what makes a tenth of a millimetre of lead the equal of several centimetres of tissue; density contributes only the factor of eleven already accounted for.",
+   "wrong": {
+    "A": "Density accounts for a factor of about eleven and leaves a factor of some twenty-five unexplained, which is roughly the ratio of the two mass attenuation coefficients at this energy.",
+    "B": "Compton scattering depends on electron density, which varies little from element to element per unit mass, and it is not the dominant process in lead at 60 keV.",
+    "D": "Photon capture by a nucleus needs energies in the megaelectronvolt range; a 60 keV photon interacts with electrons, not with nuclei."
+   },
+   "category": "4E",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "16"
+  },
+  {
+   "id": "cp3-p8-q2",
+   "passageId": "cp3-p8",
+   "stem": "What fraction of a 60 keV beam emerges from 10 cm of soft tissue?",
+   "choices": {
+    "A": "13.5%",
+    "B": "25%",
+    "C": "50%",
+    "D": "82%"
+   },
+   "correct": "A",
+   "explanation": "The exponent is minus 0.20 per centimetre times 10 cm, which is minus 2.0, and e to the minus 2.0 is 0.135, so 13.5% emerges. Counting half-value layers agrees: 10 cm is 2.9 layers of 3.5 cm, and one half raised to 2.9 is 0.14.",
+   "wrong": {
+    "B": "25% counts two half-value layers. Ten centimetres is nearly three layers of 3.5 cm, not two.",
+    "C": "50% counts a single half-value layer, which would be only 3.5 cm of tissue.",
+    "D": "82% is e to the minus 0.20, with the 10 cm thickness left out of the exponent altogether."
+   },
+   "category": "4D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "16"
+  },
+  {
+   "id": "cp3-p8-q3",
+   "passageId": "cp3-p8",
+   "stem": "What thickness of aluminium reduces a 60 keV beam to 1.0% of its incident intensity?",
+   "choices": {
+    "A": "0.92 cm",
+    "B": "2.7 cm",
+    "C": "4.6 cm",
+    "D": "6.1 cm"
+   },
+   "correct": "D",
+   "explanation": "Setting the transmitted fraction to 0.010 makes the exponent the natural logarithm of 100, which is 4.6, so the thickness is 4.6 divided by 0.75 per centimetre, or 6.1 cm. Counting layers agrees: reaching 1.0% takes 6.64 halvings, and 6.64 layers of 0.92 cm is 6.1 cm.",
+   "wrong": {
+    "A": "0.92 cm is one half-value layer, which leaves 50% of the beam rather than 1.0%.",
+    "B": "2.7 cm uses the base-ten logarithm of 100, which is 2, in place of the natural logarithm; the exponential in this law has base e.",
+    "C": "4.6 cm is the natural logarithm of 100 quoted as though it were a length; it still has to be divided by the attenuation coefficient."
+   },
+   "category": "4D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "16"
+  },
+  {
+   "id": "cp3-p8-q4",
+   "passageId": "cp3-p8",
+   "stem": "A beam crosses 20 cm of soft tissue instead of 10 cm. What fraction of the incident intensity now emerges?",
+   "choices": {
+    "A": "0.0025%",
+    "B": "1.8%",
+    "C": "6.8%",
+    "D": "27%"
+   },
+   "correct": "B",
+   "explanation": "The exponent is minus 0.20 per centimetre times 20 cm, which is minus 4.0, and e to the minus 4.0 is 0.018, so 1.8% emerges. Equivalently, doubling the thickness squares the transmitted fraction: 13.5% of 13.5% is 1.8%.",
+   "wrong": {
+    "A": "0.0025% applies cortical bone's coefficient of 0.53 per centimetre over the whole 20 cm, where the stem specifies soft tissue.",
+    "C": "6.8% halves the 13.5% that 10 cm transmits, as though the second 10 cm removed half of what remained rather than the same fraction as the first.",
+    "D": "27% doubles the 10 cm figure. Thickness enters the exponent, so doubling it squares the transmitted fraction instead of doubling it."
+   },
+   "category": "4D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "16"
+  },
+  {
+   "id": "cp3-p9-q1",
+   "passageId": "cp3-p9",
+   "stem": "If patient Y's plasma viscosity were brought down to patient W's 1.5 mPa s, with her aggregate size unchanged, what rate would Stokes' law predict?",
+   "choices": {
+    "A": "27 mm/h",
+    "B": "38 mm/h",
+    "C": "46 mm/h",
+    "D": "58 mm/h"
+   },
+   "correct": "B",
+   "explanation": "Settling speed is inversely proportional to viscosity, so lowering the viscosity from 1.8 to 1.5 mPa s raises the rate by the factor 1.8 over 1.5, which is 1.2. Patient Y's measured 32 mm/h becomes 38 mm/h. Her thickened plasma is partly masking the effect of her aggregates, which is why the two are reported together.",
+   "wrong": {
+    "A": "27 mm/h multiplies by 1.5 over 1.8 instead of 1.8 over 1.5. A thinner plasma lets the cells fall faster, so the rate has to rise.",
+    "C": "46 mm/h squares the viscosity ratio. Viscosity appears to the first power in the denominator of Stokes' law.",
+    "D": "58 mm/h multiplies by the viscosity itself rather than by the ratio of the two viscosities."
+   },
+   "category": "4B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "16"
+  },
+  {
+   "id": "cp3-p9-q2",
+   "passageId": "cp3-p9",
+   "stem": "Each of the following would raise a patient's measured sedimentation rate EXCEPT",
+   "choices": {
+    "A": "a rise in plasma fibrinogen, which stacks the cells into longer rouleaux.",
+    "B": "a fall in the red cell count, which leaves each aggregate more room to settle.",
+    "C": "a rise in plasma viscosity with the aggregate size unchanged.",
+    "D": "a rise in the density difference between the cells and the plasma."
+   },
+   "correct": "C",
+   "explanation": "Viscosity sits in the denominator of Stokes' law, so thicker plasma slows the settling and lowers the rate. That is exactly why the rate is reported alongside the plasma viscosity rather than on its own. Each of the other three either raises a term in the numerator or removes a hindrance to settling.",
+   "wrong": {
+    "A": "Longer rouleaux have a larger effective radius, and the speed rises with the square of the radius, so the rate climbs steeply.",
+    "B": "Stokes' law describes an isolated particle; a lower cell count brings real blood nearer to that ideal and lets the cells fall faster, which is why anaemia raises the rate.",
+    "D": "The density difference is the driving term in the numerator, so a larger one makes the cells settle faster."
+   },
+   "category": "4B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "16"
+  },
+  {
+   "id": "cp3-p9-q3",
+   "passageId": "cp3-p9",
+   "stem": "A red cell aggregate is falling at its steady settling speed. Which statement describes its mechanics?",
+   "choices": {
+    "A": "The net downward force on it is constant and equal to its weight.",
+    "B": "The drag force on it is zero, because its acceleration is zero.",
+    "C": "Its weight is balanced by the buoyant force alone, the drag having fallen away.",
+    "D": "Its weight is balanced by the buoyant force and the drag together, so the net force is zero."
+   },
+   "correct": "D",
+   "explanation": "At the steady speed three forces act: weight downward, buoyancy upward, and drag upward because the motion is downward. They sum to zero, which is why the speed no longer changes. The acceleration is zero not because any one force has vanished but because the three cancel.",
+   "wrong": {
+    "A": "A constant net force would give a constant acceleration, so the aggregate would keep speeding up rather than settle at a steady rate.",
+    "B": "Drag is what makes the acceleration zero. It is at its largest at the steady speed, not absent.",
+    "C": "Buoyancy alone cannot balance the weight, since the cell is denser than plasma; the drag makes up the difference."
+   },
+   "category": "4B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "16"
+  },
+  {
+   "id": "cp3-p9-q4",
+   "passageId": "cp3-p9",
+   "stem": "What settling rate does Stokes' law predict for patient W's cells? (g = 9.8 m/s\u00b2)",
+   "choices": {
+    "A": "4.7 mm/h",
+    "B": "7.0 mm/h",
+    "C": "19 mm/h",
+    "D": "70 mm/h"
+   },
+   "correct": "A",
+   "explanation": "With a radius of 3.5 \u00d7 10\u207b\u2076 m, a density difference of 73 kg/m\u00b3 and a viscosity of 1.5 \u00d7 10\u207b\u00b3 Pa s, the law gives a speed of 1.3 \u00d7 10\u207b\u2076 m/s. Multiplied by 3600 s and expressed in millimetres, that is 4.7 mm/h, which matches the 5 mm/h measured and sits inside the normal range for a healthy adult.",
+   "wrong": {
+    "B": "7.0 mm/h uses water's viscosity of 1.0 mPa s in place of plasma's 1.5 mPa s.",
+    "C": "19 mm/h uses the cell's diameter of 7.0 micrometres where the law calls for the radius; since the speed goes as the square, the error is fourfold.",
+    "D": "70 mm/h uses the cell's own density of 1098 kg/m\u00b3 rather than the 73 kg/m\u00b3 by which it exceeds the plasma's. Only the difference drives the settling."
+   },
+   "category": "4B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "16"
+  },
+  {
+   "id": "cp3-p10-q1",
+   "passageId": "cp3-p10",
+   "stem": "Which of the following does Table 1 show? I. The drug raises the slope of the double-reciprocal line. II. The drug raises the vertical intercept of the line. III. Adding more enzyme, rather than more substrate, would overcome the inhibition.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "A",
+   "explanation": "Across the four points the drugged column climbs by 0.120 for each unit of the reciprocal substrate concentration against 0.040 without the drug, three times the slope, so statement I holds. Extrapolated back, both columns meet the vertical axis at 0.020, so the intercept is unchanged and statement II fails. Statement III fails as well: more enzyme raises the rate in proportion but leaves unchanged the share of enzyme the inhibitor occupies, whereas more substrate competes the inhibitor off.",
+   "wrong": {
+    "B": "Both columns extrapolate to the same intercept, 0.020, so the maximum rate is untouched; it is the slope that the drug changes.",
+    "C": "Statement I holds but statement II does not. The shared intercept is the signature of an inhibitor that leaves the maximum rate alone.",
+    "D": "Statements II and III both fail: the intercept is unchanged, and extra enzyme scales the rate without altering the fraction of enzyme the inhibitor holds."
+   },
+   "category": "5E",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "11"
+  },
+  {
+   "id": "cp3-p10-q2",
+   "passageId": "cp3-p10",
+   "stem": "What is the maximum rate of this enzyme in the absence of the drug?",
+   "choices": {
+    "A": "17 micromol L\u207b\u00b9 min\u207b\u00b9",
+    "B": "25 micromol L\u207b\u00b9 min\u207b\u00b9",
+    "C": "42 micromol L\u207b\u00b9 min\u207b\u00b9",
+    "D": "50 micromol L\u207b\u00b9 min\u207b\u00b9"
+   },
+   "correct": "D",
+   "explanation": "The vertical intercept of the line is one over the maximum rate. Extrapolating the undrugged column to a reciprocal substrate concentration of zero gives 0.020 litre minutes per micromol, so the maximum rate is one over 0.020, which is 50 micromol per litre per minute.",
+   "wrong": {
+    "A": "17 micromol L\u207b\u00b9 min\u207b\u00b9 is the reciprocal of 0.060, the rate actually measured at the lowest substrate concentration. The maximum rate is approached at high substrate, not at low.",
+    "B": "25 micromol L\u207b\u00b9 min\u207b\u00b9 inverts the slope, 0.040, rather than the intercept; the slope is the Michaelis constant over the maximum rate and carries different units.",
+    "C": "42 micromol L\u207b\u00b9 min\u207b\u00b9 is the fastest rate measured, at 10 mM substrate. The maximum rate is the limit the measurements approach without reaching."
+   },
+   "category": "5E",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "11"
+  },
+  {
+   "id": "cp3-p10-q3",
+   "passageId": "cp3-p10",
+   "stem": "The apparent Michaelis constant with 10 micromolar drug present is 6.0 mM, against 2.0 mM without it. What is the drug's inhibition constant?",
+   "choices": {
+    "A": "5.0 micromolar",
+    "B": "10 micromolar",
+    "C": "20 micromolar",
+    "D": "30 micromolar"
+   },
+   "correct": "A",
+   "explanation": "The apparent constant is the true one multiplied by one plus the inhibitor concentration over the inhibition constant. The apparent value is three times the true one, so that whole quantity is 3, the ratio of concentration to inhibition constant is 2, and the inhibition constant is the 10 micromolar drug concentration divided by 2, which is 5.0 micromolar.",
+   "wrong": {
+    "B": "10 micromolar is the concentration of drug used rather than its inhibition constant; the two coincide only when the apparent constant is twice the true one.",
+    "C": "20 micromolar multiplies the drug concentration by 2 where it has to be divided by 2.",
+    "D": "30 micromolar multiplies the drug concentration by the threefold ratio of apparent to true constant, without first reducing that factor by one."
+   },
+   "category": "5D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "11"
+  },
+  {
+   "id": "cp3-p10-q4",
+   "passageId": "cp3-p10",
+   "stem": "Working from the drugged line in Table 1 alone, what apparent Michaelis constant does it give?",
+   "choices": {
+    "A": "0.17 mM",
+    "B": "2.0 mM",
+    "C": "3.0 mM",
+    "D": "6.0 mM"
+   },
+   "correct": "D",
+   "explanation": "The slope is the Michaelis constant over the maximum rate and the intercept is one over the maximum rate, so the slope divided by the intercept leaves the Michaelis constant itself. The drugged line has a slope of 0.120 and an intercept of 0.020, which gives 6.0 mM; the same arithmetic on the undrugged line, 0.040 over 0.020, returns its 2.0 mM.",
+   "wrong": {
+    "A": "0.17 mM divides the intercept by the slope, which inverts the quantity and leaves units of reciprocal millimolar.",
+    "B": "2.0 mM is the undrugged line's constant, and assumes the drug leaves it untouched, which the threefold change in slope contradicts.",
+    "C": "3.0 mM is the ratio of the two slopes, 0.120 over 0.040. That is the factor by which the constant rises, not the constant itself."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "11"
+  },
+  {
+   "id": "cp3-d1",
+   "passageId": null,
+   "stem": "A membrane passes water but no solute at all. Which solution, placed on one side of it against pure water, draws water across most strongly?",
+   "choices": {
+    "A": "0.10 M glucose",
+    "B": "0.10 M urea",
+    "C": "0.10 M sodium chloride",
+    "D": "0.050 M calcium chloride"
+   },
+   "correct": "C",
+   "explanation": "Osmotic pressure counts dissolved particles. Sodium chloride gives two ions per formula unit, so 0.10 M is 0.20 osmolar; calcium chloride gives three, so 0.050 M is only 0.15 osmolar; glucose and urea do not dissociate and are 0.10 osmolar each. The most concentrated in particles exerts the greatest pressure.",
+   "wrong": {
+    "A": "Glucose does not dissociate, so 0.10 M glucose is 0.10 osmolar, half the particle concentration of the same molarity of a salt that gives two ions.",
+    "B": "Urea does not dissociate either, so this is 0.10 osmolar as well; across a membrane that passes no solute it behaves exactly as glucose does.",
+    "D": "Calcium chloride gives three ions, but at 0.050 M that comes to 0.15 osmolar, which is still the lower figure."
+   },
+   "category": "5A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "12"
+  },
+  {
+   "id": "cp3-d2",
+   "passageId": null,
+   "stem": "A red cell is placed in a large volume of 0.30 M urea. Water crosses its membrane quickly and urea slowly. What happens to the cell?",
+   "choices": {
+    "A": "It neither shrinks nor swells at any stage, because the solution is isosmotic with its contents.",
+    "B": "It shrinks and stays shrunken, because urea cannot enter to restore the balance.",
+    "C": "It holds its volume at first and then swells, as urea enters and water follows it in.",
+    "D": "It swells and bursts immediately, because water always moves toward the more concentrated solution."
+   },
+   "correct": "C",
+   "explanation": "Cell contents come to about 0.30 osmolar, so 0.30 M urea is isosmotic and no water moves while the urea is still outside. Urea then diffuses in down its own gradient, which raises the osmolarity inside, and water follows it; the cell swells and may lyse. Isosmotic is not the same as isotonic, because tonicity depends on which solutes the membrane keeps out.",
+   "wrong": {
+    "A": "Being isosmotic prevents only the first movement of water. A solute that can cross does cross, and once it is inside the balance no longer holds.",
+    "B": "Urea crosses red cell membranes readily, through a specific transporter as well as through the lipid, so it does not stay outside.",
+    "D": "Water moves toward the compartment of higher total solute concentration, and at the outset the two are equal, so nothing happens immediately."
+   },
+   "category": "5A",
+   "skill": "skill-1",
+   "difficulty": "hard",
+   "unit": "12"
+  },
+  {
+   "id": "cp3-d3",
+   "passageId": null,
+   "stem": "A dialyser is redesigned with twice the membrane area and half the membrane thickness. By what factor does the diffusive flow of a given solute change, other things being equal?",
+   "choices": {
+    "A": "0.5",
+    "B": "1.0",
+    "C": "2.0",
+    "D": "4.0"
+   },
+   "correct": "D",
+   "explanation": "Fick's first law puts the area in the numerator and the thickness in the denominator. Doubling the area doubles the flow and halving the thickness doubles it again, so the two changes multiply to a factor of 4.",
+   "wrong": {
+    "A": "0.5 applies the thickness change the wrong way round, as though a thinner membrane resisted diffusion more than a thick one.",
+    "B": "1.0 treats the two changes as cancelling. They act in the same direction, because area and thickness sit on opposite sides of the fraction.",
+    "C": "2.0 counts only one of the two changes and leaves the other out."
+   },
+   "category": "4B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "12"
+  },
+  {
+   "id": "cp3-d4",
+   "passageId": null,
+   "stem": "A method developer proposes capping the two hydroxyl groups of a drug metabolite with trimethylsilyl groups before injecting it onto a gas chromatograph. Which justification for doing so is sound?",
+   "choices": {
+    "A": "The derivative has the greater molar mass, and a heavier molecule is swept through a column more readily.",
+    "B": "The silicon-oxygen bonds of the derivative are weaker than the carbon-oxygen bonds they replace, so less heat is needed to vaporise it.",
+    "C": "Capping the hydroxyl hydrogens removes the hydrogen bonding between molecules, which lowers the boiling point enough for the compound to evaporate rather than decompose.",
+    "D": "The derivative is less soluble in the injection solvent, so a larger share of it reaches the column."
+   },
+   "correct": "C",
+   "explanation": "Two hydroxyl groups let the molecules hydrogen bond to one another, and every one of those bonds has to be broken before a molecule can enter the vapour. That is what holds the boiling point above the temperature at which the compound begins to decompose. Capping the hydrogens leaves only dispersion forces between the bulky derivatives, the boiling point falls by a hundred degrees or more, and the compound evaporates intact.",
+   "wrong": {
+    "A": "Greater molar mass works the other way: a heavier molecule is the less volatile, and volatility rather than mass is what gets a compound onto the column.",
+    "B": "Boiling breaks the forces between molecules, not the bonds within them. The silicon-oxygen bonds stay intact throughout, and they are in fact stronger than carbon-oxygen bonds.",
+    "D": "Poor solubility in the injection solvent would leave the analyte behind in the syringe; the obstacle being removed is the boiling point, not the solubility."
+   },
+   "category": "5B",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-d5",
+   "passageId": null,
+   "stem": "A fragment ion in an electron impact spectrum appears as two peaks, at m/z 93 and 95, the lower one about three times the more intense. What does the pattern indicate?",
+   "choices": {
+    "A": "The fragment loses two hydrogen atoms along a competing pathway.",
+    "B": "The fragment contains one chlorine atom, which occurs as chlorine-35 and chlorine-37 in about a 3 to 1 ratio.",
+    "C": "Part of the ion population carries two charges, which displaces it by two units.",
+    "D": "The instrument's resolution is too low to separate two adjacent masses."
+   },
+   "correct": "B",
+   "explanation": "Chlorine has two abundant stable isotopes, of mass number 35 and 37, present at about 76 and 24 per cent, a ratio close to 3 to 1. A fragment carrying one chlorine therefore appears as a pair of peaks two units apart in that intensity ratio, and the pattern is how a chlorine is spotted in a spectrum.",
+   "wrong": {
+    "A": "Losing two hydrogens would put the second peak two units below the first rather than above it, and nothing would fix the intensities at three to one.",
+    "C": "A doubly charged ion appears at half the mass-to-charge value of the singly charged one, not two units above it.",
+    "D": "Masses 93 and 95 are two units apart, which any mass spectrometer separates; poor resolution would merge them rather than produce a fixed intensity ratio."
+   },
+   "category": "4E",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-d6",
+   "passageId": null,
+   "stem": "Which of the following compounds has the highest normal boiling point?",
+   "choices": {
+    "A": "Propane, 44 g/mol",
+    "B": "Ethanol, 46 g/mol",
+    "C": "Dimethyl ether, 46 g/mol",
+    "D": "Propanal, 58 g/mol"
+   },
+   "correct": "B",
+   "explanation": "Ethanol is the only one of the four with a hydrogen bonded to oxygen, so it is the only one whose molecules hydrogen bond to each other, and those bonds have to be broken before it boils. It boils at 78 \u00b0C, far above dimethyl ether at minus 24 \u00b0C despite both molecules weighing 46 g/mol, and above propanal at 48 \u00b0C despite propanal being the heavier molecule.",
+   "wrong": {
+    "A": "Propane is nonpolar and held together by dispersion forces alone, the weakest of the three kinds at work here; it boils at minus 42 \u00b0C.",
+    "C": "Dimethyl ether has the same formula mass as ethanol and a dipole, but no hydrogen on its oxygen to donate, so it manages only dipole-dipole attraction and boils at minus 24 \u00b0C.",
+    "D": "Propanal is the heaviest of the four and its carbonyl group gives it a strong dipole, but with no hydrogen bond donor it boils at 48 \u00b0C, below ethanol."
+   },
+   "category": "5B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-d7",
+   "passageId": null,
+   "stem": "A protein carrying a net charge of 12 elementary charges sits in a uniform field of 2.0 \u00d7 10\u00b3 V/m. What electric force acts on it? (e = 1.6 \u00d7 10\u207b\u00b9\u2079 C)",
+   "choices": {
+    "A": "3.8 \u00d7 10\u207b\u00b9\u2078 N",
+    "B": "3.2 \u00d7 10\u207b\u00b9\u2076 N",
+    "C": "3.8 \u00d7 10\u207b\u00b9\u2075 N",
+    "D": "2.4 \u00d7 10\u2074 N"
+   },
+   "correct": "C",
+   "explanation": "The force is the charge times the field. The charge is 12 times 1.6 \u00d7 10\u207b\u00b9\u2079 C, which is 1.9 \u00d7 10\u207b\u00b9\u2078 C, and multiplying by 2.0 \u00d7 10\u00b3 V/m gives 3.8 \u00d7 10\u207b\u00b9\u2075 N. Tiny as that is, it is some millions of times the weight of a protein of 66 kDa, which is why electrophoresis is unaffected by gravity.",
+   "wrong": {
+    "A": "3.8 \u00d7 10\u207b\u00b9\u2078 N reads the field as 2.0 V/m rather than 2.0 \u00d7 10\u00b3 V/m.",
+    "B": "3.2 \u00d7 10\u207b\u00b9\u2076 N uses a single elementary charge in place of the protein's twelve.",
+    "D": "2.4 \u00d7 10\u2074 N takes the net charge as 12 coulombs. One coulomb is about 10\u00b9\u2079 elementary charges."
+   },
+   "category": "4C",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "17"
+  },
+  {
+   "id": "cp3-d8",
+   "passageId": null,
+   "stem": "A walking aid hangs from a patient's hand and swings as a simple pendulum. A longer model of the same design is four times the length. Its period is",
+   "choices": {
+    "A": "half as long.",
+    "B": "the same.",
+    "C": "twice as long.",
+    "D": "four times as long."
+   },
+   "correct": "C",
+   "explanation": "The period of a simple pendulum goes as the square root of its length, so quadrupling the length multiplies the period by the square root of 4, which is 2. The mass of the aid and the size of the swing do not enter.",
+   "wrong": {
+    "A": "Halving the period would call for a length one quarter as great, not four times as great.",
+    "B": "Length is the one property of a simple pendulum that does set its period; it is mass and amplitude that leave the period unchanged.",
+    "D": "Four times would follow if the period were proportional to the length itself, where it is proportional to the square root of the length."
+   },
+   "category": "4A",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "15"
+  },
+  {
+   "id": "cp3-d9",
+   "passageId": null,
+   "stem": "A physiotherapist times a patient's relaxed leg swinging freely at the hip and finds a full period of 1.6 s. Modelled as a simple pendulum, what length does that imply? (g = 9.8 m/s\u00b2)",
+   "choices": {
+    "A": "0.25 m",
+    "B": "0.64 m",
+    "C": "4.0 m",
+    "D": "25 m"
+   },
+   "correct": "B",
+   "explanation": "Rearranging the pendulum period makes the length equal to g times the square of the quantity period over 2 \u03c0. The period over 2 \u03c0 is 0.25 s, squaring that gives 0.065, and multiplying by 9.8 gives 0.64 m. A real leg is longer than that, which is the expected direction of error, because a leg's mass is spread along its length rather than concentrated at the foot.",
+   "wrong": {
+    "A": "0.25 m stops at the period divided by 2 \u03c0 and never squares it; that quantity is a time, not a length.",
+    "C": "4.0 m divides by 2 \u03c0 once rather than squaring it, taking g times the square of the period and then dividing by 2 \u03c0.",
+    "D": "25 m leaves 2 \u03c0 out altogether, taking the length as g times the square of the period."
+   },
+   "category": "4A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "15"
+  },
+  {
+   "id": "cp3-d10",
+   "passageId": null,
+   "stem": "A patient exercising in a 30 \u00b0C room at 95 per cent humidity becomes hyperthermic although he is sweating heavily. Why does the sweating fail to cool him?",
+   "choices": {
+    "A": "Because the air is warmer than his skin, so convection adds heat instead of removing it.",
+    "B": "Because the sweat glands stop secreting once the surrounding air is nearly saturated.",
+    "C": "Because evaporation follows the vapour pressure gap between the wet skin and the air, and that gap nearly vanishes.",
+    "D": "Because water's latent heat of vaporisation falls steeply as the surrounding humidity rises."
+   },
+   "correct": "C",
+   "explanation": "Sweat removes heat only as it evaporates, and the rate of evaporation follows the gap between the water vapour pressure at the wet skin and that in the air. In air at 95 per cent humidity the gap is small, so the sweat runs off the skin instead of evaporating from it and carries away almost none of the heat it was secreted to remove.",
+   "wrong": {
+    "A": "At 30 \u00b0C the air is cooler than skin at about 33 \u00b0C, so convection still removes heat rather than adding it.",
+    "B": "Sweating continues, and often increases, in humid heat; it is not switched off by humidity, which is why the sweat is seen running off.",
+    "D": "The latent heat of vaporisation depends on temperature, not on the humidity of the air into which the water evaporates."
+   },
+   "category": "5E",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "11"
+  },
+  {
+   "id": "cp3-d11",
+   "passageId": null,
+   "stem": "A 70 kg patient is cooled from a core temperature of 37.0 to 33.0 \u00b0C. How much heat must be removed, taking the body's mean specific heat as 3.5 kJ kg\u207b\u00b9 \u00b0C\u207b\u00b9?",
+   "choices": {
+    "A": "980 kJ",
+    "B": "1170 kJ",
+    "C": "9070 kJ",
+    "D": "76,000 kJ"
+   },
+   "correct": "A",
+   "explanation": "The heat is the mass times the specific heat times the temperature change: 70 times 3.5 times 4.0, which is 980 kJ. Removed at 100 W that would take nearly three hours, which is why therapeutic cooling is a slow business.",
+   "wrong": {
+    "B": "1170 kJ uses water's specific heat of 4.18 kJ kg\u207b\u00b9 \u00b0C\u207b\u00b9. The body is not pure water, and its fat and protein store less heat per kilogram.",
+    "C": "9070 kJ uses the starting temperature of 37 as the change. The change is 4.0 \u00b0C.",
+    "D": "76,000 kJ uses the absolute temperature of 310 K as the change. Only the difference enters, and it is the same number of kelvin as of degrees Celsius."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "11"
+  },
+  {
+   "id": "cp3-d12",
+   "passageId": null,
+   "stem": "A buffer contains 0.20 M of a weak acid and 0.050 M of its conjugate base. The acid's pKa is 4.80. What is the pH?",
+   "choices": {
+    "A": "0.80",
+    "B": "4.20",
+    "C": "4.80",
+    "D": "5.40"
+   },
+   "correct": "B",
+   "explanation": "The Henderson-Hasselbalch equation adds to the pKa the base-ten logarithm of base over acid. That ratio is 0.050 over 0.20, which is 0.25, and its logarithm is minus 0.60. The pH is therefore 4.80 reduced by 0.60, which is 4.20: below the pKa, as it must be where the acid outnumbers its conjugate base.",
+   "wrong": {
+    "A": "0.80 subtracts the ratio of acid to base, which is 4, from the pKa without taking its logarithm first.",
+    "C": "4.80 is the pKa itself, the pH of an equimolar mixture; here the acid outnumbers the base four to one.",
+    "D": "5.40 adds the logarithm instead of subtracting it, which is the answer for a fourfold excess of base rather than of acid."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "10"
+  },
+  {
+   "id": "cp3-d13",
+   "passageId": null,
+   "stem": "Which of the following compounds is NOT able to form an enolate when it is treated with hydroxide?",
+   "choices": {
+    "A": "Benzaldehyde",
+    "B": "Propanal",
+    "C": "Acetone",
+    "D": "Cyclohexanone"
+   },
+   "correct": "A",
+   "explanation": "An enolate forms by removing a hydrogen from a carbon next to a carbonyl group. Benzaldehyde's carbonyl carbon carries a hydrogen and a benzene ring, and the ring carbons have no hydrogen that is alpha to the carbonyl, so there is nothing for hydroxide to take. This is why benzaldehyde serves as the electrophilic partner in a crossed aldol condensation.",
+   "wrong": {
+    "B": "Propanal has two hydrogens on the carbon next to its carbonyl and forms an enolate readily; it self-condenses for exactly that reason.",
+    "C": "Acetone has six hydrogens alpha to its carbonyl, and its enolate is a standard nucleophile in aldol chemistry.",
+    "D": "Cyclohexanone has four alpha hydrogens, two on each side of the carbonyl, and forms an enolate easily."
+   },
+   "category": "5D",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-d14",
+   "passageId": null,
+   "stem": "Base-catalysed self-condensation of acetaldehyde gives 3-hydroxybutanal, which loses water on warming. What is the product of that elimination?",
+   "choices": {
+    "A": "Butanal",
+    "B": "But-2-enal",
+    "C": "Butan-2-one",
+    "D": "Butane-1,3-diol"
+   },
+   "correct": "B",
+   "explanation": "The elimination takes the hydroxyl from carbon 3 together with a hydrogen from carbon 2, putting a double bond between those two carbons and leaving the aldehyde at carbon 1 untouched. The product is but-2-enal, whose double bond is conjugated with the carbonyl, and that conjugation is what makes the elimination favourable.",
+   "wrong": {
+    "A": "Butanal would need the hydroxyl to be replaced by a hydrogen, which is a reduction rather than a loss of water.",
+    "C": "Butan-2-one has its carbonyl at carbon 2 and no double bond between carbons; no rearrangement of the skeleton of that kind occurs here.",
+    "D": "Butane-1,3-diol would come from reducing the aldehyde group, which adds hydrogen rather than removing water."
+   },
+   "category": "5D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp3-d15",
+   "passageId": null,
+   "stem": "A shielding material has a linear attenuation coefficient of 0.35 cm\u207b\u00b9 at the photon energy of interest. What is its half-value layer?",
+   "choices": {
+    "A": "2.0 cm",
+    "B": "2.9 cm",
+    "C": "5.7 cm",
+    "D": "20 cm"
+   },
+   "correct": "A",
+   "explanation": "The half-value layer is the natural logarithm of 2 divided by the linear attenuation coefficient: 0.693 divided by 0.35 per centimetre, which is 2.0 cm. Two such layers leave a quarter of the beam and three leave an eighth.",
+   "wrong": {
+    "B": "2.9 cm is one over the coefficient, the thickness that cuts the beam to 1/e of its intensity, about 37 per cent, rather than to half.",
+    "C": "5.7 cm divides 2 by the coefficient, using the factor 2 where the exponential calls for the logarithm of 2.",
+    "D": "20 cm misplaces the decimal point in the coefficient, dividing 0.693 by 0.035 per centimetre."
+   },
+   "category": "4D",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "16"
+  }
+ ]
+}
