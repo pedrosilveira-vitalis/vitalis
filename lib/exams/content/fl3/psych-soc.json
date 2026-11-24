@@ -1,0 +1,1445 @@
+{
+ "passages": [
+  {
+   "id": "ps3-p1",
+   "title": "Which cue goes with which consequence",
+   "paragraphs": [
+    "Two events that occur together are not always learned about with equal ease. A laboratory tested whether the ease of an association depends on what kind of cue is paired with what kind of consequence. Ninety-six rats, matched for weight and water deprivation, were assigned at random to four groups of 24. In a single conditioning session every animal drank for ten minutes from a spout, and every animal then received one consequence. For Groups 1 and 2 the spout delivered water flavoured with a sweetener the animals had never tasted. For Groups 3 and 4 the spout delivered plain water, and each lick was accompanied by a click and a flash of light. Groups 1 and 3 then received an injection of an emetic agent that produces several hours of gastric malaise. Groups 2 and 4 received a brief shock to the floor of the cage.",
+    "Three days later each animal was returned to the apparatus for a ten-minute test with its own cue present and no consequence of any kind. An automated counter recorded licks, and the technician who weighed the animals and transcribed the counts did not know which group an animal belonged to. Licking during the minute before the test, with the spout dry, did not differ across groups. Table 1 gives the mean licks per minute during the conditioning session, the mean during the test, and the reduction from the session rate. A further 24 animals, run alongside the four groups, drank the flavoured water and received no consequence of any kind; they licked at 59 per minute at test.",
+    "Drinking fell by 80 percent where a flavour had been followed by malaise and by 75 percent where an audiovisual cue had been followed by shock. The two crossed pairings produced small reductions, although the cues were the same, the consequences were the same, and every animal had exactly one pairing of one cue with one consequence. The investigators argued that an association is not a blank slot waiting for whatever two events arrive together, and that a species arrives with a bias about which cues are worth treating as signals for which kinds of trouble."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean licks per minute during conditioning and at test, by cue and consequence (24 animals per group).",
+    "markup": "<table><thead><tr><th>Group</th><th>Cue</th><th>Consequence</th><th>Licks per minute, conditioning</th><th>Licks per minute, test</th><th>Reduction</th></tr></thead><tbody><tr><td>1</td><td>Novel flavour</td><td>Emetic agent</td><td>60</td><td>12</td><td>80%</td></tr><tr><td>2</td><td>Novel flavour</td><td>Shock</td><td>60</td><td>48</td><td>20%</td></tr><tr><td>3</td><td>Click and light</td><td>Emetic agent</td><td>60</td><td>51</td><td>15%</td></tr><tr><td>4</td><td>Click and light</td><td>Shock</td><td>60</td><td>15</td><td>75%</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps3-p2",
+   "title": "Span, similar sounds and a repeated syllable",
+   "paragraphs": [
+    "How many items a person can hold for a few seconds depends on how the items are held. Forty-eight adult volunteers were tested on letter span. Lists of consonants were shown one at a time on a screen at one letter per second, and the volunteer wrote the list in order as soon as the last letter disappeared. Span was defined as the longest list length the volunteer reproduced in the correct order on at least two of three attempts. Two factors were varied within each volunteer. Lists were drawn either from a set of letters that rhyme, so that their names sound alike, or from a set whose names sound quite different. During half the blocks the volunteer said the syllable da aloud twice a second from the moment the first letter appeared until the last had gone, a task known as articulatory suppression; during the other half the volunteer was silent.",
+    "Every volunteer completed all four blocks, and the order of the four was assigned by a Latin square so that each block appeared equally often in each position across the sample. The letters were shown, not spoken, and no volunteer reported reading the lists aloud. Table 1 gives the mean span in each condition. The difference between the two list types, which is the cost of having to hold items that sound alike, was 1.6 items when the volunteers were silent and 0.2 items when they were suppressing articulation.",
+    "Suppression lowered span under both list types, but it did more than that: it removed almost all of the penalty for similar sounds. The investigators read this as evidence that a visually presented letter is ordinarily recoded into a sound-based form and kept there by silent rehearsal, which is why letters that sound alike interfere with one another. Occupying the mouth with an irrelevant syllable prevents that recoding, so the list is held in some other way, and the acoustic similarity of the letters stops mattering. They noted that span never fell below four items in any condition, so no floor on the measure can explain the result."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean letter span by list type and concurrent task (48 volunteers, within-subject).",
+    "markup": "<table><thead><tr><th>Concurrent task</th><th>Letters that sound alike</th><th>Letters that sound different</th><th>Difference</th></tr></thead><tbody><tr><td>Silent</td><td>4.8</td><td>6.4</td><td>1.6</td></tr><tr><td>Articulatory suppression</td><td>4.4</td><td>4.6</td><td>0.2</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps3-p3",
+   "title": "How long an afterimage lasts",
+   "paragraphs": [
+    "Stare at a saturated colour, look away at a blank grey card, and a coloured ghost appears on the card. Forty observers with normal colour vision were seated in a dim room and fixated a small cross at the centre of a coloured square that filled five degrees of the visual field. The square was either a saturated red or a saturated blue of matched luminance. Adaptation lasted 10, 20, 30 or 40 seconds, and the four durations and two colours were presented in a random order across trials, with two minutes of grey between trials. At the end of adaptation the square was replaced by a neutral grey field, and the observer held a key down for as long as any coloured ghost remained visible. Figure 1 gives the mean duration of the reported afterimage.",
+    "Observers were also asked to match the hue of the afterimage by turning a dial that moved a patch around a colour circle. After the red square, every observer set the dial in the blue-green region; after the blue square, every observer set it in the yellow region. A green square, used in a short additional block, produced settings in the red region. No observer reported an afterimage in the same hue as the square just viewed, and the match was made within two seconds of the square's disappearance in every case.",
+    "The duration of the afterimage grew with the length of adaptation, steeply between 10 and 30 seconds and then much less steeply. The investigators pointed out that neither the hue of the afterimage nor its growth with adaptation follows from the number of cone types alone: three cone classes can code a wavelength, but they do not by themselves predict that the ghost of a red field is blue-green. What does predict it is a stage that takes differences between cone signals, so that a cell excited by long wavelengths is inhibited by middle ones. Hold one side of such a pair at a steady level and its response declines; remove the stimulus and the pair settles back through the opposite sign."
+   ],
+   "figure": {
+    "kind": "svg",
+    "caption": "Figure 1  Mean duration of the reported afterimage against adaptation time. Solid line, red square; dashed line, blue square. The vertical axis is marked in seconds.",
+    "markup": "<svg viewBox=\"0 0 440 240\" role=\"img\" aria-label=\"Afterimage duration rising with adaptation time, longer for the red square than for the blue square at every adaptation time\"><line x1=\"60\" y1=\"200\" x2=\"400\" y2=\"200\" stroke=\"currentColor\"></line><line x1=\"60\" y1=\"200\" x2=\"60\" y2=\"40\" stroke=\"currentColor\"></line><text x=\"46\" y=\"204\" font-size=\"11\">0</text><text x=\"46\" y=\"124\" font-size=\"11\">4</text><text x=\"46\" y=\"44\" font-size=\"11\">8</text><text x=\"72\" y=\"220\" font-size=\"11\">10 s</text><text x=\"162\" y=\"220\" font-size=\"11\">20 s</text><text x=\"252\" y=\"220\" font-size=\"11\">30 s</text><text x=\"342\" y=\"220\" font-size=\"11\">40 s</text><polyline points=\"80,128 170,92 260,56 350,44\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"></polyline><polyline points=\"80,144 170,116 260,78 350,72\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"7 4\"></polyline><text x=\"358\" y=\"44\" font-size=\"11\">red</text><text x=\"358\" y=\"74\" font-size=\"11\">blue</text></svg>"
+   }
+  },
+  {
+   "id": "ps3-p4",
+   "title": "A pen, a cartoon and a rating",
+   "paragraphs": [
+    "A cover story allows a facial posture to be imposed without naming what it is for. One hundred and fifty undergraduates were told that the study concerned how people manage a task with the hands occupied. Each was assigned at random to hold a pen between the teeth, which draws the corners of the mouth back and contracts the muscle that raises them in a smile; to hold it between pursed lips, which prevents that contraction; or to hold it in the non-dominant hand. While holding the pen the participant rated twelve single-panel cartoons for funniness on a scale from 1, not at all funny, to 9, extremely funny.",
+    "A second factor was crossed with the first. Half the participants in each pen position were given the coordination cover story and nothing else. The other half were told, before the cartoons appeared, that the study examined whether the position of the face changes how amusing something seems. Nothing else differed between these halves: the same cartoons were shown in the same order, and the pen was held in the same way for the same length of time. Table 1 gives the mean funniness rating in each of the six cells. The standard deviation of ratings, pooled across cells, was 2.0 scale points.",
+    "Where the purpose was not disclosed, the teeth group rated the cartoons 1.6 scale points funnier than the lips group, with the hand group between them. Where the purpose was disclosed, the three positions differed by at most 0.2 scale points. The investigators treated the first pattern as evidence that a bodily change contributes to the experience that is reported, and the second as evidence about how that contribution is used: a participant who has been told what the pen is for has an alternative source to which the feeling in the face can be assigned, and assigns it there rather than to the cartoon."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean funniness rating, 1 to 9, by pen position and whether the purpose was disclosed (25 participants per cell; pooled standard deviation 2.0).",
+    "markup": "<table><thead><tr><th>Pen position</th><th>Purpose not disclosed</th><th>Purpose disclosed</th></tr></thead><tbody><tr><td>Between the teeth</td><td>6.2</td><td>5.5</td></tr><tr><td>Between pursed lips</td><td>4.6</td><td>5.3</td></tr><tr><td>In the non-dominant hand</td><td>5.4</td><td>5.4</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps3-p5",
+   "title": "Eight sessions for a fear of enclosed spaces",
+   "paragraphs": [
+    "Ninety adults who met criteria for a specific phobia of enclosed spaces, all of whom reported avoiding lifts and small rooms for at least a year, were assigned at random in equal numbers to three arms. The first arm received eight weekly sessions of graded exposure: a hierarchy was built from the least to the most feared situation, and the patient remained in each situation, without distraction and without leaving, until the fear she reported had fallen by half. The second arm received eight weekly sessions of applied relaxation, in which breathing and muscle relaxation were taught and practised but no feared situation was entered. The third arm was placed on a waiting list and offered treatment after week eight.",
+    "Avoidance was scored on a 40-point inventory at entry and at week eight by an assessor who did not know the arm. A patient counted as a responder if her score fell by at least half. Every patient also completed an approach test at week eight, walking towards a windowless room while her heart rate was recorded; the peak rate reached is given in Table 1. Three patients withdrew, one from each arm, and were counted as non-responders in the arm to which they had been assigned.",
+    "Twenty-one of the thirty patients offered exposure responded, against twelve of thirty offered relaxation and six of thirty on the waiting list. The investigators noted that the relaxation arm improved on the waiting list, and suggested that what exposure adds is not the reduction of arousal but the disconfirmation of an expectation: the patient discovers that the enclosed room does not produce the catastrophe she predicted, and the avoidance that has prevented that discovery is no longer performed. They added that relaxation can itself become something the patient believes she must do before entering a lift."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Responders and peak heart rate on the approach test at week eight, by arm (30 patients per arm).",
+    "markup": "<table><thead><tr><th>Arm</th><th>Patients</th><th>Responders</th><th>Response rate</th><th>Peak heart rate, beats per minute</th></tr></thead><tbody><tr><td>Graded exposure</td><td>30</td><td>21</td><td>70%</td><td>92</td></tr><tr><td>Applied relaxation</td><td>30</td><td>12</td><td>40%</td><td>104</td></tr><tr><td>Waiting list</td><td>30</td><td>6</td><td>20%</td><td>112</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps3-p6",
+   "title": "How far away the instruction comes from",
+   "paragraphs": [
+    "One hundred and twenty adults answered an advertisement for a study of how distraction affects learning. Each was told that the person in the next room, in fact a member of staff following a script, would attempt a word task, and that the participant was to deliver a burst of unpleasant noise through headphones after every error, moving up one level on a twenty-level dial each time. The levels were labelled from faint to very severe. No noise in fact reached the member of staff, whose protests were recorded in advance and played at fixed levels; participants were told so at a full debriefing, and nobody declined to have their data used.",
+    "Participants were assigned at random, thirty to each of four conditions, which differed only in where the instruction to continue came from. In the first the experimenter sat beside the participant. In the second the experimenter sat at the far end of the same room and could not see the dial. In the third the experimenter gave the instruction by telephone from another building. In the fourth no experimenter was present at any point: the instruction to continue was played from a recording made by the same experimenter. The outcome was the proportion who reached level twenty, shown in Figure 1; the mean highest level reached was 18.4, 16.9, 13.2 and 11.6 in the four conditions in that order.",
+    "Twenty-four of the thirty participants seated beside the experimenter reached level twenty, as did eighteen of those with the experimenter across the room, nine of those instructed by telephone and six of those instructed by a recording. The scripted protests, the dial, the headphones and the word task were identical throughout, so the only thing that varied was the instructing person's presence. The investigators argued that what carries an instruction of this kind is not its content but the standing of whoever gives it, and that standing is something that decays with distance."
+   ],
+   "figure": {
+    "kind": "svg",
+    "caption": "Figure 1  Percentage of participants reaching level twenty, by condition. The vertical axis runs from 0 to 100 percent and is labelled at 0, 40 and 80.",
+    "markup": "<svg viewBox=\"0 0 440 240\" role=\"img\" aria-label=\"Bar chart of the percentage reaching the highest level, falling across the four conditions from beside the experimenter to a recording\"><line x1=\"70\" y1=\"200\" x2=\"410\" y2=\"200\" stroke=\"currentColor\"></line><line x1=\"70\" y1=\"200\" x2=\"70\" y2=\"44\" stroke=\"currentColor\"></line><text x=\"52\" y=\"204\" font-size=\"11\">0</text><text x=\"46\" y=\"144\" font-size=\"11\">40</text><text x=\"46\" y=\"84\" font-size=\"11\">80</text><rect x=\"90\" y=\"80\" width=\"50\" height=\"120\" fill=\"currentColor\"></rect><rect x=\"170\" y=\"110\" width=\"50\" height=\"90\" fill=\"currentColor\"></rect><rect x=\"250\" y=\"155\" width=\"50\" height=\"45\" fill=\"currentColor\"></rect><rect x=\"330\" y=\"170\" width=\"50\" height=\"30\" fill=\"currentColor\"></rect><text x=\"92\" y=\"216\" font-size=\"10\">beside</text><text x=\"170\" y=\"216\" font-size=\"10\">across room</text><text x=\"254\" y=\"216\" font-size=\"10\">telephone</text><text x=\"332\" y=\"216\" font-size=\"10\">recording</text><text x=\"104\" y=\"72\" font-size=\"11\">80%</text><text x=\"184\" y=\"102\" font-size=\"11\">60%</text><text x=\"264\" y=\"147\" font-size=\"11\">30%</text><text x=\"344\" y=\"162\" font-size=\"11\">20%</text></svg>"
+   }
+  },
+  {
+   "id": "ps3-p7",
+   "title": "Reading the case for a new fee",
+   "paragraphs": [
+    "One hundred and sixty students read a one-page message arguing that their university should introduce a transport fee that would fund a bus service. Two features of the situation were crossed. The quality of the argument was either strong, in which case the message gave costed figures for the service, the fare saving per student and the results of a trial elsewhere, or weak, in which case it asserted that the fee was modern, that other places were doing something similar and that opponents had not thought it through. Personal relevance was manipulated by the date the fee was said to begin: either at the start of the next term, which would affect every reader, or in ten years, by which time no reader would still be enrolled.",
+    "Students were assigned at random to the four combinations, forty to each. After reading, each rated agreement with the proposal on a scale from 1 to 9 and then listed every thought that had occurred while reading, which two coders, blind to condition, sorted into thoughts about the content of the argument and thoughts about anything else. Table 1 gives the mean agreement rating and the mean number of content-related thoughts in each cell. No student was told anything about the source of the message, and no photograph or name accompanied it.",
+    "The quality of the argument made a difference of 3.2 scale points where the fee was to begin next term and a difference of 0.4 scale points where it was to begin in ten years. The count of content-related thoughts followed relevance rather than quality: students for whom the fee was imminent listed about three times as many such thoughts as students for whom it was distant. The investigators concluded that a message is not processed in one fixed way, and that whether its content governs the attitude it produces depends on whether the reader has a reason to work through it."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean agreement rating, 1 to 9, and mean number of content-related thoughts, by argument quality and personal relevance (40 students per cell).",
+    "markup": "<table><thead><tr><th>Condition</th><th>Strong argument</th><th>Weak argument</th></tr></thead><tbody><tr><td>Fee begins next term: agreement</td><td>7.2</td><td>4.0</td></tr><tr><td>Fee begins next term: content thoughts</td><td>6.4</td><td>6.1</td></tr><tr><td>Fee begins in ten years: agreement</td><td>5.6</td><td>5.2</td></tr><tr><td>Fee begins in ten years: content thoughts</td><td>2.3</td><td>2.1</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps3-p8",
+   "title": "A label on the same account",
+   "paragraphs": [
+    "Six hundred adults recruited from a national online panel each read one vignette describing a man of 28 who had withdrawn from his friends, slept badly for months and sometimes heard a voice that others could not hear. The three versions of the vignette were identical in every sentence describing what the man did and felt. They differed only in the final line, which stated either that he had been given a diagnosis of schizophrenia, or that he had been told he had a mental illness, or that he was going through a stressful period in his life. Two hundred respondents, assigned at random, read each version.",
+    "Each respondent then completed a social distance scale of eight items, scored from 0 to 24, on which a higher score means a greater wish to keep the man at a distance; stated whether she would recommend that he see a mental health professional; stated whether she would be unwilling to have him as a next-door neighbour; and stated whether she thought his difficulties were caused by a disease of the brain. Table 1 gives the results. Respondents were not told that other versions existed, and the panel is not a probability sample of the adult population.",
+    "The diagnostic label raised both the proportion recommending professional help and the proportion unwilling to live next door. It also raised the proportion attributing the difficulties to a disease of the brain from 22 percent to 68 percent. The investigators observed that an account of symptoms acquires something when a name is attached to it that it did not carry before, and that the something is not simply a judgement of severity, since the described conduct was held constant. They also observed that what a respondent says she would do with a neighbour is not what she does, and that a man deciding whether to consult anyone must weigh the same reactions the study measured."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Responses to the same vignette under three labels (200 respondents per version).",
+    "markup": "<table><thead><tr><th>Final line of the vignette</th><th>Mean social distance, 0 to 24</th><th>Recommend a professional</th><th>Unwilling as a neighbour</th><th>Caused by a brain disease</th></tr></thead><tbody><tr><td>Diagnosis of schizophrenia</td><td>14.4</td><td>72%</td><td>46%</td><td>68%</td></tr><tr><td>Has a mental illness</td><td>11.2</td><td>64%</td><td>32%</td><td>49%</td></tr><tr><td>Going through a stressful period</td><td>7.6</td><td>41%</td><td>12%</td><td>22%</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps3-p9",
+   "title": "Three levels of schooling across two generations",
+   "paragraphs": [
+    "A national survey interviewed 4,000 adults aged between 40 and 49, an age by which education is almost always complete. Each respondent reported her own highest qualification and the highest qualification held by either parent, coded into three levels: no formal qualification, a school certificate, and a degree. Interviewers were trained to probe for the parent's qualification rather than accept a first answer, and the sample was weighted to the age distribution of the population. Of the respondents, 34 percent came from a household in which neither parent held a qualification, 41 percent from a household whose highest qualification was a school certificate, and 25 percent from a household in which a parent held a degree.",
+    "Table 1 reports, for each level of parental qualification, the percentage of respondents at each level of their own. Each row is a percentage of the respondents from that origin, so each row sums to 100. Sixty percent of respondents whose parent held a degree held a degree themselves, four times the 15 percent found among respondents whose parents held no qualification. Across the whole cohort 33 percent held a degree, against the 25 percent of parental households in which someone did.",
+    "The survey is cross-sectional: every respondent was interviewed once, and the parental figure is a report by the respondent rather than a record. The investigators were careful about what such a table can and cannot show. It records where people from each origin ended up, which is a description of destinations rather than a mechanism; nothing in it distinguishes an advantage carried in the home from an advantage conferred by the schools that children of educated parents attend. They noted that the share holding degrees rose between the generations, so that some of the upward movement reflects a change in the number of places available rather than an exchange of positions between families.",
+    "Two further facts about the cohort were recorded. Each respondent gave her place of birth: 18 percent of the 4,000, or 720 respondents, had migrated to the country after the age of sixteen, and for those respondents the parental qualification is one held in another country's system. The register from which the sample was drawn also gives the size of each ten-year birth cohort. The respondents' cohort, those born across the decade the survey covers, numbers 520,000 people, a fifth smaller than the 650,000 in the cohort born ten years earlier; the statistical office attributes that difference to the fall in the birth rate across the intervening decade and not to emigration, which was slight in both cohorts. The investigators observed that a cohort interviewed once in middle age is not the cohort that was born: deaths have removed some of its members and arrivals from abroad have added others, so its composition at interview is the product of births, deaths and migration together. "
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Own highest qualification by highest parental qualification, as a percentage of each origin row (4,000 respondents).",
+    "markup": "<table><thead><tr><th>Highest parental qualification</th><th>Own: none</th><th>Own: school certificate</th><th>Own: degree</th><th>Row total</th></tr></thead><tbody><tr><td>None</td><td>52%</td><td>33%</td><td>15%</td><td>100%</td></tr><tr><td>School certificate</td><td>28%</td><td>40%</td><td>32%</td><td>100%</td></tr><tr><td>Degree</td><td>11%</td><td>29%</td><td>60%</td><td>100%</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps3-p10",
+   "title": "Rating ninety occupations",
+   "paragraphs": [
+    "Standing at work is measured, when it is measured at all, by asking people. A survey gave each of 1,200 respondents a list of 30 occupations drawn from a pool of 90 and asked them to place each one on a ladder from 0, the lowest standing in the community, to 100, the highest. Every occupation was rated by about 400 respondents, and the mean rating became that occupation's prestige score. The 90 occupations were then matched to administrative data giving the mean years of schooling of people working in them and their median annual earnings. Two further variables were recorded for each occupation: the percentage of its workers who belonged to a union, and the percentage of respondents who described the occupation as middle class.",
+    "The unit of analysis in Table 1 is the occupation, not the person, so each correlation is computed across 90 occupations. The prestige scores were also split: the ratings from odd-numbered respondents were correlated with those from even-numbered respondents, which gave a coefficient of 0.92. The investigators used that figure to argue that the ladder is answered consistently, and were explicit that consistency of this kind speaks to whether a measure repeats itself and not to whether it captures standing in the community.",
+    "Prestige tracked schooling more closely than it tracked pay. Several occupations sat well away from the line relating the two: some requiring long training were rated high and paid in the bottom quarter of the 90, and a few requiring little schooling were paid in the top quarter and rated below the middle. The investigators took this as a reason to keep the dimensions of standing apart when social class is measured, rather than collapsing schooling, earnings and prestige into a single index and assuming that an occupation sits at the same height on all three."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Correlations across the 90 occupations.",
+    "markup": "<table><thead><tr><th>Pair of measures</th><th>Correlation</th></tr></thead><tbody><tr><td>Prestige and mean years of schooling</td><td>0.78</td></tr><tr><td>Prestige and percentage called middle class</td><td>0.71</td></tr><tr><td>Prestige and median annual earnings</td><td>0.54</td></tr><tr><td>Mean years of schooling and median annual earnings</td><td>0.49</td></tr><tr><td>Prestige and percentage of workers in a union</td><td>0.11</td></tr></tbody></table>"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "ps3-p1-q1",
+   "passageId": "ps3-p1",
+   "stem": "In Group 1, which pairing of terms correctly identifies elements of the procedure?",
+   "choices": {
+    "A": "The flavour is the unconditioned stimulus and the malaise is the conditioned response.",
+    "B": "The injection is the conditioned stimulus and the reduced drinking is the unconditioned response.",
+    "C": "The flavour is the conditioned stimulus and the malaise after the injection is the conditioned response.",
+    "D": "The flavour is the conditioned stimulus and the reduced drinking at test is the conditioned response."
+   },
+   "correct": "D",
+   "explanation": "The flavour began as a neutral stimulus and acquired its power only by being paired with the injection, so it is the conditioned stimulus; the emetic agent is the unconditioned stimulus, and the malaise it produces is the unconditioned response. What the flavour alone comes to produce, the fall in drinking from 60 to 12 licks per minute, is the conditioned response.",
+   "wrong": {
+    "A": "This reverses the two stimuli. The flavour had never been paired with anything before the session, so it cannot be the stimulus that produces malaise without learning.",
+    "B": "The injection produces malaise without any training, which makes it the unconditioned stimulus, and the fall in drinking is what had to be learned rather than a reflex.",
+    "C": "The malaise is produced directly by the emetic agent, so it is the unconditioned response; the animals were never made ill by the flavour alone."
+   },
+   "category": "7C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "18"
+  },
+  {
+   "id": "ps3-p1-q2",
+   "passageId": "ps3-p1",
+   "stem": "The investigators argue that a species arrives with a bias about which cues signal which consequences. Which term names that claim?",
+   "choices": {
+    "A": "stimulus generalisation, the spread of a response to cues resembling the trained one",
+    "B": "higher-order conditioning, the use of a trained cue to train a second one",
+    "C": "latent inhibition, the slower conditioning of a cue already made familiar",
+    "D": "biological preparedness, an inherited readiness to associate particular cues with particular outcomes"
+   },
+   "correct": "D",
+   "explanation": "Preparedness is the claim that associability is not uniform: a species inherits a readiness to treat certain cues as signals for certain consequences. A flavour paired with malaise and an audiovisual cue paired with pain are the prepared pairings here, which is why the crossed cells learned so little from the same number of trials.",
+   "wrong": {
+    "A": "Generalisation concerns responding to a cue similar to the trained one; every animal was tested with its own cue, so no spread to a new cue is at issue.",
+    "B": "Higher-order conditioning requires an already conditioned stimulus to serve as the consequence, and here every consequence was an injection or a shock.",
+    "C": "Latent inhibition describes slow learning about a familiar cue, but the flavour was new to every animal and the click and light were equally new."
+   },
+   "category": "7C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "18"
+  },
+  {
+   "id": "ps3-p1-q3",
+   "passageId": "ps3-p1",
+   "stem": "Group 1 animals are given ten further sessions with the flavoured water and no injection, after which their drinking has returned to 60 licks per minute. They are then left in their home cages for two weeks and offered the flavoured water again. Drinking will most likely:",
+   "choices": {
+    "A": "stay at 60 licks per minute, because the ten unreinforced sessions have erased the association",
+    "B": "fall to about 12 licks per minute, because the original learning is unaffected by what followed it",
+    "C": "fall somewhat below 60 licks per minute, because an extinguished response recovers after a rest interval",
+    "D": "rise above 60 licks per minute, because the flavour now signals that no injection is coming"
+   },
+   "correct": "C",
+   "explanation": "Extinction suppresses a conditioned response without destroying what was learned, and after an interval with no exposure the response returns in weaker form, which is spontaneous recovery. Drinking should therefore fall below the 60 licks per minute reached at the end of extinction, but not back to the 12 seen at the first test.",
+   "wrong": {
+    "A": "This treats extinction as erasure. If the association were destroyed, the response could not reappear after a rest, which is exactly what spontaneous recovery shows it does.",
+    "B": "A return to the original level would mean the ten unreinforced sessions had no effect at all, whereas recovery after extinction is reliably partial.",
+    "D": "Drinking above the group's own session rate would require the flavour to have become an appetitive signal, and nothing in the procedure pairs it with anything good."
+   },
+   "category": "7C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "18"
+  },
+  {
+   "id": "ps3-p1-q4",
+   "passageId": "ps3-p1",
+   "stem": "What does the group that drank the flavoured water and received no consequence establish?",
+   "choices": {
+    "A": "that the emetic agent suppresses drinking whether or not a cue precedes it",
+    "B": "that the suppression in Group 1 cannot be attributed to the shock",
+    "C": "that the suppression in Group 1 is not simply wariness of an unfamiliar taste",
+    "D": "that the flavour and the audiovisual cue were equally detectable before conditioning"
+   },
+   "correct": "C",
+   "explanation": "A new flavour can depress drinking on its own, so without this group a fall in Group 1 could be put down to the novelty of the sweetener rather than to its pairing with malaise. The group drank at 59 licks per minute, near the 60 of the conditioning session, which leaves the pairing as the explanation for Group 1's fall to 12.",
+   "wrong": {
+    "A": "That would require a group given the injection with no cue at all; this group received no injection, so it says nothing about the agent's direct effect.",
+    "B": "Group 1 never received a shock, so a shock was never a candidate explanation for its behaviour and needs no control group.",
+    "D": "Matching the detectability of two cues would require measuring responses to each cue before any pairing, which no group in the study provides."
+   },
+   "category": "7C",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "18"
+  },
+  {
+   "id": "ps3-p1-q5",
+   "passageId": "ps3-p1",
+   "stem": "Using the test rates in Table 1, how large is the interaction between cue and consequence, taken as the difference between the two differences in test licks per minute?",
+   "choices": {
+    "A": "0 licks per minute",
+    "B": "36 licks per minute",
+    "C": "39 licks per minute",
+    "D": "72 licks per minute"
+   },
+   "correct": "D",
+   "explanation": "Within the flavour cue, shock minus emetic is 48 minus 12, or 36 licks per minute. Within the audiovisual cue it is 15 minus 51, or minus 36. Subtracting the second difference from the first, 36 less negative 36, gives an interaction of 72 licks per minute. An interaction this large with no main effect of either factor is what a crossed pattern looks like.",
+   "wrong": {
+    "A": "This adds the two signed differences instead of subtracting one from the other, so the two halves of the crossover cancel and a large interaction is reported as none.",
+    "B": "This is one simple effect on its own, the 36 licks per minute separating the two flavour groups, and an interaction needs both simple effects compared.",
+    "C": "This is 51 minus 12, the gap between the two groups given the emetic agent, which compares cues at one level of consequence rather than comparing differences."
+   },
+   "category": "7C",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "18"
+  },
+  {
+   "id": "ps3-p2-q1",
+   "passageId": "ps3-p2",
+   "stem": "Saying the syllable da twice a second while the letters are shown is thought to occupy which part of the memory system?",
+   "choices": {
+    "A": "the visuospatial sketchpad, which holds the shapes and positions of the letters",
+    "B": "the articulatory rehearsal process that refreshes the phonological store",
+    "C": "the central executive, which divides attention between two tasks at once",
+    "D": "the long-term store, from which the names of the letters must be retrieved"
+   },
+   "correct": "B",
+   "explanation": "Repeating an irrelevant syllable aloud ties up the articulatory process that would otherwise rehearse the list silently and keep the phonological store refreshed. That is why suppression lowers span under both list types and, more tellingly, removes the penalty for letters that sound alike.",
+   "wrong": {
+    "A": "The sketchpad holds visual and spatial material; occupying it would not explain why an effect that depends on how the letters sound disappears.",
+    "C": "A general demand on attention would lower both spans without touching the similarity effect, which fell from 1.6 items to 0.2 items.",
+    "D": "Retrieving letter names from long-term knowledge is required in every condition, including the silent ones, so it cannot be what suppression interferes with."
+   },
+   "category": "6B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "19"
+  },
+  {
+   "id": "ps3-p2-q2",
+   "passageId": "ps3-p2",
+   "stem": "By how many items does articulatory suppression reduce the cost of holding letters that sound alike?",
+   "choices": {
+    "A": "1.8 items",
+    "B": "1.6 items",
+    "C": "1.4 items",
+    "D": "0.2 items"
+   },
+   "correct": "C",
+   "explanation": "The cost of similar-sounding letters is 6.4 minus 4.8, or 1.6 items, when the volunteers are silent, and 4.6 minus 4.4, or 0.2 items, when they are suppressing articulation. The reduction in that cost is 1.6 minus 0.2, which is 1.4 items.",
+   "wrong": {
+    "A": "This adds the two similarity effects, 1.6 and 0.2, instead of subtracting the smaller from the larger, and so reports more reduction than the whole effect ever was.",
+    "B": "This is the similarity effect in the silent condition read as though suppression had abolished it entirely, but 0.2 items of it remain.",
+    "D": "This is the similarity effect that survives under suppression, which is what is left rather than what was removed."
+   },
+   "category": "6B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "19"
+  },
+  {
+   "id": "ps3-p2-q3",
+   "passageId": "ps3-p2",
+   "stem": "Which account best explains why suppression removes almost all of the penalty for letters that sound alike?",
+   "choices": {
+    "A": "Suppression lowers span to the floor of the measure, leaving no room for a further penalty to show itself.",
+    "B": "Letters that sound alike are harder to see on a screen, and suppression gives the eyes more time to inspect them.",
+    "C": "Suppression prevents the visually presented letters from being recoded into a sound-based form, so their sounds can no longer interfere.",
+    "D": "Suppression transfers the list to long-term memory, where items are stored by meaning and sound plays no part."
+   },
+   "correct": "C",
+   "explanation": "The penalty exists because letters seen on a screen are ordinarily turned into a sound-based code and rehearsed there, and codes that sound alike blur together. Blocking articulation prevents the recoding, so the list is held in some other form and the acoustic similarity of the names stops mattering.",
+   "wrong": {
+    "A": "A floor effect is ruled out in the passage: span stayed above four items in every condition, so there was room for a penalty to appear.",
+    "B": "The two sets of letters were equally legible, and suppression does not change the one-letter-per-second rate at which they were shown.",
+    "D": "A list recalled seconds after presentation does not need to be transferred to long-term storage, and meaning-based storage would not be disrupted by saying a syllable aloud."
+   },
+   "category": "6B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "19"
+  },
+  {
+   "id": "ps3-p2-q4",
+   "passageId": "ps3-p2",
+   "stem": "Why were the four blocks assigned to positions by a Latin square?",
+   "choices": {
+    "A": "Practice and fatigue across the session would otherwise be confounded with condition.",
+    "B": "It equates the two sets of letters for how often they occur in written English.",
+    "C": "It keeps each volunteer from working out what the study is about.",
+    "D": "It makes the four means independent, which the statistical test requires."
+   },
+   "correct": "A",
+   "explanation": "Every volunteer completed all four blocks, so whichever condition came first would benefit least from practice and whichever came last would suffer most from fatigue. Rotating the four conditions through the four positions equally often across the sample spreads those order effects evenly instead of letting them accumulate in one condition.",
+   "wrong": {
+    "B": "Letter frequency is a property of the two stimulus sets and is unaffected by the order in which blocks are run; it would have to be controlled when the sets were built.",
+    "C": "Order rotation does nothing to hide the manipulation, and volunteers who say a syllable aloud in half the blocks can hardly miss that something is being varied.",
+    "D": "Four measurements from the same person are not independent whatever their order, which is why a within-subject analysis is used instead."
+   },
+   "category": "6B",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "19"
+  },
+  {
+   "id": "ps3-p3-q1",
+   "passageId": "ps3-p3",
+   "stem": "According to Figure 1, the afterimage of the red square after 30 seconds of adaptation lasted how many times as long as the afterimage of the red square after 10 seconds?",
+   "choices": {
+    "A": "2.6 times",
+    "B": "2.0 times",
+    "C": "1.2 times",
+    "D": "0.5 times"
+   },
+   "correct": "B",
+   "explanation": "The solid line reads 7.2 seconds at 30 seconds of adaptation and 3.6 seconds at 10 seconds. The ratio is 7.2 divided by 3.6, which is 2.0, so doubling occurs between 10 and 30 seconds of adaptation and almost nothing is added between 30 and 40.",
+   "wrong": {
+    "A": "This divides the red value at 30 seconds by the blue value at 10 seconds, 7.2 by 2.8, which mixes the two curves rather than comparing two adaptation times on one.",
+    "C": "This divides the red value at 30 seconds by the blue value at the same time, 7.2 by 6.1, which compares the two squares instead of two adaptation times.",
+    "D": "This divides the shorter duration by the longer, which gives the ratio the other way round and describes 10 seconds as a fraction of 30."
+   },
+   "category": "6A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "20"
+  },
+  {
+   "id": "ps3-p3-q2",
+   "passageId": "ps3-p3",
+   "stem": "Which mechanism best explains why the red square produced an afterimage that observers matched in the blue-green region?",
+   "choices": {
+    "A": "A channel that is excited by long wavelengths and inhibited by middle ones adapts while red is viewed and responds in the opposite direction when red is removed.",
+    "B": "Grey light stimulates all three cone classes equally, so the class with the longest wavelength peak dominates the response to the grey field.",
+    "C": "The cones sensitive to long wavelengths are bleached, leaving the rods, which signal blue-green at the light levels used.",
+    "D": "The signal from the retina is inverted in the lateral geniculate nucleus whenever the eyes move to a new fixation point."
+   },
+   "correct": "A",
+   "explanation": "Opponent coding takes differences between cone signals, so one cell carries red against green and another blue against yellow. Steady red viewing drives the red-green channel in one direction and its response declines; when the square goes, the channel settles back through the opposite sign, which is seen as blue-green.",
+   "wrong": {
+    "B": "Equal stimulation of the three cone classes is what makes a field look grey, and nothing about it would favour the long-wavelength class or produce a coloured ghost.",
+    "C": "Rods do not carry hue information at all, and the room was dim but not dark enough to remove cone function; the observers matched hues reliably throughout.",
+    "D": "Observers held fixation on a central cross, and an inversion tied to eye movements would not explain why the ghost's hue is the complement of the square's."
+   },
+   "category": "6A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "20"
+  },
+  {
+   "id": "ps3-p3-q3",
+   "passageId": "ps3-p3",
+   "stem": "Which description of colour coding is consistent with both the hue matches and what is known of the visual system?",
+   "choices": {
+    "A": "Opponent coding occurs at the cones and trichromatic coding at the ganglion cells.",
+    "B": "Opponent coding occurs at every stage, and no trichromatic stage is involved.",
+    "C": "Trichromatic coding occurs in the cortex, the retina signalling only brightness.",
+    "D": "Trichromatic coding occurs at three cone classes, with opponent coding at stages after them."
+   },
+   "correct": "D",
+   "explanation": "The two accounts describe different stages rather than competing for one. Three cone classes with overlapping sensitivities code wavelength at the receptors, and cells after the receptors take differences between those signals, which is what makes complementary afterimages and the absence of a reddish green possible.",
+   "wrong": {
+    "A": "This puts the two stages the wrong way round: the three classes of cone are the receptors, and the difference-taking cells lie after them.",
+    "B": "Without three classes of receptor with different spectral sensitivities there would be nothing from which differences could be taken.",
+    "C": "A retina that signalled brightness alone could not support the hue matches observers made, which were made within two seconds of the square's disappearance."
+   },
+   "category": "6A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "20"
+  },
+  {
+   "id": "ps3-p3-q4",
+   "passageId": "ps3-p3",
+   "stem": "Which change to the procedure would be expected to have the LEAST effect on the measured duration of the afterimage?",
+   "choices": {
+    "A": "halving the luminance of the coloured square",
+    "B": "asking observers to press a key once the ghost has gone rather than hold one down while it lasts",
+    "C": "letting observers move their eyes freely over the square during adaptation",
+    "D": "shortening adaptation from 30 seconds to 10 seconds"
+   },
+   "correct": "B",
+   "explanation": "The duration depends on how strongly and how locally the opponent channels have been driven. How the observer signals the end of the ghost is a matter of the response, not of adaptation, so either way of marking that moment leaves the measured duration essentially unchanged.",
+   "wrong": {
+    "A": "Luminance determines how hard the channels are driven, and a dimmer square produces a weaker and shorter-lived afterimage.",
+    "C": "Free eye movements spread the adapting light across different retinal regions, so no region is strongly adapted and the ghost is faint and brief.",
+    "D": "Figure 1 shows duration falling from 7.2 seconds to 3.6 seconds for the red square across exactly this change, the largest effect in the study."
+   },
+   "category": "6A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "20"
+  },
+  {
+   "id": "ps3-p4-q1",
+   "passageId": "ps3-p4",
+   "stem": "The pattern in the undisclosed cells is most often cited in support of which account of emotion?",
+   "choices": {
+    "A": "the Cannon-Bard account, in which the bodily response and the feeling arise at once and independently",
+    "B": "the Yerkes-Dodson relation, in which performance is best at a moderate level of arousal",
+    "C": "the Schachter-Singer account, in which arousal is interpreted by reference to the situation",
+    "D": "the James-Lange account, in which the bodily change contributes to the feeling that is reported"
+   },
+   "correct": "D",
+   "explanation": "A posture imposed before any cartoon appeared changed how funny the cartoons were rated, so a peripheral bodily change fed into the reported experience rather than merely following it. That direction of travel, from the body to the feeling, is what the James-Lange account claims.",
+   "wrong": {
+    "A": "If the bodily change and the feeling were independent, imposing the facial posture could not have moved the ratings by 1.6 scale points.",
+    "B": "The Yerkes-Dodson relation concerns how arousal affects performance on a task, and no performance measure was taken here.",
+    "C": "A two-factor account needs arousal that the participant then labels from the situation, but the manipulation was a muscle posture and the situation was held constant across pen positions."
+   },
+   "category": "6C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "21"
+  },
+  {
+   "id": "ps3-p4-q2",
+   "passageId": "ps3-p4",
+   "stem": "Using Table 1 and the pooled standard deviation, what is the standardised difference between the teeth and lips groups in the undisclosed condition?",
+   "choices": {
+    "A": "0.26",
+    "B": "0.40",
+    "C": "0.80",
+    "D": "3.20"
+   },
+   "correct": "C",
+   "explanation": "A standardised difference divides the difference between two means by the pooled standard deviation. Here that is 6.2 minus 4.6, or 1.6 scale points, divided by 2.0 scale points, which gives 0.80.",
+   "wrong": {
+    "A": "This divides the difference of 1.6 by the teeth group's mean of 6.2 rather than by the standard deviation, which yields a proportion of a mean and not a standardised effect.",
+    "B": "This uses the teeth group against the hand group, a difference of 0.8 scale points, rather than the comparison the question specifies.",
+    "D": "This multiplies the difference by the standard deviation instead of dividing by it, which makes the effect larger as the spread of the ratings grows."
+   },
+   "category": "6C",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "21"
+  },
+  {
+   "id": "ps3-p4-q3",
+   "passageId": "ps3-p4",
+   "stem": "Which account best explains why the three pen positions produced almost identical ratings when the purpose had been disclosed?",
+   "choices": {
+    "A": "The disclosed groups were asked to contract different muscles, so the posture manipulation did not take effect in them.",
+    "B": "Participants who know what the pen is for attribute the feeling in the face to the pen and discount it when judging the cartoon.",
+    "C": "Being told the hypothesis adds to the demands of the task, which lowers every rating by the same amount.",
+    "D": "Disclosure makes the cartoons seem funnier, which pushes all three groups up against the top of the nine-point scale."
+   },
+   "correct": "B",
+   "explanation": "The bodily change is still there, but it is no longer taken as information about the cartoon: a participant who has been told the study is about facial posture has an alternative source to which the feeling can be assigned. Discounting of this kind leaves the three positions within 0.2 scale points of one another.",
+   "wrong": {
+    "A": "The passage states that the pen was held in the same way for the same length of time in both halves, so the posture itself did not differ.",
+    "C": "An equal fall in every rating would leave the differences between pen positions intact, and it is those differences that disappeared.",
+    "D": "The disclosed means sit between 5.3 and 5.5 on a nine-point scale, which is nowhere near a ceiling, and the teeth group's rating fell rather than rose."
+   },
+   "category": "6C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "21"
+  },
+  {
+   "id": "ps3-p4-q4",
+   "passageId": "ps3-p4",
+   "stem": "A participant in the hand condition says afterwards that her heart was racing as she read the cartoons, and that she took the racing as a sign of how amusing they were. Her report best illustrates which account of emotion?",
+   "choices": {
+    "A": "a James-Lange account, in which each emotion follows from its own distinct bodily pattern",
+    "B": "a Cannon-Bard account, in which bodily changes make no contribution to what is felt",
+    "C": "a two-factor account, in which an unspecific bodily state is labelled from the situation the person is in",
+    "D": "a facial feedback account, in which the muscles of the face settle which emotion is experienced"
+   },
+   "correct": "C",
+   "explanation": "A racing heart is compatible with amusement, nervousness and several other states, so what decides the label is the situation to which the participant assigns it. That is the two-factor claim: arousal supplies the intensity and the appraisal of the setting supplies the name.",
+   "wrong": {
+    "A": "A James-Lange account requires a bodily pattern specific to the emotion, whereas a racing heart is exactly the unspecific state that could have been read several ways.",
+    "B": "On this account the participant's arousal would be irrelevant to her judgement, yet she reports using it as evidence about the cartoons.",
+    "D": "The participant held the pen in her hand, so no facial posture was imposed on her, and the report concerns her heart rather than her face."
+   },
+   "category": "6C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "21"
+  },
+  {
+   "id": "ps3-p4-q5",
+   "passageId": "ps3-p4",
+   "stem": "A participant in the undisclosed teeth condition shows a strong contraction of the muscle that raises the corners of the mouth and still reports no amusement at all. Which conclusion does this best support?",
+   "choices": {
+    "A": "Peripheral feedback modulates an emotional experience rather than generating one by itself.",
+    "B": "Emotional experience is a purely cognitive appraisal to which the body contributes nothing.",
+    "C": "The muscles of the face are the sole determinant of what a person feels and reports.",
+    "D": "Feedback from the face requires an intact amygdala, which this participant presumably lacks."
+   },
+   "correct": "A",
+   "explanation": "One participant whose face is in the right posture and who reports nothing shows that the posture is not sufficient on its own, while the group difference of 1.6 scale points shows it is not irrelevant either. Feedback shifts an experience that other things also determine.",
+   "wrong": {
+    "B": "A body that contributed nothing could not have moved the group means at all, and the teeth and lips groups differed by 1.6 scale points.",
+    "C": "This is the claim the single participant contradicts, since her facial muscles were contracting while she reported no amusement.",
+    "D": "Nothing in the study measures any brain structure, and a report of no amusement in one participant gives no grounds for inferring damage anywhere."
+   },
+   "category": "6C",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "21"
+  },
+  {
+   "id": "ps3-p5-q1",
+   "passageId": "ps3-p5",
+   "stem": "At week eight a patient from the exposure arm says that she can now stay in a small room until her fear subsides, whatever she feels on entering it. Which construct does that statement describe?",
+   "choices": {
+    "A": "self-esteem, the overall value a person places on herself as she measures herself against others",
+    "B": "an external locus of control, the sense that what happens to her is settled by forces outside her",
+    "C": "a self-schema for illness, the organised body of belief through which a person reads herself as a patient",
+    "D": "self-efficacy, her judgement that she can carry out the actions a particular situation demands of her"
+   },
+   "correct": "D",
+   "explanation": "Self-efficacy is a judgement about a specific capability: whether this person can do this thing in this situation. The statement is exactly that, and it is what graded exposure is meant to produce, since remaining in each situation until fear has fallen by half gives the patient evidence about what she can do. It is distinct both from the value she places on herself in general and from where she locates the causes of what happens to her.",
+   "wrong": {
+    "A": "Self-esteem is a global evaluation of one's own worth, and the patient is reporting what she can do in one kind of situation rather than what she takes herself to be worth.",
+    "B": "An external locus of control is better illustrated by the relaxation arm, where the patient credits the ritual rather than herself for the absence of the catastrophe she predicted.",
+    "C": "A self-schema organises beliefs about the kind of person one is, whereas the statement concerns one action in one place rather than a standing description of herself."
+   },
+   "category": "8A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "21"
+  },
+  {
+   "id": "ps3-p5-q2",
+   "passageId": "ps3-p5",
+   "stem": "The investigators suggest that relaxation can become something the patient believes she must do before entering a lift. Why would that limit the benefit of the relaxation arm?",
+   "choices": {
+    "A": "It works as a safety behaviour, so the patient attributes the absence of catastrophe to the relaxation rather than to the lift.",
+    "B": "It lowers physiological arousal, and a fear response cannot be extinguished unless arousal remains high throughout.",
+    "C": "It acts as negative punishment of avoidance, which weakens the response the treatment is trying to strengthen.",
+    "D": "It was delivered without a blind assessor, so the arm's response rate is inflated relative to exposure."
+   },
+   "correct": "A",
+   "explanation": "A safety behaviour supplies an alternative explanation for the good outcome, so the patient's prediction about the enclosed space is never actually tested. The belief that the lift would be dangerous without the ritual survives the experience intact, which is why the arm improved on the waiting list without matching exposure.",
+   "wrong": {
+    "B": "Extinction depends on meeting the feared situation without the expected harm, not on maintaining high arousal; the exposure arm ended with the lowest peak heart rate at 92 beats per minute.",
+    "C": "Negative punishment means removing something valued, and a relaxation ritual that makes entry possible is not the removal of anything.",
+    "D": "The passage states that the assessor did not know the arm, and in any case an inflated rate would not explain why relaxation did worse than exposure."
+   },
+   "category": "7A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "22"
+  },
+  {
+   "id": "ps3-p5-q3",
+   "passageId": "ps3-p5",
+   "stem": "A woman screened for the trial reports that for six months she has had sudden surges of intense fear, lasting minutes, in many settings including her own home, each with palpitations and a conviction that she is about to die, and that she now worries about when the next surge will come. Which description fits her report best?",
+   "choices": {
+    "A": "a specific phobia, because her fear is severe enough to interfere with her daily life",
+    "B": "generalised anxiety disorder, because she worries about her condition much of the time",
+    "C": "a stress reaction, because the surges are brief and resolve without treatment",
+    "D": "panic disorder, because unexpected attacks recur in several settings and she now fears the attacks themselves"
+   },
+   "correct": "D",
+   "explanation": "Her fear is not cued by one object or situation; the attacks arrive unexpectedly across settings, including at home, and the apprehension that has developed is about further attacks. Recurrent unexpected attacks together with persistent concern about them is the pattern that distinguishes panic disorder, and it is not what the trial was recruiting.",
+   "wrong": {
+    "A": "A specific phobia requires fear cued by a particular object or situation, and severity alone does not make a fear specific.",
+    "B": "The worry here is about the attacks rather than spread across many areas of life, which is what distinguishes generalised anxiety from panic.",
+    "C": "Attacks recurring across six months with developing apprehension about them are not a transient reaction, whatever the duration of each episode."
+   },
+   "category": "7A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "22"
+  },
+  {
+   "id": "ps3-p5-q4",
+   "passageId": "ps3-p5",
+   "stem": "How many patients must be offered exposure rather than placed on the waiting list for one additional responder at week eight?",
+   "choices": {
+    "A": "1.4 patients",
+    "B": "2.0 patients",
+    "C": "3.3 patients",
+    "D": "5.0 patients"
+   },
+   "correct": "B",
+   "explanation": "The number needed to treat is the reciprocal of the difference between the two response rates. Exposure responded at 70% and the waiting list at 20%, a difference of 50 percentage points, and the reciprocal of 0.50 is 2.0 patients.",
+   "wrong": {
+    "A": "This is the reciprocal of the exposure arm's own response rate, 1 divided by 0.70, which counts responders who would have responded on the waiting list as well.",
+    "C": "This is the reciprocal of the 30 percentage point gap between exposure and relaxation, which answers a different comparison from the one asked.",
+    "D": "This is the reciprocal of the waiting list's response rate, 1 divided by 0.20, which uses the comparison arm alone and ignores the treatment."
+   },
+   "category": "7A",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "22"
+  },
+  {
+   "id": "ps3-p6-q1",
+   "passageId": "ps3-p6",
+   "stem": "A participant seated beside the experimenter later said that he had kept going because the experimenter, not he, was running the study. Which process does his account describe?",
+   "choices": {
+    "A": "an agentic state, in which a person sees himself as carrying out another's intention rather than his own",
+    "B": "informational social influence, in which a person treats others as a source of evidence about reality",
+    "C": "deindividuation, in which a person loses the sense of being identifiable within a group",
+    "D": "internalisation, in which a person comes to hold the instructed view as his own conviction"
+   },
+   "correct": "A",
+   "explanation": "The shift of responsibility for the outcome onto the instructing person is what the agentic state names: the participant continues to act but no longer regards the act as his. The passage's own account, that what carries the instruction is the standing of whoever gives it, depends on there being someone to hand responsibility to.",
+   "wrong": {
+    "B": "Informational influence operates when a person is uncertain about the facts and copies others to get them right, and nothing here was uncertain about the noise levels.",
+    "C": "Deindividuation requires a group within which the person is anonymous, and each participant was tested alone with at most one other person present.",
+    "D": "Internalisation means the person adopts the view as his own, whereas this participant distances himself from what he did."
+   },
+   "category": "7B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-p6-q2",
+   "passageId": "ps3-p6",
+   "stem": "By Figure 1, moving from the condition in which the experimenter sat beside the participant to the condition in which the instruction came by telephone reduced the proportion reaching level twenty by what percentage of its original value?",
+   "choices": {
+    "A": "37.5%",
+    "B": "50.0%",
+    "C": "62.5%",
+    "D": "166.7%"
+   },
+   "correct": "C",
+   "explanation": "The proportion fell from 80% to 30%, a fall of 50 percentage points. As a share of where it started, that is 50 divided by 80, which is 62.5%.",
+   "wrong": {
+    "A": "This is 30 divided by 80, the share of the original proportion that remains, which is what is left rather than what was lost.",
+    "B": "This is the fall in percentage points reported as though it were a relative fall, which would only be right if the starting proportion had been 100%.",
+    "D": "This divides the fall by the smaller proportion, 50 divided by 30, which gives the rise from the telephone condition up to the seated one."
+   },
+   "category": "7B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-p6-q3",
+   "passageId": "ps3-p6",
+   "stem": "On the evidence of this study, which of the following would be expected to lower the proportion of participants reaching level twenty?\n\nI. Raising the number of levels on the dial from twenty to thirty.\nII. Replacing the experimenter's live instruction with a recording of it.\nIII. Seating the experimenter beside the participant rather than across the room.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "B",
+   "explanation": "Only item II was manipulated and only item II lowered the proportion, from 80% beside the experimenter to 20% with a recording. Item I was never varied, since every condition used a twenty-level dial, and item III describes the change that produced the highest proportion of all, 80% against 60% across the room.",
+   "wrong": {
+    "A": "The number of levels was fixed at twenty throughout, so the study provides no evidence about what a longer dial would do.",
+    "C": "Including item I credits the study with a manipulation it never made; lengthening the dial changes what reaching the top level means.",
+    "D": "Item III moves the experimenter closer, and Figure 1 shows the proportion rising rather than falling as the experimenter comes nearer."
+   },
+   "category": "7B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-p6-q4",
+   "passageId": "ps3-p6",
+   "stem": "Which explanation of the low proportion in the recorded-instruction condition is most consistent with the investigators' account?",
+   "choices": {
+    "A": "A recording can hold nobody to account, so there is no present authority to whom responsibility for the outcome can be handed.",
+    "B": "The recorded voice was quieter than a live one, so participants in that condition missed some of the instructions to continue.",
+    "C": "Participants in that condition had already refused once during practice, and a first refusal makes the next one easier.",
+    "D": "Acting unobserved produces deindividuation, which releases aggression that the presence of another person restrains."
+   },
+   "correct": "A",
+   "explanation": "The investigators hold that what carries an instruction of this kind is the standing of the person giving it. A recording has no standing, cannot respond to a refusal and cannot take responsibility for what follows, so the participant is left holding it, and six of thirty continued to level twenty.",
+   "wrong": {
+    "B": "The recording was made by the same experimenter and played through the same equipment, so there is no reason to think the instruction to continue was any less clear.",
+    "C": "No condition included a practice refusal, and participants were assigned at random, so no condition had a history the others lacked.",
+    "D": "Deindividuation would predict more severe behaviour when nobody is watching, which is the opposite of the pattern in Figure 1."
+   },
+   "category": "7B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-p6-q5",
+   "passageId": "ps3-p6",
+   "stem": "Which criticism of the design most weakens the claim that the distance of the instructing person is what produced the differences in Figure 1?",
+   "choices": {
+    "A": "Participants were not assigned to conditions at random, so the four groups may have differed in their willingness to obey beforehand.",
+    "B": "Whether anyone could observe what the participant did changed along with distance, so surveillance and distance are confounded.",
+    "C": "The outcome is a proportion, and a difference between four proportions cannot be examined statistically.",
+    "D": "The protests were recorded in advance, so participants in the four conditions were responding to different protests."
+   },
+   "correct": "B",
+   "explanation": "The experimenter beside the participant could see the dial, the experimenter across the room could not, and in the telephone and recorded conditions nobody was present at all. Being watched therefore varies with distance, and either could account for the fall from 80% to 20%.",
+   "wrong": {
+    "A": "The passage states that participants were assigned at random, thirty to each condition, which is what makes pre-existing differences an unlikely explanation.",
+    "C": "Proportions from four independent groups are compared routinely, and the design gives thirty participants per condition for exactly that purpose.",
+    "D": "The protests were identical across conditions, which the passage lists among the features held constant, so they cannot explain any difference between conditions."
+   },
+   "category": "7B",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-p7-q1",
+   "passageId": "ps3-p7",
+   "stem": "What distinguishes the central route to persuasion from the peripheral route?",
+   "choices": {
+    "A": "whether the message reaches the reader in writing or in speech",
+    "B": "whether the attitude the message advocates is favourable or unfavourable",
+    "C": "whether the person delivering the message is an expert or a fellow student",
+    "D": "whether the content of the argument is examined and weighed by the reader"
+   },
+   "correct": "D",
+   "explanation": "The two routes are distinguished by how much the reader elaborates on the content. On the central route the argument is examined and the attitude follows from its merits; on the peripheral route the attitude follows from cues around the message. The thought counts show the difference directly: about three times as many content-related thoughts where the fee was imminent.",
+   "wrong": {
+    "A": "The channel of delivery does not fix the route; a written message can be scrutinised closely or skimmed for cues.",
+    "B": "Both routes can produce attitudes in either direction, and the direction of the message is not what defines a route.",
+    "C": "The expertise of a source is a peripheral cue, so it is one input to one route rather than the thing that distinguishes the routes."
+   },
+   "category": "7C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-p7-q2",
+   "passageId": "ps3-p7",
+   "stem": "Students in which cell should hold the attitude that best resists a later counter-argument?",
+   "choices": {
+    "A": "fee next term, strong argument, because an attitude built by working through content is anchored in that content",
+    "B": "fee in ten years, strong argument, because a cue taken on trust leaves nothing for a counter-argument to attack",
+    "C": "fee next term, weak argument, because effortful processing fixes any attitude firmly whatever its basis",
+    "D": "fee in ten years, weak argument, because an attitude held without strong feeling is rarely challenged at all"
+   },
+   "correct": "A",
+   "explanation": "Attitudes formed by elaborating on the content of an argument are held with more supporting material and so are harder to shift. These students both scrutinised the message, listing 6.4 content-related thoughts on average, and found good material in it, which is the combination that produces a durable attitude.",
+   "wrong": {
+    "B": "These students listed only 2.3 content-related thoughts, so their agreement rests on little, and attitudes formed peripherally are the ones that shift most readily.",
+    "C": "Elaboration on a weak argument tends to expose its weakness, which is why this cell shows the lowest agreement of all at 4.0.",
+    "D": "Resistance to a counter-argument is a property of how an attitude was formed, not of how often it happens to be questioned."
+   },
+   "category": "7C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-p7-q3",
+   "passageId": "ps3-p7",
+   "stem": "Using the agreement ratings in Table 1, how large is the interaction between argument quality and personal relevance?",
+   "choices": {
+    "A": "0.4 scale points",
+    "B": "2.8 scale points",
+    "C": "3.2 scale points",
+    "D": "3.6 scale points"
+   },
+   "correct": "B",
+   "explanation": "Strong against weak is 7.2 minus 4.0, or 3.2 scale points, where the fee begins next term, and 5.6 minus 5.2, or 0.4 scale points, where it begins in ten years. The interaction is the difference between those two differences, 3.2 minus 0.4, which is 2.8 scale points.",
+   "wrong": {
+    "A": "This is the effect of argument quality in the low-relevance cells alone, which is one of the two differences the interaction compares.",
+    "C": "This is the effect of argument quality in the high-relevance cells alone, and reporting it as the interaction ignores that quality mattered a little even at low relevance.",
+    "D": "This adds the two simple effects instead of subtracting one from the other, which inflates the interaction by twice the smaller effect."
+   },
+   "category": "7C",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-p7-q4",
+   "passageId": "ps3-p7",
+   "stem": "The design supports each of the following conclusions EXCEPT:",
+   "choices": {
+    "A": "Students who enjoy effortful thinking examine arguments more closely than students who do not.",
+    "B": "Argument quality mattered more when the fee was to fall on the reader within the year.",
+    "C": "The number of content-related thoughts tracked personal relevance rather than argument quality.",
+    "D": "A difference in attitude present before reading is an unlikely explanation of the cell means."
+   },
+   "correct": "A",
+   "explanation": "Enjoyment of effortful thinking is a characteristic of the reader that was neither measured nor manipulated here. What the study varied was the situation, the date the fee would begin, and a situational manipulation cannot establish a claim about differences between kinds of reader.",
+   "wrong": {
+    "B": "This is the interaction the data show: 3.2 scale points separate strong from weak where the fee was imminent against 0.4 scale points where it was distant.",
+    "C": "The thought counts are about 6 where the fee was imminent and about 2 where it was distant, with little difference between strong and weak within each.",
+    "D": "Students were assigned to the four combinations at random, forty to each, which is what makes a pre-existing difference in attitude an unlikely explanation."
+   },
+   "category": "7B",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-p8-q1",
+   "passageId": "ps3-p8",
+   "stem": "Which sociological account is most directly tested by holding the description of the man's conduct constant and varying only the final line?",
+   "choices": {
+    "A": "differential association, which holds that conduct is learned within intimate groups",
+    "B": "the just-world hypothesis, which holds that people are seen to deserve what befalls them",
+    "C": "social facilitation, which holds that the presence of others alters how a task is performed",
+    "D": "labelling theory, which holds that the reaction to a label becomes part of what the labelled person faces"
+   },
+   "correct": "D",
+   "explanation": "Labelling theory claims that a name attached to conduct brings consequences of its own, over and above the conduct. The design isolates exactly that: three vignettes describe identical conduct and differ only in the label, so any difference in the responses is a reaction to the label.",
+   "wrong": {
+    "A": "Differential association concerns how conduct is acquired from those around a person, and nothing in the design varies anybody's associates.",
+    "B": "The just-world hypothesis concerns whether misfortune is seen as deserved, which the study did not ask about in any of its four measures.",
+    "C": "Social facilitation concerns performance in the presence of others, and respondents performed no task on which they could be facilitated."
+   },
+   "category": "8B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "22"
+  },
+  {
+   "id": "ps3-p8-q2",
+   "passageId": "ps3-p8",
+   "stem": "Which conclusion is best supported by the diagnostic label raising both the recommendation of professional help and the unwillingness to live next door?",
+   "choices": {
+    "A": "The label must have made the described conduct sound more severe, since severity drives both responses.",
+    "B": "Attributing difficulties to a disease of the brain removes blame, and removing blame removes the wish for distance.",
+    "C": "A label can mark a person as needing treatment and as someone to keep away from, and these are separate judgements.",
+    "D": "Recommending help and wanting distance are ends of a single scale, so one must fall as the other rises."
+   },
+   "correct": "C",
+   "explanation": "The two measures moved together rather than in opposition: 72% recommended a professional under the diagnostic label and 46% were unwilling to have the man next door, against 41% and 12% with no label. A label can therefore do two things at once, and recommending treatment for a man is not the same as being willing to live beside him.",
+   "wrong": {
+    "A": "Every sentence describing what the man did and felt was identical across versions, so the conduct whose severity might be judged was held constant by design.",
+    "B": "The table contradicts this: attribution to a brain disease was highest at 68% in the version where unwillingness to live next door was also highest at 46%.",
+    "D": "If the two were ends of one scale they could not both rise under the same label, which is precisely what they did."
+   },
+   "category": "8B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "22"
+  },
+  {
+   "id": "ps3-p8-q3",
+   "passageId": "ps3-p8",
+   "stem": "The investigators note that a man deciding whether to consult anyone must weigh the same reactions the study measured. Which consequence follows most directly?",
+   "choices": {
+    "A": "A person who expects to be avoided may conceal symptoms and delay seeking care, even where others would recommend treatment.",
+    "B": "Because most respondents recommended professional help, a labelled person should meet less delay in reaching treatment.",
+    "C": "Self-stigma can only operate once treatment has begun, so it has no bearing on whether care is sought.",
+    "D": "Stigma raises help-seeking, because a named condition is easier to explain to an employer than an unnamed one."
+   },
+   "correct": "A",
+   "explanation": "The reactions measured here are the ones a person anticipates for himself, and anticipated stigma is a cost of being identified as ill. Concealment and delay are the usual way that cost is paid, which is why a high rate of recommending treatment can sit alongside late presentation.",
+   "wrong": {
+    "B": "What respondents recommend for someone else is not what the labelled person expects to meet, and the same label raised unwillingness to live next door from 12% to 46%.",
+    "C": "Expectations about how others will react are formed before any contact with services, which is when they can deter a person from making contact at all.",
+    "D": "Nothing in the table suggests a label makes disclosure easier; it raised social distance from 7.6 to 14.4 on the scale."
+   },
+   "category": "8C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "22"
+  },
+  {
+   "id": "ps3-p8-q4",
+   "passageId": "ps3-p8",
+   "stem": "Which of the following limit what this study can establish about how people behave towards those with a mental illness?\n\nI. The outcome is what a respondent says she would do rather than what she does.\nII. A respondent may infer the purpose of the study from the single line that differs between versions.\nIII. The respondents were drawn from an online panel rather than by probability sampling.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "D",
+   "explanation": "All three are genuine limits. Stated intentions and conduct diverge, especially where the conduct would be disapproved of; a respondent who guesses the purpose can adjust her answers in either direction; and a panel that is not a probability sample gives no warrant for generalising the percentages to the adult population.",
+   "wrong": {
+    "A": "This omits two further limits, one about what respondents may infer from the vignette and one about how the sample was recruited.",
+    "B": "Item II is a real limit, but so is the gap between stated intention and conduct, which the investigators themselves raise.",
+    "C": "This leaves out the sampling limit, which the passage states plainly in saying the panel is not a probability sample."
+   },
+   "category": "8B",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "22"
+  },
+  {
+   "id": "ps3-p9-q1",
+   "passageId": "ps3-p9",
+   "stem": "By Table 1, a respondent whose parent held a degree was how many times as likely to hold a degree as a respondent whose parents held no qualification?",
+   "choices": {
+    "A": "4.73 times",
+    "B": "4.00 times",
+    "C": "1.88 times",
+    "D": "0.25 times"
+   },
+   "correct": "B",
+   "explanation": "The degree column gives 60% for respondents whose parent held a degree and 15% for respondents whose parents held none. Dividing 60 by 15 gives 4.00, which is the multiple the passage quotes when it calls 60 percent four times the 15 percent.",
+   "wrong": {
+    "A": "This is 52 divided by 11, the comparison in the column for no qualification, which answers how much more likely the low-origin respondents were to end with nothing.",
+    "C": "This is 60 divided by 32, which compares respondents whose parent held a degree with those from a school-certificate household rather than with the lowest origin.",
+    "D": "This is 15 divided by 60, the ratio taken the other way round, which expresses the low-origin chance as a fraction of the high-origin one."
+   },
+   "category": "9A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps3-p9-q2",
+   "passageId": "ps3-p9",
+   "stem": "The passage notes that a cohort interviewed in middle age is not the cohort that was born. Which pair of demographic processes accounts for the difference between the two?",
+   "choices": {
+    "A": "fertility and urbanisation, which set how many children are born and in which places they live",
+    "B": "mortality and migration, which remove members from a cohort and add members who were born elsewhere",
+    "C": "fertility and mortality, which together set the size of a birth cohort at the moment it is born",
+    "D": "urbanisation and globalisation, which redistribute a population within its borders and beyond them"
+   },
+   "correct": "B",
+   "explanation": "A birth cohort is closed to further births: once its members have been born, fertility can no longer change who belongs to it. What can change it is death, which removes members, and migration, which adds people born in the same years elsewhere and takes away those who leave. That is why the passage describes composition at interview as the product of births, deaths and migration together, and why 18 percent of these respondents reached the country only after the age of sixteen.",
+   "wrong": {
+    "A": "Urbanisation moves people between countryside and town inside a population, so it changes where the cohort's members live rather than which people belong to it.",
+    "C": "Fertility fixes how many people are born into the cohort in the first place, which was settled decades before the interview and so cannot be a source of change after birth.",
+    "D": "Globalisation names the widening movement of goods, capital and ideas; the movement of people within it is migration, and urbanisation is redistribution inside a country rather than entry or exit."
+   },
+   "category": "9B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "24"
+  },
+  {
+   "id": "ps3-p9-q3",
+   "passageId": "ps3-p9",
+   "stem": "The share of the cohort holding a degree, 33 percent, exceeds the 25 percent of parental households in which someone held one. What follows?",
+   "choices": {
+    "A": "All of the movement in the table is exchange mobility, since each row sums to 100 percent.",
+    "B": "The table describes intragenerational mobility, since respondents are compared with their own earlier position.",
+    "C": "Part of the upward movement is structural, since degrees became more common rather than only changing hands between families.",
+    "D": "No mobility can be inferred from the table, since education rather than income is the measure."
+   },
+   "correct": "C",
+   "explanation": "When the destination distribution differs from the origin distribution, some movement must come from a change in the number of positions available rather than from an exchange of places. A rise from 25 percent to 33 percent means degrees were added to the cohort, so upward movement was possible without anyone moving down.",
+   "wrong": {
+    "A": "Exchange mobility alone would require the two distributions to match, and they do not; rows summing to 100 percent is a property of how the table is calculated.",
+    "B": "Intragenerational mobility compares positions within one person's life, whereas the table compares a respondent with her parents.",
+    "D": "Education is a standard dimension of mobility, and the table reports destinations by origin, which is what a mobility measure is."
+   },
+   "category": "9A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "24"
+  },
+  {
+   "id": "ps3-p9-q4",
+   "passageId": "ps3-p9",
+   "stem": "Which further finding would best support the claim that the association in Table 1 works through the schools children attend rather than through the home?",
+   "choices": {
+    "A": "Respondents whose parents held degrees report more books in the childhood home than other respondents.",
+    "B": "The share of the cohort holding a degree rose from 25 percent in the parental generation to 33 percent.",
+    "C": "Respondents who attended fee-paying schools were more likely than others to have a parent with a degree.",
+    "D": "Among respondents whose schools were funded at the same level per pupil, the association is much weaker."
+   },
+   "correct": "D",
+   "explanation": "A mechanism is supported when holding it constant weakens the association. If the link between parental and own qualification shrinks among respondents whose schools had equal resources, then differences between schools were carrying part of that link.",
+   "wrong": {
+    "A": "Books in the home describe a resource inside the family, so this finding supports the home route rather than the schools route.",
+    "B": "A change in the overall supply of degrees says nothing about which pathway connects a parent's qualification to a child's.",
+    "C": "This shows that school type is associated with parental education, which is a selection into schools and not evidence that schools do the work."
+   },
+   "category": "10A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "24"
+  },
+  {
+   "id": "ps3-p9-q5",
+   "passageId": "ps3-p9",
+   "stem": "Which of the following claims about the cohort are supported by the passage?\n\nI. Some respondents received part of their schooling under another country's education system.\nII. The cohort is smaller than the one born ten years earlier chiefly because its own members emigrated.\nIII. The distribution of destinations in Table 1 would be unchanged if the respondents who arrived from abroad were set aside.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "A",
+   "explanation": "Item I follows from the 18 percent who arrived after the age of sixteen: a respondent who entered the country at seventeen was taught under another system for the years before that, and her parental qualification was earned there too. Item II is contradicted by the passage, which attributes the fall from 650,000 to 520,000 to the birth rate across the decade and calls emigration slight in both cohorts. Item III cannot be judged at all, because Table 1 is not broken down by place of birth, so nothing shows whether the arrivals' destinations resemble those of the rest.",
+   "wrong": {
+    "B": "The passage names the fall in the birth rate as the reason the cohort is smaller and describes emigration as slight, so this item states the explanation the statistical office set aside.",
+    "C": "Item I is supported, but item II attributes the smaller cohort to emigration, which the passage rejects in favour of the fall in the birth rate over the intervening decade.",
+    "D": "Item III would require the table to be broken down by place of birth, and it is not; the destinations of the respondents who arrived from abroad are nowhere reported separately."
+   },
+   "category": "9B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps3-p10-q1",
+   "passageId": "ps3-p10",
+   "stem": "What proportion of the variance in prestige scores across the 90 occupations is accounted for by mean years of schooling?",
+   "choices": {
+    "A": "61%",
+    "B": "39%",
+    "C": "29%",
+    "D": "24%"
+   },
+   "correct": "A",
+   "explanation": "The proportion of variance shared by two measures is the square of their correlation. Squaring 0.78 gives 0.608, so mean years of schooling accounts for about 61% of the variance in prestige across the 90 occupations.",
+   "wrong": {
+    "B": "This is the variance left over once schooling is accounted for, which is what the two measures do not share.",
+    "C": "This squares 0.54, the correlation of prestige with median earnings, so it answers the question for the wrong predictor.",
+    "D": "This squares 0.49, the correlation between schooling and earnings, neither of which is the prestige score the question asks about."
+   },
+   "category": "9A",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps3-p10-q2",
+   "passageId": "ps3-p10",
+   "stem": "The investigators argue for keeping the dimensions of standing apart when social class is measured. Which claim does their argument rest on?",
+   "choices": {
+    "A": "Class is settled by ownership of productive property, so measures of prestige add nothing to it.",
+    "B": "Prestige and earnings must coincide in the long run, because pay reflects what a society values.",
+    "C": "Once prestige is placed on a single ladder, an occupation cannot rank differently on other dimensions.",
+    "D": "Prestige, wealth and power are distinguishable dimensions, and an occupation can stand differently on each."
+   },
+   "correct": "D",
+   "explanation": "Treating standing as several dimensions at once, in the manner usually credited to Weber, allows an occupation to be honoured and poorly paid, or well paid and little honoured. The correlation of 0.54 between prestige and earnings leaves ample room for both, which is the investigators' reason for not collapsing the three into one index.",
+   "wrong": {
+    "A": "A single criterion of ownership would make the prestige ratings redundant, which is the opposite of what the investigators conclude.",
+    "B": "The data contradict this: prestige and earnings correlate at 0.54, and some occupations sit well away from the line relating them.",
+    "C": "An occupation's position on a prestige ladder places no constraint on its earnings, which is exactly what the scattered cases show."
+   },
+   "category": "9A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "24"
+  },
+  {
+   "id": "ps3-p10-q3",
+   "passageId": "ps3-p10",
+   "stem": "What does the coefficient of 0.92 between odd-numbered and even-numbered respondents establish?",
+   "choices": {
+    "A": "that the ratings are consistent between halves of the sample, which leaves open whether they capture standing in the community",
+    "B": "that the ratings are a valid measure of social class, since a measure this consistent must be measuring the right thing",
+    "C": "that respondents agree because they share one culture, which shows the ladder measures convention rather than standing",
+    "D": "that 92 percent of the 90 occupations were placed in the same rank order by every respondent in the survey"
+   },
+   "correct": "A",
+   "explanation": "Splitting the sample and correlating the two halves is a reliability check: it asks whether the instrument gives the same answer twice. A figure of 0.92 says it does, and says nothing about whether what it gives the same answer about is standing in the community, which is a question of validity.",
+   "wrong": {
+    "B": "Reliability does not imply validity. A thermometer reading three degrees too high is perfectly consistent and still wrong.",
+    "C": "Shared culture may be why the halves agree, but agreement alone cannot establish that conclusion, and the survey includes no comparison across cultures.",
+    "D": "A correlation of 0.92 is not a percentage of occupations ranked identically; it summarises how closely two sets of mean scores move together."
+   },
+   "category": "9A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps3-p10-q4",
+   "passageId": "ps3-p10",
+   "stem": "One occupation in the pool has a prestige score of 72 and median earnings in the lowest quarter of the 90. Which description fits it best?",
+   "choices": {
+    "A": "absolute deprivation, since its earnings fall below what is needed for necessities",
+    "B": "downward mobility, since its standing has fallen over the period the survey covers",
+    "C": "low socioeconomic position overall, since earnings are what finally determine standing",
+    "D": "status inconsistency, since it stands high on one dimension of standing and low on another"
+   },
+   "correct": "D",
+   "explanation": "A prestige score of 72 is well above the middle of the ladder while the earnings are in the bottom quarter, so the two dimensions disagree about where the occupation stands. That disagreement is what status inconsistency names, and it is the reason the investigators resist a single index.",
+   "wrong": {
+    "A": "Absolute deprivation is about lacking the means of subsistence, and earnings in the lowest quarter of 90 occupations need not be anywhere near that level.",
+    "B": "The survey measured each occupation once, so it contains no information about change over time in any occupation's standing.",
+    "C": "Treating earnings as decisive is the assumption the data undercut, since prestige correlates with earnings at only 0.54."
+   },
+   "category": "10A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "24"
+  },
+  {
+   "id": "ps3-d1",
+   "passageId": null,
+   "stem": "A nineteen-year-old leaves the course her parents chose for her, spends a year working abroad and trying out several political and religious commitments, and now describes a position she says is her own and expects to keep. Which account of her identity fits best?",
+   "choices": {
+    "A": "foreclosure, a commitment taken over ready-made from her parents and never held up for examination",
+    "B": "diffusion, an absence of commitment that is not accompanied by any active search among the alternatives",
+    "C": "achievement, a commitment settled on by the person herself after a period of searching among alternatives",
+    "D": "moratorium, an active search among the alternatives that has not yet issued in any settled commitment"
+   },
+   "correct": "C",
+   "explanation": "Identity formation is described along two dimensions: whether a person has explored the alternatives and whether she has committed to one of them. This young woman has done both, and in that order, which is the status reached when a period of searching ends in a commitment she regards as hers. The commitment she began with, her parents' choice of course, was the unexamined kind, and leaving it is what started the search.",
+   "wrong": {
+    "A": "A foreclosed identity is the one she abandoned: a course chosen by her parents and accepted without a search. She has since examined the alternatives and chosen differently.",
+    "B": "Diffusion involves neither searching nor commitment, and she has spent a year searching and arrived at a position she expects to keep.",
+    "D": "A moratorium is the searching phase itself, before anything is settled, whereas she describes a position she now holds rather than a question still open."
+   },
+   "category": "8A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-d2",
+   "passageId": null,
+   "stem": "A tone has been paired with food until the tone alone makes a dog salivate. The tone is then presented repeatedly with no food, and salivation to the tone declines. The decline is an instance of:",
+   "choices": {
+    "A": "habituation of an unlearned response to a repeated stimulus",
+    "B": "spontaneous recovery of a response after a rest interval",
+    "C": "extinction of a conditioned response that no longer predicts anything",
+    "D": "latent inhibition of learning about a stimulus already familiar"
+   },
+   "correct": "C",
+   "explanation": "Presenting a conditioned stimulus without the unconditioned stimulus that gave it its power reduces the conditioned response, which is extinction. The response can return later without further pairings, which is why extinction is understood as suppression rather than erasure.",
+   "wrong": {
+    "A": "Habituation is the waning of an unlearned response to a repeated stimulus, whereas salivation to the tone was acquired by pairing.",
+    "B": "Spontaneous recovery is the return of an extinguished response after a rest, so it names what may happen after this decline rather than the decline.",
+    "D": "Latent inhibition is slower learning about a stimulus made familiar before any pairing, which is a fact about acquisition rather than about loss."
+   },
+   "category": "7C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "18"
+  },
+  {
+   "id": "ps3-d3",
+   "passageId": null,
+   "stem": "Lists of long words are ordinarily recalled less well than lists of short words. What should happen to that difference when participants must say an irrelevant syllable aloud throughout presentation and recall of visually shown lists?",
+   "choices": {
+    "A": "It should roughly double, because long words carry more meaning and meaning competes with the syllable.",
+    "B": "It should stay as it is, because the rehearsal system plays no part when words are read rather than heard.",
+    "C": "It should reverse, because long words become more distinctive when rehearsal is unavailable.",
+    "D": "It should largely disappear, because the syllable prevents the rehearsal whose speed depends on word length."
+   },
+   "correct": "D",
+   "explanation": "The advantage of short words comes from rehearsal: more short items can be refreshed before they decay. Occupying the articulators with an irrelevant syllable removes rehearsal from the task, so there is no longer a process whose rate depends on how long the words take to say, and the effect of word length goes with it.",
+   "wrong": {
+    "A": "Nothing about an irrelevant syllable engages meaning, and the word-length effect is a matter of the time items take to rehearse rather than of what they denote.",
+    "B": "Words that are read are ordinarily recoded into a sound-based form and rehearsed there, which is why suppression affects visually presented lists at all.",
+    "C": "A reversal would require long words to gain an advantage, and nothing in the task rewards their greater physical distinctiveness."
+   },
+   "category": "6B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "19"
+  },
+  {
+   "id": "ps3-d4",
+   "passageId": null,
+   "stem": "A man can distinguish blues from yellows but confuses reds with greens at all intensities. The most likely basis of his difficulty is:",
+   "choices": {
+    "A": "damage to the opponent cells that carry the blue-yellow comparison",
+    "B": "a loss of rod function, which removes hue discrimination at low light levels",
+    "C": "the absence of one cone photopigment, leaving two functioning cone classes",
+    "D": "an unusually persistent afterimage in the affected part of the spectrum"
+   },
+   "correct": "C",
+   "explanation": "Red-green confusion with blue-yellow discrimination intact is the signature of dichromacy from a missing cone photopigment, most often one of the two with overlapping long and middle wavelength sensitivities. With two classes remaining, wavelength differences along one axis can still be signalled and those along the other cannot.",
+   "wrong": {
+    "A": "Damage to the blue-yellow comparison would disturb blues and yellows, and it is those that he distinguishes without difficulty.",
+    "B": "Rods do not signal hue at all, so losing them affects vision in dim light rather than the discrimination of colours.",
+    "D": "An afterimage is a brief consequence of adaptation, not a standing failure to discriminate two regions of the spectrum."
+   },
+   "category": "6A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "20"
+  },
+  {
+   "id": "ps3-d5",
+   "passageId": null,
+   "stem": "A woman reports surges of intense fear arriving without warning two or three times a month, each lasting about ten minutes, with a pounding heart and a fear that she is dying, and says she now spends much of her time dreading the next one. Which description fits best?",
+   "choices": {
+    "A": "generalised anxiety disorder, in which worry is persistent and spread across many areas of life",
+    "B": "panic disorder, in which unexpected attacks recur and become themselves the object of fear",
+    "C": "a specific phobia, in which fear is reliably cued by one object or situation",
+    "D": "obsessive-compulsive disorder, in which intrusive thoughts drive repeated rituals"
+   },
+   "correct": "B",
+   "explanation": "Unexpected attacks of short duration with marked bodily symptoms, followed by persistent apprehension about further attacks, is the pattern that defines panic disorder. The fear has taken the attacks themselves as its object, which is what distinguishes it from fear of a situation.",
+   "wrong": {
+    "A": "Generalised anxiety involves worry spread across work, health, family and other domains rather than concentrated on the attacks.",
+    "C": "A specific phobia requires a cue; these attacks arrive without warning and are not tied to an object or situation.",
+    "D": "No intrusive thought or ritual is described, and the dread reported follows the attacks rather than driving any repeated behaviour."
+   },
+   "category": "7A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "22"
+  },
+  {
+   "id": "ps3-d6",
+   "passageId": null,
+   "stem": "Why does avoiding a feared situation tend to maintain the fear rather than reduce it?",
+   "choices": {
+    "A": "The fear is positively reinforced by the sympathy that others offer when avoidance is observed.",
+    "B": "Escape is negatively reinforced by the relief that follows, so avoidance strengthens while the feared prediction goes untested.",
+    "C": "The fear response habituates while the situation is avoided, which is why it returns on the next encounter.",
+    "D": "Avoidance punishes the fear response, and a punished response recovers more strongly later."
+   },
+   "correct": "B",
+   "explanation": "Leaving the situation removes an aversive state, and removing an aversive state reinforces whatever preceded it. So avoidance becomes more likely, and because the person is never present when the predicted catastrophe fails to arrive, the prediction is never disconfirmed.",
+   "wrong": {
+    "A": "Attention from others may reinforce complaints, but avoidance is maintained in private as well, which this cannot explain.",
+    "C": "Habituation requires exposure to the stimulus; it cannot occur while the situation is being avoided.",
+    "D": "Avoidance does not deliver any aversive consequence for being afraid, and a punished response does not recover more strongly for having been punished."
+   },
+   "category": "7A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "22"
+  },
+  {
+   "id": "ps3-d7",
+   "passageId": null,
+   "stem": "A man who has been treated for depression gives his colleagues a carefully edited account of his two months away from work, and a fuller account to his brother. Which concept best describes what he is doing?",
+   "choices": {
+    "A": "role conflict, because the demands of two of his roles cannot both be met",
+    "B": "deindividuation, because his sense of himself dissolves into the group at work",
+    "C": "impression management, because each account is shaped for the audience before which it is given",
+    "D": "a self-fulfilling prophecy, because his colleagues' expectations will bring about what they expect"
+   },
+   "correct": "C",
+   "explanation": "Presenting a version of oneself fitted to the audience, and keeping a different version for a backstage audience, is impression management in the dramaturgical sense. The two accounts are both his, and which is given depends on who is watching.",
+   "wrong": {
+    "A": "Role conflict arises when two roles make incompatible demands at once, and nothing here requires him to be colleague and brother simultaneously.",
+    "B": "Deindividuation is a loss of individual identity within a crowd, whereas he is managing his individual identity with some care.",
+    "D": "A self-fulfilling prophecy requires others' expectations to produce the expected conduct, and here it is he who is shaping what they expect."
+   },
+   "category": "8C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-d8",
+   "passageId": null,
+   "stem": "Which of the following is NOT a feature of stigma as sociologists describe it?",
+   "choices": {
+    "A": "a mark that identifies a person as discredited in the eyes of others",
+    "B": "differential treatment that follows from the mark rather than from conduct",
+    "C": "a stable trait of the stigmatised person that draws the mark to him",
+    "D": "the management of information about oneself so as to avoid being marked"
+   },
+   "correct": "C",
+   "explanation": "Stigma is treated as a relation between a person and an audience: a mark, the reaction to it, and the work the marked person does to control who knows. Locating it in a trait of the person reverses that account, making the reaction a consequence of the individual rather than of the marking.",
+   "wrong": {
+    "A": "A mark that discredits is the starting point of every sociological account of stigma, which is why identical conduct draws different reactions once labelled.",
+    "B": "Treatment that follows the label rather than the conduct is the central phenomenon, and vignette studies are designed to isolate it.",
+    "D": "Concealment and selective disclosure are standard parts of the account, since a marked person must decide who is told."
+   },
+   "category": "8B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-d9",
+   "passageId": null,
+   "stem": "A colleague explains to a woman how her health plan's referral system works and which form she must complete to see a specialist. Which kind of social support is this?",
+   "choices": {
+    "A": "emotional support, which consists of expressions of care, sympathy and esteem",
+    "B": "informational support, which consists of advice and guidance about a problem",
+    "C": "instrumental support, which consists of money, labour or other tangible aid",
+    "D": "companionship, which consists of shared activity that takes the mind off a problem"
+   },
+   "correct": "B",
+   "explanation": "What is transferred is knowledge about how to proceed, which is the defining content of informational support. The colleague neither performs the task, nor offers money, nor addresses how the woman feels about it.",
+   "wrong": {
+    "A": "No sympathy or reassurance is offered; the exchange is about the mechanics of a referral.",
+    "C": "Instrumental support means doing something tangible, such as completing the form or driving her to the appointment.",
+    "D": "Companionship is time spent together for its own sake, which is not what an explanation of a referral system provides."
+   },
+   "category": "8C",
+   "skill": "skill-2",
+   "difficulty": "easy",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-d10",
+   "passageId": null,
+   "stem": "After a diagnosis becomes known at work, a man finds that colleagues speak to him more slowly and stop asking his opinion, and within a year he describes himself as someone who cannot be relied on. Which concept best captures the change in how he sees himself?",
+   "choices": {
+    "A": "self-efficacy, the belief that one can carry out a particular course of action",
+    "B": "the fundamental attribution error, in which others' conduct is explained by disposition",
+    "C": "the looking-glass self, in which a person's self-concept takes its shape from how others appear to regard him",
+    "D": "social loafing, in which individual effort falls when contributions are pooled"
+   },
+   "correct": "C",
+   "explanation": "The looking-glass self describes exactly this sequence: the man reads how others treat him, infers their view of him, and comes to hold that view himself. The self-concept here is built from reflected appraisals rather than from any change in what he can do.",
+   "wrong": {
+    "A": "Self-efficacy concerns a judgement about a specific task; what has changed is a general view of the kind of person he is.",
+    "B": "The attribution error concerns how an observer explains someone else's behaviour, and here the person is revising his view of himself.",
+    "D": "Social loafing is a drop in effort within a group task, and nothing describes his effort on a shared task."
+   },
+   "category": "8A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-d11",
+   "passageId": null,
+   "stem": "Surveys repeatedly find that telling respondents a person's difficulties are caused by a brain disease lowers how much they blame him and raises how dangerous they expect him to be. Which account fits this pattern best?",
+   "choices": {
+    "A": "separable components of a stereotype, since a belief about responsibility can change while a belief about danger does not",
+    "B": "cognitive dissonance, since no respondent can hold a belief about blame and a belief about danger at the same time",
+    "C": "the just-world hypothesis, since respondents conclude that a man in such a position must have deserved it",
+    "D": "ingroup bias, since respondents are more generous towards a person they take to resemble themselves"
+   },
+   "correct": "A",
+   "explanation": "Beliefs about the cause of a condition, about who is responsible for it and about what the person is likely to do are distinct components of the same stereotype. Shifting one does not drag the others with it, which is why a campaign that lowers blame can leave expected dangerousness untouched or raise it.",
+   "wrong": {
+    "B": "Dissonance requires beliefs that contradict one another, and a man can coherently be held blameless and thought unpredictable.",
+    "C": "On a just-world account lowered blame should follow from the person being seen as deserving, which is the reverse of what the pattern shows.",
+    "D": "Ingroup bias would predict differences between respondents of different groups rather than a change produced by varying the stated cause."
+   },
+   "category": "8B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "23"
+  },
+  {
+   "id": "ps3-d12",
+   "passageId": null,
+   "stem": "In a survey of 750 adults, 300 said they would be unwilling to work closely with someone who had been treated for a psychotic illness. What are the odds that a respondent drawn at random from this survey holds that view?",
+   "choices": {
+    "A": "0.40",
+    "B": "0.67",
+    "C": "1.50",
+    "D": "2.50"
+   },
+   "correct": "B",
+   "explanation": "Odds are the number holding the view divided by the number not holding it, which is 300 divided by 450, or 0.67. The probability, by contrast, is 300 divided by 750, and the two coincide only as the probability approaches zero.",
+   "wrong": {
+    "A": "This is the probability, 300 out of 750, which divides by the whole sample rather than by those who do not hold the view.",
+    "C": "This inverts the odds, dividing 450 by 300, and so gives the odds against holding the view.",
+    "D": "This is 750 divided by 300, the reciprocal of the probability, which is neither a probability nor a set of odds."
+   },
+   "category": "8B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps3-d13",
+   "passageId": null,
+   "stem": "A country's population pyramid has a narrow base, a bulge through the middle years and a broad top, and its births have run below replacement level for thirty years. Which description of its position in the demographic transition fits?",
+   "choices": {
+    "A": "a late position, with births and deaths both low, an ageing age structure and a population that may begin to shrink",
+    "B": "an early position, with births and deaths both high, so the pyramid has a wide base and very few old people in it",
+    "C": "a position in which deaths have fallen while births remain high, which is when a population grows at its fastest",
+    "D": "a position in which births have begun to fall from a high level, so growth continues but at a slackening rate"
+   },
+   "correct": "A",
+   "explanation": "The demographic transition runs from high birth and death rates, through a phase in which deaths fall first and the population grows quickly, to low rates of both. A narrow base means few children are being born; a broad top means most members of earlier cohorts have survived into old age; and thirty years below replacement means the cohorts entering the pyramid are smaller than those leaving it. That is the late pattern, and the one in which a population can decline with no rise at all in mortality.",
+   "wrong": {
+    "B": "An early position shows the opposite pyramid, a wide base of children under a narrow top, because high death rates stop most of each cohort from reaching old age.",
+    "C": "This is the phase of fastest growth, when falling deaths meet births that are still high, and it widens the base of the pyramid rather than narrowing it.",
+    "D": "Births falling from a high level still leaves each arriving cohort large; three decades below replacement level is well past the point where growth merely slows."
+   },
+   "category": "9B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "24"
+  },
+  {
+   "id": "ps3-d14",
+   "passageId": null,
+   "stem": "A city's population grew by 40,000 people between two censuses. An investigator wants to know how much of that growth was natural increase and how much was people moving in. Which approach best separates the two?",
+   "choices": {
+    "A": "compare the city's totals at the two censuses and assign the growth to whichever component is larger nationally",
+    "B": "subtract the deaths registered in the city from the births registered there, and compare that figure with the growth",
+    "C": "compare the share of residents under fifteen at the two censuses, since a growing population must be a younger one",
+    "D": "ask a sample of current residents how long each has lived in the city and project those answers back to the first census"
+   },
+   "correct": "B",
+   "explanation": "Growth over an interval is natural increase, births minus deaths, plus net migration, arrivals minus departures. Registers of births and deaths measure the first term directly, so the second can be recovered as whatever is left of the 40,000 once natural increase has been taken out. Estimating net migration as that residual is the standard approach, because arrivals and departures are nowhere counted as completely as births and deaths are.",
+   "wrong": {
+    "A": "The national balance between the two components says nothing about one city, which may be gaining migrants while the country as a whole grows through natural increase.",
+    "C": "A population can grow younger through the arrival of young adults and the children they then have, so the age structure cannot tell natural increase and migration apart.",
+    "D": "A sample of current residents omits everyone who left or died during the interval, and length of residence records no births and no deaths at all."
+   },
+   "category": "9B",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps3-d15",
+   "passageId": null,
+   "stem": "A region funds each school district from taxes on property within it, so districts with cheaper housing spend less per pupil, although no official intends that result. The disadvantage to pupils in those districts is best described as:",
+   "choices": {
+    "A": "institutional discrimination, since it follows from the ordinary operation of a rule rather than from anyone's intent",
+    "B": "individual prejudice, since the disadvantage must be traced to the attitudes of the officials who apply the rule",
+    "C": "relative poverty, since it is defined by how the families in those districts compare with families elsewhere",
+    "D": "a meritocratic allocation, since each district receives in proportion to what its residents have contributed"
+   },
+   "correct": "A",
+   "explanation": "Discrimination built into a rule produces unequal outcomes whatever the attitudes of those administering it, and a funding formula tied to local property values is a standard example. The disadvantage is reproduced by the institution's routine operation, which is why removing prejudiced individuals would not remove it.",
+   "wrong": {
+    "B": "The description states that no official intends the result, and institutional discrimination is precisely the form that needs no prejudiced individual.",
+    "C": "Relative poverty is a way of measuring household income against a social standard, not a description of how a public service is allocated.",
+    "D": "Calling the outcome merited assumes that what residents can contribute is the right basis for a child's schooling, which is the point at issue rather than a description of it."
+   },
+   "category": "10A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "24"
+  }
+ ]
+}

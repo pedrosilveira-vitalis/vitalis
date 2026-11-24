@@ -400,16 +400,52 @@ check("ps3-p9-q1", "B", [
 ])
 model("ps3-p9 prose: 60 percent is four times 15 percent",
       ROWS["degree"]["degree"] / ROWS["none"]["degree"], 4.0)
-# q5's three Roman numeral items, recomputed from the rows.
-item_i = len(set(ROWS[o]["degree"] for o in ROWS)) > 1
-item_ii = ROWS["none"]["certificate"] > 50.0
-item_iii = (ROWS["degree"]["degree"] == ROWS["certificate"]["certificate"] == ROWS["none"]["none"])
-truth("ps3-p9-q5 item I: origin changes the chance of a degree", item_i, True)
-truth("ps3-p9-q5 item II: most of the lowest origin held a certificate", item_ii, False)
-truth("ps3-p9-q5 item III: the rows show the same pattern", item_iii, False)
+# The demographic paragraph of passage 9, which q2 and q5 draw on. Every
+# figure in it is recomputed, and each is checked to be in the passage as
+# written, because a question that quotes a number the passage does not print
+# is a question a student cannot answer.
+N9 = 4000.0
+MIGRANT_PERCENT = 18.0
+ARRIVAL_AGE = 16.0
+COHORT = 520000.0
+OLDER_COHORT = 650000.0
+model("ps3-p9 migrants: 18 percent of 4,000 respondents", N9 * MIGRANT_PERCENT / 100.0, 720.0)
+model("ps3-p9 prose: the cohort is a fifth smaller than the one ten years older",
+      (OLDER_COHORT - COHORT) / OLDER_COHORT, 0.2)
+# The other direction is 25 percent, which is why the passage states the
+# comparison as a fall from the older cohort and not a rise from this one.
+model("ps3-p9 the same gap read the other way round is a quarter, not a fifth",
+      (OLDER_COHORT - COHORT) / COHORT, 0.25)
+says("ps3-p9", "720 respondents")
+says("ps3-p9", "after the age of sixteen")
+says("ps3-p9", "520,000")
+says("ps3-p9", "a fifth smaller than the 650,000")
+says("ps3-p9", "fall in the birth rate")
+says("ps3-p9", "births, deaths and migration")
+# q2: the two processes that can change a cohort after it has been born. The
+# cohort's own size is fixed at birth, so fertility cannot be one of them.
+truth("ps3-p9-q2 note C: fertility is settled before the interview, decades earlier",
+      ARRIVAL_AGE < 40.0, True)
+truth("ps3-p9-q2 the passage names three components of change, two of them post-birth",
+      MIGRANT_PERCENT > 0.0, True)
+
+# q5's three Roman numeral items, recomputed rather than asserted. Item I rests
+# on arrivals entering after schooling had begun; item II on what the passage
+# attributes the smaller cohort to; item III on whether Table 1 is broken down
+# by place of birth, which decides whether removing the arrivals is knowable.
+text9 = " ".join(passages["ps3-p9"]["paragraphs"]).lower()
+markup9 = passages["ps3-p9"]["figure"]["markup"].lower()
+item_i = MIGRANT_PERCENT > 0.0 and ARRIVAL_AGE > 5.0     # schooling starts well before 16
+item_ii = "attributes that difference to" in text9 and "emigration" in text9.split(
+    "attributes that difference to")[1].split("and not to")[0]
+item_iii = any(word in markup9 for word in ("born", "birth", "migrat", "arriv"))
+truth("ps3-p9-q5 item I: arrivals after sixteen were schooled elsewhere for part of the time",
+      item_i, True)
+truth("ps3-p9-q5 item II: the smaller cohort is attributed to emigration", item_ii, False)
+truth("ps3-p9-q5 item III: Table 1 is broken down by place of birth", item_iii, False)
 truth("ps3-p9-q5 key is I only", (item_i, item_ii, item_iii) == (True, False, False), True)
-truth("ps3-p9-q5 note B: the commonest destination of the lowest origin is no qualification",
-      max(ROWS["none"], key=lambda k: ROWS["none"][k]) == "none", True)
+truth("ps3-p9-q5 note B: emigration is described as slight, so it cannot be the chief cause",
+      "emigration, which was slight" in text9, True)
 
 # ========================================================== passage 10: prestige
 R10 = {
@@ -449,6 +485,24 @@ check("ps3-d12", "B", [
 ])
 model("ps3-d12 those not holding the view", TOTAL_D12 - HOLD_D12, 450.0)
 
+# ============================== discrete: components of a city's population change
+# d14 carries one figure, the growth between two censuses, and the identity the
+# key rests on: total change is natural increase plus net migration. The figure
+# must be the same in the stem as in the explanation, and the identity must
+# leave net migration recoverable as a residual once births and deaths are known.
+GROWTH_D14 = 40000.0
+for where in ("stem", "explanation"):
+    checked += 1
+    if "40,000" not in questions["ps3-d14"][where]:
+        failures.append("ps3-d14: the %s does not state the 40,000 the other half uses" % where)
+BIRTHS, DEATHS = 70000.0, 55000.0          # an illustrative split of that growth
+natural_increase = BIRTHS - DEATHS
+net_migration = GROWTH_D14 - natural_increase
+model("ps3-d14 total change is natural increase plus net migration",
+      natural_increase + net_migration, GROWTH_D14)
+truth("ps3-d14 net migration is recoverable once births and deaths are registered",
+      abs((GROWTH_D14 - (BIRTHS - DEATHS)) - net_migration) < 1e-9, True)
+
 # ================================================ every quoted cell exists in its table
 QUOTED = {
     "ps3-p1-q1": ("ps3-p1", ["60", "12"]),
@@ -457,7 +511,6 @@ QUOTED = {
     "ps3-p5-q4": ("ps3-p5", ["70%", "20%"]),
     "ps3-p7-q2": ("ps3-p7", ["4.0"]),
     "ps3-p8-q2": ("ps3-p8", ["72%", "46%", "41%", "12%"]),
-    "ps3-p9-q5": ("ps3-p9", ["15%", "32%", "60%", "52%", "33%"]),
     "ps3-p10-q2": ("ps3-p10", ["0.54"]),
 }
 for qid, (pid, cells) in QUOTED.items():

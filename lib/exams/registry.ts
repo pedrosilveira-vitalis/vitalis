@@ -40,7 +40,7 @@ export const EXAMS: ExamSummary[] = [
     number: 1,
     blurb:
       "A first full-length, weighted the way the real exam is: experimental data in the science sections, and nine CARS passages drawn from the humanities and social sciences. Free with any account.",
-    ready: false,
+    ready: true,
     free: true,
   },
   {
@@ -49,7 +49,7 @@ export const EXAMS: ExamSummary[] = [
     number: 2,
     blurb:
       "A second form at the same difficulty, with no repeated passages or concepts, so a second sitting measures progress rather than memory. Included with Core and Complete.",
-    ready: false,
+    ready: true,
     free: false,
   },
   {
@@ -58,7 +58,7 @@ export const EXAMS: ExamSummary[] = [
     number: 3,
     blurb:
       "Written to sit mid-course, when content review is mostly done and the question is whether it holds up under seven hours of pressure. Part of Complete.",
-    ready: false,
+    ready: true,
     free: false,
   },
   {
@@ -116,6 +116,10 @@ const CONTENT: Record<string, () => Promise<SectionFile>> = {
   "fl2/cars": () => import("./content/fl2/cars.json").then(file => file.default as unknown as SectionFile),
   "fl2/bio-biochem": () => import("./content/fl2/bio-biochem.json").then(file => file.default as unknown as SectionFile),
   "fl2/psych-soc": () => import("./content/fl2/psych-soc.json").then(file => file.default as unknown as SectionFile),
+  "fl3/chem-phys": () => import("./content/fl3/chem-phys.json").then(file => file.default as unknown as SectionFile),
+  "fl3/cars": () => import("./content/fl3/cars.json").then(file => file.default as unknown as SectionFile),
+  "fl3/bio-biochem": () => import("./content/fl3/bio-biochem.json").then(file => file.default as unknown as SectionFile),
+  "fl3/psych-soc": () => import("./content/fl3/psych-soc.json").then(file => file.default as unknown as SectionFile),
 };
 
 async function sectionFile(examId: string, sectionId: ExamSectionId): Promise<SectionFile | null> {

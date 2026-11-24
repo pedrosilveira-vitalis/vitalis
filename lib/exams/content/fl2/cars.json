@@ -231,7 +231,7 @@
         "D": "Retranslations are commissioned for commercial rather than critical reasons"
       },
       "correct": "B",
-      "explanation": "The argument rests on the claim that a disagreement of this kind is not 'errors with a discoverable answer'. If supplying historical context reliably settled such disagreements, they would have discoverable answers after all, and the inference to a text without a single content would collapse.",
+      "explanation": "The argument rests on the claim that disagreements of this kind are not 'errors with a discoverable answer'. If supplying historical context reliably settled such disagreements, they would have discoverable answers after all, and the inference to a text without a single content would collapse.",
       "wrong": {
         "A": "This bears on how well the remedy in the fifth paragraph works in practice, and leaves untouched the account of what a translation is.",
         "C": "This supports the author, since it reports practitioners describing translation in the terms the passage recommends.",
@@ -781,7 +781,7 @@
         "D": "a measure loses its usefulness the moment it is adopted as an official target"
       },
       "correct": "A",
-      "explanation": "The final paragraph states the recommendation: the cases argue 'not less measurement but measurement aimed one step further back, at conditions rather than residues'.",
+      "explanation": "The final paragraph states the recommendation: what the cases argue for is 'not less measurement but measurement aimed one step further back, at conditions rather than residues'.",
       "wrong": {
         "B": "The second paragraph begins by denying this: 'Agreement among instruments is not validation.'",
         "C": "The fifth paragraph resists exactly this conclusion, saying planning by taste 'has a worse record than planning by numbers, and it is not close'.",
@@ -1265,7 +1265,7 @@
         "D": "Most people describe their games as a relief from the working day"
       },
       "correct": "A",
-      "explanation": "The thesis is that the obstacle is the activity and that removing it 'dissolve the problem' rather than liberating anything. If players consistently enjoyed a game more once its hardest constraints were stripped out, the obstacle would be a cost they tolerate rather than the thing they came for.",
+      "explanation": "The thesis is that the obstacle is the activity and that to remove it is to 'dissolve the problem' rather than to liberate anything. If players consistently enjoyed a game more once its hardest constraints were stripped out, the obstacle would be a cost they tolerate rather than the thing they came for.",
       "wrong": {
         "B": "This supports the author, since a form stricter than the subject requires is difficulty manufactured for its own sake.",
         "C": "How a league penalises fouling says nothing about why a player reckons the foul worth making.",
