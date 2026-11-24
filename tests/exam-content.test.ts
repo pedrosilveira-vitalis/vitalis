@@ -315,10 +315,20 @@ test("passages are the length the real exam uses", () => {
     const [min, max] = spec.passageWords;
     for (const passage of data.passages) {
       const words = passage.paragraphs.join(" ").trim().split(/\s+/).length;
-      // A generous floor while authoring; the ceiling is the part that matters,
-      // because an over-long passage changes the pacing of the whole section.
+      /**
+       * The floor used to carry 40% slack, which hid a real gap: every one of
+       * Full-Length 1's Chem/Phys passages is shorter than the range this
+       * project documents, four of them under 200 words against a 250 floor.
+       * A short passage is an easier passage — less to hold in mind, fewer
+       * places for a distractor to come from — so the slack was quietly
+       * making the flagship free form softer than the exam it imitates.
+       *
+       * The ceiling keeps a little slack because an over-long passage costs
+       * the student time rather than fidelity, and 25% of 500 words is still
+       * readable inside the pacing the section allows.
+       */
       assert.ok(words <= max * 1.25, `${exam}/${section}: ${passage.id} runs ${words} words, well over the ${max} the real exam uses`);
-      assert.ok(words >= min * 0.6, `${exam}/${section}: ${passage.id} is only ${words} words, too thin to carry its questions`);
+      assert.ok(words >= min, `${exam}/${section}: ${passage.id} is ${words} words against a floor of ${min}; a short passage is an easier passage`);
     }
   }
 });
