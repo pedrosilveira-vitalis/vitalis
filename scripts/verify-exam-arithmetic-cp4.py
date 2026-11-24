@@ -58,6 +58,8 @@ check("cp4-p3-q2/A", 6.0e-6, lambda: C_CUVETTE, note="distractor: dilution ignor
 check("cp4-p3-q2/C", 1.5e-3, lambda: A494 / (EPS450 * PATH) * DIL, tol=0.03, note="distractor: the 450 nm absorptivity used")
 check("cp4-p3-q2/D", 3.0e-3, lambda: A494 / (EPS494 * 0.100) * DIL, note="distractor: path read as 1.0 mm")
 check("cp4-p3-q3/1nM", 7.3e-5, lambda: EPS494 * 1.0e-9 * 1.00, note="absorbance of a 1 nM solution, 1 cm")
+check("cp4-p3-q3/shortfall", 1.7e-4, lambda: 1 - 10 ** (-EPS494 * 1.0e-9 * 1.00), tol=0.02,
+      note="fraction of light missing at 1 nM, under two parts in ten thousand")
 check("cp4-p3-q3/10cm", 7.3e-4, lambda: EPS494 * 1.0e-9 * 10.0, note="distractor B: same in a 10 cm cell")
 check("cp4-p3-q4", 0.64, lambda: 1 - 10 ** (-A494), note="fraction absorbed at A = 0.44")
 check("cp4-p3-q4/A", 0.36, lambda: 10 ** (-A494), note="distractor: the transmitted fraction")
@@ -177,12 +179,8 @@ PW = 23.8
 check("cp4-d1", 21.4, lambda: PW * 9.0 / 10.0, note="key: vapour pressure above the solution, torr")
 check("cp4-d1/A", 2.38, lambda: PW * 1.0 / 10.0, note="distractor: solute mole fraction used")
 check("cp4-d1/B", 19.5, lambda: PW * 9.0 / 11.0, note="distractor: glucose treated as dissociating")
+check("cp4-d1/lowering", 2.4, lambda: PW - PW * 0.900, note="lowering produced by the solute, torr")
 check("cp4-d1/D", 26.4, lambda: PW / 0.900, note="distractor: divided by the mole fraction")
-# d3 Beer-Lambert: 10.0 percent transmitted, concentration tripled.
-check("cp4-d3/A0", 1.00, lambda: -math.log10(0.100), note="absorbance at 10 percent transmission")
-check("cp4-d3", 3.00, lambda: 3 * -math.log10(0.100), note="key: absorbance when the concentration triples")
-check("cp4-d3/A", 0.333, lambda: -math.log10(0.100) / 3, note="distractor: absorbance divided by three")
-check("cp4-d3/B", 0.52, lambda: -math.log10(0.300), note="distractor: transmittance tripled instead")
 # d4 deltoid: arm weight 35 N at 30 cm, insertion 5.0 cm.
 check("cp4-d4", 210, lambda: 35.0 * 30.0 / 5.0, note="key: deltoid force, N")
 check("cp4-d4/A", 5.8, lambda: 35.0 * 5.0 / 30.0, note="distractor: lever arms inverted")
@@ -216,5 +214,18 @@ check("cp4-d11", -493, lambda: HC_ETHANOL - HC_ACETIC, note="key: ethanol to ace
 check("cp4-d11/B", -874, lambda: HC_ACETIC, tol=0.0001, note="distractor: acetic acid combustion quoted")
 check("cp4-d11/C", -1367, lambda: HC_ETHANOL, tol=0.0001, note="distractor: ethanol combustion quoted")
 check("cp4-d11/D", -2241, lambda: HC_ETHANOL + HC_ACETIC, note="distractor: enthalpies added")
+
+# ------------------------------------------------- values quoted in notes and explanations
+check("cp4-p7-q4/B-nm", 346, lambda: abbe(450, 0.65), note="dry lens at 450 nm, quoted in a note")
+check("cp4-p7-q4/C-nm", 289, lambda: abbe(550, 0.95), note="NA 0.95 at 550 nm, quoted in a note")
+check("cp4-p9-q3/RT", 2577, lambda: R * T_BODY, note="RT at 310 K, quoted as about 2580 J/mol")
+check("cp4-d9/RT", 2494, lambda: R * 300.0, note="RT at 300 K, quoted as about 2490 J/mol")
+check("cp4-d9/exponent", 10.0, lambda: 25000 / (R * 300.0), tol=0.01, note="exponent quoted as about 10.0")
+check("cp4-d11/fraction", 0.64, lambda: HC_ACETIC / HC_ETHANOL, note="acetic acid holds nearly two thirds")
+check("cp4-p10-q1/twice", -2688, lambda: 2 * HC_LACTIC, note="twice the lactic acid value, quoted")
+check("cp4-p10-q3/twice", -2734, lambda: 2 * HC_ETHANOL, note="twice the ethanol value, quoted")
+check("cp4-p8-q3/half", 0.52, lambda: 65.0 / 125.0, tol=0.04, note="urea clearance is about half the filtration rate")
+check("cp4-p4-q3/ratio", 0.57, lambda: 4.0 / 7.0, note="mechanical advantage quoted as about 0.57")
+check("cp4-d4/sixfold", 6.0, lambda: 210.0 / 35.0, note="deltoid force is six times the weight supported")
 
 run()

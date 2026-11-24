@@ -1,0 +1,1444 @@
+{
+ "passages": [
+  {
+   "id": "ps4-p1",
+   "title": "Watching, reproducing and choosing to do it again",
+   "paragraphs": [
+    "Children acquire a great deal without ever being reinforced for it, simply by watching what someone else does and what happens next. To separate what a child takes in from what a child is willing to perform, investigators built a task no child could already know: a twelve-step assembly in which coloured blocks had to be fitted into a frame in a fixed order. One hundred and twenty children aged 7 to 9 were recruited from four after-school clubs and assigned at random to one of four conditions, thirty per condition. Three conditions watched the same three-minute video of an adult completing the assembly correctly. In the first, the adult was then praised warmly by a second adult; in the second nothing was said; in the third the adult was told the work was careless and would not count. The fourth condition saw no video and was simply shown the blocks and the frame.",
+    "Immediately afterwards each child was taken to a separate room, given the blocks, and asked to build whatever they could. A scorer who did not know the condition recorded how many of the twelve steps were produced in the correct order. Two days later the same children spent twenty minutes in a playroom that held the blocks among eight other activities, and an observer recorded whether the child picked up the blocks at all. Table 1 gives the means and the proportion who did so.",
+    "Reproduction was similar in all three conditions that saw the model, and in all three far above the condition that did not. Free-choice behaviour behaved quite differently. Children who had seen the model criticised reproduced 8.7 steps, within 0.9 of the children who had seen the model praised, yet were only three-eighths as likely to touch the blocks when nothing was asked of them. The investigators argued that a consequence delivered to someone else does not much change what an observer takes in; what it changes is the observer's estimate of what the behaviour is worth doing."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Steps reproduced and free-choice contact with the blocks, by condition.",
+    "markup": "<table><thead><tr><th>Condition</th><th>n</th><th>Mean steps reproduced (of 12)</th><th>Touched blocks in free play (n)</th><th>Touched blocks (%)</th></tr></thead><tbody><tr><td>Model praised</td><td>30</td><td>9.6</td><td>24</td><td>80</td></tr><tr><td>Model, no comment</td><td>30</td><td>9.0</td><td>18</td><td>60</td></tr><tr><td>Model criticised</td><td>30</td><td>8.7</td><td>9</td><td>30</td></tr><tr><td>No model</td><td>30</td><td>3.3</td><td>6</td><td>20</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps4-p2",
+   "title": "Two kinds of remembering after hippocampal injury",
+   "paragraphs": [
+    "Memory is not one faculty. One kind supports statements a person can make about facts and events and can be brought deliberately to mind; another supports skills and habits and shows itself only in performance. Nine adults who had sustained bilateral damage to the hippocampus and the cortex adjacent to it, following a period of oxygen deprivation, were compared with nine volunteers matched to them individually for age, years of schooling and vocabulary score. All nine patients were severely impaired in daily life at remembering conversations and appointments. None had difficulty with speech, with naming, or with general knowledge acquired before the injury.",
+    "Four tasks were given on each of five consecutive days. Free recall required the participant to study a list of twenty unrelated words and then produce as many as possible. Recognition required a yes-or-no judgement on forty studied pictures mixed with forty new ones. Mirror tracing required the participant to trace a six-pointed star while seeing the hand only in a mirror, and errors were counted each day. Stem completion presented thirty three-letter stems, each of which had begun a word studied an hour earlier, and the measure was the proportion completed with the studied word; a separate set of stems whose words had not been studied gave a baseline rate. Table 1 gives the group means.",
+    "The two groups diverged sharply on the tasks that asked for a deliberate report and barely at all on the others. Both groups cut their tracing errors by about two thirds over the five days. The patients completed primed stems with a studied word nearly four times as often as their own unprimed baseline rate, a difference as large as the controls'. Asked on day five whether they had traced the star before, eight of the nine patients said they had not, and two asked what the mirror was for."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Group means on the four tasks. Tracing is reported for the first and last of the five days.",
+    "markup": "<table><thead><tr><th>Task</th><th>Amnesic group (n = 9)</th><th>Matched controls (n = 9)</th></tr></thead><tbody><tr><td>Free recall of 20 words (number recalled)</td><td>3.1</td><td>9.8</td></tr><tr><td>Recognition of 40 pictures (% correct)</td><td>58</td><td>91</td></tr><tr><td>Mirror tracing, day 1 (errors)</td><td>24</td><td>23</td></tr><tr><td>Mirror tracing, day 5 (errors)</td><td>9</td><td>8</td></tr><tr><td>Primed stem completion (% of 30)</td><td>47</td><td>49</td></tr><tr><td>Unprimed baseline completion (%)</td><td>12</td><td>13</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps4-p3",
+   "title": "Disparity, convergence and judged distance in the dark",
+   "paragraphs": [
+    "Two eyes set a few centimetres apart receive slightly different images of anything nearer than the horizon, and the difference between those images, the binocular disparity, shrinks as an object recedes. The angle through which the eyes must turn inward to fixate an object, the convergence angle, shrinks with distance in the same way. Both therefore carry information about depth that is useful nearby and almost useless far off. To find how much of a distance judgement rests on them, investigators tested sixty-four adults in a blacked-out room containing a single small light-emitting diode on a movable track, with every other cue to depth removed.",
+    "Each participant judged the distance to the diode, in metres, at five actual distances, in each of three viewing conditions presented in a counterbalanced order. In binocular viewing both eyes were open. In monocular viewing the non-dominant eye was patched. In the third condition both eyes were open but each looked through a weak prism that halved the disparity between the two retinal images while leaving the convergence demand almost unchanged. Figure 1 plots the mean judged distance in each condition against the actual distance, on a logarithmic horizontal axis, together with a thin dashed curve marking judgements that would be exactly correct.",
+    "Binocular judgements were essentially correct within about a metre and fell progressively short of the diode's true distance beyond that. Monocular judgements overestimated the nearest distance almost threefold and fell further short than binocular judgements at the far end of the range. The prism condition lay nearer the monocular curve than the binocular curve at every distance. The investigators concluded that the near advantage of two eyes over one rests chiefly on disparity rather than on convergence, and that at eight metres no viewing condition was accurate, because the cues that help nearby have little left to contribute there."
+   ],
+   "figure": {
+    "kind": "svg",
+    "caption": "Figure 1  Mean judged distance against actual distance on a logarithmic horizontal axis. Vertical axis ticks mark 0, 2, 4, 6 and 8 m. BIN, binocular; PRI, reduced-disparity prism; MON, monocular; the thin unlabelled dashed curve marks a judgement equal to the actual distance.",
+    "markup": "<svg viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"Judged distance against actual distance for three viewing conditions, all falling short of the veridical curve beyond one metre\"><line x1=\"60\" y1=\"200\" x2=\"360\" y2=\"200\" stroke=\"currentColor\"></line><line x1=\"60\" y1=\"200\" x2=\"60\" y2=\"40\" stroke=\"currentColor\"></line><line x1=\"55\" y1=\"200\" x2=\"60\" y2=\"200\" stroke=\"currentColor\"></line><line x1=\"55\" y1=\"160\" x2=\"60\" y2=\"160\" stroke=\"currentColor\"></line><line x1=\"55\" y1=\"120\" x2=\"60\" y2=\"120\" stroke=\"currentColor\"></line><line x1=\"55\" y1=\"80\" x2=\"60\" y2=\"80\" stroke=\"currentColor\"></line><line x1=\"55\" y1=\"40\" x2=\"60\" y2=\"40\" stroke=\"currentColor\"></line><text x=\"38\" y=\"204\" font-size=\"11\">0</text><text x=\"38\" y=\"164\" font-size=\"11\">2</text><text x=\"38\" y=\"124\" font-size=\"11\">4</text><text x=\"38\" y=\"84\" font-size=\"11\">6</text><text x=\"38\" y=\"44\" font-size=\"11\">8</text><line x1=\"80\" y1=\"200\" x2=\"80\" y2=\"205\" stroke=\"currentColor\"></line><line x1=\"140\" y1=\"200\" x2=\"140\" y2=\"205\" stroke=\"currentColor\"></line><line x1=\"200\" y1=\"200\" x2=\"200\" y2=\"205\" stroke=\"currentColor\"></line><line x1=\"260\" y1=\"200\" x2=\"260\" y2=\"205\" stroke=\"currentColor\"></line><line x1=\"320\" y1=\"200\" x2=\"320\" y2=\"205\" stroke=\"currentColor\"></line><text x=\"74\" y=\"218\" font-size=\"11\">0.5</text><text x=\"134\" y=\"218\" font-size=\"11\">1</text><text x=\"194\" y=\"218\" font-size=\"11\">2</text><text x=\"254\" y=\"218\" font-size=\"11\">4</text><text x=\"314\" y=\"218\" font-size=\"11\">8</text><text x=\"140\" y=\"238\" font-size=\"11\">actual distance (m)</text><text x=\"62\" y=\"32\" font-size=\"11\">judged distance (m)</text><polyline points=\"80,190 140,180 200,160 260,120 320,40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-dasharray=\"6 5\"></polyline><polyline points=\"80,190 140,180 200,162 260,132 320,88\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"></polyline><polyline points=\"80,176 140,168 200,156 260,134 320,104\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"8 3 2 3\"></polyline><polyline points=\"80,172 140,164 200,152 260,134 320,116\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"2 4\"></polyline><text x=\"326\" y=\"91\" font-size=\"11\">BIN</text><text x=\"326\" y=\"107\" font-size=\"11\">PRI</text><text x=\"326\" y=\"119\" font-size=\"11\">MON</text></svg>"
+   }
+  },
+  {
+   "id": "ps4-p4",
+   "title": "Rewarding an activity children had already chosen",
+   "paragraphs": [
+    "Some activities are undertaken for their own sake, and a standing question is what happens to such an activity once it is also paid for. From three weeks of unobtrusive observation in nine nursery classrooms, investigators identified ninety children aged 4 and 5 who spent a high proportion of free-choice time drawing. During a baseline week each child's drawing was timed across a single twenty-minute free-choice period in which drawing was one of six available activities.",
+    "In the following week each child was taken individually to a side room and invited to draw for six minutes. Thirty children, chosen at random, were told before they began that anyone who drew would receive a Good Artist certificate, and were given one afterwards. Thirty were told nothing beforehand and were given the same certificate afterwards, with no explanation of why. Thirty were told nothing and given nothing. A week later, drawing was timed again in the same twenty-minute free-choice period. The observers who timed the free-choice periods did not know which child had been in which group. Table 1 gives the means.",
+    "Drawing in the group that had expected the certificate halved. The two other groups were essentially unchanged. The investigators argued that what matters is not whether a reward arrives but whether the child can treat it as the reason for drawing: a certificate announced in advance supplies a ready external reason, while one that arrives unannounced does not, because the drawing is finished before the certificate exists. Nothing in the design bears on how long the change lasts, and all ninety children were selected because they already drew a great deal, so the result says nothing about children indifferent to drawing."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean minutes spent drawing in a twenty-minute free-choice period, before and a week after the side-room session.",
+    "markup": "<table><thead><tr><th>Group</th><th>n</th><th>Baseline (min)</th><th>Follow-up (min)</th><th>Change (min)</th></tr></thead><tbody><tr><td>Expected certificate</td><td>30</td><td>8.4</td><td>4.2</td><td>-4.2</td></tr><tr><td>Unexpected certificate</td><td>30</td><td>8.6</td><td>8.1</td><td>-0.5</td></tr><tr><td>No certificate</td><td>30</td><td>8.5</td><td>8.3</td><td>-0.2</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps4-p5",
+   "title": "Building and checking a five-factor inventory",
+   "paragraphs": [
+    "A personality inventory is useful only if its items hang together, if they give similar scores on two occasions, and if they agree with something other than the respondent's own report. Investigators wrote 180 self-descriptive statements, administered them to 600 adults recruited from an online panel, and discarded every item that correlated poorly with the rest or that almost everyone endorsed. Sixty items survived. A factor analysis of the correlations among those sixty items returned five factors, and every item loaded most strongly on exactly one of them. The five were labelled, by inspection of their highest-loading items, as extraversion, agreeableness, conscientiousness, emotional stability and openness.",
+    "Each factor was scored as the mean of its items, and internal consistency was computed within each scale. Four hundred and eighty of the 600 respondents completed the inventory again eight weeks later, and the correlation between the two administrations gives the retest figure. Each respondent also nominated one friend of at least two years' standing, who rated the respondent on the same sixty statements reworded in the third person; 412 friends returned usable ratings. Table 1 reports, for each factor, the number of items, the percentage of the total item variance it accounted for, the internal consistency, the eight-week retest correlation, and the correlation between self-report and friend report.",
+    "The five factors together accounted for 54 percent of the variance in the sixty items, leaving almost half of it unaccounted for. Internal consistency and retest stability were comparable across the five scales. Self-friend agreement was not: it ran from 0.54 for extraversion down to 0.33 for emotional stability. The investigators observed that the scales on which friends agreed least are the ones whose defining statements refer to states that are mostly not visible from outside, and that a low self-friend correlation is therefore ambiguous between an inaccurate self-report and an uninformed friend."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Items, variance accounted for, internal consistency, eight-week retest correlation and self-friend correlation, by factor.",
+    "markup": "<table><thead><tr><th>Factor</th><th>Items</th><th>Variance accounted for (%)</th><th>Internal consistency</th><th>8-week retest r</th><th>Self-friend r</th></tr></thead><tbody><tr><td>Extraversion</td><td>12</td><td>18</td><td>0.86</td><td>0.82</td><td>0.54</td></tr><tr><td>Agreeableness</td><td>12</td><td>12</td><td>0.79</td><td>0.78</td><td>0.41</td></tr><tr><td>Conscientiousness</td><td>12</td><td>10</td><td>0.84</td><td>0.81</td><td>0.49</td></tr><tr><td>Emotional stability</td><td>12</td><td>8</td><td>0.81</td><td>0.76</td><td>0.33</td></tr><tr><td>Openness</td><td>12</td><td>6</td><td>0.77</td><td>0.74</td><td>0.38</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps4-p6",
+   "title": "A habit of explanation and the first episode of low mood",
+   "paragraphs": [
+    "Two people meeting the same setback explain it differently. One treats it as a passing matter with a local cause; the other treats it as evidence of something stable in themselves that will spoil other things too. The second habit of explanation is what is meant by a negative attributional style, and the proposal under test is that it is not merely a symptom of low mood but a standing vulnerability that shows itself when something goes wrong. Investigators administered a 24-item measure of attributional style to 1,340 students entering a single university, and screened all of them with a structured diagnostic interview. Students who met criteria for a current or a past depressive episode were excluded, which left 480.",
+    "The 480 were divided at the median of the attributional-style score into a high-risk and a low-risk half of 240 each, and followed for 18 months. Every six months a diagnostic interview, conducted by an interviewer who did not know the student's attributional score, recorded whether a first major depressive episode had begun. At each interview students also reported whether any of eleven listed major stressors, such as a bereavement, a serious illness or the end of a long relationship, had occurred since the previous interview. Table 1 gives the number of first episodes, overall and by whether a major stressor had been reported.",
+    "The high-risk half were more than twice as likely as the low-risk half to have a first episode, with incidences of 20.0 and 7.5 percent and a relative risk of 2.67. Dividing by stressor exposure shows where that difference sat. Among students reporting a major stressor the two halves differed by 17.5 percentage points; among those reporting none they differed by 7.8 points. The investigators read this as a diathesis-stress pattern. They were careful to note that attributional style was not assigned, and that the median split was fixed before any outcome was known."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  First major depressive episodes over 18 months, by attributional-style half and by reported stressor exposure.",
+    "markup": "<table><thead><tr><th>Group</th><th>n</th><th>First episodes</th><th>Incidence (%)</th></tr></thead><tbody><tr><td>High cognitive risk, all</td><td>240</td><td>48</td><td>20.0</td></tr><tr><td>High risk, major stressor reported</td><td>110</td><td>33</td><td>30.0</td></tr><tr><td>High risk, no major stressor</td><td>130</td><td>15</td><td>11.5</td></tr><tr><td>Low cognitive risk, all</td><td>240</td><td>18</td><td>7.5</td></tr><tr><td>Low risk, major stressor reported</td><td>104</td><td>13</td><td>12.5</td></tr><tr><td>Low risk, no major stressor</td><td>136</td><td>5</td><td>3.7</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps4-p7",
+   "title": "Fifteen minutes of discussion and the drift of a committee",
+   "paragraphs": [
+    "A committee that talks often ends up more extreme than its members were when they sat down. To test whether discussion itself produces the drift, investigators recruited 150 adults and had each read a short scenario in which a manager must decide whether to commit a firm's reserves to an untested product. Each rated privately how acceptable the commitment was, on a nine-point scale where 1 was wholly unacceptable and 9 wholly acceptable. From those ratings the investigators formed thirty groups of five, each composed so that all five members had rated the scenario on the same side of the midpoint: fifteen groups of members leaning toward accepting the risk, and fifteen of members leaning toward caution.",
+    "Groups of each kind were then assigned at random either to discuss the scenario for fifteen minutes, reaching no formal decision, or to spend the same fifteen minutes re-reading the scenario in silence in the same room. Afterwards every participant rated the scenario again, privately and without consulting anyone. Table 1 gives the mean rating before and after, by group type and condition, averaged over the members of the groups in each cell.",
+    "Discussion moved each kind of group about a full point further in the direction its members already leaned, so that the two kinds ended further apart than they began. Groups that merely re-read the scenario moved a tenth of a point. Because membership was composed from the pre-discussion ratings, no group contained a member arguing the other side, and the investigators noted that their design therefore says nothing about what discussion does to a group divided at the outset."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Mean rating of the commitment on a nine-point scale, before and after fifteen minutes, by group type and condition.",
+    "markup": "<table><thead><tr><th>Group type and condition</th><th>Groups</th><th>Pre mean</th><th>Post mean</th><th>Shift</th></tr></thead><tbody><tr><td>Risk-leaning, discussion</td><td>8</td><td>6.4</td><td>7.5</td><td>+1.1</td></tr><tr><td>Risk-leaning, no discussion</td><td>7</td><td>6.3</td><td>6.4</td><td>+0.1</td></tr><tr><td>Caution-leaning, discussion</td><td>8</td><td>3.6</td><td>2.6</td><td>-1.0</td></tr><tr><td>Caution-leaning, no discussion</td><td>7</td><td>3.7</td><td>3.6</td><td>-0.1</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps4-p8",
+   "title": "Which voices carry a norm to an adolescent",
+   "paragraphs": [
+    "Norms reach a young person by more than one route, and the routes can be told apart. An injunctive norm is a belief about what other people would approve or disapprove of. A descriptive norm is a belief about what other people in fact do. Investigators surveyed 1,200 adolescents aged 14 to 17, sampled from the enrolment registers of 48 secondary schools in one country. Each was asked how wrong it would be for an adult to understate their income on a tax return, on a five-point scale from not wrong at all to very seriously wrong. That rating was the study's outcome.",
+    "Five predictors were measured. Parental disapproval and peer disapproval were each the adolescent's report of how strongly their parents, and separately their closest friends, would disapprove of understating income. Perceived prevalence was the adolescent's estimate of the percentage of adults in their own community who understate income. Civics instruction was the number of hours of formal teaching on taxation and public spending that the adolescent's school reported for the year. Hours per week spent watching a popular television drama about a corrupt business family were recorded as the fifth. All five entered a single regression, with age, sex and household income held constant. Table 1 gives the standardised coefficients.",
+    "The two injunctive measures were the strongest predictors, and the descriptive measure ran the other way: an adolescent who believed that most adults understate income rated the practice as less seriously wrong. The model accounted for 24 percent of the variance in the ratings. The investigators observed that every predictor except the two drawn from school and viewing records is a report given by the adolescent, that none was manipulated, and that an adolescent who already thinks the practice trivial may also report lenient parents."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Standardised regression coefficients for the rating of how seriously wrong it is to understate income (n = 1,200).",
+    "markup": "<table><thead><tr><th>Predictor</th><th>Standardised coefficient</th><th>p</th></tr></thead><tbody><tr><td>Parental disapproval</td><td>0.31</td><td>&lt;0.001</td></tr><tr><td>Peer disapproval</td><td>0.26</td><td>&lt;0.001</td></tr><tr><td>Perceived prevalence among adults</td><td>-0.19</td><td>&lt;0.001</td></tr><tr><td>Civics instruction (hours)</td><td>0.08</td><td>0.02</td></tr><tr><td>Drama viewing (hours per week)</td><td>-0.03</td><td>0.41</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps4-p9",
+   "title": "Who is counted as working, and who is working",
+   "paragraphs": [
+    "Participation in the paid labour force is counted as being either employed or actively seeking work. In most national statistics the participation rates of men and of women differ little among adults without dependent children and widely among those with them. A national household survey of one middle-income country interviewed 40,000 adults aged 25 to 54 and classified each by sex and by the age of the youngest child in the household. Respondents who were employed were also asked to account for a typical week in two parts: hours of paid work, and hours of unpaid household and care work.",
+    "Table 1 gives the participation rates. The gap between men and women is 7 percentage points among adults with no child under 18, 16 points where the youngest child is of school age, and 32 points where the youngest is under 6, which is more than four times the gap among adults with no child under 18. Men's participation is, if anything, slightly higher among fathers of young children than among men with no children at all.",
+    "Among those employed, men reported 41 hours of paid work and 14 hours of unpaid household and care work in a typical week; women reported 33 and 26. The two sexes therefore reported similar totals, 55 hours against 59, distributed very differently between work that the participation statistics count and work that they do not. The survey recorded nothing about whether respondents would have preferred a different arrangement, and a rate measured at a single moment cannot distinguish a woman who has left the labour force for good from one who intends to return."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Labour force participation of adults aged 25 to 54, by sex and age of the youngest child in the household.",
+    "markup": "<table><thead><tr><th>Age of youngest child in household</th><th>Men participating (%)</th><th>Women participating (%)</th><th>Gap (percentage points)</th></tr></thead><tbody><tr><td>No child under 18</td><td>92</td><td>85</td><td>7</td></tr><tr><td>Youngest aged 6 to 17</td><td>95</td><td>79</td><td>16</td></tr><tr><td>Youngest aged 0 to 5</td><td>96</td><td>64</td><td>32</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "ps4-p10",
+   "title": "Sixty years of births, deaths and cities",
+   "paragraphs": [
+    "In the demographic transition a population moves from high birth and death rates to low ones, but not simultaneously. Mortality falls first, and for a time births continue at close to their former rate, so a population grows fastest in the middle of the transition rather than at either end. Urban growth has sources of its own: natural increase within cities, migration from the countryside, and the reclassification of settlements that have grown past a statistical threshold. A country can therefore urbanise quickly while its rate of natural increase is falling. Table 1 gives sixty years of registration and census data for one middle-income country.",
+    "The crude death rate halved between 1960 and 1980, from 24 to 12 per thousand, while the crude birth rate fell by less than a seventh over the same two decades. Natural increase therefore peaked in 1980 at 26 per thousand. Over the following forty years the birth rate fell by more than half and natural increase fell with it, reaching 7 per thousand by 2020. The death rate did not continue to fall after 1980, because the population was ageing, and an older population raises the crude death rate even where mortality at any given age is still improving.",
+    "The urban share rose in every period, from 18 percent to 68 percent. Because the total population also more than tripled, the number of people living in urban areas grew by much more than the rise in the share alone suggests. The census does not separate the three sources of urban growth, so these figures cannot say how much of the increase was migration from the countryside and how much was births to people already living in cities."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Vital rates, population and urban share at twenty-year intervals.",
+    "markup": "<table><thead><tr><th>Year</th><th>Crude birth rate (per 1,000)</th><th>Crude death rate (per 1,000)</th><th>Natural increase (per 1,000)</th><th>Total population (millions)</th><th>Urban (%)</th></tr></thead><tbody><tr><td>1960</td><td>44</td><td>24</td><td>20</td><td>12.0</td><td>18</td></tr><tr><td>1980</td><td>38</td><td>12</td><td>26</td><td>17.5</td><td>31</td></tr><tr><td>2000</td><td>26</td><td>8</td><td>18</td><td>26.0</td><td>49</td></tr><tr><td>2020</td><td>15</td><td>8</td><td>7</td><td>39.6</td><td>68</td></tr></tbody></table>"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "id": "ps4-p1-q1",
+   "passageId": "ps4-p1",
+   "stem": "Four sub-processes are conventionally distinguished in learning by observation: attention, retention, reproduction and motivation. The differences between the three model conditions in the final column of Table 1 are best attributed to differences in which one?",
+   "choices": {
+    "A": "attention, because the three videos differed in how closely the model was watched",
+    "B": "retention, because criticism interferes with storing a sequence of twelve steps",
+    "C": "reproduction, because criticism makes the motor sequence harder to execute",
+    "D": "motivation, because the observed consequence alters what the behaviour seems worth"
+   },
+   "correct": "D",
+   "explanation": "The final column records whether a child chose to pick up the blocks when nothing was asked. All three model conditions reproduced the sequence at a similar level, 8.7 to 9.6 steps, so what the children had taken in and could execute was much the same. What differed was willingness to do it unprompted, which is the motivational sub-process: a consequence seen to fall on the model changes the observer's estimate of the behaviour's value.",
+   "wrong": {
+    "A": "The three conditions watched the same three-minute video, and the comment was made after it, so viewing was equated by design.",
+    "B": "Retention is indexed by how much of the sequence was produced, and that was within 0.9 steps across the three model conditions.",
+    "C": "A difficulty in executing the sequence would show up in steps reproduced, which barely differed between the praised and criticised conditions."
+   },
+   "category": "7C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "18"
+  },
+  {
+   "id": "ps4-p1-q2",
+   "passageId": "ps4-p1",
+   "stem": "A child watches a classmate be scolded for climbing on a desk and never climbs on a desk herself. Which account of this outcome is most consistent with the pattern in Table 1?",
+   "choices": {
+    "A": "She did not learn the behaviour, since nothing reinforced her for watching it.",
+    "B": "Her own climbing responses were extinguished by the scolding the classmate received.",
+    "C": "The scolding punished her directly, since she was present when it was delivered.",
+    "D": "She learned the behaviour but withholds it, since the consequence lowers its apparent value."
+   },
+   "correct": "D",
+   "explanation": "Table 1 separates acquisition from performance: criticism of the model left reproduction almost intact while cutting free-choice contact from 80 to 30 percent. The parallel account of the classroom case is that the child has acquired the behaviour and is declining to perform it, because the consequence she observed lowers the value she places on doing it.",
+   "wrong": {
+    "A": "Observational learning in Table 1 occurred without any reinforcement of the observer, since all three model conditions reproduced far more steps than the no-model condition.",
+    "B": "Extinction is the withholding of reinforcement from the learner's own responses; the child in this example has made no desk-climbing responses to extinguish.",
+    "C": "Punishment acts on the responses of the individual punished, and it was the classmate, not the observer, who climbed and was scolded."
+   },
+   "category": "7C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "18"
+  },
+  {
+   "id": "ps4-p1-q3",
+   "passageId": "ps4-p1",
+   "stem": "A reviewer suggests that children in the criticised condition reproduced fewer steps because the criticism made them stop attending to the model. Which feature of the procedure bears most directly on that suggestion?",
+   "choices": {
+    "A": "Each condition watched a video of the same length, so total viewing time was equal.",
+    "B": "A scorer who did not know the condition counted the steps, so scoring was unbiased.",
+    "C": "The comment was made only after the whole assembly had been shown.",
+    "D": "Children were assigned to conditions at random, so the groups began equivalent."
+   },
+   "correct": "C",
+   "explanation": "The reviewer's suggestion requires the criticism to have reduced attention to the demonstration. The procedure rules that out directly: the adult's work was praised or criticised only once the twelve-step assembly had been shown in full, so no child could have disengaged from the demonstration in response to a comment that had not yet been made.",
+   "wrong": {
+    "A": "Equal video length equates the opportunity to watch but not the use made of it, so it does not address whether attention was withdrawn part-way through.",
+    "B": "Blind scoring protects the measurement of reproduction from the scorer's expectations and says nothing about where the children were looking.",
+    "D": "Random assignment equates the groups before the manipulation; the suggestion concerns something the manipulation itself is said to have done afterwards."
+   },
+   "category": "7C",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps4-p1-q4",
+   "passageId": "ps4-p1",
+   "stem": "Which measure in the experiment is the better index of what the children learned, as distinct from what they chose to do?",
+   "choices": {
+    "A": "whether the child picked up the blocks during the free-play period",
+    "B": "how warmly the adult in the video was treated by the second adult",
+    "C": "the number of the twelve steps produced in the correct order",
+    "D": "how many of the eight other playroom activities the child tried"
+   },
+   "correct": "C",
+   "explanation": "Learning is what the observer has taken in and can produce; performance is what the observer elects to do when free to choose. Asking a child to build what they could, and counting the steps produced in order, measures the first. The playroom measure, taken when nothing was asked, is a measure of the second.",
+   "wrong": {
+    "A": "Picking up the blocks when nothing was required is an elective act, which is precisely the performance measure the question asks to be set aside.",
+    "B": "The treatment of the model is the manipulation rather than an outcome, and it was fixed by condition rather than measured in the child.",
+    "D": "The number of other activities tried indexes how the child spent free time and carries no information about the assembly sequence."
+   },
+   "category": "7C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "18"
+  },
+  {
+   "id": "ps4-p1-q5",
+   "passageId": "ps4-p1",
+   "stem": "All of the following statements are supported by Table 1 EXCEPT:",
+   "choices": {
+    "A": "Each condition that saw a model reproduced at least twice as many steps as the condition that saw none.",
+    "B": "The three model conditions differed more from one another in free play than in steps reproduced.",
+    "C": "Fewer than half of all the children in the study picked up the blocks during free play.",
+    "D": "The no-model condition picked up the blocks less than half as often as the criticised condition."
+   },
+   "correct": "D",
+   "explanation": "The no-model condition touched the blocks at 20 percent and the criticised condition at 30 percent. Half of 30 percent is 15 percent, and 20 percent is above that, so the no-model rate is not less than half the criticised rate. The other three statements hold: the lowest model condition reproduced 8.7 steps against 3.3, which is more than twice; the model conditions span 8.7 to 9.6 steps but 30 to 80 percent in free play; and 24 plus 18 plus 9 plus 6 is 57 of 120 children, which is 47.5 percent.",
+   "wrong": {
+    "A": "This holds: 8.7 steps is the lowest of the three model conditions and is 2.6 times the 3.3 steps of the no-model condition.",
+    "B": "This holds: the model conditions spread over 0.9 of the twelve available steps but over 50 percentage points of free-play contact.",
+    "C": "This holds: the four conditions contributed 24, 18, 9 and 6 children, which is 57 of 120, or 47.5 percent."
+   },
+   "category": "7C",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "18"
+  },
+  {
+   "id": "ps4-p2-q1",
+   "passageId": "ps4-p2",
+   "stem": "Which memory system is best described as spared in these patients?",
+   "choices": {
+    "A": "episodic memory, since recognition of the pictures remained above chance",
+    "B": "procedural memory, since tracing improved steadily across the five days",
+    "C": "semantic memory, since new vocabulary was acquired during the study",
+    "D": "working memory, since the whole twenty-word list could be held in mind"
+   },
+   "correct": "B",
+   "explanation": "Mirror tracing is a motor skill, and the patients cut their errors from 24 to 9 across the five days, a gain as large as the controls'. Skill learning of this kind is procedural, expressed in performance rather than in a report, and it is characteristically preserved when the hippocampus and adjacent cortex are damaged.",
+   "wrong": {
+    "A": "Recognition of 58 percent against the controls' 91 percent is a severe deficit, and the patients also recalled only 3.1 of twenty words.",
+    "C": "No new vocabulary was taught or measured; what the passage records as intact is general knowledge acquired before the injury.",
+    "D": "Free recall of 3.1 words from a list of twenty is the opposite of holding the list in mind."
+   },
+   "category": "6B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "19"
+  },
+  {
+   "id": "ps4-p2-q2",
+   "passageId": "ps4-p2",
+   "stem": "The stem-completion result is most often described as a demonstration of:",
+   "choices": {
+    "A": "recovery of episodic memory once retrieval cues are supplied at test",
+    "B": "a shift of the recognition criterion toward accepting weaker evidence",
+    "C": "memory expressed in performance without any report of remembering",
+    "D": "priming of words the patients already knew before their injury"
+   },
+   "correct": "C",
+   "explanation": "The patients completed primed stems with studied words 47 percent of the time against their own unprimed baseline of 12 percent, while recalling only 3.1 of twenty words and, on day five, mostly denying having traced the star at all. The study episode therefore influenced performance in the absence of any deliberate recollection of it, which is the defining feature of a nondeclarative, implicit expression of memory.",
+   "wrong": {
+    "A": "Episodic memory is memory for the study episode, and the patients reported no such episode; a cue cannot restore a report they never gave.",
+    "B": "A criterion shift belongs to the yes-or-no recognition task and would raise both correct and incorrect acceptances, which is not what stem completion measures.",
+    "D": "Prior knowledge of the words is held constant by the unprimed stems, and it is the 35-point advantage over that baseline which requires explanation."
+   },
+   "category": "6B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "19"
+  },
+  {
+   "id": "ps4-p2-q3",
+   "passageId": "ps4-p2",
+   "stem": "By what percentage did the amnesic group reduce its mirror-tracing errors between day 1 and day 5?",
+   "choices": {
+    "A": "34.8%",
+    "B": "37.5%",
+    "C": "62.5%",
+    "D": "166.7%"
+   },
+   "correct": "C",
+   "explanation": "The amnesic group made 24 errors on day 1 and 9 on day 5, a fall of 15 errors. Expressed against the starting value, 15 divided by 24 is 0.625, a reduction of 62.5 percent. That is the figure the passage describes as about two thirds.",
+   "wrong": {
+    "A": "34.8% is 8 divided by 23, the controls' day-5 errors as a share of their day-1 errors, which reads the wrong two rows and reports a remainder rather than a reduction.",
+    "B": "37.5% is 9 divided by 24, the share of errors still being made on day 5, not the share by which errors fell.",
+    "D": "166.7% divides the 15-error fall by the 9 errors remaining instead of by the 24 the group began with, and no reduction can exceed 100 percent."
+   },
+   "category": "6B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps4-p2-q4",
+   "passageId": "ps4-p2",
+   "stem": "The set of stems whose words had not been studied was included primarily in order to:",
+   "choices": {
+    "A": "establish how often a stem is completed with the target word when it was never studied",
+    "B": "equate the two groups on the vocabulary from which the thirty stems were drawn",
+    "C": "confirm that the patients had understood what the completion task required",
+    "D": "measure how quickly each participant could read a three-letter stem aloud"
+   },
+   "correct": "A",
+   "explanation": "Some stems will be completed with the target word by anyone, simply because that word is common or because few words fit. The unstudied stems estimate that rate, and only against it does the primed figure mean anything: 47 percent against a baseline of 12 percent is what shows the study episode had an effect.",
+   "wrong": {
+    "B": "Vocabulary was equated by matching each patient to a control on a vocabulary score, which is done at recruitment rather than by a condition within the task.",
+    "C": "Comprehension of the instructions would be shown by completing stems at all, which both the primed and the unprimed sets require equally.",
+    "D": "No reading latency was recorded; the measure in both sets is the proportion of stems completed with a particular word."
+   },
+   "category": "6B",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps4-p2-q5",
+   "passageId": "ps4-p2",
+   "stem": "Consider the following claims. I. The recognition scores show that declarative memory was preserved in the patients. II. A skill can improve across days in the absence of any ability to report having practised it. III. Priming in the patients was no greater than their own unprimed baseline. Which are supported by the passage?",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II, and III"
+   },
+   "correct": "B",
+   "explanation": "Claim II is supported: tracing errors fell from 24 to 9 while eight of the nine patients denied on day five that they had ever traced the star. Claim I fails, because recognition of 58 percent against the controls' 91 percent is a severe declarative deficit. Claim III fails, because primed completion was 47 percent against an unprimed baseline of 12 percent.",
+   "wrong": {
+    "A": "Claim I treats a score above chance as preservation, but 58 percent correct against 91 percent in matched controls is a large impairment.",
+    "C": "This set includes claim I, which the 33-point recognition deficit contradicts.",
+    "D": "This set includes claim III, which the 47 percent primed figure against a 12 percent baseline contradicts."
+   },
+   "category": "6B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "19"
+  },
+  {
+   "id": "ps4-p3-q1",
+   "passageId": "ps4-p3",
+   "stem": "Which cue to depth becomes unavailable when the non-dominant eye is patched?",
+   "choices": {
+    "A": "binocular disparity between the images on the two retinas",
+    "B": "motion parallax produced by a movement of the head",
+    "C": "the relative size of two objects known to be equal",
+    "D": "the interposition of a nearer object over a farther one"
+   },
+   "correct": "A",
+   "explanation": "Disparity is the difference between the images that the two retinas receive of the same object, so it exists only when both eyes are open. Patching one eye removes it, which is what the monocular condition of this experiment was designed to do.",
+   "wrong": {
+    "B": "Motion parallax arises from the relative movement of near and far objects across a single retina when the observer moves, so one eye suffices.",
+    "C": "Relative size compares the retinal extents of two objects and is available to a single eye.",
+    "D": "Interposition depends on one object occluding part of another in a single image, so it survives patching."
+   },
+   "category": "6A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "20"
+  },
+  {
+   "id": "ps4-p3-q2",
+   "passageId": "ps4-p3",
+   "stem": "Figure 1 shows every viewing condition falling well short of the actual distance at 8 m. Which fact about the binocular cues best explains why two eyes cannot prevent that?",
+   "choices": {
+    "A": "The two retinas receive images of unequal brightness at that range.",
+    "B": "Accommodation of the lens reaches its far limit at about two metres.",
+    "C": "The extraocular muscles cannot hold a steady fixation at that range.",
+    "D": "Both disparity and the convergence angle shrink toward zero as distance grows."
+   },
+   "correct": "D",
+   "explanation": "Disparity and convergence both depend on the eyes being separated by a fixed few centimetres while the object recedes. The further away the object, the smaller the difference between the two retinal images and the smaller the inward rotation needed to fixate it, until the changes in both fall below what the visual system can resolve. By eight metres the binocular curve has fallen 2.4 m below the thin dashed veridical curve for that reason.",
+   "wrong": {
+    "A": "Nothing in the arrangement makes the diode brighter to one eye than the other, and a brightness difference is not what disparity encodes.",
+    "B": "The far limit of accommodation is a monocular matter and does not explain why having two eyes stops helping.",
+    "C": "Fixation is held at all five distances in all three conditions, and instability would degrade near judgements as much as far ones."
+   },
+   "category": "6A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "20"
+  },
+  {
+   "id": "ps4-p3-q3",
+   "passageId": "ps4-p3",
+   "stem": "Reading Figure 1, the ratio of judged distance to actual distance under binocular viewing at an actual distance of 8 m is closest to:",
+   "choices": {
+    "A": "0.53",
+    "B": "0.70",
+    "C": "0.95",
+    "D": "1.43"
+   },
+   "correct": "B",
+   "explanation": "At the rightmost point the binocular curve sits at a judged distance of 5.6 m, four fifths of the way from the 4 m tick to the 6 m tick. Dividing 5.6 by the actual 8 m gives 0.70, which is the underestimation the passage describes at the far end of the range.",
+   "wrong": {
+    "A": "0.53 reads the monocular curve at 8 m, about 4.2 m, rather than the binocular curve.",
+    "C": "0.95 is the ratio at an actual distance of 2 m, where the binocular curve sits at 1.9 m, not at 8 m.",
+    "D": "1.43 divides the actual distance by the judged distance, inverting the ratio the question asks for."
+   },
+   "category": "6A",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps4-p3-q4",
+   "passageId": "ps4-p3",
+   "stem": "What does the prism condition contribute that the monocular condition cannot?",
+   "choices": {
+    "A": "It shows that patching one eye lowers the total light reaching the retinas.",
+    "B": "It removes convergence while leaving disparity intact, isolating convergence.",
+    "C": "It confirms that the retinal image size of the diode carries the distance information.",
+    "D": "It leaves convergence nearly intact while halving disparity, separating the two cues."
+   },
+   "correct": "D",
+   "explanation": "Patching an eye removes disparity and convergence together, so a monocular deficit cannot be assigned to either. The prism halves disparity while the eyes still turn inward by almost the same amount, so the near loss it produces is attributable to disparity. That the prism curve lies nearer the monocular curve than the binocular one is what the investigators read as evidence that disparity does most of the near work.",
+   "wrong": {
+    "A": "Total light is not the variable of interest, and a brightness difference would not explain why near judgements suffer more than far ones.",
+    "B": "The prism works the other way around: it reduces disparity and leaves the convergence demand nearly unchanged.",
+    "C": "The diode is a single small point of fixed physical size, so its image size was not manipulated and carries no distance information here."
+   },
+   "category": "6A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "20"
+  },
+  {
+   "id": "ps4-p4-q1",
+   "passageId": "ps4-p4",
+   "stem": "The fall in free-choice drawing in the expected-certificate group is conventionally called:",
+   "choices": {
+    "A": "the partial reinforcement extinction effect, which slows the decline of a response",
+    "B": "secondary reinforcement, in which a neutral token acquires reinforcing power",
+    "C": "the overjustification effect, in which an external reason displaces an internal one",
+    "D": "learned industriousness, in which effort itself comes to be reinforcing"
+   },
+   "correct": "C",
+   "explanation": "A child who already drew for its own sake is given an announced reward for drawing, and afterwards draws less when no reward is on offer. The standard account is overjustification: the external reason is salient enough to be taken as the reason for drawing, and once it is withdrawn the activity has lost the reason it previously had.",
+   "wrong": {
+    "A": "The partial reinforcement extinction effect concerns how quickly a response declines after intermittent rather than continuous reinforcement, and no schedule was varied here.",
+    "B": "Secondary reinforcement would predict that the certificate maintains or raises drawing, which is the opposite of the 4.2-minute fall observed.",
+    "D": "Learned industriousness predicts that rewarded effort generalises to further effort, again the opposite of what the expected-certificate group did."
+   },
+   "category": "7A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "21"
+  },
+  {
+   "id": "ps4-p4-q2",
+   "passageId": "ps4-p4",
+   "stem": "Why did free-choice drawing in the unexpected-certificate group not decline?",
+   "choices": {
+    "A": "The certificate was not valuable enough to function as a reward at all.",
+    "B": "A reward the child did not anticipate cannot be the reason the child drew.",
+    "C": "One week is too short an interval for a change in drawing to appear.",
+    "D": "A reward delivered after an activity strengthens it by sheer contiguity."
+   },
+   "correct": "B",
+   "explanation": "On the overjustification account the damage is done by the child's reading of why the drawing happened. A certificate announced in advance can be taken as that reason; one that appears only after the drawing is finished cannot, because at the time of drawing it did not exist. The two groups received the same certificate and differed only in whether it had been announced, and only the announced group fell.",
+   "wrong": {
+    "A": "The same certificate was given to both groups, so a lack of value cannot explain why only the announced group changed.",
+    "C": "The interval was the same for all three groups, and the expected-certificate group changed by 4.2 minutes within it.",
+    "D": "Contiguity alone would predict a rise in both certificate groups, and the unexpected group was essentially unchanged at a fall of 0.5 minutes."
+   },
+   "category": "7A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "21"
+  },
+  {
+   "id": "ps4-p4-q3",
+   "passageId": "ps4-p4",
+   "stem": "Which feature of the design is most essential to attributing the fall in the expected-certificate group to the certificate rather than to the children simply tiring of drawing?",
+   "choices": {
+    "A": "Children were selected only if they already drew a great deal at baseline.",
+    "B": "The observers who timed free choice did not know the group assignment.",
+    "C": "A group that received no certificate was timed again over the same interval.",
+    "D": "Each child's own drawing time was measured before the side-room session."
+   },
+   "correct": "C",
+   "explanation": "Tiring of drawing would affect every child over the two weeks, so it has to be ruled out by a group that passes through the same interval without the manipulation. The no-certificate group did, and fell by only 0.2 minutes, which leaves the 4.2-minute fall in the expected group attributable to the certificate.",
+   "wrong": {
+    "A": "Selecting enthusiastic drawers makes a decline easier to detect but gives no comparison against which a general decline could be judged.",
+    "B": "Blind timing protects the measurement from the observers' expectations and would not reveal a change that affected all three groups alike.",
+    "D": "A child's own baseline shows that drawing fell, but with no concurrent comparison it cannot distinguish the certificate from the passage of two weeks."
+   },
+   "category": "7A",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps4-p4-q4",
+   "passageId": "ps4-p4",
+   "stem": "The results of this study are LEAST consistent with which claim?",
+   "choices": {
+    "A": "A tangible reward announced in advance reliably strengthens an activity already enjoyed.",
+    "B": "Whether a reward undermines interest depends on whether it had been anticipated.",
+    "C": "A reward may act on an activity differently from a reinforcer that merely follows it.",
+    "D": "Interest measured in free choice can change while the activity itself is unchanged."
+   },
+   "correct": "A",
+   "explanation": "The children selected were already enthusiastic drawers, and the group told in advance about the certificate halved its free-choice drawing, from 8.4 minutes to 4.2. That is the direct contradiction of a claim that an announced tangible reward strengthens an already-enjoyed activity.",
+   "wrong": {
+    "B": "This is what the contrast between the two certificate groups shows, the announced group falling by 4.2 minutes and the unannounced by 0.5.",
+    "C": "The unexpected certificate followed the drawing without changing later drawing, which is exactly the distinction this claim draws.",
+    "D": "The drawing activity itself was identical across groups, and only the free-choice measure moved, which this claim describes."
+   },
+   "category": "7A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "21"
+  },
+  {
+   "id": "ps4-p5-q1",
+   "passageId": "ps4-p5",
+   "stem": "Of the variance that the five factors together account for, what share is attributable to extraversion?",
+   "choices": {
+    "A": "12.0%",
+    "B": "18.0%",
+    "C": "20.0%",
+    "D": "33.3%"
+   },
+   "correct": "D",
+   "explanation": "Extraversion accounts for 18 percent of the total item variance, and the five factors between them account for 18 plus 12 plus 10 plus 8 plus 6, which is 54 percent. Extraversion's share of that captured variance is 18 divided by 54, which is 33.3 percent.",
+   "wrong": {
+    "A": "12.0% reads the agreeableness row instead of computing a share from the extraversion row.",
+    "B": "18.0% is extraversion's share of all the item variance, not of the 54 percent the five factors capture.",
+    "C": "20.0% assumes the five factors contribute equally, which Table 1 contradicts by spreading them from 18 percent down to 6."
+   },
+   "category": "7A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "21"
+  },
+  {
+   "id": "ps4-p5-q2",
+   "passageId": "ps4-p5",
+   "stem": "The internal consistency column of Table 1 reports:",
+   "choices": {
+    "A": "how strongly the items within a scale agree with one another",
+    "B": "how well a scale predicts behaviour outside the inventory",
+    "C": "how stable a respondent's score is across an interval of weeks",
+    "D": "how closely a respondent's score matches a friend's rating"
+   },
+   "correct": "A",
+   "explanation": "Internal consistency is computed within a scale from the correlations among its own items, and it asks whether the twelve statements assigned to a factor are in fact measuring one thing. It is a form of reliability and says nothing about what the scale predicts.",
+   "wrong": {
+    "B": "Prediction of behaviour outside the inventory is criterion validity, and no outside behaviour was recorded in this study.",
+    "C": "Stability across weeks is the separate eight-week retest column, computed from two administrations rather than from items.",
+    "D": "Agreement with a friend is the separate self-friend column, which ran from 0.54 down to 0.33."
+   },
+   "category": "7A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "21"
+  },
+  {
+   "id": "ps4-p5-q3",
+   "passageId": "ps4-p5",
+   "stem": "Collecting friend ratings on the reworded items addresses which property of the inventory that neither the consistency column nor the retest column can?",
+   "choices": {
+    "A": "whether the five-factor structure replicates in a second sample of adults",
+    "B": "whether the scales are free of items that almost every respondent endorses",
+    "C": "whether the eight-week interval was long enough to test stability at all",
+    "D": "whether the scores agree with an assessment made from a different source"
+   },
+   "correct": "D",
+   "explanation": "Internal consistency and retest correlation are both computed entirely from the respondent's own reports, so a respondent who describes herself in a consistent and stable way will score well on both whether or not the description is accurate. A rating by a friend is a second source, so agreement with it is evidence that the scale tracks something observable beyond self-description.",
+   "wrong": {
+    "A": "Replication of the factor structure would require a factor analysis in a new sample, not ratings of the same respondents by someone else.",
+    "B": "Near-universally endorsed items were removed at the item-selection stage, before any of those columns was computed.",
+    "C": "Whether eight weeks is a suitable interval is a question about the retest design, and a friend's rating supplies no information about it."
+   },
+   "category": "7A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps4-p5-q4",
+   "passageId": "ps4-p5",
+   "stem": "Emotional stability shows the LOWEST self-friend agreement of the five scales. Which explanation does the passage most directly support?",
+   "choices": {
+    "A": "Its twelve items have the weakest internal consistency of any scale.",
+    "B": "Its defining statements concern states a friend has little chance to observe.",
+    "C": "Its scores are the least stable of the five across the eight-week interval.",
+    "D": "Its items account for the smallest share of the total item variance."
+   },
+   "correct": "B",
+   "explanation": "The passage states that the scales on which friends agreed least are those whose defining statements refer to states that are mostly not visible from outside. Emotional stability is described by internal states such as worry and tension, which a friend can infer only indirectly, so the self-friend figure of 0.33 reflects the limits of what an observer can see.",
+   "wrong": {
+    "A": "Emotional stability has an internal consistency of 0.81, higher than openness at 0.77 and agreeableness at 0.79.",
+    "C": "Its retest correlation is 0.76, higher than openness at 0.74, so it is not the least stable scale.",
+    "D": "Its 8 percent of item variance is larger than openness at 6 percent, and openness nonetheless agreed better with friends at 0.38."
+   },
+   "category": "7A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "21"
+  },
+  {
+   "id": "ps4-p6-q1",
+   "passageId": "ps4-p6",
+   "stem": "A diagnosis of a major depressive episode requires, among other criteria, that for most of at least a two-week period the person show:",
+   "choices": {
+    "A": "either persistently low mood or a loss of interest in nearly all activities",
+    "B": "a period of elevated or irritable mood together with reduced need for sleep",
+    "C": "excessive worry about several different domains, occurring more days than not",
+    "D": "recurrent unexpected surges of fear accompanied by palpitations or dizziness"
+   },
+   "correct": "A",
+   "explanation": "The episode is defined by a two-week period in which the person shows either depressed mood most of the day or markedly diminished interest or pleasure in almost all activities, with a required number of further symptoms such as changes in sleep, appetite, energy, concentration or self-worth. At least one of those two cardinal symptoms must be present.",
+   "wrong": {
+    "B": "Elevated or irritable mood with reduced need for sleep describes a manic or hypomanic episode, which belongs to the bipolar disorders.",
+    "C": "Excessive worry across domains on more days than not for months is the core of generalised anxiety disorder.",
+    "D": "Recurrent unexpected surges of fear with physical symptoms describes panic attacks and, if they recur with apprehension about further attacks, panic disorder."
+   },
+   "category": "7A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "22"
+  },
+  {
+   "id": "ps4-p6-q2",
+   "passageId": "ps4-p6",
+   "stem": "Among students who reported no major stressor, the relative risk of a first episode in the high-risk half compared with the low-risk half is closest to:",
+   "choices": {
+    "A": "2.40",
+    "B": "2.67",
+    "C": "3.10",
+    "D": "7.80"
+   },
+   "correct": "C",
+   "explanation": "Among students reporting no major stressor, 15 of 130 high-risk students had a first episode, an incidence of 11.5 percent, against 5 of 136 low-risk students, an incidence of 3.7 percent. Dividing the first incidence by the second gives about 3.1.",
+   "wrong": {
+    "A": "2.40 is the relative risk in the other stratum, 30.0 percent divided by 12.5 percent among students who did report a major stressor.",
+    "B": "2.67 is the overall relative risk of 20.0 against 7.5 percent, which collapses the two stressor strata the question asks to be kept apart.",
+    "D": "7.80 is the difference between the two incidences in percentage points, 11.5 minus 3.7, which is a risk difference and not a ratio."
+   },
+   "category": "7A",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps4-p6-q3",
+   "passageId": "ps4-p6",
+   "stem": "The pattern across the two stressor strata is best described as:",
+   "choices": {
+    "A": "a main effect of stressor exposure with no contribution from attributional style",
+    "B": "a vulnerability that expresses itself chiefly once a stressor has occurred",
+    "C": "a main effect of attributional style that is the same at both levels of stress",
+    "D": "a protective effect of stress among students with a negative attributional style"
+   },
+   "correct": "B",
+   "explanation": "The two halves differ by 17.5 percentage points among students who reported a major stressor and by 7.8 points among those who did not. The cognitive risk therefore matters in both strata but matters much more where a stressor has occurred, which is the diathesis-stress pattern: a standing vulnerability whose effect is amplified by an environmental insult.",
+   "wrong": {
+    "A": "Attributional style does contribute within each stratum, raising incidence from 12.5 to 30.0 percent among the stressed and from 3.7 to 11.5 percent among the unstressed.",
+    "C": "An effect of the same size in both strata would give equal risk differences, whereas 17.5 points against 7.8 points is more than twice as large among the stressed.",
+    "D": "Stress raised incidence in both halves, from 11.5 to 30.0 percent among the high-risk students, so it was not protective for anyone."
+   },
+   "category": "7A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "22"
+  },
+  {
+   "id": "ps4-p6-q4",
+   "passageId": "ps4-p6",
+   "stem": "Which feature of the design does most to support the claim that a negative attributional style precedes the first episode rather than following it?",
+   "choices": {
+    "A": "Every student with a current or past episode was excluded, and episodes were recorded afterwards.",
+    "B": "The median split of the attributional scores was fixed before any outcome interview took place.",
+    "C": "Interviewers were kept unaware of each student's score on the attributional-style measure.",
+    "D": "The follow-up ran for 18 months, with a diagnostic interview conducted every six months."
+   },
+   "correct": "A",
+   "explanation": "The direction of the association is secured by the order of events. Screening removed everyone with a current or past episode, so the attributional measure was taken from students who had never been depressed; the episodes counted were all first episodes occurring after that measurement. A style measured before any episode cannot be a consequence of one.",
+   "wrong": {
+    "B": "Fixing the cut-point in advance guards against choosing a split that flatters the result, which is a matter of analytic discipline rather than of temporal order.",
+    "C": "Blind interviewing protects the outcome from being judged in the light of the predictor and would do so whether or not the predictor came first.",
+    "D": "The length of follow-up and the interview schedule determine how many episodes are caught, not whether the predictor preceded them."
+   },
+   "category": "7A",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps4-p6-q5",
+   "passageId": "ps4-p6",
+   "stem": "A student who fails one examination and concludes that she is not clever enough and will not manage the other papers either is making an attribution that is best characterised as:",
+   "choices": {
+    "A": "external, unstable and specific",
+    "B": "internal, stable and global",
+    "C": "internal, unstable and specific",
+    "D": "external, stable and global"
+   },
+   "correct": "B",
+   "explanation": "The cause she names is something about herself rather than about the paper, which makes it internal. Not being clever enough is a standing property rather than a passing state, which makes it stable. Extending the conclusion to the other papers makes it global. Internal, stable and global is the combination the attributional-style measure treats as the vulnerable one.",
+   "wrong": {
+    "A": "An external, unstable and specific attribution would blame something outside her that applies only to this paper on this day, such as an unfair question.",
+    "C": "An internal but unstable and specific attribution would be about herself yet confined to the occasion, such as not having slept before this one paper.",
+    "D": "The attribution she makes is about herself, so it cannot be external, whatever its stability or breadth."
+   },
+   "category": "8B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "22"
+  },
+  {
+   "id": "ps4-p7-q1",
+   "passageId": "ps4-p7",
+   "stem": "The drift shown by the discussion groups in Table 1 is called:",
+   "choices": {
+    "A": "social loafing, in which individual effort falls as a group grows larger",
+    "B": "deindividuation, in which group membership loosens personal restraint",
+    "C": "groupthink, in which a group suppresses dissent to preserve its cohesion",
+    "D": "group polarisation, in which discussion strengthens a shared initial lean"
+   },
+   "correct": "D",
+   "explanation": "Each group was composed of five members already on the same side of the midpoint, and after discussion each moved about a point further in that direction, the risk-leaning groups from 6.4 to 7.5 and the caution-leaning groups from 3.6 to 2.6. A discussion among the like-minded that makes their shared position more extreme is group polarisation.",
+   "wrong": {
+    "A": "Social loafing concerns a decline in effort on a shared task, and no task output was measured here, only private ratings.",
+    "B": "Deindividuation concerns a loss of self-awareness and restraint under anonymity, and the post-discussion ratings were made privately and individually.",
+    "C": "Groupthink requires a group to be reaching a decision and suppressing doubts about it, whereas these groups reached no decision at all."
+   },
+   "category": "8C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "23"
+  },
+  {
+   "id": "ps4-p7-q2",
+   "passageId": "ps4-p7",
+   "stem": "Which mechanism best accounts for the shift observed in the discussion groups?",
+   "choices": {
+    "A": "Members heard arguments for their own side that they had not themselves thought of.",
+    "B": "Members abandoned their private views under pressure from a hostile majority.",
+    "C": "Members' second judgements regressed toward the midpoint of the nine-point scale.",
+    "D": "Members were rewarded by the experimenter for stating a more extreme position."
+   },
+   "correct": "A",
+   "explanation": "Because every member of a group was on the same side, discussion supplied a pool of arguments all pointing one way, and each member encountered reasons for their own position that had not occurred to them. The accumulation of one-sided arguments is the standard informational account of why like-minded discussion produces a more extreme private judgement afterwards.",
+   "wrong": {
+    "B": "No group contained a member arguing the other side, so there was no majority opposed to any member's view to apply pressure.",
+    "C": "Regression toward the midpoint would move ratings from 6.4 and 3.6 toward 5, whereas both kinds of group moved away from the midpoint.",
+    "D": "Nothing was offered for any particular rating, and the second ratings were made privately and without consultation."
+   },
+   "category": "8B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps4-p7-q3",
+   "passageId": "ps4-p7",
+   "stem": "The silent re-reading condition was included in order to establish that:",
+   "choices": {
+    "A": "fifteen minutes is long enough for a group to arrive at a shared position",
+    "B": "the drift requires discussion rather than merely more time with the scenario",
+    "C": "the nine-point scale is used in the same way on both administrations",
+    "D": "members were allocated to the two conditions without the experimenter choosing"
+   },
+   "correct": "B",
+   "explanation": "Re-reading controls everything that discussion shares with it: the same fifteen minutes, the same room, the same scenario and the same second rating. The only thing it lacks is talk. Because the re-reading groups moved a tenth of a point while the discussion groups moved about a full point, the drift can be attributed to the discussion rather than to further reflection or to the passage of time.",
+   "wrong": {
+    "A": "The discussion groups were explicitly not asked to reach a position, so nothing in the design tests whether fifteen minutes is sufficient to reach one.",
+    "C": "Consistent use of the scale is a measurement question that would require a reliability check, and both conditions used the same scale in any case.",
+    "D": "Allocation without the experimenter choosing is random assignment, which the design provides separately and which needs no control condition."
+   },
+   "category": "8C",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps4-p7-q4",
+   "passageId": "ps4-p7",
+   "stem": "Consider the following claims about Table 1. I. Discussion moved groups further in the direction their members already favoured. II. Discussion made the two kinds of group more similar to one another. III. The shift under discussion was produced by a few members changing a great deal. Which are supported by the table?",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II, and III"
+   },
+   "correct": "A",
+   "explanation": "Claim I holds: the risk-leaning discussion groups rose from 6.4 to 7.5 and the caution-leaning ones fell from 3.6 to 2.6. Claim II fails, because the two kinds of group began 2.8 points apart and ended 4.9 points apart. Claim III cannot be assessed at all, because Table 1 reports only cell means and carries no information about how change was distributed among the five members of a group.",
+   "wrong": {
+    "B": "Claim II reverses the direction of the result; the gap between the two kinds of discussion group widened from 2.8 to 4.9 points.",
+    "C": "This set includes claim II, which the widening of the gap from 2.8 to 4.9 points contradicts.",
+    "D": "This set includes claim III, and a table of group means says nothing about the spread of change within a group."
+   },
+   "category": "8C",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "23"
+  },
+  {
+   "id": "ps4-p7-q5",
+   "passageId": "ps4-p7",
+   "stem": "Averaging the two group types within each condition, the mean absolute shift under discussion is how many times the mean absolute shift without discussion?",
+   "choices": {
+    "A": "0.95",
+    "B": "1.05",
+    "C": "5.25",
+    "D": "10.5"
+   },
+   "correct": "D",
+   "explanation": "The absolute shifts under discussion are 1.1 and 1.0, a mean of 1.05. Without discussion they are 0.1 and 0.1, a mean of 0.10. Dividing 1.05 by 0.10 gives 10.5.",
+   "wrong": {
+    "A": "0.95 subtracts the two means, 1.05 minus 0.10, instead of dividing one by the other.",
+    "B": "1.05 is the mean absolute shift under discussion on its own, which is not a ratio to anything.",
+    "C": "5.25 divides 1.05 by 0.20, the sum of the two no-discussion shifts rather than their mean."
+   },
+   "category": "8C",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps4-p8-q1",
+   "passageId": "ps4-p8",
+   "stem": "In accounts of socialisation, the family is usually described as:",
+   "choices": {
+    "A": "a secondary agent, acting mainly through formal instruction",
+    "B": "a reference group, supplying a standard for comparison only",
+    "C": "the primary agent, acting first and across the widest range of norms",
+    "D": "a total institution, regulating every sphere of a member's life"
+   },
+   "correct": "C",
+   "explanation": "The family is the agent that reaches a child first, before schools, peers or media, and it transmits language, manners, religion and moral expectations across almost every domain of conduct rather than one. That breadth and priority are what the term primary agent of socialisation records, and it fits the finding that parental disapproval was the strongest predictor in Table 1.",
+   "wrong": {
+    "A": "Secondary agents are those a person meets later and in a narrower role, such as a school, a workplace or a professional body.",
+    "B": "A reference group is one a person uses as a standard for self-appraisal, which some families are, but the term captures only comparison and not transmission.",
+    "D": "A total institution is a closed setting such as a prison or a barracks in which every sphere of life is administered by one authority."
+   },
+   "category": "7B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "23"
+  },
+  {
+   "id": "ps4-p8-q2",
+   "passageId": "ps4-p8",
+   "stem": "An adolescent's sense of herself as an honest person is said to form partly from imagining how her parents and friends regard her. This idea is known as:",
+   "choices": {
+    "A": "the looking-glass self, in which self-concept forms from imagined appraisals",
+    "B": "the self-serving bias, in which credit is kept and blame assigned outward",
+    "C": "the just-world belief, in which outcomes are assumed to be deserved",
+    "D": "impression management, in which conduct is tailored to an audience"
+   },
+   "correct": "A",
+   "explanation": "The looking-glass self is the idea that a person's view of herself is assembled from her reading of how others see her, so that the appraisals she attributes to parents and friends become part of her own self-description. The two disapproval measures in this study are exactly such imagined appraisals.",
+   "wrong": {
+    "B": "The self-serving bias concerns how a person explains outcomes, taking credit for successes and attributing failures elsewhere, not how a self-concept is built.",
+    "C": "The just-world belief is an assumption about fairness in the world at large and says nothing about where a self-concept comes from.",
+    "D": "Impression management is the shaping of the self one displays to an audience, which is the outward direction rather than the inward one described here."
+   },
+   "category": "8A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps4-p8-q3",
+   "passageId": "ps4-p8",
+   "stem": "Consider the following claims about Table 1. I. Endorsement of the norm is predicted more strongly by parental disapproval than by hours of civics instruction. II. Adolescents who believe most adults understate income rate the practice as less seriously wrong. III. Every predictor other than drama viewing reached conventional statistical significance. Which are supported by Table 1?",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II, and III"
+   },
+   "correct": "D",
+   "explanation": "All three hold. Parental disapproval carries a coefficient of 0.31 against 0.08 for civics instruction, so claim I holds. Perceived prevalence carries -0.19, meaning that a higher estimate of how many adults understate income goes with a lower rating of how wrong it is, so claim II holds. The four predictors other than drama viewing have p values of less than 0.001, less than 0.001, less than 0.001 and 0.02, all below the conventional 0.05, so claim III holds.",
+   "wrong": {
+    "A": "This set omits claim II, which the coefficient of -0.19 on perceived prevalence supports.",
+    "B": "This set omits claim I, which the contrast between coefficients of 0.31 and 0.08 supports.",
+    "C": "This set omits claim III, and the four p values concerned are 0.02 or smaller."
+   },
+   "category": "7B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "23"
+  },
+  {
+   "id": "ps4-p8-q4",
+   "passageId": "ps4-p8",
+   "stem": "Which measure in this study is a descriptive norm rather than an injunctive one?",
+   "choices": {
+    "A": "parents' disapproval of understating income, as the adolescent reports it",
+    "B": "the estimated percentage of local adults who understate their own income",
+    "C": "the hours of school instruction given on taxation and public spending",
+    "D": "close friends' disapproval of understating income, as the adolescent reports it"
+   },
+   "correct": "B",
+   "explanation": "A descriptive norm is a belief about what people actually do, and the estimate of how many adults in the community understate income is precisely that. The passage reports its coefficient as -0.19, so believing the practice to be widespread goes with judging it less seriously wrong.",
+   "wrong": {
+    "A": "Reported parental disapproval is a belief about what others would approve of, which makes it an injunctive norm.",
+    "C": "Hours of instruction is an institutional exposure recorded from school records and is not a norm belief of any kind.",
+    "D": "Reported disapproval by close friends is, like the parental measure, a belief about approval and therefore injunctive."
+   },
+   "category": "7B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps4-p9-q1",
+   "passageId": "ps4-p9",
+   "stem": "The hours reported for unpaid household and care work bear on the interpretation of Table 1 because:",
+   "choices": {
+    "A": "unpaid care work is counted as employment in national participation rates",
+    "B": "work the participation rate does not count is distributed unequally by sex",
+    "C": "the participation rate is calculated from hours worked rather than from status",
+    "D": "a respondent counts as participating only if paid hours exceed a threshold"
+   },
+   "correct": "B",
+   "explanation": "Participation counts only paid employment and active job search, so the 26 hours of unpaid household and care work that employed women reported, against 14 for men, fall entirely outside the measure. Table 1 therefore records a gap in counted work while leaving a comparable quantity of uncounted work out of view, and the women's total of 59 hours and the men's of 55 are much closer than the participation gap suggests.",
+   "wrong": {
+    "A": "Unpaid care work is specifically not counted as employment, which is why the participation rate can miss it entirely.",
+    "C": "Participation is a matter of status, being employed or seeking work, rather than a count of hours.",
+    "D": "No hours threshold is applied; a respondent working a small number of paid hours still counts as participating."
+   },
+   "category": "9A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "24"
+  },
+  {
+   "id": "ps4-p9-q2",
+   "passageId": "ps4-p9",
+   "stem": "The participation gap where the youngest child is under 6 is how many times the gap among adults with no child under 18?",
+   "choices": {
+    "A": "1.5",
+    "B": "2.0",
+    "C": "4.6",
+    "D": "25.0"
+   },
+   "correct": "C",
+   "explanation": "The gap where the youngest child is under 6 is 32 percentage points and the gap among adults with no child under 18 is 7 points. Dividing 32 by 7 gives about 4.6, which is the figure the passage describes as more than four times.",
+   "wrong": {
+    "A": "1.5 is 96 divided by 64, the ratio of men's to women's participation within the youngest-under-6 row, not a ratio of gaps.",
+    "B": "2.0 is 32 divided by 16, which compares the two rows containing children instead of comparing against the childless row.",
+    "D": "25.0 is 32 minus 7, the difference between the two gaps in percentage points, which is not a ratio."
+   },
+   "category": "10A",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "25"
+  },
+  {
+   "id": "ps4-p9-q3",
+   "passageId": "ps4-p9",
+   "stem": "Which inference about women's lower participation where a young child is present is best supported by the data reported?",
+   "choices": {
+    "A": "Women with young children prefer unpaid work to paid work.",
+    "B": "Employers refuse to hire women whose youngest child is under 6.",
+    "C": "Women with young children are less able to work than men of the same age.",
+    "D": "The shortfall is concentrated where unpaid care demands are greatest."
+   },
+   "correct": "D",
+   "explanation": "The gap is 7 points with no child under 18, 16 points with a school-age child and 32 points with a child under 6, so it grows with the care demands of the household, while men's participation is slightly higher among fathers of young children than among childless men. That pattern locates the shortfall in the distribution of care rather than in anything about women as workers.",
+   "wrong": {
+    "A": "The survey recorded nothing about what respondents would have preferred, so a claim about preference is unsupported by anything measured.",
+    "B": "Nothing in the survey observed hiring decisions, and a participation rate includes those actively seeking work as well as the employed.",
+    "C": "Capacity to work was not measured, and the data show the gap tracking the age of the youngest child rather than any attribute of the women themselves."
+   },
+   "category": "9A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps4-p9-q4",
+   "passageId": "ps4-p9",
+   "stem": "An employer who assumes that any woman with a preschool child will be less committed to a job than a man with one is best described as:",
+   "choices": {
+    "A": "applying a stereotype, which becomes discrimination if it changes the decision",
+    "B": "showing ethnocentrism, judging one group by the standards of another",
+    "C": "holding a just-world belief, treating outcomes as deserved by those who get them",
+    "D": "committing the fundamental attribution error about the woman's own preferences"
+   },
+   "correct": "A",
+   "explanation": "A stereotype is a belief about a category applied to an individual member of it regardless of that individual's own characteristics, which is exactly what the assumption here does. Belief becomes discrimination when it is acted on, so the distinction between the thought and the hiring decision is the one the question turns on.",
+   "wrong": {
+    "B": "Ethnocentrism is the evaluation of another culture by the standards of one's own, and no cultural comparison is being made.",
+    "C": "The just-world belief concerns a conviction that people get what they deserve, which is a claim about fairness rather than about commitment to a job.",
+    "D": "The fundamental attribution error is the overweighting of disposition over situation in explaining an observed act, and the employer has observed no act to explain."
+   },
+   "category": "8B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps4-p10-q1",
+   "passageId": "ps4-p10",
+   "stem": "On the figures in Table 1, the country in 1980 is best placed in which stage of the demographic transition?",
+   "choices": {
+    "A": "the stage in which mortality has fallen but fertility has not, so growth is fastest",
+    "B": "the stage in which both rates are high, so growth is slow and irregular",
+    "C": "the stage in which both rates are low, so growth is close to zero",
+    "D": "the stage in which fertility has fallen below mortality, so the population shrinks"
+   },
+   "correct": "A",
+   "explanation": "By 1980 the crude death rate had halved to 12 per thousand while the birth rate was still 38, close to its 1960 level of 44. The gap between them, and so the rate of natural increase, was at its maximum of 26 per thousand. A death rate that has fallen while the birth rate has not is the defining feature of the stage in which a population grows most quickly.",
+   "wrong": {
+    "B": "Both rates were high in 1960, when the death rate was 24, but by 1980 it had fallen to 12, which is no longer high.",
+    "C": "Low rates on both sides describe the country in 2020, with a birth rate of 15, and even then natural increase was 7 per thousand rather than zero.",
+    "D": "Fertility never fell below mortality in these data; the birth rate of 15 in 2020 still exceeded the death rate of 8."
+   },
+   "category": "9B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "24"
+  },
+  {
+   "id": "ps4-p10-q2",
+   "passageId": "ps4-p10",
+   "stem": "By what factor did the number of people living in urban areas grow between 1960 and 2020?",
+   "choices": {
+    "A": "3.3",
+    "B": "3.8",
+    "C": "5.0",
+    "D": "12.5"
+   },
+   "correct": "D",
+   "explanation": "In 1960, 18 percent of 12.0 million people lived in urban areas, which is 2.16 million. In 2020, 68 percent of 39.6 million did, which is 26.9 million. Dividing 26.9 by 2.16 gives about 12.5, far more than either the growth of the population or the rise in the share alone.",
+   "wrong": {
+    "A": "3.3 is the growth of the total population, 39.6 divided by 12.0, which ignores the rise in the urban share.",
+    "B": "3.8 is 68 divided by 18, the ratio of the two urban percentages, which ignores the growth of the population.",
+    "C": "5.0 compares 2020 with 1980, whose urban population was 31 percent of 17.5 million, taking the wrong year as the starting point."
+   },
+   "category": "9B",
+   "skill": "skill-4",
+   "difficulty": "hard",
+   "unit": "25"
+  },
+  {
+   "id": "ps4-p10-q3",
+   "passageId": "ps4-p10",
+   "stem": "Why did the rate of natural increase peak in 1980 rather than in 1960?",
+   "choices": {
+    "A": "Mortality fell well before fertility did, which widened the gap between the rates.",
+    "B": "Fertility rose between 1960 and 1980 while mortality stayed where it had been.",
+    "C": "Net migration into the country added to the rate of natural increase.",
+    "D": "The population aged, which raised the birth rate relative to the death rate."
+   },
+   "correct": "A",
+   "explanation": "Natural increase is the birth rate minus the death rate. Between 1960 and 1980 the death rate fell from 24 to 12 while the birth rate fell only from 44 to 38, so the gap between them grew from 20 to 26 per thousand. The peak is a product of the two rates falling out of step, with mortality moving first.",
+   "wrong": {
+    "B": "The birth rate fell over those two decades, from 44 to 38 per thousand, and the death rate halved rather than staying put.",
+    "C": "Natural increase is defined as births minus deaths and excludes migration by construction, so migration cannot contribute to it.",
+    "D": "An ageing population raises the crude death rate, as the passage notes for the period after 1980, and does not raise the birth rate."
+   },
+   "category": "9B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps4-p10-q4",
+   "passageId": "ps4-p10",
+   "stem": "Each of the following could help explain the fall in the crude birth rate between 1980 and 2020 EXCEPT:",
+   "choices": {
+    "A": "a rise in the age at which women bear a first child",
+    "B": "wider access to effective means of contraception",
+    "C": "a rise in the schooling and paid employment of women",
+    "D": "a rise in the share of the population aged 20 to 34"
+   },
+   "correct": "D",
+   "explanation": "The crude birth rate is births divided by the whole population, so it rises when a larger share of that population is of peak childbearing age, even if each woman bears the same number of children. A rise in the share aged 20 to 34 would therefore push the crude rate up and cannot account for its fall from 38 to 15 per thousand.",
+   "wrong": {
+    "A": "Later first births lower the crude rate while the delay works through the population, and they are typically associated with smaller completed families as well.",
+    "B": "Wider access to effective contraception reduces unintended births and is one of the standard proximate causes of falling fertility.",
+    "C": "More schooling and paid employment for women is associated with later and fewer births, and so with a lower crude birth rate."
+   },
+   "category": "9B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "24"
+  },
+  {
+   "id": "ps4-d1",
+   "passageId": null,
+   "stem": "Extensive bilateral damage to the hippocampus and adjacent medial temporal cortex characteristically leaves a patient still able to:",
+   "choices": {
+    "A": "recall a list of unrelated words studied twenty minutes earlier",
+    "B": "describe in order the events of the week following the injury",
+    "C": "improve at tracing a figure seen only in a mirror over several days",
+    "D": "learn and use the names of people met for the first time afterwards"
+   },
+   "correct": "C",
+   "explanation": "The medial temporal lobe is required to lay down new declarative memories, the kind that can be deliberately brought to mind and stated. Motor skill learning does not depend on it, so a patient with dense anterograde amnesia improves at a tracing task session after session, typically while denying having done it before.",
+   "wrong": {
+    "A": "Recall of a word list after twenty minutes is a declarative task requiring new consolidation, and it is severely impaired by such damage.",
+    "B": "Describing the events of the following week requires new episodic memories, which is precisely what anterograde amnesia prevents.",
+    "D": "Learning new names is the acquisition of new semantic and episodic material and is characteristically lost."
+   },
+   "category": "6B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "19"
+  },
+  {
+   "id": "ps4-d2",
+   "passageId": null,
+   "stem": "Which of the following is a monocular cue to depth?",
+   "choices": {
+    "A": "retinal disparity between the images in the two eyes",
+    "B": "the convergence angle through which the eyes turn inward",
+    "C": "the gradient of surface texture that grows finer with distance",
+    "D": "stereopsis arising from the horizontal separation of the eyes"
+   },
+   "correct": "C",
+   "explanation": "A texture gradient is a property of a single retinal image: the elements of a uniformly textured surface project smaller and more densely packed the further away they are. One eye is enough to pick it up, which is what makes it monocular.",
+   "wrong": {
+    "A": "Disparity is defined as the difference between the two retinal images and therefore requires both eyes.",
+    "B": "Convergence is the inward rotation of both eyes onto a common fixation point and has no single-eye equivalent.",
+    "D": "Stereopsis is the depth impression computed from disparity between the two eyes' views and disappears when one eye is closed."
+   },
+   "category": "6A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "20"
+  },
+  {
+   "id": "ps4-d3",
+   "passageId": null,
+   "stem": "A student told that one examination will decide her place on a competitive course first judges whether the examination threatens something she cares about, and then judges whether her preparation is equal to it. The second judgement is best described as:",
+   "choices": {
+    "A": "a primary appraisal, which classifies an event as benign or as threatening",
+    "B": "habituation, in which a stimulus repeated often elicits a weaker response",
+    "C": "an attribution, which assigns an outcome to an internal or external cause",
+    "D": "a secondary appraisal, which weighs the resources available for coping"
+   },
+   "correct": "D",
+   "explanation": "On appraisal accounts of stress, the question of whether an event matters and could do harm is settled first, and the question of whether one has the means to deal with it is settled second. Weighing preparation, skill, time and support against the demand is the secondary appraisal, and it is what determines whether a threatening event is experienced as manageable or overwhelming.",
+   "wrong": {
+    "A": "The primary appraisal is the first of the two judgements described, which asks whether anything the person values is at stake.",
+    "B": "Habituation is a decline in responding to a repeated stimulus and is not a judgement about an event at all.",
+    "C": "An attribution explains why an outcome occurred and is made after the event, whereas both appraisals here precede the examination."
+   },
+   "category": "6C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "21"
+  },
+  {
+   "id": "ps4-d4",
+   "passageId": null,
+   "stem": "Knowing that Lisbon is the capital of Portugal, with no sense of when or where that was learned, is an example of:",
+   "choices": {
+    "A": "procedural memory, a skill expressed only in performance",
+    "B": "episodic memory, a record of a particular experienced event",
+    "C": "semantic memory, general knowledge held apart from its context",
+    "D": "working memory, material held briefly while it is manipulated"
+   },
+   "correct": "C",
+   "explanation": "Semantic memory is the store of facts, concepts and word meanings, and it is characteristically stripped of the circumstances in which each item was acquired. It is declarative, because it can be stated, but it is not episodic, because it carries no record of an occasion.",
+   "wrong": {
+    "A": "Procedural memory supports skills such as cycling or typing, which are shown by doing rather than by stating a fact.",
+    "B": "Episodic memory is precisely memory for an occasion, which this example explicitly lacks.",
+    "D": "Working memory holds a small amount of material for seconds while it is used, not a fact retained for years."
+   },
+   "category": "6B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "19"
+  },
+  {
+   "id": "ps4-d5",
+   "passageId": null,
+   "stem": "The gradual acquisition of a motor skill across repeated sessions depends most directly on:",
+   "choices": {
+    "A": "the hippocampus together with the adjacent entorhinal cortex",
+    "B": "the basal ganglia together with the cerebellum",
+    "C": "the prefrontal cortex and its dorsolateral connections",
+    "D": "the amygdala and its projections to the hypothalamus"
+   },
+   "correct": "B",
+   "explanation": "Procedural learning is supported by the basal ganglia, which tune the selection and sequencing of movements through practice, and by the cerebellum, which refines their timing and accuracy against feedback. Damage to either disrupts skill acquisition while leaving the ability to report facts and events intact.",
+   "wrong": {
+    "A": "The hippocampus and entorhinal cortex are required for new declarative memory, and skill learning survives their loss.",
+    "C": "The dorsolateral prefrontal cortex supports working memory and the control of ongoing action rather than the slow consolidation of a motor habit.",
+    "D": "The amygdala and its hypothalamic projections mediate emotional learning and autonomic responses rather than motor skill."
+   },
+   "category": "6B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "19"
+  },
+  {
+   "id": "ps4-d6",
+   "passageId": null,
+   "stem": "A worker reports that a demanding project no longer gives her the pounding heart it gave her in its first week, but that she is now sleeping badly and catching every cold in the office. Within the general adaptation syndrome this is best described as:",
+   "choices": {
+    "A": "an alarm reaction, with sympathetic arousal still at its initial peak",
+    "B": "a move from resistance toward exhaustion, as reserves are drawn down",
+    "C": "habituation, the stressor having ceased to register with her at all",
+    "D": "a secondary appraisal that the project can in fact be managed"
+   },
+   "correct": "B",
+   "explanation": "The general adaptation syndrome runs from an alarm reaction, through a resistance stage in which arousal is sustained at a raised but less dramatic level, to exhaustion, in which the capacity to go on mounting that response is depleted. The settling of the acute cardiac response marks the resistance stage, and the disturbed sleep and frequent infections are the signs of a system being worn down.",
+   "wrong": {
+    "A": "The alarm reaction is the abrupt initial surge of sympathetic arousal, and the worker reports that the pounding heart has subsided.",
+    "C": "Habituation would mean the stressor no longer produces any response, which the disturbed sleep and repeated infections contradict.",
+    "D": "A secondary appraisal is a judgement about coping resources, and the report describes bodily consequences rather than a conclusion that the project is manageable."
+   },
+   "category": "6C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "21"
+  },
+  {
+   "id": "ps4-d7",
+   "passageId": null,
+   "stem": "A first-year medical student who judges her own progress by comparison with the residents she works beside, rather than with other first-year students, is treating the residents as:",
+   "choices": {
+    "A": "an out-group, against which her own group defines itself",
+    "B": "a total institution, regulating her conduct in every sphere",
+    "C": "a reference group, supplying the standard for her self-appraisal",
+    "D": "a primary group, small and bound together by durable personal ties"
+   },
+   "correct": "C",
+   "explanation": "A reference group is the set of people whose standards a person adopts in evaluating herself, whether or not she belongs to it. Choosing the residents rather than her own cohort changes the yardstick and so changes the self-appraisal, which is what makes the concept useful.",
+   "wrong": {
+    "A": "An out-group is one a person defines herself against rather than measures herself by, and she is using the residents as a standard to aspire to.",
+    "B": "A total institution administers every sphere of a member's life, which describes a setting such as a barracks rather than a group used for comparison.",
+    "D": "A primary group is characterised by intimate and enduring ties, which is a description of the relationship rather than of a comparison standard."
+   },
+   "category": "8A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps4-d8",
+   "passageId": null,
+   "stem": "A cohesive committee working against a deadline reaches a unanimous decision quickly, and the members who had private doubts say nothing about them. This is best described as:",
+   "choices": {
+    "A": "group polarisation, in which discussion strengthens a shared initial lean",
+    "B": "social facilitation, in which the presence of others sharpens performance",
+    "C": "groupthink, in which the pursuit of agreement suppresses dissent",
+    "D": "deindividuation, in which group membership loosens personal restraint"
+   },
+   "correct": "C",
+   "explanation": "Groupthink is the pattern in which a cohesive group under pressure treats agreement as the goal, so that doubts go unvoiced and alternatives go unexamined. The unanimity is produced by the suppression of dissent rather than by its absence, which is the feature this example reports.",
+   "wrong": {
+    "A": "Polarisation is a shift in the position held, measured against where members started, and nothing here says the decision became more extreme.",
+    "B": "Social facilitation concerns improved performance on simple or well-practised tasks when others are present, not the handling of disagreement.",
+    "D": "Deindividuation involves reduced self-awareness under anonymity, whereas these members are identifiable and are withholding what they think."
+   },
+   "category": "8C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps4-d9",
+   "passageId": null,
+   "stem": "Most students in a residence privately dislike a hazing custom, but each believes that the others approve of it, and so none objects. This situation is best described as:",
+   "choices": {
+    "A": "the false-consensus effect, in which one's own view is projected onto others",
+    "B": "pluralistic ignorance, in which everyone misreads what others privately think",
+    "C": "the fundamental attribution error, in which disposition is overweighted",
+    "D": "in-group favouritism, in which one's own group receives preferential treatment"
+   },
+   "correct": "B",
+   "explanation": "Pluralistic ignorance is a state in which a view is in fact held by most of a group yet voiced by none of them, so that each person, seeing only the silence of the others, infers a consensus that does not exist. The silence then sustains the misreading, which is why a custom nobody endorses can persist.",
+   "wrong": {
+    "A": "The false-consensus effect is the opposite inference, assuming others agree with one's own view, whereas these students assume others disagree with them.",
+    "C": "The fundamental attribution error concerns explaining an observed action by disposition rather than situation, and no action is being explained here.",
+    "D": "In-group favouritism concerns how a group treats its own members relative to outsiders, which is not what these students are doing."
+   },
+   "category": "8B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "23"
+  },
+  {
+   "id": "ps4-d10",
+   "passageId": null,
+   "stem": "Social identity theory holds that a person's self-concept derives in part from:",
+   "choices": {
+    "A": "the roles a person has chosen rather than those assigned at birth",
+    "B": "the comparison of one's own conduct against an internal standard",
+    "C": "membership of groups and the value attached to those groups",
+    "D": "the consistency between a person's stated attitudes and conduct"
+   },
+   "correct": "C",
+   "explanation": "On this account the self has a social component built from the categories a person belongs to, so that the standing of the group bears on the standing of the self. That is why a person may defend the reputation of a group, or favour its members, as a way of maintaining her own self-regard.",
+   "wrong": {
+    "A": "The distinction between achieved and ascribed statuses is about how positions are acquired and makes no claim about where self-concept comes from.",
+    "B": "Comparison of conduct against an internal standard is self-regulation, which concerns the monitoring of behaviour rather than group-based identity.",
+    "D": "Consistency between attitude and conduct is the concern of theories of dissonance, which address attitude change rather than the content of the self."
+   },
+   "category": "8A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps4-d11",
+   "passageId": null,
+   "stem": "A nurse asked to take a night shift on the evening of her daughter's school concert faces incompatible demands arising from two different statuses. This is best described as:",
+   "choices": {
+    "A": "role conflict, a clash between the demands of two separate statuses",
+    "B": "role strain, a clash among the competing demands within one status",
+    "C": "role exit, the process of giving up a status one has long held",
+    "D": "status inconsistency, a mismatch in rank among one's own statuses"
+   },
+   "correct": "A",
+   "explanation": "She occupies two statuses, nurse and parent, and each carries an obligation at the same hour. A clash that runs between statuses rather than within one is role conflict, and the standard remedies for it, such as giving one status priority or compartmentalising the two, differ accordingly.",
+   "wrong": {
+    "B": "Role strain arises within a single status, as when a nurse must give unhurried attention to one patient and attend promptly to several others.",
+    "C": "Role exit describes leaving a status and taking on a new self-definition, and she is leaving neither of hers.",
+    "D": "Status inconsistency refers to holding statuses of discrepant rank, such as high education with low income, which is not what the clash here involves."
+   },
+   "category": "9A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "24"
+  },
+  {
+   "id": "ps4-d12",
+   "passageId": null,
+   "stem": "Arriving at a dinner without a gift and marrying a close blood relative are both breaches of a norm, but the gravity attached to them differs sharply. Sociologists mark that difference by distinguishing:",
+   "choices": {
+    "A": "sanctions from taboos, the first rewards and penalties and the second prohibitions",
+    "B": "folkways from mores, the first customs of etiquette and the second moral imperatives",
+    "C": "ascribed from achieved statuses, the first given at birth and the second earned",
+    "D": "primary from secondary groups, the first intimate and the second instrumental"
+   },
+   "correct": "B",
+   "explanation": "Folkways are the conventions of ordinary courtesy, and breaking one draws mild disapproval at most. Mores carry moral weight, and breaking one draws serious censure or legal penalty. The distinction is about the gravity a culture attaches to a norm rather than about the people who enforce it.",
+   "wrong": {
+    "A": "A sanction is the response to a breach rather than a kind of norm, so this pairing does not classify the two breaches themselves.",
+    "C": "Ascribed and achieved statuses are kinds of social position, not kinds of norm, and neither breach concerns how a position was acquired.",
+    "D": "Primary and secondary groups are distinguished by the intimacy of their ties, which says nothing about how gravely a breach is treated."
+   },
+   "category": "9A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "24"
+  },
+  {
+   "id": "ps4-d13",
+   "passageId": null,
+   "stem": "A sociologist describes paid employment and the family as two social institutions. Which feature does that description claim the two share?",
+   "choices": {
+    "A": "each is a durable pattern of roles and norms organising a basic social need",
+    "B": "each is a formally incorporated body with named officers and written rules",
+    "C": "each is a group whose members are all personally acquainted with one another",
+    "D": "each is a position a person is given at birth and cannot subsequently change"
+   },
+   "correct": "A",
+   "explanation": "An institution in this sense is not a building or a firm but a settled arrangement of statuses, roles and expectations through which a society handles a recurring requirement: production and distribution in the case of the economy, reproduction and the care of dependants in the case of the family. Its durability and its organisation of a basic need are what the term picks out.",
+   "wrong": {
+    "B": "Formal incorporation describes particular organisations, and the family is an institution without being incorporated anywhere.",
+    "C": "Mutual acquaintance describes a small group, whereas an institution spans a whole society and far more people than any one of them can know.",
+    "D": "A position given at birth is an ascribed status, which is a feature of an individual's placement rather than of an institution."
+   },
+   "category": "9A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps4-d14",
+   "passageId": null,
+   "stem": "The part of a gender pay gap that remains after hours, experience and years of schooling have been held constant is most often attributed to:",
+   "choices": {
+    "A": "differences in the average number of paid hours worked each week",
+    "B": "the concentration of women and men in differently paid occupations",
+    "C": "differences in the number of years of completed formal schooling",
+    "D": "differences in the proportion of workers holding a second paid job"
+   },
+   "correct": "B",
+   "explanation": "Occupational segregation is the leading candidate because it is not removed by the adjustments described: women and men with the same hours, experience and schooling are still distributed unevenly across occupations, and occupations differ systematically in pay. Explaining the residual therefore requires a factor that the adjustment left in place.",
+   "wrong": {
+    "A": "Hours have already been held constant, so differences in hours cannot account for what remains after that adjustment.",
+    "C": "Years of schooling have already been held constant and so are no longer available as an explanation of the residual.",
+    "D": "Second jobs are held by a small minority of workers and could not account for a gap observed across the whole distribution."
+   },
+   "category": "10A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "24"
+  },
+  {
+   "id": "ps4-d15",
+   "passageId": null,
+   "stem": "Urban growth that outruns the extension of piped water, transport and clinics produces a form of inequality best described as:",
+   "choices": {
+    "A": "spatial inequality, in which life chances vary with where a person lives",
+    "B": "status inconsistency, in which a person's several statuses do not match",
+    "C": "social mobility, in which position changes between the generations",
+    "D": "meritocracy, in which position is allocated by measured achievement"
+   },
+   "correct": "A",
+   "explanation": "When services are unevenly extended across a growing city, two households of identical income and education face different access to water, transport and care according to the district they live in. Inequality attached to location rather than to the attributes of individuals is what spatial inequality names, and it is a standard consequence of rapid urbanisation.",
+   "wrong": {
+    "B": "Status inconsistency describes a mismatch among one person's own statuses, such as high education with low income, not a difference between places.",
+    "C": "Social mobility is movement in position across generations or within a career and is not itself a form of inequality.",
+    "D": "Meritocracy is a principle for allocating positions and does not describe the uneven distribution of infrastructure."
+   },
+   "category": "10A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "24"
+  }
+ ]
+}

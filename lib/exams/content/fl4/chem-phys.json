@@ -1,0 +1,1460 @@
+{
+ "passages": [
+  {
+   "id": "cp4-p1",
+   "title": "Taking a solvent mixture apart",
+   "paragraphs": [
+    "In an ideal liquid mixture each component contributes vapour in proportion to how much of the liquid it is. Raoult's law states the contribution of component i as its mole fraction in the liquid multiplied by the vapour pressure of the pure liquid at that temperature, and the total pressure above the mixture is the sum of those contributions. Because the more volatile component contributes more vapour per mole present, the vapour standing above the liquid is always richer in that component than the liquid itself. Distillation is nothing more than the repeated exploitation of that difference.",
+    "A laboratory takes a plant extract up in a mixture of hexane and toluene and must recover the two solvents separately. Table 1 gives the normal boiling point of each pure solvent and its vapour pressure at 50 \u00b0C. A sample in which hexane accounts for 0.60 of the moles present is warmed to 50 \u00b0C in a closed flask and the pressure above it is measured.",
+    "When vapour is drawn off and condensed, the liquid left in the pot loses the volatile component faster than the other, so the pot grows steadily richer in toluene and the temperature needed to keep it boiling climbs. One evaporation and one condensation, which is all a simple still provides, therefore cannot deliver either solvent pure. A fractionating column packed with beads repeats the evaporation and condensation many times over its length, and each repetition applies the enrichment again to a vapour that is already enriched.",
+    "The measured total pressure above the 0.60 mixture at 50 \u00b0C is 300 torr, some 23 torr above the Raoult prediction. Raoult's law assumes that a molecule is as strongly attracted to an unlike neighbour as to a like one. Where that assumption fails, the mixture departs from the predicted pressure in the direction set by which attraction is the weaker."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Properties of the two pure solvents.",
+    "markup": "<table><thead><tr><th>Solvent</th><th>Normal boiling point (\u00b0C)</th><th>Vapour pressure at 50 \u00b0C (torr)</th></tr></thead><tbody><tr><td>Hexane</td><td>69</td><td>400</td></tr><tr><td>Toluene</td><td>111</td><td>92</td></tr></tbody></table>"
+   },
+   "sources": [
+    {
+     "label": "NIST Chemistry WebBook, vapour pressures of hexane and toluene",
+     "url": "https://webbook.nist.gov/chemistry/"
+    }
+   ]
+  },
+  {
+   "id": "cp4-p2",
+   "title": "An unknown ester in a proton spectrum",
+   "paragraphs": [
+    "A student esterifies a carboxylic acid with an alcohol, distils the product and finds a molecular formula of C\u2084H\u2088O\u2082 by mass spectrometry. Four compounds share that formula: butanoic acid, propyl formate, methyl propanoate and ethyl acetate. A proton NMR spectrum settles the question, because it reports three independent things about every set of equivalent protons in the molecule.",
+    "The chemical shift says how much electron density surrounds the proton. An electronegative atom nearby withdraws that density and leaves the proton less shielded from the applied field, so its signal moves downfield to a larger shift. A methyl group attached only to carbon resonates near 0.9 ppm; a methyl next to a carbonyl carbon near 2.1 ppm; a methyl or methylene bonded to an ester oxygen near 3.7 ppm and 4.1 ppm respectively. The integration gives the number of protons in the set. The multiplicity counts the protons on neighbouring carbons: n equivalent neighbours split a signal into n + 1 lines. Protons within one equivalent set do not split each other, and coupling dies away across more than three bonds, so protons on opposite sides of the ester oxygen appear as though the other set were not there.",
+    "Table 1 records the spectrum of the product. The three integrations account for all eight protons of the formula, and no signal appears downfield of 5 ppm, which already rules out the aldehyde proton of a formate ester near 8 ppm and the acid proton of a carboxylic acid, which is usually broad and well downfield of 10 ppm."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Proton NMR spectrum of the product, recorded in deuterated chloroform.",
+    "markup": "<table><thead><tr><th>Chemical shift (ppm)</th><th>Integration (protons)</th><th>Multiplicity</th></tr></thead><tbody><tr><td>4.12</td><td>2</td><td>quartet</td></tr><tr><td>2.04</td><td>3</td><td>singlet</td></tr><tr><td>1.26</td><td>3</td><td>triplet</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "cp4-p3",
+   "title": "Counting a labelled antibody by light",
+   "paragraphs": [
+    "An antibody is tagged with fluorescein so that it can be both quantified and located. The dye absorbs most strongly at 494 nm, and the Beer-Lambert law relates the absorbance there to the concentration: absorbance is the molar absorptivity multiplied by the concentration and by the path length the light travels through the sample. Absorbance is defined as the logarithm of the ratio of incident to transmitted intensity, so it is a ratio of two intensities and does not depend on how bright the lamp is. Table 1 lists the molar absorptivity of the conjugate at three wavelengths.",
+    "Fluorescence follows a different route. A molecule that has absorbed a 494 nm photon reaches an excited electronic state carrying vibrational energy as well. That vibrational energy is given up to the solvent within picoseconds, long before the molecule emits, so the photon that leaves is of lower energy than the one absorbed and the emission maximum sits at 519 nm. The fraction of absorbed photons that are re-emitted, the quantum yield, is 0.92 for fluorescein in alkaline buffer. Emission is collected at right angles to the exciting beam and against a nominally dark field, whereas absorbance must be read as a small difference between two large intensities.",
+    "A stock of the conjugate is diluted 50-fold and read in a cuvette of 1.00 cm path length. The absorbance at 494 nm is 0.44. The group then asks whether the same instrument could detect the conjugate at 1 nM, the concentration expected in the binding experiment they plan next."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Molar absorptivity of the fluorescein conjugate.",
+    "markup": "<table><thead><tr><th>Wavelength (nm)</th><th>Molar absorptivity (M\u207b\u00b9 cm\u207b\u00b9)</th><th>Note</th></tr></thead><tbody><tr><td>450</td><td>1.5 \u00d7 10\u2074</td><td>blue edge of the band</td></tr><tr><td>494</td><td>7.3 \u00d7 10\u2074</td><td>absorption maximum</td></tr><tr><td>519</td><td>not measurable</td><td>emission maximum</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "cp4-p4",
+   "title": "The jaw as a lever",
+   "paragraphs": [
+    "The mandible turns about the temporomandibular joint, and the masseter is the muscle that closes it. The muscle inserts on the jaw 4.0 cm from the joint and pulls very nearly at right angles to the bone. A tooth meets food somewhere further along the same bone, so the jaw is a lever with its fulcrum at the joint, its effort applied by the muscle at 4.0 cm and its load supplied by the food. Holding the jaw still against the food means the two torques about the joint are equal: the muscle force multiplied by 4.0 cm equals the bite force multiplied by the distance from the joint to the tooth.",
+    "Investigators placed a force transducer between the teeth of a volunteer at three positions along the jaw and asked for a maximum bite at each. The masseter force was estimated at 700 N from the muscle's cross-sectional area. Table 1 gives the distance of each tooth from the joint and the bite force recorded there.",
+    "The arrangement puts the effort between the fulcrum and the load, and the effort arm is the shorter of the two, so the bite force is always smaller than the muscle force. What the jaw buys in exchange is movement: a small rotation at the joint sweeps the incisors through a much larger distance than it sweeps the molars, and at a correspondingly higher speed. Only the component of muscle force perpendicular to the bone generates torque, so a muscle whose line of pull tilts away from the perpendicular loses the cosine of that angle, which costs very little until the angle grows large."
+   ],
+   "figure": {
+    "kind": "svg",
+    "caption": "Figure 1  The mandible as a lever. The joint is the fulcrum; the masseter pulls upward 4.0 cm from it and the tooth pushes downward further along.",
+    "markup": "<svg viewBox=\"0 0 340 200\" role=\"img\" aria-label=\"Lever diagram of the jaw: fulcrum at the joint, muscle force up at 4 cm, bite force down at 7 cm\"><rect x=\"60\" y=\"114\" width=\"250\" height=\"10\" fill=\"#d8e2ef\" stroke=\"#33455c\" stroke-width=\"1\"/><circle cx=\"60\" cy=\"119\" r=\"7\" fill=\"#33455c\"/><g stroke=\"#1a4f8a\" stroke-width=\"2\" fill=\"none\"><path d=\"M 140 114 V 50\"/></g><polygon points=\"140,42 135,54 145,54\" fill=\"#1a4f8a\"/><g stroke=\"#a33\" stroke-width=\"2\" fill=\"none\"><path d=\"M 200 124 V 168\"/></g><polygon points=\"200,176 195,164 205,164\" fill=\"#a33\"/><g stroke=\"#999\" stroke-dasharray=\"3 3\" stroke-width=\"1\"><path d=\"M 60 134 V 150\"/><path d=\"M 140 134 V 150\"/><path d=\"M 200 134 V 158\"/><path d=\"M 300 124 V 158\"/></g><g font-size=\"9\" fill=\"#333\"><text x=\"96\" y=\"148\">4.0 cm</text><text x=\"118\" y=\"38\">masseter, 700 N</text><text x=\"166\" y=\"190\">bite force</text><text x=\"146\" y=\"166\">7.0 cm to the molar</text><text x=\"256\" y=\"170\">incisor</text><text x=\"38\" y=\"110\">joint</text></g></svg>"
+   }
+  },
+  {
+   "id": "cp4-p5",
+   "title": "Reading pH with a glass electrode",
+   "paragraphs": [
+    "A pH meter is a voltmeter. Its sensing electrode ends in a thin bulb of glass whose two faces sit in solutions of different hydrogen ion activity, and the hydration layers of the glass develop a potential difference across the membrane in response to that difference. A second electrode of fixed potential completes the cell. The Nernst equation gives the cell potential as a constant minus the product of a slope and the pH of the sample, and the slope is 2.303RT/F, which comes to 59.2 mV per pH unit at 25 \u00b0C. The slope is proportional to absolute temperature, so at 37 \u00b0C it is 61.5 mV per pH unit.",
+    "The constant in that expression is not a constant for long. It gathers the potential of the reference electrode, the junction potential where the reference meets the sample, and an asymmetry potential that drifts as the glass ages and that changes whenever the bulb is cleaned. The instrument is therefore calibrated against standard buffers immediately before use. Table 1 gives the potentials a freshly calibrated assembly produced in three standards and in a sample, all at 25 \u00b0C.",
+    "Two further limits matter in practice. The electrode responds to hydrogen ion activity rather than to concentration, so a sample of high ionic strength reads a higher pH than its formal concentration would suggest. And because the slope depends on temperature while the asymmetry potential does not, every assembly has an isopotential point, a pH at which the reading does not shift when the temperature changes. For the assembly in Table 1 that point lies at pH 7.00. A sample measured at a temperature other than the calibration temperature is misread by an amount that grows with its distance from that pH."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Potentials recorded at 25 \u00b0C with a freshly calibrated electrode.",
+    "markup": "<table><thead><tr><th>Solution</th><th>pH</th><th>Cell potential (mV)</th></tr></thead><tbody><tr><td>Standard buffer 1</td><td>4.00</td><td>+177</td></tr><tr><td>Standard buffer 2</td><td>7.00</td><td>0</td></tr><tr><td>Standard buffer 3</td><td>10.00</td><td>-177</td></tr><tr><td>Sample</td><td>not known</td><td>+47</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "cp4-p6",
+   "title": "Two nucleophiles and one carbonyl",
+   "paragraphs": [
+    "A carbonyl group is polarised: oxygen holds the shared electrons more tightly and leaves the carbon electron-poor and open to attack. A nucleophile adds to that carbon, the double bond collapses onto the oxygen, and the result is a tetrahedral alkoxide that picks up a proton on workup. Which nucleophile adds decides what the product is. Borohydride and aluminium hydride deliver a hydride ion, which brings no carbon with it and so converts an aldehyde to a primary alcohol and a ketone to a secondary one. A Grignard reagent delivers a carbanion-like carbon, which forms a new carbon-carbon bond and lifts the substitution of the product by one.",
+    "The two hydride reagents are not interchangeable. NaBH\u2084 is mild enough to be used in methanol and reduces aldehydes and ketones while leaving esters and amides alone. An ester carbonyl is the poorer electrophile because the lone pair of its alkoxy oxygen is delocalised into the carbonyl, and the aluminium-hydrogen bond of LiAlH\u2084 is the more willing hydride donor, so esters fall to LiAlH\u2084 but not to NaBH\u2084. Table 1 sets out what each reagent does to a ketone and to an ester.",
+    "A Grignard reagent brings a second requirement. Its carbon is not only nucleophilic but strongly basic, so any oxygen-hydrogen or nitrogen-hydrogen bond in the flask protonates it and destroys it, releasing the hydrocarbon. The reagent is made and used in rigorously dry ether, and a substrate carrying a free hydroxyl or a carboxylic acid consumes a full equivalent before any addition can occur.",
+    "In the experiment that follows, 2-butanone is treated in one flask with NaBH\u2084 in methanol and in another with CH\u2083MgBr in dry ether followed by dilute aqueous acid. The carbonyl carbon of the ketone is trigonal and planar, so a nucleophile may arrive at either of its two faces with equal ease."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Outcome of each reagent with a ketone and with an ester.",
+    "markup": "<table><thead><tr><th>Substrate</th><th>Reagent</th><th>Product class</th></tr></thead><tbody><tr><td>2-butanone</td><td>NaBH\u2084 in methanol</td><td>secondary alcohol</td></tr><tr><td>2-butanone</td><td>CH\u2083MgBr, then dilute acid</td><td>tertiary alcohol</td></tr><tr><td>ethyl acetate</td><td>NaBH\u2084 in methanol</td><td>no reaction</td></tr><tr><td>ethyl acetate</td><td>LiAlH\u2084, then dilute acid</td><td>two alcohols, one primary</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "cp4-p7",
+   "title": "What sets the finest detail a microscope can show",
+   "paragraphs": [
+    "No lens images a point as a point. Light leaving a point object reaches the lens as a spreading wave, the lens collects only the part of it that falls within a cone, and what forms in the image plane is a bright disc ringed by fainter circles. Two point objects whose discs overlap substantially are recorded as one. Abbe's limit puts the smallest resolvable separation at the wavelength divided by twice the numerical aperture of the objective, where the numerical aperture is the refractive index of the medium between specimen and lens multiplied by the sine of the half-angle of the cone the lens collects.",
+    "Both terms in that expression are worth attention. A dry objective works through air, so its numerical aperture cannot exceed one and in practice stops near 0.95. Immersion oil of refractive index 1.52 fills the gap instead, and an objective designed for it reaches 1.40. Table 1 lists four objectives with the limit each reaches in green light of 550 nm. Shorter wavelengths resolve finer detail in proportion, which is why ultraviolet microscopy was pursued and why an electron beam, whose de Broglie wavelength is thousands of times shorter still, resolves atoms.",
+    "What magnification does is spread the image over more of the detector. Beyond the point where the diffraction-limited detail is comfortably sampled, further magnification enlarges the discs along with everything else and adds nothing; microscopists call it empty magnification. The information about the finest spacings in a specimen is carried by light diffracted through the largest angles, and only a lens whose cone is wide enough to gather that light can reconstruct them.",
+    "To test an oil objective of numerical aperture 1.40, a technician images fluorescent beads scattered on a coverslip and measures the separations she can and cannot resolve in green light. Two beads 150 nm apart are recorded as a single spot."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Four objectives and the Abbe limit each reaches at 550 nm.",
+    "markup": "<table><thead><tr><th>Objective</th><th>Medium</th><th>Numerical aperture</th><th>Abbe limit at 550 nm (nm)</th></tr></thead><tbody><tr><td>10x</td><td>air</td><td>0.25</td><td>1100</td></tr><tr><td>40x</td><td>air</td><td>0.65</td><td>423</td></tr><tr><td>60x</td><td>oil</td><td>1.25</td><td>220</td></tr><tr><td>100x</td><td>oil</td><td>1.40</td><td>196</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "cp4-p8",
+   "title": "Measuring what a kidney clears",
+   "paragraphs": [
+    "The clearance of a solute is the volume of plasma that would have to be stripped completely of that solute each minute to account for the amount appearing in the urine. It is calculated as the urine concentration multiplied by the urine flow and divided by the plasma concentration, and it has the units of a flow. A solute that is filtered freely at the glomerulus and then neither reabsorbed from the tubule nor secreted into it has a clearance equal to the glomerular filtration rate, and inulin is the standard for that reason.",
+    "Filtration itself is bulk flow through a porous barrier, driven by the balance of pressures across it. Blood in the glomerular capillary pushes outward at about 55 mmHg. Fluid already in Bowman's space pushes back at about 15 mmHg, and the plasma proteins, which are too large to cross, hold water back osmotically with a colloid osmotic pressure of about 28 mmHg. The filtration rate is the product of the net pressure that remains and a filtration coefficient set by the area and permeability of the barrier.",
+    "A patient's urine was collected at a steady 1.2 mL/min while plasma and urine were sampled for five solutes. Table 1 gives the concentrations and, for four of them, the clearance that follows.",
+    "The pattern of clearances reads as a summary of what the tubule does. A clearance below the filtration rate means that part of what was filtered came back; glucose, which is reabsorbed completely until its transporters saturate, is cleared at zero. A clearance above the filtration rate means that the tubule added solute to the filtrate by secretion. Para-aminohippurate is both filtered and secreted so efficiently that nearly all of it is removed in one pass, and its clearance approximates the plasma flow through the kidney rather than the filtration rate."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Plasma and urine concentrations at a urine flow of 1.2 mL/min.",
+    "markup": "<table><thead><tr><th>Solute</th><th>Plasma (mg/dL)</th><th>Urine (mg/dL)</th><th>Clearance (mL/min)</th></tr></thead><tbody><tr><td>Inulin</td><td>1.0</td><td>104</td><td>125</td></tr><tr><td>Creatinine</td><td>1.0</td><td>117</td><td>140</td></tr><tr><td>Urea</td><td>30</td><td>1625</td><td>not shown</td></tr><tr><td>Glucose</td><td>90</td><td>0</td><td>0</td></tr><tr><td>Para-aminohippurate</td><td>0.020</td><td>10</td><td>600</td></tr></tbody></table>"
+   }
+  },
+  {
+   "id": "cp4-p9",
+   "title": "The barrier an enzyme lowers",
+   "paragraphs": [
+    "Transition state theory describes a reaction as a journey over a barrier. Reactants that collide with the right geometry pass through a single arrangement of highest energy, the transition state, in which the bonds being broken are part broken and the bonds being made are part made. That arrangement sits at a maximum of the energy profile, so it cannot be isolated or trapped; it is not an intermediate, which would sit in a minimum of its own. The fraction of collisions carrying enough energy to reach the transition state falls off exponentially with the height of the barrier and rises with temperature, which is why the rate constant depends on the barrier through an exponential term in E\u2090/RT.",
+    "Figure 1 shows the profile for a reaction run with and without its enzyme. Uncatalysed, the forward barrier is 80 kJ/mol. The enzyme lowers it to 50 kJ/mol. The reactant and product levels are the same in both profiles, and the reaction releases 30 kJ/mol overall. Because a catalyst alters the barrier and not the levels on either side of it, the forward and reverse barriers fall by exactly the same amount, the forward and reverse rates rise by the same factor, and the equilibrium constant is left as it was.",
+    "How an enzyme achieves the reduction is a question about binding. An enzyme that bound its substrate very tightly and the transition state no better would hold the substrate in a deeper well and so raise the barrier out of it. What accelerates the reaction is binding that is tighter to the transition state than to the substrate, since that lowers the top of the barrier relative to the bottom. The prediction follows at once: a stable molecule shaped to imitate the transition state should bind far more tightly than one shaped like the substrate, and such transition-state analogues are among the most potent enzyme inhibitors known."
+   ],
+   "figure": {
+    "kind": "svg",
+    "caption": "Figure 1  Energy profile of the reaction without the enzyme (solid) and with it (dashed). Energies are in kJ/mol.",
+    "markup": "<svg viewBox=\"0 0 340 225\" role=\"img\" aria-label=\"Reaction coordinate diagram with a high uncatalysed barrier and a lower catalysed barrier between the same reactant and product levels\"><g stroke=\"#333\" fill=\"none\" stroke-width=\"1\"><path d=\"M 45 200 H 325\"/><path d=\"M 45 200 V 25\"/></g><polyline fill=\"none\" stroke=\"#1a4f8a\" stroke-width=\"2\" points=\"45,140 75,138 105,115 135,70 165,44 195,70 225,115 255,160 285,174 315,176\"/><polyline fill=\"none\" stroke=\"#a33\" stroke-width=\"2\" stroke-dasharray=\"5 4\" points=\"45,140 75,138 105,128 135,100 165,80 195,100 225,128 255,164 285,175 315,176\"/><g stroke=\"#999\" stroke-dasharray=\"3 3\" stroke-width=\"1\"><path d=\"M 45 140 H 290\"/><path d=\"M 165 140 V 44\"/><path d=\"M 180 140 V 80\"/><path d=\"M 290 140 V 176\"/></g><g font-size=\"9\" fill=\"#333\"><text x=\"120\" y=\"216\">reaction coordinate</text><text x=\"12\" y=\"120\" transform=\"rotate(-90 20 120)\">energy</text><text x=\"50\" y=\"132\">reactants</text><text x=\"268\" y=\"192\">products</text><text x=\"112\" y=\"58\">80</text><text x=\"186\" y=\"112\">50</text><text x=\"294\" y=\"162\">\u0394H = -30</text></g></svg>"
+   }
+  },
+  {
+   "id": "cp4-p10",
+   "title": "Adding up a metabolic route",
+   "paragraphs": [
+    "Enthalpy is a state function, so the enthalpy change between a given set of reactants and a given set of products is the same whatever route connects them. Hess's law is that statement put to work: a reaction nobody can run cleanly in a calorimeter can still be measured, provided its reactants and products can each be burned. Burning every compound in the equation converts them all to the same final products, carbon dioxide and water, so the enthalpy of the reaction of interest is the sum of the combustion enthalpies of its reactants minus the sum of the combustion enthalpies of its products, each weighted by its coefficient.",
+    "Table 1 lists standard combustion enthalpies for four compounds of metabolic interest. Two anaerobic routes for glucose can be assembled from them. A working muscle reduces glucose to two molecules of lactic acid; a yeast cell ferments the same glucose to two molecules of ethanol and two of carbon dioxide. Both routes leave the carbon far from fully oxidised, and both can be compared with complete oxidation of glucose, for which the combustion enthalpy in the table is itself the answer.",
+    "Two cautions belong with any such calculation. The enthalpy change is not the free energy change, and it is the free energy change that sets how much work a cell can extract and in which direction a reaction will run; the two differ by the temperature multiplied by the entropy change. And the energy a cell captures as ATP is only a fraction of the energy released, the rest appearing as heat. A Hess cycle gives the total change along a route; it says nothing about how much of that change a cell has arranged to collect."
+   ],
+   "figure": {
+    "kind": "table",
+    "caption": "Table 1  Standard enthalpies of combustion at 298 K.",
+    "markup": "<table><thead><tr><th>Compound</th><th>Formula</th><th>Enthalpy of combustion (kJ/mol)</th></tr></thead><tbody><tr><td>Glucose</td><td>C\u2086H\u2081\u2082O\u2086</td><td>-2808</td></tr><tr><td>Lactic acid</td><td>C\u2083H\u2086O\u2083</td><td>-1344</td></tr><tr><td>Ethanol</td><td>C\u2082H\u2086O</td><td>-1367</td></tr><tr><td>Acetic acid</td><td>C\u2082H\u2084O\u2082</td><td>-874</td></tr></tbody></table>"
+   },
+   "sources": [
+    {
+     "label": "NIST Chemistry WebBook, enthalpies of combustion",
+     "url": "https://webbook.nist.gov/chemistry/"
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "cp4-p1-q1",
+   "passageId": "cp4-p1",
+   "stem": "What total pressure does Raoult's law predict above the 0.60 hexane mixture at 50 \u00b0C?",
+   "choices": {
+    "A": "215 torr",
+    "B": "240 torr",
+    "C": "246 torr",
+    "D": "277 torr"
+   },
+   "correct": "D",
+   "explanation": "Each component contributes its mole fraction in the liquid multiplied by its own pure vapour pressure. Hexane contributes 0.60 \u00d7 400 = 240 torr and toluene 0.40 \u00d7 92 = 37 torr, and the total above the mixture is the sum of the two, 277 torr. The total lies above the unweighted average of the two pure values, because here the more volatile solvent is also the more abundant one.",
+   "wrong": {
+    "A": "215 torr comes from attaching each mole fraction to the wrong solvent, taking 0.40 of the hexane pressure and 0.60 of the toluene pressure.",
+    "B": "240 torr is the hexane contribution on its own. Toluene is volatile enough at 50 \u00b0C to add a further 37 torr, which the total must include.",
+    "C": "246 torr is the plain average of the two pure vapour pressures, which would be the answer only if the mixture were an equimolar one."
+   },
+   "category": "5B",
+   "skill": "skill-4",
+   "difficulty": "easy",
+   "unit": "12"
+  },
+  {
+   "id": "cp4-p1-q2",
+   "passageId": "cp4-p1",
+   "stem": "In the vapour standing above that mixture, what is the mole fraction of hexane?",
+   "choices": {
+    "A": "0.13",
+    "B": "0.60",
+    "C": "0.81",
+    "D": "0.87"
+   },
+   "correct": "D",
+   "explanation": "A component's mole fraction in the vapour is its partial pressure divided by the total pressure, since pressure and moles run together in a gas mixture. Hexane's partial pressure is 240 torr out of 277 torr, which gives 0.87. The vapour is markedly richer in hexane than the liquid it came from, and that enrichment is what one stage of a distillation delivers.",
+   "wrong": {
+    "A": "0.13 is the toluene fraction of the vapour, 37 torr out of 277 torr. It answers for the component the question did not ask about.",
+    "B": "0.60 is the hexane fraction of the liquid. If the vapour had the same composition as the liquid, distillation could not separate anything.",
+    "C": "0.81 is 400 divided by the sum of the two pure vapour pressures, which weights the components equally instead of by how much of each is present."
+   },
+   "category": "5C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "12"
+  },
+  {
+   "id": "cp4-p1-q3",
+   "passageId": "cp4-p1",
+   "stem": "Vapour is drawn off continuously and condensed. What happens in the pot as the distillation runs?",
+   "choices": {
+    "A": "The liquid grows richer in hexane, so the temperature needed to keep it boiling steadily falls.",
+    "B": "The first drops of distillate are pure hexane, because only the volatile component enters the vapour.",
+    "C": "The liquid grows richer in toluene, so the temperature needed to keep it boiling steadily climbs.",
+    "D": "The liquid holds its composition, because vapour and liquid have the same composition at equilibrium."
+   },
+   "correct": "C",
+   "explanation": "The vapour leaving the pot is richer in hexane than the pot is, so hexane is removed faster than toluene and what remains behind is progressively more toluene. A liquid richer in the less volatile component has a lower vapour pressure at any temperature, so a higher temperature is needed to bring it back to boiling, and the head temperature of a simple distillation is observed to drift upward for exactly this reason.",
+   "wrong": {
+    "A": "Hexane is the component leaving in the vapour, so the pot is depleted of it rather than enriched, and the boiling temperature rises rather than falls.",
+    "B": "Toluene has a vapour pressure of 92 torr at 50 \u00b0C and contributes 0.13 of the vapour, so the first distillate is a mixture rather than a pure solvent.",
+    "D": "Vapour and liquid have the same composition only in an azeotrope. Here the vapour is 0.87 hexane against the liquid's 0.60, which is why the pot changes."
+   },
+   "category": "5C",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "12"
+  },
+  {
+   "id": "cp4-p1-q4",
+   "passageId": "cp4-p1",
+   "stem": "The measured pressure of 300 torr stands above the predicted value. What does the excess indicate about the mixture?",
+   "choices": {
+    "A": "Hexane and toluene attract each other more strongly than each attracts its own kind, which drives extra molecules out.",
+    "B": "The sample cannot have reached equilibrium, because a mixture at equilibrium is bound to obey Raoult's law exactly.",
+    "C": "Hexane and toluene attract each other less strongly than each attracts its own kind, which lets molecules escape more readily.",
+    "D": "The pure vapour pressures in Table 1 must have been measured too low, since the excess is about 8 percent of the prediction."
+   },
+   "correct": "C",
+   "explanation": "Raoult's law assumes a molecule is held in the liquid as firmly by unlike neighbours as by its own kind. If the unlike attraction is the weaker one, molecules in the mixture are held less firmly than Raoult assumes, more of them escape, and the measured pressure runs above the prediction. That is a positive deviation, and it is what the 23 torr excess reports.",
+   "wrong": {
+    "A": "A stronger attraction between unlike neighbours holds molecules in the liquid more firmly, which lowers the pressure below the prediction rather than raising it.",
+    "B": "Raoult's law describes an ideal mixture, not an equilibrium condition. A real mixture at equilibrium departs from it whenever the two kinds of attraction differ.",
+    "D": "Both pure values can be checked independently against the pure liquids. Blaming them leaves the mixture's own behaviour, which is what the excess is about, unexplained."
+   },
+   "category": "5B",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "12"
+  },
+  {
+   "id": "cp4-p2-q1",
+   "passageId": "cp4-p2",
+   "stem": "Which of the four candidate structures accounts for the spectrum in Table 1?",
+   "choices": {
+    "A": "butanoic acid, CH\u2083CH\u2082CH\u2082COOH",
+    "B": "propyl formate, HCOOCH\u2082CH\u2082CH\u2083",
+    "C": "methyl propanoate, CH\u2083CH\u2082COOCH\u2083",
+    "D": "ethyl acetate, CH\u2083COOCH\u2082CH\u2083"
+   },
+   "correct": "D",
+   "explanation": "The 2-proton quartet at 4.12 ppm is a methylene with three neighbours, and its shift of 4.12 ppm places its carbon on the single-bonded oxygen. The 3-proton triplet at 1.26 ppm is the methyl of that same ethyl group. The 3-proton singlet at 2.04 ppm has no neighbours at all and sits at the shift expected for a methyl attached to a carbonyl carbon. An acetyl group and an ethyl ester group together make CH\u2083COOCH\u2082CH\u2083.",
+   "wrong": {
+    "A": "A carboxylic acid would show a broad one-proton signal well downfield of 10 ppm, and Table 1 records nothing beyond 4.12 ppm.",
+    "B": "Propyl formate would show a one-proton formate singlet near 8 ppm, and its propyl chain would give a six-line methylene rather than a 3-proton singlet.",
+    "C": "Methyl propanoate has its 3-proton singlet on the oxygen, which would place it near 3.7 ppm, and its methylene next to the carbonyl near 2.3 ppm. Table 1 has those shifts the other way about."
+   },
+   "category": "5D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp4-p2-q2",
+   "passageId": "cp4-p2",
+   "stem": "Why does the 2-proton signal at 4.12 ppm appear as a quartet?",
+   "choices": {
+    "A": "It couples through the ester oxygen to the three protons of the acetyl methyl group.",
+    "B": "It couples to the three equivalent protons on the adjacent carbon, which gives n + 1 = 4 lines.",
+    "C": "It is split by the oxygen atom to which its own carbon is attached, giving one line per lone pair.",
+    "D": "It couples to the other proton of its own methylene group, which doubles each of two lines."
+   },
+   "correct": "B",
+   "explanation": "Multiplicity counts the protons on neighbouring carbons. The methylene has one neighbouring carbon, the methyl of the ethyl group, carrying three equivalent protons, so the signal is split into 3 + 1 = 4 lines of intensity 1:3:3:1. The matching evidence is that the methyl itself appears as a triplet, split by the two protons of the methylene.",
+   "wrong": {
+    "A": "Coupling through four bonds and an oxygen is too weak to see here, which is why the acetyl methyl appears as a clean singlet rather than as a triplet.",
+    "C": "The common isotope of oxygen has no nuclear spin, so it splits nothing. An electronegative atom changes a shift, not a multiplicity.",
+    "D": "Protons within one equivalent set do not split each other, so the two methylene protons contribute nothing to the pattern of their own signal."
+   },
+   "category": "4D",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "13"
+  },
+  {
+   "id": "cp4-p2-q3",
+   "passageId": "cp4-p2",
+   "stem": "If the sample had instead been methyl propanoate, which feature of Table 1 would differ most?",
+   "choices": {
+    "A": "The 3-proton singlet would become a triplet and move upfield, to about 1.1 ppm.",
+    "B": "The 2-proton signal would lose its splitting and appear as a singlet near 4.1 ppm.",
+    "C": "The 3-proton singlet would move downfield, from 2.04 ppm to about 3.7 ppm.",
+    "D": "The 2-proton quartet would move downfield, from 4.12 ppm to about 4.6 ppm."
+   },
+   "correct": "C",
+   "explanation": "Methyl propanoate carries its methyl group on the ester oxygen rather than on the carbonyl. That methyl still has no neighbouring protons, so it stays a singlet, but an oxygen withdraws electron density more effectively than a carbonyl carbon does, so the singlet appears near 3.7 ppm instead of 2.04 ppm. The methylene, now attached to the carbonyl rather than to the oxygen, would move the other way, to about 2.3 ppm.",
+   "wrong": {
+    "A": "A methyl bonded to an ester oxygen has no neighbouring protons, so it remains a singlet. Only the ethyl ester of Table 1 has a methyl with a neighbour.",
+    "B": "Methyl propanoate's methylene still has the three protons of its own methyl group next door, so it stays a quartet whichever side of the carbonyl it sits on.",
+    "D": "Shifting a methylene closer to the carbonyl and away from the oxygen makes it more shielded, not less, so any move would be upfield rather than downfield."
+   },
+   "category": "5D",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp4-p2-q4",
+   "passageId": "cp4-p2",
+   "stem": "Why does the methylene signal lie downfield of the methyl signal in this molecule?",
+   "choices": {
+    "A": "The oxygen pushes electron density onto the methylene protons, so they feel a larger local field.",
+    "B": "The methylene lies nearer the carbonyl group, and a carbonyl is the stronger magnet of the two.",
+    "C": "The oxygen withdraws electron density from the methylene protons, so they are less shielded from the applied field.",
+    "D": "The methylene has more coupling partners than the methyl, and more coupling partners move a signal downfield."
+   },
+   "correct": "C",
+   "explanation": "Electrons circulating around a proton set up a small field that opposes the applied one, so a proton surrounded by more electron density is shielded and resonates at a smaller shift. The ester oxygen pulls density away from the carbon it is bonded to and from the protons on it, leaving them deshielded, and their signal moves downfield to 4.12 ppm. The methyl, two bonds further away, keeps more of its density and stays at 1.26 ppm.",
+   "wrong": {
+    "A": "An ester oxygen is more electronegative than carbon and withdraws density rather than donating it, which is why the shift moves downfield rather than upfield.",
+    "B": "The methylene of this molecule is bonded to the ester oxygen, not to the carbonyl carbon; the acetyl methyl is the group next to the carbonyl, and it resonates upfield of the methylene.",
+    "D": "Coupling splits a signal into lines about its own position. It does not move that position, so the number of partners cannot explain a difference in shift."
+   },
+   "category": "4D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "13"
+  },
+  {
+   "id": "cp4-p3-q1",
+   "passageId": "cp4-p3",
+   "stem": "Why is the emission maximum at 519 nm rather than at the 494 nm the dye absorbs?",
+   "choices": {
+    "A": "Some of the absorbed energy is lost as vibrational energy before emission, so the emitted photon carries less.",
+    "B": "The emitted photon has to cross a larger energy gap than the absorbed one, and a larger gap means a longer wavelength.",
+    "C": "Emission comes from a state that lies above the absorbing state, so emitted photons are always the less energetic.",
+    "D": "The solvent scatters the emitted light, and scattering by a dense medium lengthens the wavelength of what passes."
+   },
+   "correct": "A",
+   "explanation": "Absorption lands the molecule in an excited electronic state with vibrational energy to spare. That vibrational energy is handed to the solvent within picoseconds, and only then does the molecule emit, so the photon that leaves is the smaller of the two: dividing 1240 eV nm by the wavelength in nanometres gives 2.51 eV absorbed against 2.39 eV emitted. The difference is the Stokes shift, and it is what allows emission to be collected without the exciting light coming with it.",
+   "wrong": {
+    "B": "A longer wavelength corresponds to a smaller photon energy, not a larger one, so this choice has the relation between gap and wavelength inverted.",
+    "C": "A state above the absorbing state would require energy to be added, not lost. Relaxation runs downhill, to vibrational levels below the one reached on absorption.",
+    "D": "Elastic scattering returns light at the wavelength it arrived with, and in any case the 25 nm shift appears in clear solution with no scattering medium present."
+   },
+   "category": "4E",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-p3-q2",
+   "passageId": "cp4-p3",
+   "stem": "What is the concentration of the conjugate in the undiluted stock?",
+   "choices": {
+    "A": "6.0 \u00d7 10\u207b\u2076 M",
+    "B": "3.0 \u00d7 10\u207b\u2074 M",
+    "C": "1.5 \u00d7 10\u207b\u00b3 M",
+    "D": "3.0 \u00d7 10\u207b\u00b3 M"
+   },
+   "correct": "B",
+   "explanation": "Beer-Lambert gives the concentration in the cuvette as the absorbance divided by the product of absorptivity and path length: 0.44 divided by 7.3 \u00d7 10\u2074 and by 1.00 cm is 6.0 \u00d7 10\u207b\u2076 M. That is the diluted sample, so the stock is 50 times more concentrated, 3.0 \u00d7 10\u207b\u2074 M.",
+   "wrong": {
+    "A": "6.0 \u00d7 10\u207b\u2076 M is the concentration in the cuvette. The 50-fold dilution still has to be undone to report the stock.",
+    "C": "1.5 \u00d7 10\u207b\u00b3 M uses the 450 nm absorptivity from Table 1. The absorbance was read at 494 nm, so the 494 nm value is the one that belongs in the calculation.",
+    "D": "3.0 \u00d7 10\u207b\u00b3 M follows from a path length of 1.0 mm. The cuvette is 1.00 cm, ten times longer, so this answer is ten times too large."
+   },
+   "category": "4D",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-p3-q3",
+   "passageId": "cp4-p3",
+   "stem": "The group needs to detect the conjugate at 1 nM. Which approach is best justified by the passage?",
+   "choices": {
+    "A": "Measure fluorescence, since a 1 nM solution has an absorbance of only about 7 \u00d7 10\u207b\u2075.",
+    "B": "Measure absorbance in a 10 cm cell, since the longer path brings the reading into a readable range.",
+    "C": "Measure absorbance at 519 nm, since that is the wavelength at which the label gives out most signal.",
+    "D": "Measure absorbance with a brighter lamp, since the reading rises in proportion to the incident intensity."
+   },
+   "correct": "A",
+   "explanation": "At 1 nM in a 1 cm cell the absorbance is 7.3 \u00d7 10\u2074 multiplied by 1 \u00d7 10\u207b\u2079, which is 7.3 \u00d7 10\u207b\u2075: the transmitted intensity would fall short of the incident one by under two parts in ten thousand, well inside the noise of any ordinary spectrophotometer. Fluorescence is read against a dark field instead, so the signal is compared with nothing rather than with a large background, and single molecules can be seen this way.",
+   "wrong": {
+    "B": "A cell ten times longer raises the absorbance only to 7.3 \u00d7 10\u207b\u2074, still far below what a spectrophotometer can distinguish from its own baseline drift.",
+    "C": "519 nm is the emission maximum. Table 1 records no measurable absorptivity there, so an absorbance reading at that wavelength would report almost nothing.",
+    "D": "Absorbance is the logarithm of a ratio of intensities, so it is unchanged by the brightness of the lamp; both terms of the ratio rise together."
+   },
+   "category": "4D",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-p3-q4",
+   "passageId": "cp4-p3",
+   "stem": "What fraction of the 494 nm light entering the cuvette is absorbed by the diluted sample?",
+   "choices": {
+    "A": "36%",
+    "B": "44%",
+    "C": "56%",
+    "D": "64%"
+   },
+   "correct": "D",
+   "explanation": "Absorbance is the logarithm of the ratio of incident to transmitted intensity, so the transmitted fraction is ten raised to the power of the negative absorbance. Ten to the power -0.44 is 0.36, so 36 percent of the light gets through and the remaining 64 percent is absorbed. An absorbance of about 0.4 is in the range instruments read most accurately, which is why samples are routinely diluted to reach it.",
+   "wrong": {
+    "A": "36% is the fraction transmitted rather than the fraction absorbed; the two are complements, and the question asks for the part the sample takes up.",
+    "B": "44% reads the absorbance itself as a percentage. Absorbance is a logarithm, so it cannot be a fraction of the incident light.",
+    "C": "56% is one minus the absorbance, which again treats a logarithm as though it were the absorbed fraction."
+   },
+   "category": "4D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-p4-q1",
+   "passageId": "cp4-p4",
+   "stem": "With the masseter pulling at 700 N, what bite force does the lever deliver at the molar?",
+   "choices": {
+    "A": "233 N",
+    "B": "400 N",
+    "C": "700 N",
+    "D": "1225 N"
+   },
+   "correct": "B",
+   "explanation": "Torques about the joint balance, so the muscle force multiplied by its 4.0 cm arm equals the bite force multiplied by the 7.0 cm arm of the molar. The bite force is therefore 700 multiplied by 4.0 and divided by 7.0, which is 400 N. The result is smaller than the muscle force because the muscle works on the shorter arm.",
+   "wrong": {
+    "A": "233 N uses the incisor's 12.0 cm arm in place of the molar's 7.0 cm, and so answers for the wrong tooth.",
+    "C": "700 N assumes the bite force equals the muscle force. The two arms differ, so the forces cannot be equal while the torques are.",
+    "D": "1225 N comes from inverting the arms, multiplying by 7.0 and dividing by 4.0. That would make the jaw multiply force, which a lever of this arrangement cannot do."
+   },
+   "category": "4A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "15"
+  },
+  {
+   "id": "cp4-p4-q2",
+   "passageId": "cp4-p4",
+   "stem": "Which statement about the three rows of Table 1 is best supported by the data?",
+   "choices": {
+    "A": "Bite force rises with distance from the joint, as a longer arm produces a larger torque.",
+    "B": "The molar's advantage comes from a larger masseter force developed when the molars are loaded.",
+    "C": "The incisor acts as a second-class lever while the molar acts as a third-class lever on the same bone.",
+    "D": "Bite force multiplied by distance from the joint is the same at all three teeth, as one fixed muscle torque requires."
+   },
+   "correct": "D",
+   "explanation": "Taking the three rows in turn: 400 multiplied by 7.0 is 2800, 311 multiplied by 9.0 is 2800, and 233 multiplied by 12.0 is 2800, all in newton centimetres. One muscle pulling with one force on one arm supplies the same torque whichever tooth meets the food, so the product of force and distance is conserved along the jaw and the force falls as the distance grows.",
+   "wrong": {
+    "A": "The data run the other way: the tooth furthest from the joint records the smallest force, 233 N at 12.0 cm against 400 N at 7.0 cm.",
+    "B": "The masseter force was estimated once, from cross-sectional area, and does not change with the tooth used. The varying quantity in the table is the load arm.",
+    "C": "One bone with one fulcrum and one effort point is one class of lever. The effort lies between the fulcrum and the load at every tooth, which is the third-class arrangement."
+   },
+   "category": "4A",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "15"
+  },
+  {
+   "id": "cp4-p4-q3",
+   "passageId": "cp4-p4",
+   "stem": "How are the fulcrum, effort and load arranged in the jaw, and what does the arrangement cost?",
+   "choices": {
+    "A": "The fulcrum lies between the effort and the load, so force is multiplied whenever the effort arm is the longer one.",
+    "B": "The load lies between the fulcrum and the effort, which gives a mechanical advantage greater than one at every tooth.",
+    "C": "The effort lies between the fulcrum and the load, so the mechanical advantage is below one and force is traded for movement.",
+    "D": "The effort and the load act at the same distance from the fulcrum, so the advantage is exactly one at every tooth."
+   },
+   "correct": "C",
+   "explanation": "The joint is the fulcrum, the masseter applies the effort 4.0 cm along the bone, and the food loads the bone further out, so the effort sits between the fulcrum and the load. That is a third-class lever, and its mechanical advantage is the ratio of the arms: 4.0 divided by 7.0, about 0.57 at the molar. What the jaw gains for the loss of force is the larger and faster excursion of the teeth that lie beyond the muscle's insertion.",
+   "wrong": {
+    "A": "A fulcrum between effort and load describes a first-class lever, as in a seesaw. Here both the muscle and the food act on the same side of the joint.",
+    "B": "A load between fulcrum and effort describes a second-class lever, which does multiply force. The food lies beyond the muscle's insertion, not between it and the joint.",
+    "D": "The arms are 4.0 cm and 7.0 cm, so they are not equal, and the measured bite force of 400 N against a 700 N muscle force confirms an advantage below one."
+   },
+   "category": "4A",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "15"
+  },
+  {
+   "id": "cp4-p4-q4",
+   "passageId": "cp4-p4",
+   "stem": "Which change would do the LEAST to alter the bite force recorded at the molar?",
+   "choices": {
+    "A": "Recruiting more masseter fibres, so that the muscle force rises by 10 percent.",
+    "B": "Holding the jaw so that the muscle's line of pull tilts 10\u00b0 away from the perpendicular.",
+    "C": "Biting on a tooth 1.0 cm nearer the joint than the molar, at 6.0 cm rather than 7.0 cm.",
+    "D": "Moving the muscle's insertion outward from 4.0 cm to 4.4 cm from the joint."
+   },
+   "correct": "B",
+   "explanation": "Only the component of the muscle force perpendicular to the bone makes torque, and that component is the force multiplied by the cosine of the angle of tilt. The cosine of 10\u00b0 is 0.985, so tilting the line of pull by 10\u00b0 costs about 1.5 percent of the bite force. Each of the other three changes moves the force by 10 percent or more, because each changes a force or a lever arm directly rather than through a cosine.",
+   "wrong": {
+    "A": "A 10 percent rise in muscle force raises the bite force by the same 10 percent, since the two are in fixed proportion once the arms are set.",
+    "C": "Moving the bite from 7.0 cm to 6.0 cm shortens the load arm, and the bite force rises in the ratio 7.0 to 6.0, about 17 percent.",
+    "D": "Moving the insertion from 4.0 cm to 4.4 cm lengthens the effort arm by a tenth, and the bite force rises by the same tenth."
+   },
+   "category": "4A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "15"
+  },
+  {
+   "id": "cp4-p5-q1",
+   "passageId": "cp4-p5",
+   "stem": "What is the pH of the sample that read +47 mV on the calibrated assembly?",
+   "choices": {
+    "A": "7.80",
+    "B": "6.60",
+    "C": "6.20",
+    "D": "5.41"
+   },
+   "correct": "C",
+   "explanation": "The three standards give a slope of 354 mV across 6.00 pH units, which is 59.0 mV per pH unit, and they put 0 mV at pH 7.00. A potential above zero therefore means a pH below 7.00, by 47 divided by 59.0, which is 0.80 pH units. The sample is at pH 6.20.",
+   "wrong": {
+    "A": "7.80 adds the 0.80 unit offset instead of subtracting it. The potential falls as pH rises in this cell, so a positive reading has to lie on the acid side of pH 7.00.",
+    "B": "6.60 uses 118 mV per pH unit, which is the figure obtained by dividing the 354 mV range by three rather than by the six pH units it spans.",
+    "D": "5.41 halves the slope to 29.5 mV per pH unit. The electrode reports a single hydrogen ion equilibrium, so no division by two belongs here."
+   },
+   "category": "5A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "10"
+  },
+  {
+   "id": "cp4-p5-q2",
+   "passageId": "cp4-p5",
+   "stem": "What slope do the three calibration standards show for this electrode?",
+   "choices": {
+    "A": "59 mV per pH unit",
+    "B": "61.5 mV per pH unit",
+    "C": "118 mV per pH unit",
+    "D": "177 mV per pH unit"
+   },
+   "correct": "A",
+   "explanation": "The slope is the change in potential divided by the change in pH that produced it. From pH 4.00 to pH 10.00 the potential falls from +177 mV to -177 mV, a change of 354 mV across 6.00 pH units, which is 59 mV per pH unit. That is within a percent of the theoretical 59.2 mV at 25 \u00b0C, so this electrode is behaving as the Nernst equation says it should.",
+   "wrong": {
+    "B": "61.5 mV per pH unit is the theoretical slope at 37 \u00b0C. These standards were read at 25 \u00b0C, and the slope is proportional to absolute temperature.",
+    "C": "118 mV per pH unit divides the 354 mV range by three, as though the standards spanned three pH units. They span six, from 4.00 to 10.00.",
+    "D": "177 mV per pH unit quotes the potential of the first standard. A potential at one pH is not a slope; a slope needs two points."
+   },
+   "category": "4C",
+   "skill": "skill-4",
+   "difficulty": "easy",
+   "unit": "14"
+  },
+  {
+   "id": "cp4-p5-q3",
+   "passageId": "cp4-p5",
+   "stem": "Why is the electrode calibrated against two or three standard buffers rather than one?",
+   "choices": {
+    "A": "Because the glass also responds to sodium ions, and only a set of standards can correct that response.",
+    "B": "Because the reference electrode's potential varies with the pH of the sample, which one standard cannot reveal.",
+    "C": "Because the Nernst slope varies with hydrogen ion concentration, so it has to be remeasured at each pH.",
+    "D": "Because one standard fixes only the offset, leaving the slope of the response unmeasured."
+   },
+   "correct": "D",
+   "explanation": "Two quantities describe the response: the constant, which carries the drifting asymmetry and junction potentials, and the slope. A single standard can set the line's height but not its steepness, so a bulb that has aged into a slope of 52 mV per pH unit would still read its own calibration buffer correctly and misreport every other sample. A second standard measures the slope, and a third checks that the response is linear between them.",
+   "wrong": {
+    "A": "The alkaline error does come from sodium, but it appears above about pH 11 and is not removed by calibrating against standards at lower pH.",
+    "B": "The reference electrode is built to hold a fixed potential whatever the sample's pH; that is what makes it a reference and what lets the glass bulb carry the signal.",
+    "C": "The slope is set by 2.303RT/F, so it depends on temperature, not on the pH of the sample. A slope that varied with pH would make the scale non-linear by design."
+   },
+   "category": "4C",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "14"
+  },
+  {
+   "id": "cp4-p5-q4",
+   "passageId": "cp4-p5",
+   "stem": "Blood at 37 \u00b0C whose true pH is 7.40 is measured on this assembly, still calibrated at 25 \u00b0C. How does the reported pH compare with the true value?",
+   "choices": {
+    "A": "Too high by about 0.02 pH units",
+    "B": "Too low by about 0.02 pH units",
+    "C": "Too high by about 0.3 pH units",
+    "D": "Too low by about 0.3 pH units"
+   },
+   "correct": "A",
+   "explanation": "At 37 \u00b0C the electrode's real slope is 61.5 mV per pH unit, so a sample 0.40 units above the isopotential pH of 7.00 generates about -24.6 mV. The meter still divides by the calibrated 59.0 mV per pH unit, so it converts that potential into 0.42 pH units and reports 7.42. The error is about 0.02 units upward, and it would grow with the sample's distance from pH 7.00.",
+   "wrong": {
+    "B": "The real slope at 37 \u00b0C is the larger one, so the potential is larger than the calibration assumes and the pH it is converted into overshoots rather than undershoots.",
+    "C": "An error of 0.3 units follows from rescaling the whole pH value by the ratio of the slopes. Only the part of the reading measured from the isopotential point is affected.",
+    "D": "This both rescales the whole pH value and reverses the direction of the error, so it is wrong in size and in sign at once."
+   },
+   "category": "5A",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "10"
+  },
+  {
+   "id": "cp4-p6-q1",
+   "passageId": "cp4-p6",
+   "stem": "What is the product of treating 2-butanone with CH\u2083MgBr and then dilute aqueous acid?",
+   "choices": {
+    "A": "butan-2-ol, a secondary alcohol",
+    "B": "2-methylbut-1-ene, an alkene",
+    "C": "pentan-3-ol, a secondary alcohol",
+    "D": "2-methylbutan-2-ol, a tertiary alcohol"
+   },
+   "correct": "D",
+   "explanation": "The methyl group of the Grignard reagent adds as a nucleophile to the carbonyl carbon, which already carries a methyl group and an ethyl group. The carbonyl oxygen becomes an alkoxide and then, on acidic workup, a hydroxyl. The carbon bearing that hydroxyl is left with three alkyl groups, so the product is the tertiary alcohol 2-methylbutan-2-ol, with one more carbon than the ketone had.",
+   "wrong": {
+    "A": "A secondary alcohol with four carbons is the hydride product. A Grignard reagent brings a carbon of its own, so the product must gain a carbon.",
+    "B": "An alkene would require a dehydration, which needs acid and heat. The workup here is a mild aqueous quench whose only job is to protonate the alkoxide.",
+    "C": "Pentan-3-ol has the right number of carbons but only two alkyl groups on the alcohol carbon, which would mean addition to an aldehyde rather than to a ketone."
+   },
+   "category": "5D",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "13"
+  },
+  {
+   "id": "cp4-p6-q2",
+   "passageId": "cp4-p6",
+   "stem": "Why does NaBH\u2084 reduce the ketone in Table 1 but leave the ester untouched?",
+   "choices": {
+    "A": "The alkoxy group shields the ester carbonyl from attack, and borohydride is the bulkier of the two hydride reagents.",
+    "B": "The ester carbonyl is the weaker electrophile, and borohydride is the weaker hydride donor, so the two react far too slowly to matter.",
+    "C": "Borohydride is consumed by the methanol solvent before it can reach an ester, though not before it reaches a ketone.",
+    "D": "The carbonyl carbon of an ester already carries an oxygen substituent, so it is at the alcohol oxidation level and cannot be reduced."
+   },
+   "correct": "B",
+   "explanation": "Two effects point the same way. The lone pair of the ester's alkoxy oxygen is delocalised into the carbonyl, which supplies electron density to the carbon and makes it a poorer electrophile than a ketone carbonyl. And the boron-hydrogen bond gives up hydride less readily than the aluminium-hydrogen bond of LiAlH\u2084. The weaker donor meeting the poorer electrophile is too slow to matter, which is why the ester survives NaBH\u2084 and falls to LiAlH\u2084.",
+   "wrong": {
+    "A": "Borohydride is the smaller of the two reagents, and the selectivity is electronic rather than steric: a tert-butyl ketone is still reduced while a methyl ester is not.",
+    "C": "Borohydride does react slowly with methanol, which is why the solvent is used cold, but a reagent destroyed by the solvent would fail to reduce the ketone as well.",
+    "D": "An ester carbon is at the carboxylic acid oxidation level, two steps above an alcohol, and LiAlH\u2084 reduces it all the way down."
+   },
+   "category": "5D",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp4-p6-q3",
+   "passageId": "cp4-p6",
+   "stem": "A substrate carrying a free hydroxyl group consumes an equivalent of CH\u2083MgBr before any addition occurs. Why?",
+   "choices": {
+    "A": "The Grignard carbon is a strong base, so it takes the hydroxyl proton and leaves as methane.",
+    "B": "The hydroxyl oxygen coordinates to magnesium and displaces the ether that keeps the reagent in solution.",
+    "C": "The hydroxyl group oxidises the Grignard carbon, converting the reagent into a methoxide salt.",
+    "D": "The hydroxyl group adds to the ketone faster than the Grignard does, giving a hemiketal that resists attack."
+   },
+   "correct": "A",
+   "explanation": "The carbon of a Grignard reagent carries substantial negative charge, which makes it a powerful base as well as a nucleophile. An oxygen-hydrogen bond is acidic enough to be deprotonated by it at once, so the reagent is converted to methane and a magnesium alkoxide and is gone. That is also why the reaction demands rigorously dry ether: water would do the same thing faster.",
+   "wrong": {
+    "B": "Coordination to magnesium does occur, but it would at worst slow the reagent down. What stoichiometrically consumes an equivalent is an acid-base reaction, not a change of solvation.",
+    "C": "No electrons change hands in an oxidation sense here. A proton transfer accounts for the whole equivalent consumed, and the gas evolved is methane rather than methanol.",
+    "D": "Hemiketal formation is reversible and does not remove the reagent. The loss is of the nucleophile, which is why a full equivalent must be added before addition begins."
+   },
+   "category": "5D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp4-p6-q4",
+   "passageId": "cp4-p6",
+   "stem": "2-Butanone is reduced with NaBH\u2084 in methanol. Which of the following are true of the alcohol produced? I. The carbon that was the carbonyl carbon is a stereocentre. II. The product is formed as a racemic mixture. III. A solution of the product rotates plane-polarised light.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "C",
+   "explanation": "Reduction gives butan-2-ol, whose second carbon carries a hydroxyl, a hydrogen, a methyl and an ethyl group: four different groups, so it is a stereocentre and I is true. The carbonyl is planar and the reagent is achiral, so hydride arrives at the two faces at equal rates and the two enantiomers are produced in equal amounts, making II true. Equal amounts of two enantiomers rotate light equally and oppositely, so the racemate is optically inactive and III is false.",
+   "wrong": {
+    "A": "I is true, but so is II: nothing in an achiral reagent attacking a planar carbonyl can favour one face over the other, so the product must be racemic.",
+    "B": "II alone cannot be right, because a product can only be racemic if it has a stereocentre to begin with, which is the content of I.",
+    "D": "III is the one that fails. A racemic mixture contains equal amounts of two enantiomers whose rotations cancel exactly, so no rotation is observed."
+   },
+   "category": "5D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "13"
+  },
+  {
+   "id": "cp4-p6-q5",
+   "passageId": "cp4-p6",
+   "stem": "The chemists need the secondary alcohol as a single enantiomer. Which modification of the reduction is best justified?",
+   "choices": {
+    "A": "Run the borohydride reduction at a much lower temperature, which favours attack at one face.",
+    "B": "Reduce with an enzyme or a chiral hydride reagent, so that the two faces are no longer equivalent.",
+    "C": "Reduce with LiAlH\u2084 instead, which is more reactive and delivers hydride to one face only.",
+    "D": "Recrystallise the racemic product from ethanol, which leaves one enantiomer in solution."
+   },
+   "correct": "B",
+   "explanation": "The two faces of the carbonyl are equivalent only because everything else in the flask is achiral. A chiral reducing agent, or the chiral active site of a ketoreductase, meets the two faces as genuinely different environments, so the two transition states differ in energy and one enantiomer is formed in excess. That is the only one of these changes that introduces chirality into the reaction at all.",
+   "wrong": {
+    "A": "Lowering the temperature magnifies a difference in activation energy, but here there is none to magnify: the two faces are equally accessible, so the product is racemic at any temperature.",
+    "C": "LiAlH\u2084 is more reactive but equally achiral, and a more reactive achiral reagent is if anything less selective rather than more.",
+    "D": "Two enantiomers have identical solubility in an achiral solvent, so an ordinary recrystallisation cannot separate them."
+   },
+   "category": "5D",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "13"
+  },
+  {
+   "id": "cp4-p7-q1",
+   "passageId": "cp4-p7",
+   "stem": "What is the smallest separation the oil objective of numerical aperture 1.40 can resolve in green light?",
+   "choices": {
+    "A": "196 nm",
+    "B": "220 nm",
+    "C": "393 nm",
+    "D": "423 nm"
+   },
+   "correct": "A",
+   "explanation": "Abbe's limit is the wavelength divided by twice the numerical aperture: 550 divided by 2.80 is 196 nm, the figure Table 1 gives for that objective. Two features closer together than about a fifth of a micrometre are therefore recorded as one, whatever magnification is applied afterwards.",
+   "wrong": {
+    "B": "220 nm is the limit of the 1.25 oil objective. The question asks about the 1.40 objective, which is the better of the two.",
+    "C": "393 nm leaves the factor of two out of the denominator, dividing 550 by 1.40 alone, and so doubles the stated limit.",
+    "D": "423 nm is the limit of the dry objective of numerical aperture 0.65, which works through air rather than oil."
+   },
+   "category": "4D",
+   "skill": "skill-4",
+   "difficulty": "easy",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-p7-q2",
+   "passageId": "cp4-p7",
+   "stem": "The same 1.40 objective is used with blue light of 450 nm. What separation can it now resolve?",
+   "choices": {
+    "A": "131 nm",
+    "B": "161 nm",
+    "C": "196 nm",
+    "D": "241 nm"
+   },
+   "correct": "B",
+   "explanation": "The limit is proportional to the wavelength, so shortening the wavelength from 550 nm to 450 nm improves it in the same ratio: 450 divided by 2.80 is 161 nm. The improvement is real but modest, about 18 percent, which is the whole gain available from working at the blue end of the visible range.",
+   "wrong": {
+    "A": "131 nm applies the ratio of the wavelengths twice over, as though the limit went with the square of the wavelength. It is proportional to the first power.",
+    "C": "196 nm is the green-light limit, unchanged. The wavelength appears in the numerator of Abbe's expression, so changing it must change the answer.",
+    "D": "241 nm scales the limit the wrong way round, as though a shorter wavelength resolved less detail rather than more."
+   },
+   "category": "4D",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-p7-q3",
+   "passageId": "cp4-p7",
+   "stem": "Why does an objective of larger numerical aperture resolve finer detail?",
+   "choices": {
+    "A": "It magnifies the image more, and the magnification is what sets the detail that can be seen.",
+    "B": "It admits more light, and a brighter image lets the eye or the camera distinguish more closely spaced features.",
+    "C": "It has a shallower depth of field, and a thinner optical section is what defines resolution in a microscope.",
+    "D": "It gathers light diffracted through larger angles, and those rays carry the information about the finest spacings."
+   },
+   "correct": "D",
+   "explanation": "A specimen with fine periodic structure diffracts light through large angles, and the finer the spacing the larger the angle. A lens can only reconstruct a spacing whose diffracted orders it collects, so widening the cone of collection, which is what a larger numerical aperture means, extends the range of spacings the image contains. Immersion oil helps for the same reason: it allows rays that would otherwise be totally internally reflected at the coverslip to reach the lens.",
+   "wrong": {
+    "A": "Magnification spreads the image over more of the detector but enlarges the diffraction discs along with everything else, which is why the passage calls further magnification empty.",
+    "B": "Brightness and resolution are independent. A dim image of well-separated discs can be integrated for longer; a bright image of overlapping discs stays merged.",
+    "C": "Depth of field does fall as numerical aperture rises, but it describes resolution along the optical axis rather than the lateral separation Abbe's limit refers to."
+   },
+   "category": "4D",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-p7-q4",
+   "passageId": "cp4-p7",
+   "stem": "Which change would do the LEAST to improve the resolution obtained with the dry objective of numerical aperture 0.65?",
+   "choices": {
+    "A": "Changing the eyepiece from one of 10x to one of 20x.",
+    "B": "Illuminating the specimen with 450 nm light in place of 550 nm light.",
+    "C": "Replacing the objective with a dry one of numerical aperture 0.95.",
+    "D": "Replacing the objective with the oil objective of numerical aperture 1.40."
+   },
+   "correct": "A",
+   "explanation": "Resolution is fixed by the wavelength and the numerical aperture of the objective, and the eyepiece changes neither. Doubling the eyepiece power doubles the size of the image and of every diffraction disc in it, so nothing previously merged becomes separate; this is empty magnification. The other three changes act on a term in Abbe's expression: the blue light improves the limit by 18 percent, the 0.95 objective by 32 percent, and the oil objective by more than half.",
+   "wrong": {
+    "B": "Shortening the wavelength shortens the limit in proportion, from 423 nm to 346 nm, which is a real if modest improvement.",
+    "C": "Raising the numerical aperture from 0.65 to 0.95 improves the limit by about a third, to 289 nm, and needs no change of immersion medium.",
+    "D": "The oil objective more than halves the limit, from 423 nm to 196 nm, and is the largest improvement on the list."
+   },
+   "category": "4D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-p7-q5",
+   "passageId": "cp4-p7",
+   "stem": "Why are the two beads 150 nm apart recorded as a single spot by the 1.40 objective?",
+   "choices": {
+    "A": "Beads smaller than the wavelength of the light cannot absorb or emit it efficiently.",
+    "B": "Each bead is imaged as a disc about 200 nm across, so at 150 nm apart the two discs merge.",
+    "C": "The magnification is too low; at a high enough magnification a 150 nm gap would be resolved.",
+    "D": "The beads emit at a longer wavelength than they absorb, and the limit depends only on the exciting light."
+   },
+   "correct": "B",
+   "explanation": "A point emitter is imaged as a diffraction disc whose width is of the order of the Abbe limit, here 196 nm in green light. Two emitters separated by less than that produce discs that overlap through most of their area, and the sum of the two is a single broader spot with no dip between its peaks. Nothing is wrong with the beads or the lens; the limit is set by diffraction.",
+   "wrong": {
+    "A": "Fluorescent beads far smaller than the wavelength absorb and emit perfectly well, which is why single molecules can be detected at all.",
+    "C": "Magnification enlarges the two overlapping discs together, so the overlap is preserved at any magnification. The passage calls that empty magnification.",
+    "D": "The limit is evaluated at the wavelength being imaged, and the emission wavelength is the longer one, so using it would make the limit slightly worse rather than better."
+   },
+   "category": "4D",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-p8-q1",
+   "passageId": "cp4-p8",
+   "stem": "Why is inulin the standard solute for measuring the glomerular filtration rate?",
+   "choices": {
+    "A": "It is filtered freely and then neither reabsorbed nor secreted, so all that appears in urine was filtered.",
+    "B": "It is secreted by the proximal tubule in proportion to its plasma level, which amplifies the signal measured.",
+    "C": "It binds plasma protein tightly, so the filtered fraction reports the protein-free fraction of plasma.",
+    "D": "It is reabsorbed completely along the tubule, so its clearance reports the reabsorptive capacity of the nephron."
+   },
+   "correct": "A",
+   "explanation": "Clearance equals the filtration rate only when the amount in the urine is exactly the amount that crossed the glomerulus. That requires a solute small enough to pass the barrier freely, not bound to protein, and ignored by every transporter in the tubule. Inulin satisfies all three, and its clearance of 125 mL/min in Table 1 is therefore read directly as the filtration rate.",
+   "wrong": {
+    "B": "A secreted solute appears in urine in excess of what was filtered, so its clearance overstates filtration. Table 1 shows that for creatinine and, far more strongly, for para-aminohippurate.",
+    "C": "A protein-bound solute is held back at the glomerulus, so its clearance understates filtration. Inulin circulates free in the plasma water.",
+    "D": "A completely reabsorbed solute has a clearance of zero, as glucose does in Table 1, and tells one nothing about the filtration rate."
+   },
+   "category": "4B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-p8-q2",
+   "passageId": "cp4-p8",
+   "stem": "What net pressure drives filtration across this patient's glomerular barrier?",
+   "choices": {
+    "A": "68 mmHg",
+    "B": "40 mmHg",
+    "C": "27 mmHg",
+    "D": "12 mmHg"
+   },
+   "correct": "D",
+   "explanation": "Only the capillary hydrostatic pressure of 55 mmHg pushes fluid outward. Bowman's space pushes back with 15 mmHg and the plasma proteins hold water back with a colloid osmotic pressure of 28 mmHg, and taking both of those away from 55 mmHg leaves a net driving pressure of 12 mmHg. With a filtration rate of 125 mL/min, that implies a filtration coefficient of about 10 mL/min for each mmHg, which is the measure of how permeable and how extensive the barrier is.",
+   "wrong": {
+    "A": "68 mmHg adds the colloid osmotic pressure instead of subtracting it. Protein held in the capillary opposes filtration, because it holds water where the protein is.",
+    "B": "40 mmHg leaves the colloid osmotic pressure out altogether, counting only the two hydrostatic terms.",
+    "C": "27 mmHg leaves out the hydrostatic pressure in Bowman's space, which opposes filtration just as the protein does."
+   },
+   "category": "4B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-p8-q3",
+   "passageId": "cp4-p8",
+   "stem": "What is the clearance of urea in this patient?",
+   "choices": {
+    "A": "0.022 mL/min",
+    "B": "54 mL/min",
+    "C": "65 mL/min",
+    "D": "1950 mL/min"
+   },
+   "correct": "C",
+   "explanation": "Clearance is the urine concentration multiplied by the urine flow and divided by the plasma concentration: 1625 multiplied by 1.2 and divided by 30 gives 65 mL/min. That sits well below the filtration rate of 125 mL/min, which says that about half of the filtered urea is reabsorbed as it passes down the tubule.",
+   "wrong": {
+    "A": "0.022 mL/min inverts the ratio, dividing the plasma concentration by the urine concentration. The result is dimensionally a flow but describes nothing in the kidney.",
+    "B": "54 mL/min omits the urine flow, so it is a ratio of two concentrations rather than a volume cleared per minute.",
+    "D": "1950 mL/min is the amount excreted per minute with no division by the plasma concentration, which is the step that converts an excretion rate into a volume of plasma cleared."
+   },
+   "category": "4B",
+   "skill": "skill-4",
+   "difficulty": "medium",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-p8-q4",
+   "passageId": "cp4-p8",
+   "stem": "How does the colloid osmotic pressure of the plasma behave as blood moves along the glomerular capillary?",
+   "choices": {
+    "A": "It rises, because water leaves while the protein stays, so filtration slows along the capillary.",
+    "B": "It rises, because protein crosses into Bowman's space and draws water back after it.",
+    "C": "It falls, because protein is diluted by the water retained within the capillary.",
+    "D": "It is unchanged, because colloid osmotic pressure acts in the peritubular capillaries rather than the glomerulus."
+   },
+   "correct": "A",
+   "explanation": "The barrier passes water and small solutes and holds back protein, so the plasma that continues along the capillary has lost volume without losing protein and its protein concentration climbs. Colloid osmotic pressure climbs with it, the net driving pressure falls, and filtration is slower at the efferent end than at the afferent end. In some species filtration stops before the end of the capillary altogether.",
+   "wrong": {
+    "B": "Protein does not normally cross the glomerular barrier at all, which is precisely why it exerts an osmotic pressure across it.",
+    "C": "Water is the component that leaves, so the protein left behind becomes more concentrated rather than less.",
+    "D": "The 28 mmHg quoted in the passage is the glomerular value and is one of the three terms in the glomerular pressure balance."
+   },
+   "category": "5A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "12"
+  },
+  {
+   "id": "cp4-p8-q5",
+   "passageId": "cp4-p8",
+   "stem": "Creatinine clearance exceeds inulin clearance in this patient. Which of the following would, on its own, raise a measured creatinine clearance above the true filtration rate? I. Secretion of creatinine into the proximal tubule. II. An assay that overstates the urine creatinine concentration. III. An assay interference that understates the plasma creatinine concentration.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "D",
+   "explanation": "Clearance is urine concentration multiplied by flow and divided by plasma concentration, so anything that genuinely adds creatinine to the urine, or that inflates the numerator, or that deflates the denominator, raises the number computed. Secretion does the first, an assay reading the urine too high does the second, and an interference reading the plasma too low does the third. All three therefore belong, and the measured excess of 15 mL/min over inulin cannot distinguish between them.",
+   "wrong": {
+    "A": "I does raise the measured clearance, but it is not the only item that does: the two assay errors act on the same ratio and move it the same way.",
+    "B": "II raises the numerator, but so does secretion in I, and the plasma error in III raises the ratio by lowering its denominator.",
+    "C": "Both I and II raise the ratio, and so does III: a plasma concentration read too low divides the excretion rate by too small a number."
+   },
+   "category": "4B",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-p9-q1",
+   "passageId": "cp4-p9",
+   "stem": "From Figure 1, what is the activation energy of the catalysed reaction in the forward direction?",
+   "choices": {
+    "A": "30 kJ/mol",
+    "B": "50 kJ/mol",
+    "C": "80 kJ/mol",
+    "D": "110 kJ/mol"
+   },
+   "correct": "B",
+   "explanation": "The activation energy is the climb from the reactant level to the top of the barrier, read on the dashed profile for the catalysed reaction: 50 kJ/mol. The solid profile's 80 kJ/mol is the same climb without the enzyme, and the 30 kJ/mol difference between them is what the enzyme contributes.",
+   "wrong": {
+    "A": "30 kJ/mol is the overall enthalpy released by the reaction, which is the drop from reactants to products rather than a climb to a barrier.",
+    "C": "80 kJ/mol is the forward barrier of the uncatalysed reaction, shown by the solid curve.",
+    "D": "110 kJ/mol is the climb from the product level to the top of the uncatalysed barrier, which is the reverse activation energy without the enzyme."
+   },
+   "category": "5E",
+   "skill": "skill-4",
+   "difficulty": "easy",
+   "unit": "11"
+  },
+  {
+   "id": "cp4-p9-q2",
+   "passageId": "cp4-p9",
+   "stem": "Adding the enzyme changes each of the following EXCEPT",
+   "choices": {
+    "A": "the rate at which product appears from reactant.",
+    "B": "the equilibrium constant between reactant and product.",
+    "C": "the rate at which reactant appears from product.",
+    "D": "the energy of the arrangement at the top of the barrier."
+   },
+   "correct": "B",
+   "explanation": "The enzyme lowers the top of the barrier and leaves the reactant and product levels where they were. Both barriers therefore fall by 30 kJ/mol and both rates rise by the same factor, while the equilibrium constant, which is set by the 30 kJ/mol difference between the two levels, is untouched. A catalyst that could shift an equilibrium would be a way of getting work from nothing.",
+   "wrong": {
+    "A": "The forward rate rises: that is what the catalyst is for, and the drop from 80 to 50 kJ/mol raises it about a hundred thousand times at body temperature.",
+    "C": "The reverse rate rises by exactly the same factor, because the reverse barrier falls by the same 30 kJ/mol as the forward one.",
+    "D": "Lowering the energy of that arrangement, relative to the reactants, is the whole mechanism by which the enzyme works."
+   },
+   "category": "5E",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "11"
+  },
+  {
+   "id": "cp4-p9-q3",
+   "passageId": "cp4-p9",
+   "stem": "By about what factor does the enzyme raise the forward rate at 310 K? (R = 8.314 J mol\u207b\u00b9 K\u207b\u00b9)",
+   "choices": {
+    "A": "8.8 \u00d7 10\u207b\u2076",
+    "B": "1.6",
+    "C": "1.1 \u00d7 10\u2075",
+    "D": "1.4 \u00d7 10\u00b2\u00b9"
+   },
+   "correct": "C",
+   "explanation": "The rate constant carries the barrier in an exponential term, so the ratio of the two rate constants is the exponential of the difference in barriers divided by RT. Here RT is 8.314 multiplied by 310, about 2580 J/mol, and 30000 divided by 2580 is 11.6; the exponential of 11.6 is about 1.1 \u00d7 10\u2075. A barrier reduction of 30 kJ/mol, which is less than the strength of one hydrogen bond, is worth a hundred thousand times in rate.",
+   "wrong": {
+    "A": "8.8 \u00d7 10\u207b\u2076 is the reciprocal of the right factor, which comes from giving the exponent the wrong sign and so has the enzyme slowing the reaction down.",
+    "B": "1.6 is the ratio of the two barriers themselves. The barrier enters the rate constant exponentially, not proportionally, which is why small changes in it have such large effects.",
+    "D": "1.4 \u00d7 10\u00b2\u00b9 treats the 30 as kcal/mol. The figures in Figure 1 are in kJ/mol, and a kilocalorie is 4.184 kJ."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "11"
+  },
+  {
+   "id": "cp4-p9-q4",
+   "passageId": "cp4-p9",
+   "stem": "Which description of the transition state is correct?",
+   "choices": {
+    "A": "A short-lived species in a shallow minimum of the profile, which could in principle be trapped at low temperature.",
+    "B": "The complex of enzyme with substrate, which is the species whose concentration the rate constant refers to.",
+    "C": "The most energetic reactant molecule present, drawn from the high-energy tail of the Boltzmann distribution.",
+    "D": "The arrangement at the maximum of the profile, with bonds part broken and part made, which cannot be isolated."
+   },
+   "correct": "D",
+   "explanation": "A transition state sits at a maximum along the reaction coordinate, so every displacement from it along that coordinate lowers the energy and it has no lifetime in which to be collected. Its bonds are part broken and part made at once. An intermediate, by contrast, is a species in a minimum of its own, which can sometimes be detected or even isolated.",
+   "wrong": {
+    "A": "This describes an intermediate. A species in a minimum is stable against small displacements, which is exactly what the top of a barrier is not.",
+    "B": "The enzyme-substrate complex is a genuine intermediate that sits in a well before the barrier, and the enzyme's acceleration comes from binding the transition state better than it binds this complex.",
+    "C": "Energy drawn from the Boltzmann distribution is what lets a molecule reach the transition state; the transition state is the arrangement reached, not the molecule that reaches it."
+   },
+   "category": "5E",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "11"
+  },
+  {
+   "id": "cp4-p9-q5",
+   "passageId": "cp4-p9",
+   "stem": "Which observation would most directly support the claim that the enzyme works by binding the transition state more tightly than the substrate?",
+   "choices": {
+    "A": "A stable molecule shaped like the transition state inhibits the enzyme far more tightly than one shaped like the substrate.",
+    "B": "The enzyme binds its substrate with a dissociation constant far below the substrate concentration found in the cell.",
+    "C": "The rate rises with substrate concentration until every enzyme molecule is occupied and then levels off.",
+    "D": "The enzyme accelerates the reverse reaction by the same factor as it accelerates the forward one."
+   },
+   "correct": "A",
+   "explanation": "The claim is a statement about relative binding energies, so the test is a comparison of binding. A molecule built to imitate the transition state and a molecule built to imitate the substrate differ in which arrangement they present to the active site, and if the transition-state imitation binds orders of magnitude more tightly, the site does indeed recognise that arrangement best. This is why transition-state analogues are such powerful inhibitors.",
+   "wrong": {
+    "B": "Tight binding of the substrate on its own argues the other way: a deeper well under the reactants raises the climb to the barrier unless the barrier is lowered at least as much.",
+    "C": "Saturation at high substrate concentration follows from the enzyme having a finite number of sites and is seen whatever the catalytic mechanism.",
+    "D": "Equal acceleration of the two directions follows from the levels being unchanged and is true of every catalyst, so it cannot distinguish one mechanism from another."
+   },
+   "category": "5E",
+   "skill": "skill-3",
+   "difficulty": "hard",
+   "unit": "11"
+  },
+  {
+   "id": "cp4-p10-q1",
+   "passageId": "cp4-p10",
+   "stem": "What is the enthalpy change when one mole of glucose is converted to two moles of lactic acid?",
+   "choices": {
+    "A": "-120 kJ/mol",
+    "B": "-1464 kJ/mol",
+    "C": "-2808 kJ/mol",
+    "D": "-5496 kJ/mol"
+   },
+   "correct": "A",
+   "explanation": "Burning the glucose and burning the two moles of lactic acid lead to the same carbon dioxide and water, so the enthalpy of the conversion is the combustion enthalpy of glucose minus twice the combustion enthalpy of lactic acid. Twice -1344 is -2688, and taking that away from -2808 leaves -120 kJ/mol. The small size of the figure is the point: anaerobic glycolysis leaves most of the energy of glucose still locked in the lactate.",
+   "wrong": {
+    "B": "-1464 kJ/mol uses one mole of lactic acid instead of two. The balanced equation makes two moles from each mole of glucose, and the coefficient must be applied.",
+    "C": "-2808 kJ/mol is the combustion enthalpy of glucose itself, which would be the answer only if the products had no combustion enthalpy left to subtract.",
+    "D": "-5496 kJ/mol adds the two combustion enthalpies instead of subtracting them, which describes burning the glucose and the lactic acid together rather than converting one to the other."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "11"
+  },
+  {
+   "id": "cp4-p10-q2",
+   "passageId": "cp4-p10",
+   "stem": "Why can the enthalpy change of a reaction that cannot be run in a calorimeter be obtained from combustion data?",
+   "choices": {
+    "A": "Because combustion goes to completion, and reactions that go to completion have equal enthalpy changes.",
+    "B": "Because the enthalpy change of any reaction is the sum of the bond enthalpies of the products formed.",
+    "C": "Because oxygen appears in both combustion reactions and cancels, which makes the other terms equal.",
+    "D": "Because enthalpy is a state function, so the change between two states does not depend on the route taken."
+   },
+   "correct": "D",
+   "explanation": "Enthalpy depends only on the state of the system, so the change between a given set of reactants and a given set of products is fixed no matter which path connects them. One may therefore invent a path that is measurable, here burning everything down to carbon dioxide and water, and add the steps along it. That is Hess's law, and it is why a table of combustion enthalpies can answer questions about reactions nobody has ever run cleanly.",
+   "wrong": {
+    "A": "Going to completion makes a reaction easy to measure but says nothing about how large its enthalpy change is; the four values in Table 1 are all complete combustions and all different.",
+    "B": "Bond enthalpies of the products alone give no answer: the bonds broken in the reactants must be counted too, and even then the result is an estimate rather than the measured value.",
+    "C": "Oxygen does appear on both sides of the cycle, but writing the same reagent twice is bookkeeping. What licenses the subtraction is that enthalpy is path-independent."
+   },
+   "category": "5E",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "11"
+  },
+  {
+   "id": "cp4-p10-q3",
+   "passageId": "cp4-p10",
+   "stem": "What is the enthalpy change for the fermentation of one mole of glucose to two moles of ethanol and two moles of carbon dioxide?",
+   "choices": {
+    "A": "-74 kJ/mol",
+    "B": "-120 kJ/mol",
+    "C": "-148 kJ/mol",
+    "D": "-1441 kJ/mol"
+   },
+   "correct": "A",
+   "explanation": "Carbon dioxide is already a combustion product, so it contributes nothing to subtract and only the ethanol does. The change is the combustion enthalpy of glucose minus twice that of ethanol: twice -1367 is -2734, and -2808 minus that quantity leaves -74 kJ/mol. Fermentation is thus even less exothermic than the lactate route, and the ethanol retains about 97 percent of the enthalpy glucose would release on complete combustion.",
+   "wrong": {
+    "B": "-120 kJ/mol is the answer for the lactate route, which uses the lactic acid row of Table 1 in place of the ethanol row.",
+    "C": "-148 kJ/mol applies the coefficient of two a second time, to the finished answer, after it has already been applied to the ethanol term.",
+    "D": "-1441 kJ/mol uses one mole of ethanol rather than two, leaving half of the product's combustion enthalpy out of the cycle."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "11"
+  },
+  {
+   "id": "cp4-p10-q4",
+   "passageId": "cp4-p10",
+   "stem": "Which of the following follow from the fermentation enthalpy and the combustion enthalpy of glucose? I. Most of the chemical energy of the glucose is still held in the ethanol. II. A cell able to oxidise the ethanol further could release much more energy than fermentation did. III. The fermentation enthalpy is the same however many enzymatic steps the route takes.",
+   "choices": {
+    "A": "I only",
+    "B": "II only",
+    "C": "I and II only",
+    "D": "I, II and III"
+   },
+   "correct": "D",
+   "explanation": "Fermentation releases 74 kJ/mol out of the 2808 kJ/mol that complete combustion of glucose would release, so the ethanol and carbon dioxide between them still hold about 97 percent of it, which is I. Oxidising that ethanol would release most of the remainder, which is II. And because enthalpy is a state function, the change depends only on the starting and finishing compounds and not on how many enzymes lie between them, which is III.",
+   "wrong": {
+    "A": "I is true but incomplete. The energy still held in the ethanol is precisely the energy a further oxidation could release, which makes II true as well.",
+    "B": "II is true, but it rests on I: the ethanol can yield more energy only because most of the original energy is still in it.",
+    "C": "Both I and II hold, and so does III. Hess's law makes the enthalpy change independent of the number of steps, which is what allows the calculation in the first place."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "11"
+  },
+  {
+   "id": "cp4-d1",
+   "passageId": null,
+   "stem": "At 25 \u00b0C the vapour pressure of pure water is 23.8 torr. What is the vapour pressure above a solution of 1.00 mol of glucose in 9.00 mol of water?",
+   "choices": {
+    "A": "2.38 torr",
+    "B": "19.5 torr",
+    "C": "21.4 torr",
+    "D": "26.4 torr"
+   },
+   "correct": "C",
+   "explanation": "Glucose is not volatile, so the only contribution to the vapour is from water, and Raoult's law makes that contribution the mole fraction of water multiplied by the pure value. There are 10.00 mol in total and 9.00 of them are water, so the mole fraction is 0.900 and the pressure is 0.900 \u00d7 23.8 = 21.4 torr. The lowering of 2.4 torr depends on how many solute particles are present and not on what they are.",
+   "wrong": {
+    "A": "2.38 torr uses the mole fraction of the solute rather than of the solvent, which would be the answer if glucose were the only volatile component.",
+    "B": "19.5 torr treats the glucose as though it separated into two particles, giving 11.00 mol in total. Glucose is a molecular solute and does not dissociate.",
+    "D": "26.4 torr divides by the mole fraction instead of multiplying, which raises the pressure above that of pure water; a non-volatile solute can only lower it."
+   },
+   "category": "5A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "12"
+  },
+  {
+   "id": "cp4-d2",
+   "passageId": null,
+   "stem": "Hexane and toluene have similar molar masses, yet toluene boils 42 \u00b0C higher. Which best explains the difference?",
+   "choices": {
+    "A": "Toluene molecules hydrogen bond to one another, whereas hexane molecules have no way to do so.",
+    "B": "Toluene has a permanent dipole large enough to dominate the attraction between its molecules.",
+    "C": "Toluene's delocalised electrons are the more easily polarised, so dispersion attractions between its molecules are stronger.",
+    "D": "Hexane is the branched molecule of the two, and branching lets molecules pack closely and escape less readily."
+   },
+   "correct": "C",
+   "explanation": "Neither liquid can hydrogen bond, so both are held together by dispersion forces, which depend on how readily an electron cloud distorts. The delocalised electrons of an aromatic ring distort far more readily than the localised bonding electrons of an alkane chain, and the flat ring also brings neighbouring molecules into broad contact. Stronger attraction means a higher temperature is needed before the vapour pressure reaches atmospheric, which is the boiling point.",
+   "wrong": {
+    "A": "Hydrogen bonding needs hydrogen bonded to oxygen, nitrogen or fluorine, and toluene is a hydrocarbon with neither a donor nor an acceptor.",
+    "B": "Toluene's dipole moment is a few tenths of a debye, far too small to account for a difference of 42 \u00b0C; dispersion dominates in both liquids.",
+    "D": "Hexane is the unbranched isomer, and in any case branching reduces the contact area between molecules, which lowers a boiling point rather than raising it."
+   },
+   "category": "5B",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "12"
+  },
+  {
+   "id": "cp4-d3",
+   "passageId": null,
+   "stem": "A glass electrode is calibrated in dilute standard buffers and then used on a sample of the same hydrogen ion concentration but much higher ionic strength. The sample reads a little high in pH. Why?",
+   "choices": {
+    "A": "The added ions are reduced at the reference electrode, which shifts the reference potential.",
+    "B": "The added ions displace hydrogen ions from the buffer, which raises the concentration of acid.",
+    "C": "The glass membrane becomes permeable to the added ions, so the cell reports their concentration.",
+    "D": "The electrode reports hydrogen ion activity, and added ions lower the activity coefficient."
+   },
+   "correct": "D",
+   "explanation": "The potential across the glass depends on the activity of hydrogen ions, which is their concentration multiplied by an activity coefficient. Surrounding each ion with a cloud of other ions shields it and lowers that coefficient, so the activity falls below the concentration and the electrode reports a pH above the value a concentration calculation predicts. This is why standards are made up at a defined ionic strength.",
+   "wrong": {
+    "A": "A reference electrode is built so that its half-reaction is unaffected by the sample, and the ions added here are not reduced at it in any case.",
+    "B": "Displacing hydrogen ions from a buffer would raise their concentration, which lowers pH rather than raising it, so this gets the direction of the error wrong.",
+    "C": "The glass is selective for hydrogen ions over other cations by many orders of magnitude, and its response to sodium only appears above about pH 11."
+   },
+   "category": "5A",
+   "skill": "skill-1",
+   "difficulty": "medium",
+   "unit": "10"
+  },
+  {
+   "id": "cp4-d4",
+   "passageId": null,
+   "stem": "The deltoid inserts 5.0 cm from the shoulder joint and holds an outstretched arm horizontal, pulling at right angles to the bone. The arm weighs 35 N and its centre of mass is 30 cm from the joint. What force does the deltoid exert?",
+   "choices": {
+    "A": "5.8 N",
+    "B": "35 N",
+    "C": "210 N",
+    "D": "1050 N"
+   },
+   "correct": "C",
+   "explanation": "Torques about the joint balance: the muscle force multiplied by 5.0 cm equals the weight of 35 N multiplied by 30 cm. The muscle force is therefore 35 multiplied by 30 and divided by 5.0, which is 210 N, six times the weight it supports. Short effort arms are the rule in the limbs, and the forces they demand are why joints carry such large compressive loads.",
+   "wrong": {
+    "A": "5.8 N inverts the arms, multiplying by 5.0 and dividing by 30. A muscle on the shorter arm must pull harder than the load, not more gently.",
+    "B": "35 N assumes the muscle force equals the weight, which would hold only if the two acted at the same distance from the joint.",
+    "D": "1050 N is the torque of the arm's weight in newton centimetres, quoted as though it were a force. Dividing by the 5.0 cm effort arm is the step that converts it."
+   },
+   "category": "4A",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "15"
+  },
+  {
+   "id": "cp4-d5",
+   "passageId": null,
+   "stem": "A cell is built from two copper electrodes, one dipping in 0.0010 M Cu\u00b2\u207a and the other in 0.10 M Cu\u00b2\u207a, at 25 \u00b0C. What potential does it develop? (2.303RT/F = 0.0592 V)",
+   "choices": {
+    "A": "0 V",
+    "B": "0.059 V",
+    "C": "0.118 V",
+    "D": "2.96 V"
+   },
+   "correct": "B",
+   "explanation": "Both half-cells have the same standard potential, so the whole potential comes from the concentration term. Copper deposits in the concentrated half-cell and dissolves in the dilute one, transferring two electrons, so the potential is 0.0592 divided by 2 and multiplied by the logarithm of the ratio 100, which is 0.0296 \u00d7 2 = 0.059 V. Concentration cells deliver small potentials because the logarithm of even a hundredfold ratio is only 2.",
+   "wrong": {
+    "A": "0 V would follow if only the standard potentials mattered. The Nernst equation makes the potential depend on concentration as well, and the two half-cells differ a hundredfold.",
+    "C": "0.118 V leaves out the division by the two electrons transferred in a copper half-reaction.",
+    "D": "2.96 V uses the concentration ratio of 100 directly in place of its logarithm, which is 2."
+   },
+   "category": "4C",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "14"
+  },
+  {
+   "id": "cp4-d6",
+   "passageId": null,
+   "stem": "A compound contains both a ketone and a methyl ester. It is stirred with NaBH\u2084 in methanol at 0 \u00b0C. What is the expected product?",
+   "choices": {
+    "A": "the alcohol from the ester, with the ketone unchanged",
+    "B": "the alcohol from the ketone, with the ester unchanged",
+    "C": "alcohols at both of the carbonyl groups",
+    "D": "an aldehyde from the ester, with the ketone unchanged"
+   },
+   "correct": "B",
+   "explanation": "Borohydride is a mild hydride donor and reduces the more electrophilic carbonyl only. A ketone carbonyl has nothing donating electron density into it, while an ester carbonyl is fed by the lone pair of its alkoxy oxygen and is correspondingly less electrophilic. So the ketone becomes a secondary alcohol and the ester is recovered untouched; reducing the ester as well would need LiAlH\u2084.",
+   "wrong": {
+    "A": "This reverses the reactivity. The ester is the less electrophilic of the two carbonyl groups, so it is the one borohydride leaves alone.",
+    "C": "Reducing both would require LiAlH\u2084, whose aluminium-hydrogen bonds give up hydride far more readily than the boron-hydrogen bonds of NaBH\u2084.",
+    "D": "An aldehyde would mean stopping half way through the reduction of the ester, which hydride reagents do not do: the tetrahedral intermediate collapses and is reduced again."
+   },
+   "category": "5D",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "13"
+  },
+  {
+   "id": "cp4-d7",
+   "passageId": null,
+   "stem": "A pupil 3.0 mm across admits light of 550 nm. By the Rayleigh criterion, 1.22 \u03bb divided by the aperture, what is the smallest angular separation the eye can resolve?",
+   "choices": {
+    "A": "9.2 \u00d7 10\u207b\u2075 rad",
+    "B": "1.8 \u00d7 10\u207b\u2074 rad",
+    "C": "2.2 \u00d7 10\u207b\u2074 rad",
+    "D": "2.2 \u00d7 10\u207b\u00b3 rad"
+   },
+   "correct": "C",
+   "explanation": "Putting the numbers in: 1.22 multiplied by 550 \u00d7 10\u207b\u2079 m and divided by 3.0 \u00d7 10\u207b\u00b3 m gives 2.2 \u00d7 10\u207b\u2074 rad. That is about 0.8 of an arcminute, which matches the familiar figure that an eye resolves detail of about one arcminute, and it is the reason a letter chart is read at a fixed distance.",
+   "wrong": {
+    "A": "9.2 \u00d7 10\u207b\u2075 rad uses a factor of one half in place of 1.22. The one half belongs to Abbe's limit for a microscope, not to the Rayleigh criterion for a circular aperture.",
+    "B": "1.8 \u00d7 10\u207b\u2074 rad omits the factor of 1.22, which accounts for the shape of the Airy pattern formed by a circular pupil.",
+    "D": "2.2 \u00d7 10\u207b\u00b3 rad takes the pupil as 0.30 mm rather than 3.0 mm, and so overstates the angle tenfold."
+   },
+   "category": "4D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-d8",
+   "passageId": null,
+   "stem": "In nephrotic syndrome the plasma colloid osmotic pressure falls from 28 mmHg to 14 mmHg. With glomerular capillary pressure 55 mmHg and Bowman's space pressure 15 mmHg, what is the net filtration pressure?",
+   "choices": {
+    "A": "6 mmHg",
+    "B": "12 mmHg",
+    "C": "26 mmHg",
+    "D": "40 mmHg"
+   },
+   "correct": "C",
+   "explanation": "The outward hydrostatic pressure of 55 mmHg is opposed by 15 mmHg in Bowman's space and by the colloid osmotic pressure, now 14 mmHg. Taking both away from 55 mmHg leaves 26 mmHg, against 12 mmHg with a normal plasma protein level. Losing protein into the urine therefore raises the pressure driving glomerular filtration, while the same shortage of plasma protein favours oedema in the capillaries of the tissues.",
+   "wrong": {
+    "A": "6 mmHg halves the normal net pressure of 12 mmHg. It is the colloid osmotic term that halves, and that term is only one of three in the balance.",
+    "B": "12 mmHg is the net pressure before the protein was lost, so it ignores the change the question describes.",
+    "D": "40 mmHg drops the colloid osmotic term altogether. The protein level has fallen by half, not to zero."
+   },
+   "category": "4B",
+   "skill": "skill-2",
+   "difficulty": "medium",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-d9",
+   "passageId": null,
+   "stem": "A catalyst lowers the activation energy of a reaction from 75 kJ/mol to 50 kJ/mol. By what factor does the rate constant rise at 300 K? (R = 8.314 J mol\u207b\u00b9 K\u207b\u00b9)",
+   "choices": {
+    "A": "1.5",
+    "B": "2.2 \u00d7 10\u2074",
+    "C": "5.1 \u00d7 10\u2078",
+    "D": "1.6 \u00d7 10\u00b9\u2078"
+   },
+   "correct": "B",
+   "explanation": "The ratio of the two rate constants is the exponential of the difference in activation energies divided by RT. RT is 8.314 multiplied by 300, about 2490 J/mol, and 25000 divided by 2490 is about 10.0, whose exponential is 2.2 \u00d7 10\u2074. A barrier lowered by a third raises the rate more than twenty thousand times, which is the whole reason catalysis matters.",
+   "wrong": {
+    "A": "1.5 is the ratio of the barriers themselves, 75 divided by 50. The barrier enters the rate constant inside an exponential, so the ratio of the barriers is not the ratio of the rates.",
+    "C": "5.1 \u00d7 10\u2078 counts the difference twice, using 50 kJ/mol in the exponent in place of the 25 kJ/mol by which the barrier actually fell.",
+    "D": "1.6 \u00d7 10\u00b9\u2078 treats the 25 as kcal/mol. The barriers are quoted in kJ/mol, and a kilocalorie is 4.184 kJ."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "11"
+  },
+  {
+   "id": "cp4-d10",
+   "passageId": null,
+   "stem": "For an elementary step whose enthalpy change is positive, which statement is correct?",
+   "choices": {
+    "A": "The activation energy of the forward step is equal to the enthalpy change of the step.",
+    "B": "The transition state lies lower in energy than the products of the step.",
+    "C": "The activation energy of the reverse step is smaller than that of the forward step.",
+    "D": "The forward and reverse steps have equal activation energies, since they share one transition state."
+   },
+   "correct": "C",
+   "explanation": "Both directions climb to the same transition state, but they start from different levels. In an endothermic step the products lie above the reactants, so the climb from the product side is the shorter of the two: the reverse activation energy is the forward one minus the enthalpy change. This is why warming an endothermic reaction speeds the forward direction more than the reverse and shifts the equilibrium forward.",
+   "wrong": {
+    "A": "The forward activation energy is the enthalpy change plus the reverse activation energy, so the two are equal only in the limiting case where the reverse step has no barrier at all.",
+    "B": "A transition state is a maximum along the path, so it lies above both the reactants and the products of its own step.",
+    "D": "The two directions share a transition state but not a starting level, and it is the difference between level and summit that defines an activation energy."
+   },
+   "category": "5E",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "11"
+  },
+  {
+   "id": "cp4-d11",
+   "passageId": null,
+   "stem": "The standard enthalpy of combustion is -1367 kJ/mol for ethanol and -874 kJ/mol for acetic acid. What is the enthalpy change for the oxidation of ethanol to acetic acid and water?",
+   "choices": {
+    "A": "-493 kJ/mol",
+    "B": "-874 kJ/mol",
+    "C": "-1367 kJ/mol",
+    "D": "-2241 kJ/mol"
+   },
+   "correct": "A",
+   "explanation": "Burning the ethanol and burning the acetic acid both end at carbon dioxide and water, so the oxidation of one to the other is the combustion enthalpy of ethanol minus that of acetic acid. Subtracting -874 from -1367 leaves -493 kJ/mol. The acetic acid still holds nearly two thirds of what the ethanol could have released, which is why acetate is worth oxidising further.",
+   "wrong": {
+    "B": "-874 kJ/mol quotes the combustion enthalpy of the product rather than the change between the two compounds.",
+    "C": "-1367 kJ/mol quotes the combustion enthalpy of the reactant, which would be the answer only if the product were carbon dioxide and water.",
+    "D": "-2241 kJ/mol adds the two values instead of subtracting them, which describes burning both compounds rather than converting one into the other."
+   },
+   "category": "5E",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "11"
+  },
+  {
+   "id": "cp4-d12",
+   "passageId": null,
+   "stem": "Which pair of reagents, after an aqueous quench, gives 1-phenylethanol by addition of a carbon nucleophile to a carbonyl group?",
+   "choices": {
+    "A": "acetophenone and NaBH\u2084",
+    "B": "benzaldehyde and CH\u2083MgBr",
+    "C": "benzoic acid and CH\u2083MgBr",
+    "D": "methyl benzoate and CH\u2083MgBr"
+   },
+   "correct": "B",
+   "explanation": "1-Phenylethanol has a hydroxyl, a hydrogen, a methyl and a phenyl group on one carbon. Building it by adding a carbon nucleophile means supplying the methyl from the reagent and the rest from the carbonyl compound, which makes benzaldehyde and methylmagnesium bromide the pair: the methyl adds to the aldehyde carbon and the quench protonates the resulting alkoxide.",
+   "wrong": {
+    "A": "This pair does give 1-phenylethanol, but by delivering hydride to the carbonyl. No carbon-carbon bond is made, and the question asks for addition of a carbon nucleophile.",
+    "C": "The acid proton of benzoic acid destroys the Grignard reagent before any addition, so the first equivalent is consumed as methane and a carboxylate.",
+    "D": "An ester is attacked twice by a Grignard reagent, so methyl benzoate with excess reagent gives the tertiary alcohol 2-phenylpropan-2-ol rather than a secondary one."
+   },
+   "category": "5D",
+   "skill": "skill-2",
+   "difficulty": "hard",
+   "unit": "13"
+  },
+  {
+   "id": "cp4-d13",
+   "passageId": null,
+   "stem": "A natural product boils at 230 \u00b0C at atmospheric pressure but decomposes above 150 \u00b0C. Which approach to purifying it by distillation is best justified?",
+   "choices": {
+    "A": "Distil under reduced pressure, which lowers the temperature at which the liquid boils.",
+    "B": "Distil at atmospheric pressure with strong heating, so that less time is spent above 150 \u00b0C.",
+    "C": "Add a higher-boiling solvent, so that the mixture distils at a steadier temperature throughout.",
+    "D": "Fit a longer fractionating column, which lowers the temperature the liquid has to reach to boil."
+   },
+   "correct": "A",
+   "explanation": "A liquid boils when its vapour pressure equals the pressure above it, so lowering that pressure lowers the boiling temperature. Pumping the apparatus down to a few tens of torr brings a compound that boils at 230 \u00b0C under one atmosphere comfortably below 150 \u00b0C, and the distillation then runs without decomposition. This is standard practice for thermally fragile natural products.",
+   "wrong": {
+    "B": "Faster heating does not lower the temperature reached, and the compound decomposes above 150 \u00b0C, so even brief exposure to 230 \u00b0C destroys material.",
+    "C": "A higher-boiling solvent raises the temperature of the mixture rather than lowering it, and adds a second component to be separated afterwards.",
+    "D": "A column improves the separation between components of similar volatility. It does not change the boiling temperature, which is fixed by vapour pressure and applied pressure."
+   },
+   "category": "5C",
+   "skill": "skill-3",
+   "difficulty": "medium",
+   "unit": "12"
+  },
+  {
+   "id": "cp4-d14",
+   "passageId": null,
+   "stem": "A dye absorbs at 494 nm because a photon of that energy lifts an electron from the highest occupied to the lowest unoccupied molecular orbital of its conjugated system. Which change would move the absorption to a longer wavelength?",
+   "choices": {
+    "A": "Breaking one double bond of the conjugated system, which shortens the delocalised region.",
+    "B": "Extending the conjugated system, which narrows the gap between the two orbitals involved.",
+    "C": "Adding a withdrawing group well away from the conjugated system, which lowers both orbitals alike.",
+    "D": "Cooling the solution, which leaves the molecule less vibrational energy to contribute to the jump."
+   },
+   "correct": "B",
+   "explanation": "A longer wavelength means a smaller photon energy, so the question is how to narrow the gap between the two orbitals. Spreading the electrons over more atoms lowers the unoccupied orbital and raises the occupied one, which is why a longer conjugated chain absorbs further towards the red; it is the reason the long polyene of a carotene is orange while a single alkene absorbs in the ultraviolet.",
+   "wrong": {
+    "A": "Shortening the conjugation widens the gap, so the absorption moves to a shorter wavelength rather than a longer one.",
+    "C": "A group remote from the conjugated system that lowers both orbitals by the same amount leaves the gap, and so the wavelength absorbed, as it was.",
+    "D": "Cooling sharpens the band and alters its shape, but the position of the maximum is set by the electronic gap, which the temperature does not change."
+   },
+   "category": "4E",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "16"
+  },
+  {
+   "id": "cp4-d15",
+   "passageId": null,
+   "stem": "Four liquids are compared at 25 \u00b0C. Which has the lowest vapour pressure?",
+   "choices": {
+    "A": "glycerol, which carries three hydroxyl groups on three carbons",
+    "B": "ethanol, which carries one hydroxyl group on two carbons",
+    "C": "diethyl ether, whose oxygen carries no hydrogen of its own",
+    "D": "pentane, whose molecules attract only through dispersion"
+   },
+   "correct": "A",
+   "explanation": "Vapour pressure measures how readily molecules leave the liquid, so the liquid whose molecules are held most firmly has the lowest. Glycerol offers three hydroxyl groups per small molecule, so each molecule is tied into a network of several hydrogen bonds at once and must break all of them to escape. Its vapour pressure at 25 \u00b0C is a small fraction of a torr, while the other three are measured in tens or hundreds.",
+   "wrong": {
+    "B": "Ethanol hydrogen bonds, but through one hydroxyl group rather than three, and its vapour pressure at 25 \u00b0C is about 59 torr.",
+    "C": "An ether oxygen can accept a hydrogen bond but has no hydrogen to donate, so ether molecules do not hydrogen bond to each other and the liquid is among the most volatile here.",
+    "D": "Dispersion forces between pentane molecules are the weakest attractions on the list, which makes its vapour pressure one of the highest rather than the lowest."
+   },
+   "category": "5B",
+   "skill": "skill-1",
+   "difficulty": "easy",
+   "unit": "12"
+  }
+ ]
+}

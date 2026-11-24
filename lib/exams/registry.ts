@@ -67,7 +67,7 @@ export const EXAMS: ExamSummary[] = [
     number: 4,
     blurb:
       "A late form, weighted toward the reasoning and data-interpretation questions that separate a good score from a great one. Part of Complete.",
-    ready: false,
+    ready: true,
     free: false,
   },
   {
@@ -120,6 +120,10 @@ const CONTENT: Record<string, () => Promise<SectionFile>> = {
   "fl3/cars": () => import("./content/fl3/cars.json").then(file => file.default as unknown as SectionFile),
   "fl3/bio-biochem": () => import("./content/fl3/bio-biochem.json").then(file => file.default as unknown as SectionFile),
   "fl3/psych-soc": () => import("./content/fl3/psych-soc.json").then(file => file.default as unknown as SectionFile),
+  "fl4/chem-phys": () => import("./content/fl4/chem-phys.json").then(file => file.default as unknown as SectionFile),
+  "fl4/cars": () => import("./content/fl4/cars.json").then(file => file.default as unknown as SectionFile),
+  "fl4/bio-biochem": () => import("./content/fl4/bio-biochem.json").then(file => file.default as unknown as SectionFile),
+  "fl4/psych-soc": () => import("./content/fl4/psych-soc.json").then(file => file.default as unknown as SectionFile),
 };
 
 async function sectionFile(examId: string, sectionId: ExamSectionId): Promise<SectionFile | null> {
