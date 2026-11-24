@@ -173,6 +173,71 @@ test("the answer key is spread across all four letters", () => {
  * built to the AAMC's published weighting rather than to our own taste.
  * ------------------------------------------------------------------ */
 
+/**
+ * A quoted phrase has to exist in the passage it is quoted from.
+ *
+ * Passages are drafted long, questions are written against the draft, then
+ * the passage is trimmed to its word limit — and every cut can orphan a
+ * quotation. One CARS section shipped five such questions and a second had
+ * three, with the screen clean and every other test passing, because nothing
+ * compared the words in quotation marks against the words in the passage. A
+ * question whose quoted phrase is not in the text is not hard, it is
+ * unanswerable.
+ *
+ * Only explanations and distractor notes are checked: a stem may legitimately
+ * invent quoted material, and a choice may quote that invention back, so both
+ * join the haystack instead.
+ */
+test("every quoted phrase appears in the passage it is quoted from", () => {
+  const normalise = (text: string) =>
+    text
+      .replace(/[\u2018\u2019]/g, "'")
+      .toLowerCase()
+      .replace(/[^a-z0-9' ]+/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+
+  const quotations = (text: string) => {
+    const out: string[] = [];
+    for (const match of text.matchAll(/(?:^|[\s(\[\u2014\u2013-])'([^']+)'(?=$|[\s.,;:!?)\]\u2014\u2013-])/g)) {
+      const phrase = match[1].trim();
+      if (phrase.split(/\s+/).length >= 3) out.push(phrase);
+    }
+    return out;
+  };
+
+  for (const { exam, section, data } of files()) {
+    const passages = new Map(data.passages.map(passage => [passage.id, normalise(passage.paragraphs.join(" "))]));
+    for (const question of data.questions) {
+      const passage = passages.get(question.passageId ?? "");
+      if (!passage) continue;
+      const invented = normalise([question.stem, ...Object.values(question.choices)].join(" "));
+      const sources: [string, string][] = [
+        ["explanation", question.explanation],
+        ...Object.entries(question.wrong).map(([letter, note]) => [`note ${letter}`, note] as [string, string]),
+      ];
+      for (const [where, text] of sources) {
+        for (const phrase of quotations(text)) {
+          // An ellipsis marks a legitimate elision: each fragment must appear,
+          // and in the order the ellipsis implies.
+          let cursor = 0;
+          for (const fragment of phrase.split(/\s*\.\.\.\s*/).map(normalise).filter(Boolean)) {
+            const at = passage.indexOf(fragment, cursor);
+            if (at === -1) {
+              assert.ok(
+                invented.includes(fragment),
+                `${exam}/${section} ${question.id} ${where}: the passage does not contain the quoted "${fragment}"`,
+              );
+              break;
+            }
+            cursor = at + fragment.length;
+          }
+        }
+      }
+    }
+  }
+});
+
 test("a finished section matches the AAMC's published distribution", () => {
   for (const { exam, section, data } of files()) {
     const spec = SPECS[section as keyof typeof SPECS];

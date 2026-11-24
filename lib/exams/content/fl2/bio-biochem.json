@@ -62,7 +62,8 @@
    "paragraphs": [
     "Three viruses that grow in the same cultured mammalian cell line were compared. Virus P has a single-stranded RNA genome of positive sense and no envelope, and completes its cycle in the cytoplasm. Virus Q is enveloped, carries two copies of a single-stranded RNA genome, and packages a polymerase that copies RNA into DNA; the DNA product is inserted into a host chromosome before any viral messenger RNA is made. Virus R has a double-stranded DNA genome and replicates in the nucleus. Yields of infectious virus were measured 24 hours after infection by plaque assay and are reported as the common logarithm of plaque-forming units per millilitre (Table 1).",
     "Four treatments were applied one hour before infection and maintained throughout. A nucleoside analogue that is accepted by RNA-dependent DNA polymerases and terminates the growing chain was used at 10 micromolar. Actinomycin D was used at a concentration that blocks host DNA-dependent RNA polymerases without killing the cells within 24 hours. Cycloheximide blocks the elongation step of translation on host ribosomes. A peptide inhibitor of the Virus P protease was used at 5 micromolar.",
-    "In a separate experiment, genomic nucleic acid was purified free of protein from each virus and introduced into uninfected cells by transfection. Virus P RNA and Virus R DNA each gave rise to infectious virus; purified Virus Q RNA gave none that could be detected."
+    "In a separate experiment, genomic nucleic acid was purified free of protein from each virus and introduced into uninfected cells by transfection. Virus P RNA and Virus R DNA each gave rise to infectious virus; purified Virus Q RNA gave none that could be detected.",
+    "In a third experiment, cells were held outside the division cycle by withdrawing serum for 48 hours before infection. Under those conditions the yield of Virus R fell by two logarithms while the yield of Virus P was unchanged. In the Virus R cultures the proportion of cells that had replicated their DNA rose from 3% at the time of infection to 45% eighteen hours later, and no such rise was seen in uninfected cultures kept without serum alongside them."
    ],
    "figure": {
     "kind": "table",
@@ -607,24 +608,24 @@
   {
    "id": "bb2-p5-q4",
    "passageId": "bb2-p5",
-   "stem": "Cycloheximide lowers the yield of all three viruses. Which shared requirement does that sensitivity demonstrate?",
+   "stem": "Withdrawing serum holds a cell outside the division cycle altogether rather than stopping it part way through one. Which event is required before such a cell can replicate its DNA, as the cells infected with Virus R went on to do?",
    "choices": {
-    "A": "all three integrate a DNA copy of the genome into a host chromosome",
-    "B": "all three depend on host ribosomes to synthesise their proteins",
-    "C": "all three copy their genomes with a host DNA polymerase",
-    "D": "all three encode an RNA-dependent RNA polymerase of their own"
+    "A": "breakdown of the nuclear envelope, so that replication enzymes can reach the chromosomes",
+    "B": "activation of a cyclin-dependent kinase by a cyclin that accumulates late in G1",
+    "C": "separation of the sister chromatids, which has to happen before DNA is copied again",
+    "D": "a fall in cyclin-dependent kinase activity, which is what releases a cell from arrest"
    },
    "correct": "B",
-   "explanation": "No virus carries a ribosome. Cycloheximide blocks elongation on host ribosomes, so a drop in yield for every virus shows only what all viruses have in common: viral proteins are made by the host translation machinery.",
+   "explanation": "Movement from one phase of the cycle to the next is driven by cyclin-dependent kinases, and each of those kinases is inert until it binds a cyclin whose concentration rises at the point in the cycle where it is needed. The G1 cyclins accumulate late in G1, activate their partner kinase, and commit the cell to replicate its DNA. A cell held outside the cycle by serum withdrawal has little of that cyclin, which is why it does not replicate; the rise from 3% to 45% of cells with replicated DNA after Virus R infection is the cell being pushed through exactly that transition.",
    "wrong": {
-    "A": "Only Virus Q is described as inserting a DNA copy into a chromosome, and blocking translation would not report on integration in any case.",
-    "C": "Cycloheximide acts on translation, not on DNA synthesis, and Virus P does not make DNA at any point in its cycle.",
-    "D": "Virus R has a DNA genome and Virus Q copies RNA into DNA, so neither needs an RNA-dependent RNA polymerase."
+    "A": "DNA is replicated inside an intact nucleus. The nuclear envelope breaks down at the start of mitosis, well after the chromosomes have been copied.",
+    "C": "Sister chromatids are the product of replication and are separated in anaphase, so their separation follows a round of replication rather than preceding one.",
+    "D": "The activity of these kinases rises to carry a cell into S phase; it is their low activity that keeps a cell without serum out of the cycle in the first place."
    },
-   "category": "2B",
+   "category": "2C",
    "skill": "skill-1",
    "difficulty": "easy",
-   "unit": "9"
+   "unit": "6"
   },
   {
    "id": "bb2-p5-q5",
@@ -1377,24 +1378,24 @@
   {
    "id": "bb2-d13",
    "passageId": null,
-   "stem": "A bacterial culture in exponential growth rises from 1.0 × 10³ to 6.4 × 10⁴ cells per millilitre in 3.0 hours. What is the doubling time?",
+   "stem": "A cultured cell line divides every 20 hours. Measured by their DNA content, 60% of the cells of an asynchronous culture have not replicated their DNA, 25% are part way through replicating it, and 15% have replicated it fully. If the share of cells found in a phase equals the share of the cycle that phase occupies, how long does one of these cells spend in G1?",
    "choices": {
-    "A": "30 min",
-    "B": "36 min",
-    "C": "60 min",
-    "D": "90 min"
+    "A": "12 h",
+    "B": "6.7 h",
+    "C": "5.0 h",
+    "D": "3.0 h"
    },
    "correct": "A",
-   "explanation": "The culture grew by a factor of 64, and 64 is 2 to the sixth power, so six doublings occurred. Three hours is 180 minutes, and 180 divided by 6 gives a doubling time of 30 min.",
+   "explanation": "Cells that have not yet replicated their DNA are in G1, and they are 60% of the culture, so G1 occupies 60% of the cycle. Sixty per cent of a 20 hour cycle is 12 h. The same reasoning gives 5.0 hours for S phase and 3.0 hours for G2 and mitosis together, and the three add up to the whole 20 hours, which is the check that the assumption has been applied consistently.",
    "wrong": {
-    "B": "This counts five doublings instead of six, as though a 64-fold rise were 2 to the fifth power rather than 2 to the sixth.",
-    "C": "This takes the number of doublings to be three because the culture grew for three hours, confusing the length of the experiment with the number of divisions.",
-    "D": "This treats the rise as two doublings, which would be a fourfold increase rather than the 64-fold increase observed."
+    "B": "This divides the 20 hour cycle equally between the three compartments measured, when the DNA-content shares are what show them to be unequal.",
+    "C": "This applies the 25% that are part way through replication, which is the share of the cycle spent in S phase, to a question asking about G1.",
+    "D": "This applies the 15% that have replicated their DNA fully, which is the share of the cycle spent in G2 and mitosis rather than in G1."
    },
-   "category": "2B",
+   "category": "2C",
    "skill": "skill-2",
    "difficulty": "medium",
-   "unit": "9"
+   "unit": "6"
   },
   {
    "id": "bb2-d14",

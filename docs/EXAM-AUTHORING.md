@@ -160,3 +160,53 @@ No content from AAMC, UWorld, Kaplan, Blueprint or any other publisher, in any
 form, including paraphrase. Questions are written from the published blueprint
 only. This is not caution: reusing a competitor's items is the easiest lawsuit
 a prep company can invite, and the site tells students nothing is copied.
+
+## Quoted phrases must exist in the passage
+
+**The defect.** Two CARS sections shipped with questions quoting words that
+were not in their passage — five in one, three in another. The screen was
+clean, all 25 tests passed, and the arithmetic verifiers had nothing to say,
+because none of them compares the words inside quotation marks against the
+words in the text.
+
+**The cause is mechanical, not careless.** A passage is drafted long, the
+questions are written against that draft, and then the passage is trimmed to
+its 500–600 word limit. Every cut is a chance to orphan a quotation. One
+author found five in its own section this way and said plainly that the
+trimming pass was the cause.
+
+**Why it matters more than it looks.** A CARS question whose quoted phrase is
+absent is not a hard question. It is unanswerable: the student is told to find
+words that are not there, and will spend minutes of a timed section looking.
+
+**The rule.** Run `node scripts/verify-passage-quotations.mjs` after any edit
+to a passage, and never trim a passage after writing its questions without
+re-running it. The same check runs inside the test suite, so it cannot be
+skipped.
+
+**What counts.** A quotation must be verbatim, including inflection. Three
+live questions quoted `'dissolves the problem'`, `'an error with a
+discoverable answer'` and `'is making a decision...'` where the passages read
+*dissolve*, *errors* and *they are making*. Each was the author silently
+conjugating the quote to fit the sentence around it. Put the altered word
+outside the quotation marks instead. An ellipsis is a legitimate elision and
+the check follows it, provided the fragments appear in order.
+
+**What the check deliberately ignores.** A stem may invent quoted material —
+a new-information question routinely puts words in a hypothetical writer's
+mouth — and a choice may quote that invention back. Those are not checked,
+but they count as a source an explanation may quote from.
+
+## Fixing a typesetter rule does not fix what it already corrupted
+
+The `do`/`di` optics rule once matched ordinary English and turned *do* into
+*d-subscript-o*. The rule was fixed. The five corrupted words it had already
+written stayed in two live forms for a week, and were found only because the
+quotation check could not match a phrase containing one.
+
+After changing any rule in `scripts/typeset-exam-content.mjs`, grep every
+content file for the class of damage the old rule could have done. A
+sub- or superscript glyph flanked by ASCII letters is almost always
+corruption: `Eₐ` and `1/dₒ + 1/dᵢ` are correct physics, but `performers dₒ`
+and `Sₙ2` are not — the second being a notation error as well, since
+nucleophilic substitution takes a capital N.

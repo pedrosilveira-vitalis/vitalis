@@ -128,8 +128,20 @@ check("bb2-p5 model/P", 0.20, 1 - 10 ** (Y["act"]["P"] - Y["none"]["P"]), tol=0.
 # model: the protease inhibitor must hit only the virus whose protease it targets
 assert Y["pro"]["Q"] == Y["none"]["Q"] and Y["pro"]["R"] == Y["none"]["R"] < 8.1
 assert Y["pro"]["P"] < Y["none"]["P"]
-# model: cycloheximide must lower all three, which is what q4 rests on
+# model: cycloheximide must lower all three, since no virus carries a ribosome
 assert all(Y["chx"][v] < Y["none"][v] for v in "PQR")
+# model: the serum-withdrawal experiment described in paragraph 4. Virus R, a
+# nuclear DNA virus, must lose yield in a culture held out of the cycle while
+# the cytoplasmic RNA virus does not, and the infected cells must then show a
+# clear rise in the proportion that have replicated their DNA, or q4 has
+# nothing to rest on.
+R_SERUM_LOGS = 2.0
+check("bb2-p5 model/serum", 100, 10 ** R_SERUM_LOGS,
+      note="model: two logarithms is a 100-fold loss of Virus R yield")
+S_PHASE_BEFORE, S_PHASE_AFTER = 3.0, 45.0
+check("bb2-p5 model/S-phase", 15, S_PHASE_AFTER / S_PHASE_BEFORE,
+      note="model: replicated-DNA fraction rises 15-fold after Virus R infection")
+assert S_PHASE_AFTER < 100 and S_PHASE_BEFORE > 0
 # model: the nucleoside analogue must spare both viruses that make no DNA from RNA
 assert Y["nuc"]["P"] == Y["none"]["P"] and Y["nuc"]["R"] == Y["none"]["R"]
 
@@ -313,13 +325,21 @@ CARBONS = 16
 check("bb2-d8", 7, CARBONS / 2 - 1, note="key: rounds of beta-oxidation for a 16-carbon chain")
 check("bb2-d8/B", 8, CARBONS / 2, note="distractor: the number of acetyl-CoA")
 check("bb2-d8/D", 6, CARBONS / 2 - 2, note="distractor: two fewer than the acetyl-CoA count")
-N0, N1, HOURS = 1.0e3, 6.4e4, 3.0
-doublings = math.log2(N1 / N0)
-check("bb2-d13 model", 6, doublings, tol=0.0, note="model: a 64-fold rise is exactly six doublings")
-check("bb2-d13", 30, HOURS * 60 / doublings, note="key: doubling time in minutes")
-check("bb2-d13/B", 36, HOURS * 60 / 5, note="distractor: five doublings counted")
-check("bb2-d13/C", 60, HOURS * 60 / HOURS, note="distractor: hours of growth counted as doublings")
-check("bb2-d13/D", 90, HOURS * 60 / 2, note="distractor: the rise taken as two doublings")
+# d13: phase durations from the DNA-content shares of an asynchronous culture
+CYCLE_H = 20.0
+SHARE = {"G1": 0.60, "S": 0.25, "G2M": 0.15}
+# model: the three measured compartments must account for the whole population,
+# or the stem's assumption cannot be applied to any of them
+check("bb2-d13 model", 1.0, sum(SHARE.values()), tol=0.0,
+      note="model: the three DNA-content classes are the whole culture")
+check("bb2-d13", 12, SHARE["G1"] * CYCLE_H, note="key: G1 is 60% of a 20 h cycle")
+check("bb2-d13/B", 6.7, CYCLE_H / 3, tol=0.01,
+      note="distractor: cycle split equally between the three compartments")
+check("bb2-d13/C", 5.0, SHARE["S"] * CYCLE_H, note="distractor: the S-phase share used for G1")
+check("bb2-d13/D", 3.0, SHARE["G2M"] * CYCLE_H, note="distractor: the G2/M share used for G1")
+# model: the phase lengths must sum back to the cycle time quoted in the stem
+check("bb2-d13 model/sum", CYCLE_H, sum(v * CYCLE_H for v in SHARE.values()), tol=0.0,
+      note="model: G1 + S + G2/M returns the 20 h cycle")
 
 print()
 print(f"{COUNT - len(BAD)}/{COUNT} values verified")
